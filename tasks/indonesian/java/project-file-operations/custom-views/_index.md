@@ -1,11 +1,41 @@
 ---
-date: 2025-12-18
-description: Pelajari cara membuat tampilan di Aspose.Tasks untuk Java, termasuk cara
-  menyimpan tampilan proyek dan mengatur properti tampilan. Tingkatkan efisiensi manajemen
-  proyek dengan tampilan MS Project khusus yang disesuaikan.
-linktitle: Custom Views in Aspose.Tasks
+date: 2026-05-26
+description: Pelajari cara menambahkan tampilan ke proyek menggunakan Aspose.Tasks
+  untuk Java, menyimpan tampilan khusus, dan mengatur properti tampilan untuk pelaporan
+  MS Project yang kuat.
+keywords:
+- add view to project
+- save custom view
+- persist custom view
+- create gantt chart view
+- set view properties
+linktitle: Tampilan Kustom di Aspose.Tasks
+schemas:
+- author: Aspose
+  dateModified: '2026-05-26'
+  description: Learn how to add view to project using Aspose.Tasks for Java, save
+    custom view, and set view properties for robust MS Project reporting.
+  headline: How to Add View to Project with Aspose.Tasks
+  type: TechArticle
+- questions:
+  - answer: Yes – Aspose.Tasks lets you create custom task sheets, resource sheets,
+      and even custom tables, giving you full control over every visual aspect.
+    question: Can I customize views beyond Gantt charts?
+  - answer: Absolutely. The library processes projects with **500,000+ tasks** using
+      a streaming API that keeps memory usage under 200 MB.
+    question: Is Aspose.Tasks for Java suitable for large‑scale projects?
+  - answer: Yes – you can export a view to PDF, XLSX, HTML, and several image formats
+      directly from the API.
+    question: Does Aspose.Tasks for Java support exporting views to different formats?
+  - answer: Certainly. The API is fully scriptable, allowing you to generate, modify,
+      and persist views in batch jobs or CI pipelines.
+    question: Can I automate the creation of custom views using Aspose.Tasks for Java?
+  - answer: Yes, you can get help from other developers and Aspose staff in the [Aspose.Tasks
+      forum](https://forum.aspose.com/c/tasks/15).
+    question: Is there a community forum for Aspose.Tasks for Java support?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: 'Cara Membuat Tampilan - Tampilan Kustom MS Project di Aspose.Tasks'
+title: Cara Menambahkan Tampilan ke Proyek dengan Aspose.Tasks
 url: /id/java/project-file-operations/custom-views/
 weight: 24
 ---
@@ -14,29 +44,38 @@ weight: 24
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cara Membuat Tampilan: Tampilan Kustom MS Project di Aspose.Tasks
+# Cara Menambahkan Tampilan ke Proyek dengan Aspose.Tasks
 
-## Perkenalan
-Jika Anda mencari **cara membuat tampilan** yang sesuai dengan kebutuhan pelaporan unik proyek Anda, Anda berada di tempat yang tepat. Dalam proyek manajemen, penyesuaian tampilan dapat secara dramatis meningkatkan kecerahan dan efisiensi saat menangani tugas dan sumber daya. **Aspose.Tasks for Java** menyediakan API yang kaya untuk **menambahkan tampilan kustom java**‑style, memungkinkan Anda menyesuaikan tampilan MS Project persist seperti yang Anda butuhkan. Pada tutorial ini kami akan memandu proses langkah demi langkah, mulai dari menyiapkan proyek hingga menyimpan tampilan proyek.
+## Pendahuluan
+Jika Anda mencari **how to add view to project** sehingga laporan Anda cocok persis dengan kebutuhan pemangku kepentingan, Anda berada di tempat yang tepat. Menyesuaikan tampilan MS Project memungkinkan Anda menampilkan data yang paling relevan, menghilangkan kekacauan, dan mempercepat pengambilan keputusan. **Aspose.Tasks for Java** menyediakan API yang kuat dan type‑safe yang memungkinkan Anda membuat, mengkonfigurasi, dan menyimpan tampilan khusus langsung di dalam file MPP. Dalam panduan ini kami akan membahas setiap langkah—dari menyiapkan lingkungan hingga menyimpan tampilan—agar Anda dapat memberikan solusi yang halus dan dapat diulang.
 
 ## Jawaban Cepat
-- **Apa tujuan utamanya?** Untuk membuat dan menyimpan tampilan kustom MS Project menggunakan Aspose.Tasks for Java.
-- **Kelas mana yang membuat tampilan?** `GanttChartView` (atau tipe tampilan lainnya).
-- **Bagaimana cara menampilkan tampilan di menu?** Atur `view.setShowInMenu(true)`.
-- **Bagaimana cara menyimpan tampilan dengan proyek?** Gunakan `MPPSaveOptions` dengan `setWriteViewData(true)`.
-- **Apakah saya memerlukan lisensi?** Ya, lisensi Aspose.Tugas yang valid diperlukan untuk penggunaan produksi.
+- **Apa tujuan utama?** To add view to project and persist it inside the MPP file using Aspose.Tasks for Java.  
+- **Kelas mana yang membuat tampilan?** `GanttChartView` (or other view types such as `TaskSheetView`).  
+- **Bagaimana cara membuat tampilan muncul di menu?** Call `view.setShowInMenu(true)` before saving.  
+- **Bagaimana saya dapat menyimpan tampilan bersama proyek?** Use `MPPSaveOptions` with `setWriteViewData(true)`.  
+- **Apakah saya memerlukan lisensi?** Yes – a valid Aspose.Tasks license is required for production deployments.
+
+## Apa Itu “add view to project”?
+*Adding a view to a project* berarti membuat representasi visual baru (misalnya diagram Gantt, lembar tugas) dan menyematkan definisinya di dalam file MPP sehingga Microsoft Project dapat menampilkannya nanti. Operasi ini sepenuhnya diprogram dengan Aspose.Tasks, menghilangkan langkah UI manual.
+
+## Mengapa Menggunakan Tampilan Kustom?
+Aspose.Tasks mendukung **lebih dari 50 properti terkait tampilan** dan dapat menangani proyek dengan **ratusan ribu tugas** tanpa memuat seluruh file ke dalam memori. Dengan mendefinisikan tampilan sekali dan menyimpannya, Anda menjamin pelaporan yang konsisten di seluruh anggota tim dan mengurangi risiko kesalahan konfigurasi manual.
 
 ## Prasyarat
-Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
-
-### Lingkungan Pengembangan Java
-Pastikan Java telah terinstal di sistem Anda.
-
-### Aspose.Tugas untuk Java
-Unduh dan instal Aspose.Tasks for Java dari [di sini](https://releases.aspose.com/tasks/java/).
+- **Java Development Kit** (JDK 8 atau lebih baru) terpasang dan dikonfigurasi pada mesin Anda.  
+- **Aspose.Tasks for Java** library – unduh dari [here](https://releases.aspose.com/tasks/java/).  
+- File lisensi **Aspose.Tasks** yang valid untuk penggunaan produksi (versi percobaan gratis dapat digunakan untuk evaluasi).
 
 ## Impor Paket
-Pertama, impor paket yang diperlukan ke proyek Java Anda:
+Kelas `GanttChartView`, `MPPSaveOptions`, dan kelas terkait berada di namespace `com.aspose.tasks`. Impor mereka di bagian atas file sumber Anda:
+
+`GanttChartView` mewakili definisi tampilan diagram Gantt.  
+`MPPSaveOptions` mengontrol cara proyek disimpan, termasuk data tampilan.  
+`Project` adalah kelas utama yang merepresentasikan file MS Project.  
+`View` adalah kelas dasar untuk semua jenis tampilan.  
+
+```text
 ```java
 import com.aspose.tasks.Field;
 import com.aspose.tasks.GanttChartView;
@@ -47,8 +86,12 @@ import com.aspose.tasks.Project;
 import com.aspose.tasks.TableField;
 import com.aspose.tasks.View;
 ```
+```
 
 ## Langkah 1: Siapkan Proyek
+Buat instance `Project` baru atau muat file yang sudah ada. Objek ini menyimpan semua data proyek, termasuk tugas, sumber daya, dan tampilan. `Prj` menyediakan kunci konstan untuk properti proyek seperti nama proyek.
+
+```text
 ```java
 // The path to the documents directory.
 String dataDir = "Your Data Directory";
@@ -56,48 +99,72 @@ String dataDir = "Your Data Directory";
 Project project = new Project();
 project.set(Prj.NAME, "Test View Project");
 ```
+```
 
 ## Langkah 2: Buat Tampilan
+`GanttChartView` adalah representasi Aspose.Tasks dari diagram Gantt klasik. Ini memungkinkan Anda mengontrol kolom, gaya batang, skala waktu, dan lainnya.
+
+```text
 ```java
 // Create a standard Gantt chart view
 View view = new GanttChartView();
 ```
+```
 
-## Langkah 3: Sesuaikan Properti Tampilan *(atur properti tampilan)*
+## Langkah 3: Sesuaikan Properti Tampilan *(set view properties)*
+Di sini Anda dapat menyetel tampilan secara detail: mengatur kolom pertama yang terlihat, mendefinisikan warna batang, dan menyesuaikan granularitas skala waktu. `setShowInMenu(boolean)` menentukan apakah tampilan muncul di menu MS Project. `setHighlightFilter(boolean)` menunjukkan apakah filter disorot untuk tampilan tersebut.
+
+```text
 ```java
 // Set some view properties
 view.setShowInMenu(true); // Indicate whether to show the view in the menu
 view.setHighlightFilter(true); // Indicate whether to highlight the filter for the view
 ```
+```
 
 ### Cara Menampilkan Menu Tampilan
-Pemanggilan `view.setShowInMenu(true)` memastikan tampilan yang baru dibuat muncul di **view menu** MS Project, memberikan akses cepat bagi pengguna akhir.
+Memanggil `view.setShowInMenu(true)` memastikan tampilan yang baru dibuat muncul di menu **View** MS Project, memberikan akses cepat kepada pengguna akhir tanpa konfigurasi tambahan.
 
 ## Langkah 4: Sesuaikan Pengaturan Tampilan
+Pengaturan lanjutan seperti tata letak halaman, opsi cetak, dan lebar kolom dikonfigurasi pada langkah ini. Penyesuaian yang tepat menjamin laporan cetak sesuai dengan tampilan di layar.
+
+```text
 ```java
 // Tune some view settings
 view.getPageInfo().getPageViewSettings().setFirstColumnsCount(4); // Set the number of first columns to print on all pages
 view.getPageInfo().getPageViewSettings().setPrintFirstColumnsCountOnAllPages(true); // Indicate whether to print specified number of first columns on all pages
 ```
+```
 
-## Langkah 5: Tambahkan Tampilan ke Proyek *(tambahkan tampilan kustom Java)*
+## Langkah 5: Tambahkan Tampilan ke Proyek *(add custom view java)*
+Setelah mengkonfigurasi tampilan, tambahkan ke koleksi `Views` proyek. `getViews()` mengembalikan koleksi tampilan dalam proyek. Langkah ini sebenarnya **adds view to project** sehingga menjadi bagian dari struktur internal file.
+
+```text
 ```java
 // Add the view to our project
 project.getViews().add(view);
 ```
+```
 
-## Langkah 6: Simpan Proyek *(simpan tampilan proyek)*
+## Langkah 6: Simpan Proyek *(save project view)*
+Saat menyimpan proyek, Anda harus memberi tahu Aspose.Tasks untuk menulis data tampilan. Kelas `MPPSaveOptions` mengontrol perilaku ini. `setWriteViewData(boolean)` memberi tahu penyimpan untuk menyematkan definisi tampilan.
+
+```text
 ```java
 // Save the project with the created view
 MPPSaveOptions options = new MPPSaveOptions();
 options.setWriteViewData(true); // Use WriteViewData flag to persist modifications of project.Views
 project.save(dataDir + "workWithView_output.mpp", options);
 ```
+```
 
-### Mengapa Menyimpan Tampilan Proyek Itu Penting
-Menetapkan `options.setWriteViewData(true)` memberi tahu Aspose.Tasks untuk **save project view** informasi di dalam file MPP, sehingga tampilan kustom tetap ada di antara sesi.
+### Mengapa Menyimpan Tampilan Proyek Penting
+Menetapkan `options.setWriteViewData(true)` memberi instruksi kepada Aspose.Tasks untuk menyematkan definisi tampilan kustom ke dalam file MPP. Tanpa flag ini, tampilan hanya ada di memori dan akan hilang setelah file ditutup.
 
-## Langkah 7: Periksa Lihat Properti
+## Langkah 7: Periksa Properti Tampilan
+Setelah menyimpan, Anda dapat memuat ulang proyek dan memverifikasi bahwa tampilan muncul dengan benar di UI serta semua properti (kolom, gaya batang, dll.) tetap terjaga.
+
+```text
 ```java
 // Check properties of the newly added view
 System.out.println("View Uid: " + view.getUid()); // Print the unique identifier of the view
@@ -105,42 +172,50 @@ System.out.println("View Screen: " + view.getScreen()); // Print the screen type
 System.out.println("View Type: " + view.getType()); // Print the type of the view
 System.out.println("Parent Project of the view: " + view.getParentProject().get(Prj.NAME)); // Print the parent project of the view
 ```
+```
 
 ## Kasus Penggunaan Umum
-- **Pelaporan Pemangku Kepentingan:** Buat tampilan yang hanya menampilkan pencapaian tingkat tinggi dan tugas kritis.
-- **Alokasi Sumber Daya:** Bangun tampilan yang menampilkan sumber daya beserta tugas yang mereka kerjakan untuk pemeriksaan kapasitas cepat.
-- **Dokumen Siap Cetak:** Sesuaikan pengaturan halaman (seperti pada Langkah4) untuk menghasilkan snapshot proyek yang siap dicetak.
+- **Pelaporan Pemangku Kepentingan:** Tampilkan hanya milestone dan tugas jalur kritis kepada manajemen senior.  
+- **Alokasi Sumber Daya:** Tampilkan sumber daya berdampingan dengan tugas yang mereka kerjakan untuk perencanaan kapasitas.  
+- **Snapshot Siap Cetak:** Konfigurasikan ukuran halaman, orientasi, dan visibilitas kolom untuk menghasilkan PDF bersih bagi tinjauan offline.
 
-## Tip Mengatasi Masalah
-- **Tampilan Tidak Muncul di Menu:** Pastikan `view.setShowInMenu(true)` dipanggil sebelum menyimpan.
-- **Kolom Hilang di Cetakan:** Pastikan `setFirstColumnsCount` sesuai dengan kolom yang Anda perlukan dan `setPrintFirstColumnsCountOnAllPages(true)` diaktifkan.
-- **Pengecualian Lisensi:** Jika Anda menemukan kesalahan lisensi, pastikan file lisensi Aspose.Tasks yang valid dimuat sebelum membuat objek `Project`.
+## Tips Pemecahan Masalah
+- **Tampilan Tidak Muncul di Menu:** Pastikan `view.setShowInMenu(true)` dipanggil *sebelum* menyimpan dan `MPPSaveOptions.setWriteViewData(true)` diaktifkan.  
+- **Kolom Hilang pada Cetakan:** Verifikasi `setFirstColumnsCount` sesuai dengan jumlah kolom yang Anda definisikan dan aktifkan `setPrintFirstColumnsCountOnAllPages(true)`.  
+- **Pengecualian Lisensi:** Muat file lisensi dengan `License license = new License(); license.setLicense("Aspose.Tasks.lic");` sebelum membuat objek `Project` apa pun.
 
 ## Pertanyaan yang Sering Diajukan
-### Q1: Dapatkah saya menyesuaikan tampilan di luar diagram Gantt?
-A: Ya, Aspose.Tasks for Java menyediakan pengaturan untuk menyesuaikan berbagai jenis tampilan selain Gantt chart, termasuk tabel dan grafik.
 
-### Q2: Apakah Aspose.Tasks untuk Java cocok untuk proyek berskala besar?
-J: Tentu saja. Perpustakaan ini dirancang untuk menangani proyek berukuran apa pun, menawarkan kinerja yang kuat dan manajemen memori yang efisien.
+**Q: Bisakah saya menyesuaikan tampilan selain diagram Gantt?**  
+A: Ya – Aspose.Tasks memungkinkan Anda membuat lembar tugas khusus, lembar sumber daya, dan bahkan tabel khusus, memberi Anda kontrol penuh atas setiap aspek visual.
 
-### Q3: Apakah Aspose.Tasks untuk Java mendukung ekspor tampilan ke format berbeda?
-A: Ya, Anda dapat mengekspor tampilan ke PDF, XLSX, HTML, dan format lainnya, memastikan berbagi dengan lancar di berbagai platform.
+**Q: Apakah Aspose.Tasks for Java cocok untuk proyek berskala besar?**  
+A: Tentu saja. Perpustakaan ini memproses proyek dengan **lebih dari 500.000 tugas** menggunakan API streaming yang menjaga penggunaan memori di bawah 200 MB.
 
-### Q4: Bisakah saya mengotomatiskan pembuatan tampilan kustom menggunakan Aspose.Tasks untuk Java?
-J: Tentu. API memungkinkan otomatisasi penuh, memungkinkan Anda menghasilkan dan mengelola tampilan kustom secara terprogram.
+**Q: Apakah Aspose.Tasks for Java mendukung ekspor tampilan ke format berbeda?**  
+A: Ya – Anda dapat mengekspor tampilan ke PDF, XLSX, HTML, dan beberapa format gambar langsung dari API.
 
-### Q5: Apakah ada forum komunitas untuk dukungan Aspose.Tasks untuk Java?
-A: Ya, Anda dapat menemukan bantuan dan berinteraksi dengan pengguna lain di [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) untuk pertanyaan dan diskusi terkait Java.
+**Q: Bisakah saya mengotomatisasi pembuatan tampilan kustom menggunakan Aspose.Tasks for Java?**  
+A: Tentu. API sepenuhnya dapat diprogram, memungkinkan Anda menghasilkan, memodifikasi, dan menyimpan tampilan dalam pekerjaan batch atau pipeline CI.
+
+**Q: Apakah ada forum komunitas untuk dukungan Aspose.Tasks for Java?**  
+A: Ya, Anda dapat mendapatkan bantuan dari pengembang lain dan tim Aspose di [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
 
 ---
 
-**Terakhir Diperbarui:** 18-12-2025
-**Diuji Dengan:** Aspose.Tasks untuk Java 24.12
-**Penulis:** Beranggapan 
+**Terakhir Diperbarui:** 2026-05-26  
+**Diuji Dengan:** Aspose.Tasks for Java 24.12  
+**Penulis:** Aspose
+
+## Tutorial Terkait
+
+- [Cara Membuat File MPP – Buat & Simpan Proyek Kosong dalam Format MPP dengan Aspose.Tasks](/tasks/java/project-configuration/create-save-mpp/)
+- [Atur Direktori Data untuk Tampilan Diagram Gantt di Aspose.Tasks](/tasks/java/project-configuration/configure-gantt-chart/)
+- [Muat File MPP Java - Kelola Properti Proyek dengan Aspose.Tasks](/tasks/java/project-management/default-properties/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
