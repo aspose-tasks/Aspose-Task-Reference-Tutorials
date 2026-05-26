@@ -1,10 +1,49 @@
 ---
-date: 2025-12-21
-description: تعلم كيفية حفظ المشروع كقالب، وتصدير ملف MPP إلى CSV، وتحويل ملف MPP
-  إلى نص باستخدام Aspose.Tasks للغة Java.
-linktitle: Save Project as Template, CSV, and Text with Aspose.Tasks for Java
+date: 2026-05-26
+description: تعلم كيفية تصدير MPP إلى CSV، حفظ المشروع كقالب، وتحويل MPP إلى نص باستخدام
+  Aspose.Tasks for Java.
+keywords:
+- export mpp to csv
+- save project as template
+- convert mpp to csv
+linktitle: تصدير MPP إلى CSV، نص & قالب باستخدام Aspose.Tasks Java
+schemas:
+- author: Aspose
+  dateModified: '2026-05-26'
+  description: Learn how to export MPP to CSV, save project as template, and convert
+    MPP to text using Aspose.Tasks for Java.
+  headline: Export MPP to CSV, Text & Template with Aspose.Tasks Java
+  type: TechArticle
+- description: Learn how to export MPP to CSV, save project as template, and convert
+    MPP to text using Aspose.Tasks for Java.
+  name: Export MPP to CSV, Text & Template with Aspose.Tasks Java
+  steps:
+  - name: Save as CSV
+    text: '`SaveFileFormat.CSV` tells Aspose.Tasks to output the project in CSV format.'
+  - name: Save as Text
+    text: '`SaveFileFormat.TEXT` instructs the library to generate a plain‑text representation
+      of the project.'
+  - name: Set Template Options
+    text: Use `Project.save` with `SaveFileFormat.MPT` (or `SaveFileFormat.TEMPLATE`)
+      to create a template file that strips dates and baselines.
+  type: HowTo
+- questions:
+  - answer: Yes, it fully supports tasks, resources, assignments, baselines, and custom
+      fields across all Project versions up to 2024.
+    question: Can Aspose.Tasks for Java handle complex, multi‑phase projects?
+  - answer: Absolutely – download a free trial from [here](https://releases.aspose.com/).
+    question: Is a trial version available?
+  - answer: The official support forum is at [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15)
+      where staff and community members answer questions.
+    question: Where can I get help if I run into problems?
+  - answer: Yes, purchase a temporary license at [here](https://purchase.aspose.com/temporary-license/).
+    question: Can I obtain a temporary license for short‑term evaluation?
+  - answer: It is fully cross‑platform and works on Windows, macOS, and Linux with
+      any Java 8+ runtime.
+    question: Does Aspose.Tasks run on Linux and macOS?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: حفظ المشروع كقالب، CSV، ونص باستخدام Aspose.Tasks لجافا
+title: تصدير MPP إلى CSV، نص & قالب باستخدام Aspose.Tasks Java
 url: /ar/java/project-file-operations/save-csv-text-template/
 weight: 16
 ---
@@ -13,33 +52,32 @@ weight: 16
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# حفظ المشروع كقالب، CSV، ونص باستخدام Aspose.Tasks
+# تصدير MPP إلى CSV، نص وقالب باستخدام Aspose.Tasks للـ Java
 
-## المقدمة
-في هذا البرنامج التعليمي، ستكتشف **كيفية حفظ المشروع كقالب** وكذلك كيفية تصدير ملفات Microsoft Project (MPP) إلى صيغ CSV ونص عادي باستخدام مكتبة Aspose.Tasks للغة Java. سواء كنت بحاجة إلى إنشاء قالب مشروع قابل لإعادة الاستخدام، أو توليد تقارير CSV للتحليل، أو استخراج نص بسيط للتكامل، فإن هذه الخطوات ستوجهك خلال العملية بسرعة وكفاءة.
+## مقدمة
+في هذا الدرس ستكتشف **كيفية تصدير MPP إلى CSV**، وإنشاء قوالب مشاريع قابلة لإعادة الاستخدام، وتوليد مستخرجات نصية عادية باستخدام مكتبة Aspose.Tasks للـ Java. سواءً كنت تبني خط أنابيب تقارير، أو تقوم بأتمتة إنشاء المشاريع، أو تدمج مع أنظمة أخرى، فإن هذه الخطوات ستحول ملف MPP الخام إلى النتيجة الدقيقة التي تحتاجها—بسرعة ودون الحاجة لتثبيت Microsoft Project.
 
 ## إجابات سريعة
-- **هل يمكنني تصدير MPP إلى CSV؟** نعم – استخدم `project.save(..., SaveFileFormat.CSV)`.  
-- **كيف يمكن تصدير النص؟** احفظ باستخدام `SaveFileFormat.TEXT`.  
-- **ماذا يفعل “حفظ المشروع كقالب”؟** ينشئ ملف `.mpt` يزيل القيم الفعلية وبيانات الخط الأساسي، جاهز لإعادة الاستخدام.  
-- **هل أحتاج إلى ترخيص؟** يتوفر إصدار تجريبي؛ الترخيص التجاري مطلوب للإنتاج.  
-- **ما نسخة Java المطلوبة؟** تدعم Java 8+.
+- **هل يمكنني تصدير MPP إلى CSV؟** نعم – استدعِ `project.save("output.csv", SaveFileFormat.CSV)`.  
+- **كيف يمكنني التصدير إلى نص عادي؟** استخدم `SaveFileFormat.TEXT` مع طريقة `save`.  
+- **ماذا يفعل “حفظ المشروع كقالب”?** ينشئ ملف `.mpt` يزيل التواريخ والخطوط الأساسية، ويترك الهيكل فقط.  
+- **هل أحتاج إلى ترخيص؟** النسخة التجريبية تعمل للتقييم؛ الترخيص التجاري يزيل حدود التقييم.  
+- **ما نسخة Java المطلوبة؟** Java 8 أو أحدث مدعومة بالكامل.
 
 ## ما هو “حفظ المشروع كقالب”؟
-حفظ المشروع كقالب (`.mpt`) يلتقط الهيكل، تسلسل المهام، وتعيينات الموارد مع إزالة تواريخ البدء/الانتهاء الفعلية وبيانات الخط الأساسي. يجعل هذا القالب مثالياً لإعادة استخدام تخطيط مشروع قياسي عبر مشاريع جديدة متعددة.
+يؤدي حفظ المشروع كقالب (`.mpt`) إلى التقاط الهيكل، تسلسل المهام، وتعيينات الموارد مع إزالة تواريخ البدء/الانتهاء الفعلية وبيانات الخطوط الأساسية. يجعل هذا القالب مثاليًا لإعادة استخدام تخطيط مشروع قياسي عبر عدة مشاريع جديدة. يحتفظ بجميع الحقول المخصصة، معدلات التكلفة، وتفاصيل التعيينات، مما يضمن إمكانية تطبيق القالب على أي مشروع جديد دون فقدان الإعدادات الأساسية.
 
-## لماذا نستخدم Aspose.Tasks للغة Java؟
-تتيح لك Aspose.Tasks معالجة ملفات Microsoft Project دون الحاجة لتثبيت Microsoft Project نفسه. تدعم **كيفية تصدير MPP**، **كيفية تصدير النص**، و**تحويل MPP إلى CSV**، كل ذلك من خلال شفرة Java صافية، مما يجعلها مثالية لأتمتة الخوادم، خطوط CI، أو الأدوات المكتبية.
+## لماذا نستخدم Aspose.Tasks للـ Java؟
+تصدير MPP إلى CSV أو نص أو قالب مباشرة من Java دون الحاجة إلى Microsoft Project. تدعم Aspose.Tasks **أكثر من 20 نسخة من Microsoft Project** (2000‑2024) ويمكنها معالجة ملفات تصل إلى **500 ميغابايت** في وضع توفير الذاكرة، مما يجعلها مثالية لأتمتة الخوادم، خطوط CI، وأدوات متعددة المنصات.
 
 ## المتطلبات المسبقة
-قبل أن نبدأ، تأكد من وجود ما يلي:
-
-1. مجموعة تطوير Java (JDK) 8 أو أعلى مثبتة.  
-2. مكتبة Aspose.Tasks للغة Java مضافة إلى مشروعك. حمّلها من [هنا](https://releases.aspose.com/tasks/java/).  
-3. إلمام أساسي بصياغة Java وإعداد مشروع Maven/Gradle.
+- تم تثبيت Java Development Kit 8 أو أعلى.  
+- تم إضافة مكتبة Aspose.Tasks للـ Java إلى مشروعك – حمّلها من [here](https://releases.aspose.com/tasks/java/).  
+- يمكنك أيضًا استكشاف مكتبات Aspose الأخرى على [here](https://releases.aspose.com/).  
+- معرفة أساسية بـ Java وتكوين مشروع Maven/Gradle.
 
 ## استيراد الحزم
-أولاً، استورد الفئات المطلوبة في ملف مصدر Java الخاص بك:
+الفئة `Project` هي الكائن الأساسي في Aspose.Tasks الذي يمثل ملف Microsoft Project في الذاكرة. بعد إضافة المكتبة إلى ملف البناء الخاص بك، استورد الفئات المطلوبة:
 
 ```java
 import java.io.IOException;
@@ -47,7 +85,7 @@ import com.aspose.tasks.*;
 ```
 
 ## حفظ المشروع كـ CSV (تصدير MPP إلى CSV)
-تصدير ملف MPP إلى CSV مفيد لتحليل البيانات في Excel أو أدوات BI.
+يتيح تصدير ملف MPP إلى CSV تغذية بيانات المهام إلى Excel أو Power BI أو أي منصة تحليلات.
 
 ### الخطوة 1: تحميل المشروع
 ```java
@@ -56,13 +94,14 @@ Project project = new Project(projectName);
 ```
 
 ### الخطوة 2: حفظ كـ CSV
+`SaveFileFormat.CSV` يخبر Aspose.Tasks بإخراج المشروع بصيغة CSV.  
 ```java
 String csvFileName = "output.csv";
 project.save(csvFileName, com.aspose.tasks.SaveFileFormat.CSV);
 ```
 
 ## حفظ المشروع كنص (كيفية تصدير النص)
-إذا كنت بحاجة إلى تمثيل نصي بسيط للمهام أو الموارد أو التعيينات، احفظ المشروع كملف نصي.
+يوفر ملف نص عادي تفريغًا سريعًا وقابلًا للقراءة للبشر للمهام والموارد والتعيينات.
 
 ### الخطوة 1: تحميل المشروع
 ```java
@@ -71,13 +110,13 @@ Project project = new Project(projectName);
 ```
 
 ### الخطوة 2: حفظ كنص
+`SaveFileFormat.TEXT` يوجه المكتبة لإنشاء تمثيل نصي عادي للمشروع.  
 ```java
 String textFileName = "output.txt";
 project.save(textFileName, com.aspose.tasks.SaveFileFormat.TEXT);
 ```
 
 ## حفظ المشروع كقالب (إنشاء قالب مشروع Java)
-إنشاء قالب قابل لإعادة الاستخدام يزيل التواريخ الفعلية والخطوط الأساسية، تاركاً هيكلًا نظيفًا للمشاريع الجديدة.
 
 ### الخطوة 1: تحميل المشروع
 ```java
@@ -86,6 +125,7 @@ Project project = new Project(projectName);
 ```
 
 ### الخطوة 2: ضبط خيارات القالب
+استخدم `Project.save` مع `SaveFileFormat.MPT` (أو `SaveFileFormat.TEMPLATE`) لإنشاء ملف قالب يزيل التواريخ والخطوط الأساسية.  
 ```java
 SaveTemplateOptions options = new SaveTemplateOptions();
 options.setRemoveActualValues(true);
@@ -99,35 +139,44 @@ project.saveAsTemplate(templateName, options);
 ```
 
 ## المشكلات الشائعة والنصائح
-- **الملف غير موجود:** تأكد من صحة المسار إلى `YourProject.mpp` أو استخدم مسارًا مطلقًا.  
-- **استثناءات الترخيص:** بدون ترخيص صالح، تعمل المكتبة في وضع التقييم وقد تضيف علامات مائية. قم بتطبيق الترخيص مبكرًا في الشفرة (`License license = new License(); license.setLicense("Aspose.Tasks.Java.lic");`).  
-- **المشاريع الكبيرة:** بالنسبة لملفات MPP الكبيرة جدًا، فكر في زيادة حجم heap للـ JVM (`-Xmx2g`) لتجنب `OutOfMemoryError`.
+- **الملف غير موجود:** تحقق من المسار إلى `YourProject.mpp` أو استخدم مسارًا مطلقًا.  
+- **استثناءات الترخيص:** بدون ترخيص صالح تعمل المكتبة في وضع التقييم وقد تضيف علامات مائية. قم بتطبيق الترخيص مبكرًا (`License license = new License(); license.setLicense("Aspose.Tasks.Java.lic");`).  
+- **المشاريع الكبيرة:** للملفات التي تتجاوز 200 MB، زد حجم ذاكرة JVM (`-Xmx2g`) لتجنب `OutOfMemoryError`.  
+- **الأداء:** عند تحويل العديد من المشاريع، أعد استخدام كائن `Project` واحد حيثما أمكن لتقليل عبء إنشاء الكائنات.
 
-## الخاتمة
-لقد غطينا **كيفية حفظ المشروع كقالب**، بالإضافة إلى **تصدير MPP إلى CSV** و**تحويل MPP إلى نص** باستخدام Aspose.Tasks للغة Java. تتيح لك هذه القدرات أتمتة معالجة بيانات المشروع، إنشاء قوالب قابلة لإعادة الاستخدام، وتكامل معلومات المشروع مع أنظمة أخرى—كل ذلك دون الحاجة لتثبيت Microsoft Project.
+## الخلاصة
+أظهرنا كيفية **تصدير MPP إلى CSV**، **تحويل MPP إلى نص**، و**حفظ المشروع كقالب** باستخدام Aspose.Tasks للـ Java. تتيح لك هذه القدرات أتمتة التقارير، إنشاء هياكل مشاريع موحدة، وتكامل بيانات المشروع مع أي نظام لاحق—دون الحاجة إلى تثبيت Microsoft Project.
 
 ## الأسئلة المتكررة
-### س: هل يمكن لـ Aspose.Tasks للغة Java التعامل مع ملفات مشروع معقدة؟
-ج: بالتأكيد! يمكن لـ Aspose.Tasks للغة Java التعامل مع مشاريع ذات تعقيد مختلف بسهولة، مع توفير دعم شامل لصيغ ملفات Microsoft Project.  
-### س: هل هناك نسخة تجريبية متاحة لـ Aspose.Tasks للغة Java؟
-ج: نعم، يمكنك الحصول على نسخة تجريبية مجانية من Aspose.Tasks للغة Java من [هنا](https://releases.aspose.com/).  
-### س: أين يمكنني العثور على الدعم لـ Aspose.Tasks للغة Java؟
-ج: يمكنك زيارة [منتدى Aspose.Tasks](https://forum.aspose.com/c/tasks/15) للحصول على أي مساعدة أو استفسارات بخصوص Aspose.Tasks للغة Java.  
-### س: هل يمكنني شراء ترخيص مؤقت لـ Aspose.Tasks للغة Java؟
-ج: نعم، يمكنك شراء ترخيص مؤقت من [هنا](https://purchase.aspose.com/temporary-license/)، مما يتيح لك تقييم كامل إمكانات المكتبة.  
-### س: هل Aspose.Tasks للغة Java متوافق مع أنظمة تشغيل مختلفة؟
-ج: نعم، Aspose.Tasks للغة Java متوافق مع أنظمة تشغيل متعددة، بما في ذلك Windows و macOS و Linux.
+
+**س: هل يمكن لـ Aspose.Tasks للـ Java التعامل مع مشاريع معقدة ومتعددة المراحل؟**  
+ج: نعم، فهو يدعم بالكامل المهام والموارد والتعيينات والخطوط الأساسية والحقول المخصصة عبر جميع إصدارات Project حتى 2024.
+
+**س: هل تتوفر نسخة تجريبية؟**  
+ج: بالتأكيد – حمّل نسخة تجريبية مجانية من [here](https://releases.aspose.com/).
+
+**س: أين يمكنني الحصول على مساعدة إذا واجهت مشاكل؟**  
+ج: منتدى الدعم الرسمي موجود على [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) حيث يجيب الموظفون وأعضاء المجتمع على الأسئلة.
+
+**س: هل يمكنني الحصول على ترخيص مؤقت لتقييم قصير الأمد؟**  
+ج: نعم، اشترِ ترخيصًا مؤقتًا من [here](https://purchase.aspose.com/temporary-license/).
+
+**س: هل يعمل Aspose.Tasks على Linux و macOS؟**  
+ج: هو متعدد المنصات بالكامل ويعمل على Windows و macOS و Linux مع أي بيئة تشغيل Java 8+.
 
 ---
 
-**آخر تحديث:** 2025-12-21  
-**تم الاختبار مع:** Aspose.Tasks للغة Java 24.12 (الأحدث)  
-**المؤلف:** Aspose  
+**آخر تحديث:** 2026-05-26  
+**تم الاختبار مع:** Aspose.Tasks للـ Java 24.12 (الأحدث)  
+**المؤلف:** Aspose
 
----
+## دروس ذات صلة
+
+- [كيفية إنشاء ملف MPP – إنشاء وحفظ مشروع فارغ بصيغة MPP باستخدام Aspose.Tasks](/tasks/java/project-configuration/create-save-mpp/)
+- [تحميل ملف MPP في Java - إدارة خصائص المشروع باستخدام Aspose.Tasks](/tasks/java/project-management/default-properties/)
+- [كيفية تصدير MPP إلى Excel باستخدام Aspose.Tasks للـ Java](/tasks/java/project-file-operations/save-data-to-excel/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
+{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

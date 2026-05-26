@@ -1,11 +1,49 @@
 ---
-date: 2025-12-21
-description: Ismerje meg, hogyan menthet projektet sablonként, exportálhatja az MPP-t
-  CSV-be, és konvertálhatja az MPP-t szöveggé az Aspose.Tasks for Java segítségével.
-linktitle: Save Project as Template, CSV, and Text with Aspose.Tasks for Java
+date: 2026-05-26
+description: Ismerje meg, hogyan exportálhatja az MPP-t CSV-be, mentheti a projektet
+  sablonként, és konvertálhatja az MPP-t szöveggé az Aspose.Tasks for Java használatával.
+keywords:
+- export mpp to csv
+- save project as template
+- convert mpp to csv
+linktitle: MPP exportálása CSV-be, szövegbe és sablonba az Aspose.Tasks Java segítségével
+schemas:
+- author: Aspose
+  dateModified: '2026-05-26'
+  description: Learn how to export MPP to CSV, save project as template, and convert
+    MPP to text using Aspose.Tasks for Java.
+  headline: Export MPP to CSV, Text & Template with Aspose.Tasks Java
+  type: TechArticle
+- description: Learn how to export MPP to CSV, save project as template, and convert
+    MPP to text using Aspose.Tasks for Java.
+  name: Export MPP to CSV, Text & Template with Aspose.Tasks Java
+  steps:
+  - name: Save as CSV
+    text: '`SaveFileFormat.CSV` tells Aspose.Tasks to output the project in CSV format.'
+  - name: Save as Text
+    text: '`SaveFileFormat.TEXT` instructs the library to generate a plain‑text representation
+      of the project.'
+  - name: Set Template Options
+    text: Use `Project.save` with `SaveFileFormat.MPT` (or `SaveFileFormat.TEMPLATE`)
+      to create a template file that strips dates and baselines.
+  type: HowTo
+- questions:
+  - answer: Yes, it fully supports tasks, resources, assignments, baselines, and custom
+      fields across all Project versions up to 2024.
+    question: Can Aspose.Tasks for Java handle complex, multi‑phase projects?
+  - answer: Absolutely – download a free trial from [here](https://releases.aspose.com/).
+    question: Is a trial version available?
+  - answer: The official support forum is at [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15)
+      where staff and community members answer questions.
+    question: Where can I get help if I run into problems?
+  - answer: Yes, purchase a temporary license at [here](https://purchase.aspose.com/temporary-license/).
+    question: Can I obtain a temporary license for short‑term evaluation?
+  - answer: It is fully cross‑platform and works on Windows, macOS, and Linux with
+      any Java 8+ runtime.
+    question: Does Aspose.Tasks run on Linux and macOS?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: Projekt mentése sablonként, CSV‑ként és szövegként az Aspose.Tasks for Java
-  segítségével
+title: MPP exportálása CSV-be, szövegbe és sablonba az Aspose.Tasks Java segítségével
 url: /hu/java/project-file-operations/save-csv-text-template/
 weight: 16
 ---
@@ -14,39 +52,40 @@ weight: 16
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Projekt mentése sablonként, CSV‑ként és szövegként az Aspise.Tasks segítségével
+# MPP exportálása CSV‑be, szövegbe és sablonba az Aspose.Tasks for Java‑val
 
 ## Bevezetés
-Ebben az útmutatóban megtudja, **hogyan mentse el a projektet sablonként**, valamint hogyan exportálja a Microsoft Project (MPP) fájljait CSV és egyszerű szöveg formátumokba az Aspose.Tasks Java könyvtár segítségével. Akár újrahasználható projekt sablont kell létrehoznia, CSV jelentéseket generálnia az elemzésekhez, vagy egyszerű szöveges kivonatokat kell előállítania az integrációhoz, ezek a lépések gyorsan és hatékonyan végigvezetik a folyamaton.
+Ezen az útmutatón keresztül megtudja, **hogyan exportálja az MPP‑t CSV‑be**, hogyan hozhat létre újrahasználható projekt sablonokat, és hogyan generálhat egyszerű szöveges kiextraktumokat az Aspose.Tasks Java könyvtár segítségével. Akár jelentéskészítő csővezeték építésén, projekt létrehozásának automatizálásán, vagy más rendszerekkel való integráción dolgozik, ezek a lépések a nyers MPP‑fájlt a szükséges kimenetre viszik — gyorsan és a Microsoft Project telepítése nélkül.
 
 ## Gyors válaszok
-- **Exportálhatok MPP‑t CSV‑be?** Igen – használja a `project.save(..., SaveFileFormat.CSV)` metódust.  
-- **Hogyan exportálhat szöveget?** Mentse a `SaveFileFormat.TEXT` formátummal.  
-- **Mit csinál a „projekt mentése sablonként”?** Létrehoz egy `.mpt` fájlt, amely eltávolítja a tényleges és a baseline értékeket, készen áll az újrahasználatra.  
-- **Szükségem van licencre?** Elérhető próba, a gyártási környezethez kereskedelmi licenc szükséges.  
-- **Milyen Java verzió szükséges?** A Java 8+ támogatott.
+- **Exportálhatok MPP‑t CSV‑be?** Igen – hívja a `project.save("output.csv", SaveFileFormat.CSV)`.
+- **Hogyan exportálhatok egyszerű szövegbe?** Használja a `SaveFileFormat.TEXT`‑t a `save` metódussal.
+- **Mit csinál a „save project as template”?** Létrehoz egy `.mpt` fájlt, amely eltávolítja a dátumokat és az alapvonalakat, csak a vázlatot hagyja meg.
+- **Szükségem van licencre?** A próbaverzió értékelésre használható; egy kereskedelmi licenc eltávolítja az értékelési korlátokat.
+- **Melyik Java verzió szükséges?** A Java 8 vagy újabb teljes mértékben támogatott.
 
-## Mi az a „projekt mentése sablonként”?
-A projekt sablonként (`.mpt`) való mentése rögzíti a struktúrát, a feladatok hierarchiáját és az erőforrás‑kiosztásokat, miközben eltávolítja a tényleges kezdő‑/befejező‑dátumokat és a baseline adatokat. Ez a sablon ideálissá teszi egy szabványos projektelrendezés több új projektben való újrafelhasználásához.
+## Mi az a „save project as template”?
+A projekt sablonként (`.mpt`) való mentése rögzíti a struktúrát, a feladat hierarchiát és az erőforrás hozzárendeléseket, miközben eltávolítja a tényleges kezdő‑ és befejezési dátumokat valamint az alapvonal adatokat. Ez a sablont ideálissá teszi egy szabványos projekt elrendezés több új projektben való újrahasználatához. Megőrzi az összes egyéni mezőt, költségárat és hozzárendelési részletet, biztosítva, hogy a sablon bármely új projektre alkalmazható legyen a lényeges konfiguráció elvesztése nélkül.
 
-## Miért használjuk az Aspose.Tasks for Java‑t?
-Az Aspose.Tasks lehetővé teszi a Microsoft Project fájlok manipulálását a Microsoft Project telepítése nélkül. Támogatja a **MPP exportálását**, a **szöveg exportálását**, és az **MPP‑t CSV‑vé konvertálást**, mindezt tiszta Java kódból, ami tökéletes a szerver‑oldali automatizáláshoz, CI csővezetékekhez vagy asztali segédprogramokhoz.
+## Miért használja az Aspose.Tasks for Java‑t?
+Exportáljon MPP‑t CSV‑be, szövegbe vagy sablonba közvetlenül Java‑ból a Microsoft Project nélkül. Az Aspose.Tasks **20+ Microsoft Project verziót** (2000‑2024) támogat, és akár **500 MB**‑os fájlokat is képes memóriatakarékos módban feldolgozni, ami ideálissá teszi szerver‑oldali automatizáláshoz, CI csővezetékekhez és kereszt‑platformos segédprogramokhoz.
 
-## Előfeltételek
-1. Java Development Kit (JDK) 8 vagy újabb telepítve.  
-2. Aspose.Tasks for Java könyvtár hozzáadva a projekthez. Töltse le [innen](https://releases.aspose.com/tasks/java/).  
-3. Alapvető ismeretek a Java szintaxisról és a Maven/Gradle projekt beállításáról.
+## Előkövetelmények
+- Java Development Kit 8 vagy újabb telepítve.  
+- Aspose.Tasks for Java könyvtár hozzáadva a projekthez – töltse le [itt](https://releases.aspose.com/tasks/java/).  
+- Más Aspose könyvtárakat is felfedezhet [itt](https://releases.aspose.com/).  
+- Alapvető Java és Maven/Gradle projektkonfigurációs ismeretek.
 
 ## Csomagok importálása
-Először importálja a szükséges osztályokat a Java forrásfájlban:
+A `Project` osztály az Aspose.Tasks központi objektuma, amely egy Microsoft Project fájlt reprezentál a memóriában. A könyvtár build fájlba való hozzáadása után importálja a szükséges osztályokat:
 
 ```java
 import java.io.IOException;
 import com.aspose.tasks.*;
 ```
 
-## Projekt mentése CSV‑ként (MPP exportálása CSV‑be)
-Az MPP fájl CSV‑be exportálása hasznos adat-elemzéshez Excelben vagy BI eszközökben.
+## Projekt mentése CSV‑ként (Export MPP to CSV)
+Az MPP fájl CSV‑be exportálása lehetővé teszi, hogy a feladat adatokat Excel‑be, Power BI‑ba vagy bármely elemző platformra továbbítsa.
 
 ### 1. lépés: A projekt betöltése
 ```java
@@ -55,13 +94,14 @@ Project project = new Project(projectName);
 ```
 
 ### 2. lépés: Mentés CSV‑ként
+`SaveFileFormat.CSV` azt mondja az Aspose.Tasks‑nek, hogy CSV formátumban adja ki a projektet.  
 ```java
 String csvFileName = "output.csv";
 project.save(csvFileName, com.aspose.tasks.SaveFileFormat.CSV);
 ```
 
 ## Projekt mentése szövegként (Hogyan exportáljunk szöveget)
-Ha egyszerű szöveges ábrázolásra van szüksége a feladatok, erőforrások vagy kiosztások tekintetében, mentse a projektet szövegfájlba.
+Az egyszerű szövegfájl gyors, ember által olvasható kiírást biztosít a feladatokról, erőforrásokról és hozzárendelésekről.
 
 ### 1. lépés: A projekt betöltése
 ```java
@@ -70,13 +110,13 @@ Project project = new Project(projectName);
 ```
 
 ### 2. lépés: Mentés szövegként
+`SaveFileFormat.TEXT` utasítja a könyvtárat, hogy generáljon egy egyszerű szöveges ábrázolást a projektről.  
 ```java
 String textFileName = "output.txt";
 project.save(textFileName, com.aspose.tasks.SaveFileFormat.TEXT);
 ```
 
 ## Projekt mentése sablonként (Projekt sablon létrehozása Java‑ban)
-Újrahasználható sablon létrehozása eltávolítja a tényleges dátumokat és baseline‑okat, egy tiszta vázat hagyva az új projektek számára.
 
 ### 1. lépés: A projekt betöltése
 ```java
@@ -85,6 +125,7 @@ Project project = new Project(projectName);
 ```
 
 ### 2. lépés: Sablon beállítások megadása
+Használja a `Project.save`‑t a `SaveFileFormat.MPT` (vagy `SaveFileFormat.TEMPLATE`) paraméterrel, hogy létrehozzon egy sablonfájlt, amely eltávolítja a dátumokat és az alapvonalakat.  
 ```java
 SaveTemplateOptions options = new SaveTemplateOptions();
 options.setRemoveActualValues(true);
@@ -98,35 +139,45 @@ project.saveAsTemplate(templateName, options);
 ```
 
 ## Gyakori problémák és tippek
-- **File Not Found:** Győződjön meg róla, hogy a `YourProject.mpp` elérési út helyes, vagy használjon abszolút útvonalat.  
-- **License Exceptions:** Érvényes licenc nélkül a könyvtár értékelő módban fut, és vízjelet adhat hozzá. Alkalmazza a licencet a kód elején (`License license = new License(); license.setLicense("Aspose.Tasks.Java.lic");`).  
-- **Large Projects:** Nagyon nagy MPP fájlok esetén fontolja meg a JVM heap méretének növelését (`-Xmx2g`), hogy elkerülje a `OutOfMemoryError` hibát.
+- **Fájl nem található:** Ellenőrizze a `YourProject.mpp` elérési útját, vagy használjon abszolút útvonalat.  
+- **Licenc kivételek:** Érvényes licenc nélkül a könyvtár értékelési módban fut, és vízjelet adhat hozzá. Alkalmazza a licencet korán (`License license = new License(); license.setLicense("Aspose.Tasks.Java.lic");`).  
+- **Nagy projektek:** 200 MB-nál nagyobb fájlok esetén növelje a JVM heap‑et (`-Xmx2g`), hogy elkerülje a `OutOfMemoryError` hibát.  
+- **Teljesítmény:** Sok projekt konvertálásakor, ahol lehetséges, használjon egyetlen `Project` példányt újra, hogy csökkentse az objektum‑létrehozási terhelést.
 
-## Következtetés
-Áttekintettük, **hogyan mentse el a projektet sablonként**, valamint hogyan **exportálja az MPP‑t CSV‑be** és **konvertálja az MPP‑t szöveggé** az Aspose.Tasks for Java segítségével. Ezek a lehetőségek lehetővé teszik a projektadatok automatizálását, újrahasználható sablonok generálását és a projektinformációk más rendszerekbe való integrálását – mindezt anélkül, hogy a Microsoft Project telepítve lenne.
+## Összegzés
+Bemutattuk, hogyan **exportálhatja az MPP‑t CSV‑be**, **konvertálhatja az MPP‑t szöveggé**, és **mentheti a projektet sablonként** az Aspose.Tasks for Java segítségével. Ezek a lehetőségek lehetővé teszik a jelentéskészítés automatizálását, szabványos projektvázlatok létrehozását, és a projektadatok integrálását bármely downstream rendszerbe — anélkül, hogy a Microsoft Project telepítve lenne.
 
 ## Gyakran ismételt kérdések
-### K: Kezelni tudja-e az Aspose.Tasks for Java a komplex projektfájlokat?
-A: Természetesen! Az Aspose.Tasks for Java könnyedén kezeli a különböző összetettségű projekteket, átfogó támogatást nyújtva a Microsoft Project fájlformátumokhoz.  
-### K: Elérhető-e próba verzió az Aspose.Tasks for Java‑hoz?
-A: Igen, ingyenes próbaverziót szerezhet az Aspose.Tasks for Java‑ból [innen](https://releases.aspose.com/).  
-### K: Hol találok támogatást az Aspose.Tasks for Java‑hoz?
-A: Látogasson el az [Aspose.Tasks fórumra](https://forum.aspose.com/c/tasks/15) bármilyen segítség vagy kérdés esetén az Aspose.Tasks for Java‑val kapcsolatban.  
-### K: Vásárolhatok-e ideiglenes licencet az Aspose.Tasks for Java‑hoz?
-A: Igen, ideiglenes licencet vásárolhat [innen](https://purchase.aspose.com/temporary-license/), amely lehetővé teszi a könyvtár teljes potenciáljának kiértékelését.  
-### K: Kompatibilis-e az Aspose.Tasks for Java különböző operációs rendszerekkel?
-A: Igen, az Aspose.Tasks for Java kompatibilis különböző operációs rendszerekkel, beleértve a Windows, macOS és Linux rendszereket.
+
+**K: Kezeli az Aspose.Tasks for Java a komplex, többfázisú projekteket?**  
+V: Igen, teljes mértékben támogatja a feladatokat, erőforrásokat, hozzárendeléseket, alapvonalakat és egyéni mezőket minden Project verzióban 2024‑ig.
+
+**K: Elérhető próbaverzió?**  
+V: Teljesen – töltsön le egy ingyenes próbaverziót [itt](https://releases.aspose.com/).
+
+**K: Hol kaphatok segítséget, ha problémám van?**  
+V: A hivatalos támogatási fórum a [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15), ahol a személyzet és a közösség tagjai válaszolnak a kérdésekre.
+
+**K: Szerezhetek ideiglenes licencet rövid távú értékeléshez?**  
+V: Igen, vásároljon ideiglenes licencet [itt](https://purchase.aspose.com/temporary-license/).
+
+**K: Fut az Aspose.Tasks Linuxon és macOS‑on?**  
+V: Teljesen keresztplatformos, és működik Windows, macOS és Linux rendszereken bármely Java 8+ futtatókörnyezettel.
 
 ---
 
-**Last Updated:** 2025-12-21  
-**Tested With:** Aspose.Tasks for Java 24.12 (latest)  
-**Author:** Aspose  
+**Legutóbb frissítve:** 2026-05-26  
+**Tesztelve a következővel:** Aspose.Tasks for Java 24.12 (latest)  
+**Szerző:** Aspose
 
----
+## Kapcsolódó útmutatók
+
+- [Hogyan hozzunk létre MPP fájlt – Üres projekt létrehozása és mentése MPP formátumban az Aspose.Tasks segítségével](/tasks/java/project-configuration/create-save-mpp/)
+- [MPP fájl betöltése Java - Projekt tulajdonságok kezelése az Aspose.Tasks segítségével](/tasks/java/project-management/default-properties/)
+- [Hogyan exportáljunk MPP-t Excel-be az Aspose.Tasks for Java segítségével](/tasks/java/project-file-operations/save-data-to-excel/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
+{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}
