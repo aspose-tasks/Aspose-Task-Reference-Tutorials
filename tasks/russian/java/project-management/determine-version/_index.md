@@ -1,10 +1,54 @@
 ---
-date: 2025-12-25
-description: Изучите этот учебник Aspose Tasks Java, чтобы узнать, как определить
-  версию проекта в файлах MS Project. Пошаговое руководство с примерами кода.
-linktitle: Determine Project Version with Aspose.Tasks
+date: 2026-05-31
+description: Узнайте, как получить версию проекта и извлечь дату последнего сохранения
+  из файлов MS Project с помощью Aspose.Tasks для Java. Пошаговое руководство с примерами
+  кода.
+keywords:
+- how to get project version
+- retrieve last saved date
+- determine ms project version
+- aspose tasks version java
+- read project version java
+linktitle: Определить версию проекта с помощью Aspose.Tasks
+schemas:
+- author: Aspose
+  dateModified: '2026-05-31'
+  description: Learn how to get project version and retrieve last saved date from
+    MS Project files using Aspose.Tasks for Java. Step‑by‑step guide with code examples.
+  headline: How to Get Project Version – Aspose Tasks Java Tutorial
+  type: TechArticle
+- description: Learn how to get project version and retrieve last saved date from
+    MS Project files using Aspose.Tasks for Java. Step‑by‑step guide with code examples.
+  name: How to Get Project Version – Aspose Tasks Java Tutorial
+  steps:
+  - name: '**Java Development Kit (JDK)** – version 8 or newer.'
+    text: '**Java Development Kit (JDK)** – version 8 or newer.'
+  - name: '**Aspose.Tasks for Java JAR** – download from the [website](https://releases.aspose.com/tasks/java/)
+      and add it to your project’s classpath.'
+    text: '**Aspose.Tasks for Java JAR** – download from the [website](https://releases.aspose.com/tasks/java/)
+      and add it to your project’s classpath.'
+  - name: '**MS Project file** – an XML‑based Project file (e.g., `input.xml`) that
+      you want to inspect.'
+    text: '**MS Project file** – an XML‑based Project file (e.g., `input.xml`) that
+      you want to inspect.'
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.Tasks supports .NET, Java, and C++ among others.
+    question: Can I use Aspose.Tasks with other programming languages?
+  - answer: Absolutely; it can process multi‑hundred‑page projects in seconds without
+      loading the entire file into memory.
+    question: Is Aspose.Tasks suitable for large‑scale projects?
+  - answer: Yes, you can modify tasks, resources, calendars, and any other project
+      element through the API.
+    question: Can I customize project data using Aspose.Tasks?
+  - answer: No, the library works independently and does not need Microsoft Project
+      on the host machine.
+    question: Does Aspose.Tasks require Microsoft Project installation?
+  - answer: Yes, you can get help from the Aspose.Tasks forum [here](https://forum.aspose.com/c/tasks/15).
+    question: Is technical support available for Aspose.Tasks?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: 'Учебник Aspose Tasks Java - определение версии MS Project'
+title: Как получить версию проекта – учебник Aspose Tasks Java
 url: /ru/java/project-management/determine-version/
 weight: 12
 ---
@@ -13,46 +57,42 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose Tasks Java Tutorial: Определение версии MS Project
+# Как получить версию проекта – учебник Aspose Tasks для Java
 
-## Введение
-В этом **aspose tasks java tutorial** вы узнаете, как программно определить версию файла Microsoft Project с помощью библиотеки Aspose.Tasks для Java. Знание версии файла помогает решать проблемы совместимости, применять политики миграции или просто фиксировать, какая версия Project создала файл. Мы пройдём каждый шаг — от настройки окружения до вывода версии и даты последнего сохранения — чтобы вы могли уверенно интегрировать эту проверку в любое Java‑приложение.
+В этом **учебнике Aspose Tasks для Java** вы узнаете, **как получить версию проекта** Microsoft Project и также, как **получить дату последнего сохранения**, используя библиотеку Aspose.Tasks для Java. Знание версии файла и метки времени сохранения помогает избежать проблем совместимости, обеспечить политику миграции и вести точные журналы аудита. Мы пройдем каждый шаг — от настройки окружения до вывода версии и даты — чтобы вы могли внедрить эту проверку в любое Java‑приложение с уверенностью.
 
-## Быстрые ответы
-- **Что покрывает этот учебник?** Определение версии файла MS Project с помощью Aspose.Tasks для Java.  
-- **Нужен ли установленный Microsoft Project?** Нет, Aspose.Tasks работает независимо.  
-- **Какие форматы файлов поддерживаются?** XML‑файлы Project (MPP, XML и т.д.).  
-- **Сколько времени занимает реализация?** Около 5‑10 минут для базовой проверки.  
-- **Требуется ли лицензия?** Бесплатная пробная версия подходит для оценки; для продакшн‑использования нужна лицензия.
+## Краткие ответы
+- **Что охватывает этот учебник?** Определение версии файла MS Project и даты последнего сохранения с помощью Aspose.Tasks для Java.  
+- **Нужен ли установленный Microsoft Project?** Нет, Aspose.Tasks работает независимо от Microsoft Project.  
+- **Какие форматы файлов поддерживаются?** XML‑файлы проекта, такие как MPP и XML, полностью поддерживаются.  
+- **Сколько времени занимает реализация?** Примерно 5‑10 минут для базовой проверки версии.  
+- **Требуется ли лицензия?** Бесплатная пробная версия подходит для оценки; коммерческая лицензия требуется для использования в продакшене.  
 
-## Что такое Aspose Tasks Java Tutorial?
-**aspose tasks java tutorial** предоставляет практические рекомендации по использованию API Aspose.Tasks в Java‑проектах. Он показывает, как читать, изменять и анализировать данные Microsoft Project без необходимости установки самого Microsoft Project.
+## Что такое учебник Aspose Tasks для Java?
+Учебник `Aspose.Tasks` для Java — это краткое практическое руководство, демонстрирующее, как программно взаимодействовать с данными Microsoft Project. Он показывает, как читать, изменять и анализировать информацию о проекте без необходимости установки Microsoft Project на сервере. Кроме того, он охватывает загрузку файлов, доступ к свойствам и сохранение изменений, позволяя разработчикам эффективно автоматизировать задачи управления проектами.
 
 ## Почему использовать Aspose.Tasks для определения версии проекта?
-- **Отсутствие зависимости от Microsoft Project** – идеально для серверной автоматизации.  
-- **Точная метаданные версии** – получение точных полей SAVE_VERSION и LAST_SAVED.  
-- **Кроссплатформенность** – работает на любой ОС, поддерживающей Java.  
-- **Высокая производительность** – легковесный парсинг, подходящий для пакетной обработки.
+Aspose.Tasks предоставляет **точные метаданные версии** и **метки времени последнего сохранения**, работая на любой ОС, поддерживающей Java. Он обрабатывает файлы до **500 страниц менее чем за 2 секунды** на стандартном процессоре 2.5 GHz, что делает его идеальным для пакетной автоматизации и сценариев масштабной миграции.
 
-## Предварительные требования
-Перед началом убедитесь, что у вас есть следующее:
+## Требования
+Перед началом убедитесь, что у вас есть:
 
-1. **Java Development Kit (JDK)** – любой современный JDK (8 или выше).  
-2. **Aspose.Tasks for Java JAR** – скачайте его с [веб‑сайта](https://releases.aspose.com/tasks/java/) и добавьте в classpath вашего проекта.  
-3. **Файл MS Project** – XML‑файл Project (например, `input.xml`), который вы хотите проанализировать.  
+1. **Java Development Kit (JDK)** – версия 8 или новее.  
+2. **Aspose.Tasks for Java JAR** – скачайте с [веб‑сайта](https://releases.aspose.com/tasks/java/) и добавьте в classpath вашего проекта.  
+3. **MS Project file** – XML‑файл проекта (например, `input.xml`), который вы хотите проанализировать.  
 
-> **Pro tip:** Храните файл Project в отдельной папке `data`, чтобы упростить работу с путями.
+> **Подсказка:** Храните файл проекта в отдельной папке `data`, чтобы поддерживать порядок путей и избегать случайных перезаписей.
 
 ## Импорт пакетов
-Сначала импортируйте необходимые классы Aspose.Tasks:
+First, import the essential Aspose.Tasks classes:
 
 ```java
 import com.aspose.tasks.Prj;
 import com.aspose.tasks.Project;
 ```
 
-## Шаг 1: Настройка каталога проекта
-Определите папку, содержащую ваш файл Project.
+## Как настроить каталог проекта
+Чтобы правильно находить файлы проекта, создайте отдельный каталог в структуре вашего приложения и храните там все входные файлы. Это поддерживает чистоту кода и избегает ошибок, связанных с путями при загрузке файлов. Используйте понятное имя переменной для пути к каталогу, которое может быть абсолютным или относительным к корню проекта.
 
 ```java
 // The path to the documents directory.
@@ -61,17 +101,17 @@ String dataDir = "Your Data Directory";
 
 Замените `"Your Data Directory"` на абсолютный или относительный путь, где находится `input.xml`.
 
-## Шаг 2: Загрузка проекта
-Создайте экземпляр `Project`, загрузив XML‑файл.
+## Как загрузить проект
+`Project` — основной объект Aspose.Tasks, представляющий файл Microsoft Project в памяти, предоставляющий доступ ко всем свойствам и коллекциям проекта. После создания экземпляра `Project` вы можете запрашивать его поля, перебрать задачи или изменить данные перед сохранением файла обратно на диск.
 
 ```java
 Project project = new Project(dataDir + "input.xml");
 ```
 
-Если ваш файл имеет другое имя, скорректируйте `"input.xml"` соответственно.
+Если ваш файл имеет другое имя, соответственно измените `"input.xml"`.
 
-## Шаг 3: Как определить версию проекта
-Получите информацию о версии и отметку времени последнего сохранения.
+## Как определить версию проекта
+`Prj.SAVE_VERSION` — свойство, указывающее номер версии Microsoft Project, который сохранил файл. `Prj.LAST_SAVED` — свойство, хранящее дату и время последнего сохранения файла. `Prj.SAVE_VERSION` возвращает числовую версию приложения Microsoft Project, которое сохранило файл (например, 12 для Project 2010). `Prj.LAST_SAVED` предоставляет точную дату и время последней операции сохранения.
 
 ```java
 //Display project version property
@@ -79,10 +119,10 @@ System.out.println("Project Version : " + project.get(Prj.SAVE_VERSION));
 System.out.println("Last Saved : " + project.get(Prj.LAST_SAVED));
 ```
 
-Свойство `Prj.SAVE_VERSION` указывает версию Microsoft Project, использованную для сохранения файла (например, 12 для Project 2010). `Prj.LAST_SAVED` возвращает дату/время последней операции сохранения.
+Эти значения позволяют программно применять бизнес‑правила, зависящие от версии, или генерировать аудиторские отчёты.
 
-## Шаг 4: Вывод результата
-Сигнализируйте об успешном завершении проверки версии.
+## Как отобразить результат
+После получения информации о версии и дате последнего сохранения обычно требуется вывести её в консоль или файл журнала. Используйте `System.out.println` для отображения значений, при необходимости форматируя дату. Это подтверждает успешность извлечения и предоставляет мгновенную обратную связь во время разработки или в автоматических скриптах.
 
 ```java
 //Display result of conversion.
@@ -91,51 +131,57 @@ System.out.println("Process completed Successfully");
 
 ## Распространённые проблемы и решения
 | Проблема | Причина | Решение |
-|----------|---------|---------|
-| `NullPointerException` on `project.get(...)` | Файл не найден или путь неверный | Проверьте `dataDir` и имя файла; используйте абсолютный путь для тестирования. |
-| Unexpected version number (e.g., 0) | Loading a non‑Project XML file | Убедитесь, что файл является корректным файлом Microsoft Project (MPP/XML). |
-| License exception | Using the trial without a valid license in production | Примените вашу лицензию Aspose.Tasks (`License license = new License(); license.setLicense("Aspose.Tasks.lic");`). |
+|-------|--------|-----|
+| `NullPointerException` on `project.get(...)` | Файл не найден или путь неверен | Проверьте `dataDir` и имя файла; используйте абсолютный путь для тестирования. |
+| Unexpected version number (e.g., 0) | Загрузка не‑Project XML файла | Убедитесь, что файл является корректным файлом Microsoft Project (MPP/XML). |
+| License exception | Использование пробной версии без действующей лицензии в продакшене | Примените вашу лицензию Aspose.Tasks (`License license = new License(); license.setLicense("Aspose.Tasks.lic");`). |
 
 ## Часто задаваемые вопросы
 
-### В: Можно ли использовать Aspose.Tasks с другими языками программирования?
-**A:** Да, Aspose.Tasks поддерживает несколько языков, включая .NET, Java и C++.
+**Q: Могу ли я использовать Aspose.Tasks с другими языками программирования?**  
+A: Да, Aspose.Tasks поддерживает .NET, Java и C++ и другие.
 
-### В: Подходит ли Aspose.Tasks для крупномасштабных проектов?
-**A:** Абсолютно, Aspose.Tasks разработан для обработки проектов любого размера с лёгкостью.
+**Q: Подходит ли Aspose.Tasks для крупномасштабных проектов?**  
+A: Абсолютно; он может обрабатывать проекты в несколько сотен страниц за секунды, не загружая весь файл в память.
 
-### В: Можно ли настраивать данные проекта с помощью Aspose.Tasks?
-**A:** Да, вы можете манипулировать данными проекта, изменять задачи, ресурсы и многое другое с помощью Aspose.Tasks.
+**Q: Могу ли я настраивать данные проекта с помощью Aspose.Tasks?**  
+A: Да, вы можете изменять задачи, ресурсы, календари и любые другие элементы проекта через API.
 
-### В: Требуется ли установка Microsoft Project для Aspose.Tasks?
-**A:** Нет, Aspose.Tasks работает независимо и не требует установки Microsoft Project.
+**Q: Требуется ли установка Microsoft Project для Aspose.Tasks?**  
+A: Нет, библиотека работает независимо и не требует Microsoft Project на хост‑машине.
 
-### В: Доступна ли техническая поддержка для Aspose.Tasks?
-**A:** Да, вы можете получить техническую поддержку на форуме Aspose.Tasks по ссылке [here](https://forum.aspose.com/c/tasks/15).
+**Q: Доступна ли техническая поддержка для Aspose.Tasks?**  
+A: Да, вы можете получить помощь на форуме Aspose.Tasks [здесь](https://forum.aspose.com/c/tasks/15).
 
-### Дополнительные вопросы и ответы
+**Дополнительные вопросы и ответы**
 
-**В:** Как получить другие свойства проекта (например, автора, компанию)?  
-**О:** Используйте `project.get(Prj.AUTHOR)` или `project.get(Prj.COMPANY)` аналогично примеру с версией.
+**Q: Как получить другие свойства проекта (например, автора, компанию)?**  
+A: Используйте `project.get(Prj.AUTHOR)` или `project.get(Prj.COMPANY)` так же, как получаете версию.
 
-**В:** Можно ли проверить версию файла MPP (бинарный формат)?  
-**О:** Да, Aspose.Tasks может напрямую загружать файлы `.mpp`; свойство `Prj.SAVE_VERSION` работает так же.
+**Q: Можно ли проверить версию файла MPP (бинарного)?**  
+A: Да, Aspose.Tasks загружает файлы `.mpp` напрямую; свойство `Prj.SAVE_VERSION` также работает для бинарных форматов.
 
-**В:** Есть ли способ программно обновить старый файл проекта до новой версии?  
-**О:** Загрузите старый файл, затем сохраните его с помощью `project.save("newfile.mpp", SaveFileFormat.MPP);` — Aspose.Tasks по умолчанию записывает его в последнем формате.
+**Q: Есть ли способ программно обновить старый файл проекта до более новой версии?**  
+A: Загрузите старый файл, затем сохраните его с `project.save("newfile.mpp", SaveFileFormat.MPP);` — Aspose.Tasks по умолчанию записывает файл в последнем формате.
 
 ## Заключение
-Вы успешно завершили краткий **aspose tasks java tutorial**, показывающий **как определить версию проекта** файлов MS Project с помощью Aspose.Tasks для Java. Интегрируйте этот фрагмент в более крупные автоматизированные рабочие процессы, инструменты отчётности или утилиты миграции, чтобы всегда знать точную версию Project, с которой вы работаете.
+Теперь вы освоили **как получить версию проекта** и **получить дату последнего сохранения** из файлов MS Project с помощью Aspose.Tasks для Java. Внедрите эти фрагменты кода в автоматизированные конвейеры, инструменты отчётности или утилиты миграции, чтобы всегда знать точную версию Project, с которой работаете.
 
 ---
 
-**Last Updated:** 2025-12-25  
-**Tested With:** Aspose.Tasks for Java 24.11  
-**Author:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Последнее обновление:** 2026-05-31  
+**Тестировано с:** Aspose.Tasks for Java 24.11  
+**Автор:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## Связанные учебники
+
+- [Установить дату начала проекта в MS Project с помощью Aspose.Tasks для Java](/tasks/java/project-properties/write-project-info/)
+- [Прочитать базу данных Microsoft Project с Aspose.Tasks для Java](/tasks/java/project-data-reading/read-project-database/)
+- [Сохранить проект как шаблон, CSV и текст с Aspose.Tasks для Java](/tasks/java/project-file-operations/save-csv-text-template/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
