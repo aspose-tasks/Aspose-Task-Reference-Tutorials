@@ -96,13 +96,6 @@ Có thể. API cho phép bạn thêm, sửa hoặc xóa các trường tùy ch�
 ### Aspose.Tasks có cung cấp hỗ trợ và tài liệu cho nhà phát triển không?
 Sản phẩm bao gồm tài liệu API chi tiết, các mẫu mã, và diễn đàn hỗ trợ chuyên biệt để giúp bạn nhanh chóng giải quyết vấn đề.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Cập nhật lần cuối:** 2026-01-13  
@@ -110,3 +103,10 @@ Sản phẩm bao gồm tài liệu API chi tiết, các mẫu mã, và diễn đ
 **Tác giả:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

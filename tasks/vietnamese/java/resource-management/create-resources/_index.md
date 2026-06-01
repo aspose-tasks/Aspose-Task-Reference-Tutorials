@@ -74,22 +74,6 @@ Resource resource = project.getResources().add("ResourceName");
 ## Kết luận
 Bạn đã học cách **thêm nguồn lực vào dự án** bằng Aspose.Tasks cho Java. Cách tiếp cận lập trình đơn giản này cho phép bạn quản lý nguồn lực ở quy mô lớn, tự động cập nhật dự án và tích hợp dữ liệu Microsoft Project vào các ứng dụng của riêng bạn.
 
-## Câu hỏi thường gặp
-### Tôi có thể thao tác các khía cạnh khác của tệp MS Project bằng Aspose.Tasks không?
-Có, Aspose.Tasks cung cấp một loạt các chức năng để thao tác nhiệm vụ, nguồn lực, lịch và nhiều hơn nữa trong các tệp MS Project.
-
-### Aspose.Tasks có phù hợp cho các ứng dụng cấp doanh nghiệp không?
-Chắc chắn! Aspose.Tasks được thiết kế để đáp ứng yêu cầu của các ứng dụng cấp doanh nghiệp với các tính năng mạnh mẽ và hiệu năng xuất sắc.
-
-### Tôi có thể dùng thử Aspose.Tasks trước khi mua không?
-Có, bạn có thể tải xuống bản dùng thử miễn phí của Aspose.Tasks từ [here](https://releases.aspose.com/).
-
-### Tôi có thể tìm hỗ trợ cho Aspose.Tasks ở đâu?
-Bạn có thể tìm hỗ trợ và trợ giúp trên diễn đàn Aspose.Tasks [here](https://forum.aspose.com/c/tasks/15).
-
-### Tôi có cần giấy phép tạm thời để sử dụng Aspose.Tasks không?
-Mặc dù bạn có thể sử dụng Aspose.Tasks mà không có giấy phép, một giấy phép tạm thời có thể mở khóa các tính năng và chức năng bổ sung. Bạn có thể nhận giấy phép tạm thời từ [here](https://purchase.aspose.com/temporary-license/).
-
 ## Các câu hỏi thường gặp
 **Q: Làm sao để tôi thêm nhiều nguồn lực cùng một lúc?**  
 A: Gọi `project.getResources().add("Resource1");`, sau đó lặp lại cho mỗi nguồn lực bổ sung, hoặc duyệt qua một tập hợp các tên nguồn lực.
@@ -108,15 +92,15 @@ A: Đoạn mã hoạt động với tất cả các phiên bản gần đây; ch
 
 ---
 
+**Last Updated:** 2026-01-13  
+**Tested With:** Aspose.Tasks for Java 24.x (latest at time of writing)  
+**Author:** Aspose
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-13  
-**Tested With:** Aspose.Tasks for Java 24.x (latest at time of writing)  
-**Author:** Aspose

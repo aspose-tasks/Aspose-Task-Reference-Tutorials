@@ -96,15 +96,15 @@ for (Resource res : prj.getResources()) {
 ### क्या Aspose.Tasks डेवलपर्स के लिए समर्थन और दस्तावेज़ीकरण प्रदान करता है?
 उत्पाद में व्यापक API दस्तावेज़, कोड सैंपल, और त्वरित सहायता के लिए एक समर्पित सपोर्ट फ़ोरम शामिल है।
 
+---
+
+**अंतिम अपडेट:** 2026-01-13  
+**परीक्षण किया गया:** Aspose.Tasks for Java 24.12  
+**लेखक:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**अंतिम अपडेट:** 2026-01-13  
-**परीक्षण किया गया:** Aspose.Tasks for Java 24.12  
-**लेखक:** Aspose

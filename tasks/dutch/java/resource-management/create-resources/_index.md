@@ -74,22 +74,6 @@ Resource resource = project.getResources().add("ResourceName");
 ## Conclusie
 Je hebt nu geleerd hoe je **add resource to project** kunt uitvoeren met Aspose.Tasks voor Java. Deze eenvoudige, programmatische aanpak stelt je in staat resources op schaal te beheren, projectupdates te automatiseren en Microsoft Project‑gegevens te integreren in je eigen applicaties.
 
-## FAQ's
-### Kan ik andere aspecten van MS Project‑bestanden manipuleren met Aspose.Tasks?
-Ja, Aspose.Tasks biedt een breed scala aan functionaliteiten om taken, resources, agenda's en meer in MS Project‑bestanden te manipuleren.
-
-### Is Aspose.Tasks geschikt voor enterprise‑niveau applicaties?
-Absoluut! Aspose.Tasks is ontworpen om te voldoen aan de eisen van enterprise‑niveau applicaties met zijn robuuste functies en uitstekende prestaties.
-
-### Kan ik Aspose.Tasks uitproberen voordat ik het koop?
-Ja, je kunt een gratis proefversie van Aspose.Tasks downloaden via [here](https://releases.aspose.com/).
-
-### Waar kan ik ondersteuning vinden voor Aspose.Tasks?
-Je kunt ondersteuning en hulp vinden op het Aspose.Tasks forum [here](https://forum.aspose.com/c/tasks/15).
-
-### Heb ik een tijdelijke licentie nodig om Aspose.Tasks te gebruiken?
-Hoewel je Aspose.Tasks zonder licentie kunt gebruiken, kan een tijdelijke licentie extra functies en functionaliteiten ontgrendelen. Je kunt een tijdelijke licentie verkrijgen via [here](https://purchase.aspose.com/temporary-license/).
-
 ## Veelgestelde vragen
 **Q: Hoe voeg ik meerdere resources in één keer toe?**  
 A: Roep `project.getResources().add("Resource1");` aan, herhaal dan voor elke extra resource, of loop over een collectie van resource‑namen.
@@ -106,13 +90,6 @@ A: Ja — Aspose.Tasks kan opslaan naar .xml, .pdf, .xlsx, en andere formaten di
 **Q: Welke versie van Aspose.Tasks is vereist voor deze code?**  
 A: De code werkt met alle recente versies; we hebben het getest met Aspose.Tasks 24.x voor Java.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Laatst bijgewerkt:** 2026-01-13  
@@ -120,3 +97,10 @@ A: De code werkt met alle recente versies; we hebben het getest met Aspose.Tasks
 **Auteur:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

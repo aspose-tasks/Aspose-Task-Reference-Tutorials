@@ -89,22 +89,6 @@ if (res.get(Rsc.NAME) != null) {
 ## 결론
 MS Project 리소스의 **초과 근무를 효과적으로 관리**하는 것은 프로젝트 성공에 필수적입니다. Aspose.Tasks for Java를 사용하면 초과 근무 데이터를 정밀하게 제어할 수 있어 **리소스 활용을 최적화**하고 불필요한 비용을 줄이며 일정을 현실적으로 유지할 수 있습니다.
 
-## FAQ
-### 특정 리소스에 대해서만 초과 근무를 관리할 수 있나요?
-예, 프로젝트 요구 사항에 따라 특정 리소스의 초과 근무를 관리하도록 코드를 맞춤 설정할 수 있습니다.
-
-### Aspose.Tasks for Java가 모든 버전의 MS Project 파일과 호환되나요?
-Aspose.Tasks for Java는 다양한 버전의 MS Project 파일을 지원하여 호환성과 원활한 통합을 보장합니다.
-
-### Aspose.Tasks를 사용하여 초과 근무 관리 작업을 자동화할 수 있나요?
-물론입니다! Aspose.Tasks는 초과 근무 관리 작업을 자동화할 수 있는 강력한 API를 제공하여 프로젝트 관리 프로세스를 효율화합니다.
-
-### Aspose.Tasks for Java가 기술 지원을 제공하나요?
-예, Aspose.Tasks는 포럼을 통해 포괄적인 기술 지원을 제공합니다. 지원 포럼은 [here](https://forum.aspose.com/c/tasks/15)에서 확인할 수 있습니다.
-
-### 구매 전에 Aspose.Tasks for Java를 체험해볼 수 있나요?
-예, 무료 체험판으로 Aspose.Tasks for Java를 체험할 수 있습니다. 체험판은 [here](https://releases.aspose.com/)에서 다운로드하세요.
-
 ## 자주 묻는 질문
 **Q: 전체 프로젝트의 총 초과 근무 비용을 어떻게 계산하나요?**  
 A: 모든 리소스를 순회하면서 `res.get(Rsc.OVERTIME_COST)`가 반환하는 값을 합산하여 결과를 집계합니다.

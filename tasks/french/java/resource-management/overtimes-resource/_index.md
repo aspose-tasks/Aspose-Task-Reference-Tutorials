@@ -91,22 +91,6 @@ En examinant les valeurs de coût et de travail supplémentaires, vous pouvez id
 ## Conclusion
 Gérer efficacement les **heures supplémentaires** pour les ressources MS Project est essentiel à la réussite d’un projet. Avec Aspose.Tasks pour Java, vous obtenez un contrôle précis sur les données d’heures supplémentaires, vous permettant d’**optimiser l’utilisation des ressources**, de réduire les coûts inutiles et de maintenir des plannings réalistes.
 
-## FAQ
-### Puis‑je gérer les heures supplémentaires uniquement pour des ressources spécifiques ?
-Oui, vous pouvez personnaliser le code afin de gérer les heures supplémentaires pour des ressources spécifiques selon les exigences de votre projet.
-
-### Aspose.Tasks for Java est‑il compatible avec toutes les versions des fichiers MS Project ?
-Aspose.Tasks for Java prend en charge diverses versions des fichiers MS Project, assurant compatibilité et intégration fluide.
-
-### Puis‑je automatiser les tâches de gestion des heures supplémentaires avec Aspose.Tasks ?
-Absolument ! Aspose.Tasks fournit des API robustes pour automatiser les tâches de gestion des heures supplémentaires, simplifiant votre processus de gestion de projet.
-
-### Aspose.Tasks for Java propose‑t‑il un support technique ?
-Oui, Aspose.Tasks offre un support technique complet via son forum. Vous pouvez accéder au forum de support [ici](https://forum.aspose.com/c/tasks/15).
-
-### Puis‑je essayer Aspose.Tasks for Java avant de l’acheter ?
-Oui, vous pouvez explorer Aspose.Tasks for Java avec un essai gratuit. Téléchargez la version d’essai [ici](https://releases.aspose.com/).
-
 ## Questions fréquemment posées
 **Q : Comment calculer le coût total des heures supplémentaires pour l’ensemble du projet ?**  
 R : Parcourez toutes les ressources, additionnez les valeurs renvoyées par `res.get(Rsc.OVERTIME_COST)` et agrégerez le résultat.

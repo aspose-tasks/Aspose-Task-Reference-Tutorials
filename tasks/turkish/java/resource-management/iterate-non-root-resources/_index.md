@@ -96,15 +96,15 @@ Kesinlikle. API, görevlerde, kaynaklarda ve atamalarda özel alanlar eklemenize
 ### Aspose.Tasks geliştiriciler için destek ve dokümantasyon sağlıyor mu?
 Ürün, kapsamlı API belgeleri, kod örnekleri ve hızlı yardım için özel bir destek forumu içerir.
 
+---
+
+**Last Updated:** 2026-01-13  
+**Tested With:** Aspose.Tasks for Java 24.12  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-13  
-**Tested With:** Aspose.Tasks for Java 24.12  
-**Author:** Aspose

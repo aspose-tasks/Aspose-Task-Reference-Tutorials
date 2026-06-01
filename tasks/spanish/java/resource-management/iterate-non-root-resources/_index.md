@@ -96,13 +96,6 @@ Definitivamente. La API te permite agregar, modificar o eliminar campos personal
 ### ¿Aspose.Tasks proporciona soporte y documentación para desarrolladores?
 El producto incluye documentación completa de la API, ejemplos de código y un foro de soporte dedicado para asistencia rápida.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Última actualización:** 2026-01-13  
@@ -110,3 +103,10 @@ El producto incluye documentación completa de la API, ejemplos de código y un 
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

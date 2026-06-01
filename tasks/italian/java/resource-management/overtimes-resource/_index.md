@@ -91,22 +91,6 @@ Esaminando i valori di costo e lavoro degli straordinari, puoi identificare le r
 ## Conclusione
 Gestire efficacemente gli **straordinari** per le risorse di MS Project è fondamentale per il successo del progetto. Con Aspose.Tasks per Java, ottieni un controllo preciso sui dati degli straordinari, consentendoti di **ottimizzare l'utilizzo delle risorse**, ridurre i costi inutili e mantenere i programmi realistici.
 
-## FAQ
-### Posso gestire gli straordinari solo per risorse specifiche?
-Sì, puoi personalizzare il codice per gestire gli straordinari per risorse specifiche in base ai requisiti del tuo progetto.
-
-### Aspose.Tasks per Java è compatibile con tutte le versioni dei file MS Project?
-Aspose.Tasks per Java supporta varie versioni dei file MS Project, garantendo compatibilità e integrazione senza problemi.
-
-### Posso automatizzare le attività di gestione degli straordinari usando Aspose.Tasks?
-Assolutamente! Aspose.Tasks fornisce API robuste per automatizzare le attività di gestione degli straordinari, semplificando il tuo processo di gestione del progetto.
-
-### Aspose.Tasks per Java offre supporto tecnico?
-Sì, Aspose.Tasks fornisce supporto tecnico completo tramite il suo forum. Puoi accedere al forum di supporto [qui](https://forum.aspose.com/c/tasks/15).
-
-### Posso provare Aspose.Tasks per Java prima di acquistarlo?
-Sì, puoi esplorare Aspose.Tasks per Java con una versione di prova gratuita. Scarica la versione di prova [qui](https://releases.aspose.com/).
-
 ## Domande frequenti
 **D: Come calcolo il costo totale degli straordinari per l'intero progetto?**  
 Itera attraverso tutte le risorse, somma i valori restituiti da `res.get(Rsc.OVERTIME_COST)` e aggrega il risultato.

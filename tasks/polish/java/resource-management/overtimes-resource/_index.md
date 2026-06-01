@@ -91,22 +91,6 @@ Analizując koszty i wartości pracy nadgodzinowej, możesz zidentyfikować zaso
 ## Zakończenie
 Skuteczne **zarządzanie nadgodzinami** zasobów MS Project jest kluczowe dla sukcesu projektu. Dzięki Aspose.Tasks for Java zyskujesz precyzyjną kontrolę nad danymi o nadgodzinach, co umożliwia **optymalizację wykorzystania zasobów**, redukcję niepotrzebnych kosztów i utrzymanie realistycznych harmonogramów.
 
-## FAQ
-### Czy mogę zarządzać nadgodzinami tylko dla wybranych zasobów?
-Tak, możesz dostosować kod, aby zarządzać nadgodzinami wybranych zasobów zgodnie z wymaganiami Twojego projektu.
-
-### Czy Aspose.Tasks for Java jest kompatybilny ze wszystkimi wersjami plików MS Project?
-Aspose.Tasks for Java obsługuje różne wersje plików MS Project, zapewniając kompatybilność i płynną integrację.
-
-### Czy mogę automatyzować zadania zarządzania nadgodzinami przy użyciu Aspose.Tasks?
-Oczywiście! Aspose.Tasks udostępnia rozbudowane API do automatyzacji zadań związanych z nadgodzinami, usprawniając proces zarządzania projektem.
-
-### Czy Aspose.Tasks for Java oferuje wsparcie techniczne?
-Tak, Aspose.Tasks zapewnia kompleksowe wsparcie techniczne poprzez swoje forum. Dostęp do forum możesz uzyskać [tutaj](https://forum.aspose.com/c/tasks/15).
-
-### Czy mogę wypróbować Aspose.Tasks for Java przed zakupem?
-Tak, możesz przetestować Aspose.Tasks for Java w wersji próbnej. Pobierz wersję próbną [tutaj](https://releases.aspose.com/).
-
 ## Często zadawane pytania
 **Q: Jak obliczyć całkowity koszt nadgodzin dla całego projektu?**  
 A: Przejdź przez wszystkie zasoby, zsumuj wartości zwracane przez `res.get(Rsc.OVERTIME_COST)` i zagreguj wynik.

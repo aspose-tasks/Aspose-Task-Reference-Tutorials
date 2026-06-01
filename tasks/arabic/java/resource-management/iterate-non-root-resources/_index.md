@@ -96,13 +96,6 @@ for (Resource res : prj.getResources()) {
 ### هل توفر Aspose.Tasks الدعم والوثائق للمطورين؟
 يتضمن المنتج وثائق API شاملة، عينات كود، ومنتدى دعم مخصص للحصول على مساعدة سريعة.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **آخر تحديث:** 2026-01-13  
@@ -110,3 +103,10 @@ for (Resource res : prj.getResources()) {
 **المؤلف:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

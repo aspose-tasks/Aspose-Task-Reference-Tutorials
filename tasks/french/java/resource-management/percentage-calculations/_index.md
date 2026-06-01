@@ -19,7 +19,7 @@ weight: 14
 ## Introduction
 Bienvenue ! Dans ce tutoriel, vous apprendrez **comment calculer le pourcentage de ressource java** en utilisant la bibliothèque Aspose.Tasks pour Java. Nous parcourrons l'extraction du *pourcentage de travail accompli* pour chaque ressource dans un fichier Microsoft Project, expliquerons pourquoi cette métrique est importante, et vous montrerons le code exact dont vous avez besoin. À la fin, vous pourrez intégrer les calculs de pourcentage de ressource dans n'importe quelle solution de gestion de projet basée sur Java.
 
-## Quick Answers
+## Réponses rapides
 - **Que signifie « pourcentage de ressource » ?** C’est le pourcentage du travail qu’une ressource a terminé par rapport à son travail total assigné.  
 - **Quel appel d'API renvoie cette valeur ?** `Rsc.PERCENT_WORK_COMPLETE` via la classe `Resource`.  
 - **Ai‑je besoin d’une licence ?** Une licence temporaire ou complète Aspose.Tasks est requise pour une utilisation en production.  

@@ -74,22 +74,6 @@ Resource resource = project.getResources().add("ResourceName");
 ## Conclusione
 Ora hai imparato come **aggiungere una risorsa al progetto** usando Aspose.Tasks per Java. Questo approccio semplice e programmatico ti consente di gestire le risorse su larga scala, automatizzare gli aggiornamenti dei progetti e integrare i dati di Microsoft Project nelle tue applicazioni.
 
-## FAQ
-### Posso manipolare altri aspetti dei file MS Project usando Aspose.Tasks?
-Sì, Aspose.Tasks offre un'ampia gamma di funzionalità per manipolare attività, risorse, calendari e altro nei file MS Project.
-
-### Aspose.Tasks è adatto per applicazioni a livello enterprise?
-Assolutamente! Aspose.Tasks è progettato per soddisfare le esigenze delle applicazioni a livello enterprise grazie alle sue funzionalità robuste e alle eccellenti prestazioni.
-
-### Posso provare Aspose.Tasks prima di acquistarlo?
-Sì, puoi scaricare una versione di prova gratuita di Aspose.Tasks da [qui](https://releases.aspose.com/).
-
-### Dove posso trovare supporto per Aspose.Tasks?
-Puoi trovare supporto e assistenza sul forum di Aspose.Tasks [qui](https://forum.aspose.com/c/tasks/15).
-
-### È necessaria una licenza temporanea per usare Aspose.Tasks?
-Sebbene tu possa usare Aspose.Tasks senza licenza, una licenza temporanea può sbloccare funzionalità aggiuntive. Puoi ottenere una licenza temporanea da [qui](https://purchase.aspose.com/temporary-license/).
-
 ## Domande frequenti
 **Q: Come aggiungere più risorse in una sola volta?**  
 A: Chiama `project.getResources().add("Resource1");`, poi ripeti per ogni risorsa aggiuntiva, oppure itera su una collezione di nomi di risorse.
@@ -106,13 +90,6 @@ A: Sì—Aspose.Tasks può salvare in .xml, .pdf, .xlsx e altri formati supporta
 **Q: Quale versione di Aspose.Tasks è necessaria per questo codice?**  
 A: Il codice funziona con tutte le versioni recenti; lo abbiamo testato con Aspose.Tasks 24.x per Java.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-13  
@@ -120,3 +97,10 @@ A: Il codice funziona con tutte le versioni recenti; lo abbiamo testato con Aspo
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

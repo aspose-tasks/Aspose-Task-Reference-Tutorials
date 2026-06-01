@@ -92,22 +92,6 @@ Al examinar los valores de costo y trabajo extra, puede identificar recursos que
 Gestionar eficazmente el **tiempo extra** para los recursos de MS Project es esencial para el éxito del proyecto. Con Aspose.Tasks for Java, obtiene un control preciso sobre los datos de tiempo extra, lo que le permite **optimizar la utilización de recursos**, reducir costos innecesarios y mantener los cronogramas realistas.
 
 ## Preguntas frecuentes
-### ¿Puedo gestionar el tiempo extra solo para recursos específicos?
-Sí, puede personalizar el código para gestionar el tiempo extra para recursos específicos según los requisitos de su proyecto.
-
-### ¿Es Aspose.Tasks for Java compatible con todas las versiones de archivos de MS Project?
-Aspose.Tasks for Java admite diversas versiones de archivos de MS Project, garantizando compatibilidad e integración sin problemas.
-
-### ¿Puedo automatizar tareas de gestión de tiempo extra usando Aspose.Tasks?
-¡Absolutamente! Aspose.Tasks proporciona APIs robustas para automatizar tareas de gestión de tiempo extra, optimizando su proceso de gestión de proyectos.
-
-### ¿Aspose.Tasks for Java ofrece soporte técnico?
-Sí, Aspose.Tasks brinda soporte técnico integral a través de su foro. Puede acceder al foro de soporte [aquí](https://forum.aspose.com/c/tasks/15).
-
-### ¿Puedo probar Aspose.Tasks for Java antes de comprar?
-Sí, puede explorar Aspose.Tasks for Java con una prueba gratuita. Descargue la versión de prueba [aquí](https://releases.aspose.com/).
-
-## Preguntas frecuentes
 **Q: ¿Cómo calculo el costo total de tiempo extra para todo el proyecto?**  
 A: Itere a través de todos los recursos, sume los valores devueltos por `res.get(Rsc.OVERTIME_COST)` y agregue el resultado.
 

@@ -99,13 +99,6 @@ for (Resource res : prj.getResources()) {
 ### Aspose.Tasks가 개발자를 위한 지원 및 문서를 제공합니까?
 제품에는 포괄적인 API 문서, 코드 샘플 및 빠른 지원을 위한 전용 포럼이 포함되어 있습니다.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-13  
@@ -113,3 +106,10 @@ for (Resource res : prj.getResources()) {
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

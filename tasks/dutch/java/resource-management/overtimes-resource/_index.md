@@ -90,22 +90,6 @@ Door de overuur‑kosten en werkwaarden te onderzoeken, kun je resources identif
 Effectief **overuren beheren** voor MS Project‑resources is essentieel voor projectsucces. Met Aspose.Tasks voor Java krijg je nauwkeurige controle over overuurgegevens, waardoor je **resource‑benutting kunt optimaliseren**, onnodige kosten kunt verminderen en planningen realistisch kunt houden.
 
 ## Veelgestelde vragen
-### Kan ik overuren alleen voor specifieke resources beheren?
-Ja, je kunt de code aanpassen om overuren alleen voor specifieke resources te beheren op basis van je projectvereisten.
-
-### Is Aspose.Tasks voor Java compatibel met alle versies van MS Project‑bestanden?
-Aspose.Tasks voor Java ondersteunt verschillende versies van MS Project‑bestanden, waardoor compatibiliteit en naadloze integratie gegarandeerd zijn.
-
-### Kan ik overuur‑beheertaken automatiseren met Aspose.Tasks?
-Absoluut! Aspose.Tasks biedt robuuste API’s om overuur‑beheertaken te automatiseren, waardoor je projectmanagementproces wordt gestroomlijnd.
-
-### Biedt Aspose.Tasks voor Java technische ondersteuning?
-Ja, Aspose.Tasks biedt uitgebreide technische ondersteuning via het forum. Je kunt het ondersteuningsforum [hier](https://forum.aspose.com/c/tasks/15) bereiken.
-
-### Kan ik Aspose.Tasks voor Java uitproberen voordat ik koop?
-Ja, je kunt Aspose.Tasks voor Java verkennen met een gratis proefversie. Download de proefversie [hier](https://releases.aspose.com/).
-
-## Veelgestelde vragen
 **Q: Hoe bereken ik de totale overuurkosten voor het hele project?**  
 **A:** Iterate door alle resources, som de waarden op die worden geretourneerd door `res.get(Rsc.OVERTIME_COST)`, en aggregeer het resultaat.
 

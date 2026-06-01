@@ -96,13 +96,6 @@ Természetesen. Az API lehetővé teszi egyedi mezők hozzáadását, módosít�
 ### Nyújt-e az Aspose.Tasks fejlesztőknek támogatást és dokumentációt?
 A termék átfogó API dokumentációt, kódmintákat és egy dedikált támogatási fórumot tartalmaz a gyors segítségnyújtáshoz.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Utolsó frissítés:** 2026-01-13  
@@ -110,3 +103,10 @@ A termék átfogó API dokumentációt, kódmintákat és egy dedikált támogat
 **Szerző:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

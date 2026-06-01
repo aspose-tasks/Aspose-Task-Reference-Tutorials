@@ -95,13 +95,6 @@ for (Resource res : prj.getResources()) {
 ### Aspose.Tasks 为开发者提供支持和文档吗？
 该产品包含全面的 API 文档、代码示例以及专门的支持论坛，提供快速帮助。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-13  
@@ -109,3 +102,10 @@ for (Resource res : prj.getResources()) {
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

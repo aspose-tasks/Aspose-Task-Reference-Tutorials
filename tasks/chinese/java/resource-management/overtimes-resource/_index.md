@@ -90,22 +90,6 @@ if (res.get(Rsc.NAME) != null) {
 ## 结论
 有效**管理加班**对于 MS Project 资源的项目成功至关重要。使用 Aspose.Tasks for Java，您可以精确控制加班数据，从而**优化资源利用率**，降低不必要的成本，并保持进度的现实性。
 
-## 常见问题
-### 我可以仅为特定资源管理加班吗？
-是的，您可以根据项目需求自定义代码，以仅为特定资源管理加班。
-
-### Aspose.Tasks for Java 是否兼容所有版本的 MS Project 文件？
-Aspose.Tasks for Java 支持多种版本的 MS Project 文件，确保兼容性和无缝集成。
-
-### 我可以使用 Aspose.Tasks 自动化加班管理任务吗？
-当然！Aspose.Tasks 提供强大的 API 来自动化加班管理任务，简化您的项目管理流程。
-
-### Aspose.Tasks for Java 是否提供技术支持？
-是的，Aspose.Tasks 通过其论坛提供全面的技术支持。您可以在[这里](https://forum.aspose.com/c/tasks/15)访问支持论坛。
-
-### 我可以在购买前试用 Aspose.Tasks for Java 吗？
-是的，您可以通过免费试用来体验 Aspose.Tasks for Java。下载试用版[这里](https://releases.aspose.com/)。
-
 ## 常见问答
 **问：如何计算整个项目的总加班成本？**  
 答：遍历所有资源，累计 `res.get(Rsc.OVERTIME_COST)` 返回的值，并汇总结果。

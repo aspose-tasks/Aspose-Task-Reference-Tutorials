@@ -95,13 +95,6 @@ for (Resource res : prj.getResources()) {
 ### Aspose.Tasks は開発者向けのサポートやドキュメントを提供していますか？
 製品には包括的な API ドキュメント、コードサンプル、迅速な支援が受けられる専用サポートフォーラムが含まれています。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最終更新日:** 2026-01-13  
@@ -109,3 +102,10 @@ for (Resource res : prj.getResources()) {
 **作者:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

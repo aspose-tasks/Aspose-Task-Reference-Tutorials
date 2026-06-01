@@ -76,23 +76,6 @@ Resource resource = project.getResources().add("ResourceName");
 ## 结论
 您现在已经学习了如何使用 Aspose.Tasks for Java **将资源添加到项目**。这种简单的编程方法让您能够规模化管理资源、自动化项目更新，并将 Microsoft Project 数据集成到您自己的应用程序中。
 
-## 常见问题
-
-### 我可以使用 Aspose.Tasks 操作 MS Project 文件的其他方面吗？
-是的，Aspose.Tasks 提供了广泛的功能，可在 MS Project 文件中操作任务、资源、日历等。
-
-### Aspose.Tasks 适合企业级应用吗？
-当然！Aspose.Tasks 旨在通过其强大的功能和卓越的性能满足企业级应用的需求。
-
-### 我可以在购买前试用 Aspose.Tasks 吗？
-是的，您可以从[此处](https://releases.aspose.com/)下载 Aspose.Tasks 免费试用版。
-
-### 我在哪里可以找到 Aspose.Tasks 的支持？
-您可以在 Aspose.Tasks 论坛[此处](https://forum.aspose.com/c/tasks/15)获取支持和帮助。
-
-### 我需要临时许可证才能使用 Aspose.Tasks 吗？
-虽然您可以在没有许可证的情况下使用 Aspose.Tasks，但临时许可证可以解锁额外的功能和特性。您可以从[此处](https://purchase.aspose.com/temporary-license/)获取临时许可证。
-
 ## 常见问答
 
 **问：如何一次性添加多个资源？**  
@@ -112,17 +95,15 @@ Resource resource = project.getResources().add("ResourceName");
 
 ---
 
+**最后更新：** 2026-01-13  
+**测试环境：** Aspose.Tasks for Java 24.x (latest at time of writing)  
+**作者：** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2026-01-13  
-**测试环境：** Aspose.Tasks for Java 24.x (latest at time of writing)  
-**作者：** Aspose  
-
----

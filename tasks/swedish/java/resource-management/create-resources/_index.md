@@ -76,22 +76,6 @@ Resource resource = project.getResources().add("ResourceName");
 ## Slutsats
 Du har nu lärt dig hur du **lägger till resurs i projekt** med Aspose.Tasks för Java. Detta enkla, programatiska tillvägagångssätt låter dig hantera resurser i stor skala, automatisera projektuppdateringar och integrera Microsoft Project‑data i dina egna applikationer.
 
-## Vanliga frågor
-### Kan jag manipulera andra aspekter av MS Project‑filer med Aspose.Tasks?
-Ja, Aspose.Tasks erbjuder ett brett utbud av funktioner för att manipulera uppgifter, resurser, kalendrar och mer i MS Project‑filer.
-
-### Är Aspose.Tasks lämpligt för företagsapplikationer?
-Absolut! Aspose.Tasks är designat för att möta kraven i företagsapplikationer med sina robusta funktioner och utmärkta prestanda.
-
-### Kan jag prova Aspose.Tasks innan jag köper?
-Ja, du kan ladda ner en gratis provversion av Aspose.Tasks från [here](https://releases.aspose.com/).
-
-### Var kan jag hitta support för Aspose.Tasks?
-Du kan hitta support och hjälp på Aspose.Tasks‑forumet [here](https://forum.aspose.com/c/tasks/15).
-
-### Behöver jag en tillfällig licens för att använda Aspose.Tasks?
-Även om du kan använda Aspose.Tasks utan licens, kan en tillfällig licens låsa upp ytterligare funktioner och möjligheter. Du kan skaffa en tillfällig licens från [here](https://purchase.aspose.com/temporary-license/).
-
 ## Vanliga frågor och svar
 **Q: Hur lägger jag till flera resurser på en gång?**  
 A: Anropa `project.getResources().add("Resource1");`, upprepa sedan för varje ytterligare resurs, eller loopa över en samling av resursnamn.
@@ -110,15 +94,15 @@ A: Koden fungerar med alla senaste versioner; vi testade den med Aspose.Tasks 24
 
 ---
 
+**Senast uppdaterad:** 2026-01-13  
+**Testad med:** Aspose.Tasks för Java 24.x (senaste vid skrivtillfället)  
+**Författare:** Aspose
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2026-01-13  
-**Testad med:** Aspose.Tasks för Java 24.x (senaste vid skrivtillfället)  
-**Författare:** Aspose

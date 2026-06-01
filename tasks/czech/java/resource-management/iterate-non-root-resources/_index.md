@@ -94,15 +94,15 @@ Určitě. API vám umožní přidávat, upravovat nebo mazat vlastní pole u úk
 ### Poskytuje Aspose.Tasks podporu a dokumentaci pro vývojáře?
 Produkt zahrnuje rozsáhlou API dokumentaci, ukázkové kódy a vyhrazené fórum podpory pro rychlou pomoc.
 
+---
+
+**Poslední aktualizace:** 2026-01-13  
+**Testováno s:** Aspose.Tasks for Java 24.12  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2026-01-13  
-**Testováno s:** Aspose.Tasks for Java 24.12  
-**Autor:** Aspose

@@ -74,22 +74,6 @@ Resource resource = project.getResources().add("ResourceName");
 ## Conclusion
 You’ve now learned how to **add resource to project** using Aspose.Tasks for Java. This simple, programmatic approach lets you manage resources at scale, automate project updates, and integrate Microsoft Project data into your own applications.
 
-## FAQ's
-### Can I manipulate other aspects of MS Project files using Aspose.Tasks?
-Yes, Aspose.Tasks provides a wide range of functionalities to manipulate tasks, resources, calendars, and more in MS Project files.
-
-### Is Aspose.Tasks suitable for enterprise‑level applications?
-Absolutely! Aspose.Tasks is designed to meet the demands of enterprise‑level applications with its robust features and excellent performance.
-
-### Can I try Aspose.Tasks before purchasing?
-Yes, you can download a free trial of Aspose.Tasks from [here](https://releases.aspose.com/).
-
-### Where can I find support for Aspose.Tasks?
-You can find support and assistance on the Aspose.Tasks forum [here](https://forum.aspose.com/c/tasks/15).
-
-### Do I need a temporary license to use Aspose.Tasks?
-While you can use Aspose.Tasks without a license, a temporary license can unlock additional features and functionalities. You can obtain a temporary license from [here](https://purchase.aspose.com/temporary-license/).
-
 ## Frequently Asked Questions
 **Q: How do I add multiple resources in one go?**  
 A: Call `project.getResources().add("Resource1");`, then repeat for each additional resource, or loop over a collection of resource names.
@@ -108,17 +92,15 @@ A: The code works with all recent versions; we tested it with Aspose.Tasks 24.x 
 
 ---
 
+**Last Updated:** 2026-01-13  
+**Tested With:** Aspose.Tasks for Java 24.x (latest at time of writing)  
+**Author:** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-13  
-**Tested With:** Aspose.Tasks for Java 24.x (latest at time of writing)  
-**Author:** Aspose  
-
----

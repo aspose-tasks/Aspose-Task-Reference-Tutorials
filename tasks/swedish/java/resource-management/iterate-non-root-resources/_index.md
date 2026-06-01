@@ -96,13 +96,6 @@ Definitivt. API‑et låter dig lägga till, ändra eller ta bort anpassade fäl
 ### Tillhandahåller Aspose.Tasks support och dokumentation för utvecklare?
 Produkten innehåller omfattande API‑dokumentation, kodexempel och ett dedikerat supportforum för snabb hjälp.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Senast uppdaterad:** 2026-01-13  
@@ -110,3 +103,10 @@ Produkten innehåller omfattande API‑dokumentation, kodexempel och ett dediker
 **Författare:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

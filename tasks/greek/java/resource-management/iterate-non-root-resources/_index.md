@@ -96,15 +96,15 @@ for (Resource res : prj.getResources()) {
 ### Παρέχει το Aspose.Tasks υποστήριξη και τεκμηρίωση για προγραμματιστές;
 Το προϊόν περιλαμβάνει ολοκληρωμένη τεκμηρίωση API, παραδείγματα κώδικα και ένα αφιερωμένο φόρουμ υποστήριξης για γρήγορη βοήθεια.
 
+---
+
+**Τελευταία Ενημέρωση:** 2026-01-13  
+**Δοκιμάστηκε Με:** Aspose.Tasks for Java 24.12  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2026-01-13  
-**Δοκιμάστηκε Με:** Aspose.Tasks for Java 24.12  
-**Συγγραφέας:** Aspose

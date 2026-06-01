@@ -89,22 +89,6 @@ Bằng cách xem xét các giá trị chi phí và công việc làm thêm, bạ
 ## Kết luận
 Quản lý **thời gian làm thêm** một cách hiệu quả cho các tài nguyên MS Project là yếu tố then chốt cho thành công của dự án. Với Aspose.Tasks cho Java, bạn có được kiểm soát chính xác dữ liệu thời gian làm thêm, cho phép **tối ưu hóa việc sử dụng tài nguyên**, giảm chi phí không cần thiết và giữ lịch trình thực tế.
 
-## Câu hỏi thường gặp
-### Tôi có thể quản lý thời gian làm thêm cho các tài nguyên cụ thể chỉ không?
-Đúng, bạn có thể tùy chỉnh mã để quản lý thời gian làm thêm cho các tài nguyên cụ thể dựa trên yêu cầu dự án của bạn.
-
-### Aspose.Tasks cho Java có tương thích với mọi phiên bản tệp MS Project không?
-Aspose.Tasks cho Java hỗ trợ nhiều phiên bản tệp MS Project, đảm bảo tính tương thích và tích hợp liền mạch.
-
-### Tôi có thể tự động hoá các nhiệm vụ quản lý thời gian làm thêm bằng Aspose.Tasks không?
-Chắc chắn! Aspose.Tasks cung cấp các API mạnh mẽ để tự động hoá các nhiệm vụ quản lý thời gian làm thêm, giúp đơn giản hoá quy trình quản lý dự án của bạn.
-
-### Aspose.Tasks cho Java có cung cấp hỗ trợ kỹ thuật không?
-Có, Aspose.Tasks cung cấp hỗ trợ kỹ thuật toàn diện thông qua diễn đàn của mình. Bạn có thể truy cập diễn đàn hỗ trợ [tại đây](https://forum.aspose.com/c/tasks/15).
-
-### Tôi có thể dùng thử Aspose.Tasks cho Java trước khi mua không?
-Có, bạn có thể khám phá Aspose.Tasks cho Java với bản dùng thử miễn phí. Tải phiên bản dùng thử [tại đây](https://releases.aspose.com/).
-
 ## Các Câu Hỏi Thường Gặp
 **Q: Làm thế nào để tính tổng chi phí thời gian làm thêm cho toàn bộ dự án?**  
 A: Hãy duyệt qua tất cả các tài nguyên, cộng các giá trị trả về bởi `res.get(Rsc.OVERTIME_COST)`, và tổng hợp kết quả.

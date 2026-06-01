@@ -95,13 +95,6 @@ Definitely. The API lets you add, modify, or delete custom fields on tasks, reso
 ### Does Aspose.Tasks provide support and documentation for developers?
 The product includes comprehensive API docs, code samples, and a dedicated support forum for quick assistance.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-13  
@@ -109,3 +102,10 @@ The product includes comprehensive API docs, code samples, and a dedicated suppo
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -96,15 +96,15 @@ Certamente. L'API ti permette di aggiungere, modificare o eliminare campi person
 ### Fornisce Aspose.Tasks supporto e documentazione per gli sviluppatori?
 Il prodotto include documentazione API completa, esempi di codice e un forum di supporto dedicato per assistenza rapida.
 
+---
+
+**Last Updated:** 2026-01-13  
+**Tested With:** Aspose.Tasks for Java 24.12  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-13  
-**Tested With:** Aspose.Tasks for Java 24.12  
-**Author:** Aspose

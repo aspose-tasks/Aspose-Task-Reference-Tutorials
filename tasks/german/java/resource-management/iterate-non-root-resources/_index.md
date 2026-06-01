@@ -96,15 +96,15 @@ Definitiv. Die API ermöglicht das Hinzufügen, Ändern oder Löschen benutzerde
 ### Bietet Aspose.Tasks Support und Dokumentation für Entwickler?
 Das Produkt enthält umfassende API‑Dokumentation, Code‑Beispiele und ein dediziertes Support‑Forum für schnelle Hilfe.
 
+---
+
+**Zuletzt aktualisiert:** 2026-01-13  
+**Getestet mit:** Aspose.Tasks for Java 24.12  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Zuletzt aktualisiert:** 2026-01-13  
-**Getestet mit:** Aspose.Tasks for Java 24.12  
-**Autor:** Aspose

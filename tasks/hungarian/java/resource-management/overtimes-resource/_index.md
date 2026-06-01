@@ -89,22 +89,6 @@ A túlóra költség‑ és munkamennyiség értékeinek vizsgálatával azonos�
 ## Következtetés
 A MS Project erőforrások **túlórájának hatékony kezelése** elengedhetetlen a projekt sikeréhez. Az Aspose.Tasks for Java pontos irányítást biztosít a túlóra adatok felett, lehetővé téve a **erőforrás‑kihasználás optimalizálását**, a felesleges költségek csökkentését és a menetrendek reális megtartását.
 
-## Gyakran ismételt kérdések
-### Kezelhetek túlórákat csak meghatározott erőforrásokhoz?
-Igen, a kód testreszabásával a projekt követelményei szerint csak bizonyos erőforrások túlóráit kezelheted.
-
-### Az Aspose.Tasks for Java kompatibilis minden MS Project fájl verzióval?
-Az Aspose.Tasks for Java különböző MS Project fájl verziókat támogat, biztosítva a kompatibilitást és a zökkenőmentes integrációt.
-
-### Automatizálhatom a túlóra kezelési feladatokat az Aspose.Tasks használatával?
-Természetesen! Az Aspose.Tasks robusztus API‑kat kínál a túlóra kezelési feladatok automatizálásához, egyszerűsítve a projektmenedzsment folyamatát.
-
-### Nyújt technikai támogatást az Aspose.Tasks for Java?
-Igen, az Aspose.Tasks átfogó technikai támogatást biztosít a fórumán. A támogatási fórumot [itt](https://forum.aspose.com/c/tasks/15) érheted el.
-
-### Kipróbálhatom az Aspose.Tasks for Java-t vásárlás előtt?
-Igen, ingyenes próba verzióval felfedezheted az Aspose.Tasks for Java‑t. A próba verzió letöltése [itt](https://releases.aspose.com/).
-
 ## Gyakran feltett kérdések
 **Q: Hogyan számolom ki a teljes projekt túlóra költségét?**  
 A: Iterálj végig minden erőforráson, add össze a `res.get(Rsc.OVERTIME_COST)` által visszaadott értékeket, és aggregáld az eredményt.

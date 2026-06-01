@@ -15,10 +15,10 @@ weight: 11
 
 # MS Project で Aspose.Tasks を使用してカスタム属性を作成する方法
 
-## Introduction
+## はじめに
 このチュートリアルでは、**Aspose.Tasks for Java** を使用して Microsoft Project ファイルのリソースに対するカスタム属性の作成方法を学びます。Microsoft Project ファイルの読み込み、数値属性の定義、値の設定、そして XML としてプロジェクトを保存する手順を順に解説します。最後まで実践できるサンプルが得られ、独自のプロジェクト管理ソリューションに応用できます。
 
-## Quick Answers
+## よくある質問
 - **“カスタム属性” とは何ですか？**  
   ユーザーが定義するフィールドで、リソースやタスクに対して余分な情報（例: 年齢、スキルレベル）を保存できます。  
 - **どのライブラリがこれを扱いますか？**  
@@ -30,24 +30,24 @@ weight: 11
 - **プロジェクトはどのように保存しますか？**  
   変更後のファイルは `SaveFileFormat.Xml` を使用して XML として保存できます。
 
-## What is a Custom Attribute?
+## カスタム属性とは？
 **カスタム属性**（拡張属性とも呼ばれます）は、Microsoft Project のリソースやタスクに追加できる列です。組み込みフィールドではカバーできない情報（従業員の年齢、認定レベル、ビジネス固有の指標など）を取得するために使用します。
 
-## Why Create a Custom Attribute in MS Project?
+## MS Projectでカスタム属性を作成する理由
 - **組織のニーズに合わせてプロジェクトデータをカスタマイズ**  
 - **高度なレポート作成を可能にする**（後でクエリできる値を保存）  
 - **複数プロジェクト間で一貫性を維持**（同じ属性定義をプログラムで適用）
 
-## Prerequisites
+## 前提条件
 開始する前に以下を用意してください。
 
 1. **Java 開発環境** – JDK 8 以上がインストールされていること。  
 2. **Aspose.Tasks for Java** – 最新バージョンを [here](https://releases.aspose.com/tasks/java/) からダウンロード。  
 3. **IDE** – Eclipse、IntelliJ IDEA、または任意の Java 対応 IDE。
 
-## Step‑by‑Step Guide
+## ステップバイステップガイド
 
-### Import Packages
+### パッケージのインポート
 まず、必要な Aspose.Tasks クラスをインポートします。これらはプロジェクト、リソース、拡張属性の操作に必須です。
 
 ```java
@@ -61,21 +61,21 @@ import com.aspose.tasks.SaveFileFormat;
 import java.math.BigDecimal;
 ```
 
-### Step 1: Define Data Directory
+### ステップ 1: データディレクトリの定義
 ソースのプロジェクトファイルがあるフォルダーと、出力先フォルダーを設定します。
 
 ```java
 String dataDir = "Your Data Directory";
 ```
 
-### Step 2: Load Microsoft Project File
+### ステップ 2: Microsoft Project ファイルの読み込み
 既存ファイルを読み込んで `Project` インスタンスを作成します。これが **Microsoft プロジェクトファイルのロード** 手順で、ファイル内容全体にアクセスできるようになります。
 
 ```java
 Project prj = new Project(dataDir + "ResourceWithExtAttribs.xml");
 ```
 
-### Step 3: Define the Custom Attribute
+### ステップ 3: カスタム属性の定義
 数値属性 **Age** を新規定義します。API は定義が既に存在するか確認し、存在しなければ作成します。
 
 ```java
@@ -86,7 +86,7 @@ if (myNumber1 == null) {
 }
 ```
 
-### Step 4: Set Numeric Value in Java
+### ステップ 4: Java で数値を設定
 特定のリソース用に属性インスタンスを作成し、`setNumericValue` で数値を設定します。これが **set numeric value java** の実例です。
 
 ```java
@@ -94,7 +94,7 @@ ExtendedAttribute number1Resource = myNumber1.createExtendedAttribute();
 number1Resource.setNumericValue(BigDecimal.valueOf(30.5345));
 ```
 
-### Step 5: Add Resource and Attach the Custom Attribute
+### ステップ 5: リソースの追加とカスタム属性の割り当て
 新しいリソース **R1** を追加し、先ほど作成したカスタム属性を紐付けます。
 
 ```java
@@ -102,14 +102,14 @@ Resource rsc = prj.getResources().add("R1");
 rsc.getExtendedAttributes().add(number1Resource);
 ```
 
-### Step 6: Save Project as XML
+### ステップ 6: プロジェクトを XML 形式で保存
 変更を永続化するためにプロジェクトを保存します。これは **save project as xml** 手順で、更新されたファイルをクリーンな XML 形式で出力します。
 
 ```java
 prj.save(dataDir + "project5.xml", SaveFileFormat.Xml);
 ```
 
-### Step 7: Display Result
+### ステップ 7: 結果の表示
 処理がエラーなく完了したことを示すメッセージを出力します。
 
 ```java
@@ -118,12 +118,12 @@ System.out.println("Process completed Successfully");
 
 これらの手順を実行することで、**カスタム属性の作成**、Microsoft Project ファイルの読み込み、Java での数値設定、そして XML 形式での保存が完了します。
 
-## Common Pitfalls & Tips
+## よくある落とし穴とヒント
 - **属性 ID の競合**: 新規定義を作成する前に必ず `getById` で既存を確認し、重複 ID を防止してください。  
 - **精度の取り扱い**: `BigDecimal` は小数点以下の精度を保持します。正確な値が必要な場合は `float` や `double` の使用を避けましょう。  
 - **ファイルパス**: 絶対パスを使用するか、IDE の作業ディレクトリを適切に設定して `FileNotFoundException` を回避してください。
 
-## Frequently Asked Questions
+## よくある質問
 
 **Q: タスクにもカスタム属性を作成できますか？**  
 A: はい – 属性定義時に `ExtendedAttributeTask` を使用すればタスク向けのカスタム属性が作れます。
@@ -140,7 +140,7 @@ A: 評価用の一時ライセンスで十分です。本番環境ではフル�
 **Q: 後でカスタム属性の値を取得するには？**  
 A: `resource.getExtendedAttributes()` で属性コレクションを取得し、`getNumericValue()` や `getTextValue()` で個々の値を読み取れます。
 
-## Conclusion
+## まとめ
 Aspose.Tasks for Java を使って Microsoft Project に **カスタム属性** を作成する手順は、プロジェクトの読み込み → 属性定義 → 値設定 → リソースへの紐付け → ファイル保存、という流れでシンプルです。この方法により、プロジェクトデータモデルをプログラムで拡張でき、レポートの充実や業務プロセスとの統合が容易になります。
 
 ---

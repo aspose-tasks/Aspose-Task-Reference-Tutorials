@@ -90,22 +90,6 @@ By examining the overtime cost and work values, you can identify resources that 
 ## Conclusion
 Effectively **managing overtime** for MS Project resources is essential for project success. With Aspose.Tasks for Java, you gain precise control over overtime data, enabling you to **optimize resource utilization**, reduce unnecessary costs, and keep schedules realistic.
 
-## FAQ's
-### Can I manage overtimes for specific resources only?
-Yes, you can customize the code to manage overtimes for specific resources based on your project requirements.
-
-### Is Aspose.Tasks for Java compatible with all versions of MS Project files?
-Aspose.Tasks for Java supports various versions of MS Project files, ensuring compatibility and seamless integration.
-
-### Can I automate overtime management tasks using Aspose.Tasks?
-Absolutely! Aspose.Tasks provides robust APIs to automate overtime management tasks, streamlining your project management process.
-
-### Does Aspose.Tasks for Java offer technical support?
-Yes, Aspose.Tasks provides comprehensive technical support through its forum. You can access the support forum [here](https://forum.aspose.com/c/tasks/15).
-
-### Can I try Aspose.Tasks for Java before purchasing?
-Yes, you can explore Aspose.Tasks for Java with a free trial. Download the trial version [here](https://releases.aspose.com/).
-
 ## Frequently Asked Questions
 **Q: How do I calculate total overtime cost for the whole project?**  
 A: Iterate through all resources, sum the values returned by `res.get(Rsc.OVERTIME_COST)`, and aggregate the result.

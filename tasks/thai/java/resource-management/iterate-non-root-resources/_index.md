@@ -96,15 +96,15 @@ for (Resource res : prj.getResources()) {
 ### Aspose.Tasks มีการสนับสนุนและเอกสารสำหรับนักพัฒนาหรือไม่?
 ผลิตภัณฑ์มาพร้อมกับเอกสาร API ครบถ้วน, ตัวอย่างโค้ด, และฟอรั่มสนับสนุนเฉพาะสำหรับการช่วยเหลืออย่างรวดเร็ว  
 
+---
+
+**อัปเดตล่าสุด:** 2026-01-13  
+**ทดสอบด้วย:** Aspose.Tasks for Java 24.12  
+**ผู้เขียน:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**อัปเดตล่าสุด:** 2026-01-13  
-**ทดสอบด้วย:** Aspose.Tasks for Java 24.12  
-**ผู้เขียน:** Aspose

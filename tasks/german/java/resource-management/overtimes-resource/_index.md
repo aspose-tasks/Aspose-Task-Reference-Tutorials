@@ -91,23 +91,6 @@ Durch die Untersuchung der Überstundenkosten und -arbeitswerte können Sie Ress
 ## Fazit
 Eine effektive **Verwaltung von Überstunden** für MS‑Project‑Ressourcen ist entscheidend für den Projekterfolg. Mit Aspose.Tasks für Java erhalten Sie präzise Kontrolle über Überstundendaten, wodurch Sie **die Ressourcenauslastung optimieren**, unnötige Kosten senken und Zeitpläne realistisch halten können.
 
-## FAQ
-
-### Kann ich Überstunden nur für bestimmte Ressourcen verwalten?
-Ja, Sie können den Code anpassen, um Überstunden für bestimmte Ressourcen basierend auf Ihren Projektanforderungen zu verwalten.
-
-### Ist Aspose.Tasks für Java mit allen Versionen von MS‑Project‑Dateien kompatibel?
-Aspose.Tasks für Java unterstützt verschiedene Versionen von MS‑Project‑Dateien und gewährleistet Kompatibilität sowie nahtlose Integration.
-
-### Kann ich Aufgaben zur Überstundenverwaltung mit Aspose.Tasks automatisieren?
-Absolut! Aspose.Tasks bietet robuste APIs, um Aufgaben der Überstundenverwaltung zu automatisieren und Ihren Projektmanagementprozess zu optimieren.
-
-### Bietet Aspose.Tasks für Java technischen Support?
-Ja, Aspose.Tasks bietet umfassenden technischen Support über sein Forum. Sie können das Support‑Forum [hier](https://forum.aspose.com/c/tasks/15) aufrufen.
-
-### Kann ich Aspose.Tasks für Java vor dem Kauf testen?
-Ja, Sie können Aspose.Tasks für Java mit einer kostenlosen Testversion ausprobieren. Laden Sie die Testversion [hier](https://releases.aspose.com/) herunter.
-
 ## Häufig gestellte Fragen
 **F: Wie berechne ich die gesamten Überstundenkosten für das gesamte Projekt?**  
 A: Durchlaufen Sie alle Ressourcen, summieren Sie die von `res.get(Rsc.OVERTIME_COST)` zurückgegebenen Werte und aggregieren Sie das Ergebnis.

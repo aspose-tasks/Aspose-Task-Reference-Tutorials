@@ -96,13 +96,6 @@ Définitivement. L’API vous permet d’ajouter, de modifier ou de supprimer de
 ### Aspose.Tasks fournit‑il un support et une documentation pour les développeurs ?
 Le produit comprend une documentation API exhaustive, des exemples de code et un forum de support dédié pour une assistance rapide.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Dernière mise à jour :** 2026-01-13  
@@ -110,3 +103,10 @@ Le produit comprend une documentation API exhaustive, des exemples de code et un
 **Auteur :** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

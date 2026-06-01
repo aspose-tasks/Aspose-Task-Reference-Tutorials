@@ -96,13 +96,6 @@ Oczywiście. API pozwala dodawać, modyfikować lub usuwać pola niestandardowe 
 ### Czy Aspose.Tasks zapewnia wsparcie i dokumentację dla programistów?
 Produkt zawiera obszerne dokumenty API, przykłady kodu oraz dedykowane forum wsparcia, aby szybko uzyskać pomoc.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Ostatnia aktualizacja:** 2026-01-13  
@@ -110,3 +103,10 @@ Produkt zawiera obszerne dokumenty API, przykłady kodu oraz dedykowane forum ws
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

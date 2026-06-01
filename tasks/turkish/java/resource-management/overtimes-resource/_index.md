@@ -91,22 +91,6 @@ Fazla mesai maliyet ve iş değerlerini inceleyerek sürekli aşırı tahsis edi
 ## Sonuç
 MS Project kaynakları için **faza mesaiyi etkili bir şekilde yönetmek**, proje başarısı için hayati öneme sahiptir. Aspose.Tasks for Java ile fazla mesai verileri üzerinde kesin kontrol elde eder, **kaynak kullanımını optimize eder**, gereksiz maliyetleri azaltır ve takvimlerin gerçekçi kalmasını sağlarsınız.
 
-## FAQ's
-### Sadece belirli kaynaklar için fazla mesai yönetebilir miyim?
-Evet, proje gereksinimlerinize göre belirli kaynaklar için fazla mesaiyi yönetmek üzere kodu özelleştirebilirsiniz.
-
-### Aspose.Tasks for Java, tüm MS Project dosya sürümleriyle uyumlu mu?
-Aspose.Tasks for Java, çeşitli MS Project dosya sürümlerini destekler; uyumluluk ve sorunsuz entegrasyon sağlar.
-
-### Aspose.Tasks kullanarak fazla mesai yönetim görevlerini otomatikleştirebilir miyim?
-Kesinlikle! Aspose.Tasks, fazla mesai yönetim görevlerini otomatikleştirmek için güçlü API'ler sunar ve proje yönetim sürecinizi kolaylaştırır.
-
-### Aspose.Tasks for Java teknik destek sağlıyor mu?
-Evet, Aspose.Tasks forumu üzerinden kapsamlı teknik destek sunar. Destek forumuna [buradan](https://forum.aspose.com/c/tasks/15) erişebilirsiniz.
-
-### Satın almadan önce Aspose.Tasks for Java'ı deneyebilir miyim?
-Evet, Aspose.Tasks for Java'ı ücretsiz deneme sürümüyle keşfedebilirsiniz. Deneme sürümünü [buradan](https://releases.aspose.com/) indirebilirsiniz.
-
 ## Sık Sorulan Sorular
 **S: Tüm proje için toplam fazla mesai maliyetini nasıl hesaplarım?**  
 C: Tüm kaynaklar üzerinde döngü yapın, `res.get(Rsc.OVERTIME_COST)` tarafından döndürülen değerleri toplayın ve sonucu birleştirin.

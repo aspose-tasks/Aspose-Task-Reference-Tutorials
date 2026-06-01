@@ -77,22 +77,6 @@ Resource resource = project.getResources().add("ResourceName");
 Τώρα έχετε μάθει πώς να **προσθέσετε πόρο σε έργο** χρησιμοποιώντας το Aspose.Tasks για Java. Αυτή η απλή, προγραμματιστική προσέγγιση σας επιτρέπει να διαχειρίζεστε πόρους σε μεγάλη κλίμακα, να αυτοματοποιείτε ενημερώσεις έργων και να ενσωματώνετε δεδομένα Microsoft Project στις δικές σας εφαρμογές.
 
 ## Συχνές Ερωτήσεις
-### Μπορώ να χειριστώ άλλες πτυχές των αρχείων MS Project χρησιμοποιώντας το Aspose.Tasks;
-Ναι, το Aspose.Tasks παρέχει ένα ευρύ φάσμα λειτουργιών για τη διαχείριση εργασιών, πόρων, ημερολογίων και άλλων σε αρχεία MS Project.
-
-### Είναι το Aspose.Tasks κατάλληλο για εφαρμογές επιχειρησιακού επιπέδου;
-Απολύτως! Το Aspose.Tasks έχει σχεδιαστεί ώστε να καλύπτει τις απαιτήσεις εφαρμογών επιχειρησιακού επιπέδου με τις ισχυρές του δυνατότητες και εξαιρετική απόδοση.
-
-### Μπορώ να δοκιμάσω το Aspose.Tasks πριν από την αγορά;
-Ναι, μπορείτε να κατεβάσετε μια δωρεάν δοκιμή του Aspose.Tasks από [εδώ](https://releases.aspose.com/).
-
-### Πού μπορώ να βρω υποστήριξη για το Aspose.Tasks;
-Μπορείτε να βρείτε υποστήριξη και βοήθεια στο φόρουμ Aspose.Tasks [εδώ](https://forum.aspose.com/c/tasks/15).
-
-### Χρειάζομαι προσωρινή άδεια για να χρησιμοποιήσω το Aspose.Tasks;
-Αν και μπορείτε να χρησιμοποιήσετε το Aspose.Tasks χωρίς άδεια, μια προσωρινή άδεια μπορεί να ξεκλειδώσει πρόσθετες λειτουργίες και δυνατότητες. Μπορείτε να αποκτήσετε μια προσωρινή άδεια από [εδώ](https://purchase.aspose.com/temporary-license/).
-
-## Συχνές Ερωτήσεις
 **Ε: Πώς μπορώ να προσθέσω πολλαπλούς πόρους ταυτόχρονα;**  
 Α: Καλείτε `project.getResources().add("Resource1");`, έπειτα επαναλάβετε για κάθε επιπλέον πόρο, ή κάντε βρόχο πάνω σε μια συλλογή ονομάτων πόρων.
 
@@ -108,15 +92,15 @@ Resource resource = project.getResources().add("ResourceName");
 **Ε: Ποια έκδοση του Aspose.Tasks απαιτείται για αυτόν τον κώδικα;**  
 Α: Ο κώδικας λειτουργεί με όλες τις πρόσφατες εκδόσεις· το δοκιμάσαμε με το Aspose.Tasks 24.x για Java.
 
+---
+
+**Last Updated:** 2026-01-13  
+**Tested With:** Aspose.Tasks for Java 24.x (latest at time of writing)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-13  
-**Tested With:** Aspose.Tasks for Java 24.x (latest at time of writing)  
-**Author:** Aspose

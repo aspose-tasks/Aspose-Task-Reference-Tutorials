@@ -92,22 +92,6 @@ Prozkoumáním hodnot nákladů a práce na přesčasech můžete identifikovat 
 Efektivní **správa přesčasů** pro zdroje MS Project je klíčová pro úspěch projektu. S Aspose.Tasks pro Java získáte přesnou kontrolu nad daty o přesčasech, což vám umožní **optimalizovat využití zdrojů**, snížit zbytečné náklady a udržet realistické harmonogramy.
 
 ## Často kladené otázky
-### Mohu spravovat přesčasy pouze pro konkrétní zdroje?
-Ano, můžete přizpůsobit kód tak, aby spravoval přesčasy jen pro specifické zdroje podle požadavků vašeho projektu.
-
-### Je Aspose.Tasks pro Java kompatibilní se všemi verzemi souborů MS Project?
-Aspose.Tasks pro Java podporuje různé verze souborů MS Project, což zajišťuje kompatibilitu a bezproblémovou integraci.
-
-### Mohu automatizovat úkoly správy přesčasů pomocí Aspose.Tasks?
-Rozhodně! Aspose.Tasks poskytuje robustní API pro automatizaci úkolů správy přesčasů, což zjednodušuje proces řízení projektu.
-
-### Poskytuje Aspose.Tasks pro Java technickou podporu?
-Ano, Aspose.Tasks nabízí komplexní technickou podporu prostřednictvím svého fóra. Přístup na fórum získáte [zde](https://forum.aspose.com/c/tasks/15).
-
-### Mohu vyzkoušet Aspose.Tasks pro Java před zakoupením?
-Ano, můžete si vyzkoušet Aspose.Tasks pro Java pomocí bezplatné zkušební verze. Stáhněte si zkušební verzi [zde](https://releases.aspose.com/).
-
-## Často kladené otázky
 **Q: Jak vypočítat celkové náklady na přesčasy pro celý projekt?**  
 **A:** Projděte všechny zdroje, sečtěte hodnoty vrácené `res.get(Rsc.OVERTIME_COST)` a agregujte výsledek.
 

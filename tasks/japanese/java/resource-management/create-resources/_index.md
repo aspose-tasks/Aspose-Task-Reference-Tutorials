@@ -73,22 +73,6 @@ Resource resource = project.getResources().add("ResourceName");
 ## 結論
 これで Aspose.Tasks for Java を使用して **add resource to project** を行う方法を学びました。このシンプルなプログラム的アプローチにより、リソースを大規模に管理し、プロジェクトの更新を自動化し、Microsoft Project データを自分のアプリケーションに統合できます。
 
-## FAQ
-### Aspose.Tasks を使用して MS Project ファイルの他の側面を操作できますか？
-はい、Aspose.Tasks は MS Project ファイル内のタスク、リソース、カレンダーなどを操作する幅広い機能を提供します。
-
-### Aspose.Tasks はエンタープライズレベルのアプリケーションに適していますか？
-もちろんです！Aspose.Tasks は堅牢な機能と優れたパフォーマンスでエンタープライズレベルのアプリケーションの要求に応えるよう設計されています。
-
-### 購入前に Aspose.Tasks を試すことはできますか？
-はい、[here](https://releases.aspose.com/) から Aspose.Tasks の無料トライアルをダウンロードできます。
-
-### Aspose.Tasks のサポートはどこで得られますか？
-サポートや支援は Aspose.Tasks フォーラム [here](https://forum.aspose.com/c/tasks/15) で見つけられます。
-
-### Aspose.Tasks を使用するのに一時ライセンスは必要ですか？
-ライセンスなしでも Aspose.Tasks は使用できますが、一時ライセンスを使用すると追加機能や機能が有効になります。 一時ライセンスは [here](https://purchase.aspose.com/temporary-license/) から取得できます。
-
 ## よくある質問
 **Q: 一度に複数のリソースを追加するにはどうすればよいですか？**  
 A: `project.getResources().add("Resource1");` を呼び出し、追加のリソースごとに繰り返すか、リソース名のコレクションをループしてください。
@@ -105,13 +89,6 @@ A: はい。Aspose.Tasks は .xml、.pdf、.xlsx など、API がサポートす
 **Q: このコードに必要な Aspose.Tasks のバージョンは何ですか？**  
 A: このコードはすべての最新バージョンで動作します。Java 用 Aspose.Tasks 24.x でテストしました。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最終更新日:** 2026-01-13  
@@ -119,3 +96,10 @@ A: このコードはすべての最新バージョンで動作します。Java 
 **作者:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

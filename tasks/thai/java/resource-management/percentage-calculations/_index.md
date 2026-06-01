@@ -16,32 +16,36 @@ weight: 14
 # คำนวณเปอร์เซ็นต์ทรัพยากรใน Java ด้วย Aspose.Tasks
 
 ## บทนำ
-Welcome! In this tutorial you’ll learn **how to calculate resource percentage java** using the Aspose.Tasks library for Java. We’ll walk through extracting the *percent work complete* for each resource in a Microsoft Project file, explain why this metric matters, and show you the exact code you need. By the end, you’ll be able to integrate resource‑percentage calculations into any Java‑based project‑management solution.
+ยินดีต้อนรับ! ในบทเรียนนี้ คุณจะได้เรียนรู้ **วิธีการคำนวณเปอร์เซ็นต์ทรัพยากรใน Java** โดยใช้ไลบรารี Aspose.Tasks สำหรับ Java เราจะอธิบายขั้นตอนการดึง *เปอร์เซ็นต์งานที่เสร็จสมบูรณ์* สำหรับแต่ละทรัพยากรในไฟล์ Microsoft Project อธิบายว่าทำไมตัวชี้วัดนี้จึงมีความสำคัญ และแสดงโค้ดที่คุณต้องการอย่างแม่นยำ เมื่อจบบทเรียน คุณจะสามารถผสานการคำนวณเปอร์เซ็นต์ทรัพยากรเข้ากับโซลูชันการจัดการโครงการที่ใช้ Java ได้
 
-## คำตอบอย่างรวดเร็ว
-- **What does “resource percentage” mean?** It’s the percentage of work a resource has completed relative to its total assigned work.  
-- **Which API call returns this value?** `Rsc.PERCENT_WORK_COMPLETE` via the `Resource` class.  
-- **Do I need a license?** A temporary or full Aspose.Tasks license is required for production use.  
-- **Can I use this with other Java frameworks?** Yes – the API works with Spring, Hibernate, and plain Java projects.  
-- **What version of Aspose.Tasks is needed?** Any recent version that supports the `Rsc` enumeration (e.g., 24.x).
+## คำตอบ คำตอบ
+- **เปอร์เซ็นต์ทรัพยากร” หมายถึงอะไร?** คือเปอร์เซ็นต์ของงานที่ทรัพยากรทำเสร็จแล้วเมื่อเทียบกับงานทั้งหมดที่ได้รับมอบหมาย
 
-## คำอธิบายการคำนวณเปอร์เซ็นต์ทรัพยากรใน Java
-Calculating resource percentage in Java means programmatically reading a Microsoft Project file and determining how much work each resource has finished. This information helps project managers forecast timelines, balance workloads, and identify bottlenecks.
+- **การเรียก API ใดที่ส่งคืนค่านี้?** `Rsc.PERCENT_WORK_COMPLETE` ผ่านคลาส `Resource`
 
-## ทำไมต้องรับค่า percent work complete?
-- **Progress tracking:** See at a glance which team members are on schedule.  
-- **Capacity planning:** Adjust future assignments based on actual performance.  
-- **Reporting:** Generate accurate status reports for stakeholders without manual calculations.
+- **ฉันต้องมีใบอนุญาตหรือไม่?** จำเป็นต้องมีใบอนุญาต Aspose.Tasks แบบชั่วคราวหรือแบบเต็มสำหรับการใช้งานจริง
 
-## ข้อกำหนดเบื้องต้น
-### สภาพแวดล้อมการพัฒนา Java
-Ensure you have the Java Development Kit (JDK) installed. You can download JDK from [here](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+- **ฉันสามารถใช้กับเฟรมเวิร์ก Java อื่นๆ ได้หรือไม่?** ได้ – API ทำงานร่วมกับ Spring, Hibernate และโครงการ Java ทั่วไป
 
-### ไลบรารี Aspose.Tasks
-Download and add the Aspose.Tasks library to your project from [here](https://releases.aspose.com/tasks/java/) and follow the installation instructions provided in the documentation [here](https://reference.aspose.com/tasks/java/).
+- **ต้องใช้ Aspose.Tasks เวอร์ชันใด** เวอร์ชันล่าสุดที่รองรับการแจงนับ `Rsc` (เช่น 24.x)
+
+## คำอธิบายเปอร์เซ็นต์ของทรัพยากรใน Java
+การคำนวณเปอร์เซ็นต์ทรัพยากรใน Java หมายถึงการอ่านไฟล์ Microsoft Project โดยทางโปรแกรม และกำหนดจำนวนงานแต่ละทรัพยากรที่เสร็จสิ้นแล้ว ข้อมูลนี้ช่วยให้ผู้จัดการโครงการคาดการณ์ไทม์ไลน์ ปรับสมดุลปริมาณงาน และระบุจุดคอขวดได้
+
+##แผงรับค่าเปอร์เซ็นทำงานเสร็จหรือยัง?
+- **การติดตามความคืบหน้า:** ดูได้อย่างรวดเร็วว่าสมาชิกในทีมคนใดตามกำหนดเวลา
+- **การวางแผนกำลังการผลิต:** ปรับการมอบหมายในอนาคตตามประสิทธิภาพจริง
+- **การรายงาน:** สร้างรายงานสถานะที่แม่นยำสำหรับผู้มีส่วนได้ส่วนเสียโดยไม่ต้องคำนวณด้วยตนเอง
+
+## เบื้องต้น
+### และยังคงมีการพัฒนา Java
+ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Java Development Kit (JDK) แล้ว คุณสามารถดาวน์โหลด JDK ได้จาก [ที่นี่](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
+
+### การติดตั้ง Aspose.Tasks
+ดาวน์โหลดและเพิ่มไลบรารี Aspose.Tasks ลงในโปรเจ็กต์ของคุณจาก [ที่นี่](https://releases.aspose.com/tasks/java/) และทำตามคำแนะนำในการติดตั้งที่ให้ไว้ในเอกสาร [ที่นี่](https://reference.aspose.com/tasks/java/)
 
 ## นำเข้าแพ็กเกจ
-Before we start coding, let's import the necessary packages required for this tutorial:
+ก่อนที่เราจะเริ่มเขียนโค้ด มานำเข้าแพ็กเกจที่จำเป็นสำหรับบทช่วยสอนนี้กันก่อน:
 ```java
 import com.aspose.tasks.Project;
 import com.aspose.tasks.Resource;
@@ -49,25 +53,25 @@ import com.aspose.tasks.Rsc;
 ```
 
 ## ขั้นตอนที่ 1: ตั้งค่าเส้นทางไฟล์โปรเจกต์
-Replace `"Your Data Directory"` with the folder that contains your Microsoft Project file.
+แทนที่ `"Your Data Directory"` ด้วยโฟลเดอร์ที่มีไฟล์ Microsoft Project ของคุณ
 ```java
 String dataDir = "Your Data Directory";
 ```
 
-## ขั้นตอนที่ 2: โหลดโปรเจกต์
-This loads the file **Software Development.mpp** from the directory you specified.
+##ผ้าพันแผล 2: ดาวน์โหลดโปรเจกต์
+ซึ่งจะโหลดไฟล์ **Software Development.mpp** จากไดเร็กทอรีที่คุณระบุ
 ```java
 Project prj = new Project(dataDir + "Software Development.mpp");
 ```
 
-## ขั้นตอนที่ 3: วนลูปผ่านทรัพยากร
-We loop through every resource defined in the project.
+## การบำบัด 3: วนเวียนผ่านทรัพยากร
+เราวนซ้ำทรัพยากรทั้งหมดที่กำหนดไว้ในโครงการ
 ```java
 for (Resource res : prj.getResources()) {
 ```
 
-## ขั้นตอนที่ 4: ตรวจสอบชื่อทรัพยากรและรับค่า Percent Work Complete
-The code first ensures the resource has a name and then prints the **percent work complete** value for that resource.
+## การรักษา 4: การตัดชื่อทรัพยากรและรับค่าเปอร์เซ็นต์งานเสร็จสมบูรณ์
+ขั้นแรกรหัสจะตรวจสอบให้แน่ใจว่าทรัพยากรมีชื่อ จากนั้นพิมพ์ค่า **เปอร์เซ็นต์งานที่เสร็จสมบูรณ์** สำหรับทรัพยากรนั้น
 ```java
 if (res.get(Rsc.NAME) != null) {
     System.out.println(res.get(Rsc.PERCENT_WORK_COMPLETE));
@@ -75,49 +79,49 @@ if (res.get(Rsc.NAME) != null) {
 ```
 
 ## ปัญหาทั่วไปและวิธีแก้
-- **NullPointerException** – Make sure the project file path is correct and the file loads without errors.  
-- **Incorrect percentages** – Verify that the resource actually has assigned work; otherwise the percentage will be `0`.  
-- **License errors** – Use a valid Aspose.Tasks license or a temporary evaluation license to avoid runtime restrictions.
+- **NullPointerException** – ตรวจสอบให้แน่ใจว่าเส้นทางไฟล์โปรเจ็กต์ถูกต้องและไฟล์โหลดได้โดยไม่มีข้อผิดพลาด
+- **เปอร์เซ็นต์ไม่ถูกต้อง** – ตรวจสอบว่าทรัพยากรได้รับมอบหมายงานจริงหรือไม่ มิฉะนั้นเปอร์เซ็นต์จะเป็น `0`
+- **ข้อผิดพลาดเกี่ยวกับใบอนุญาต** – ใช้ใบอนุญาต Aspose.Tasks ที่ถูกต้องหรือใบอนุญาตทดลองใช้งานชั่วคราวเพื่อหลีกเลี่ยงข้อจำกัดในการใช้งาน
 
-## คำถามที่พบบ่อย (Original)
+## ต้นฉบับ
 
-### Can I use Aspose.Tasks for Java with other Java frameworks?
-Yes, Aspose.Tasks for Java is compatible with various Java frameworks like Spring, Hibernate, and more.
+### ฉันสามารถใช้ Aspose.Tasks สำหรับ Java กับเฟรมเวิร์ก Java อื่นๆ ได้หรือไม่?
+ใช่ Aspose.Tasks สำหรับ Java เข้ากันได้กับเฟรมเวิร์ก Java ต่างๆ เช่น Spring, Hibernate และอื่นๆ
 
-### Does Aspose.Tasks support all versions of Microsoft Project files?
-Aspose.Tasks provides support for all versions of Microsoft Project files, including MPP, MPT, XML, and more.
+### Aspose.Tasks รองรับไฟล์ Microsoft Project ทุกเวอร์ชันหรือไม่?
+Aspose.Tasks รองรับไฟล์ Microsoft Project ทุกเวอร์ชัน รวมถึง MPP, MPT, XML และอื่นๆ
 
-### Can I manipulate project schedules using Aspose.Tasks?
-Absolutely, Aspose.Tasks offers comprehensive features for manipulating project schedules, including tasks, resources, calendars, and more.
+### ฉันสามารถจัดการตารางเวลาโครงการโดยใช้ Aspose.Tasks ได้หรือไม่?
+แน่นอน Aspose.Tasks มีฟีเจอร์ที่ครอบคลุมสำหรับการจัดการตารางเวลาโครงการ รวมถึงงาน ทรัพยากร ปฏิทิน และอื่นๆ อีกมากมาย
 
-### Is there a community forum for Aspose.Tasks support?
-Yes, you can find assistance and engage with other users on the Aspose.Tasks community forum [here](https://forum.aspose.com/c/tasks/15).
+### มีฟอรัมชุมชนสำหรับการสนับสนุน Aspose.Tasks หรือไม่?
+ใช่ คุณสามารถขอความช่วยเหลือและมีส่วนร่วมกับผู้ใช้รายอื่นได้ในฟอรัมชุมชน Aspose.Tasks [ที่นี่](https://forum.aspose.com/c/tasks/15)
 
-### Does Aspose.Tasks offer temporary licenses for evaluation purposes?
-Yes, you can obtain a temporary license for evaluation from [here](https://purchase.aspose.com/temporary-license/).
+### Aspose.Tasks มีใบอนุญาตชั่วคราวสำหรับการประเมินผลหรือไม่?
+ใช่ คุณสามารถขอใบอนุญาตชั่วคราวสำหรับการประเมินผลได้จาก [ที่นี่](https://purchase.aspose.com/temporary-license/)
 
-## คำถามเพิ่มเติม
+## ข้อมูลเพิ่มเติม
 
-**Q: How do I format the output to show percentages with a % sign?**  
-A: Retrieve the numeric value with `res.get(Rsc.PERCENT_WORK_COMPLETE)` and format it using `String.format("%.2f%%", value)`.
+**ถาม: ฉันจะจัดรูปแบบเอาต์พุตให้แสดงเปอร์เซ็นต์ด้วยเครื่องหมาย % ได้อย่างไร?**
+ตอบ: ดึงค่าตัวเลขด้วย `res.get(Rsc.PERCENT_WORK_COMPLETE)` และจัดรูปแบบโดยใช้ `String.format("%.2f%%", value)`
 
-**Q: Can I filter resources to only show those with less than 50 % complete?**  
-A: Yes, add an `if` condition checking `res.get(Rsc.PERCENT_WORK_COMPLETE) < 50` before printing.
+**ถาม: ฉันสามารถกรองทรัพยากรเพื่อให้แสดงเฉพาะทรัพยากรที่มีความคืบหน้าน้อยกว่า 50% ได้หรือไม่**
+ตอบ: ได้ ให้เพิ่มเงื่อนไข `if` ตรวจสอบ `res.get(Rsc.PERCENT_WORK_COMPLETE) < 50` ก่อนพิมพ์
 
-**Q: Is it possible to write the percentages back to the Project file?**  
-A: The `Rsc.PERCENT_WORK_COMPLETE` field is read‑only; you would need to adjust task assignments instead.
+**ถาม: สามารถเขียนเปอร์เซ็นต์กลับไปยังไฟล์โปรเจ็กต์ได้หรือไม่**
+ตอบ: ฟิลด์ `Rsc.PERCENT_WORK_COMPLETE` เป็นแบบอ่านอย่างเดียว คุณจะต้องปรับการมอบหมายงานแทน
 
-**Q: Does this work with Project Online (cloud) files?**  
-A: You must first download the .mpp file locally; Aspose.Tasks works with the file format, not the cloud service directly.
+**ถาม: วิธีนี้ใช้ได้กับไฟล์ Project Online (คลาวด์) หรือไม่**
+ตอบ: คุณต้องดาวน์โหลดไฟล์ .mpp ลงในเครื่องก่อน Aspose.Tasks ทำงานกับรูปแบบไฟล์ ไม่ใช่บริการคลาวด์โดยตรง
 
 ## สรุป
-In this guide we demonstrated **how to calculate resource percentage java** using Aspose.Tasks, focusing on retrieving the *percent work complete* for each resource. By following the steps above, you can embed precise resource‑percentage analytics into your Java applications, giving you better visibility into project health and resource utilization.
+ในคู่มือนี้ เราได้สาธิต **วิธีการคำนวณเปอร์เซ็นต์ความคืบหน้าของทรัพยากรด้วย Java** โดยใช้ Aspose.Tasks โดยเน้นที่การดึง *เปอร์เซ็นต์ความคืบหน้าของงาน* สำหรับแต่ละทรัพยากร ด้วยการทำตามขั้นตอนข้างต้น คุณสามารถฝังการวิเคราะห์เปอร์เซ็นต์ทรัพยากรที่แม่นยำลงในแอปพลิเคชัน Java ของคุณได้ ทำให้คุณมองเห็นภาพรวมของสถานะโครงการและการใช้ทรัพยากรได้ดียิ่งขึ้น
 
 ---
 
-**Last Updated:** 2026-01-13  
-**Tested With:** Aspose.Tasks for Java 24.10  
-**Author:** Aspose  
+**อัปเดตล่าสุด:** 2026-01-13
+**ทดสอบกับ:** Aspose.Tasks for Java 24.10
+**ผู้เขียน:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

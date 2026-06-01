@@ -96,15 +96,15 @@ Zeker. De API stelt je in staat om aangepaste velden toe te voegen, te wijzigen 
 ### Biedt Aspose.Tasks ondersteuning en documentatie voor ontwikkelaars?
 Het product bevat uitgebreide API‑documentatie, code‑voorbeelden en een toegewijd support‑forum voor snelle hulp.
 
+---
+
+**Laatst bijgewerkt:** 2026-01-13  
+**Getest met:** Aspose.Tasks voor Java 24.12  
+**Auteur:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Laatst bijgewerkt:** 2026-01-13  
-**Getest met:** Aspose.Tasks voor Java 24.12  
-**Auteur:** Aspose

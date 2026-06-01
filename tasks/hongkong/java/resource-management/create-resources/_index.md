@@ -75,22 +75,6 @@ Resource resource = project.getResources().add("ResourceName");
 ## 結論
 您現在已學會如何使用 Aspose.Tasks for Java **向專案新增資源**。這種簡單的程式化方法讓您能夠大規模管理資源、自動化專案更新，並將 Microsoft Project 資料整合至自己的應用程式中。
 
-## 常見問答
-### 我可以使用 Aspose.Tasks 操作 MS Project 檔案的其他方面嗎？
-可以，Aspose.Tasks 提供廣泛的功能，可在 MS Project 檔案中操作工作、資源、行事曆等。
-
-### Aspose.Tasks 適合企業級應用程式嗎？
-絕對適合！Aspose.Tasks 為企業級應用程式設計，具備強大的功能與卓越的效能。
-
-### 我可以在購買前試用 Aspose.Tasks 嗎？
-可以，您可從[此處](https://releases.aspose.com/)下載 Aspose.Tasks 免費試用版。
-
-### 我可以在哪裡取得 Aspose.Tasks 的支援？
-您可在 Aspose.Tasks 論壇[此處](https://forum.aspose.com/c/tasks/15)取得支援與協助。
-
-### 使用 Aspose.Tasks 是否需要臨時授權？
-雖然可以在未授權的情況下使用 Aspose.Tasks，但臨時授權可解鎖更多功能與特性。您可從[此處](https://purchase.aspose.com/temporary-license/)取得臨時授權。
-
 ## 常見問題
 **Q: 如何一次新增多個資源？**  
 A: 呼叫 `project.getResources().add("Resource1");`，然後對每個額外資源重複此步驟，或對資源名稱集合進行迴圈。
@@ -109,17 +93,15 @@ A: 此程式碼相容於所有近期版本；我們測試於 Aspose.Tasks 24.x f
 
 ---
 
+**最後更新：** 2026-01-13  
+**測試環境：** Aspose.Tasks for Java 24.x（撰寫時的最新版本）  
+**作者：** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2026-01-13  
-**測試環境：** Aspose.Tasks for Java 24.x（撰寫時的最新版本）  
-**作者：** Aspose  
-
----

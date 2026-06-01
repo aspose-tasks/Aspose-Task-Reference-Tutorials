@@ -75,22 +75,6 @@ Resource resource = project.getResources().add("ResourceName");
 ## الخاتمة
 لقد تعلمت الآن كيفية **إضافة مورد إلى المشروع** باستخدام Aspose.Tasks للغة Java. هذه الطريقة البرمجية البسيطة تتيح لك إدارة الموارد على نطاق واسع، أتمتة تحديثات المشروع، ودمج بيانات Microsoft Project في تطبيقاتك الخاصة.
 
-## الأسئلة المتكررة
-### هل يمكنني تعديل جوانب أخرى من ملفات MS Project باستخدام Aspose.Tasks؟
-نعم، توفر Aspose.Tasks مجموعة واسعة من الوظائف لتعديل المهام، الموارد، التقويمات، وأكثر في ملفات MS Project.
-
-### هل Aspose.Tasks مناسبة لتطبيقات مستوى المؤسسة؟
-بالتأكيد! تم تصميم Aspose.Tasks لتلبية متطلبات تطبيقات المستوى المؤسسي بفضل ميزاتها القوية وأدائها الممتاز.
-
-### هل يمكنني تجربة Aspose.Tasks قبل الشراء؟
-نعم، يمكنك تحميل نسخة تجريبية مجانية من Aspose.Tasks من [هنا](https://releases.aspose.com/).
-
-### أين يمكنني العثور على الدعم لـ Aspose.Tasks؟
-يمكنك العثور على الدعم والمساعدة في منتدى Aspose.Tasks [هنا](https://forum.aspose.com/c/tasks/15).
-
-### هل أحتاج إلى ترخيص مؤقت لاستخدام Aspose.Tasks؟
-بينما يمكنك استخدام Aspose.Tasks بدون ترخيص، فإن الترخيص المؤقت يفتح ميزات ووظائف إضافية. يمكنك الحصول على ترخيص مؤقت من [هنا](https://purchase.aspose.com/temporary-license/).
-
 ## الأسئلة المتداولة
 **س: كيف يمكنني إضافة موارد متعددة دفعة واحدة؟**  
 ج: استدعِ `project.getResources().add("Resource1");`، ثم كرّر ذلك لكل مورد إضافي، أو استخدم حلقة لتكرار مجموعة من أسماء الموارد.
@@ -109,17 +93,15 @@ Resource resource = project.getResources().add("ResourceName");
 
 ---
 
+**آخر تحديث:** 2026-01-13  
+**تم الاختبار مع:** Aspose.Tasks للغة Java 24.x (أحدث نسخة وقت الكتابة)  
+**المؤلف:** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2026-01-13  
-**تم الاختبار مع:** Aspose.Tasks للغة Java 24.x (أحدث نسخة وقت الكتابة)  
-**المؤلف:** Aspose  
-
----
