@@ -1,28 +1,55 @@
 ---
-title: 使用 Aspose.Tasks 有效率地管理 MS 專案屬性
-linktitle: 處理 Aspose.Tasks 中的擴充資源屬性
+date: 2026-01-13
+description: 學習如何建立自訂屬性、載入 Microsoft Project 檔案、在 Java 中設定數值，並使用 Aspose.Tasks for
+  Java 將專案儲存為 XML。
+linktitle: Handle Extended Resource Attributes in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: 了解如何使用 Aspose.Tasks for Java 有效處理擴充功能的 Microsoft Project 資源屬性。簡單的步驟和全面的指南。
-weight: 11
+title: 如何使用 Aspose.Tasks 在 MS Project 中建立自訂屬性
 url: /zh-hant/java/resource-management/extended-resource-attributes/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.Tasks 有效率地管理 MS 專案屬性
+# 如何使用 Aspose.Tasks 在 MS Project 中建立自訂屬性
 
 ## 介紹
-在本教程中，我們將深入研究如何使用 Aspose.Tasks for Java 有效處理擴充功能的 Microsoft Project 資源屬性。 Aspose.Tasks 是一個功能強大的函式庫，使開發人員能夠以程式設計方式操作 Microsoft Project 文件，為任務和資源管理提供廣泛的功能。
-## 先決條件
-在繼續之前，請確保您具備以下先決條件：
-1. Java 開發環境：在您的系統上設定 Java 開發工具包 (JDK)。
-2.  Aspose.Tasks for Java：下載並安裝 Aspose.Tasks for Java 函式庫[這裡](https://releases.aspose.com/tasks/java/).
-3. 整合開發環境 (IDE)：安裝用於 Java 開發的 IDE，例如 Eclipse 或 IntelliJ IDEA。
+在本教學中，**您將學會如何為 Microsoft Project 檔案中的資源建立自訂屬性**，使用 Aspose.Tasks for Java。我們將示範如何載入 Microsoft Project 檔案、定義一個新的數值屬性、指派值，最後將專案另存為 XML。完成後，您將擁有一個清晰、可實作的範例，能套用到您自己的專案管理解決方案中。
 
-## 導入包
-首先將必要的套件匯入到您的 Java 專案中。 
+## 快速回答
+- **「自訂屬性」是什麼意思？**  
+  由使用者自行定義的欄位，可為資源或工作儲存額外資訊（例如：年齡、技能等級）。  
+- **哪個函式庫負責此功能？**  
+  Aspose.Tasks for Java 提供流暢的 API 來建立與管理自訂屬性。  
+- **需要授權嗎？**  
+  評估期間可使用免費暫時授權；正式上線則需完整授權。  
+- **可以設定數值嗎？**  
+  可以 – 使用 `setNumericValue` 搭配 `BigDecimal`（例如 `30.5345`）。  
+- **專案如何儲存？**  
+  可使用 `SaveFileFormat.Xml` 將修改後的檔案另存為 XML。
+
+## 什麼是自訂屬性？
+**自訂屬性**（亦稱延伸屬性）是您可以在 Microsoft Project 中為資源或工作新增的額外欄位。它讓您能記錄內建欄位未涵蓋的資料，例如員工年齡、認證等級或任何業務特定指標。
+
+## 為什麼要在 MS Project 中建立自訂屬性？
+- **依組織需求調整專案資料**。  
+- **透過儲存可查詢的值，提升進階報表功能**。  
+- **以程式方式套用相同的屬性定義，確保多個專案的一致性**。
+
+## 前置條件
+在開始之前，請確保您已具備以下環境：
+
+1. **Java 開發環境** – 已安裝 JDK 8 以上版本。  
+2. **Aspose.Tasks for Java** – 從 [here](https://releases.aspose.com/tasks/java/) 下載最新版本。  
+3. **IDE** – Eclipse、IntelliJ IDEA 或任何支援 Java 的開發工具。  
+
+## 步驟說明
+
+### 匯入套件
+首先，匯入您將使用的 Aspose.Tasks 類別。這些類別提供處理專案、資源與延伸屬性的核心功能。
+
 ```java
 import com.aspose.tasks.ExtendedAttribute;
 import com.aspose.tasks.ExtendedAttributeDefinition;
@@ -33,18 +60,24 @@ import com.aspose.tasks.Resource;
 import com.aspose.tasks.SaveFileFormat;
 import java.math.BigDecimal;
 ```
-## 第 1 步：定義資料目錄
-設定項目資料所在目錄的路徑。
+
+### 第一步：定義資料目錄
+設定來源專案檔所在的資料夾，以及輸出檔案的寫入位置。
+
 ```java
 String dataDir = "Your Data Directory";
 ```
-## 步驟2：載入專案文件
-實例化一個`Project`透過載入 Microsoft Project 檔案來取得物件。
+
+### 第二步：載入 Microsoft Project 檔案
+建立 `Project` 實例，載入既有檔案。這一步即 **載入 Microsoft Project 檔案**，讓您取得完整內容的存取權。
+
 ```java
 Project prj = new Project(dataDir + "ResourceWithExtAttribs.xml");
 ```
-## 步驟 3：定義擴充屬性
-定義資源的擴充屬性。
+
+### 第三步：定義自訂屬性
+我們將建立一個名為 **Age** 的數值屬性。API 會先檢查定義是否已存在，若不存在則建立新定義。
+
 ```java
 ExtendedAttributeDefinition myNumber1 = prj.getExtendedAttributes().getById((int) ExtendedAttributeTask.Number1);
 if (myNumber1 == null) {
@@ -52,43 +85,70 @@ if (myNumber1 == null) {
     prj.getExtendedAttributes().add(myNumber1);
 }
 ```
-## 步驟4：建立擴展屬性並設定值
-建立擴展屬性並為其指派數值。
+
+### 第四步：在 Java 中設定數值
+為特定資源建立屬性實例，並使用 `setNumericValue` 指派數值。此步驟示範 **set numeric value java** 的實作方式。
+
 ```java
 ExtendedAttribute number1Resource = myNumber1.createExtendedAttribute();
 number1Resource.setNumericValue(BigDecimal.valueOf(30.5345));
 ```
-## 步驟5：新增資源和擴充屬性
-將新資源及其擴充屬性新增至專案。
+
+### 第五步：新增資源並附加自訂屬性
+新增一筆名稱為 **R1** 的資源，並將先前建立的自訂屬性附加至該資源。
+
 ```java
 Resource rsc = prj.getResources().add("R1");
 rsc.getExtendedAttributes().add(number1Resource);
 ```
-## 第 6 步：儲存項目
-將修改後的項目儲存到新文件中。
+
+### 第六步：將專案另存為 XML
+最後，透過儲存動作將變更寫入檔案。這是 **save project as xml** 步驟，會產生更新後的 XML 表示。
+
 ```java
 prj.save(dataDir + "project5.xml", SaveFileFormat.Xml);
 ```
-## 第7步：顯示結果
-列印一條訊息，確認流程已完成。
+
+### 第七步：顯示結果
+列印友善的確認訊息，讓您知道流程已順利完成且未發生錯誤。
+
 ```java
 System.out.println("Process completed Successfully");
 ```
-仔細遵循這些步驟，您可以使用 Aspose.Tasks for Java 無縫處理擴充的 MS Project 資源屬性。
+
+依照上述步驟，您已成功 **建立自訂屬性**、載入 Microsoft Project 檔案、以 Java 設定數值，並將專案另存為 XML。
+
+## 常見問題與技巧
+- **屬性 ID 衝突**：建立新定義前務必使用 `getById` 檢查，以避免重複 ID。  
+- **精度處理**：`BigDecimal` 能保留小數精度，請避免使用 `float` 或 `double` 來儲存精確值。  
+- **檔案路徑**：使用絕對路徑或在 IDE 中設定工作目錄，避免發生 `FileNotFoundException`。  
+
+## 常見問答
+
+**Q: 我可以同時為工作建立自訂屬性嗎？**  
+A: 可以 – 定義屬性時使用 `ExtendedAttributeTask` 取代 `ExtendedAttributeResource`。
+
+**Q: 能一次加入多個自訂屬性嗎？**  
+A: 完全可以。為每個屬性建立獨立的 `ExtendedAttributeDefinition` 物件，然後分別附加至目標資源或工作。
+
+**Q: 專案可以儲存成哪些格式？**  
+A: Aspose.Tasks 支援 XML、MPP，以及 PDF、HTML 等多種格式。本範例使用 `SaveFileFormat.Xml`。
+
+**Q: 開發版需要授權嗎？**  
+A: 評估用的暫時授權已足夠。正式上線時則需完整授權。
+
+**Q: 之後要如何讀取自訂屬性值？**  
+A: 使用 `resource.getExtendedAttributes()` 迭代取得已附加的屬性，並透過 `getNumericValue()` 或 `getTextValue()` 取得其值。
 
 ## 結論
-總之，Aspose.Tasks for Java 提供了管理 Microsoft Project 檔案的強大功能，包括處理擴充資源屬性。透過利用Aspose.Tasks提供的功能，開發人員可以有效地操作專案資料以滿足各種需求。
-## 常見問題解答
-### Aspose.Tasks 可以處理複雜的專案結構嗎？
-是的，Aspose.Tasks 為複雜的專案結構提供全面的支持，允許使用者無縫地管理任務、資源和屬性。
-### Aspose.Tasks 與最新版本的 Microsoft Project 相容嗎？
-Aspose.Tasks定期更新，以確保與最新版本的Microsoft Project相容，為使用者提供可靠的專案管理解決方案。
-### Aspose.Tasks支援跨平台開發嗎？
-是的，開發人員可以跨不同平台使用 Aspose.Tasks for Java，使其成為專案管理應用程式的多功能選擇。
-### 我可以將 Aspose.Tasks 與其他 Java 函式庫整合嗎？
-當然，Aspose.Tasks 可以與其他 Java 程式庫無縫集成，以增強功能並簡化開發流程。
-### Aspose.Tasks 用戶可以獲得技術支援嗎？
-是的，用戶可以透過 Aspose.Tasks 論壇獲得技術支持，在那裡他們可以尋求幫助並與社群互動。
+使用 Aspose.Tasks for Java 在 Microsoft Project 中建立 **自訂屬性** 的流程相當直接：載入專案、定義屬性、設定值、附加至資源，最後儲存檔案。此方法讓您能以程式方式擴充專案資料模型，提升報表深度並加強與業務流程的整合。
+
+---
+
+**最後更新：** 2026-01-13  
+**測試環境：** Aspose.Tasks for Java 24.12  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

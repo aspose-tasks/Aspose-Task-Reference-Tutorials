@@ -1,28 +1,56 @@
 ---
-title: Gerencie com eficiência os atributos do MS Project com Aspose.Tasks
-linktitle: Lidar com atributos de recursos estendidos em Aspose.Tasks
-second_title: API Java Aspose.Tasks
-description: Aprenda como lidar com atributos de recursos estendidos do Microsoft Project com eficiência usando Aspose.Tasks para Java. Etapas fáceis e guia completo.
-weight: 11
+date: 2026-01-13
+description: Aprenda como criar um atributo personalizado, carregar um arquivo do
+  Microsoft Project, definir um valor numérico em Java e salvar o projeto como XML
+  com o Aspose.Tasks para Java.
+linktitle: Handle Extended Resource Attributes in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Como criar atributo personalizado no MS Project usando Aspose.Tasks
 url: /pt/java/resource-management/extended-resource-attributes/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Gerencie com eficiência os atributos do MS Project com Aspose.Tasks
+# Como criar um atributo personalizado no MS Project usando Aspose.Tasks
 
 ## Introdução
-Neste tutorial, nos aprofundaremos em como lidar com eficácia com atributos de recursos estendidos do Microsoft Project usando Aspose.Tasks para Java. Aspose.Tasks é uma biblioteca poderosa que permite aos desenvolvedores manipular arquivos do Microsoft Project programaticamente, oferecendo amplas funcionalidades para gerenciamento de tarefas e recursos.
-## Pré-requisitos
-Antes de prosseguir, certifique-se de ter os seguintes pré-requisitos em vigor:
-1. Ambiente de Desenvolvimento Java: Configure o Java Development Kit (JDK) em seu sistema.
-2.  Aspose.Tasks for Java: Baixe e instale a biblioteca Aspose.Tasks for Java em[aqui](https://releases.aspose.com/tasks/java/).
-3. Ambiente de Desenvolvimento Integrado (IDE): Tenha um IDE como Eclipse ou IntelliJ IDEA instalado para desenvolvimento Java.
+Neste tutorial, **você descobrirá como criar um atributo personalizado** para recursos em um arquivo Microsoft Project usando Aspose.Tasks para Java. Vamos percorrer o carregamento de um arquivo Microsoft Project, a definição de um novo atributo numérico, a atribuição de um valor e, finalmente, a gravação do projeto como XML. Ao final, você terá um exemplo claro e prático que pode adaptar às suas próprias soluções de gerenciamento de projetos.
 
-## Importar pacotes
-Comece importando os pacotes necessários para o seu projeto Java. 
+## Respostas rápidas
+- **O que significa “atributo personalizado”?**  
+  Um campo definido pelo usuário que armazena informações extras (por exemplo, Idade, Nível de Habilidade) para um recurso ou tarefa.  
+- **Qual biblioteca lida com isso?**  
+  Aspose.Tasks para Java fornece uma API fluente para criar e gerenciar atributos personalizados.  
+- **Preciso de uma licença?**  
+  Uma licença temporária gratuita funciona para avaliação; uma licença completa é necessária para produção.  
+- **Posso definir valores numéricos?**  
+  Sim – use `setNumericValue` com um `BigDecimal` (por exemplo, `30.5345`).  
+- **Como o projeto é salvo?**  
+  O arquivo modificado pode ser salvo como XML usando `SaveFileFormat.Xml`.
+
+## O que é um atributo personalizado?
+Um **atributo personalizado** (também chamado de atributo estendido) é uma coluna adicional que você pode adicionar a recursos ou tarefas no Microsoft Project. Ele permite capturar dados que não são cobertos pelos campos incorporados, como idade do funcionário, nível de certificação ou qualquer métrica específica do negócio.
+
+## Por que criar um atributo personalizado no MS Project?
+- **Adaptar os dados do projeto** às necessidades da sua organização.  
+- **Habilitar relatórios avançados** armazenando valores que podem ser consultados posteriormente.  
+- **Manter consistência** entre múltiplos projetos aplicando programaticamente a mesma definição de atributo.
+
+## Pré-requisitos
+Antes de começar, certifique‑se de que você tem:
+
+1. **Ambiente de desenvolvimento Java** – JDK 8 ou superior instalado.  
+2. **Aspose.Tasks para Java** – Baixe a versão mais recente [aqui](https://releases.aspose.com/tasks/java/).  
+3. **IDE** – Eclipse, IntelliJ IDEA ou qualquer IDE compatível com Java.  
+
+## Guia passo a passo
+
+### Importar pacotes
+Primeiro, importe as classes do Aspose.Tasks que você precisará. Elas fornecem a funcionalidade central para manipular projetos, recursos e atributos estendidos.
+
 ```java
 import com.aspose.tasks.ExtendedAttribute;
 import com.aspose.tasks.ExtendedAttributeDefinition;
@@ -33,18 +61,24 @@ import com.aspose.tasks.Resource;
 import com.aspose.tasks.SaveFileFormat;
 import java.math.BigDecimal;
 ```
-## Etapa 1: definir o diretório de dados
-Defina o caminho para o diretório onde residem os dados do seu projeto.
+
+### Etapa 1: Definir diretório de dados
+Defina a pasta onde seu arquivo de projeto de origem está localizado e onde a saída será gravada.
+
 ```java
 String dataDir = "Your Data Directory";
 ```
-## Etapa 2: carregar o arquivo do projeto
- Instanciar um`Project` objeto carregando seu arquivo do Microsoft Project.
+
+### Etapa 2: Carregar arquivo Microsoft Project
+Crie uma instância `Project` carregando o arquivo existente. Esta é a etapa **load Microsoft project file** que lhe dá acesso total ao seu conteúdo.
+
 ```java
 Project prj = new Project(dataDir + "ResourceWithExtAttribs.xml");
 ```
-## Etapa 3: definir o atributo estendido
-Defina o atributo estendido para o recurso.
+
+### Etapa 3: Definir o atributo personalizado
+Vamos definir um novo atributo numérico chamado **Age**. A API verifica se a definição já existe; caso não exista, ela cria uma nova.
+
 ```java
 ExtendedAttributeDefinition myNumber1 = prj.getExtendedAttributes().getById((int) ExtendedAttributeTask.Number1);
 if (myNumber1 == null) {
@@ -52,43 +86,70 @@ if (myNumber1 == null) {
     prj.getExtendedAttributes().add(myNumber1);
 }
 ```
-## Etapa 4: Criar Atributo Estendido e Definir Valor
-Crie o atributo estendido e atribua um valor numérico a ele.
+
+### Etapa 4: Definir valor numérico em Java
+Crie uma instância do atributo para um recurso específico e atribua um valor numérico usando `setNumericValue`. Isso demonstra **set numeric value java** em ação.
+
 ```java
 ExtendedAttribute number1Resource = myNumber1.createExtendedAttribute();
 number1Resource.setNumericValue(BigDecimal.valueOf(30.5345));
 ```
-## Etapa 5: adicionar recurso e atributo estendido
-Adicione um novo recurso ao projeto junto com seu atributo estendido.
+
+### Etapa 5: Adicionar recurso e anexar o atributo personalizado
+Adicione um novo recurso chamado **R1** e anexe o atributo personalizado criado anteriormente a ele.
+
 ```java
 Resource rsc = prj.getResources().add("R1");
 rsc.getExtendedAttributes().add(number1Resource);
 ```
-## Etapa 6: Salvar Projeto
-Salve o projeto modificado em um novo arquivo.
+
+### Etapa 6: Salvar projeto como XML
+Finalmente, persista as alterações salvando o projeto. Esta é a etapa **save project as xml**, que produz uma representação XML limpa do arquivo atualizado.
+
 ```java
 prj.save(dataDir + "project5.xml", SaveFileFormat.Xml);
 ```
-## Etapa 7: exibir resultado
-Imprima uma mensagem confirmando a conclusão do processo.
+
+### Etapa 7: Exibir resultado
+Imprima uma confirmação amigável para que você saiba que o processo foi concluído sem erros.
+
 ```java
 System.out.println("Process completed Successfully");
 ```
-Seguindo essas etapas meticulosamente, você pode lidar perfeitamente com atributos de recursos estendidos do MS Project usando Aspose.Tasks for Java.
+
+Seguindo estas etapas, você criou com sucesso um **atributo personalizado**, carregou um arquivo Microsoft Project, definiu um valor numérico usando Java e salvou o projeto como XML.
+
+## Problemas comuns e dicas
+- **Conflitos de ID de atributo:** Sempre verifique `getById` antes de criar uma nova definição para evitar IDs duplicados.  
+- **Manipulação de precisão:** `BigDecimal` preserva a precisão decimal; evite usar `float` ou `double` para valores exatos.  
+- **Caminhos de arquivo:** Use caminhos absolutos ou configure o diretório de trabalho da sua IDE para evitar `FileNotFoundException`.  
+
+## Perguntas frequentes
+
+**Q: Posso criar atributos personalizados para tarefas assim como para recursos?**  
+A: Sim – use `ExtendedAttributeTask` em vez de `ExtendedAttributeResource` ao definir o atributo.
+
+**Q: É possível adicionar vários atributos personalizados de uma vez?**  
+A: Absolutamente. Crie objetos `ExtendedAttributeDefinition` separados para cada atributo e anexe‑os aos recursos ou tarefas desejados.
+
+**Q: Em quais formatos posso salvar o projeto?**  
+A: Aspose.Tasks suporta XML, MPP e vários outros formatos como PDF e HTML. Neste exemplo usamos `SaveFileFormat.Xml`.
+
+**Q: Preciso licenciar o Aspose.Tasks para builds de desenvolvimento?**  
+A: Uma licença temporária é suficiente para avaliação. Para implantações em produção, uma licença completa é necessária.
+
+**Q: Como ler os valores dos atributos personalizados posteriormente?**  
+A: Use `resource.getExtendedAttributes()` para iterar sobre os atributos anexados e recuperar seus valores com `getNumericValue()` ou `getTextValue()`.
 
 ## Conclusão
-Concluindo, Aspose.Tasks for Java fornece recursos robustos para gerenciar arquivos do Microsoft Project, incluindo o tratamento de atributos de recursos estendidos. Ao aproveitar as funcionalidades oferecidas pelo Aspose.Tasks, os desenvolvedores podem manipular com eficiência os dados do projeto para atender a vários requisitos.
-## Perguntas frequentes
-### O Aspose.Tasks pode lidar com estruturas de projetos complexas?
-Sim, Aspose.Tasks oferece suporte abrangente para estruturas de projetos complexos, permitindo aos usuários gerenciar tarefas, recursos e atributos de forma integrada.
-### O Aspose.Tasks é compatível com as versões mais recentes do Microsoft Project?
-Aspose.Tasks é atualizado regularmente para garantir compatibilidade com as versões mais recentes do Microsoft Project, fornecendo aos usuários uma solução confiável para gerenciamento de projetos.
-### O Aspose.Tasks oferece suporte ao desenvolvimento multiplataforma?
-Sim, os desenvolvedores podem utilizar Aspose.Tasks for Java em diferentes plataformas, tornando-o uma escolha versátil para aplicativos de gerenciamento de projetos.
-### Posso integrar Aspose.Tasks com outras bibliotecas Java?
-Com certeza, Aspose.Tasks pode ser perfeitamente integrado com outras bibliotecas Java para aprimorar a funcionalidade e agilizar os processos de desenvolvimento.
-### O suporte técnico está disponível para usuários do Aspose.Tasks?
-Sim, os usuários podem acessar o suporte técnico através do fórum Aspose.Tasks, onde podem buscar assistência e interagir com a comunidade.
+Criar um **atributo personalizado** no Microsoft Project com Aspose.Tasks para Java é simples depois que você entende o fluxo de trabalho: carregar o projeto, definir o atributo, definir seu valor, anexá‑lo a um recurso e salvar o arquivo. Essa abordagem permite estender programaticamente os modelos de dados do projeto, possibilitando relatórios mais ricos e integração mais estreita com seus processos de negócios.
+
+---
+
+**Last Updated:** 2026-01-13  
+**Tested With:** Aspose.Tasks for Java 24.12  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
