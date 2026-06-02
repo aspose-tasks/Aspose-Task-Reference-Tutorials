@@ -103,13 +103,6 @@ A: Ja, je kunt hulp krijgen via het [support forum](https://forum.aspose.com/c/t
 ## Conclusie
 Door deze stappen te volgen, heb je geleerd hoe je **een taaklijst in Java maakt**, **taken toevoegt aan Microsoft Project**, en **een baseline instelt zonder MS Project** met behulp van Aspose.Tasks. Deze aanpak stroomlijnt projectautomatisering, elimineert de noodzaak voor desktop‑installaties van Project en geeft je volledige programmatische controle over je projectdata.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Laatst bijgewerkt:** 2026-01-18  
@@ -117,3 +110,10 @@ Door deze stappen te volgen, heb je geleerd hoe je **een taaklijst in Java maakt
 **Auteur:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

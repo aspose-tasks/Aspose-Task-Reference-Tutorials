@@ -94,24 +94,7 @@ System.out.println("Baseline Finish: " + baseline.getFinish());
 - **空值：** 若 `task.getBaselines()` 回傳空列表，請確認工作已加入專案階層後再設定基線。  
 - **日期格式：** `getStart()` 與 `getFinish()` 方法回傳 `Date` 物件。如需自訂顯示格式，請使用格式化程式。
 
-## 常見問答
-
-### Aspose.Tasks for Java 能處理複雜的專案結構嗎？
-可以，Aspose.Tasks for Java 提供強大的功能，能有效管理各種複雜度的專案。
-
-### Aspose.Tasks for Java 與其他 Java 程式庫相容嗎？
-絕對相容，Aspose.Tasks for Java 可無縫整合其他 Java 程式庫，提升您的專案管理能力。
-
-### 我可以使用 Aspose.Tasks for Java 自訂工作基線嗎？
-當然可以，Aspose.Tasks for Java 提供廣泛的功能，讓您依專案需求自訂與管理工作基線。
-
-### Aspose.Tasks for Java 有提供試用版嗎？
-有，您可從 [發行頁面](https://releases.aspose.com/) 取得 Aspose.Tasks for Java 的免費試用版。
-
-### 我該去哪裡取得 Aspose.Tasks for Java 的支援？
-如有任何問題或需要協助，請前往 Aspose.Tasks 論壇 [此處](https://forum.aspose.com/c/tasks/15)。
-
-## Frequently Asked Questions
+## 常見問題解答
 
 **Q: 如何在 Aspose.Tasks 中建立新專案實例？**  
 A: 直接實例化 `Project` 類別 (`Project project = new Project();`) 即可。這會建立一個全新的專案檔，供您加入工作與基線使用。
@@ -128,13 +111,6 @@ A: 設定基線會捕捉當前的日期，但不會修改工作本身的排程�
 **Q: 是否可以程式化比較多個基線？**  
 A: 完全可以。透過 `task.getBaselines().get(index)` 取得各基線，然後比較其 `Start`、`Finish` 與 `Duration` 屬性。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最後更新：** 2026-01-18  
@@ -142,3 +118,10 @@ A: 完全可以。透過 `task.getBaselines().get(index)` 取得各基線，然�
 **作者：** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

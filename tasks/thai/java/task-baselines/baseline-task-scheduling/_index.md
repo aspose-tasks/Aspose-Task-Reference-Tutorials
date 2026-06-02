@@ -97,23 +97,6 @@ System.out.println("Baseline Finish: " + baseline.getFinish());
 
 ## คำถามที่พบบ่อย
 
-### Aspose.Tasks for Java สามารถจัดการโครงสร้างโครงการที่ซับซ้อนได้หรือไม่?
-ใช่, Aspose.Tasks for Java มีความสามารถที่แข็งแกร่งในการจัดการโครงการที่มีความซับซ้อนในระดับต่างๆ อย่างมีประสิทธิภาพ.
-
-### Aspose.Tasks for Java เข้ากันได้กับไลบรารี Java อื่นหรือไม่?
-แน่นอน, Aspose.Tasks for Java สามารถผสานรวมอย่างราบรื่นกับไลบรารี Java อื่น, เพิ่มศักยภาพการจัดการโครงการของคุณ.
-
-### ฉันสามารถปรับแต่ง baseline ของงานโดยใช้ Aspose.Tasks for Java ได้หรือไม่?
-ได้เลย, Aspose.Tasks for Java มีฟังก์ชันการทำงานที่ครอบคลุมเพื่อปรับแต่งและจัดการ baseline ของงานตามความต้องการของโครงการของคุณ.
-
-### มีเวอร์ชันทดลองสำหรับ Aspose.Tasks for Java หรือไม่?
-มี, คุณสามารถเข้าถึงเวอร์ชันทดลองฟรีของ Aspose.Tasks for Java จาก [release page](https://releases.aspose.com/).
-
-### จะหาแหล่งสนับสนุนสำหรับ Aspose.Tasks for Java ได้จากที่ไหน?
-สำหรับคำถามหรือความช่วยเหลือใด ๆ คุณสามารถเยี่ยมชมฟอรั่ม Aspose.Tasks ได้ที่ [here](https://forum.aspose.com/c/tasks/15).
-
-## Frequently Asked Questions
-
 **Q: ฉันจะสร้างอินสแตนซ์ Project ใหม่ใน Aspose.Tasks อย่างไร?**  
 A: สร้างอ็อบเจกต์ `Project` (`Project project = new Project();`). วิธีนี้จะสร้างไฟล์โปรเจกต์ใหม่พร้อมสำหรับงานและ baseline.
 
@@ -131,15 +114,15 @@ A: ได้เลย. ดึงแต่ละ baseline ผ่าน `task.getB
 
 ---
 
+**อัปเดตล่าสุด:** 2026-01-18  
+**ทดสอบด้วย:** Aspose.Tasks for Java 24.12  
+**ผู้เขียน:** Aspose
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**อัปเดตล่าสุด:** 2026-01-18  
-**ทดสอบด้วย:** Aspose.Tasks for Java 24.12  
-**ผู้เขียน:** Aspose

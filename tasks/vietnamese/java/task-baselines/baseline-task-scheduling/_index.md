@@ -96,22 +96,6 @@ Bằng cách thực hiện các bước này, bạn có thể sử dụng Aspose
 - **Date format:** Các phương thức `getStart()` và `getFinish()` trả về đối tượng `Date`. Sử dụng bộ định dạng nếu bạn cần hiển thị theo định dạng tùy chỉnh.
 
 ## Câu hỏi thường gặp
-### Aspose.Tasks cho Java có thể xử lý cấu trúc dự án phức tạp không?
-Có, Aspose.Tasks cho Java cung cấp khả năng mạnh mẽ để quản lý các dự án có độ phức tạp đa dạng một cách hiệu quả.
-
-### Aspose.Tasks cho Java có tương thích với các thư viện Java khác không?
-Chắc chắn, Aspose.Tasks cho Java tích hợp liền mạch với các thư viện Java khác, nâng cao khả năng quản lý dự án của bạn.
-
-### Tôi có thể tùy chỉnh cơ sở nhiệm vụ bằng Aspose.Tasks cho Java không?
-Tất nhiên, Aspose.Tasks cho Java cung cấp các chức năng phong phú để tùy chỉnh và quản lý cơ sở nhiệm vụ theo yêu cầu dự án của bạn.
-
-### Có phiên bản dùng thử cho Aspose.Tasks cho Java không?
-Có, bạn có thể truy cập bản dùng thử miễn phí của Aspose.Tasks cho Java từ [trang phát hành](https://releases.aspose.com/).
-
-### Tôi có thể tìm hỗ trợ cho Aspose.Tasks cho Java ở đâu?
-Đối với bất kỳ câu hỏi hoặc hỗ trợ nào, bạn có thể truy cập diễn đàn Aspose.Tasks [tại đây](https://forum.aspose.com/c/tasks/15).
-
-## Câu hỏi thường gặp
 
 **Q: Làm thế nào để tạo một thể hiện dự án mới trong Aspose.Tasks?**  
 A: Khởi tạo lớp `Project` (`Project project = new Project();`). Điều này tạo một tệp dự án mới sẵn sàng cho các nhiệm vụ và cơ sở.
@@ -130,15 +114,15 @@ A: Chắc chắn. Lấy mỗi cơ sở qua `task.getBaselines().get(index)` và 
 
 ---
 
+**Cập nhật lần cuối:** 2026-01-18  
+**Kiểm thử với:** Aspose.Tasks for Java 24.12  
+**Tác giả:** Aspose
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2026-01-18  
-**Kiểm thử với:** Aspose.Tasks for Java 24.12  
-**Tác giả:** Aspose

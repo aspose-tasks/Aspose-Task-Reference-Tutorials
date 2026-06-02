@@ -106,15 +106,15 @@ rsc.set(Rsc.OVERTIME_RATE, BigDecimal.valueOf(20));
 ### Πού μπορώ να αγοράσω μια αδειοδοτημένη έκδοση του Aspose.Tasks για Java;
 Μπορείτε να αγοράσετε μια αδειοδοτημένη έκδοση του Aspose.Tasks για Java από τη [σελίδα αγοράς](https://purchase.aspose.com/buy).
 
+---
+
+**Τελευταία ενημέρωση:** 2026-01-18  
+**Δοκιμή με:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία ενημέρωση:** 2026-01-18  
-**Δοκιμή με:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
-**Συγγραφέας:** Aspose

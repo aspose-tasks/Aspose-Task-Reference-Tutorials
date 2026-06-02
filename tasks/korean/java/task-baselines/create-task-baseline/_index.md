@@ -103,13 +103,6 @@ A: 네, [support forum](https://forum.aspose.com/c/tasks/15)에서 Aspose 직원
 ## 결론
 이 단계들을 따라 하면 **Java 작업 목록을 만들고**, **Microsoft Project에 작업을 추가**하며, **MS Project 없이 기준선을 설정**하는 방법을 배웠습니다. 이 접근 방식은 프로젝트 자동화를 간소화하고 데스크톱 Project 설치 필요성을 없애며, 프로젝트 데이터를 완전하게 프로그래밍적으로 제어할 수 있게 해줍니다.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-18  
@@ -117,3 +110,10 @@ A: 네, [support forum](https://forum.aspose.com/c/tasks/15)에서 Aspose 직원
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

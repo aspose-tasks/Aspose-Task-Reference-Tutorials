@@ -96,22 +96,6 @@ Dengan mengikuti langkah‑langkah ini, Anda dapat secara efektif memanfaatkan A
 - **Nilai null:** Jika `task.getBaselines()` mengembalikan daftar kosong, pastikan tugas telah ditambahkan ke hierarki proyek sebelum mengatur baseline.
 - **Format tanggal:** Metode `getStart()` dan `getFinish()` mengembalikan objek `Date`. Gunakan formatter jika Anda memerlukan format tampilan khusus.
 
-## FAQ
-### Apakah Aspose.Tasks untuk Java dapat menangani struktur proyek yang kompleks?
-Ya, Aspose.Tasks untuk Java menawarkan kemampuan kuat untuk mengelola proyek dengan berbagai tingkat kompleksitas secara efisien.
-
-### Apakah Aspose.Tasks untuk Java kompatibel dengan perpustakaan Java lainnya?
-Tentu saja, Aspose.Tasks untuk Java dapat terintegrasi mulus dengan perpustakaan Java lain, memperluas kemampuan manajemen proyek Anda.
-
-### Bisakah saya menyesuaikan baseline tugas menggunakan Aspose.Tasks untuk Java?
-Tentu, Aspose.Tasks untuk Java menyediakan fungsionalitas luas untuk menyesuaikan dan mengelola baseline tugas sesuai kebutuhan proyek Anda.
-
-### Apakah ada versi percobaan yang tersedia untuk Aspose.Tasks untuk Java?
-Ya, Anda dapat mengakses percobaan gratis Aspose.Tasks untuk Java dari [halaman rilis](https://releases.aspose.com/).
-
-### Di mana saya dapat menemukan dukungan untuk Aspose.Tasks untuk Java?
-Untuk pertanyaan atau bantuan, Anda dapat mengunjungi forum Aspose.Tasks [di sini](https://forum.aspose.com/c/tasks/15).
-
 ## Pertanyaan yang Sering Diajukan
 
 **T: Bagaimana cara membuat instance proyek baru di Aspose.Tasks?**  
@@ -131,17 +115,15 @@ J: Tentu. Ambil masing‑masing baseline melalui `task.getBaselines().get(index)
 
 ---
 
+**Terakhir Diperbarui:** 2026-01-18  
+**Diuji Dengan:** Aspose.Tasks untuk Java 24.12  
+**Penulis:** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Terakhir Diperbarui:** 2026-01-18  
-**Diuji Dengan:** Aspose.Tasks untuk Java 24.12  
-**Penulis:** Aspose  
-
----

@@ -70,8 +70,6 @@ In diesem Tutorial zerlegen wir die Komplexität der Verwaltung von Baseline‑D
 
 Bereit, die Herausforderungen der Baseline‑Dauerverwaltung zu meistern? Entdecken Sie unser [Verwaltungs‑Tutorial für Baseline‑Dauern von Aufgaben](./task-baseline-duration/) und steigern Sie Ihre Projektmanagement‑Kompetenzen!
 
----
-
 Entfalten Sie das volle Potenzial von Aspose.Tasks für Java mit unseren Tutorials zu Aufgabenbaselines. Tauchen Sie in jedes Tutorial ein, erweitern Sie Ihre Fähigkeiten und transformieren Sie Ihre Projektmanagement‑Methoden. Lassen Sie Aspose.Tasks Ihr Begleiter sein, um Exzellenz im Projektmanagement zu erreichen!
 
 ## Aufgabenbaselines‑Tutorials
@@ -81,13 +79,6 @@ Erfahren Sie, wie Sie Aufgabenbaselines effektiv mit Aspose.Tasks für Java plan
 Erfahren Sie, wie Sie in Java mit Aspose.Tasks eine Microsoft‑Project‑Aufgabenbaseline erstellen – eine leistungsstarke Bibliothek zur mühelosen Verwaltung von Projektdaten.
 ### [Verwaltung der Baseline‑Dauer von Aufgaben in Aspose.Tasks](./task-baseline-duration/)
 Erfahren Sie, wie Sie Aufgabenbaselines in MS Project effizient mit Aspose.Tasks für Java verwalten. Dieses Tutorial führt Sie Schritt für Schritt durch den Prozess.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Häufig gestellte Fragen
 
@@ -113,3 +104,10 @@ Erfahren Sie, wie Sie Aufgabenbaselines in MS Project effizient mit Aspose.Tasks
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

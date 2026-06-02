@@ -70,8 +70,6 @@ In deze tutorial ontleden we de complexiteit van duurbeheer, en bieden we duidel
 
 Klaar om de uitdagingen van duurbeheer te overwinnen? Ontdek onze [Task Baseline Duration Management tutorial](./task-baseline-duration/) en til uw projectmanagementvaardigheden naar een hoger niveau!
 
----
-
 Ontgrendel het volledige potentieel van Aspose.Tasks for Java met onze Task Baselines‑tutorials. Duik in elke tutorial, verbeter uw vaardigheden en transformeer de manier waarop u projecten beheert. Laat Aspose.Tasks uw partner zijn bij het bereiken van uitmuntendheid in projectmanagement!
 
 ## Task Baselines Tutorials
@@ -81,13 +79,6 @@ Leer hoe u taakbaselines effectief kunt plannen met Aspose.Tasks for Java. Stroo
 Leer hoe u een Microsoft Project‑taakbaseline in Java maakt met Aspose.Tasks, een krachtige bibliotheek voor het moeiteloos beheren van projectgegevens.
 ### [Task Baseline Duration Management in Aspose.Tasks](./task-baseline-duration/)
 Leer hoe u taakbaselines efficiënt beheert in MS Project met Aspose.Tasks for Java. Deze tutorial leidt u stap voor stap door het proces.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Veelgestelde Vragen
 
@@ -111,3 +102,10 @@ Leer hoe u taakbaselines efficiënt beheert in MS Project met Aspose.Tasks for J
 **Last Updated:** 2026-01-18  
 **Tested With:** Aspose.Tasks for Java 24.12  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -70,8 +70,6 @@ In questo tutorial, scomponiamo le complessità della gestione della durata dell
 
 Pronto a superare le sfide della gestione della durata delle baseline? Scopri il nostro [tutorial Gestione della durata della baseline delle attività](./task-baseline-duration/) e migliora le tue competenze di gestione dei progetti!
 
----
-
 Sblocca il pieno potenziale di Aspose.Tasks per Java con i nostri tutorial sulle Baseline delle attività. Immergiti in ogni tutorial, migliora le tue competenze e trasforma il modo in cui gestisci i progetti. Lascia che Aspose.Tasks sia il tuo compagno per raggiungere l'eccellenza nella gestione dei progetti!
 
 ## Tutorial sulle Baseline delle attività
@@ -81,13 +79,6 @@ Scopri come pianificare efficacemente le baseline delle attività con Aspose.Tas
 Scopri come creare una baseline di attività Microsoft Project in Java utilizzando Aspose.Tasks, una potente libreria per gestire i dati di progetto senza sforzo.
 ### [Gestione della durata della baseline delle attività in Aspose.Tasks](./task-baseline-duration/)
 Scopri come gestire in modo efficiente le baseline delle attività in MS Project utilizzando Aspose.Tasks per Java. Questo tutorial ti guida passo‑passo attraverso il processo.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Domande frequenti
 
@@ -111,3 +102,10 @@ Scopri come gestire in modo efficiente le baseline delle attività in MS Project
 **Ultimo aggiornamento:** 2026-01-18  
 **Testato con:** Aspose.Tasks for Java 24.12  
 **Autore:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

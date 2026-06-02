@@ -105,15 +105,15 @@ project.setBaseline(BaselineType.Baseline);
 ## Συμπέρασμα
 Ακολουθώντας αυτά τα βήματα, έχετε μάθει πώς να **δημιουργήσετε λίστα εργασιών Java**, **προσθέσετε εργασία στο Microsoft Project**, και **ορίσετε baseline χωρίς MS Project** χρησιμοποιώντας το Aspose.Tasks. Αυτή η προσέγγιση απλοποιεί την αυτοματοποίηση του project, εξαλείφει την ανάγκη για εγκατάσταση του desktop Project, και σας παρέχει πλήρη προγραμματιστικό έλεγχο των δεδομένων του project σας.
 
+---
+
+**Τελευταία Ενημέρωση:** 2026-01-18  
+**Δοκιμή με:** Aspose.Tasks for Java 24.12  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2026-01-18  
-**Δοκιμή με:** Aspose.Tasks for Java 24.12  
-**Συγγραφέας:** Aspose

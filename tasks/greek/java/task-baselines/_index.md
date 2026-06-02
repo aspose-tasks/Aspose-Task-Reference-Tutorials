@@ -70,8 +70,6 @@ weight: 32
 
 Έτοιμοι να κατακτήσετε τις προκλήσεις της διαχείρισης διάρκειας βάσης; Ανακαλύψτε το [μάθημα Διαχείρισης Διάρκειας Βάσης Αναφοράς](./task-baseline-duration/) και ανεβάστε τις δεξιότητές σας στη διαχείριση έργων!
 
----
-
 Αποκτήστε το πλήρες δυναμικό του Aspose.Tasks for Java με τα Μαθήματα Βάσεων Αναφοράς Εργασιών. Εξερευνήστε κάθε μάθημα, βελτιώστε τις ικανότητές σας και μεταμορφώστε τον τρόπο που διαχειρίζεστε τα έργα. Αφήστε το Aspose.Tasks να είναι ο σύντροφός σας στην επίτευξη αριστείας στη διαχείριση έργων!
 
 ## Μαθήματα Βάσεων Αναφοράς Εργασιών
@@ -81,13 +79,6 @@ weight: 32
 Μάθετε πώς να δημιουργήσετε μια βάση αναφοράς εργασίας Microsoft Project σε Java χρησιμοποιώντας το Aspose.Tasks, μια ισχυρή βιβλιοθήκη για τη διαχείριση δεδομένων έργου χωρίς κόπο.
 ### [Διαχείριση Διάρκειας Βάσης Αναφοράς Εργασιών στο Aspose.Tasks](./task-baseline-duration/)
 Μάθετε πώς να διαχειρίζεστε αποδοτικά βάσεις εργασιών στο MS Project χρησιμοποιώντας το Aspose.Tasks for Java. Αυτό το μάθημα σας καθοδηγεί βήμα‑βήμα στη διαδικασία.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Συχνές Ερωτήσεις
 
@@ -113,3 +104,10 @@ weight: 32
 **Συγγραφέας:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

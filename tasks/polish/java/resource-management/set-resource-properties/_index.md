@@ -106,15 +106,15 @@ Możesz uzyskać tymczasową licencję ze [strony tymczasowych licencji](https:/
 ### Gdzie mogę kupić licencjonowaną wersję Aspose.Tasks for Java?
 Możesz zakupić licencjonowaną wersję Aspose.Tasks for Java na [stronie zakupu](https://purchase.aspose.com/buy).
 
+---
+
+**Ostatnia aktualizacja:** 2026-01-18  
+**Testowano z:** Aspose.Tasks for Java 24.12 (najnowsza w momencie pisania)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ostatnia aktualizacja:** 2026-01-18  
-**Testowano z:** Aspose.Tasks for Java 24.12 (najnowsza w momencie pisania)  
-**Autor:** Aspose

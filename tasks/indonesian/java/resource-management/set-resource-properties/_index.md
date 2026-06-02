@@ -106,15 +106,15 @@ Anda dapat memperoleh lisensi sementara dari [halaman lisensi sementara](https:/
 ### Di mana saya dapat membeli versi berlisensi Aspose.Tasks untuk Java?
 Anda dapat membeli versi berlisensi Aspose.Tasks untuk Java dari [halaman pembelian](https://purchase.aspose.com/buy).
 
+---
+
+**Last Updated:** 2026-01-18  
+**Tested With:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-18  
-**Tested With:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
-**Author:** Aspose

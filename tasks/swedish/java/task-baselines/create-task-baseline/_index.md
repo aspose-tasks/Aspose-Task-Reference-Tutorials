@@ -85,30 +85,23 @@ Aspose.Tasks möjliggör skapande av baslinjer helt via kod. Du kan ange olika b
 
 ## Vanliga frågor
 
-**Q: Can I use Aspose.Tasks for Java without Microsoft Project installed?**  
+**F: Kan jag använda Aspose.Tasks för Java utan att Microsoft Project är installerat?**
 A: Ja, Aspose.Tasks fungerar oberoende och kräver inte Microsoft Project på värddatorn.
 
-**Q: Is Aspose.Tasks for Java compatible with different versions of Microsoft Project?**  
+**Fråga: Är Aspose.Tasks för Java kompatibelt med olika versioner av Microsoft Project?**
 A: Absolut. Biblioteket stödjer Project‑filer från 2007 till de senaste 2024‑utgåvorna.
 
-**Q: Can I manipulate project resources using Aspose.Tasks for Java?**  
+**F: Kan jag manipulera projektresurser med Aspose.Tasks för Java?**
 A: Ja, du kan lägga till, uppdatera och ta bort resurser programatiskt, precis som uppgifter.
 
-**Q: Does Aspose.Tasks for Java support setting task dependencies?**  
-A: Ja, du kan definiera föregångare‑efterföljare‑relationer med hjälp av `TaskLink`‑klassen.
+**Fråga: Stöder Aspose.Tasks för Java att ställa in uppgiftsberoenden?**
+A: Ja, du kan definiera föregångare‑efterföljare‑relationer med hjälp av `TaskLink`-klassen.
 
-**Q: Is technical support available for Aspose.Tasks for Java?**  
-A: Ja, du kan få hjälp via [support forum](https://forum.aspose.com/c/tasks/15), där Aspose‑personal och communityn svarar på frågor.
+**Fråga: Finns teknisk support tillgänglig för Aspose.Tasks för Java?**
+A: Ja, du kan få hjälp via [supportforum](https://forum.aspose.com/c/tasks/15), där Aspose‑personal och communityn svarar på frågor.
 
 ## Slutsats
 Genom att följa dessa steg har du lärt dig hur man **create task list Java**, **add task to Microsoft Project**, och **set baseline without MS Project** med Aspose.Tasks. Detta tillvägagångssätt förenklar projektautomatisering, eliminerar behovet av skrivbordsinstallationer av Project och ger dig full programmatisk kontroll över dina projektdata.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ---
 
@@ -117,3 +110,10 @@ Genom att följa dessa steg har du lärt dig hur man **create task list Java**, 
 **Författare:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

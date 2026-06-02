@@ -70,8 +70,6 @@ MS Project में बेसलाइन अवधि प्रबंधन �
 
 क्या आप बेसलाइन अवधि प्रबंधन की चुनौतियों को जीतने के लिए तैयार हैं? हमारे [Task Baseline Duration Management tutorial](./task-baseline-duration/) को देखें और अपने प्रोजेक्ट मैनेजमेंट कौशल को ऊँचा उठाएँ!
 
----
-
 Aspose.Tasks for Java की पूरी क्षमता को हमारे टास्क बेसलाइन ट्यूटोरियल्स के साथ अनलॉक करें। प्रत्येक ट्यूटोरियल में डुबकी लगाएँ, अपने कौशल को बढ़ाएँ, और प्रोजेक्ट मैनेजमेंट के तरीके को बदलें। Aspose.Tasks को अपने प्रोजेक्ट मैनेजमेंट उत्कृष्टता की प्राप्ति में साथी बनाएं!
 
 ## टास्क बेसलाइन ट्यूटोरियल्स
@@ -81,13 +79,6 @@ Aspose.Tasks for Java साथ टास्क बेसलाइन को प
 Aspose.Tasks का उपयोग करके Java में Microsoft Project टास्क बेसलाइन बनाना सीखें, जो प्रोजेक्ट डेटा को सहजता से प्रबंधित करने के लिए एक शक्तिशाली लाइब्रेरी है।
 ### [Task Baseline Duration Management in Aspose.Tasks](./task-baseline-duration/)
 Aspose.Tasks for Java के साथ MS Project में टास्क बेसलाइन को कुशलता से प्रबंधित करना सीखें। यह ट्यूटोरियल आपको प्रक्रिया के माध्यम से चरण‑दर‑चरण मार्गदर्शन करता है।
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
@@ -111,3 +102,10 @@ Aspose.Tasks for Java के साथ MS Project में टास्क ब�
 **अंतिम अपडेट:** 2026-01-18  
 **परीक्षित संस्करण:** Aspose.Tasks for Java 24.12  
 **लेखक:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

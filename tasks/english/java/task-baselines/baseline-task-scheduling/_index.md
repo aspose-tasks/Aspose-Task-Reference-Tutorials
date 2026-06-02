@@ -94,22 +94,6 @@ By following these steps, you can effectively utilize Aspose.Tasks for Java to *
 - **Null values:** If `task.getBaselines()` returns an empty list, verify that the task was added to the project hierarchy before setting the baseline.
 - **Date format:** The `getStart()` and `getFinish()` methods return `Date` objects. Use a formatter if you need a custom display format.
 
-## FAQ's
-### Can Aspose.Tasks for Java handle complex project structures?
-Yes, Aspose.Tasks for Java offers robust capabilities to manage projects of varying complexities efficiently.
-
-### Is Aspose.Tasks for Java compatible with other Java libraries?
-Absolutely, Aspose.Tasks for Java seamlessly integrates with other Java libraries, enhancing your project management capabilities.
-
-### Can I customize task baselines using Aspose.Tasks for Java?
-Certainly, Aspose.Tasks for Java provides extensive functionalities to customize and manage task baselines according to your project requirements.
-
-### Is there a trial version available for Aspose.Tasks for Java?
-Yes, you can access a free trial of Aspose.Tasks for Java from the [release page](https://releases.aspose.com/).
-
-### Where can I find support for Aspose.Tasks for Java?
-For any queries or assistance, you can visit the Aspose.Tasks forum [here](https://forum.aspose.com/c/tasks/15).
-
 ## Frequently Asked Questions
 
 **Q: How do I create a new project instance in Aspose.Tasks?**  
@@ -129,17 +113,15 @@ A: Absolutely. Retrieve each baseline via `task.getBaselines().get(index)` and c
 
 ---
 
+**Last Updated:** 2026-01-18  
+**Tested With:** Aspose.Tasks for Java 24.12  
+**Author:** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-18  
-**Tested With:** Aspose.Tasks for Java 24.12  
-**Author:** Aspose  
-
----

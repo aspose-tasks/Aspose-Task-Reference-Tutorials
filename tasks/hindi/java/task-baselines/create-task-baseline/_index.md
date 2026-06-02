@@ -103,13 +103,6 @@ A: हाँ, आप [support forum](https://forum.aspose.com/c/tasks/15) के
 ## निष्कर्ष
 इन चरणों का पालन करके, आपने **create task list Java**, **add task to Microsoft Project**, और **set baseline without MS Project** को Aspose.Tasks का उपयोग करके सीखा। यह दृष्टिकोण प्रोजेक्ट ऑटोमेशन को सरल बनाता है, डेस्कटॉप Project इंस्टॉलेशन की आवश्यकता को समाप्त करता है, और आपके प्रोजेक्ट डेटा पर पूर्ण प्रोग्रामेटिक नियंत्रण प्रदान करता है।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **अंतिम अपडेट:** 2026-01-18  
@@ -117,3 +110,10 @@ A: हाँ, आप [support forum](https://forum.aspose.com/c/tasks/15) के
 **लेखक:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -70,8 +70,6 @@ W tym samouczku rozkładamy złożoność zarządzania czasem trwania podstawy, 
 
 Gotowy podjąć wyzwanie zarządzania czasem trwania podstawy? Odkryj nasz [samouczek Zarządzanie czasem trwania podstawy zadania](./task-baseline-duration/) i podnieś swoje umiejętności zarządzania projektami!
 
----
-
 Odblokuj pełny potencjał Aspose.Tasks for Java dzięki naszym Samouczkom dotyczącym podstaw zadań. Zanurz się w każdy samouczek, podnieś swoje umiejętności i zmień sposób, w jaki zarządzasz projektami. Niech Aspose.Tasks będzie Twoim towarzyszem w osiąganiu doskonałości w zarządzaniu projektami!
 
 ## Samouczki dotyczące podstaw zadań
@@ -81,13 +79,6 @@ Dowiedz się, jak skutecznie planować podstawy zadań przy użyciu Aspose.Tasks
 Dowiedz się, jak stworzyć podstawę zadania Microsoft Project w Javie przy użyciu Aspose.Tasks, potężnej biblioteki do zarządzania danymi projektowymi bez wysiłku.
 ### [Zarządzanie czasem trwania podstawy zadania w Aspose.Tasks](./task-baseline-duration/)
 Dowiedz się, jak efektywnie zarządzać podstawami zadań w MS Project przy użyciu Aspose.Tasks for Java. Ten samouczek prowadzi Cię krok po kroku przez cały proces.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Najczęściej zadawane pytania
 
@@ -111,3 +102,10 @@ Dowiedz się, jak efektywnie zarządzać podstawami zadań w MS Project przy uż
 **Ostatnia aktualizacja:** 2026-01-18  
 **Testowano z:** Aspose.Tasks for Java 24.12  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -69,8 +69,6 @@ weight: 32
 
 هل أنت مستعد لتجاوز تحديات إدارة مدة الخط الأساسي؟ اكتشف دليلنا [Task Baseline Duration Management tutorial](./task-baseline-duration/) وارتق بمهاراتك في إدارة المشاريع!
 
----
-
 اكتشف الإمكانات الكاملة لـ Aspose.Tasks for Java من خلال دليلنا حول خطوط أساس المهام. استعرض كل دليل، طوّر مهاراتك، وحوّل طريقة إدارتك للمشاريع. دع Aspose.Tasks يكون رفيقك في تحقيق التميز في إدارة المشاريع!
 
 ## دليل خطوط أساس المهام
@@ -80,13 +78,6 @@ weight: 32
 تعلم كيفية إنشاء خط أساس لمهمة Microsoft Project في Java باستخدام Aspose.Tasks، مكتبة قوية لإدارة بيانات المشروع بسهولة.
 ### [Task Baseline Duration Management in Aspose.Tasks](./task-baseline-duration/)
 تعلم كيفية إدارة خطوط أساس المهام بفعالية في MS Project باستخدام Aspose.Tasks for Java. يرشدك هذا الدليل خطوة بخطوة خلال العملية.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## الأسئلة المتكررة
 
@@ -111,4 +102,9 @@ weight: 32
 **تم الاختبار مع:** Aspose.Tasks for Java 24.12  
 **المؤلف:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

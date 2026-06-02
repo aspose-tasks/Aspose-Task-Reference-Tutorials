@@ -98,23 +98,6 @@ System.out.println("Baseline Finish: " + baseline.getFinish());
 - **Null 値:** `task.getBaselines()` が空のリストを返す場合、ベースラインを設定する前にタスクがプロジェクト階層に追加されているか確認してください。  
 - **日付形式:** `getStart()` と `getFinish()` メソッドは `Date` オブジェクトを返します。カスタム表示形式が必要な場合はフォーマッタを使用してください。
 
-## FAQ
-
-### Aspose.Tasks for Java は複雑なプロジェクト構造を処理できますか？
-はい、Aspose.Tasks for Java は、さまざまな複雑さのプロジェクトを効率的に管理するための堅牢な機能を提供します。
-
-### Aspose.Tasks for Java は他の Java ライブラリと互換性がありますか？
-もちろん、Aspose.Tasks for Java は他の Java ライブラリとシームレスに統合でき、プロジェクト管理機能を向上させます。
-
-### Aspose.Tasks for Java を使用してタスクベースラインをカスタマイズできますか？
-もちろん、Aspose.Tasks for Java は、プロジェクト要件に合わせてタスクベースラインをカスタマイズおよび管理するための豊富な機能を提供します。
-
-### Aspose.Tasks for Java のトライアル版はありますか？
-はい、[release page](https://releases.aspose.com/) から Aspose.Tasks for Java の無料トライアルにアクセスできます。
-
-### Aspose.Tasks for Java のサポートはどこで見つけられますか？
-ご質問やサポートが必要な場合は、Aspose.Tasks フォーラム [here](https://forum.aspose.com/c/tasks/15) をご覧ください。
-
 ## よくある質問
 
 **Q: Aspose.Tasks で新しいプロジェクトインスタンスを作成するにはどうすればよいですか？**  
@@ -134,17 +117,15 @@ A: もちろんです。`task.getBaselines().get(index)` で各ベースライ�
 
 ---
 
+**Last Updated:** 2026-01-18  
+**Tested With:** Aspose.Tasks for Java 24.12  
+**Author:** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-18  
-**Tested With:** Aspose.Tasks for Java 24.12  
-**Author:** Aspose  
-
----

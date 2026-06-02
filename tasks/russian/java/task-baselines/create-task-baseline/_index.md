@@ -103,13 +103,6 @@ A: Да, вы можете получить помощь через [форум 
 ## Заключение
 Следуя этим шагам, вы узнали, как **создать список задач Java**, **добавить задачу в Microsoft Project** и **установить базовую линию без MS Project** с помощью Aspose.Tasks. Этот подход упрощает автоматизацию проектов, устраняет необходимость в настольных установках Project и предоставляет полный программный контроль над данными вашего проекта.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-18  
@@ -117,3 +110,10 @@ A: Да, вы можете получить помощь через [форум 
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

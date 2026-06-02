@@ -97,22 +97,6 @@ Seguindo estas etapas, você pode utilizar efetivamente o Aspose.Tasks for Java 
 - **Formato de data:** Os métodos `getStart()` e `getFinish()` retornam objetos `Date`. Use um formatador se precisar de um formato de exibição personalizado.
 
 ## Perguntas Frequentes
-### O Aspose.Tasks for Java pode lidar com estruturas de projeto complexas?
-Sim, o Aspose.Tasks for Java oferece capacidades robustas para gerenciar projetos de diferentes complexidades de forma eficiente.
-
-### O Aspose.Tasks for Java é compatível com outras bibliotecas Java?
-Absolutamente, o Aspose.Tasks for Java integra‑se perfeitamente com outras bibliotecas Java, aprimorando suas capacidades de gerenciamento de projetos.
-
-### Posso personalizar linhas de base de tarefas usando Aspose.Tasks for Java?
-Certamente, o Aspose.Tasks for Java fornece funcionalidades extensas para personalizar e gerenciar linhas de base de tarefas de acordo com os requisitos do seu projeto.
-
-### Existe uma versão de avaliação disponível para Aspose.Tasks for Java?
-Sim, você pode acessar uma avaliação gratuita do Aspose.Tasks for Java a partir da [página de lançamento](https://releases.aspose.com/).
-
-### Onde posso encontrar suporte para Aspose.Tasks for Java?
-Para quaisquer dúvidas ou assistência, você pode visitar o fórum Aspose.Tasks [aqui](https://forum.aspose.com/c/tasks/15).
-
-## Perguntas Frequentes
 
 **Q: Como criar uma nova instância de projeto no Aspose.Tasks?**  
 A: Instancie a classe `Project` (`Project project = new Project();`). Isso cria um novo arquivo de projeto pronto para tarefas e linhas de base.
@@ -131,15 +115,15 @@ A: Absolutamente. Recupere cada linha de base via `task.getBaselines().get(index
 
 ---
 
+**Last Updated:** 2026-01-18  
+**Tested With:** Aspose.Tasks for Java 24.12  
+**Author:** Aspose
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-18  
-**Tested With:** Aspose.Tasks for Java 24.12  
-**Author:** Aspose

@@ -103,15 +103,15 @@ A: Ano, můžete získat pomoc prostřednictvím [fóra podpory](https://forum.a
 ## Závěr
 Postupným sledováním těchto kroků jste se naučili, jak **vytvořit seznam úkolů v Javě**, **přidat úkol do Microsoft Project** a **nastavit základní linii bez MS Project** pomocí Aspose.Tasks. Tento přístup zjednodušuje automatizaci projektů, eliminuje potřebu instalace desktopové verze Projectu a poskytuje vám plnou programovou kontrolu nad vašimi projektovými daty.
 
+---
+
+**Poslední aktualizace:** 2026-01-18  
+**Testováno s:** Aspose.Tasks for Java 24.12  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2026-01-18  
-**Testováno s:** Aspose.Tasks for Java 24.12  
-**Autor:** Aspose

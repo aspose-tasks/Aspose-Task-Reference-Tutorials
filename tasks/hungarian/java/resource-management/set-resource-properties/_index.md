@@ -106,15 +106,15 @@ Ideiglenes licencet kérhet a [temporary license page](https://purchase.aspose.c
 ### Hol vásárolhatok licencelt verziót az Aspose.Tasks for Java‑hoz?
 Licencelt verziót vásárolhat a [purchase page](https://purchase.aspose.com/buy) oldalon.
 
+---
+
+**Utolsó frissítés:** 2026-01-18  
+**Tesztelve ezzel:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utolsó frissítés:** 2026-01-18  
-**Tesztelve ezzel:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
-**Szerző:** Aspose

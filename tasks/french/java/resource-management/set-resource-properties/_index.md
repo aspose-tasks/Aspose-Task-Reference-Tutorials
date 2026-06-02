@@ -17,36 +17,36 @@ weight: 20
 # Définir le taux standard pour les ressources dans Aspose.Tasks
 
 ## Introduction
-Si vous développez des applications Java qui doivent interagir avec des fichiers Microsoft Project, **définir le taux standard** pour une ressource est l’une des tâches les plus courantes. Dans ce tutoriel, vous apprendrez comment **définir le taux standard** et d’autres propriétés de ressources en utilisant Aspose.Tasks pour Java. À la fin du guide, vous serez capable de créer un objet projet, d’ajouter une ressource à un fichier MS Project et de gérer les ressources MS Project en toute confiance.
+Si vous développez des applications Java qui doivent interagir avec des fichiers Microsoft Project, **définir le taux standard** pour une ressource est l'une des tâches les plus courantes. Dans ce tutoriel, vous apprendrez comment **définir le taux standard** et d'autres propriétés de ressources en utilisant Aspose.Tasks pour Java. À la fin du guide, vous serez capable de créer un objet projet, d'ajouter une ressource à un fichier MS Project et de gérer les ressources MS Project en toute confiance.
 
-## Quick Answers
-- **Quel est la classe principale pour travailler avec un fichier Project ?** `Project`
-- **Quelle méthode ajoute une nouvelle ressource ?** `project.getResources().add()`
-- **Comment définir le taux standard ?** `rsc.set(Rsc.STANDARD_RATE, BigDecimal.valueOf(...))`
-- **Ai‑je besoin d’une licence pour la production ?** Oui, une licence valide Aspose.Tasks est requise.
-- **Quelle version de Java est prise en charge ?** Java 8+ (la dernière JDK est recommandée).
+## Réponses rapides
+- **Quel est la classe principale pour travailler avec un fichier Project?** `Project`
+- **Quelle méthode ajoute une nouvelle ressource ?** `project.getResources().add()`
+- **Comment définir le taux standard ?** `rsc.set(Rsc.STANDARD_RATE, BigDecimal.valueOf(...))`
+- **Ai‑je besoin d’une licence pour la production?** Oui, une licence valide Aspose.Tasks est requise.
+- **Quelle version de Java est prise en charge ?** Java8+ (le dernier JDK est recommandé).
 
-## What is “set standard rate”?
+## Qu'est-ce que le « taux standard fixe » ?
 L’opération *set standard rate* attribue un coût horaire par défaut à une ressource. Les chefs de projet utilisent cette valeur pour calculer les coûts de main‑d’œuvre, générer des rapports de coûts et prévoir les budgets.
 
-## Why set rates with Aspose.Tasks?
-- **Pas d’installation de Microsoft Project requise** – manipulez les fichiers directement depuis Java.  
-- **Fidélité totale** – tous les champs de ressources, y compris les heures supplémentaires et les taux de coût, sont conservés.  
-- **Multi‑plateforme** – fonctionne sous Windows, Linux et macOS.  
+## Pourquoi fixer des tarifs avec Aspose.Tasks ?
+- **Pas d’installation de Microsoft Project requis** – manipulez les fichiers directement depuis Java.
+- **Fidélité totale** – tous les champs de ressources, y compris les heures supplémentaires et les taux de coût, sont conservés.
+- **Multi‑plateforme** – fonctionne sous Windows, Linux et macOS.
 - **Convient à l’automatisation** – idéal pour le traitement par lots ou l’intégration dans des pipelines CI.
 
-## Prerequisites
-Avant de commencer, assurez‑vous de disposer de ce qui suit :
+## Prérequis
+Avant de commencer, assurez-vous de disposer de ce qui suit :
 
-### Java Development Environment Setup
-1. **Installez le JDK** : assurez‑vous d’avoir le Java Development Kit (JDK) installé sur votre système. Vous pouvez le télécharger depuis le [site Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
-2. **Configuration de l’IDE** : choisissez un environnement de développement intégré (IDE) tel qu’IntelliJ IDEA, Eclipse ou NetBeans et configurez‑le sur votre machine.
+### Configuration de l'environnement de développement Java
+1. **Installez le JDK** : assurez-vous d'avoir le Java Development Kit (JDK) installé sur votre système. Vous pouvez le télécharger depuis le [site Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+2. **Configuration de l'IDE** : choisissez un environnement de développement intégré (IDE) tel qu'IntelliJ IDEA, Eclipse ou NetBeans et configurez-le sur votre machine.
 
-### Aspose.Tasks for Java Installation
-1. **Téléchargez Aspose.Tasks pour Java** : rendez‑vous sur la [page de téléchargement](https://releases.aspose.com/tasks/java/) et obtenez la dernière version d’Aspose.Tasks pour Java.  
-2. **Intégrez au projet** : incorporez la bibliothèque Aspose.Tasks pour Java dans votre projet Java en l’ajoutant comme dépendance.
+### Aspose.Tasks pour l'installation de Java
+1. **Téléchargez Aspose.Tasks pour Java** : rendez-vous sur la [page de téléchargement](https://releases.aspose.com/tasks/java/) et obtenez la dernière version d'Aspose.Tasks pour Java.
+2. **Intégrez au projet** : incorporez la bibliothèque Aspose.Tasks pour Java dans votre projet Java en l'ajoutant comme dépendance.
 
-## Import Packages
+## Importer des packages
 Pour commencer, vous devez importer les packages nécessaires d’Aspose.Tasks pour Java dans votre projet. Cette étape garantit que vous avez accès aux fonctionnalités requises.
 
 ```java
@@ -56,21 +56,21 @@ import com.aspose.tasks.Rsc;
 import java.math.BigDecimal;
 ```
 
-## Step 1: Create a Project Object
+## Étape 1 : Créer un objet Projet
 Créer un **project object** est la première étape de toute manipulation de MS Project. Il représente l’ensemble du fichier projet en mémoire.
 
 ```java
 Project project = new Project();
 ```
 
-## Step 2: Add a Resource (add resource ms project)
+## Étape 2 : Ajouter une ressource (ajouter une ressource au projet MS)
 Nous allons maintenant **add resource MS Project** en utilisant la collection Resources. Le nom de la ressource peut être n’importe quel texte pertinent pour votre planning.
 
 ```java
 Resource rsc = project.getResources().add("Rsc");
 ```
 
-## Step 3: Set Resource Properties (how to set rates)
+## Étape 3 : Définir les propriétés de la ressource (comment définir les tarifs)
 C’est ici que nous **set the standard rate** et que nous montrons également comment définir un taux d’heures supplémentaires. Ces taux sont stockés sous forme de valeurs `BigDecimal` afin de préserver la précision.
 
 ```java
@@ -80,31 +80,37 @@ rsc.set(Rsc.STANDARD_RATE, BigDecimal.valueOf(15));
 rsc.set(Rsc.OVERTIME_RATE, BigDecimal.valueOf(20));
 ```
 
-## Common Issues and Solutions
-| Problème | Pourquoi cela se produit | Solution |
-|----------|--------------------------|----------|
-| `NullPointerException` lors de l’appel à `set` | La ressource n’a pas été ajoutée correctement. | Assurez‑vous que `project.getResources().add()` renvoie un `Resource` non nul. |
-| Les taux apparaissent comme 0 dans le fichier enregistré | Utilisation d’un `int` au lieu de `BigDecimal`. | Utilisez toujours `BigDecimal.valueOf()` pour les valeurs monétaires. |
-| Licence non trouvée | Le fichier de licence n’est pas chargé avant la création du `Project`. | Chargez la licence (`License license = new License(); license.setLicense("Aspose.Tasks.lic");`) au début de votre programme. |
+## Problèmes courants et solutions
+| Problème | Pourquoi cela se produit | Solutions |
+|--------------|----------------|---------------|
+| `NullPointerException` lors de l’appel à `set` | La ressource n’a pas été ajoutée correctement. | Assurez-vous que `project.getResources().add()` renvoie une `Resource` non nulle. |
+| Les taux apparaissent comme 0 dans le fichier enregistré | Utilisation d'un `int` au lieu de `BigDecimal`. | Utilisez toujours `BigDecimal.valueOf()` pour les valeurs monétaires. |
+| Licence non trouvée | Le fichier de licence n’est pas chargé avant la création du `Project`. | Chargez la licence (`License licence = new License(); licence.setLicense("Aspose.Tasks.lic");`) au début de votre programme. |
 
 ## Conclusion
-En suivant ces étapes, vous avez appris comment **create a project object**, **add a resource MS Project** et **set standard rate** ainsi que d’autres propriétés de ressources. Cela vous permet d’automatiser les calculs de coûts, de générer des rapports personnalisés et de gérer pleinement les ressources MS Project depuis Java.
+En suivant ces étapes, vous avez appris comment **créer un objet de projet**, **ajouter une ressource MS Project** et **définir le taux standard** ainsi que d'autres propriétés de ressources. Cela vous permet d'automatiser les calculs de coûts, de générer des rapports personnalisés et de gérer pleinement les ressources MS Project depuis Java.
 
-## FAQ's
-### Can Aspose.Tasks for Java handle complex MS Project files?
+## FAQ
+### Aspose.Tasks pour Java peut-il gérer des fichiers MS Project complexes ?
 Oui, Aspose.Tasks pour Java est capable de gérer une large gamme de formats de fichiers MS Project, y compris des fichiers complexes avec des hiérarchies de tâches étendues.
 
-### Is there a free trial available for Aspose.Tasks for Java?
+### Existe-t-il un essai gratuit disponible pour Aspose.Tasks pour Java ?
 Oui, vous pouvez accéder à un essai gratuit d’Aspose.Tasks pour Java depuis [ici](https://releases.aspose.com/).
 
-### Where can I find support for Aspose.Tasks for Java?
+### Où puis-je trouver de l'assistance pour Aspose.Tasks pour Java ?
 Vous pouvez obtenir de l’aide et participer aux discussions relatives à Aspose.Tasks pour Java sur le [forum de support](https://forum.aspose.com/c/tasks/15).
 
-### How can I obtain a temporary license for Aspose.Tasks for Java?
+### Comment puis-je obtenir une licence temporaire pour Aspose.Tasks pour Java ?
 Vous pouvez obtenir une licence temporaire depuis la [page de licence temporaire](https://purchase.aspose.com/temporary-license/) à des fins d’évaluation.
 
-### Where can I purchase a licensed version of Aspose.Tasks for Java?
+### Où puis-je acheter une version sous licence d'Aspose.Tasks pour Java ?
 Vous pouvez acheter une version sous licence d’Aspose.Tasks pour Java depuis la [page d’achat](https://purchase.aspose.com/buy).
+
+---
+
+**Dernière mise à jour:** 2026-01-18  
+**Testé avec:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
+**Auteur:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -112,9 +118,3 @@ Vous pouvez acheter une version sous licence d’Aspose.Tasks pour Java depuis l
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Dernière mise à jour:** 2026-01-18  
-**Testé avec:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
-**Auteur:** Aspose

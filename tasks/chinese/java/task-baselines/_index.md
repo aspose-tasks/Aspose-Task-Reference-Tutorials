@@ -68,8 +68,6 @@ weight: 32
 
 准备好征服基线持续时间管理的挑战了吗？立即查看我们的 [Task Baseline Duration Management tutorial](./task-baseline-duration/)，提升您的项目管理技能！
 
----
-
 通过我们的任务基线教程，充分发掘 Aspose.Tasks for Java 的全部潜能。深入每个教程，提升技能，改变项目管理方式。让 Aspose.Tasks 成为您实现项目管理卓越的伙伴！
 
 ## 任务基线教程
@@ -79,13 +77,6 @@ weight: 32
 学习如何使用 Aspose.Tasks 在 Java 中创建 Microsoft Project 任务基线，这是一款强大的项目数据管理库。
 ### [Task Baseline Duration Management in Aspose.Tasks](./task-baseline-duration/)
 学习如何使用 Aspose.Tasks for Java 高效管理 MS Project 中的任务基线。本教程将一步步引导您完成整个过程。
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## 常见问题
 
@@ -109,3 +100,10 @@ weight: 32
 **最后更新：** 2026-01-18  
 **测试环境：** Aspose.Tasks for Java 24.12  
 **作者：** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

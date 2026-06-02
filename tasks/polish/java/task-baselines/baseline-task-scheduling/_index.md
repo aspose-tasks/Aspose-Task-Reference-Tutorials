@@ -96,22 +96,6 @@ Postępując zgodnie z tymi krokami, możesz skutecznie wykorzystać Aspose.Task
 - **Wartości null:** Jeśli `task.getBaselines()` zwraca pustą listę, sprawdź, czy zadanie zostało dodane do hierarchii projektu przed ustawieniem bazowego planu.  
 - **Format daty:** Metody `getStart()` i `getFinish()` zwracają obiekty `Date`. Użyj formatowania, jeśli potrzebujesz własnego formatu wyświetlania.
 
-## FAQ
-### Czy Aspose.Tasks dla Javy radzi sobie ze złożonymi strukturami projektów?
-Tak, Aspose.Tasks dla Javy oferuje solidne możliwości zarządzania projektami o różnym stopniu złożoności.
-
-### Czy Aspose.Tasks dla Javy jest kompatybilny z innymi bibliotekami Java?
-Oczywiście, Aspose.Tasks dla Javy bezproblemowo integruje się z innymi bibliotekami Java, zwiększając możliwości zarządzania projektem.
-
-### Czy mogę dostosować bazowe plany zadań przy użyciu Aspose.Tasks dla Javy?
-Z pewnością, Aspose.Tasks dla Javy zapewnia rozbudowane funkcje pozwalające dostosować i zarządzać bazowymi planami zadań zgodnie z wymaganiami projektu.
-
-### Czy dostępna jest wersja próbna Aspose.Tasks dla Javy?
-Tak, darmową wersję próbną Aspose.Tasks dla Javy można pobrać ze [strony wydań](https://releases.aspose.com/).
-
-### Gdzie mogę uzyskać wsparcie dla Aspose.Tasks dla Javy?
-W razie pytań lub potrzeb pomocy, odwiedź forum Aspose.Tasks [tutaj](https://forum.aspose.com/c/tasks/15).
-
 ## Najczęściej zadawane pytania
 
 **P: Jak utworzyć nową instancję projektu w Aspose.Tasks?**  
@@ -131,17 +115,15 @@ O: Oczywiście. Pobierz każdy bazowy plan za pomocą `task.getBaselines().get(i
 
 ---
 
+**Ostatnia aktualizacja:** 2026-01-18  
+**Testowano z:** Aspose.Tasks dla Javy 24.12  
+**Autor:** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ostatnia aktualizacja:** 2026-01-18  
-**Testowano z:** Aspose.Tasks dla Javy 24.12  
-**Autor:** Aspose  
-
----

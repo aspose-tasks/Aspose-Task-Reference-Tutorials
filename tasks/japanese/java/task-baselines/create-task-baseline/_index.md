@@ -103,15 +103,15 @@ A: はい、[サポートフォーラム](https://forum.aspose.com/c/tasks/15) �
 ## 結論
 これらの手順に従うことで、Aspose.Tasks を使用して **タスク一覧 Java を作成**し、**Microsoft Project にタスクを追加**し、**MS Project なしでベースラインを設定**する方法を学びました。このアプローチにより、プロジェクトの自動化が簡素化され、デスクトップ版 Project のインストールが不要になり、プロジェクトデータを完全にプログラムで制御できるようになります。
 
+---
+
+**最終更新日:** 2026-01-18  
+**テスト環境:** Aspose.Tasks for Java 24.12  
+**作者:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最終更新日:** 2026-01-18  
-**テスト環境:** Aspose.Tasks for Java 24.12  
-**作者:** Aspose

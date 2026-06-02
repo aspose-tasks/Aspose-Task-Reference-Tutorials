@@ -106,15 +106,15 @@ Puoi ottenere una licenza temporanea dalla [pagina delle licenze temporanee](htt
 ### Dove posso acquistare una versione con licenza di Aspose.Tasks per Java?
 Puoi acquistare una versione con licenza di Aspose.Tasks per Java dalla [pagina di acquisto](https://purchase.aspose.com/buy).
 
+---
+
+**Ultimo Aggiornamento:** 2026-01-18  
+**Testato Con:** Aspose.Tasks per Java 24.12 (ultima al momento della stesura)  
+**Autore:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ultimo Aggiornamento:** 2026-01-18  
-**Testato Con:** Aspose.Tasks per Java 24.12 (ultima al momento della stesura)  
-**Autore:** Aspose

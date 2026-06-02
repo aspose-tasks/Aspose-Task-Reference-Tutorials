@@ -103,13 +103,6 @@ R: Sim, você pode obter ajuda através do [forum de suporte](https://forum.aspo
 ## Conclusão
 Seguindo estas etapas, você aprendeu como **criar lista de tarefas Java**, **adicionar tarefa ao Microsoft Project** e **definir baseline sem MS Project** usando Aspose.Tasks. Essa abordagem simplifica a automação de projetos, elimina a necessidade de instalações desktop do Project e oferece controle programático total sobre os dados do seu projeto.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Última atualização:** 2026-01-18  
@@ -117,3 +110,10 @@ Seguindo estas etapas, você aprendeu como **criar lista de tarefas Java**, **ad
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

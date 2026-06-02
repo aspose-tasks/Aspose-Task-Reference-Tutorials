@@ -96,22 +96,6 @@ Dodržením těchto kroků můžete efektivně využít Aspose.Tasks for Java k 
 - **Null hodnoty:** Pokud `task.getBaselines()` vrací prázdný seznam, ověřte, že úkol byl přidán do hierarchie projektu před nastavením baseline.  
 - **Formát data:** Metody `getStart()` a `getFinish()` vrací objekty typu `Date`. Použijte formátovač, pokud potřebujete vlastní formát zobrazení.
 
-## FAQ's
-### Může Aspose.Tasks for Java zvládnout složité struktury projektů?
-Ano, Aspose.Tasks for Java nabízí robustní možnosti pro efektivní správu projektů různých složitostí.
-
-### Je Aspose.Tasks for Java kompatibilní s jinými Java knihovnami?
-Rozhodně, Aspose.Tasks for Java se bez problémů integruje s ostatními Java knihovnami a rozšiřuje vaše možnosti řízení projektů.
-
-### Mohu přizpůsobit baseline úkolů pomocí Aspose.Tasks for Java?
-Samozřejmě, Aspose.Tasks for Java poskytuje rozsáhlé funkce pro přizpůsobení a správu baseline úkolů podle požadavků vašeho projektu.
-
-### Existuje zkušební verze Aspose.Tasks for Java?
-Ano, můžete získat bezplatnou zkušební verzi Aspose.Tasks for Java na [stránce vydání](https://releases.aspose.com/).
-
-### Kde najdu podporu pro Aspose.Tasks for Java?
-Pro jakékoli dotazy nebo pomoc navštivte fórum Aspose.Tasks [zde](https://forum.aspose.com/c/tasks/15).
-
 ## Frequently Asked Questions
 
 **Q: Jak vytvořím novou instanci projektu v Aspose.Tasks?**  
@@ -129,13 +113,6 @@ A: Nastavení baseline zachytí aktuální data, ale nemění aktivní harmonogr
 **Q: Je možné programově porovnat více baseline?**  
 A: Rozhodně. Získejte každou baseline pomocí `task.getBaselines().get(index)` a porovnejte jejich vlastnosti `Start`, `Finish` a `Duration`.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Poslední aktualizace:** 2026-01-18  
@@ -143,3 +120,10 @@ A: Rozhodně. Získejte každou baseline pomocí `task.getBaselines().get(index)
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

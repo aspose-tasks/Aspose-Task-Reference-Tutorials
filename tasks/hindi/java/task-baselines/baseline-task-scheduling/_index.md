@@ -97,22 +97,6 @@ System.out.println("Baseline Finish: " + baseline.getFinish());
 - **Date format:** `getStart()` और `getFinish()` मेथड `Date` ऑब्जेक्ट लौटाते हैं। यदि आपको कस्टम डिस्प्ले फॉर्मेट चाहिए तो फ़ॉर्मेटर का उपयोग करें।
 
 ## अक्सर पूछे जाने वाले प्रश्न
-### क्या Aspose.Tasks for Java जटिल प्रोजेक्ट संरचनाओं को संभाल सकता है?
-हाँ, Aspose.Tasks for Java विभिन्न जटिलताओं वाले प्रोजेक्ट्स को प्रभावी ढंग से मैनेज करने की मजबूत क्षमताएँ प्रदान करता है।
-
-### क्या Aspose.Tasks for Java अन्य जावा लाइब्रेरीज़ के साथ संगत है?
-बिल्कुल, Aspose.Tasks for Java अन्य जावा लाइब्रेरीज़ के साथ सहजता से इंटीग्रेट होता है, जिससे आपके प्रोजेक्ट मैनेजमेंट क्षमताएँ बढ़ती हैं।
-
-### क्या मैं Aspose.Tasks for Java का उपयोग करके टास्क बेसलाइन को कस्टमाइज़ कर सकता हूँ?
-निश्चित रूप से, Aspose.Tasks for Java विस्तृत फ़ंक्शनैलिटी प्रदान करता है जिससे आप अपने प्रोजेक्ट की आवश्यकताओं के अनुसार टास्क बेसलाइन को कस्टमाइज़ और मैनेज कर सकते हैं।
-
-### क्या Aspose.Tasks for Java के लिए ट्रायल संस्करण उपलब्ध है?
-हाँ, आप Aspose.Tasks for Java का फ्री ट्रायल [release page](https://releases.aspose.com/) से एक्सेस कर सकते हैं।
-
-### मैं Aspose.Tasks for Java के लिए सपोर्ट कहाँ पा सकता हूँ?
-किसी भी प्रश्न या सहायता के लिए, आप Aspose.Tasks फ़ोरम [here](https://forum.aspose.com/c/tasks/15) पर जा सकते हैं।
-
-## अक्सर पूछे जाने वाले प्रश्न
 
 **Q: Aspose.Tasks में नया प्रोजेक्ट इंस्टेंस कैसे बनाऊँ?**  
 A: `Project` क्लास को इंस्टैंशिएट करें (`Project project = new Project();`)। यह एक नया प्रोजेक्ट फ़ाइल बनाता है जो टास्क और बेसलाइन के लिए तैयार है।
@@ -131,15 +115,15 @@ A: बिल्कुल। आप `task.getBaselines().get(index)` के म�
 
 ---
 
+**अंतिम अपडेट:** 2026-01-18  
+**परीक्षित संस्करण:** Aspose.Tasks for Java 24.12  
+**लेखक:** Aspose
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**अंतिम अपडेट:** 2026-01-18  
-**परीक्षित संस्करण:** Aspose.Tasks for Java 24.12  
-**लेखक:** Aspose

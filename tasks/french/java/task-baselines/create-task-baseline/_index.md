@@ -103,15 +103,15 @@ R : Oui, vous pouvez obtenir de l’aide via le [forum de support](https://for
 ## Conclusion
 En suivant ces étapes, vous avez appris comment **créer une liste de tâches Java**, **ajouter une tâche à Microsoft Project**, et **définir une baseline sans MS Project** à l’aide d’Aspose.Tasks. Cette approche simplifie l’automatisation des projets, élimine le besoin d’installations de Project sur le bureau, et vous offre un contrôle programmatique complet sur les données de votre projet.
 
+---
+
+**Last Updated:** 2026-01-18  
+**Tested With:** Aspose.Tasks for Java 24.12  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-18  
-**Tested With:** Aspose.Tasks for Java 24.12  
-**Author:** Aspose

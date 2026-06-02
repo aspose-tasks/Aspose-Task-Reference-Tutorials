@@ -40,14 +40,14 @@ Aspose.Tasks предлагает чистый Java API, который рабо
 ## Предпосылки
 Перед началом убедитесь, что у вас есть следующее:
 
-### Java Development Environment
-Убедитесь, что у вас установлен Java Development Kit (JDK). Вы можете скачать и установить JDK с [website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+### Среда разработки Java
+Убедитесь, что у вас установлен Java Development Kit (JDK). Вы можете скачать и установить JDK с [веб-сайта](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
 
-### Aspose.Tasks for Java Library
-Скачайте библиотеку Aspose.Tasks for Java со [download page](https://releases.aspose.com/tasks/java/) и включите её в ваш Java‑проект.
+### Aspose.Tasks для библиотеки Java
+Загрузите пакет Aspose.Tasks для Java со [страница загрузки](https://releases.aspose.com/tasks/java/) и ее в ваш Java‑проект.
 
-## Import Packages
-Start by importing the necessary packages into your Java project:
+## Импорт пакетов
+Начните с импорта необходимых пакетов в ваш Java-проект:
 
 ```java
 import com.aspose.tasks.BaselineType;
@@ -56,35 +56,35 @@ import com.aspose.tasks.Task;
 import com.aspose.tasks.TaskBaseline;
 ```
 
-Now, let's break down the provided example into multiple steps:
+Теперь давайте разберем приведенный пример на несколько шагов:
 
-## Step 1: Create a New Project Instance
+## Шаг 1: Создание нового экземпляра проекта
 ```java
 Project project = new Project();
 ```
 
-## Step 2: Define a Task and Set Baseline
+## Шаг 2: Определение задачи и установка базового плана
 ```java
 Task task = project.getRootTask().getChildren().add("Task");
 project.setBaseline(BaselineType.Baseline);
 ```
 
-## Step 3: Access Baseline Information
+## Шаг 3: Доступ к информации о базовом плане
 ```java
 TaskBaseline baseline = task.getBaselines().get(0);
 ```
 
-## Step 4: Display Baseline Duration
+## Шаг 4: Отображение продолжительности базового плана
 ```java
 System.out.println(baseline.getDuration().toString());
 ```
 
-## Step 5: Display Baseline Start Date
+## Шаг 5: Отображение даты начала базового плана
 ```java
 System.out.println("Baseline Start: " + baseline.getStart());
 ```
 
-## Step 6: Display Baseline Finish Date
+## Шаг 6: Отображение даты окончания базового плана
 ```java
 System.out.println("Baseline Finish: " + baseline.getFinish());
 ```
@@ -92,43 +92,32 @@ System.out.println("Baseline Finish: " + baseline.getFinish());
 Следуя этим шагам, вы сможете эффективно использовать Aspose.Tasks for Java для **manage project baselines** в ваших проектах.
 
 ## Распространённые проблемы и решения
-- **Baseline not set:** Убедитесь, что вызываете `project.setBaseline(BaselineType.Baseline)` **после** добавления задач; иначе коллекция базовых линий будет пустой.  
-- **Null values:** Если `task.getBaselines()` возвращает пустой список, проверьте, что задача была добавлена в иерархию проекта перед установкой базовой линии.  
-- **Date format:** Методы `getStart()` и `getFinish()` возвращают объекты `Date`. Используйте форматировщик, если нужен пользовательский формат отображения.  
+- **Baseline not set:** Убедитесь, что возникает `project.setBaseline(BaselineType.Baseline)` **после** добавления задачи; иначе коллекция базовых линий будет пустой.
+- **Нулевые значения:** Если `task.getBaselines()` возвращает пустой документ, проверьте список, что задача была добавлена ​​в иерархию проекта перед установкой линии связи.
+- **Формат даты:** Методы `getStart()` и `getFinish()` возвращают объекты `Date`. Используйте форматировщик, если нужен пользовательский формат отображения.
 
-## FAQ
+## Часто задаваемые вопросы
 
-### Может ли Aspose.Tasks for Java обрабатывать сложные структуры проектов?
-Да, Aspose.Tasks for Java предоставляет мощные возможности для эффективного управления проектами различной сложности.
+**В: Как создать новый экземпляр проекта в Aspose.Tasks?**
+A: создание экземпляра класса `Project` (`Project project = new Project();`). Это создает новый файл проекта, готовый к решению задач и базовым линиям.
 
-### Совместим ли Aspose.Tasks for Java с другими Java‑библиотеками?
-Абсолютно, Aspose.Tasks for Java бесшовно интегрируется с другими Java‑библиотеками, расширяя возможности управления проектами.
+**В: Какая разница между `BaselineType.Baseline` и другими типами базовых линий?**
+A: `BaselineType.Baseline` относится к основному переводу линии (Baseline1). Aspose.Tasks также поддерживает Baseline2‑10 для дополнительных комплектов.
 
-### Могу ли я настраивать базовые линии задач с помощью Aspose.Tasks for Java?
-Конечно, Aspose.Tasks for Java предоставляет обширные функции для настройки и управления базовыми линиями задач в соответствии с требованиями вашего проекта.
+**В: Могу ли я экспортировать данные координат линии в Excel или CSV?**
+О: Да, вы можете перебрать объекты TaskBaseline и записать значения в CSV‑файл с помощью стандартного ввода-вывода Java.
 
-### Доступна ли пробная версия Aspose.Tasks for Java?
-Да, вы можете получить бесплатную пробную версию Aspose.Tasks for Java со [release page](https://releases.aspose.com/).
+**В: Влияет ли установка линии на дату задачи?**
+A: Установка координат линии фиксирует текущую дату, но не изменяет активную задачу графика. Вы всё ещё можете скорректировать дату начала/кончания после установки линии связи.
 
-### Где я могу найти поддержку Aspose.Tasks for Java?
-По любым вопросам или помощи вы можете посетить форум Aspose.Tasks [here](https://forum.aspose.com/c/tasks/15).
+**В: Можно ли программно сравнить несколько базовых линий?**
+А: Абсолютно. Получите каждую базовую строку через `task.getBaselines().get(index)` и сравните их свойства `Start`, `Finish` и `Duration`.
 
-## Frequently Asked Questions
+---
 
-**В: Как создать новый экземпляр проекта в Aspose.Tasks?**  
-A: Создайте экземпляр класса `Project` (`Project project = new Project();`). Это создаёт новый файл проекта, готовый к задачам и базовым линиям.
-
-**В: В чём разница между `BaselineType.Baseline` и другими типами базовых линий?**  
-A: `BaselineType.Baseline` относится к основной базовой линии (Baseline 1). Aspose.Tasks также поддерживает Baseline 2‑10 для дополнительных снимков.
-
-**В: Могу ли я экспортировать данные базовой линии в Excel или CSV?**  
-A: Да, вы можете перебрать объекты `TaskBaseline` и записать значения в CSV‑файл с помощью стандартного Java I/O.
-
-**В: Влияет ли установка базовой линии на существующие даты задач?**  
-A: Установка базовой линии фиксирует текущие даты, но не изменяет активный график задачи. Вы всё ещё можете корректировать даты начала/окончания после установки базовой линии.
-
-**В: Можно ли программно сравнивать несколько базовых линий?**  
-A: Абсолютно. Получайте каждую базовую линию через `task.getBaselines().get(index)` и сравнивайте их свойства `Start`, `Finish` и `Duration`.
+**Последнее обновление:** 18 января 2026 г.
+**Протестировано с помощью:** Aspose.Tasks для Java 24.12.
+**Автор:** Aspose  
 
 ---
 
@@ -138,11 +127,3 @@ A: Абсолютно. Получайте каждую базовую линию
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-18  
-**Tested With:** Aspose.Tasks for Java 24.12  
-**Author:** Aspose  
-
----

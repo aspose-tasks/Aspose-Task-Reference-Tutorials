@@ -70,8 +70,6 @@ Ebben az oktatóanyagban lebontjuk az alapvonal időtartam kezelésének összet
 
 Készen áll, hogy legyőzze az alapvonal időtartam kezelésének kihívásait? Fedezze fel a [Task Baseline Duration Management tutorial](./task-baseline-duration/) anyagot, és emelje projektmenedzsment képességeit!
 
----
-
 Fedezze fel az Aspose.Tasks for Java teljes potenciálját a Feladatbázisok Alapvonalai oktatóanyagaink segítségével. Merüljön el minden egyes tutorialban, fejlessze képességeit, és alakítsa át a projektmenedzsment megközelítését. Hagyja, hogy az Aspose.Tasks legyen társ a projektmenedzsment kiválóság elérésében!
 
 ## Feladatbázisok Alapvonalai oktatóanyagok
@@ -81,13 +79,6 @@ Tanulja meg, hogyan ütemezze hatékonyan a feladat alapvonalakat az Aspose.Task
 Tanulja meg, hogyan hozhat létre Microsoft Project feladat alapvonalat Java‑ban az Aspose.Tasks segítségével, egy erőteljes könyvtárat a projektadatok egyszerű kezeléséhez.
 ### [Task Baseline Duration Management in Aspose.Tasks](./task-baseline-duration/)
 Tanulja meg, hogyan kezelje hatékonyan a feladat alapvonalakat az MS Projectben az Aspose.Tasks for Java‑val. Ez az oktatóanyag lépésről‑lépésre vezeti végig a folyamaton.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Gyakran Ismételt Kérdések
 
@@ -113,3 +104,10 @@ Tanulja meg, hogyan kezelje hatékonyan a feladat alapvonalakat az MS Projectben
 **Szerző:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

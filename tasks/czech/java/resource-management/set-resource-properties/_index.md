@@ -106,15 +106,15 @@ Dočasnou licenci můžete získat na [stránce dočasných licencí](https://pu
 ### Kde mohu zakoupit licencovanou verzi Aspose.Tasks pro Java?
 Licencovanou verzi Aspose.Tasks pro Java můžete zakoupit na [stránce nákupu](https://purchase.aspose.com/buy).
 
+---
+
+**Poslední aktualizace:** 2026-01-18  
+**Testováno s:** Aspose.Tasks pro Java 24.12 (nejnovější v době psaní)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2026-01-18  
-**Testováno s:** Aspose.Tasks pro Java 24.12 (nejnovější v době psaní)  
-**Autor:** Aspose

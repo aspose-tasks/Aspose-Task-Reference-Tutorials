@@ -103,13 +103,6 @@ A: Có, bạn có thể nhận trợ giúp qua [support forum](https://forum.asp
 ## Kết Luận
 Bằng cách làm theo các bước trên, bạn đã học được cách **tạo danh sách nhiệm vụ Java**, **thêm nhiệm vụ vào Microsoft Project**, và **đặt baseline mà không cần MS Project** sử dụng Aspose.Tasks. Cách tiếp cận này giúp tự động hoá dự án hiệu quả, loại bỏ nhu cầu cài đặt Project trên máy tính để bàn, và cung cấp cho bạn quyền kiểm soát lập trình đầy đủ đối với dữ liệu dự án.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-18  
@@ -117,3 +110,10 @@ Bằng cách làm theo các bước trên, bạn đã học được cách **t�
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

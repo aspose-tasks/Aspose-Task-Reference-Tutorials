@@ -106,15 +106,15 @@ Bạn có thể lấy giấy phép tạm thời từ [trang giấy phép tạm t
 ### Tôi có thể mua phiên bản có giấy phép của Aspose.Tasks cho Java ở đâu?
 Bạn có thể mua phiên bản có giấy phép của Aspose.Tasks cho Java từ [trang mua hàng](https://purchase.aspose.com/buy).
 
+---
+
+**Last Updated:** 2026-01-18  
+**Tested With:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-18  
-**Tested With:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
-**Author:** Aspose

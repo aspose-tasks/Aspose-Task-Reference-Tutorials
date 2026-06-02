@@ -70,8 +70,6 @@ weight: 32
 
 Готовы преодолеть вызовы управления длительностью базовых линий? Откройте наш [Task Baseline Duration Management tutorial](./task-baseline-duration/) и поднимите свои навыки управления проектами на новый уровень!
 
----
-
 Раскройте весь потенциал Aspose.Tasks for Java с нашими учебными материалами по базовым линиям задач. Погрузитесь в каждый учебник, улучшайте навыки и трансформируйте подход к управлению проектами. Пусть Aspose.Tasks станет вашим надёжным помощником в достижении совершенства в управлении проектами!
 
 ## Учебные материалы по базовым линиям задач
@@ -82,32 +80,32 @@ weight: 32
 ### [Task Baseline Duration Management in Aspose.Tasks](./task-baseline-duration/)
 Узнайте, как эффективно управлять базовыми линиями задач в MS Project с помощью Aspose.Tasks for Java. Этот учебник пошагово проведёт вас через процесс.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Часто задаваемые вопросы
 
-**Q:** *Can I create multiple baselines for the same task?*  
-**A:** Yes. Aspose.Tasks allows you to add up to ten baselines (Baseline 1‑Baseline 10) for each task.
+**В:** Можно ли создать несколько базовых планов для одной и той же задачи?
+**О:** Да. Aspose.Tasks позволяет добавить до десяти базовых планов (Baseline1-Baseline10) для каждой задачи.
 
-**Q:** *What happens if I set a baseline date that is earlier than the project start date?*  
-**A:** The API will automatically adjust the baseline to match the project’s calendar constraints, but you should verify the dates to avoid schedule inconsistencies.
+**В:** Что произойдет, если я установлю дату базового плана, которая раньше даты начала проекта?
+**О:** API автоматически скорректирует базовый план в соответствии с ограничениями календаря проекта, но вам следует проверить даты, чтобы избежать несоответствий в расписании.
 
-**Q:** *Is it possible to read an existing baseline from a .mpp file?*  
-**A:** Absolutely. You can load a Project file and access the `BaselineStart`, `BaselineFinish`, and `BaselineDuration` properties of each task.
+**В:** Можно ли прочитать существующий базовый план из файла .mpp?
+**О:** Конечно. Вы можете загрузить файл проекта и получить доступ к свойствам `BaselineStart`, `BaselineFinish` и `BaselineDuration` каждой задачи.
 
-**Q:** *Do I need to re‑save the project after adding a baseline?*  
-**A:** Yes. After modifying baseline information, call `project.save("output.mpp")` to persist the changes.
+**В:** Нужно ли повторно сохранять проект после добавления базового плана?
+**О:** Да. После изменения базовой информации вызовите `project.save("output.mpp")`, чтобы сохранить изменения.
 
-**Q:** *Can I use this approach with other file formats such as .xml or .pdf?*  
-**A:** The baseline APIs work with all formats supported by Aspose.Tasks (MPP, XML, Primavera, etc.). Exporting to PDF will reflect the baseline data in any generated reports.
+**В:** *Можно ли использовать этот подход с другими форматами файлов, такими как .xml или .pdf?*
+**О:** API для работы с базовой информацией работают со всеми форматами, поддерживаемыми Aspose.Tasks (MPP, XML, Primavera и т. д.). Экспорт в PDF отразит данные базовой информации во всех сгенерированных отчетах.
 
 ---
 
 **Last Updated:** 2026-01-18  
 **Tested With:** Aspose.Tasks for Java 24.12  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

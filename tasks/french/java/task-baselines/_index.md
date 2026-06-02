@@ -70,8 +70,6 @@ Dans ce tutoriel, nous décomposons les complexités de la gestion des durées d
 
 Prêt à relever les défis de la gestion des durées de base de référence ? Découvrez notre [Task Baseline Duration Management tutorial](./task-baseline-duration/) et améliorez vos compétences en gestion de projet !
 
----
-
 Libérez tout le potentiel d’Aspose.Tasks for Java avec nos tutoriels sur les bases de référence des tâches. Plongez dans chaque tutoriel, améliorez vos compétences et transformez votre manière de gérer les projets. Laissez Aspose.Tasks être votre compagnon pour atteindre l’excellence en gestion de projet !
 
 ## Tutoriels sur les bases de référence des tâches
@@ -81,13 +79,6 @@ Apprenez à planifier efficacement les bases de référence de tâches avec Aspo
 Apprenez à créer une base de référence de tâche Microsoft Project en Java en utilisant Aspose.Tasks, une bibliothèque puissante pour gérer les données de projet sans effort.
 ### [Task Baseline Duration Management in Aspose.Tasks](./task-baseline-duration/)
 Apprenez à gérer efficacement les bases de référence de tâches dans MS Project à l’aide d’Aspose.Tasks for Java. Ce tutoriel vous guide pas à pas à travers le processus.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Questions fréquemment posées
 
@@ -113,3 +104,10 @@ Apprenez à gérer efficacement les bases de référence de tâches dans MS Proj
 **Auteur :** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -96,23 +96,6 @@ Ezeknek a lépéseknek a követésével hatékonyan használhatod az Aspose.Task
 - **Null értékek:** Ha a `task.getBaselines()` egy üres listát ad vissza, ellenőrizd, hogy a feladat a projekt hierarchiájához lett‑e hozzáadva az alapvonal beállítása előtt.  
 - **Dátumformátum:** A `getStart()` és `getFinish()` metódusok `Date` objektumokat adnak vissza. Használj formázót, ha egyedi megjelenítési formátumra van szükséged.
 
-## Gyakran Ismételt Kérdések
-
-### Kezelhet-e az Aspose.Tasks for Java összetett projektstruktúrákat?
-Igen, az Aspose.Tasks for Java robusztus képességeket kínál a különböző komplexitású projektek hatékony kezelésére.
-
-### Kompatibilis-e az Aspose.Tasks for Java más Java‑könyvtárakkal?
-Teljes mértékben, az Aspose.Tasks for Java zökkenőmentesen integrálódik más Java‑könyvtárakkal, ezáltal bővítve a projektmenedzsment lehetőségeidet.
-
-### Testreszabhatom-e a feladat‑alapvonalakat az Aspose.Tasks for Java‑val?
-Természetesen, az Aspose.Tasks for Java kiterjedt funkcionalitást biztosít a feladat‑alapvonalak testreszabásához és kezeléséhez a projekted igényei szerint.
-
-### Elérhető‑e próba verzió az Aspose.Tasks for Java‑ból?
-Igen, ingyenes próba verziót tölthetsz le az Aspose.Tasks for Java‑ból a [release page](https://releases.aspose.com/) oldalról.
-
-### Hol találok támogatást az Aspose.Tasks for Java‑hoz?
-Bármilyen kérdés vagy segítség esetén felkeresheted az Aspose.Tasks fórumot [itt](https://forum.aspose.com/c/tasks/15).
-
 ## Gyakran feltett kérdések
 
 **K: Hogyan hozhatok létre új projektpéldányt az Aspose.Tasks‑ben?**  
@@ -132,17 +115,15 @@ V: Teljes mértékben. Lekérheted az egyes alapvonalakat a `task.getBaselines()
 
 ---
 
+**Legutóbb frissítve:** 2026-01-18  
+**Tesztelve a következővel:** Aspose.Tasks for Java 24.12  
+**Szerző:** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Legutóbb frissítve:** 2026-01-18  
-**Tesztelve a következővel:** Aspose.Tasks for Java 24.12  
-**Szerző:** Aspose  
-
----

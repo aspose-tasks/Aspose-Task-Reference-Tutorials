@@ -104,15 +104,15 @@ A: Igen, segítséget kaphat a [támogatási fórumban](https://forum.aspose.com
 ## Összegzés
 Ezeknek a lépéseknek a követésével megtanulta, hogyan **hozzon létre feladatlistát Java-ban**, **adjunk feladatot a Microsoft Projecthez**, és **állítsunk be alapvonalat MS Project nélkül** az Aspose.Tasks segítségével. Ez a megközelítés egyszerűsíti a projekt automatizálását, megszünteti az asztali Project telepítések szükségességét, és teljes programozott irányítást biztosít a projekt adatai felett.
 
+---
+
+**Utolsó frissítés:** 2026-01-18  
+**Tesztelve a következővel:** Aspose.Tasks for Java 24.12  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utolsó frissítés:** 2026-01-18  
-**Tesztelve a következővel:** Aspose.Tasks for Java 24.12  
-**Szerző:** Aspose

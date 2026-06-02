@@ -96,22 +96,6 @@ System.out.println("Baseline Finish: " + baseline.getFinish());
 - **قيمة فارغة (null):** إذا أعاد `task.getBaselines()` قائمة فارغة، تحقق من أن المهمة أُضيفت إلى هيكل المشروع قبل تعيين الخط الأساسي.  
 - **تنسيق التاريخ:** تُعيد طريقتا `getStart()` و `getFinish()` كائنات `Date`. استخدم مُنسقًا إذا كنت بحاجة إلى تنسيق عرض مخصص.
 
-## الأسئلة المتكررة
-### هل يمكن لـ Aspose.Tasks for Java التعامل مع هياكل مشاريع معقدة؟
-نعم، Aspose.Tasks for Java توفر قدرات قوية لإدارة مشاريع ذات تعقيدات مختلفة بكفاءة.
-
-### هل Aspose.Tasks for Java متوافق مع مكتبات Java أخرى؟
-بالطبع، Aspose.Tasks for Java يندمج بسلاسة مع مكتبات Java الأخرى، مما يعزز قدرات إدارة مشاريعك.
-
-### هل يمكنني تخصيص خطوط أساس المهام باستخدام Aspose.Tasks for Java؟
-بالتأكيد، Aspose.Tasks for Java توفر وظائف واسعة لتخصيص وإدارة خطوط أساس المهام وفق متطلبات مشروعك.
-
-### هل هناك نسخة تجريبية متاحة لـ Aspose.Tasks for Java؟
-نعم، يمكنك الحصول على نسخة تجريبية مجانية من Aspose.Tasks for Java عبر [صفحة الإصدار](https://releases.aspose.com/).
-
-### أين يمكنني العثور على الدعم لـ Aspose.Tasks for Java؟
-لأي استفسارات أو مساعدة، يمكنك زيارة منتدى Aspose.Tasks [هنا](https://forum.aspose.com/c/tasks/15).
-
 ## أسئلة شائعة
 
 **س: كيف أنشئ كائن مشروع جديد في Aspose.Tasks؟**  
@@ -131,17 +115,15 @@ System.out.println("Baseline Finish: " + baseline.getFinish());
 
 ---
 
+**آخر تحديث:** 2026-01-18  
+**تم الاختبار باستخدام:** Aspose.Tasks for Java 24.12  
+**المؤلف:** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2026-01-18  
-**تم الاختبار باستخدام:** Aspose.Tasks for Java 24.12  
-**المؤلف:** Aspose  
-
----

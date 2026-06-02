@@ -103,15 +103,15 @@ A: Tak, możesz uzyskać pomoc na [forum wsparcia](https://forum.aspose.com/c/ta
 ## Podsumowanie
 Postępując zgodnie z tymi krokami, nauczyłeś się jak **utworzyć listę zadań Java**, **dodać zadanie do Microsoft Project** oraz **ustawić bazę linii czasu bez MS Project** przy użyciu Aspose.Tasks. To podejście usprawnia automatyzację projektów, eliminuje potrzebę instalacji desktopowej wersji Project i daje pełną programistyczną kontrolę nad danymi projektu.
 
+---
+
+**Last Updated:** 2026-01-18  
+**Tested With:** Aspose.Tasks for Java 24.12  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-18  
-**Tested With:** Aspose.Tasks for Java 24.12  
-**Author:** Aspose

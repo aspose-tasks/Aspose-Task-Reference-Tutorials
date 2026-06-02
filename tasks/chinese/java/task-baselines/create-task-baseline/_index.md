@@ -103,13 +103,6 @@ Aspose.Tasks 完全通过代码实现基线创建。您可以通过更改 `Basel
 ## 结论
 通过遵循上述步骤，您已经学习了如何 **创建任务列表 Java**、**向 Microsoft Project 添加任务**，以及 **在没有 MS Project 的情况下设置基线**，全部使用 Aspose.Tasks 实现。这种方法简化了项目自动化，消除了对桌面 Project 安装的需求，并为您的项目数据提供了完整的编程控制。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最后更新：** 2026-01-18  
@@ -117,3 +110,10 @@ Aspose.Tasks 完全通过代码实现基线创建。您可以通过更改 `Basel
 **作者：** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

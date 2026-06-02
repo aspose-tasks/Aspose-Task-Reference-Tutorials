@@ -96,22 +96,6 @@ Door deze stappen te volgen kun je Aspose.Tasks voor Java effectief gebruiken om
 - **Null‑waarden:** Als `task.getBaselines()` een lege lijst retourneert, controleer dan of de taak aan de projecthiërarchie is toegevoegd voordat je de baseline instelt.
 - **Datumnotatie:** De methoden `getStart()` en `getFinish()` retourneren `Date`‑objecten. Gebruik een formatter als je een aangepast weergaveformaat nodig hebt.
 
-## FAQ's
-### Kan Aspose.Tasks voor Java complexe projectstructuren aan?
-Ja, Aspose.Tasks voor Java biedt robuuste mogelijkheden om projecten van verschillende complexiteit efficiënt te beheren.
-
-### Is Aspose.Tasks voor Java compatibel met andere Java‑bibliotheken?
-Absoluut, Aspose.Tasks voor Java integreert naadloos met andere Java‑bibliotheken, waardoor je projectmanagementmogelijkheden worden uitgebreid.
-
-### Kan ik taakbaselines aanpassen met Aspose.Tasks voor Java?
-Zeker, Aspose.Tasks voor Java biedt uitgebreide functionaliteit om taakbaselines aan te passen en te beheren volgens je projectvereisten.
-
-### Is er een proefversie beschikbaar voor Aspose.Tasks voor Java?
-Ja, je kunt een gratis proefversie van Aspose.Tasks voor Java verkrijgen via de [release page](https://releases.aspose.com/).
-
-### Waar kan ik ondersteuning vinden voor Aspose.Tasks voor Java?
-Voor vragen of hulp kun je het Aspose.Tasks‑forum bezoeken [hier](https://forum.aspose.com/c/tasks/15).
-
 ## Veelgestelde vragen
 
 **Q: Hoe maak ik een nieuw project‑object aan in Aspose.Tasks?**  
@@ -131,17 +115,15 @@ A: Absoluut. Haal elke baseline op via `task.getBaselines().get(index)` en verge
 
 ---
 
+**Laatst bijgewerkt:** 2026-01-18  
+**Getest met:** Aspose.Tasks voor Java 24.12  
+**Auteur:** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Laatst bijgewerkt:** 2026-01-18  
-**Getest met:** Aspose.Tasks voor Java 24.12  
-**Auteur:** Aspose  
-
----

@@ -97,22 +97,6 @@ En suivant ces étapes, vous pouvez exploiter efficacement Aspose.Tasks for Java
 - **Valeurs nulles :** Si `task.getBaselines()` renvoie une liste vide, vérifiez que la tâche a été ajoutée à la hiérarchie du projet avant de définir la base de référence.  
 - **Format de date :** Les méthodes `getStart()` et `getFinish()` renvoient des objets `Date`. Utilisez un formateur si vous avez besoin d’un format d’affichage personnalisé.
 
-## FAQ
-### Aspose.Tasks for Java peut‑il gérer des structures de projet complexes ?
-Oui, Aspose.Tasks for Java offre des capacités robustes pour gérer efficacement des projets de complexité variable.
-
-### Aspose.Tasks for Java est‑il compatible avec d’autres bibliothèques Java ?
-Absolument, Aspose.Tasks for Java s’intègre parfaitement avec d’autres bibliothèques Java, améliorant vos capacités de gestion de projet.
-
-### Puis‑je personnaliser les bases de référence des tâches avec Aspose.Tasks for Java ?
-Certainement, Aspose.Tasks for Java offre des fonctionnalités étendues pour personnaliser et gérer les bases de référence des tâches selon les exigences de votre projet.
-
-### Existe‑t‑il une version d’essai d’Aspose.Tasks for Java ?
-Oui, vous pouvez accéder à une version d’essai gratuite d’Aspose.Tasks for Java depuis la [page de diffusion](https://releases.aspose.com/).
-
-### Où puis‑je trouver du support pour Aspose.Tasks for Java ?
-Pour toute question ou assistance, vous pouvez visiter le forum Aspose.Tasks [ici](https://forum.aspose.com/c/tasks/15).
-
 ## Questions fréquemment posées
 
 **Q : Comment créer une nouvelle instance de projet dans Aspose.Tasks ?**  
@@ -132,15 +116,15 @@ A : Absolument. Récupérez chaque base de référence via `task.getBaselines(
 
 ---
 
+**Dernière mise à jour :** 2026-01-18  
+**Testé avec :** Aspose.Tasks for Java 24.12  
+**Auteur :** Aspose
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Dernière mise à jour :** 2026-01-18  
-**Testé avec :** Aspose.Tasks for Java 24.12  
-**Auteur :** Aspose

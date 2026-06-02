@@ -94,22 +94,6 @@ System.out.println("Baseline Finish: " + baseline.getFinish());
 - **空值：** 如果 `task.getBaselines()` 返回空列表，请确认任务已在设置基线前添加到项目层级中。  
 - **日期格式：** `getStart()` 和 `getFinish()` 方法返回 `Date` 对象。如需自定义显示格式，请使用格式化器。
 
-## FAQ
-### Aspose.Tasks for Java 能处理复杂的项目结构吗？
-是的，Aspose.Tasks for Java 提供强大的功能，能够高效管理各种复杂程度的项目。
-
-### Aspose.Tasks for Java 与其他 Java 库兼容吗？
-当然，Aspose.Tasks for Java 可无缝集成其他 Java 库，提升您的项目管理能力。
-
-### 我可以使用 Aspose.Tasks for Java 定制任务基线吗？
-可以，Aspose.Tasks for Java 提供丰富的功能，帮助您根据项目需求定制和管理任务基线。
-
-### Aspose.Tasks for Java 有试用版吗？
-有，您可以从 [release page](https://releases.aspose.com/) 获取 Aspose.Tasks for Java 的免费试用版。
-
-### 在哪里可以找到 Aspose.Tasks for Java 的支持？
-如有任何疑问或需要帮助，可访问 Aspose.Tasks 论坛 [here](https://forum.aspose.com/c/tasks/15)。
-
 ## 常见问答
 
 **Q: 如何在 Aspose.Tasks 中创建新项目实例？**  
@@ -129,17 +113,15 @@ A: 完全可以。通过 `task.getBaselines().get(index)` 获取每个基线，�
 
 ---
 
+**最后更新：** 2026-01-18  
+**测试环境：** Aspose.Tasks for Java 24.12  
+**作者：** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2026-01-18  
-**测试环境：** Aspose.Tasks for Java 24.12  
-**作者：** Aspose  
-
----

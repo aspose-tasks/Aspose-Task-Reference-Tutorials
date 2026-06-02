@@ -101,15 +101,15 @@ rsc.set(Rsc.OVERTIME_RATE, BigDecimal.valueOf(20));
 ### Aspose.Tasks for Java 정식 라이선스 버전을 어디서 구매할 수 있나요?
 [Aspose.Tasks 구매 페이지](https://purchase.aspose.com/buy)에서 정식 라이선스를 구매할 수 있습니다.
 
+---
+
+**마지막 업데이트:** 2026-01-18  
+**테스트 환경:** Aspose.Tasks for Java 24.12 (작성 시 최신)  
+**작성자:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2026-01-18  
-**테스트 환경:** Aspose.Tasks for Java 24.12 (작성 시 최신)  
-**작성자:** Aspose

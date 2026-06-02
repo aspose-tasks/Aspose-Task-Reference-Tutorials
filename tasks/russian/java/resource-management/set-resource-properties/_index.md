@@ -106,15 +106,15 @@ rsc.set(Rsc.OVERTIME_RATE, BigDecimal.valueOf(20));
 ### Где можно приобрести лицензированную версию Aspose.Tasks for Java?
 Вы можете приобрести лицензированную версию Aspose.Tasks for Java на [странице покупки](https://purchase.aspose.com/buy).
 
+---
+
+**Последнее обновление:** 2026-01-18  
+**Тестировано с:** Aspose.Tasks for Java 24.12 (последняя версия на момент написания)  
+**Автор:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Последнее обновление:** 2026-01-18  
-**Тестировано с:** Aspose.Tasks for Java 24.12 (последняя версия на момент написания)  
-**Автор:** Aspose

@@ -96,22 +96,6 @@ Durch das Befolgen dieser Schritte können Sie Aspose.Tasks für Java effektiv n
 - **Null‑Werte:** Wenn `task.getBaselines()` eine leere Liste zurückgibt, prüfen Sie, ob die Aufgabe zur Projekt‑Hierarchie hinzugefügt wurde, bevor Sie die Baseline setzen.
 - **Datumsformat:** Die Methoden `getStart()` und `getFinish()` geben `Date`‑Objekte zurück. Verwenden Sie einen Formatter, wenn Sie ein benutzerdefiniertes Anzeigeformat benötigen.
 
-## FAQ
-### Kann Aspose.Tasks für Java komplexe Projektstrukturen verarbeiten?
-Ja, Aspose.Tasks für Java bietet robuste Fähigkeiten, um Projekte unterschiedlicher Komplexität effizient zu verwalten.
-
-### Ist Aspose.Tasks für Java mit anderen Java‑Bibliotheken kompatibel?
-Absolut, Aspose.Tasks für Java lässt sich nahtlos in andere Java‑Bibliotheken integrieren und erweitert Ihre Projektmanagement‑Fähigkeiten.
-
-### Kann ich Aufgaben‑Baselines mit Aspose.Tasks für Java anpassen?
-Natürlich bietet Aspose.Tasks für Java umfangreiche Funktionen, um Aufgaben‑Baselines gemäß Ihren Projektanforderungen anzupassen und zu verwalten.
-
-### Gibt es eine Testversion von Aspose.Tasks für Java?
-Ja, Sie können eine kostenlose Testversion von Aspose.Tasks für Java von der [Release‑Seite](https://releases.aspose.com/) erhalten.
-
-### Wo finde ich Support für Aspose.Tasks für Java?
-Bei Fragen oder Unterstützung können Sie das Aspose.Tasks‑Forum [hier](https://forum.aspose.com/c/tasks/15) besuchen.
-
 ## Häufig gestellte Fragen
 
 **F: Wie erstelle ich eine neue Projektinstanz in Aspose.Tasks?**  
@@ -129,15 +113,15 @@ A: Das Setzen einer Baseline erfasst die aktuellen Daten, ändert jedoch nicht d
 **F: Ist es möglich, mehrere Baselines programmgesteuert zu vergleichen?**  
 A: Absolut. Rufen Sie jede Baseline über `task.getBaselines().get(index)` ab und vergleichen Sie deren Eigenschaften `Start`, `Finish` und `Duration`.
 
+---
+
+**Zuletzt aktualisiert:** 2026-01-18  
+**Getestet mit:** Aspose.Tasks for Java 24.12  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Zuletzt aktualisiert:** 2026-01-18  
-**Getestet mit:** Aspose.Tasks for Java 24.12  
-**Autor:** Aspose

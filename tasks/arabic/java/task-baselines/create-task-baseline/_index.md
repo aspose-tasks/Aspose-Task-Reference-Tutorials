@@ -103,17 +103,15 @@ project.setBaseline(BaselineType.Baseline);
 ## الخلاصة
 باتباع هذه الخطوات، تعلمت كيفية **إنشاء قائمة مهام Java**، **إضافة مهمة إلى Microsoft Project**، و**تعيين خط أساس دون MS Project** باستخدام Aspose.Tasks. يسهّل هذا النهج أتمتة المشاريع، يلغي الحاجة إلى تثبيت Project على سطح المكتب، ويمنحك تحكمًا برمجيًا كاملاً في بيانات مشروعك.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **آخر تحديث:** 2026-01-18  
 **تم الاختبار باستخدام:** Aspose.Tasks for Java 24.12  
 **المؤلف:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

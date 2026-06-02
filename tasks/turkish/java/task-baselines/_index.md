@@ -70,8 +70,6 @@ Bu eğitimde, temel çizgi süre yönetiminin karmaşıklıklarını sade adıml
 
 Temel çizgi süresi yönetiminin zorluklarını aşmaya hazır mısınız? [Görev Temel Çizgi Süre Yönetimi eğitimini](./task-baseline-duration/) keşfedin ve proje yönetimi becerilerinizi yükseltin!
 
----
-
 Aspose.Tasks for Java’ın tam potansiyelini Görev Temel Çizgileri Eğitimleriyle ortaya çıkarın. Her eğitime dalın, becerilerinizi geliştirin ve projeleri yönetme şeklinizi dönüştürün. Aspose.Tasks, proje yönetiminde mükemmelliğe ulaşmanız için yanınızdaki dost olsun!
 
 ## Görev Temel Çizgileri Eğitimleri
@@ -81,13 +79,6 @@ Aspose.Tasks for Java ile görev temel çizgilerini etkili bir şekilde zamanlam
 Aspose.Tasks kullanarak Java’da Microsoft Project görev temel çizgisi oluşturmayı öğrenin; proje verilerini zahmetsizce yöneten güçlü bir kütüphane.
 ### [Aspose.Tasks’te Görev Temel Çizgi Süre Yönetimi](./task-baseline-duration/)
 Aspose.Tasks for Java ile MS Project’te görev temel çizgilerini verimli bir şekilde yönetmeyi öğrenin. Bu eğitim, süreci adım‑adım size rehberlik eder.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Sıkça Sorulan Sorular
 
@@ -111,3 +102,10 @@ Aspose.Tasks for Java ile MS Project’te görev temel çizgilerini verimli bir 
 **Son Güncelleme:** 2026-01-18  
 **Test Edilen Versiyon:** Aspose.Tasks for Java 24.12  
 **Yazar:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

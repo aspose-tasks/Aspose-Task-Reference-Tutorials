@@ -98,23 +98,6 @@ System.out.println("Baseline Finish: " + baseline.getFinish());
 
 ## Συχνές Ερωτήσεις
 
-### Μπορεί το Aspose.Tasks for Java να διαχειριστεί σύνθετες δομές έργου;
-Ναι, το Aspose.Tasks for Java προσφέρει ισχυρές δυνατότητες για τη διαχείριση έργων διαφορετικής πολυπλοκότητας αποδοτικά.
-
-### Είναι το Aspose.Tasks for Java συμβατό με άλλες βιβλιοθήκες Java;
-Απόλυτα, το Aspose.Tasks for Java ενσωματώνεται άψογα με άλλες βιβλιοθήκες Java, ενισχύοντας τις δυνατότητες διαχείρισης του έργου σας.
-
-### Μπορώ να προσαρμόσω τις βάσεις εργασιών χρησιμοποιώντας το Aspose.Tasks for Java;
-Φυσικά, το Aspose.Tasks for Java παρέχει εκτενείς λειτουργίες για την προσαρμογή και διαχείριση των βάσεων εργασιών σύμφωνα με τις απαιτήσεις του έργου σας.
-
-### Υπάρχει διαθέσιμη δοκιμαστική έκδοση του Aspose.Tasks for Java;
-Ναι, μπορείτε να αποκτήσετε δωρεάν δοκιμαστική έκδοση του Aspose.Tasks for Java από τη [σελίδα κυκλοφορίας](https://releases.aspose.com/).
-
-### Πού μπορώ να βρω υποστήριξη για το Aspose.Tasks for Java;
-Για οποιεσδήποτε ερωτήσεις ή βοήθεια, μπορείτε να επισκεφθείτε το φόρουμ Aspose.Tasks [εδώ](https://forum.aspose.com/c/tasks/15).
-
-## Συχνές Ερωτήσεις
-
 **Q: Πώς δημιουργώ μια νέα εγγραφή έργου στο Aspose.Tasks;**  
 A: Δημιουργήστε μια παρουσία της κλάσης `Project` (`Project project = new Project();`). Αυτό δημιουργεί ένα νέο αρχείο έργου έτοιμο για εργασίες και βάσεις.
 
@@ -130,13 +113,6 @@ A: Η ρύθμιση μιας βάσης καταγράφει τις τρέχο�
 **Q: Είναι δυνατόν να συγκρίνω πολλαπλές βάσεις προγραμματιστικά;**  
 A: Απόλυτα. Ανακτήστε κάθε βάση μέσω `task.getBaselines().get(index)` και συγκρίνετε τις ιδιότητες `Start`, `Finish` και `Duration`.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-18  
@@ -144,3 +120,10 @@ A: Απόλυτα. Ανακτήστε κάθε βάση μέσω `task.getBaseli
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

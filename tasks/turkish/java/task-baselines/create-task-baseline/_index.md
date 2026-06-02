@@ -103,15 +103,15 @@ C: Evet, [support forum](https://forum.aspose.com/c/tasks/15) üzerinden yardım
 ## Sonuç
 Bu adımları izleyerek, Aspose.Tasks kullanarak **Java görev listesi oluşturmayı**, **Microsoft Project'e görev eklemeyi** ve **MS Project olmadan baseline ayarlamayı** öğrendiniz. Bu yaklaşım proje otomasyonunu basitleştirir, masaüstü Project kurulumuna gerek kalmaz ve proje verileriniz üzerinde tam programatik kontrol sağlar.
 
+---
+
+**Last Updated:** 2026-01-18  
+**Tested With:** Aspose.Tasks for Java 24.12  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-18  
-**Tested With:** Aspose.Tasks for Java 24.12  
-**Author:** Aspose

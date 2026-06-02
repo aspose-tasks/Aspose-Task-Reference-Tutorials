@@ -70,8 +70,6 @@ I den här handledningen bryter vi ner komplexiteten i hantering av baslinjens v
 
 Redo att bemästra utmaningarna med hantering av baslinjens varaktighet? Upptäck vår [Task Baseline Duration Management‑handledning](./task-baseline-duration/) och höj dina projektledningskunskaper!
 
----
-
 Lås upp hela potentialen i Aspose.Tasks för Java med våra handledningar om uppgiftsbaslinjer. Dyk ner i varje handledning, förbättra dina färdigheter och förändra hur du hanterar projekt. Låt Aspose.Tasks vara din följeslagare för att uppnå projektledningsmästerskap!
 
 ## Handledningar om uppgiftsbaslinjer
@@ -81,13 +79,6 @@ Lär dig hur du effektivt schemalägger uppgiftsbaslinjer med Aspose.Tasks för 
 Lär dig hur du skapar en Microsoft Project‑uppgiftsbaslinje i Java med Aspose.Tasks, ett kraftfullt bibliotek för att hantera projektdata utan ansträngning.
 ### [Task Baseline Duration Management in Aspose.Tasks](./task-baseline-duration/)
 Lär dig hur du effektivt hanterar uppgiftsbaslinjer i MS Project med Aspose.Tasks för Java. Denna handledning guidar dig steg‑för‑steg genom processen.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Vanliga frågor
 
@@ -113,3 +104,10 @@ Lär dig hur du effektivt hanterar uppgiftsbaslinjer i MS Project med Aspose.Tas
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

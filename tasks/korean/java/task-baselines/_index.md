@@ -69,8 +69,6 @@ MS Project에서 기준선 기간을 관리하는 일은 어려울 수 있지만
 
 기준선 기간 관리의 도전을 정복할 준비가 되셨나요? 우리의 [Aspose.Tasks에서 작업 기준선 기간 관리 튜토리얼](./task-baseline-duration/)을 확인하고 프로젝트 관리 역량을 높이세요!
 
----
-
 Aspose.Tasks for Java의 전체 잠재력을 우리의 작업 기준선 튜토리얼로 활용하세요. 각 튜토리얼에 몰입하여 기술을 향상하고 프로젝트 관리 방식을 혁신하십시오. Aspose.Tasks가 프로젝트 관리 우수성을 달성하는 동반자가 되도록 하세요!
 
 ## 작업 기준선 튜토리얼
@@ -80,13 +78,6 @@ Aspose.Tasks for Java를 사용하여 작업 기준선을 효과적으로 일정
 Aspose.Tasks를 사용하여 Java에서 Microsoft Project 작업 기준선을 만드는 방법을 배우세요. 강력한 라이브러리로 프로젝트 데이터를 손쉽게 관리할 수 있습니다.
 ### [Aspose.Tasks에서 작업 기준선 기간 관리](./task-baseline-duration/)
 Aspose.Tasks for Java를 사용하여 MS Project에서 작업 기준선을 효율적으로 관리하는 방법을 배우세요. 이 튜토리얼은 과정을 단계별로 안내합니다.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## 자주 묻는 질문
 
@@ -112,3 +103,10 @@ Aspose.Tasks for Java를 사용하여 MS Project에서 작업 기준선을 효�
 **작성자:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

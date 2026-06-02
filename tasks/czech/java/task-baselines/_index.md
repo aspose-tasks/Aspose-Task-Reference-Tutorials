@@ -70,8 +70,6 @@ V tomto tutoriálu rozkládáme složitosti správy trvání základních linií
 
 Jste připraveni překonat výzvy správy trvání základních linií? Objevte náš [Správa trvání základní linie úkolu tutoriál](./task-baseline-duration/) a pozvedněte své dovednosti v řízení projektů!
 
----
-
 Odemkněte plný potenciál Aspose.Tasks pro Java s našimi tutoriály o základních liniích úkolů. Ponořte se do každého tutoriálu, zlepšete své dovednosti a transformujte způsob, jakým řídíte projekty. Nechte Aspose.Tasks být vaším spolehlivým partnerem při dosahování dokonalosti v řízení projektů!
 
 ## Tutoriály o základních liniích úkolů
@@ -81,13 +79,6 @@ Naučte se efektivně plánovat základní linie úkolů s Aspose.Tasks pro Java
 Naučte se vytvořit základní linii úkolu Microsoft Project v Javě pomocí Aspose.Tasks, výkonné knihovny pro snadnou správu projektových dat.
 ### [Správa trvání základní linie úkolu v Aspose.Tasks](./task-baseline-duration/)
 Naučte se efektivně spravovat základní linie úkolů v MS Project pomocí Aspose.Tasks pro Java. Tento tutoriál vás provede krok za krokem celým procesem.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Často kladené otázky
 
@@ -113,3 +104,10 @@ Naučte se efektivně spravovat základní linie úkolů v MS Project pomocí As
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

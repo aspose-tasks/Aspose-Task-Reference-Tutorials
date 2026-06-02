@@ -102,15 +102,15 @@ Değerlendirme amaçlı geçici lisansı [geçici lisans sayfasından](https://p
 ### Aspose.Tasks for Java lisanslı sürümünü nereden satın alabilirim?
 Lisanslı sürümü [satın alma sayfasından](https://purchase.aspose.com/buy) satın alabilirsiniz.
 
+---
+
+**Son Güncelleme:** 2026-01-18  
+**Test Edilen Versiyon:** Aspose.Tasks for Java 24.12 (yazım anındaki en yeni)  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2026-01-18  
-**Test Edilen Versiyon:** Aspose.Tasks for Java 24.12 (yazım anındaki en yeni)  
-**Yazar:** Aspose

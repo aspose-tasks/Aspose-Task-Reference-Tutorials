@@ -68,8 +68,6 @@ In this tutorial, we break down the complexities of baseline duration management
 
 Ready to conquer the challenges of baseline duration management? Discover our [Task Baseline Duration Management tutorial](./task-baseline-duration/) and elevate your project management skills!
 
----
-
 Unlock the full potential of Aspose.Tasks for Java with our Task Baselines Tutorials. Dive into each tutorial, enhance your skills, and transform the way you manage projects. Let Aspose.Tasks be your companion in achieving project management excellence!
 
 ## Task Baselines Tutorials
@@ -79,13 +77,6 @@ Learn how to schedule task baselines effectively with Aspose.Tasks for Java. Str
 Learn how to create a Microsoft Project task baseline in Java using Aspose.Tasks, a powerful library for managing project data effortlessly.
 ### [Task Baseline Duration Management in Aspose.Tasks](./task-baseline-duration/)
 Learn how to efficiently manage task baselines in MS Project using Aspose.Tasks for Java. This tutorial guides you step‑by‑step through the process.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Frequently Asked Questions
 
@@ -111,3 +102,10 @@ Learn how to efficiently manage task baselines in MS Project using Aspose.Tasks 
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

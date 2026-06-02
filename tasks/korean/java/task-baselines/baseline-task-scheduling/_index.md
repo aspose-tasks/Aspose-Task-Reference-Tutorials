@@ -95,22 +95,6 @@ System.out.println("Baseline Finish: " + baseline.getFinish());
 - **Null values:** `task.getBaselines()`가 빈 리스트를 반환한다면, 기준선을 설정하기 전에 작업이 프로젝트 계층에 추가되었는지 확인하십시오.  
 - **Date format:** `getStart()`와 `getFinish()` 메서드는 `Date` 객체를 반환합니다. 사용자 정의 표시 형식이 필요하면 포맷터를 사용하세요.
 
-## FAQ
-### Aspose.Tasks for Java가 복잡한 프로젝트 구조를 처리할 수 있나요?
-네, Aspose.Tasks for Java는 다양한 복잡도의 프로젝트를 효율적으로 관리할 수 있는 강력한 기능을 제공합니다.
-
-### Aspose.Tasks for Java가 다른 Java 라이브러리와 호환되나요?
-물론입니다. Aspose.Tasks for Java는 다른 Java 라이브러리와 원활히 통합되어 프로젝트 관리 기능을 확장합니다.
-
-### Aspose.Tasks for Java를 사용해 작업 기준선을 맞춤 설정할 수 있나요?
-예, Aspose.Tasks for Java는 프로젝트 요구 사항에 맞게 작업 기준선을 맞춤 설정하고 관리할 수 있는 광범위한 기능을 제공합니다.
-
-### Aspose.Tasks for Java의 체험판이 있나요?
-네, [release page](https://releases.aspose.com/)에서 Aspose.Tasks for Java의 무료 체험판을 이용할 수 있습니다.
-
-### Aspose.Tasks for Java에 대한 지원은 어디서 받을 수 있나요?
-문의 사항이나 도움이 필요하면 Aspose.Tasks 포럼을 방문하세요: [here](https://forum.aspose.com/c/tasks/15).
-
 ## 자주 묻는 질문
 
 **Q: Aspose.Tasks에서 새 프로젝트 인스턴스를 어떻게 만들나요?**  
@@ -128,15 +112,15 @@ A: 기준선을 설정하면 현재 날짜가 캡처되지만 작업의 실제 �
 **Q: 프로그래밍 방식으로 여러 기준선을 비교할 수 있나요?**  
 A: 물론입니다. `task.getBaselines().get(index)`를 통해 각 기준선을 가져와 `Start`, `Finish`, `Duration` 속성을 비교하면 됩니다.
 
+---
+
+**Last Updated:** 2026-01-18  
+**Tested With:** Aspose.Tasks for Java 24.12  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-18  
-**Tested With:** Aspose.Tasks for Java 24.12  
-**Author:** Aspose

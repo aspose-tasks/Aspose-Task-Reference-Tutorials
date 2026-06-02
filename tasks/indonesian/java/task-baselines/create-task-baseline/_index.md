@@ -103,13 +103,6 @@ J: Ya, Anda dapat mendapatkan bantuan melalui [forum dukungan](https://forum.asp
 ## Kesimpulan
 Dengan mengikuti langkah‑langkah ini, Anda telah mempelajari cara **membuat daftar tugas Java**, **menambahkan tugas ke Microsoft Project**, dan **menetapkan baseline tanpa MS Project** menggunakan Aspose.Tasks. Pendekatan ini mempermudah otomatisasi proyek, menghilangkan kebutuhan instalasi Project desktop, dan memberi Anda kontrol penuh secara programatik atas data proyek Anda.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Terakhir Diperbarui:** 2026-01-18  
@@ -117,3 +110,10 @@ Dengan mengikuti langkah‑langkah ini, Anda telah mempelajari cara **membuat da
 **Penulis:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

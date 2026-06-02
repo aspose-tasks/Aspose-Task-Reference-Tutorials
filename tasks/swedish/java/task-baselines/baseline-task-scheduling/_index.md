@@ -96,22 +96,6 @@ Genom att följa dessa steg kan du effektivt använda Aspose.Tasks för Java fö
 - **Null‑värden:** Om `task.getBaselines()` returnerar en tom lista, verifiera att uppgiften har lagts till i projekt‑hierarkin innan baslinjen sätts.
 - **Datumformat:** Metoderna `getStart()` och `getFinish()` returnerar `Date`‑objekt. Använd en formatterare om du behöver ett anpassat visningsformat.
 
-## Vanliga frågor
-### Kan Aspose.Tasks för Java hantera komplexa projektstrukturer?
-Ja, Aspose.Tasks för Java erbjuder robusta möjligheter att effektivt hantera projekt av varierande komplexitet.
-
-### Är Aspose.Tasks för Java kompatibelt med andra Java‑bibliotek?
-Absolut, Aspose.Tasks för Java integreras sömlöst med andra Java‑bibliotek och förbättrar dina projektledningsmöjligheter.
-
-### Kan jag anpassa uppgiftsbaslinjer med Aspose.Tasks för Java?
-Självklart, Aspose.Tasks för Java tillhandahåller omfattande funktioner för att anpassa och hantera uppgiftsbaslinjer enligt dina projektkrav.
-
-### Finns en provversion av Aspose.Tasks för Java tillgänglig?
-Ja, du kan få en gratis provversion av Aspose.Tasks för Java från [release page](https://releases.aspose.com/).
-
-### Var kan jag hitta support för Aspose.Tasks för Java?
-För eventuella frågor eller hjälp kan du besöka Aspose.Tasks‑forumet [here](https://forum.aspose.com/c/tasks/15).
-
 ## Vanliga frågor och svar
 
 **Q: Hur skapar jag en ny projektinstans i Aspose.Tasks?**  
@@ -129,13 +113,6 @@ A: Att sätta en baslinje fångar de aktuella datumen men ändrar inte uppgiften
 **Q: Är det möjligt att jämföra flera baslinjer programatiskt?**  
 A: Absolut. Hämta varje baslinje via `task.getBaselines().get(index)` och jämför deras `Start`, `Finish` och `Duration`‑egenskaper.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-18  
@@ -143,3 +120,10 @@ A: Absolut. Hämta varje baslinje via `task.getBaselines().get(index)` och jämf
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

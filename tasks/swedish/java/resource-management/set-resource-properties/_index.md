@@ -106,15 +106,15 @@ Du kan få en tillfällig licens från [temporary license page](https://purchase
 ### Var kan jag köpa en licensierad version av Aspose.Tasks för Java?
 Du kan köpa en licensierad version av Aspose.Tasks för Java från [purchase page](https://purchase.aspose.com/buy).
 
+---
+
+**Senast uppdaterad:** 2026-01-18  
+**Testat med:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
+**Författare:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2026-01-18  
-**Testat med:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
-**Författare:** Aspose

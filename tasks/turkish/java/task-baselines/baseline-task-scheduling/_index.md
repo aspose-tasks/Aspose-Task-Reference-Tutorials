@@ -97,22 +97,6 @@ Bu adımları izleyerek, Aspose.Tasks for Java'ı projelerinizde **project basel
 - **Date format:** `getStart()` ve `getFinish()` metodları `Date` nesneleri döndürür. Özel bir görüntüleme formatına ihtiyacınız varsa bir biçimlendirici kullanın.
 
 ## Sık Sorulan Sorular
-### Aspose.Tasks for Java karmaşık proje yapılarıyla başa çıkabilir mi?
-Evet, Aspose.Tasks for Java, çeşitli karmaşıklıklardaki projeleri verimli bir şekilde yönetmek için güçlü yetenekler sunar.
-
-### Aspose.Tasks for Java diğer Java kütüphaneleriyle uyumlu mu?
-Kesinlikle, Aspose.Tasks for Java diğer Java kütüphaneleriyle sorunsuz bir şekilde bütünleşir ve proje yönetimi yeteneklerinizi artırır.
-
-### Aspose.Tasks for Java kullanarak görev temel çizgilerini özelleştirebilir miyim?
-Elbette, Aspose.Tasks for Java, proje gereksinimlerinize göre görev temel çizgilerini özelleştirmenize ve yönetmenize geniş fonksiyonlar sağlar.
-
-### Aspose.Tasks for Java için bir deneme sürümü mevcut mu?
-Evet, Aspose.Tasks for Java'ın ücretsiz deneme sürümüne [sürüm sayfasından](https://releases.aspose.com/) erişebilirsiniz.
-
-### Aspose.Tasks for Java için desteği nereden bulabilirim?
-Herhangi bir soru veya yardım için Aspose.Tasks forumunu [burada](https://forum.aspose.com/c/tasks/15) ziyaret edebilirsiniz.
-
-## Sık Sorulan Sorular
 
 **S: Aspose.Tasks'te yeni bir proje örneği nasıl oluşturulur?**  
 C: `Project` sınıfını örnekleyin (`Project project = new Project();`). Bu, görevler ve temel çizgiler için hazır yeni bir proje dosyası oluşturur.
@@ -129,15 +113,15 @@ C: Temel çizgi ayarlamak mevcut tarihleri yakalar ancak görevin aktif takvimin
 **S: Birden fazla temel çizgiyi programatik olarak karşılaştırmak mümkün mü?**  
 C: Kesinlikle. `task.getBaselines().get(index)` ile her bir temel çizgiyi alın ve `Start`, `Finish` ve `Duration` özelliklerini karşılaştırın.
 
+---
+
+**Son Güncelleme:** 2026-01-18  
+**Test Edilen:** Aspose.Tasks for Java 24.12  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2026-01-18  
-**Test Edilen:** Aspose.Tasks for Java 24.12  
-**Yazar:** Aspose

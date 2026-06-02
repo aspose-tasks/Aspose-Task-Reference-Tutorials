@@ -104,15 +104,15 @@ A: Ja, Sie können Hilfe über das [support forum](https://forum.aspose.com/c/ta
 ## Fazit
 Durch das Befolgen dieser Schritte haben Sie gelernt, wie man **Aufgabenliste in Java erstellt**, **Aufgaben zu Microsoft Project hinzufügt** und **eine Basislinie ohne MS Project festlegt** mit Aspose.Tasks. Dieser Ansatz optimiert die Projekt‑Automatisierung, eliminiert die Notwendigkeit von Desktop‑Project‑Installationen und gibt Ihnen volle programmgesteuerte Kontrolle über Ihre Projektdaten.
 
+---
+
+**Last Updated:** 2026-01-18  
+**Tested With:** Aspose.Tasks for Java 24.12  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-18  
-**Tested With:** Aspose.Tasks for Java 24.12  
-**Author:** Aspose

@@ -103,13 +103,6 @@ A: 有，您可透過 [support forum](https://forum.aspose.com/c/tasks/15) 向 A
 ## 結論
 透過上述步驟，您已學會如何 **建立任務清單 Java**、**將任務新增至 Microsoft Project**，以及 **在未使用 MS Project 的情況下設定基線**，全部使用 Aspose.Tasks。此方法可簡化專案自動化流程，免除桌面版 Project 的安裝需求，並讓您完整程式化掌控專案資料。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最後更新：** 2026-01-18  
@@ -117,3 +110,10 @@ A: 有，您可透過 [support forum](https://forum.aspose.com/c/tasks/15) 向 A
 **作者：** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

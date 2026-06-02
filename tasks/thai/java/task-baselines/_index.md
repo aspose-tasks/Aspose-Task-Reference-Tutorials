@@ -69,8 +69,6 @@ weight: 32
 
 พร้อมหรือยังที่จะพิชิตความท้าทายของการจัดการระยะเวลาเบสไลน์? ค้นพบ [Task Baseline Duration Management tutorial](./task-baseline-duration/) ของเราและยกระดับทักษะการจัดการโครงการของคุณ!
 
----
-
 ปลดล็อกศักยภาพเต็มที่ของ Aspose.Tasks for Java ด้วยบทเรียน **Task Baselines** ของเรา ดำดิ่งสู่แต่ละบทเรียน พัฒนาทักษะของคุณ และเปลี่ยนวิธีการจัดการโครงการของคุณ ให้ Aspose.Tasks เป็นเพื่อนคู่คิดในการบรรลุความเป็นเลิศด้านการจัดการโครงการ!
 
 ## บทเรียนเบสไลน์ของงาน
@@ -80,13 +78,6 @@ weight: 32
 เรียนรู้วิธีสร้างเบสไลน์ของงาน Microsoft Project ใน Java ด้วย Aspose.Tasks ไลบรารีที่ทรงพลังสำหรับการจัดการข้อมูลโครงการอย่างไม่มีความยุ่งยาก
 ### [Task Baseline Duration Management in Aspose.Tasks](./task-baseline-duration/)
 เรียนรู้วิธีจัดการเบสไลน์ของงานใน MS Project อย่างมีประสิทธิภาพด้วย Aspose.Tasks for Java บทเรียนนี้จะพาคุณผ่านขั้นตอน‑ต่อ‑ขั้นตอนของกระบวนการ
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## คำถามที่พบบ่อย
 
@@ -110,3 +101,10 @@ weight: 32
 **Last Updated:** 2026-01-18  
 **Tested With:** Aspose.Tasks for Java 24.12  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
