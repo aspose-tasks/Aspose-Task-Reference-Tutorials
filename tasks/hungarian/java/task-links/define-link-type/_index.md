@@ -1,27 +1,32 @@
 ---
-title: Határozza meg a hivatkozás típusát az Aspose.Tasks-ban
-linktitle: Határozza meg a hivatkozás típusát az Aspose.Tasks-ban
+date: 2026-01-23
+description: Tanulja meg, hogyan állíthat be kapcsolattípusokat és kezelheti a feladatfüggőségeket
+  az Aspose.Tasks for Java segítségével egy lépésről‑lépésre útmutatóban.
+linktitle: How to Set Link Types in Aspose.Tasks for Java
 second_title: Aspose.Tasks Java API
-description: Fedezze fel az Aspose.Tasks for Java erejét a projektmenedzsmentben. Határozzon meg és szabjon testre hivatkozástípusokat könnyedén lépésről lépésre bemutató oktatóanyagunkkal.
-weight: 13
+title: Hogyan állítsuk be a hivatkozástípusokat az Aspose.Tasks for Java-ban
 url: /hu/java/task-links/define-link-type/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Határozza meg a hivatkozás típusát az Aspose.Tasks-ban
+# Hogyan állítsuk be a hivatkozástípusokat az Aspose.Tasks for Java-ban
 
 ## Bevezetés
-Üdvözöljük az Aspose.Tasks for Java hatékony projektmenedzsment világában! Ha egyszerűsíteni szeretné projektkezelését és növelni a termelékenységet, akkor jó helyen jár. Ebben az átfogó oktatóanyagban végigvezetjük a hivatkozástípusok Aspose.Tasks for Java programban történő meghatározásának folyamatán, javítva ezzel projektkezelési képességeit.
-## Előfeltételek
-Mielőtt belevágnánk az oktatóanyagba, győződjön meg arról, hogy beállította a következő előfeltételeket:
-- Java fejlesztői környezet: Győződjön meg arról, hogy működő Java fejlesztői környezet van telepítve a rendszerére.
--  Aspose.Tasks Library: Töltse le és telepítse az Aspose.Tasks for Java könyvtárat a[letöltési link](https://releases.aspose.com/tasks/java/).
-- Dokumentumkönyvtár: Hozzon létre egy könyvtárat, ahol a projektdokumentumokat tárolja.
+Ha kíváncsi vagy arra, **hogyan állítsuk be a hivatkozást** a feladatok között, miközben *feladatfüggőségeket* kezelünk egy projektben, jó helyen jársz. Ebben az útmutatóban végigvezetünk egy új projekt létrehozásán, feladatok hozzáadásán, és a hivatkozástípusatávaltosan tudod testre szabni a feladatkapcsolatokat a valós ütemezési igényekhez.
+
+## Gyors válaszok
+- **Mi a fő osztály a hivatkozásokhoz?** `TaskLink` az Aspose.Tasks könyvtárban.  
+- **Melyik enum határozza meg a hivatkozástípusokat?** `TaskLinkType` (pl. `StartToStart`).en aznyezet- **Java fejlesztői környezet** – JDK 8 vagy újabb telepítve és konfigurálva.  
+- **Aspose.Tasks könyvtár** – Töltsd le a legújabb JAR-t a [download link](https://releases.aspose.com/tasks/java/) címről.  
+- **Dokumentum könyvtár**peden, ahol a minta projekt fájlokat tárolod.
+
 ## Csomagok importálása
-Ebben a lépésben importáljuk a projektünk elindításához szükséges csomagokat. Ez biztosítja, hogy Java környezete készen áll az Aspose.Tasks funkciók zökkenőmentes integrálására.
+Az alapvető Aspose.Tasks osztályok importálásával kezdünk. Ez felkészíti az IDE-t, hogy felismerje a később használandó API hívásokat.
+
 ```java
 import com.aspose.tasks.Project;
 import com.aspose.tasks.Task;
@@ -29,11 +34,15 @@ import com.aspose.tasks.TaskLink;
 import com.aspose.tasks.TaskLinkCollection;
 import com.aspose.tasks.TaskLinkType;
 ```
-## Határozza meg a hivatkozás típusát az Aspose.Tasks-ban
-Most pedig térjünk át az alapvető funkciókra – hivatkozástípusok meghatározására az Aspose.Tasks for Java-ban.
-## 1. lépés: A hivatkozás típusának beállítása
+
+## Hogyan állítsuk be a hivatkozástípusokat az Aspose.Tasks-ben
+Az alábbiakban a folyamatot két egyértelmű lépésre bontjuk: egy hivatkozás létrehozása egy adott típussal, majd a típus visszaolvasása egy meglévő projektből.
+
+### 1. lépés: Hivatkozástípus beállítása
+Ebben a lépésben egy új projektet hozunk létre, két feladatot adunk hozzá, és a **Start‑to‑Start** kapcsolatot használva kapcsoljuk össze őket. Ez bemutatja, **hogyan állítsuk be a hivatkozást** programozottan.
+
 ```java
-// A dokumentumok könyvtárának elérési útja.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
 
 Project project = new Project();
@@ -42,8 +51,12 @@ Task succ = project.getRootTask().getChildren().add("Task 2");
 TaskLink link = project.getTaskLinks().add(pred, succ);
 link.setLinkType(TaskLinkType.StartToStart);
 ```
-Ebben a lépésben létrehozunk egy új projektet, hozzáadunk két feladatot, és kapcsolatot létesítünk közöttük egy megadott hivatkozástípussal (jelen esetben Start-Start).
-## 2. lépés: A hivatkozás típusának lekérése
+
+> **Pro tipp:** A `StartToStart` helyett használhatod a `FinishToStart`, `StartToFinish` vagy `FinishToFinish milyen függőséget kell **kezelni a feladatok között**.
+
+### 2. lépés: Hivatkozástípus lekérése
+Most betöltünk egy meglévő projektfájlt (`project.xml`), és felsoroljuk az összes hivatkozást, hogy lássuk, melyik típust használják. Ez hasznos az ütemezések auditálásához vagy módosításához.
+
 ```java
 Project project = new Project(dataDir + "project.xml");
 TaskLinkCollection allLinks = project.getTaskLinks();
@@ -51,21 +64,38 @@ for (TaskLink tskLink : allLinks) {
     System.out.println(tskLink.getLinkType());
 }
 ```
-Itt betöltünk egy meglévő projektet egy XML-fájlból, és végigfutjuk az összes feladathivatkozást, kinyomtatva a megfelelő hivatkozástípusokat.
-Az alábbi lépések követésével sikeresen meghatározhatja és lekérheti a hivatkozástípusokat az Aspose.Tasks for Java projektben lévő feladatokhoz.
-## Következtetés
-Gratulálunk! Most már elsajátította a hivatkozástípusok meghatározását az Aspose.Tasks for Java programban. Ez a hatékony eszköz új lehetőségeket nyit meg a hatékony projektmenedzsmentben. Kísérletezzen különféle hivatkozástípusokkal, hogy tökéletesre szabhassa projektje munkafolyamatait.
-## Gyakran Ismételt Kérdések
-### K: Az Aspose.Tasks kompatibilis a különböző Java környezetekkel?
-V: Igen, az Aspose.Tasks zökkenőmentesen integrálható a különböző Java fejlesztői környezetekkel.
-### K: Testreszabhatom a linktípusokat a projekt követelményei alapján?
-V: Abszolút! Az Aspose.Tasks rugalmasságot biztosít, lehetővé téve a hivatkozástípusok meghatározását és testreszabását a projekt igényei szerint.
-### K: Hol találom az Aspose.Tasks for Java részletes dokumentációját?
- V: Lásd a[Aspose.Tasks a Java dokumentációhoz](https://reference.aspose.com/tasks/java/) mélyreható útmutatásért.
-### K: Hogyan szerezhetek ideiglenes licencet az Aspose.Tasks számára?
- Egy látogatás[ez a link](https://purchase.aspose.com/temporary-license/) tesztelési célú ideiglenes engedély megszerzésére.
-### K: Hol kaphatok támogatást az Aspose.Tasks-hoz kapcsolódó lekérdezésekhez?
- V: Csatlakozzon az Aspose.Tasks közösséghez a webhelyen[támogatói fórum](https://forum.aspose.com/c/tasks/15) segítségért és megbeszélésekért.
+
+A konzol olyan értékeket fog kiírni, mint `StartToStart`, `FinishToStart` stb., megerősítve a korábban beállított hivatkozástípust.
+
+## Gyakori problémák és megoldások
+- **NullPointerException hivatkozások hozzáadásakor** – Győződj meg róla, hogy a predecessor és successor feladatok is hozzá vannak adva a projekthez a `TaskLink` létrehozása("output.mpp")`-t (vagy más támogatott formátumot) a hivatkozástípus beállítása után a változások mentéshez.  
+- **Licenc nem található** – Helyezd az Aspose.Tasks licencfájlt a projekt classpath-jába, és töltsd be a `License license = new License(); license.setLicense("Aspose.Tasks.Java.lic");` kóddal.
+
+## Gyakran ismételt kérdések
+
+### K: Az Aspose.Tasks kompatibilis különböző Java környezetekkel?
+V: Igen, az Aspose.Tasks úgy van tervezve, hogy zökkenőmentesen integrálódjon különböző Java fejlesztői környezetekkel.
+
+### K: Testreszabhatom a hivatkozástípusokat a projekt követelményei szerint?
+V: Teljesen! Az Aspose.Tasks rugalmasságot biztosít, lehetővé téve a hivatkozástípusok definiálását és testreszabását a projekt igényeihez.
+
+### K: Hol találom meg az Aspose.Tasks for Java részletes dokumentációját?
+V: Tekintsd meg a [Aspose.Tasks for Java dokumentációt](https://reference.aspose.com/tasks/java/) a részletes útmutatásért.
+
+### K: Hogyan szerezhetek ideiglenes licencet az Aspose.Tasks-hez?
+V: Látogasd meg [ezt a linket](https://purchase.aspose.com/temporary-license/), hogy ideiglenes licencet szerezz tesztelési célokra.
+
+### K: Hol kaphatok támogatást az Aspose.Tasks-szel kapcsolatos kérdésekhez?
+V: Csatlakozz az Aspose.Tasks közösséghez a [támogatási fórumon](https://forum.aspose.com/c/tasks/15) segítség és beszélgetés céljából.
+
+### K: Megváltsd be a projektld a`-t MPP fájlok betöltéséhez, és dolgozz a feladatkapcsolatokkal, akárcsak a fenti XML példában.
+
+---
+
+**Utolsó frissítés:** 2026-01-23  
+**Tesztelve ezzel:** Aspose.Tasks for Java 24.12  
+**Szerző:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

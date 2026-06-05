@@ -1,27 +1,45 @@
 ---
-title: Gestione della durata prevista delle attività in Aspose.Tasks
-linktitle: Gestione della durata prevista delle attività in Aspose.Tasks
-second_title: API Java Aspose.Tasks
-description: Scopri come gestire in modo efficiente le basi delle attività in MS Project utilizzando Aspose.Tasks per Java. Questo tutorial ti guida passo passo attraverso il processo.
-weight: 12
+date: 2026-01-23
+description: Scopri come impostare la durata della baseline e creare un'istanza di
+  progetto utilizzando Aspose.Tasks per Java. Questa guida passo passo ti aiuta a
+  gestire le baseline delle attività in modo efficiente.
+linktitle: How to Set Baseline Duration in Aspose.Tasks for Java
+second_title: Aspose.Tasks Java API
+title: Come impostare la durata della baseline in Aspose.Tasks per Java
 url: /it/java/task-baselines/task-baseline-duration/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Gestione della durata prevista delle attività in Aspose.Tasks
+# Come impostare la durata della baseline in Aspose.Tasks per Java
 
-## introduzione
-La gestione delle basi delle attività in MS Project è fondamentale per la pianificazione e il monitoraggio del progetto. In questo tutorial esploreremo come gestire in modo efficace le durate della baseline delle attività utilizzando Aspose.Tasks per Java.
+## Introduzione
+Imcome impostare la durata della baseline** per le attività in Microsoft Project utilizzando la libreria Aspose.Tasks per Java, e vedrai perché stabilire una baseline in anticipo può farti risparmiare tempo e problemi in seguito.
+
+## Risposte rapide
+-istra la data di inizio, fine e la durata originali di un'attività così puoi confrontare le modifiche future.  
+- **Quale classe Aspose.Tasks crea un progetto?** La classe `Project` – imparerai anche come **creare un'istanza di progetto** correttamente.  
+- **Ho bisogno di una licenza per eseguire il codice?** Una licenza di valutazione gratuita funziona per i test; è necessaria una licenza commerciale per la produzione.  
+- **Posso recuperare le baseline  
+- **Quale versione consiglia Java 8 o successiva.
+
+## Cos'è una baseline di attività e impostarla?
+Una?
+- **Compatibilità completa .mpp** – leggi e scrivi file nativi di Microsoft Project senza necessità di Office.  
+- **API ricca** – accedi ai dati della baseline, alle baseline intermedie e alle informazioni a tempo programmato in modo programmatico.  
+- **Cross‑platform** – funziona su Windows, Linux e macOS con qualsiasi JDK standard.
+
 ## Prerequisiti
-Prima di iniziare, assicurati di avere quanto segue:
-1. Ambiente di sviluppo Java: assicurati di avere Java Development Kit (JDK) installato sul tuo sistema.
-2.  Libreria Aspose.Tasks: scarica e installa la libreria Aspose.Tasks per Java da[Qui](https://releases.aspose.com/tasks/java/).
+1. **Ambiente di sviluppo Java** – JDK 8+ installato e configurato.  
+2. **Aspose.Tasks per Java** – scarica la libreria da [qui](https://releases.aspose.com/tasks/java/).  
+3. **IDE o strumento di build** – Maven, Gradle o qualsiasi IDE tu preferisca.
 
-## Importa pacchetti
-Innanzitutto, importa i pacchetti necessari per il tuo progetto Java:
+## Importare i pacchetti
+First, import the necessary classes into your Java project:
+
 ```java
 import com.aspose.tasks.BaselineType;
 import com.aspose.tasks.Project;
@@ -30,19 +48,25 @@ import com.aspose.tasks.TaskBaseline;
 import com.aspose.tasks.TimeUnitType;
 import com.aspose.tasks.TimephasedData;
 ```
-## Passaggio 1: crea un'istanza del progetto
-Inizializza una nuova istanza del progetto utilizzando il seguente codice:
+
+## Passo 1: Creare un'istanza di progetto
+Creating a project instance is the foundation for any further manipulation. This step shows how to **create project instance** using Aspose.Tasks:
+
 ```java
 Project project = new Project();
 ```
-## Passaggio 2: creare una previsione delle attività
-Crea una nuova attività e imposta la sua baseline utilizzando il seguente codice:
+
+## Passo 2: Creare una baseline di attività
+Add a new task to the project’s root and set its baseline. This records the original schedule for the task:
+
 ```java
 Task task = project.getRootTask().getChildren().add("Task");
 project.setBaseline(BaselineType.Baseline);
 ```
-## Passaggio 3: visualizzare le informazioni sulla baseline delle attività
-Recupera e visualizza informazioni sulla baseline delle attività come durata, data di inizio, data di fine e altro:
+
+## Passo 3: Visualizzare le informazioni della baseline di attività
+Retrieve the baseline you just created and print its key properties. This helps you verify that the baseline was set correctly:
+
 ```java
 TaskBaseline baseline = task.getBaselines().toList().get(0);
 System.out.println("Baseline Start: " + baseline.getStart());
@@ -51,14 +75,18 @@ System.out.println("Baseline Duration Format: " + TimeUnitType.toString(TimeUnit
 System.out.println("Is it an Estimated Duration?: " + baseline.getEstimatedDuration());
 System.out.println("Baseline Finish: " + baseline.getFinish());
 ```
-## Passaggio 4: verificare la previsione provvisoria e i costi fissi
-Controlla se la previsione è una previsione provvisoria e recupera eventuali costi fissi ad essa associati:
+
+## Passo 4: Verificare la baseline intermedia e il costo fisso
+If you’re working with interim baselines, you can query whether the current baseline is interim and any associated fixed cost:
+
 ```java
 System.out.println("Interim: " + baseline.getInterim());
 System.out.println("Fixed Cost: " + baseline.getFixedCost());
 ```
-## Passaggio 5: stampa dei dati rapportati alla scala cronologica
-Stampa i dati rapportati alla scala cronologica associati alla baseline dell'attività:
+
+## Passo 5: Stampare i dati a tempo programmato
+Time‑phased data shows how the baseline is distributed over time. Loop through the collection to inspect each entry:
+
 ```java
 System.out.println("Number of Timephased Items: " + baseline.getTimephasedData().size());
 for (TimephasedData data : baseline.getTimephasedData()) {
@@ -67,21 +95,46 @@ for (TimephasedData data : baseline.getTimephasedData()) {
     System.out.println(" Finish: " + data.getFinish());
 }
 ```
-Seguendo questi passaggi, puoi gestire in modo efficace le durate della previsione delle attività in MS Project utilizzando Aspose.Tasks per Java.
 
-## Conclusione
-La gestione delle previsioni delle attività è essenziale per la gestione dei progetti, poiché consente di tenere traccia delle deviazioni dalla pianificazione pianificata. Con Aspose.Tasks per Java, questo processo diventa snello ed efficiente, consentendo un migliore controllo e consegna del progetto.
-## Domande frequenti
-### Che cos'è una base di attività in MS Project?
-Una previsione dell'attività in MS Project è un'istantanea della pianificazione pianificata iniziale per un'attività, inclusa la data di inizio, la data di fine e la durata.
-### Perché la gestione delle attività di base è importante?
-La gestione delle attività di base aiuta a confrontare la pianificazione pianificata con lo stato di avanzamento effettivo del progetto, facilitando un migliore monitoraggio e processo decisionale.
-### Posso modificare una previsione di attività una volta impostata?
-Sì, puoi modificare le basi delle attività in MS Project per riflettere le modifiche nel piano del progetto. Tuttavia, è essenziale documentare eventuali deviazioni rispetto al valore di riferimento originale.
-### Aspose.Tasks supporta altre funzionalità di gestione dei progetti?
-Sì, Aspose.Tasks offre un'ampia gamma di funzionalità per la gestione dei progetti, tra cui la pianificazione delle attività, l'allocazione delle risorse e la generazione di diagrammi di Gantt.
+Seguendo questi passaggi, puoi **impostare la durata della baseline** per qualsiasi attività e recuperare informazioni dettagliate sulla Aspose.Tasks per Java.
+
+## Problemi comuni e soluzioni
+- **Baseline non appare in MS Project:** Assicurati di aver chiamato `project.setBaseline(BaselineType.Baseline)` **dopo** aver aggiunto l'attività.  
+- **NullPointerException su `getBaselines()`:** Verifica che l'attività sia stata aggiunta al progetto prima di impostare la baseline.  
+- **Incongruenza dell'unità di tempo:** Usa `TimeUnitType` per formattare correttamente la durata, soprattutto quando lavori con calendari personalizzati.
+
+## FAQ
+
+### Cos'è una baseline di attività in MS Project?
+Una baseline di attività in MS Project è un'istantanea del programma pianificato iniziale per un'attività, includendo la data di inizio, la data di fine e la durata.
+
+### Perché è le baseline di attività?
+Gestire le baselineare il programma pianificato con l'avanzamento reale### Aspose.Tasks supportagetti?
+Sì, Aspose.Tasks offre un'ampia gamma di funzionalità per la gestione dei progetti, inclusi la pianificazione delle attività, l'allocazione delle risorse e la generazione di diagrammi di Gantt.
+
 ### Dove posso trovare supporto per Aspose.Tasks?
- Puoi trovare supporto per Aspose.Tasks su[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15), dove puoi porre domande e interagire con altri utenti.
+Puoi trovare supporto per Aspose.Tasks sul [forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15), dove puoi fare domande e interagire con altri utenti.
+
+## Ulteriori domande frequenti
+**D: Devo chiamare `setBaseline` per ogni attività singolarmente?**  
+R: No. Chiamare `project.setBaseline(BaselineType.Baseline)` registra la baseline per tutte le attività del progetto in una volta.
+
+**D: Come posso impostare una baseline intermedia per un'attività specifica?**  
+R: Usa `project.setBaseline(BaselineType.Baseline1)` (o Baseline2‑Baseline10) dopo aver aggiornato il programma dell'attività.
+
+**D: È possibile esportare i dati della baseline in CSV?**  
+R: Sì. Itera su `task.getBaselines()` e scrivi i campi desiderati in un file CSV usando le normali I/O di Java.
+
+**D: Posso leggere un file .mpp esistente che contiene già baseline?**  
+R: Assolutamente. Carica il file con `new Project("myproject.mpp")` e poi accedi alle baseline di ciascuna attività come mostrato sopra.
+
+**D: Aspose.Tasks gestisce file multi‑progetto?**  
+R: Aspose.Tasks funziona con file .mpp a progetto singolo. Per scenari multi‑progetto, combina i progetti programmaticamente.
+
+**Ultimo aggiornamento:** 2026-01-23  
+**Testato con:** Aspose.Tasks per Java 24.12  
+**Autore:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
