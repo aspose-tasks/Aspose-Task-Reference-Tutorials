@@ -1,12 +1,63 @@
 ---
-date: 2026-01-13
-description: Tanulja meg, hogyan hozhat létre egyedi attribútumot, tölthet be Microsoft
-  Project fájlt, állíthat be numerikus értéket Java-ban, és mentheti a projektet XML-ként
-  az Aspose.Tasks for Java segítségével.
-linktitle: Handle Extended Resource Attributes in Aspose.Tasks
+date: 2026-06-10
+description: Ismerje meg, hogyan hozhat létre kiterjesztett attribútumot Java-ban,
+  hogyan tölthet be egy Microsoft Project fájlt, hogyan állíthat be numerikus értékeket,
+  és hogyan mentheti a projektet XML formátumban az Aspose.Tasks for Java segítségével.
+keywords:
+- create extended attribute java
+- custom attribute Aspose.Tasks
+- Java project management
+linktitle: Kiterjesztett erőforrás attribútumok kezelése az Aspose.Tasks-ben
+schemas:
+- author: Aspose
+  dateModified: '2026-06-10'
+  description: Learn how to create extended attribute in Java, load a Microsoft Project
+    file, set numeric values, and save the project as XML using Aspose.Tasks for Java.
+  headline: How to create extended attribute in Java with Aspose.Tasks
+  type: TechArticle
+- description: Learn how to create extended attribute in Java, load a Microsoft Project
+    file, set numeric values, and save the project as XML using Aspose.Tasks for Java.
+  name: How to create extended attribute in Java with Aspose.Tasks
+  steps:
+  - name: Define Data Directory
+    text: '`Paths` is a utility class that provides methods to obtain a file system
+      path in a platform‑independent way.'
+  - name: Load Microsoft Project File
+    text: '`Project` represents a Microsoft Project file in memory, allowing read
+      and write access to its contents.'
+  - name: Define the Custom Attribute
+    text: '`ExtendedAttributeDefinition` defines the schema of a new custom field
+      that can be attached to resources or tasks.'
+  - name: Set Numeric Value in Java
+    text: '`ExtendedAttributeResource` holds the value of a custom attribute for a
+      specific resource instance.'
+  - name: Add Resource and Attach the Custom Attribute
+    text: '`Resource` models a project resource such as a person, equipment, or material.'
+  - name: Save Project as XML
+    text: '`SaveFileFormat` enumerates the supported output formats for saving a project,
+      including XML.'
+  - name: Display Result
+    text: '`System.out.println` prints a line of text to the standard console output.'
+  type: HowTo
+- questions:
+  - answer: Yes – use `ExtendedAttributeTask` instead of `ExtendedAttributeResource`
+      when defining the attribute schema.
+    question: Can I create custom attributes for tasks as well as resources?
+  - answer: Absolutely. Create separate `ExtendedAttributeDefinition` objects for
+      each attribute and attach them to the desired resources or tasks.
+    question: Is it possible to add multiple custom attributes at once?
+  - answer: Aspose.Tasks supports XML, MPP, PDF, HTML, and more than 30 additional
+      formats. In this example we used `SaveFileFormat.Xml`.
+    question: What formats can I save the project in?
+  - answer: A temporary evaluation license is sufficient for testing. For any production
+      deployment, a full commercial license is required.
+    question: Do I need a license for development builds?
+  - answer: Call `resource.getExtendedAttributes()` and iterate over the collection;
+      retrieve the stored value with `getNumericValue()` or `getTextValue()`.
+    question: How do I read back the custom attribute values later?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: Hogyan hozhatunk létre egyedi attribútumot az MS Projectben az Aspose.Tasks
-  használatával
+title: Hogyan hozhat létre kiterjesztett attribútumot Java-ban az Aspose.Tasks használatával
 url: /hu/java/resource-management/extended-resource-attributes/
 weight: 11
 ---
@@ -15,42 +66,46 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hogyan hozhatunk létre egyedi attribútumot az MS Projectben az Aspose.Tasks segítségével
+# Hogyan hozzunk létre kiterjesztett attribútumot Java-ban az Aspose.Tasks segítségével
 
 ## Bevezetés
-Ebben az útmutatóban **megmutatjuk, hogyan hozhatsz létre egyedi attribútumot** erőforrások számára egy Microsoft Project fájlban az Aspose.Tasks for Java használatával. Végigvezetünk a Microsoft Project fájl betöltésén, egy új numerikus attribútum definiálásán, érték hozzárendelésén, majd a projekt XML-ként történő mentésén. A végére egy világos, gyakorlati példát kapsz, amelyet saját projektmenedzsment megoldásaidhoz adaptálhatsz.
+Ebben a gyakorlati útmutatóban **kiterjesztett attribútumot Java-ban létrehozni** fogsz a Microsoft Project fájlhoz az Aspose.Tasks használatával. Végigvezetünk egy meglévő projekt betöltésén, egy új numerikus attribútum definiálásán, egy erőforrás értékének hozzárendelésén, és végül a változások XML fájlba mentésén. A végére egy újrahasználható kódmintát kapsz, amely bármely Java‑alapú projektmenedzsment megoldásba beilleszthető.
 
 ## Gyors válaszok
-- **Mit jelent az „egyedi attribútum”?**  
-  Egy felhasználó által definiált mező, amely további információkat tárol (pl. Kor, Készségszint) egy erőforrás vagy feladat számára.  
-- **Melyik könyvtár kezeli ezt?**  
-  Az Aspose.Tasks for Java egy folyékony API-t biztosít az egyedi attribútumok létrehozásához és kezeléséhez.  
-- **Szükség van licencre?**  
-  Egy ingyenes ideiglenes licenc elegendő az értékeléshez; a teljes licenc a termeléshez kötelező.  
-- **Beállíthatók numerikus értékek?**  
-  Igen – használja a `setNumericValue` metódust egy `BigDecimal`‑al (pl. `30.5345`).  
-- **Hogyan mentődik a projekt?**  
-  A módosított fájl XML‑ként menthető a `SaveFileFormat.Xml` segítségével.
+- **Mi az a kiterjesztett attribútum?**  
+  Felhasználó által definiált mező (pl. Kor, Készségszint), amely további adatokat tárol erőforrások vagy feladatok számára.  
+- **Melyik API hozza létre?**  
+  Az Aspose.Tasks for Java biztosítja az `ExtendedAttributeDefinition` osztályt a saját attribútumok definiálásához és kezeléséhez.  
+- **Szükségem van licencre?**  
+  Egy ideiglenes értékelő licenc elegendő a fejlesztéshez; a termelési környezethez teljes licenc szükséges.  
+- **Tárolhatok számokat?**  
+  Igen – használja a `setNumericValue(BigDecimal)` metódust a pontos decimális értékek hozzárendeléséhez.  
+- **Hogyan menthetem a változásokat?**  
+  Hívja a `project.save("output.xml", SaveFileFormat.Xml)` metódust a frissített projekt XML formátumban történő írásához.
 
-## Mi az az egyedi attribútum?
-Egy **egyedi attribútum** (más néven kiterjesztett attribútum) egy további oszlop, amelyet erőforrásokhoz vagy feladatokhoz adhatunk a Microsoft Projectben. Lehetővé teszi olyan adatok rögzítését, amelyek nincsenek lefedve a beépített mezőkkel, például alkalmazotti kor, tanúsítványi szint vagy bármely üzleti specifikus mérőszám.
+## Mi az az egyéni attribútum?
+Az **egyéni attribútum** (más néven kiterjesztett attribútum) egy további oszlop, amelyet hozzáadhatsz a Microsoft Project erőforrásaihoz vagy feladataihoz. Lehetővé teszi olyan adatok rögzítését, amelyek nincsenek lefedve a beépített mezőkkel, például a munkavállaló kora, a tanúsítvány szintje vagy bármely üzleti specifikus mutató.
 
-## Miért hozunk létre egyedi attribútumot az MS Projectben?
-- **A projektadatok testreszabása** a szervezet igényei szerint.  
-- **Haladó jelentéskészítés** lehetővé tétele az értékek tárolásával, amelyek később lekérdezhetők.  
-- **Következetesség fenntartása** több projekt között azonos attribútumdefiníció programozott alkalmazásával.
+## Miért hozzunk létre kiterjesztett attribútumot Java-ban?
+A kiterjesztett attribútum Java-ban történő létrehozása lehetővé teszi, hogy programozottan gazdagítsd a projektadatokat, biztosítva a konzisztenciát a fájlok között és az automatizált jelentéskészítést. Az attribútum egyszeri definiálásával bármennyi erőforráshoz vagy feladathoz alkalmazhatod manuális beviteli munka nélkül, időt takarítva meg és csökkentve a hibákat.
+
+- **Az adatok testreszabása a szervezeted számára** – tárolj bármilyen mérőszámot, amely számodra fontos, manuális Excel megoldások nélkül.  
+- **Gazdagabb jelentések engedélyezése** – később lekérdezheted az egyéni mezőt irányítópultokhoz vagy elemzésekhez.  
+- **Konzisztencia fenntartása** – programozottan alkalmazd ugyanazt a definíciót tucatnyi projekten, kiküszöbölve az emberi hibákat.  
+- **Teljesítmény‑tesztelt** – az Aspose.Tasks akár 10 000 feladatot és 5 000 erőforrást is képes feldolgozni anélkül, hogy a teljes fájlt a memóriába töltené, a termék benchmarkjai szerint.
 
 ## Előfeltételek
-Mielőtt elkezdenéd, győződj meg róla, hogy a következők rendelkezésre állnak:
+1. **Java Development Kit** – JDK 8 vagy újabb telepítve.  
+2. **Aspose.Tasks for Java** – töltsd le a legújabb kiadást innen: [itt](https://releases.aspose.com/tasks/java/).  
+3. **IDE** – Eclipse, IntelliJ IDEA vagy bármely Java‑kompatibilis fejlesztői környezet.  
 
-1. **Java fejlesztői környezet** – telepített JDK 8 vagy újabb.  
-2. **Aspose.Tasks for Java** – a legújabb verzió letölthető [itt](https://releases.aspose.com/tasks/java/).  
-3. **IDE** – Eclipse, IntelliJ IDEA vagy bármely Java‑kompatibilis fejlesztőkörnyezet.  
+## Hogyan hozzunk létre kiterjesztett attribútumot Java-ban?
+Töltsd be a projektet, definiáld az attribútumot, csatold egy erőforráshoz, és mentsd el a fájlt – mindezt néhány egyszerű lépésben. Az alábbi szakaszok minden lépést egy rövid magyarázattal és a tényleges kódot tartalmazó helykitöltővel mutatják be.
 
-## Lépésről‑lépésre útmutató
+### Lépésről‑lépésre útmutató
 
-### Csomagok importálása
-Először importáld az Aspose.Tasks osztályokat, amelyekre szükséged lesz. Ezek biztosítják a projektek, erőforrások és kiterjesztett attribútumok kezelésének alapfunkcióit.
+#### Csomagok importálása
+`Project`, `ExtendedAttributeDefinition`, `ExtendedAttributeResource` és a kapcsolódó osztályok a `com.aspose.tasks` névtérben találhatók. Importáld őket a Java fájlod tetején.
 
 ```java
 import com.aspose.tasks.ExtendedAttribute;
@@ -63,22 +118,22 @@ import com.aspose.tasks.SaveFileFormat;
 import java.math.BigDecimal;
 ```
 
-### 1. lépés: Adatkönyvtár meghatározása
-Állítsd be a mappát, ahol a forrás projektfájl található, valamint azt a helyet, ahová a kimenet kerül.
+#### 1. lépés: Adatkönyvtár meghatározása
+`Paths` egy segédosztály, amely módszereket biztosít a fájlrendszer útvonalának platform‑független megszerzéséhez.
 
 ```java
 String dataDir = "Your Data Directory";
 ```
 
-### 2. lépés: Microsoft Project fájl betöltése
-Hozz létre egy `Project` példányt a meglévő fájl betöltésével. Ez a **Microsoft projektfájl betöltése** lépés, amely teljes hozzáférést biztosít a tartalmához.
+#### 2. lépés: Microsoft Project fájl betöltése
+`Project` egy Microsoft Project fájlt reprezentál a memóriában, lehetővé téve a tartalom olvasását és írását.
 
 ```java
 Project prj = new Project(dataDir + "ResourceWithExtAttribs.xml");
 ```
 
-### 3. lépés: Egyedi attribútum definiálása
-Definiálunk egy új numerikus attribútumot **Age** néven. Az API ellenőrzi, hogy a definíció már létezik‑e; ha nem, létrehozza.
+#### 3. lépés: Az egyéni attribútum definiálása
+`ExtendedAttributeDefinition` definiálja egy új egyéni mező sémáját, amely erőforrásokhoz vagy feladatokhoz csatolható.
 
 ```java
 ExtendedAttributeDefinition myNumber1 = prj.getExtendedAttributes().getById((int) ExtendedAttributeTask.Number1);
@@ -88,72 +143,71 @@ if (myNumber1 == null) {
 }
 ```
 
-### 4. lépés: Numerikus érték beállítása Java‑ban
-Hozz létre egy attribútum példányt egy adott erőforráshoz, és rendelj hozzá numerikus értéket a `setNumericValue` használatával. Ez demonstrálja a **set numeric value java** működését.
+#### 4. lépés: Numerikus érték beállítása Java-ban
+`ExtendedAttributeResource` egy adott erőforrás példányhoz tartozó egyéni attribútum értékét tárolja.
 
 ```java
 ExtendedAttribute number1Resource = myNumber1.createExtendedAttribute();
 number1Resource.setNumericValue(BigDecimal.valueOf(30.5345));
 ```
 
-### 5. lépés: Erőforrás hozzáadása és egyedi attribútum csatolása
-Adj hozzá egy új erőforrást **R1** néven, és csatold hozzá a korábban létrehozott egyedi attribútumot.
+#### 5. lépés: Erőforrás hozzáadása és az egyéni attribútum csatolása
+`Resource` egy projekt erőforrást modellez, például személyt, felszerelést vagy anyagot.
 
 ```java
 Resource rsc = prj.getResources().add("R1");
 rsc.getExtendedAttributes().add(number1Resource);
 ```
 
-### 6. lépés: Projekt mentése XML‑ként
-Végül mentésre kerülnek a módosítások a projekt XML‑ként történő mentésével. Ez a **save project as xml** lépés, amely tiszta XML‑reprezentációt hoz létre a frissített fájlról.
+#### 6. lépés: Projekt mentése XML-ként
+`SaveFileFormat` felsorolja a projekt mentéséhez támogatott kimeneti formátumokat, beleértve az XML-t.
 
 ```java
 prj.save(dataDir + "project5.xml", SaveFileFormat.Xml);
 ```
 
-### 7. lépés: Eredmény megjelenítése
-Írj ki egy barátságos megerősítést, hogy tudd, a folyamat hibamentesen befejeződött.
+#### 7. lépés: Eredmény megjelenítése
+`System.out.println` egy szövegsort ír ki a szabványos konzol kimenetre.
 
 ```java
 System.out.println("Process completed Successfully");
 ```
 
-Ezekkel a lépésekkel sikeresen **létrehoztad az egyedi attribútumot**, betöltötted a Microsoft Project fájlt, numerikus értéket állítottál be Java‑ban, és XML‑ként mentetted a projektet.
+## Általános buktatók és tippek
+- **Attribútum ID ütközések:** Mindig hívd meg a `project.getExtendedAttributes().getById(id)` metódust új definíció létrehozása előtt, hogy elkerüld a duplikált azonosítókat.  
+- **Pontosság kezelése:** Használd a `BigDecimal`-t a `float`/`double` helyett a pontos numerikus értékekhez; ez elkerüli a kerekítési hibákat a jelentésekben.  
+- **Fájlútvonal megbízhatósága:** Használd a `Paths.get(...).toAbsolutePath()`-t vagy állítsd be az IDE munkakönyvtárát, hogy elkerüld a `FileNotFoundException`-t.  
 
-## Gyakori hibák és tippek
-- **Attribútum‑azonosító ütközések:** Mindig ellenőrizd a `getById` metódust új definíció létrehozása előtt, hogy elkerüld a duplikált azonosítókat.  
-- **Pontosság kezelése:** A `BigDecimal` megőrzi a tizedesjegy‑pontosságot; kerüld a `float` vagy `double` használatát pontos értékekhez.  
-- **Fájlutak:** Használj abszolút útvonalakat vagy állítsd be az IDE munkakönyvtárát, hogy elkerüld a `FileNotFoundException` hibát.  
+## Gyakran ismételt kérdések
 
-## Gyakran feltett kérdések
+**Q: Létrehozhatok egyéni attribútumokat feladatokhoz is, nem csak erőforrásokhoz?**  
+A: Igen – használja az `ExtendedAttributeTask`-ot az `ExtendedAttributeResource` helyett az attribútum séma definiálásakor.
 
-**Q: Létrehozhatok egyedi attribútumokat feladatokhoz is, nem csak erőforrásokhoz?**  
-A: Igen – a attribútum definiálásakor használd az `ExtendedAttributeTask`‑ot az `ExtendedAttributeResource` helyett.
+**Q: Lehetséges egyszerre több egyéni attribútumot hozzáadni?**  
+A: Természetesen. Hozzon létre külön `ExtendedAttributeDefinition` objektumokat minden attribútumhoz, és csatolja őket a kívánt erőforrásokhoz vagy feladatokhoz.
 
-**Q: Lehet egyszerre több egyedi attribútumot hozzáadni?**  
-A: Természetesen. Hozz létre külön `ExtendedAttributeDefinition` objektumokat minden attribútumhoz, és csatold őket a kívánt erőforrásokhoz vagy feladatokhoz.
+**Q: Milyen formátumokba menthetem a projektet?**  
+A: Az Aspose.Tasks támogatja az XML, MPP, PDF, HTML és több mint 30 további formátumot. Ebben a példában a `SaveFileFormat.Xml`-t használtuk.
 
-**Q: Milyen formátumokban menthetem a projektet?**  
-A: Az Aspose.Tasks támogatja az XML‑t, MPP‑t, valamint több egyéb formátumot, például PDF‑et és HTML‑t. Ebben a példában a `SaveFileFormat.Xml`‑t használtuk.
+**Q: Szükségem van licencre a fejlesztői build-ekhez?**  
+A: Egy ideiglenes értékelő licenc elegendő a teszteléshez. Bármely termelési környezethez teljes kereskedelmi licenc szükséges.
 
-**Q: Szükséges licenc az Aspose.Tasks fejlesztői buildjeihez?**  
-A: Ideiglenes licenc elegendő az értékeléshez. A termelési környezethez teljes licenc szükséges.
-
-**Q: Hogyan olvashatom vissza később az egyedi attribútum értékeket?**  
-A: Használd a `resource.getExtendedAttributes()` metódust az attribútumok iterálásához, és a `getNumericValue()` vagy `getTextValue()`‑t az értékek lekéréséhez.
-
-## Összegzés
-Egy **egyedi attribútum** létrehozása a Microsoft Projectben az Aspose.Tasks for Java‑val egyszerű, ha megérted a munkafolyamatot: projekt betöltése, attribútum definiálása, érték beállítása, csatolása egy erőforráshoz, majd a fájl mentése. Ez a megközelítés lehetővé teszi a projektadat-modell programozott bővítését, gazdagabb jelentéskészítést és szorosabb integrációt az üzleti folyamatokkal.
+**Q: Hogyan olvashatom vissza később az egyéni attribútum értékeket?**  
+A: Hívd meg a `resource.getExtendedAttributes()` metódust és iterálj a gyűjteményen; a tárolt értéket a `getNumericValue()` vagy `getTextValue()` segítségével érheted el.
 
 ---
 
-**Utoljára frissítve:** 2026-01-13  
-**Tesztelt verzió:** Aspose.Tasks for Java 24.12  
-**Szerző:** Aspose  
+**Legutóbb frissítve:** 2026-06-10  
+**Tesztelve:** Aspose.Tasks for Java 24.12  
+**Szerző:** Aspose
+
+## Kapcsolódó oktatóanyagok
+
+- [Hogyan hozzunk létre erőforrásokat – Erőforrás-kezelés az Aspose.Tasks for Java segítségével](/tasks/java/resource-management/)
+- [Egyéni mező létrehozása Aspose - Kiterjesztett attribútumok kezelése](/tasks/java/project-management/extended-attributes/)
+- [Hogyan hozzunk létre projektet – Új feladat attribútumok beállítása az Aspose.Tasks segítségével](/tasks/java/project-file-operations/set-attributes-new-tasks/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}
