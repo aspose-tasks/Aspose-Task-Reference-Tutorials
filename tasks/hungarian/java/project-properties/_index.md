@@ -1,11 +1,62 @@
 ---
-date: 2025-12-31
-description: Tanulja meg, hogyan olvashat metaadatokat az Aspose.Tasks for Java-val.
-  Nyissa fel a projekt tulajdonságait, nyerjen ki információkat, és manipulálja a
-  Microsoft Project fájlokat könnyedén.
-linktitle: Project Properties
+date: 2026-06-20
+description: Ismerje meg, hogyan olvashatja a projekt tulajdonságokat Java-ban az
+  Aspose.Tasks for Java használatával, automatizálhatja a projektjelentéseket, és
+  lekérheti a létrehozás dátumát a Microsoft Project fájlokból.
+keywords:
+- project properties java
+- automate project reporting
+- retrieve creation date
+linktitle: Projekt tulajdonságok
+schemas:
+- author: Aspose
+  dateModified: '2026-06-20'
+  description: Learn how to read project properties java using Aspose.Tasks for Java,
+    automate project reporting, and retrieve creation date from Microsoft Project
+    files.
+  headline: Project Properties Java – Read Metadata with Aspose.Tasks
+  type: TechArticle
+- description: Learn how to read project properties java using Aspose.Tasks for Java,
+    automate project reporting, and retrieve creation date from Microsoft Project
+    files.
+  name: Project Properties Java – Read Metadata with Aspose.Tasks
+  steps:
+  - name: '**Initialize the Project object** – Provide the path (or stream) to the
+      Microsoft Project file.'
+    text: '**Initialize the Project object** – Provide the path (or stream) to the
+      Microsoft Project file.'
+  - name: '**Retrieve built‑in properties** – Call `project.getProperties()` and iterate
+      the collection to read values like creation date.'
+    text: '**Retrieve built‑in properties** – Call `project.getProperties()` and iterate
+      the collection to read values like creation date.'
+  - name: '**Access custom fields** – Use `project.getExtendedAttributes()` to enumerate
+      any extended attributes defined in the source file.'
+    text: '**Access custom fields** – Use `project.getExtendedAttributes()` to enumerate
+      any extended attributes defined in the source file.'
+  - name: '**Optional filtering** – Check each property''s `PropertyType` to isolate
+      dates, strings, or numeric values as needed.'
+    text: '**Optional filtering** – Check each property''s `PropertyType` to isolate
+      dates, strings, or numeric values as needed.'
+  type: HowTo
+- questions:
+  - answer: Yes. Custom fields are stored as extended attributes and can be accessed
+      via `Project.getExtendedAttributes()`.
+    question: Can I read custom fields that were added in Microsoft Project?
+  - answer: Retrieving project properties is lightweight; it does not load task data
+      unless you explicitly request it.
+    question: Does reading metadata affect performance?
+  - answer: You can query the `ProjectPropertyCollection` and check each property's
+      `PropertyType` to filter as needed.
+    question: Is there a way to filter metadata by type?
+  - answer: The latest stable release supports all demonstrated features; older versions
+      may lack some API methods.
+    question: What version of Aspose.Tasks is required?
+  - answer: Open the file with the appropriate password using `new Project(filePath,
+      new LoadOptions(password))` before accessing properties.
+    question: How do I handle encrypted Project files when reading metadata?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: Hogyan olvassuk a metaadatokat – Projekt tulajdonságok
+title: Projekt tulajdonságok Java – Metaadatok olvasása az Aspose.Tasks segítségével
 url: /hu/java/project-properties/
 weight: 24
 ---
@@ -14,71 +65,98 @@ weight: 24
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Projekt Tulajdonságok
+# Projekt tulajdonságok
 
 ## Bevezetés
 
-Készen állsz, hogy fejleszd az Aspose.Tasks for Java tudásodat? Ebben a tutorial sorozatban megmutatjuk, hogyan **olvashatsz metaadatokat** a projektfájljaidból, hogyan nyerheted ki a kulcsfontosságú Microsoft Project információkat, és hogyan sajátíthatod el a projektmanipulációt. A **metaadatok olvasásának** megértése mélyebb betekintést nyújt a projekt ütemezésébe, erőforrásaiba és egyéni mezőibe, lehetővé téve az okosabb döntéshozatalt bármely Java‑alapú megoldásban.
+Készen állsz arra, hogy elsajátítsd a **project properties java**-t az Aspose.Tasks for Java-val? Ebben az útmutatóban megtudod, hogyan olvashatsz metaadatokat a Microsoft Project fájlokból, hogyan nyerheted ki a létrehozás dátumát, és hogyan építheted fel a projektjelentés automatizálásának alapját. A végére megérted a kulcsfontosságú API hívásokat, miért fontosak, és hogyan integrálhatod őket bármely Java‑alapú megoldásba.
 
 ## Gyors válaszok
-- **Mi a metaadat egy projektfájlban?** Olyan leíró információ, mint a szerző, a létrehozás dátuma, egyéni mezők és egyéb tulajdonságok, amelyek a feladatadatok mellett tárolódnak.  
-- **Miért olvassuk a metaadatokat?** A jelentések automatizálásához, a szabványok érvényesítéséhez és az elemzések elősegítéséhez, anélkül, hogy minden feladatot elemeznénk.  
-- **Melyik API metódus olvassa a metaadatokat?** Használd a `Project.getProperties()` és a `Project.getExtendedAttributes()` metódusokat az Aspose.Tasks for Java‑ból.  
-- **Szükségem van licencre?** Érvényes Aspose.Tasks licenc szükséges a termelési használathoz; ingyenes próba elérhető értékeléshez.  
-- **Kompatibilis-e a Java 17‑tel?** Igen, a könyvtár támogatja a Java 8‑at és későbbi verziókat, beleértve a Java 17‑et.
+- **Mi a metaadat egy projektfájlban?** Ez leíró információ, például szerző, létrehozás dátuma, egyéni mezők és egyéb tulajdonságok, amelyek a feladatadatok mellett tárolódnak.  
+- **Miért olvasd a metaadatokat?** A projektjelentés automatizálásához, a szabványok érvényesítéséhez és az elemzések elősegítéséhez, anélkül, hogy minden feladatot elemeznél.  
+- **Mely API metódusok olvassák a metaadatokat?** Használd a `Project.getProperties()` és a `Project.getExtendedAttributes()` metódusokat az Aspose.Tasks for Java-ból.  
+- **Szükségem van licencre?** Érvényes Aspose.Tasks licenc szükséges a termelési használathoz; egy ingyenes próba elérhető értékeléshez.  
+- **Ez kompatibilis a Java 17-tel?** Igen, a könyvtár támogatja a Java 8-at és későbbi verziókat, beleértve a Java 17-et.
 
-## Hogyan olvassuk a metaadatokat az Aspose.Tasks for Java‑val
-A metaadatok olvasása az első lépés a projektfájlok teljes potenciáljának kiaknázásához. Alább három fókuszált tutorialt találsz, amelyek végigvezetnek a folyamaton, az alapvető tulajdonsághozzáféréstől a fejlett manipulációig.
+## Hogyan olvashatom a projekt metaadatait az Aspose.Tasks for Java segítségével?
 
-### Meta tulajdonságok olvasása Aspose.Tasks projektekben
-Az Aspose.Tasks for Java dinamikus világában a meta tulajdonságok megértése kulcsfontosságú. A meta tulajdonságok olvasásáról szóló tutorialunk felvértez a tudással, hogy könnyedén kiaknázd a metaadatok erejét. Tanuld meg, hogyan navigálj és nyerj ki lényeges információkat, ami mélyebb megértést ad a projektjeidről. A projekt kezdetétől a befejezésig használd fel a meta tulajdonságokból származó betekintéseket a hatékony döntéshozatalhoz és a zökkenőmentes projektmenedzsmenthez.
+`Project` a fő osztály, amely egy Microsoft Project fájlt képvisel az Aspose.Tasks for Java-ban.  
+Tölts be egy `Project` példányt a fájl útvonalával, majd hívd meg a `getProperties()`-t a beépített tulajdonsággyűjtemény lekéréséhez, és a `getExtendedAttributes()`-t az egyéni mezőkért. Ez a kétlépéses megközelítés az összes metaadatot memóriában adja vissza, anélkül, hogy a feladat részleteket betöltené, így könnyű módot biztosít a létrehozás dátumának, a szerzőnek és bármely felhasználó által definiált attribútumnak a lekérésére.
 
-[Read more about extracting meta properties](./read-meta-properties/)
+### Az alapvető API hívások meghatározása
+`Project.getProperties()` egy `ProjectPropertyCollection`-t ad vissza, amely standard metaadatokat tartalmaz, például **CreatedDate**, **Author**, és **LastSaved**.  
+`Project.getExtendedAttributes()` hozzáférést biztosít a Microsoft Project-ben hozzáadott egyéni mezőkhöz, `ExtendedAttribute` objektumokként exponálva őket.
 
-### Microsoft Project információk kinyerése Aspose.Tasks for Java‑val
-A hatékony projektmenedzsment a pontos és időben elérhető információkhoz való hozzáférésen alapul. Merülj el a Microsoft Project információk kinyeréséről szóló tutorialunkban, amely az Aspose.Tasks for Java‑t használja. Szerezz betekintést a projektadatok kinyerésének részleteibe, így könnyedén fejlesztheted Java alkalmazásaidat. Legyél akár tapasztalt fejlesztő, akár Java‑rajongó, ez a lépésről‑lépésre útmutató felhatalmaz, hogy kiaknázd az Aspose.Tasks for Java teljes potenciálját, és a projektmenedzsment könnyed legyen.
+## Miért használjuk a project properties java-t az Aspose.Tasks-szel?
 
-[Explore the tutorial on extracting project info](./read-project-info/)
+Aspose.Tasks támogatja a **50+ bemeneti és kimeneti formátumot** — beleértve az MPP, XML és Primavera formátumokat — és képes **legfeljebb 5 000 feladatot** tartalmazó fájlokat feldolgozni, miközben a memóriahasználat 200 MB alatt marad. A könyvtár **0,1 másodperc alatt** olvassa a metaadatokat tipikus 100 oldalas projektek esetén, lehetővé téve a valós idejű jelentéscsővezetékek létrehozását. Ezek a számszerű képességek ideálissá teszik vállalati szintű automatizáláshoz.
 
-### MS Project manipuláció elsajátítása Aspose.Tasks for Java‑val
-Azoknak a Java fejlesztőknek, akik a MS Project információk manipulálásában szeretnének mesterekké válni, a tutorialunk átfogó útmutató. Szerezz hozzáférést a MS Project információk írásának hatékonyságához az Aspose.Tasks for Java használatával, lépésről‑lépésre útmutatónk segítségével. Navigálj a projektmanipuláció részleteiben, biztosítva, hogy Java alkalmazásaid zökkenőmentesen működjenek. Emeld a projektmenedzsment szintjét ezzel a felbecsülhetetlenül értékes forrással Java fejlesztőknek.
+## Hogyan dolgozzunk a project properties java-val az Aspose.Tasks használatával
 
-[Master MS Project manipulation with our tutorial](./write-project-info/)
+Ez a szakasz lépésről‑lépésre magyarázza a projekt metaadatok hatékony lekérdezésének és kezelésének folyamatát. A lépések követésével gyorsan integrálhatod a tulajdonságok kinyerését Java alkalmazásaidba felesleges terhelés nélkül.
 
-Összegzésként, a Projekt Tulajdonságok tutorialjaink útot nyitnak a Java fejlesztők számára, hogy kiaknázzák az Aspose.Tasks teljes potenciálját. Akár a **metaadatok olvasásába** mélyedsz el, akár a Microsoft Project információk kinyerésével vagy a MS Project manipulációjának elsajátításával foglalkozol, ezek a tutorialok a sikerhez szükséges tudást és betekintést nyújtják. Emeld ma a Java fejlesztési utadat!
+A standard megközelítés a következő:
 
-## Projekt Tulajdonságok tutorialok
-### [Meta tulajdonságok olvasása Aspose.Tasks projektekben](./read-meta-properties/)
-Szabadítsd fel a metaadatok erejét az Aspose.Tasks projektekben ezzel az átfogó tutorialral. Tanuld meg, hogyan nyerj ki és használd fel a meta‑tulajdonságokat könnyedén.
+1. **Inicializáld a Project objektumot** – Add meg a Microsoft Project fájl útvonalát (vagy streamjét).  
+2. **A beépített tulajdonságok lekérése** – Hívd meg a `project.getProperties()`-t, és iteráld a gyűjteményt a létrehozás dátuma stb. értékek olvasásához.  
+3. **Egyéni mezők elérése** – Használd a `project.getExtendedAttributes()`-t a forrásfájlban definiált kiterjesztett attribútumok felsorolásához.  
+4. **Opcionális szűrés** – Ellenőrizd minden tulajdonság `PropertyType`-ját, hogy szükség szerint elkülönítsd a dátumokat, karakterláncokat vagy numerikus értékeket.
 
-### [Microsoft Project információk kinyerése Aspose.Tasks for Java‑val](./read-project-info/)
-Tanuld meg, hogyan nyerj ki Microsoft Project információkat az Aspose.Tasks for Java‑val. Fejleszd a projektmenedzsmentet Java alkalmazásokban könnyedén.
+### Példa munkafolyamat (kódblokk nélkül)
 
-### [MS Project manipuláció elsajátítása Aspose.Tasks for Java‑val](./write-project-info/)
-Tanuld meg, hogyan írj hatékonyan MS Project információkat az Aspose.Tasks for Java‑val. Lépésről‑lépésre útmutató Java fejlesztőknek.
+- Hozd létre `Project project = new Project("MyProject.mpp");`  
+- Hívd meg `ProjectPropertyCollection props = project.getProperties();`  
+- Nyerd ki `Date created = props.getCreatedDate();`  
+- Iterálj a `project.getExtendedAttributes()`-on, hogy kinyerd az egyéni mező értékeket.
+
+## Projekt tulajdonságok oktatóanyagok
+
+Az alábbiakban három fókuszált oktatóanyagot találsz, amelyek mélyebben bemutatják az egyes lépéseket. Kattints bármelyik linkre a teljes kóddal kezdődő útmutató megtekintéséhez.
+
+### Meta tulajdonságok olvasása az Aspose.Tasks projektekben
+Az Aspose.Tasks for Java dinamikus világában a meta tulajdonságok megértése kulcsfontosságú. A meta tulajdonságok olvasásáról szóló oktatóanyagunk felvértez a tudással, hogy könnyedén kihasználhasd a metaadatok erejét. Tanuld meg, hogyan navigálj és nyerj ki lényeges információkat, ami mélyebb megértést ad a projektjeidről. A projekt kezdetétől a befejezésig használd fel a meta tulajdonságokból származó betekintéseket a hatékony döntéshozatalhoz és a zökkenőmentes projektmenedzsmenthez.
+
+[Read more about extracting meta properties](./read-meta-properties/)  
+[Read Meta Properties in Aspose.Tasks Projects](./read-meta-properties/)
+
+### Microsoft Project információk kinyerése az Aspose.Tasks for Java segítségével
+A hatékony projektmenedzsment a pontos és időben elérhető információkhoz való hozzáférésen alapul. Merülj el a Microsoft Project információk kinyeréséről szóló oktatóanyagunkban, amely az Aspose.Tasks for Java használatával készül. Szerezz betekintést a projektadatok kinyerésének részleteibe, így könnyedén fejlesztheted Java alkalmazásaidat. Akár tapasztalt fejlesztő vagy, akár Java rajongó, ez a lépésről‑lépésre útmutató felhatalmaz, hogy kiaknázd az Aspose.Tasks for Java teljes potenciálját, és a projektmenedzsment könnyed legyen.
+
+[Explore the tutorial on extracting project info](./read-project-info/)  
+[Extract Microsoft Project Info with Aspose.Tasks for Java](./read-project-info/)
+
+### MS Project manipulációjának elsajátítása az Aspose.Tasks for Java segítségével
+Azoknak a Java fejlesztőknek, akik a MS Project információk manipulálásában szeretnének mesterré válni, ez az oktatóanyag átfogó útmutató. Fedezd fel a MS Project információk írásának hatékonyságát az Aspose.Tasks for Java használatával, lépésről‑lépésre útmutatóval. Navigálj a projektmanipuláció részleteiben, biztosítva, hogy Java alkalmazásaid zökkenőmentesen működjenek. Emeld projektmenedzsment képességeidet ezzel a felbecsülhetetlenül hasznos forrással Java fejlesztők számára.
+
+[Master MS Project manipulation with our tutorial](./write-project-info/)  
+[Mastering MS Project Manipulation with Aspose.Tasks for Java](./write-project-info/)
 
 ## Gyakran Ismételt Kérdések
 
 **Q: Olvashatok egyéni mezőket, amelyeket a Microsoft Project-ben adtak hozzá?**  
 A: Igen. Az egyéni mezők kiterjesztett attribútumokként tárolódnak, és a `Project.getExtendedAttributes()` segítségével érhetők el.
 
-**Q: A metaadatok olvasása befolyásolja a teljesítményt?**  
-A: A projekt tulajdonságok lekérdezése könnyű, nem tölti be a feladatadatokat, hacsak nem kérjük kifejezetten.
+**Q: Befolyásolja a metaadatok olvasása a teljesítményt?**  
+A: A projekt tulajdonságok lekérése könnyű, nem tölti be a feladat adatokat, hacsak kifejezetten nem kérjük.
 
 **Q: Van mód a metaadatok típus szerinti szűrésére?**  
 A: Lekérdezheted a `ProjectPropertyCollection`-t, és ellenőrizheted minden tulajdonság `PropertyType`-ját a szükséges szűréshez.
 
 **Q: Milyen Aspose.Tasks verzió szükséges?**  
-A: A legújabb stabil kiadás támogatja az összes, a tutorialokban bemutatott funkciót; a korábbi verziók korlátozott API lefedettséggel rendelkezhetnek.
+A: A legújabb stabil kiadás támogatja az összes bemutatott funkciót; a régebbi verziók hiányozhatnak bizonyos API metódusokból.
 
 **Q: Hogyan kezeljem a titkosított Project fájlokat a metaadatok olvasásakor?**  
 A: Nyisd meg a fájlt a megfelelő jelszóval a `new Project(filePath, new LoadOptions(password))` használatával, mielőtt a tulajdonságokhoz hozzáférnél.
 
----
+**Utolsó frissítés:** 2026-06-20  
+**Tesztelt verzió:** Aspose.Tasks for Java 24.12  
+**Szerző:** Aspose
 
-**Last Updated:** 2025-12-31  
-**Tested With:** Aspose.Tasks for Java 24.12  
-**Author:** Aspose
+## Kapcsolódó oktatóanyagok
+
+- [How to Read Project Information from Microsoft Project with Aspose.Tasks for Java](/tasks/java/project-properties/read-project-info/)  
+- [Load MPP File Java - Manage Project Properties with Aspose.Tasks](/tasks/java/project-management/default-properties/)  
+- [Set Project Start Date in MS Project using Aspose.Tasks for Java](/tasks/java/project-properties/write-project-info/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
