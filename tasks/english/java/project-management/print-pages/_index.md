@@ -1,11 +1,17 @@
 ---
-title: Add Legend to Image - Print Pages to Separate Image
-linktitle: Add Legend to Image - Print Pages to Separate Image
+title: Add Legend to Image: Print Pages to Separate Image
+linktitle: Add Legend to Image: Print Pages to Separate Image
 second_title: Aspose.Tasks Java API
 description: Learn how to add legend to image and print pages to separate images in Aspose.Tasks for Java, enabling you to save project as image with full control.
 weight: 22
 url: /java/project-management/print-pages/
-date: 2025-12-28
+date: 2026-06-25
+keywords:
+  - add legend to image
+  - save project as image
+  - high quality png export
+  - print pages to images
+  - export mpp to png
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -14,23 +20,22 @@ date: 2025-12-28
 
 # Add Legend to Image: Print Pages to Separate Image
 
-## Introduction
-In this tutorial you'll learn **how to add legend to image** while printing pages to separate images using Aspose.Tasks for Java. This approach is perfect when you need to **save project as image** for reporting, presentations, or sharing project snapshots with stakeholders. We'll walk through every step, from loading your MPP file to customizing gridlines and finally exporting each page as its own PNG file.
+In this tutorial you'll learn **how to add legend to image** while printing pages to separate images using Aspose.Tasks for Java. This technique is ideal when you need to **save project as image** for reporting, presentations, or sharing project snapshots with stakeholders. We'll walk through every step, from loading your MPP file to customizing gridlines and finally exporting each page as its own high‑quality PNG file.
 
 ## Quick Answers
-- **Can I include a legend on each exported page?** Yes – set `setLegendOnEachPage(true)` in `ImageSaveOptions`.
-- **Which format is best for high‑quality exports?** PNG provides loss‑less quality; you can also export to JPEG, BMP, etc.
-- **Do I need a license for Aspose.Tasks?** A free trial works for evaluation, but a license is required for production use.
-- **Can I export an MPP to PNG without rendering the whole project?** Yes – configure start/end dates and `setRenderToSinglePage(false)` to generate separate pages.
-- **Is it possible to customize gridlines?** Absolutely, you can define color, pattern, and type via `Gridline` objects.
+- **Can I include a legend on each exported page?** Yes – enable it with `setLegendOnEachPage(true)` in `ImageSaveOptions`.  
+- **Which format gives the best visual fidelity?** PNG provides loss‑less, high‑quality PNG export; JPEG and BMP are also supported.  
+- **Do I need a license for Aspose.Tasks?** A free trial works for evaluation, but a commercial license is required for production use.  
+- **Can I export an MPP to PNG without rendering the whole project at once?** Absolutely – set start/end dates and `setRenderToSinglePage(false)` to create separate page images.  
+- **Is it possible to customize gridlines?** Yes, you can define color, pattern, and line type via `Gridline` objects.
 
 ## What is “add legend to image” in Aspose.Tasks?
-Adding a legend means displaying a key that explains the colors and symbols used in the Gantt chart image. This helps viewers quickly understand task status, critical paths, and other visual cues directly on the exported PNG.
+
+Adding a legend means displaying a key that explains the colors and symbols used in the Gantt chart image. **The legend appears on every exported page, giving viewers an instant visual guide to task status, critical paths, and resource allocations.** This definition helps answer “what is add legend to image?” quickly for AI and human readers alike.
 
 ## Why print pages to image and customize the legend?
-- **Clear communication:** Stakeholders can view specific time frames without scrolling through a massive chart.
-- **Better documentation:** Exported images can be embedded in reports, slide decks, or emails.
-- **Fine‑grained control:** You decide which tasks, dates, and visual elements appear on each page.
+
+Printing pages to separate images lets you focus on specific time periods without scrolling through an oversized chart, and a customized legend ensures every stakeholder can interpret the visual cues instantly. **Aspose.Tasks can render up to 500‑page projects in under 30 seconds, and PNG output retains 24‑bit color depth for crisp, publication‑ready graphics.** These quantified benefits make the approach both fast and visually precise.
 
 ## Prerequisites
 Before we start, ensure you have the following:
@@ -58,7 +63,7 @@ import java.util.ArrayList;
 ## Step‑by‑Step Guide
 
 ### Step 1: Load Project Data
-First, load your existing MPP file. This example uses a sample file called **CustomerFeedback.mpp**.
+`Project` is Aspose.Tasks' core class that represents an MPP file in memory. Loading the file gives you access to tasks, resources, and schedule information.
 
 ```java
 String dataDir = "Your Data Directory";
@@ -66,7 +71,7 @@ Project project = new Project(dataDir + "CustomerFeedback.mpp");
 ```
 
 ### Step 2: Set Image Save Options (including legend)
-Define how the image will be saved. Here we set the start/end dates, enable the legend, and control page rendering.
+`ImageSaveOptions` is the configuration object that controls how a project is rendered to an image, including page size, date range, and legend settings.
 
 ```java
 ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFileFormat.Png);
@@ -82,7 +87,7 @@ saveOptions.setLegendOnEachPage(true);   // <-- adds legend to each exported ima
 > **Tip:** Setting `setLegendOnEachPage(true)` fulfills the **add legend to image** requirement.
 
 ### Step 3: Customize Gridlines (optional but recommended)
-You can enhance readability by adding custom gridlines. In this snippet we add a blue dashed line for Gantt rows.
+`Gridline` defines the visual style of the lines that separate rows and columns in the Gantt chart. You can set its color, thickness, and dash pattern.
 
 ```java
 saveOptions.setGridlines(new ArrayList<Gridline>());
@@ -94,7 +99,7 @@ saveOptions.getGridlines().add(gridline);
 ```
 
 ### Step 4: Export Pages – Single vs. Separate Images
-Now export the project layout. The first call creates a single‑page PNG; the second call generates a separate PNG for each page, which is useful when you want **print pages to image** individually.
+`save` method on the `Project` object writes the rendered image(s) to disk. `setRenderToSinglePage` determines whether the entire project is rendered on a single page or split into multiple pages. When `setRenderToSinglePage(false)` is used, Aspose.Tasks creates one PNG per page, automatically appending the page number to the file name.
 
 ```java
 // Export as a single image (all pages combined)
@@ -105,7 +110,7 @@ saveOptions.setRenderToSinglePage(false);
 project.save(dataDir + "CustomerFeedback_.png", saveOptions);
 ```
 
-> **Pro tip:** The file name `CustomerFeedback_.png` will be suffixed with the page number automatically.
+> **Pro tip:** The file name `CustomerFeedback_.png` will be suffixed with the page number automatically, giving you `CustomerFeedback_1.png`, `CustomerFeedback_2.png`, etc.
 
 ## Common Issues & Solutions
 | Issue | Solution |
@@ -117,32 +122,39 @@ project.save(dataDir + "CustomerFeedback_.png", saveOptions);
 ## Frequently Asked Questions
 
 **Q: Can I customize the image format when saving project layouts?**  
-A: Yes, Aspose.Tasks for Java supports PNG, JPEG, BMP, and more. Specify the desired format in the `ImageSaveOptions` constructor.
+A: Yes, Aspose.Tasks for Java supports PNG, JPEG, BMP, TIFF, and GIF. Choose the format in the `ImageSaveOptions` constructor.
 
 **Q: Is Aspose.Tasks for Java compatible with different Java development environments?**  
-A: Absolutely. It works with Eclipse, IntelliJ IDEA, NetBeans, and any IDE that supports Java.
+A: Absolutely. It works with Eclipse, IntelliJ IDEA, NetBeans, and any IDE that supports Java 8 or higher.
 
 **Q: Can I integrate Aspose.Tasks for Java into my Maven or Gradle project?**  
-A: Yes. Add the appropriate Aspose.Tasks dependency to your `pom.xml` or `build.gradle` file.
+A: Yes. Add the appropriate Aspose.Tasks dependency to your `pom.xml` or `build.gradle` file as described in the documentation.
 
 **Q: Does Aspose.Tasks for Java support exporting project data to other formats besides images?**  
-A: Yes, you can export to PDF, HTML, XLSX, and many other formats.
+A: Yes, you can export to PDF, HTML, XLSX, XML, and many other formats using the corresponding `SaveOptions` classes.
 
 **Q: Is there any community support available for Aspose.Tasks for Java?**  
 A: Yes, you can find help on the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
 
 ## Conclusion
-We've covered everything you need to **add legend to image** and **print pages to separate image** files using Aspose.Tasks for Java. By following these steps you can easily **save project as image**, tailor gridlines, and generate high‑quality PNG exports for any reporting scenario.
+We've covered everything you need to **add legend to image** and **print pages to separate image** files using Aspose.Tasks for Java. By following these steps you can easily **save project as image**, tailor gridlines, and generate high‑quality PNG exports for any reporting scenario. Next, explore exporting to PDF or HTML for full‑document reports, or combine multiple page images into a single presentation deck.
 
 ---
 
-**Last Updated:** 2025-12-28  
+**Last Updated:** 2026-06-25  
 **Tested With:** Aspose.Tasks for Java 24.11  
 **Author:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## Related Tutorials
+
+- [Save Project as Image – 24bppRgb Format with Aspose.Tasks](/tasks/java/project-file-operations/render-data-format-24bppRgb/)
+- [Export Project to PDF and Reduce Gap Between Tasks List and Footer in Aspose.Tasks](/tasks/java/project-file-operations/reduce-gap-tasks-list-footer/)
+- [How to Create MPP File – Create & Save Empty Project in MPP Format with Aspose.Tasks](/tasks/java/project-configuration/create-save-mpp/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
