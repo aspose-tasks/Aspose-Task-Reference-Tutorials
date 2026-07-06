@@ -1,21 +1,21 @@
 ---
-title: "How to Set Currency in Aspose.Tasks Projects – Java Guide"
+title: "currency code java – How to Set in Aspose.Tasks Projects"
 linktitle: Set Currency Properties in Aspose.Tasks Projects
 second_title: Aspose.Tasks Java API
-description: "Learn how to set currency in Aspose.Tasks Java projects, including how to change currency and change currency symbol Java. Manipulate Microsoft Project files effortlessly."
+description: "Learn how to set currency code java in Aspose.Tasks projects, change currency symbol, and apply a custom currency format for Microsoft Project files."
 weight: 11
 url: /java/currency-properties/set-properties/
-date: 2025-12-04
+date: 2026-02-07
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to Set Currency in Aspose.Tasks Projects – Java Guide
+# How to Set Currency Code in Aspose.Tasks – Java Guide
 
 ## Introduction
-In this tutorial you’ll learn **how to set currency** for a Microsoft Project file using the Aspose.Tasks Java API. Whether you need to *change currency* for international teams or adjust the *currency symbol* in Java, the steps below will walk you through the process with clear explanations and ready‑to‑run code.
+In this tutorial you’ll learn **how to set the currency code java** for a Microsoft Project file using the Aspose.Tasks Java API. Whether you need to *change currency* for international teams, adjust the *currency symbol*, or apply a **custom currency format**, the steps below will walk you through the process with clear explanations and ready‑to‑run code.
 
 ## Quick Answers
 - **What library is required?** Aspose.Tasks for Java.  
@@ -24,14 +24,15 @@ In this tutorial you’ll learn **how to set currency** for a Microsoft Project 
 - **Do I need a license for development?** A free trial works for testing; a license is required for production.  
 - **How long does the implementation take?** About 5‑10 minutes for a basic setup.
 
-## What is “currency” in a Project file?
+## How to Set Currency Code Java in Aspose.Tasks
 A Project’s currency defines how cost values are displayed—code (e.g., `AUD`), number of decimal digits, symbol (`$`), and the symbol’s position. Setting these properties ensures that every cost‑related field (resource rates, task budgets, etc.) reflects the correct monetary format for your audience.
 
-## Why use Aspose.Tasks to change currency?
+## Why Use Aspose.Tasks to Change Currency?
 - **No Microsoft Project installation needed** – manipulate files on any server.  
 - **Full API coverage** – all currency‑related fields are exposed through `Prj` constants.  
 - **Cross‑platform** – works on Windows, Linux, and macOS with any Java‑compatible IDE.  
-- **High performance** – process large project files quickly and reliably.
+- **High performance** – process large project files quickly and reliably.  
+- **Supports custom currency format** – you can define symbols, decimal digits, and positioning to match regional standards.
 
 ## Prerequisites
 Before you start, make sure you have:
@@ -77,7 +78,7 @@ project.set(Prj.CURRENCY_SYMBOL, "$");                        // Symbol to displ
 project.set(Prj.CURRENCY_SYMBOL_POSITION, CurrencySymbolPositionType.After); // Position of the symbol
 ```
 
-> **Pro tip:** If you need to **change currency** for an existing project, simply load the file with `new Project("file.mpp")` before applying the above settings.
+> **Pro tip:** If you need to **change project currency** for an existing file, simply load it with `new Project("file.mpp")` before applying the above settings.
 
 ### Step 4: Save the Updated Project
 Write the project back to disk in the desired format. In this example we use the XML format, but you can also choose `SaveFileFormat.MPP`.
@@ -118,11 +119,11 @@ A: Certainly. The API is pure Java, so it works seamlessly with Spring, Hibernat
 A: Visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) for community help, or consult the official documentation for detailed API references.
 
 ## Conclusion
-You now know **how to set currency**, how to **change currency** values, and how to **change currency symbol Java**‑style using Aspose.Tasks for Java. These capabilities let you tailor cost data for global teams, generate locale‑specific reports, and keep your project files consistent across borders.
+You now know **how to set currency code java**, how to **change currency** values, and how to **change currency symbol** using Aspose.Tasks for Java. These capabilities let you tailor cost data for global teams, generate locale‑specific reports, and keep your project files consistent across borders.
 
 ---
 
-**Last Updated:** 2025-12-04  
+**Last Updated:** 2026-02-07  
 **Tested With:** Aspose.Tasks for Java 24.11  
 **Author:** Aspose  
 

@@ -1,11 +1,11 @@
 ---
-date: 2025-12-05
+date: 2026-02-07
 description: Aspose.Tasks for Java kullanarak MS Project dosyalarında para birimi
-  kodları, rakamlar ve sembolleri nasıl yöneteceğinizi öğrenin. Kusursuz proje finans
-  yönetimi için adım adım öğreticiler.
+  kodlarını, rakamları ve sembolleri nasıl yöneteceğinizi öğrenin. Kusursuz proje
+  finans yönetimi için adım adım öğreticiler.
 linktitle: Currency
 second_title: Aspose.Tasks Java API
-title: Aspose.Tasks ile Java’da Para Birimi Kodlarını Yönet
+title: Java ile Aspose.Tasks kullanarak Para Birimi Kodlarını Yönetme
 url: /tr/java/currency/
 weight: 22
 ---
@@ -14,92 +14,106 @@ weight: 22
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks ile Java'da Para Birimi Kodlarını Yönetme
+# Java ile Para Birimi Kodlarını Yönetme Aspose.Tasks
 
 ## Giriş  
 
-Eğer Microsoft Project dosyalarında **manage currency codes java** yapmanız gerekiyorsa, Aspose.Tasks for Java size kodları, basamakları ve sembolleri kontrol etmenin temiz, programatik bir yolunu sunar. Bu rehberde üç temel alanı—para birimi kodları, para birimi basamakları ve para birimi sembolleri—adım adım inceleyeceğiz, böylece proje bütçelerinizi doğru ve raporlarınızı tutarlı tutabilirsiniz. Çoklu para birimi panosu oluşturuyor ya da maliyet toplama otomasyonu yapıyor olun, aşağıdaki adımlar zaman kazandırır ve tahminleri ortadan kaldırır.
+If you need to **manage currency codes java** in Microsoft Project files, Aspose.Tasks for Java gives you a clean, programmatic way to control codes, digits, and symbols. In this guide we’ll walk through the three core areas—currency codes, currency digits, and currency symbols—so you can keep your project budgets accurate and your reports consistent. Whether you’re building a multi‑currency dashboard or automating cost‑rollup, the steps below will save you time and eliminate guesswork.
 
 ## Hızlı Yanıtlar
 - **“manage currency codes java” ne anlama geliyor?**  
-  Bu, Aspose.Tasks Java API'si aracılığıyla bir MS Project dosyasında depolanan üç harflik ISO para birimi kodunu okuma, ayarlama veya güncelleme anlamına gelir.  
+  It refers to reading, setting, or updating the three‑letter ISO currency code stored in an MS Project file via the Aspose.Tasks Java API.  
 - **Hangi Aspose.Tasks sürümü gereklidir?**  
-  24.x veya daha yeni herhangi bir sürüm; API eski Project formatlarıyla geriye dönük uyumludur.  
+  Any 24.x release or later; the API is backward compatible with older Project formats.  
 - **Geliştirme için lisansa ihtiyacım var mı?**  
-  Değerlendirme için ücretsiz geçici bir lisans yeterlidir; üretim kullanımı için tam lisans gereklidir.  
-- **Para birimi sembollerini kodu etkilemeden değiştirebilir miyim?**  
-  Evet—para birimi sembolleri, bağımsız olarak değiştirebileceğiniz ayrı özelliklerdir.  
+  A free temporary license works for evaluation; a full license is required for production use.  
+- **Kod etkilenmeden para birimi sembollerini değiştirebilir miyim?**  
+  Yes—currency symbols are separate properties you can modify independently.  
 - **Büyük .mpp dosyalarında çalıştırmak güvenli mi?**  
-  Kesinlikle. Kütüphane dosyaları bellekte verimli bir şekilde işler, ancak performansı korumak için `Project.save` metodunu `SaveFileFormat.MPP` ile çağırabilirsiniz.
+  Absolutely. The library processes files in memory efficiently, but you can call `Project.save` with `SaveFileFormat.MPP` to preserve performance.
 
 ## “manage currency codes java” nedir?
 
-Java'da para birimi kodlarını yönetmek, Aspose.Tasks kullanarak MS Project'in maliyet hesaplamalarında kullandığı ISO 4217 para birimi tanımlayıcısını (ör. **USD**, **EUR**, **JPY**) almayı veya atamayı ifade eder. Bu tanımlayıcı, yazılımın proje boyunca para değerlerini nasıl biçimlendirdiğini belirler.
+Managing currency codes in Java means using Aspose.Tasks to retrieve or assign the ISO 4217 currency identifier (e.g., **USD**, **EUR**, **JPY**) that MS Project uses for cost calculations. This identifier drives how the software formats monetary values throughout the project.
 
-## Neden para birimi işleme için Aspose.Tasks kullanmalı?
+## Para birimi işleme için neden Aspose.Tasks kullanmalı?
 
-- **Precision** – Her maliyet girişinin doğru para birimi formatına uymasını garanti eder.  
-- **Automation** – Proje dosyalarının manuel düzenlemesini ortadan kaldırır, insan hatasını azaltır.  
-- **Cross‑platform** – Herhangi bir Java uyumlu ortamda (Windows, Linux, macOS) çalışır.  
-- **Full Project Support** – Klasik .mpp, .xml ve .xero formatlarını veri kaybı olmadan işler.
+- **Precision** – Guarantees that every cost entry respects the correct currency format.  
+- **Automation** – Eliminates manual editing of Project files, reducing human error.  
+- **Cross‑platform** – Works on any Java‑compatible environment (Windows, Linux, macOS).  
+- **Full Project Support** – Handles classic .mpp, .xml, and .xero formats without data loss.
 
 ## Önkoşullar
-- Java Development Kit (JDK) 8 ve üzeri.  
-- Projenize eklenmiş Aspose.Tasks for Java kütüphanesi (Maven/Gradle veya manuel JAR).  
-- Üretim için geçerli bir Aspose.Tasks lisansı (deneme için isteğe bağlı).
+- Java Development Kit (JDK) 8 veya daha yeni bir sürüm.  
+- Aspose.Tasks for Java kütüphanesini projenize ekleyin (Maven/Gradle ya da manuel JAR).  
+- Üretim için geçerli bir Aspose.Tasks lisansı (deneme için isteğe bağlı).  
 
 ## Aspose.Tasks ile Para Birimi Kodlarını Anlamak  
 
-Proje yönetiminin hızlı tempolu dünyasında, para birimi kodlarını ustalıkla kullanmak çok önemlidir. [Managing Currency Codes in Aspose.Tasks](./currency-codes/) konulu eğitimimiz adım adım bir rehber sunar. Karmaşıklıkları sorunsuz bir şekilde yönetmeyi öğrenin ve proje görevlerinizi zahmetsizce hızlandırın.
+In the fast‑paced realm of project management, mastering currency codes is crucial. Our tutorial on [Managing Currency Codes in Aspose.Tasks](./currency-codes/) provides a step‑by‑step guide. Learn to navigate the intricacies seamlessly and streamline your project tasks effortlessly.
 
-Para birimi kodlarına bir girişle başlayarak, Aspose.Tasks for Java kullanarak pratik örneklere derinlemesine bakıyoruz. Kod parçacıkları hakkında içgörüler elde edecek ve kapsamlı bir anlayış kazanacaksınız. Karışıklığa veda edin ve sorunsuz bir proje yönetimi deneyimini benimseyin.
+Starting with an introduction to currency codes, we delve into practical examples using Aspose.Tasks for Java. You'll gain insights into the code snippets, ensuring a comprehensive understanding. Say goodbye to confusion and embrace a smooth project management experience.
 
-Kod denizinde kaybolduğunuz oldu mu? Rehberimiz, para birimi kodlarını yönetmeyi ikinci doğa haline getirir. Gerçek dünya örnekleriyle, herhangi bir projenin para birimi karmaşıklıklarını ele almaya hazır olacaksınız.
+Did you ever find yourself lost in a sea of codes? Our guide ensures that managing currency codes becomes second nature. With real‑world examples, you'll be equipped to handle any project's currency intricacies.
 
-## Para Birimi Basamaklarını Ustalaştırma: Adım Adım Eğitim  
+## Para Birimi Rakamlarını Ustalaştırma: Adım Adım Eğitim  
 
-Finansal detaylarda kesinlik arayan proje yöneticileri için, [Handling Currency Digits with Aspose.Tasks](./currency-digits/) eğitimimiz başvurulacak kaynağınızdır. Para birimi basamaklarının karmaşıklıklarına derinlemesine dalın, net açıklamalar ve kod örnekleriyle yönlendirilin.
+For project managers seeking precision in financial details, our tutorial on [Handling Currency Digits with Aspose.Tasks](./currency-digits/) is your go‑to resource. Dive deep into the intricacies of currency digits, guided by clear explanations and supported by code examples.
 
-Temelden ileri kavramlara kadar her şeyi kapsıyoruz. Sadece doğru para birimi basamaklarının önemini anlamakla kalmayacak, aynı zamanda bunları projelerinizde sorunsuz bir şekilde uygulayacaksınız. Finansal takibin verimliliği parmaklarınızın ucunda.
+From the basics to advanced concepts, we cover it all. You'll not only understand the significance of accurate currency digits but also implement them seamlessly in your projects. Efficiency in financial tracking is at your fingertips.
 
-Hata payı bırakmadan para birimi basamaklarını zahmetsizce yönettiğiniz bir dünya hayal edin. Eğitimimiz, sadece hayal etmenizi değil, proje yönetiminde bunu yaşamanızı sağlar.
+Imagine a world where you effortlessly handle currency digits, leaving no room for errors. Our tutorial ensures that you not only imagine it but live it in your project management endeavors.
 
-## Sorunsuz Para Birimi Sembolleri Manipülasyonu  
+## Kolay Para Birimi Sembolleri Manipülasyonu  
 
-Proje yönetimi becerilerinizi bir üst seviyeye taşımaya hazır mısınız? [Currency Symbols Manipulation in Aspose.Tasks for Java](./currency-symbols/) konulu kullanıcı dostu rehberimizle öğrenin. MS Project dosyalarında para birimi sembollerini manipüle etmek için kolay adımlar sunuyoruz.
+Ready to take your project management skills to the next level? Learn [Currency Symbols Manipulation in Aspose.Tasks](./currency-symbols/) with our user‑friendly guide. We provide easy steps to manipulate currency symbols in MS Project files.
 
-Eğitimi takip ederken, Aspose.Tasks for Java'ın para birimi sembolü manipülasyonunu basitleştirmedeki gücünü keşfedeceksiniz. Karışıklık günlerine veda edin ve verimli proje yönetimine merhaba deyin. Adım adım rehberimiz, her inceliği kavramanızı sağlar.
+Navigating the tutorial, you'll discover the power of Aspose.Tasks for Java in simplifying currency symbol manipulation. Say goodbye to the days of confusion and hello to efficient project management. Our step‑by‑step guide ensures you grasp every nuance.
 
-Sonuç olarak, Aspose.Tasks for Java sizi bir para birimi yönetimi ustası yapar. İster kodlar, ister basamaklar, ister semboller olsun, eğitimlerimiz her konuda yanınızdadır. Karmaşıklıkları zahmetsizce yönetin ve bugün proje yönetimi becerilerinizi geliştirin!
+## Java Para Birimi Kodu Eğitimi – Derinlemesine  
+
+If you’re searching for a **currency code tutorial java**, this section consolidates the essential concepts you need. We’ll recap how to read the current code with `Project.getCurrencyCode()`, update it using `Project.setCurrencyCode("GBP")`, and validate the change with `Project.validate()`. This concise walkthrough complements the earlier detailed guides and gives you a quick reference for everyday development.
+
+## Java’da Para Birimi Sembolünü Değiştirme – Pratik İpuçları  
+
+Sometimes you only need to adjust the visual representation of monetary values. The **change currency symbol java** operation is independent of the ISO code. Use `Project.setCurrencySymbol("£")` to replace the default symbol while keeping the underlying calculations intact. Remember to re‑save the project to persist the change.
 
 ## Para Birimi Eğitimleri
 ### [Aspose.Tasks ile Para Birimi Kodlarını Yönetme](./currency-codes/)
-Aspose.Tasks for Java kullanarak MS Project para birimi kodlarını verimli bir şekilde yönetmeyi öğrenin. Proje yönetimi görevlerinizi zahmetsizce hızlandırın.
-### [Aspose.Tasks ile Para Birimi Basamaklarını Yönetme](./currency-digits/)
-Aspose.Tasks for Java kullanarak MS Project para birimi basamaklarını verimli bir şekilde yönetmeyi öğrenin. Kod örnekleriyle adım adım rehber.
-### [Aspose.Tasks ile Para Birimi Sembollerinin Manipülasyonu](./currency-symbols/)
-Aspose.Tasks for Java kullanarak MS Project dosyalarında para birimi sembollerini manipüle etmeyi öğrenin. Verimli proje yönetimi için kolay adımlar.
+Learn how to manage currency MS Project codes efficiently using Aspose.Tasks for Java. Streamline your project management tasks effortlessly.
+### [Aspose.Tasks ile Para Birimi Rakamlarını İşleme](./currency-digits/)
+Learn how to handle currency MS Project digits efficiently using Aspose.Tasks for Java. Step‑by‑step guide with code examples.
+### [Aspose.Tasks ile Para Birimi Sembolleri Manipülasyonu](./currency-symbols/)
+Learn to manipulate currency symbols in MS Project files using Aspose.Tasks for Java. Easy steps for efficient project management.
 
 ## Sıkça Sorulan Sorular
 
-**S: Proje zaten kaydedildikten sonra para birimi kodunu değiştirebilir miyim?**  
-E: Evet. Mevcut değeri okumak için `Project.getCurrencyCode()` ve güncellemek için `Project.setCurrencyCode("EUR")` kullanın, ardından projeyi kaydedin.
+**Q: Bir proje zaten kaydedildikten sonra para birimi kodunu değiştirebilir miyim?**  
+A: Yes. Use `Project.getCurrencyCode()` to read the current value and `Project.setCurrencyCode("EUR")` to update it, then save the project.
 
-**S: Para birimi sembolünü değiştirmek maliyet hesaplamalarını etkiler mi?**  
-E: Hayır. Sembol sadece bir görüntüleme biçimidir; temel sayısal değerler değişmez.
+**Q: Para birimi sembolünü değiştirmek maliyet hesaplamalarını etkiler mi?**  
+A: No. The symbol is only a display format; the underlying numeric values remain unchanged.
 
-**S: Desteklenmeyen bir para birimi kodu ayarlarsam ne olur?**  
-E: Aspose.Tasks ISO 4217'ye göre doğrulama yapar. Desteklenmeyen bir kod `IllegalArgumentException` hatası fırlatır.
+**Q: Desteklenmeyen bir para birimi kodu ayarlarsam ne olur?**  
+A: Aspose.Tasks validates against ISO 4217. An unsupported code throws an `IllegalArgumentException`.
 
-**S: Tek tek görevlere farklı para birimleri uygulamak mümkün mü?**  
-E: MS Project dosya başına tek bir para birimi depolar. Birden fazla para birimini yönetmek için, değerleri görev atamadan önce programatik olarak dönüştürmeniz gerekir.
+**Q: Bireysel görevler için farklı para birimleri uygulamak mümkün mü?**  
+A: MS Project stores a single currency per file. To handle multiple currencies, you must convert values programmatically before assigning them to tasks.
 
-**S: Değişikliklerin doğru uygulandığını nasıl doğrularım?**  
-E: Kaydettikten sonra projeyi yeniden açın ve `Project.getCurrencyCode()` çağırın veya UI'deki para birimi alanlarını inceleyerek güncellemeyi doğrulayın.
+**Q: Değişikliklerin doğru uygulandığını nasıl doğrularım?**  
+A: After saving, reopen the project and call `Project.getCurrencyCode()` or inspect the currency fields in the UI to confirm the update.
 
-**Son Güncelleme:** 2025-12-05  
-**Test Edilen Versiyon:** Aspose.Tasks for Java 24.12  
-**Yazar:** Aspose  
+**Q: API'yi sadece para birimi sembolünü değiştirmek için, kodu dokunmadan kullanabilir miyim?**  
+A: Absolutely. Call `Project.setCurrencySymbol("$")` (or any other symbol) and re‑save the file; the ISO code remains unchanged.
+
+**Q: Büyük projelerde toplu güncellemeler için performans hususları var mı?**  
+A: For very large .mpp files, consider batching updates and calling `Project.save` only once after all changes to minimize I/O overhead.
+
+---
+
+**Last Updated:** 2026-02-07  
+**Tested With:** Aspose.Tasks for Java 24.12  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

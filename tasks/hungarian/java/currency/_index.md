@@ -1,11 +1,11 @@
 ---
-date: 2025-12-05
+date: 2026-02-07
 description: Tanulja meg, hogyan kezelje a pénznemkódokat, számjegyeket és szimbólumokat
   MS Project fájlokban az Aspose.Tasks for Java segítségével. Lépésről‑lépésre útmutatók
   a hibátlan projektpénzügyi kezeléshez.
 linktitle: Currency
 second_title: Aspose.Tasks Java API
-title: Pénznemkódok kezelése Java-ban az Aspose.Tasks segítségével
+title: Pénznemkódok kezelése Java-val az Aspose.Tasks segítségével
 url: /hu/java/currency/
 weight: 22
 ---
@@ -18,90 +18,102 @@ weight: 22
 
 ## Bevezetés  
 
-Ha **manage currency codes java**-t kell kezelnie a Microsoft Project fájlokban, az Aspose.Tasks for Java tiszta, programozható módot biztosít a kódok, számjegyek és szimbólumok vezérlésére. Ebben az útmutatóban végigvezetjük a három fő területen—pénznemkódok, pénznem számjegyek és pénznem szimbólumok—hogy projekt költségvetései pontosak legyenek és jelentései konzisztensiek. Akár többpénznemű irányítópultot épít, akár költségösszegzést automatizál, az alábbi lépések időt takarítanak meg és kiküszöbölik a találgatást.
+If you need to **manage currency codes java** in Microsoft Project files, Aspose.Tasks for Java gives you a clean, programmatic way to control codes, digits, and symbols. In this guide we’ll walk through the three core areas—currency codes, currency digits, and currency symbols—so you can keep your project budgets accurate and your reports consistent. Whether you’re building a multi‑currency dashboard or automating cost‑rollup, the steps below will save you time and eliminate guesswork.
 
 ## Gyors válaszok
-- **Mi jelent a “manage currency codes java”?**  
-  Ez a hárombetűs ISO pénznemkód olvasását, beállítását vagy frissítését jelenti, amely egy MS Project fájlban van tárolva az Aspose.Tasks Java API-n keresztül.  
+- **Mit jelent a “manage currency codes java”?**  
+  It refers to reading, setting, or updating the three‑letter ISO currency code stored in an MS Project file via the Aspose.Tasks Java API.  
 - **Melyik Aspose.Tasks verzió szükséges?**  
-  Bármely 24.x vagy újabb kiadás; az API visszafelé kompatibilis a régebbi Project formátumokkal.  
+  Any 24.x release or later; the API is backward compatible with older Project formats.  
 - **Szükségem van licencre a fejlesztéshez?**  
-  Egy ingyenes ideiglenes licenc elegendő értékeléshez; teljes licenc szükséges a termeléshez.  
-- **Megváltoztathatom a pénznem szimbólumokat anélkül, hogy a kódot befolyásolnám?**  
-  Igen— a pénznem szimbólumok különálló tulajdonságok, amelyeket önállóan módosíthat.  
-- **Biztonságos nagy .mpp fájlokon futtatni?**  
-  Teljesen. A könyvtár hatékonyan dolgozza fel a fájlokat memóriában, de meghívhatja a `Project.save`-t a `SaveFileFormat.MPP`-vel a teljesítmény megőrzése érdekében.
+  A free temporary license works for evaluation; a full license is required for production use.  
+- **Megváltoztathatom a pénznem szimbólumát anélkül, hogy a kódot érinteném?**  
+  Yes—currency symbols are separate properties you can modify independently.  
+- **Biztonságos-e nagy .mpp fájlokon futtatni?**  
+  Absolutely. The library processes files in memory efficiently, but you can call `Project.save` with `SaveFileFormat.MPP` to preserve performance.
 
-## Mi az a “manage currency codes java”?
+## Mi a “manage currency codes java”?
 
-A pénznemkódok kezelése Java-ban azt jelenti, hogy az Aspose.Tasks segítségével lekérdezi vagy beállítja az ISO 4217 pénznemazonosítót (pl. **USD**, **EUR**, **JPY**), amelyet a MS Project a költségszámításokhoz használ. Ez az azonosító határozza meg, hogyan formázza a szoftver a pénzügyi értékeket a projekt során.
+Managing currency codes in Java means using Aspose.Tasks to retrieve or assign the ISO 4217 currency identifier (e.g., **USD**, **EUR**, **JPY**) that MS Project uses for cost calculations. This identifier drives how the software formats monetary values throughout the project.
 
-## Miért használja az Aspose.Tasks-et a pénznemkezeléshez?
+## Miért használjuk az Aspose.Tasks‑et a pénznemkezeléshez?
 
-- **Pontosság** – Biztosítja, hogy minden költségbejegyzés a megfelelő pénznemformátumot kövesse.  
-- **Automatizálás** – Kiküszöböli a Project fájlok kézi szerkesztését, csökkentve az emberi hibákat.  
-- **Keresztplatformos** – Működik bármely Java-kompatibilis környezetben (Windows, Linux, macOS).  
-- **Teljes Project támogatás** – Kezeli a klasszikus .mpp, .xml és .xero formátumokat adatvesztés nélkül.  
+- **Precision** – Guarantees that every cost entry respects the correct currency format.  
+- **Automation** – Eliminates manual editing of Project files, reducing human error.  
+- **Cross‑platform** – Works on any Java‑compatible environment (Windows, Linux, macOS).  
+- **Full Project Support** – Handles classic .mpp, .xml, and .xero formats without data loss.
 
-## Előkövetelmények
-- Java Development Kit (JDK) 8 vagy újabb.  
-- Aspose.Tasks for Java könyvtár hozzáadva a projekthez (Maven/Gradle vagy manuális JAR).  
-- Érvényes Aspose.Tasks licenc a termeléshez (próbaverzióhoz opcionális).  
+## Előfeltételek
+- Java Development Kit (JDK) 8 or newer.  
+- Aspose.Tasks for Java library added to your project (Maven/Gradle or manual JAR).  
+- A valid Aspose.Tasks license for production (optional for trial).  
 
-## A pénznemkódok megértése az Aspose.Tasks segítségével  
+## A pénznemkódok megértése az Aspose.Tasks‑szel  
 
-A projektmenedzsment gyors tempójú világában a pénznemkódok elsajátítása kulcsfontosságú. A [Managing Currency Codes in Aspose.Tasks](./currency-codes/) oktatóanyagunk lépésről‑lépésre útmutatót nyújt. Tanulja meg zökkenőmentesen kezelni a részleteket és egyszerűen optimalizálni projektfeladatait.  
+In the fast‑paced realm of project management, mastering currency codes is crucial. Our tutorial on [Managing Currency Codes in Aspose.Tasks](./currency-codes/) provides a step‑by‑step guide. Learn to navigate the intricacies seamlessly and streamline your project tasks effortlessly.
 
-A pénznemkódok bevezetésével kezdve gyakorlati példákat vizsgálunk az Aspose.Tasks for Java használatával. Részletes betekintést kap a kódrészletekbe, biztosítva a teljes körű megértést. Mondjon búcsút a zavarodottságnak, és élvezze a zökkenőmentes projektmenedzsment élményt.  
+Starting with an introduction to currency codes, we delve into practical examples using Aspose.Tasks for Java. You'll gain insights into the code snippets, ensuring a comprehensive understanding. Say goodbye to confusion and embrace a smooth project management experience.
 
-Volt már, hogy kódok tengerében elveszett? Útmutatónk biztosítja, hogy a pénznemkódok kezelése második természet legyen. Valós példákkal fel lesz vértezve, hogy bármely projekt pénznemi részleteit kezelje.  
+Did you ever find yourself lost in a sea of codes? Our guide ensures that managing currency codes becomes second nature. With real‑world examples, you'll be equipped to handle any project's currency intricacies.
 
-## A pénznem számjegyek elsajátítása: Lépésről‑lépésre oktatóanyag  
+## A pénznemjegyek elsajátítása: lépésről‑lépésre oktatóanyag  
 
-A pénzügyi részletek pontosságát kereső projektmenedzserek számára a [Handling Currency Digits with Aspose.Tasks](./currency-digits/) oktatóanyag a legjobb forrás. Merüljön el a pénznem számjegyek részleteiben, világos magyarázatok és kódrészletek támogatásával.  
+For project managers seeking precision in financial details, our tutorial on [Handling Currency Digits with Aspose.Tasks](./currency-digits/) is your go‑to resource. Dive deep into the intricacies of currency digits, guided by clear explanations and supported by code examples.
 
-Az alapoktól a haladó koncepciókig mindent lefedünk. Nem csak megérti a pontos pénznem számjegyek jelentőségét, hanem zökkenőmentesen is be tudja őket építeni projektjeibe. A pénzügyi nyomon követés hatékonysága az Ön kezében van.  
+From the basics to advanced concepts, we cover it all. You'll not only understand the significance of accurate currency digits but also implement them seamlessly in your projects. Efficiency in financial tracking is at your fingertips.
 
-Képzeljen el egy világot, ahol könnyedén kezeli a pénznem számjegyeket, hibára nincs hely. Oktatóanyagaink biztosítják, hogy ne csak elképzelje, hanem a projektmenedzsmentben is megélje.  
+Imagine a world where you effortlessly handle currency digits, leaving no room for errors. Our tutorial ensures that you not only imagine it but live it in your project management endeavors.
 
-## Könnyed pénznem szimbólumok manipulálása  
+## Kényelmes pénznemszimbólumok manipulálása  
 
-Készen áll projektmenedzsment képességei következő szintre emelésére? Tanulja meg a [Currency Symbols Manipulation in Aspose.Tasks for Java](./currency-symbols/) útmutatónkat. Egyszerű lépéseket biztosítunk a pénznem szimbólumok manipulálásához MS Project fájlokban.  
+Ready to take your project management skills to the next level? Learn [Currency Symbols Manipulation in Aspose.Tasks](./currency-symbols/) with our user‑friendly guide. We provide easy steps to manipulate currency symbols in MS Project files.
 
-Az oktatóanyagban felfedezi az Aspose.Tasks for Java erejét a pénznem szimbólumok egyszerűsítésében. Mondjon búcsút a zavarodottság napjainak, és üdvözölje a hatékony projektmenedzsmentet. Lépésről‑lépésre útmutatónk biztosítja, hogy minden részletet megértsen.  
+Navigating the tutorial, you'll discover the power of Aspose.Tasks for Java in simplifying currency symbol manipulation. Say goodbye to the days of confusion and hello to efficient project management. Our step‑by‑step guide ensures you grasp every nuance.
 
-Összegzésként, az Aspose.Tasks for Java felhatalmazza Önt, hogy a pénznemkezelés mestere legyen. Legyen szó kódokról, számjegyekről vagy szimbólumokról, oktatóanyagaink mindenre felkészítik. Könnyedén navigáljon a bonyolult részletekben, és fejlessze projektmenzsment képességeit még ma!  
+## Currency Code Tutorial Java – Mélyreható áttekintés  
+
+If you’re searching for a **currency code tutorial java**, this section consolidates the essential concepts you need. We’ll recap how to read the current code with `Project.getCurrencyCode()`, update it using `Project.setCurrencyCode("GBP")`, and validate the change with `Project.validate()`. This concise walkthrough complements the earlier detailed guides and gives you a quick reference for everyday development.
+
+## Change Currency Symbol Java – Gyakorlati tippek  
+
+Sometimes you only need to adjust the visual representation of monetary values. The **change currency symbol java** operation is independent of the ISO code. Use `Project.setCurrencySymbol("£")` to replace the default symbol while keeping the underlying calculations intact. Remember to re‑save the project to persist the change.
 
 ## Pénznem oktatóanyagok
-### [Pénznemkódok kezelése az Aspose.Tasks-ben](./currency-codes/)
-Ismerje meg, hogyan kezelheti hatékonyan a pénznem MS Project kódokat az Aspose.Tasks for Java segítségével. Egyszerűsítse projektmenedzsment feladatait könnyedén.  
-### [Handling Currency Digits with Aspose.Tasks](./currency-digits/)
-Ismerje meg, hogyan kezelheti hatékonyan a pénznem MS Project számjegyeket az Aspose.Tasks for Java segítségével. Lépésről‑lépésre útmutató kódrészletekkel.  
+### [Manage Currency Codes in Aspose.Tasks](./currency-codes/)
+Learn how to manage currency MS Project codes efficiently using Aspose.Tasks for Java. Streamline your project management tasks effortlessly.
+### [Handle Currency Digits with Aspose.Tasks](./currency-digits/)
+Learn how to handle currency MS Project digits efficiently using Aspose.Tasks for Java. Step‑by‑step guide with code examples.
 ### [Currency Symbols Manipulation in Aspose.Tasks](./currency-symbols/)
-Tanulja meg, hogyan manipulálja a pénznem szimbólumokat MS Project fájlokban az Aspose.Tasks for Java segítségével. Egyszerű lépések a hatékony projektmenedzsmenthez.  
+Learn to manipulate currency symbols in MS Project files using Aspose.Tasks for Java. Easy steps for efficient project management.
 
-## Gyakran Ismételt Kérdések
+## Gyakran feltett kérdések
 
-**K: Módosíthatom a pénznemkódot, miután a projekt már mentve van?**  
-**V:** Igen. Használja a `Project.getCurrencyCode()`-t a jelenlegi érték olvasásához és a `Project.setCurrencyCode("EUR")`-t a frissítéshez, majd mentse a projektet.  
+**Q: Megváltoztathatom a pénznemkódot, miután a projekt már el lett mentve?**  
+A: Yes. Use `Project.getCurrencyCode()` to read the current value and `Project.setCurrencyCode("EUR")` to update it, then save the project.
 
-**K: A pénznem szimbólum megváltoztatása befolyásolja a költségszámításokat?**  
-**V:** Nem. A szimbólum csak megjelenítési formátum; a mögöttes numerikus értékek változatlanok maradnak.  
+**Q: A pénznem szimbólumának megváltoztatása befolyásolja a költségszámításokat?**  
+A: No. The symbol is only a display format; the underlying numeric values remain unchanged.
 
-**K: Mi történik, ha nem támogatott pénznemkódot állítok be?**  
-**V:** Az Aspose.Tasks az ISO 4217 ellen ellenőrzi. A nem támogatott kód `IllegalArgumentException`-t dob.  
+**Q: Mi történik, ha nem támogatott pénznemkódot állítok be?**  
+A: Aspose.Tasks validates against ISO 4217. An unsupported code throws an `IllegalArgumentException`.
 
-**K: Lehetséges különböző pénznemeket alkalmazni egyes feladatokra?**  
-**V:** A MS Project egyetlen pénznemet tárol fájlonként. Több pénznem kezeléséhez programozottan kell átkonvertálni az értékeket, mielőtt a feladatokhoz rendeli.  
+**Q: Lehet-e különböző pénznemeket alkalmazni egyes feladatokra?**  
+A: MS Project stores a single currency per file. To handle multiple currencies, you must convert values programmatically before assigning them to tasks.
 
-**K: Hogyan ellenőrizhetem, hogy a változtatások helyesen lettek alkalmazva?**  
-**V:** Mentés után nyissa meg újra a projektet és hívja meg a `Project.getCurrencyCode()`-t, vagy ellenőrizze a pénznem mezőket a felhasználói felületen a frissítés megerősítéséhez.  
+**Q: Hogyan ellenőrizhetem, hogy a módosítások helyesen alkalmazódtak?**  
+A: After saving, reopen the project and call `Project.getCurrencyCode()` or inspect the currency fields in the UI to confirm the update.
+
+**Q: Használhatom az API‑t csak a pénznem szimbólumának megváltoztatására anélkül, hogy a kódot érinteném?**  
+A: Absolutely. Call `Project.setCurrencySymbol("$")` (or any other symbol) and re‑save the file; the ISO code remains unchanged.
+
+**Q: Vannak-e teljesítménybeli megfontolások nagy projektek tömeges frissítésekor?**  
+A: For very large .mpp files, consider batching updates and calling `Project.save` only once after all changes to minimize I/O overhead.
 
 ---
 
-**Utoljára frissítve:** 2025-12-05  
-**Tesztelve:** Aspose.Tasks for Java 24.12  
-**Szerző:** Aspose  
+**Last Updated:** 2026-02-07  
+**Tested With:** Aspose.Tasks for Java 24.12  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
