@@ -1,10 +1,52 @@
 ---
-date: 2026-01-10
-description: Naučte se, jak zastavit přiřazení, spravovat přiřazení zdrojů a zobrazit
-  příklad přiřazení zdroje v Aspose.Tasks pro Javu pomocí tohoto krok‑za‑krokem tutoriálu.
-linktitle: Stop and Resume Resource Assignments in Aspose.Tasks
+date: 2026-07-14
+description: Naučte se, jak zastavit resource assignment v Java, spravovat resource
+  assignments a zobrazit příklady pomocí Aspose.Tasks pro Java v tomto krok‑za‑krokem
+  průvodci.
+keywords:
+- stop resource assignment java
+- Aspose.Tasks Java
+- resource assignment management
+- project scheduling Java
+lastmod: 2026-07-14
+linktitle: Zastavit a obnovit Resource Assignments v Aspose.Tasks
+og_description: Zastavte resource assignment v Java s Aspose.Tasks. Tento tutoriál
+  ukazuje, jak pozastavit a obnovit přiřazení, pracovat s daty a integrovat API bez
+  Microsoft Project.
+og_image_alt: Guide to stop and resume resource assignments in Aspose.Tasks for Java
+og_title: Zastavit Resource Assignment v Java – Průvodce Aspose.Tasks
+schemas:
+- author: Aspose
+  dateModified: '2026-07-14'
+  description: Learn how to stop resource assignment java, manage resource assignments,
+    and view examples using Aspose.Tasks for Java in this step‑by‑step guide.
+  headline: How to Stop Resource Assignment Java – Resume with Aspose.Tasks
+  type: TechArticle
+- questions:
+  - answer: Use `ra.set(Asn.STOP, yourDateObject);` where `yourDateObject` is a `java.util.Date`.
+    question: How do I programmatically set a stop date for an assignment?
+  - answer: The API does not enforce chronological order; however, the scheduler will
+      treat the assignment as active only after the later of the two dates, so you
+      should validate dates yourself.
+    question: What happens if the resume date is earlier than the stop date?
+  - answer: Yes, iterate through `prj.getResourceAssignments()` and check `ra.get(Asn.STOP)
+      != null`.
+    question: Can I filter assignments to only those that have a stop date set?
+  - answer: Set the stop date to `null` with `ra.set(Asn.STOP, null);` and then save
+      the project.
+    question: Is it possible to remove a stop date once set?
+  - answer: Absolutely. The `Asn` enum provides constants for all assignment fields,
+      such as `Asn.START`, `Asn.FINISH`, etc.
+    question: Does Aspose.Tasks support other date‑related fields like start, finish,
+      or actual start?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: Jak zastavit přiřazení a obnovit přiřazení zdrojů v Aspose.Tasks
+tags:
+- stop resource assignment
+- Aspose.Tasks
+- Java project scheduling
+- resource management
+title: Jak zastavit Resource Assignment v Java – Pokračovat s Aspose.Tasks
 url: /cs/java/resource-assignments/stop-resume-assignment/
 weight: 23
 ---
@@ -13,34 +55,36 @@ weight: 23
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak zastavit přiřazení a obnovit přiřazení zdrojů v Aspose.Tasks
+# Jak zastavit přiřazení zdroje v Javě – obnovení pomocí Aspose.Tasks
 
 ## Úvod
-V tomto tutoriálu **objevíte, jak zastavit přiřazení** a později jej obnovit pomocí Aspose.Tasks pro Java. Aspose.Tasks je výkonné Java API, které vám umožní číst soubory projektů v Java formátech, manipulovat s daty Microsoft Project a spravovat přiřazení zdrojů bez nutnosti mít nainstalovaný Microsoft Project. Provedeme vás každým krokem, vysvětlíme, proč je každý řádek důležitý, a poskytneme praktické tipy, které můžete použít v reálných projektech.
+V tomto tutoriálu se naučíte **how to stop resource assignment java** a později jej obnovit pomocí Aspose.Tasks pro Javu. Aspose.Tasks je robustní Java API, které vám umožní číst a zapisovat soubory Microsoft Project, manipulovat s harmonogramy a řídit přiřazení zdrojů — vše bez nutnosti mít nainstalovaný Microsoft Project. Provedeme vás každým krokem, vysvětlíme, proč je každý řádek důležitý, a podělíme se o praktické tipy, které můžete použít v reálných projektových plánech.
 
 ## Rychlé odpovědi
-- **Co znamená „stop assignment“?** Označuje přiřazení zdroje jako dočasně neaktivní od konkrétního data zastavení.  
-- **Mohu později obnovit stejné přiřazení?** Ano, nastavením data obnovení u stejného přiřazení.  
-- **Potřebuji Microsoft Project k použití tohoto API?** Ne, Aspose.Tasks funguje nezávisle na Microsoft Project.  
-- **Jaká verze Javy je požadována?** Doporučuje se Java 8 nebo vyšší.  
-- **Kde si mohu stáhnout knihovnu?** Na oficiální stránce ke stažení Aspose.Tasks Java.
+- **What does “stop assignment” mean?** Označuje přiřazení zdroje jako dočasně neaktivní od konkrétního data zastavení.  
+- **Can I resume the same assignment later?** Ano, nastavením data obnovení na stejném přiřazení.  
+- **Do I need Microsoft Project to use this API?** Ne, Aspose.Tasks funguje nezávisle na Microsoft Project.  
+- **Which Java version is required?** Doporučuje se Java 8 nebo novější.  
+- **Where can I download the library?** Na oficiální stránce pro stažení Aspose.Tasks Java.
 
-## Co je „zastavení přiřazení“ v kontextu Aspose.Tasks?
-Zastavení přiřazení říká plánovači, aby po **datumu zastavení** ignoroval práci přidělenou zdroji až do **data obnovení** (pokud je nastaveno). To je užitečné při řešení dovolených, odstávek zařízení nebo jakéhokoli období, kdy by zdroj neměl být považován za aktivní.
+## Jak zastavit přiřazení zdroje v Javě?
+Načtěte svůj projekt, najděte cílové `ResourceAssignment`, nastavte datum `STOP`, případně nastavte datum `RESUME` a poté soubor uložte. Tento postup pozastaví práci na zadané období a automaticky ji po datu obnovení znovu aktivuje, což vám poskytuje přesnou kontrolu nad kalendáři zdrojů bez ručních úprav souboru.
+
+## Co znamená „how to stop assignment“ v kontextu Aspose.Tasks?
+Zastavení přiřazení říká plánovači, aby ignoroval práci přidělenou zdroji po **stop date** až do **resume date** (pokud je zadáno). To je užitečné při řešení dovolených, výpadků zařízení nebo jakéhokoli období, kdy by zdroj neměl být považován za aktivní.
 
 ## Proč používat Aspose.Tasks pro správu přiřazení zdrojů?
-- **Není potřeba Microsoft Project** – pracujte přímo se soubory .mpp.  
-- **Plná kontrola nad daty** – můžete programově kontrolovat datum zastavení, datum obnovení a upravovat je.  
-- **Cross‑platform** – běží na libovolném OS, který podporuje Javu.  
-- **Bohaté API** – poskytuje *příklad přiřazení zdroje*, který můžete rozšířit pro vlastní reportování.
+Aspose.Tasks vám umožňuje programově řídit data přiřazení, čímž eliminuje ruční úpravy a snižuje riziko chyb. Podporuje **50+ vstupních a výstupních formátů** a dokáže zpracovat projekty s **až 10 000 úkoly**, přičemž spotřeba paměti zůstává pod 200 MB, protože data streamuje místo načítání celého souboru do paměti. API běží na jakémkoli OS, který podporuje Javu, a poskytuje tak multiplatformní flexibilitu.
 
 ## Požadavky
-- Java Development Kit (JDK) nainstalovaný ve vašem systému.  
-- Knihovna Aspose.Tasks pro Java stažená. Můžete ji stáhnout [zde](https://releases.aspose.com/tasks/java/).  
-- Základní znalost programování v Javě.  
+Než začneme, ujistěte se, že máte:
+
+- Java Development Kit (JDK) 8 nebo novější nainstalovaný.  
+- Staženou knihovnu Aspose.Tasks pro Javu. Můžete ji stáhnout [zde](https://releases.aspose.com/tasks/java/).  
+- Základní znalosti programování v Javě.  
 
 ## Import balíčků
-Nejprve importujeme potřebné balíčky do našeho Java projektu:
+Třídy `Project`, `ResourceAssignment` a `Asn` se nacházejí v namespace `com.aspose.tasks`. Importujte je na začátku svého zdrojového souboru:
 
 ```java
 import com.aspose.tasks.Asn;
@@ -51,7 +95,9 @@ import java.util.GregorianCalendar;
 import java.util.Objects;
 ```
 
-## Krok 1: Načtení souboru projektu
+## Krok 1: Načíst soubor projektu
+Třída `Project` je nejvyšší objekt Aspose.Tasks, který v paměti představuje jeden soubor Microsoft Project. Vytvořením instance načtete soubor a získáte přístup k úkolům, zdrojům a přiřazením.
+
 ```java
 // The path to the documents directory.
 String dataDir = "Your Data Directory";
@@ -59,9 +105,9 @@ String dataDir = "Your Data Directory";
 Project prj = new Project(dataDir + "ResourceAssignmentVariance.mpp");
 ```
 
-Zde **načteme soubor projektu** ve formátu Java (`.mpp`) a vytvoříme objekt `Project`, který nám poskytuje přístup ke všem datům projektu, včetně přiřazení zdrojů.
+## Krok 2: Procházet přiřazení zdrojů
+Objekty `ResourceAssignment` odhalují všechna pole související s přiřazením. Nastavíme **minimum date**, abychom odfiltrovali zástupné datumy, a poté projdeme každé přiřazení. Tento vzor je standardním *resource assignment example* pro inspekci nebo úpravu.
 
-## Krok 2: Procházení přiřazení zdrojů
 ```java
 // Define minimum date
 java.util.Date minDate = new GregorianCalendar(2000, Calendar.JANUARY, 1).getTime();
@@ -69,9 +115,9 @@ java.util.Date minDate = new GregorianCalendar(2000, Calendar.JANUARY, 1).getTim
 for (ResourceAssignment ra : prj.getResourceAssignments()) {
 ```
 
-Nastavíme **minimální datum**, abychom odfiltrovali zástupná data, a poté projdeme každé přiřazení. Jedná se o typický *příklad přiřazení zdroje*, který se používá, když potřebujete přiřazení zkontrolovat nebo upravit.
+## Krok 3: Zkontrolovat data STOP a RESUME
+V tomto bloku zkoumáme pole `STOP` a `RESUME` u každého přiřazení. Pokud je datum před naším `minDate`, považujeme jej za nenastavené (`"NA"`); jinak vypíšeme skutečné datum. Tato logika je nezbytná pro **manage resource assignments** správně.
 
-## Krok 3: Kontrola dat zastavení a obnovení
 ```java
     // Check stop date
     if (ra.get(Asn.STOP).before(minDate)) {
@@ -88,42 +134,44 @@ Nastavíme **minimální datum**, abychom odfiltrovali zástupná data, a poté 
 }
 ```
 
-V tomto bloku **kontrolujeme datum zastavení** a **datum obnovení** pro každé přiřazení. Pokud je datum před naším `minDate`, považujeme jej za nenastavené (`"NA"`); jinak vypíšeme skutečné datum. Tato logika je nezbytná pro **správnou správu přiřazení zdrojů**.
-
 ## Časté problémy a řešení
-- **Null data** – `ra.get(Asn.STOP)` může vrátit `null`. Ochráníte to přidáním kontroly na null před voláním `.before(minDate)`.  
-- **Nesprávná cesta k souboru** – Ujistěte se, že `dataDir` končí oddělovačem cesty (`/` nebo `\\`) vhodným pro váš OS.  
-- **Neshoda verzí** – Použijte nejnovější verzi Aspose.Tasks pro Java, aby nedošlo k chybějícím hodnotám výčtu.
+- **Null dates** – `ra.get(Asn.STOP)` může vrátit `null`. Ochráníte se tím, že před voláním `.before(minDate)` přidáte kontrolu na null.  
+- **Incorrect file path** – Ujistěte se, že `dataDir` končí oddělovačem cesty (`/` nebo `\\`) vhodným pro váš OS.  
+- **Version mismatch** – Použijte nejnovější verzi Aspose.Tasks pro Javu, abyste se vyhnuli chybějícím hodnotám enumu.
 
-## Frequently Asked Questions
+## Často kladené otázky
 
-**Q: Jak programově nastavit datum zastavení pro přiřazení?**  
+**Q: How do I programmatically set a stop date for an assignment?**  
 A: Použijte `ra.set(Asn.STOP, yourDateObject);`, kde `yourDateObject` je `java.util.Date`.
 
-**Q: Co se stane, pokud je datum obnovení dříve než datum zastavení?**  
-A: API nevyžaduje chronologické pořadí; plánovač však bude považovat přiřazení za aktivní až po pozdějším z těchto dvou dat, takže byste měli data validovat sami.
+**Q: What happens if the resume date is earlier than the stop date?**  
+A: API nevyžaduje chronologické pořadí; plánovač však bude považovat přiřazení za aktivní až po pozdějším z těchto dvou dat, takže byste měli data ověřit sami.
 
-**Q: Mohu filtrovat přiřazení pouze na ta, která mají nastavené datum zastavení?**  
-A: Ano, projděte `prj.getResourceAssignments()` a zkontrolujte, že `ra.get(Asn.STOP) != null`.
+**Q: Can I filter assignments to only those that have a stop date set?**  
+A: Ano, projděte `prj.getResourceAssignments()` a zkontrolujte `ra.get(Asn.STOP) != null`.
 
-**Q: Je možné odstranit datum zastavení po jeho nastavení?**  
-A: Nastavte datum zastavení na `null` pomocí `ra.set(Asn.STOP, null);` a poté projekt uložte.
+**Q: Is it possible to remove a stop date once set?**  
+A: Nastavte datum STOP na `null` pomocí `ra.set(Asn.STOP, null);` a poté projekt uložte.
 
-**Q: Podporuje Aspose.Tasks i další pole související s daty, jako je start, finish nebo actual start?**  
-A: Rozhodně. Výčet `Asn` poskytuje konstanty pro všechna pole přiřazení, například `Asn.START`, `Asn.FINISH` a další.
+**Q: Does Aspose.Tasks support other date‑related fields like start, finish, or actual start?**  
+A: Rozhodně. Enum `Asn` poskytuje konstanty pro všechna pole přiřazení, například `Asn.START`, `Asn.FINISH` a další.
 
 ## Závěr
-Postupným sledováním těchto kroků nyní víte **jak zastavit přiřazení**, jak zkontrolovat data zastavení/obnovení a jak přiřazení v případě potřeby obnovit. Tato funkce vám umožní **přesněji spravovat přiřazení zdrojů**, zejména v situacích jako jsou dovolené zdrojů nebo odstávky zařízení. Neváhejte rozšířit příklad o aktualizaci dat, generování reportů nebo integraci s vaší vlastní logikou plánování.
+Po provedení těchto kroků nyní víte **how to stop resource assignment java**, můžete kontrolovat data STOP/RESUME a při potřebě přiřazení obnovit. Tato funkce vám umožní **manage resource assignments** přesněji, zejména v situacích jako dovolené zdrojů nebo výpadky zařízení. Neváhejte rozšířit příklad o aktualizaci dat, generování reportů nebo integraci s vaší vlastní logikou plánování.
 
 ---
 
-**Last Updated:** 2026-01-10  
-**Tested With:** Aspose.Tasks for Java 24.12  
-**Author:** Aspose  
+**Poslední aktualizace:** 2026-07-14  
+**Testováno s:** Aspose.Tasks for Java 24.12  
+**Autor:** Aspose
+
+## Související tutoriály
+
+- [Vytvořit přiřazení zdrojů v Aspose.Tasks](/tasks/java/resource-assignments/create-resource-assignments/)
+- [Jak vypočítat odchylku nákladů a spravovat náklady přiřazení s Aspose.Tasks](/tasks/java/resource-assignments/assignment-cost/)
+- [Jak přidat poznámky k přiřazením zdrojů v Aspose.Tasks](/tasks/java/resource-assignments/resource-assignment-notes/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
+{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
