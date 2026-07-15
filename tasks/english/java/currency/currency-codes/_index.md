@@ -1,21 +1,21 @@
 ---
-title: How to read MS Project file and manage currency codes with Aspose.Tasks
+title: How to Retrieve Currency from MS Project with Aspose.Tasks
 linktitle: Manage Currency Codes in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: Learn how to read MS Project file and manage currency codes efficiently using Aspose.Tasks for Java. Streamline your project management tasks effortlessly.
+description: Learn how to retrieve currency codes from MS Project files using Aspose.Tasks for Java – the quick way to get currency code Java developers need.
 weight: 10
 url: /java/currency/currency-codes/
-date: 2025-12-09
+date: 2026-02-10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to read MS Project file and manage currency codes with Aspose.Tasks
+# How to Retrieve Currency from MS Project with Aspise.Tasks
 
 ## Introduction
-Welcome! In this tutorial you'll discover **how to read MS Project file** data and specifically **manage currency codes** using the Aspose.Tasks Java API. Whether you're generating reports, consolidating multi‑currency projects, or simply need to ensure the correct financial symbols appear, this guide walks you through every step— from setting up your environment to retrieving the currency code programmatically. By the end, you’ll be comfortable reading MS Project files and extracting the currency information you need.
+Welcome! In this tutorial you'll discover **how to retrieve currency** codes from an MS Project file using the Aspose.Tasks Java API. Whether you're generating multi‑currency financial reports, consolidating projects from different regions, or simply need the correct monetary symbols for downstream processing, this guide walks you through every step—from setting up your environment to extracting the currency code programmatically. By the end, you’ll be comfortable reading MS Project files and using the **get currency code java** call to obtain the ISO currency identifier.
 
 ## Quick Answers
 - **What does the API do?** It reads MS Project files and exposes properties such as currency code.  
@@ -70,11 +70,17 @@ System.out.println(prj.get(Prj.CURRENCY_CODE));
 ```
 The output will be the three‑letter ISO currency code (e.g., `USD`, `EUR`, `GBP`) that the project is configured to use.
 
-### Step 4: (Optional) Use the Currency Code
-You might want to apply the retrieved code elsewhere—such as formatting cost values in a custom report or passing it to a financial API. Here’s a quick illustration (no additional code block needed):
-- Store the code in a variable.  
-- Use it when constructing monetary strings.  
-- Pass it to downstream services that require a currency identifier.
+### Step 4: How to Retrieve Currency Code in Java (Additional Context)
+If you need to store the value for later use, simply assign it to a variable:
+
+*No extra code block is required* – just keep the string returned by `prj.get(Prj.CURRENCY_CODE)` and pass it to any financial service, reporting engine, or UI component.
+
+### Step 5: (Optional) Use the Currency Code
+You might want to apply the retrieved code elsewhere—such as formatting cost values in a custom report or passing it to a financial API. Typical scenarios include:
+
+- **Report generation** – prepend the code to cost columns (`USD 1,200`).
+- **API integration** – send the ISO code to payment gateways that require a currency identifier.
+- **Data consolidation** – group multiple projects by currency for portfolio analysis.
 
 ## Common Issues and Solutions
 | Issue | Reason | Fix |
@@ -102,9 +108,9 @@ A: Temporary licenses can be obtained from the [website](https://purchase.aspose
 
 ---
 
-**Last Updated:** 2025-12-09  
+**Last Updated:** 2026-02-10  
 **Tested With:** Aspose.Tasks for Java (latest version)  
-**Author:** Aspose
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

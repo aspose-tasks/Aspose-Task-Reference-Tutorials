@@ -1,11 +1,11 @@
 ---
-date: 2025-12-09
-description: Dowiedz się, jak odczytywać pliki MS Project i efektywnie zarządzać kodami
-  walut przy użyciu Aspose.Tasks dla Javy. Usprawnij swoje zadania zarządzania projektami
-  bez wysiłku.
+date: 2026-02-10
+description: Dowiedz się, jak pobierać kody walut z plików MS Project przy użyciu
+  Aspose.Tasks for Java – szybki sposób na uzyskanie kodu waluty, którego potrzebują
+  programiści Java.
 linktitle: Manage Currency Codes in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: Jak odczytać plik MS Project i zarządzać kodami walut przy użyciu Aspose.Tasks
+title: Jak pobrać walutę z MS Project przy użyciu Aspose.Tasks
 url: /pl/java/currency/currency-codes/
 weight: 10
 ---
@@ -14,99 +14,105 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak odczytać plik MS Project i zarządzać kodami walut przy użyciu Aspose.Tasks
+# Jak pobrać walutę z MS Project przy użyciu Aspise.Tasks
 
-## Wstęp
-Witaj! W tym samouczku odkryjesz **jak odczytać dane z pliku MS Project** oraz w szczególności **zarządzać kodami walut** przy użyciu API Aspose.Tasks dla Javy. Niezależnie od tego, czy generujesz raporty, konsolidujesz projekty wielowalutowe, czy po prostu musisz zapewnić prawidłowe symbole finansowe, ten przewodnik przeprowadzi Cię przez każdy krok — od konfiguracji środowiska po programowe pobranie kodu waluty. Po zakończeniu będziesz swobodnie odczytywać pliki MS Project i wyodrębniać potrzebne informacje o walucie.
+## Introduction
+Welcome! In this tutorial you'll discover **how to retrieve currency** codes from an MS Project file using the Aspose.Tasks Java API. Whether you're generating multi‑currency financial reports, consolidating projects from different regions, or simply need the correct monetary symbols for downstream processing, this guide walks you through every step—from setting up your environment to extracting the currency code programmatically. By the end, you’ll be comfortable reading MS Project files and using the **get currency code java** call to obtain the ISO currency identifier.
 
-## Szybkie odpowiedzi
-- **Co robi API?** Odczytuje pliki MS Project i udostępnia właściwości, takie jak kod waluty.  
-- **Jakiego języka używać?** Java, za pośrednictwem biblioteki Aspose.Tasks dla Javy.  
-- **Czy potrzebna jest licencja?** Darmowa wersja próbna wystarczy do rozwoju; licencja komercyjna jest wymagana w środowisku produkcyjnym.  
-- **Czy mogę pobrać kod w jednej linii?** Tak — `prj.get(Prj.CURRENCY_CODE)` zwraca ciąg znaków z kodem waluty.  
-- **Czy jest kompatybilny ze wszystkimi wersjami Project?** Aspose.Tasks obsługuje zarówno starsze (MPP), jak i nowsze (XML, XER) formaty.
+## Quick Answers
+- **Co robi API?** It reads MS Project files and exposes properties such as currency code.  
+- **Jakiego języka użyto?** Java, via the Aspose.Tasks for Java library.  
+- **Czy potrzebna jest licencja?** A free trial works for development; a commercial license is required for production.  
+- **Czy mogę pobrać kod w jednej linii?** Yes—`prj.get(Prj.CURRENCY_CODE)` returns the currency code string.  
+- **Czy jest kompatybilny ze wszystkimi wersjami Project?** Aspose.Tasks supports both older (MPP) and newer (XML, XER) formats.
 
-## Co to jest **read ms project file**?
-Odczyt pliku MS Project oznacza programowe otwarcie dokumentu projektu *.mpp* (lub innego obsługiwanego) i dostęp do jego struktur danych — zadań, zasobów, kalendarzy oraz ustawień finansowych — bez ręcznej interakcji z Microsoft Project.
+## What is **read ms project file**?
+Reading an MS Project file means programmatically opening a *.mpp* (or other supported) project document and accessing its data structures—tasks, resources, calendars, and financial settings—without manual interaction with Microsoft Project itself.
 
-## Dlaczego warto używać Aspose.Tasks do **read msproject**?
-- **Pełne wsparcie formatów** – działa z plikami od Project 98 po najnowsze wydania Office.  
-- **Brak wymogu COM ani instalacji Office** – czysta Java, idealna do automatyzacji po stronie serwera.  
-- **Bogate API** – zapewnia bezpośredni dostęp do właściwości takich jak `Prj.CURRENCY_CODE`, umożliwiając **how to retrieve currency** natychmiast.  
-- **Wydajność** – lekka analiza, idealna do przetwarzania wsadowego wielu projektów.
+## Why use Aspose.Tasks to **read msproject** files?
+- **Pełne wsparcie formatów** – works with files from Project 98 through the latest Office releases.  
+- **Brak wymogu COM ani instalacji Office** – pure Java, perfect for server‑side automation.  
+- **Bogate API** – gives direct access to properties like `Prj.CURRENCY_CODE`, allowing you to **jak pobrać walutę** information instantly.  
+- **Wydajność** – lightweight parsing, ideal for batch processing of many projects.
 
-## Wymagania wstępne
-Zanim przejdziesz do kodu, upewnij się, że masz następujące elementy:
+## Prerequisites
+Before we dive into the code, ensure you have the following:
 
-### Zainstalowany Java Development Kit (JDK)
-Upewnij się, że na komputerze dostępny jest aktualny JDK. Najnowszą wersję możesz pobrać i zainstalować [tutaj](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+### Java Development Kit (JDK) Installed
+Make sure a recent JDK is available on your machine. You can download and install the latest JDK version from [here](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
 
-### Biblioteka Aspose.Tasks dla Javy
-Pobierz i skonfiguruj bibliotekę Aspose.Tasks dla Javy. Szczegółowa dokumentacja oraz najnowsze pliki binarne są dostępne [tutaj](https://reference.aspose.com/tasks/java/).
+### Aspose.Tasks for Java Library
+Download and set up the Aspose.Tasks for Java library. Detailed documentation and the latest binaries are available [here](https://reference.aspose.com/tasks/java/).
 
-## Import pakietów
-Aby rozpocząć, zaimportuj niezbędne pakiety w swoim projekcie Java:
+## Import Packages
+To get started, let's import the necessary packages in your Java project:
 ```java
 import com.aspose.tasks.Prj;
 import com.aspose.tasks.Project;
 ```
 
-## Przewodnik krok po kroku
+## Step‑by‑step guide
 
-### Krok 1: Ustaw katalog danych
-Zdefiniuj folder zawierający plik *.mpp*. Dostosuj ścieżkę do swojego środowiska.
+### Step 1: Set Up Data Directory
+Define the folder that contains your *.mpp* file. Adjust the path to match your environment.
 ```java
 String dataDir = "Your Data Directory";
 ```
 
-### Krok 2: Załaduj plik projektu
-Utwórz instancję `Project`, ładując plik MS Project. To moment, w którym **read msproject** zostaje wczytany do pamięci.
+### Step 2: Load the Project File
+Create a `Project` instance by loading the MS Project file. This is the point where you **read msproject** data into memory.
 ```java
 Project prj = new Project(dataDir + "project.mpp");
 ```
 
-### Krok 3: Pobierz kod waluty
-Po załadowaniu projektu możesz **how to retrieve currency** za pomocą jednego wywołania. To pokazuje użycie **get currency code java**.
+### Step 3: Retrieve Currency Code
+Now that the project is loaded, you can **jak pobrać walutę** information with a single call. This demonstrates **get currency code java** usage.
 ```java
 System.out.println(prj.get(Prj.CURRENCY_CODE));
 ```
-Wynikiem będzie trzy‑literowy kod ISO waluty (np. `USD`, `EUR`, `GBP`), który projekt ma skonfigurowany.
+Wynik będzie trzyznakowym kodem ISO waluty (e.g., `USD`, `EUR`, `GBP`) that the project is configured to use.
 
-### Krok 4: (Opcjonalnie) Wykorzystaj kod waluty
-Możesz użyć pobranego kodu w innym miejscu — np. przy formatowaniu kosztów w niestandardowym raporcie lub przekazując go do API finansowego. Krótka ilustracja (bez dodatkowego bloku kodu):
-- Przechowaj kod w zmiennej.  
-- Użyj go przy budowaniu łańcuchów pieniężnych.  
-- Przekaż go do usług downstream wymagających identyfikatora waluty.
+### Step 4: How to Retrieve Currency Code in Java (Additional Context)
+If you need to store the value for later use, simply assign it to a variable:
 
-## Typowe problemy i rozwiązania
+*No extra code block is required* – just keep the string returned by `prj.get(Prj.CURRENCY_CODE)` and pass it to any financial service, reporting engine, or UI component.
+
+### Step 5: (Optional) Use the Currency Code
+You might want to apply the retrieved code elsewhere—such as formatting cost values in a custom report or passing it to a financial API. Typical scenarios include:
+
+- **Generowanie raportów** – prepend the code to cost columns (`USD 1,200`).  
+- **Integracja z API** – send the ISO code to payment gateways that require a currency identifier.  
+- **Konsolidacja danych** – group multiple projects by currency for portfolio analysis.
+
+## Common Issues and Solutions
 | Problem | Przyczyna | Rozwiązanie |
 |-------|--------|-----|
-| **Pusty wynik** | Plik projektu nie definiuje waluty (wartość domyślna jest pusta). | Ustaw walutę w Microsoft Project lub przypisz ją programowo `prj.set(Prj.CURRENCY_CODE, "USD");` przed odczytem. |
-| **Plik nie znaleziony** | Nieprawidłowa ścieżka `dataDir`. | Sprawdź ścieżkę i upewnij się, że nazwa pliku jest dokładna, łącznie z wielkością liter. |
-| **Nieobsługiwana wersja pliku** | Bardzo stary lub uszkodzony plik *.mpp*. | Użyj najnowszej wersji Aspose.Tasks lub najpierw skonwertuj plik do nowszego formatu w Microsoft Project. |
+| **Null output** | Project file does not define a currency (default is empty). | Set the currency in Microsoft Project or assign it via `prj.set(Prj.CURRENCY_CODE, "USD");` before reading. |
+| **File not found** | Incorrect `dataDir` path. | Verify the path and ensure the file name matches exactly, including case sensitivity. |
+| **Unsupported file version** | Very old or corrupted *.mpp* file. | Use the latest Aspose.Tasks version or convert the file to a newer format in Microsoft Project first. |
 
-## Najczęściej zadawane pytania
+## Frequently Asked Questions
 
-**P: Czy Aspose.Tasks radzi sobie ze złożonymi strukturami projektów?**  
-O: Tak, API potrafi odczytywać i modyfikować wielopoziomowe hierarchie zadań, pule zasobów oraz pola niestandardowe bez problemu.
+**P:** Can Aspose.Tasks handle complex project structures?  
+**O:** Yes, the API can read and manipulate multi‑level task hierarchies, resource pools, and custom fields without issue.
 
-**P: Czy Aspose.Tasks jest kompatybilny z różnymi wersjami plików MS Project?**  
-O: Absolutnie. Obsługuje MPP, XML, XER i inne formaty z wielu wydań Microsoft Project.
+**P:** Is Aspose.Tasks compatible with different versions of MS Project files?  
+**O:** Absolutely. It supports MPP, XML, XER, and other formats across many Microsoft Project releases.
 
-**P: Czy Aspose.Tasks oferuje dokumentację i wsparcie?**  
-O: Kompleksowa dokumentacja, przykłady kodu i dedykowane wsparcie są dostępne na stronie Aspose.
+**P:** Does Aspose.Tasks provide documentation and support?  
+**O:** Comprehensive documentation, code examples, and dedicated support are available on the Aspose website.
 
-**P: Czy mogę wypróbować Aspose.Tasks przed zakupem?**  
-O: Tak, dostępna jest wersja próbna, dzięki której możesz ocenić wszystkie funkcje, w tym odczyt kodów walut.
+**P:** Can I try Aspose.Tasks before purchasing?  
+**O:** A free trial is offered so you can evaluate all features, including reading currency codes.
 
-**P: Gdzie mogę uzyskać tymczasowe licencje na Aspose.Tasks?**  
-O: Tymczasowe licencje można uzyskać na [stronie internetowej](https://purchase.aspose.com/temporary-license/) w celu krótkoterminowej oceny.
+**P:** Where can I get temporary licenses for Aspose.Tasks?  
+**O:** Temporary licenses can be obtained from the [website](https://purchase.aspose.com/temporary-license/) for short‑term evaluation.
 
 ---
 
-**Ostatnia aktualizacja:** 2025-12-09  
-**Testowano z:** Aspose.Tasks dla Javy (najnowsza wersja)  
-**Autor:** Aspose
+**Ostatnia aktualizacja:** 2026-02-10  
+**Testowano z:** Aspose.Tasks for Java (latest version)  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

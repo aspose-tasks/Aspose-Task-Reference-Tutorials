@@ -1,11 +1,11 @@
 ---
-date: 2025-12-04
-description: Dowiedz się, jak odczytywać waluty i ustawiać ich właściwości w plikach
-  MS Project przy użyciu Aspose.Tasks for Java. Przewodniki krok po kroku, umożliwiające
-  łatwą manipulację plikami projektów.
+date: 2026-02-10
+description: Naucz się odczytywać właściwości waluty java i ustawiać wartości waluty
+  w plikach MS Project przy użyciu Aspose.Tasks dla Javy. Przewodnik krok po kroku,
+  jak wyodrębnić kod waluty java i dostosować format waluty java.
 linktitle: How to Read Currency
 second_title: Aspose.Tasks Java API
-title: Jak odczytać właściwości waluty przy użyciu Aspose.Tasks dla Javy
+title: Odczyt właściwości waluty w Javie przy użyciu Aspose.Tasks
 url: /pl/java/currency-properties/
 weight: 25
 ---
@@ -14,82 +14,99 @@ weight: 25
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak odczytywać właściwości waluty w Aspose.Tasks dla Javy
+# Odczyt właściwości waluty w Javie z Aspose.Tasks
 
 ## Wprowadzenie
-Gotowy, aby podnieść swoją wiedzę o Aspose.Tasks dla Javy? W tym samouczku pokażemy **jak odczytywać informacje o walucie** z plików Microsoft Project oraz omówimy **jak ustawiać wartości waluty**, gdy zajdzie taka potrzeba. Zrozumienie tych właściwości pozwala utrzymać spójność danych finansowych w międzynarodowych projektach, uniknąć błędów konwersji i przedstawić przejrzyste raporty kosztowe interesariuszom.
+Gotowy, aby zwiększyć swoją wiedzę o Aspose.Tasks for Java? W tym samouczku odkryjesz **jak odczytać właściwości waluty w Javie** z plików Microsoft Project oraz dowiesz się **jak ustawiać wartości waluty** w razie potrzeby. Opanowanie tych właściwości pomaga utrzymać spójność danych finansowych w międzynarodowych projektach, unikać błędów konwersji i prezentować przejrzyste raporty kosztowe interesariuszom.
 
 ## Szybkie odpowiedzi
-- **Co oznacza „odczyt waluty”?** Pobieranie kodu waluty, symbolu i formatu przechowywanych w pliku projektu.  
+- **Co oznacza „odczyt waluty”?** Wyodrębnianie kodu waluty, symbolu i formatu przechowywanych w pliku Project.  
 - **Dlaczego dostosowywać ustawienia waluty?** Aby dopasować format regionalny budżetu projektu lub spełnić wymagania klienta.  
-- **Czy potrzebna jest licencja?** Wymagana jest ważna licencja Aspose.Tasks dla Javy do użytku produkcyjnego; darmowa wersja próbna wystarczy do oceny.  
-- **Jakie wersje Project są obsługiwane?** Pełne wsparcie zarówno dla formatów .mpp (Microsoft Project 2007‑2024), jak i .xml.  
-- **Czy wymagana jest dodatkowa konfiguracja?** Wystarczy dodać plik JAR Aspose.Tasks dla Javy do classpath i zaimportować odpowiednie klasy.
+- **Czy potrzebna jest licencja?** Wymagana jest ważna licencja Aspose.Tasks for Java do użytku produkcyjnego; darmowa wersja próbna działa w ocenie.  
+- **Jakie wersje Project są obsługiwane?** Pełne wsparcie dla formatów .mpp (Microsoft Project 2007‑2024) oraz .xml.  
+- **Czy wymagana jest dodatkowa konfiguracja?** Wystarczy dodać JAR Aspose.Tasks for Java do classpath i zaimportować odpowiednie klasy.
 
-## Jak odczytywać właściwości waluty w projektach Aspose.Tasks
-W dynamicznym świecie zarządzania projektami wyodrębnianie szczegółów waluty jest niezbędne do dokładnej analizy kosztów. Nasz dedykowany przewodnik **[Odczytaj właściwości waluty w projektach Aspose.Tasks](./read-properties/)** prowadzi Cię krok po kroku – od otwarcia pliku projektu po pobranie kodu waluty, symbolu i formatu. Postępując zgodnie z samouczkiem, będziesz mógł:
+## Odczyt właściwości waluty w Javie w projektach Aspose.Tasks
+W dynamicznym świecie zarządzania projektami wyodrębnianie szczegółów waluty jest niezbędne do dokładnej analizy kosztów. Nasz dedykowany przewodnik **[Reading Currency Properties in Aspose.Tasks Projects](./read-properties/)** prowadzi Cię krok po kroku — od otwarcia pliku projektu po pobranie kodu waluty, symbolu i formatu. Postępując zgodnie z samouczkiem, będziesz w stanie:
 
-* Pobierać kod waluty (np. USD, EUR) używany w całym projekcie.  
+* Pobrać kod waluty (np. USD, EUR) używany w całym projekcie.  
 * Uzyskać dostęp do symbolu waluty oraz ustawień formatowania liczb.  
-* Wykorzystać te informacje do generowania spersonalizowanych raportów kosztowych lub zasilania pulpitów finansowych.
+* Wykorzystać te informacje do generowania lokalizowanych raportów kosztowych lub zasilania pulpitów finansowych.
 
-Zrozumienie, jak odczytywać walutę, zapewnia możliwość audytu budżetów projektowych, porównywania kosztów między regionami oraz zachowania zgodności ze standardami księgowymi.
+Zrozumienie, jak odczytywać walutę, pozwala audytować budżety projektów, porównywać koszty między regionami i zachować zgodność ze standardami księgowymi.
 
-## Jak ustawiać właściwości waluty w projektach Aspose.Tasks
-Gdy projekt wchodzi na nowy rynek lub klient żąda innego formatu monetarnego, konieczne jest **ustawienie wartości waluty** programowo. Nasz krok‑po‑kroku przewodnik **[Ustawianie właściwości waluty w projektach Aspose.Tasks](./set-properties/)** wyjaśnia, jak:
+## Jak wyodrębnić kod waluty w Javie z Aspose.Tasks
+Jeśli potrzebujesz jedynie identyfikatora ISO‑4217, API udostępnia prostą właściwość:
+
+* `project.getCurrencyCode()` zwraca trzy‑literowy kod, taki jak **USD** lub **EUR**.  
+* Wartość tę można przechowywać, logować lub przekazywać do zewnętrznych usług finansowych w celu konwersji.
+
+Wyodrębnianie kodu waluty programowo jest szczególnie przydatne, gdy integrujesz dane projektowe z systemami ERP oczekującymi ustandaryzowanego kodu.
+
+## Jak dostosować format waluty w Javie z Aspose.Tasks
+Różne locale wymagają odmiennych formatów liczb (separator dziesiętny, separator tysięcy itp.). Użyj poniższych właściwości, aby precyzyjnie dostroić wyświetlanie:
+
+* `project.setCurrencySymbol("€")` – ustawia wizualny symbol.  
+* `project.setCurrencyDecimalSeparator(",")` – definiuje separator dziesiętny.  
+* `project.setCurrencyThousandsSeparator(".")` – definiuje separator tysięcy.  
+
+Dostosowanie formatu waluty zapewnia, że każdy interesariusz widzi liczby w znanym stylu, co zmniejsza ryzyko nieporozumień.
+
+## Jak ustawić właściwości waluty w projektach Aspose.Tasks
+Gdy projekt przechodzi na nowy rynek lub klient żąda innego formatu pieniężnego, konieczne jest **ustawienie waluty** programowo. Nasz przewodnik krok po kroku **[Setting Currency Properties in Aspose.Tasks Projects](./set-properties/)** wyjaśnia, jak:
 
 * Zdefiniować nowy kod waluty i symbol dla całego projektu.  
-* Dostosować format liczb (liczba miejsc dziesiętnych, separator tysięcy) zgodnie z lokalnymi konwencjami.  
-* Zapisz zaktualizowany plik projektu, nie tracąc istniejących danych.
+* Dostosować format liczb (liczba miejsc dziesiętnych, separatory tysięcy) do lokalnych konwencji.  
+* Zapisać zaktualizowany plik projektu, nie tracąc istniejących danych.
 
 Opanowując ustawianie waluty, zyskujesz pełną kontrolę nad finansową reprezentacją swoich harmonogramów, co ułatwia przełączanie się między USD, GBP, JPY lub dowolną obsługiwaną walutą w locie.
 
-## Dlaczego opanować obsługę walut w Aspose.Tasks?
-* **Współpraca globalna:** Zespoły w różnych krajach mogą przeglądać koszty w swoim natywnym formacie.  
-* **Dokładne raportowanie:** Zapobiegaj błędom zaokrągleń lub konwersji, które mogą wpłynąć na budżetowanie.  
-* **Zgodność:** Dostosuj się do regionalnych standardów księgowych i wymagań klienta.  
-* **Automatyzacja:** Zredukuj ręczne edycje, programowo stosując ustawienia waluty podczas generowania projektu.
+## Dlaczego opanować obsługę waluty w Aspose.Tasks?
+* **Global Collaboration:** Zespoły w różnych krajach mogą przeglądać koszty w swoim natywnym formacie.  
+* **Accurate Reporting:** Zapobiegaj błędom zaokrągleń lub konwersji, które mogą wpłynąć na budżetowanie.  
+* **Compliance:** Dostosuj się do regionalnych standardów księgowych i specyfikacji klienta.  
+* **Automation:** Zredukuj ręczne edycje, programowo stosując ustawienia waluty podczas generowania projektu.
 
 ## Przykłady zastosowań w praktyce
-* **Projekty międzynarodowe:** Firma budowlana zarządzająca placami w Europie i Ameryce Północnej musi prezentować budżety zarówno w EUR, jak i USD.  
-* **Audyt finansowy:** Audytorzy wymagają przejrzystego wglądu w kontekst waluty dla każdego wpisu kosztowego.  
-* **Dynamiczne modele cenowe:** Dostawcy SaaS dostosowują koszty subskrypcji w zależności od lokalnej waluty klienta.
+* **Multi‑national Projects:** Firma budowlana zarządzająca placami w Europie i Ameryce Północnej musi prezentować budżety zarówno w EUR, jak i USD.  
+* **Financial Audits:** Audytorzy wymagają przejrzystego wglądu w kontekst waluty dla każdego wpisu kosztowego.  
+* **Dynamic Pricing Models:** Dostawcy SaaS dostosowują koszty subskrypcji w zależności od lokalnej waluty klienta.
 
-## Typowe pułapki i wskazówki
-* **Pułapka:** Zapomnienie o aktualizacji symbolu waluty po zmianie kodu.  
-  **Wskazówka:** Zawsze ustawiaj jednocześnie kod i symbol, aby uniknąć niespójnych wyświetleń.  
-* **Pułapka:** Poleganie na domyślnym ustawieniu regionalnym maszyny, na której uruchamiany jest kod.  
-  **Wskazówka:** Jawnie określ żądany format waluty w kodzie Aspose.Tasks, aby zapewnić spójność w różnych środowiskach.  
+## Częste pułapki i wskazówki
+* **Pitfall:** Zapominanie o aktualizacji symbolu waluty po zmianie kodu.  
+  **Tip:** Zawsze ustawiaj jednocześnie kod i symbol, aby uniknąć niezgodnych wyświetleń.  
+* **Pitfall:** Poleganie na domyślnym locale maszyny uruchamiającej kod.  
+  **Tip:** Jawnie określ żądany format waluty w kodzie Aspose.Tasks, aby zapewnić spójność w różnych środowiskach.  
 
 ## Samouczki dotyczące właściwości waluty
-### [Odczytaj właściwości waluty w projektach Aspose.Tasks](./read-properties/)
-Dowiedz się, jak wyodrębnić informacje o walucie z plików MS Project przy użyciu Aspose.Tasks dla Javy. Szczegółowy przewodnik krok po kroku.
+### [Odczyt właściwości waluty w projektach Aspose.Tasks](./read-properties/)
+Dowiedz się, jak wyodrębnić informacje o walucie z plików MS Project przy użyciu Aspose.Tasks for Java. Dostępny szczegółowy przewodnik krok po kroku.
 
 ### [Ustawianie właściwości waluty w projektach Aspose.Tasks](./set-properties/)
-Poznaj metodę ustawiania właściwości waluty w projektach Aspose.Tasks przy użyciu Javy. Manipuluj plikami Microsoft Project bez wysiłku.
+Poznaj sposób ustawiania właściwości waluty w projektach Aspose.Tasks przy użyciu Javy. Manipuluj plikami Microsoft Project bez wysiłku.
 
 ## Najczęściej zadawane pytania
 
-**P: Czy mogę zmienić walutę po zapisaniu projektu?**  
-O: Tak. Użyj `Project.setCurrencyCode()` oraz powiązanych metod, a następnie ponownie zapisz projekt.
+**Q: Czy mogę zmienić walutę po zapisaniu projektu?**  
+A: Tak. Użyj `Project.setCurrencyCode()` oraz powiązanych metod, a następnie ponownie zapisz projekt.
 
-**P: Czy zmiana waluty wpływa na istniejące wartości kosztów?**  
-O: Wartości liczbowe pozostają niezmienione; aktualizowany jest jedynie format wyświetlania (symbol, separator dziesiętny). Jeśli potrzebna jest konwersja między walutami, musisz przeliczyć koszty ponownie.
+**Q: Czy zmiana waluty wpływa na istniejące wartości kosztów?**  
+A: Wartości liczbowe pozostają niezmienione; aktualizowany jest jedynie format wyświetlania (symbol, separator dziesiętny). Musisz przeliczyć koszty, jeśli potrzebna jest konwersja między walutami.
 
-**P: Czy istnieją limity liczby walut, które mogę zdefiniować?**  
-O: Aspose.Tasks obsługuje dowolny kod waluty ISO‑4217, więc praktycznie nie ma ograniczeń.
+**Q: Czy istnieją ograniczenia co do liczby walut, które mogę zdefiniować?**  
+A: Aspose.Tasks obsługuje dowolny kod waluty ISO‑4217, więc w praktyce nie ma limitu.
 
-**P: Co się stanie, jeśli otworzę projekt z nieobsługiwanym kodem waluty?**  
-O: Biblioteka przełącza się na domyślną walutę (USD) i zapisuje ostrzeżenie; możesz nadpisać to, ręcznie ustawiając pożądaną walutę.
+**Q: Co się stanie, jeśli otworzę projekt z nieobsługiwanym kodem waluty?**  
+A: Biblioteka przełącza się na domyślną walutę (USD) i zapisuje ostrzeżenie; możesz nadpisać to ręcznie, ustawiając żądaną walutę.
 
-**P: Czy można odczytywać i zapisywać właściwości waluty w pliku Project XML?**  
-O: Oczywiście. To samo API działa zarówno dla formatów .mpp, jak i .xml.
+**Q: Czy możliwe jest odczytywanie/zapisywanie właściwości waluty w pliku Project XML?**  
+A: Absolutnie. To samo API działa zarówno dla formatów .mpp, jak i .xml.
 
 ---
 
-**Ostatnia aktualizacja:** 2025-12-04  
-**Testowano z:** Aspose.Tasks dla Javy 24.12  
-**Autor:** Aspose  
+**Last Updated:** 2026-02-10  
+**Tested With:** Aspose.Tasks for Java 24.12  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

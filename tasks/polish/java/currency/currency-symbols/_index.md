@@ -1,11 +1,12 @@
 ---
-date: 2025-12-05
-description: Naucz się, jak wyodrębnić symbol waluty z pliku mpp i zmienić symbol
-  waluty w Javie przy użyciu Aspose.Tasks for Java. Szybko pobierz symbol waluty w
-  Javie dla zarządzania projektami.
+date: 2026-02-10
+description: Dowiedz się, jak wyodrębniać i aktualizować właściwości projektu Java,
+  takie jak symbol waluty, przy użyciu Aspose.Tasks for Java. Zmieniaj walutę projektu
+  i łatwo pobieraj symbol waluty.
 linktitle: Extract currency symbol mpp using Aspose.Tasks for Java
 second_title: Aspose.Tasks Java API
-title: Wyodrębnij symbol waluty mpp przy użyciu Aspose.Tasks dla Javy
+title: Właściwości projektu Java – wyodrębnij symbol waluty z pliku MPP przy użyciu
+  Aspose.Tasks dla Javy
 url: /pl/java/currency/currency-symbols/
 weight: 12
 ---
@@ -14,30 +15,30 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Wyodrębnij symbol waluty mpp przy użyciu Aspose.Tasks dla Javy
+# Wyodrębnianie symbolu waluty mpp przy użyciu Aspose.Tasks dla Javy
 
-## Wprowadzenie
-W tym samouczku **wyodrębnisz symbol waluty mpp** z pliku Microsoft Project i dowiesz się, jak **zmienić symbol waluty java** lub **pobrać symbol waluty java** przy użyciu biblioteki Aspose.Tasks. Niezależnie od tego, czy tworzysz narzędzie raportujące, integrujesz dane projektu z systemem finansowym, czy po prostu musisz wyświetlić prawidłowy symbol waluty w interfejsie użytkownika, opanowanie tego małego, lecz istotnego zadania sprawi, że Twoje aplikacje Java będą bardziej solidne i przyjazne dla użytkownika.
+## Wstęp
+W tym samouczku nauczysz się, jak pracować z **java project properties** — konkretnie jak wyodrębnić symbol waluty z pliku Microsoft Project (MPP) oraz jak **change currency symbol java** lub **retrieve currency symbol java** przy użyciu biblioteki Aspose.Tasks. Niezależnie od tego, czy tworzysz narzędzie raportujące, integrujesz dane Project z systemem finansowym, czy po prostu potrzebujesz wyświetlić prawidłowy symbol waluty w interfejsie użytkownika, opanowanie tego małego, ale istotnego zadania sprawi, że Twoje aplikacje Java będą bardziej solidne i przyjazne dla użytkownika.
 
 ## Szybkie odpowiedzi
 - **Co oznacza „extract currency symbol mpp”?** Oznacza to odczytanie symbolu waluty zapisanego w pliku MPP (Microsoft Project).  
-- **Która biblioteka obsługuje to zadanie?** Aspose.Tasks for Java udostępnia prosty interfejs API do wykonania tej operacji.  
-- **Czy potrzebna jest licencja?** Darmowa wersja próbna wystarczy do rozwoju; licencja komercyjna jest wymagana w środowisku produkcyjnym.  
-- **Jak długo to zajmuje?** Dzięki poniższemu kodowi możesz uzyskać symbol w mniej niż minutę.  
-- **Czy mogę także zmienić symbol?** Tak – możesz ustawić nową wartość, używając tej samej właściwości `Prj.CURRENCY_SYMBOL`.
+- **Która biblioteka to obsługuje?** Aspose.Tasks for Java zapewnia prosty interfejs API do tego zadania.  
+- **Czy potrzebna jest licencja?** Darmowa wersja próbna działa w fazie rozwoju; licencja komercyjna jest wymagana w środowisku produkcyjnym.  
+- **Jak długo to trwa?** Dzięki poniższemu kodowi możesz uzyskać symbol w mniej niż minutę.  
+- **Czy mogę także zmienić symbol?** Tak – możesz ustawić nową wartość używając tej samej właściwości `Prj.CURRENCY_SYMBOL`.
 
-## Czym jest „extract currency symbol mpp”?
+## Co to jest „extract currency symbol mpp”?
 Microsoft Project przechowuje symbol waluty (np. $, €, £) w nagłówku pliku projektu. Operacja **extract currency symbol mpp** odczytuje tę wartość, abyś mógł ją wyświetlić lub manipulować nią programowo.
 
-## Dlaczego zmienić symbol waluty java?
-Projekty często obejmują wiele regionów. Możliwość **zmiany symbolu waluty java** w czasie działania pozwala dostosować raporty, faktury lub pulpity nawigacyjne do lokalnego rynku bez konieczności tworzenia nowego pliku projektu.
+## Dlaczego aktualizować symbol waluty w java project properties?
+Projekty często obejmują wiele regionów. Możliwość **change project currency** lub **update currency symbol** w czasie działania pozwala dostosować raporty, faktury czy pulpity nawigacyjne do lokalnego rynku bez konieczności tworzenia nowego pliku projektu. Ta elastyczność jest kluczowym elementem efektywnego zarządzania java project properties.
 
-## Wymagania wstępne
-Przed rozpoczęciem upewnij się, że masz:
+## Prerequisites
+Zanim przejdziesz dalej, upewnij się, że masz:
 
 1. **Java Development Kit (JDK)** – wersja 8 lub wyższa.  
 2. **Aspose.Tasks for Java** – pobierz najnowszy plik JAR ze [strony pobierania Aspose.Tasks](https://releases.aspose.com/tasks/java/).  
-3. Prawidłowy plik **project.mpp** umieszczony w folderze, do którego możesz odwołać się w kodzie.
+3. Ważny plik **project.mpp** umieszczony w folderze, do którego możesz odwołać się w kodzie.
 
 ## Importowanie pakietów
 Najpierw zaimportuj klasy, które będą potrzebne do pracy z plikami Project.
@@ -48,7 +49,7 @@ import com.aspose.tasks.Project;
 ```
 
 ## Krok 1: Zdefiniuj katalog danych
-Określ aplikacji, gdzie znajduje się Twój plik *.mpp*.
+Powiedz aplikacji, gdzie znajduje się Twój plik *.mpp*.
 
 ```java
 String dataDir = "Your Data Directory";
@@ -64,7 +65,7 @@ Project project = new Project(dataDir + "project.mpp");
 ```
 
 ## Krok 3: Pobierz (i opcjonalnie zmień) symbol waluty
-Teraz **pobieramy symbol waluty java**, odczytując właściwość `Prj.CURRENCY_SYMBOL`. Możesz także **zmienić symbol waluty java**, przypisując nowy ciąg znaków do tej samej właściwości.
+Teraz **retrieve currency symbol java** poprzez odczytanie właściwości `Prj.CURRENCY_SYMBOL`. Możesz także **change currency symbol java** (lub **change project currency**) przypisując nowy ciąg znaków do tej samej właściwości.
 
 ```java
 // Retrieve the current currency symbol
@@ -77,17 +78,17 @@ System.out.println(project.get(Prj.CURRENCY_SYMBOL));
 
 Wywołanie `System.out.println` wypisuje symbol (np. `$`) na konsolę, potwierdzając, że wyodrębnianie zakończyło się sukcesem.
 
-## Typowe problemy i jak je rozwiązać
+## Typowe problemy i jak je naprawić
 | Objaw | Prawdopodobna przyczyna | Rozwiązanie |
 |-------|--------------------------|-------------|
 | `NullPointerException` on `project.get(...)` | Nieprawidłowa ścieżka do pliku lub plik nie został znaleziony | Zweryfikuj `dataDir` i nazwę pliku; użyj `new File(dataDir).exists()` do debugowania |
-| Nieoczekiwany symbol (np. `?`) | Projekt utworzony z niestandardową lokalizacją | Upewnij się, że źródłowy plik MPP faktycznie definiuje symbol waluty; możesz ustawić go programowo, jak pokazano wyżej |
-| Błąd licencji | Korzystanie z wersji próbnej bez ważnego pliku licencyjnego | Załaduj licencję przy pomocy `License license = new License(); license.setLicense("Aspose.Tasks.Java.lic");` przed utworzeniem obiektu `Project` |
+| Unexpected symbol (e.g., `?`) | Projekt utworzony z nietypową lokalizacją | Upewnij się, że źródłowy plik MPP rzeczywiście definiuje symbol waluty; możesz ustawić go programowo, jak pokazano wyżej |
+| License error | Korzystanie z wersji próbnej bez ważnego pliku licencji | Załaduj licencję przy pomocy `License license = new License(); license.setLicense("Aspose.Tasks.Java.lic");` przed utworzeniem obiektu `Project` |
 
 ## Najczęściej zadawane pytania
 
-**Q: Czy mogę manipulować innymi atrybutami projektu oprócz symboli walut przy użyciu Aspose.Tasks?**  
-A: Tak, Aspose.Tasks umożliwia edycję zadań, zasobów, przydziałów, kalendarzy i wielu innych właściwości projektu.
+**Q: Czy mogę manipulować innymi atrybutami projektu oprócz symboli waluty przy użyciu Aspose.Tasks?**  
+A: Tak, Aspose.Tasks pozwala edytować zadania, zasoby, przydziały, kalendarze i wiele innych właściwości projektu.
 
 **Q: Czy Aspose.Tasks jest kompatybilny z różnymi wersjami plików MS Project?**  
 A: Absolutnie. Obsługuje formaty MPP, MPT i XML od Project 98 aż po najnowsze wydania.
@@ -99,11 +100,11 @@ A: Kompleksowa dokumentacja API, przykłady kodu oraz dedykowane forum wsparcia 
 A: Tak – w pełni funkcjonalną wersję próbną można pobrać ze [strony Aspose](https://purchase.aspose.com/buy).
 
 **Q: Jak mogę uzyskać tymczasową licencję dla Aspose.Tasks?**  
-A: Tymczasowe licencje są dostępne na [stronie tymczasowych licencji Aspose](https://purchase.aspose.com/temporary-license/) w celach ewaluacyjnych.
+A: Tymczasowe licencje są dostępne na [stronie tymczasowych licencji Aspose](https://purchase.aspose.com/temporary-license/) w celu oceny.
 
 ---
 
-**Ostatnia aktualizacja:** 2025-12-05  
+**Ostatnia aktualizacja:** 2026-02-10  
 **Testowano z:** Aspose.Tasks for Java 24.12 (najnowsza w momencie pisania)  
 **Autor:** Aspose  
 

@@ -1,11 +1,11 @@
 ---
-date: 2025-12-05
-description: Ms Project para birimi basamaklarını Aspose.Tasks for Java kullanarak
-  verimli bir şekilde nasıl yöneteceğinizi öğrenin. Java proje dosyası işleme ve mpp
-  dosyalarını nasıl yükleyeceğinizi adım adım anlatan rehber.
-linktitle: Handle ms project currency Digits with Aspose.Tasks
+date: 2026-02-10
+description: Aspose.Tasks kullanarak para birimi değerlerini nasıl alacağınızı, MS
+  Project dosyasını nasıl okuyacağınızı ve proje dosyasını Java'ya nasıl dönüştüreceğinizi
+  öğrenin. Para birimi rakamlarını çıkarmak için adım adım rehber.
+linktitle: How to Get Currency from MS Project using Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: Aspose.Tasks ile MS Project para birimi basamaklarını işleyin
+title: Aspose.Tasks kullanarak MS Project’ten Para Birimini Nasıl Alabilirsiniz
 url: /tr/java/currency/currency-digits/
 weight: 11
 ---
@@ -14,36 +14,36 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks ile ms project para birimi basamaklarını işleyin
+# Aspose.Tasks kullanarak MS Project'ten Para Birimini Nasıl Alırsınız
 
 ## Giriş
-Bu kapsamlı öğreticide **ms project para birimi** değerleriyle Java için Aspose.Tasks kütüphanesini nasıl kullanacağınızı keşfedeceksiniz. Bir raporlama aracı, bir geçiş yardımcı programı oluşturuyor ya da sadece bir **java proje dosyasından** para birimi ayarlarını okumanız gerekiyorsa, bu kılavuz *.mpp* dosyasını yüklemekten para birimi basamaklarını çıkarmaya kadar her adımı size gösterir. Sonunda, ms project para birimi verilerini kendi uygulamalarınızda rahatça işleyebileceksiniz.
+Microsoft Project dosyasından **para birimi** bilgisini nasıl alacağınızı merak ediyorsanız, doğru yerdesiniz. Bu kapsamlı öğreticide, Aspose.Tasks Java kütüphanesini kullanarak **ms project currency** değerleriyle nasıl çalışılacağını keşfedeceksiniz. Raporlama aracı, taşıma yardımcı programı oluşturuyor ya da sadece bir **java project file** dosyasının para birimi ayarlarını okumak istiyor olun, bu kılavuz sizi her adımda yönlendirecek — *.mpp* dosyasını yüklemekten para birimi basamaklarını çıkarmaya kadar. Sonunda, ms project currency verilerini kendi uygulamalarınızda rahatça işleyebileceksiniz.
 
 ## Hızlı Yanıtlar
 - **MS Project dosyalarını okuyan kütüphane nedir?** Aspose.Tasks for Java.  
 - **Para birimi basamaklarını almak için kaç satır kod gerekir?** Proje yüklendikten sonra sadece üç kısa satır.  
-- **Geliştirme için lisans gerekir mi?** Test için ücretsiz deneme sürümü yeterlidir; üretim için ticari lisans gereklidir.  
-- **Hangi Java sürümü desteklenir?** Java 8 ve üzeri (Aspose.Tasks'i çalıştırabilen herhangi bir JDK).  
-- **Diğer Project özelliklerini alabilir miyim?** Evet – Aspose.Tasks, proje alanlarının tam bir setini (ör. başlangıç tarihi, maliyet oranları vb.) sunar.
+- **Geliştirme için lisans gerekli mi?** Test için ücretsiz deneme sürümü yeterli; üretim için ticari lisans gerekir.  
+- **Hangi Java sürümü destekleniyor?** Java 8 ve üzeri (Aspose.Tasks'i çalıştırabilen herhangi bir JDK).  
+- **Diğer Project özelliklerini de alabilir miyim?** Evet – Aspose.Tasks, başlangıç tarihi, maliyet oranları vb. gibi tam bir Project alanı seti sunar.
 
-## ms project para birimi nedir?
-`ms project para birimi`, Microsoft Project'in para değerlerini gösterirken kullandığı sayısal hassasiyeti (ondalık basamak sayısı) ifade eder. Proje dosyasında **CURRENCY_DIGITS** özelliği olarak saklanır ve tutarların tam sayı, tek ondalık, iki ondalık vb. olarak görüntülenip görüntülenmeyeceğini belirler.
+## ms project currency nedir?
+`ms project currency`, Microsoft Project'in para değerlerini gösterirken kullandığı sayısal hassasiyeti (ondalık basamak sayısı) ifade eder. Proje dosyasında **CURRENCY_DIGITS** özelliği olarak saklanır ve tutarların tam sayı, bir‑ondalık, iki‑ondalık vb. olarak görüntülenip görüntülenmeyeceğini belirler.
 
-## ms project para birimini işlemek için Aspose.Tasks neden kullanılmalı?
-- **Microsoft Project kurulumu gerekmez** – *.mpp* dosyalarıyla doğrudan, Java’yı destekleyen herhangi bir platformda çalışın.  
+## Aspose.Tasks'i ms project currency için kullanmanın avantajları
+- **Microsoft Project kurulumu gerekmez** – *.mpp* dosyalarıyla doğrudan, Java destekleyen herhangi bir platformda çalışın.  
 - **Güçlü tip güvenliği** – API, güçlü tipli değerler döndürür, ayrıştırma hatalarını azaltır.  
-- **Performans‑optimizeli** – büyük projeleri hızlıca yükleyin ve yalnızca ihtiyacınız olan alanları çıkarın.  
-- **Çapraz‑platform** – Windows, Linux veya macOS üzerinde değişiklik yapmadan çalışır.
+- **Performans‑optimizasyonu** – büyük projeleri hızlıca yükleyin ve yalnızca ihtiyacınız olan alanları çıkarın.  
+- **Çapraz‑platform** – Windows, Linux veya macOS üzerinde değişiklik yapmadan çalıştırabilirsiniz.
 
 ## Önkoşullar
-Başlamadan önce aşağıdakilerin kurulu olduğundan emin olun:
+Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-1. **Java Geliştirme Ortamı** – JDK 8 veya daha yeni bir sürüm yüklü ve yapılandırılmış.  
+1. **Java Geliştirme Ortamı** – JDK 8 ve üzeri yüklü ve yapılandırılmış.  
 2. **Aspose.Tasks for Java** – resmi siteden en son JAR dosyasını indirin: [Aspose.Tasks for Java](https://releases.aspose.com/tasks/java/).  
-3. **Temel Java bilgisi** – bir Java projesi oluşturma, harici kütüphaneler ekleme ve bir `main` metodu çalıştırma konusunda rahat olmalısınız.  
+3. **Temel Java bilgisi** – bir Java projesi oluşturma, dış kütüphaneler ekleme ve bir `main` metodu çalıştırma konusunda rahat olmalısınız.  
 
-## Paketleri İçe Aktar
-İhtiyacımız olan sınıfları önce içe aktaralım.  
+## Paketleri İçe Aktarma
+İhtiyacımız olan sınıfları ilk olarak içe aktaralım.  
 ```java
 import java.io.IOException;
 import com.aspose.tasks.Prj;
@@ -51,53 +51,56 @@ import com.aspose.tasks.Project;
 import com.aspose.tasks.SaveFileFormat;
 ```
 
-## Adım 1: Veri Dizinini Tanımla
-**java proje dosyanızın** (`*.mpp`) bulunduğu klasörü belirtin.  
+## Adım 1: Veri Dizinini Tanımlama
+**java project file** (`*.mpp`) dosyanızın bulunduğu klasörü belirtin.  
 ```java
 String dataDir = "Your Data Directory";
 ```
 `"Your Data Directory"` ifadesini `project.mpp` dosyasının bulunduğu mutlak ya da göreli yol ile değiştirin.
 
-## Adım 2: MPP Dosyasını Yükle  
+## Adım 2: MPP Dosyasını Yükleme  
 Şimdi **mpp** dosyalarını Aspose.Tasks ile nasıl yükleyeceğimizi göreceğiz.  
 ```java
 Project project = new Project(dataDir + "project.mpp");
 ```
 Dosya adı tam olarak eşleşmelidir; aksi takdirde bir `IOException` fırlatılır.
 
-## Adım 3: Para Birimi Basamaklarını Al  
-Projeyi yükledikten sonra **ms project para birimi** basamaklarını almak tek satırda yapılır:  
+## Adım 3: Para Birimi Basamaklarını Almak  
+Proje yüklendikten sonra **ms project currency** basamaklarını tek satırda alabilirsiniz:  
 ```java
 System.out.println(project.get(Prj.CURRENCY_DIGITS));
 ```
-Bu çağrı, ondalık basamak sayısını temsil eden bir `Integer` döndürür (ör. cent için `2`). Değer konsola yazdırılır, ancak daha sonraki işlemler için bir değişkende saklanabilir.
+Bu çağrı, ondalık basamak sayısını temsil eden bir `Integer` döndürür (ör. cent için `2`). Değer konsola yazdırılır, ancak daha sonra işlemek üzere bir değişkende saklayabilirsiniz.
 
 ## Yaygın Sorunlar ve İpuçları
-- **Dosya bulunamadı** – `dataDir` yolunu iki kez kontrol edin ve dosya adının `.mpp` uzantısı dahil doğru olduğundan emin olun.  
+- **Dosya bulunamadı** – `dataDir` yolunu iki kez kontrol edin ve dosya adının `.mpp` uzantısıyla birlikte doğru olduğundan emin olun.  
 - **Desteklenmeyen dosya sürümü** – Aspose.Tasks, Project 2000‑2024 formatlarını destekler; daha eski ya da bozuk dosyalar dönüştürme gerektirebilir.  
-- **Lisans ayarlanmamış** – geliştirme aşamasında deneme sürümü çalışır, ancak üretimde değerlendirme filigranlarından kaçınmak için geçerli bir lisans uygulanmalıdır.
+- **Lisans ayarlanmamış** – geliştirme aşamasında deneme sürümü çalışır, ancak üretimde değerlendirme filigranlarını önlemek için geçerli bir lisans uygulanmalıdır.
 
 ## Sık Sorulan Sorular
 
 **S: Aspose.Tasks para birimi basamakları dışında başka Project özelliklerini de işleyebilir mi?**  
 C: Evet, Aspose.Tasks, görevler, kaynaklar ve özel alanlar gibi Project dosyalarının çeşitli yönlerini manipüle etmek için geniş bir işlevsellik sunar.
 
-**S: Aspose.Tasks kurumsal düzeyde uygulamalar için uygun mu?**  
+**S: Aspose.Tasks kurumsal‑düzey uygulamalar için uygun mu?**  
 C: Kesinlikle, Aspose.Tasks yüksek performans ve ölçeklenebilirlik sunarak kurumsal projelerin gereksinimlerini karşılayacak şekilde tasarlanmıştır.
 
 **S: Aspose.Tasks çapraz‑platform geliştirmeyi destekliyor mu?**  
 C: Evet, Java Runtime Environment (JRE) destekleyen herhangi bir platformda (Windows, Linux, macOS) Aspose.Tasks for Java kullanılabilir.
 
-**S: Aspose.Tasks'i satın almadan önce deneyebilir miyim?**  
-C: Evet, ücretsiz deneme sürümünü [buradan](https://releases.aspose.com/) indirebilirsiniz.
+**S: Aspose.Tasks'i satın almadan deneyebilir miyim?**  
+C: Evet, ücretsiz deneme sürümünü [burada](https://releases.aspose.com/) indirebilirsiniz.
 
 **S: Aspose.Tasks için destek nereden alınır?**  
-C: Destek için [Aspose.Tasks forumunu](https://forum.aspose.com/c/tasks/15) ziyaret edebilirsiniz.
+C: Destek için [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) adresini ziyaret edebilirsiniz.
+
+## Sonuç
+Artık Aspose.Tasks for Java kullanarak bir MS Project dosyasından **para birimi** basamaklarını nasıl alacağınızı biliyorsunuz. İşlem basittir: projeyi yükleyin, `project.get(Prj.CURRENCY_DIGITS)` metodunu çağırın ve sonucu uygulamanızda kullanın. Aynı desenle diğer proje özelliklerini de keşfedebilir, bu mantığı daha büyük raporlama veya taşıma çözümlerine entegre edebilirsiniz.
 
 ---
 
-**Son Güncelleme:** 2025-12-05  
-**Test Edilen Versiyon:** Aspose.Tasks for Java 24.11 (yazım anındaki en yeni)  
+**Son Güncelleme:** 2026-02-10  
+**Test Edilen Versiyon:** Aspose.Tasks for Java (yazım anındaki en son sürüm)  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

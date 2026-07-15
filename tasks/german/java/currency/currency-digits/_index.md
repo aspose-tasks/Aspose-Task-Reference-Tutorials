@@ -1,11 +1,11 @@
 ---
-date: 2025-12-05
-description: Lernen Sie, wie Sie die Währungsstellen in MS Project effizient mit Aspose.Tasks
-  für Java handhaben. Schritt‑für‑Schritt‑Anleitung zur Java‑Projektdateiverarbeitung
-  und zum Laden von MPP‑Dateien.
-linktitle: Handle ms project currency Digits with Aspose.Tasks
+date: 2026-02-10
+description: Erfahren Sie, wie Sie Währungswerte erhalten, MS Project‑Dateien lesen
+  und Projektdateien in Java mit Aspose.Tasks konvertieren. Schritt‑für‑Schritt‑Anleitung
+  zum Extrahieren von Währungsziffern.
+linktitle: How to Get Currency from MS Project using Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: Währungsstellen von MS Project mit Aspose.Tasks verarbeiten
+title: Wie man die Währung aus MS Project mit Aspose.Tasks abruft
 url: /de/java/currency/currency-digits/
 weight: 11
 ---
@@ -14,36 +14,36 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Umgang mit ms project currency Ziffern mit Aspose.Tasks
+# Wie man die Währung aus MS Project mit Aspose.Tasks abruft
 
 ## Einführung
-In diesem umfassenden Tutorial erfahren Sie **wie man mit ms project currency**-Werten mit der Aspose.Tasks-Bibliothek für Java arbeitet. Egal, ob Sie ein Reporting‑Tool, ein Migrations‑Utility erstellen oder einfach die Währungseinstellungen aus einer **java project file** lesen müssen, führt Sie dieser Leitfaden durch jeden Schritt – vom Laden einer *.mpp*-Datei bis zum Extrahieren der Währungsziffern. Am Ende können Sie ms project currency‑Daten in Ihren eigenen Anwendungen problemlos handhaben.
+Falls Sie sich fragen, **wie man Währungsinformationen** aus einer Microsoft‑Project‑Datei erhält, sind Sie hier genau richtig. In diesem umfassenden Tutorial erfahren Sie, **wie man ms project currency**‑Werte mit der Aspose.Tasks‑Bibliothek für Java verarbeitet. Egal, ob Sie ein Reporting‑Tool, ein Migrations‑Utility bauen oder einfach die Währungseinstellungen aus einer **java project file** auslesen müssen – diese Anleitung führt Sie durch jeden Schritt, vom Laden einer *.mpp*‑Datei bis zum Extrahieren der Währungsstellen. Am Ende können Sie ms project currency‑Daten sicher in Ihren eigenen Anwendungen handhaben.
 
-## Schnelle Antworten
-- **Welche Bibliothek liest MS Project‑Dateien?** Aspose.Tasks for Java.  
-- **Wie viele Code‑Zeilen werden benötigt, um die Währungsziffern zu erhalten?** Nur drei kompakte Zeilen, nachdem das Projekt geladen wurde.  
-- **Benötige ich eine Lizenz für die Entwicklung?** Eine kostenlose Testversion reicht für Tests; für die Produktion ist eine kommerzielle Lizenz erforderlich.  
-- **Welche Java‑Version wird unterstützt?** Java 8 oder höher (jedes JDK, das Aspose.Tasks ausführen kann).  
-- **Kann ich andere Projekteigenschaften abrufen?** Ja – Aspose.Tasks stellt ein vollständiges Set von Projektfeldern bereit (z. B. Startdatum, Kostensätze usw.).
+## Schnellantworten
+- **Welche Bibliothek liest MS‑Project‑Dateien?** Aspose.Tasks für Java.  
+- **Wie viele Code‑Zeilen benötigt man, um die Währungsstellen zu erhalten?** Nur drei kompakte Zeilen, nachdem das Projekt geladen wurde.  
+- **Brauche ich eine Lizenz für die Entwicklung?** Eine kostenlose Testversion reicht für Tests; für die Produktion ist eine kommerzielle Lizenz erforderlich.  
+- **Welche Java‑Version wird unterstützt?** Java 8 oder höher (jede JDK, die Aspose.Tasks ausführen kann).  
+- **Kann ich weitere Projekteigenschaften abrufen?** Ja – Aspose.Tasks stellt ein vollständiges Set von Projektfeldern bereit (z. B. Startdatum, Kostensätze usw.).
 
 ## Was ist ms project currency?
-`ms project currency` bezieht sich auf die numerische Präzision (Anzahl der Dezimalstellen), die Microsoft Project bei der Anzeige von Geldbeträgen verwendet. Sie wird in der Projektdatei als **CURRENCY_DIGITS**‑Eigenschaft gespeichert und bestimmt, ob Beträge als ganze Zahlen, mit einer Dezimalstelle, zwei Dezimalstellen usw. angezeigt werden.
+`ms project currency` bezeichnet die numerische Präzision (Anzahl der Dezimalstellen), die Microsoft Project bei der Anzeige von Geldbeträgen verwendet. Sie wird im Projekt‑File als **CURRENCY_DIGITS**‑Eigenschaft gespeichert und bestimmt, ob Beträge als ganze Zahlen, mit einer Dezimalstelle, zwei Dezimalstellen usw. angezeigt werden.
 
-## Warum Aspose.Tasks für die Handhabung von ms project currency verwenden?
-- **Keine Microsoft Project‑Installation erforderlich** – Arbeiten Sie direkt mit *.mpp*-Dateien auf jeder Plattform, die Java unterstützt.  
-- **Starke Typensicherheit** – Die API liefert stark typisierte Werte, wodurch Parsing‑Fehler reduziert werden.  
-- **Leistungsoptimiert** – Laden Sie große Projekte schnell und extrahieren Sie nur die benötigten Felder.  
-- **Plattformübergreifend** – Ausführen unter Windows, Linux oder macOS ohne Änderungen.
+## Warum Aspose.Tasks für die Verarbeitung von ms project currency verwenden?
+- **Keine Installation von Microsoft Project erforderlich** – arbeiten Sie direkt mit *.mpp*‑Dateien auf jeder Plattform, die Java unterstützt.  
+- **Starke Typensicherheit** – die API liefert stark typisierte Werte, wodurch Parsing‑Fehler reduziert werden.  
+- **Performance‑optimiert** – große Projekte schnell laden und nur die benötigten Felder extrahieren.  
+- **Plattformübergreifend** – läuft unter Windows, Linux oder macOS ohne Änderungen.
 
 ## Voraussetzungen
 Bevor Sie beginnen, stellen Sie sicher, dass Sie Folgendes haben:
 
-1. **Java-Entwicklungsumgebung** – JDK 8 oder neuer installiert und konfiguriert.  
-2. **Aspose.Tasks for Java** – Laden Sie das neueste JAR von der offiziellen Seite herunter: [Aspose.Tasks for Java](https://releases.aspose.com/tasks/java/).  
-3. **Grundlegende Java‑Kenntnisse** – Sie sollten in der Lage sein, ein Java‑Projekt zu erstellen, externe Bibliotheken hinzuzufügen und eine `main`‑Methode auszuführen.  
+1. **Java‑Entwicklungsumgebung** – JDK 8 oder neuer installiert und konfiguriert.  
+2. **Aspose.Tasks für Java** – laden Sie das neueste JAR von der offiziellen Seite herunter: [Aspose.Tasks for Java](https://releases.aspose.com/tasks/java/).  
+3. **Grundkenntnisse in Java** – Sie sollten in der Lage sein, ein Java‑Projekt zu erstellen, externe Bibliotheken hinzuzufügen und eine `main`‑Methode auszuführen.  
 
 ## Pakete importieren
-Zuerst importieren wir die benötigten Klassen.  
+Zuerst importieren wir die Klassen, die wir benötigen.  
 ```java
 import java.io.IOException;
 import com.aspose.tasks.Prj;
@@ -51,53 +51,56 @@ import com.aspose.tasks.Project;
 import com.aspose.tasks.SaveFileFormat;
 ```
 
-## Schritt 1: Datenverzeichnis definieren
+## Schritt 1: Datenverzeichnis festlegen
 Geben Sie den Ordner an, der Ihre **java project file** (`*.mpp`) enthält.  
 ```java
 String dataDir = "Your Data Directory";
 ```
 Ersetzen Sie `"Your Data Directory"` durch den absoluten oder relativen Pfad, in dem sich `project.mpp` befindet.
 
-## Schritt 2: MPP‑Datei laden
-Jetzt sehen wir, **wie man mpp**‑Dateien mit Aspose.Tasks lädt.  
+## Schritt 2: MPP‑Datei laden  
+Nun zeigen wir, **wie man mpp**‑Dateien mit Aspose.Tasks lädt.  
 ```java
 Project project = new Project(dataDir + "project.mpp");
 ```
 Stellen Sie sicher, dass der Dateiname exakt übereinstimmt; andernfalls wird eine `IOException` ausgelöst.
 
-## Schritt 3: Währungsziffern abrufen
-Nachdem das Projekt geladen ist, lässt sich die **ms project currency**‑Ziffern mit einer einzigen Zeile extrahieren:  
+## Schritt 3: Währungsstellen abrufen  
+Nachdem das Projekt geladen ist, lässt sich die **ms project currency**‑Stellenzahl in einer Zeile ermitteln:  
 ```java
 System.out.println(project.get(Prj.CURRENCY_DIGITS));
 ```
-Der Aufruf gibt ein `Integer` zurück, das die Anzahl der Dezimalstellen darstellt (z. B. `2` für Cent). Der Wert wird in der Konsole ausgegeben, kann aber auch in einer Variablen für weitere Verarbeitung gespeichert werden.
+Der Aufruf liefert ein `Integer`, das die Anzahl der Dezimalstellen repräsentiert (z. B. `2` für Cent). Der Wert wird in der Konsole ausgegeben, kann aber auch in einer Variablen für weitere Verarbeitung gespeichert werden.
 
 ## Häufige Probleme & Tipps
-- **Datei nicht gefunden** – Überprüfen Sie den `dataDir`‑Pfad und stellen Sie sicher, dass der Dateiname korrekt ist, einschließlich der `.mpp`‑Erweiterung.  
-- **Nicht unterstützte Dateiversion** – Aspose.Tasks unterstützt Project‑Formate von 2000‑2024; ältere oder beschädigte Dateien müssen ggf. konvertiert werden.  
-- **Lizenz nicht gesetzt** – Während der Entwicklung funktioniert eine Testversion, für die Produktion muss jedoch eine gültige Lizenz angewendet werden, um Evaluations‑Wasserzeichen zu vermeiden.
+- **Datei nicht gefunden** – prüfen Sie den `dataDir`‑Pfad und stellen Sie sicher, dass der Dateiname korrekt ist, inklusive der `.mpp`‑Erweiterung.  
+- **Nicht unterstützte Dateiversion** – Aspose.Tasks unterstützt Formate von Project 2000‑2024; ältere oder beschädigte Dateien müssen ggf. konvertiert werden.  
+- **Lizenz nicht gesetzt** – während der Entwicklung funktioniert eine Testversion, für die Produktion muss jedoch eine gültige Lizenz angewendet werden, um Evaluations‑Wasserzeichen zu vermeiden.
 
 ## Häufig gestellte Fragen
 
-**Q: Kann Aspose.Tasks andere Projektattribute neben den Währungsziffern verarbeiten?**  
-A: Ja, Aspose.Tasks bietet ein breites Spektrum an Funktionen, um verschiedene Aspekte von Projektdateien zu manipulieren, wie Aufgaben, Ressourcen und benutzerdefinierte Felder.
+**F: Kann Aspose.Tasks andere Projektattribute außer Währungsstellen verarbeiten?**  
+A: Ja, Aspose.Tasks bietet ein breites Spektrum an Funktionen zur Manipulation verschiedener Aspekte von Projektdateien, wie Aufgaben, Ressourcen und benutzerdefinierte Felder.
 
-**Q: Ist Aspose.Tasks für Unternehmens‑Anwendungen geeignet?**  
-A: Absolut, Aspose.Tasks ist darauf ausgelegt, den Anforderungen von Unternehmens‑Projekten gerecht zu werden, und bietet hohe Leistung und Skalierbarkeit.
+**F: Ist Aspose.Tasks für Enterprise‑Anwendungen geeignet?**  
+A: Absolut, Aspose.Tasks ist darauf ausgelegt, den Anforderungen von Unternehmens‑Projekten gerecht zu werden, und bietet hohe Leistung sowie Skalierbarkeit.
 
-**Q: Unterstützt Aspose.Tasks plattformübergreifende Entwicklung?**  
-A: Ja, Sie können Aspose.Tasks für Java auf jeder Plattform verwenden, die die Java Runtime Environment unterstützt (Windows, Linux, macOS).
+**F: Unterstützt Aspose.Tasks plattformübergreifende Entwicklung?**  
+A: Ja, Sie können Aspose.Tasks für Java auf jeder Plattform nutzen, die die Java Runtime Environment unterstützt (Windows, Linux, macOS).
 
-**Q: Kann ich Aspose.Tasks vor dem Kauf testen?**  
+**F: Kann ich Aspose.Tasks vor dem Kauf testen?**  
 A: Ja, Sie können eine kostenlose Testversion von [hier](https://releases.aspose.com/) herunterladen.
 
-**Q: Wo bekomme ich Support für Aspose.Tasks?**  
-A: Unterstützung finden Sie im [Aspose.Tasks‑Forum](https://forum.aspose.com/c/tasks/15).
+**F: Wo finde ich Support für Aspose.Tasks?**  
+A: Unterstützung erhalten Sie im [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
+
+## Fazit
+Sie wissen jetzt, **wie man die Währung**‑Stellen aus einer MS‑Project‑Datei mit Aspose.Tasks für Java abruft. Der Vorgang ist einfach: Projekt laden, `project.get(Prj.CURRENCY_DIGITS)` aufrufen und das Ergebnis in Ihrer Anwendung verwenden. Erkunden Sie gern weitere Projekteigenschaften nach demselben Muster und integrieren Sie diese Logik in umfangreichere Reporting‑ oder Migrationslösungen.
 
 ---
 
-**Zuletzt aktualisiert:** 2025-12-05  
-**Getestet mit:** Aspose.Tasks for Java 24.11 (zum Zeitpunkt des Schreibens die neueste Version)  
+**Zuletzt aktualisiert:** 2026-02-10  
+**Getestet mit:** Aspose.Tasks für Java (zum Zeitpunkt der Erstellung neueste Version)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

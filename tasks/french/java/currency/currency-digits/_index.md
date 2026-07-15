@@ -1,11 +1,11 @@
 ---
-date: 2025-12-05
-description: Apprenez à gérer efficacement les décimales monétaires de MS Project
-  à l’aide d’Aspose.Tasks pour Java. Guide étape par étape couvrant la manipulation
-  des fichiers de projet Java et la façon de charger les fichiers MPP.
-linktitle: Handle ms project currency Digits with Aspose.Tasks
+date: 2026-02-10
+description: Apprenez à obtenir les valeurs monétaires, à lire un fichier MS Project
+  et à convertir le fichier de projet Java à l’aide d’Aspose.Tasks. Guide étape par
+  étape pour extraire les chiffres de la devise.
+linktitle: How to Get Currency from MS Project using Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: Gérer les décimales de la devise MS Project avec Aspose.Tasks
+title: Comment obtenir la devise depuis MS Project avec Aspose.Tasks
 url: /fr/java/currency/currency-digits/
 weight: 11
 ---
@@ -14,36 +14,36 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Gérer les chiffres de devise MS Project avec Aspose.Tasks
+# Comment obtenir la devise à partir de MS Project avec Aspose.Tasks
 
 ## Introduction
-Dans ce tutoriel complet, vous découvrirez **comment travailler avec les valeurs de devise MS Project** à l’aide de la bibliothèque Aspose.Tasks pour Java. Que vous construisiez un outil de reporting, une utilité de migration, ou que vous ayez simplement besoin de lire les paramètres de devise d’un **fichier de projet Java**, ce guide vous accompagne à chaque étape — du chargement d’un fichier *.mpp* à l’extraction des chiffres de devise. À la fin, vous serez à l’aise pour manipuler les données de devise MS Project dans vos propres applications.
+Si vous vous demandez **comment obtenir la devise** d'un fichier Microsoft Project, vous êtes au bon endroit. Dans ce tutoriel complet, vous découvrirez **comment travailler avec les valeurs de devise de ms project** en utilisant la bibliothèque Aspose.Tasks pour Java. Que vous construisiez un outil de reporting, une utilité de migration, ou que vous ayez simplement besoin de lire les paramètres de devise d'un **fichier de projet java**, ce guide vous accompagne à chaque étape — du chargement d'un fichier *.mpp* à l'extraction des chiffres de la devise. À la fin, vous serez à l'aise pour manipuler les données de devise de ms project dans vos propres applications.
 
-## Réponses rapides
-- **Quelle bibliothèque lit les fichiers MS Project ?** Aspose.Tasks pour Java.  
-- **Combien de lignes de code pour obtenir les chiffres de devise ?** Juste trois lignes concises après le chargement du projet.  
-- **Ai‑je besoin d’une licence pour le développement ?** Une version d’essai gratuite suffit pour les tests ; une licence commerciale est requise pour la production.  
-- **Quelle version de Java est prise en charge ?** Java 8 ou supérieur (tout JDK exécutant Aspose.Tasks).  
-- **Puis‑je récupérer d’autres propriétés du projet ?** Oui – Aspose.Tasks expose l’ensemble complet des champs du projet (par ex., date de début, taux de coût, etc.).
+## Quick Answers
+- **Quelle bibliothèque lit les fichiers MS Project ?** Aspose.Tasks for Java.  
+- **Combien de lignes de code pour obtenir les chiffres de la devise ?** Juste trois lignes concises après le chargement du projet.  
+- **Ai-je besoin d'une licence pour le développement ?** Un essai gratuit suffit pour les tests ; une licence commerciale est requise pour la production.  
+- **Quelle version de Java est prise en charge ?** Java 8 ou supérieure (tout JDK qui exécute Aspose.Tasks).  
+- **Puis-je récupérer d'autres propriétés du projet ?** Oui – Aspose.Tasks expose un ensemble complet de champs du projet (par ex., date de début, taux de coût, etc.).
 
-## Qu’est‑ce que la devise MS Project ?
-`ms project currency` désigne la précision numérique (nombre de décimales) que Microsoft Project utilise lors de l’affichage des valeurs monétaires. Elle est stockée dans le fichier de projet sous la propriété **CURRENCY_DIGITS** et détermine si les montants apparaissent en nombres entiers, avec une décimale, deux décimales, etc.
+## Qu'est-ce que la devise de ms project ?
+`ms project currency` désigne la précision numérique (nombre de décimales) que Microsoft Project utilise lors de l'affichage des valeurs monétaires. Elle est stockée dans le fichier Project sous la propriété **CURRENCY_DIGITS** et détermine si les montants apparaissent comme des nombres entiers, à une décimale, deux décimales, etc.
 
-## Pourquoi utiliser Aspose.Tasks pour gérer la devise MS Project ?
-- **Aucune installation de Microsoft Project requise** – travaillez directement avec les fichiers *.mpp* sur n’importe quelle plateforme supportant Java.  
-- **Sécurité de type forte** – l’API renvoie des valeurs fortement typées, réduisant les erreurs d’analyse.  
-- **Optimisé pour les performances** – chargez de gros projets rapidement et extrayez uniquement les champs dont vous avez besoin.  
-- **Multiplateforme** – exécutez sous Windows, Linux ou macOS sans modification.
+## Pourquoi utiliser Aspose.Tasks pour gérer la devise de ms project ?
+- **Aucune installation de Microsoft Project requise** – travaillez directement avec des fichiers *.mpp* sur n'importe quelle plateforme supportant Java.  
+- **Sécurité de typage forte** – l'API renvoie des valeurs fortement typées, réduisant les erreurs d'analyse.  
+- **Optimisé pour la performance** – chargez rapidement de grands projets et extrayez uniquement les champs dont vous avez besoin.  
+- **Cross‑platform** – exécutez sur Windows, Linux ou macOS sans modification.
 
 ## Prérequis
-Avant de commencer, assurez‑vous de disposer de :
+Avant de commencer, assurez-vous d'avoir les éléments suivants :
 
 1. **Environnement de développement Java** – JDK 8 ou plus récent installé et configuré.  
-2. **Aspose.Tasks pour Java** – téléchargez le dernier JAR depuis le site officiel : [Aspose.Tasks pour Java](https://releases.aspose.com/tasks/java/).  
-3. **Connaissances de base en Java** – vous devez être à l’aise pour créer un projet Java, ajouter des bibliothèques externes et exécuter une méthode `main`.  
+2. **Aspose.Tasks for Java** – téléchargez le JAR le plus récent depuis le site officiel : [Aspose.Tasks for Java](https://releases.aspose.com/tasks/java/).  
+3. **Connaissances de base en Java** – vous devez être à l'aise pour créer un projet Java, ajouter des bibliothèques externes et exécuter une méthode `main`.  
 
 ## Importer les packages
-Tout d’abord, importez les classes dont nous aurons besoin.  
+Tout d'abord, importez les classes dont nous aurons besoin.  
 ```java
 import java.io.IOException;
 import com.aspose.tasks.Prj;
@@ -52,53 +52,56 @@ import com.aspose.tasks.SaveFileFormat;
 ```
 
 ## Étape 1 : Définir le répertoire de données
-Spécifiez le dossier contenant votre **fichier de projet Java** (`*.mpp`).  
+Spécifiez le dossier qui contient votre **fichier de projet java** (`*.mpp`).  
 ```java
 String dataDir = "Your Data Directory";
 ```
 Remplacez `"Your Data Directory"` par le chemin absolu ou relatif où se trouve `project.mpp`.
 
 ## Étape 2 : Charger le fichier MPP  
-Nous allons maintenant voir **comment charger les fichiers mpp** avec Aspose.Tasks.  
+Nous allons maintenant voir **comment charger des fichiers mpp** avec Aspose.Tasks.  
 ```java
 Project project = new Project(dataDir + "project.mpp");
 ```
 Assurez‑vous que le nom du fichier correspond exactement ; sinon, une `IOException` sera levée.
 
-## Étape 3 : Récupérer les chiffres de devise  
-Une fois le projet chargé, extraire les **chiffres de devise MS Project** ne nécessite qu’une seule ligne :  
+## Étape 3 : Récupérer les chiffres de la devise  
+Une fois le projet chargé, extraire les chiffres de la **devise ms project** se fait en une seule ligne :  
 ```java
 System.out.println(project.get(Prj.CURRENCY_DIGITS));
 ```
-L’appel renvoie un `Integer` représentant le nombre de décimales (par ex., `2` pour les centimes). La valeur est affichée dans la console, mais vous pouvez également la stocker dans une variable pour un traitement ultérieur.
+L'appel renvoie un `Integer` représentant le nombre de décimales (par ex., `2` pour les centimes). La valeur est affichée dans la console, mais vous pouvez également la stocker dans une variable pour un traitement ultérieur.
 
-## Problèmes courants & conseils
-- **Fichier introuvable** – vérifiez le chemin `dataDir` et assurez‑vous que le nom du fichier est correct, y compris l’extension `.mpp`.  
-- **Version de fichier non prise en charge** – Aspose.Tasks supporte les formats Project 2000‑2024 ; les fichiers plus anciens ou corrompus peuvent nécessiter une conversion.  
-- **Licence non définie** – pendant le développement, une version d’essai suffit, mais en production vous devez appliquer une licence valide pour éviter les filigranes d’évaluation.
+## Problèmes courants et conseils
+- **Fichier non trouvé** – vérifiez à nouveau le chemin `dataDir` et assurez‑vous que le nom du fichier est correct, y compris l'extension `.mpp`.  
+- **Version de fichier non prise en charge** – Aspose.Tasks prend en charge les formats Project 2000‑2024 ; les fichiers plus anciens ou corrompus peuvent nécessiter une conversion.  
+- **Licence non définie** – pendant le développement, un essai fonctionne, mais en production vous devez appliquer une licence valide pour éviter les filigranes d'évaluation.
 
 ## Questions fréquentes
 
-**Q : Aspose.Tasks peut‑il gérer d’autres attributs du projet en plus des chiffres de devise ?**  
-R : Oui, Aspose.Tasks offre une large gamme de fonctionnalités pour manipuler divers aspects des fichiers Project, tels que les tâches, les ressources et les champs personnalisés.
+**Q : Aspose.Tasks peut‑il gérer d'autres attributs du projet en plus des chiffres de devise ?**  
+R : Oui, Aspose.Tasks offre un large éventail de fonctionnalités pour manipuler divers aspects des fichiers Project, tels que les tâches, les ressources et les champs personnalisés.
 
-**Q : Aspose.Tasks convient‑il aux applications de niveau entreprise ?**  
-R : Absolument, Aspose.Tasks est conçu pour répondre aux exigences des projets d’entreprise, offrant haute performance et évolutivité.
+**Q : Aspose.Tasks est‑il adapté aux applications de niveau entreprise ?**  
+R : Absolument, Aspose.Tasks est conçu pour répondre aux exigences des projets de niveau entreprise, offrant haute performance et évolutivité.
 
 **Q : Aspose.Tasks prend‑il en charge le développement multiplateforme ?**  
-R : Oui, vous pouvez utiliser Aspose.Tasks pour Java sur n’importe quelle plateforme supportant le Java Runtime Environment (Windows, Linux, macOS).
+R : Oui, vous pouvez utiliser Aspose.Tasks pour Java sur n'importe quelle plateforme supportant le Java Runtime Environment (Windows, Linux, macOS).
 
-**Q : Puis‑je essayer Aspose.Tasks avant d’acheter ?**  
-R : Oui, vous pouvez télécharger une version d’essai gratuite [ici](https://releases.aspose.com/).
+**Q : Puis‑je essayer Aspose.Tasks avant d'acheter ?**  
+R : Oui, vous pouvez télécharger une version d'essai gratuite depuis [ici](https://releases.aspose.com/).
 
 **Q : Où puis‑je obtenir du support pour Aspose.Tasks ?**  
-R : Vous trouverez de l’aide sur le [forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+R : Vous pouvez trouver du support sur le [forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+
+## Conclusion
+Vous savez maintenant **comment obtenir les chiffres de la devise** à partir d'un fichier MS Project avec Aspose.Tasks pour Java. Le processus est simple : chargez le projet, appelez `project.get(Prj.CURRENCY_DIGITS)`, et utilisez le résultat dans votre application. N'hésitez pas à explorer d'autres propriétés du projet avec le même modèle, et à intégrer cette logique dans des solutions de reporting ou de migration plus larges.
 
 ---
 
-**Dernière mise à jour :** 2025-12-05  
-**Testé avec :** Aspose.Tasks pour Java 24.11 (dernière version au moment de la rédaction)  
-**Auteur :** Aspose  
+**Dernière mise à jour :** 2026-02-10  
+**Testé avec :** Aspose.Tasks for Java (latest at time of writing)  
+**Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
