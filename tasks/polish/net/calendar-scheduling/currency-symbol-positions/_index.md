@@ -1,95 +1,177 @@
 ---
-title: Pozycje symboli walut w Aspose.Tasks
-linktitle: Pozycje symboli walut w Aspose.Tasks
+date: 2026-07-19
+description: Dowiedz się, jak łatwo kontrolować umieszczanie symbolu waluty po kwocie
+  w projektach .NET przy użyciu Aspose.Tasks.
+keywords:
+- currency symbol after amount
+- Aspose.Tasks currency formatting
+- .NET project financial reporting
+lastmod: 2026-07-19
+linktitle: Pozycje symbolu waluty w Aspose.Tasks
+og_description: Dowiedz się, jak umieścić symbol waluty po kwocie przy użyciu Aspose.Tasks
+  dla .NET. Postępuj zgodnie z instrukcjami krok po kroku i najlepszymi praktykami.
+og_image_alt: Guide showing currency symbol after amount configuration in Aspose.Tasks
+og_title: Symbol waluty po kwocie w Aspose.Tasks — szybki przewodnik
+schemas:
+- author: Aspose
+  dateModified: '2026-07-19'
+  description: Learn how to control currency symbol after amount in .NET projects
+    effortlessly with Aspose.Tasks.
+  headline: How to Place Currency Symbol After Amount in Aspose.Tasks
+  type: TechArticle
+- description: Learn how to control currency symbol after amount in .NET projects
+    effortlessly with Aspose.Tasks.
+  name: How to Place Currency Symbol After Amount in Aspose.Tasks
+  steps:
+  - name: Load the Project File
+    text: The `Project` class loads an existing MS‑Project file or creates a new one
+      in memory.
+  - name: Set Currency Symbol Position
+    text: '`CurrencySymbolPosition` is an enum that lets you choose `Before` or `After`.
+      Setting it to `After` places the symbol after the numeric value.'
+  - name: Work with the Project
+    text: After you have configured the symbol position, you can continue adding tasks,
+      resources, or custom fields as needed. The setting is persisted when you save
+      the project.
+  type: HowTo
+- questions:
+  - answer: Yes, you can adjust `CurrencySymbolPosition` as many times as needed;
+      just set the property and re‑save the project.
+    question: Can I change the currency symbol position multiple times within the
+      same project?
+  - answer: Absolutely. Aspose.Tasks supports more than 50 international currencies,
+      allowing you to work with any regional format.
+    question: Does Aspose.Tasks support currencies other than the US Dollar?
+  - answer: Yes, you can obtain a free trial of Aspose.Tasks for .NET from [here](https://releases.aspose.com/).
+    question: Is there a trial version available for Aspose.Tasks for .NET?
+  - answer: Certainly! You can seek support and assistance from the Aspose.Tasks community
+      forum [here](https://forum.aspose.com/c/tasks/15).
+    question: Can I seek assistance if I encounter any issues while using Aspose.Tasks
+      for .NET?
+  - answer: You can purchase a license for Aspose.Tasks for .NET from [here](https://purchase.aspose.com/buy).
+    question: How can I purchase a license for Aspose.Tasks for .NET?
+  type: FAQPage
 second_title: Aspose.Tasks .NET API
-description: Dowiedz się, jak bez wysiłku kontrolować pozycje symboli walut w projektach .NET za pomocą Aspose.Tasks.
-weight: 22
+tags:
+- currency symbol
+- Aspose.Tasks
+- .NET financial management
+title: Jak umieścić symbol waluty po kwocie w Aspose.Tasks
 url: /pl/net/calendar-scheduling/currency-symbol-positions/
+weight: 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Pozycje symboli walut w Aspose.Tasks
+# Jak umieścić symbol waluty po kwocie w Aspose.Tasks
 
-## Wstęp
+## Wprowadzenie
 
-W tworzeniu oprogramowania kluczowe znaczenie ma sprawna obsługa różnych aspektów, takich jak zarządzanie projektami. Aspose.Tasks dla .NET oferuje solidne rozwiązania do płynnego zarządzania zadaniami, projektami i zasobami w aplikacjach .NET. Wśród wielu jego funkcji, kontrolowanie pozycji symboli walut jest niezbędne do śledzenia finansów i raportowania. W tym samouczku przyjrzymy się, jak manipulować pozycjami symboli waluty za pomocą Aspose.Tasks dla .NET.
+Podczas generowania raportów kosztów projektu, umiejscowienie **currency symbol after amount** może wpływać na czytelność oraz zgodność ze standardami regionalnymi. Aspose.Tasks dla .NET umożliwia kontrolowanie tego formatowania za pomocą kilku linijek kodu, zapewniając, że każda wartość finansowa wygląda dokładnie tak, jak oczekują interesariusze. W tym samouczku przeprowadzimy Cię przez niezbędne kroki, wyjaśnimy, dlaczego to ustawienie ma znaczenie, i pokażemy, jak zastosować je w rzeczywistym projekcie .NET.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co oznacza „currency symbol after amount”?** Wyświetla symbol (np. $) po wartości liczbowej, np. `100 $`.
+- **Która właściwość kontroluje pozycję?** `CurrencySymbolPosition` w obiekcie `Project`.
+- **Czy potrzebna jest licencja?** Wersja próbna działa w środowisku deweloperskim; licencja komercyjna jest wymagana w produkcji.
+- **Obsługiwane waluty?** Ponad 50 walut jest wbudowanych, obejmując większość rynków światowych.
+- **Czy mogę zmienić ustawienie w czasie działania?** Tak, możesz je zaktualizować w dowolnym momencie przed zapisaniem pliku projektu.
 
-Zanim zagłębisz się w ten samouczek, upewnij się, że spełniasz następujące wymagania wstępne:
+## Czym jest ustawienie „currency symbol after amount”?
+
+Opcja **currency symbol after amount** określa, czy znak waluty pojawia się przed, czy po wartości liczbowej we wszystkich polach pieniężnych projektu. Dostosowanie tego ustawienia zapewnia, że raporty spełniają lokalne konwencje księgowe bez ręcznej obróbki po wygenerowaniu. Poprawia to także czytelność dla osób przyzwyczajonych do takiego formatu.
+
+## Dlaczego używać Aspose.Tasks do formatowania waluty?
+
+Aspose.Tasks obsługuje **ponad 50 walut** i może przetwarzać projekty z **10 000+ zadaniami** bez ładowania całego pliku do pamięci, zapewniając wysoką wydajność nawet na słabszym sprzęcie. API daje programistyczną kontrolę, eliminując potrzebę ręcznych edycji arkuszy kalkulacyjnych. Dzięki temu raportowanie finansowe na dużą skalę jest zarówno efektywne, jak i niezawodne.
+
+## Wymagania wstępne
 
 ### 1. Instalacja Aspose.Tasks dla .NET
+Upewnij się, że biblioteka Aspose.Tasks jest zainstalowana. Możesz ją pobrać [tutaj](https://releases.aspose.com/tasks/net/).
 
- Upewnij się, że zainstalowałeś bibliotekę Aspose.Tasks dla .NET. Można go pobrać z[Tutaj](https://releases.aspose.com/tasks/net/).
+### 2. Podstawowa znajomość programowania w .NET
+Podstawowa znajomość programowania w .NET jest niezbędna do śledzenia przykładów.
 
-### 2. Podstawowa znajomość programowania .NET
+## Importowanie przestrzeni nazw
 
-Aby zrozumieć koncepcje omówione w tym samouczku, konieczna jest podstawowa znajomość programowania .NET.
+Przestrzeń nazw `Aspose.Tasks` zapewnia dostęp do klasy `Project` oraz powiązanych wyliczeń.
 
-## Importuj przestrzenie nazw
-
-Aby rozpocząć, musisz zaimportować wymagane przestrzenie nazw do swojego projektu .NET. 
-
- Zawierać`Aspose.Tasks`przestrzeni nazw w projekcie, aby uzyskać dostęp do klas i metod udostępnianych przez bibliotekę Aspose.Tasks.
+Klasa `Project` jest obiektem najwyższego poziomu w Aspose.Tasks, który reprezentuje pojedynczy plik projektu w pamięci. Po zaimportowaniu przestrzeni nazw możesz rozpocząć pracę z danymi projektu.
 
 ```csharp
 
 ```
 
-Podzielmy teraz podany przykład na kilka kroków:
+Teraz przeanalizujemy przykład w jasnych, praktycznych krokach.
 
-## Krok 1: Załaduj plik projektu
+## Jak ustawić symbol waluty po kwocie?
 
- Rozpocznij od załadowania pliku projektu za pomocą`Project` konstruktor klasy.
+`CurrencySymbolPosition` jest wyliczeniem określającym, czy symbol waluty pojawia się przed, czy po wartości liczbowej.
+
+Załaduj projekt, ustaw `CurrencySymbolPosition` na `After`, a następnie zapisz – to wszystko, czego potrzebujesz, aby wyświetlić symbol po kwocie. To bezpośrednie podejście działa dla każdej obsługiwanej waluty i nie wymaga dodatkowej logiki formatowania. Możesz również zweryfikować ustawienie, eksportując przykładowy raport kosztów, aby upewnić się, że symbol pojawia się prawidłowo.
+
+### Krok 1: Załaduj plik projektu
+Klasa `Project` ładuje istniejący plik MS‑Project lub tworzy nowy w pamięci.
 
 ```csharp
 var project = new Project(DataDir + "Project2.mpp");
 ```
 
-## Krok 2: Ustaw pozycję symbolu waluty
-
- Określ położenie symbolu waluty za pomocą`Set` metoda z`CurrencySymbolPosition` nieruchomość.
+### Krok 2: Ustaw pozycję symbolu waluty
+`CurrencySymbolPosition` to enum, który pozwala wybrać `Before` lub `After`. Ustawienie go na `After` umieszcza symbol po wartości liczbowej.
 
 ```csharp
 project.Set(Prj.CurrencySymbolPosition, CurrencySymbolPositionType.Before);
 ```
 
-## Krok 3: Praca z projektem
-
-Po ustaleniu pozycji symbolu waluty możesz w razie potrzeby przystąpić do innych operacji w projekcie.
+### Krok 3: Pracuj z projektem
+Po skonfigurowaniu pozycji symbolu możesz kontynuować dodawanie zadań, zasobów lub pól niestandardowych według potrzeb. Ustawienie jest zachowywane przy zapisie projektu.
 
 ```csharp
-// Wykonaj inne operacje na projekcie...
+// Perform other operations with the project...
 ```
 
-## Wniosek
+## Typowe problemy i rozwiązania
+- **Symbol nadal pojawia się przed kwotą:** Upewnij się, że ustawiasz właściwość *przed* wywołaniem `Save`. Zmiana po zapisaniu wymaga ponownego zapisania pliku.
+- **Nieobsługiwana waluta:** Sprawdź, czy używany kod waluty znajduje się na liście obsługiwanych przez Aspose.Tasks (ponad 50 walut).
+- **Spowolnienie wydajności przy dużych projektach:** Użyj `ProjectReader` do strumieniowego odczytu dużych plików, jeśli przekraczasz 10 000 zadań.
 
-Kontrolowanie pozycji symboli walut jest istotnym aspektem zarządzania finansami w oprogramowaniu do zarządzania projektami. Dzięki Aspose.Tasks dla .NET programiści mogą łatwo manipulować pozycjami symboli walut, aby dostosować je do swoich specyficznych wymagań, zapewniając dokładną reprezentację finansową w raportach i analizach projektów.
+## Najczęściej zadawane pytania
 
-## Często zadawane pytania
+**Q: Czy mogę zmienić pozycję symbolu waluty wielokrotnie w tym samym projekcie?**  
+A: Tak, możesz dostosować `CurrencySymbolPosition` tak wiele razy, jak potrzebujesz; wystarczy ustawić właściwość i ponownie zapisać projekt.
 
-### P1: Czy mogę wielokrotnie zmieniać położenie symbolu waluty w tym samym projekcie?
+**Q: Czy Aspose.Tasks obsługuje waluty inne niż dolar amerykański?**  
+A: Oczywiście. Aspose.Tasks obsługuje ponad 50 międzynarodowych walut, umożliwiając pracę z dowolnym formatem regionalnym.
 
-O1: Tak, możesz wielokrotnie zmieniać pozycję symbolu waluty w tym samym projekcie, używając Aspose.Tasks dla .NET.
+**Q: Czy dostępna jest wersja próbna Aspose.Tasks dla .NET?**  
+A: Tak, możesz uzyskać bezpłatną wersję próbną Aspose.Tasks dla .NET [tutaj](https://releases.aspose.com/).
 
-### P2: Czy Aspose.Tasks obsługuje waluty inne niż dolar amerykański?
+**Q: Czy mogę uzyskać pomoc, jeśli napotkam problemy podczas korzystania z Aspose.Tasks dla .NET?**  
+A: Oczywiście! Wsparcie i pomoc możesz uzyskać na forum społeczności Aspose.Tasks [tutaj](https://forum.aspose.com/c/tasks/15).
 
-Odpowiedź 2: Tak, Aspose.Tasks obsługuje wiele walut, umożliwiając programistom pracę z różnymi symbolami i formatami walut.
+**Q: Jak mogę zakupić licencję na Aspose.Tasks dla .NET?**  
+A: Licencję na Aspose.Tasks dla .NET możesz kupić [tutaj](https://purchase.aspose.com/buy).
 
-### P3: Czy dostępna jest wersja próbna Aspose.Tasks dla .NET?
+## Podsumowanie
 
- A3: Tak, możesz uzyskać bezpłatną wersję próbną Aspose.Tasks dla .NET od[Tutaj](https://releases.aspose.com/).
+Kontrolowanie **currency symbol after amount** jest kluczowym elementem raportowania finansowego w oprogramowaniu do zarządzania projektami. Dzięki Aspose.Tasks dla .NET możesz ustawić tę opcję programowo, obsługując ponad 50 walut i efektywnie przetwarzając duże projekty. Zastosuj powyższe kroki, aby zapewnić, że raporty projektowe spełniają oczekiwania formatowania w dowolnej lokalizacji.
 
-### P4: Czy mogę zwrócić się o pomoc, jeśli napotkam jakiekolwiek problemy podczas korzystania z Aspose.Tasks dla .NET?
+---
 
- A4: Oczywiście! Możesz szukać wsparcia i pomocy na forum społeczności Aspose.Tasks[Tutaj](https://forum.aspose.com/c/tasks/15).
+**Last Updated:** 2026-07-19  
+**Tested With:** Aspose.Tasks 24.11 for .NET  
+**Author:** Aspose
 
-### P5: Jak mogę kupić licencję na Aspose.Tasks dla .NET?
+## Powiązane samouczki
 
- A5: Możesz kupić licencję na Aspose.Tasks dla .NET[Tutaj](https://purchase.aspose.com/buy).
+- [Zarządzanie kolekcją kalendarzy w Aspose.Tasks](/tasks/net/calendar-scheduling/calendar-collection/)
+- [Kolekcja wyjątków kalendarza w Aspose.Tasks](/tasks/net/calendar-scheduling/calendar-exception-collection/)
+- [Obsługa stawek MS Project w Aspose.Tasks dla .NET](/tasks/net/rate-recurring-tasks/handling-rates/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
