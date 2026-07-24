@@ -1,6 +1,6 @@
 ---
-title: "Aspose Tasks Java – Manage Critical and Effort‑Driven Tasks"
-linktitle: "Aspose Tasks Java – Manage Critical and Effort‑Driven Tasks"
+title: "Aspose.Tasks for Java API – Manage Critical and Effort‑Driven Tasks"
+linktitle: "Aspose.Tasks for Java API – Manage Critical and Effort‑Driven Tasks"
 second_title: "Aspose.Tasks Java API"
 description: "Learn how to use Aspose Tasks Java for java task management, handling critical and effort‑driven tasks in your projects. Enhance project workflows with this guide."
 weight: 14
@@ -109,7 +109,7 @@ A: You can purchase Aspose.Tasks for Java from the [purchase page](https://purch
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

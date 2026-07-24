@@ -1,6 +1,6 @@
 ---
-title: How to Create Tasks in Aspose.Tasks
-linktitle: Create Tasks in Aspose.Tasks
+title: How to Create Tasks in Aspose.Tasks Java API
+linktitle: Create Tasks in Aspose.Tasks Java API
 second_title: Aspose.Tasks Java API
 description: Learn how to create tasks in Aspose.Tasks for Java. Manage projects, create summary tasks, set document directory, and more with this step‑by‑step guide.
 weight: 13
@@ -110,12 +110,13 @@ Absolutely! Join the Aspose.Tasks community on [the support forum](https://forum
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 
 **Last Updated:** 2026-01-25  
 **Tested With:** Aspose.Tasks for Java (latest release)  
 **Author:** Aspose  
 
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 ---

@@ -1,5 +1,5 @@
 ---
-title: How to Add Attribute – Add Extended Attributes to Tasks in Aspose.Tasks
+title: How to Add an Extended Attribute to a Task Using Aspose.Tasks for Java
 linktitle: Add Extended Attributes to Tasks in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Learn how to add attribute to tasks using Aspose.Tasks for Java, customizing Microsoft Project files with extended attributes for better project control.
@@ -145,7 +145,8 @@ By following this step‑by‑step guide, **you’ve learned how to add attribut
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

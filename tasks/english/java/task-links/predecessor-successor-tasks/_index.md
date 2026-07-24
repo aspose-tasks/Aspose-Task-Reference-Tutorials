@@ -1,6 +1,6 @@
 ---
-title: Manage Task Dependencies Java with Aspose.Tasks
-linktitle: Manage Task Dependencies Java with Aspose.Tasks
+title: Manage Task Dependencies in Java with Aspose.Tasks API
+linktitle: Manage Task Dependencies in Java with Aspose.Tasks API
 second_title: Aspose.Tasks Java API
 description: Learn how to manage task dependencies Java using Aspose.Tasks for Java. Handle predecessor and successor tasks efficiently. Free trial available.
 date: 2026-01-25
@@ -104,6 +104,7 @@ A: Yes, download a free trial from [here](https://releases.aspose.com/).
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 
 ---
 
