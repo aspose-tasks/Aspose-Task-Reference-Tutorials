@@ -15,40 +15,40 @@ weight: 13
 
 # Bestimmen von Arbeitstagen & Arbeitszeiten mit Aspose.Tasks
 
-## Introduction
-Das Verwalten von Projektkalendern ist ein zentraler Bestandteil einer erfolgreichen Projektplanung. In diesem Tutorial **bestimmen Sie Arbeitstage** für jede Aufgabe und **extrahieren Arbeitszeiten** aus einem MS Project‑Kalender mithilfe von Aspose.Tasks für Java. Am Ende der Anleitung können Sie **die Aufgabendauer berechnen**, Arbeitszeiten anpassen und zuverlässig **eine MPP‑Datei laden**, um die benötigten Daten abzurufen. Außerdem sehen Sie, wie Sie **MS Project‑Dateien lesen** können, ohne Microsoft Project installiert zu haben, sodass Automatisierung auf jeder Plattform möglich ist.
+## Einführung
+Das Verwalten von Projektkalendern ist ein zentraler Bestandteil einer erfolgreichen Projektplanung. In diesem Tutorial **bestimmen Sie Arbeitstage** für jede Aufgabe und **extrahieren Arbeitszeiten** aus einem MSProject-Kalender mithilfe von Aspose.Tasks für Java. Am Ende der Anleitung können Sie **die Aufgabendauer berechnen**, Arbeitszeiten anpassen und zuverlässig **eine MPP-Datei laden**, um die benötigten Daten abzurufen. Außerdem sehen Sie, wie Sie **MSProject-Dateien lesen** können, ohne MicrosoftProject installiert zu haben, sodass Automatisierung auf jeder Plattform möglich ist.
 
-## Quick Answers
-- **Was bedeutet „determine working days“?** Es bedeutet, die Kalendertage zu ermitteln, die für eine gegebene Aufgabe als Arbeitstage gelten.  
-- **Welche Bibliothek sollte ich verwenden?** Aspose.Tasks für Java bietet eine voll ausgestattete API zum Arbeiten mit MS Project‑Dateien.  
-- **Wie lange dauert die Implementierung?** In der Regel 10–15 Minuten für eine einfache Extraktion.  
-- **Benötige ich eine Lizenz?** Eine kostenlose Testversion ist verfügbar; für den Produktionseinsatz ist eine kommerzielle Lizenz erforderlich.  
-- **Kann ich Arbeitszeiten anpassen?** Ja – Sie können Kalender ändern, Feiertage hinzufügen und benutzerdefinierte Arbeitszeit‑Bereiche festlegen.  
+## Schnelle Antworten
+- **Was bedeutet „Arbeitstage bestimmen“?**Es bedeutet, die Kalendertage zu ermitteln, die für eine gegebene Aufgabe als Arbeitstage gelten.
+- **Welche Bibliothek sollte ich verwenden?**Aspose.Tasks für Java bietet eine voll ausgestattete API zum Arbeiten mit MSProject‑Dateien.
+- **Wie lange dauert die Implementierung?**In der Regel 10–15 Minuten für eine einfache Extraktion.
+- **Benötige ich eine Lizenz?**Eine kostenlose Testversion ist verfügbar; Für den Produktionseinsatz ist eine kommerzielle Lizenz erforderlich.
+- **Kann ich Arbeitszeiten anpassen?**Ja – Sie können Kalender ändern, Feiertage hinzufügen und benutzerdefinierte Arbeitszeitbereiche festlegen.
 
-## What is “determine working days”?
-Wenn eine Aufgabe geplant wird, definiert der Projektkalender, welche Tage Arbeitstage und welche Tage Nicht‑Arbeitstage (Wochenenden, Feiertage) sind. Das Bestimmen von Arbeitstagen bedeutet, diesen Kalender abzufragen, um genau zu wissen, wann Arbeit stattfinden kann – das ist entscheidend für präzise **calculate task duration**‑Berechnungen.
+## Was ist „Arbeitstage festlegen“?
+Wenn eine Aufgabe geplant wird, definiert der Projektkalender, welche Tage Arbeitstage und welche Tage Nicht‑Arbeitstage (Wochenenden, Feiertage) sind. Das Bestimmen von Arbeitstagen bedeutet, diesen Kalender abzufragen, um genau zu wissen, wann Arbeit stattfinden kann – das ist entscheidend für präzise **Berechnungen der Aufgabendauer**-Berechnungen.
 
-## Why use Aspose.Tasks to retrieve working hours?
-- **Kein Microsoft Project erforderlich** – Sie können MS Project‑Dateien direkt aus Java‑Code lesen.  
-- **Vollständige Kalenderunterstützung** – beinhaltet Standard‑, Ressourcen‑ und Aufgaben‑Kalender.  
-- **Hohe Leistung** – große Projekte werden schnell verarbeitet.  
-- **Umfangreiche Dokumentation** – Beispiele und API‑Referenz sind leicht verfügbar.
+## Warum Aspose.Tasks verwenden, um Arbeitsstunden abzurufen?
+- **Kein MicrosoftProject erforderlich** – Sie können MSProject‑Dateien direkt aus Java‑Code lesen.
+- **Vollständige Kalenderunterstützung** – beinhaltet Standard‑, Ressourcen‑ und Aufgaben‑Kalender.
+- **Hohe Leistung** – große Projekte werden schnell verarbeitet.
+- **Umfangreiche Dokumentation** – Beispiele und API-Referenz sind leicht verfügbar.
 
-## Prerequisites
+## Voraussetzungen
 Bevor Sie beginnen, stellen Sie sicher, dass Sie Folgendes haben:
 
-1. **Java Development Kit (JDK)** – Version 8 oder höher.  
-2. **Aspose.Tasks für Java** – laden Sie das neueste JAR von [hier](https://releases.aspose.com/tasks/java/) herunter.  
-3. Grundkenntnisse in Java‑Programmierung.  
+1. **Java Development Kit (JDK)** – Version8 oder höher.
+2. **Aspose.Tasks für Java** – laden Sie das neueste JAR von [hier](https://releases.aspose.com/tasks/java/) herunter.
+3. Grundkenntnisse in Java‑Programmierung.
 
-## Import Packages
-Zuerst importieren Sie den Kern‑Namespace von Aspose.Tasks:
+## Pakete importieren
+Zuerst importieren Sie den Kern-Namespace von Aspose.Tasks:
 
 ```java
 import com.aspose.tasks.*;
 ```
 
-## How to load an MPP file with Aspose.Tasks?
+## Wie lade ich eine MPP-Datei mit Aspose.Tasks?
 Das Laden der Projektdatei ist der erste Schritt für jede Kalenderanalyse. Die API ermöglicht es Ihnen, **eine MPP‑Datei** in einer einzigen Code‑Zeile zu **laden**, ohne die MS Project‑Benutzeroberfläche zu benötigen.
 
 ```java
@@ -56,7 +56,7 @@ String dataDir = "Your Data Directory";
 Project project = new Project(dataDir + "project.mpp");
 ```
 
-## Retrieve Task and Calendar Information
+## Aufgaben- und Kalenderinformationen abrufen
 Wählen Sie die Aufgabe aus, die Sie analysieren möchten, und holen Sie den zugehörigen Kalender. Hier **holen wir die Arbeitszeiten** für die Aufgabe:
 
 ```java
@@ -64,7 +64,7 @@ Task task = project.getRootTask().getChildren().getById(1);
 Calendar taskCalendar = task.get(Tsk.CALENDAR);
 ```
 
-## Define Start and End Dates
+## Start- und Enddatum definieren
 Richten Sie das Zeitfenster ein, für das Sie **Arbeitstage bestimmen** möchten. Die Verwendung der Start‑ und Enddaten der Aufgabe stellt sicher, dass Sie nur den relevanten Zeitraum auswerten.
 
 ```java
@@ -74,14 +74,14 @@ java.util.Calendar calEndDate = java.util.Calendar.getInstance();
 calEndDate.setTime(task.get(Tsk.FINISH));
 ```
 
-## Iterate Through Dates
+## Datumsangaben durchlaufen
 Durchlaufen Sie jedes Datum in der Aufgabendauer. Diese Schleife hilft Ihnen später, **Arbeitszeiten anzupassen**, falls nötig:
 
 ```java
 java.util.Calendar tempDate = calStartDate;
 ```
 
-## Calculate Duration
+## Dauer berechnen
 Während der Iteration prüfen wir, ob jeder Tag ein Arbeitstag ist, summieren die Arbeitsstunden und berechnen schließlich die Aufgabendauer in Minuten, Stunden und Tagen. Dieser Schritt zeigt, wie man **working days berechnet** und **task duration programmgesteuert berechnet**.
 
 ```java
@@ -109,40 +109,45 @@ System.out.println("Duration in Days = " + durationInDays);
 System.out.println();
 ```
 
-## How to customize working hours and holidays
-Aspose.Tasks ermöglicht es Ihnen, die Arbeitszeit‑Bereiche des Kalenders zu ändern und Ausnahmen wie Feiertage hinzuzufügen. Sie können `taskCalendar.addWorkingTime()` oder `taskCalendar.addException()` aufrufen, um den Zeitplan an die Richtlinien Ihrer Organisation anzupassen. Das ist nützlich, wenn der Standard‑9‑bis‑5‑Plan nicht der Realität entspricht.
+## So passen Sie Arbeitszeiten und Feiertage an
+Aspose.Tasks ermöglicht es Ihnen, die Arbeitszeitbereiche des Kalenders zu ändern und Ausnahmen wie Feiertage hinzuzufügen. Sie können „taskCalendar.addWorkingTime()“ oder „taskCalendar.addException()“ aufrufen, um den Zeitplan an die Richtlinien Ihrer Organisation anzupassen. Das ist nützlich, wenn der Standard-9-bis-5-Plan nicht der Realität entspricht.
 
-## Common Issues and Solutions
-| Issue | Solution |
+## Häufige Probleme und Lösungen
+| Problem | Lösung |
 |-------|----------|
-| **Task returns `null` for calendar** | Stellen Sie sicher, dass der Aufgabe tatsächlich ein Kalender zugewiesen ist; andernfalls erbt sie den Standard‑Kalender des Projekts. |
-| **Incorrect duration because of holidays** | Prüfen Sie, ob Feiertage im Kalender der Aufgabe oder im Basis‑Kalender des Projekts definiert sind. |
-| **Time zone mismatch** | Verwenden Sie `java.util.TimeZone`, um die Zeitzone des Kalenders bei Bedarf an Ihr System anzupassen. |
+| **Aufgabe gibt „null“ für Kalender zurück** | Stellen Sie sicher, dass der Aufgabe tatsächlich ein Kalender zugewiesen ist; Ansonsten erbt sie den Standard-Kalender des Projekts. |
+| **Falsche Dauer aufgrund von Feiertagen** | Prüfen Sie, ob Feiertage im Kalender der Aufgabe oder im Basiskalender des Projekts definiert sind. |
+| **Zeitzonenkonflikt** | Verwenden Sie `java.util.TimeZone`, um die Zeitzone des Kalenders bei Bedarf an Ihr System anzupassen.
 
-## Frequently Asked Questions
-### Q: Can Aspose.Tasks for Java handle complex project structures?
-A: Yes, Aspose.Tasks for Java provides comprehensive support for handling complex project structures, including tasks, resources, and calendars.
+## Häufig gestellte Fragen
+### F: Kann Aspose.Tasks für Java komplexe Projektstrukturen verwalten?
 
-### Q: Is Aspose.Tasks for Java compatible with different versions of MS Project?
-A: Absolutely, Aspose.Tasks for Java supports various versions of MS Project, ensuring compatibility across different environments.
+A: Ja, Aspose.Tasks für Java bietet umfassende Unterstützung für die Verwaltung komplexer Projektstrukturen, einschließlich Aufgaben, Ressourcen und Kalender.
 
-### Q: Can I customize working hours and holidays in project calendars?
-A: Yes, you can easily customize working hours and holidays according to your project requirements using Aspose.Tasks for Java APIs.
+### F: Ist Aspose.Tasks für Java mit verschiedenen Versionen von MS Project kompatibel?
 
-### Q: Does Aspose.Tasks for Java offer support and documentation?
-A: Yes, Aspose.Tasks for Java provides extensive documentation and dedicated support forums to assist developers in utilizing its features effectively.
+A: Absolut, Aspose.Tasks für Java unterstützt verschiedene Versionen von MS Project und gewährleistet so Kompatibilität in unterschiedlichen Umgebungen.
 
-### Q: Is there a trial version available for Aspose.Tasks for Java?
-A: Yes, you can access a free trial version of Aspose.Tasks for Java from [here](https://releases.aspose.com/).
+### F: Kann ich Arbeitszeiten und Feiertage in Projektkalendern anpassen?
 
-## Conclusion
-In this guide we demonstrated how to **determine working days**, **retrieve working hours**, and **calculate task duration** from an MS Project calendar using Aspose.Tasks for Java. By following the steps above you can automate schedule analysis, customize calendars, and keep your project plans accurate and up‑to‑date. You now have the tools to **read MS Project** data, **load an MPP file**, and perform precise duration calculations without the need for Microsoft Project itself.
+A: Ja, Sie können Arbeitszeiten und Feiertage mithilfe der Aspose.Tasks für Java APIs ganz einfach an Ihre Projektanforderungen anpassen.
+
+### F: Bietet Aspose.Tasks für Java Support und Dokumentation?
+
+A: Ja, Aspose.Tasks für Java bietet umfangreiche Dokumentation und spezielle Supportforen, um Entwickler bei der effektiven Nutzung der Funktionen zu unterstützen.
+
+### F: Gibt es eine Testversion von Aspose.Tasks für Java?
+
+A: Ja, Sie können hier eine kostenlose Testversion von Aspose.Tasks für Java herunterladen: [https://releases.aspose.com/].
+
+## Fazit
+In dieser Anleitung haben wir gezeigt, wie Sie mit Aspose.Tasks für Java **Arbeitstage ermitteln**, **Arbeitsstunden abrufen** und **die Aufgabendauer berechnen** können. Mit den oben beschriebenen Schritten können Sie die Terminplananalyse automatisieren, Kalender anpassen und Ihre Projektpläne stets aktuell halten. Sie verfügen nun über die nötigen Werkzeuge, um **MS Project-Daten** zu lesen, **MPP-Dateien zu laden** und präzise Dauerberechnungen durchzuführen – ganz ohne Microsoft Project selbst.
 
 ---
 
-**Last Updated:** 2026-02-05  
-**Tested With:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
-**Author:** Aspose  
+**Letzte Aktualisierung:** 05.02.2026
+**Getestet mit:** Aspose.Tasks für Java 24.12 (zum Zeitpunkt der Erstellung aktuellste Version)
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

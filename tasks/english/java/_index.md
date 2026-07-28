@@ -145,11 +145,11 @@ A: The official documentation is hosted on Aspose’s website under the Aspose.T
 **Tested With:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
 **Author:** Aspose  
 
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----

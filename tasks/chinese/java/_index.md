@@ -122,28 +122,28 @@ weight: 10
 ### [VBA Integration](./vba-integration/)
 通过 Aspose.Tasks Java 与 VBA 集成。简化项目工作流并提升任务跟踪，探索完整的 VBA 集成教程！
 
-## Frequently Asked Questions
+## 常见问题解答
 
-**Q: Can I use Aspose.Tasks for Java in a commercial application?**  
-A: Yes, you can use it commercially with a valid Aspose license. A free trial is available for evaluation.
+**问：我可以在商业应用程序中使用 Aspose.Tasks for Java 吗？** 
+答：可以，只要拥有有效的 Aspose 许可证，即可将其用于商业用途。我们提供免费试用版供您评估。
 
-**Q: Which Java versions are supported?**  
-A: Aspose.Tasks for Java supports Java 8, 11, and newer versions.
+**问：支持哪些 Java 版本？** 
+答：Aspose.Tasks for Java 支持 Java 8、11 及更高版本。
 
-**Q: How do I add a calendar exception programmatically?**  
-A: Use the `Calendar` class to create an `Exception` object, set its start/end dates, and add it to the project’s calendar collection.
+**问：如何以编程方式添加日历例外？** 
+答：使用 `Calendar` 类创建一个 `Exception` 对象，设置其开始/结束日期，并将其添加到项目的日历集合中。
 
-**Q: Is it possible to customize Gantt chart bar styles via code?**  
-A: Absolutely—Aspose.Tasks provides the `GanttChartView` object where you can set bar colors, patterns, and other visual attributes.
+**问：是否可以通过代码自定义甘特图条形样式？** 
+答：当然可以——Aspose.Tasks 提供了 `GanttChartView` 对象，您可以在其中设置条形颜色、图案和其他视觉属性。
 
-**Q: Where can I find the latest API documentation?**  
-A: The official documentation is hosted on Aspose’s website under the Aspose.Tasks for Java section.
+**问：哪里可以找到最新的 API 文档？**
+答：官方文档托管在 Aspose 网站的 Aspose.Tasks for Java 部分。
 
 ---
 
-**Last Updated:** 2026-02-05  
-**Tested With:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
-**Author:** Aspose  
+**上次更新时间：** 2026-02-05
+**测试版本：** Aspose.Tasks for Java 24.12（撰写本文时的最新版本）
+**作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

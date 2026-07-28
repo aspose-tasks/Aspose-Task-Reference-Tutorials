@@ -15,40 +15,40 @@ weight: 16
 
 # Добавление праздников в календарь и сохранение в формате MPP с Aspose.Tasks
 
-## Introduction
+## Введение
 
-В современном управлении проектами часто требуется **add holidays to calendar** файлы, создать **MS Project calendar** и затем поделиться расписанием в нативном формате MPP. Независимо от того, объединяете ли вы графики из нескольких источников или мигрируете устаревшие данные, программное создание календаря устраняет ручные ошибки и ускоряет поставку. Этот учебник проведёт вас через полный процесс создания календаря в MS Project, настройки его с праздниками, **assign calendar to project**, и, наконец, **convert project to MPP** с использованием Aspose.Tasks Java API.
+В режиме управления проектами часто требуется **добавить праздничные дни в файлы календаря**, создать **календарь MS Project** и затем поделиться расписанием в родном формате MPP. Независимо от того, если вы выберете графики из нескольких источников или мигрируете конфиденциальные данные, программное обеспечение создания календаря может привести к ручным ошибкам и ошибкам при установке. Этот учебник проведет вас через процесс создания полного календаря в MS Project, настройки его с праздниками, **назначение календаря проекту** и, наконец, **конвертирование проекта в MPP** с использованием Java API Aspose.Tasks.
 
-## Quick Answers
-- **What does this tutorial cover?** Добавление праздников в календарь, назначение его проекту и сохранение результата в файл MPP с помощью Aspose.Tasks for Java.  
-- **Do I need a license?** Бесплатная пробная версия подходит для разработки; для продакшн‑использования требуется коммерческая лицензия.  
-- **Which Java version is required?** Java 8 или выше (JDK 8+).  
-- **Can I customize the calendar?** Да — можно добавить рабочие часы, исключения и праздники.  
-- **How long does implementation take?** Около 10‑15 минут для базового календаря.  
+## Быстрые ответы
+- **Чему посвящено это руководство?** Добавление праздников в календарь, назначение его проекту и сохранение результата в файл MPP с помощью Aspose.Tasks for Java.
+- **Нужна ли мне лицензия?** Бесплатная пробная версия подходит для разработки; для продакшн‑использования необходима коммерческая лицензия.
+- **Какая версия Java требуется?** Java8или выше (JDK8+).
+- **Можно ли настроить календарь?** Да — можно добавить рабочие часы, исключения и праздники.
+- **Сколько времени занимает внедрение?** Около 10‑15минут для базового календаря.
 
-## What is “create calendar MS Project”?
+## Что такое «создать календарьMSProject»?
 
-Создание календаря MS Project означает программное определение рабочих дней, часов и исключений, которые управляют планированием задач внутри файла Microsoft Project. С помощью Aspose.Tasks вы можете **java create project calendar**, изменять его и сохранять изменения без необходимости открывать пользовательский интерфейс Microsoft Project.
+Создание календаряMSProject представляет собой программное обеспечение для определения рабочих дней, часов и исключений, которое управляет задачами планирования внутри файла Microsoft Project. С помощью Aspose.Tasks вы можете **создать календарь проекта в Java**, изменять его и сохранять изменения без необходимости открытия пользовательского интерфейса Microsoft Project.
 
-## Why use Aspose.Tasks for this task?
+## Зачем использовать Aspose.Tasks для этой задачи?
 
-- **Full .NET/Java compatibility** – работает на любой платформе, поддерживающей Java.  
-- **No COM or Office installation needed** – идеально для серверной автоматизации и **automate schedule generation**.  
-- **Rich API** – поддерживает все свойства календаря, включая пользовательские рабочие недели и праздники.  
-- **Direct MPP output** – вы можете **save project as MPP** без промежуточных конвертаций.
+- **Полная совместимость с .NET/Java** – работает на любой платформе, поддерживающей Java.
+- **Установка COM или Office не требуется** – идеально подходит для серверной автоматизации и **автоматического создания расписания**.
+- **Богатый API** – поддерживает все свойства календаря, включая пользовательские рабочие недели и праздники.
+- **Прямой вывод MPP** – вы можете **сохранить проект как MPP** без промежуточных конвертаций.
 
-## Prerequisites
+## Предварительные условия
 
-1. **Java Development Kit (JDK) 8+** – убедитесь, что `java -version` выводит 1.8 или новее.  
-2. **Aspose.Tasks for Java** – скачайте последнюю JAR‑файл с [Aspose website](https://releases.aspose.com/tasks/java/).  
-3. **IDE** – IntelliJ IDEA, Eclipse или любой другой редактор по вашему выбору.  
-4. **Basic Java knowledge** – знакомство с классами, методами и вводом‑выводом файлов.
+1. **Java Development Kit (JDK) 8+** – убедитесь, что `java -version` выдаёт версию 1.8 или новее.
+2. **Aspose.Tasks for Java** – скачайте весь JAR‑файл с [сайта Aspose](https://releases.aspose.com/tasks/java/).
+3. **IDE** – IntelliJ IDEA, Eclipse или любой другой редактор по вашему выбору.
+4. **Базовые знания Java** – знакомство с классами, методами и введением‑выводом файлов.
 
-## How to Add Holidays to Calendar
+## Как добавить праздники в календарь
 
-Ниже мы пройдём каждый шаг, от настройки окружения до сохранения окончательного файла MPP. Блоки кода оставлены без изменений; пояснения к ним расширены для лучшего понимания.
+Ниже мы пройдём каждый шаг от настройки окружения до сохранения окончательного файла MPP. Блоки кода оставлены без изменений; пояснения к ним расширены для лучшего понимания.
 
-### Step 1: Import Required Packages
+### Шаг 1. Импортируйте необходимые пакеты
 
 Сначала импортируем классы Aspose.Tasks и утилиты Java.
 
@@ -59,7 +59,7 @@ import java.util.Date;
 import java.util.GregorianCalendar;
 ```
 
-### Step 2: Set Up the Data Directory
+### Шаг 2: Настройка каталога данных
 
 Определите, где будут находиться ваш шаблон входных данных и файлы вывода. Замените заполнители реальными путями на вашем компьютере.
 
@@ -67,7 +67,7 @@ import java.util.GregorianCalendar;
 String dataDir = "Your Data Directory";
 ```
 
-### Step 3: Define Input and Output File Names
+### Шаг 3: Определение имен входного и выходного файлов
 
 Мы загрузим существующий файл MPP (или пустой проект) и запишем результат в новый файл.
 
@@ -76,7 +76,7 @@ String resultFile = "OutputMpp.mpp";
 String newFile = "SampleMpp.mpp";
 ```
 
-### Step 4: Load the Project and Add a New Calendar
+### Шаг 4: Загрузка проекта и добавление нового календаря
 
 Создайте экземпляр `Project` из исходного файла и добавьте календарь с именем **“Calendar 1”**.
 
@@ -85,7 +85,7 @@ Project project = new Project(dataDir + newFile);
 Calendar cal1 = project.getCalendars().add("Calendar 1");
 ```
 
-### Step 5: Customize the Calendar (Optional)
+### Шаг 5: Настройка календаря (необязательно)
 
 Если нужны специфические рабочие часы, праздники или исключения, вызовите собственный вспомогательный метод. В примере используется `GetTestCalendar` как заглушка.
 
@@ -95,7 +95,7 @@ GetTestCalendar(cal1); // Additional method for customizing calendar if required
 
 > **Pro tip:** Вы можете напрямую работать с `cal1.getWeekDays()` для установки рабочих часов каждого дня недели, либо использовать `cal1.getExceptions()` для **add holidays to calendar**.
 
-### Step 6: Assign the Calendar to the Project
+### Шаг 6: Назначение календаря проекту
 
 Укажите проекту использовать только что созданный календарь для всех расчётов планирования.
 
@@ -103,7 +103,7 @@ GetTestCalendar(cal1); // Additional method for customizing calendar if required
 project.set(Prj.CALENDAR, cal1);
 ```
 
-### Step 7: Save the Project as MPP
+### Шаг 7: Сохранение проекта в формате MPP
 
 Теперь **convert project to MPP**, сохранив его с опцией `SaveFileFormat.Mpp`.
 
@@ -111,7 +111,7 @@ project.set(Prj.CALENDAR, cal1);
 project.save(dataDir + resultFile, SaveFileFormat.Mpp);
 ```
 
-### Step 8: Confirm Successful Completion
+### Шаг 8: Подтверждение успешного завершения
 
 Простое сообщение в консоли сообщит, что процесс завершён без ошибок.
 
@@ -119,42 +119,42 @@ project.save(dataDir + resultFile, SaveFileFormat.Mpp);
 System.out.println("Process completed Successfully");
 ```
 
-## Common Use Cases
+## Распространенные случаи использования
 
-- **Automated schedule generation** для повторяющихся проектов (например, еженедельные спринты).  
-- **Migrating legacy CSV or Excel calendars** в полностью функциональный файл MS Project.  
-- **Server‑side reporting**, когда веб‑служба возвращает файл MPP по запросу.  
+- **Автоматическое создание расписания** для повторяющихся проектов (например, еженедельных спринтов).
+- **Миграция устаревших календарей CSV или Excel** в полностью функциональный файл MS Project.
+- **Отчеты на стороне сервера**, когда веб-служба получает файл MPP по запросу.
 
-## Troubleshooting & Common Pitfalls
+## Устранение неполадок и распространенные ошибки
 
-| Issue | Cause | Fix |
+| Выпуск | Причина | Исправить |
 |-------|-------|-----|
-| `NullPointerException` on `project.save` | `dataDir` указывает на несуществующую папку | Убедитесь, что каталог существует, или создайте его программно. |
-| Calendar not applied to tasks | Задачи всё ещё ссылаются на календарь по умолчанию | После установки `Prj.CALENDAR` также обновите `Task.CALENDAR` каждой задачи, если они были переопределены ранее. |
-| Output file is 0 KB | Отсутствуют права записи | Запустите JVM с соответствующими правами доступа к файловой системе или выберите путь, доступный для записи. |
+| `NullPointerException` в `project.save` | `dataDir` указывает на несуществующую точку | Убедитесь, что каталог существует, или создайте его программно. |
+| Календарь не применяется к задачам | Задачи всё ещё ссылаются на календарь по умолчанию | После установки Prj.CALENDAR также обновите Task.CALENDAR для каждой задачи, если они были переопределены ранее. |
+| Выходной файл имеет размер 0 КБ | Отсутствуют права записи | Запустите JVM с соответствующими правами доступа к файловой системе или выберите путь, доступный для записи. |
 
-## Frequently Asked Questions
+## Часто задаваемые вопросы
 
-**Q: Is Aspose.Tasks for Java compatible with different versions of MS Project?**  
-A: Yes, Aspose.Tasks for Java supports a wide range of MS Project versions, from Project 2007 up to the latest release, ensuring seamless compatibility.
+**В: Совместим ли Aspose.Tasks for Java с различными версиями MS Project?**
+О: Да, Aspose.Tasks for Java поддерживает широкий спектр версий MS Project, от Project 2007 до последней версии, обеспечивая полную совместимость.
 
-**Q: Can I customize calendars according to specific project requirements?**  
-A: Absolutely. You can define working days, set custom work weeks, add holidays, and even create multiple calendars within a single project file.
+**В: Могу ли я настраивать календари в соответствии с конкретными требованиями проекта?**
+О: Безусловно. Вы можете определять рабочие дни, устанавливать пользовательские рабочие недели, добавлять праздники и даже создавать несколько календарей в одном файле проекта.
 
-**Q: Does Aspose.Tasks for Java offer support for troubleshooting and assistance?**  
-A: Yes, you can get help from the Aspose.Tasks community forum [here](https://forum.aspose.com/c/tasks/15).
+**В: Предоставляет ли Aspose.Tasks for Java поддержку по устранению неполадок и помощь?**
+О: Да, вы можете получить помощь на форуме сообщества Aspose.Tasks [здесь](https://forum.aspose.com/c/tasks/15).
 
-**Q: Is there a free trial available for Aspose.Tasks for Java?**  
-A: Yes, a fully functional free trial is available [here](https://releases.aspose.com/).
+**В: Доступна ли бесплатная пробная версия Aspose.Tasks для Java?**
+О: Да, доступна полнофункциональная бесплатная пробная версия [здесь](https://releases.aspose.com/).
 
-**Q: How can I obtain a temporary license for Aspose.Tasks for Java?**  
-A: Temporary licenses can be requested via the Aspose website [here](https://purchase.aspose.com/temporary-license/).
+**В: Как получить временную лицензию для Aspose.Tasks для Java?**
+О: Временные лицензии можно запросить на веб-сайте Aspose [здесь](https://purchase.aspose.com/temporary-license/).
 
----
+--
 
-**Last Updated:** 2026-02-05  
-**Tested With:** Aspose.Tasks for Java 24.12  
-**Author:** Aspose  
+**Последнее обновление:** 05.02.2026
+**Протестировано с:** Aspose.Tasks для Java 24.12
+**Автор:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

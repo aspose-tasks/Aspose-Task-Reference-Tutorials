@@ -15,33 +15,33 @@ weight: 15
 
 # MS Project Takviminden Workweeks Java Nasıl Okunur Aspose.Tasks
 
-## Introduction
-Bu öğreticide **Workweeks Java nasıl okunur** konusunu Microsoft Project takviminden Aspose.Tasks kütüphanesini kullanarak öğreneceksiniz. Raporlama aracı oluşturuyor, takvimleri senkronize ediyor ya da proje verisi çıkarımını otomatikleştiriyor olun, iş‑haftası tanımlarına programlı olarak erişebilmek sayısız manuel saati tasarruf ettirir. Gerekli kurulumu adım adım gösterecek, iş‑haftası detaylarını almak için tam kodu sunacak ve her adımı açıklayacağız, böylece çözümü kendi projelerinize uyarlayabilirsiniz.
+## Giriiş
+Bu öğreticide **Workweeks Java'nın nasıl anlatılacağı** Microsoft Project takviminden Aspose.Tasks kütüphanesini kullanarak dosyalarını kullanır. Raporlama aracı oluşturulur, takvimleri güncellenir ya da proje verisi çıkarımını otomatik olarak yükseltir olun, iş-haftası tanımlarına programlı olarak erişebilmek için sınırsız manuel saat tasarrufu sağlar. Gerekli kurulum adım adım girerseniz, iş-haftası detaylarını almak için tam kodu sunacak ve her adımı açıklayacağız, böylece çözüm kendi projelerinize uyarlayabilirsiniz.
 
-## Quick Answers
-- **“read workweeks java” ne anlama geliyor?** Java kodu kullanarak bir Project dosyasından iş‑haftası tanımlarını çıkarmak anlamına gelir.  
-- **Hangi kütüphane gerekiyor?** Aspose.Tasks for Java (ücretsiz deneme mevcut).  
-- **Geliştirme için lisansa ihtiyacım var mı?** Test için deneme sürümü yeterlidir; üretim için ticari lisans gereklidir.  
-- **Hangi dosya formatları destekleniyor?** Hem *.mpp* hem de Project XML dosyaları işlenebilir.  
-- **Uygulama ne kadar sürer?** Kütüphane kurulduktan sonra genellikle 10 dakikadan az sürer.
+## Hızlı Yanıtlar
+- **“readworkweeks java” ne anlama geliyor?**Java kodunu kullanarak bir Proje dosyasından iş‑haftası tanımlarını çıkarma anlamına gelir.
+- **Hangi paketi gerekiyor mu?**Aspose.Tasks for Java (ücretsiz deneme mevcut).
+- **Geliştirme için lisansa ihtiyacım var mı?**Test için deneme sürümü yeterlidir; üretim için ticari lisans gereklidir.
+- **Hangi dosya formatları destekleniyor mu?**Hem *.mpp* hem de Proje XML dosyaları işlenebilir.
+- **Uygulama ne kadar sürer?**Kütüphane kurulduktan sonra genellikle 10dakikadan az sürer.
 
-## How to Read Workweeks Java from a Microsoft Project Calendar
-Java’da iş haftalarını okumak, Aspose.Tasks API’sini kullanarak bir Microsoft Project dosyası içindeki takvim nesnesinin `WorkWeekCollection`’ına erişmek demektir. Her `WorkWeek`, başlangıç/bitiş tarihlerini ve kaynakların planlanmasını belirleyen günlük çalışma‑zamanı tanımlarını içerir.
+## Workweeks Java'yı Microsoft Proje Takviminden Nasıl Okuyabilirim?
+Java’da iş haftalarını okumak, Aspose.Tasks API’sini kullanarak bir Microsoft Project’in içindeki takvim nesnesinin `WorkWeekCollection`a açılması demektir. Her `WorkWeek`, başlangıç/bitiş tarihlerini ve elde edilmesinin planlanmasının günlük çalışma‑zamanı tanımlarını içerir.
 
-## Why read workweeks Java from a Microsoft Project calendar?
-- **Automation:** Takvim verilerini manuel kopyala‑yapıştırdan kurtulun.  
-- **Integration:** İş‑haftası bilgilerini ERP, İK veya özel raporlama sistemlerine besleyin.  
-- **Consistency:** Tüm alt sistemlerin aynı takvim kurallarına uymasını sağlayın.
+## Neden Workweeks Java'yı Microsoft Project takviminden okumalısınız?
+- **Otomasyon:** Takvim'in manuel kopyasıyla-yapıştırmaktan kurtulun.
+- **Entegrasyon:** İş‑haftası'nın alınması ERP, İK veya özel raporlama sistemlerine besleyin.
+- **Tutarlılık:** Tüm alt sistemlerin aynı takvim kurallarına uymasını sağlayın.
 
-## Prerequisites
-Kodlara geçmeden önce şunların yüklü olduğundan emin olun:
+## Önkoşullar
+Kodlara bölünmeden önce yüklü olduğunuzdan emin olun:
 
-1. **Java Development Kit (JDK)** – sürüm 8 veya üzeri yüklü.  
-2. **Aspose.Tasks for Java** – resmi siteden en yeni JAR’ı indirin: [Aspose.Tasks for Java download](https://releases.aspose.com/tasks/java/).  
-3. Bilinen bir klasöre yerleştirilmiş bir **örnek Project dosyası** (`ReadWorkWeeksInformation.mpp`).
+1. **Java Development Kit (JDK)** – sürüm 8 veya üzeri yüklü.
+2. **Aspose.Tasks for Java** – resmi siteden en yeni JAR’ı indirin: [Aspose.Tasks for Java download](https://releases.aspose.com/tasks/java/).
+3. Bilinen bir bilgisayara yerleştirilen bir **örnek Proje dosyası** (`ReadWorkWeeksInformation.mpp`).
 
-## Import Packages
-Takvimler ve iş haftalarıyla etkileşim kurmak için gerekli sınıfları içe aktarın:
+## Paketleri İçe Aktar
+Takvimler ve iş haftalarıyla etkileşimi için gerekli sınıfları içe aktarın:
 
 ```java
 import com.aspose.tasks.Calendar;
@@ -53,14 +53,14 @@ import com.aspose.tasks.WorkWeekCollection;
 import com.aspose.tasks.WorkingTimeCollection;
 ```
 
-## Step 1: Set Up Your Data Directory
+## Adım 1: Veri Dizininizi Kurun
 `.mpp` dosyasını içeren klasörü tanımlayın. Yer tutucuyu makinenizdeki gerçek yol ile değiştirin:
 
 ```java
 String dataDir = "Your Data Directory";
 ```
 
-## Step 2: Create a Project Instance and Access the Calendar
+## Adım 2: Bir Proje Örneği Oluşturun ve Takvime Erişin
 Bir `Project` nesnesi oluşturun, istediğiniz takvimi (UID ile) seçin ve `WorkWeekCollection`’ını alın:
 
 ```java
@@ -71,7 +71,7 @@ WorkWeekCollection collection = calendar.getWorkWeeks();
 
 > **Pro tip:** Takvim UID’sinden emin değilseniz `project.getCalendars()` üzerinden döngü kurarak her takvimin adını ve UID’sini yazdırabilirsiniz.
 
-## Step 3: Iterate Through Work Weeks
+## Adım 3: Çalışma Haftaları Üzerinde Yineleme Yapın
 Her `WorkWeek` üzerinde döngü kurarak adını, başlangıç/bitiş tarihlerini ve günlük çalışma zamanlarını gösterin:
 
 ```java
@@ -91,31 +91,31 @@ for (WorkWeek workWeek : collection) {
 
 **What you’ll see:** Konsol, her iş‑haftasının etiketini (örn. “Standard”), geçerli tarih aralığını ve her gün için kesin çalışma saatlerini yazdırır.
 
-## Common Issues and Solutions
+## Yaygın Sorunlar ve Çözümler
 | Sorun | Neden | Çözüm |
-|-------|--------|-----|
-| `calendar` erişirken `NullPointerException` | Yanlış UID veya takvim mevcut değil | UID'yi `project.getCalendars().size()` ile doğrulayın ve önce kullanılabilir takvimleri listeleyin. |
-| İş haftaları için çıktı yok | Seçilen takvimde özel iş haftası yok (varsayılanı kullanıyor) | Varsayılan takvimi (`project.getDefaultCalendar()`) kullanın veya programlı olarak bir iş haftası oluşturun. |
-| Tarih formatı garip görünüyor | `System.out.println` varsayılan `java.util.Date` formatını kullanıyor | Gerektiği gibi tarihleri biçimlendirmek için bir `SimpleDateFormat` uygulayın. |
+|----------|-----------|-----|
+| `takvim`e erişirken `NullPointerException` | Yanlış UID veya takvim mevcut değil | UID'yi `project.getCalendars().size()` ile doğrulayın ve önceden kullanılabilir takvimleri listeleyin. |
+| İş haftaları için çıktı yok | Seçilen takvimde özel iş haftası yok (varsayılanı kullanıyor) | varsayılan takvim (`project.getDefaultCalendar()`) kullanın veya programlı olarak bir iş haftası oluşturun. |
+| Tarih formatı garip görünüyor | `System.out.println` varsayılan `java.util.Date` formatını kullanıyor | Gerektiği gibi bağımsız biçimlendirmek için bir `SimpleDateFormat` eklentisi. |
 
-## Frequently Asked Questions
+## Sıkça Sorulan Sorular
 
-**S: Aspose.Tasks for Java kullanarak iş haftası bilgilerini değiştirebilir miyim?**  
-C: Evet. API, `addWorkWeek()`, `removeWorkWeek()` gibi yöntemler ve isim, tarih, çalışma saatlerini değiştiren özellik setleri sunar.
+**S: Aspose.Tasks for Java kullanarak iş haftasını kazanabilir miyim?**
+C: Evet. API, `addWorkWeek()`, `removeWorkWeek()` gibi kopyalamalar ve isim, tarih, erişime yönelik dağıtılabilir özellik paketleri sunar.
 
-**S: Aspose.Tasks farklı Microsoft Project dosya sürümleriyle uyumlu mu?**  
-C: Kesinlikle. Project 98’den en yeni sürümlere kadar MPP dosyalarını ve Project XML dosyalarını destekler.
+**S: Aspose.Tasks farklı Microsoft Project dosyasıyla uyumlu mu?**
+C: elbette. Project 98’den en yeni sürümlere kadar MPP karakteri ve Project XML sürümüne kadar.
 
-**S: Aspose.Tasks’i diğer Java çerçeveleriyle entegre edebilir miyim?**  
-C: Evet. Kütüphane saf Java olduğundan Spring, Jakarta EE veya başka herhangi bir çerçeveyle birlikte kullanılabilir.
+**S: Aspose.Tasks’i diğer Java çerçeveleriyle entegre edebilir miyim?**
+C: Evet. Kütüphanede güvenli Java'nız var Spring, Jakarta EE veya başka herhangi bir çerçeveyle birlikte kullanılabilir.
 
-**S: Aspose.Tasks için deneme sürümü var mı?**  
-C: Evet, resmi siteden ücretsiz 30‑günlük deneme sürümünü indirebilirsiniz: [Aspose.Tasks trial](https://releases.aspose.com/).
+**S: Aspose.Tasks için deneme sürümü var mı?**
+C: Evet, resmi siteden ücretsiz 30 günlük deneme indirme indirmeleri: [Aspose.Tasks deneme sürümü](https://releases.aspose.com/).
 
-**S: Aspose.Tasks desteğini nereden bulabilirim?**  
-C: En iyi yer Aspose topluluk forumudur: [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
+**S: Aspose.Tasks'ın herhangi bir yerde saklanabilir miyim?**
+C: En iyi yer Aspose topluluk forumudur: [Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15).
 
-## Conclusion
+## Çözüm
 Artık **Workweeks Java nasıl okunur** konusunda uzmanlaştınız ve Aspose.Tasks’i kullanarak bunu gerçekleştirebiliyorsunuz. Yukarıdaki adımları izleyerek herhangi bir MS Project takviminden programlı olarak iş‑haftası tanımlarını çekebilir, bu verileri uygulamalarınıza entegre edebilir ve takvimle ilgili iş akışlarını otomatikleştirebilirsiniz. İş haftaları oluşturma veya güncelleme deneyleri yapmaktan çekinmeyin—Aspose.Tasks bunu oldukça basit hâle getiriyor.
 
 ---

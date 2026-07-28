@@ -14,24 +14,24 @@ weight: 10
 
 # 프로젝트 캘린더 Java 만들기 – Aspose.Tasks for Java 가이드
 
-## Introduction
-이 포괄적인 가이드에서는 Aspose.Tasks for Java를 사용하여 **create project calendar java**를 만드는 방법을 배웁니다. 새 프로젝트 관리 솔루션을 구축하든 기존 애플리케이션을 확장하든 캘린더, 예외 및 Gantt 차트 설정을 관리하는 것이 간단해집니다. 실제 시나리오를 따라가며 각 단계 뒤에 있는 *why*를 설명하고, 일정 정확성을 유지하고 코드를 깔끔하게 유지하기 위한 실용적인 팁을 제공합니다.
+## 소개
+이 전반적인 가이드에서는 Aspose.Tasks for Java를 사용하여 **프로젝트 캘린더 생성**을 만드는 방법을 배웁니다. 새 프로젝트 관리 솔루션을 구축하는 클래식 군용 확장 축소, 확장 및 Gantt 차트 설정을 관리하는 것이 간단합니다. 실제 시나리오를 따라가며 각 단계 뒤에 있는 *이유*를 설명하고, 일정 정확성을 유지하고 코드를 깔끔하게 유지하기 위한 유용한 팁을 제공합니다.
 
-## Quick Answers
-- **What does “create project calendar java” mean?** It refers to using Aspose.Tasks for Java to define, modify, and retrieve calendar data in Microsoft Project files.  
-- **Do I need a license?** A free trial is available, but a commercial license is required for production use.  
-- **Which Java version is supported?** Aspose.Tasks supports Java 8 and later.  
-- **Can I configure Gantt chart java settings?** Yes—Aspose.Tasks lets you programmatically configure Gantt chart properties, such as bar styles and timescales.  
-- **Where can I find sample code?** Each tutorial linked below contains ready‑to‑run examples you can adapt.
+## 빠른 답변
+- **“프로젝트 캘린더 java 만들기”란 무엇을 의미합니까?**Aspose.Tasks for Java를 사용하여 Microsoft Project 파일에서 캘린더 데이터를 정의, 수정 및 검색하는 것을 의미합니다.
+- **라이센스가 필요합니까?**무료 평가판이 제공되지만 프로덕션 용도로 사용하려면 상용 라이센스가 필요합니다.
+- **어떤 Java 버전이 지원됩니까?**Aspose.Tasks는 Java8 이상을 지원합니다.
+- **간트 차트 Java 설정을 구성할 수 있습니까?**예 - Aspose.Tasks를 사용하면 막대 스타일 및 기간과 같은 간트 차트 속성을 프로그래밍 방식으로 구성할 수 있습니다.
+- **샘플 코드는 어디에서 찾을 수 있습니까?**아래 링크된 각 튜토리얼에는 적용할 수 있는 즉시 실행 가능한 예제가 포함되어 있습니다.
 
-## What is “create project calendar java”?
-Java에서 프로젝트 캘린더를 만든다는 것은 작업일, 비작업일 및 예외를 프로그래밍 방식으로 정의하여 일정이 조직의 실제 가용성을 반영하도록 하는 것을 의미합니다. Aspose.Tasks는 Microsoft Project 파일의 기본 XML 구조를 추상화하는 유연한 API를 제공하여 비즈니스 로직에 집중할 수 있게 합니다.
+## "프로젝트 캘린더 생성 java"란 무엇입니까?
+Java에서 프로젝트를 구성하는 것은 작업일, 비작업 및 예외를 프로그래밍 방식으로 정의하여 일정을 조직의 실제 가용성을 사용자에게 제공하는 것을 의미합니다. Aspose.Tasks는 Microsoft Project 파일의 기본 XML 구조를 추상화하는 유연한 API를 제공하여 비즈니스에 집중할 수 있도록 지원합니다.
 
-## Why use Aspose.Tasks for Java to manage project calendars?
-- **Full control** over weekdays, holidays, and custom exceptions without manual file editing.  
-- **Seamless integration** with existing Java codebases and build tools.  
-- **Cross‑platform** support – works on Windows, Linux, and macOS.  
-- **Rich Gantt chart customization** (configure gantt chart java) that helps stakeholders visualize timelines instantly.
+## 프로젝트 달력을 관리하기 위해 Java용 Aspose.Tasks를 사용하는 이유는 무엇입니까?
+- 수동 파일 편집 없이 평일, 공휴일 및 사용자 정의 예외를 **완전히 제어**할 수 있습니다.
+- 기존 Java 코드베이스 및 빌드 도구와의 **완벽한 통합**.
+- **크로스 플랫폼** 지원 - Windows, Linux 및 macOS에서 작동합니다.
+- 이해관계자가 타임라인을 즉시 시각화하는 데 도움이 되는 **Rich Gantt 차트 사용자 정의**(간트 차트 Java 구성).
 
 ## How to create project calendar java
 프로젝트 캘린더 관리는 정확한 일정 수립에 필수적입니다. 아래에서는 작업일 정의, 예외 설정 및 캘린더 정보를 Aspose.Tasks를 사용해 가져오는 단계별 튜토리얼을 제공합니다.
@@ -123,28 +123,28 @@ Aspose.Tasks와 함께 Java 프로젝트 관리를 향상시키세요. 우선순
 ### [VBA Integration](./vba-integration/)
 Aspose.Tasks Java와 VBA 통합을 탐색하세요. 프로젝트 워크플로를 간소화하고 작업 추적을 개선합니다. 원활한 VBA 통합을 위한 포괄적인 튜토리얼을 확인하세요!
 
-## Frequently Asked Questions
+## 자주 묻는 질문
 
-**Q: Can I use Aspose.Tasks for Java in a commercial application?**  
-A: Yes, you can use it commercially with a valid Aspose license. A free trial is available for evaluation.
+**질문: Aspose.Tasks for Java를 상용 애플리케이션에서 사용할 수 있나요?**
+답변: 네, 유효한 Aspose 라이선스가 있으면 상업적으로 사용할 수 있습니다. 무료 평가판을 사용해 볼 수 있습니다.
 
-**Q: Which Java versions are supported?**  
-A: Aspose.Tasks for Java supports Java 8, 11, and newer versions.
+**질문: 어떤 Java 버전이 지원되나요?**
+답변: Aspose.Tasks for Java는 Java 8, 11 이상 버전을 지원합니다.
 
-**Q: How do I add a calendar exception programmatically?**  
-A: Use the `Calendar` class to create an `Exception` object, set its start/end dates, and add it to the project’s calendar collection.
+**질문: 캘린더 예외를 프로그램적으로 어떻게 추가하나요?**
+답변: `Calendar` 클래스를 사용하여 `Exception` 객체를 생성하고 시작/종료 날짜를 설정한 다음 프로젝트의 캘린더 컬렉션에 추가하면 됩니다.
 
-**Q: Is it possible to customize Gantt chart bar styles via code?**  
-A: Absolutely—Aspose.Tasks provides the `GanttChartView` object where you can set bar colors, patterns, and other visual attributes.
+**질문: 코드를 통해 간트 차트 막대 스타일을 사용자 지정할 수 있나요?**
+답변: 네, 가능합니다. Aspose.Tasks는 막대 색상, 패턴 및 기타 시각적 속성을 설정할 수 있는 `GanttChartView` 객체를 제공합니다.
 
-**Q: Where can I find the latest API documentation?**  
-A: The official documentation is hosted on Aspose’s website under the Aspose.Tasks for Java section.
+**질문: 최신 API 문서는 어디에서 찾을 수 있나요?**
+답변: 공식 문서는 Aspose 웹사이트의 Aspose.Tasks for Java 섹션에서 확인할 수 있습니다.
 
 ---
 
-**Last Updated:** 2026-02-05  
-**Tested With:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
-**Author:** Aspose  
+**최종 업데이트:** 2026년 2월 5일
+**테스트 환경:** Aspose.Tasks for Java 24.12 (작성 시점 기준 최신 버전)
+**제작자:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

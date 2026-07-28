@@ -114,36 +114,39 @@ System.out.println();
 Aspose.Tasks vous permet de modifier les plages de temps de travail du calendrier et d’ajouter des exceptions telles que les jours fériés. Vous pouvez appeler `taskCalendar.addWorkingTime()` ou `taskCalendar.addException()` pour adapter le planning aux politiques de votre organisation. Ceci est utile lorsque le planning par défaut 9‑5 ne correspond pas à la réalité.
 
 ## Problèmes courants et solutions
-| Problème | Solution |
+| Problème | Solutions |
 |----------|----------|
-| **La tâche renvoie `null` pour le calendrier** | Assurez‑vous que la tâche possède réellement un calendrier assigné ; sinon elle hérite du calendrier par défaut du projet. |
+| **La tâche renvoie `null` pour le calendrier** | Assurez-vous que la tâche possède réellement un calendrier attribué ; sinon elle hérite du calendrier par défaut du projet. |
 | **Durée incorrecte à cause des jours fériés** | Vérifiez que les jours fériés sont définis dans le calendrier de la tâche ou dans le calendrier de base du projet. |
 | **Incohérence de fuseau horaire** | Utilisez `java.util.TimeZone` pour aligner le fuseau horaire du calendrier avec celui de votre système si nécessaire. |
 
 ## Questions fréquemment posées
-### Q: Can Aspose.Tasks for Java handle complex project structures?
-R: Yes, Aspose.Tasks for Java provides comprehensive support for handling complex project structures, including tasks, resources, and calendars.
+### Q : Aspose.Tasks pour Java peut-il gérer des structures de projet complexes ?
+R : Oui, Aspose.Tasks for Java fournit une prise en charge complète pour la gestion des structures de projet complexes, notamment les tâches, les ressources et les calendriers.
 
-### Q: Is Aspose.Tasks for Java compatible with different versions of MS Project?
-R: Absolutely, Aspose.Tasks for Java supports various versions of MS Project, ensuring compatibility across different environments.
+### Q : Aspose.Tasks pour Java est-il compatible avec différentes versions de MS Project ?
+R : Absolument, Aspose.Tasks pour Java prend en charge différentes versions de MS Project, garantissant ainsi la compatibilité avec divers environnements.
 
-### Q: Can I customize working hours and holidays in project calendars?
-R: Yes, you can easily customize working hours and holidays according to your project requirements using Aspose.Tasks for Java APIs.
+### Q : Puis-je personnaliser les heures de travail et les jours fériés dans les calendriers de projet ?
 
-### Q: Does Aspose.Tasks for Java offer support and documentation?
-R: Yes, Aspose.Tasks for Java provides extensive documentation and dedicated support forums to assist developers in utilizing its features effectively.
+R : Oui, vous pouvez facilement personnaliser les heures de travail et les jours fériés en fonction des besoins de votre projet grâce aux API d'Aspose.Tasks pour Java.
 
-### Q: Is there a trial version available for Aspose.Tasks for Java?
-R: Yes, you can access a free trial version of Aspose.Tasks for Java from [here](https://releases.aspose.com/).
+### Q : Aspose.Tasks pour Java propose-t-il une assistance et une documentation ?
+
+R : Oui, Aspose.Tasks pour Java fournit une documentation complète et des forums d'assistance dédiés pour aider les développeurs à utiliser efficacement ses fonctionnalités.
+
+### Q : Existe-t-il une version d'essai d'Aspose.Tasks pour Java ?
+
+R : Oui, vous pouvez accéder à une version d'essai gratuite d'Aspose.Tasks pour Java [ici](https://releases.aspose.com/).
 
 ## Conclusion
-Dans ce guide, nous avons démontré comment **determine working days**, **retrieve working hours**, et **calculate task duration** à partir d’un calendrier MS Project en utilisant Aspose.Tasks for Java. En suivant les étapes ci‑dessus, vous pouvez automatiser l’analyse des plannings, personnaliser les calendriers et garder vos plans de projet précis et à jour. Vous disposez désormais des outils pour **read MS Project** data, **load an MPP file**, et effectuer des calculs de durée précis sans besoin de Microsoft Project.
+Dans ce guide, nous avons démontré comment **déterminer les jours ouvrables**, **récupérer les heures de travail** et **calculer la durée des tâches** à partir d'un calendrier MS Project en utilisant Aspose.Tasks for Java. En suivant les étapes ci-dessus, vous pouvez automatiser l’analyse des plannings, personnaliser les calendriers et garder vos plans de projet précis et à jour. Vous disposez désormais des outils pour **lire les données MS Project**, **charger un fichier MPP**, et effectuer des calculs de durée précis sans besoin de Microsoft Project.
 
 ---
 
-**Last Updated:** 2026-02-05  
-**Tested With:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
-**Author:** Aspose  
+**Dernière mise à jour :** 2026-02-05
+**Testé avec :** Aspose.Tasks pour Java 24.12 (dernière version au moment de la rédaction)
+**Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
