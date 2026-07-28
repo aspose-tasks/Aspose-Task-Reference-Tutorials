@@ -109,19 +109,19 @@ project.save(dataDir + "project.xml", SaveFileFormat.Xml);
 
 ## คำถามที่พบบ่อย
 
-**Q: Can I define multiple exceptions for different weekdays within the same calendar?**  
-A: ได้. เพิ่มอ็อบเจกต์ `CalendarException` เพิ่มเติมใน `cal.getExceptions()` สำหรับแต่ละช่วงหรือกฎที่แตกต่างกัน
+**ถาม: ฉันสามารถกำหนดข้อยกเว้นหลายรายการสำหรับวันธรรมดาที่แตกต่างกันภายในปฏิทินเดียวกันได้หรือไม่**
+ตอบ: ได้. ไม่สามารถอ็อบเจกต์ `CalendarException` สิ่งที่สำคัญใน `cal.getExceptions()` ขึ้นอยู่กับช่วงหรือกฎของร่างกาย
 
-**Q: Is Aspose.Tasks for Java compatible with different Java IDEs?**  
-A: แน่นอน. ไลบรารีทำงานกับ IntelliJ IDEA, Eclipse, NetBeans และ IDE ใด ๆ ที่รองรับโครงการ Java มาตรฐาน
+**ถาม: Aspose.Tasks สำหรับ Java เข้ากันได้กับ Java IDE ที่แตกต่างกันหรือไม่**
+A: แน่นอน. ไลบรารี่กับ IntelliJ IDEA, Eclipse, NetBeans และ IDE ใด ๆ ที่เข้ากันได้กับโครงการ Java มาตรฐาน
 
-**Q: Can I customize exception types other than daily exceptions?**  
-A: ได้. ใช้ `CalendarExceptionType.Weekly`, `Monthly`, หรือ `Yearly` เพื่อให้ตรงกับความต้องการการกำหนดเวลาของคุณ
+**ถาม: ฉันสามารถปรับแต่งประเภทข้อยกเว้นนอกเหนือจากข้อยกเว้นรายวันได้หรือไม่**
+ตอบ: ได้. ใช้ `CalendarExceptionType.Weekly`, `Monthly`, หรือ `Yearly` เพื่อความต้องการของระบบของคุณ
 
-**Q: How can I handle exceptions dynamically based on project requirements?**  
-A: สร้างอ็อบเจกต์ข้อยกเว้นโดยโปรแกรม—เช่น อ่านวันที่หยุดจากฐานข้อมูลหรือไฟล์การกำหนดค่าและสร้างอินสแตนซ์ `CalendarException` ในลูป
+**ถาม: ฉันจะจัดการข้อยกเว้นแบบไดนามิกตามความต้องการของโปรเจ็กต์ได้อย่างไร**
+ตอบ: สร้างอ็อบเจกต์โดยโปรแกรม—เช่นอ่านวันที่หยุดจากเทคโนโลยีหรือไฟล์ที่สามารถพบได้ `CalendarException` ในเทพเจ้ากรีก
 
-**Q: Is there a trial version available for Aspose.Tasks for Java?**  
+**ถาม: มี Aspose.Tasks สำหรับ Java รุ่นทดลองใช้งานหรือไม่** 
 A: มี, คุณสามารถดาวน์โหลดรุ่นทดลองฟรีจาก [Aspose.Tasks Java download page](https://releases.aspose.com/tasks/java/)
 
 ## สรุป

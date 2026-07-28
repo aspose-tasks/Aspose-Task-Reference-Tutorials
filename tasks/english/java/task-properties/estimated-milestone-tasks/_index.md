@@ -1,6 +1,6 @@
 ---
-title: Project Management Java: Handle Estimated & Milestone Tasks
-linktitle: Project Management Java: Handle Estimated & Milestone Tasks
+title: Project Management Java - Handle Estimated & Milestone Tasks
+linktitle: Project Management Java - Handle Estimated & Milestone Tasks
 second_title: Aspose.Tasks Java API
 description: Learn project management java with Aspose.Tasks: handle estimated and milestone tasks, and identify critical tasks easily. Download the library today!
 weight: 15

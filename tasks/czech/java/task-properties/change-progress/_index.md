@@ -101,22 +101,6 @@ Po provedení těchto kroků jste úspěšně **vytvořili MPP projekt v Javě**
 - **LicenseException** – Pro produkční použití načtěte licenci Aspose.Tasks před vytvořením objektu `Project`.  
 - **Incorrect Percent Value** – Metoda `percent` očekává hodnotu mezi 0 a 100; zadání čísel mimo tento rozsah vyvolá výjimku.
 
-## Často kladené otázky
-### Je Aspose.Tasks kompatibilní se všemi vývojovými prostředími Java?
-Zajistěte kompatibilitu podle instalačních pokynů v dokumentaci.
-
-### Mohu sledovat postup pro více úkolů v rámci projektu?
-Opakujte kroky pro každý úkol, který chcete monitorovat.
-
-### Je k dispozici zkušební verze Aspose.Tasks pro Java?
-Bezplatnou zkušební verzi získáte [zde](https://releases.aspose.com/).
-
-### Kde najdu podrobnou dokumentaci pro Aspose.Tasks pro Java?
-Komplexní dokumentaci najdete [zde](https://reference.aspose.com/tasks/java/).
-
-### Jak získám dočasnou licenci pro Aspose.Tasks pro Java?
-Navštivte stránku [dočasné licence](https://purchase.aspose.com/temporary-license/).
-
 ## Další FAQ (AI‑optimalizované)
 
 **Q: Jaká verze Aspose.Tasks je vyžadována pro vytvoření MPP souboru?**  
@@ -139,8 +123,6 @@ Vytvoření MPP projektu v Javě a správa postupu úkolů je s Aspose.Tasks, sp
 
 ---
 
-{{< blocks/products/products-backtop-button >}}
-
 **Last Updated:** 2026-01-28  
 **Tested With:** Aspose.Tasks for Java 24.10  
 **Author:** Aspose  
@@ -149,3 +131,5 @@ Vytvoření MPP projektu v Javě a správa postupu úkolů je s Aspose.Tasks, sp
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

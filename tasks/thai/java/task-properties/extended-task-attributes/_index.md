@@ -108,16 +108,16 @@ switch (ea.getAttributeDefinition().getCfType()) {
 ได้, คุณสามารถแก้ไขคุณลักษณะงานที่ขยายโดยใช้ Aspose.Tasks สำหรับ Java ดูเอกสารสำหรับคำแนะนำโดยละเอียด
 
 ### มีเวอร์ชันทดลองหรือไม่?
-มี, คุณสามารถเข้าถึงเวอร์ชันทดลองได้ **[ที่นี่](https://releases.aspose.com/)**
+มี, คุณสามารถเข้าถึงเวอร์ชันทดลองได้ **[ที่นี่](https://releases.aspose.com/) **
 
 ### จะหาการสนับสนุนสำหรับ Aspose.Tasks สำหรับ Java ได้จากที่ไหน?
-สำหรับการสนับสนุน, เยี่ยมชม **[ฟอรั่ม Aspose.Tasks](https://forum.aspose.com/c/tasks/15)**
+สำหรับการสนับสนุน, เยี่ยมชม **[ฟอรั่ม Aspose.Tasks](https://forum.aspose.com/c/tasks/15) **
 
 ### จะขอรับลิขสิทธิ์ชั่วคราวได้อย่างไร?
-คุณสามารถขอรับลิขสิทธิ์ชั่วคราว **[ที่นี่](https://purchase.aspose.com/temporary-license/)**
+คุณสามารถขอรับลิขสิทธิ์ชั่วคราว **[ที่นี่](https://purchase.aspose.com/temporary-license/) **
 
 ### จะซื้อเวอร์ชันเต็ม.Tasks สำหรับ Java ได้จากที่ไหน?
-คุณสามารถซื้อเวอร์ชันเต็ม **[ที่นี่](https://purchase.aspose.com/buy)**
+คุณสามารถซื้อเวอร์ชันเต็ม **[ที่นี่](https://purchase.aspose.com/buy) **
 
 ---
 

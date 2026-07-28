@@ -15,34 +15,34 @@ weight: 10
 
 # สร้าง Calendar Exception Aspose สำหรับ Java
 
-## Introduction
-การกำหนดกำหนดการโครงการอย่างแม่นยำมักพึ่งพาการจัดการ **calendar exceptions**—วันที่ทรัพยากรไม่พร้อมใช้งานหรือกำหนดการทำงานเปลี่ยนแปลง ด้วย **Aspose.Tasks for Java** คุณสามารถ **create calendar exception** objects, เพิ่มเข้าไปในปฏิทินของโครงการ, หรือเอาออกเมื่อไม่ต้องการอีกต่อไป ในบทแนะนำนี้เราจะเดินผ่านกระบวนการทั้งหมด ตั้งแต่การโหลดไฟล์โครงการจนถึงการตรวจสอบข้อยกเว้นที่คุณจัดการ คู่มือนี้จะแสดงให้คุณเห็นอย่างชัดเจนว่า **create calendar exception aspose** ทำอย่างไรในสภาพแวดล้อม Java
+## การแนะนำ
+ตรวจสอบโครงการอย่างแม่นยำมักจะเน้นการจัดการ **ข้อยกเว้นของปฏิทิน**—วันที่ทรัพยากรไม่พร้อมใช้งานหรือกำหนดการทำงานปรับปรุงด้วย **Aspose.Tasks for Java** ใน **สร้างข้อยกเว้นปฏิทิน** ออบเจ็กต์, เพิ่มปฏิทินของโครงการ, หรือเอาออกเมื่อไม่จำเป็นอีกต่อไปในบทแนะนำนี้เราจะทำการสอบสวนทั้งหมดและข้อมูลไฟล์ในโปรแกรมตรวจสอบที่คุณตรวจสอบนี้ให้คุณเห็นอีกครั้งว่า **สร้างข้อยกเว้นปฏิทิน aspose** ทำอย่างไรใน Java
 
-### Quick Answers
-- **What does “create calendar exception” mean?** It means defining a date range that deviates from the standard working calendar.  
-- **Which library provides this capability?** Aspose.Tasks for Java.  
-- **Do I need a license to try it?** A free trial is available; a license is required for production use.  
-- **Can I remove an existing exception?** Yes—simply locate it in the calendar’s exception list and delete it.  
-- **Is this compatible with Microsoft Project files?** Absolutely; Aspose.Tasks reads and writes all major .mpp versions.
+### คำตอบด่วน
+- ** “สร้างข้อยกเว้นปฏิทิน” หมายความว่าอย่างไร** หมายถึงการกำหนดช่วงวันที่ที่แตกต่างจากปฏิทินการทำงานมาตรฐาน
+- **ไลบรารีใดที่มีความสามารถนี้** Aspose.Tasks สำหรับ Java
+- **ฉันต้องมีใบอนุญาตเพื่อทดลองใช้หรือไม่** มีการทดลองใช้ฟรี จำเป็นต้องมีใบอนุญาตสำหรับการใช้งานการผลิต
+- **ฉันสามารถลบข้อยกเว้นที่มีอยู่ได้หรือไม่** ได้—เพียงค้นหาข้อยกเว้นนั้นในรายการข้อยกเว้นของปฏิทินแล้วลบออก
+- **สิ่งนี้เข้ากันได้กับไฟล์ Microsoft Project หรือไม่** แน่นอน; Aspose.Tasks อ่านและเขียนเวอร์ชัน .mpp หลักทั้งหมด
 
-#### Prerequisites
-ก่อนเริ่มทำงาน ให้ตรวจสอบว่าคุณมี:
+#### ข้อกำหนดเบื้องต้น
+อีกครั้งหนึ่งเพื่อให้คุณฟัง:
 
-- Java Development Kit (JDK) ที่ติดตั้งแล้ว
-- ไลบรารี Aspose.Tasks for Java ที่เพิ่มเข้าไปใน classpath ของโปรเจกต์
+- Java Development Kit (JDK) ติดตั้งแล้ว
+- ไลบรารี Aspose.Tasks for Java ที่เพิ่มสำหรับ classpath ของโปรเจกต์
 - ความเข้าใจพื้นฐานเกี่ยวกับ Java และคำศัพท์ด้านการจัดการโครงการ
 
-## How to create calendar exception Aspose with Java
-ด้านล่างเป็นขั้นตอนแบบละเอียดที่อธิบายวัตถุประสงค์ของแต่ละโค้ดสแนปก่อนที่จะรัน ให้ทำตามลำดับนี้เพื่อให้แน่ใจว่าข้อยกเว้นของปฏิทินถูกจัดการอย่างถูกต้อง
+## วิธีสร้างข้อยกเว้นปฏิทิน Aspose ด้วย Java
+ด้านล่างเป็นขั้นตอนแบบละเอียดที่อธิบายไว้ในส่วนของโค้ดสแนปรันให้ทำในส่วนนี้ในกรณีของปฏิทินที่ถูกส่วนนั้น
 
-## Import Packages
+## แพคเกจนำเข้า
 เริ่มต้นด้วยการนำเข้าคลาสหลักของ Aspose.Tasks ที่ใช้ในการจัดการปฏิทิน
 
 ```java
 import com.aspose.tasks.*;
 ```
 
-## Step 1: Load the Project and Access Its Calendar
+## ขั้นตอนที่ 1: โหลดโปรเจ็กต์และเข้าถึงปฏิทินของโปรเจ็กต์
 เราจะโหลดไฟล์ Microsoft Project ที่มีอยู่ (`input.mpp`) และดึงปฏิทินแรกจากคอลเลกชัน คุณสามารถปรับดัชนีได้หากต้องการปฏิทินอื่น
 
 ```java
@@ -51,7 +51,7 @@ Project project = new Project(dataDir + "input.mpp");
 Calendar cal = project.getCalendars().toList().get(0);
 ```
 
-## Step 2: Remove an Existing Exception (If Needed)
+## ขั้นตอนที่ 2: ลบข้อยกเว้นที่มีอยู่ (ถ้าจำเป็น)
 บางครั้งปฏิทินอาจมีข้อยกเว้นอยู่แล้วที่คุณต้องการลบ โค้ดสแนปด้านล่างจะตรวจสอบรายการข้อยกเว้นและลบรายการแรกเมื่อมีมากกว่าหนึ่งรายการ
 
 ```java
@@ -61,9 +61,9 @@ if (cal.getExceptions().size() > 1) {
 }
 ```
 
-> **Pro tip:** Always verify the size of the exception list before removing items to avoid `IndexOutOfBoundsException`.
+> **เคล็ดลับ:** ตรวจสอบขนาดของรายการข้อยกเว้นก่อนลบรายการเสมอเพื่อหลีกเลี่ยง `IndexOutOfBoundsException`
 
-## Step 3: Create (Add) a New Calendar Exception
+## ขั้นตอนที่ 3: สร้าง (เพิ่ม) ข้อยกเว้นปฏิทินใหม่
 ตอนนี้เราจะ **create calendar exception** objects ตัวอย่างนี้กำหนดข้อยกเว้นที่ครอบคลุมวันที่ 1‑3 มกราคม 2009 ปรับวันที่ตามไทม์ไลน์ของโครงการของคุณ
 
 ```java
@@ -76,9 +76,9 @@ calExc.setToDate(calObject.getTime());
 cal.getExceptions().add(calExc);
 ```
 
-> **Why this matters:** Adding exceptions lets you model holidays, maintenance windows, or any non‑working periods directly in the project schedule. This is the core of **create calendar exception aspose** functionality.
+> **เหตุใดจึงสำคัญ:** การเพิ่มข้อยกเว้นช่วยให้คุณสามารถจำลองวันหยุด ช่วงเวลาการบำรุงรักษา หรือช่วงเวลาที่ไม่ทำงานใดๆ ได้โดยตรงในตารางเวลาของโปรเจ็กต์ นี่คือหัวใจหลักของฟังก์ชัน **สร้างข้อยกเว้นปฏิทิน**
 
-## Step 4: Display All Exceptions for Verification
+## ขั้นตอนที่ 4: แสดงข้อยกเว้นทั้งหมดเพื่อตรวจสอบ
 หลังจากเพิ่ม (หรือเอาออก) ข้อยกเว้นแล้ว การพิมพ์รายการทั้งหมดออกมาจะช่วยให้คุณยืนยันว่าปฏิทินสะท้อนการเปลี่ยนแปลงที่ต้องการ
 
 ```java
@@ -88,38 +88,39 @@ for (CalendarException calExc1 : cal.getExceptions()) {
 }
 ```
 
-## Common Issues & Solutions
-| Issue | Cause | Fix |
+## ปัญหาและวิธีแก้ไขที่พบบ่อย
+| ปัญหา | สาเหตุ | วิธีแก้ไข |
+
 |-------|-------|-----|
-| No output appears | Exceptions list is empty | Ensure you added an exception before iterating. |
-| `NullPointerException` on `project` | Incorrect file path | Verify `dataDir` points to a valid `.mpp` file. |
-| Dates are off by one day | Time‑zone differences | Use `java.util.Calendar` with explicit time zone or `java.time` API. |
+| ไม่มีผลลัพธ์ปรากฏ | รายการข้อยกเว้นว่างเปล่า | ตรวจสอบให้แน่ใจว่าคุณได้เพิ่มข้อยกเว้นก่อนวนซ้ำ |
+| `NullPointerException` บน `project` | เส้นทางไฟล์ไม่ถูกต้อง | ตรวจสอบว่า `dataDir` ชี้ไปยังไฟล์ `.mpp` ที่ถูกต้อง |
+| วันที่คลาดเคลื่อนไปหนึ่งวัน | ความแตกต่างของเขตเวลา | ใช้ `java.util.Calendar` พร้อมระบุเขตเวลาอย่างชัดเจน หรือใช้ API `java.time` |
 
-## Frequently Asked Questions
+## คำถามที่พบบ่อย
 
-**Q: Can I add multiple exceptions to a calendar using Aspose.Tasks for Java?**  
-A: Yes. Simply create a new `CalendarException` for each date range and add it to `cal.getExceptions()` inside a loop.
+**ถาม: ฉันสามารถเพิ่มข้อยกเว้นหลายรายการลงในปฏิทินโดยใช้ Aspose.Tasks สำหรับ Java ได้หรือไม่**
+ตอบ: ได้ เพียงแค่สร้าง `CalendarException` ใหม่สำหรับแต่ละช่วงวันที่ และเพิ่มลงใน `cal.getExceptions()` ภายในลูป
 
-**Q: Is Aspose.Tasks for Java compatible with all versions of Microsoft Project files?**  
-A: Aspose.Tasks supports a wide range of .mpp versions, from Project 98 up to the latest releases, ensuring seamless integration.
+**ถาม: Aspose.Tasks สำหรับ Java สามารถใช้งานร่วมกับไฟล์ Microsoft Project ทุกเวอร์ชันได้หรือไม่?**
+ตอบ: Aspose.Tasks รองรับไฟล์ .mpp หลายเวอร์ชัน ตั้งแต่ Project 98 จนถึงเวอร์ชันล่าสุด ทำให้สามารถทำงานร่วมกันได้อย่างราบรื่น
 
-**Q: How can I handle recurring exceptions (e.g., weekly meetings) in project calendars?**  
-A: Use the `CalendarException` recurrence properties (`setRecurrencePattern`) to define complex patterns such as daily, weekly, or monthly repeats.
+**ถาม: ฉันจะจัดการกับข้อยกเว้นที่เกิดขึ้นซ้ำๆ (เช่น การประชุมรายสัปดาห์) ในปฏิทินโครงการได้อย่างไร?**
+ตอบ: ใช้คุณสมบัติการเกิดซ้ำของ `CalendarException` (`setRecurrencePattern`) เพื่อกำหนดรูปแบบที่ซับซ้อน เช่น การเกิดซ้ำรายวัน รายสัปดาห์ หรือรายเดือน
 
-**Q: Is there a trial version available for Aspose.Tasks for Java?**  
-A: Yes, you can download a free trial from the [website](https://releases.aspose.com/) to explore all features before purchasing.
+**ถาม: มีเวอร์ชันทดลองใช้สำหรับ Aspose.Tasks สำหรับ Java หรือไม่?**
+ตอบ: มี คุณสามารถดาวน์โหลดเวอร์ชันทดลองใช้ฟรีได้จาก [เว็บไซต์](https://releases.aspose.com/) เพื่อสำรวจคุณสมบัติทั้งหมดก่อนซื้อ
 
-**Q: Where can I seek support for any issues or queries related to Aspose.Tasks for Java?**  
-A: Visit the Aspose.Tasks forum for Java on the [website](https://reference.aspose.com/tasks/java/) to ask questions, or contact Aspose support directly.
+**ถาม: ฉันจะขอรับการสนับสนุนสำหรับปัญหาหรือข้อสงสัยใดๆ ที่เกี่ยวข้องกับ Aspose.Tasks for Java ได้ที่ไหน**
+ตอบ: ไปที่ฟอรัม Aspose.Tasks สำหรับ Java บน [เว็บไซต์](https://reference.aspose.com/tasks/java/) เพื่อถามคำถาม หรือติดต่อฝ่ายสนับสนุนของ Aspose โดยตรง
 
-## Conclusion
-การจัดการ calendar exceptions เป็นสิ่งสำคัญสำหรับการกำหนดไทม์ไลน์โครงการและการวางแผนทรัพยากรอย่างเป็นจริง ด้วย **Aspose.Tasks for Java** คุณสามารถ **create calendar exception** objects, เพิ่มเข้าไปในปฏิทินของโครงการใดก็ได้, และลบออกเมื่อไม่จำเป็นอีกต่อไป—ทั้งหมดด้วยเพียงไม่กี่บรรทัดของโค้ด ความสามารถในการ **create calendar exception aspose** นี้ทำให้คุณสร้างตารางงานที่สะท้อนข้อจำกัดในโลกจริงได้อย่างแม่นยำ
+## บทสรุป
+ข้อยกเว้นของปฏิทินเป็นสิ่งสำคัญสำหรับการตรวจสอบไทม์ไลน์โครงการและความน่าเชื่อถืออย่างเป็นจริงด้วย **Aspose.Tasks for Java** ไม่เคย **สร้างข้อยกเว้นปฏิทิน** ออบเจ็กต์, เพิ่มปฏิทินของโครงการซอฟท์แวร์, และลบออกเมื่อไม่ต้องการอีกต่อไป— ทั้งหมดด้วยบรรทัดของเฟิร์มแวร์ **สร้างข้อยกเว้นของปฏิทิน aspose** ต้องทำการสร้างสถิติใหม่ในโลกแห่งความเป็นจริงอีกครั้ง
 
 ---
 
-**Last Updated:** 2026-01-28  
-**Tested With:** Aspose.Tasks for Java 24.11  
-**Author:** Aspose  
+**อัปเดตล่าสุด:** 28-01-2026
+**ทดสอบกับ:** Aspose.Tasks สำหรับ Java 24.11
+**ผู้เขียน:** สมมติ  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

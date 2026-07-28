@@ -101,23 +101,6 @@ Bu adımları izleyerek **Java’da bir MPP projesi oluşturmuş**, bir görev e
 - **LicenseException** – Üretim kullanımında, `Project` nesnesini oluşturmadan önce Aspose.Tasks lisansınızı yükleyin.  
 - **Incorrect Percent Value** – `percent` yöntemi 0 ile 100 arasında bir değer bekler; bu aralığın dışındaki sayılar bir istisna fırlatır.
 
-## Sıkça Sorulan Sorular
-
-### Aspose.Tasks tüm Java geliştirme ortamlarıyla uyumlu mu?
-Uyumluluğu sağlamak için belgelerdeki kurulum talimatlarını izleyin.
-
-### Bir projedeki birden fazla görev için ilerlemeyi izleyebilir miyim?
-İzlemek istediğiniz her görev için adımları tekrarlayın.
-
-### Aspose.Tasks for Java için deneme sürümü mevcut mu?
-Ücretsiz deneme sürümüne [buradan](https://releases.aspose.com/) ulaşabilirsiniz.
-
-### Aspose.Tasks for Java için ayrıntılı belgeleri nerede bulabilirim?
-Kapsamlı belgeleri [buradan](https://reference.aspose.com/tasks/java/) inceleyin.
-
-### Aspose.Tasks for Java için geçici bir lisans nasıl alabilirim?
-Geçici lisans sayfasını [buradan](https://purchase.aspose.com/temporary-license/) ziyaret edin.
-
 ## Ek SSS (AI‑Optimizeli)
 
 **S: MPP dosyası oluşturmak için hangi Aspose.Tasks sürümü gereklidir?**  
@@ -140,8 +123,6 @@ Java’da bir MPP projesi oluşturmak ve görev ilerlemesini yönetmek, Aspose.T
 
 ---
 
-{{< blocks/products/products-backtop-button >}}
-
 **Last Updated:** 2026-01-28  
 **Tested With:** Aspose.Tasks for Java 24.10  
 **Author:** Aspose  
@@ -150,3 +131,5 @@ Java’da bir MPP projesi oluşturmak ve görev ilerlemesini yönetmek, Aspose.T
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

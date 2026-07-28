@@ -14,10 +14,10 @@ weight: 11
 
 # プロジェクト カレンダー Aspose の作成 – カレンダー例外の平日を定義する
 
-### Introduction
+### はじめに
 **create project calendar aspose** が必要なときは、祝日や特別シフト、臨時休業といった標準外の稼働日をモデル化できなければなりません。Aspose.Tasks for Java はカレンダー定義をフルコントロールできる機能を提供し、実際のスケジュールを反映した例外を追加できます。本チュートリアルでは、カレンダー例外の平日を定義する具体的な手順を順を追って解説し、プロジェクトのタイムラインを正確かつ信頼できるものにします。最後には、あらゆるエンタープライズ プロジェクト向けの **non‑working days schedule** 戦略全体にどのように組み込むかも示します。
 
-## Quick Answers
+## よくある質問
 - **“create project calendar aspose” とは何ですか？**  
   Aspose.Tasks を使用して、タスクのスケジューリングを制御するカスタム カレンダー オブジェクトを作成することを指します。
 - **サンプルを実行するのにライセンスは必要ですか？**  
@@ -29,29 +29,29 @@ weight: 11
 - **プロジェクトを保存できるファイル形式は何ですか？**  
   XML、MPP、その他 Aspose.Tasks がサポートする多数の形式。
 
-## What is a Project Calendar in Aspose.Tasks?
+## Aspose.Tasks のプロジェクトカレンダーとは？
 **プロジェクト カレンダー** は、プロジェクトの稼働日と稼働時間を定義します。タスクの開始/終了日、リソース割り当て、全体のスケジュール計算に影響を与えます。カレンダーをカスタマイズすることで、会社の祝日や週末作業ポリシーなど、実際の制約をスケジュールに反映させることができます。
 
-## Why define weekdays for calendar exceptions?
+## カレンダー例外に曜日を定義する理由
 - **正確なタイムライン**：非稼働日としてマークされた日にはタスクがスケジュールされません。  
 - **リソース計画**：有効な稼働日のみでリソースが割り当てられます。  
 - **コンプライアンス**：組織の方針や法定祝日とスケジュールを合わせられます。
 
-## Non‑working Days Schedule with Calendar Exceptions
+## カレンダー例外を使用した非稼働日のスケジュール設定
 **non‑working days schedule** を管理する場合、祝日・メンテナンスウィンドウ・ブラックアウト期間などのマスタ一覧があります。これらの日付を `CalendarException` オブジェクトとして追加すれば、クリティカルパス分析やリソース平準化など、すべての計算が自動的にその制約を考慮します。この方法により手動での日付調整が不要になり、スケジュールのずれリスクが大幅に低減します。
 
-## Prerequisites
+## 前提条件
 開始する前に以下を用意してください。
 
 1. **Java Development Kit (JDK)** – バージョン 8 以上。  
 2. **Aspose.Tasks for Java** – 公式の [Aspose.Tasks Java ダウンロードページ](https://releases.aspose.com/tasks/java/) から取得。  
 3. **IDE** – IntelliJ IDEA、Eclipse、NetBeans、または Java 対応エディタ。
 
-## How to create project calendar aspose – Define weekdays for calendar exceptions
+## Aspose でプロジェクトカレンダーを作成する方法 – カレンダー例外に曜日を定義する
 
-### Step‑by‑Step Guide
+### ステップバイステップガイド
 
-### Step 1: Import Required Packages
+### ステップ 1: 必要なパッケージをインポートする
 カレンダー定義に必要な Aspose.Tasks のコアクラスと、日付処理用の Java `GregorianCalendar` をインポートします。
 
 ```java
@@ -59,28 +59,28 @@ import com.aspose.tasks.*;
 import java.util.GregorianCalendar;
 ```
 
-### Step 2: Define the Data Directory
+### ステップ 2: データディレクトリを定義する
 生成されたプロジェクト ファイルの保存先ディレクトリを指定します。
 
 ```java
 String dataDir = "Your Data Directory";
 ```
 
-### Step 3: Create a Project Instance
+### ステップ 3: プロジェクトインスタンスを作成する
 新しい `Project` オブジェクトをインスタンス化します。これがカレンダーを含むすべてのプロジェクト データのコンテナになります。
 
 ```java
 Project project = new Project();
 ```
 
-### Step 4: Define a Calendar
+### ステップ 4: カレンダーを定義する
 プロジェクトにカスタム カレンダーを追加します。このカレンダーが例外情報を保持します。
 
 ```java
 Calendar cal = project.getCalendars().add("Calendar1");
 ```
 
-### Step 5: Define Weekdays Exception
+### ステップ 5: 曜日例外を定義する
 例として、12 月最終週（**2009 年 12 月 24 日**〜**2009 年 12 月 31 日**）を非稼働日とする `CalendarException` を作成します。例外は日単位のタイプとして設定し、該当期間の作業を無効化します。
 
 ```java
@@ -93,21 +93,21 @@ except.setDayWorking(false);
 cal.getExceptions().add(except);
 ```
 
-### Step 6: Save the Project
+### ステップ 6: プロジェクトを保存する
 カスタム カレンダーとその例外を含むプロジェクトを XML ファイルとして永続化します。
 
 ```java
 project.save(dataDir + "project.xml", SaveFileFormat.Xml);
 ```
 
-## Common Issues and Solutions
-| Issue | Solution |
+## よくある問題と解決策
+| 問題 | 解決策 |
 |-------|----------|
 | **Exception dates not applied** | `setEnteredByOccurrences(false)` と正しい `FromDate/ToDate` の設定を確認してください。 |
 | **Saved file is empty** | `dataDir` が書き込み可能なフォルダーを指しているか、ファイル名が `.xml` で終わっているかを確認してください。 |
 | **Calendar not reflected in task scheduling** | タスクやリソースに `task.setCalendar(cal)` または `resource.setCalendar(cal)` でカレンダーを割り当てます。 |
 
-## Frequently Asked Questions
+## よくある質問
 
 **Q: 同じカレンダー内で異なる平日の例外を複数定義できますか？**  
 A: はい。`cal.getExceptions()` に対して追加の `CalendarException` オブジェクトをそれぞれの期間やルールごとに追加してください。
@@ -124,7 +124,7 @@ A: 例外オブジェクトをプログラムで生成します。たとえば�
 **Q: Aspose.Tasks for Java のトライアル版はありますか？**  
 A: はい、[Aspose.Tasks Java ダウンロードページ](https://releases.aspose.com/tasks/java/) から無料トライアルをダウンロードできます。
 
-## Conclusion
+## まとめ
 この手順に従うことで、**create project calendar aspose** を実現し、祝日や特別な非稼働期間を正確に反映した平日例外を定義できました。カレンダー設定は、現実的なスケジュール、リソース割り当て、プロジェクト全体の成功に不可欠です。カスタム カレンダーをタスクやリソースに適用したり、他の例外タイプを試したりして、あらゆるプロジェクト向けの包括的な **non‑working days schedule** を構築してください。
 
 ---

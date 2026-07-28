@@ -16,31 +16,31 @@ weight: 16
 
 # Kiterjesztett feladatattribútumok olvasása az Aspose.Tasks for Java segítségével
 
-## Introduction
-Ebben az átfogó oktatóanyagban megtanulja, hogyan **olvassa ki a kiterjesztett feladatattribútumokat** a Microsoft Project fájlokból az Aspose.Tasks Java könyvtár használatával. Akár jelentéskészítő eszközt épít, adatot szinkronizál, vagy egyszerűen csak mélyebb betekintést igényel az egyéni mezőkbe, ennek a funkciónak a elsajátítása lehetővé teszi, hogy minden, a projektben tárolt információt kinyerjen. Bemutatjuk a szükséges beállításokat, megmutatjuk, hogyan válthat egyéni mező típust az attribútumok feldolgozása során, és gyakorlati tippeket adunk a gyakori buktatók elkerüléséhez.
+## Bevezetés
+Ebben az átfogóoktatóanyagban megtanulja, hogyan **olvassa ki a kiterjesztett feladataitribútumokat** a Microsoft Project fájlokból az Aspose.Tasks Java könyvtárat használja. Akár jelentéskész eszközt épít, adatot szinkronizál, vagy egyszerűen csak mélyebb betekintést igényel az egyéni mezőkbe, ennek a funkciónak az elsajátításának lehetővé tétele teszi, hogy minden, a projektben tárolt információkat kinyerjen. Bemutatjuk a szükséges beállításokat, megmutatjuk, hogyan válthat egyéni mező típust az attribútumok feldolgozása során, és gyakorlati tippeket adunk a gyakori buktatók elkerüléséhez.
 
-## Quick Answers
-- **Mit jelent a „kiterjesztett feladatattribútumok olvasása”?** Ez a projektfájlban a alapértelmezett feladattulajdonságokon túlmutató egyéni mezőértékek kinyerését jelenti.  
-- **Melyik osztály biztosít hozzáférést ezekhez az attribútumokhoz?** Az `ExtendedAttribute` osztály az Aspose.Tasks-ben.  
-- **Szükségem van licencre a kód futtatásához?** Fejlesztéshez egy ingyenes próba verzió elegendő; a termeléshez kereskedelmi licenc szükséges.  
-- **Válthatok az attribútum típusát futásidőben?** Igen – használja a `switch` utasítást a **custom field type váltásához** a `CustomFieldType` alapján.  
-- **Kompatibilis ez a Java 8 és újabb verziókkal?** Teljesen, az API támogatja a JDK 8+ verziókat.
+## Gyors válaszok
+- **Mit jelent a „kiterjesztett feladatatribútumok”?** Ez a projektolvasási fájlban a telepített feladattulajdonságokon túlmutató egyéni mezőértékek kinyerését jelenti.
+- **Melyik osztály biztosít hozzáférést ezekhez az attribútumokhoz?** Az `ExtendedAttribute` osztály az Aspose.Tasks-ben.
+- **Szükségem van licencre a kód futtatásához?** Fejlesztéshez egy ingyenes próbaverzió elegendő; a termeléshez kereskedelmi licenc szükséges.
+- **Válthatok az attribútum típusát futásidőben?** Igen – használja az utasítást a `switch` a **custom field type váltásához** a `CustomFieldType` alapján.
+- **Kompatibilis ez a Java8 és újabb verziókkal?** Teljesen, az API támogatja a JDK8+ verziókat.
 
-## What is read extended task attributes?
-A kiterjesztett feladatattribútumok felhasználó által definiált mezők (szöveg, dátum, szám, jelző stb.), amelyek kiegészítik a Microsoft Project szabványos feladattulajdonságait. Az Aspose.Tasks a `ExtendedAttribute` gyűjteményen keresztül teszi elérhetővé ezeket, amely minden `Task` objektumhoz csatolva van, lehetővé téve az értékek programozott olvasását vagy módosítását.
+## Mi az a kiterjesztett feladat attribútumainak olvasása?
+A kiterjesztett feladattribútumok felhasználó által meghatározott mezők (szöveg, dátum, szám, jelző stb.), valamint kiegészítik a Microsoft Project szabványos feladattulajdonságait. Az Aspose.Tasks a `ExtendedAttribute` gyűjteményen keresztül teszi elérhetővé ezeket, amelyek minden `Task` objektumhoz csatolva van, lehetővé téve az értékek programozott olvasását vagy módosítását.
 
-## Why read extended task attributes?
-- **Teljes átláthatóság:** Megismerheti a projekt ütemtervéhez a résztvevők által hozzáadott egyéni adatokat.  
-- **Automatizálás:** Töltsön fel irányítópultokat, generáljon egyéni jelentéseket, vagy migrálja az adatokat más rendszerekbe manuális export nélkül.  
-- **Rugalmasság:** Bármilyen egyéni mezőtípus kezelhető – szöveg, dátum, időtartam, költség, jelző – a megfelelő esetek szerinti kezelés révén.
+## Miért érdemes a kiterjesztett feladat attribútumait olvasni?
+- **Teljes átláthatóság:** Megismerheti a projekt ütemtervéhez a résztvevők által hozzáadott egyéni adatokat.
+- **Automatizálás:** Töltsön fel irányítópultokat, generáljon egyéni jelentéseket, vagy migrálja az adatokat más rendszerekbe manuális export nélkül.
+- **Rugalmasság:** Bármilyen egyéni mezőtípus kezelhető – szöveg, dátum, határidő, költség, jelző – a megfelelő esetek szerinti kezelés révén.
 
-## Prerequisites
-Mielőtt elkezdenénk, győződjön meg róla, hogy rendelkezik:
-- Alapvető Java programozási ismeretekkel.  
-- Telepített Java Development Kit (JDK) környezettel.  
+## Előfeltételek
+Mielőtt elkezdenénk, g meg róla, hogy rendelkezik:
+- Alapvető Java programozási ismeretekkel.
+- Telepített Java Development Kit (JDK) környezettel.
 - Egy IDE-vel, például IntelliJ IDEA vagy Eclipse.
 
-## Import Packages
+## Csomagok importálása
 Kezdje a szükséges osztályok importálásával az Aspose.Tasks projekthez:
 
 ```java
@@ -50,7 +50,7 @@ import com.aspose.tasks.Project;
 import com.aspose.tasks.Task;
 ```
 
-## Step 1: Accessing Task and Extended Attributes
+## 1. lépés: Feladat és bővített attribútumok elérése
 Töltsön be egy Project fájlt, és iteráljon végig minden feladaton, hogy elérje azok kiterjesztett attribútumait:
 
 ```java
@@ -61,7 +61,7 @@ for (Task tsk : project.getRootTask().getChildren()) {
     for (ExtendedAttribute ea : tsk.getExtendedAttributes()) {
 ```
 
-## Step 2: Retrieving Field ID and Value GUID
+## 2. lépés: Mezőazonosító és érték GUID lekérése
 Írassa ki a belső azonosítókat, amelyek segítenek megérteni, melyik egyéni mezővel dolgozik:
 
 ```java
@@ -69,7 +69,7 @@ System.out.println(ea.getFieldId());
 System.out.println(ea.getValueGuid());
 ```
 
-## Step 3: How to switch custom field type when reading extended task attributes
+## 3. lépés: Egyéni mezőtípus váltása bővített feladatattribútumok olvasása közben
 Használjon `switch` utasítást a `CustomFieldType` alapján, hogy minden lehetséges adattípust helyesen kezeljen:
 
 ```java
@@ -97,34 +97,34 @@ switch (ea.getAttributeDefinition().getCfType()) {
 
 Ismételje meg ezeket a lépéseket minden feladatra a projektben, hogy felfedezze és manipulálja a kiterjesztett feladatattribútumokat.
 
-## Common Issues and Solutions
-| Issue | Solution |
-|-------|----------|
-| **Null values returned** | Ellenőrizze, hogy az egyéni mező valóban ki van-e töltve a forrás .mpp fájlban. |
-| **Incorrect type displayed** | Győződjön meg róla, hogy a `switch` utasításban a megfelelő `CustomFieldType`-ot használja; a nem egyező típusok alapértelmezett értékeket eredményeznek. |
-| **Performance slowdown on large projects** | Feldolgozza a feladatokat kötegekben, vagy szűrje csak a szükséges feladatokat a `project.getRootTask().getChildren().stream()` megfelelő predikátumokkal. |
+## Gyakori problémák és megoldások
+| Kiadás | Megoldás |
+|-------|-----------|
+| **Null értékek visszaadása** | hogy az egyéni mező valóban ki van-e töltve a forrás .mpp fájlban. |
+| **Nem megfelelő típus jelenik meg** | G mind meg róla, hogy a `switch` utasításban a megfelelő `CustomFieldType`-ot használja; a nem egyező típusok megállapított értékeket meghatároznak. |
+| **A nagy projektek teljesítményének lassulása** | Feldolgozza a feladatokat kötegekben, vagy csak a szükséges feladatokat a `project.getRootTask().getChildren().stream()` megfelelő predikátumokkal. |
 
-## Frequently Asked Questions
-### Can I modify extended task attributes programmatically?
-Igen, az Aspose.Tasks for Java segítségével módosíthatja a kiterjesztett feladatattribútumokat. Részletes útmutatásért tekintse meg a dokumentációt.
+## Gyakran Ismételt Kérdések
+### Módosíthatom a kiterjesztett feladat attribútumait programozottan?
+Igen, az Aspose.Tasks for Java segítségével módosíthatja a kiterjesztett feladattribútumokat. Részletes útmutatásért tekintse meg a dokumentációt.
 
-### Is there a trial version available?
-Igen, a ingyenes próbaverziót **[itt](https://releases.aspose.com/)** érheti el.
+### Elérhető próbaverzió?
+Igen, az ingyenes próbaverziót **[itt](https://releases.aspose.com/) ** érheti el.
 
-### Where can I find support for Aspose.Tasks for Java?
-Támogatásért látogasson el az **[Aspose.Tasks fórumra](https://forum.aspose.com/c/tasks/15)**.
+### Hol találok támogatást az Aspose.Tasks for Java számára?
+Támogatásért látogasson el az **[Aspose.Tasks fórumra](https://forum.aspose.com/c/tasks/15) **.
 
-### How can I obtain a temporary license?
-Ideiglenes licencet **[itt](https://purchase.aspose.com/temporary-license/)** szerezhet be.
+### Hogyan szerezhetek ideiglenes engedélyt?
+Ideiglenes licencet **[itt](https://purchase.aspose.com/temporary-license/) ** szerezhet be.
 
-### Where can I purchase the full version of Aspose.Tasks for Java?
-A teljes verziót **[itt](https://purchase.aspose.com/buy)** vásárolhatja meg.
+### Hol vásárolhatom meg az Aspose.Tasks for Java teljes verzióját?
+A teljes verziót **[itt](https://purchase.aspose.com/buy) ** vásárolhatja meg.
 
 ---
 
-**Last Updated:** 2026-01-28  
-**Tested With:** Aspose.Tasks Java API (latest stable release)  
-**Author:** Aspose  
+**Utolsó frissítés:** 2026. 01. 28
+**Tesztelve:** Aspose.Tasks Java API (legújabb stabil kiadás)
+**Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

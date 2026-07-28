@@ -108,19 +108,19 @@ project.save(dataDir + "project.xml", SaveFileFormat.Xml);
 
 ## 常见问题
 
-**Q: Can I define multiple exceptions for different weekdays within the same calendar?**  
+**问：我可以在同一日历中为不同的工作日定义多个异常吗？**  
 A: 是的。为每个不同的期间或规则向 `cal.getExceptions()` 添加额外的 `CalendarException` 对象。
 
-**Q: Is Aspose.Tasks for Java compatible with different Java IDEs?**  
+**问：Aspose.Tasks for Java 是否兼容不同的 Java IDE？**  
 A: 当然。该库可在 IntelliJ IDEA、Eclipse、NetBeans 以及任何支持标准 Java 项目的 IDE 中使用。
 
-**Q: Can I customize exception types other than daily exceptions?**  
+**问：除了每日异常之外，我还可以自定义其他异常类型吗？**  
 A: 可以。使用 `CalendarExceptionType.Weekly`、`Monthly` 或 `Yearly` 来满足您的调度需求。
 
-**Q: How can I handle exceptions dynamically based on project requirements?**  
+**问：如何根据项目需求动态处理异常？**  
 A: 以编程方式构建例外对象——例如，从数据库或配置文件读取假期日期，并在循环中创建 `CalendarException` 实例。
 
-**Q: Is there a trial version available for Aspose.Tasks for Java?**  
+**问：Aspose.Tasks for Java 是否有试用版？**  
 A: 是的，您可以从 [Aspose.Tasks Java download page](https://releases.aspose.com/tasks/java/) 下载免费试用版。
 
 ## 结论

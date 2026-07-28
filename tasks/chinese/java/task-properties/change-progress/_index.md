@@ -99,23 +99,6 @@ System.out.println(task.get(Tsk.PERCENT_COMPLETE));
 - **LicenseException** – 生产环境使用前，请在创建 `Project` 对象之前加载 Aspose.Tasks 许可证。  
 - **Incorrect Percent Value** – `percent` 方法要求值在 0 到 100 之间，超出范围会抛出异常。
 
-## 常见问答
-
-### Aspose.Tasks 是否兼容所有 Java 开发环境？
-请按照文档中的安装说明操作，以确保兼容性。
-
-### 我可以在项目中跟踪多个任务的进度吗？
-对每个需要监控的任务重复上述步骤即可。
-
-### 是否提供 Aspose.Tasks for Java 的试用版？
-可在此获取免费试用版 [here](https://releases.aspose.com/)。
-
-### 在哪里可以找到 Aspose.Tasks for Java 的详细文档？
-请访问完整文档 [here](https://reference.aspose.com/tasks/java/)。
-
-### 如何获取 Aspose.Tasks for Java 的临时许可证？
-请前往 [temporary license page](https://purchase.aspose.com/temporary-license/) 申请。
-
 ## 附加 FAQ（AI 优化）
 
 **Q: 创建 MPP 文件需要哪个版本的 Aspose.Tasks？**  
@@ -136,8 +119,6 @@ A: 在保存文件前调用 `project.setPassword("yourPassword");` 即可。
 ## 结论
 使用 Aspose.Tasks 这一专用的 **java project management library**，在 Java 中创建 MPP 项目并管理任务进度变得非常简单。掌握这些步骤后，您可以实现进度自动化生成、及时向利益相关者通报，并将项目数据集成到更大的企业工作流中。
 
-{{< blocks/products/products-backtop-button >}}
-
 **Last Updated:** 2026-01-28  
 **Tested With:** Aspose.Tasks for Java 24.10  
 **Author:** Aspose  
@@ -146,3 +127,5 @@ A: 在保存文件前调用 `project.setPassword("yourPassword");` 即可。
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

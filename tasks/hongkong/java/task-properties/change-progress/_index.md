@@ -99,23 +99,6 @@ System.out.println(task.get(Tsk.PERCENT_COMPLETE));
 - **LicenseException** – 正式環境使用時，請在建立 `Project` 物件前載入 Aspose.Tasks 授權。  
 - **Incorrect Percent Value** – `percent` 方法需要 0 到 100 之間的值，超出此範圍會拋出例外。  
 
-## 常見問與答
-
-### Aspose.Tasks 是否相容所有 Java 開發環境？
-請依照文件中的安裝說明，以確保相容性。
-
-### 我可以在專案中追蹤多個工作進度嗎？
-對每個想要監控的工作重複上述步驟即可。
-
-### 是否提供 Aspose.Tasks for Java 的試用版？
-可於此處取得免費試用版 [here](https://releases.aspose.com/).
-
-### 哪裡可以找到 Aspose.Tasks for Java 的詳細文件？
-請於此處查閱完整文件 [here](https://reference.aspose.com/tasks/java/).
-
-### 如何取得 Aspose.Tasks for Java 的臨時授權？
-請前往 [temporary license page](https://purchase.aspose.com/temporary-license/).
-
 ## 其他常見問答（AI 優化）
 
 **Q: 建立 MPP 檔案需要哪個版本的 Aspose.Tasks？**  
@@ -138,8 +121,6 @@ A: 在儲存檔案前使用 `project.setPassword("yourPassword");`。
 
 ---
 
-{{< blocks/products/products-backtop-button >}}
-
 **Last Updated:** 2026-01-28  
 **Tested With:** Aspose.Tasks for Java 24.10  
 **Author:** Aspose  
@@ -148,3 +129,5 @@ A: 在儲存檔案前使用 `project.setPassword("yourPassword");`。
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

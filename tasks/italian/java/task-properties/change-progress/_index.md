@@ -101,22 +101,6 @@ Seguendo questi passaggi hai creato con successo un **progetto MPP in Java**, ag
 - **LicenseException** – Per l'uso in produzione, carica la licenza Aspose.Tasks prima di creare l'oggetto `Project`.  
 - **Valore percentuale errato** – Il metodo `percent` si aspetta un valore compreso tra 0 e 100; passare numeri fuori da questo intervallo genererà un'eccezione.
 
-## Domande frequenti
-### Aspose.Tasks è compatibile con tutti gli ambienti di sviluppo Java?
-Assicura la compatibilità seguendo le istruzioni di installazione nella documentazione.
-
-### Posso monitorare l'avanzamento di più attività all'interno di un progetto?
-Replica i passaggi per ogni attività che desideri monitorare.
-
-### È disponibile una versione di prova per Aspose.Tasks per Java?
-Accedi alla versione di prova gratuita [qui](https://releases.aspose.com/).
-
-### Dove posso trovare la documentazione dettagliata per Aspose.Tasks per Java?
-Esplora la documentazione completa [qui](https://reference.aspose.com/tasks/java/).
-
-### Come posso ottenere una licenza temporanea per Aspose.Tasks per Java?
-Visita la [pagina della licenza temporanea](https://purchase.aspose.com/temporary-license/).
-
 ## FAQ aggiuntive (ottimizzate AI)
 
 **Q: Quale versione di Aspose.Tasks è necessaria per creare un file MPP?**  
@@ -139,8 +123,6 @@ Creare un progetto MPP in Java e gestire l'avanzamento delle attività è sempli
 
 ---
 
-{{< blocks/products/products-backtop-button >}}
-
 **Last Updated:** 2026-01-28  
 **Tested With:** Aspose.Tasks for Java 24.10  
 **Author:** Aspose  
@@ -149,3 +131,5 @@ Creare un progetto MPP in Java e gestire l'avanzamento delle attività è sempli
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

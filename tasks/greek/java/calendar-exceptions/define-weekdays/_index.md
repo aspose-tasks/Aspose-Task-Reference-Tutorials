@@ -54,7 +54,7 @@ weight: 11
 
 ### Οδηγός Βήμα‑Βήμα
 
-### Step 1: Import Required Packages
+### Βήμα 1: Εισαγωγή Απαιτούμενων Πακέτων
 Χρειαζόμαστε τις βασικές κλάσεις του Aspose.Tasks και το `GregorianCalendar` της Java για τη διαχείριση ημερομηνιών.
 
 ```java
@@ -62,28 +62,28 @@ import com.aspose.tasks.*;
 import java.util.GregorianCalendar;
 ```
 
-### Step 2: Define the Data Directory
+### Βήμα 2: Ορισμός του Καταλόγου Δεδομένων
 Καθορίστε πού θα αποθηκευτεί το παραγόμενο αρχείο έργου.
 
 ```java
 String dataDir = "Your Data Directory";
 ```
 
-### Step 3: Create a Project Instance
+### Βήμα 3: Δημιουργία μιας Παρουσίασης Έργου
 Δημιουργήστε ένα νέο αντικείμενο `Project` – αυτό είναι το δοχείο για όλα τα δεδομένα του έργου, συμπεριλαμβανομένων των ημερολογίων.
 
 ```java
 Project project = new Project();
 ```
 
-### Step 4: Define a Calendar
+### Βήμα 4: Ορισμός Ημερολογίου
 Προσθέστε ένα προσαρμοσμένο ημερολόγιο στο έργο. Αυτό το ημερολόγιο θα περιέχει τις εξαιρέσεις μας.
 
 ```java
 Calendar cal = project.getCalendars().add("Calendar1");
 ```
 
-### Step 5: Define Weekdays Exception
+### Βήμα 5: Ορισμός Εξαίρεσης Ημερών Εργασίας
 Δημιουργήστε ένα `CalendarException` που σηματοδοτεί μια σειρά ημερών (π.χ. την τελευταία εβδομάδα του Δεκεμβρίου) ως μη‑εργάσιμες.  
 Το παράδειγμα ορίζει την εξαίρεση από **24 Dec 2009** έως **31 Dec 2009**, απενεργοποιεί την εργασία για αυτές τις ημέρες και αντιμετωπίζει την εξαίρεση ως τύπο daily.
 
@@ -97,7 +97,7 @@ except.setDayWorking(false);
 cal.getExceptions().add(except);
 ```
 
-### Step 6: Save the Project
+### Βήμα 6: Αποθήκευση του Έργου
 Αποθηκεύστε το έργο, συμπεριλαμβανομένου του προσαρμοσμένου ημερολογίου και της εξαίρεσής του, σε αρχείο XML.
 
 ```java
@@ -105,28 +105,28 @@ project.save(dataDir + "project.xml", SaveFileFormat.Xml);
 ```
 
 ## Κοινά Προβλήματα και Λύσεις
-| Issue | Solution |
+| Πρόβλημα | Λύση |
 |-------|----------|
-| **Exception dates not applied** | Ensure `setEnteredByOccurrences(false)` and correct `FromDate/ToDate` values. |
-| **Saved file is empty** | Verify `dataDir` points to a writable folder and the filename ends with `.xml`. |
-| **Calendar not reflected in task scheduling** | Assign the calendar to tasks or resources using `task.setCalendar(cal)` or `resource.setCalendar(cal)`. |
+| **Δεν έχουν εφαρμοστεί ημερομηνίες εξαίρεσης** | Βεβαιωθείτε ότι το `setEnteredByOccurrences(false)` και οι σωστές τιμές `FromDate/ToDate`. |
+| **Το αποθηκευμένο αρχείο είναι κενό** | Επαληθεύστε ότι το `dataDir` δείχνει σε έναν εγγράψιμο φάκελο και ότι το όνομα αρχείου τελειώνει σε `.xml`. |
+| **Το ημερολόγιο δεν αντικατοπτρίζεται στον προγραμματισμό εργασιών** | Αντιστοιχίστε το ημερολόγιο σε εργασίες ή πόρους χρησιμοποιώντας το `task.setCalendar(cal)` ή το `resource.setCalendar(cal)`. |
 
 ## Συχνές Ερωτήσεις
 
-**Q: Can I define multiple exceptions for different weekdays within the same calendar?**  
-A: Yes. Add additional `CalendarException` objects to `cal.getExceptions()` for each distinct period or rule.
+**Ε: Μπορώ να ορίσω πολλαπλές εξαιρέσεις για διαφορετικές ημέρες της εβδομάδας μέσα στο ίδιο ημερολόγιο;**
+A: Ναι. Προσθέστε επιπλέον αντικείμενα `CalendarException` στο `cal.getExceptions()` για κάθε ξεχωριστή περίοδο ή κανόνα.
 
-**Q: Is Aspose.Tasks for Java compatible with different Java IDEs?**  
-A: Absolutely. The library works with IntelliJ IDEA, Eclipse, NetBeans, and any IDE that supports standard Java projects.
+**Ε: Είναι το Aspose.Tasks για Java συμβατό με διαφορετικά IDE Java;**
+Α: Απολύτως. Η βιβλιοθήκη λειτουργεί με IntelliJ IDEA, Eclipse, NetBeans και οποιοδήποτε IDE που υποστηρίζει τυπικά έργα Java.
 
-**Q: Can I customize exception types other than daily exceptions?**  
-A: Yes. Use `CalendarExceptionType.Weekly`, `Monthly`, or `Yearly` to suit your scheduling needs.
+**Ε: Μπορώ να προσαρμόσω τύπους εξαιρέσεων εκτός από τις καθημερινές εξαιρέσεις;**
+Α: Ναι. Χρησιμοποιήστε `CalendarExceptionType.Weekly`, `Monthly` ή `Yearly` για να ταιριάξετε τις ανάγκες προγραμματισμού σας.
 
-**Q: How can I handle exceptions dynamically based on project requirements?**  
-A: Build the exception objects programmatically—e.g., read holiday dates from a database or configuration file and create `CalendarException` instances in a loop.
+**Ε: Πώς μπορώ να χειριστώ δυναμικά τις εξαιρέσεις με βάση τις απαιτήσεις του έργου;**
+Α: Δημιουργήστε τα αντικείμενα εξαιρέσεων μέσω προγραμματισμού—π.χ., διαβάστε ημερομηνίες αργιών από μια βάση δεδομένων ή αρχείο διαμόρφωσης και δημιουργήστε στιγμιότυπα `CalendarException` σε έναν βρόχο.
 
-**Q: Is there a trial version available for Aspose.Tasks for Java?**  
-A: Yes, you can download a free trial from the [Aspose.Tasks Java download page](https://releases.aspose.com/tasks/java/).
+**Ε: Υπάρχει διαθέσιμη δοκιμαστική έκδοση για το Aspose.Tasks για Java;**
+Α: Ναι, μπορείτε να κατεβάσετε μια δωρεάν δοκιμαστική έκδοση από τη [σελίδα λήψης του Aspose.Tasks Java](https://releases.aspose.com/tasks/java/).
 
 ## Συμπέρασμα
 Ακολουθώντας αυτά τα βήματα, τώρα ξέρετε πώς να **create project calendar aspose** και να ορίσετε εξαιρέσεις ημερών εβδομάδας που αντανακλούν ακριβώς αργίες ή ειδικές μη‑εργατικές περιόδους. Η σωστή διαμόρφωση του ημερολογίου είναι ουσιώδης για ρεαλιστικά χρονοδιαγράμματα, κατανομή πόρων και συνολική επιτυχία του έργου. Εξερευνήστε περαιτέρω συνδέοντας το προσαρμοσμένο ημερολόγιο με εργασίες ή πόρους και πειραματιστείτε με άλλους τύπους εξαιρέσεων για να δημιουργήσετε ένα ολοκληρωμένο **non‑working days schedule** για οποιοδήποτε έργο.

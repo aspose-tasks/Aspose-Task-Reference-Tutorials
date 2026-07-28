@@ -108,16 +108,16 @@ Bu adımları projenizdeki her görev için tekrarlayarak tüm genişletilmiş g
 Evet, Aspose.Tasks for Java ile genişletilmiş görev niteliklerini değiştirebilirsiniz. Ayrıntılı talimatlar için dokümantasyona bakın.
 
 ### Deneme sürümü mevcut mu?
-Evet, ücretsiz deneme sürümüne **[buradan](https://releases.aspose.com/)** ulaşabilirsiniz.
+Evet, ücretsiz deneme sürümüne **[buradan](https://releases.aspose.com/) ** ulaşabilirsiniz.
 
 ### Aspose.Tasks for Java için destek nereden alınır?
-Destek için **[Aspose.Tasks forumunu](https://forum.aspose.com/c/tasks/15)** ziyaret edin.
+Destek için **[Aspose.Tasks forumunu](https://forum.aspose.com/c/tasks/15) ** ziyaret edin.
 
 ### Geçici bir lisans nasıl alınır?
-Geçici lisansı **[buradan](https://purchase.aspose.com/temporary-license/)** temin edebilirsiniz.
+Geçici lisansı **[buradan](https://purchase.aspose.com/temporary-license/) ** temin edebilirsiniz.
 
 ### Aspose.Tasks for Java tam sürümü nereden satın alınır?
-Tam sürümü **[buradan](https://purchase.aspose.com/buy)** satın alabilirsiniz.
+Tam sürümü **[buradan](https://purchase.aspose.com/buy) ** satın alabilirsiniz.
 
 ---
 

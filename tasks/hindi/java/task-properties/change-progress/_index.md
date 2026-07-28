@@ -101,22 +101,6 @@ System.out.println(task.get(Tsk.PERCENT_COMPLETE));
 - **LicenseException** – उत्पादन उपयोग के लिए `Project` ऑब्जेक्ट बनाने से पहले अपना Aspose.Tasks लाइसेंस लोड करें।  
 - **Incorrect Percent Value** – `percent` मेथड 0 से 100 के बीच मान की अपेक्षा करता है; इस रेंज से बाहर का नंबर पास करने पर एक्सेप्शन फेंका जाएगा।
 
-## अक्सर पूछे जाने वाले प्रश्न
-### क्या Aspose.Tasks सभी Java विकास वातावरणों के साथ संगत है?
-डॉक्यूमेंटेशन में दी गई इंस्टॉलेशन निर्देशों का पालन करके संगतता सुनिश्चित करें।
-
-### क्या मैं प्रोजेक्ट में कई टास्क की प्रोग्रेस ट्रैक कर सकता हूँ?
-जिस प्रत्येक टास्क की निगरानी करना चाहते हैं, उसके लिए इन चरणों को दोहराएँ।
-
-### क्या Aspose.Tasks for Java का ट्रायल संस्करण उपलब्ध है?
-मुफ़्त ट्रायल संस्करण यहाँ प्राप्त करें [यहाँ](https://releases.aspose.com/).
-
-### Aspose.Tasks for Java की विस्तृत डॉक्यूमेंटेशन कहाँ मिल सकती है?
-सम्पूर्ण डॉक्यूमेंटेशन यहाँ देखें [यहाँ](https://reference.aspose.com/tasks/java/).
-
-### Aspose.Tasks for Java के लिए अस्थायी लाइसेंस कैसे प्राप्त करें?
-[अस्थायी लाइसेंस पेज](https://purchase.aspose.com/temporary-license/) पर जाएँ।
-
 ## अतिरिक्त FAQ (AI‑Optimized)
 
 **प्रश्न: MPP फ़ाइल बनाने के लिए Aspose.Tasks का कौन सा संस्करण आवश्यक है?**  
@@ -139,8 +123,6 @@ Aspose.Tasks, एक समर्पित **java project management library**, 
 
 ---
 
-{{< blocks/products/products-backtop-button >}}
-
 **अंतिम अपडेट:** 2026-01-28  
 **परीक्षित संस्करण:** Aspose.Tasks for Java 24.10  
 **लेखक:** Aspose  
@@ -149,3 +131,5 @@ Aspose.Tasks, एक समर्पित **java project management library**, 
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

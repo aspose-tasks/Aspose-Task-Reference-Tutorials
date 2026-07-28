@@ -108,16 +108,16 @@ switch (ea.getAttributeDefinition().getCfType()) {
 हां, आप Aspose.Tasks for Java का उपयोग करके विस्तारित टास्क एट्रिब्यूट्स को संशोधित कर सकते हैं। विस्तृत निर्देशों के लिए दस्तावेज़ देखें।
 
 ### क्या कोई ट्रायल संस्करण उपलब्ध है?
-हां, आप मुफ्त ट्रायल **[यहाँ](https://releases.aspose.com/)** प्राप्त कर सकते हैं।
+हां, आप मुफ्त ट्रायल **[यहाँ](https://releases.aspose.com/) ** प्राप्त कर सकते हैं।
 
 ### Aspose.Tasks for Java के लिए सपोर्ट कहाँ मिल सकता है?
-सपोर्ट के लिए, **[Aspose.Tasks फ़ोरम](https://forum.aspose.com/c/tasks/15)** पर जाएँ।
+सपोर्ट के लिए, **[Aspose.Tasks फ़ोरम](https://forum.aspose.com/c/tasks/15) ** पर जाएँ।
 
 ### अस्थायी लाइसेंस कैसे प्राप्त करें?
-आप अस्थायी लाइसेंस **[यहाँ](https://purchase.aspose.com/temporary-license/)** से प्राप्त कर सकते हैं।
+आप अस्थायी लाइसेंस **[यहाँ](https://purchase.aspose.com/temporary-license/) ** से प्राप्त कर सकते हैं।
 
 ### Aspose.Tasks for Java का पूर्ण संस्करण कहाँ खरीदें?
-आप पूर्ण संस्करण **[यहाँ](https://purchase.aspose.com/buy)** से खरीद सकते हैं।
+आप पूर्ण संस्करण **[यहाँ](https://purchase.aspose.com/buy) ** से खरीद सकते हैं।
 
 ---
 

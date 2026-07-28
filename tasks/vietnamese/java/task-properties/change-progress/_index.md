@@ -101,23 +101,6 @@ Bằng cách làm theo các bước này, bạn đã thành công **tạo một 
 - **LicenseException** – Đối với môi trường sản xuất, tải giấy phép Aspose.Tasks của bạn trước khi tạo đối tượng `Project`.  
 - **Incorrect Percent Value** – Phương thức `percent` yêu cầu giá trị trong khoảng 0 đến 100; truyền số ngoài phạm vi này sẽ gây ra ngoại lệ.
 
-## Câu hỏi thường gặp
-
-### Aspose.Tasks có tương thích với mọi môi trường phát triển Java không?
-Đảm bảo tính tương thích bằng cách làm theo hướng dẫn cài đặt trong tài liệu.
-
-### Tôi có thể theo dõi tiến độ cho nhiều nhiệm vụ trong một dự án không?
-Lặp lại các bước cho mỗi nhiệm vụ bạn muốn giám sát.
-
-### Có phiên bản dùng thử cho Aspose.Tasks for Java không?
-Truy cập phiên bản dùng thử miễn phí [tại đây](https://releases.aspose.com/).
-
-### Tôi có thể tìm tài liệu chi tiết cho Aspose.Tasks for Java ở đâu?
-Khám phá tài liệu toàn diện [tại đây](https://reference.aspose.com/tasks/java/).
-
-### Làm thế nào để tôi có được giấy phép tạm thời cho Aspose.Tasks for Java?
-Truy cập trang [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
-
 ## Câu hỏi bổ sung (AI‑Tối ưu)
 
 **Q: Phiên bản Aspose.Tasks nào cần thiết để tạo tệp MPP?**  
@@ -140,8 +123,6 @@ Việc tạo một dự án MPP trong Java và quản lý tiến độ nhiệm v
 
 ---
 
-{{< blocks/products/products-backtop-button >}}
-
 **Last Updated:** 2026-01-28  
 **Tested With:** Aspose.Tasks for Java 24.10  
 **Author:** Aspose  
@@ -150,3 +131,5 @@ Việc tạo một dự án MPP trong Java và quản lý tiến độ nhiệm v
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
