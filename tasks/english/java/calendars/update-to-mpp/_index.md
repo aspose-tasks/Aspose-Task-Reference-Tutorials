@@ -1,40 +1,40 @@
 ---
-title: Create Calendar MS Project and Save as MPP with Aspose.Tasks
+title: Add Holidays to Calendar and Save as MPP with Aspose.Tasks
 linktitle: Update Calendar to MPP Format in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: Learn how to create calendar MS Project, convert project to MPP, and save project MPP effortlessly using Aspose.Tasks for Java.
+description: Learn how to add holidays to a calendar, assign the calendar to a project, and save the MS Project file as MPP using Aspose.Tasks for Java.
 weight: 16
 url: /java/calendars/update-to-mpp/
-date: 2025-12-03
+date: 2026-02-05
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Create Calendar MS Project and Save as MPP with Aspose.Tasks
+# Add Holidays to Calendar and Save as MPP with Aspose.Tasks
 
 ## Introduction
 
-In modern project management you often need to **create calendar MS Project** files and then share them in the native MPP format. Whether you’re consolidating schedules from multiple sources or migrating legacy data, being able to generate a calendar programmatically saves time and eliminates manual errors. This tutorial walks you through the complete process of creating a calendar in MS Project, customizing it, and finally **convert[ing] project to MPP** using the Aspose.Tasks Java API.
+In modern project management you often need to **add holidays to calendar** files, create a **MS Project calendar**, and then share the schedule in the native MPP format. Whether you’re consolidating timelines from multiple sources or migrating legacy data, generating a calendar programmatically eliminates manual errors and speeds up delivery. This tutorial walks you through the complete process of creating a calendar in MS Project, customizing it with holidays, **assign calendar to project**, and finally **convert project to MPP** using the Aspose.Tasks Java API.
 
 ## Quick Answers
-- **What does this tutorial cover?** Creating a calendar in MS Project and saving it as an MPP file with Aspose.Tasks for Java.  
+- **What does this tutorial cover?** Adding holidays to a calendar, assigning it to a project, and saving the result as an MPP file with Aspose.Tasks for Java.  
 - **Do I need a license?** A free trial works for development; a commercial license is required for production.  
 - **Which Java version is required?** Java 8 or higher (JDK 8+).  
 - **Can I customize the calendar?** Yes – you can add working times, exceptions, and holidays.  
-- **How long does implementation take?** About 10‑15 minutes for a basic calendar.
+- **How long does implementation take?** About 10‑15 minutes for a basic calendar.  
 
 ## What is “create calendar MS Project”?
 
-Creating a calendar MS Project means programmatically defining the working days, hours, and exceptions that drive task scheduling within a Microsoft Project file. By using Aspose.Tasks you can build, modify, and persist these calendars without ever opening the Microsoft Project UI.
+Creating a calendar MS Project means programmatically defining the working days, hours, and exceptions that drive task scheduling within a Microsoft Project file. By using Aspose.Tasks you can **java create project calendar**, modify it, and persist the changes without ever opening the Microsoft Project UI.
 
 ## Why use Aspose.Tasks for this task?
 
 - **Full .NET/Java compatibility** – works on any platform that supports Java.  
-- **No COM or Office installation needed** – ideal for server‑side automation.  
+- **No COM or Office installation needed** – ideal for server‑side automation and **automate schedule generation**.  
 - **Rich API** – supports every calendar property, including custom work weeks and holidays.  
-- **Direct MPP output** – you can **save project MPP** without intermediate conversions.
+- **Direct MPP output** – you can **save project as MPP** without intermediate conversions.
 
 ## Prerequisites
 
@@ -43,7 +43,9 @@ Creating a calendar MS Project means programmatically defining the working d
 3. **IDE** – IntelliJ IDEA, Eclipse, or any editor you prefer.  
 4. **Basic Java knowledge** – familiarity with classes, methods, and file I/O.
 
-## Step‑by‑Step Guide
+## How to Add Holidays to Calendar
+
+Below we walk through each step, from setting up the environment to persisting the final MPP file. The code blocks are unchanged from the original tutorial; the surrounding explanations have been expanded for clarity.
 
 ### Step 1: Import Required Packages
 
@@ -90,7 +92,7 @@ If you need specific working times, holidays, or exceptions, call your own helpe
 GetTestCalendar(cal1); // Additional method for customizing calendar if required
 ```
 
-> **Pro tip:** You can directly manipulate `cal1.getWeekDays()` to set working hours for each day of the week.
+> **Pro tip:** You can directly manipulate `cal1.getWeekDays()` to set working hours for each day of the week, or use `cal1.getExceptions()` to **add holidays to calendar**.
 
 ### Step 6: Assign the Calendar to the Project
 
@@ -149,7 +151,7 @@ A: Temporary licenses can be requested via the Aspose website [here](https://pur
 
 ---
 
-**Last Updated:** 2025-12-03  
+**Last Updated:** 2026-02-05  
 **Tested With:** Aspose.Tasks for Java 24.12  
 **Author:** Aspose  
 

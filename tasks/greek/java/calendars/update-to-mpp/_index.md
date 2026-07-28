@@ -1,11 +1,11 @@
 ---
-date: 2025-12-03
-description: Μάθετε πώς να δημιουργείτε ημερολόγιο στο MS Project, να μετατρέπετε
-  το έργο σε MPP και να αποθηκεύετε το MPP του έργου εύκολα χρησιμοποιώντας το Aspose.Tasks
+date: 2026-02-05
+description: Μάθετε πώς να προσθέτετε αργίες σε ένα ημερολόγιο, να αναθέτετε το ημερολόγιο
+  σε ένα έργο και να αποθηκεύετε το αρχείο MS Project ως MPP χρησιμοποιώντας το Aspose.Tasks
   για Java.
 linktitle: Update Calendar to MPP Format in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: Δημιουργία ημερολογίου MS Project και αποθήκευση ως MPP με το Aspose.Tasks
+title: Προσθήκη αργιών στο ημερολόγιο και αποθήκευση ως MPP με Aspose.Tasks
 url: /el/java/calendars/update-to-mpp/
 weight: 16
 ---
@@ -14,42 +14,44 @@ weight: 16
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Δημιουργία Ημερολογίου MS Project και Αποθήκευση ως MPP με Aspose.Tasks
+# Προσθήκη αργιών στο ημερολόγιο και αποθήκευση ως MPP με Aspose.Tasks
 
-## Εισαγωγή
+## Introduction
 
-Στη σύγχρονη διαχείριση έργων συχνά χρειάζεται να **δημιουργήσετε αρχεία ημερολογίου MS Project** και στη συνέχεια να τα μοιραστείτε σε μορφή MPP. Είτε ενοποιείτε χρονοδιαγράμματα από πολλαπλές πηγές είτε μεταφέρετε κληρονομικά δεδομένα, η δυνατότητα δημιουργίας ημερολογίου προγραμματιστικά εξοικονομεί χρόνο και εξαλείφει τα χειροκίνητα σφάλματα. Αυτό το tutorial σας οδηγεί στη διαδικασία δημιουργίας ημερολογίου στο MS Project, την προσαρμογή του και, τέλος, **μετατροπή του έργου σε MPP** χρησιμοποιώντας το Aspose.Tasks Java API.
+Στη σύγχρονη διαχείριση έργων συχνά χρειάζεται να **add holidays to calendar** αρχεία, να δημιουργήσετε ένα **MS Project calendar**, και στη συνέχεια να μοιραστείτε το χρονοδιάγραμμα σε μορφή MPP. Είτε ενοποιείτε χρονοδιαγράμματα από πολλές πηγές είτε μεταφέρετε παλαιά δεδομένα, η δημιουργία ημερολογίου προγραμματιστικά εξαλείφει τα χειροκίνητα σφάλματα και επιταχύνει την παράδοση. Αυτό το tutorial σας καθοδηγεί μέσα από τη διαδικασία δημιουργίας ημερολογίου στο MS Project, προσαρμογής του με αργίες, **assign calendar to project**, και τελικά **convert project to MPP** χρησιμοποιώντας το Aspose.Tasks Java API.
 
-## Γρήγορες Απαντήσεις
-- **Τι καλύπτει αυτό το tutorial;** Δημιουργία ημερολογίου σε MS Project και αποθήκευση ως αρχείο MPP με Aspose.Tasks για Java.  
-- **Χρειάζομαι άδεια;** Μια δωρεάν δοκιμή λειτουργεί για ανάπτυξη· απαιτείται εμπορική άδεια για παραγωγή.  
-- **Ποια έκδοση Java απαιτείται;** Java 8 ή νεότερη (JDK 8+).  
-- **Μπορώ να προσαρμόσω το ημερολόγιο;** Ναι – μπορείτε να προσθέσετε ώρες εργασίας, εξαιρέσεις και αργίες.  
-- **Πόσο διαρκεί η υλοποίηση;** Περίπου 10‑15 λεπτά για ένα βασικό ημερολόγιο.
+## Quick Answers
+- **What does this tutorial cover?** Adding holidays to a calendar, assigning it to a project, and saving the result as an MPP file with Aspose.Tasks for Java.  
+- **Do I need a license?** A free trial works for development; a commercial license is required for production.  
+- **Which Java version is required?** Java 8 or higher (JDK 8+).  
+- **Can I customize the calendar?** Yes – you can add working times, exceptions, and holidays.  
+- **How long does implementation take?** About 10‑15 minutes for a basic calendar.  
 
-## Τι είναι το “create calendar MS Project”?
+## What is “create calendar MS Project”?
 
-Η δημιουργία ημερολογίου MS Project σημαίνει τον προγραμματισμό του ορισμού των εργάσιμων ημερών, ωρών και εξαιρέσεων που καθορίζουν τον προγραμματισμό των εργασιών μέσα σε ένα αρχείο Microsoft Project. Χρησιμοποιώντας το Aspose.Tasks μπορείτε να δημιουργήσετε, να τροποποιήσετε και να αποθηκεύσετε αυτά τα ημερολόγια χωρίς ποτέ να ανοίξετε το UI του Microsoft Project.
+Η δημιουργία ενός **calendar MS Project** σημαίνει τον προγραμματιστικό ορισμό των εργάσιμων ημερών, ωρών και εξαιρέσεων που καθορίζουν τον προγραμματισμό των εργασιών μέσα σε ένα αρχείο Microsoft Project. Με τη χρήση του Aspose.Tasks μπορείτε να **java create project calendar**, να το τροποποιήσετε και να αποθηκεύσετε τις αλλαγές χωρίς ποτέ να ανοίξετε το UI του Microsoft Project.
 
-## Γιατί να χρησιμοποιήσετε Aspose.Tasks για αυτήν την εργασία;
+## Why use Aspose.Tasks for this task?
 
-- **Πλήρης συμβατότητα .NET/Java** – λειτουργεί σε οποιαδήποτε πλατφόρμα υποστηρίζει Java.  
-- **Χωρίς ανάγκη COM ή εγκατάστασης Office** – ιδανικό για αυτοματοποίηση στο διακομιστή.  
-- **Πλούσιο API** – υποστηρίζει κάθε ιδιότητα ημερολογίου, συμπεριλαμβανομένων προσαρμοσμένων εβδομάδων εργασίας και αργιών.  
-- **Άμεση έξοδος MPP** – μπορείτε να **αποθηκεύσετε το έργο ως MPP** χωρίς ενδιάμεσες μετατροπές.
+- **Full .NET/Java compatibility** – works on any platform that supports Java.  
+- **No COM or Office installation needed** – ideal for server‑side automation and **automate schedule generation**.  
+- **Rich API** – supports every calendar property, including custom work weeks and holidays.  
+- **Direct MPP output** – you can **save project as MPP** without intermediate conversions.
 
-## Προαπαιτούμενα
+## Prerequisites
 
-1. **Java Development Kit (JDK) 8+** – βεβαιωθείτε ότι η εντολή `java -version` εμφανίζει 1.8 ή νεότερη.  
-2. **Aspose.Tasks for Java** – κατεβάστε το τελευταίο JAR από την [Aspose website](https://releases.aspose.com/tasks/java/).  
-3. **IDE** – IntelliJ IDEA, Eclipse ή οποιονδήποτε επεξεργαστή προτιμάτε.  
-4. **Βασικές γνώσεις Java** – εξοικείωση με κλάσεις, μεθόδους και I/O αρχείων.
+1. **Java Development Kit (JDK) 8+** – ensure `java -version` reports 1.8 or newer.  
+2. **Aspose.Tasks for Java** – download the latest JAR from the [Aspose website](https://releases.aspose.com/tasks/java/).  
+3. **IDE** – IntelliJ IDEA, Eclipse, or any editor you prefer.  
+4. **Basic Java knowledge** – familiarity with classes, methods, and file I/O.
 
-## Οδηγός Βήμα‑Βήμα
+## How to Add Holidays to Calendar
 
-### Βήμα 1: Εισαγωγή Απαιτούμενων Πακέτων
+Below we walk through each step, from setting up the environment to persisting the final MPP file. The code blocks are unchanged from the original tutorial; the surrounding explanations have been expanded for clarity.
 
-Πρώτα, φέρτε τις κλάσεις Aspose.Tasks και τις βοηθητικές βιβλιοθήκες Java στο scope.
+### Step 1: Import Required Packages
+
+First, bring the Aspose.Tasks classes and Java utilities into scope.
 
 ```java
 import com.aspose.tasks.*;
@@ -58,102 +60,102 @@ import java.util.Date;
 import java.util.GregorianCalendar;
 ```
 
-### Βήμα 2: Ρύθμιση του Καταλόγου Δεδομένων
+### Step 2: Set Up the Data Directory
 
-Ορίστε πού θα βρίσκονται το πρότυπο εισόδου και τα αρχεία εξόδου. Αντικαταστήστε το placeholder με την πραγματική διαδρομή στο σύστημά σας.
+Define where your input template and output files will live. Replace the placeholder with the actual path on your machine.
 
 ```java
 String dataDir = "Your Data Directory";
 ```
 
-### Βήμα 3: Καθορισμός Ονομάτων Αρχείων Εισόδου και Εξόδου
+### Step 3: Define Input and Output File Names
 
-Θα φορτώσουμε ένα υπάρχον αρχείο MPP (ή ένα κενό project) και θα γράψουμε το αποτέλεσμα σε νέο αρχείο.
+We’ll load an existing MPP file (or a blank project) and write the result to a new file.
 
 ```java
 String resultFile = "OutputMpp.mpp";
 String newFile = "SampleMpp.mpp";
 ```
 
-### Βήμα 4: Φόρτωση του Project και Προσθήκη Νέου Ημερολογίου
+### Step 4: Load the Project and Add a New Calendar
 
-Δημιουργήστε ένα αντικείμενο `Project` από το αρχείο προέλευσης και προσθέστε ένα ημερολόγιο με όνομα **“Calendar 1”**.
+Create a `Project` instance from the source file and add a calendar named **“Calendar 1”**.
 
 ```java
 Project project = new Project(dataDir + newFile);
 Calendar cal1 = project.getCalendars().add("Calendar 1");
 ```
 
-### Βήμα 5: Προσαρμογή του Ημερολογίου (Προαιρετικό)
+### Step 5: Customize the Calendar (Optional)
 
-Αν χρειάζεστε συγκεκριμένες ώρες εργασίας, αργίες ή εξαιρέσεις, καλέστε τη δική σας βοηθητική μέθοδο. Το δείγμα χρησιμοποιεί το `GetTestCalendar` ως placeholder.
+If you need specific working times, holidays, or exceptions, call your own helper method. The sample uses `GetTestCalendar` as a placeholder.
 
 ```java
 GetTestCalendar(cal1); // Additional method for customizing calendar if required
 ```
 
-> **Συμβουλή:** Μπορείτε να χειριστείτε απευθείας το `cal1.getWeekDays()` για να ορίσετε τις εργάσιμες ώρες για κάθε ημέρα της εβδομάδας.
+> **Pro tip:** You can directly manipulate `cal1.getWeekDays()` to set working hours for each day of the week, or use `cal1.getExceptions()` to **add holidays to calendar**.
 
-### Βήμα 6: Ανάθεση του Ημερολογίου στο Project
+### Step 6: Assign the Calendar to the Project
 
-Ενημερώστε το project να χρησιμοποιεί το νεοδημιουργημένο ημερολόγιο για όλους τους υπολογισμούς χρονοπρογραμματισμού.
+Tell the project to use the newly created calendar for all its scheduling calculations.
 
 ```java
 project.set(Prj.CALENDAR, cal1);
 ```
 
-### Βήμα 7: Αποθήκευση του Project ως MPP
+### Step 7: Save the Project as MPP
 
-Τώρα **μετατρέψτε το έργο σε MPP** αποθηκεύοντάς το με την επιλογή `SaveFileFormat.Mpp`.
+Now **convert project to MPP** by saving it with the `SaveFileFormat.Mpp` option.
 
 ```java
 project.save(dataDir + resultFile, SaveFileFormat.Mpp);
 ```
 
-### Βήμα 8: Επιβεβαίωση Επιτυχούς Ολοκλήρωσης
+### Step 8: Confirm Successful Completion
 
-Ένα απλό μήνυμα στην κονσόλα σας ενημερώνει ότι η διαδικασία ολοκληρώθηκε χωρίς σφάλματα.
+A simple console message lets you know the process finished without errors.
 
 ```java
 System.out.println("Process completed Successfully");
 ```
 
-## Συνηθισμένες Περιπτώσεις Χρήσης
+## Common Use Cases
 
-- **Αυτοματοποιημένη δημιουργία χρονοδιαγράμματος** για επαναλαμβανόμενα έργα (π.χ. εβδομαδιαίες σπριντ).  
-- **Μεταφορά κληρονομικών ημερολογίων CSV ή Excel** σε πλήρως εξοπλισμένο αρχείο MS Project.  
-- **Αναφορές στο διακομιστή** όπου μια web υπηρεσία επιστρέφει αρχείο MPP κατόπιν αιτήματος.  
+- **Automated schedule generation** for recurring projects (e.g., weekly sprints).  
+- **Migrating legacy CSV or Excel calendars** into a fully‑featured MS Project file.  
+- **Server‑side reporting** where a web service returns an MPP file on demand.  
 
-## Αντιμετώπιση Προβλημάτων & Συνηθισμένα Λάθη
+## Troubleshooting & Common Pitfalls
 
-| Πρόβλημα | Αιτία | Διόρθωση |
-|----------|-------|----------|
-| `NullPointerException` στο `project.save` | Το `dataDir` δείχνει σε μη‑υπάρχον φάκελο | Βεβαιωθείτε ότι ο φάκελος υπάρχει ή δημιουργήστε τον προγραμματιστικά. |
-| Το ημερολόγιο δεν εφαρμόζεται στις εργασίες | Οι εργασίες εξακολουθούν να αναφέρονται στο προεπιλεγμένο ημερολόγιο | Μετά τον ορισμό `Prj.CALENDAR`, ενημερώστε επίσης το `Task.CALENDAR` κάθε εργασίας εάν είχε προηγούμενη παράκαμψη. |
-| Το αρχείο εξόδου είναι 0 KB | Έλλειψη δικαιωμάτων εγγραφής | Εκτελέστε το JVM με τα κατάλληλα δικαιώματα ή επιλέξτε διαδρομή εγγραφής. |
+| Issue | Cause | Fix |
+|-------|-------|-----|
+| `NullPointerException` on `project.save` | `dataDir` points to a non‑existent folder | Ensure the directory exists or create it programmatically. |
+| Calendar not applied to tasks | Tasks still reference the default calendar | After setting `Prj.CALENDAR`, also update each task’s `Task.CALENDAR` if they were previously overridden. |
+| Output file is 0 KB | Missing write permissions | Run the JVM with appropriate file system rights or choose a writable path. |
 
-## Συχνές Ερωτήσεις
+## Frequently Asked Questions
 
-**Ε: Είναι το Aspose.Tasks for Java συμβατό με διαφορετικές εκδόσεις του MS Project;**  
-Α: Ναι, το Aspose.Tasks for Java υποστηρίζει ευρύ φάσμα εκδόσεων MS Project, από το Project 2007 μέχρι την πιο πρόσφατη έκδοση, εξασφαλίζοντας απρόσκοπτη συμβατότητα.
+**Q: Is Aspose.Tasks for Java compatible with different versions of MS Project?**  
+A: Yes, Aspose.Tasks for Java supports a wide range of MS Project versions, from Project 2007 up to the latest release, ensuring seamless compatibility.
 
-**Ε: Μπορώ να προσαρμόσω τα ημερολόγια σύμφωνα με συγκεκριμένες απαιτήσεις έργου;**  
-Α: Απόλυτα. Μπορείτε να ορίσετε εργάσιμες ημέρες, προσαρμοσμένες εβδομάδες εργασίας, αργίες και ακόμη να δημιουργήσετε πολλαπλά ημερολόγια σε ένα αρχείο έργου.
+**Q: Can I customize calendars according to specific project requirements?**  
+A: Absolutely. You can define working days, set custom work weeks, add holidays, and even create multiple calendars within a single project file.
 
-**Ε: Παρέχει το Aspose.Tasks for Java υποστήριξη για troubleshooting και βοήθεια;**  
-Α: Ναι, μπορείτε να λάβετε βοήθεια από το φόρουμ της κοινότητας Aspose.Tasks [εδώ](https://forum.aspose.com/c/tasks/15).
+**Q: Does Aspose.Tasks for Java offer support for troubleshooting and assistance?**  
+A: Yes, you can get help from the Aspose.Tasks community forum [here](https://forum.aspose.com/c/tasks/15).
 
-**Ε: Υπάρχει δωρεάν δοκιμή για το Aspose.Tasks for Java;**  
-Α: Ναι, διαθέσιμη πλήρως λειτουργική δωρεάν δοκιμή [εδώ](https://releases.aspose.com/).
+**Q: Is there a free trial available for Aspose.Tasks for Java?**  
+A: Yes, a fully functional free trial is available [here](https://releases.aspose.com/).
 
-**Ε: Πώς μπορώ να αποκτήσω προσωρινή άδεια για το Aspose.Tasks for Java;**  
-Α: Προσωρινές άδειες μπορούν να ζητηθούν μέσω της ιστοσελίδας Aspose [εδώ](https://purchase.aspose.com/temporary-license/).
+**Q: How can I obtain a temporary license for Aspose.Tasks for Java?**  
+A: Temporary licenses can be requested via the Aspose website [here](https://purchase.aspose.com/temporary-license/).
 
 ---
 
-**Τελευταία Ενημέρωση:** 2025-12-03  
-**Δοκιμασμένο Με:** Aspose.Tasks for Java 24.12  
-**Συγγραφέας:** Aspose  
+**Last Updated:** 2026-02-05  
+**Tested With:** Aspose.Tasks for Java 24.12  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

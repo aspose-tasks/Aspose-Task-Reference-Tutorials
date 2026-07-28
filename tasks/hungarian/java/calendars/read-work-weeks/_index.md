@@ -1,11 +1,12 @@
 ---
-date: 2025-12-03
-description: Tanulja meg, hogyan olvassa be a munkahét adatokat Java-ban egy Microsoft
+date: 2026-02-05
+description: Tanulja meg, hogyan olvashatja be a munkahét adatokat Java-ban egy Microsoft
   Project naptárból az Aspose.Tasks használatával. Kövesse a lépésről‑lépésre útmutatót
   teljes kódrészletekkel.
 linktitle: Read Work Weeks from Calendar with Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: Munkahét olvasása Java-val az MS Project naptárból – Aspose.Tasks
+title: Hogyan olvassuk be a Workweeks-et Java-val az MS Project naptárból az Aspose.Tasks
+  segítségével
 url: /hu/java/calendars/read-work-weeks/
 weight: 15
 ---
@@ -14,35 +15,35 @@ weight: 15
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Munkahét olvasása Java-val MS Project naptárból – Aspose.Tasks
+# Hogyan olvassuk be a munkahét definíciókat Java-ban a MS Project naptárból az Aspose.Tasks
 
-## Introduction
-Ebben az útmutatóban **read work weeks Java**-t fogsz olvasni egy Microsoft Project naptárból az Aspose.Tasks könyvtár segítségével. Akár jelentéskészítő eszközt építesz, ütemterveket szinkronizálsz, vagy automatizálod a projektadatok kinyerését, a munkahét‑definíciók programozott elérése rengeteg manuális órát takarít meg. Végigvezetünk a szükséges beállításokon, megmutatjuk a pontos kódot a munkahét részleteinek lekéréséhez, és minden lépést elmagyarázunk, hogy a megoldást saját projektjeidhez is adaptálhasd.
+## Bevezetés
+Ebben az oktatóanyagban **meg fogod tanulni, hogyan olvassuk be a workweeks** egy Microsoft Project naptárból az Aspose.Tasks Java könyvtárat használja. Akár jelentéskészítő eszközt építesz, ütemezéseket szinkronizálsz, vagy automatizálod a projektadatok kinyerését, a munkavégzés definíciója programozott elérése rengeteg manuális órát takarít meg. Végigvezetünk a szükséges beállításokon, megmutatjuk a pontos kódot a munka részleteinek lekéréséhez, és elmagyarázzuk minden lépést, hogy a megoldás saját projektjeidhez is igazíthass.
 
-## Quick Answers
-- **What does “read work weeks java” mean?** It refers to extracting work‑week definitions from a Project file using Java code.  
-- **Which library is required?** Aspose.Tasks for Java (free trial available).  
-- **Do I need a license for development?** A trial works for testing; a commercial license is needed for production.  
-- **What file formats are supported?** Both *.mpp* and Project XML files are handled.  
-- **How long does the implementation take?** Typically under 10 minutes once the library is set up.
+## Gyors válaszok
+- **Mi jelent a “read workweeks java”?**Ez a munkahét definíciók kinyerését jelenti egy Project fájlból Java kóddal.
+- **Melyik könyvtár szükséges?**Aspose.Tasks for Java (ingyenes próba elérhető).
+- **Szükségem van licencre a fejlesztéshez?**A próba verzió teszteléshez működik; a termeléshez kereskedelmi licenc szükséges.
+- **Milyen fájlformátumok támogatottak?**Mind a *.mpp*, mind a Project XML fájlok kezelhetők.
+- **Mennyi időt vesz igénybe a megvalósítás?**Általában 10perc alatt, miután a könyvtár be van állítva.
 
-## What is “read work weeks java”?
-A munkahét olvasása Java-ban azt jelenti, hogy az Aspose.Tasks API‑t használva hozzáférünk egy naptár objektum `WorkWeekCollection`‑jéhez egy Microsoft Project fájlban. Minden `WorkWeek` tartalmazza a kezdő/lezáró dátumokat és a napi munkaidő‑definíciókat, amelyek meghatározzák, hogyan ütemeződnek a források.
+## A Workweeks Java olvasása a Microsoft projektnaptárból
+A munkahét Java-ban történő olvasása azt jelenti, hogy az Aspose.Tasks API-t használva hozzáférünk egy Microsoft Project fájlban lévő naptárobjektum `WorkWeekCollection`-jéhez. Minden `WorkWeek` tartalmazza a kezdő/lezáró dátumokat és a napi munkaidő definíciókat, amelyek meghatározzák, hogyan ütemezve az erőforrásokat.
 
-## Why read work weeks java from a Microsoft Project calendar?
-- **Automation:** Elkerülhető a manuális ütemezési adatok másolása.  
-- **Integration:** A munkahét információk betáplálhatók ERP, HR vagy egyedi jelentéskészítő rendszerekbe.  
-- **Consistency:** Biztosítható, hogy minden downstream eszköz ugyanazokat a naptárszabályokat használja, amelyek a Project fájlban vannak definiálva.
+## Miért érdemes a Microsoft Project naptárából olvasni a Java munkaheteket?
+- **Automatizálás:** Kézi ütemezési adatok másolás-beillesztésének megszüntetése.
+- **Integráció:** A munkahét információk betáplálása ERP, HR vagy egyedi jelentési rendszerekbe.
+- **Következetesség:** Biztosítja, hogy minden downstream eszköz betartsa a Project fájlban definiált naptárszabályokat.
 
-## Prerequisites
-Mielőtt a kódba merülnél, győződj meg róla, hogy a következők rendelkezésre állnak:
+## Előfeltételek
+Mielőtt belevágnánk a kódba, győződjön meg arról, hogy rendelkezik:
 
-1. **Java Development Kit (JDK)** – 8-as vagy újabb verzió telepítve.  
-2. **Aspose.Tasks for Java** – a legújabb JAR letöltése a hivatalos oldalról: [Aspose.Tasks for Java download](https://releases.aspose.com/tasks/java/).  
-3. Egy **minta Project fájl** (`ReadWorkWeeksInformation.mpp`) egy ismert mappában elhelyezve.
+1. **Java Development Kit (JDK)** – telepítve legyen a 8-as vagy újabb verzió.
+2. **Aspose.Tasks for Java** – töltsd le a legújabb JAR-t a hivatalos oldalról: [Aspose.Tasks for Java download](https://releases.aspose.com/tasks/java/).
+3. Egy **példa Project fájl** (`ReadWorkWeeksInformation.mpp`) egy ismert mappában elhelyezve.
 
-## Import Packages
-First, import the classes we’ll need to interact with calendars and work weeks:
+## Csomagok importálása
+Először is importálja azokat az osztályokat, amelyekre szükségünk lesz a naptárak és a munkahetek használatához:
 
 ```java
 import com.aspose.tasks.Calendar;
@@ -54,15 +55,15 @@ import com.aspose.tasks.WorkWeekCollection;
 import com.aspose.tasks.WorkingTimeCollection;
 ```
 
-## Step 1: Set Up Your Data Directory
-Define the folder that contains the `.mpp` file. Replace the placeholder with the actual path on your machine:
+## 1. lépés: Adatkönyvtár beállítása
+Adja meg a `.mpp` fájlt tartalmazó mappát. Cserélje ki a helyőrzőt a gépén található tényleges elérési útra:
 
 ```java
 String dataDir = "Your Data Directory";
 ```
 
-## Step 2: Create a Project Instance and Access the Calendar
-Instantiate a `Project` object, pick the calendar you want (by UID), and obtain its `WorkWeekCollection`:
+## 2. lépés: Projektpéldány létrehozása és a naptár elérése
+Hozzon létre egy `Project` objektumot, válassza ki a kívánt naptárat (UID alapján), és szerezze meg a `WorkWeekCollection`-jét:
 
 ```java
 Project project = new Project(dataDir + "ReadWorkWeeksInformation.mpp");
@@ -70,10 +71,10 @@ Calendar calendar = project.getCalendars().getByUid(3);
 WorkWeekCollection collection = calendar.getWorkWeeks();
 ```
 
-> **Pro tip:** If you’re not sure about the calendar UID, you can iterate through `project.getCalendars()` and print each calendar’s name and UID.
+> **Tipp:** Ha nem vagy biztos a naptár UID-jában, írja be a `project.getCalendars()`-on, és kiírhatja minden naptár nevét és UID-ját.
 
-## Step 3: Iterate Through Work Weeks
-Loop through each `WorkWeek` to display its name, start/end dates, and the daily working times:
+## 3. lépés: Iteráció a munkaheteken keresztül
+Menjen végig minden `WorkWeek`-en a nevének, a kezdési/befejezési dátumának és a napi munkaidőnek a megjelenítéséhez:
 
 ```java
 for (WorkWeek workWeek : collection) {
@@ -90,40 +91,40 @@ for (WorkWeek workWeek : collection) {
 }
 ```
 
-**What you’ll see:** The console prints each work‑week’s label (e.g., “Standard”), its effective date range, and you can drill down to the exact working hours for each day.
+**Ami megjelenik:** A konzol kiírja minden munkahét címkéjét (pl. “Standard”), a hatályos dátumtartományt, és részletesen megtekintheted az egyes napok pontos munkaóráit.
 
-## Common Issues and Solutions
-| Issue | Reason | Fix |
-|-------|--------|-----|
-| `NullPointerException` when accessing `calendar` | Wrong UID or calendar does not exist | Verify the UID with `project.getCalendars().size()` and list available calendars first. |
-| No output for work weeks | The selected calendar has no custom work weeks (uses default) | Use the default calendar (`project.getDefaultCalendar()`) or create a work week programmatically. |
-| Date format looks odd | `System.out.println` uses default `java.util.Date` format | Apply a `SimpleDateFormat` to format dates as needed. |
+## Gyakori problémák és megoldások
+| Probléma | Ok | Megoldás |
+|----------|----|----------|
+| "NullPointerException" a "naptár" elérésekor | Helytelen UID vagy a naptár nem létezik | Ellenőrizd az UID-t a `project.getCalendars().size()` segítségével, és először listázd a rendelkezésre álló naptárakat. |
+| Nincs kimenet a munkahéthez | A kiválasztott naptárnak nincs egyedi munkahétje (az alapértelmezettet használja) | Használd az alapértelmezett naptárat (`project.getDefaultCalendar()`) vagy programozottan hozz létre egy munkahétet. |
+| A dátumformátum furcsán néz ki | `System.out.println` az alapértelmezett `java.util.Date` formátumot használt | Alkalmazz egy `SimpleDateFormat`-ot a dátumok szükséges formázásához. |
 
-## Frequently Asked Questions
+## Gyakran Ismételt Kérdések
 
-**Q: Can I modify the work weeks information using Aspose.Tasks for Java?**  
-A: Yes. The API provides methods such as `addWorkWeek()`, `removeWorkWeek()`, and property setters to change names, dates, and working times.
+**Q: Módosíthatom a munkahét az Aspose.Tasks for Java segítségével?**
+A: Igen. Az API olyan metódusokat biztosít, mint `addWorkWeek()`, `removeWorkWeek()`, és tulajdonság beállítók a nevek, dátumok és munkaidők módosításához.
 
-**Q: Is Aspose.Tasks compatible with different versions of Microsoft Project files?**  
-A: Absolutely. It supports MPP files from Project 98 up to the latest versions, as well as Project XML files.
+**K: Az Aspose.Tasks kompatibilis a Microsoft Project fájlok különböző verzióival?**
+A: Teljesen. Támogatja a Project 98-tól a legújabb verziókig terjedő MPP fájlokat, valamint a Project XML fájlokat is.
 
-**Q: Can I integrate Aspose.Tasks with other Java frameworks?**  
-A: Yes. The library is pure Java, so you can use it alongside Spring, Jakarta EE, or any other framework.
+**K: Integrálhatom az Aspose.Tasks-et más Java keretrendszerekkel?**
+A: Igen. A tisztán Java, így használható Spring, Jakarta EE könyvtár vagy más keretrendszerrel együtt.
 
-**Q: Is there a trial version available for Aspose.Tasks?**  
-A: Yes, you can download a free 30‑day trial from the official site: [Aspose.Tasks trial](https://releases.aspose.com/).
+**K: Elérhető próba verzió az Aspose.Tasks-hez?**
+A: Igen, letölthetsz egy ingyenes 30-napos próbát a hivatalos oldalról: [Aspose.Tasks trial](https://releases.aspose.com/).
 
-**Q: Where can I find support for Aspose.Tasks?**  
-A: The Aspose community forum is the best place: [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
+**K: Hol találok támogatást az Aspose.Tasks-hez?**
+A: Az Aspose közösségi fórum a legjobb hely: [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
 
-## Conclusion
-Most már elsajátítottad a **read work weeks java** használatát az Aspose.Tasks segítségével. A fenti lépések követésével programozottan lekérheted a munkahét‑definíciókat bármely MS Project naptárból, integrálhatod az adatokat alkalmazásaidba, és automatizálhatod az ütemezéssel kapcsolatos munkafolyamatokat. Nyugodtan kísérletezz új munkahét létrehozásával vagy módosításával – az Aspose.Tasks ezt egyszerűvé teszi.
+## Következtetés
+Most már elsajátítottad, **hogyan olvassuk be a workweeks Java**-t az Aspose.Tasks segítségével. A fenti lépések követésével programozottan lekérhettük a munkavégzés definícióját minden MS Project naptárból, integrálhatod az adatokat az alkalmazását, és automatizálhatod az ütemezéssel kapcsolatos munkafolyamatokat. Nyugodtan kísérletezz munka létrehozásával vagy frissítésével – az Aspose.Tasks egyszerűvé teszi.
 
 ---
 
-**Last Updated:** 2025-12-03  
-**Tested With:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
-**Author:** Aspose  
+**Utolsó frissítés:** 2026-02-05
+**Tesztelve:** Aspose.Tasks for Java 24.12 (a legfrissebb verzió az írás idején)
+**Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

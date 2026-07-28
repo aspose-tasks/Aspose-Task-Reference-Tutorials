@@ -5,7 +5,7 @@ second_title: Aspose.Tasks Java API
 description: Learn how to determine working days and calculate task duration by extracting working hours from MS Project calendars using Aspose.Tasks for Java.
 weight: 13
 url: /java/calendars/working-hours/
-date: 2025-12-05
+date: 2026-02-05
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -15,20 +15,20 @@ date: 2025-12-05
 # Determine Working Days & Working Hours with Aspose.Tasks
 
 ## Introduction
-Managing project calendars is a core part of successful project planning. In this tutorial you’ll **determine working days** for any task and **extract working hours** from an MS Project calendar using Aspose.Tasks for Java. By the end of the guide you’ll be able to **calculate task duration**, customize working hours, and reliably **load an MPP file** to retrieve the data you need.
+Managing project calendars is a core part of successful project planning. In this tutorial you’ll **determine working days** for any task and **extract working hours** from an MS Project calendar using Aspose.Tasks for Java. By the end of the guide you’ll be able to **calculate task duration**, customize working hours, and reliably **load an MPP file** to retrieve the data you need. You’ll also see how to **read MS Project** files without having Microsoft Project installed, making automation possible on any platform.
 
 ## Quick Answers
 - **What does “determine working days” mean?** It means identifying which calendar dates are considered work‑days for a given task.  
 - **Which library should I use?** Aspose.Tasks for Java provides a full‑featured API for working with MS Project files.  
 - **How long does the implementation take?** Typically 10–15 minutes for a basic extraction.  
 - **Do I need a license?** A free trial is available; a commercial license is required for production use.  
-- **Can I customize working hours?** Yes – you can modify calendars, add holidays, and set custom work‑time ranges.
+- **Can I customize working hours?** Yes – you can modify calendars, add holidays, and set custom work‑time ranges.  
 
 ## What is “determine working days”?
 When a task is scheduled, the project calendar defines which days are work days and which are non‑working (weekends, holidays). Determining working days means querying that calendar to know exactly when work can occur, which is essential for accurate **calculate task duration** calculations.
 
 ## Why use Aspose.Tasks to retrieve working hours?
-- **No Microsoft Project required** – work with .MPP files on any platform.  
+- **No Microsoft Project required** – you can read MS Project files directly from Java code.  
 - **Full calendar support** – includes default, resource, and task calendars.  
 - **High performance** – process large projects quickly.  
 - **Extensive documentation** – examples and API reference are readily available.
@@ -47,15 +47,15 @@ First, import the core Aspose.Tasks namespace:
 import com.aspose.tasks.*;
 ```
 
-## Step 1: Load the MPP file
-Load your project file (the **load mpp file** step) so you can work with its calendars:
+## How to load an MPP file with Aspose.Tasks?
+Loading the project file is the first step toward any calendar analysis. The API lets you **load an MPP file** in a single line of code, without needing the MS Project UI.
 
 ```java
 String dataDir = "Your Data Directory";
 Project project = new Project(dataDir + "project.mpp");
 ```
 
-## Step 2: Retrieve Task and Calendar Information
+## Retrieve Task and Calendar Information
 Pick the task you want to analyse and get its associated calendar. This is where we **retrieve working hours** for the task:
 
 ```java
@@ -63,8 +63,8 @@ Task task = project.getRootTask().getChildren().getById(1);
 Calendar taskCalendar = task.get(Tsk.CALENDAR);
 ```
 
-## Step 3: Define Start and End Dates
-Set up the time window for which you want to **determine working days**:
+## Define Start and End Dates
+Set up the time window for which you want to **determine working days**. Using the task’s start and finish dates ensures you only evaluate the relevant period.
 
 ```java
 java.util.Calendar calStartDate = java.util.Calendar.getInstance();
@@ -73,15 +73,15 @@ java.util.Calendar calEndDate = java.util.Calendar.getInstance();
 calEndDate.setTime(task.get(Tsk.FINISH));
 ```
 
-## Step 4: Iterate Through Dates
+## Iterate Through Dates
 Loop through each date in the task’s duration. This loop will help us **customize working hours** later if needed:
 
 ```java
 java.util.Calendar tempDate = calStartDate;
 ```
 
-## Step 5: Calculate Duration
-During the iteration we check whether each day is a working day, sum the working hours, and finally compute the task’s duration in minutes, hours, and days:
+## Calculate Duration
+During the iteration we check whether each day is a working day, sum the working hours, and finally compute the task’s duration in minutes, hours, and days. This step demonstrates how to **calculate working days** and **calculate task duration** programmatically.
 
 ```java
 double durationInMins = 0;
@@ -108,6 +108,9 @@ System.out.println("Duration in Days = " + durationInDays);
 System.out.println();
 ```
 
+## How to customize working hours and holidays
+Aspose.Tasks lets you modify the calendar’s working time ranges and add exceptions such as holidays. You can call `taskCalendar.addWorkingTime()` or `taskCalendar.addException()` to tailor the schedule to your organization’s policies. This is useful when the default 9‑5 schedule does not match reality.
+
 ## Common Issues and Solutions
 | Issue | Solution |
 |-------|----------|
@@ -132,11 +135,11 @@ A: Yes, Aspose.Tasks for Java provides extensive documentation and dedicated sup
 A: Yes, you can access a free trial version of Aspose.Tasks for Java from [here](https://releases.aspose.com/).
 
 ## Conclusion
-In this guide we demonstrated how to **determine working days**, **retrieve working hours**, and **calculate task duration** from an MS Project calendar using Aspose.Tasks for Java. By following the steps above you can automate schedule analysis, customize calendars, and keep your project plans accurate and up‑to‑date.
+In this guide we demonstrated how to **determine working days**, **retrieve working hours**, and **calculate task duration** from an MS Project calendar using Aspose.Tasks for Java. By following the steps above you can automate schedule analysis, customize calendars, and keep your project plans accurate and up‑to‑date. You now have the tools to **read MS Project** data, **load an MPP file**, and perform precise duration calculations without the need for Microsoft Project itself.
 
 ---
 
-**Last Updated:** 2025-12-05  
+**Last Updated:** 2026-02-05  
 **Tested With:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
 **Author:** Aspose  
 

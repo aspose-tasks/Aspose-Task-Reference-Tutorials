@@ -1,10 +1,10 @@
 ---
-date: 2025-12-03
-description: Aspose.Tasks for Java kullanarak takvim MS Project oluşturmayı, projeyi
-  MPP'ye dönüştürmeyi ve projeyi MPP olarak zahmetsizce kaydetmeyi öğrenin.
+date: 2026-02-05
+description: Aspose.Tasks for Java kullanarak bir takvime tatilleri eklemeyi, takvimi
+  bir projeye atamayı ve MS Project dosyasını MPP olarak kaydetmeyi öğrenin.
 linktitle: Update Calendar to MPP Format in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: Aspose.Tasks ile Takvim Oluşturun ve MS Project'i MPP Olarak Kaydedin
+title: Tatilleri Takvime Ekle ve Aspose.Tasks ile MPP Olarak Kaydet
 url: /tr/java/calendars/update-to-mpp/
 weight: 16
 ---
@@ -13,42 +13,44 @@ weight: 16
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks ile Takvim MS Project Oluşturma ve MPP Olarak Kaydetme
+# Takvime Tatilleri Ekleyin ve Aspose.Tasks ile MPP Olarak Kaydedin
 
 ## Giriş
 
-Modern proje yönetiminde **takvim MS Project** dosyaları oluşturup ardından yerel MPP formatında paylaşmanız sıkça gerekir. Birden fazla kaynaktan takvimleri birleştiriyor ya da eski verileri taşıyorsanız, takvimi programatik olarak oluşturabilmek zaman kazandırır ve manuel hataları ortadan kaldırır. Bu öğretici, MS Project içinde bir takvim oluşturma, özelleştirme ve son olarak **projeyi MPP’ye dönüştürme** sürecini Aspose.Tasks Java API’si ile adım adım gösterir.
+Modern proje yönetiminde **add holidays to calendar** dosyalarına sık sık ihtiyaç duyarsınız, bir **MS Project calendar** oluşturursunuz ve ardından takvimi yerel MPP formatında paylaşabilirsiniz. Birden fazla kaynaktan zaman çizelgelerini birleştiriyor ya da eski verileri taşıyorsanız, takvimi programlı olarak oluşturmak manuel hataları ortadan kaldırır ve teslim süresini hızlandırır. Bu öğretici, MS Project içinde bir takvim oluşturma, tatillerle özelleştirme, **assign calendar to project** ve sonunda Aspose.Tasks Java API kullanarak **convert project to MPP** işlemlerinin tamamını adım adım gösterir.
 
 ## Hızlı Yanıtlar
-- **Bu öğreticide ne anlatılıyor?** MS Project’te bir takvim oluşturup Aspose.Tasks for Java ile MPP dosyası olarak kaydetmek.  
-- **Lisans gerekli mi?** Geliştirme için ücretsiz deneme sürümü yeterlidir; üretim ortamı için ticari lisans gerekir.  
-- **Hangi Java sürümü gerekiyor?** Java 8 ve üzeri (JDK 8+).  
+- **Bu öğretici neyi kapsıyor?** Tatilleri takvime ekleme, takvimi bir projeye atama ve sonucu Aspose.Tasks for Java ile MPP dosyası olarak kaydetme.  
+- **Lisans gerekir mi?** Geliştirme için ücretsiz deneme yeterlidir; üretim için ticari lisans gereklidir.  
+- **Hangi Java sürümü gerekli?** Java 8 ve üzeri (JDK 8+).  
 - **Takvimi özelleştirebilir miyim?** Evet – çalışma saatleri, istisnalar ve tatiller ekleyebilirsiniz.  
-- **Uygulama ne kadar sürer?** Temel bir takvim için yaklaşık 10‑15 dakika.
+- **Uygulama ne kadar sürer?** Temel bir takvim için yaklaşık 10‑15 dakika.  
 
 ## “create calendar MS Project” nedir?
 
-Takvim MS Project oluşturmak, Microsoft Project dosyası içinde görev zamanlamasını yöneten çalışma günlerini, saatlerini ve istisnalarını programatik olarak tanımlamak anlamına gelir. Aspose.Tasks kullanarak bu takvimleri Microsoft Project UI’sini açmadan oluşturabilir, değiştirebilir ve kalıcı hâle getirebilirsiniz.
+“create calendar MS Project”, Microsoft Project dosyası içinde görev zamanlamasını yöneten çalışma günlerini, saatlerini ve istisnalarını programlı olarak tanımlamak anlamına gelir. Aspose.Tasks kullanarak **java create project calendar** oluşturabilir, değiştirebilir ve Microsoft Project UI'sını hiç açmadan değişiklikleri kalıcı hale getirebilirsiniz.
 
-## Neden Aspose.Tasks bu görev için tercih edilmeli?
+## Neden Aspose.Tasks bu görev için kullanılmalı?
 
-- **Tam .NET/Java uyumluluğu** – Java’yı destekleyen herhangi bir platformda çalışır.  
-- **COM veya Office kurulumu gerekmez** – sunucu‑tarafı otomasyon için idealdir.  
-- **Zengin API** – özel çalışma haftaları ve tatiller dahil tüm takvim özelliklerini destekler.  
-- **Doğrudan MPP çıktısı** – ara dönüşüm olmadan **projeyi MPP olarak kaydedebilirsiniz**.
+- **Full .NET/Java compatibility** – Java destekleyen herhangi bir platformda çalışır.  
+- **No COM or Office installation needed** – sunucu‑tarafı otomasyon ve **automate schedule generation** için idealdir.  
+- **Rich API** – özel çalışma haftaları ve tatiller dahil olmak üzere her takvim özelliğini destekler.  
+- **Direct MPP output** – ara dönüşümler olmadan **save project as MPP** yapabilirsiniz.
 
-## Ön Koşullar
+## Önkoşullar
 
 1. **Java Development Kit (JDK) 8+** – `java -version` komutunun 1.8 veya daha yeni bir sürüm gösterdiğinden emin olun.  
-2. **Aspose.Tasks for Java** – en yeni JAR dosyasını [Aspose web sitesinden](https://releases.aspose.com/tasks/java/) indirin.  
+2. **Aspose.Tasks for Java** – en yeni JAR dosyasını [Aspose website](https://releases.aspose.com/tasks/java/) adresinden indirin.  
 3. **IDE** – IntelliJ IDEA, Eclipse veya tercih ettiğiniz herhangi bir editör.  
-4. **Temel Java bilgisi** – sınıflar, metodlar ve dosya I/O konularına aşina olun.
+4. **Basic Java knowledge** – sınıflar, metodlar ve dosya I/O konularına aşina olun.
 
-## Adım‑Adım Kılavuz
+## Takvime Tatil Eklemek İçin
+
+Aşağıda ortamı kurmaktan son MPP dosyasını kaydetmeye kadar her adımı anlatıyoruz. Kod blokları orijinal öğreticiden değiştirilmemiştir; açıklamalar netlik sağlamak amacıyla genişletilmiştir.
 
 ### Adım 1: Gerekli Paketleri İçe Aktarın
 
-İlk olarak, Aspose.Tasks sınıflarını ve Java yardımcı sınıflarını projenize dahil edin.
+İlk olarak Aspose.Tasks sınıflarını ve Java yardımcılarını kapsam içine alın.
 
 ```java
 import com.aspose.tasks.*;
@@ -59,13 +61,13 @@ import java.util.GregorianCalendar;
 
 ### Adım 2: Veri Dizinini Ayarlayın
 
-Girdi şablonunuzun ve çıktı dosyalarınızın bulunacağı yeri tanımlayın. Yer tutucuyu makinenizdeki gerçek yol ile değiştirin.
+Giriş şablonunuzun ve çıkış dosyalarınızın bulunacağı yeri tanımlayın. Yer tutucuyu makinenizdeki gerçek yol ile değiştirin.
 
 ```java
 String dataDir = "Your Data Directory";
 ```
 
-### Adım 3: Girdi ve Çıktı Dosya Adlarını Belirleyin
+### Adım 3: Giriş ve Çıkış Dosya Adlarını Tanımlayın
 
 Mevcut bir MPP dosyasını (veya boş bir projeyi) yükleyecek ve sonucu yeni bir dosyaya yazacağız.
 
@@ -76,7 +78,7 @@ String newFile = "SampleMpp.mpp";
 
 ### Adım 4: Projeyi Yükleyin ve Yeni Bir Takvim Ekleyin
 
-Kaynak dosyadan bir `Project` örneği oluşturun ve **“Calendar 1”** adında bir takvim ekleyin.
+Kaynak dosyadan bir `Project` örneği oluşturun ve **“Calendar 1”** adlı bir takvim ekleyin.
 
 ```java
 Project project = new Project(dataDir + newFile);
@@ -85,15 +87,15 @@ Calendar cal1 = project.getCalendars().add("Calendar 1");
 
 ### Adım 5: Takvimi Özelleştirin (İsteğe Bağlı)
 
-Belirli çalışma saatleri, tatiller veya istisnalar eklemeniz gerekiyorsa kendi yardımcı metodunuzu çağırın. Örnekte `GetTestCalendar` bir yer tutucu olarak kullanılmıştır.
+Özel çalışma saatleri, tatiller veya istisnalar eklemeniz gerekiyorsa kendi yardımcı metodunuzu çağırın. Örnekte `GetTestCalendar` bir yer tutucu olarak kullanılmıştır.
 
 ```java
 GetTestCalendar(cal1); // Additional method for customizing calendar if required
 ```
 
-> **İpucu:** `cal1.getWeekDays()` üzerinden doğrudan çalışılan saatleri haftanın her günü için ayarlayabilirsiniz.
+> **Pro tip:** `cal1.getWeekDays()` metodunu doğrudan manipüle ederek haftanın her günü için çalışma saatlerini ayarlayabilir veya `cal1.getExceptions()` metodunu kullanarak **add holidays to calendar** yapabilirsiniz.
 
-### Adım 6: Takvimi Projeye Atayın
+### Adım 6: Takvimi Projeye Ata
 
 Projeye, tüm zamanlama hesaplamaları için yeni oluşturulan takvimi kullanmasını söyleyin.
 
@@ -103,15 +105,15 @@ project.set(Prj.CALENDAR, cal1);
 
 ### Adım 7: Projeyi MPP Olarak Kaydedin
 
-Şimdi **projeyi MPP’ye dönüştürün** ve `SaveFileFormat.Mpp` seçeneğiyle kaydedin.
+Şimdi **convert project to MPP** işlemini `SaveFileFormat.Mpp` seçeneğiyle kaydederek gerçekleştirin.
 
 ```java
 project.save(dataDir + resultFile, SaveFileFormat.Mpp);
 ```
 
-### Adım 8: Başarılı Tamamlamayı Doğrulayın
+### Adım 8: Başarılı Tamamlamayı Onaylayın
 
-Basit bir konsol mesajı, işlemin hatasız tamamlandığını size bildirir.
+Basit bir konsol mesajı, işlemin hatasız tamamlandığını bildirir.
 
 ```java
 System.out.println("Process completed Successfully");
@@ -119,39 +121,37 @@ System.out.println("Process completed Successfully");
 
 ## Yaygın Kullanım Senaryoları
 
-- **Tekrarlayan projeler için otomatik takvim oluşturma** (ör. haftalık sprintler).  
-- **Eski CSV veya Excel takvimlerini tam özellikli bir MS Project dosyasına taşıma**.  
-- **Sunucu‑tarafı raporlama**; bir web servisi isteğe bağlı MPP dosyası döndürür.  
+- **Automated schedule generation** tekrarlayan projeler için (ör. haftalık sprintler).  
+- **Migrating legacy CSV or Excel calendars** tam özellikli bir MS Project dosyasına dönüştürmek.  
+- **Server‑side reporting** bir web servisin talep üzerine MPP dosyası döndürdüğü durumlar.  
 
 ## Sorun Giderme ve Yaygın Tuzaklar
 
-| Sorun | Nedeni | Çözüm |
-|-------|--------|------|
-| `project.save` sırasında `NullPointerException` | `dataDir` mevcut olmayan bir klasöre işaret ediyor | Klasörün var olduğundan emin olun veya program içinde oluşturun. |
-| Takvim görevlerde uygulanmıyor | Görevler hâlâ varsayılan takvime referans veriyor | `Prj.CALENDAR` ayarlandıktan sonra, daha önce geçersiz kılınmışsa her görevin `Task.CALENDAR` değerini de güncelleyin. |
-| Çıktı dosyası 0 KB | Yazma izinleri eksik | JVM’i uygun dosya sistemi izinleriyle çalıştırın veya yazılabilir bir yol seçin. |
+| Sorun | Neden | Çözüm |
+|-------|-------|-----|
+| `project.save` sırasında `NullPointerException` | `dataDir` mevcut olmayan bir klasöre işaret ediyor | Dizinin var olduğundan emin olun veya programatik olarak oluşturun. |
+| Takvim görevlerde uygulanmadı | Görevler hâlâ varsayılan takvime referans veriyor | `Prj.CALENDAR` ayarlandıktan sonra, görevlerin `Task.CALENDAR` değerleri daha önce geçersiz kılındıysa onları da güncelleyin. |
+| Çıktı dosyası 0 KB | Yazma izinleri eksik | JVM'yi uygun dosya sistemi izinleriyle çalıştırın veya yazılabilir bir yol seçin. |
 
 ## Sıkça Sorulan Sorular
 
 **S: Aspose.Tasks for Java farklı MS Project sürümleriyle uyumlu mu?**  
-C: Evet, Aspose.Tasks for Java Project 2007’den en yeni sürüme kadar geniş bir MS Project sürüm yelpazesini destekler, sorunsuz uyumluluk sağlar.
+C: Evet, Aspose.Tasks for Java Project 2007'den en yeni sürüme kadar geniş bir MS Project sürüm yelpazesini destekler, sorunsuz uyumluluk sağlar.
 
 **S: Takvimleri proje gereksinimlerine göre özelleştirebilir miyim?**  
-C: Kesinlikle. Çalışma günlerini tanımlayabilir, özel çalışma haftaları oluşturabilir, tatiller ekleyebilir ve tek bir proje dosyasında birden fazla takvim yaratabilirsiniz.
+C: Kesinlikle. Çalışma günlerini tanımlayabilir, özel çalışma haftaları ayarlayabilir, tatiller ekleyebilir ve tek bir proje dosyasında birden fazla takvim oluşturabilirsiniz.
 
-**S: Aspose.Tasks for Java destek ve yardım sağlıyor mu?**  
+**S: Aspose.Tasks for Java sorun giderme ve destek sağlıyor mu?**  
 C: Evet, Aspose.Tasks topluluk forumundan [burada](https://forum.aspose.com/c/tasks/15) yardım alabilirsiniz.
 
 **S: Aspose.Tasks for Java için ücretsiz deneme mevcut mu?**  
-C: Evet, tamamen işlevsel bir ücretsiz deneme sürümünü [buradan](https://releases.aspose.com/) edinebilirsiniz.
+C: Evet, tamamen işlevsel bir ücretsiz deneme [burada](https://releases.aspose.com/) mevcuttur.
 
 **S: Aspose.Tasks for Java için geçici bir lisans nasıl alınır?**  
 C: Geçici lisanslar Aspose web sitesinden [burada](https://purchase.aspose.com/temporary-license/) talep edilebilir.
 
----
-
-**Son Güncelleme:** 2025-12-03  
-**Test Edilen Versiyon:** Aspose.Tasks for Java 24.12  
+**Son Güncelleme:** 2026-02-05  
+**Test Edilen Sürüm:** Aspose.Tasks for Java 24.12  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
