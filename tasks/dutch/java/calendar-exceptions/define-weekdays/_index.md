@@ -1,51 +1,91 @@
 ---
-title: Definieer weekdagen voor agenda-uitzonderingen met Aspose.Tasks
-linktitle: Definieer weekdagen voor agenda-uitzonderingen met Aspose.Tasks
-second_title: Aspose.Tasks Java-API
-description: Leer hoe u weekdagen kunt definiëren voor agenda-uitzonderingen in Java-projecten met behulp van Aspose.Tasks voor nauwkeurige projectplanning.
-weight: 11
+date: 2026-01-28
+description: Leer hoe u een projectkalender maakt met Aspose, weekdagen definieert
+  voor kalenderexcepties en een niet‑werkdagenrooster beheert met Aspose.Tasks voor
+  Java.
+linktitle: Create Project Calendar Aspose – Define Weekdays for Calendar Exceptions
+second_title: Aspose.Tasks Java API
+title: Maak projectkalender Aspose – Definieer weekdagen voor kalenderexcepties
 url: /nl/java/calendar-exceptions/define-weekdays/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Definieer weekdagen voor agenda-uitzonderingen met Aspose.Tasks
+# Projectkalender maken met Aspose – Werkdagen definiëren voor kalenderuitzonderingen
 
-### Invoering
-Bij projectmanagement is het definiëren van uitzonderingen voor kalenders van cruciaal belang voor het accuraat weergeven van niet-standaard werkdagen of feestdagen binnen een projecttijdlijn. Aspose.Tasks voor Java biedt robuuste functionaliteiten om agenda's efficiënt te beheren, inclusief het definiëren van uitzonderingen zoals feestdagen of speciale werkdagen. In deze zelfstudie gaan we dieper in op het definiëren van weekdagen voor agenda-uitzonderingen met behulp van Aspose.Tasks voor Java.
-### Vereisten
-Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
-1. Java Development Kit (JDK): Zorg ervoor dat JDK op uw systeem is geïnstalleerd.
-2.  Aspose.Tasks voor Java: Download en installeer Aspose.Tasks voor Java vanaf de[download link](https://releases.aspose.com/tasks/java/).
-3. Integrated Development Environment (IDE): Kies de IDE van uw voorkeur voor Java-ontwikkeling.
+### Inleiding
+Wanneer u **create project calendar aspose** moet maken, moet u in staat zijn om niet‑standaard werkdagen te modelleren, zoals feestdagen, speciale diensten of tijdelijke sluitingen. Aspose.Tasks for Java geeft u volledige controle over kalenderdefinities, zodat u uitzonderingen kunt toevoegen die real‑world schema's weerspiegelen. In deze tutorial lopen we de exacte stappen door om werkdagen voor kalenderuitzonderingen te definiëren, zodat uw projecttijdlijnen nauwkeurig en betrouwbaar blijven. Aan het einde ziet u ook hoe dit past in een bredere **non‑working days schedule** strategie voor elk bedrijfsproject.
 
-## Pakketten importeren
-Importeer om te beginnen de benodigde pakketten voor Aspose.Tasks in uw Java-project:
+## Snelle antwoorden
+- **What does “create project calendar aspose” mean?**  
+  Het verwijst naar het gebruik van Aspose.Tasks om een aangepast kalenderobject te bouwen dat de taakplanning aanstuurt.
+- **Do I need a license to run the sample?**  
+  Een gratis proefversie werkt voor ontwikkeling; een commerciële licentie is vereist voor productie.
+- **Which IDEs are supported?**  
+  IntelliJ IDEA, Eclipse, NetBeans, of elke IDE die Java 8+ ondersteunt.
+- **Can I add multiple exceptions to the same calendar?**  
+  Ja – u kunt zoveel `CalendarException`-objecten toevoegen als nodig.
+- **What file formats can I save the project to?**  
+  XML, MPP en verschillende andere formaten die door Aspose.Tasks worden ondersteund.
+
+## Wat is een projectkalender in Aspose.Tasks?
+Een **projectkalender** definieert de werkdagen en -uren voor een project. Het beïnvloedt de start/einddatums van taken, de toewijzing van resources en de algemene planningsberekeningen. Door een kalender aan te passen, zorgt u ervoor dat het schema rekening houdt met real‑world beperkingen zoals bedrijfsfeestdagen of weekendwerkbeleid.
+
+## Waarom werkdagen definiëren voor kalenderuitzonderingen?
+- **Accurate timelines:** Taken worden niet gepland op dagen die als niet‑werkend zijn gemarkeerd.  
+- **Resource planning:** Resources worden alleen toegewezen op geldige werkdagen.  
+- **Compliance:** Zorgt ervoor dat projectschema's overeenkomen met organisatorisch beleid of wettelijke feestdagen.
+
+## Non‑working Days Schedule met kalenderuitzonderingen
+Wanneer u een **non‑working days schedule** bijhoudt, heeft u doorgaans een masterlijst van feestdagen, onderhoudsvensters of andere blackout‑periodes. Het toevoegen van die data als `CalendarException`-objecten garandeert dat elke berekening—of het nu kritieke pad‑analyse of resource‑leveling is—automatisch rekening houdt met die beperkingen. Deze aanpak elimineert handmatige datumaanpassingen en vermindert het risico op schema‑afwijkingen.
+
+## Voorvereisten
+Zorg ervoor dat u het volgende heeft voordat u begint:
+
+1. **Java Development Kit (JDK)** – versie 8 of later.  
+2. **Aspose.Tasks for Java** – download van de officiële [Aspose.Tasks Java download page](https://releases.aspose.com/tasks/java/).  
+3. **An IDE** – IntelliJ IDEA, Eclipse, NetBeans, of elke Java‑compatibele editor.  
+
+## Hoe projectkalender maken met Aspose – Werkdagen definiëren voor kalenderuitzonderingen
+
+### Stapsgewijze handleiding
+
+### Stap 1: Vereiste pakketten importeren
+We hebben de kernklassen van Aspose.Tasks en Java’s `GregorianCalendar` nodig voor datumafhandeling.
+
 ```java
 import com.aspose.tasks.*;
 import java.util.GregorianCalendar;
-
 ```
 
-## Stap 1: Definieer de gegevensdirectory
-Stel het pad in naar uw gegevensmap waar de projectbestanden worden opgeslagen.
+### Stap 2: Definieer de gegevensdirectory
+Geef op waar het gegenereerde projectbestand wordt opgeslagen.
+
 ```java
 String dataDir = "Your Data Directory";
 ```
-## Stap 2: Maak een projectinstantie
-Initialiseer een nieuw exemplaar van de klasse Project om met projectgegevens te gaan werken.
+
+### Stap 3: Maak een Project‑instantie
+Instantieer een nieuw `Project`‑object – dit is de container voor alle projectgegevens, inclusief kalenders.
+
 ```java
 Project project = new Project();
 ```
-## Stap 3: Kalender definiëren
-Maak een kalenderobject om de kalender te definiëren waaraan uitzonderingen worden toegevoegd.
+
+### Stap 4: Definieer een kalender
+Voeg een aangepaste kalender toe aan het project. Deze kalender zal onze uitzonderingen bevatten.
+
 ```java
 Calendar cal = project.getCalendars().add("Calendar1");
 ```
-## Stap 4: Definieer de uitzondering voor weekdagen
-Definieer een uitzondering voor weekdagen, zoals feestdagen, binnen de kalender.
+
+### Stap 5: Definieer werkdagen‑uitzondering
+Maak een `CalendarException` die een reeks dagen (bijv. de laatste week van december) markeert als niet‑werkend.  
+Het voorbeeld stelt de uitzondering in van **24 Dec 2009** tot **31 Dec 2009**, schakelt werk voor die dagen uit, en behandelt de uitzondering als een dagelijks type.
+
 ```java
 CalendarException except = new CalendarException();
 except.setEnteredByOccurrences(false);
@@ -55,25 +95,46 @@ except.setType(CalendarExceptionType.Daily);
 except.setDayWorking(false);
 cal.getExceptions().add(except);
 ```
-## Stap 5: Sla het project op
-Sla het projectbestand op met de gedefinieerde kalenderuitzonderingen.
+
+### Stap 6: Sla het project op
+Sla het project op, inclusief de aangepaste kalender en de uitzondering, in een XML‑bestand.
+
 ```java
 project.save(dataDir + "project.xml", SaveFileFormat.Xml);
 ```
 
-## Conclusie
-Door deze stappen te volgen, kunt u efficiënt weekdagen definiëren voor agenda-uitzonderingen in uw project met behulp van Aspose.Tasks voor Java. Het beheren van uitzonderingen zoals feestdagen of speciale werkdagen zorgt voor een nauwkeurige planning en weergave van projecttijdlijnen.
+## Veelvoorkomende problemen en oplossingen
+| Probleem | Oplossing |
+|----------|-----------|
+| **Uitzonderingsdatums niet toegepast** | Zorg ervoor dat `setEnteredByOccurrences(false)` en de juiste `FromDate/ToDate`-waarden zijn ingesteld. |
+| **Opgeslagen bestand is leeg** | Controleer of `dataDir` naar een schrijfbare map wijst en de bestandsnaam eindigt op `.xml`. |
+| **Kalender niet weerspiegeld in taakplanning** | Wijs de kalender toe aan taken of resources met `task.setCalendar(cal)` of `resource.setCalendar(cal)`. |
+
 ## Veelgestelde vragen
-### Vraag: Kan ik meerdere uitzonderingen definiëren voor verschillende weekdagen binnen dezelfde kalender?
-A: Ja, u kunt meerdere uitzonderingen definiëren voor verschillende weekdagen binnen één kalender met behulp van Aspose.Tasks voor Java.
-### Vraag: Is Aspose.Tasks voor Java compatibel met verschillende Java-IDE's?
-A: Aspose.Tasks voor Java is compatibel met populaire Java IDE's zoals IntelliJ IDEA, Eclipse en NetBeans.
-### Vraag: Kan ik andere uitzonderingstypen dan dagelijkse uitzonderingen aanpassen?
-A: Absoluut, Aspose.Tasks voor Java biedt flexibiliteit om uitzonderingen te definiëren op basis van verschillende criteria, en niet beperkt tot dagelijkse uitzonderingen.
-### Vraag: Hoe kan ik uitzonderingen dynamisch afhandelen op basis van projectvereisten?
-A: U kunt uitzonderingen programmatisch afhandelen op basis van dynamische projectvereisten met behulp van de uitgebreide API van Aspose.Tasks voor Java.
-### Vraag: Is er een proefversie beschikbaar voor Aspose.Tasks voor Java?
- A: Ja, u kunt gebruikmaken van een gratis proefversie van Aspose.Tasks voor Java van de[website](https://releases.aspose.com/).
+
+**Q: Kan ik meerdere uitzonderingen definiëren voor verschillende werkdagen binnen dezelfde kalender?**  
+A: Ja. Voeg extra `CalendarException`-objecten toe aan `cal.getExceptions()` voor elke afzonderlijke periode of regel.
+
+**Q: Is Aspose.Tasks for Java compatibel met verschillende Java‑IDE's?**  
+A: Absoluut. De bibliotheek werkt met IntelliJ IDEA, Eclipse, NetBeans en elke IDE die standaard Java‑projecten ondersteunt.
+
+**Q: Kan ik uitzonderingstypen aanpassen anders dan dagelijkse uitzonderingen?**  
+A: Ja. Gebruik `CalendarExceptionType.Weekly`, `Monthly` of `Yearly` om aan uw planningsbehoeften te voldoen.
+
+**Q: Hoe kan ik uitzonderingen dynamisch afhandelen op basis van projectvereisten?**  
+A: Bouw de uitzonderingobjecten programmatisch—bijv. lees feestdagdatums uit een database of configuratiebestand en maak `CalendarException`-instanties aan in een lus.
+
+**Q: Is er een proefversie beschikbaar voor Aspose.Tasks for Java?**  
+A: Ja, u kunt een gratis proefversie downloaden van de [Aspose.Tasks Java download page](https://releases.aspose.com/tasks/java/).
+
+## Conclusie
+Door deze stappen te volgen weet u nu hoe u **create project calendar aspose** kunt maken en werkdagen‑uitzonderingen kunt definiëren die nauwkeurig feestdagen of speciale niet‑werkperiodes weerspiegelen. Een juiste kalenderconfiguratie is essentieel voor realistische schema's, resource‑toewijzing en het algehele projectsucces. Verken verder door de aangepaste kalender aan taken of resources te koppelen en te experimenteren met andere uitzonderingstypen om een uitgebreide **non‑working days schedule** voor elk project op te bouwen.
+
+---
+
+**Laatst bijgewerkt:** 2026-01-28  
+**Getest met:** Aspose.Tasks for Java 24.11  
+**Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

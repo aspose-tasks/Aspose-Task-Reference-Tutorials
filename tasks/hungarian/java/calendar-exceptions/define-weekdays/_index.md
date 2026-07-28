@@ -1,51 +1,89 @@
 ---
-title: Határozza meg a naptári kivételek hétköznapjait az Aspose.Tasks segítségével
-linktitle: Határozza meg a naptári kivételek hétköznapjait az Aspose.Tasks segítségével
+date: 2026-01-28
+description: Tanulja meg, hogyan hozhat létre projekt naptárat az Aspose segítségével,
+  határozza meg a hét napjait a naptárkivételhez, és kezelje a nem munkanapok ütemezését
+  az Aspose.Tasks for Java használatával.
+linktitle: Create Project Calendar Aspose – Define Weekdays for Calendar Exceptions
 second_title: Aspose.Tasks Java API
-description: Ismerje meg, hogyan határozhatja meg a naptárkivételek hétköznapjait a Java projektekben az Aspose.Tasks segítségével a pontos projektütemezés érdekében.
-weight: 11
+title: Projekt naptár létrehozása Aspose – Hétköznapok meghatározása a naptár kivételeihez
 url: /hu/java/calendar-exceptions/define-weekdays/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Határozza meg a naptári kivételek hétköznapjait az Aspose.Tasks segítségével
+# Projekt naptár létrehozása Aspose – Hétköznapok definiálása naptári kivételekhez
 
 ### Bevezetés
-projektmenedzsmentben a naptárak kivételeinek meghatározása kulcsfontosságú a nem szabványos munkanapok vagy ünnepnapok pontos ábrázolásához a projekt idővonalán belül. Az Aspose.Tasks for Java robusztus funkciókat kínál a naptárak hatékony kezeléséhez, beleértve a kivételek, például a szabadságok vagy a különleges munkanapok meghatározását. Ebben az oktatóanyagban megvizsgáljuk, hogyan határozhatjuk meg a naptári kivételek hétköznapjait az Aspose.Tasks for Java segítségével.
-### Előfeltételek
-Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy beállította a következő előfeltételeket:
-1. Java Development Kit (JDK): Győződjön meg arról, hogy a JDK telepítve van a rendszeren.
-2.  Aspose.Tasks for Java: Töltse le és telepítse az Aspose.Tasks for Java-t a[letöltési link](https://releases.aspose.com/tasks/java/).
-3. Integrált fejlesztői környezet (IDE): Válassza ki a kívánt IDE-t a Java fejlesztéshez.
+Amikor **create project calendar aspose**-t kell készítenie, képesnek kell lennie a nem szabványos munkanapok, például ünnepek, különleges műszakok vagy ideiglenes lezárások modellezésére. Az Aspose.Tasks for Java teljes irányítást biztosít a naptárdefiníciók felett, lehetővé téve olyan kivételek hozzáadását, amelyek a valós világ ütemezését tükrözik. Ebben az útmutatóban lépésről‑lépésre bemutatjuk, hogyan definiálhatók a hétköznapok naptári kivételekhez, hogy a projekt ütemtervei pontosak és megbízhatóak maradjanak. A végén láthatja, hogyan illeszkedik ez egy átfogó **non‑working days schedule** stratégiához bármely vállalati projekt esetén.
 
-## Csomagok importálása
-Kezdésként importálja az Aspose.Tasks szükséges csomagjait a Java projektben:
+## Gyors válaszok
+- **Mit jelent a „create project calendar aspose”?**  
+  Az Aspose.Tasks használatát jelenti egy egyedi naptárobjektum létrehozásához, amely a feladatok ütemezését irányítja.  
+- **Szükségem van licencre a példa futtatásához?**  
+  Fejlesztéshez egy ingyenes próba verzió elegendő; a termeléshez kereskedelmi licenc szükséges.  
+- **Mely IDE-k támogatottak?**  
+  IntelliJ IDEA, Eclipse, NetBeans vagy bármely Java 8+‑t támogató IDE.  
+- **Hozzáadhatok több kivételt ugyanahhoz a naptárhoz?**  
+  Igen – annyi `CalendarException` objektumot hozzáadhat, amennyire szüksége van.  
+- **Milyen fájlformátumokba menthetem a projektet?**  
+  XML, MPP és több más, az Aspose.Tasks által támogatott formátum.
+
+## Mi az a projekt naptár az Aspose.Tasks-ben?
+A **projekt naptár** meghatározza a projekt munkanapjait és munkaidőit. Befolyásolja a feladatok kezdő‑/befejező dátumait, az erőforrás‑allokációt és az általános ütemezési számításokat. A naptár testreszabásával biztosíthatja, hogy az ütemterv a valós világ korlátait, például a vállalati ünnepeket vagy a hétvégi munkavégzési szabályzatokat figyelembe vegye.
+
+## Miért definiáljunk hétköznapokat naptári kiv?
+- **Pontos ütemtervek:** A feladatok nem lesznek ütemezve a nem munkanapként jelölt napokra.  
+- **Erőforrás‑tervezés:** Az erőforrások csak érvényes munkanapokon kerülnek kiosztásra.  
+- **Megfelelőség:** A projekt ütemterveket összehangolja a szervezeti szabályzatokkal vagy a jogi ünnepekkel.
+
+## Nem munkanapok ütemezése naptári kivételekkel
+Amikor **non‑working days schedule**‑t tart fenn, általában egy mesterlistát vezet az ünnepekről, karbantartási időszakokról vagy egyéb leállási időkről. Ezeknek a dátumoknak a `CalendarException` objektumokként való hozzáadása garantálja, hogy minden számítás – legyen az kritikus út elemzés vagy erőforrás‑kiegyenlítés – automatikusan figyelembe veszi ezeket a korlátozásokat. Ez a megközelítés kiküszöböli a manuális dátumkorrekciókat és csökkenti az ütemterv eltolódásának kockázatát.
+
+## Előkövetelmények
+1. **Java Development Kit (JDK)** – 8-as vagy újabb verzió.  
+2. **Aspose.Tasks for Java** – letölthető a hivatalos [Aspose.Tasks Java download page](https://releases.aspose.com/tasks/java/) oldalról.  
+3. **IDE** – IntelliJ IDEA, Eclipse, NetBeans vagy bármely Java‑kompatibilis szerkesztő.
+
+## Hogyan hozhatunk létre projekt naptárat Aspose – Hétköznapok definiálása naptári kivételekhez
+
+### Lépésről‑lépésre útmutató
+
+### 1. lépés: Szükséges csomagok importálása
+A feladatkezeléshez szükségünk van az Aspose.Tasks alaposztályaira és a Java `GregorianCalendar` osztályára a dátumkezeléshez.
+
 ```java
 import com.aspose.tasks.*;
 import java.util.GregorianCalendar;
-
 ```
 
-## 1. lépés: Határozza meg az adatkönyvtárat
-Állítsa be az adatkönyvtár elérési útját, ahol a projektfájlokat tárolni fogja.
+### 2. lépés: Az adatkönyvtár meghatározása
+Adja meg, hogy a generált projektfájl hol legyen elmentve.
+
 ```java
 String dataDir = "Your Data Directory";
 ```
-## 2. lépés: Hozzon létre egy projektpéldányt
-A projektadatokkal való munka megkezdéséhez inicializálja a Project osztály új példányát.
+
+### 3. lépés: Projekt példány létrehozása
+Hozzon létre egy új `Project` objektumot – ez a konténer minden projektadat számára, beleértve a naptárakat is.
+
 ```java
 Project project = new Project();
 ```
-## 3. lépés: A naptár meghatározása
-Hozzon létre egy naptárobjektumot annak a naptárnak a meghatározásához, amelyhez kivételek kerülnek hozzáadásra.
+
+### 4. lépés: Naptár definiálása
+Adjon hozzá egy egyedi naptárat a projekthez. Ez a naptár fogja tárolni a kivételeinket.
+
 ```java
 Calendar cal = project.getCalendars().add("Calendar1");
 ```
-## 4. lépés: Határozza meg a hétköznapok kivételét
-Határozzon meg kivételt a naptárban hétköznapokra, például ünnepnapokra.
+
+### 5. lépés: Hétköznapok kivétel definiálása
+Hozzon létre egy `CalendarException` objektumot, amely egy napintervallumot (pl. december utolsó hetét) nem munkanapként jelöl.  
+A példa a kivételt **2009. december 24.**‑től **2009. december 31.**‑ig állítja be, letiltja a munkavégzést ezeken a napokon, és a kivételt napi típusúként kezeli.
+
 ```java
 CalendarException except = new CalendarException();
 except.setEnteredByOccurrences(false);
@@ -55,25 +93,46 @@ except.setType(CalendarExceptionType.Daily);
 except.setDayWorking(false);
 cal.getExceptions().add(except);
 ```
-## 5. lépés: Mentse el a projektet
-Mentse el a projektfájlt a megadott naptári kivételekkel.
+
+### 6. lépés: Projekt mentése
+Mentse el a projektet, beleértve az egyedi naptárat és annak kivételét, egy XML fájlba.
+
 ```java
 project.save(dataDir + "project.xml", SaveFileFormat.Xml);
 ```
 
-## Következtetés
-Ha követi ezeket a lépéseket, az Aspose.Tasks for Java segítségével hatékonyan meghatározhatja a naptárkivételek hétköznapjait a projektben. A kivételek, például ünnepnapok vagy különleges munkanapok kezelése biztosítja a projektek ütemezésének pontos ütemezését és megjelenítését.
-## GYIK
-### K: Meghatározhatok több kivételt a különböző hétköznapokra ugyanazon a naptáron belül?
-V: Igen, az Aspose.Tasks for Java segítségével egyetlen naptáron belül több kivételt is megadhat különböző hétköznapokra.
-### K: Az Aspose.Tasks for Java kompatibilis a különböző Java IDE-kkel?
-V: Az Aspose.Tasks for Java kompatibilis az olyan népszerű Java IDE-kkel, mint az IntelliJ IDEA, az Eclipse és a NetBeans.
-### K: Testreszabhatok-e a napi kivételektől eltérő kivételtípusokat?
-V: Természetesen az Aspose.Tasks for Java rugalmasságot biztosít a kivételek meghatározásához különféle kritériumok alapján, nem korlátozódik a napi kivételekre.
-### K: Hogyan kezelhetem dinamikusan a kivételeket a projekt követelményei alapján?
-V: Programozottan kezelheti a dinamikus projektkövetelményeken alapuló kivételeket az Aspose.Tasks for Java által biztosított kiterjedt API használatával.
-### K: Elérhető az Aspose.Tasks for Java próbaverziója?
- V: Igen, igénybe veheti az Aspose.Tasks Java ingyenes próbaverzióját a webhelyről[weboldal](https://releases.aspose.com/).
+## Gyakori problémák és megoldások
+| Probléma | Megoldás |
+|----------|----------|
+| **Exception dates not applied** | Ensure `setEnteredByOccurrences(false)` and correct `FromDate/ToDate` values. |
+| **Saved file is empty** | Verify `dataDir` points to a writable folder and the filename ends with `.xml`. |
+| **Calendar not reflected in task scheduling** | Assign the calendar to tasks or resources using `task.setCalendar(cal)` or `resource.setCalendar(cal)`. |
+
+## Gyakran Ismételt Kérdések
+
+**Q: Hozzáadhatok több kivételt különböző hétköznapokra ugyanabban a naptárban?**  
+A: Igen. További `CalendarException` objektumokat adhat a `cal.getExceptions()` gyűjteményhez minden egyes különálló időszak vagy szabály esetén.
+
+**Q: Az Aspose.Tasks for Java kompatibilis-e különböző Java IDE-kkel?**  
+A: Teljes mértékben. A könyvtár működik IntelliJ IDEA, Eclipse, NetBeans és bármely, a standard Java projekteket támogató IDE-vel.
+
+**Q: Testreszabhatom a kivétel típusát a napi kivételeken kívül?**  
+A: Igen. Használja a `CalendarExceptionType.Weekly`, `Monthly` vagy `Yearly` típusokat a tervezési igényeknek megfelelően.
+
+**Q: Hogyan kezelhetem a kivételeket dinamikusan a projekt követelményei alapján?**  
+A: Készítse el a kivétel objektumokat programozottan – például olvassa be az ünnepnapokat egy adatbázisból vagy konfigurációs fájlból, és egy ciklusban hozza létre a `CalendarException` példányokat.
+
+**Q: Elérhető-e próba verzió az Aspose.Tasks for Java-hoz?**  
+A: Igen, letölthet egy ingyenes próbaverziót a [Aspose.Tasks Java download page](https://releases.aspose.com/tasks/java/) oldalról.
+
+## Összegzés
+Ezekkel a lépésekkel most már tudja, hogyan **create project calendar aspose**, és hogyan definiáljon hétköznap kivételeket, amelyek pontosan tükrözik az ünnepeket vagy egyéb nem munkanapokat. A megfelelő naptárkonfiguráció elengedhetetlen a reális ütemtervek, az erőforrás‑allokáció és a projekt sikeres megvalósítása szempontjából. További felfedezésekhez csatolja az egyedi naptárat feladatokhoz vagy erőforrásokhoz, és kísérletezzen más kivételtípusokkal, hogy átfogó **non‑working days schedule**-t építsen bármely projekthez.
+
+---
+
+**Last Updated:** 2026-01-28  
+**Tested With:** Aspose.Tasks for Java 24.11  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

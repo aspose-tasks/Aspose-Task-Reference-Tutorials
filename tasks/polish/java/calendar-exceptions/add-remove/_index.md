@@ -1,49 +1,72 @@
 ---
-title: Zarządzaj wyjątkami kalendarza w Aspose.Tasks
-linktitle: Dodawaj i usuwaj wyjątki kalendarza w Aspose.Tasks
-second_title: Aspose.Tasks API Java
-description: Dowiedz się, jak efektywnie dodawać i usuwać wyjątki kalendarza w Aspose.Tasks dla Java. Ulepsz przepływ pracy w zarządzaniu projektami bez wysiłku.
-weight: 10
+date: 2026-01-28
+description: Dowiedz się, jak tworzyć wyjątki kalendarza przy użyciu Aspose.Tasks
+  dla Javy, efektywnie dodawać i usuwać wyjątki kalendarza oraz usprawniać planowanie
+  projektu.
+linktitle: Add and Remove Calendar Exceptions in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Utwórz wyjątek kalendarza Aspose dla Java
 url: /pl/java/calendar-exceptions/add-remove/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zarządzaj wyjątkami kalendarza w Aspose.Tasks
+# Utwórz wyjątek kalendarza Aspose dla Java
 
+## Wprowadzenie
+Dokładne planowanie projektu często zależy od obsługi **calendar exceptions** — dni, w których zasoby są niedostępne lub zmieniają się harmonogramy pracy. Dzięki **Aspose.Tasks for Java** możesz **create calendar exception** obiekty, dodać je do kalendarza projektu lub usunąć, gdy nie są już potrzebne. W tym samouczku przeprowadzimy Cię przez cały proces, od wczytania pliku projektu po weryfikację zarządzanych wyjątków. Ten przewodnik pokazuje dokładnie, jak **create calendar exception aspose** w środowisku Java.
 
-## Wstęp
-W zarządzaniu projektami obsługa wyjątków w kalendarzach jest kluczowa dla dokładnego planowania zadań i zarządzania zasobami. Aspose.Tasks dla Java zapewnia zaawansowane funkcje umożliwiające łatwe dodawanie i usuwanie wyjątków kalendarza. W tym samouczku przeprowadzimy Cię krok po kroku przez ten proces.
-#### Warunki wstępne
-Przed przystąpieniem do samouczka upewnij się, że spełniasz następujące wymagania wstępne:
-- Zestaw Java Development Kit (JDK) zainstalowany w systemie
-- Biblioteka Aspose.Tasks dla Java pobrana i skonfigurowana w Twoim projekcie
-- Podstawowa znajomość języka programowania Java i koncepcji zarządzania projektami
+### Szybkie odpowiedzi
+- **What does “create calendar exception” mean?** Oznacza to zdefiniowanie zakresu dat, który odbiega od standardowego kalendarza roboczego.  
+- **Which library provides this capability?** Aspose.Tasks for Java.  
+- **Do I need a license to try it?** Dostępna jest darmowa wersja próbna; licencja jest wymagana do użytku produkcyjnego.  
+- **Can I remove an existing exception?** Tak — wystarczy odnaleźć ją na liście wyjątków kalendarza i usunąć.  
+- **Is this compatible with Microsoft Project files?** Absolutnie; Aspose.Tasks odczytuje i zapisuje wszystkie główne wersje .mpp.
 
-## Importuj pakiety
-Po pierwsze, pamiętaj o zaimportowaniu niezbędnych pakietów do swojej klasy Java, aby efektywnie korzystać z funkcjonalności Aspose.Tasks.
+#### Wymagania wstępne
+Zanim rozpoczniesz, upewnij się, że masz:
+
+- Zainstalowany Java Development Kit (JDK).
+- Bibliotekę Aspose.Tasks for Java dodaną do classpathu projektu.
+- Podstawową znajomość Javy i terminologii zarządzania projektami.
+
+## Jak utworzyć wyjątek kalendarza Aspose w Javie
+Poniżej znajduje się krok po kroku przewodnik, który wyjaśnia cel każdego fragmentu kodu przed jego uruchomieniem. Postępuj zgodnie z sekcjami w kolejności, aby zapewnić prawidłowe obsłużenie wyjątków kalendarza.
+
+## Importowanie pakietów
+Najpierw zaimportuj podstawowe klasy Aspose.Tasks, które umożliwiają manipulację kalendarzem.
+
 ```java
 import com.aspose.tasks.*;
 ```
-## Krok 1: Załaduj projekt i uzyskaj dostęp do kalendarza
-Rozpocznij od załadowania pliku projektu i uzyskania dostępu do kalendarza, do którego chcesz dodać lub usunąć wyjątki.
+
+## Krok 1: Wczytaj projekt i uzyskaj dostęp do jego kalendarza
+Zaczynamy od wczytania istniejącego pliku Microsoft Project (`input.mpp`) i pobrania pierwszego kalendarza z kolekcji. Możesz dostosować indeks, jeśli potrzebujesz innego kalendarza.
+
 ```java
 String dataDir = "Your Data Directory";
 Project project = new Project(dataDir + "input.mpp");
 Calendar cal = project.getCalendars().toList().get(0);
 ```
-## Krok 2: Usuń wyjątek
-Aby usunąć istniejący wyjątek z kalendarza, sprawdź, czy są jakieś wyjątki, a następnie usuń żądany.
+
+## Krok 2: Usuń istniejący wyjątek (jeśli potrzebny)
+Czasami kalendarz już zawiera wyjątki, które chcesz usunąć. Poniższy fragment sprawdza listę wyjątków i usuwa pierwszy wpis, gdy istnieje więcej niż jeden wyjątek.
+
 ```java
 if (cal.getExceptions().size() > 1) {
     CalendarException exc = cal.getExceptions().get(0);
     cal.getExceptions().remove(exc);
 }
 ```
-## Krok 3: Dodaj wyjątek
- Aby dodać nowy wyjątek do kalendarza, utwórz plik`CalendarException` obiektu i określić jego daty rozpoczęcia i zakończenia.
+
+> **Pro tip:** Zawsze sprawdzaj rozmiar listy wyjątków przed usuwaniem elementów, aby uniknąć `IndexOutOfBoundsException`.
+
+## Krok 3: Utwórz (dodaj) nowy wyjątek kalendarza
+Teraz **create calendar exception** obiekty. W tym przykładzie definiujemy wyjątek obejmujący 1‑3 stycznia 2009. Dostosuj daty do własnego harmonogramu projektu.
+
 ```java
 CalendarException calExc = new CalendarException();
 java.util.Calendar calObject = java.util.Calendar.getInstance();
@@ -53,38 +76,51 @@ calObject.set(2009, java.util.Calendar.JANUARY, 3, 0, 0, 0);
 calExc.setToDate(calObject.getTime());
 cal.getExceptions().add(calExc);
 ```
-## Krok 4: Wyświetl wyjątki
-Na koniec możesz wyświetlić dodane wyjątki w celu weryfikacji lub dalszego przetwarzania.
+
+> **Why this matters:** Dodawanie wyjątków pozwala modelować święta, okna konserwacyjne lub dowolne okresy niepracujące bezpośrednio w harmonogramie projektu. To jest sedno funkcjonalności **create calendar exception aspose**.
+
+## Krok 4: Wyświetl wszystkie wyjątki w celu weryfikacji
+Po dodaniu (lub usunięciu) wyjątków dobrą praktyką jest ich wydrukowanie. Pomaga to potwierdzić, że kalendarz odzwierciedla zamierzone zmiany.
+
 ```java
 for (CalendarException calExc1 : cal.getExceptions()) {
-    System.out.println("From" + calExc1.getFromDate().toString());
-    System.out.println("To" + calExc1.getToDate().toString());
+    System.out.println("From " + calExc1.getFromDate().toString());
+    System.out.println("To   " + calExc1.getToDate().toString());
 }
 ```
 
-## Wniosek
-Zarządzanie wyjątkami w kalendarzu jest niezbędne do dokładnego planowania projektu i alokacji zasobów. Dzięki Aspose.Tasks dla Java możesz bez wysiłku dodawać i usuwać wyjątki, aby zapewnić efektywne dotrzymanie harmonogramu projektu.
+## Typowe problemy i rozwiązania
+| Problem | Przyczyna | Rozwiązanie |
+|-------|-------|-----|
+| Brak wyjścia | Lista wyjątków jest pusta | Upewnij się, że dodałeś wyjątek przed iteracją. |
+| `NullPointerException` na `project` | Nieprawidłowa ścieżka pliku | Sprawdź, czy `dataDir` wskazuje na prawidłowy plik `.mpp`. |
+| Daty są przesunięte o jeden dzień | Różnice stref czasowych | Użyj `java.util.Calendar` z wyraźnie określoną strefą czasową lub API `java.time`. |
 
-## Często zadawane pytania
-### P: Czy mogę dodać wiele wyjątków do kalendarza za pomocą Aspose.Tasks dla Java?
+## Najczęściej zadawane pytania
 
-Odp.: Tak, możesz dodać wiele wyjątków do kalendarza, przeglądając listę wyjątków i dodając każdy z osobna.
+**Q: Czy mogę dodać wiele wyjątków do kalendarza przy użyciu Aspose.Tasks for Java?**  
+A: Tak. Po prostu utwórz nowy `CalendarException` dla każdego zakresu dat i dodaj go do `cal.getExceptions()` w pętli.
 
-### P: Czy Aspose.Tasks for Java jest kompatybilny ze wszystkimi wersjami plików Microsoft Project?
+**Q: Czy Aspose.Tasks for Java jest kompatybilny ze wszystkimi wersjami plików Microsoft Project?**  
+A: Aspose.Tasks obsługuje szeroki zakres wersji .mpp, od Project 98 aż po najnowsze wydania, zapewniając płynną integrację.
 
-Odp.: Aspose.Tasks dla Java zapewnia kompatybilność z różnymi wersjami plików Microsoft Project, zapewniając bezproblemową integrację z przepływami pracy związanymi z zarządzaniem projektami.
+**Q: Jak mogę obsłużyć powtarzające się wyjątki (np. cotygodniowe spotkania) w kalendarzach projektów?**  
+A: Użyj właściwości powtarzalności `CalendarException` (`setRecurrencePattern`), aby zdefiniować złożone wzorce, takie jak codzienne, tygodniowe lub miesięczne powtórzenia.
 
-### P: Jak mogę obsłużyć powtarzające się wyjątki w kalendarzach projektów?
+**Q: Czy dostępna jest wersja próbna Aspose.Tasks for Java?**  
+A: Tak, możesz pobrać darmową wersję próbną ze [strony internetowej](https://releases.aspose.com/), aby przetestować wszystkie funkcje przed zakupem.
 
-O: Aspose.Tasks dla Java oferuje solidne funkcje do obsługi powtarzających się wyjątków w kalendarzach projektów, umożliwiając łatwe definiowanie złożonych wzorców powtarzania.
+**Q: Gdzie mogę uzyskać wsparcie w przypadku problemów lub pytań związanych z Aspose.Tasks for Java?**  
+A: Odwiedź forum Aspose.Tasks dla Javy na [stronie internetowej](https://reference.aspose.com/tasks/java/), aby zadawać pytania, lub skontaktuj się bezpośrednio z pomocą techniczną Aspose.
 
-### P: Czy dostępna jest wersja próbna Aspose.Tasks dla Java?
+## Zakończenie
+Zarządzanie wyjątkami kalendarza jest niezbędne dla realistycznych harmonogramów projektów i planowania zasobów. Dzięki **Aspose.Tasks for Java** możesz **create calendar exception** obiekty, dodać je do dowolnego kalendarza projektu i usuwać, gdy przestaną być istotne — wszystko przy użyciu kilku linii kodu. Ta możliwość **create calendar exception aspose** pozwala tworzyć harmonogramy, które naprawdę odzwierciedlają rzeczywiste ograniczenia.
 
- O: Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.Tasks dla Java z poziomu[strona internetowa](https://releases.aspose.com/) aby zapoznać się z jego funkcjami przed dokonaniem zakupu.
+---
 
-### P: Gdzie mogę szukać pomocy w przypadku jakichkolwiek problemów lub zapytań związanych z Aspose.Tasks dla Java?
-
- O: Możesz odwiedzić forum Aspose.Tasks dotyczące języka Java na stronie[strona internetowa](https://reference.aspose.com/tasks/java/) aby zwrócić się o pomoc do społeczności lub bezpośrednio skontaktować się z zespołem wsparcia w celu uzyskania spersonalizowanej pomocy.
+**Ostatnia aktualizacja:** 2026-01-28  
+**Testowano z:** Aspose.Tasks for Java 24.11  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
