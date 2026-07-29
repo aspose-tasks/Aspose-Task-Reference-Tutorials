@@ -1,11 +1,76 @@
 ---
-date: 2026-01-28
-description: Tìm hiểu cách tạo lịch dự án bằng Aspose, xác định các ngày trong tuần
-  cho các ngoại lệ lịch và quản lý lịch ngày không làm việc bằng Aspose.Tasks cho
-  Java.
-linktitle: Create Project Calendar Aspose – Define Weekdays for Calendar Exceptions
+date: 2026-07-29
+description: Tìm hiểu cách lên lịch ngày không làm việc bằng cách tạo lịch dự án với
+  Aspose.Tasks for Java, định nghĩa các ngoại lệ ngày trong tuần và quản lý lịch nghỉ
+  lễ.
+keywords:
+- schedule non working days
+- how to define weekdays
+- set non working days
+- java calendar exceptions
+lastmod: 2026-07-29
+linktitle: Lên lịch ngày không làm việc – Tạo lịch dự án Aspose
+og_description: Lên lịch ngày không làm việc bằng Aspose.Tasks for Java. Tìm hiểu
+  cách định nghĩa các ngày trong tuần, thêm các ngoại lệ lịch và quản lý lịch nghỉ
+  lễ một cách hiệu quả.
+og_image_alt: 'Developer guide: schedule non working days with Aspose.Tasks Java'
+og_title: Lên lịch ngày không làm việc – Tạo lịch dự án Aspose
+schemas:
+- author: Aspose
+  dateModified: '2026-07-29'
+  description: Learn how to schedule non working days by creating a project calendar
+    with Aspose.Tasks for Java, defining weekday exceptions and managing holiday schedules.
+  headline: Schedule Non Working Days – Create Project Calendar Aspose
+  type: TechArticle
+- description: Learn how to schedule non working days by creating a project calendar
+    with Aspose.Tasks for Java, defining weekday exceptions and managing holiday schedules.
+  name: Schedule Non Working Days – Create Project Calendar Aspose
+  steps:
+  - name: Import Required Packages
+    text: We need the core Aspose.Tasks classes and Java’s `GregorianCalendar` for
+      date handling.
+  - name: Define the Data Directory
+    text: Specify where the generated project file will be saved.
+  - name: Create a Project Instance
+    text: '`Project` is the main object that holds all project data, including tasks,
+      resources, and calendars.'
+  - name: Define a Calendar
+    text: '`Calendar` represents a schedule of working and non‑working times within
+      a project.'
+  - name: Define Weekdays Exception
+    text: '`CalendarException` represents a period that is marked as non‑working in
+      a calendar.'
+  - name: Save the Project
+    text: Persist the project, including the custom calendar and its exception, to
+      an XML file.
+  type: HowTo
+- questions:
+  - answer: Yes. Add additional `CalendarException` objects to `cal.getExceptions()`
+      for each distinct period or rule.
+    question: Can I define multiple exceptions for different weekdays within the same
+      calendar?
+  - answer: Absolutely. The library works with IntelliJ IDEA, Eclipse, NetBeans, and
+      any IDE that supports standard Java projects.
+    question: Is Aspose.Tasks for Java compatible with different Java IDEs?
+  - answer: Yes. Use `CalendarExceptionType.Weekly`, `Monthly`, or `Yearly` to suit
+      your scheduling needs.
+    question: Can I customize exception types other than daily exceptions?
+  - answer: Build the exception objects programmatically—e.g., read holiday dates
+      from a database or configuration file and create `CalendarException` instances
+      in a loop.
+    question: How can I handle exceptions dynamically based on project requirements?
+  - answer: Yes, you can download a free trial from the [Aspose.Tasks Java download
+      page](https://releases.aspose.com/tasks/java/).
+    question: Is there a trial version available for Aspose.Tasks for Java?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: Tạo Lịch Dự Án Aspose – Xác Định Các Ngày Trong Tuần cho Ngoại Lệ Lịch
+tags:
+- schedule non working days
+- Aspose.Tasks
+- Java calendar exceptions
+- project calendar
+- non-working days
+title: Lên lịch ngày không làm việc – Tạo lịch dự án Aspose
 url: /vi/java/calendar-exceptions/define-weekdays/
 weight: 11
 ---
@@ -14,46 +79,47 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tạo Lịch Dự Án Aspose – Định Nghĩa Ngày Trong Tuần cho Các Ngoại Lệ Lịch
+# Lịch Ngày Không Làm Việc – Tạo Lịch Dự Án Aspose
 
 ### Giới thiệu
-Khi bạn cần **tạo lịch dự án aspose**, bạn phải có khả năng mô hình hoá các ngày làm việc không chuẩn như ngày lễ, ca làm việc đặc biệt, hoặc thời gian đóng cửa tạm thời. Aspose.Tasks for Java cung cấp cho bạn toàn quyền kiểm soát việc định nghĩa lịch, cho phép bạn thêm các ngoại lệ phản ánh lịch trình thực tế. Trong hướng dẫn này, chúng ta sẽ đi qua các bước chính xác để định nghĩa ngày trong tuần cho các ngoại lệ lịch, giúp thời gian dự án của bạn luôn chính xác và đáng tin cậy. Khi hoàn thành, bạn cũng sẽ thấy cách tích hợp điều này vào chiến lược **lịch ngày không làm việc** cho bất kỳ dự án doanh nghiệp nào.
+Khi bạn cần **schedule non working days** cho một dự án, bạn phải có khả năng mô hình hóa các ngày lễ, ca làm việc đặc biệt, hoặc các thời gian đóng cửa tạm thời trực tiếp trong kế hoạch dự án. Aspose.Tasks for Java cung cấp cho bạn toàn quyền kiểm soát định nghĩa lịch, cho phép bạn thêm các ngoại lệ phản ánh lịch trình thực tế. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn chi tiết các bước để xác định các ngày trong tuần cho các ngoại lệ lịch, để thời gian dự án của bạn luôn chính xác và đáng tin cậy. Khi kết thúc, bạn cũng sẽ thấy cách điều này phù hợp với chiến lược **non‑working days schedule** rộng hơn cho bất kỳ dự án doanh nghiệp nào.
 
-## Trả Lời Nhanh
-- **“tạo lịch dự án aspose” có nghĩa là gì?**  
-  Nó đề cập đến việc sử dụng Aspose.Tasks để xây dựng một đối tượng lịch tùy chỉnh, điều khiển việc lên lịch các công việc.
-- **Tôi có cần giấy phép để chạy mẫu không?**  
-  Bản dùng thử miễn phí đủ cho việc phát triển; cần giấy phép thương mại cho môi trường sản xuất.
-- **Những IDE nào được hỗ trợ?**  
-  IntelliJ IDEA, Eclipse, NetBeans, hoặc bất kỳ IDE nào hỗ trợ Java 8+.
-- **Tôi có thể thêm nhiều ngoại lệ vào cùng một lịch không?**  
-  Có – bạn có thể thêm bao nhiêu đối tượng `CalendarException` tùy thích.
-- **Tôi có thể lưu dự án dưới định dạng file nào?**  
-  XML, MPP và một số định dạng khác được Aspose.Tasks hỗ trợ.
+## Câu trả lời nhanh
+- **What does “schedule non working days” mean?**  
+  Điều này có nghĩa là sử dụng Aspose.Tasks để tạo một lịch đánh dấu các ngày cụ thể là không làm việc, tự động ảnh hưởng đến ngày thực hiện nhiệm vụ.  
+- **Do I need a license to run the sample?**  
+  Bản dùng thử miễn phí hoạt động cho việc phát triển; giấy phép thương mại cần thiết cho môi trường sản xuất.  
+- **Which IDEs are supported?**  
+  IntelliJ IDEA, Eclipse, NetBeans, hoặc bất kỳ IDE nào hỗ trợ Java 8+.  
+- **Can I add multiple exceptions to the same calendar?**  
+  Có – bạn có thể thêm bao nhiêu đối tượng `CalendarException` tùy ý.  
+- **What file formats can I save the project to?**  
+  XML, MPP và một số định dạng khác được Aspose.Tasks hỗ trợ.  
 
-## Lịch Dự Án trong Aspose.Tasks là gì?
-Một **lịch dự án** xác định các ngày và giờ làm việc cho một dự án. Nó ảnh hưởng đến ngày bắt đầu/kết thúc của công việc, phân bổ nguồn lực, và các phép tính lịch tổng thể. Bằng cách tùy chỉnh lịch, bạn đảm bảo lịch trình tuân theo các ràng buộc thực tế như ngày lễ công ty hoặc chính sách làm việc cuối tuần.
+## Lịch Dự Án là gì trong Aspose.Tasks?
+**project calendar** là đối tượng cấp cao nhất của Aspose.Tasks, định nghĩa các ngày và giờ làm việc cho một dự án. Nó ảnh hưởng trực tiếp đến ngày bắt đầu/kết thúc của nhiệm vụ, phân bổ nguồn lực và các phép tính lịch trình tổng thể. Bằng cách tùy chỉnh lịch, bạn đảm bảo lịch trình tuân thủ các ràng buộc thực tế như ngày lễ công ty hoặc chính sách làm việc cuối tuần.
 
-## Tại sao cần định nghĩa ngày trong tuần cho các ngoại lệ lịch?
-- **Thời gian chính xác:** Các công việc sẽ không được lên lịch vào những ngày được đánh dấu là không làm việc.
-- **Kế hoạch nguồn lực:** Nguồn lực chỉ được phân bổ vào các ngày làm việc hợp lệ.
-- **Tuân thủ:** Đảm bảo lịch dự án phù hợp với chính sách tổ chức hoặc ngày lễ pháp định.
+## Tại sao phải định nghĩa các ngày trong tuần cho các ngoại lệ lịch?
+Việc định nghĩa các ngoại lệ ngày trong tuần đảm bảo rằng công cụ dự án xem những ngày đó là không làm việc, ngăn các nhiệm vụ được lên lịch tự động vào chúng và giữ cho thời gian dự án phù hợp với các ràng buộc thực tế như ngày lễ, thời gian bảo trì, hoặc các mẫu ca làm việc đặc biệt trong toàn tổ chức.
+
+- **Accurate timelines:** Các nhiệm vụ sẽ không được đặt vào ngày lễ hoặc khoảng thời gian cấm.  
+- **Resource planning:** Nguồn lực chỉ được phân bổ trong các ngày làm việc hợp lệ, tránh việc phân bổ quá mức.  
+- **Compliance:** Lịch trình tự động tuân theo chính sách tổ chức hoặc lịch ngày lễ pháp lý.  
 
 ## Lịch Ngày Không Làm Việc với Các Ngoại Lệ Lịch
-Khi bạn duy trì một **lịch ngày không làm việc**, thường có một danh sách tổng hợp các ngày lễ, cửa sổ bảo trì, hoặc các khoảng thời gian blackout khác. Thêm những ngày này dưới dạng các đối tượng `CalendarException` sẽ đảm bảo mọi phép tính—dù là phân tích đường truyền quan trọng hay cân bằng nguồn lực—tự động tôn trọng các ràng buộc đó. Cách tiếp cận này loại bỏ việc điều chỉnh ngày thủ công và giảm nguy cơ lệch lịch.
+Khi bạn duy trì một **non‑working days schedule**, thường bạn sẽ có một danh sách chính các ngày lễ, thời gian bảo trì, hoặc các khoảng thời gian cấm khác. Thêm những ngày này dưới dạng các đối tượng `CalendarException` đảm bảo mọi phép tính—cho dù là phân tích đường truyền quan trọng hay cân bằng nguồn lực—tự động tuân thủ các ràng buộc đó. Cách tiếp cận này loại bỏ việc điều chỉnh ngày thủ công và giảm nguy cơ lệch lịch.
 
-## Điều Kiện Tiên Quyết
-Trước khi bắt đầu, hãy chắc chắn rằng bạn đã có:
-
+## Yêu cầu trước
 1. **Java Development Kit (JDK)** – phiên bản 8 trở lên.  
-2. **Aspose.Tasks for Java** – tải về từ trang [Aspose.Tasks Java download page](https://releases.aspose.com/tasks/java/).  
-3. **Một IDE** – IntelliJ IDEA, Eclipse, NetBeans, hoặc bất kỳ trình soạn thảo Java nào tương thích.  
+2. **Aspose.Tasks for Java** – tải xuống từ trang [Aspose.Tasks Java download page](https://releases.aspose.com/tasks/java/).  
+3. **An IDE** – IntelliJ IDEA, Eclipse, NetBeans, hoặc bất kỳ trình soạn thảo nào hỗ trợ Java.  
 
-## Cách tạo lịch dự án aspose – Định Nghĩa Ngày Trong Tuần cho Các Ngoại Lệ Lịch
+## Cách lên lịch ngày không làm việc bằng cách sử dụng các ngoại lệ lịch
+Tải dự án của bạn, tạo một lịch tùy chỉnh, và thêm các đối tượng `CalendarException` đánh dấu các ngày trong tuần mong muốn là không làm việc. Toàn bộ quá trình này có thể hoàn thành trong một vài bước đơn giản, và lịch kết quả sẽ tự động ảnh hưởng đến mọi logic lập lịch nhiệm vụ.
 
-### Hướng Dẫn Từng Bước
+### Hướng dẫn từng bước
 
-### Bước 1: Nhập Các Gói Cần Thiết
+### Bước 1: Nhập các gói cần thiết
 Chúng ta cần các lớp cốt lõi của Aspose.Tasks và `GregorianCalendar` của Java để xử lý ngày tháng.
 
 ```java
@@ -61,30 +127,29 @@ import com.aspose.tasks.*;
 import java.util.GregorianCalendar;
 ```
 
-### Bước 2: Xác Định Thư Mục Dữ Liệu
-Chỉ định nơi sẽ lưu file dự án được tạo.
+### Bước 2: Xác định Thư mục Dữ liệu
+Xác định vị trí sẽ lưu tệp dự án được tạo.
 
 ```java
 String dataDir = "Your Data Directory";
 ```
 
-### Bước 3: Tạo Một Instance Dự Án
-Khởi tạo một đối tượng `Project` mới – đây là container cho tất cả dữ liệu dự án, bao gồm các lịch.
+### Bước 3: Tạo một thể hiện Project
+`Project` là đối tượng chính chứa tất cả dữ liệu dự án, bao gồm các nhiệm vụ, nguồn lực và lịch.
 
 ```java
 Project project = new Project();
 ```
 
-### Bước 4: Định Nghĩa Một Lịch
-Thêm một lịch tùy chỉnh vào dự án. Lịch này sẽ chứa các ngoại lệ của chúng ta.
+### Bước 4: Định nghĩa một Lịch
+`Calendar` đại diện cho lịch làm việc và không làm việc trong một dự án.
 
 ```java
 Calendar cal = project.getCalendars().add("Calendar1");
 ```
 
-### Bước 5: Định Nghĩa Ngoại Lệ Ngày Trong Tuần
-Tạo một `CalendarException` đánh dấu một khoảng ngày (ví dụ: tuần cuối cùng của tháng 12) là không làm việc.  
-Ví dụ đặt ngoại lệ từ **24 Dec 2009** đến **31 Dec 2009**, tắt công việc cho những ngày này, và coi ngoại lệ là loại hàng ngày.
+### Bước 5: Định nghĩa Ngoại lệ Ngày trong Tuần
+`CalendarException` đại diện cho một khoảng thời gian được đánh dấu là không làm việc trong lịch.
 
 ```java
 CalendarException except = new CalendarException();
@@ -97,44 +162,50 @@ cal.getExceptions().add(except);
 ```
 
 ### Bước 6: Lưu Dự Án
-Ghi lại dự án, bao gồm lịch tùy chỉnh và ngoại lệ của nó, vào một file XML.
+Lưu dự án, bao gồm lịch tùy chỉnh và ngoại lệ của nó, vào một tệp XML.
 
 ```java
 project.save(dataDir + "project.xml", SaveFileFormat.Xml);
 ```
 
-## Các Vấn Đề Thường Gặp và Giải Pháp
+## Các vấn đề thường gặp và giải pháp
 | Vấn đề | Giải pháp |
-|-------|-----------|
-| **Ngày ngoại lệ không được áp dụng** | Đảm bảo `setEnteredByOccurrences(false)` và giá trị `FromDate/ToDate` đúng. |
-| **File lưu trống** | Kiểm tra `dataDir` trỏ tới thư mục có quyền ghi và tên file kết thúc bằng `.xml`. |
-| **Lịch không ảnh hưởng tới việc lên lịch công việc** | Gán lịch cho công việc hoặc nguồn lực bằng `task.setCalendar(cal)` hoặc `resource.setCalendar(cal)`. |
+|-------|----------|
+| **Exception dates not applied** | Đảm bảo `setEnteredByOccurrences(false)` và các giá trị `FromDate/ToDate` đúng. |
+| **Saved file is empty** | Kiểm tra `dataDir` trỏ tới thư mục có thể ghi và tên tệp kết thúc bằng `.xml`. |
+| **Calendar not reflected in task scheduling** | Gán lịch cho các nhiệm vụ hoặc nguồn lực bằng cách sử dụng `task.setCalendar(cal)` hoặc `resource.setCalendar(cal)`. |
 
-## Câu Hỏi Thường Gặp
+## Câu hỏi thường gặp
 
-**H: Tôi có thể định nghĩa nhiều ngoại lệ cho các ngày trong tuần khác nhau trong cùng một lịch không?**  
-Đ: Có. Thêm các đối tượng `CalendarException` vào `cal.getExceptions()` cho mỗi khoảng thời gian hoặc quy tắc riêng.
+**Q: Tôi có thể định nghĩa nhiều ngoại lệ cho các ngày trong tuần khác nhau trong cùng một lịch không?**  
+A: Yes. Add additional `CalendarException` objects to `cal.getExceptions()` for each distinct period or rule.
 
-**H: Aspose.Tasks for Java có tương thích với các IDE Java khác nhau không?**  
-Đ: Chắc chắn. Thư viện hoạt động với IntelliJ IDEA, Eclipse, NetBeans và bất kỳ IDE nào hỗ trợ dự án Java tiêu chuẩn.
+**Q: Aspose.Tasks for Java có tương thích với các IDE Java khác nhau không?**  
+A: Absolutely. The library works with IntelliJ IDEA, Eclipse, NetBeans, and any IDE that supports standard Java projects.
 
-**H: Tôi có thể tùy chỉnh loại ngoại lệ khác ngoài ngoại lệ hàng ngày không?**  
-Đ: Có. Sử dụng `CalendarExceptionType.Weekly`, `Monthly`, hoặc `Yearly` tùy theo nhu cầu lập lịch của bạn.
+**Q: Tôi có thể tùy chỉnh các loại ngoại lệ khác ngoài ngoại lệ hàng ngày không?**  
+A: Yes. Use `CalendarExceptionType.Weekly`, `Monthly`, or `Yearly` to suit your scheduling needs.
 
-**H: Làm sao tôi có thể xử lý các ngoại lệ một cách động dựa trên yêu cầu dự án?**  
-Đ: Xây dựng các đối tượng ngoại lệ bằng chương trình—ví dụ, đọc ngày lễ từ cơ sở dữ liệu hoặc file cấu hình và tạo các instance `CalendarException` trong một vòng lặp.
+**Q: Làm thế nào tôi có thể xử lý các ngoại lệ một cách động dựa trên yêu cầu dự án?**  
+A: Build the exception objects programmatically—e.g., read holiday dates from a database or configuration file and create `CalendarException` instances in a loop.
 
-**H: Có phiên bản dùng thử cho Aspose.Tasks for Java không?**  
-Đ: Có, bạn có thể tải bản dùng thử miễn phí từ [Aspose.Tasks Java download page](https://releases.aspose.com/tasks/java/).
+**Q: Có phiên bản dùng thử cho Aspose.Tasks for Java không?**  
+A: Yes, you can download a free trial from the [Aspose.Tasks Java download page](https://releases.aspose.com/tasks/java/).
 
-## Kết Luận
-Sau khi thực hiện các bước trên, bạn đã biết cách **tạo lịch dự án aspose** và định nghĩa các ngoại lệ ngày trong tuần một cách chính xác, phản ánh ngày lễ hoặc các khoảng thời gian không làm việc đặc biệt. Cấu hình lịch đúng là yếu tố then chốt để có được lịch trình thực tế, phân bổ nguồn lực hợp lý và thành công dự án tổng thể. Hãy tiếp tục khám phá bằng cách gắn lịch tùy chỉnh vào các công việc hoặc nguồn lực và thử nghiệm các loại ngoại lệ khác để xây dựng một **lịch ngày không làm việc** toàn diện cho bất kỳ dự án nào.
+## Kết luận
+Bằng cách thực hiện các bước này, bạn đã biết cách **schedule non working days** bằng cách tạo một lịch dự án và định nghĩa các ngoại lệ ngày trong tuần phản ánh chính xác các ngày lễ hoặc các khoảng thời gian không làm việc đặc biệt. Cấu hình lịch đúng là yếu tố quan trọng cho các lịch trình thực tế, phân bổ nguồn lực và thành công chung của dự án. Hãy khám phá thêm bằng cách gắn lịch tùy chỉnh vào các nhiệm vụ hoặc nguồn lực và thử nghiệm các loại ngoại lệ khác để xây dựng một **non‑working days schedule** toàn diện cho bất kỳ dự án nào.
 
 ---
 
-**Cập nhật lần cuối:** 2026-01-28  
-**Được kiểm tra với:** Aspose.Tasks for Java 24.11  
-**Tác giả:** Aspose  
+**Cập nhật lần cuối:** 2026-07-29  
+**Kiểm tra với:** Aspose.Tasks for Java 24.11  
+**Tác giả:** Aspose
+
+## Hướng dẫn liên quan
+
+- [Thêm lịch vào dự án với Aspose.Tasks cho Java](/tasks/java/calendars/create/)
+- [Tạo Ngoại lệ Lịch cho Aspose cho Java](/tasks/java/calendar-exceptions/add-remove/)
+- [Cách Đặt Lịch và Định nghĩa Ngày trong Tuần trong MS Project với Aspose.Tasks](/tasks/java/calendars/define-weekdays/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
