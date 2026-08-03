@@ -1,6 +1,6 @@
 ---
-title: Custom Field Formula Example: Save Project with Aspose.Tasks
-linktitle: Custom Field Formula Example – Save Project with Aspose.Tasks
+title: 'Custom Field Formula Example: Save Project File'
+linktitle: Custom Field Formula Example – Save Project File
 second_title: Aspose.Tasks Java API
 description: Learn a custom field formula example with Aspose.Tasks for Java, including a double task cost formula, saving the project file and reading MS Project formulas.
 weight: 12
@@ -37,7 +37,7 @@ Adding a custom field gives you a flexible container for extra information that 
 Before diving into this tutorial, ensure you have the following prerequisites:
 
 1. **Java Development Kit (JDK)** – Java 8 or higher installed on your machine.  
-2. **Aspose.Tasks for Java** – Download and install from [here](https://releases.aspose.com/tasks/java/).  
+2. **Aspose.Tasks for Java** – Download and install from [Aspose.Tasks Java download page](https://releases.aspose.com/tasks/java/).  
 3. **Integrated Development Environment (IDE)** – Choose your preferred IDE for Java development (IntelliJ IDEA, Eclipse, VS Code, etc.).  
 
 ## Importing Packages
@@ -106,7 +106,7 @@ A: The library supports most native MS Project formula syntax, including arithme
 A: Yes, the library runs on any platform that supports Java, including Windows, Linux, and macOS.
 
 **Q: How can I get technical support for Aspose.Tasks?**  
-A: Visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) for community help, or open a support ticket if you have a commercial license.
+A: Visit the [Aspose.Tasks community forum](https://forum.aspose.com/c/tasks/15) for community help, or open a support ticket if you have a commercial license.
 
 ## Conclusion
 In this **custom field formula example** we covered how to **save project file**, **add a custom field**, and **create a double task cost formula** that automatically doubles the task cost. By following these steps you can automate calculations, enrich your project data, and ensure all changes are persisted for future reporting and analysis.

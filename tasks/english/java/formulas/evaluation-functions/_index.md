@@ -1,5 +1,5 @@
 ---
-title: Generate Project Report – Create Project Object Java
+title: How to Support Evaluation Functions in Aspose.Tasks Formulas
 linktitle: Support Evaluation Functions in Aspose.Tasks Formulas
 second_title: Aspose.Tasks Java API
 description: Learn how to generate project report by creating a project object in Java, adding extended attributes, and using evaluation functions with Aspose.Tasks.
@@ -103,13 +103,13 @@ A: Yes, Aspose.Tasks for Java supports evaluation of a wide range of MS Project 
 A: Yes, Aspose.Tasks for Java supports various versions of Microsoft Project files, including MPP, MPT, and XML formats.
 
 **Q: Can I try Aspose.Tasks for Java before purchasing?**  
-A: Yes, you can download a free trial version of Aspose.Tasks for Java from the website [here](https://purchase.aspose.com/buy).
+A: Yes, you can download a free trial version of Aspose.Tasks for Java from the website [Aspose.Tasks for Java purchase page](https://purchase.aspose.com/buy).
 
 **Q: How can I get support for Aspose.Tasks for Java?**  
-A: You can get support from the Aspose.Tasks community forum [here](https://forum.aspose.com/c/tasks/15).
+A: You can get support from the Aspose.Tasks community forum [Aspose.Tasks community forum](https://forum.aspose.com/c/tasks/15).
 
 **Q: Is there a temporary license available for Aspose.Tasks for Java?**  
-A: Yes, you can obtain a temporary license for testing purposes from the Aspose website [here](https://purchase.aspose.com/temporary-license/).
+A: Yes, you can obtain a temporary license for testing purposes from the Aspose website [Aspose temporary license page](https://purchase.aspose.com/temporary-license/).
 
 ## Conclusion
 By following these steps you’ve learned how to **create project object**, **add extended attribute**, and leverage evaluation functions to **generate project report** automatically. You can now extend this foundation to build richer project analytics, custom dashboards, or automated scheduling tools—all powered by Aspose.Tasks for Java.

@@ -1,5 +1,5 @@
 ---
-title: Calculate days between dates with Aspose.Tasks for Java
+title: Calculate Days Between Dates Using Aspose.Tasks Java API
 linktitle: Work with Formulas in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Learn how to calculate days between dates, create a test project, and add a custom field while manipulating Microsoft Project files using Aspose.Tasks for Java.
@@ -12,7 +12,7 @@ date: 2026-02-13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Calculate days between dates with Aspose.Tasks for Java
+# Calculate days between dates using Aspose.Tasks Java API
 
 ## Introduction
 In this tutorial you’ll **calculate days between dates** by creating a test project, adding a custom field, and using Microsoft Project formulas through the Aspose.Tasks library for Java. Whether you need to generate schedules, compute deadlines, or automate reporting, Aspose.Tasks lets you manipulate Project data programmatically without a desktop installation. By the end of the guide you’ll have a runnable example that defines an extended attribute, sets a deadline for a task, and saves the project as an MPP file.
