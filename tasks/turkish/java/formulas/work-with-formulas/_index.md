@@ -1,10 +1,11 @@
 ---
-date: 2025-12-07
-description: Aspose.Tasks for Java kullanarak Microsoft Project dosyalarını manipüle
-  ederken **test projesi oluşturmayı** ve **özel alan eklemeyi** öğrenin.
+date: 2026-02-13
+description: Tarihlerin arasındaki günleri nasıl hesaplayacağınızı, bir test projesi
+  oluşturmayı ve Aspose.Tasks for Java kullanarak Microsoft Project dosyalarını manipüle
+  ederken özel bir alan eklemeyi öğrenin.
 linktitle: Work with Formulas in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: Test Projesi Oluşturun ve Aspose.Tasks for Java ile Formülleri Kullanın
+title: Aspose.Tasks for Java ile tarihler arasındaki günleri hesaplayın
 url: /tr/java/formulas/work-with-formulas/
 weight: 11
 ---
@@ -13,54 +14,60 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Test Projesi Oluşturma ve Aspose.Tasks for Java ile Formüller Kullanma
+# Aspose.Tasks for Java ile tarihler arasındaki günleri hesaplama
 
-## Introduction
-Bu öğreticide **test projesi** dosyaları oluşturacak, özel bir alan ekleyecek ve Aspose.Tasks kütüphanesini kullanarak MS Project formülleriyle çalışacaksınız. Aspose.Tasks, **Microsoft Project** verilerini programatik olarak **manipüle etmeyi** kolaylaştırır—zaman çizelgeleri oluşturmak, tarihleri hesaplamak veya raporlamayı otomatikleştirmek istediğinizde. Kılavuzun sonunda, genişletilmiş bir öznitelik tanımlayan, bir göreve son tarih (deadline) atan ve projeyi MPP dosyası olarak kaydeden çalıştırılabilir bir örnek elde edeceksiniz.
+## Giriş
+Bu eğitimde bir test projesi oluşturarak, özel bir alan ekleyerek ve Aspose.Tasks Java kütüphanesi aracılığıyla Microsoft Project formüllerini kullanarak **tarihler arasındaki günleri hesaplayacaksınız**. Programlama yoluyla takvim oluşturmanız, son tarihleri hesaplamanız veya raporlamayı otomatikleştirmeniz gerekse, Aspose.Tasks, masaüstü kurulumu olmadan Project verilerini programlı olarak manipüle etmenizi sağlar. Kılavuzun sonunda, genişletilmiş bir öznitelik tanımlayan, bir görev için son tarih belirleyen ve projeyi MPP dosyası olarak kaydeden çalıştırılabilir bir örnek elde edeceksiniz.
 
-## Quick Answers
-- **What does the tutorial cover?** Creating a test project, adding a custom field, defining an extended attribute, and setting a task deadline with a formula.  
-- **Which library is required?** Aspose.Tasks for Java (latest version).  
-- **Do I need a license?** A free trial works for development; a license is required for production.  
-- **What IDE can I use?** Any Java IDE (IntelliJ IDEA, Eclipse, VS Code) that supports JDK 8+.  
-- **How long does the implementation take?** About 10‑15 minutes to copy the code and run it.
+## Hızlı Yanıtlar
+- **Bu eğitim neyi kapsıyor?** Bir test projesi oluşturma, özel bir alan ekleme, genişletilmiş bir öznitelik tanımlama ve tarihler arasındaki günleri hesaplamak için bir formül kullanarak görev son tarihi ayarlama.  
+- **Hangi kütüphane gerekiyor?** Aspose.Tasks for Java (en son sürüm).  
+- **Lisans gerekli mi?** Geliştirme için ücretsiz deneme çalışır; üretim için lisans gereklidir.  
+- **Hangi IDE'yi kullanabilirim?** JDK 8+ destekleyen herhangi bir Java IDE (IntelliJ IDEA, Eclipse, VS Code).  
+- **Uygulamanın süresi ne kadar?** Kodu kopyalayıp çalıştırmak yaklaşık 10‑15 dakika sürer.
 
-## What is a “Test Project” in Aspose.Tasks?
-A **test project** is a lightweight Microsoft Project file created programmatically to demonstrate or validate functionality. It contains a minimal set of tasks, resources, and custom fields that you can manipulate without affecting real project data.
+## Aspose.Tasks'te “tarihler arasındaki günleri hesaplama” nedir?
+Tarihler arasındaki günleri hesaplamak, bir Project formülünün bir tarih alanını (ör. **Finish**) diğer bir tarih alanından (ör. **Deadline**) çıkartarak sayısal gün farkını döndürmesi anlamına gelir. Bu, takvim kaymalarını izlemek, tampon süresini ölçmek veya özel raporlar oluşturmak için faydalıdır.
 
-## Why Use Aspose.Tasks to Manipulate Microsoft Project?
-- **Full API coverage** – access every Project, Task, and Resource property.  
-- **No Office installation required** – works on servers, CI pipelines, and Docker containers.  
-- **Cross‑platform** – runs on Windows, Linux, and macOS with the same Java code.  
-- **Robust formula engine** – calculate dates, durations, and custom fields directly inside the project file.
+## Neden Aspose.Tasks ile Tarihler Arasındaki Günleri Hesaplamalısınız?
+- **Full API coverage** – her Project, Task ve Resource özelliğine erişim.  
+- **No Office installation required** – sunucularda, CI boru hatlarında ve Docker konteynerlerinde çalışır.  
+- **Cross‑platform** – aynı Java kodu Windows, Linux ve macOS'ta çalışır.  
+- **Robust formula engine** – `[Deadline] - [Finish]` gibi hesaplamaları doğrudan proje dosyası içinde tanımlamanıza olanak tanır.
 
-## Prerequisites
-Before you start, make sure you have the following:
+## Bir görev için son tarih nasıl ayarlanır
+Son tarih, bir görevin `Tsk.DEADLINE` alanında depolanır ve bir `java.util.Calendar` örneği kullanılarak atanabilir.
 
-- **Java Development Kit (JDK) 8+** – download from the Oracle website or adopt OpenJDK.  
-- **Aspose.Tasks for Java** – obtain the latest JAR from the [Aspose.Tasks for Java download page](https://releases.aspose.com/tasks/java/) and add it to your project’s classpath or Maven/Gradle dependencies.
+## Genişletilmiş öznitelik nasıl tanımlanır
+Genişletilmiş öznitelik, formülünüzün sonucunu tutacak özel alandır. Bunu bir kez tanımlarsınız, okunabilirlik için bir takma ad (alias) verirsiniz ve ardından tarih çıkarma işlemini yapan bir formül eklersiniz.
 
-## Import Packages
-First, import the classes we’ll need:
+## Önkoşullar
+Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
+
+- **Java Development Kit (JDK) 8+** – Oracle web sitesinden veya OpenJDK dağıtımından indirin.  
+- **Aspose.Tasks for Java** – En son JAR dosyasını [Aspose.Tasks for Java indirme sayfasından](https://releases.aspose.com/tasks/java/) edinin ve projenizin sınıf yoluna veya Maven/Gradle bağımlılıklarına ekleyin.
+
+## Paketleri İçe Aktarma
+İhtiyacımız olan sınıfları ilk olarak içe aktaralım:
 
 ```java
 import com.aspose.tasks.*;
 import java.util.Calendar;
 ```
 
-## Step‑by‑Step Guide
+## Adım‑Adım Kılavuz
 
-### Step 1: Create a Test Project with a Custom Field
-We begin by **creating test project** and adding a custom field that will later hold our formula result.
+### Adım 1: Özel Alanlı Bir Test Projesi Oluşturma
+**Özel bir test projesi** oluşturup, daha sonra formül sonucunu tutacak bir özel alan ekleyerek başlıyoruz.
 
 ```java
 Project project = CreateTestProjectWithCustomField();
 ```
 
-> *Pro tip:* `CreateTestProjectWithCustomField()` is a helper method that builds a minimal schedule and registers an extended attribute ready for formula assignment.
+> *Pro tip:* `CreateTestProjectWithCustomField()` minimal bir takvim oluşturur ve formül atamaya hazır bir genişletilmiş öznitelik kaydeder.
 
-### Step 2: Define an Extended Attribute (Add Custom Field)
-Next, we **define extended attribute** – essentially the custom field – and give it a friendly alias. This is where we **add custom field** logic.
+### Adım 2: Genişletilmiş Öznitelik Tanımlama (Özel Alan Ekleme)
+Şimdi **genişletilmiş bir öznitelik** tanımlıyoruz – temelde özel alan – ve ona okunabilir bir takma ad veriyoruz. İşte **özel alan** ekleme mantığı burada gerçekleşir.
 
 ```java
 ExtendedAttributeDefinition attr = project.getExtendedAttributes().get(0);
@@ -68,11 +75,11 @@ attr.setAlias("Days from finish to deadline");
 attr.setFormula("[Deadline] - [Finish]");
 ```
 
-- **Alias** makes the field readable in Project.  
-- **Formula** calculates the number of days between a task’s *Finish* date and its *Deadline*.
+- **Alias**, alanı Project içinde okunabilir kılar.  
+- **Formula**, bir görevin *Finish* (Bitiş) tarihi ile *Deadline* (Son tarih) arasındaki gün sayısını hesaplar – *tarihler arasındaki günleri hesaplama* işleminin çekirdeği.
 
-### Step 3: Set Deadline for a Task (Add Deadline Task & Set Task Deadline)
-Now we **add deadline task** data by setting the *Deadline* property on a specific task.
+### Adım 3: Bir Görev İçin Son Tarih Ayarlama (Deadline Görevi Ekle & Görev Son Tarihini Belirleme)
+Şimdi belirli bir görevde *Deadline* özelliğini ayarlayarak **deadline görev** verisini ekliyoruz.
 
 ```java
 java.util.Calendar cal = java.util.Calendar.getInstance();
@@ -81,47 +88,45 @@ Task task = project.getRootTask().getChildren().getById(1);
 task.set(Tsk.DEADLINE, cal.getTime());
 ```
 
-- The `Calendar` instance defines the exact deadline moment.  
-- `set(Tsk.DEADLINE, …)` **sets task deadline** for the chosen task.
+- `Calendar` örneği kesin son tarih anını tanımlar.  
+- `set(Tsk.DEADLINE, …)` seçilen görev için **görev son tarihini ayarlar**.
 
-### Step 4: Save the Project (Manipulate Microsoft Project File)
-Finally, we **manipulate Microsoft Project** by persisting the changes to an MPP file.
+### Adım 4: Projeyi Kaydetme (Microsoft Project Dosyasını Manipüle Etme)
+Son olarak **Microsoft Project** dosyasını değişiklikleri bir MPP dosyasına kaydederek manipüle ediyoruz.
 
 ```java
 project.save("SaveFile.mpp", SaveFileFormat.Mpp);
 ```
 
-You can open `SaveFile.mpp` in Microsoft Project to see the custom field, formula result, and deadline reflected in the schedule.
+`SaveFile.mpp` dosyasını Microsoft Project'te açarak özel alanı, formül sonucunu ve takvimde yansıtılan son tarihi görebilirsiniz.
 
-## Common Issues and Solutions
+## Yaygın Sorunlar ve Çözümler
 | Sorun | Çözüm |
 |-------|----------|
-| **Formula not evaluating** | Özniteliğin `Formula` dizesinin doğru alan adlarını kullandığından emin olun (ör. `[Deadline]`, `[Finish]`). |
+| **Formula not evaluating** | Özniteliğin `Formula` dizesinin doğru alan adlarını (ör. `[Deadline]`, `[Finish]`) kullandığından emin olun. |
 | **Task not found** | Görev kimliğinin (`1` örnekte) mevcut olduğunu doğrulayın; hata ayıklamak için `project.getRootTask().getChildren().size()` kullanın. |
-| **License exception** | Her API metodunu çağırmadan önce geçerli bir Aspose.Tasks lisansı uygulayın (`License license = new License(); license.setLicense("Aspose.Tasks.lic");`). |
+| **License exception** | Her API çağrısından önce geçerli bir Aspose.Tasks lisansı uygulayın (`License license = new License(); license.setLicense("Aspose.Tasks.lic");`). |
 
-## Frequently Asked Questions
+## Sıkça Sorulan Sorular
 
-**Q: Can I use Aspose.Tasks with other programming languages?**  
-A: Yes, Aspose.Tasks provides APIs for .NET, Java, and other platforms, allowing you to **manipulate Microsoft Project** files in the language of your choice.
+**S: Aspose.Tasks'i başka programlama dilleriyle kullanabilir miyim?**  
+C: Evet, Aspose.Tasks .NET, Java ve diğer platformlar için API'ler sunar; böylece **Microsoft Project** dosyalarını tercih ettiğiniz dilde manipüle edebilirsiniz.
 
-**Q: Is there a free trial available for Aspose.Tasks?**  
-A: Absolutely. Download a fully functional trial from the [Aspose.Tasks download page](https://releases.aspose.com/).
+**S: Aspose.Tasks için ücretsiz bir deneme mevcut mu?**  
+C: Kesinlikle. Tam işlevsel deneme sürümünü [Aspose.Tasks indirme sayfasından](https://releases.aspose.com/tasks/java/) indirebilirsiniz.
 
-**Q: Where can I find detailed documentation for Aspose.Tasks?**  
-A: The official docs are hosted at [Aspose.Tasks Java API Reference](https://reference.aspose.com/tasks/java/).
+**S: Aspose.Tasks için ayrıntılı belgeleri nereden bulabilirim?**  
+C: Resmi dokümantasyon [Aspose.Tasks Java API Reference](https://reference.aspose.com/tasks/java/) adresinde bulunur.
 
-**Q: How can I get support for Aspose.Tasks?**  
-A: Visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) to ask questions and share experiences with the community.
+**S: Aspose.Tasks için destek nasıl alınır?**  
+C: Toplulukla soru sormak ve deneyim paylaşmak için [Aspose.Tasks forumunu](https://forum.aspose.com/c/tasks/15) ziyaret edin.
 
-**Q: Do I need a temporary license for evaluation?**  
-A: A temporary license is available for short‑term testing; you can request one [here](https://purchase.aspose.com/temporary-license/).
+**S: Değerlendirme için geçici bir lisansa ihtiyacım var mı?**  
+C: Kısa vadeli testler için geçici bir lisans mevcuttur; bir tane talep etmek için [buraya](https://purchase.aspose.com/temporary-license/) tıklayın.
 
----
-
-**Last Updated:** 2025-12-07  
-**Tested With:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
-**Author:** Aspose  
+**Son Güncelleme:** 2026-02-13  
+**Test Edilen Versiyon:** Aspose.Tasks for Java 24.12 (yazım anındaki en son sürüm)  
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

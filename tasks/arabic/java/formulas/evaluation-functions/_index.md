@@ -1,10 +1,10 @@
 ---
-date: 2025-12-09
-description: تعرّف على كيفية إنشاء كائن مشروع Java ودعم وظائف التقييم في صيغ Aspose.Tasks
-  باستخدام Java. اكتشف كيفية إنشاء سمة موسعة للمهام.
+date: 2026-02-13
+description: تعلم كيفية إنشاء تقرير مشروع عن طريق إنشاء كائن مشروع في جافا، وإضافة
+  سمات موسعة، واستخدام وظائف التقييم مع Aspose.Tasks.
 linktitle: Support Evaluation Functions in Aspose.Tasks Formulas
 second_title: Aspose.Tasks Java API
-title: إنشاء كائن مشروع Java – دعم وظائف التقييم في Aspose.Tasks
+title: إنشاء تقرير المشروع – إنشاء كائن المشروع جافا
 url: /ar/java/formulas/evaluation-functions/
 weight: 10
 ---
@@ -13,111 +13,116 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# دعم وظائف التقييم في صيغ Aspose.Tasks
+# دعم دوال التقييم في صيغ Aspose.Tasks
 
 ## المقدمة
-تتيح لك Aspose.Tasks for Java **create project object java** وإنشاء مثيلات وتقييم وظائف Microsoft Project مباشرة داخل شفرة Java الخاصة بك. من خلال تضمين هذه الصيغ، يمكنك إجراء حسابات متقدمة، إنشاء تقارير مخصصة، وأتمتة تحليل المشروع دون مغادرة بيئة التطوير. يشرح هذا الدرس العملية بالكامل — من إعداد كائن المشروع إلى إضافة سمة موسعة يمكنها احتواء بيانات مخصصة.
+تتيح لك Aspose.Tasks for Java **generate project report** عن طريق إنشاء **project object** في Java وتقييم دوال Microsoft Project مباشرة داخل الكود الخاص بك. من خلال تضمين هذه الصيغ، يمكنك إجراء حسابات متقدمة، وإنشاء تقارير مخصصة، وأتمتة تحليل المشروع دون مغادرة بيئة التطوير. في هذا البرنامج التعليمي سنستعرض إنشاء كائن المشروع، إضافة سمة موسعة، واستخدام دوال التقييم **add custom field task**.
 
 ## إجابات سريعة
-- **ماذا يعني “create project object java”؟** إنه ينشئ مثيل `Project` في الذاكرة يمكنك التلاعب به برمجيًا.  
-- **ما المكتبة المطلوبة؟** Aspose.Tasks for Java (download from the official site).  
-- **هل أحتاج إلى ترخيص؟** يلزم وجود ترخيص مؤقت أو كامل للاستخدام في بيئة الإنتاج؛ يتوفر نسخة تجريبية مجانية.  
-- **هل يمكنني استخدام الحقول المخصصة؟** نعم – يمكنك تعريف وإرفاق سمات موسعة للمهام.  
+- **ما معنى “create project object java”؟** ينشئ نسخة `Project` في الذاكرة يمكنك التلاعب بها برمجياً.  
+- **ما المكتبة المطلوبة؟** Aspose.Tasks for Java (قم بالتحميل من الموقع الرسمي).  
+- **هل أحتاج إلى ترخيص؟** يلزم وجود ترخيص مؤقت أو كامل لـ Aspose.Tasks للاستخدام في الإنتاج؛ يتوفر إصدار تجريبي مجاني.  
+- **هل يمكنني استخدام الحقول المخصصة؟** نعم – يمكنك **add extended attribute** للمهام ومعاملتها كحقول مخصصة.  
 - **هل هذا متوافق مع جميع صيغ ملفات Project؟** تدعم Aspose.Tasks صيغ MPP و MPT و XML.
 
 ## المتطلبات المسبقة
-قبل البدء، تأكد من وجود ما يلي:
+قبل البدء، تأكد من أن لديك:
 
 1. **بيئة تطوير Java** – JDK 8+ وIDE مثل IntelliJ IDEA أو Eclipse.  
-2. **مكتبة Aspose.Tasks for Java** – قم بتحميل المكتبة وإدراجها من [Aspose.Tasks for Java download page](https://releases.aspose.com/tasks/java/).
+2. **مكتبة Aspose.Tasks for Java** – قم بتحميل وإدراج المكتبة من [صفحة تحميل Aspose.Tasks for Java](https://releases.aspose.com/tasks/java/).
 
 ## استيراد الحزم
-أضف مساحة الاسم Aspose.Tasks إلى فئة Java الخاصة بك لتتمكن من العمل مع المشاريع والمهام والسمات الموسعة:
+أضف مساحة الاسم Aspose.Tasks إلى فئة Java الخاصة بك لتتمكن من العمل مع المشاريع، المهام، والسمات الموسعة:
 
 ```java
 import com.aspose.tasks.*;
 ```
 
-## الخطوة 1: إنشاء كائن مشروع Java
-قم بإنشاء كائن `Project` جديد. سيعمل هذا كحاوية لجميع المهام والموارد والبيانات المخصصة التي ستحددها.
+## إنشاء تقرير المشروع – Create Project Object Java
+أنشئ كائن `Project` جديد. سيعمل هذا كحاوية لجميع المهام والموارد والبيانات المخصصة التي ستحددها.
 
 ```java
 Project project = new Project();
 ```
 
-السطر أعلاه **creates project object java** يبدأ فارغًا وجاهزًا للتخصيص.
+السطر أعلاه **creates project object java** الذي يبدأ فارغًا وجاهزًا للتخصيص.
 
-## الخطوة 2: كيفية إنشاء سمة موسعة
+## كيفية إضافة سمة موسعة
 عرّف سمة موسعة ستخزن بيانات رقمية مخصصة (مثل قيمة جيب الزاوية) لكل مهمة.
 
 ```java
 ExtendedAttributeDefinition attr = ExtendedAttributeDefinition.createTaskDefinition(CustomFieldType.Number, ExtendedAttributeTask.Number1, "Sine");
 ```
 
-هنا نقوم **create extended attribute** من النوع `Number` باسم “Sine” وربطه بالمهام.
+هنا نقوم **add extended attribute** من النوع `Number` باسم “Sine” وربطه بالمهام.
 
-## الخطوة 3: إضافة السمة الموسعة إلى المشروع
-سجِّل تعريف السمة مع المشروع بحيث يمكن لكل مهمة الإشارة إليها.
+## إضافة السمة الموسعة إلى المشروع
+سجِّل تعريف السمة في المشروع بحيث يمكن لكل مهمة الإشارة إليه.
 
 ```java
 project.getExtendedAttributes().add(attr);
 ```
 
-## الخطوة 4: إنشاء مهمة جديدة
+## إنشاء مهمة جديدة
 أضف مهمة بسيطة باسم “Task” تحت مهمة الجذر في المشروع.
 
 ```java
 Task task = project.getRootTask().getChildren().add("Task");
 ```
 
-## الخطوة 5: ربط السمة الموسعة بالمهمة
-اربط السمة الموسعة التي تم تعريفها مسبقًا بالمهمة التي تم إنشاؤها حديثًا.
+## ربط السمة الموسعة بالمهمة
+اربط السمة الموسعة التي عرّفتها مسبقًا بالمهمة التي تم إنشاؤها حديثًا.
 
 ```java
 ExtendedAttribute a = attr.createExtendedAttribute();
 task.getExtendedAttributes().add(a);
 ```
 
-الآن تحتوي المهمة على حقل “Sine” مخصص يمكنك استخدامه في الصيغ أو الحسابات.
+الآن تحتوي المهمة على حقل “Sine” مخصص يمكنك استخدامه في الصيغ أو الحسابات. هذا هو أيضًا الطريقة التي تقوم بها **add custom field task** برمجيًا.
 
-## لماذا نستخدم وظائف التقييم؟
-تضمين وظائف MS Project في صيغ Aspose.Tasks يتيح لك:
+## لماذا نستخدم دوال التقييم؟
+تضمين دوال MS Project في صيغ Aspose.Tasks يتيح لك:
 
-- إجراء حسابات فورية (مثل `Sin([Start])`) دون الحاجة إلى أدوات خارجية.  
-- إبقاء جميع منطق المشروع داخل قاعدة شفرة واحدة قابلة للصيانة.  
-- إنشاء تقارير ديناميكية تعكس تغيّر البيانات في الوقت الحقيقي.
+- إجراء حسابات فورية (مثال: `Sin([Start])`) دون أدوات خارجية.  
+- الحفاظ على جميع منطق المشروع داخل قاعدة شفرة واحدة قابلة للصيانة.  
+- إنشاء تقارير ديناميكية تعكس تغييرات البيانات في الوقت الفعلي، مما يساعدك على **generate project report** تلقائيًا.
 
 ## المشكلات الشائعة والحلول
 | المشكلة | الحل |
 |-------|----------|
 | **Formula returns `NaN`** | تحقق من أن نوع الحقل المخصص يطابق النوع الرقمي المتوقع. |
-| **Extended attribute not visible** | تأكد من إضافة تعريف السمة إلى المشروع **قبل** إنشاء المهام. |
-| **License exception** | قم بتثبيت ترخيص مؤقت أو كامل؛ قد تقيّد وضع التجربة بعض الميزات. |
+| **Extended attribute not visible** | تأكد من أن تعريف السمة قد أُضيف إلى المشروع **قبل** إنشاء المهام. |
+| **License exception** | قم بتثبيت ترخيص مؤقت أو كامل **Aspose.Tasks license**؛ قد يحد وضع التجربة بعض الميزات. |
+| **Missing temporary license** | احصل على **temporary Aspose license** من موقع Aspose. |
 
 ## الأسئلة المتكررة
 
 **س: هل يمكن لـ Aspose.Tasks for Java التعامل مع صيغ MS Project المعقدة؟**  
-ج: نعم، تدعم Aspose.Tasks for Java تقييم مجموعة واسعة من وظائف MS Project، مما يسمح بإجراء حسابات معقدة داخل تطبيقات Java.
+ج: نعم، يدعم Aspose.Tasks for Java تقييم مجموعة واسعة من دوال MS Project، مما يسمح بإجراء حسابات معقدة داخل تطبيقات Java.
 
 **س: هل Aspose.Tasks for Java متوافق مع إصدارات مختلفة من ملفات Microsoft Project؟**  
-ج: نعم، تدعم Aspose.Tasks for Java إصدارات متعددة من ملفات Microsoft Project، بما في ذلك صيغ MPP و MPT و XML.
+ج: نعم، يدعم Aspose.Tasks for Java إصدارات متعددة من ملفات Microsoft Project، بما في ذلك صيغ MPP و MPT و XML.
 
 **س: هل يمكنني تجربة Aspose.Tasks for Java قبل الشراء؟**  
-ج: نعم، يمكنك تحميل نسخة تجريبية مجانية من Aspose.Tasks for Java من الموقع [here](https://purchase.aspose.com/buy).
+ج: نعم، يمكنك تحميل نسخة تجريبية مجانية من Aspose.Tasks for Java من الموقع [هنا](https://purchase.aspose.com/buy).
 
-**س: كيف يمكنني الحصول على دعم لـ Aspose.Tasks for Java؟**  
-ج: يمكنك الحصول على الدعم من منتدى مجتمع Aspose.Tasks عبر الرابط [here](https://forum.aspose.com/c/tasks/15).
+**س: كيف يمكنني الحصول على الدعم لـ Aspose.Tasks for Java؟**  
+ج: يمكنك الحصول على الدعم من منتدى مجتمع Aspose.Tasks [هنا](https://forum.aspose.com/c/tasks/15).
 
 **س: هل هناك ترخيص مؤقت متاح لـ Aspose.Tasks for Java؟**  
-ج: نعم، يمكنك الحصول على ترخيص مؤقت لأغراض الاختبار من موقع Aspose عبر الرابط [here](https://purchase.aspose.com/temporary-license/).
+ج: نعم، يمكنك الحصول على ترخيص مؤقت لأغراض الاختبار من موقع Aspose [هنا](https://purchase.aspose.com/temporary-license/).
+
+## الخلاصة
+باتباعك لهذه الخطوات، تعلمت كيفية **create project object**، **add extended attribute**، والاستفادة من دوال التقييم لتوليد **generate project report** تلقائيًا. يمكنك الآن توسيع هذا الأساس لبناء تحليلات مشروع أكثر غنى، لوحات تحكم مخصصة، أو أدوات جدولة آلية—كل ذلك مدعومًا بـ Aspose.Tasks for Java.
 
 ---
 
-**Last Updated:** 2025-12-09  
-**Tested With:** Aspose.Tasks for Java 24.10  
-**Author:** Aspose  
+**آخر تحديث:** 2026-02-13  
+**تم الاختبار مع:** Aspose.Tasks for Java 24.10  
+**المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 

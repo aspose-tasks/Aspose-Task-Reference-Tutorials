@@ -1,47 +1,58 @@
 ---
-date: 2025-12-07
-description: Pelajari cara **membuat proyek uji** dan **menambahkan bidang khusus**
-  sambil memanipulasi file Microsoft Project menggunakan Aspose.Tasks untuk Java.
+date: 2026-02-13
+description: Pelajari cara menghitung hari antara tanggal, membuat proyek percobaan,
+  dan menambahkan bidang khusus saat memanipulasi file Microsoft Project menggunakan
+  Aspose.Tasks untuk Java.
 linktitle: Work with Formulas in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: Buat Proyek Uji dan Gunakan Rumus dengan Aspose.Tasks untuk Java
+title: Hitung hari antara tanggal dengan Aspose.Tasks untuk Java
 url: /id/java/formulas/work-with-formulas/
 weight: 11
 ---
+
+ translations.
+
+Let's assemble.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Buat Proyek Uji dan Gunakan Rumus dengan Aspose.Tasks untuk Java
+# Menghitung hari antara tanggal dengan Aspose.Tasks untuk Java
 
 ## Pendahuluan
-Dalam tutorial ini Anda akan **membuat file proyek uji**, menambahkan bidang khusus, dan bekerja dengan rumus MS Project menggunakan pustaka Aspose.Tasks untuk Java. Aspose.Tasks memudahkan **manipulasi data Microsoft Project** secara programatis—baik Anda perlu menghasilkan jadwal, menghitung tanggal, atau mengotomatisasi pelaporan. Pada akhir panduan Anda akan memiliki contoh yang dapat dijalankan yang mendefinisikan atribut ekstensi, menetapkan batas waktu untuk sebuah tugas, dan menyimpan proyek sebagai file MPP.
+In this tutorial you’ll **calculate days between dates** by creating a test project, adding a custom field, and using Microsoft Project formulas through the Aspose.Tasks library for Java. Whether you need to generate schedules, compute deadlines, or automate reporting, Aspose.Tasks lets you manipulate Project data programmatically without a desktop installation. By the end of the guide you’ll have a runnable example that defines an extended attribute, sets a deadline for a task, and saves the project as an MPP file.
 
 ## Jawaban Cepat
-- **Apa yang dibahas dalam tutorial ini?** Membuat proyek uji, menambahkan bidang khusus, mendefinisikan atribut ekstensi, dan menetapkan batas waktu tugas dengan rumus.  
-- **Pustaka apa yang diperlukan?** Aspose.Tasks untuk Java (versi terbaru).  
-- **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk pengembangan; lisensi diperlukan untuk produksi.  
-- **IDE apa yang dapat saya gunakan?** Semua IDE Java (IntelliJ IDEA, Eclipse, VS Code) yang mendukung JDK 8+.  
-- **Berapa lama implementasinya?** Sekitar 10‑15 menit untuk menyalin kode dan menjalankannya.
+- **Apa yang dibahas dalam tutorial ini?** Creating a test project, adding a custom field, defining an extended attribute, and setting a task deadline with a formula to calculate days between dates.  
+- **Perpustakaan apa yang diperlukan?** Aspose.Tasks for Java (latest version).  
+- **Apakah saya memerlukan lisensi?** A free trial works for development; a license is required for production.  
+- **IDE apa yang dapat saya gunakan?** Any Java IDE (IntelliJ IDEA, Eclipse, VS Code) that supports JDK 8+.  
+- **Berapa lama implementasinya?** About 10‑15 minutes to copy the code and run it.
 
-## Apa Itu “Proyek Uji” di Aspose.Tasks?
-**Proyek uji** adalah file Microsoft Project ringan yang dibuat secara programatis untuk mendemonstrasikan atau memvalidasi fungsionalitas. Ia berisi sekumpulan tugas, sumber daya, dan bidang khusus minimal yang dapat Anda manipulasi tanpa memengaruhi data proyek yang sebenarnya.
+## Apa itu “calculate days between dates” dalam Aspose.Tasks?
+Calculating days between dates means using a Project formula that subtracts one date field (e.g., **Finish**) from another (e.g., **Deadline**) and returns the numeric difference in days. This is useful for tracking schedule slippage, measuring buffer time, or generating custom reports.
 
-## Mengapa Menggunakan Aspose.Tasks untuk Memanipulasi Microsoft Project?
-- **Cakupan API penuh** – akses setiap properti Project, Task, dan Resource.  
-- **Tidak memerlukan instalasi Office** – dapat dijalankan di server, pipeline CI, dan kontainer Docker.  
-- **Lintas‑platform** – berjalan di Windows, Linux, dan macOS dengan kode Java yang sama.  
-- **Mesin rumus yang kuat** – menghitung tanggal, durasi, dan bidang khusus langsung di dalam file proyek.
+## Mengapa Menggunakan Aspose.Tasks untuk Menghitung Hari Antara Tanggal?
+- **Cakupan API penuh** – access every Project, Task, and Resource property.  
+- **Tidak memerlukan instalasi Office** – works on servers, CI pipelines, and Docker containers.  
+- **Lintas‑platform** – runs on Windows, Linux, and macOS with the same Java code.  
+- **Mesin formula yang kuat** – lets you define calculations such as `[Deadline] - [Finish]` directly inside the project file.
+
+## Cara menetapkan tenggat waktu untuk sebuah tugas
+Setting a deadline is the first step before you can calculate the interval. The deadline is stored in the `Tsk.DEADLINE` field of a task and can be assigned using a `java.util.Calendar` instance.
+
+## Cara mendefinisikan atribut ekstensi
+An extended attribute is the custom field that will hold the result of your formula. You define it once, give it an alias for readability, and then attach a formula that performs the date subtraction.
 
 ## Prasyarat
-Sebelum memulai, pastikan Anda memiliki hal‑hal berikut:
+Before you start, make sure you have the following:
 
-- **Java Development Kit (JDK) 8+** – unduh dari situs Oracle atau gunakan OpenJDK.  
-- **Aspose.Tasks untuk Java** – dapatkan JAR terbaru dari [halaman unduhan Aspose.Tasks untuk Java](https://releases.aspose.com/tasks/java/) dan tambahkan ke classpath proyek Anda atau ke dependensi Maven/Gradle.
+- **Java Development Kit (JDK) 8+** – download from the Oracle website or adopt OpenJDK.  
+- **Aspose.Tasks for Java** – obtain the latest JAR from the [Aspose.Tasks for Java download page](https://releases.aspose.com/tasks/java/) and add it to your project’s classpath or Maven/Gradle dependencies.
 
 ## Impor Paket
-Pertama, impor kelas‑kelas yang diperlukan:
+First, import the classes we’ll need:
 
 ```java
 import com.aspose.tasks.*;
@@ -50,17 +61,17 @@ import java.util.Calendar;
 
 ## Panduan Langkah‑per‑Langkah
 
-### Langkah 1: Buat Proyek Uji dengan Bidang Khusus
-Kita mulai dengan **membuat proyek uji** dan menambahkan bidang khusus yang nantinya akan menampung hasil rumus kita.
+### Langkah 1: Buat Proyek Percobaan dengan Bidang Khusus
+We begin by **creating a test project** and adding a custom field that will later hold our formula result.
 
 ```java
 Project project = CreateTestProjectWithCustomField();
 ```
 
-> *Tip profesional:* `CreateTestProjectWithCustomField()` adalah metode pembantu yang membangun jadwal minimal dan mendaftarkan atribut ekstensi siap untuk penugasan rumus.
+> *Tip profesional:* `CreateTestProjectWithCustomField()` is a helper method that builds a minimal schedule and registers an extended attribute ready for formula assignment.
 
 ### Langkah 2: Definisikan Atribut Ekstensi (Tambahkan Bidang Khusus)
-Selanjutnya, kita **mendefinisikan atribut ekstensi** – pada dasarnya bidang khusus – dan memberikan alias yang mudah dipahami. Di sinilah logika **menambahkan bidang khusus** diterapkan.
+Next, we **define an extended attribute** – essentially the custom field – and give it a friendly alias. This is where we **add custom field** logic.
 
 ```java
 ExtendedAttributeDefinition attr = project.getExtendedAttributes().get(0);
@@ -68,11 +79,11 @@ attr.setAlias("Days from finish to deadline");
 attr.setFormula("[Deadline] - [Finish]");
 ```
 
-- **Alias** membuat bidang dapat dibaca di Project.  
-- **Formula** menghitung jumlah hari antara tanggal *Finish* tugas dan *Deadline*‑nya.
+- **Alias** makes the field readable in Project.  
+- **Formula** calculates the number of days between a task’s *Finish* date and its *Deadline* – the core of *calculate days between dates*.
 
-### Langkah 3: Tetapkan Batas Waktu untuk Tugas (Tambahkan Tugas Batas Waktu & Tetapkan Batas Waktu Tugas)
-Sekarang kita **menambahkan data tugas batas waktu** dengan menetapkan properti *Deadline* pada tugas tertentu.
+### Langkah 3: Tetapkan Tenggat Waktu untuk Tugas (Tambahkan Tugas Deadline & Tetapkan Tenggat Waktu Tugas)
+Now we **add deadline task** data by setting the *Deadline* property on a specific task.
 
 ```java
 java.util.Calendar cal = java.util.Calendar.getInstance();
@@ -81,46 +92,46 @@ Task task = project.getRootTask().getChildren().getById(1);
 task.set(Tsk.DEADLINE, cal.getTime());
 ```
 
-- Instance `Calendar` menentukan momen batas waktu yang tepat.  
-- `set(Tsk.DEADLINE, …)` **menetapkan batas waktu tugas** untuk tugas yang dipilih.
+- The `Calendar` instance defines the exact deadline moment.  
+- `set(Tsk.DEADLINE, …)` **sets task deadline** for the chosen task.
 
 ### Langkah 4: Simpan Proyek (Manipulasi File Microsoft Project)
-Akhirnya, kita **memanipulasi Microsoft Project** dengan menyimpan perubahan ke file MPP.
+Finally, we **manipulate Microsoft Project** by persisting the changes to an MPP file.
 
 ```java
 project.save("SaveFile.mpp", SaveFileFormat.Mpp);
 ```
 
-Anda dapat membuka `SaveFile.mpp` di Microsoft Project untuk melihat bidang khusus, hasil rumus, dan batas waktu yang tercermin dalam jadwal.
+You can open `SaveFile.mpp` in Microsoft Project to see the custom field, formula result, and deadline reflected in the schedule.
 
 ## Masalah Umum dan Solusinya
 | Masalah | Solusi |
 |-------|----------|
-| **Rumus tidak dievaluasi** | Pastikan string `Formula` atribut menggunakan nama bidang yang benar (misalnya `[Deadline]`, `[Finish]`). |
-| **Tugas tidak ditemukan** | Verifikasi bahwa ID tugas (`1` pada contoh) memang ada; gunakan `project.getRootTask().getChildren().size()` untuk debugging. |
-| **Pengecualian lisensi** | Terapkan lisensi Aspose.Tasks yang valid sebelum memanggil metode API apa pun (`License license = new License(); license.setLicense("Aspose.Tasks.lic");`). |
+| **Formula tidak dievaluasi** | Ensure the attribute’s `Formula` string uses correct field names (e.g., `[Deadline]`, `[Finish]`). |
+| **Tugas tidak ditemukan** | Verify the task ID (`1` in the example) exists; use `project.getRootTask().getChildren().size()` to debug. |
+| **Pengecualian lisensi** | Apply a valid Aspose.Tasks license before calling any API methods (`License license = new License(); license.setLicense("Aspose.Tasks.lic");`). |
 
 ## Pertanyaan yang Sering Diajukan
 
-**T: Bisakah saya menggunakan Aspose.Tasks dengan bahasa pemrograman lain?**  
-J: Ya, Aspose.Tasks menyediakan API untuk .NET, Java, dan platform lainnya, memungkinkan Anda **memanipulasi file Microsoft Project** dalam bahasa pilihan Anda.
+**Q: Bisakah saya menggunakan Aspose.Tasks dengan bahasa pemrograman lain?**  
+A: Yes, Aspose.Tasks provides APIs for .NET, Java, and other platforms, allowing you to **manipulate Microsoft Project** files in the language of your choice.
 
-**T: Apakah ada versi percobaan gratis untuk Aspose.Tasks?**  
-J: Tentu saja. Unduh percobaan penuh fungsi dari [halaman unduhan Aspose.Tasks](https://releases.aspose.com/).
+**Q: Apakah ada percobaan gratis untuk Aspose.Tasks?**  
+A: Absolutely. Download a fully functional trial from the [Aspose.Tasks download page](https://releases.aspose.com/).
 
-**T: Di mana saya dapat menemukan dokumentasi lengkap untuk Aspose.Tasks?**  
-J: Dokumentasi resmi tersedia di [Aspose.Tasks Java API Reference](https://reference.aspose.com/tasks/java/).
+**Q: Di mana saya dapat menemukan dokumentasi terperinci untuk Aspose.Tasks?**  
+A: The official docs are hosted at [Aspose.Tasks Java API Reference](https://reference.aspose.com/tasks/java/).
 
-**T: Bagaimana cara mendapatkan dukungan untuk Aspose.Tasks?**  
-J: Kunjungi [forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) untuk mengajukan pertanyaan dan berbagi pengalaman dengan komunitas.
+**Q: Bagaimana saya dapat mendapatkan dukungan untuk Aspose.Tasks?**  
+A: Visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) to ask questions and share experiences with the community.
 
-**T: Apakah saya memerlukan lisensi sementara untuk evaluasi?**  
-J: Lisensi sementara tersedia untuk pengujian jangka pendek; Anda dapat memintanya [di sini](https://purchase.aspose.com/temporary-license/).
+**Q: Apakah saya memerlukan lisensi sementara untuk evaluasi?**  
+A: A temporary license is available for short‑term testing; you can request one [here](https://purchase.aspose.com/temporary-license/).
 
 ---
 
-**Terakhir Diperbarui:** 2025-12-07  
-**Diuji Dengan:** Aspose.Tasks untuk Java 24.12 (versi terbaru pada saat penulisan)  
+**Terakhir Diperbarui:** 2026-02-13  
+**Diuji Dengan:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
 **Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

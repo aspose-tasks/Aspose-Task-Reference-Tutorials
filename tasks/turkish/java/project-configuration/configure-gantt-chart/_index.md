@@ -1,12 +1,11 @@
 ---
-date: 2025-12-09
-description: Aspose.Tasks kullanarak Java'da veri dizinini nasıl ayarlayacağınızı
-  ve Gantt şeması görünümünü nasıl yapılandıracağınızı öğrenin. Bu kılavuz ayrıca
-  tablo alanlarını özelleştirmeyi ve Gantt şeması Java projelerini adım adım yapılandırmayı
-  gösterir.
-linktitle: Set Data Directory for Gantt Chart View in Aspose.Tasks
+date: 2026-02-13
+description: Aspose.Tasks Java'da yeni bir etkinlik oluşturmayı, veri dizinini ayarlamayı
+  ve projeyi MPP olarak kaydetmeyi öğrenin. Bu adım adım rehber ayrıca tablo alanlarını
+  özelleştirmeyi de kapsar.
+linktitle: How to Create New Activity & Set Data Directory Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: Aspose.Tasks'te Gantt Şeması Görünümü için Veri Dizinini Ayarla
+title: Yeni Aktivite Oluşturma ve Aspose.Tasks Veri Dizinini Ayarlama
 url: /tr/java/project-configuration/configure-gantt-chart/
 weight: 10
 ---
@@ -15,27 +14,30 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks'te Gantt Şeması Görünümü İçin Veri Dizinini Ayarlama
+# Yeni Aktivite Oluşturma ve Veri Dizinini Ayarlama Aspose.Tasks
 
 ## Giriş
-Bu öğreticide, **veri dizinini nasıl ayarlayacağınızı** ve Java kullanarak Aspose.Tasks projelerinde Gantt MS Project Şema Görünümünü yapılandırmayı öğreneceksiniz. Aspose.Tasks, Microsoft Project dosyalarını programlı olarak manipüle etmenizi sağlayan güçlü bir Java API'sidir. Bu kılavuzun sonunda **tablo alanlarını özelleştirebilecek**, veri dizinini ayarlayabilecek ve projenizi tam istediğiniz şekilde görselleştirebileceksiniz.
+Bu öğreticide **veri dizinini ayarlama**, **yeni aktivite oluşturma** ve Gantt MS Project Chart View'i Aspose.Tasks projelerinde Java kullanarak **projeyi MPP olarak kaydetme** konularını öğreneceksiniz. Aspose.Tasks, Microsoft Project dosyalarını programlı olarak manipüle etmenizi sağlayan güçlü bir Java API'sidir. Bu kılavuzun sonunda **tablo alanlarını özelleştirme**, veri dizinini ayarlama ve projenizi tam istediğiniz gibi görselleştirme yeteneğine sahip olacaksınız.
 
 ## Hızlı Yanıtlar
 - **İlk adım nedir?** Proje dosyalarınızın bulunduğu veri dizini yolunu ayarlayın.  
-- **Hangi kütüphane gereklidir?** Java için Aspose.Tasks (resmi siteden indirilebilir).  
-- **Özel nitelikler ekleyebilir miyim?** Evet – genişletilmiş nitelikler tanımlayabilir ve bunları Gantt şemasında gösterebilirsiniz.  
+- **Hangi kütüphane gereklidir?** Aspose.Tasks for Java (resmi siteden indirilebilir).  
+- **Özel nitelikler ekleyebilir miyim?** Evet – genişletilmiş nitelikler tanımlayabilir ve Gantt şemasında gösterebilirsiniz.  
 - **Test için lisansa ihtiyacım var mı?** Değerlendirme amaçlı geçici bir lisans mevcuttur.  
-- **Hangi IDE en iyisi?** Herhangi bir Java IDE (IntelliJ IDEA, Eclipse, NetBeans) çalışır.
+- **Hangi IDE en iyisi?** Herhangi bir Java IDE (IntelliJ IDEA, Eclipse, NetBeans) çalışacaktır.
 
-## “Veri dizinini ayarlama” nedir ve neden önemlidir?
-Veri dizinini ayarlamak, Aspose.Tasks'e proje dosyalarını nereden okuyup yazacağını bildirir. Doğru bir yol olmadan API `.mpp` dosyalarınızı bulamaz ve FileNotFound hatalarına yol açar. Bu dizini kodunuzun başında tanımlamak, geri kalan iş akışını temiz ve tekrarlanabilir hâle getirir.
+## “Veri dizinini ayarla” nedir ve neden önemlidir?
+Veri dizinini ayarlamak, Aspose.Tasks'e proje dosyalarını nereden okuyup yazacağını söyler. Doğru bir yol olmadan API `.mpp` dosyalarınızı bulamaz ve FileNotFound hatalarına yol açar. Bu dizini kodunuzun başında tanımlamak, geri kalan iş akışını temiz ve tekrarlanabilir hâle getirir.
 
 ## Gantt şemasında tablo alanlarını neden özelleştirirsiniz?
-Özel tablo alanları, ek bilgileri—örneğin özel nitelikler, kaynak verileri veya proje‑özgü notlar—doğrudan Gantt görünümünde göstermenizi sağlar. Bu, şemayı paydaşlar için daha bilgilendirici hâle getirir ve birden fazla rapor arasında geçiş yapma ihtiyacını azaltır.
+Özel tablo alanları, ek bilgileri—örneğin özel nitelikler, kaynak verileri veya proje‑özel notlar—doğrudan Gantt görünümünde göstermenizi sağlar. Bu, paydaşlar için şemayı daha bilgilendirici hâle getirir ve birden fazla rapor arasında geçiş yapma ihtiyacını azaltır.
+
+## Yeni aktivite nasıl oluşturulur?
+Yeni bir aktivite (görev) oluşturmak, bir proje takvimini oluştururken veya güncellerken temel işlemlerden biridir. Görevleri programlı olarak ekleyerek karmaşık proje planlarının otomatik üretilmesini, diğer sistemlerden veri entegrasyonunu veya manuel düzenleme yapmadan toplu değişiklikleri uygulamayı sağlayabilirsiniz.
 
 ## Önkoşullar
-1. **Java Development Kit (JDK)** – herhangi bir yeni sürüm (8+).  
-2. **Aspose.Tasks Kütüphanesi** – bunu [buradan](https://releases.aspose.com/tasks/java/) indirin.  
+1. **Java Development Kit (JDK)** – herhangi bir güncel sürüm (8+).  
+2. **Aspose.Tasks Library** – bunu [buradan](https://releases.aspose.com/tasks/java/) indirin.  
 3. **IDE** – IntelliJ IDEA, Eclipse veya tercih ettiğiniz herhangi bir Java‑uyumlu editör.
 
 ## Paketleri İçe Aktarma
@@ -64,7 +66,7 @@ Project project = new Project(dataDir + "project.mpp");
 ```
 
 ### Adım 3: Yeni Aktivite Ekleme
-Projeyi köküne yeni bir görev (aktivite) ekleyin.
+Projeye kök seviyesinde yeni bir görev (aktivite) ekleyin. Bu, programlı olarak **yeni aktivite nasıl oluşturulur** gösterir.
 
 ```java
 Task task = project.getRootTask().getChildren().add("New Activity");
@@ -85,8 +87,8 @@ Yeni tanımlanan niteliği oluşturduğunuz göreve atayın.
 task.getExtendedAttributes().add(text1Definition.createExtendedAttribute("Activity attribute"));
 ```
 
-### Adım 6: Tabloyu Özelleştir – **tablo alanlarını özelleştir**
-Gantt şema tablosunda özel niteliği bir sütun olarak ekleyin, genişlik, başlık ve hizalamayı belirterek.
+### Adım 6: Tabloyu Özelleştirme – **tablo alanlarını özelleştir**
+Gantt şema tablosuna özel niteliği bir sütun olarak ekleyin, genişlik, başlık ve hizalamayı belirterek.
 
 ```java
 TableField attrField = new TableField();
@@ -100,26 +102,27 @@ table.getTableFields().add(3, attrField);
 ```
 
 ### Adım 7: Projeyi Kaydet
-Değişiklikleri, Microsoft Project'te açılabilecek yeni bir dosyaya kaydedin.
+Değişiklikleri Microsoft Project'te açılabilecek yeni bir dosyaya kaydedin. Bu adım **projeyi MPP olarak kaydeder**.
 
 ```java
 project.save("saved.mpp", SaveFileFormat.Mpp);
 ```
 
 ## Yaygın Sorunlar ve Çözümler
+
 | Sorun | Neden Oluşur | Çözüm |
 |-------|----------------|-----|
-| **FileNotFoundException** proje yüklenirken | **Veri dizinini ayarlama** yolu hatalı veya son slash eksik. | `dataDir`'in tam klasöre işaret ettiğini ve doğru dosya ayırıcı (`/` veya `\\`) içerdiğini doğrulayın. |
-| Özel nitelik Gantt görünümünde görünmüyor | Tablo alanı yanlış bir indekse eklendi veya sütun genişliği çok küçük. | `table.getTableFields().add(3, attrField);` geçerli bir indeks kullandığından emin olun ve gerektiğinde `setWidth`'i ayarlayın. |
+| **FileNotFoundException** proje yüklenirken | **set data directory** yolu hatalı veya son slash eksik. | `dataDir`'in tam klasöre işaret ettiğini ve doğru dosya ayırıcı (`/` veya `\\`) içerdiğini doğrulayın. |
+| Gantt görünümünde özel nitelik görünmüyor | Tablo alanı yanlış indekse eklendi veya sütun genişliği çok küçük. | `table.getTableFields().add(3, attrField);` geçerli bir indeks kullandığından emin olun ve gerektiğinde `setWidth`'i ayarlayın. |
 | Kaydetme sırasında LicenseException | Üretim kullanımı için geçerli bir lisans uygulanmadı. | `project.save()` çağrılmadan önce geçici veya kalıcı bir lisans uygulayın. |
 
-## Sık Sorulan Sorular
+## Sıkça Sorulan Sorular
 
 **S: Aspose.Tasks'i diğer programlama dilleriyle kullanabilir miyim?**  
-C: Evet, Aspose.Tasks .NET, Java ve C++ dahil birden fazla programlama dili için mevcuttur.
+C: Evet, Aspose.Tasks .NET, Java ve C++ dahil olmak üzere birden fazla programlama dili için mevcuttur.
 
-**S: Aspose.Tasks için ücretsiz deneme mevcut mu?**  
-C: Evet, ücretsiz denemeyi [buradan](https://releases.aspose.com/) indirebilirsiniz.
+**S: Aspose.Tasks için ücretsiz deneme sürümü mevcut mu?**  
+C: Evet, ücretsiz bir deneme sürümünü [buradan](https://releases.aspose.com/) indirebilirsiniz.
 
 **S: Aspose.Tasks için desteği nereden bulabilirim?**  
 C: Destek ve sorularınızı [Aspose.Tasks forumunda](https://forum.aspose.com/c/tasks/15) bulabilirsiniz.
@@ -127,16 +130,16 @@ C: Destek ve sorularınızı [Aspose.Tasks forumunda](https://forum.aspose.com/c
 **S: Aspose.Tasks için lisans nasıl satın alınır?**  
 C: Lisansı [buradan](https://purchase.aspose.com/buy) satın alabilirsiniz.
 
-**S: Test amaçları için geçici bir lisansa ihtiyacım var mı?**  
-C: Evet, geçici lisansı [buradan](https://purchase.aspose.com/temporary-license/) edinebilirsiniz.
+**S: Test amaçlı geçici bir lisansa ihtiyacım var mı?**  
+C: Evet, geçici bir lisansı [buradan](https://purchase.aspose.com/temporary-license/) temin edebilirsiniz.
 
 ## Sonuç
-Artık **veri dizinini ayarlamayı**, yeni bir aktivite eklemeyi, bir özel nitelik tanımlamayı ve eklemeyi ve Aspose.Tasks for Java kullanarak Gantt şema görünümünde **tablo alanlarını özelleştirmeyi** öğrendiniz. Bu adımlar, proje verilerinin nasıl gösterileceği üzerinde tam kontrol sağlar, Gantt şemalarınızı daha bilgilendirici ve paydaşlarınızın ihtiyaçlarına göre özelleştirir.
+Artık **veri dizinini ayarlama**, **yeni aktivite oluşturma**, bir özel nitelik tanımlama ve ekleme ve **projeyi MPP olarak kaydetme** işlemlerini, Aspose.Tasks for Java kullanarak Gantt şema görünümünde **tablo alanlarını özelleştirme** ile nasıl yapacağınızı öğrendiniz. Bu adımlar, proje verilerinin nasıl gösterileceği üzerinde tam kontrol sağlar, Gantt şemalarınızı daha bilgilendirici ve paydaşlarınızın ihtiyaçlarına uygun hâle getirir.
 
 ---
 
-**Son Güncelleme:** 2025-12-09  
-**Test Edilen:** Aspose.Tasks Java 24.12 (latest)  
+**Son Güncelleme:** 2026-02-13  
+**Test Edilen Versiyon:** Aspose.Tasks Java 24.12 (latest)  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

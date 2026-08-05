@@ -1,11 +1,11 @@
 ---
-date: 2025-12-09
-description: Pelajari cara mengatur direktori data dan mengonfigurasi tampilan diagram
-  Gantt di Aspose.Tasks menggunakan Java. Panduan ini juga menunjukkan cara menyesuaikan
-  bidang tabel dan mengonfigurasi proyek Java diagram Gantt langkah demi langkah.
-linktitle: Set Data Directory for Gantt Chart View in Aspose.Tasks
+date: 2026-02-13
+description: Pelajari cara membuat aktivitas baru, mengatur direktori data, dan menyimpan
+  proyek sebagai MPP di Aspose.Tasks Java. Panduan langkah demi langkah ini juga mencakup
+  penyesuaian bidang tabel.
+linktitle: How to Create New Activity & Set Data Directory Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: Atur Direktori Data untuk Tampilan Diagram Gantt di Aspose.Tasks
+title: Cara Membuat Aktivitas Baru & Menetapkan Direktori Data Aspose.Tasks
 url: /id/java/project-configuration/configure-gantt-chart/
 weight: 10
 ---
@@ -14,33 +14,36 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Set Direktori Data untuk Tampilan Gantt Chart di Aspose.Tasks
+# Cara Membuat Aktivitas Baru & Menetapkan Direktori Data Aspose.Tasks
 
 ## Introduction
-Dalam tutorial ini, Anda akan mempelajari **cara mengatur direktori data** dan mengonfigurasi Tampilan Gantt MS Project Chart di proyek Aspose.Tasks menggunakan Java. Aspose.Tasks adalah API Java yang kuat yang memungkinkan Anda memanipulasi file Microsoft Project secara programatis. Pada akhir panduan ini Anda akan dapat **menyesuaikan bidang tabel**, mengatur direktori data, dan memvisualisasikan proyek Anda persis seperti yang Anda inginkan.
+Dalam tutorial ini, Anda akan mempelajari **cara menetapkan direktori data**, cara **membuat aktivitas baru**, dan cara **menyimpan proyek sebagai MPP** sambil mengonfigurasi Tampilan Diagram Gantt MS Project di proyek Aspose.Tasks menggunakan Java. Aspose.Tasks adalah API Java yang kuat yang memungkinkan Anda memanipulasi file Microsoft Project secara programatis. Pada akhir panduan ini Anda akan dapat **menyesuaikan bidang tabel**, mengatur direktori data, dan memvisualisasikan proyek Anda persis seperti yang Anda butuhkan.
 
 ## Quick Answers
-- **Apa langkah pertama?** Atur jalur direktori data tempat file proyek Anda berada.  
-- **Perpustakaan apa yang diperlukan?** Aspose.Tasks untuk Java (dapat diunduh dari situs resmi).  
-- **Apakah saya dapat menambahkan atribut khusus?** Ya – Anda dapat mendefinisikan atribut ekstended dan menampilkannya di diagram Gantt.  
+- **Apa langkah pertama?** Tetapkan jalur direktori data tempat file proyek Anda berada.  
+- **Perpustakaan mana yang diperlukan?** Aspose.Tasks untuk Java (dapat diunduh dari situs resmi).  
+- **Bisakah saya menambahkan atribut khusus?** Ya – Anda dapat mendefinisikan atribut tambahan dan menampilkannya di diagram Gantt.  
 - **Apakah saya memerlukan lisensi untuk pengujian?** Lisensi sementara tersedia untuk tujuan evaluasi.  
 - **IDE mana yang paling cocok?** Semua IDE Java (IntelliJ IDEA, Eclipse, NetBeans) dapat digunakan.
 
-## Apa itu “set data directory” dan mengapa penting?
-Mengatur direktori data memberi tahu Aspose.Tasks di mana harus membaca dan menulis file proyek. Tanpa jalur yang benar API tidak dapat menemukan file `.mpp` Anda, yang mengakibatkan error FileNotFound. Menetapkan direktori ini di awal kode membuat alur kerja selanjutnya menjadi bersih dan dapat diulang.
+## What is “set data directory” and why does it matter?
+Menetapkan direktori data memberi tahu Aspose.Tasks di mana harus membaca dan menulis file proyek. Tanpa jalur yang benar API tidak dapat menemukan file `.mpp` Anda, yang mengakibatkan kesalahan FileNotFound. Menentukan direktori ini di awal kode membuat alur kerja selanjutnya bersih dan dapat diulang.
 
-## Mengapa menyesuaikan bidang tabel di diagram Gantt?
-Bidang tabel khusus memungkinkan Anda menampilkan informasi tambahan—seperti atribut khusus, data sumber daya, atau catatan proyek—langsung di tampilan Gantt. Hal ini membuat diagram lebih informatif bagi pemangku kepentingan dan mengurangi kebutuhan beralih antara beberapa laporan.
+## Why customize table fields in a Gantt chart?
+Bidang tabel khusus memungkinkan Anda menampilkan informasi tambahan—seperti atribut khusus, data sumber daya, atau catatan proyek—langsung di tampilan Gantt. Hal ini membuat diagram lebih informatif bagi pemangku kepentingan dan mengurangi kebutuhan beralih antara banyak laporan.
+
+## How to create new activity?
+Membuat aktivitas baru (tugas) adalah salah satu operasi inti saat membangun atau memperbarui jadwal proyek. Dengan menambahkan tugas secara programatis Anda dapat mengotomatisasi pembuatan rencana proyek yang kompleks, mengintegrasikan data dari sistem lain, atau menerapkan perubahan massal tanpa penyuntingan manual.
 
 ## Prerequisites
 Sebelum memulai, pastikan Anda memiliki:
 
-1. **Java Development Kit (JDK)** – versi terbaru (8+).  
+1. **Java Development Kit (JDK)** – versi terbaru apa pun (8+).  
 2. **Aspose.Tasks Library** – unduh dari [here](https://releases.aspose.com/tasks/java/).  
-3. **IDE** – IntelliJ IDEA, Eclipse, atau editor Java lain yang Anda sukai.
+3. **IDE** – IntelliJ IDEA, Eclipse, atau editor kompatibel Java apa pun yang Anda sukai.
 
 ## Import Packages
-Pertama, impor namespace Aspose.Tasks agar Anda dapat bekerja dengan kelas‑klsnya:
+Pertama, impor namespace Aspose.Tasks sehingga Anda dapat bekerja dengan kelas‑kelnya:
 
 ```java
 import com.aspose.tasks.*;
@@ -65,7 +68,7 @@ Project project = new Project(dataDir + "project.mpp");
 ```
 
 ### Step 3: Add New Activity
-Sisipkan tugas baru (aktivitas) ke dalam root proyek.
+Sisipkan tugas (aktivitas) baru ke dalam akar proyek. Ini mendemonstrasikan **cara membuat aktivitas baru** secara programatis.
 
 ```java
 Task task = project.getRootTask().getChildren().add("New Activity");
@@ -80,7 +83,7 @@ project.getExtendedAttributes().add(text1Definition);
 ```
 
 ### Step 5: Add Custom Attribute to Task
-Tetapkan atribut yang baru didefinisikan ke tugas yang telah Anda buat.
+Tetapkan atribut yang baru didefinisikan ke tugas yang Anda buat.
 
 ```java
 task.getExtendedAttributes().add(text1Definition.createExtendedAttribute("Activity attribute"));
@@ -101,7 +104,7 @@ table.getTableFields().add(3, attrField);
 ```
 
 ### Step 7: Save Project
-Simpan perubahan ke file baru yang dapat dibuka di Microsoft Project.
+Simpan perubahan ke file baru yang dapat dibuka di Microsoft Project. Langkah ini **menyimpan proyek sebagai MPP**.
 
 ```java
 project.save("saved.mpp", SaveFileFormat.Mpp);
@@ -110,33 +113,33 @@ project.save("saved.mpp", SaveFileFormat.Mpp);
 ## Common Issues and Solutions
 | Issue | Why it Happens | Fix |
 |-------|----------------|-----|
-| **FileNotFoundException** saat memuat proyek | Jalur **set data directory** tidak tepat atau kehilangan slash di akhir. | Pastikan `dataDir` mengarah ke folder yang tepat dan sertakan pemisah file yang sesuai (`/` atau `\\`). |
-| Atribut khusus tidak terlihat di tampilan Gantt | Bidang tabel ditambahkan pada indeks yang salah atau lebar kolom terlalu kecil. | Pastikan `table.getTableFields().add(3, attrField);` menggunakan indeks yang valid dan sesuaikan `setWidth` bila diperlukan. |
-| LicenseException saat menyimpan | Tidak ada lisensi yang valid diterapkan untuk penggunaan produksi. | Terapkan lisensi sementara atau permanen sebelum memanggil `project.save()`. |
+| **FileNotFoundException** when loading the project | Jalur **set data directory** tidak benar atau kehilangan slash di akhir. | Verifikasi `dataDir` mengarah ke folder yang tepat dan sertakan pemisah file yang sesuai (`/` atau `\\`). |
+| Custom attribute not visible in Gantt view | Bidang tabel ditambahkan pada indeks yang salah atau lebar kolom terlalu kecil. | Pastikan `table.getTableFields().add(3, attrField);` menggunakan indeks yang valid dan sesuaikan `setWidth` bila diperlukan. |
+| LicenseException on save | Tidak ada lisensi yang valid diterapkan untuk penggunaan produksi. | Terapkan lisensi sementara atau permanen sebelum memanggil `project.save()`. |
 
 ## Frequently Asked Questions
 
 **Q: Can I use Aspose.Tasks with other programming languages?**  
-A: Yes, Aspose.Tasks is available for multiple programming languages including .NET, Java, and C++.
+A: Ya, Aspose.Tasks tersedia untuk beberapa bahasa pemrograman termasuk .NET, Java, dan C++.
 
 **Q: Is there a free trial available for Aspose.Tasks?**  
-A: Yes, you can download a free trial from [here](https://releases.aspose.com/).
+A: Ya, Anda dapat mengunduh trial gratis dari [here](https://releases.aspose.com/).
 
 **Q: Where can I find support for Aspose.Tasks?**  
-A: You can find support and ask questions on the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
+A: Anda dapat menemukan dukungan dan mengajukan pertanyaan di [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
 
 **Q: How can I purchase a license for Aspose.Tasks?**  
-A: You can purchase a license from [here](https://purchase.aspose.com/buy).
+A: Anda dapat membeli lisensi dari [here](https://purchase.aspose.com/buy).
 
 **Q: Do I need a temporary license for testing purposes?**  
-A: Yes, you can obtain a temporary license from [here](https://purchase.aspose.com/temporary-license/).
+A: Ya, Anda dapat memperoleh lisensi sementara dari [here](https://purchase.aspose.com/temporary-license/).
 
 ## Conclusion
-Anda kini telah mempelajari cara **mengatur direktori data**, menambahkan aktivitas baru, mendefinisikan dan melampirkan atribut khusus, serta **menyesuaikan bidang tabel** dalam tampilan diagram Gantt menggunakan Aspose.Tasks untuk Java. Langkah‑langkah ini memberi Anda kontrol penuh atas cara data proyek ditampilkan, menjadikan diagram Gantt lebih informatif dan disesuaikan dengan kebutuhan pemangku kepentingan Anda.
+Anda kini telah mempelajari cara **menetapkan direktori data**, **membuat aktivitas baru**, mendefinisikan dan melampirkan atribut khusus, serta **menyimpan proyek sebagai MPP** sambil **menyesuaikan bidang tabel** dalam tampilan diagram Gantt menggunakan Aspose.Tasks untuk Java. Langkah‑langkah ini memberi Anda kontrol penuh atas cara data proyek ditampilkan, menjadikan diagram Gantt Anda lebih informatif dan disesuaikan dengan kebutuhan pemangku kepentingan.
 
 ---
 
-**Last Updated:** 2025-12-09  
+**Last Updated:** 2026-02-13  
 **Tested With:** Aspose.Tasks Java 24.12 (latest)  
 **Author:** Aspose  
 

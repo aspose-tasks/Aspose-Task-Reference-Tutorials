@@ -1,10 +1,9 @@
 ---
-date: 2025-12-09
-description: Java を使用して Aspose.Tasks のデータディレクトリの設定方法とガントチャートビューの構成方法を学びます。このガイドでは、テーブル
-  フィールドのカスタマイズ方法と、ガントチャート Java プロジェクトのステップ バイ ステップ構成方法も示しています。
-linktitle: Set Data Directory for Gantt Chart View in Aspose.Tasks
+date: 2026-02-13
+description: Aspose.Tasks Javaで新しいアクティビティの作成方法、データディレクトリの設定方法、プロジェクトをMPPとして保存する方法を学びます。このステップバイステップガイドでは、テーブルフィールドのカスタマイズについても説明しています。
+linktitle: How to Create New Activity & Set Data Directory Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: Aspose.Tasks のガントチャートビューのデータディレクトリを設定する
+title: Aspose.Tasksで新しいアクティビティを作成し、データディレクトリを設定する方法
 url: /ja/java/project-configuration/configure-gantt-chart/
 weight: 10
 ---
@@ -13,64 +12,67 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks のガントチャートビューのデータディレクトリ設定
+# 新しいアクティビティの作成とデータディレクトリの設定 Aspose.Tasks
 
-## はじめに
-このチュートリアルでは、**データディレクトリの設定方法**と、Java を使用した Aspose.Tasks プロジェクトで Gantt MS Project Chart View を構成する方法を学びます。Aspose.Tasks は、Microsoft Project ファイルをプログラムで操作できる強力な Java API です。本ガイドを終える頃には、**テーブルフィールドのカスタマイズ**、データディレクトリの調整、そしてプロジェクトを必要な形で可視化できるようになります。
+## Introduction
+このチュートリアルでは、**データディレクトリの設定方法**、**新しいアクティビティの作成方法**、および **MPP としてプロジェクトを保存** する方法を学びます。さらに、Aspose.Tasks for Java を使用して Gantt MS Project Chart View を構成します。Aspose.Tasks は、Microsoft Project ファイルをプログラムから操作できる強力な Java API です。本ガイドを終える頃には、**テーブルフィールドのカスタマイズ**、データディレクトリの調整、そしてプロジェクトを必要な形で可視化できるようになります。
 
 ## Quick Answers
-- **最初のステップは何ですか？** プロジェクトファイルがあるデータディレクトリのパスを設定します。  
+- **最初のステップは何ですか？** プロジェクトファイルが格納されているデータディレクトリのパスを設定します。  
 - **必要なライブラリはどれですか？** Aspose.Tasks for Java（公式サイトからダウンロード可能）。  
-- **カスタム属性を追加できますか？** はい。拡張属性を定義し、ガントチャートに表示できます。  
-- **テスト用にライセンスが必要ですか？** 評価目的の一時ライセンスが利用可能です。  
+- **カスタム属性を追加できますか？** はい – 拡張属性を定義し、Gantt チャートに表示できます。  
+- **テスト用にライセンスは必要ですか？** 評価目的の一時ライセンスが利用可能です。  
 - **どの IDE が最適ですか？** 任意の Java IDE（IntelliJ IDEA、Eclipse、NetBeans）で動作します。
 
-## “データディレクトリの設定” とは何か、そしてそれが重要な理由
-データディレクトリを設定することで、Aspose.Tasks がプロジェクトファイルの読み書き先を認識します。パスが正しくないと API は `.mpp` ファイルを見つけられず、FileNotFound エラーが発生します。コード冒頭でこのディレクトリを定義しておくことで、以降の処理がシンプルかつ再現可能になります。
+## What is “set data directory” and why does it matter?
+データディレクトリを設定すると、Aspose.Tasks がプロジェクトファイルの読み書き先を認識します。パスが正しくないと API は `.mpp` ファイルを見つけられず、FileNotFound エラーが発生します。コードの冒頭でこのディレクトリを定義しておくことで、以降の処理をクリーンかつ再現可能にできます。
 
-## ガントチャートでテーブルフィールドをカスタマイズする理由
-カスタムテーブルフィールドを使用すると、カスタム属性やリソース情報、プロジェクト固有のメモなど、追加情報をガントビューに直接表示できます。これによりステークホルダーへの情報提供が充実し、複数のレポートを行き来する手間が減ります。
+## Why customize table fields in a Gantt chart?
+カスタムテーブルフィールドを使用すると、カスタム属性やリソース情報、プロジェクト固有のメモなど、追加情報を Gantt ビューに直接表示できます。これによりステークホルダーへの情報提供が充実し、複数のレポートを行き来する手間が減ります。
 
-## 前提条件
+## How to create new activity?
+新しいアクティビティ（タスク）を作成することは、プロジェクトスケジュールを構築・更新する際の基本操作です。プログラムからタスクを追加すれば、複雑な計画の自動生成や他システムからのデータ統合、手作業なしでの一括変更が可能になります。
+
+## Prerequisites
 開始する前に、以下を用意してください。
 
 1. **Java Development Kit (JDK)** – 任意の最新バージョン（8 以上）。  
-2. **Aspose.Tasks Library** – [こちら](https://releases.aspose.com/tasks/java/)からダウンロードしてください。  
+2. **Aspose.Tasks Library** – [here](https://releases.aspose.com/tasks/java/) からダウンロード。  
 3. **IDE** – IntelliJ IDEA、Eclipse、またはお好みの Java 対応エディタ。
 
-## パッケージのインポート
+## Import Packages
 まず、Aspose.Tasks の名前空間をインポートしてクラスを使用できるようにします。
 
 ```java
 import com.aspose.tasks.*;
 ```
 
-## 手順ガイド
+## Step‑by‑Step Guide
 
-### Step 1: データディレクトリの設定
-プロジェクトファイルが格納されているフォルダーを定義します。これが本チュートリアルの中心となる **データディレクトリ設定** 手順です。
+### Step 1: Set Up Data Directory
+プロジェクトファイルが格納されているフォルダーを定義します。これが本チュートリアルの中心である **データディレクトリの設定** 手順です。
 
 ```java
 String dataDir = "Your Data Directory";
 ```
 
-`"Your Data Directory"` を `project.mpp` が保存されているフォルダーへの絶対パスに置き換えてください。
+`"Your Data Directory"` を `project.mpp` が保存されているフォルダーの絶対パスに置き換えてください。
 
-### Step 2: プロジェクトファイルの読み込み
-既存の Microsoft Project ファイルをロードして `Project` インスタンスを作成します。
+### Step 2: Load Project File
+既存の Microsoft Project ファイルを読み込み、`Project` インスタンスを作成します。
 
 ```java
 Project project = new Project(dataDir + "project.mpp");
 ```
 
-### Step 3: 新しいアクティビティの追加
-プロジェクトのルートに新しいタスク（アクティビティ）を挿入します。
+### Step 3: Add New Activity
+プロジェクトのルートに新しいタスク（アクティビティ）を挿入します。これにより **プログラムから新しいアクティビティを作成** する方法が示されます。
 
 ```java
 Task task = project.getRootTask().getChildren().add("New Activity");
 ```
 
-### Step 4: カスタム属性の定義
+### Step 4: Define Custom Attribute
 後でタスクに付与できるカスタム属性定義を作成します。
 
 ```java
@@ -78,15 +80,15 @@ ExtendedAttributeDefinition text1Definition = ExtendedAttributeDefinition.create
 project.getExtendedAttributes().add(text1Definition);
 ```
 
-### Step 5: タスクへのカスタム属性の追加
-作成した属性を先ほどのタスクに割り当てます。
+### Step 5: Add Custom Attribute to Task
+先ほど定義した属性を作成したタスクに割り当てます。
 
 ```java
 task.getExtendedAttributes().add(text1Definition.createExtendedAttribute("Activity attribute"));
 ```
 
-### Step 6: テーブルのカスタマイズ – **customize table fields**
-カスタム属性をガントチャートテーブルの列として追加し、幅・タイトル・配置を指定します。
+### Step 6: Customize Table – **customize table fields**
+カスタム属性を Gantt チャートのテーブルに列として追加し、幅・タイトル・配置を指定します。
 
 ```java
 TableField attrField = new TableField();
@@ -99,44 +101,44 @@ Table table = project.getTables().toList().get(0);
 table.getTableFields().add(3, attrField);
 ```
 
-### Step 7: プロジェクトの保存
-変更を新しいファイルに永続化し、Microsoft Project で開けるようにします。
+### Step 7: Save Project
+変更を新しいファイルに保存し、Microsoft Project で開けるようにします。この手順で **プロジェクトを MPP として保存** します。
 
 ```java
 project.save("saved.mpp", SaveFileFormat.Mpp);
 ```
 
-## よくある問題と解決策
-| 問題 | 発生理由 | 対策 |
-|------|----------|------|
-| **FileNotFoundException** の発生時（プロジェクト読み込み時） | **set data directory** のパスが間違っているか、末尾のスラッシュが欠けています。 | `dataDir` が正確なフォルダーを指しているか確認し、適切なファイル区切り文字（`/` または `\\`）を含めてください。 |
-| カスタム属性がガントビューに表示されない | テーブルフィールドが誤ったインデックスで追加されたか、列幅が小さすぎます。 | `table.getTableFields().add(3, attrField);` が有効なインデックスを使用していることを確認し、必要に応じて `setWidth` を調整してください。 |
-| 保存時の LicenseException | 本番使用のための有効なライセンスが適用されていません。 | `project.save()` を呼び出す前に、一時または永続ライセンスを適用してください。 |
+## Common Issues and Solutions
+| Issue | Why it Happens | Fix |
+|-------|----------------|-----|
+| **FileNotFoundException** when loading the project | **データディレクトリ** のパスが間違っている、または末尾のスラッシュが欠けている | `dataDir` が正確なフォルダーを指しているか確認し、適切なファイル区切り文字（`/` または `\\`）を含める |
+| Custom attribute not visible in Gantt view | テーブルフィールドを誤ったインデックスに追加した、または列幅が狭すぎる | `table.getTableFields().add(3, attrField);` のインデックスが有効か確認し、`setWidth` を必要に応じて調整 |
+| LicenseException on save | 本番使用の有効なライセンスが適用されていない | `project.save()` を呼び出す前に、一時または永続ライセンスを適用する |
 
 ## Frequently Asked Questions
 
-**Q: Aspose.Tasks を他のプログラミング言語で使用できますか？**  
-A: はい。Aspose.Tasks は .NET、Java、C++ など複数の言語で利用可能です。
+**Q: Can I use Aspose.Tasks with other programming languages?**  
+A: Yes, Aspose.Tasks is available for multiple programming languages including .NET, Java, and C++.
 
-**Q: Aspose.Tasks の無料トライアルはありますか？**  
-A: はい、[こちら](https://releases.aspose.com/)から無料トライアルをダウンロードできます。
+**Q: Is there a free trial available for Aspose.Tasks?**  
+A: Yes, you can download a free trial from [here](https://releases.aspose.com/).
 
-**Q: Aspose.Tasks のサポートはどこで受けられますか？**  
-A: [Aspose.Tasks フォーラム](https://forum.aspose.com/c/tasks/15)でサポートを受けたり質問したりできます。
+**Q: Where can I find support for Aspose.Tasks?**  
+A: You can find support and ask questions on the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
 
-**Q: Aspose.Tasks のライセンスはどこで購入できますか？**  
-A: [こちら](https://purchase.aspose.com/buy)からライセンスを購入できます。
+**Q: How can I purchase a license for Aspose.Tasks?**  
+A: You can purchase a license from [here](https://purchase.aspose.com/buy).
 
-**Q: テスト目的で一時ライセンスは必要ですか？**  
-A: はい、[こちら](https://purchase.aspose.com/temporary-license/)から一時ライセンスを取得できます。
+**Q: Do I need a temporary license for testing purposes?**  
+A: Yes, you can obtain a temporary license from [here](https://purchase.aspose.com/temporary-license/).
 
-## 結論
-これで **データディレクトリの設定**、新しいアクティビティの追加、カスタム属性の定義とタスクへの付与、そして **テーブルフィールドのカスタマイズ** を Aspose.Tasks for Java で実行する方法を習得しました。これらの手順により、プロジェクトデータの表示方法を完全にコントロールでき、ガントチャートをステークホルダーのニーズに合わせてより情報豊かにカスタマイズできます。
+## Conclusion
+これで **データディレクトリの設定**、**新しいアクティビティの作成**、カスタム属性の定義とタスクへの付与、そして **MPP としてプロジェクトを保存** しながら **テーブルフィールドのカスタマイズ** を行う方法が習得できました。これらの手順により、プロジェクトデータの表示方法を完全にコントロールでき、ステークホルダーのニーズに合わせた情報豊富な Gantt チャートを作成できます。
 
 ---
 
-**最終更新日:** 2025-12-09  
-**テスト環境:** Aspose.Tasks Java 24.12（最新）  
+**最終更新日:** 2026-02-13  
+**テスト環境:** Aspose.Tasks Java 24.12 (latest)  
 **作者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

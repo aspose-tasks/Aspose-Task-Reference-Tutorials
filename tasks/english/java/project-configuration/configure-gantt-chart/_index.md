@@ -1,21 +1,21 @@
 ---
-title: Set Data Directory for Gantt Chart View in Aspose.Tasks
-linktitle: Set Data Directory for Gantt Chart View in Aspose.Tasks
+title: Create New Activity and Set Data Directory Using Aspose.Tasks for Java
+linktitle: Create New Activity and Set Data Directory Using Aspose.Tasks for Java
 second_title: Aspose.Tasks Java API
-description: Learn how to set data directory and configure Gantt chart view in Aspose.Tasks using Java. This guide also shows how to customize table fields and configure Gantt chart Java projects step‑by‑step.
+description: Learn how to create a new activity, set the data directory, and save a project as MPP with Aspose.Tasks for Java. This step‑by‑step guide also covers customizing table fields.
 weight: 10
 url: /java/project-configuration/configure-gantt-chart/
-date: 2025-12-09
+date: 2026-02-13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Set Data Directory for Gantt Chart View in Aspose.Tasks
+# Create New Activity and Set Data Directory Using Aspose.Tasks for Java
 
 ## Introduction
-In this tutorial, you'll learn **how to set data directory** and configure the Gantt MS Project Chart View in Aspose.Tasks projects using Java. Aspose.Tasks is a robust Java API that lets you manipulate Microsoft Project files programmatically. By the end of this guide you’ll be able to **customize table fields**, adjust the data directory, and visualize your project exactly the way you need it.
+In this tutorial, you'll learn **how to set data directory**, how to **create new activity**, and how to **save project as MPP** while configuring the Gantt MS Project Chart View in Aspose.Tasks projects using Java. Aspose.Tasks is a robust Java API that lets you manipulate Microsoft Project files programmatically. By the end of this guide you’ll be able to **customize table fields**, adjust the data directory, and visualize your project exactly the way you need it.
 
 ## Quick Answers
 - **What is the first step?** Set the data directory path where your project files reside.  
@@ -30,11 +30,14 @@ Setting the data directory tells Aspose.Tasks where to read and write project fi
 ## Why customize table fields in a Gantt chart?
 Custom table fields let you surface additional information—such as custom attributes, resource data, or project‑specific notes—directly in the Gantt view. This makes the chart more informative for stakeholders and reduces the need to switch between multiple reports.
 
+## How to create new activity?
+Creating a new activity (task) is one of the core operations when building or updating a project schedule. By adding tasks programmatically you can automate the generation of complex project plans, integrate data from other systems, or apply bulk changes without manual editing.
+
 ## Prerequisites
 Before you begin, make sure you have:
 
 1. **Java Development Kit (JDK)** – any recent version (8+).  
-2. **Aspose.Tasks Library** – download it from [here](https://releases.aspose.com/tasks/java/).  
+2. **Aspose.Tasks Library** – download it from the **Aspose.Tasks Java release page**.  
 3. **IDE** – IntelliJ IDEA, Eclipse, or any Java‑compatible editor you prefer.
 
 ## Import Packages
@@ -42,6 +45,17 @@ First, import the Aspose.Tasks namespace so you can work with its classes:
 
 ```java
 import com.aspose.tasks.*;
+```
+
+## Maven Dependency (optional)
+If you use Maven, add the following dependency to your `pom.xml`:
+
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-tasks</artifactId>
+    <version>24.12</version>
+</dependency>
 ```
 
 ## Step‑by‑Step Guide
@@ -63,7 +77,7 @@ Project project = new Project(dataDir + "project.mpp");
 ```
 
 ### Step 3: Add New Activity
-Insert a new task (activity) into the root of the project.
+Insert a new task (activity) into the root of the project. This demonstrates **how to create new activity** programmatically.
 
 ```java
 Task task = project.getRootTask().getChildren().add("New Activity");
@@ -99,7 +113,7 @@ table.getTableFields().add(3, attrField);
 ```
 
 ### Step 7: Save Project
-Persist the changes to a new file that can be opened in Microsoft Project.
+Persist the changes to a new file that can be opened in Microsoft Project. This step **saves the project as MPP**.
 
 ```java
 project.save("saved.mpp", SaveFileFormat.Mpp);
@@ -118,23 +132,23 @@ project.save("saved.mpp", SaveFileFormat.Mpp);
 A: Yes, Aspose.Tasks is available for multiple programming languages including .NET, Java, and C++.
 
 **Q: Is there a free trial available for Aspose.Tasks?**  
-A: Yes, you can download a free trial from [here](https://releases.aspose.com/).
+A: Yes, you can download a free trial from the **Aspose.Tasks free trial download page**.
 
 **Q: Where can I find support for Aspose.Tasks?**  
 A: You can find support and ask questions on the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
 
 **Q: How can I purchase a license for Aspose.Tasks?**  
-A: You can purchase a license from [here](https://purchase.aspose.com/buy).
+A: You can purchase a license from the **Aspose.Tasks purchase page**.
 
 **Q: Do I need a temporary license for testing purposes?**  
-A: Yes, you can obtain a temporary license from [here](https://purchase.aspose.com/temporary-license/).
+A: Yes, you can obtain a temporary license from the **temporary license request page**.
 
 ## Conclusion
-You’ve now learned how to **set data directory**, add a new activity, define and attach a custom attribute, and **customize table fields** in a Gantt chart view using Aspose.Tasks for Java. These steps give you full control over how project data is displayed, making your Gantt charts more informative and tailored to your stakeholders’ needs.
+You’ve now learned how to **set data directory**, **create new activity**, define and attach a custom attribute, and **save project as MPP** while **customizing table fields** in a Gantt chart view using Aspose.Tasks for Java. These steps give you full control over how project data is displayed, making your Gantt charts more informative and tailored to your stakeholders’ needs.
 
 ---
 
-**Last Updated:** 2025-12-09  
+**Last Updated:** 2026-02-13  
 **Tested With:** Aspose.Tasks Java 24.12 (latest)  
 **Author:** Aspose  
 
