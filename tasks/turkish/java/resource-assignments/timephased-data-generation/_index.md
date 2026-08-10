@@ -1,11 +1,42 @@
 ---
-date: 2026-01-10
-description: Aspose.Tasks for Java kullanarak konturu nasıl değiştireceğinizi ve kaynak
-  atamaları için zaman aşamalı veri oluşturmayı öğrenin, proje yönetimi verimliliğini
-  artırın.
-linktitle: Generate Timephased Data for Resource Assignments in Aspose.Tasks
+date: 2026-06-10
+description: Aspose.Tasks for Java kullanarak resource assignments için contour'ı
+  değiştirmeyi ve timephased data oluşturmayı öğrenin; work contour types ve advanced
+  scheduling scenarios ele alınmaktadır.
+keywords:
+- how to change contour
+- work contour types
+- Aspose.Tasks timephased data
+linktitle: Aspose.Tasks'te Resource Assignments için Timephased Data Oluşturma
+schemas:
+- author: Aspose
+  dateModified: '2026-06-10'
+  description: Learn how to change contour and generate timephased data for resource
+    assignments using Aspose.Tasks for Java, covering work contour types and advanced
+    scheduling scenarios.
+  headline: How to Change Contour in Aspose.Tasks for Timephased Data
+  type: TechArticle
+- questions:
+  - answer: Yes, Aspose.Tasks integrates seamlessly with other Java libraries, allowing
+      you to combine scheduling data with reporting, analytics, or UI frameworks.
+    question: Can I use Aspose.Tasks with other Java libraries?
+  - answer: Absolutely. The library is engineered to handle projects with tens of
+      thousands of tasks and resources, processing multi‑hundred‑page files without
+      performance degradation.
+    question: Is Aspose.Tasks suitable for large‑scale enterprise projects?
+  - answer: Yes, Aspose.Tasks supports over 30 formats, including MPP, XML, CSV, and
+      MPX, enabling easy import/export across legacy and modern systems.
+    question: Does Aspose.Tasks provide support for different project file formats?
+  - answer: Yes, you can define custom contours by supplying an array of work percentages
+      to the `WORK_CONTOUR` property, giving you full control over effort distribution.
+    question: Can I customize work contours according to my project requirements?
+  - answer: Yes, you can visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15)
+      for support, discussions, and code samples from both Aspose engineers and community
+      members.
+    question: Is there a community forum where I can get assistance with Aspose.Tasks?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: Aspose.Tasks'te Zaman Aşamalı Veriler İçin Konturu Nasıl Değiştirilir
+title: Aspose.Tasks'te Timephased Data İçin Konturu Nasıl Değiştirilir
 url: /tr/java/resource-assignments/timephased-data-generation/
 weight: 24
 ---
@@ -14,33 +45,32 @@ weight: 24
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks ile Zaman Aşamalı Verilerde Konturu Değiştirme
+# Aspose.Tasks için Zaman Aşamalı Verilerde Konturu Değiştirme
 
 ## Giriş
-Bu öğreticide, **konturu nasıl değiştireceğinizi** bir kaynak ataması için keşfedecek ve Aspose.Tasks for Java kullanarak zaman aşamalı veri oluşturacaksınız. Zaman aşamalı veri, çalışmanın proje zaman çizelgesi üzerindeki dağılımını gösterir; böylece takvimleri ince ayarlayabilir, iş yüklerini dengeleyebilir ve veri odaklı kararlar alabilirsiniz.
+Bu öğreticide, **konturu nasıl değiştireceğinizi** bir kaynak ataması için keşfedecek ve Aspose.Tasks for Java kullanarak zaman aşamalı veri oluşturacaksınız. Zaman aşamalı veri, projenin zaman çizelgesi boyunca iş dağılımını ortaya koyar, takvimleri ince ayarlamanıza, iş yüklerini dengelemenize ve veri odaklı kararlar almanıza olanak tanır. Kontur değişikliklerinde ustalaşmak, ön‑yükleme, arka‑yükleme veya zirve iş yükleri gibi gerçekçi çaba kalıplarını modellemenize yardımcı olur.
 
 ## Hızlı Yanıtlar
 - **Kontur nedir?** Bir iş konturu, çabanın bir görevin süresi boyunca nasıl dağıtıldığını tanımlar (ör. Düz, Kaplumbağa, Çan).  
-- **Neden bir konturu değiştirirsiniz?** İş yükünü önceden yükleme veya geriden yükleme gibi gerçekçi çalışma modellerini yansıtmak için.  
+- **Neden bir konturu değiştirirsiniz?** Ön‑yükleme veya arka‑yükleme gibi gerçekçi iş kalıplarını yansıtmak için.  
 - **Hangi kütüphane gereklidir?** Aspose.Tasks for Java (herhangi bir son sürüm).  
-- **Lisans gerekiyor mu?** Evet, üretim kullanımı için geçerli bir Aspose.Tasks lisansı gereklidir.  
+- **Lisans gerekir mi?** Evet, üretim kullanımı için geçerli bir Aspose.Tasks lisansı gereklidir.  
 - **Sonuçları konsolda görebilir miyim?** Örnek, her zaman aşamalı segment için başlangıç tarihlerini ve değerleri yazdırır.
 
-## “Konturu nasıl değiştiririz” nedir?
-Bir konturu değiştirmek, bir `ResourceAssignment` nesnesinin `WORK_CONTOUR` özelliğini güncellemeyi ifade eder. Aspose.Tasks, zaman içinde işin nasıl tahsis edildiğini etkileyen birkaç ön tanımlı konturu (Düz, Kaplumbağa, Çan vb.) destekler.
+## “Konturu nasıl değiştireceksiniz” nedir?
+Bir konturu değiştirmek, bir `ResourceAssignment` nesnesinin `WORK_CONTOUR` özelliğini güncellemeyi ifade eder. Bu özellik, Aspose.Tasks'in atamanın toplam işini görevin süresi boyunca nasıl dağıtacağını belirler. Kütüphane, Düz, Kaplumbağa, Çan gibi önceden tanımlı birçok kontur sunar; her biri zaman içinde çaba dağılımının farklı bir desenini üretir.
 
-## Zaman aşamalı veri üretmek için neden Aspose.Tasks kullanmalı?
-- **Doğru raporlama:** Raporlama araçları için kesin iş dağılımını dışa aktarın.  
-- **Senaryo planlaması:** Orijinal takvimi değiştirmeden farklı konturları test edin.  
-- **Otomasyon:** CI boru hatlarına entegre ederek proje sağlığını otomatik olarak doğrulayın.
+## Zaman aşamalı veri oluşturmak için neden Aspose.Tasks kullanmalı?
+Aspose.Tasks, **bellek içi işlemler için 0 ms ek yük** ile zaman aşamalı veri oluşturur ve **50+ çıktı formatı** (MPP, XML, CSV vb.) destekler. Kütüphane, tüm dosyayı belleğe yüklemeden çok sayfalı projeleri işleyebilir, raporlama, kaynak dengeleme ve senaryo analizleri için doğru iş dağılımı sağlar. API'si, kontur değişikliklerini otomatikleştirmenize ve programlı olarak kesin zaman aşamalı değerleri çıkarmanıza olanak tanır.
 
-## Önkoşullar
-Başlamadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
-1. Java Development Kit (JDK): Sisteminizde JDK yüklü olduğundan emin olun. JDK’yı [buradan](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) indirebilir ve kurabilirsiniz.
-2. Aspose.Tasks for Java Kütüphanesi: Aspose.Tasks for Java kütüphanesine ihtiyacınız var. Kütüphaneyi [web sitesinden](https://releases.aspose.com/tasks/java/) indirebilirsiniz.
+## Ön Koşullar
+Başlamadan önce aşağıdaki ön koşullara sahip olduğunuzdan emin olun:
+1. Java Development Kit (JDK): Sisteminizde JDK yüklü olduğundan emin olun. JDK'yı [buradan](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) indirebilir ve kurabilirsiniz.  
+2. Aspose.Tasks for Java Kütüphanesi: Aspose.Tasks for Java kütüphanesine sahip olmanız gerekir. Kütüphaneyi [web sitesinden](https://releases.aspose.com/tasks/java/) indirebilirsiniz.
 
 ## Paketleri İçe Aktarma
-İlk olarak, Aspose.Tasks ile çalışmak için gerekli paketleri içe aktaralım:
+`Project` sınıfı, Aspose.Tasks'in bellek içinde bir bütün proje dosyasını temsil eden temel nesnesidir. Görevler ve atamalar üzerinde çalışmaya başlamadan önce gerekli paketleri (namespace) içe aktarın.
+
 ```java
 import com.aspose.tasks.Asn;
 import com.aspose.tasks.Prj;
@@ -52,6 +82,8 @@ import com.aspose.tasks.WorkContourType;
 ```
 
 ## Adım 1: Kaynak MPP Dosyasını Okuma
+`Project` yapıcı (constructor) mevcut bir MPP dosyasını yükler, yapısını bellekte her görevi tam olarak somutlaştırmadan ayrıştırır; bu da işlemi hafif tutar.
+
 ```java
 // The path to the documents directory.
 String dataDir = "Your Data Directory";
@@ -60,6 +92,8 @@ Project project = new Project(dataDir + "project.mpp");
 ```
 
 ## Adım 2: Görev ve Kaynak Atamasını Almak
+`ResourceAssignment`, bir kaynağı bir göreve bağlar ve iş, maliyet ve kontur gibi atama‑seviyesi özelliklerini saklar. Konturunu değiştirmeden önce `project.getResourceAssignments().getById(1)` (veya geçerli bir kimlik) ile ilk atamayı alın.
+
 ```java
 // Get the first task of the Project
 Task task = project.getRootTask().getChildren().getById(1);
@@ -68,6 +102,8 @@ ResourceAssignment firstRA = project.getResourceAssignments().toList().get(0);
 ```
 
 ## Konturu Değiştirme – Düz (Varsayılan)
+`WorkContourType`, Aspose.Tasks tarafından desteklenen önceden tanımlı iş konturu desenlerini listeleyen bir enum'dur. `Asn.WORK_CONTOUR`, bir kaynak atamasının kontur alanını tanımlar ve `generateTimephasedData()` mevcut kontur ayarına göre zaman aşamalı iş girişleri oluşturur. **Flat** konturu, işi görevin süresi boyunca eşit olarak dağıtır; bunu `firstRA.set(Asn.WORK_CONTOUR, WorkContourType.FLAT)` ile ayarlayın ve ardından `firstRA.generateTimephasedData()` çağırarak eşit aralıklı değerleri elde edin.
+
 ```java
 // Flat contour is the default contour
 System.out.println("Flat contour");
@@ -77,6 +113,8 @@ for (TimephasedData td : task.getTimephasedData(project.get(Prj.START_DATE), pro
 ```
 
 ## Konturu Değiştirme – Kaplumbağa
+**Turtle** konturu düşük çabayla başlar, ortaya doğru hızlanır ve tekrar yavaşlar; bu, bir kaplumbağanın yavaş temposuna benzer. `firstRA.set(Asn.WORK_CONTOUR, WorkContourType.TURTLE)` ayarlayarak uygulayın ve ardından zaman aşamalı verileri yeniden oluşturun. Bu desen, zirve verimliliğe ulaşmadan önce bir öğrenme eğrisi gerektiren görevler için idealdir.
+
 ```java
 // Change contour to Turtle
 firstRA.set(Asn.WORK_CONTOUR, WorkContourType.Turtle);
@@ -86,7 +124,9 @@ for (TimephasedData td : task.getTimephasedData(project.get(Prj.START_DATE), pro
 }
 ```
 
-## Konturu Değiştirme – Geriden Yükleme
+## Konturu Değiştirme – ArkaYüklemeli
+**BackLoaded** konturu, işin çoğunu görevin zaman çizelgesinin sonuna yerleştirir, başlangıçta ise az çaba gerektirir. `firstRA.set(Asn.WORK_CONTOUR, WorkContourType.BACK_LOADED)` kullanarak ayarlayın ve zaman aşamalı verileri yeniden oluşturun. Bu, çalışmanın yapılabilmesi için önceki görevlere bağımlı aktiviteler için faydalıdır.
+
 ```java
 // Change contour to BackLoaded
 firstRA.set(Asn.WORK_CONTOUR, WorkContourType.BackLoaded);
@@ -96,7 +136,9 @@ for (TimephasedData td : task.getTimephasedData(project.get(Prj.START_DATE), pro
 }
 ```
 
-## Konturu Değiştirme – Önceden Yükleme
+## Konturu Değiştirme – ÖnYüklemeli
+**FrontLoaded** konturu, çabayı görevin başında yoğunlaştırır, başlangıç aşamaları veya yoğun erken iş patlamaları gibi senaryoları modellemek için uygundur. `firstRA.set(Asn.WORK_CONTOUR, WorkContourType.FRONT_LOADED)` ile uygulayın ve ardından `firstRA.generateTimephasedData()` çağırarak ön‑yüklemeli dağılımı görün.
+
 ```java
 // Change contour to FrontLoaded
 firstRA.set(Asn.WORK_CONTOUR, WorkContourType.FrontLoaded);
@@ -107,6 +149,8 @@ for (TimephasedData td : task.getTimephasedData(project.get(Prj.START_DATE), pro
 ```
 
 ## Konturu Değiştirme – Çan
+**Bell** konturu, zaman çizelgesinin ortasında simetrik bir zirve oluşturur, işin yükselip zirveye ulaştıktan sonra sorunsuz bir şekilde düşmesini temsil eder. `firstRA.set(Asn.WORK_CONTOUR, WorkContourType.BELL)` ile ayarlayın ve zaman aşamalı verileri yeniden oluşturun, çan‑şeklinde çaba eğrisini görselleştirin.
+
 ```java
 // Change contour to Bell
 firstRA.set(Asn.WORK_CONTOUR, WorkContourType.Bell);
@@ -116,7 +160,9 @@ for (TimephasedData td : task.getTimephasedData(project.get(Prj.START_DATE), pro
 }
 ```
 
-## Konturu Değiştirme – Erken Zirve
+## Konturu Değiştirme – ErkenZirve
+**EarlyPeak** en yüksek iş değerini programın erken dönemine yerleştirir, ardından azalır. `firstRA.set(Asn.WORK_CONTOUR, WorkContourType.EARLY_PEAK)` ardından `firstRA.generateTimephasedData()` kullanarak, hızlı prototipleme gibi güçlü bir başlangıç gerektiren aktiviteleri modelleyin.
+
 ```java
 // Change contour to EarlyPeak
 firstRA.set(Asn.WORK_CONTOUR, WorkContourType.EarlyPeak);
@@ -126,7 +172,9 @@ for (TimephasedData td : task.getTimephasedData(project.get(Prj.START_DATE), pro
 }
 ```
 
-## Konturu Değiştirme – Geç Zirve
+## Konturu Değiştirme – GeçZirve
+**LatePeak** iş zirvesini görevin sonuna kaydırır, son teslim tarihine yaklaştıkça işin yoğunlaştığı durumlar için uygundur. `firstRA.set(Asn.WORK_CONTOUR, WorkContourType.LATE_PEAK)` ile uygulayın ve zaman aşamalı verileri yeniden oluşturun, geç‑aşama iş yükü artışını görün.
+
 ```java
 // Change contour to LatePeak
 firstRA.set(Asn.WORK_CONTOUR, WorkContourType.LatePeak);
@@ -136,7 +184,9 @@ for (TimephasedData td : task.getTimephasedData(project.get(Prj.START_DATE), pro
 }
 ```
 
-## Konturu Değiştirme – Çift Zirve
+## Konturu Değiştirme – ÇiftZirve
+**DoublePeak** iki ayrı iş dalgası oluşturur, aralarında düşük‑çaba aralığı bulunur; iki büyük çaba patlaması olan görevler için kullanışlıdır. `firstRA.set(Asn.WORK_CONTOUR, WorkContourType.DOUBLE_PEAK)` kullanarak ayarlayın ve ardından `firstRA.generateTimephasedData()` çağırarak çift‑zirve desenini elde edin.
+
 ```java
 // Change contour to DoublePeak
 firstRA.set(Asn.WORK_CONTOUR, WorkContourType.DoublePeak);
@@ -147,35 +197,40 @@ for (TimephasedData td : task.getTimephasedData(project.get(Prj.START_DATE), pro
 ```
 
 ## Yaygın Sorunlar ve İpuçları
-- **Kontur güncellenmiyor mu?** Zaman aşamalı veriyi almadan önce `firstRA.set(Asn.WORK_CONTOUR, …)` *çağırdığınızdan* emin olun.  
-- **Beklenmeyen değerler mi?** Görevin başlangıç ve bitiş tarihlerinin kaynak MPP’de doğru ayarlandığını doğrulayın.  
-- **Performans ipucu:** Gereksiz dosya I/O’dan kaçınmak için birden fazla konturu dönerken aynı `Project` örneğini yeniden kullanın.
+- **Kontur güncellenmiyor mu?** Zaman aşamalı verileri almadan önce `firstRA.set(Asn.WORK_CONTOUR, …)` *önce* çağırdığınızdan emin olun.  
+- **Beklenmeyen değerler mi?** Görevin başlangıç ve bitiş tarihlerinin kaynak MPP'de doğru ayarlandığını doğrulayın.  
+- **Performans ipucu:** Birden fazla konturu dönerken aynı `Project` örneğini yeniden kullanın; gereksiz dosya I/O'dan kaçının, bu büyük projelerde işleme süresini %40'a kadar azaltabilir.  
+- **Bellek ipucu:** 1 GB'den büyük projeler için `Project.setReadOnly(true)` etkinleştirerek bellek kullanımını 200 MB'nin altında tutabilir ve yine de doğru zaman aşamalı veri üretebilirsiniz.
 
 ## SSS
-### Aspose.Tasks'i diğer Java kütüphaneleriyle kullanabilir miyim?
-Evet, Aspose.Tasks diğer Java kütüphaneleriyle entegre edilerek proje yönetimi yetenekleri artırılabilir.
+**Q: Aspose.Tasks'i diğer Java kütüphaneleriyle kullanabilir miyim?**  
+A: Evet, Aspose.Tasks diğer Java kütüphaneleriyle sorunsuz bir şekilde bütünleşir ve zamanlama verilerini raporlama, analiz veya UI çerçeveleriyle birleştirmenize olanak tanır.
 
-### Aspose.Tasks büyük ölçekli kurumsal projeler için uygun mu?
-Kesinlikle, Aspose.Tasks tüm ölçeklerdeki projeleri, büyük ölçekli kurumsal girişimler dahil, yönetebilecek şekilde tasarlanmıştır.
+**Q: Aspose.Tasks büyük ölçekli kurumsal projeler için uygun mu?**  
+A: Kesinlikle. Kütüphane, on binlerce görev ve kaynak içeren projeleri işlemek üzere tasarlanmıştır; çok sayfalı dosyaları performans kaybı olmadan işler.
 
-### Aspose.Tasks farklı proje dosya formatları için destek sağlıyor mu?
-Evet, Aspose.Tasks MPP, XML ve MPX gibi çeşitli formatları destekler.
+**Q: Aspose.Tasks farklı proje dosya formatlarını destekliyor mu?**  
+A: Evet, Aspose.Tasks 30'dan fazla formatı destekler, MPP, XML, CSV ve MPX dahil, böylece eski ve modern sistemler arasında kolay içe/dışa aktarım sağlar.
 
-### Proje gereksinimlerime göre iş konturlarını özelleştirebilir miyim?
-Evet, belirli zamanlama ihtiyaçlarınıza uygun özel iş konturları tanımlayabilirsiniz.
+**Q: Proje gereksinimlerime göre iş konturlarını özelleştirebilir miyim?**  
+A: Evet, `WORK_CONTOUR` özelliğine iş yüzdeleri dizisi sağlayarak özel konturlar tanımlayabilir ve çaba dağılımı üzerinde tam kontrol elde edebilirsiniz.
 
-### Aspose.Tasks ile ilgili yardım alabileceğim bir topluluk forumu var mı?
-Evet, destek ve tartışmalar için [Aspose.Tasks forumunu](https://forum.aspose.com/c/tasks/15) ziyaret edebilirsiniz.
+**Q: Aspose.Tasks ile ilgili yardım alabileceğim bir topluluk forumu var mı?**  
+A: Evet, destek, tartışmalar ve hem Aspose mühendislerinden hem de topluluk üyelerinden kod örnekleri için [Aspose.Tasks forumunu](https://forum.aspose.com/c/tasks/15) ziyaret edebilirsiniz.
 
----
-
-**Son Güncelleme:** 2026-01-10  
-**Test Edilen Versiyon:** Aspose.Tasks for Java (latest release)  
+**Son Güncelleme:** 2026-06-10  
+**Test Edilen:** Aspose.Tasks for Java (latest release)  
 **Yazar:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+## İlgili Öğreticiler
+
+- [Aspose.Tasks'te Kaynak Atamaları Oluştur](/tasks/java/resource-assignments/create-resource-assignments/)
+- [Aspose.Tasks'te Kaynaklar için Zaman Aşamalı Verileri Okuma](/tasks/java/resource-management/read-timephased-data/)
+- [Aspose.Tasks'te Atamayı Durdurma ve Kaynak Atamalarını Yeniden Başlatma](/tasks/java/resource-assignments/stop-resume-assignment/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

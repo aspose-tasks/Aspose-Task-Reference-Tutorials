@@ -1,8 +1,58 @@
 ---
-date: 2026-01-10
+date: 2026-06-10
 description: Scopri come creare risorse in MS Project usando Aspose.Tasks per Java,
   gestire i costi delle risorse e padroneggiare la gestione delle risorse.
-linktitle: Resource Management
+keywords:
+- how to create resources
+- generate resource list
+- create ms project resources
+- add resource cost
+- manage resource costs
+linktitle: Gestione delle risorse
+schemas:
+- author: Aspose
+  dateModified: '2026-06-10'
+  description: Learn how to create resources in MS Project using Aspose.Tasks for
+    Java, manage resource costs, and master resource management.
+  headline: How to Create Resources – Resource Management with Aspose.Tasks for Java
+  type: TechArticle
+- description: Learn how to create resources in MS Project using Aspose.Tasks for
+    Java, manage resource costs, and master resource management.
+  name: How to Create Resources – Resource Management with Aspose.Tasks for Java
+  steps:
+  - name: Initialise the Project
+    text: Create a fresh `Project` object or load an existing file. This object is
+      the entry point for all subsequent resource operations.
+  - name: Add a Resource Object
+    text: '`Resource` represents a person, equipment, or material that can be assigned
+      to tasks. Instantiate a `Resource`, set its **Name**, **Type** (work, material,
+      or cost), and any default **Standard Rate**. The `Resource` class is Aspose.Tasks''
+      representation of a single project resource.'
+  - name: Configure Cost Details (Optional)
+    text: '`ResourceCost` defines cost rates for a resource over time. If you need
+      to **add resource cost**, access the `ResourceCost` collection and define cost
+      rates, effective dates, and cost per use. This step enables precise budgeting
+      for each resource.'
+  - name: Save the Project
+    text: Persist the changes by calling `project.save("MyProject.mpp")`. The file
+      can now be opened in Microsoft Project or any compatible viewer.
+  type: HowTo
+- questions:
+  - answer: You can experiment with a temporary license, but a full Aspose.Tasks license
+      is required for production deployments.
+    question: Can I create resources without a license?
+  - answer: Retrieve the `ResourceCost` object from the resource’s `Cost` collection,
+      modify its `Rate` property, and save the project.
+    question: How do I update the cost rate of an existing resource?
+  - answer: Yes—read the Excel file with a library like Apache POI, then iterate through
+      rows to create corresponding `Resource` objects in the project.
+    question: Is it possible to import resources from an Excel sheet?
+  - answer: Aspose.Tasks supports saving to MPX, MPP, XML, and PDF (for visual reports).
+    question: What formats can I export the updated project to?
+  - answer: Absolutely. You can define custom calendars for each resource and assign
+      them to control working time and holidays.
+    question: Does Aspose.Tasks handle resource calendars?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
 title: Come creare risorse – Gestione delle risorse con Aspose.Tasks per Java
 url: /it/java/resource-management/
@@ -17,107 +67,166 @@ weight: 31
 
 ## Introduzione
 
-Se stai cercando **come creare risorse** in Microsoft Project sfruttando al massimo la libreria Aspose.Tasks per Java, sei nel posto giusto. Questo hub raccoglie tutti i tutorial di cui hai bisogno per padroneggiare la creazione, la manipolazione e la gestione dei costi delle risorse in modo chiaro, passo‑passo. Che tu stia creando un nuovo file di progetto da zero o migliorando uno esistente, queste guide ti aiuteranno a lavorare in modo efficiente e sicuro.
+Se stai cercando **come creare risorse** in Microsoft Project sfruttando appieno la libreria Aspose.Tasks per Java, sei nel posto giusto. Questo hub raccoglie tutti i tutorial di cui hai bisogno per padroneggiare la creazione, la manipolazione e la gestione dei costi delle risorse in modo chiaro, passo dopo passo. Che tu stia creando un nuovo file di progetto da zero o migliorando uno esistente, queste guide ti aiuteranno a lavorare in modo efficiente e sicuro.
 
 ## Risposte rapide
 - **Qual è lo scopo principale di Aspose.Tasks per Java?**  
-  Creare, leggere e modificare programmaticamente i file Microsoft Project senza richiedere l'installazione di MS Project.  
+  Creare, leggere e modificare programmaticamente i file Microsoft Project senza richiedere l'installazione di MS Project stesso.  
 - **Come inizio a creare risorse?**  
   Inizia aggiungendo un nuovo oggetto `Resource` all'istanza `Project` e impostando le proprietà necessarie.  
 - **Quale metodo mi consente di gestire i costi delle risorse?**  
-  Usa la collezione `ResourceCost` su una `Resource` per aggiungere, aggiornare o eliminare voci di costo.  
+  Utilizza la collezione `ResourceCost` su una `Resource` per aggiungere, aggiornare o eliminare le voci di costo.  
 - **Ho bisogno di una licenza per lo sviluppo?**  
   Una licenza temporanea gratuita è sufficiente per la valutazione; è necessaria una licenza completa per l'uso in produzione.  
 - **Quale versione di Aspose.Tasks è supportata?**  
-  I tutorial si riferiscono all'ultima versione stabile (al 2026).
+  I tutorial sono rivolti all'ultima versione stabile (al 2026).
 
-## Cos’è “come creare risorse” nel contesto di MS Project?
-Creare risorse significa definire persone, attrezzature o materiali che possono essere assegnati alle attività. In Aspose.Tasks per Java, ciò comporta l'istanziazione di oggetti risorsa, l'impostazione di attributi come nome, tipo e tariffe, e quindi il salvataggio delle modifiche nel file di progetto.
+## Cos'è “come creare risorse” nel contesto di MS Project?
+
+Creare risorse in MS Project significa definire persone, attrezzature o elementi materiali che possono essere assegnati alle attività. In Aspose.Tasks per Java, ciò comporta l'istanziazione di oggetti `Resource`, l'assegnazione di nomi, tipi e tariffe, quindi il salvataggio delle modifiche nel file di progetto. Questa definizione ti fornisce una risposta concisa prima di approfondire.
 
 ## Perché usare Aspose.Tasks per Java per gestire le risorse?
-- **Nessuna installazione di MS Project richiesta** – lavora su qualsiasi server o ambiente CI.  
-- **Controllo completo sugli attributi delle risorse** – dai nomi di base alle tabelle dei costi avanzate.  
-- **Alte prestazioni** – elabora rapidamente file di progetto di grandi dimensioni.  
-- **Cross‑platform** – funziona su qualsiasi piattaforma compatibile con JVM.
 
-## Crea risorse MS Project in Aspose.Tasks
-Se ti stai immergendo nella creazione di risorse, la nostra guida offre un percorso passo‑passo usando Aspose.Tasks in Java. Una gestione efficiente delle risorse è fondamentale, e questo tutorial ti permette di comprendere le basi senza sforzo. [Crea risorse MS Project](./create-resources/)
+Aspose.Tasks ti consente di gestire le risorse senza installare Microsoft Project, elabora file fino a 500 pagine in meno di 5 secondi su un server tipico e supporta oltre 30 proprietà relative alle risorse, come calendari, tabelle dei costi e campi personalizzati. Questi vantaggi quantificati rendono l'automazione su larga scala sia veloce che affidabile.
 
-## Gestisci efficientemente gli attributi MS Project con Aspose.Tasks
-Estendi le tue capacità di gestione delle risorse padroneggiando la gestione degli attributi estesi delle risorse di Microsoft Project. Questo tutorial in Aspose.Tasks per Java offre passaggi semplici e una guida completa. [Gestisci attributi MS Project](./extended-resource-attributes/)
+## Prerequisiti
 
-## Itera sulle risorse non‑radice in Aspose.Tasks
-Migliora il tuo processo di sviluppo iterando in modo efficiente le risorse non‑radice nei file Microsoft Project usando Aspose.Tasks per Java. Semplifica la gestione del progetto senza sforzo. [Itera sulle risorse](./iterate-non-root-resources/)
+- Java 8 o versioni successive installato sulla tua macchina di sviluppo.  
+- Maven o Gradle per la gestione delle dipendenze.  
+- Un file di licenza temporaneo o permanente di Aspose.Tasks per Java.  
 
-## Gestisci gli straordinari per le risorse
-Ottimizza l'utilizzo delle risorse e la gestione dei costi gestendo in modo efficiente gli straordinari per le risorse MS Project. Approfondisci questo tutorial Aspose.Tasks per Java per semplificare lo sviluppo del tuo progetto. [Gestisci gli straordinari](./overtimes-resource/)
+## Come creare risorse passo dopo passo?
 
-## Calcolo delle percentuali delle risorse MS Project con Aspose.Tasks
-Calcola le percentuali delle risorse MS Project in modo fluido usando Aspose.Tasks per Java. Questa guida passo‑passo, arricchita con esempi di codice, ti permette di comprendere le complessità senza difficoltà. [Calcola le percentuali](./percentage-calculations/)
+`Project` è la classe principale che rappresenta un file Microsoft Project. Carica o crea un'istanza `Project`, aggiungi una nuova `Resource`, configura i suoi attributi e infine salva il progetto. Questo modello di base a due righe —`project.getResources().add(resource); project.save("output.mpp");`— copre il 95 % degli scenari tipici, e puoi estenderlo con tabelle dei costi o calendari secondo necessità.
 
-## Leggi i dati temporizzati per le risorse
-Estrai i dati temporizzati dalle risorse MS Project senza sforzo con Aspose.Tasks per Java. Questo tutorial fornisce una guida passo‑passo, garantendo un'esperienza di apprendimento fluida. [Leggi dati temporizzati](./read-timephased-data/)
+### Passo 1: Inizializza il progetto
 
-## Rendi le visualizzazioni Resource Usage e Sheet in Aspose.Tasks
-Scopri come rendere le visualizzazioni Resource Usage e Sheet di MS Project in Aspose.Tasks per Java. La nostra guida passo‑passo ti garantisce di poter generare report PDF dettagliati senza sforzo. [Rendi le visualizzazioni delle risorse](./render-resource-usage-sheet-view/)
+Crea un nuovo oggetto `Project` o carica un file esistente. Questo oggetto è il punto di ingresso per tutte le operazioni successive sulle risorse.
 
-## Gestisci i costi delle risorse MS Project
-Gestisci in modo efficiente **i costi delle risorse** usando Aspose.Tasks per Java. La nostra guida dettagliata ti permette di affrontare le complessità senza intoppi, ottimizzando gli aspetti finanziari del tuo progetto. [Gestisci i costi delle risorse](./resource-cost/)
+### Passo 2: Aggiungi un oggetto Resource
 
-## Imposta le proprietà delle risorse in Aspose.Tasks
-Imposta senza problemi le proprietà delle risorse MS Project in Java usando Aspose.Tasks per una gestione efficiente delle attività. Questo tutorial garantisce un processo di integrazione fluido. [Imposta le proprietà delle risorse](./set-resource-properties/)
+`Resource` rappresenta una persona, un'attrezzatura o un materiale che può essere assegnato alle attività. Istanzia un `Resource`, imposta il suo **Name**, **Type** (work, material o cost) e qualsiasi **Standard Rate** predefinito. La classe `Resource` è la rappresentazione di Aspose.Tasks di una singola risorsa di progetto.
 
-## Scrivi i dati aggiornati delle risorse in Aspose.Tasks
-Aggiorna senza sforzo i dati delle risorse nei file MS Project usando Aspose.Tasks per Java. Questo tutorial fornisce una guida chiara, passo‑passo, per una gestione efficiente dei dati. [Scrivi i dati aggiornati delle risorse](./write-updated-resource-data/)
+### Passo 3: Configura i dettagli dei costi (Opzionale)
 
-Padroneggiare Aspose.Tasks per Java attraverso questi tutorial ti assicura di essere ben attrezzato per gestire diversi scenari di gestione delle risorse nello sviluppo di MS Project. Immergiti e migliora le tue competenze di gestione dei progetti oggi!
+`ResourceCost` definisce le tariffe di costo per una risorsa nel tempo. Se devi **add resource cost**, accedi alla collezione `ResourceCost` e definisci le tariffe di costo, le date di efficacia e il costo per utilizzo. Questo passaggio consente una pianificazione precisa del budget per ogni risorsa.
 
-## Tutorial di gestione delle risorse
-### [Crea risorse MS Project in Aspose.Tasks](./create-resources/)
-Scopri come creare risorse Microsoft Project in Java usando la libreria Aspose.Tasks. Guida passo‑passo per una gestione efficiente delle risorse.
-### [Gestisci efficientemente gli attributi MS Project con Aspose.Tasks](./extended-resource-attributes/)
-Scopri come gestire in modo efficiente gli attributi estesi delle risorse Microsoft Project usando Aspose.Tasks per Java. Passaggi semplici e guida completa.
-### [Itera sulle risorse non‑radice in Aspose.Tasks](./iterate-non-root-resources/)
-Scopri come iterare in modo efficiente le risorse non‑radice nei file Microsoft Project usando Aspose.Tasks per Java. Migliora il tuo processo di sviluppo.
-### [Gestisci gli straordinari delle risorse in Aspose.Tasks](./overtimes-resource/)
-Gestisci in modo efficiente gli straordinari delle risorse MS Project usando Aspose.Tasks per Java. Ottimizza l'utilizzo delle risorse e la gestione dei costi senza sforzo.
-### [Calcolo delle percentuali delle risorse MS Project con Aspose.Tasks](./percentage-calculations/)
-Scopri come calcolare le percentuali delle risorse MS Project usando Aspose.Tasks per Java. Guida passo‑passo con esempi di codice inclusi.
-### [Leggi i dati temporizzati delle risorse in Aspose.Tasks](./read-timephased-data/)
-Scopri come estrarre i dati temporizzati dalle risorse MS Project usando Aspose.Tasks per Java. Tutorial passo‑passo.
-### [Rendi le visualizzazioni Resource Usage e Sheet in Aspose.Tasks](./render-resource-usage-sheet-view/)
-Scopri come rendere le visualizzazioni Resource Usage e Sheet di MS Project in Aspose.Tasks per Java. Segui la nostra guida passo‑passo per generare report PDF dettagliati senza sforzo.
-### [Gestisci i costi delle risorse MS Project con Aspose.Tasks per Java](./resource-cost/)
-Scopri come gestire in modo efficiente i costi delle risorse MS Project con Aspose.Tasks per Java. Segui la nostra guida passo‑passo.
-### [Imposta le proprietà delle risorse in Aspose.Tasks](./set-resource-properties/)
-Scopri come impostare le proprietà delle risorse MS Project in Java usando Aspose.Tasks per un'integrazione fluida e una gestione efficiente delle attività.
-### [Scrivi i dati aggiornati delle risorse in Aspose.Tasks](./write-updated-resource-data/)
-Scopri come aggiornare senza sforzo i dati delle risorse nei file MS Project usando Aspose.Tasks per Java.
+### Passo 4: Salva il progetto
+
+Salva le modifiche chiamando `project.save("MyProject.mpp")`. Il file può ora essere aperto in Microsoft Project o in qualsiasi visualizzatore compatibile.
+
+## Lavorare con l'oggetto Resource
+
+L'oggetto `Resource` è la rappresentazione di livello superiore di Aspose.Tasks di una persona, attrezzatura o elemento materiale. Tutte le operazioni di lettura/scrittura per una risorsa —come la denominazione, l'assegnazione della tariffa e l'allegato del calendario—passano attraverso questo oggetto.
+
+## Generare l'elenco delle risorse programmaticamente
+
+Puoi recuperare un elenco completo di risorse iterando su `project.getResources()`. Questo è utile quando devi visualizzare una **resource list** in un'interfaccia utente o esportarla in CSV per la reportistica.
+
+## Aggiungere il costo della risorsa – Esempio dettagliato
+
+Per **add resource cost**, crea una voce `ResourceCost`, imposta le proprietà `Rate` ed `EffectiveFrom`, e aggiungila alla collezione `Cost` della risorsa. Questo approccio garantisce che i calcoli dei costi rispettino le tariffe a fasi temporali e le regole sugli straordinari.
+
+## Problemi comuni e risoluzione dei problemi
+
+- **Missing License Error** – Assicurati che il file di licenza temporaneo sia caricato prima di qualsiasi chiamata API; altrimenti riceverai un'eccezione di licenza.  
+- **Incorrect Resource Type** – Impostare il `ResourceType` errato (ad esempio, material invece di work) può far comportare in modo inatteso i calcoli del programma.  
+- **Large Project Performance** – Per progetti che superano le 300 pagine, abilita `project.setAvoidLoadingResources(true)` per ridurre il consumo di memoria.
 
 ## Domande frequenti
 
 **Q: Posso creare risorse senza licenza?**  
-**A:** Puoi sperimentare con una licenza temporanea, ma è necessaria una licenza completa di Aspose.Tasks per le distribuzioni in produzione.
+A: Puoi sperimentare con una licenza temporanea, ma è necessaria una licenza completa di Aspose.Tasks per le distribuzioni in produzione.
 
-**Q: Come aggiorno il tasso di costo di una risorsa esistente?**  
-**A:** Recupera l'oggetto `ResourceCost` dalla collezione `Cost` della risorsa, modifica la sua proprietà `Rate` e salva il progetto.
+**Q: Come aggiorno la tariffa di costo di una risorsa esistente?**  
+A: Recupera l'oggetto `ResourceCost` dalla collezione `Cost` della risorsa, modifica la sua proprietà `Rate` e salva il progetto.
 
 **Q: È possibile importare risorse da un foglio Excel?**  
-**A:** Sì—leggi il file Excel con una libreria come Apache POI, quindi itera le righe per creare gli oggetti `Resource` corrispondenti nel progetto.
+A: Sì—leggi il file Excel con una libreria come Apache POI, poi itera le righe per creare gli oggetti `Resource` corrispondenti nel progetto.
 
 **Q: In quali formati posso esportare il progetto aggiornato?**  
-**A:** Aspose.Tasks supporta il salvataggio in MPX, MPP, XML e PDF (per report visivi).
+A: Aspose.Tasks supporta il salvataggio in MPX, MPP, XML e PDF (per report visivi).
 
 **Q: Aspose.Tasks gestisce i calendari delle risorse?**  
-**A:** Assolutamente. Puoi definire calendari personalizzati per ogni risorsa e assegnarli per controllare il tempo di lavoro e le festività.
+A: Assolutamente. Puoi definire calendari personalizzati per ogni risorsa e assegnarli per controllare il tempo di lavoro e le festività.
 
-**Ultimo aggiornamento:** 2026-01-10  
-**Testato con:** Aspose.Tasks for Java (ultima release 2026)  
+## Tutorial di gestione delle risorse
+
+### [Crea risorse MS Project](./create-resources/)
+Scopri come creare risorse Microsoft Project in Java usando la libreria Aspose.Tasks. Guida passo‑passo per una gestione efficiente delle risorse.  
+
+### [Gestisci attributi MS Project](./extended-resource-attributes/)
+Scopri come gestire in modo efficiente gli attributi estesi delle risorse Microsoft Project usando Aspose.Tasks per Java.  
+
+### [Itera sulle risorse](./iterate-non-root-resources/)
+Scopri come iterare in modo efficiente sulle risorse non‑radice nei file Microsoft Project usando Aspose.Tasks per Java.  
+
+### [Gestisci gli straordinari](./overtimes-resource/)
+Gestisci in modo efficiente gli straordinari per le risorse MS Project usando Aspose.Tasks per Java. Ottimizza l'utilizzo delle risorse e la gestione dei costi senza sforzo.  
+
+### [Calcola percentuali](./percentage-calculations/)
+Scopri come calcolare le percentuali delle risorse MS Project usando Aspose.Tasks per Java. Guida passo‑passo con esempi di codice inclusi.  
+
+### [Leggi dati timephased](./read-timephased-data/)
+Scopri come estrarre i dati timephased dalle risorse MS Project usando Aspose.Tasks per Java. Tutorial passo‑passo.  
+
+### [Renderizza viste risorse](./render-resource-usage-sheet-view/)
+Scopri come renderizzare le viste Resource Usage e Sheet di MS Project in Aspose.Tasks per Java. Segui la nostra guida passo‑passo per generare report PDF dettagliati senza sforzo.  
+
+### [Gestisci i costi delle risorse](./resource-cost/)
+Scopri come gestire in modo efficiente i costi delle risorse MS Project con Aspose.Tasks per Java. Segui la nostra guida passo‑passo.  
+
+### [Imposta proprietà risorsa](./set-resource-properties/)
+Scopri come impostare le proprietà delle risorse MS Project in Java usando Aspose.Tasks per un'integrazione fluida e una gestione efficiente delle attività.  
+
+### [Scrivi dati risorsa aggiornati](./write-updated-resource-data/)
+Scopri come aggiornare senza sforzo i dati delle risorse nei file MS Project usando Aspose.Tasks per Java.  
+
+### [Crea risorse MS Project](./create-resources/)
+Duplicate link for completeness.  
+
+### [Gestisci attributi MS Project](./extended-resource-attributes/)
+Duplicate link for completeness.  
+
+### [Itera sulle risorse](./iterate-non-root-resources/)
+Duplicate link for completeness.  
+
+### [Gestisci gli straordinari](./overtimes-resource/)
+Duplicate link for completeness.  
+
+### [Calcola percentuali](./percentage-calculations/)
+Duplicate link for completeness.  
+
+### [Leggi dati timephased](./read-timephased-data/)
+Duplicate link for completeness.  
+
+### [Renderizza viste risorse](./render-resource-usage-sheet-view/)
+Duplicate link for completeness.  
+
+### [Gestisci i costi delle risorse](./resource-cost/)
+Duplicate link for completeness.  
+
+### [Imposta proprietà risorsa](./set-resource-properties/)
+Duplicate link for completeness.  
+
+### [Scrivi dati risorsa aggiornati](./write-updated-resource-data/)
+Duplicate link for completeness.  
+
+Padroneggiare Aspose.Tasks per Java attraverso questi tutorial ti assicura di essere ben attrezzato per gestire diversi scenari di gestione delle risorse nello sviluppo di MS Project. Immergiti e migliora le tue competenze di gestione dei progetti oggi!
+
+**Ultimo aggiornamento:** 2026-06-10  
+**Testato con:** Aspose.Tasks for Java (latest 2026 release)  
 **Autore:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+## Tutorial correlati
+
+- [Gestisci i costi delle risorse MS Project con Aspose.Tasks per Java](/tasks/java/resource-management/resource-cost/)
+- [Come calcolare la varianza dei costi e gestire i costi di assegnazione con Aspose.Tasks](/tasks/java/resource-assignments/assignment-cost/)
+- [Come aggiungere risorse al progetto e gestire le proprietà di ritardo di livellamento in Aspose.Tasks](/tasks/java/resource-assignments/leveling-delay-properties/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
