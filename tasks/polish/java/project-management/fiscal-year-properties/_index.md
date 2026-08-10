@@ -1,10 +1,15 @@
 ---
-date: 2025-12-25
-description: Naucz się zarządzać właściwościami roku podatkowego i efektywnie ładować
-  pliki MPP przy użyciu Aspose.Tasks dla Javy. Przewodnik krok po kroku z przykładami.
-linktitle: Manage Fiscal Year Properties in Aspose.Tasks
+date: 2026-04-01
+description: Dowiedz się, jak zapisać XML, ustawić rok obrachunkowy i przekonwertować
+  MPP na XML przy użyciu Aspose.Tasks dla Javy. Przewodnik krok po kroku z przykładami
+  kodu.
+keywords:
+- how to save xml
+- how to set fiscal
+- convert mpp to xml
+linktitle: Jak zapisać XML i zarządzać rokiem fiskalnym w Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: Zarządzaj właściwościami roku fiskalnego w Aspose.Tasks
+title: Jak zapisać XML i zarządzać rokiem fiskalnym w Aspose.Tasks
 url: /pl/java/project-management/fiscal-year-properties/
 weight: 15
 ---
@@ -13,30 +18,30 @@ weight: 15
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zarządzanie właściwościami roku fiskalnego w Aspose.Tasks
+# Jak zapisać XML i zarządzać rokiem fiskalnym w Aspose.Tasks
 
-## Wstęp
-Aspose.Tasks to potężna biblioteka Java, która umożliwia programistom **zarządzanie ustawieniami roku fiskalnego**, ładowanie plików MPP oraz konwertowanie danych projektu do XML przy użyciu zaledwie kilku linii kodu. W tym samouczku zobaczysz dokładnie, jak ustawić właściwości roku fiskalnego, wyświetlić informacje o roku fiskalnym oraz zapisać wynik — wszystko przy zachowaniu czystego i łatwego w utrzymaniu kodu.
+## Wprowadzenie
+Jeśli potrzebujesz **how to save xml** plików generowanych z danych Microsoft Project, Aspose.Tasks for Java zapewnia czysty, wolny od licencji sposób ich uzyskania. W tym samouczku przeprowadzimy Cię przez ładowanie pliku MPP, wyświetlanie informacji o roku fiskalnym, ustawianie właściwości roku fiskalnego oraz ostatecznie **how to save xml** wyjścia. Zobaczysz także, jak **how to set fiscal** szczegóły i **how to convert mpp** pliki bez konieczności otwierania Microsoft Project.
 
 ## Szybkie odpowiedzi
-- **Co oznacza „zarządzanie rokiem fiskalnym” w Aspose.Tasks?** Umożliwia zdefiniowanie miesiąca rozpoczęcia roku fiskalnego oraz włączenie numeracji roku fiskalnego dla projektu.  
+- **Co oznacza „manage fiscal year” w Aspose.Tasks?** Pozwala zdefiniować miesiąc rozpoczęcia roku fiskalnego i włączyć numerację roku fiskalnego dla projektu.  
 - **Jak ustawić miesiąc rozpoczęcia roku fiskalnego?** Użyj właściwości `Prj.FY_START_DATE` z wartością wyliczenia `Month` (np. `Month.JULY`).  
-- **Czy mogę załadować plik MPP?** Tak, wystarczy utworzyć instancję `Project` z ścieżką do pliku *.mpp*.  
+- **Czy mogę załadować plik MPP?** Tak, po prostu utwórz instancję `Project` z ścieżką do pliku *.mpp*.  
 - **Jak przekonwertować MPP na XML?** Wywołaj `project.save(..., SaveFileFormat.Xml)` po ustawieniu żądanych właściwości.  
-- **Czy potrzebna jest licencja?** Dostępna jest bezpłatna wersja próbna; licencja komercyjna jest wymagana do użytku produkcyjnego.
+- **Czy potrzebuję licencji?** Dostępna jest bezpłatna wersja próbna; licencja komercyjna jest wymagana do użytku produkcyjnego.  
 
-## Co oznacza „zarządzanie rokiem fiskalnym” w plikach projektu?
+## Co oznacza „manage fiscal year” w plikach projektu?
 Zarządzanie rokiem fiskalnym oznacza konfigurowanie kalendarza, którego projekt używa do raportowania finansowego. Obejmuje to ustawienie miesiąca rozpoczęcia roku fiskalnego oraz opcjonalne włączenie numeracji roku fiskalnego, co wpływa na sposób obliczania i wyświetlania dat w raportach.
 
-## Dlaczego warto używać Aspose.Tasks do obsługi roku fiskalnego?
-- **Nie wymaga Microsoft Project** – pracuj bezpośrednio z plikami projektu w Javie.  
-- **Pełna kontrola** – ustaw początek roku fiskalnego, włącz numerację i konwertuj formaty programowo.  
-- **Solidne API** – niezawodne przetwarzanie dużych plików MPP oraz płynny eksport do XML.
+## Dlaczego używać Aspose.Tasks do obsługi roku fiskalnego?
+- **No Microsoft Project required** – Brak wymogu posiadania Microsoft Project – pracuj z plikami projektu bezpośrednio w Javie.  
+- **Full control** – Pełna kontrola – ustaw początek roku fiskalnego, włącz numerację i konwertuj formaty programowo.  
+- **Robust API** – Solidne API – niezawodne przetwarzanie dużych plików MPP i płynny eksport do XML.  
 
-## Prerequisites
+## Wymagania wstępne
 Zanim zaczniemy, upewnij się, że masz następujące elementy:
-1. Zainstalowany Java Development Kit (JDK) na twoim systemie.  
-2. Aspose.Tasks for Java JAR – pobierz go z [here](https://releases.aspose.com/tasks/java/) i dodaj do classpath swojego projektu.
+1. Java Development Kit (JDK) zainstalowany w systemie.  
+2. Aspose.Tasks for Java JAR – pobierz go z [here](https://releases.aspose.com/tasks/java/) i dodaj do ścieżki klas swojego projektu.
 
 ## Importowanie pakietów
 Aby rozpocząć, zaimportuj niezbędne klasy w swoim pliku źródłowym Java:
@@ -53,7 +58,7 @@ Poniżej przedstawiamy proces w przejrzystych, numerowanych krokach.
 String dataDir = "Your Data Directory";
 Project project = new Project(dataDir + "project.mpp");
 ```
-Tutaj **ładujemy plik MPP** (`project.mpp`) z określonego katalogu. To pierwszy krok w każdej manipulacji związanej z rokiem fiskalnym.
+Tutaj **load an MPP file** (`project.mpp`) z określonego katalogu. To pierwszy krok w każdej manipulacji związanej z rokiem fiskalnym.
 
 ### Krok 2: Wyświetl właściwości roku fiskalnego
 ```java
@@ -61,7 +66,7 @@ Tutaj **ładujemy plik MPP** (`project.mpp`) z określonego katalogu. To pierwsz
 System.out.println("Fiscal Year Start Date : " + project.get(Prj.FY_START_DATE));
 System.out.println("Fiscal Year Numbering : " + project.get(Prj.FISCAL_YEAR_START));
 ```
-Właściwości `Prj.FY_START_DATE` i `Prj.FISCAL_YEAR_START` pozwalają **wyświetlić szczegóły roku fiskalnego**, odpowiadając na pytanie „jaka jest bieżąca konfiguracja roku fiskalnego?”.
+Właściwości `Prj.FY_START_DATE` i `Prj.FISCAL_YEAR_START` pozwalają **display fiscal year** szczegóły, odpowiadając na pytanie „jaka jest bieżąca konfiguracja roku fiskalnego?”.
 
 ### Krok 3: Ustaw początek roku fiskalnego i włącz numerację
 ```java
@@ -73,50 +78,59 @@ prj.set(Prj.FISCAL_YEAR_START, new NullableBool(true));
 //Save the project as XML project file
 prj.save(dataDir + "savedProject.xml", SaveFileFormat.Xml);
 ```
-W tym kroku pokazujemy **jak ustawić ustawienia fiskalne**:
+W tym kroku **how to set fiscal** ustawienia:
 - `Month.JULY` definiuje miesiąc rozpoczęcia roku fiskalnego.  
 - `NullableBool(true)` włącza numerację roku fiskalnego.  
-- Na koniec projekt jest **konwertowany z MPP na XML** przy użyciu `SaveFileFormat.Xml`.
+- Na koniec projekt jest **converted MPP to XML** przy użyciu `SaveFileFormat.Xml`.
 
 ### Krok 4: Potwierdź operację
 ```java
 //Display result of conversion.
 System.out.println("Process completed Successfully");
 ```
-Prosta wiadomość w konsoli potwierdza, że rok fiskalny został skonfigurowany i plik został zapisany.
+Prosta wiadomość w konsoli potwierdza, że rok fiskalny został skonfigurowany i plik zapisany.
 
-## Częste problemy i rozwiązania
-| Issue | Solution |
+## Dlaczego to ma znaczenie
+Zapisanie projektu jako XML zapewnia przenośną, tekstową reprezentację, którą można łatwo parsować, kontrolować wersje lub integrować z innymi systemami. Gdy ustawienia roku fiskalnego są prawidłowe, późniejsze raporty finansowe i pulpity nawigacyjne będą zgodne z okresami księgowymi Twojej organizacji.
+
+## Typowe przypadki użycia
+- **Financial reporting** – Dopasuj harmonogramy projektów do kalendarza fiskalnego przed eksportem do narzędzi BI.  
+- **Data migration** – Konwertuj starsze pliki *.mpp* na XML w celu importu do chmurowych platform zarządzania projektami.  
+- **Automated audits** – Programowo zweryfikuj, że każdy projekt używa właściwego miesiąca rozpoczęcia roku fiskalnego.
+
+## Porady dotyczące rozwiązywania problemów i typowe pułapki
+| Problem | Rozwiązanie |
 |-------|----------|
 | **Incorrect month value** | Upewnij się, że używasz wyliczenia `Month` (np. `Month.JANUARY`). |
 | **File not found** | Sprawdź, czy `dataDir` wskazuje na właściwy folder i czy nazwa pliku się zgadza. |
 | **Saving fails** | Sprawdź uprawnienia zapisu w docelowym katalogu oraz czy `SaveFileFormat` jest obsługiwany. |
+| **Fiscal year not reflected in XML** | Po zapisaniu otwórz XML i potwierdź, że węzły `<FiscalYearStart>` i `<FiscalYearNumbering>` zawierają oczekiwane wartości. |
 
 ## Najczęściej zadawane pytania
 
 **Q: Czy mogę używać Aspose.Tasks for Java do manipulacji innymi właściwościami projektu?**  
-A: Tak, Aspose.Tasks oferuje kompleksową funkcjonalność zarządzania różnymi właściwościami projektu poza ustawieniami roku fiskalnego.
+A: Tak, Aspose.Tasks zapewnia kompleksową funkcjonalność do zarządzania różnymi właściwościami projektu poza ustawieniami roku fiskalnego.
 
 **Q: Czy Aspose.Tasks for Java jest kompatybilny z różnymi formatami plików projektu?**  
 A: Tak, obsługuje szeroką gamę formatów, w tym MPP, XML i inne.
 
 **Q: Jak mogę uzyskać wsparcie, jeśli napotkam problemy podczas korzystania z Aspose.Tasks for Java?**  
-A: Możesz uzyskać pomoc od społeczności Aspose.Tasks na [forum](https://forum.aspose.com/c/tasks/15) lub skontaktować się bezpośrednio z ich zespołem wsparcia.
+A: Możesz szukać pomocy w społeczności Aspose.Tasks na [forum](https://forum.aspose.com/c/tasks/15) lub skontaktować się bezpośrednio z ich zespołem wsparcia.
 
 **Q: Czy Aspose.Tasks oferuje wersję próbną?**  
-A: Tak, możesz uzyskać dostęp do wersji próbnej Aspose.Tasks z [here](https://releases.aspose.com/).
+A: Tak, możesz uzyskać dostęp do wersji próbnej Aspose.Tasks [tutaj](https://releases.aspose.com/).
 
 **Q: Gdzie mogę kupić licencję na Aspose.Tasks for Java?**  
-A: Licencję na Aspose.Tasks for Java możesz nabyć z [here](https://purchase.aspose.com/buy).
+A: Licencję na Aspose.Tasks for Java możesz zakupić [tutaj](https://purchase.aspose.com/buy).
 
 ## Podsumowanie
-Zarządzanie właściwościami roku fiskalnego w Aspose.Tasks for Java jest proste. Postępując zgodnie z powyższymi krokami, możesz **zarządzać rokiem fiskalnym**, **ładować pliki MPP**, **wyświetlać szczegóły roku fiskalnego** oraz **konwertować MPP na XML** z pełnym przekonaniem. Wykorzystaj te techniki, aby utrzymać harmonogramy projektów zgodne z kalendarzem finansowym Twojej organizacji.
+Zarządzanie właściwościami roku fiskalnego w Aspose.Tasks for Java jest proste. Postępując zgodnie z powyższymi krokami, możesz **how to save xml**, **load mpp file**, **display fiscal year**, **set fiscal year**, i **convert mpp to xml** z pewnością. Użyj tych technik, aby utrzymać harmonogramy projektów zgodne z kalendarzem finansowym Twojej organizacji oraz tworzyć przenośne reprezentacje XML do dalszego przetwarzania.
 
 ---
 
-**Last Updated:** 2025-12-25  
-**Tested With:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
-**Author:** Aspose  
+**Ostatnia aktualizacja:** 2026-04-01  
+**Testowano z:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

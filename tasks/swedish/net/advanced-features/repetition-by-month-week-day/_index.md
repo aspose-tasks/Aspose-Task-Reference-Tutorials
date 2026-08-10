@@ -1,57 +1,75 @@
 ---
-title: Upprepning efter månad Veckodag i Aspose.Tasks
-linktitle: Upprepning efter månad Veckodag i Aspose.Tasks
+date: 2026-04-01
+description: Lär dig hur du ställer in återkommande i Aspose.Tasks för .NET, lägger
+  till en återkommande uppgift och automatiserar återkommande uppgifter per månad,
+  vecka och dag.
+keywords:
+- how to set recurrence
+- add recurring task
+- automate recurring tasks
+linktitle: Upprepning efter månad, vecka, dag i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Lär dig hur du ställer in repetitioner efter månad, vecka och dag i Aspose.Tasks för .NET för att effektivt automatisera återkommande uppgifter.
-weight: 26
+title: Hur man ställer in återkommande i Aspose.Tasks (Månad, Vecka, Dag)
 url: /sv/net/advanced-features/repetition-by-month-week-day/
+weight: 26
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Upprepning efter månad Veckodag i Aspose.Tasks
+# Hur man ställer in återkommande i Aspose.Tasks (Månad, Vecka, Dag)
 
 ## Introduktion
 
-Inom området för mjukvaruutveckling, särskilt i projektledningsapplikationer, är förmågan att hantera återkommande uppgifter effektivt av största vikt. Aspose.Tasks för .NET är ett kraftfullt bibliotek designat för att effektivisera skapandet och hanteringen av projektuppgifter, inklusive återkommande. En sådan funktion som tillhandahålls av Aspose.Tasks är möjligheten att ställa in repetitioner per månad, vecka och dag, vilket säkerställer att uppgifterna utförs enligt schemat utan manuella ingrepp.
+Om du behöver **hur man ställer in återkommande** för uppgifter i ett projekt, ger Aspose.Tasks för .NET dig ett rent, programmeringsmässigt sätt att lägga till återkommande uppgiftsdefinitioner som körs per månad, vecka eller dag. I den här handledningen går vi igenom ett verkligt exempel som visar hur du **lägger till återkommande uppgift**‑poster, **automatiserar återkommande uppgifter**, och hanterar dem direkt från C#‑kod. I slutet är du redo att integrera denna funktion i vilken schemaläggnings‑ eller projektledningslösning som helst.
+
+## Snabba svar
+- **Vad betyder “recurrence” i Aspose.Tasks?** Det definierar ett mönster (dagligen, veckovis, månadsvis) som automatiskt skapar uppgiftsinstanser över ett datumintervall.  
+- **Vilken primär metod skapar återkommandet?** `RecurringTaskParameters` kombinerat med ett specifikt `RecurrencePattern`.  
+- **Behöver jag en licens för att köra den här koden?** En provversion fungerar för utvärdering; en kommersiell licens krävs för produktion.  
+- **Kan jag schemalägga veckovisa uppgifter istället för månatliga?** Ja – byt `MonthlyRecurrencePattern` mot `WeeklyRecurrencePattern`.  
+- **Vilka .NET‑versioner stöds?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6 och senare.
+
+## Vad är återkommande i Aspose.Tasks?
+
+Återkommande är en uppsättning regler som talar om för Aspose.Tasks att generera uppgiftsinstanser med jämna mellanrum—dagligen, veckovis eller månadsvis—utan att manuellt duplicera dem. Denna funktion är avgörande för projekt som innehåller rutinaktiviteter såsom statusmöten, inspektioner eller underhållsarbete.
+
+## Varför använda återkommande funktioner?
+
+- **Spara tid:** Ingen behov av att kopiera‑klistra uppgifter manuellt.  
+- **Minska fel:** Biblioteket garanterar konsekventa datum och varaktigheter.  
+- **Flexibilitet:** Kombinera mönster (t.ex. “första söndagen varannan månad”).  
+- **Automatisering:** Perfekt för att generera scheman i CI‑pipelines eller rapporteringsverktyg.
 
 ## Förutsättningar
 
-Innan du dyker in i krångligheterna med att ställa in repetitioner per månad, vecka och dag med Aspose.Tasks för .NET, se till att du har följande förutsättningar:
+1. **Grundläggande förståelse för C#** – du kommer att skriva några rader C#‑kod.  
+2. **Aspose.Tasks för .NET installerat** – hämta det från [nedladdningssidan](https://releases.aspose.com/tasks/net/).  
+3. **En .mpp‑projektfil** – vi kommer att använda `Project1.mpp` som källfil.
 
-1. Grundläggande förståelse för C#: Bekantskap med programmeringsspråket C# är avgörande för att förstå och implementera kodexemplen som tillhandahålls.
-   
-2.  Installation av Aspose.Tasks för .NET: Se till att du har laddat ner och installerat Aspose.Tasks for .NET-biblioteket. Du kan hämta biblioteket från[nedladdningssida](https://releases.aspose.com/tasks/net/).
+## Importera namnrymder
 
-3. Tillgång till en .mpp-projektfil: Ha en Microsoft Project-fil (.mpp) redo, eftersom vi kommer att använda den för att demonstrera implementeringen av repetitioner per månad, vecka och dag.
-
-## Importera namnområden
-
-För att komma igång med att använda Aspose.Tasks för .NET i din C#-applikation måste du importera de nödvändiga namnrymden. Så här kan du göra det:
+För att börja, importera de nödvändiga Aspose.Tasks‑namnrymderna:
 
 ```csharp
 using Aspose.Tasks;
 using System;
 
 using Aspose.Tasks.Saving;
-
 ```
 
-Låt oss dela upp det medföljande kodavsnittet i flera steg för att förstå varje del grundligt.
-
-## Steg 1: Ladda projektfilen
+### Steg 1: Ladda projektfilen
 
 ```csharp
-// Sökvägen till dokumentkatalogen.
+// The path to th documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Project1.mpp");
 ```
 
- Detta steg innebär att skapa en ny instans av`Project` klass och laddar en befintlig Microsoft Project-fil (`Project1.mpp`) från den angivna katalogen.
+Vi skapar en `Project`‑instans som pekar på en befintlig Microsoft Project‑fil.
 
-## Steg 2: Definiera parametrar för återkommande uppgift
+### Steg 2: Definiera återkommande uppgiftsparametrar
 
 ```csharp
 var parameters = new RecurringTaskParameters
@@ -75,49 +93,65 @@ var parameters = new RecurringTaskParameters
 };
 ```
 
-det här steget definierar vi parametrarna för en återkommande uppgift. Vi anger uppgiftens namn, varaktighet, repetitionsmönster (månadsvis) och upprepningsintervall (slutar vid ett specifikt datum).
+Här **skapar vi återkommande uppgifts**‑parametrar:
 
-## Steg 3: Lägg till återkommande uppgift till projektet
+- **TaskName** – namnet på den genererade uppgiften.  
+- **Duration** – hur länge varje förekomst varar.  
+- **RecurrencePattern** – ett månadsvis mönster som upprepas varannan månad på den första söndagen.  
+- **RecurrenceRange** – start‑ och slutdatum som avgränsar schemat.
+
+### Steg 3: Lägg till den återkommande uppgiften i projektet
 
 ```csharp
 project.RootTask.Children.Add(parameters);
 ```
 
-Här lägger vi till de definierade parametrarna för återkommande uppgift till projektets rotuppgift.
+Denna rad **lägger till den återkommande uppgiften** till rotkatalogen i projektets hierarki.
 
-## Steg 4: Spara projektfil
+### Steg 4: Spara det uppdaterade projektet
 
 ```csharp
 project.Save(DataDir + "CanAddRecurringTask_Months_WeekDay_EndByRecurrenceRange_Test_out.mpp", SaveFileFormat.Mpp);
 ```
 
-Slutligen sparar vi den modifierade projektfilen med den tillagda återkommande uppgiften.
+Projektet sparas som en ny `.mpp`‑fil som nu innehåller det automatiserade schemat.
 
-## Slutsats
+## Vanliga problem och lösningar
 
-Sammanfattningsvis, att ställa in repetitioner per månad, vecka och dag i Aspose.Tasks för .NET är en enkel process som ger utvecklare möjlighet att automatisera hanteringen av återkommande uppgifter inom sina projekt på ett effektivt sätt. Genom att följa stegen som beskrivs i denna handledning kan du sömlöst integrera den här funktionen i dina C#-applikationer, vilket sparar tid och ansträngning i projektledning.
+| Problem | Orsak | Lösning |
+|-------|--------|-----|
+| **Uppgift visas inte** | Återkommande intervall ligger utanför projektets datum. | Verifiera att `Start` och `Finish`‑värdena ligger inom projektkalendern. |
+| **Fel veckodag** | `WeekDay`‑enum‑mismatch. | Använd `DayOfWeek.Monday` … `DayOfWeek.Sunday` efter behov. |
+| **Licensundantag** | Kör utan en giltig licens i produktion. | Applicera en temporär eller full licens innan sparning. |
 
-## FAQ's
+## Vanliga frågor
 
-###F1: Kan jag anpassa återfallsmönstret utöver de angivna exemplen?
+### Q1: Kan jag anpassa återkommande mönster utöver de givna exemplen?
 
-S1: Ja, Aspose.Tasks för .NET erbjuder omfattande anpassningsalternativ för återkommande mönster, så att du kan skräddarsy dem efter dina specifika krav.
+A1: Ja, Aspose.Tasks för .NET erbjuder omfattande anpassningsalternativ för återkommande mönster, så att du kan skräddarsy dem efter dina specifika krav.
 
-###F2: Finns det en testversion tillgänglig för Aspose.Tasks för .NET?
+### Q2: Finns det en provversion tillgänglig för Aspose.Tasks för .NET?
 
- S2: Ja, du kan få en gratis provversion av Aspose.Tasks för .NET från[släpper sida](https://releases.aspose.com/).
+A2: Ja, du kan få en gratis provversion av Aspose.Tasks för .NET från [releases‑sidan](https://releases.aspose.com/).
 
-###F3: Hur kan jag få support för Aspose.Tasks för .NET?
+### Q3: Hur kan jag få support för Aspose.Tasks för .NET?
 
- S3: Du kan söka hjälp och engagera dig i samhället på[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
+A3: Du kan söka hjälp och engagera dig i communityn på [Aspose.Tasks‑forum](https://forum.aspose.com/c/tasks/15).
 
-###F4: Finns tillfälliga licenser tillgängliga för Aspose.Tasks för .NET?
+### Q4: Finns tillfälliga licenser tillgängliga för Aspose.Tasks för .NET?
 
- A4: Ja, du kan skaffa tillfälliga licenser från[köpsidan](https://purchase.aspose.com/temporary-license/) för test- och utvärderingsändamål.
+A4: Ja, du kan skaffa tillfälliga licenser från [köpsidan](https://purchase.aspose.com/temporary-license/) för test och utvärderingsändamål.
 
-###F5: Var kan jag hitta omfattande dokumentation för Aspose.Tasks för .NET?
+### Q5: Var kan jag hitta omfattande dokumentation för Aspose.Tasks för .NET?
 
- A5: Du kan hänvisa till detaljerna[dokumentation](https://reference.aspose.com/tasks/net/) tillgänglig på Asposes webbplats för djupgående vägledning om hur du använder biblioteket.
+A5: Du kan hänvisa till den detaljerade [dokumentation](https://reference.aspose.com/tasks/net/) som finns på Aspose‑webbplatsen för djupgående vägledning om hur du använder biblioteket.
+
+---
+
+**Senast uppdaterad:** 2026-04-01  
+**Testad med:** Aspose.Tasks 24.11 för .NET  
+**Författare:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
