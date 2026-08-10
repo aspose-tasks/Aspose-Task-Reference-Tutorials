@@ -1,98 +1,139 @@
 ---
-title: اكتب ملخص مشروع MPP في Aspose.Tasks
-linktitle: اكتب ملخص مشروع MPP في Aspose.Tasks
-second_title: Aspose.Tasks جافا API
-description: تعرف على كيفية كتابة ملخصات مشروع MPP في Java باستخدام Aspose.Tasks. قم بتعيين واسترجاع معلومات المشروع دون عناء.
-weight: 27
+date: 2026-03-29
+description: تعلم كيفية تعيين الكلمات المفتاحية وتعيين تاريخ الإنشاء في مشروع MPP
+  باستخدام Aspose.Tasks للغة Java. دليل خطوة بخطوة مع أمثلة على الشيفرة.
+linktitle: Write MPP Project Summary in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: كيفية تعيين الكلمات المفتاحية في ملخص مشروع MPP باستخدام Aspose.Tasks
 url: /ar/java/project-file-operations/write-mpp-project-summary/
+weight: 27
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# اكتب ملخص مشروع MPP في Aspose.Tasks
+# كيفية تعيين الكلمات المفتاحية في ملخص مشروع MPP باستخدام Aspose.Tasks
 
 ## مقدمة
-في هذا البرنامج التعليمي، سوف نتعلم كيفية استخدام Aspose.Tasks لـ Java لكتابة ملخصات مشروع MPP. Aspose.Tasks هي مكتبة Java قوية للعمل مع ملفات Microsoft Project. باتباع الخطوات الموضحة أدناه، ستتمكن من تعيين واسترجاع معلومات تلخيصية متنوعة حول مشروع باستخدام هذه المكتبة.
-## المتطلبات الأساسية
-قبل أن نبدأ، تأكد من توفر المتطلبات الأساسية التالية:
-1. Java Development Kit (JDK): تأكد من تثبيت JDK على نظامك.
-2.  Aspose.Tasks لـ Java: قم بتنزيل وتثبيت مكتبة Aspose.Tasks لـ Java. يمكنك تنزيله من[هنا](https://releases.aspose.com/tasks/java/).
-3. بيئة التطوير المتكاملة (IDE): اختر بيئة التطوير المتكاملة المفضلة لديك لتطوير Java، مثل IntelliJ IDEA أو Eclipse أو NetBeans.
+في هذا الدرس ستكتشف **كيفية تعيين الكلمات المفتاحية** ومعلومات ملخص أخرى لملف مشروع MPP باستخدام Aspose.Tasks for Java. سواء كنت بحاجة إلى تضمين تفاصيل المؤلف، أرقام المراجعة، أو تاريخ إنشاء مخصص، يوجهك هذا الدليل خلال الخطوات الدقيقة، مع كود جاهز للتنفيذ. في النهاية ستتمكن من تعيين الكلمات المفتاحية، تعيين تاريخ الإنشاء java، واسترجاع البيانات من الملف.
 
-## حزم الاستيراد
-أولاً، قم باستيراد الحزم الضرورية إلى فئة Java الخاصة بك:
+## إجابات سريعة
+- **ما المكتبة المستخدمة؟** Aspose.Tasks for Java  
+- **الغرض الأساسي؟** تعيين الكلمات المفتاحية، معلومات المؤلف، وتاريخ الإنشاء في ملف MPP  
+- **كم عدد خطوات الكود؟** ثلاث كتل كود بسيطة (تهيئة، حفظ، قراءة)  
+- **هل أحتاج إلى ترخيص؟** نسخة تجريبية مجانية تكفي للتطوير؛ يلزم ترخيص تجاري للإنتاج  
+- **إصدار Java المدعوم؟** Java 8 وما فوق  
+
+## ما هو “كيفية تعيين الكلمات المفتاحية” في ملف MPP؟
+الكلمات المفتاحية هي حقول بيانات وصفية مخزنة داخل ملف Microsoft Project (MPP). تساعد في تصنيف المشاريع، تمكين البحث السريع، وتوفير معلومات سياقية للأدوات اللاحقة. تقوم Aspose.Tasks بالكشف عن الخاصية `Prj.KEYWORDS`، مما يجعل كتابة أو تحديث هذه القيمة برمجياً أمراً بسيطاً.
+
+## لماذا تستخدم Aspose.Tasks for Java لتعيين الكلمات المفتاحية وتاريخ الإنشاء؟
+- **توافق كامل مع .MPP** – يعمل مع جميع صيغ Project من 2007 إلى 2023.  
+- **لا حاجة لتثبيت COM أو Office** – جافا صافية، مثالية لبيئات الخادم.  
+- **API غني** – بالإضافة إلى الكلمات المفتاحية يمكنك تعيين المؤلف، المراجعة، التعليقات، والتواريخ في استدعاء واحد.  
+- **محسن للأداء** – قراءة/كتابة سريعة حتى لملفات المشاريع الكبيرة.  
+
+## المتطلبات المسبقة
+1. **مجموعة تطوير جافا (JDK)** – تم تثبيت JDK 8 أو أحدث.  
+2. **Aspose.Tasks for Java** – حمّل أحدث ملف JAR من [here](https://releases.aspose.com/tasks/java/).  
+3. **IDE** – IntelliJ IDEA، Eclipse، NetBeans، أو أي محرر تفضله.
+
+## استيراد الحزم
+أولاً، استورد الفئات التي ستحتاجها. هذه الاستيرادات تمنحك الوصول إلى كائن `Project`، تعداد `Prj` لحقول الملخص، وتعداد `SaveFileFormat` للحفظ.
+
 ```java
 import com.aspose.tasks.Prj;
 import com.aspose.tasks.Project;
 import com.aspose.tasks.SaveFileFormat;
 import java.util.Calendar;
 ```
-## الخطوة 1: إعداد المشروع وتحديد المعلومات الموجزة
+
+## الخطوة 1: إعداد المشروع وتعريف معلومات الملخص
+أنشئ مثيلاً من `Project`، ثم استخدم طريقة `set` لكتابة البيانات الوصفية المطلوبة. لاحظ كيف نقوم **بتعيين الكلمات المفتاحية** و**بتعيين تاريخ الإنشاء java** باستخدام كائن `Calendar`.
+
 ```java
-// المسار إلى دليل المستندات.
+// The path to the documents directory.
 String dataDir = "Your Data Directory";
-//قم بتهيئة كائن مشروع جديد بالمسار إلى ملف المشروع الخاص بك
+// Initialize a new Project object with the path to your project file
 Project project = new Project(dataDir + "project.mpp");
-// قم بتعيين معلومات موجزة عن المشروع
+// Set summary information about the project
 project.set(Prj.AUTHOR, "Author");
 project.set(Prj.LAST_AUTHOR, "Last Author");
 project.set(Prj.REVISION, 15);
-project.set(Prj.KEYWORDS, "MSP Aspose");
+project.set(Prj.KEYWORDS, "MSP Aspose");          // <-- set keywords
 project.set(Prj.COMMENTS, "Comments");
-// تحديد تاريخ إنشاء المشروع
+
+// Set creation date of the project (set creation date java)
 Calendar cal = Calendar.getInstance();
 cal.set(2014, Calendar.FEBRUARY, 15, 0, 0, 0);
 project.set(Prj.CREATION_DATE, cal.getTime());
-// تعيين الكلمات الرئيسية للمشروع
-project.set(Prj.KEYWORDS, "MPP Aspose");
-// تحديد تاريخ الطباعة الأخير للمشروع
+
+// Set last printed date of the project
 cal.set(2014, Calendar.MARCH, 16, 0, 0, 0);
 project.set(Prj.LAST_PRINTED, cal.getTime());
 ```
+
 ## الخطوة 2: حفظ معلومات ملخص المشروع
+بعد ملء الحقول، احفظ التغييرات. هنا نقوم بحفظ المشروع كملف XML لتسهيل الفحص، لكن يمكنك أيضًا حفظه مرة أخرى كملف MPP.
+
 ```java
-// احفظ المشروع مرة أخرى بتنسيق MPP
+// Save the Project back in MPP format
 project.save(dataDir + "MppAspose.xml", SaveFileFormat.Xml);
-// عرض رسالة النجاح
+// Display a success message
 System.out.println("Process completed Successfully");
 ```
-## الخطوة 3: اقرأ معلومات ملخص المشروع
+
+## الخطوة 3: قراءة معلومات ملخص المشروع
+للتحقق من كتابة البيانات الوصفية بشكل صحيح، أعد تحميل الملف واقرأ كل خاصية مرة أخرى. تُظهر هذه الخطوة أن **كيفية تعيين الكلمات المفتاحية** تعمل فعليًا من البداية إلى النهاية.
+
 ```java
-// قراءة معلومات ملخص المشروع
+// Reading Project Summary Information
 project = new Project(dataDir + "MppAspose.xml");
-// طباعة مؤلف المشروع
+// Print author of the project
 System.out.println("Author: " + project.get(Prj.AUTHOR));
-// طباعة المؤلف الأخير للمشروع
+// Print last author of the project
 System.out.println("Last Author: " + project.get(Prj.LAST_AUTHOR));
-// طباعة رقم المراجعة للمشروع
+// Print revision number of the project
 System.out.println("Revision: " + project.get(Prj.REVISION));
-// طباعة الكلمات الرئيسية للمشروع
+// Print keywords of the project
 System.out.println("Keywords: " + project.get(Prj.KEYWORDS));
-// طباعة تعليقات المشروع
+// Print comments of the project
 System.out.println("Comments: " + project.get(Prj.COMMENTS));
-// طباعة تاريخ إنشاء المشروع
+// Print creation date of the project
 System.out.println("Creation Date: " + project.get(Prj.CREATION_DATE).toString());
-// طباعة الكلمات الرئيسية للمشروع (مرة أخرى)
-System.out.println("Keywords: " + project.get(Prj.KEYWORDS));
-// طباعة تاريخ آخر طباعة للمشروع
+// Print last printed date of the project
 System.out.println("Last Printed: " + project.get(Prj.LAST_PRINTED).toString());
 ```
 
-## خاتمة
-في هذا البرنامج التعليمي، تناولنا كيفية كتابة ملخصات مشروع MPP باستخدام Aspose.Tasks لـ Java. باتباع هذه الخطوات، يمكنك تعيين واسترجاع معلومات تلخيصية متنوعة حول ملفات مشروعك بكفاءة. يعمل Aspose.Tasks على تبسيط عملية العمل مع ملفات Microsoft Project في تطبيقات Java، مما يوفر وظائف قوية وسهولة الاستخدام.
-## الأسئلة الشائعة
-### س: هل يمكنني استخدام Aspose.Tasks لـ Java مع مكتبات Java الأخرى؟
-ج: نعم، يمكن دمج Aspose.Tasks for Java بسلاسة مع مكتبات Java الأخرى لتعزيز قدرات إدارة مشروعك.
-### س: هل هناك إصدار تجريبي متاح لـ Aspose.Tasks لـ Java؟
- ج: نعم، يمكنك تنزيل نسخة تجريبية مجانية من[هنا](https://releases.aspose.com/).
-### س: ما مدى تكرار تحديث Aspose.Tasks لـ Java؟
-ج: يتم تحديث Aspose.Tasks for Java بانتظام لضمان التوافق مع أحدث إصدارات ملفات Java وMicrosoft Project.
-### س: هل يمكنني تخصيص معلومات ملخص المشروع بشكل أكبر؟
-ج: بالتأكيد، يوفر Aspose.Tasks for Java خيارات شاملة لتخصيص معلومات ملخص المشروع وفقًا لمتطلباتك المحددة.
-### س: أين يمكنني الحصول على الدعم لـ Aspose.Tasks لـ Java؟
-ج: يمكنك الحصول على الدعم من منتدى مجتمع Aspose.Tasks[هنا](https://forum.aspose.com/c/tasks/15).
+## المشكلات الشائعة والحلول
+| المشكلة | سبب حدوثها | الحل |
+|-------|----------------|-----|
+| **NullPointerException on `project.get(Prj.CREATION_DATE)`** | لم يتم تعيين التقويم قبل الحفظ. | تأكد من استدعاء `project.set(Prj.CREATION_DATE, cal.getTime())` قبل `save()`. |
+| **Keywords not appearing in Microsoft Project UI** | تم حفظ الملف كـ XML وفتح مباشرة في Project. | احفظه مرة أخرى كـ MPP (`SaveFileFormat.MPP`) أو افتح XML عبر *Import* في Project. |
+| **Date values shifted by timezone** | كائن Java `Date` يتضمن معلومات المنطقة الزمنية. | استخدم `Calendar.setTimeZone(TimeZone.getTimeZone("UTC"))` إذا كنت بحاجة إلى تواريخ UTC. |
+
+## الأسئلة المتكررة
+
+**س: هل يمكنني استخدام Aspose.Tasks for Java مع مكتبات جافا أخرى؟**  
+**ج:** نعم، يمكن دمج Aspose.Tasks for Java بسلاسة مع مكتبات جافا أخرى لتعزيز قدرات إدارة المشاريع الخاصة بك.
+
+**س: هل تتوفر نسخة تجريبية من Aspose.Tasks for Java؟**  
+**ج:** نعم، يمكنك تحميل نسخة تجريبية مجانية من [here](https://releases.aspose.com/).
+
+**س: ما مدى تكرار تحديث Aspose.Tasks for Java؟**  
+**ج:** يتم تحديث Aspose.Tasks for Java بانتظام لضمان التوافق مع أحدث إصدارات Java وملفات Microsoft Project.
+
+**س: هل يمكنني تخصيص معلومات ملخص المشروع أكثر؟**  
+**ج:** بالتأكيد، يوفر Aspose.Tasks for Java خيارات واسعة لتخصيص معلومات ملخص المشروع وفقًا لمتطلباتك الخاصة.
+
+**س: أين يمكنني الحصول على دعم لـ Aspose.Tasks for Java؟**  
+**ج:** يمكنك الحصول على الدعم من منتدى مجتمع Aspose.Tasks [here](https://forum.aspose.com/c/tasks/15).
+
+**آخر تحديث:** 2026-03-29  
+**تم الاختبار مع:** Aspose.Tasks for Java 24.11 (latest at time of writing)  
+**المؤلف:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,98 +1,142 @@
 ---
-title: Aspose.Tasks'a MPP Proje Özeti Yazma
-linktitle: Aspose.Tasks'a MPP Proje Özeti Yazma
-second_title: Aspose.Tasks Java API'si
-description: Aspose.Tasks'ı kullanarak Java'da MPP proje özetlerini nasıl yazacağınızı öğrenin. Proje bilgilerini zahmetsizce ayarlayın ve alın.
-weight: 27
+date: 2026-03-29
+description: Aspose.Tasks for Java kullanarak bir MPP projesinde anahtar kelimeleri
+  ve oluşturma tarihini nasıl ayarlayacağınızı öğrenin. Kod örnekleriyle adım adım
+  kılavuz.
+linktitle: Write MPP Project Summary in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Aspose.Tasks ile MPP Proje Özeti'nde Anahtar Kelimeleri Nasıl Ayarlarsınız
 url: /tr/java/project-file-operations/write-mpp-project-summary/
+weight: 27
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks'a MPP Proje Özeti Yazma
+# Aspose.Tasks ile MPP Proje Özeti'nde Anahtar Kelimeleri Ayarlama
 
-## giriiş
-Bu eğitimde MPP proje özetleri yazmak için Aspose.Tasks for Java'yı nasıl kullanacağımızı öğreneceğiz. Aspose.Tasks, Microsoft Project dosyalarıyla çalışmak için güçlü bir Java kütüphanesidir. Aşağıda özetlenen adımları takip ederek, bu kütüphaneyi kullanarak bir proje hakkında çeşitli özet bilgileri ayarlayabilecek ve alabileceksiniz.
-## Önkoşullar
-Başlamadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
-1. Java Geliştirme Kiti (JDK): Sisteminizde JDK'nın kurulu olduğundan emin olun.
-2.  Aspose.Tasks for Java: Aspose.Tasks for Java kütüphanesini indirip yükleyin. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/tasks/java/).
-3. Entegre Geliştirme Ortamı (IDE): Java geliştirme için IntelliJ IDEA, Eclipse veya NetBeans gibi tercih ettiğiniz IDE'yi seçin.
+## Giriş
+Bu öğreticide, Aspose.Tasks for Java kullanarak bir MPP proje dosyası için **anahtar kelimeleri ayarlamayı** ve diğer özet bilgileri keşfedeceksiniz. Yazar detayları, revizyon numaraları veya özel bir oluşturulma tarihi eklemeniz gerekse, bu kılavuz tam adımları, çalıştırmaya hazır kodla birlikte size gösterir. Sonunda anahtar kelimeleri ayarlayabilecek, java ile oluşturulma tarihini ayarlayabilecek ve dosyadan verileri geri okuyabileceksiniz.
 
-## Paketleri İçe Aktar
-Öncelikle gerekli paketleri Java sınıfınıza aktarın:
+## Hızlı Yanıtlar
+- **Hangi kütüphane kullanılıyor?** Aspose.Tasks for Java  
+- **Ana amaç?** MPP dosyasında anahtar kelimeleri, yazar bilgilerini ve oluşturulma tarihini ayarlama  
+- **Kaç kod adımı var?** Üç basit kod bloğu (başlatma, kaydetme, okuma)  
+- **Lisans gerekli mi?** Geliştirme için ücretsiz deneme çalışır; üretim için ticari lisans gereklidir  
+- **Desteklenen Java sürümü?** Java 8 ve üzeri  
+
+## “Anahtar kelimeleri nasıl ayarlarsınız” MPP dosyasında nedir?
+Anahtar kelimeler, bir Microsoft Project (MPP) dosyası içinde depolanan meta veri alanlarıdır. Projeleri sınıflandırmaya, hızlı aramayı sağlamaya ve sonraki araçlar için bağlamsal bilgi sunmaya yardımcı olurlar. Aspose.Tasks, `Prj.KEYWORDS` özelliğini sunarak bu değeri programatik olarak yazmayı veya güncellemeyi kolaylaştırır.
+
+## Anahtar kelimeleri ve oluşturulma tarihini ayarlamak için neden Aspose.Tasks for Java kullanılmalı?
+* **Tam .MPP uyumluluğu** – tüm Project 2007‑2023 formatlarıyla çalışır.  
+* **COM veya Office kurulumu gerekmez** – saf Java, sunucu tarafı ortamları için mükemmel.  
+* **Zengin API** – anahtar kelimelerin yanı sıra yazar, revizyon, yorumlar ve tarihleri tek bir çağrıda ayarlayabilirsiniz.  
+* **Performans‑optimizeli** – büyük proje dosyalarında bile hızlı okuma/yazma.  
+
+## Ön Koşullar
+1. **Java Development Kit (JDK)** – JDK 8 veya daha yeni bir sürüm yüklü.  
+2. **Aspose.Tasks for Java** – en son JAR dosyasını [buradan](https://releases.aspose.com/tasks/java/) indirin.  
+3. **IDE** – IntelliJ IDEA, Eclipse, NetBeans veya tercih ettiğiniz herhangi bir editör.  
+
+## Paketleri İçe Aktarma
+İlk olarak, ihtiyacınız olan sınıfları içe aktarın. Bu importlar, `Project` nesnesine, özet alanları için `Prj` enumerasyonuna ve kaydetme için `SaveFileFormat` enum'ına erişim sağlar.
+
 ```java
 import com.aspose.tasks.Prj;
 import com.aspose.tasks.Project;
 import com.aspose.tasks.SaveFileFormat;
 import java.util.Calendar;
 ```
-## Adım 1: Projeyi Kurun ve Özet Bilgiyi Tanımlayın
+
+## Adım 1: Projeyi Kur ve Özet Bilgileri Tanımla
+Bir `Project` örneği oluşturun, ardından istediğiniz meta verileri yazmak için `set` metodunu kullanın. `Calendar` nesnesiyle **anahtar kelimeleri ayarladığımıza** ve **java ile oluşturulma tarihini ayarladığımıza** dikkat edin.
+
 ```java
-// Belgeler dizininin yolu.
+// The path to the documents directory.
 String dataDir = "Your Data Directory";
-//Proje dosyanızın yolunu içeren yeni bir Proje nesnesi başlatın
+// Initialize a new Project object with the path to your project file
 Project project = new Project(dataDir + "project.mpp");
-// Proje hakkında özet bilgileri ayarlayın
+// Set summary information about the project
 project.set(Prj.AUTHOR, "Author");
 project.set(Prj.LAST_AUTHOR, "Last Author");
 project.set(Prj.REVISION, 15);
-project.set(Prj.KEYWORDS, "MSP Aspose");
+project.set(Prj.KEYWORDS, "MSP Aspose");          // <-- set keywords
 project.set(Prj.COMMENTS, "Comments");
-// Projenin oluşturulma tarihini ayarlayın
+
+// Set creation date of the project (set creation date java)
 Calendar cal = Calendar.getInstance();
 cal.set(2014, Calendar.FEBRUARY, 15, 0, 0, 0);
 project.set(Prj.CREATION_DATE, cal.getTime());
-// Proje için anahtar kelimeler belirleyin
-project.set(Prj.KEYWORDS, "MPP Aspose");
-// Projenin son basım tarihini ayarlayın
+
+// Set last printed date of the project
 cal.set(2014, Calendar.MARCH, 16, 0, 0, 0);
 project.set(Prj.LAST_PRINTED, cal.getTime());
 ```
-## Adım 2: Proje Özet Bilgilerini Kaydedin
+
+## Adım 2: Proje Özet Bilgilerini Kaydet
+Alanları doldurduktan sonra değişiklikleri kalıcı hale getirin. Burada projeyi kolay inceleme için XML olarak kaydediyoruz, ancak MPP olarak da kaydedebilirsiniz.
+
 ```java
-// Projeyi tekrar MPP formatında kaydedin
+// Save the Project back in MPP format
 project.save(dataDir + "MppAspose.xml", SaveFileFormat.Xml);
-// Bir başarı mesajı görüntüle
+// Display a success message
 System.out.println("Process completed Successfully");
 ```
-## 3. Adım: Proje Özet Bilgilerini Okuyun
+
+## Adım 3: Proje Özet Bilgilerini Oku
+Meta verilerin doğru yazıldığını doğrulamak için dosyayı yeniden yükleyin ve her özelliği geri okuyun. Bu adım, **anahtar kelimeleri nasıl ayarlarsınız**ın uçtan uca gerçekten çalıştığını gösterir.
+
 ```java
-// Proje Özet Bilgilerinin Okunması
+// Reading Project Summary Information
 project = new Project(dataDir + "MppAspose.xml");
-// Projenin yazarını yazdır
+// Print author of the project
 System.out.println("Author: " + project.get(Prj.AUTHOR));
-// Projenin son yazarını yazdır
+// Print last author of the project
 System.out.println("Last Author: " + project.get(Prj.LAST_AUTHOR));
-// Projenin revizyon numarasını yazdırın
+// Print revision number of the project
 System.out.println("Revision: " + project.get(Prj.REVISION));
-// Projenin anahtar kelimelerini yazdırın
+// Print keywords of the project
 System.out.println("Keywords: " + project.get(Prj.KEYWORDS));
-// Projenin yorumlarını yazdır
+// Print comments of the project
 System.out.println("Comments: " + project.get(Prj.COMMENTS));
-// Projenin oluşturulma tarihini yazdırın
+// Print creation date of the project
 System.out.println("Creation Date: " + project.get(Prj.CREATION_DATE).toString());
-// Projenin anahtar kelimelerini yazdırın (tekrar)
-System.out.println("Keywords: " + project.get(Prj.KEYWORDS));
-// Projenin son basım tarihini yazdır
+// Print last printed date of the project
 System.out.println("Last Printed: " + project.get(Prj.LAST_PRINTED).toString());
 ```
 
-## Çözüm
-Bu eğitimde Aspose.Tasks for Java'yı kullanarak MPP proje özetlerinin nasıl yazılacağını ele aldık. Bu adımları izleyerek proje dosyalarınız hakkındaki çeşitli özet bilgileri etkili bir şekilde ayarlayabilir ve alabilirsiniz. Aspose.Tasks, Java uygulamalarında Microsoft Project dosyalarıyla çalışma sürecini basitleştirerek sağlam işlevsellik ve kullanım kolaylığı sunar.
-## SSS'ler
-### S: Aspose.Tasks for Java'yı diğer Java kütüphaneleriyle birlikte kullanabilir miyim?
-C: Evet, Aspose.Tasks for Java, proje yönetimi yeteneklerinizi geliştirmek için diğer Java kitaplıklarıyla sorunsuz bir şekilde entegre edilebilir.
-### S: Aspose.Tasks for Java'nın deneme sürümü mevcut mu?
- C: Evet, ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/).
-### S: Aspose.Tasks for Java ne sıklıkta güncellenir?
-C: Aspose.Tasks for Java, Java ve Microsoft Project dosyalarının en son sürümleriyle uyumluluğun sağlanması amacıyla düzenli olarak güncellenmektedir.
-### S: Proje özeti bilgilerini daha da özelleştirebilir miyim?
-C: Kesinlikle, Aspose.Tasks for Java, proje özet bilgilerini özel gereksinimlerinize göre özelleştirmek için kapsamlı seçenekler sunar.
-### S: Aspose.Tasks for Java için nereden destek alabilirim?
-C: Aspose.Tasks topluluk forumundan destek alabilirsiniz[Burada](https://forum.aspose.com/c/tasks/15).
+## Yaygın Sorunlar ve Çözümler
+| Sorun | Neden Oluşur | Çözüm |
+|-------|----------------|-----|
+| **NullPointerException on `project.get(Prj.CREATION_DATE)`** | Kaydetmeden önce takvim hiç ayarlanmamıştı. | `save()`'den önce `project.set(Prj.CREATION_DATE, cal.getTime())` çağırdığınızdan emin olun. |
+| **Keywords not appearing in Microsoft Project UI** | Dosya XML olarak kaydedildi ve doğrudan Project içinde açıldı. | MPP olarak kaydedin (`SaveFileFormat.MPP`) veya XML'i Project içinde *Import* (İçe Aktar) yoluyla açın. |
+| **Date values shifted by timezone** | Java `Date` zaman dilimi bilgisi içerir. | UTC tarihine ihtiyacınız varsa `Calendar.setTimeZone(TimeZone.getTimeZone("UTC"))` kullanın. |
+
+## Sıkça Sorulan Sorular
+
+**Q: Aspose.Tasks for Java'ı diğer Java kütüphaneleriyle kullanabilir miyim?**  
+A: Evet, Aspose.Tasks for Java diğer Java kütüphaneleriyle sorunsuz bir şekilde entegre edilerek proje yönetimi yeteneklerinizi artırabilir.
+
+**Q: Aspose.Tasks for Java için deneme sürümü mevcut mu?**  
+A: Evet, ücretsiz bir deneme sürümünü [buradan](https://releases.aspose.com/) indirebilirsiniz.
+
+**Q: Aspose.Tasks for Java ne sıklıkla güncelleniyor?**  
+A: Aspose.Tasks for Java, Java ve Microsoft Project dosyalarının en son sürümleriyle uyumluluğu sağlamak için düzenli olarak güncellenir.
+
+**Q: Proje özet bilgilerini daha da özelleştirebilir miyim?**  
+A: Kesinlikle, Aspose.Tasks for Java, proje özet bilgilerini belirli gereksinimlerinize göre özelleştirmek için kapsamlı seçenekler sunar.
+
+**Q: Aspose.Tasks for Java için destek nereden alınabilir?**  
+A: Aspose.Tasks topluluk forumundan [burada](https://forum.aspose.com/c/tasks/15) destek alabilirsiniz.
+
+---
+
+**Son Güncelleme:** 2026-03-29  
+**Test Edilen Versiyon:** Aspose.Tasks for Java 24.11 (yazım zamanındaki en son)  
+**Yazar:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

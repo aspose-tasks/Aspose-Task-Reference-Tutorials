@@ -1,12 +1,11 @@
 ---
-date: 2025-12-21
-description: Aspose.Tasks for Java kullanarak Gantt şeması görünümlerini özelleştirmeyi,
-  proje görselleştirmesini yönetmeyi ve projeyi PDF olarak kaydetmeyi öğrenin. Zaman
-  ölçeği sayısını zahmetsizce ayarlayın.
+date: 2026-03-29
+description: Aspose.Tasks for Java kullanarak Gantt şeması zaman ölçeği sayısını özelleştirirken
+  proje PDF dosyaları oluşturmayı öğrenin. Bu rehber, Gantt'ı tam kontrolle PDF'ye
+  nasıl dışa aktaracağınızı adım adım gösterir.
 linktitle: Set Time Scale Count in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: Gantt Şemasını Özelleştir – Aspose.Tasks'te MS Project Zaman Ölçeği Sayısını
-  Ustalıkla Kullanma
+title: Proje PDF Oluştur – Gantt Çizelgesi Zaman Ölçeğini Özelleştir
 url: /tr/java/project-file-operations/set-time-scale-count/
 weight: 22
 ---
@@ -15,30 +14,35 @@ weight: 22
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Gantt Şemasını Özelleştirme – Aspose.Tasks ile MS Project Zaman Ölçeği Sayısını Ustalıkla Kullanma
+# Proje PDF Oluştur – Gantt Şeması Zaman Ölçeğini Özelleştir
 
 ## Giriş
-Microsoft Project'te **Gantt şemasını özelleştirme** görsellerine ihtiyaç duyuyorsanız, zaman‑ölçeği sayısını kontrol etmek temel bir tekniktir. Aspose.Tasks for Java ile alt ve orta zaman‑ölçeği katmanlarını programlı olarak ayarlayabilir, tik görünürlüğünü ince ayar yapabilir ve ardından **projeyi PDF olarak kaydedebilir** ve paydaşlarla paylaşabilirsiniz. Bu öğretici, ortamı kurmaktan özelleştirilmiş Gantt görünümünüzü yansıtan şık bir PDF oluşturulana kadar tüm süreci adım adım anlatır.
+Eğer **proje PDF oluştur** dosyalarına ihtiyacınız varsa ve mükemmel ayarlanmış bir Gantt şemasını yansıtıyorsa, zaman‑ölçeği sayısını kontrol etmek anahtardır. Aspose.Tasks for Java ile alt ve orta zaman‑ölçeği katmanlarını programlı olarak ayarlayabilir, işaretçileri gizleyebilir ve ardından **projeyi PDF olarak kaydedebilir** ve kolay dağıtım sağlayabilirsiniz. Bu öğreticide, geliştirme ortamını kurmaktan özelleştirilmiş Gantt görünümünüzü sergileyen cilalı bir PDF üretmeye kadar ihtiyacınız olan her şeyi adım adım göstereceğiz.
 
 ## Hızlı Yanıtlar
-- **“Gantt şemasını özelleştirmek” ne anlama geliyor?** Raporlama ihtiyaçlarınıza uygun zaman‑ölçeği katmanlarını, renkleri ve düzeni ayarlamak.  
-- **Alt katman sayısını ayarlayan API metodu hangisidir?** `view.getBottomTimescaleTier().setCount(int)`.  
-- **Projeden doğrudan PDF oluşturabilir miyim?** Evet—`project.save(..., SaveFileFormat.Pdf)` kullanın.  
-- **Üretim kullanımında lisansa ihtiyacım var mı?** Ticari bir lisans gereklidir; ücretsiz bir deneme sürümü mevcuttur.  
-- **Hangi Java sürümü destekleniyor?** Java 8 ve üzeri, en yeni Aspose.Tasks kütüphanesiyle çalışır.
+- **“customize Gantt chart” ne anlama geliyor?** Zaman ölçeği katmanlarını, renkleri ve düzeni raporlama ihtiyaçlarınıza göre ayarlamak.  
+- **Alt katman sayısını ayarlayan API yöntemi hangisidir?** `view.getBottomTimescaleTier().setCount(int)`.  
+- **Projeden doğrudan bir PDF oluşturabilir miyim?** Evet—`project.save(..., SaveFileFormat.Pdf)` kullanın.  
+- **Üretim kullanımında lisansa ihtiyacım var mı?** Ticari bir lisans gereklidir; ücretsiz deneme sürümü mevcuttur.  
+- **Hangi Java sürümü destekleniyor?** Java 8 ve üzeri, en son Aspose.Tasks kütüphanesiyle çalışır.
 
-## Aspose.Tasks'de “Gantt şemasını özelleştirme” nedir?
-Gantt şemasını özelleştirmek, zaman‑ölçeği aralıkları, tik işaretleri ve görev çubukları gibi görsel bileşenleri programlı olarak değiştirerek şemanın **proje görselleştirmesini yönetme** biçiminize uymasını sağlamaktır. Zaman‑ölçeği sayısını değiştirerek, her segmentin kaç gün, hafta veya ay temsil ettiğini kontrol eder, böylece farklı izleyiciler için şema daha anlaşılır hâle gelir.
+## Aspose.Tasks'te “customize Gantt chart” nedir?
+Gantt şemasını özelleştirmek, zaman‑ölçeği aralıkları, işaretçiler ve görev çubukları gibi görsel bileşenlerini programlı olarak değiştirmek anlamına gelir; böylece şema, **proje görselleştirmesini yönetmek** istediğiniz şekilde hizalanır. Zaman‑ölçeği sayısını değiştirerek, her segmentin kaç gün, hafta veya ay temsil ettiğini kontrol eder ve şemayı farklı izleyiciler için daha anlaşılır hâle getirirsiniz.
 
-## Önkoşullar
-Başlamadan önce şunların olduğundan emin olun:
+## Neden özelleştirilmiş bir Gantt şemasıyla proje PDF oluşturmalısınız?
+- **Paydaş‑hazır çıktısı:** PDF evrensel olarak görüntülenebilir, herkesin aynı zaman çizelgesi düzenini görmesini sağlar.  
+- **Yazdırma‑dostu:** Zaman‑ölçeği katmanları üzerinde hassas kontrol, kalabalık veya belirsiz çıktıları önler.  
+- **Otomasyon:** PDF oluşturmayı CI boru hatlarına veya raporlama hizmetlerine entegre ederek sıfır manuel çaba gerektirir.  
 
-1. **Java Geliştirme Ortamı** – JDK 8 veya daha yeni bir sürüm yüklü.  
+## Ön Koşullar
+Başlamadan önce şunların kurulu olduğundan emin olun:
+
+1. **Java Geliştirme Ortamı** – JDK 8 ve üzeri yüklü.  
 2. **Aspose.Tasks for Java Kütüphanesi** – [buradan](https://releases.aspose.com/tasks/java/) indirin.  
 3. **Temel Java Bilgisi** – Java sözdizimi ve nesne‑yönelimli kavramlara aşina olmak.
 
-## Paketleri İçe Aktarma
-Java projenize gerekli sınıfları ekleyin:
+## Paketleri İçe Aktar
+Java projenize gerekli sınıfları içe aktarın:
 
 ```java
 import com.aspose.tasks.GanttChartView;
@@ -52,13 +56,13 @@ import com.aspose.tasks.Tsk;
 ## Adım‑Adım Kılavuz
 
 ### Adım 1: Veri Dizinini Ayarla
-Proje dosyalarınızın okunup yazılacağı yeri tanımlayın:
+Proje dosyalarınızın okunacağı ve yazılacağı yeri tanımlayın:
 
 ```java
 String dataDir = "Your Data Directory";
 ```
 
-`"Your Data Directory"` kısmını makinenizdeki mutlak yol ile değiştirin.
+`"Your Data Directory"` ifadesini makinenizdeki mutlak yol ile değiştirin.
 
 ### Adım 2: Yeni Bir Proje Örneği Oluştur
 Tüm görevleri ve görünüm ayarlarını tutacak yeni bir `Project` nesnesi oluşturun:
@@ -68,14 +72,14 @@ Project project = new Project();
 ```
 
 ### Adım 3: Gantt Şeması Görünümünü Yapılandır
-Bir `GanttChartView` nesnesi oluşturun—bu, şema görünümünü kontrol etmek için **Gantt view Java** kodu oluşturacağınız yerdir:
+Bir `GanttChartView` nesnesi oluşturun—bu, şema görünümünü kontrol etmek için **generate Gantt view Java** kodunu yazacağınız yerdir:
 
 ```java
 GanttChartView view = new GanttChartView();
 ```
 
 ### Adım 4: Alt Katman İçin Zaman Ölçeği Sayısını Ayarla
-Alt katmanı iki aralık gösterecek şekilde ayarlayın ve tik işaretlerini gizleyin:
+Alt katmanı iki aralık gösterecek şekilde ayarlayın ve işaretçileri gizleyin:
 
 ```java
 view.getBottomTimescaleTier().setCount(2);
@@ -108,46 +112,46 @@ task2.set(Tsk.DURATION, task1.getParentProject().getDuration(40, TimeUnitType.Ho
 ```
 
 ### Adım 8: Projeyi PDF Olarak Kaydet
-Son olarak, **özelleştirilmiş Gantt şemanız** dahil proje dosyasını bir PDF dosyasına dışa aktarın:
+Son olarak, **özelleştirilmiş Gantt şeması** dahil projenizi bir PDF dosyasına dışa aktarın:
 
 ```java
 project.save(dataDir + "temp.pdf", SaveFileFormat.Pdf);
 ```
 
-Ortaya çıkan PDF, alt ve orta zaman‑ölçeği katmanlarının **özelleştirildiğini** gösterir ve paydaşlara takvimin net, yazdırılabilir bir görünümünü sunar.
+Ortaya çıkan PDF, alt ve orta zaman‑ölçeği katmanlarının nasıl **özelleştirildiğini** gösterir ve paydaşlara net, yazdırılabilir bir takvim görünümü sunar.
 
-## Yaygın Sorunlar ve Çözümleme
+## Yaygın Sorunlar ve Sorun Giderme
 - **PDF boş** – `dataDir` yolunun bir dosya ayırıcı (`/` veya `\`) ile bittiğinden ve dizinin mevcut olduğundan emin olun.  
-- **Tikler hâlâ görünüyor** – `setShowTicks(false)` metodunun her iki katmanda da çağrıldığını doğrulayın.  
-- **Süre uygulanmadı** – Süre oluştururken `TimeUnitType.Hour` (veya uygun birim) kullandığınızı teyit edin.
+- **İşaretçiler hâlâ görünüyor** – `setShowTicks(false)` metodunun her iki katmanda da çağrıldığını doğrulayın.  
+- **Süre uygulanmadı** – Süre oluştururken `TimeUnitType.Hour` (veya uygun bir birim) kullandığınızı doğrulayın.
 
-## Sık Sorulan Sorular
+## Sıkça Sorulan Sorular
 
-**S: Aspose.Tasks for Java büyük ölçekli proje dosyalarını işleyebilir mi?**  
-C: Evet, kütüphane geniş proje verilerini yüksek performansla işlemek için optimize edilmiştir.
+**Q: Aspose.Tasks for Java büyük ölçekli proje dosyalarını işleyebilir mi?**  
+A: Evet, kütüphane geniş proje verilerinin yüksek performanslı işlenmesi için optimize edilmiştir.
 
-**S: Aspose.Tasks for Java farklı Java IDE'leriyle uyumlu mu?**  
-C: Kesinlikle – Eclipse, IntelliJ IDEA, NetBeans ve diğer popüler IDE'lerle sorunsuz çalışır.
+**Q: Aspose.Tasks for Java farklı Java IDE'leriyle uyumlu mu?**  
+A: Kesinlikle – Eclipse, IntelliJ IDEA, NetBeans ve diğer popüler IDE'lerle sorunsuz çalışır.
 
-**S: Zaman‑ölçeği ayarlarının ötesinde Gantt şemalarının görünümünü özelleştirebilir miyim?**  
-C: Evet, Aspose.Tasks çubuk renkleri, yazı tipleri ve ızgara çizgileri gibi kapsamlı stil seçenekleri sunar.
+**Q: Zaman ölçeği ayarlarının ötesinde Gantt şemalarının görünümünü özelleştirebilir miyim?**  
+A: Evet, Aspose.Tasks çubuk renkleri, yazı tipleri ve ızgara çizgileri gibi kapsamlı stil seçenekleri sunar.
 
-**S: Aspose.Tasks for Java için bir deneme sürümü var mı?**  
-C: Evet, ücretsiz bir deneme sürümünü [buradan](https://releases.aspose.com/) alabilirsiniz.
+**Q: Aspose.Tasks for Java için bir deneme sürümü mevcut mu?**  
+A: Evet, ücretsiz deneme sürümünü [buradan](https://releases.aspose.com/) edinebilirsiniz.
 
-**S: Aspose.Tasks for Java desteğini nereden alabilirim?**  
-C: Destek ve yardım için Aspose.Tasks forumunu [burada](https://forum.aspose.com/c/tasks/15) bulabilirsiniz.
+**Q: Aspose.Tasks for Java için destek nereden alınabilir?**  
+A: Destek ve yardımı Aspose.Tasks forumunda [buradan](https://forum.aspose.com/c/tasks/15) bulabilirsiniz.
 
-**S: Gantt şemasının arka plan rengini programlı olarak nasıl değiştiririm?**  
-C: `java.awt.Color` sınıfını içe aktardıktan sonra `view.getGanttChartProperties().setBackgroundColor(Color)` metodunu kullanın.
+**Q: Gantt şemasının arka plan rengini programlı olarak nasıl değiştiririm?**  
+A: `java.awt.Color` sınıfını içe aktardıktan sonra `view.getGanttChartProperties().setBackgroundColor(Color)` metodunu kullanın.
 
 ## Sonuç
-Bu adımları izleyerek **Gantt şemasını özelleştirme** zaman‑ölçeği katmanlarını nasıl ayarlayacağınızı, **proje görselleştirmesini** nasıl iyileştireceğinizi ve Aspose.Tasks for Java kullanarak **projeyi PDF olarak kaydetme** işlemini öğrendiniz. Bu yöntem, görsel çıktınız üzerinde tam kontrol sağlar ve ekibinizle veya müşterilerinizle net, profesyonel takvimleri paylaşmayı kolaylaştırır.
+Bu adımları izleyerek, Aspose.Tasks for Java kullanarak tamamen özelleştirilmiş bir Gantt şeması zaman ölçeğiyle **proje PDF oluştur** dosyalarını nasıl oluşturacağınızı, **proje görselleştirmesini** geliştireceğinizi ve **projeyi PDF olarak kaydet** öğreneceksiniz. Bu yaklaşım, görsel çıktının tam kontrolünü size verir ve ekibinizle ya da müşterilerinizle net, profesyonel takvimleri paylaşmayı kolaylaştırır.
 
 ---
 
-**Son Güncelleme:** 2025-12-21  
-**Test Edilen Versiyon:** Aspose.Tasks for Java 24.12 (yazım anındaki en yeni sürüm)  
+**Son Güncelleme:** 2026-03-29  
+**Test Edilen Versiyon:** Aspose.Tasks for Java (latest)  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

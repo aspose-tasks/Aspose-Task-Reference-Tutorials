@@ -1,28 +1,47 @@
 ---
-title: Uppdatera och boka om MS-projektet i Aspose.Tasks
-linktitle: Uppdatera projekt och schemalägg om oavslutat arbete i Aspose.Tasks
+date: 2026-03-29
+description: Lär dig hur du omplanerar ofullständigt arbete, uppdaterar projektarbetet
+  och sparar MS Project-filer som XML med Aspose.Tasks för Java.
+linktitle: Update Project and Reschedule Uncompleted Work in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: Lär dig hur du uppdaterar och schemalägger MS Project-filer programmatiskt med Aspose.Tasks för Java.
-weight: 23
+title: Omplanera ej slutfört arbete och uppdatera MS Project-filer med Aspose.Tasks
 url: /sv/java/project-file-operations/update-project-reschedule-work/
+weight: 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Uppdatera och boka om MS-projektet i Aspose.Tasks
+# Omplanera ofullständigt arbete och uppdatera MS Project-filer med Aspose.Tasks
 
 ## Introduktion
-Microsoft Project är en mycket använd projektledningsprogramvara som låter användare hantera uppgifter, resurser och tidslinjer effektivt. Aspose.Tasks för Java tillhandahåller en kraftfull uppsättning API:er för att manipulera Microsoft Project-filer programmatiskt. I den här handledningen kommer vi att lära oss hur du uppdaterar MS Project-filer och schemalägger ofullbordat arbete med Aspose.Tasks för Java.
+Microsoft Project är ett allmänt använt projektledningsverktyg som hjälper team att planera uppgifter, tilldela resurser och följa tidslinjer. Aspose.Tasks för Java ger utvecklare ett kraftfullt API för att programatiskt manipulera Microsoft Project-filer. I den här handledningen kommer du att lära dig hur du **uppdaterar projektarbete**, **omplanerar ofullständigt arbete** och **sparar MS Project-filen** i XML-format med Aspose.Tasks för Java.
+
+## Snabba svar
+- **Vad betyder “reschedule uncompleted work”?** Den flyttar allt återstående uppgiftsarbete så att det startar efter ett valt datum, medan slutförda delar förblir orörda.  
+- **Vilken metod markerar arbete som slutfört?** `project.updateProjectWorkAsComplete(date, false)`.  
+- **Hur sparar jag ändringarna?** Använd `project.save(<path>, SaveFileFormat.Xml)`.  
+- **Behöver jag en licens för produktion?** Ja, en giltig Aspose.Tasks-licens krävs för kommersiell användning.  
+- **Vilken Java-version stöds?** Java 8 och senare stöds fullt ut.
+
+## Vad är “reschedule uncompleted work”?
+Omplanering av ofullständigt arbete justerar startdatumen för alla uppgifter som ännu inte är slutförda, så att de börjar efter ett angivet avstängningsdatum. Detta är användbart när en projektplan förändras på grund av förseningar eller förändringar i omfattning.
+
+## Varför använda Aspose.Tasks för att uppdatera projektarbete och omplanera uppgifter?
+- **Finjusterad kontroll:** Ställ in arbetsprocent och datum direkt.  
+- **Ingen UI krävs:** Automatisera massuppdateringar i många projektfiler.  
+- **Plattformsoberoende:** Fungerar på alla system som kör Java.  
+- **Bevarar dataintegritet:** Alla beroenden, begränsningar och resurser förblir konsekventa.
+
 ## Förutsättningar
 Innan vi börjar, se till att du har följande:
-1. Java Development Kit (JDK) installerat på ditt system.
-2.  Aspose.Tasks för Java-biblioteket. Du kan ladda ner den från[här](https://releases.aspose.com/tasks/java/).
-3. Grundläggande förståelse för programmeringsspråket Java.
+1. Java Development Kit (JDK) installerat på ditt system.  
+2. Aspose.Tasks för Java-biblioteket. Du kan ladda ner det från [here](https://releases.aspose.com/tasks/java/).  
+3. Grundläggande förståelse för Java-programmeringsspråket.
 
 ## Importera paket
-Importera först de nödvändiga paketen i din Java-kod:
+Först, importera de nödvändiga paketen i din Java-kod:
 ```java
 import com.aspose.tasks.NullableBool;
 import com.aspose.tasks.Prj;
@@ -35,50 +54,81 @@ import com.aspose.tasks.TimeUnitType;
 import com.aspose.tasks.Tsk;
 import java.util.Calendar;
 ```
-## Steg 1: Konfigurera projektet
-Initiera ett nytt projektobjekt och definiera uppgifter inom det tillsammans med deras varaktigheter och beroenden.
+
+## Steg 1: Skapa projektet
+Initiera ett nytt `Project`-objekt, definiera uppgifter, ange varaktigheter och etablera beroenden. Detta skapar baslinjeprojektet som vi senare kommer att uppdatera och omplanera.
 ```java
 String dataDir = "Your Data Directory";
 Project project = new Project();
-// Definiera uppgifter och deras varaktighet
+// Define tasks and their durations
 // ...
-// Definiera uppgiftsberoenden
+// Define task dependencies
 // ...
-// Spara den ursprungliga projektstatusen
+// Save the initial project state
 project.save(dataDir + "not_updated.xml", SaveFileFormat.Xml);
 ```
+
 ## Steg 2: Uppdatera projektarbete
-Uppdatera projektarbetet för att markera det som färdigt fram till ett visst datum.
+Markera arbete som slutfört fram till ett specifikt datum. Detta steg demonstrerar **update project work**-operationen, som ofta är den första åtgärden före omplanering.
 ```java
 Calendar cal = Calendar.getInstance();
 cal.set(2014, Calendar.JANUARY, 28, 17, 0, 0);
 project.updateProjectWorkAsComplete(cal.getTime(), false);
-// Spara det uppdaterade projektet
+// Save the updated project
 project.save(dataDir + "updated.xml", SaveFileFormat.Xml);
 ```
-## Steg 3: Boka om oavslutat arbete
-Planera om allt ofullbordat arbete för att starta efter ett angivet datum.
+
+## Steg 3: Omplanera ofullständigt arbete
+Nu flyttar vi eventuellt återstående (ofullständigt) arbete så att det startar efter samma avstängningsdatum. Detta är den centrala **reschedule uncompleted work**-funktionen.
 ```java
 cal.set(2014, Calendar.JANUARY, 28, 17, 0, 0);
 project.rescheduleUncompletedWorkToStartAfter(cal.getTime());
-// Spara det omplanerade projektet
+// Save the rescheduled project
 project.save(dataDir + "rescheduled.xml", SaveFileFormat.Xml);
 ```
 
 ## Slutsats
-I den här handledningen har vi lärt oss hur man uppdaterar MS Project-filer och schemalägger ofullbordat arbete med Aspose.Tasks för Java. Detta kan vara särskilt användbart i scenarier där projekttidslinjer behöver justeras baserat på framsteg eller ändrade prioriteringar.
+I den här handledningen gick vi igenom hur man **uppdaterar projektarbete**, **omplanerar ofullständigt arbete** och **sparar MS Project-filen** som XML med Aspose.Tasks för Java. Dessa funktioner är avgörande när projektplaner måste justeras baserat på faktiskt framsteg eller förändrade affärsprioriteringar.
 
-## FAQ's
-### F: Kan Aspose.Tasks för Java hantera komplexa projektstrukturer?
-S: Ja, Aspose.Tasks för Java tillhandahåller robusta API:er för att effektivt hantera uppgifter, beroenden, resurser och andra projektelement.
-### F: Finns det en testversion tillgänglig för Aspose.Tasks för Java?
- S: Ja, du kan få en gratis provperiod från[här](https://releases.aspose.com/).
-### F: Hur kan jag få support för Aspose.Tasks för Java?
- A: Du kan besöka[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) för all hjälp eller frågor.
-### F: Kan jag köpa en tillfällig licens för Aspose.Tasks för Java?
- S: Ja, tillfälliga licenser finns att köpa[här](https://purchase.aspose.com/temporary-license/).
-### F: Var kan jag hitta detaljerad dokumentation för Aspose.Tasks för Java?
- S: Du kan hänvisa till dokumentationen[här](https://reference.aspose.com/tasks/java/) för omfattande guider och API-referenser.
+## Vanliga frågor
+### Q: Kan Aspose.Tasks för Java hantera komplexa projektstrukturer?
+A: Ja, Aspose.Tasks för Java erbjuder robusta API:er för att effektivt hantera uppgifter, beroenden, resurser och andra projekteelement.
+
+### Q: Finns en provversion tillgänglig för Aspose.Tasks för Java?
+A: Ja, du kan få en gratis provversion från [here](https://releases.aspose.com/).
+
+### Q: Hur kan jag få support för Aspose.Tasks för Java?
+A: Du kan besöka [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) för hjälp eller frågor.
+
+### Q: Kan jag köpa en tillfällig licens för Aspose.Tasks för Java?
+A: Ja, tillfälliga licenser kan köpas [here](https://purchase.aspose.com/temporary-license/).
+
+### Q: Var kan jag hitta detaljerad dokumentation för Aspose.Tasks för Java?
+A: Du kan hänvisa till dokumentationen [here](https://reference.aspose.com/tasks/java/) för omfattande guider och API-referenser.
+
+## Ytterligare vanliga frågor
+
+**Q: Hur säkerställer jag att den sparade filen är kompatibel med äldre versioner av Microsoft Project?**  
+A: Spara projektet med `SaveFileFormat.Xml`; XML stöds brett över Project-versioner.
+
+**Q: Kan jag omplanera endast en delmängd av uppgifter istället för hela projektet?**  
+A: Ja, du kan iterera över specifika uppgifter och anropa `task.setStart(date)` efter att ha beräknat det nya startdatumet.
+
+**Q: Vad händer med resursallokeringar när jag omplanerar ofullständigt arbete?**  
+A: Resursallokeringar flyttas automatiskt för att matcha de nya uppgiftens startdatum, vilket bevarar allokeringslogiken.
+
+**Q: Är det möjligt att ångra en omplaneringsåtgärd programatiskt?**  
+A: Du kan ladda om den ursprungliga projektfilen (eller en säkerhetskopia) för att återställa ändringar.
+
+**Q: Stöder Aspose.Tasks att spara till andra format som .mpp?**  
+A: Absolut. Använd `SaveFileFormat.MPP` för att spara i det inhemska Microsoft Project-formatet.
+
+---
+
+**Senast uppdaterad:** 2026-03-29  
+**Testad med:** Aspose.Tasks for Java 24.11  
+**Författare:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

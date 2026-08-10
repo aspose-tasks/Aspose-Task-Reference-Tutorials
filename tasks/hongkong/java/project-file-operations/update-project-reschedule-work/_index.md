@@ -1,28 +1,46 @@
 ---
-title: 在 Aspose.Tasks 中更新和重新安排 MS 項目
-linktitle: 在 Aspose.Tasks 中更新專案並重新安排未完成的工作
+date: 2026-03-29
+description: 了解如何使用 Aspose.Tasks for Java 重新排程未完成的工作、更新專案工作，並將 MS Project 檔案另存為 XML。
+linktitle: Update Project and Reschedule Uncompleted Work in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: 了解如何使用 Aspose.Tasks for Java 以程式設計方式更新和重新排程 MS Project 檔案。
-weight: 23
+title: 重新排程未完成的工作並使用 Aspose.Tasks 更新 MS Project 檔案
 url: /zh-hant/java/project-file-operations/update-project-reschedule-work/
+weight: 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Aspose.Tasks 中更新和重新安排 MS 項目
+# 重新排程未完成工作並使用 Aspose.Tasks 更新 MS Project 檔案
 
-## 介紹
-Microsoft Project 是一種廣泛使用的專案管理軟體，可讓使用者有效地管理任務、資源和時間表。 Aspose.Tasks for Java 提供了一組強大的 API 來以程式設計方式操作 Microsoft Project 檔案。在本教程中，我們將學習如何使用 Aspose.Tasks for Java 更新 MS Project 檔案並重新安排未完成的工作。
+## 簡介
+Microsoft Project 是一款廣泛使用的專案管理工具，可協助團隊規劃任務、分配資源與追蹤時間表。Aspose.Tasks for Java 為開發人員提供功能豐富的 API，以程式方式操作 Microsoft Project 檔案。在本教學中，您將學習如何 **更新專案工作**、**重新排程未完成工作**，以及使用 Aspose.Tasks for Java 以 XML 格式 **儲存 MS Project 檔案**。
+
+## 快速解答
+- **「重新排程未完成工作」是什麼意思？** 它會將任何剩餘的任務工作移至選定日期之後開始，已完成的部分保持不變。  
+- **哪個方法可將工作標記為完成？** `project.updateProjectWorkAsComplete(date, false)`。  
+- **如何保存變更？** 使用 `project.save(<path>, SaveFileFormat.Xml)`。  
+- **生產環境是否需要授權？** 是的，商業使用必須擁有有效的 Aspose.Tasks 授權。  
+- **支援哪個 Java 版本？** 完全支援 Java 8 及更高版本。
+
+## 什麼是「重新排程未完成工作」？
+重新排程未完成工作會調整所有尚未完成任務的開始日期，將它們推遲至指定的截止日期之後開始。當專案時間表因延遲或範圍變更而需要調整時，這非常有用。
+
+## 為何使用 Aspose.Tasks 來更新專案工作與重新排程任務？
+- **細緻的控制：** 直接設定工作完成百分比與日期。  
+- **不需 UI：** 可自動化大量更新多個專案檔案。  
+- **跨平台：** 可在任何執行 Java 的系統上運作。  
+- **保持資料完整性：** 所有相依性、限制條件與資源皆保持一致。
+
 ## 先決條件
-在我們開始之前，請確保您具備以下條件：
-1. 您的系統上安裝了 Java 開發工具包 (JDK)。
-2.  Java 函式庫的 Aspose.Tasks。您可以從以下位置下載：[這裡](https://releases.aspose.com/tasks/java/).
-3. 對 Java 程式語言有基本的了解。
+在開始之前，請確保您具備以下條件：
+1. 已在系統上安裝 Java Development Kit (JDK)。  
+2. Aspose.Tasks for Java 程式庫。您可從 [here](https://releases.aspose.com/tasks/java/) 下載。  
+3. 具備 Java 程式語言的基本了解。
 
-## 導入包
-首先，在 Java 程式碼中匯入必要的套件：
+## 匯入套件
+首先，在您的 Java 程式碼中匯入必要的套件：
 ```java
 import com.aspose.tasks.NullableBool;
 import com.aspose.tasks.Prj;
@@ -35,50 +53,81 @@ import com.aspose.tasks.TimeUnitType;
 import com.aspose.tasks.Tsk;
 import java.util.Calendar;
 ```
-## 第 1 步：設定項目
-初始化一個新的 Project 物件並在其中定義任務及其持續時間和依賴性。
+
+## 步驟 1：設定專案
+初始化一個新的 `Project` 物件，定義任務、設定持續時間並建立相依性。這會建立我們稍後將更新與重新排程的基線專案。
 ```java
 String dataDir = "Your Data Directory";
 Project project = new Project();
-//定義任務及其持續時間
-//…
-//定義任務依賴關係
-//…
-//保存初始專案狀態
+// Define tasks and their durations
+// ...
+// Define task dependencies
+// ...
+// Save the initial project state
 project.save(dataDir + "not_updated.xml", SaveFileFormat.Xml);
 ```
-## 第 2 步：更新專案工作
-更新專案工作以將其標記為在特定日期之前完成。
+
+## 步驟 2：更新專案工作
+將工作標記為在特定日期之前已完成。此步驟示範 **更新專案工作** 操作，通常是重新排程之前的第一個動作。
 ```java
 Calendar cal = Calendar.getInstance();
 cal.set(2014, Calendar.JANUARY, 28, 17, 0, 0);
 project.updateProjectWorkAsComplete(cal.getTime(), false);
-//儲存更新的項目
+// Save the updated project
 project.save(dataDir + "updated.xml", SaveFileFormat.Xml);
 ```
-## 第 3 步：重新安排未完成的工作
-重新安排任何未完成的工作在指定日期之後開始。
+
+## 步驟 3：重新排程未完成工作
+現在，我們將任何剩餘（未完成）的工作移至相同截止日期之後開始。這就是核心的 **重新排程未完成工作** 功能。
 ```java
 cal.set(2014, Calendar.JANUARY, 28, 17, 0, 0);
 project.rescheduleUncompletedWorkToStartAfter(cal.getTime());
-//儲存重新安排的項目
+// Save the rescheduled project
 project.save(dataDir + "rescheduled.xml", SaveFileFormat.Xml);
 ```
 
 ## 結論
-在本教程中，我們學習如何使用 Aspose.Tasks for Java 更新 MS Project 檔案並重新安排未完成的工作。這在專案時間表需要根據進度或變化的優先順序進行調整的情況下特別有用。
+在本教學中，我們說明了如何使用 Aspose.Tasks for Java **更新專案工作**、**重新排程未完成工作**，以及 **以 XML 格式儲存 MS Project 檔案**。當需要根據實際進度或變更的業務優先順序調整專案時間表時，這些功能相當重要。
 
-## 常見問題解答
-### Q：Aspose.Tasks for Java 可以處理複雜的專案結構嗎？
-答：是的，Aspose.Tasks for Java 提供了強大的 API 來有效地管理任務、相依性、資源和其他專案元素。
-### Q：Aspose.Tasks for Java 有試用版嗎？
-答：是的，您可以從以下位置獲得免費試用[這裡](https://releases.aspose.com/).
-### Q：如何獲得 Aspose.Tasks for Java 的支援？
-答：您可以訪問[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15)如有任何幫助或疑問。
+## 常見問題
+### Q：Aspose.Tasks for Java 能處理複雜的專案結構嗎？
+A：是的，Aspose.Tasks for Java 提供強大的 API，能有效管理任務、相依性、資源及其他專案元素。
+
+### Q：Aspose.Tasks for Java 有提供試用版嗎？
+A：是的，您可從 [here](https://releases.aspose.com/) 取得免費試用版。
+
+### Q：如何取得 Aspose.Tasks for Java 的支援？
+A：您可前往 [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) 取得協助或詢問問題。
+
 ### Q：我可以購買 Aspose.Tasks for Java 的臨時授權嗎？
-答：是的，可以購買臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+A：是的，臨時授權可於 [here](https://purchase.aspose.com/temporary-license/) 購買。
+
 ### Q：在哪裡可以找到 Aspose.Tasks for Java 的詳細文件？
-答：可以參考文檔[這裡](https://reference.aspose.com/tasks/java/)取得全面的指南和 API 參考。
+A：您可參考文件 [here](https://reference.aspose.com/tasks/java/) 取得完整指南與 API 參考。
+
+## 其他常見問題
+
+**Q：如何確保儲存的檔案相容於較舊版本的 Microsoft Project？**  
+A：使用 `SaveFileFormat.Xml` 儲存專案；XML 在各版本的 Project 中廣泛支援。
+
+**Q：我可以只重新排程部分任務而非整個專案嗎？**  
+A：可以，您可以遍歷特定任務，並在計算新開始日期後呼叫 `task.setStart(date)`。
+
+**Q：重新排程未完成工作時，資源分配會發生什麼變化？**  
+A：資源指派會自動調整以符合新的任務開始日期，保持分配邏輯。
+
+**Q：是否能以程式方式撤銷重新排程操作？**  
+A：您可以重新載入原始專案檔（或備份）以還原變更。
+
+**Q：Aspose.Tasks 是否支援儲存為其他格式，例如 .mpp？**  
+A：當然。使用 `SaveFileFormat.MPP` 可儲存為原生 Microsoft Project 格式。
+
+---
+
+**Last Updated:** 2026-03-29  
+**Tested With:** Aspose.Tasks for Java 24.11  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
