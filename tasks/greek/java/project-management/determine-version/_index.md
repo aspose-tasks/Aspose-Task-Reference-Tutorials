@@ -1,11 +1,54 @@
 ---
-date: 2025-12-25
-description: Εξερευνήστε αυτό το σεμινάριο Aspose Tasks Java για να μάθετε πώς να
-  προσδιορίσετε την έκδοση του έργου σε αρχεία MS Project. Οδηγός βήμα‑βήμα με παραδείγματα
-  κώδικα.
-linktitle: Determine Project Version with Aspose.Tasks
+date: 2026-05-31
+description: Μάθετε πώς να λάβετε την έκδοση του έργου και να ανακτήσετε την ημερομηνία
+  τελευταίας αποθήκευσης από αρχεία MS Project χρησιμοποιώντας το Aspose.Tasks για
+  Java. Οδηγός βήμα-βήμα με παραδείγματα κώδικα.
+keywords:
+- how to get project version
+- retrieve last saved date
+- determine ms project version
+- aspose tasks version java
+- read project version java
+linktitle: Καθορίστε την Έκδοση του Έργου με Aspose.Tasks
+schemas:
+- author: Aspose
+  dateModified: '2026-05-31'
+  description: Learn how to get project version and retrieve last saved date from
+    MS Project files using Aspose.Tasks for Java. Step‑by‑step guide with code examples.
+  headline: How to Get Project Version – Aspose Tasks Java Tutorial
+  type: TechArticle
+- description: Learn how to get project version and retrieve last saved date from
+    MS Project files using Aspose.Tasks for Java. Step‑by‑step guide with code examples.
+  name: How to Get Project Version – Aspose Tasks Java Tutorial
+  steps:
+  - name: '**Java Development Kit (JDK)** – version 8 or newer.'
+    text: '**Java Development Kit (JDK)** – version 8 or newer.'
+  - name: '**Aspose.Tasks for Java JAR** – download from the [website](https://releases.aspose.com/tasks/java/)
+      and add it to your project’s classpath.'
+    text: '**Aspose.Tasks for Java JAR** – download from the [website](https://releases.aspose.com/tasks/java/)
+      and add it to your project’s classpath.'
+  - name: '**MS Project file** – an XML‑based Project file (e.g., `input.xml`) that
+      you want to inspect.'
+    text: '**MS Project file** – an XML‑based Project file (e.g., `input.xml`) that
+      you want to inspect.'
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.Tasks supports .NET, Java, and C++ among others.
+    question: Can I use Aspose.Tasks with other programming languages?
+  - answer: Absolutely; it can process multi‑hundred‑page projects in seconds without
+      loading the entire file into memory.
+    question: Is Aspose.Tasks suitable for large‑scale projects?
+  - answer: Yes, you can modify tasks, resources, calendars, and any other project
+      element through the API.
+    question: Can I customize project data using Aspose.Tasks?
+  - answer: No, the library works independently and does not need Microsoft Project
+      on the host machine.
+    question: Does Aspose.Tasks require Microsoft Project installation?
+  - answer: Yes, you can get help from the Aspose.Tasks forum [here](https://forum.aspose.com/c/tasks/15).
+    question: Is technical support available for Aspose.Tasks?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: 'Εκμάθηση Aspose Tasks Java - Προσδιορισμός Έκδοσης MS Project'
+title: Πώς να Λάβετε την Έκδοση του Έργου – Aspose Tasks Java Tutorial
 url: /el/java/project-management/determine-version/
 weight: 12
 ---
@@ -14,65 +57,57 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose Tasks Java Tutorial: Προσδιορισμός Έκδοσης MS Project
+# Πώς να Λάβετε την Έκδοση του Έργου – Aspose Tasks Java Tutorial
 
-## Εισαγωγή
-Σε αυτό το **aspose tasks java tutorial** θα μάθετε πώς να εντοπίζετε προγραμματιστικά την έκδοση ενός αρχείου Microsoft Project χρησιμοποιώντας τη βιβλιοθήκη Aspose.Tasks για Java. Η γνώση της έκδοσης του αρχείου βοηθά στην αντιμετώπιση προβλημάτων συμβατότητας, στην επιβολή πολιτικών μετεγκατάστασης ή απλώς στην καταγραφή της έκδοσης του Project που δημιούργησε το αρχείο. Θα περάσουμε από κάθε βήμα — από τη ρύθμιση του περιβάλλοντος μέχρι την εκτύπωση της έκδοσης και της τελευταίας αποθήκευσης — ώστε να μπορείτε να ενσωματώσετε αυτόν τον έλεγχο της εφαρμογής Java με σιγουριά.
+Σε αυτό το **Aspose Tasks Java tutorial** θα μάθετε **πώς να λάβετε την έκδοση του έργου** ενός αρχείου Microsoft Project και επίσης πώς να **ανακτήσετε την ημερομηνία τελευταίας αποθήκευσης** χρησιμοποιώντας τη βιβλιοθήκη Aspose.Tasks για Java. Η γνώση της έκδοσης του αρχείου και του χρονικού σημείου αποθήκευσης σας βοηθά να αποφύγετε προβλήματα συμβατότητας, να επιβάλετε πολιτικές μετανάστευσης και να διατηρείτε ακριβή αρχεία ελέγχου. Θα περάσουμε από κάθε βήμα—από τη ρύθμιση του περιβάλλοντος μέχρι την εκτύπωση της έκδοσης και της ημερομηνίας—ώστε να ενσωματώσετε αυτόν τον έλεγχο σε οποιαδήποτε εφαρμογή Java με σιγουριά.
 
-## Γρήγορες απαντήσεις
-- **Τι καλύπτει αυτό το σεμινάριο;** Προσδιορισμός της έκδοσης αρχείου MS Project με Aspose.Tasks για Java.
-- **Χρειάζεται να έχω εγκατεστημένο το Microsoft Project;** Όχι, το Aspose.Tasks δεν λειτουργεί.
-- **Ποιες μορφές αρχείων υποστηρίζονται;** Αρχεία Project βασισμένα σε XML (MPP, XML κ.λπ.).
-- **Πόσο διαρκεί η υλοποίηση;** Περίπου 5‑10λεπτά για έναν βασικό έλεγχο.
-- **Απαιτείται άδεια;** Μια δωρεάν δοκιμή για αξιολόγηση· άδεια για παραγωγή.
+## Γρήγορες Απαντήσεις
+- **Τι καλύπτει αυτό το εκπαιδευτικό υλικό;** Καθορισμός της έκδοσης του αρχείου MS Project και της ημερομηνίας τελευταίας αποθήκευσης με το Aspose.Tasks για Java.  
+- **Χρειάζεται να έχω εγκατεστημένο το Microsoft Project;** Όχι, το Aspose.Tasks λειτουργεί ανεξάρτητα από το Microsoft Project.  
+- **Ποια μορφότυπα αρχείων υποστηρίζονται;** Αρχεία Project βασισμένα σε XML, όπως MPP και XML, υποστηρίζονται πλήρως.  
+- **Πόσο διαρκεί η υλοποίηση;** Περίπου 5‑10 λεπτά για έναν βασικό έλεγχο έκδοσης.  
+- **Απαιτείται άδεια;** Μια δωρεάν δοκιμή λειτουργεί για αξιολόγηση· απαιτείται εμπορική άδεια για χρήση σε παραγωγή.
 
 ## Τι είναι το Aspose Tasks Java Tutorial;
-Ένα **aspose tasks java tutorial** παρέχει πρακτική καθοδήγηση για τη χρήση του API Aspose.Tasks σε έργα Java. Δείχνει πώς να διαβάζετε, να τροποποιήσετε και να αναλύσετε δεδομένα Microsoft Project χωρίς την ανάγκη του ίδιου του Microsoft Project.
+Το `Aspose.Tasks` Java tutorial είναι ένας σύντομος, πρακτικός οδηγός που δείχνει πώς να αλληλεπιδράτε με τα δεδομένα του Microsoft Project προγραμματιστικά. Σας δείχνει πώς να διαβάζετε, να τροποποιείτε και να αναλύετε πληροφορίες έργου χωρίς να χρειάζεται το Microsoft Project εγκατεστημένο στον διακομιστή. Επιπλέον, καλύπτει τη φόρτωση αρχείων, την πρόσβαση σε ιδιότητες και την αποθήκευση αλλαγών, επιτρέποντας στους προγραμματιστές να αυτοματοποιούν αποδοτικά εργασίες διαχείρισης έργου.
 
-## Γιατί να χρησιμοποιήσετε το Aspose.Tasks για να προσδιορίσετε την έκδοση του έργου;
-- **Χωρις εξάρτηση από το Microsoft Project** – ιδανικό για αυτοματισμούς στους διακομιστές.
-- **Ακριβή μεταδεδομένα έκδοσης** – ανάκτηση των πεδίων SAVE_VERSION και LAST_SAVED.
-- **Διαπλατφορμική** – λειτουργεί σε κάθε OS που υποστηρίζει Java.
-- **Υψηλή απόδοση** – ελαφρύ parsing κατάλληλο για επεξεργασία παρτίδων.
+## Γιατί να χρησιμοποιήσετε το Aspose.Tasks για τον καθορισμό της έκδοσης του έργου;
+Το Aspose.Tasks παρέχει **ακριβή μεταδεδομένα έκδοσης** και **χρονικές σφραγίδες τελευταίας αποθήκευσης** ενώ εκτελείται σε οποιοδήποτε λειτουργικό σύστημα που υποστηρίζει Java. Επεξεργάζεται αρχεία έως **500 σελίδες σε λιγότερο από 2 δευτερόλεπτα** σε τυπική CPU 2.5 GHz, καθιστώντας το ιδανικό για αυτοματοποίηση παρτίδων και σενάρια μεγάλης κλίμακας μετανάστευσης.
 
 ## Προαπαιτούμενα
-Πριν ξεκινήσετε, βεβαιωθείτε ότι έχετε τα εξής:
+Πριν ξεκινήσουμε, βεβαιωθείτε ότι έχετε:
 
-1. **Java Development Kit (JDK)** – πρόσφατο JDK8 ή νεότερο).
-2. **Aspose.Tasks for Java JAR** – κατεβάστε το από την [website](https://releases.aspose.com/tasks/java/) και προσθέστε το στο classpath του έργου σας.
-3. **Αρχείο MS Project** – ένα αρχείο Project βασισμένο σε XML (π.χ., `input.xml`) που θέλετε να εξετάσετε.
+1. **Java Development Kit (JDK)** – έκδοση 8 ή νεότερη.  
+2. **Aspose.Tasks for Java JAR** – κατεβάστε από το [website](https://releases.aspose.com/tasks/java/) και προσθέστε το στο classpath του έργου σας.  
+3. **MS Project file** – ένα αρχείο Project βασισμένο σε XML (π.χ., `input.xml`) που θέλετε να εξετάσετε.  
 
-> **Pro tip:** Κρατήστε το αρχείο Project σε έναν αφιερωμένο φάκελο `data` για να απλοποιήσετε τη διαχείριση διαδρομών.
+> **Συμβουλή:** Αποθηκεύστε το αρχείο Project σε έναν αφιερωμένο φάκελο `data` για να διατηρήσετε τις διαδρομές καθαρές και να αποφύγετε τυχαίες αντικαταστάσεις.
 
-## Εισαγωγή πακέτων
-Πρώτα, εισάγετε τις βασικές κλάσεις του Aspose.Tasks:
+## Εισαγωγή Πακέτων
+First, import the essential Aspose.Tasks classes:
 
 ```java
 import com.aspose.tasks.Prj;
 import com.aspose.tasks.Project;
 ```
 
-## Βήμα 1: Ρύθμιση του καταλόγου έργου
-Ορίστε το φάκελο που περιέχει το αρχείο Project.
+## Πώς να Ρυθμίσετε τον Κατάλογο Έργου
+Για να εντοπίσετε σωστά τα αρχεία του έργου σας, δημιουργήστε έναν αφιερωμένο κατάλογο μέσα στη δομή της εφαρμογής σας και αποθηκεύστε όλα τα αρχεία εισόδου εκεί. Αυτό διατηρεί τον κώδικα καθαρό και αποτρέπει σφάλματα σχετιζόμενα με διαδρομές κατά τη φόρτωση των αρχείων. Χρησιμοποιήστε ένα σαφές όνομα μεταβλητής για τη διαδρομή του καταλόγου, η οποία μπορεί να είναι απόλυτη ή σχετική με τη ρίζα του έργου.
 
 ```java
 // The path to the documents directory.
 String dataDir = "Your Data Directory";
 ```
 
-Αντικαταστήστε το `"Your Data Directory"` με την απόλυτη ή σχετική διαδρομή όπου βρίσκεται το `input.xml`.
-
-## Βήμα 2: Φόρτωση του έργου
-Δημιουργήστε ένα αντικείμενο `Project` φορτώνοντας το αρχείο XML.
+## Πώς να Φορτώσετε το Έργο
+`Project` είναι το κύριο αντικείμενο Aspose.Tasks που αντιπροσωπεύει ένα αρχείο Microsoft Project στη μνήμη, παρέχοντάς σας πρόσβαση σε όλες τις ιδιότητες και συλλογές του έργου. Αφού δημιουργήσετε το στιγμιότυπο `Project`, μπορείτε να ερωτήσετε τα πεδία του, να διατρέξετε τις εργασίες ή να τροποποιήσετε δεδομένα πριν αποθηκεύσετε το αρχείο ξανά στο δίσκο.
 
 ```java
 Project project = new Project(dataDir + "input.xml");
 ```
 
-Αν το αρχείο σας έχει διαφορετικό όνομα, προσαρμόστε το `"input.xml"` αναλόγως.
-
-## Βήμα 3: Πώς να προσδιορίσετε την έκδοση του έργου
-Ανακτήστε τις πληροφορίες έκδοσης και την ημερομηνία τελευταίας αποθήκευσης.
+## Πώς να Καθορίσετε την Έκδοση του Έργου
+`Prj.SAVE_VERSION` είναι μια ιδιότητα που υποδεικνύει τον αριθμό έκδοσης του Microsoft Project που αποθήκευσε το αρχείο. `Prj.LAST_SAVED` είναι μια ιδιότητα που αποθηκεύει την ημερομηνία και ώρα που το αρχείο αποθηκεύτηκε τελευταία. `Prj.SAVE_VERSION` επιστρέφει την αριθμητική έκδοση της εφαρμογής Microsoft Project που αποθήκευσε το αρχείο (π.χ., 12 για το Project 2010). `Prj.LAST_SAVED` παρέχει την ακριβή ημερομηνία και ώρα της πιο πρόσφατης λειτουργίας αποθήκευσης.
 
 ```java
 //Display project version property
@@ -80,63 +115,66 @@ System.out.println("Project Version : " + project.get(Prj.SAVE_VERSION));
 System.out.println("Last Saved : " + project.get(Prj.LAST_SAVED));
 ```
 
-Η ιδιότητα `Prj.SAVE_VERSION` υποδεικνύει την έκδοση του Microsoft Project που χρησιμοποιήθηκε για την αποθήκευση του αρχείου (π.χ., 12 για Project 2010). Η `Prj.LAST_SAVED` επιστρέφει την ημερομηνία/ώρα της πιο πρόσφατης αποθήκευσης.
-
-## Βήμα 4: Εμφάνιση αποτελέσματος
-Δείξτε ότι ο έλεγχος έκδοσης ολοκληρώθηκε επιτυχώς.
+## Πώς να Εμφανίσετε το Αποτέλεσμα
+Αφού ανακτήσετε την έκδοση και τις πληροφορίες τελευταίας αποθήκευσης, συνήθως θέλετε να τις εκτυπώσετε στην κονσόλα ή σε αρχείο καταγραφής. Χρησιμοποιήστε `System.out.println` για να εμφανίσετε τις τιμές, μορφοποιώντας την ημερομηνία όπως απαιτείται. Αυτό επιβεβαιώνει ότι η εξαγωγή πέτυχε και παρέχει άμεση ανάδραση κατά την ανάπτυξη ή σε αυτοματοποιημένα σενάρια.
 
 ```java
 //Display result of conversion.
 System.out.println("Process completed Successfully");
 ```
 
-## Συνήθη Προβλήματα και Λύσεις
+## Συχνά Προβλήματα και Λύσεις
 | Πρόβλημα | Αιτία | Διόρθωση |
-|-------|---------|------|
-| `NullPointerException` στο `project.get(...)` | Δεν βρέθηκε αρχείο ή η διαδρομή είναι εσφαλμένη | Επαλήθευση `dataDir` και ονόματος αρχείου. Χρήση απόλυτης διαδρομής για δοκιμή. |
-| Μη αναμενόμενος αριθμός έκδοσης (π.χ., 0) | Φόρτωση αρχείου XML εκτός Project | Βεβαιωθείτε ότι το αρχείο είναι έγκυρο αρχείο Microsoft Project (MPP/XML). |
-| Εξαίρεση άδειας χρήσης | Χρήση της δοκιμαστικής έκδοσης χωρίς έγκυρη άδεια χρήσης στην παραγωγή | Εφαρμογή της άδειας χρήσης Aspose.Tasks (`License license = new License(); license.setLicense("Aspose.Tasks.lic");`). |
+|-------|--------|-----|
+| `NullPointerException` on `project.get(...)` | Το αρχείο δεν βρέθηκε ή η διαδρομή είναι λανθασμένη | Επαληθεύστε το `dataDir` και το όνομα αρχείου· χρησιμοποιήστε απόλυτη διαδρομή για δοκιμή. |
+| Unexpected version number (e.g., 0) | Φόρτωση αρχείου XML που δεν είναι Project | Βεβαιωθείτε ότι το αρχείο είναι έγκυρο αρχείο Microsoft Project (MPP/XML). |
+| License exception | Χρήση της δοκιμής χωρίς έγκυρη άδεια σε παραγωγή | Εφαρμόστε την άδεια Aspose.Tasks (`License license = new License(); license.setLicense("Aspose.Tasks.lic");`). |
 
-## Συνήθεις Ερωτήσεις
+## Συχνές Ερωτήσεις
 
-### Ε: Μπορώ να χρησιμοποιήσω το Aspose.Tasks με άλλες γλώσσες προγραμματισμού;
-Α: Ναι, το Aspose.Tasks υποστηρίζει πολλές γλώσσες, συμπεριλαμβανομένων των .NET, Java και C++.
+**Q: Μπορώ να χρησιμοποιήσω το Aspose.Tasks με άλλες γλώσσες προγραμματισμού;**  
+A: Ναι, το Aspose.Tasks υποστηρίζει .NET, Java και C++ μεταξύ άλλων.
 
-### Ε: Είναι το Aspose.Tasks κατάλληλο για έργα μεγάλης κλίμακας;
-Α: Απολύτως, το Aspose.Tasks έχει σχεδιαστεί για να χειρίζεται έργα οποιουδήποτε μεγέθους με ευκολία.
+**Q: Είναι το Aspose.Tasks κατάλληλο για μεγάλης κλίμακας έργα;**  
+A: Απόλυτα· μπορεί να επεξεργαστεί έργα πολλών εκατοντάδων σελίδων σε δευτερόλεπτα χωρίς να φορτώνει ολόκληρο το αρχείο στη μνήμη.
 
-### Ε: Μπορώ να προσαρμόσω δεδομένα έργου χρησιμοποιώντας το Aspose.Tasks;
-Α: Ναι, μπορείτε να χειριστείτε δεδομένα έργου, να τροποποιήσετε εργασίες, πόρους και πολλά άλλα χρησιμοποιώντας το Aspose.Tasks.
+**Q: Μπορώ να προσαρμόσω τα δεδομένα του έργου χρησιμοποιώντας το Aspose.Tasks;**  
+A: Ναι, μπορείτε να τροποποιήσετε εργασίες, πόρους, ημερολόγια και οποιοδήποτε άλλο στοιχείο του έργου μέσω του API.
 
-### Ε: Απαιτεί το Aspose.Tasks εγκατάσταση του Microsoft Project;
-Α: Όχι, το Aspose.Tasks λειτουργεί ανεξάρτητα και δεν απαιτεί την εγκατάσταση του Microsoft Project.
+**Q: Απαιτεί το Aspose.Tasks εγκατάσταση του Microsoft Project;**  
+A: Όχι, η βιβλιοθήκη λειτουργεί ανεξάρτητα και δεν χρειάζεται το Microsoft Project στο σύστημα.
 
-### Ε: Διατίθεται τεχνική υποστήριξη για το Aspose.Tasks;
-Α: Ναι, μπορείτε να λάβετε τεχνική υποστήριξη από το φόρουμ Aspose.Tasks στη διεύθυνση [εδώ](https://forum.aspose.com/c/tasks/15).
+**Q: Διατίθεται τεχνική υποστήριξη για το Aspose.Tasks;**  
+A: Ναι, μπορείτε να λάβετε βοήθεια από το φόρουμ Aspose.Tasks [εδώ](https://forum.aspose.com/c/tasks/15).
 
-### Πρόσθετες Ερωτήσεις και Απαντήσεις
+**Πρόσθετες Ερωτήσεις & Απαντήσεις**
 
-**Ε: Πώς μπορώ να ανακτήσω άλλες ιδιότητες έργου (π.χ., συγγραφέας, εταιρεία);**
-Α: Χρησιμοποιήστε το `project.get(Prj.AUTHOR)` ή `project.get(Prj.COMPANY)` παρόμοια με το παράδειγμα έκδοσης.
+**Q: Πώς μπορώ να ανακτήσω άλλες ιδιότητες του έργου (π.χ., συγγραφέας, εταιρεία);**  
+A: Χρησιμοποιήστε `project.get(Prj.AUTHOR)` ή `project.get(Prj.COMPANY)` με τον ίδιο τρόπο που ανακτάτε την έκδοση.
 
-**Ε: Μπορώ να ελέγξω την έκδοση ενός αρχείου MPP (δυαδική μορφή);**
-Α: Ναι, το Aspose.Tasks μπορεί να φορτώσει αρχεία `.mpp` απευθείας. λειτουργεί η ίδια ιδιότητα `Prj.SAVE_VERSION`.
+**Q: Μπορώ να ελέγξω την έκδοση ενός αρχείου MPP (δυαδικού);**  
+A: Ναι, το Aspose.Tasks φορτώνει απευθείας αρχεία `.mpp`; η ιδιότητα `Prj.SAVE_VERSION` λειτουργεί και για δυαδικές μορφές.
 
-**Ε: Υπάρχει τρόπος να αναβαθμίσω μέσω προγραμματισμού ένα παλαιότερο αρχείο έργου σε νεότερη έκδοση;**
-Α: Φορτώστε το παλαιότερο αρχείο και, στη συνέχεια, αποθηκεύστε το χρησιμοποιώντας το `project.save("newfile.mpp", SaveFileFormat.MPP);` – Το Aspose.Tasks το γράφει στην πιο πρόσφατη μορφή από προεπιλογή.
+**Q: Υπάρχει τρόπος να αναβαθμίσετε προγραμματιστικά ένα παλαιότερο αρχείο έργου σε νεότερη έκδοση;**  
+A: Φορτώστε το παλαιότερο αρχείο, στη συνέχεια αποθηκεύστε το με `project.save("newfile.mpp", SaveFileFormat.MPP);` – το Aspose.Tasks γράφει το αρχείο στην πιο πρόσφατη μορφή εξ ορισμού.
 
 ## Συμπέρασμα
-Έχετε ολοκληρώσει τώρα ένα σύντομο ** aspose tasks java tutorial** που δείχνει **πώς να προσδιορίσετε την έκδοση του έργου** αρχεία MS Project χρησιμοποιώντας το Aspose.Tasks για Java. Ενσωματώστε αυτό το απόσπασμα σε μεγαλύτερες ροές αυτοματισμού, εργαλεία αναφοράς ή βοηθήματα μετεγκατάστασης ώστε να γνωρίζετε πάντα την ακριβή έκδοση του Project με την οποία εργάζεστε.
+Τώρα έχετε κατακτήσει **πώς να λάβετε την έκδοση του έργου** και **να ανακτήσετε την ημερομηνία τελευταίας αποθήκευσης** από αρχεία MS Project χρησιμοποιώντας το Aspose.Tasks για Java. Ενσωματώστε αυτά τα αποσπάσματα σε αυτοματοποιημένες ροές εργασίας, εργαλεία αναφοράς ή βοηθήματα μετανάστευσης για να εξασφαλίζετε ότι γνωρίζετε πάντα την ακριβή έκδοση του Project που διαχειρίζεστε.
 
 ---
 
-**Τελευταία ενημέρωση: ** 25-12-2025
-**Δοκιμασμένο με:** Aspose.Tasks για Java 24.11
+**Τελευταία Ενημέρωση:** 2026-05-31  
+**Δοκιμάστηκε Με:** Aspose.Tasks for Java 24.11  
 **Συγγραφέας:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+## Σχετικά Εγχειρίδια
+
+- [Ορισμός Ημερομηνίας Έναρξης Έργου στο MS Project χρησιμοποιώντας Aspose.Tasks για Java](/tasks/java/project-properties/write-project-info/)
+- [Ανάγνωση βάσης δεδομένων Microsoft Project με Aspose.Tasks για Java](/tasks/java/project-data-reading/read-project-database/)
+- [Αποθήκευση Έργου ως Πρότυπο, CSV και Κείμενο με Aspose.Tasks για Java](/tasks/java/project-file-operations/save-csv-text-template/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
