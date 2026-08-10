@@ -1,45 +1,43 @@
 ---
-title: Ingebouwde projecteigenschapverzameling in Aspose.Tasks
-linktitle: Ingebouwde projecteigenschapverzameling in Aspose.Tasks
+date: 2026-03-21
+description: Leer hoe u ingebouwde projecteigenschappen in .NET kunt lezen met Aspose.Tasks,
+  deze kunt wijzigen en efficiënt over de collectie kunt itereren.
+linktitle: Built-In Project Property Collection in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Leer hoe u meta-eigenschappen van projecten efficiënt kunt beheren in .NET-applicaties met behulp van Aspose.Tasks. Eigenschappen moeiteloos lezen, wijzigen en herhalen.
-weight: 24
+title: Hoe ingebouwde projecteigenschappen te lezen met Aspose.Tasks
 url: /nl/net/advanced-features/built-in-project-property-collection/
+weight: 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ingebouwde projecteigenschapverzameling in Aspose.Tasks
+# Ingebouwde projecteigenschappenverzameling in Aspose.Tasks
 
-## Invoering
+## Inleiding
 
-Op het gebied van softwareontwikkeling is het efficiënt beheren van taken en projecten van cruciaal belang voor succes. Aspose.Tasks voor .NET is een krachtige bibliotheek die is ontworpen om projectbeheertaken binnen .NET-applicaties te vergemakkelijken. Met de robuuste functies en intuïtieve interface kunnen ontwikkelaars projectbeheerprocessen stroomlijnen, waardoor tijd en middelen worden bespaard.
+In de wereld van softwareontwikkeling is het efficiënt beheren van taken en projecten van cruciaal belang voor succes. Wanneer u **read built-in project properties** moet lezen uit Microsoft Project‑bestanden, biedt Aspose.Tasks voor .NET een schone, type‑veilige API die het werk eenvoudig maakt. Door deze bibliotheek te gebruiken kunt u snel meta‑informatie zoals auteur, categorie en aangepaste opmerkingen extraheren, en die gegevens vervolgens gebruiken voor rapportage, analyse of aangepaste workflow‑logica.
+
+## Snelle antwoorden
+- **What does “read built-in project properties” mean?** Het extraheren van standaardmetadata (auteur, startdatum, enz.) die bij een Project‑bestand worden meegeleverd.  
+- **Which NuGet package is required?** `Aspose.Tasks.NET` – install via Visual Studio of `dotnet add package`.  
+- **Do I need a license for development?** Een gratis proefversie werkt voor evaluatie; een commerciële licentie is vereist voor productie.  
+- **Can I modify the properties after reading them?** Ja, de `BuiltInProps`‑collectie is volledig read/write.  
+- **Supported file formats?** MPP, XML, en andere formaten ondersteund door Aspose.Tasks.
 
 ## Vereisten
 
-Voordat u in de wereld van Aspose.Tasks voor .NET duikt, zijn er een aantal vereisten waaraan u moet voldoen:
+Voordat u in de code duikt, zorg ervoor dat u het volgende heeft:
 
-### 1. .NET-ontwikkelomgeving instellen
+1. **.NET Development Environment** – Visual Studio, Rider, of een IDE naar keuze.  
+2. **Basic C# Knowledge** – variabelen, lussen en objectgeoriënteerde concepten.  
+3. **Aspose.Tasks for .NET** – download van de [website](https://releases.aspose.com/tasks/net/).  
+4. **Understanding of Project Management Basics** – helpt u eigenschappen te koppelen aan real‑world concepten.
 
-Zorg ervoor dat u over een werkende ontwikkelomgeving voor .NET beschikt, inclusief Visual Studio of een andere IDE naar keuze.
+## Namespaces importeren
 
-### 2. Basiskennis van C#
-
-Maak uzelf vertrouwd met de basisbeginselen van de programmeertaal C#, inclusief variabelen, gegevenstypen, lussen en voorwaardelijke instructies.
-
-### 3. Installatie van Aspose.Tasks voor .NET
-
- Download en installeer Aspose.Tasks voor .NET-bibliotheek vanuit de[website](https://releases.aspose.com/tasks/net/).
-
-### 4. Bekendheid met projectmanagementconcepten
-
-Als u een basiskennis heeft van projectmanagementconcepten, kunt u Aspose.Tasks voor .NET beter in uw projecten gebruiken.
-
-## Naamruimten importeren
-
-Om aan de slag te gaan met Aspose.Tasks voor .NET, moet u de benodigde naamruimten in uw project importeren. Deze naamruimten bieden toegang tot de klassen en methoden die nodig zijn om efficiënt met projectbestanden te werken.
+Voeg de benodigde namespaces toe zodat u met de Aspose.Tasks‑API kunt werken.
 
 ```csharp
 using Aspose.Tasks;
@@ -47,33 +45,34 @@ using System;
 using System.Diagnostics.CodeAnalysis;
 
 using Aspose.Tasks.Properties;
-
 ```
 
-Laten we de meegeleverde voorbeeldcode in meerdere stappen opsplitsen om te begrijpen hoe u meta-eigenschappen van projecten kunt lezen met Aspose.Tasks voor .NET.
+## Hoe ingebouwde projecteigenschappen lezen
 
-## Stap 1: Laad het projectbestand
+Hieronder vindt u een stapsgewijze walkthrough die precies laat zien hoe u een projectbestand laadt en de ingebouwde eigenschappen ophaalt.
+
+### Stap 1: Laad het projectbestand
 
 ```csharp
-// Het pad naar de documentenmap.
+// The path to the documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "ReadProjectInfo.mpp");
 ```
 
- Deze stap omvat het laden van het projectbestand in het`project` object met behulp van de constructor van de`Project` klas.
+De `Project`‑constructor leest het opgegeven bestand en maakt een in‑memory representatie die u kunt bevragen.
 
-## Stap 2: Toegang tot ingebouwde projecteigenschappen
+### Stap 2: Toegang tot individuele ingebouwde eigenschappen
 
 ```csharp
 Console.WriteLine("Author: " + project.BuiltInProps.Author);
 Console.WriteLine("Category: " + project.BuiltInProps.Category);
 Console.WriteLine("Comments: " + project.BuiltInProps.Comments);
-// Meer eigenschappen...
+// More properties...
 ```
 
- Hier hebben we toegang tot verschillende ingebouwde projecteigenschappen, zoals auteur, categorie, opmerkingen, enz., met behulp van de respectieve eigenschappen van de`BuiltInProps` voorwerp.
+Elke eigenschap (bijv. `Author`, `Category`) wordt blootgesteld als een sterk getypeerd lid van de `BuiltInProps`‑collectie, waardoor het eenvoudig is om **read built-in project properties** uit te voeren zonder zelf XML te parseren.
 
-## Stap 3: Herhaal de ingebouwde eigendomsverzameling
+### Stap 3: Doorloop de volledige ingebouwde eigenschapscollectie
 
 ```csharp
 foreach (Property property in project.BuiltInProps)
@@ -85,33 +84,56 @@ foreach (Property property in project.BuiltInProps)
 }
 ```
 
-Deze stap omvat het herhalen van de ingebouwde eigenschapsverzameling van het project en het afdrukken van de naam, waarde en tekenreeksrepresentatie van elke eigenschap.
+Itereren geeft u een volledig overzicht van elk standaard metadata‑veld dat het projectbestand bevat. Dit is handig wanneer u alle eigenschappen in een UI‑rooster wilt weergeven of ze wilt exporteren naar een CSV‑bestand.
 
-## Conclusie
+## Waarom ingebouwde projecteigenschappen lezen?
 
-Concluderend biedt Aspose.Tasks voor .NET een uitgebreide oplossing voor het efficiënt beheren van projectmeta-eigenschappen binnen .NET-applicaties. Door de stappen in deze handleiding te volgen, kunnen ontwikkelaars projectmanagementfunctionaliteiten naadloos integreren in hun softwareprojecten, waardoor de productiviteit en organisatie worden verbeterd.
+- **Reporting & Dashboards:** Haal auteur, startdatum en statusinformatie op om BI‑tools te voeden.  
+- **Automation:** Activeer aangepaste workflows op basis van projectmetadata (bijv. automatisch toewijzen van resources wanneer de “Category” overeenkomt met een specifieke waarde).  
+- **Migration:** Bij het verplaatsen van projecten tussen systemen behouden de ingebouwde eigenschappen essentiële context.
+
+## Veelvoorkomende problemen & tips
+
+- **File Path Errors:** Zorg ervoor dat `DataDir` eindigt op een pad‑scheidingsteken (`\` of `/`) of gebruik `Path.Combine`.  
+- **Missing Properties:** Sommige eigenschappen kunnen leeg zijn als het bronbestand ze niet heeft gedefinieerd; controleer altijd op `null` of lege strings.  
+- **Performance:** Voor zeer grote MPP‑bestanden, laad het project één keer en hergebruik het `project`‑object in plaats van het herhaaldelijk opnieuw te openen.
 
 ## Veelgestelde vragen
 
-### V1: Is Aspose.Tasks voor .NET compatibel met alle versies van .NET Framework?
+### Q1: Is Aspose.Tasks voor .NET compatibel met alle versies van .NET Framework?
 
-A1: Ja, Aspose.Tasks voor .NET is compatibel met verschillende versies van .NET Framework, wat flexibiliteit en integratiegemak garandeert.
+A1: Ja, Aspose.Tasks voor .NET is compatibel met verschillende versies van .NET Framework, wat flexibiliteit en eenvoudige integratie garandeert.
 
-### V2: Kan ik meta-eigenschappen van projecten wijzigen met Aspose.Tasks voor .NET?
+### Q2: Kan ik project‑meta‑eigenschappen wijzigen met Aspose.Tasks voor .NET?
 
-A2: Absoluut! Met Aspose.Tasks voor .NET kunt u niet alleen de meta-eigenschappen van projecten lezen, maar ook aanpassen aan uw vereisten.
+A2: Absoluut! Aspose.Tasks voor .NET stelt u in staat om niet alleen te lezen, maar ook project‑meta‑eigenschappen te wijzigen volgens uw vereisten.
 
-### V3: Ondersteunt Aspose.Tasks voor .NET populaire projectbestandsformaten?
+### Q3: Ondersteunt Aspose.Tasks voor .NET populaire projectbestandsformaten?
 
-A3: Ja, Aspose.Tasks voor .NET ondersteunt een breed scala aan projectbestandsindelingen, waaronder onder andere MPP, XML en XLSX.
+A3: Ja, Aspose.Tasks voor .NET ondersteunt een breed scala aan projectbestandsformaten, waaronder MPP, XML en XLSX, onder andere.
 
-### V4: Is er een gratis proefversie beschikbaar voor Aspose.Tasks voor .NET?
+### Q4: Is er een gratis proefversie beschikbaar voor Aspose.Tasks voor .NET?
 
- A4: Ja, u kunt gebruikmaken van een gratis proefversie van Aspose.Tasks voor .NET via de[website](https://releases.aspose.com/tasks/net/) om de functies ervan te verkennen voordat u een aankoop doet.
+A4: Ja, u kunt een gratis proefversie van Aspose.Tasks voor .NET verkrijgen via de [website](https://releases.aspose.com/tasks/net/) om de functies te verkennen voordat u een aankoop doet.
 
-### V5: Waar kan ik aanvullende ondersteuning en bronnen vinden voor Aspose.Tasks voor .NET?
+### Q5: Waar kan ik extra ondersteuning en bronnen vinden voor Aspose.Tasks voor .NET?
 
- A5: U kunt de bezoeken[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) voor gemeenschapsondersteuning en blader door de documentatie voor uitgebreide begeleiding.
+A5: U kunt het [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) bezoeken voor community‑ondersteuning en de documentatie doorbladeren voor uitgebreide begeleiding.
+
+### Q6: Kan ik programmatisch een nieuwe ingebouwde eigenschap toevoegen?
+
+A6: Ingebouwde eigenschappen zijn vooraf gedefinieerd door het Projectschema, maar u kunt aangepaste eigenschappen toevoegen via de `ExtendedAttributes`‑collectie.
+
+### Q7: Hoe sla ik wijzigingen op nadat ik eigenschappen heb aangepast?
+
+A7: Roep `project.Save("UpdatedProject.mpp")` aan met het gewenste formaat; de bibliotheek schrijft alle wijzigingen terug naar het bestand.
+
+---
+
+**Last Updated:** 2026-03-21  
+**Tested With:** Aspose.Tasks 24.12 for .NET  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

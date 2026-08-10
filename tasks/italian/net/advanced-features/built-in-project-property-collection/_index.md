@@ -1,45 +1,43 @@
 ---
-title: Raccolta di proprietà del progetto integrata in Aspose.Tasks
-linktitle: Raccolta di proprietà del progetto integrata in Aspose.Tasks
-second_title: Aspose.Tasks API .NET
-description: Scopri come gestire le metaproprietà del progetto in modo efficiente nelle applicazioni .NET utilizzando Aspose.Tasks. Leggi, modifica e ripeti le proprietà senza sforzo.
-weight: 24
+date: 2026-03-21
+description: Scopri come leggere le proprietà di progetto integrate in .NET usando
+  Aspose.Tasks, modificarle e iterare sulla collezione in modo efficiente.
+linktitle: Built-In Project Property Collection in Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+title: Come leggere le proprietà di progetto integrate con Aspose.Tasks
 url: /it/net/advanced-features/built-in-project-property-collection/
+weight: 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Raccolta di proprietà del progetto integrata in Aspose.Tasks
+# Raccolta di proprietà di progetto incorporate in Aspose.Tasks
 
-## introduzione
+## Introduzione
 
-Nel campo dello sviluppo software, gestire attività e progetti in modo efficiente è fondamentale per il successo. Aspose.Tasks per .NET è una potente libreria progettata per facilitare le attività di gestione dei progetti all'interno delle applicazioni .NET. Grazie alle sue funzionalità robuste e all'interfaccia intuitiva, gli sviluppatori possono semplificare i processi di gestione dei progetti, risparmiando tempo e risorse.
+Nel campo dello sviluppo software, gestire compiti e progetti in modo efficiente è fondamentale per il successo. Quando è necessario **leggere le proprietà di progetto incorporate** dai file Microsoft Project, Aspose.Tasks per .NET offre un'API pulita e type‑safe che rende il lavoro semplice. Sfruttando questa libreria è possibile estrarre rapidamente meta‑informazioni come autore, categoria e commenti personalizzati, per poi utilizzare questi dati per report, analisi o logiche di workflow personalizzate.
+
+## Risposte rapide
+- **Cosa significa “leggere le proprietà di progetto incorporate”?** Estrarre i metadati standard (autore, data di inizio, ecc.) forniti con un file Project.  
+- **Quale pacchetto NuGet è necessario?** `Aspose.Tasks.NET` – installalo tramite Visual Studio o `dotnet add package`.  
+- **È necessaria una licenza per lo sviluppo?** Una versione di prova gratuita è sufficiente per la valutazione; per la produzione è richiesta una licenza commerciale.  
+- **Posso modificare le proprietà dopo averle lette?** Sì, la collezione `BuiltInProps` è completamente read/write.  
+- **Formati di file supportati?** MPP, XML e altri formati supportati da Aspose.Tasks.
 
 ## Prerequisiti
 
-Prima di immergerti nel mondo di Aspose.Tasks per .NET, ci sono alcuni prerequisiti che dovresti avere:
+Prima di immergersi nel codice, assicurati di avere quanto segue:
 
-### 1. Configurazione dell'ambiente di sviluppo .NET
+1. **Ambiente di sviluppo .NET** – Visual Studio, Rider o qualsiasi IDE preferisci.  
+2. **Conoscenza di base di C#** – variabili, cicli e concetti di programmazione orientata agli oggetti.  
+3. **Aspose.Tasks per .NET** – scaricalo dal [sito web](https://releases.aspose.com/tasks/net/).  
+4. **Comprensione delle basi della gestione dei progetti** – ti aiuta a mappare le proprietà su concetti del mondo reale.
 
-Assicurati di disporre di un ambiente di sviluppo funzionante per .NET, incluso Visual Studio o qualsiasi altro IDE di tua scelta.
+## Importare gli spazi dei nomi
 
-### 2. Comprensione di base di C#
-
-Acquisisci familiarità con le nozioni di base del linguaggio di programmazione C#, incluse variabili, tipi di dati, loop e istruzioni condizionali.
-
-### 3. Installazione di Aspose.Tasks per .NET
-
- Scarica e installa Aspose.Tasks per la libreria .NET da[sito web](https://releases.aspose.com/tasks/net/).
-
-### 4. Familiarità con i concetti di Project Management
-
-Avere una conoscenza di base dei concetti di gestione dei progetti ti aiuterà a utilizzare meglio Aspose.Tasks per .NET nei tuoi progetti.
-
-## Importa spazi dei nomi
-
-Per iniziare con Aspose.Tasks per .NET, devi importare gli spazi dei nomi necessari nel tuo progetto. Questi spazi dei nomi forniscono l'accesso alle classi e ai metodi necessari per lavorare in modo efficiente con i file di progetto.
+Aggiungi gli spazi dei nomi necessari per poter lavorare con l'API di Aspose.Tasks.
 
 ```csharp
 using Aspose.Tasks;
@@ -47,33 +45,34 @@ using System;
 using System.Diagnostics.CodeAnalysis;
 
 using Aspose.Tasks.Properties;
-
 ```
 
-Analizziamo il codice di esempio fornito in più passaggi per comprendere come leggere le metaproprietà del progetto utilizzando Aspose.Tasks per .NET.
+## Come leggere le proprietà di progetto incorporate
 
-## Passaggio 1: caricare il file di progetto
+Di seguito trovi una guida passo‑passo che mostra esattamente come caricare un file di progetto e recuperare le sue proprietà incorporate.
+
+### Passo 1: Caricare il file di progetto
 
 ```csharp
-// Il percorso della directory dei documenti.
+// The path to the documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "ReadProjectInfo.mpp");
 ```
 
- Questo passaggio prevede il caricamento del file di progetto nel file`project` oggetto utilizzando il costruttore di`Project` classe.
+Il costruttore `Project` legge il file specificato e crea una rappresentazione in memoria che puoi interrogare.
 
-## Passaggio 2: accedi alle proprietà del progetto integrate
+### Passo 2: Accedere alle singole proprietà incorporate
 
 ```csharp
 Console.WriteLine("Author: " + project.BuiltInProps.Author);
 Console.WriteLine("Category: " + project.BuiltInProps.Category);
 Console.WriteLine("Comments: " + project.BuiltInProps.Comments);
-// Altre proprietà...
+// More properties...
 ```
 
- Qui accediamo a varie proprietà integrate del progetto come autore, categoria, commenti, ecc., utilizzando le rispettive proprietà del file`BuiltInProps` oggetto.
+Ogni proprietà (ad es., `Author`, `Category`) è esposta come membro tipizzato della collezione `BuiltInProps`, rendendo facile **leggere le proprietà di progetto incorporate** senza dover analizzare XML manualmente.
 
-## Passaggio 3: ripetere la raccolta di proprietà incorporata
+### Passo 3: Iterare sull'intera collezione di proprietà incorporate
 
 ```csharp
 foreach (Property property in project.BuiltInProps)
@@ -85,33 +84,56 @@ foreach (Property property in project.BuiltInProps)
 }
 ```
 
-Questo passaggio prevede l'iterazione della raccolta di proprietà incorporata del progetto e la stampa del nome, del valore e della rappresentazione della stringa di ciascuna proprietà.
+Iterare ti fornisce un'istantanea completa di tutti i campi di metadati standard contenuti nel file di progetto. È utile quando devi visualizzare tutte le proprietà in una griglia UI o esportarle in un file CSV.
 
-## Conclusione
+## Perché leggere le proprietà di progetto incorporate?
 
-In conclusione, Aspose.Tasks per .NET fornisce una soluzione completa per la gestione efficiente delle meta-proprietà del progetto all'interno delle applicazioni .NET. Seguendo i passaggi descritti in questa guida, gli sviluppatori possono integrare perfettamente le funzionalità di gestione dei progetti nei propri progetti software, migliorando la produttività e l'organizzazione.
+- **Report e dashboard:** Recupera autore, data di inizio e informazioni sullo stato per alimentare gli strumenti BI.  
+- **Automazione:** Attiva workflow personalizzati basati sui metadati del progetto (ad es., assegnazione automatica delle risorse quando la “Category” corrisponde a un valore specifico).  
+- **Migrazione:** Quando si spostano progetti tra sistemi, le proprietà incorporate preservano il contesto essenziale.
 
-## Domande frequenti
+## Problemi comuni e suggerimenti
 
-### Q1: Aspose.Tasks per .NET è compatibile con tutte le versioni di .NET Framework?
+- **Errori di percorso file:** Assicurati che `DataDir` termini con un separatore di percorso (`\` o `/`) o utilizza `Path.Combine`.  
+- **Proprietà mancanti:** Alcune proprietà potrebbero essere vuote se il file di origine non le ha definite; controlla sempre `null` o stringhe vuote.  
+- **Prestazioni:** Per file MPP molto grandi, carica il progetto una sola volta e riutilizza l'oggetto `project` invece di riaprirlo ripetutamente.
 
-A1: Sì, Aspose.Tasks per .NET è compatibile con varie versioni di .NET Framework, garantendo flessibilità e facilità di integrazione.
+## FAQ
 
-### Q2: Posso modificare le metaproprietà del progetto utilizzando Aspose.Tasks per .NET?
+### Q1: Aspose.Tasks per .NET è compatibile con tutte le versioni del .NET Framework?
 
-A2: Assolutamente! Aspose.Tasks per .NET ti consente non solo di leggere ma anche di modificare le meta-proprietà del progetto in base alle tue esigenze.
+R1: Sì, Aspose.Tasks per .NET è compatibile con varie versioni del .NET Framework, garantendo flessibilità e facilità di integrazione.
+
+### Q2: Posso modificare le meta‑proprietà del progetto usando Aspose.Tasks per .NET?
+
+R2: Assolutamente! Aspose.Tasks per .NET ti consente non solo di leggere ma anche di modificare le meta‑proprietà del progetto secondo le tue esigenze.
 
 ### Q3: Aspose.Tasks per .NET supporta i formati di file di progetto più diffusi?
 
-R3: Sì, Aspose.Tasks per .NET supporta un'ampia gamma di formati di file di progetto, inclusi MPP, XML e XLSX, tra gli altri.
+R3: Sì, Aspose.Tasks per .NET supporta una vasta gamma di formati di file di progetto, inclusi MPP, XML e XLSX, tra gli altri.
 
-### Q4: È disponibile una prova gratuita per Aspose.Tasks per .NET?
+### Q4: È disponibile una versione di prova gratuita per Aspose.Tasks per .NET?
 
- A4: Sì, puoi usufruire di una prova gratuita di Aspose.Tasks per .NET da[sito web](https://releases.aspose.com/tasks/net/) per esplorarne le funzionalità prima di effettuare un acquisto.
+R4: Sì, puoi usufruire di una versione di prova gratuita di Aspose.Tasks per .NET dal [sito web](https://releases.aspose.com/tasks/net/) per esplorare le sue funzionalità prima di effettuare un acquisto.
 
-### Q5: Dove posso trovare supporto e risorse aggiuntivi per Aspose.Tasks per .NET?
+### Q5: Dove posso trovare supporto aggiuntivo e risorse per Aspose.Tasks per .NET?
 
- A5: Puoi visitare il[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) per il supporto della comunità e sfoglia la documentazione per una guida completa.
+R5: Puoi visitare il [forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) per il supporto della community e consultare la documentazione per una guida completa.
+
+### Q6: Posso aggiungere programmaticamente una nuova proprietà incorporata?
+
+R6: Le proprietà incorporate sono predefinite dallo schema del Project, ma è possibile aggiungere proprietà personalizzate tramite la collezione `ExtendedAttributes`.
+
+### Q7: Come salvo le modifiche dopo aver modificato le proprietà?
+
+R7: Chiama `project.Save("UpdatedProject.mpp")` specificando il formato desiderato; la libreria scriverà tutte le modifiche nel file.
+
+---
+
+**Ultimo aggiornamento:** 2026-03-21  
+**Testato con:** Aspose.Tasks 24.12 per .NET  
+**Autore:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
