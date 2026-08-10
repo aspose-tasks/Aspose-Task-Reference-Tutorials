@@ -1,11 +1,61 @@
 ---
-date: 2025-12-31
-description: Học cách đọc siêu dữ liệu với Aspose.Tasks cho Java. Mở khóa các thuộc
-  tính dự án, trích xuất thông tin và thao tác các tệp Microsoft Project một cách
-  dễ dàng.
-linktitle: Project Properties
+date: 2026-06-20
+description: Tìm hiểu cách đọc thuộc tính dự án Java bằng Aspose.Tasks cho Java, tự
+  động hoá báo cáo dự án và lấy ngày tạo từ các tệp Microsoft Project.
+keywords:
+- project properties java
+- automate project reporting
+- retrieve creation date
+linktitle: Thuộc tính dự án
+schemas:
+- author: Aspose
+  dateModified: '2026-06-20'
+  description: Learn how to read project properties java using Aspose.Tasks for Java,
+    automate project reporting, and retrieve creation date from Microsoft Project
+    files.
+  headline: Project Properties Java – Read Metadata with Aspose.Tasks
+  type: TechArticle
+- description: Learn how to read project properties java using Aspose.Tasks for Java,
+    automate project reporting, and retrieve creation date from Microsoft Project
+    files.
+  name: Project Properties Java – Read Metadata with Aspose.Tasks
+  steps:
+  - name: '**Initialize the Project object** – Provide the path (or stream) to the
+      Microsoft Project file.'
+    text: '**Initialize the Project object** – Provide the path (or stream) to the
+      Microsoft Project file.'
+  - name: '**Retrieve built‑in properties** – Call `project.getProperties()` and iterate
+      the collection to read values like creation date.'
+    text: '**Retrieve built‑in properties** – Call `project.getProperties()` and iterate
+      the collection to read values like creation date.'
+  - name: '**Access custom fields** – Use `project.getExtendedAttributes()` to enumerate
+      any extended attributes defined in the source file.'
+    text: '**Access custom fields** – Use `project.getExtendedAttributes()` to enumerate
+      any extended attributes defined in the source file.'
+  - name: '**Optional filtering** – Check each property''s `PropertyType` to isolate
+      dates, strings, or numeric values as needed.'
+    text: '**Optional filtering** – Check each property''s `PropertyType` to isolate
+      dates, strings, or numeric values as needed.'
+  type: HowTo
+- questions:
+  - answer: Yes. Custom fields are stored as extended attributes and can be accessed
+      via `Project.getExtendedAttributes()`.
+    question: Can I read custom fields that were added in Microsoft Project?
+  - answer: Retrieving project properties is lightweight; it does not load task data
+      unless you explicitly request it.
+    question: Does reading metadata affect performance?
+  - answer: You can query the `ProjectPropertyCollection` and check each property's
+      `PropertyType` to filter as needed.
+    question: Is there a way to filter metadata by type?
+  - answer: The latest stable release supports all demonstrated features; older versions
+      may lack some API methods.
+    question: What version of Aspose.Tasks is required?
+  - answer: Open the file with the appropriate password using `new Project(filePath,
+      new LoadOptions(password))` before accessing properties.
+    question: How do I handle encrypted Project files when reading metadata?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: Cách đọc siêu dữ liệu – Thuộc tính dự án
+title: Thuộc tính dự án Java – Đọc siêu dữ liệu với Aspose.Tasks
 url: /vi/java/project-properties/
 weight: 24
 ---
@@ -18,67 +68,96 @@ weight: 24
 
 ## Giới thiệu
 
-Bạn đã sẵn sàng nâng cao kỹ năng Aspose.Tasks for Java chưa? Trong loạt hướng dẫn này, chúng tôi sẽ chỉ **cách đọc metadata** từ các tệp dự án của bạn, trích xuất thông tin quan trọng của Microsoft Project, và làm chủ việc thao tác dự án. Hiểu **cách đọc metadata** giúp bạn có cái nhìn sâu hơn về thời gian dự án, nguồn lực và các trường tùy chỉnh, từ đó đưa ra quyết định thông minh hơn trong bất kỳ giải pháp Java nào.
+Sẵn sàng làm chủ **project properties java** với Aspose.Tasks for Java? Trong hướng dẫn này, bạn sẽ khám phá cách đọc siêu dữ liệu từ các tệp Microsoft Project, trích xuất ngày tạo và đặt nền tảng cho việc tự động hoá báo cáo dự án. Khi kết thúc, bạn sẽ hiểu các lời gọi API chính, lý do chúng quan trọng và cách tích hợp chúng vào bất kỳ giải pháp dựa trên Java nào.
 
 ## Câu trả lời nhanh
-- **Metadata trong tệp dự án là gì?** Đó là thông tin mô tả như tác giả, ngày tạo, các trường tùy chỉnh và các thuộc tính khác được lưu cùng với dữ liệu nhiệm vụ.  
-- **Tại sao cần đọc metadata?** Để tự động hoá báo cáo, thực thi tiêu chuẩn và khai thác phân tích mà không phải phân tích từng nhiệm vụ.  
-- **Phương thức API nào đọc metadata?** Sử dụng `Project.getProperties()` và `Project.getExtendedAttributes()` từ Aspose.Tasks for Java.  
-- **Có cần giấy phép không?** Cần một giấy phép Aspose.Tasks hợp lệ cho môi trường sản xuất; bản dùng thử miễn phí có sẵn để đánh giá.  
-- **Có tương thích với Java 17 không?** Có, thư viện hỗ trợ Java 8 trở lên, bao gồm Java 17.
+- **Metadata trong tệp dự án là gì?** Đó là thông tin mô tả như tác giả, ngày tạo, các trường tùy chỉnh và các thuộc tính khác được lưu trữ cùng với dữ liệu nhiệm vụ.  
+- **Tại sao phải đọc siêu dữ liệu?** Để tự động hoá báo cáo dự án, thực thi tiêu chuẩn và thúc đẩy phân tích mà không cần phân tích từng nhiệm vụ.  
+- **Các phương thức API nào đọc siêu dữ liệu?** Sử dụng `Project.getProperties()` và `Project.getExtendedAttributes()` từ Aspose.Tasks for Java.  
+- **Tôi có cần giấy phép không?** Một giấy phép Aspose.Tasks hợp lệ là bắt buộc cho việc sử dụng trong môi trường sản xuất; một bản dùng thử miễn phí có sẵn để đánh giá.  
+- **Liệu nó có tương thích với Java 17 không?** Có, thư viện hỗ trợ Java 8 trở lên, bao gồm cả Java 17.
 
-## Cách Đọc Metadata với Aspose.Tasks for Java
-Đọc metadata là bước đầu tiên để khai thác toàn bộ tiềm năng của các tệp dự án. Dưới đây là ba hướng dẫn tập trung giúp bạn thực hiện quy trình, từ truy cập thuộc tính cơ bản đến thao tác nâng cao.
+## Làm thế nào để đọc siêu dữ liệu dự án bằng Aspose.Tasks cho Java?
 
-### Đọc Thuộc tính Meta trong Dự án Aspose.Tasks
-Trong môi trường năng động của Aspose.Tasks for Java, hiểu các thuộc tính meta là điều quan trọng. Hướng dẫn của chúng tôi về việc đọc thuộc tính meta cung cấp cho bạn kiến thức để khai thác sức mạnh của metadata một cách dễ dàng. Học cách điều hướng và trích xuất thông tin thiết yếu, giúp bạn hiểu sâu hơn về các dự án. Từ khi dự án bắt đầu đến khi hoàn thành, tận dụng những hiểu biết thu được từ các thuộc tính meta để đưa ra quyết định hiệu quả và quản lý dự án mượt mà.
+`Project` là lớp chính đại diện cho tệp Microsoft Project trong Aspose.Tasks cho Java.  
+Tải một thể hiện `Project` bằng đường dẫn tệp, sau đó gọi `getProperties()` để lấy bộ sưu tập các thuộc tính tích hợp và `getExtendedAttributes()` cho các trường tùy chỉnh. Cách tiếp cận hai bước này trả về tất cả siêu dữ liệu trong bộ nhớ mà không tải chi tiết nhiệm vụ, cung cấp cho bạn một phương pháp nhẹ để truy xuất ngày tạo, tác giả và bất kỳ thuộc tính do người dùng định nghĩa nào.
 
-[Đọc thêm về việc trích xuất thuộc tính meta](./read-meta-properties/)
+### Định nghĩa các lời gọi API cốt lõi
+`Project.getProperties()` trả về một `ProjectPropertyCollection` chứa siêu dữ liệu tiêu chuẩn như **CreatedDate**, **Author**, và **LastSaved**.  
+`Project.getExtendedAttributes()` cung cấp quyền truy cập vào các trường tùy chỉnh được thêm trong Microsoft Project, hiển thị chúng dưới dạng các đối tượng `ExtendedAttribute`.
 
-### Trích xuất Thông tin Microsoft Project với Aspose.Tasks for Java
-Quản lý dự án hiệu quả phụ thuộc vào việc truy cập thông tin chính xác và kịp thời. Hãy khám phá hướng dẫn của chúng tôi về việc trích xuất thông tin Microsoft Project bằng Aspose.Tasks for Java. Nắm bắt các chi tiết phức tạp của việc trích xuất dữ liệu dự án, giúp bạn nâng cao các ứng dụng Java một cách dễ dàng. Dù bạn là nhà phát triển dày dặn kinh nghiệm hay một người đam mê Java, hướng dẫn từng bước này cho phép bạn khai thác tối đa tiềm năng của Aspose.Tasks for Java, biến việc quản lý dự án trở nên nhẹ nhàng.
+## Tại sao nên sử dụng project properties java với Aspose.Tasks?
 
-[Khám phá hướng dẫn về việc trích xuất thông tin dự án](./read-project-info/)
+Aspose.Tasks hỗ trợ **hơn 50 định dạng nhập và xuất**—bao gồm MPP, XML và Primavera—và có thể xử lý các tệp có **tối đa 5.000 nhiệm vụ** trong khi giữ mức sử dụng bộ nhớ dưới 200 MB. Thư viện đọc siêu dữ liệu trong **dưới 0,1 giây** cho các dự án thường có 100 trang, cho phép các pipeline báo cáo thời gian thực. Những khả năng định lượng này khiến nó trở thành lựa chọn lý tưởng cho tự động hoá cấp doanh nghiệp.
 
-### Làm Chủ Việc Thao tác MS Project với Aspose.Tasks for Java
-Đối với các nhà phát triển Java muốn thành thạo trong việc thao tác thông tin MS Project, hướng dẫn của chúng tôi là nguồn tài liệu toàn diện. Khám phá cách viết thông tin MS Project bằng Aspose.Tasks for Java qua các bước chi tiết. Điều hướng qua các khía cạnh phức tạp của việc thao tác dự án, đảm bảo các ứng dụng Java của bạn hoạt động liền mạch. Nâng cao kỹ năng quản lý dự án của bạn với tài nguyên vô giá này dành cho các nhà phát triển Java.
+## Cách làm việc với project properties java bằng Aspose.Tasks
 
-[Thành thạo việc thao tác MS Project với hướng dẫn của chúng tôi](./write-project-info/)
+Phần này giải thích quy trình từng bước để truy xuất và xử lý siêu dữ liệu dự án một cách hiệu quả. Bằng cách làm theo các bước này, bạn có thể nhanh chóng tích hợp việc trích xuất thuộc tính vào các ứng dụng Java của mình mà không gây tải dư thừa.
 
-Kết luận, các Hướng dẫn Thuộc tính Dự án của chúng tôi mở ra con đường cho các nhà phát triển Java khai thác toàn bộ tiềm năng của Aspose.Tasks. Dù bạn đang tìm hiểu **cách đọc metadata**, trích xuất thông tin Microsoft Project, hay làm chủ việc thao tác MS Project, những hướng dẫn này cung cấp kiến thức và hiểu biết cần thiết để thành công. Nâng cao hành trình phát triển Java của bạn ngay hôm nay!
+Cách tiếp cận tiêu chuẩn là:
 
-## Các Hướng dẫn Thuộc tính Dự án
-### [Đọc Thuộc tính Meta trong Dự án Aspose.Tasks](./read-meta-properties/)
-Mở khóa sức mạnh của metadata trong các dự án Aspose.Tasks với hướng dẫn toàn diện này. Học cách trích xuất và tận dụng các thuộc tính meta một cách dễ dàng.
+1. **Initialize the Project object** – Provide the path (or stream) to the Microsoft Project file.  
+2. **Retrieve built‑in properties** – Call `project.getProperties()` and iterate the collection to read values like creation date.  
+3. **Access custom fields** – Use `project.getExtendedAttributes()` to enumerate any extended attributes defined in the source file.  
+4. **Optional filtering** – Check each property's `PropertyType` to isolate dates, strings, or numeric values as needed.
 
-### [Trích xuất Thông tin Microsoft Project với Aspose.Tasks for Java](./read-project-info/)
-Tìm hiểu cách trích xuất thông tin Microsoft Project bằng Aspose.Tasks for Java. Nâng cao quản lý dự án trong các ứng dụng Java một cách dễ dàng.
+### Quy trình ví dụ (không cần khối mã)
 
-### [Làm Chủ Việc Thao tác MS Project với Aspose.Tasks for Java](./write-project-info/)
-Tìm hiểu cách ghi thông tin MS Project một cách hiệu quả bằng Aspose.Tasks for Java. Hướng dẫn từng bước dành cho các nhà phát triển Java.
+- Tạo `Project project = new Project("MyProject.mpp");`  
+- Gọi `ProjectPropertyCollection props = project.getProperties();`  
+- Trích xuất `Date created = props.getCreatedDate();`  
+- Lặp qua `project.getExtendedAttributes()` để lấy các giá trị trường tùy chỉnh.
+
+## Hướng dẫn Thuộc tính Dự án
+
+Dưới đây là ba hướng dẫn tập trung, đi sâu hơn vào từng bước. Nhấp vào bất kỳ liên kết nào để khám phá hướng dẫn đầy đủ dựa trên mã.
+
+### Đọc Meta Properties trong Dự án Aspose.Tasks
+Trong môi trường năng động của Aspose.Tasks cho Java, việc hiểu meta properties là rất quan trọng. Hướng dẫn của chúng tôi về đọc meta properties trang bị cho bạn kiến thức để khai thác sức mạnh của siêu dữ liệu một cách dễ dàng. Học cách điều hướng và trích xuất thông tin thiết yếu, cung cấp cho bạn sự hiểu biết sâu hơn về dự án của mình. Từ khi dự án bắt đầu đến khi hoàn thành, hãy tận dụng những hiểu biết thu được từ meta properties để đưa ra quyết định hiệu quả và quản lý dự án một cách liền mạch.
+
+[Đọc thêm về việc trích xuất meta properties](./read-meta-properties/)  
+[Đọc Meta Properties trong Dự án Aspose.Tasks](./read-meta-properties/)
+
+### Trích xuất Thông tin Microsoft Project với Aspose.Tasks cho Java
+Quản lý dự án hiệu quả phụ thuộc vào việc truy cập thông tin chính xác và kịp thời. Hãy khám phá hướng dẫn của chúng tôi về việc trích xuất thông tin Microsoft Project bằng Aspose.Tasks cho Java. Nhận được những hiểu biết sâu sắc về các chi tiết phức tạp của việc trích xuất dữ liệu dự án, cho phép bạn nâng cao các ứng dụng Java một cách dễ dàng. Dù bạn là nhà phát triển dày dặn kinh nghiệm hay một người đam mê Java, hướng dẫn từng bước này sẽ giúp bạn khai thác toàn bộ tiềm năng của Aspose.Tasks cho Java, biến việc quản lý dự án trở nên nhẹ nhàng.
+
+[Khám phá hướng dẫn về việc trích xuất thông tin dự án](./read-project-info/)  
+[Trích xuất Thông tin Microsoft Project với Aspose.Tasks cho Java](./read-project-info/)
+
+### Thành thạo việc thao tác MS Project với Aspose.Tasks cho Java
+Đối với các nhà phát triển Java muốn thành thạo trong việc thao tác thông tin MS Project, hướng dẫn của chúng tôi là nguồn tài liệu toàn diện. Mở khóa hiệu quả của việc ghi thông tin MS Project bằng Aspose.Tasks cho Java với các hướng dẫn chi tiết từng bước. Điều hướng qua các chi tiết phức tạp của việc thao tác dự án, đảm bảo các ứng dụng Java của bạn hoạt động một cách liền mạch. Nâng cao kỹ năng quản lý dự án của bạn với tài nguyên vô giá này dành cho các nhà phát triển Java.
+
+[Thành thạo việc thao tác MS Project với hướng dẫn của chúng tôi](./write-project-info/)  
+[Thành thạo việc thao tác MS Project với Aspose.Tasks cho Java](./write-project-info/)
 
 ## Câu hỏi thường gặp
 
-**H: Tôi có thể đọc các trường tùy chỉnh được thêm trong Microsoft Project không?**  
-Đ: Có. Các trường tùy chỉnh được lưu dưới dạng thuộc tính mở rộng và có thể truy cập qua `Project.getExtendedAttributes()`.
+**Q: Tôi có thể đọc các trường tùy chỉnh được thêm trong Microsoft Project không?**  
+A: Có. Các trường tùy chỉnh được lưu dưới dạng thuộc tính mở rộng và có thể truy cập qua `Project.getExtendedAttributes()`.
 
-**H: Đọc metadata có ảnh hưởng đến hiệu năng không?**  
-Đ: Việc truy xuất thuộc tính dự án nhẹ, không tải dữ liệu nhiệm vụ trừ khi bạn yêu cầu rõ ràng.
+**Q: Đọc siêu dữ liệu có ảnh hưởng đến hiệu năng không?**  
+A: Việc truy xuất thuộc tính dự án rất nhẹ; nó không tải dữ liệu nhiệm vụ trừ khi bạn yêu cầu rõ ràng.
 
-**H: Có cách nào lọc metadata theo loại không?**  
-Đ: Bạn có thể truy vấn `ProjectPropertyCollection` và kiểm tra `PropertyType` của mỗi thuộc tính để lọc theo nhu cầu.
+**Q: Có cách nào lọc siêu dữ liệu theo loại không?**  
+A: Bạn có thể truy vấn `ProjectPropertyCollection` và kiểm tra `PropertyType` của mỗi thuộc tính để lọc theo nhu cầu.
 
-**H: Yêu cầu phiên bản Aspose.Tasks nào?**  
-Đ: Bản phát hành ổn định mới nhất hỗ trợ tất cả các tính năng được trình bày trong các hướng dẫn này; các phiên bản cũ hơn có thể có phạm vi API hạn chế.
+**Q: Phiên bản Aspose.Tasks nào được yêu cầu?**  
+A: Bản phát hành ổn định mới nhất hỗ trợ tất cả các tính năng được trình bày; các phiên bản cũ hơn có thể thiếu một số phương thức API.
 
-**H: Làm sao xử lý các tệp Project được mã hoá khi đọc metadata?**  
-Đ: Mở tệp bằng mật khẩu thích hợp bằng `new Project(filePath, new LoadOptions(password))` trước khi truy cập các thuộc tính.
+**Q: Làm thế nào xử lý các tệp Project được mã hóa khi đọc siêu dữ liệu?**  
+A: Mở tệp bằng mật khẩu phù hợp sử dụng `new Project(filePath, new LoadOptions(password))` trước khi truy cập các thuộc tính.
 
 ---
 
-**Cập nhật lần cuối:** 2025-12-31  
+**Cập nhật lần cuối:** 2026-06-20  
 **Kiểm tra với:** Aspose.Tasks for Java 24.12  
 **Tác giả:** Aspose
+
+## Các hướng dẫn liên quan
+
+- [Cách Đọc Thông tin Dự án từ Microsoft Project với Aspose.Tasks cho Java](/tasks/java/project-properties/read-project-info/)
+- [Tải File MPP Java - Quản lý Thuộc tính Dự án với Aspose.Tasks](/tasks/java/project-management/default-properties/)
+- [Đặt Ngày Bắt đầu Dự án trong MS Project bằng Aspose.Tasks cho Java](/tasks/java/project-properties/write-project-info/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

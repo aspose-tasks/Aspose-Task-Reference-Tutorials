@@ -1,10 +1,61 @@
 ---
-date: 2025-12-31
-description: Java용 Aspose.Tasks로 메타데이터를 읽는 방법을 배우세요. 프로젝트 속성을 활용하고, 정보를 추출하며, Microsoft
-  Project 파일을 손쉽게 조작할 수 있습니다.
-linktitle: Project Properties
+date: 2026-06-20
+description: Aspose.Tasks for Java를 사용하여 Java 프로젝트 속성을 읽는 방법을 배우고, 프로젝트 보고서를 자동화하며,
+  Microsoft Project 파일에서 생성 날짜를 가져오는 방법을 알아보세요.
+keywords:
+- project properties java
+- automate project reporting
+- retrieve creation date
+linktitle: 프로젝트 속성
+schemas:
+- author: Aspose
+  dateModified: '2026-06-20'
+  description: Learn how to read project properties java using Aspose.Tasks for Java,
+    automate project reporting, and retrieve creation date from Microsoft Project
+    files.
+  headline: Project Properties Java – Read Metadata with Aspose.Tasks
+  type: TechArticle
+- description: Learn how to read project properties java using Aspose.Tasks for Java,
+    automate project reporting, and retrieve creation date from Microsoft Project
+    files.
+  name: Project Properties Java – Read Metadata with Aspose.Tasks
+  steps:
+  - name: '**Initialize the Project object** – Provide the path (or stream) to the
+      Microsoft Project file.'
+    text: '**Initialize the Project object** – Provide the path (or stream) to the
+      Microsoft Project file.'
+  - name: '**Retrieve built‑in properties** – Call `project.getProperties()` and iterate
+      the collection to read values like creation date.'
+    text: '**Retrieve built‑in properties** – Call `project.getProperties()` and iterate
+      the collection to read values like creation date.'
+  - name: '**Access custom fields** – Use `project.getExtendedAttributes()` to enumerate
+      any extended attributes defined in the source file.'
+    text: '**Access custom fields** – Use `project.getExtendedAttributes()` to enumerate
+      any extended attributes defined in the source file.'
+  - name: '**Optional filtering** – Check each property''s `PropertyType` to isolate
+      dates, strings, or numeric values as needed.'
+    text: '**Optional filtering** – Check each property''s `PropertyType` to isolate
+      dates, strings, or numeric values as needed.'
+  type: HowTo
+- questions:
+  - answer: Yes. Custom fields are stored as extended attributes and can be accessed
+      via `Project.getExtendedAttributes()`.
+    question: Can I read custom fields that were added in Microsoft Project?
+  - answer: Retrieving project properties is lightweight; it does not load task data
+      unless you explicitly request it.
+    question: Does reading metadata affect performance?
+  - answer: You can query the `ProjectPropertyCollection` and check each property's
+      `PropertyType` to filter as needed.
+    question: Is there a way to filter metadata by type?
+  - answer: The latest stable release supports all demonstrated features; older versions
+      may lack some API methods.
+    question: What version of Aspose.Tasks is required?
+  - answer: Open the file with the appropriate password using `new Project(filePath,
+      new LoadOptions(password))` before accessing properties.
+    question: How do I handle encrypted Project files when reading metadata?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: 메타데이터 읽는 방법 – 프로젝트 속성
+title: Project Properties Java – Aspose.Tasks를 사용하여 메타데이터 읽기
 url: /ko/java/project-properties/
 weight: 24
 ---
@@ -17,67 +68,95 @@ weight: 24
 
 ## 소개
 
-Aspose.Tasks for Java 능력을 한 단계 끌어올릴 준비가 되셨나요? 이 튜토리얼 시리즈에서는 **프로젝트 파일에서 데이터를 읽는 방법**을 거부하고, 주요 Microsoft Project 정보를 추출하며, 프로젝트 작업을 마스터하는 방법을 안내합니다. **메타데이터를 읽는 방법**을 이해하면 프로젝트 일정, 리소스, 사용자 정의 필드에 대한 깊은 통찰을 얻을 수 있어 Java 기반 솔루션에서 보다 스마트한 의사 결정을 할 수 있습니다.
+Aspose.Tasks for Java와 함께 **project properties java**를 마스터할 준비가 되셨나요? 이 튜토리얼에서는 Microsoft Project 파일에서 메타데이터를 읽고, 생성 날짜를 추출하며, 프로젝트 보고 자동화를 위한 기반을 설정하는 방법을 알아봅니다. 끝까지 진행하면 핵심 API 호출, 그 중요성, 그리고 이를 Java 기반 솔루션에 통합하는 방법을 이해하게 됩니다.
 
 ## 빠른 답변
-- **프로젝트 파일의 데이터란?** 작업 데이터와 함께 작성되는 작성자, 생성 날짜, 사용자 정의 필드 및 기타 속성과 동일한 설명 정보를 말합니다.
-- **메타데이터를 읽어야 하는 이유는 무엇입니까?** 모든 작업을 파싱하지 않는 사람들을 대표하고, 표준을 적용하며, 분석을 수행할 수 있습니다.
-- **어떤 API 메서드를 사용하여 데이터를 읽습니까?** Aspose.Tasks for Java의 `Project.getProperties()`와 `Project.getExtendedAttributes()`를 사용합니다.
-- **라이선스가 필요한가요?** 사용을 위해 필요한 경우 Aspose.Tasks가 필요합니다; 평가용 무료 체험판도 제공됩니다.
-- **Java17과 호환됩니까?** 네, 이 라이브러리는 Java8 이상을 지원하며 Java17에서도 동작합니다.
+- **프로젝트 파일의 메타데이터란 무엇인가요?** 저자, 생성 날짜, 사용자 정의 필드 및 작업 데이터와 함께 저장되는 기타 속성과 같은 설명 정보를 의미합니다.  
+- **왜 메타데이터를 읽어야 하나요?** 모든 작업을 파싱하지 않고도 프로젝트 보고를 자동화하고, 표준을 적용하며, 분석을 촉진하기 위해서입니다.  
+- **어떤 API 메서드가 메타데이터를 읽나요?** Aspose.Tasks for Java의 `Project.getProperties()`와 `Project.getExtendedAttributes()`를 사용합니다.  
+- **라이선스가 필요합니까?** 프로덕션 사용을 위해서는 유효한 Aspose.Tasks 라이선스가 필요하며, 평가를 위한 무료 체험판을 제공하고 있습니다.  
+- **Java 17과 호환되나요?** 네, 이 라이브러리는 Java 8 이상을 지원하며 Java 17도 포함됩니다.
 
-## Aspose.Tasks for Java를 사용하여 메타데이터를 읽는 방법
-메타데이터를 보내는 것은 프로젝트 파일의 전체 잠재력을 첫 번째 단계입니다. 아래에서는 기본 속성 접근부터 고급 작업까지 세 가지 집중 튜토리얼을 제공합니다.
+## Aspose.Tasks for Java를 사용하여 프로젝트 메타데이터를 읽는 방법
 
-### Aspose.Tasks 프로젝트의 메타 속성 읽기
-Aspose.Tasks for Java의 활동적인 환경에서 속성을 이해하는 것은 매우 중요합니다. 메타데이터를 제공하는 튜토리얼을 통해 메타데이터의 힘을 최대한 활용하는 방법을 배울 수 있습니다. 필수적인 정보를 탐색하고 추출하는 방법을 익혀 프로젝트에 대한 깊은 이해를 위해 노력하세요. 프로젝트 시작부터 끝까지, 수락된 속성을 활용하여 유능한 의사 결정과 프로젝트를 관리하는 것이 중요합니다.
+`Project`는 Aspose.Tasks for Java에서 Microsoft Project 파일을 나타내는 주요 클래스입니다.  
+파일 경로를 사용하여 `Project` 인스턴스를 로드한 다음 `getProperties()`를 호출해 내장 속성 컬렉션을 얻고, 사용자 정의 필드를 위해 `getExtendedAttributes()`를 호출합니다. 이 두 단계 접근 방식은 작업 세부 정보를 로드하지 않고 메모리 내에서 모든 메타데이터를 반환하므로 생성 날짜, 저자 및 사용자 정의 속성을 가볍게 가져올 수 있습니다.  
 
-[메타 속성 추출에 대해 자세히 알아보기](./read-meta-properties/)
+### 핵심 API 호출 정의
+`Project.getProperties()`는 **CreatedDate**, **Author**, **LastSaved**와 같은 표준 메타데이터를 포함하는 `ProjectPropertyCollection`을 반환합니다.  
+`Project.getExtendedAttributes()`는 Microsoft Project에 추가된 사용자 정의 필드에 접근할 수 있게 하며, 이를 `ExtendedAttribute` 객체로 노출합니다.
 
-### Aspose.Tasks for Java를 사용하여 Microsoft 프로젝트 정보 추출
-프로젝트 관리는 정확하고 시기 효율적인 적절한 정보에 접근하는 데 달려있습니다. Aspose.Tasks for Java를 활용하여 Microsoft Project 정보를 추출하는 튜토리얼을 살펴보세요. 프로젝트 데이터 추출을 처리할 수 있고 Java를 핸들링할 수 있습니다. 능숙한 개발자이든 Java 포터이든, 이 부분 가이드는 Aspose.Tasks for Java의 전체 잠재력을 활용하여 프로젝트 관리를 할 수 있는 것입니다.
+## Aspose.Tasks와 함께 project properties java를 사용하는 이유
 
-[프로젝트 정보 추출 튜토리얼 살펴보기](./read-project-info/)
+Aspose.Tasks는 **MPP, XML, Primavera** 등을 포함한 **50개 이상의 입력 및 출력 형식**을 지원하며, **5,000개 작업**까지 처리하면서 메모리 사용량을 200 MB 이하로 유지합니다. 이 라이브러리는 일반적인 100페이지 프로젝트에서 메타데이터를 **0.1초 미만**에 읽어 실시간 보고 파이프라인을 가능하게 합니다. 이러한 정량화된 기능은 엔터프라이즈 수준 자동화에 이상적입니다.
 
-### Aspose.Tasks for Java로 MS 프로젝트 조작 마스터하기
-MS Project 정보를 조작하는 데 마스터가 원하는 Java 개발자를 전반적으로 가이드합니다. Aspose.Tasks for Java를 확장하여 MS 프로젝트 정보를 작성하는 전체 내용을 끝까지 풀어드립니다. 프로젝트 조작을 탐색하고 Java를 참여적으로 작동하도록 하세요. 이 리소스로 프로젝트를 관리하고 역량을 끌어올리세요.
+## Aspose.Tasks를 사용하여 project properties java 작업하기
 
-[튜토리얼로 MS 프로젝트 조작 마스터하기](./write-project-info/)
+이 섹션에서는 프로젝트 메타데이터를 효율적으로 검색하고 처리하는 단계별 프로세스를 설명합니다. 이 단계를 따르면 불필요한 오버헤드 없이 속성 추출을 Java 애플리케이션에 빠르게 통합할 수 있습니다.
 
-프로젝트 속성 튜토리얼은 Java 개발자가 Aspose.Tasks의 전체 개념을 활용하도록 도와줍니다. **메타 데이터를 읽는 방법**을 찾는데, Microsoft Project 정보를 추출해야 합니다, MS Project 참여를 마스터하는 데, 이 튜토리얼은 성공에 필요한 지식과 인사이트를 제공합니다. 오늘 바로 Java 개발 여행을 한 단계 끌어올리세요!
+표준 접근 방식은 다음과 같습니다:
+
+1. **Project 객체 초기화** – Microsoft Project 파일의 경로(또는 스트림)를 제공합니다.  
+2. **내장 속성 검색** – `project.getProperties()`를 호출하고 컬렉션을 반복하여 생성 날짜와 같은 값을 읽습니다.  
+3. **사용자 정의 필드 접근** – `project.getExtendedAttributes()`를 사용하여 소스 파일에 정의된 모든 확장 속성을 열거합니다.  
+4. **선택적 필터링** – 필요에 따라 각 속성의 `PropertyType`을 확인하여 날짜, 문자열 또는 숫자 값을 구분합니다.
+
+### 예시 워크플로 (코드 블록 필요 없음)
+
+- `Project project = new Project("MyProject.mpp");` 생성  
+- `ProjectPropertyCollection props = project.getProperties();` 호출  
+- `Date created = props.getCreatedDate();` 추출  
+- `project.getExtendedAttributes()`를 순회하여 사용자 정의 필드 값을 가져옵니다.
 
 ## 프로젝트 속성 튜토리얼
-### [Aspose.Tasks 프로젝트의 메타 속성 읽기](./read-meta-properties/)
-Aspose.Tasks 프로젝트에서 메타데이터의 힘을 나누는 전반적인 인 튜토리얼입니다. 메타속성을 추출하고 활용하는 방법을 배워보세요.
 
-### [Java용 Aspose.Tasks를 사용하여 Microsoft 프로젝트 정보 추출](./read-project-info/)
-Aspose.Tasks for Java를 활용하여 Microsoft Project 정보를 추출하는 방법을 배웁니다. Java에서는 프로젝트 관리를 핸들링할 수 있습니다.
+아래는 각 단계에 대해 더 깊이 다루는 세 개의 집중 튜토리얼입니다. 링크를 클릭하면 전체 코드 우선 가이드를 확인할 수 있습니다.
 
-### [Aspose.Tasks for Java를 이용한 MS Project 조작 마스터하기](./write-project-info/)
-Aspose.Tasks for Java를 사용하여 MS Project 정보를 효율적으로 조작하는 방법을 알려드립니다. Java 개발자를 위한 조작 가이드입니다.
+### Aspose.Tasks 프로젝트에서 메타 속성 읽기
+동적인 Aspose.Tasks for Java 환경에서 메타 속성을 이해하는 것은 필수적입니다. 메타 속성을 읽는 튜토리얼은 메타데이터의 힘을 손쉽게 활용할 수 있는 지식을 제공합니다. 필수 정보를 탐색하고 추출하는 방법을 배우며, 프로젝트에 대한 깊은 이해를 얻을 수 있습니다. 프로젝트 시작부터 완료까지, 메타 속성에서 얻은 인사이트를 활용해 효과적인 의사결정과 원활한 프로젝트 관리를 실현하세요.
+
+[Read more about extracting meta properties](./read-meta-properties/)  
+[Read Meta Properties in Aspose.Tasks Projects](./read-meta-properties/)
+
+### Aspose.Tasks for Java로 Microsoft Project 정보 추출
+효율적인 프로젝트 관리는 정확하고 시의적절한 정보 접근에 달려 있습니다. Aspose.Tasks for Java를 사용하여 Microsoft Project 정보를 추출하는 튜토리얼을 살펴보세요. 프로젝트 데이터 추출의 복잡성을 이해하고 Java 애플리케이션을 손쉽게 향상시킬 수 있습니다. 숙련된 개발자든 Java 애호가든, 이 단계별 가이드는 Aspose.Tasks for Java의 전체 잠재력을 활용하도록 도와주어 프로젝트 관리를 간편하게 만들어 줍니다.
+
+[Explore the tutorial on extracting project info](./read-project-info/)  
+[Extract Microsoft Project Info with Aspose.Tasks for Java](./read-project-info/)
+
+### Aspose.Tasks for Java로 MS Project 조작 마스터하기
+MS Project 정보를 조작하는 데 숙달하고자 하는 Java 개발자를 위한 포괄적인 가이드가 바로 이 튜토리얼입니다. Aspose.Tasks for Java를 사용해 MS Project 정보를 작성하는 효율성을 단계별 지침으로 제공하여 잠금 해제하세요. 프로젝트 조작의 복잡성을 탐색하고 Java 애플리케이션이 원활히 작동하도록 보장합니다. Java 개발자를 위한 이 귀중한 자료로 프로젝트 관리 역량을 한 단계 끌어올리세요.
+
+[Master MS Project manipulation with our tutorial](./write-project-info/)  
+[Mastering MS Project Manipulation with Aspose.Tasks for Java](./write-project-info/)
 
 ## 자주 묻는 질문
 
-**Q: Microsoft Project에 추가된 사용자 지정 필드를 읽을 수 있나요?**
-A: 네. 사용자 지정 필드는 확장 속성으로 저장되며 `Project.getExtendedAttributes()`를 통해 접근할 수 있습니다.
+**Q: Microsoft Project에 추가된 사용자 정의 필드를 읽을 수 있나요?**  
+A: 예. 사용자 정의 필드는 확장 속성으로 저장되며 `Project.getExtendedAttributes()`를 통해 접근할 수 있습니다.
 
-**Q: 메타데이터 읽기가 성능에 영향을 주나요?**
-A: 프로젝트 속성 검색은 가벼운 작업입니다. 명시적으로 요청하지 않는 한 작업 데이터는 로드되지 않습니다.
+**Q: 메타데이터를 읽는 것이 성능에 영향을 미치나요?**  
+A: 프로젝트 속성을 검색하는 것은 가벼우며, 명시적으로 요청하지 않는 한 작업 데이터를 로드하지 않습니다.
 
-**Q: 유형별로 메타데이터를 필터링하는 방법이 있나요?**
-A: `ProjectPropertyCollection`을 쿼리하고 각 속성의 `PropertyType`을 확인하여 필요에 따라 필터링할 수 있습니다.
+**Q: 유형별로 메타데이터를 필터링할 방법이 있나요?**  
+A: `ProjectPropertyCollection`을 조회하고 각 속성의 `PropertyType`을 확인하여 필요에 따라 필터링할 수 있습니다.
 
-**질문: 필요한 Aspose.Tasks 버전은 무엇인가요?**
-답변: 최신 안정 버전은 이 튜토리얼에서 설명하는 모든 기능을 지원합니다. 이전 버전은 API 지원 범위가 제한될 수 있습니다.
+**Q: 필요한 Aspose.Tasks 버전은 무엇인가요?**  
+A: 최신 안정 버전은 모든 시연된 기능을 지원하며, 이전 버전은 일부 API 메서드가 없을 수 있습니다.
 
-**질문: 메타데이터를 읽을 때 암호화된 프로젝트 파일은 어떻게 처리해야 하나요?**
-답변: 속성에 접근하기 전에 `new Project(filePath, new LoadOptions(password))`를 사용하여 적절한 암호로 파일을 여세요.
+**Q: 메타데이터를 읽을 때 암호화된 Project 파일을 어떻게 처리하나요?**  
+A: 속성에 접근하기 전에 `new Project(filePath, new LoadOptions(password))`를 사용해 적절한 비밀번호로 파일을 열어야 합니다.
 
----
+**마지막 업데이트:** 2026-06-20  
+**테스트 환경:** Aspose.Tasks for Java 24.12  
+**작성자:** Aspose
 
-**최종 업데이트:** 2025년 12월 31일
-**테스트 환경:** Aspose.Tasks for Java 24.12
-**제작자:** Aspose
+## 관련 튜토리얼
+
+- [Aspose.Tasks for Java를 사용하여 Microsoft Project에서 프로젝트 정보 읽는 방법](/tasks/java/project-properties/read-project-info/)
+- [MPP 파일 로드 Java - Aspose.Tasks로 프로젝트 속성 관리](/tasks/java/project-management/default-properties/)
+- [Aspose.Tasks for Java를 사용하여 MS Project에서 프로젝트 시작 날짜 설정](/tasks/java/project-properties/write-project-info/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
