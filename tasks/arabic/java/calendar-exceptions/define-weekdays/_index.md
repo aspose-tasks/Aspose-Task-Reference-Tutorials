@@ -1,10 +1,74 @@
 ---
-date: 2026-01-28
-description: تعلم كيفية إنشاء تقويم المشروع باستخدام Aspose، وتحديد أيام الأسبوع لاستثناءات
-  التقويم، وإدارة جدول أيام غير العمل باستخدام Aspose.Tasks للغة Java.
-linktitle: Create Project Calendar Aspose – Define Weekdays for Calendar Exceptions
+date: 2026-07-29
+description: تعلم كيفية جدولة أيام عدم العمل عن طريق إنشاء تقويم مشروع باستخدام Aspose.Tasks
+  for Java، وتعريف استثناءات أيام الأسبوع وإدارة جداول العطلات.
+keywords:
+- schedule non working days
+- how to define weekdays
+- set non working days
+- java calendar exceptions
+lastmod: 2026-07-29
+linktitle: جدولة أيام عدم العمل – إنشاء تقويم المشروع Aspose
+og_description: جدولة أيام عدم العمل باستخدام Aspose.Tasks for Java. تعلم كيفية تعريف
+  أيام الأسبوع، وإضافة استثناءات التقويم، وإدارة جداول العطلات بفعالية.
+og_image_alt: 'Developer guide: schedule non working days with Aspose.Tasks Java'
+og_title: جدولة أيام عدم العمل – إنشاء تقويم المشروع Aspose
+schemas:
+- author: Aspose
+  dateModified: '2026-07-29'
+  description: Learn how to schedule non working days by creating a project calendar
+    with Aspose.Tasks for Java, defining weekday exceptions and managing holiday schedules.
+  headline: Schedule Non Working Days – Create Project Calendar Aspose
+  type: TechArticle
+- description: Learn how to schedule non working days by creating a project calendar
+    with Aspose.Tasks for Java, defining weekday exceptions and managing holiday schedules.
+  name: Schedule Non Working Days – Create Project Calendar Aspose
+  steps:
+  - name: Import Required Packages
+    text: We need the core Aspose.Tasks classes and Java’s `GregorianCalendar` for
+      date handling.
+  - name: Define the Data Directory
+    text: Specify where the generated project file will be saved.
+  - name: Create a Project Instance
+    text: '`Project` is the main object that holds all project data, including tasks,
+      resources, and calendars.'
+  - name: Define a Calendar
+    text: '`Calendar` represents a schedule of working and non‑working times within
+      a project.'
+  - name: Define Weekdays Exception
+    text: '`CalendarException` represents a period that is marked as non‑working in
+      a calendar.'
+  - name: Save the Project
+    text: Persist the project, including the custom calendar and its exception, to
+      an XML file.
+  type: HowTo
+- questions:
+  - answer: Yes. Add additional `CalendarException` objects to `cal.getExceptions()`
+      for each distinct period or rule.
+    question: Can I define multiple exceptions for different weekdays within the same
+      calendar?
+  - answer: Absolutely. The library works with IntelliJ IDEA, Eclipse, NetBeans, and
+      any IDE that supports standard Java projects.
+    question: Is Aspose.Tasks for Java compatible with different Java IDEs?
+  - answer: Yes. Use `CalendarExceptionType.Weekly`, `Monthly`, or `Yearly` to suit
+      your scheduling needs.
+    question: Can I customize exception types other than daily exceptions?
+  - answer: Build the exception objects programmatically—e.g., read holiday dates
+      from a database or configuration file and create `CalendarException` instances
+      in a loop.
+    question: How can I handle exceptions dynamically based on project requirements?
+  - answer: Yes, you can download a free trial from the [Aspose.Tasks Java download
+      page](https://releases.aspose.com/tasks/java/).
+    question: Is there a trial version available for Aspose.Tasks for Java?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: إنشاء تقويم المشروع Aspose – تحديد أيام الأسبوع لاستثناءات التقويم
+tags:
+- schedule non working days
+- Aspose.Tasks
+- Java calendar exceptions
+- project calendar
+- non-working days
+title: جدولة أيام عدم العمل – إنشاء تقويم المشروع Aspose
 url: /ar/java/calendar-exceptions/define-weekdays/
 weight: 11
 ---
@@ -13,44 +77,50 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# إنشاء تقويم مشروع Aspose – تعريف أيام الأسبوع لاستثناءات التقويم
+# جدولة أيام غير العمل – إنشاء تقويم مشروع Aspose
 
-### المقدمة
-عندما تحتاج إلى **create project calendar aspose**، يجب أن تكون قادرًا على نمذجة أيام العمل غير القياسية مثل العطلات، والنوبات الخاصة، أو الإغلاقات المؤقتة. توفر لك Aspose.Tasks for Java تحكمًا كاملاً في تعريفات التقويم، مما يتيح لك إضافة استثناءات تعكس الجداول الزمنية الواقعية. في هذا البرنامج التعليمي سنستعرض الخطوات الدقيقة لتعريف أيام الأسبوع لاستثناءات التقويم، بحيث تظل جداول مشروعك دقيقة وموثوقة. في النهاية ستلاحظ أيضًا كيف يتناسب ذلك مع استراتيجية **non‑working days schedule** الأوسع لأي مشروع مؤسسي.
+### مقدمة
+عندما تحتاج إلى **جدولة أيام غير العمل** لمشروع، يجب أن تكون قادرًا على نمذجة العطلات، والنوبات الخاصة، أو الإغلاقات المؤقتة مباشرةً في خطة المشروع. توفر لك Aspose.Tasks for Java تحكمًا كاملاً في تعريفات التقويم، مما يتيح لك إضافة استثناءات تعكس الجداول الزمنية الواقعية. في هذا البرنامج التعليمي سنستعرض الخطوات الدقيقة لتعريف أيام الأسبوع لاستثناءات التقويم، بحيث تظل جداول مشروعك دقيقة وموثوقة. في النهاية ستلاحظ أيضًا كيف يتناسب ذلك مع استراتيجية **جدولة أيام غير العمل** الأوسع لأي مشروع مؤسسي.
 
 ## إجابات سريعة
-- **What does “create project calendar aspose” mean?**  
-  يشير إلى استخدام Aspose.Tasks لإنشاء كائن تقويم مخصص يتحكم في جدولة المهام.
-- **Do I need a license to run the sample?**  
-  إصدار تجريبي مجاني يكفي للتطوير؛ يتطلب الترخيص التجاري للإنتاج.
-- **Which IDEs are supported?**  
-  IntelliJ IDEA، Eclipse، NetBeans، أو أي بيئة تطوير تدعم Java 8+.
-- **Can I add multiple exceptions to the same calendar?**  
-  نعم – يمكنك إضافة عدد غير محدود من كائنات `CalendarException` حسب الحاجة.
-- **What file formats can I save the project to?**  
-  XML، MPP، والعديد من الصيغ الأخرى التي تدعمها Aspose.Tasks.
+- **ماذا يعني “جدولة أيام غير العمل”؟**  
+  يعني استخدام Aspose.Tasks لإنشاء تقويم يحدد تواريخ معينة كغير عاملة، مما يؤثر على تواريخ المهام تلقائيًا.  
+- **هل أحتاج إلى ترخيص لتشغيل العينة؟**  
+  النسخة التجريبية المجانية تكفي للتطوير؛ يلزم ترخيص تجاري للإنتاج.  
+- **ما هي بيئات التطوير المتكاملة (IDE) المدعومة؟**  
+  IntelliJ IDEA، Eclipse، NetBeans، أو أي بيئة تطوير تدعم Java 8+.  
+- **هل يمكنني إضافة استثناءات متعددة إلى نفس التقويم؟**  
+  نعم – يمكنك إضافة عدد غير محدود من كائنات `CalendarException` حسب الحاجة.  
+- **ما هي صيغ الملفات التي يمكنني حفظ المشروع بها؟**  
+  XML، MPP، والعديد من الصيغ الأخرى التي يدعمها Aspose.Tasks.  
 
 ## ما هو تقويم المشروع في Aspose.Tasks؟
-يحدد **تقويم المشروع** أيام وساعات العمل للمشروع. يؤثر على تواريخ بدء/انتهاء المهام، وتخصيص الموارد، وحسابات الجدول الزمني العامة. من خلال تخصيص تقويم، تضمن أن الجدول الزمني يحترم القيود الواقعية مثل عطلات الشركة أو سياسات العمل في عطلات نهاية الأسبوع.
+**تقويم المشروع** هو الكائن الأعلى مستوى في Aspose.Tasks الذي يحدد أيام وساعات العمل للمشروع. يؤثر مباشرةً على تواريخ بدء/إنهاء المهام، وتخصيص الموارد، وحسابات الجدول الزمني العامة. من خلال تخصيص تقويم، تضمن أن الجدول الزمني يحترم القيود الواقعية مثل عطلات الشركة أو سياسات العمل في عطلات نهاية الأسبوع.
 
 ## لماذا تعريف أيام الأسبوع لاستثناءات التقويم؟
-- **Accurate timelines:** المهام لن تُجدول في الأيام التي تم وضع علامة غير عمل عليها.
-- **Resource planning:** يتم تخصيص الموارد فقط في أيام العمل الصالحة.
-- **Compliance:** يطابق جداول المشروع سياسات المنظمة أو العطلات القانونية.
+يضمن تعريف استثناءات أيام الأسبوع أن محرك المشروع يتعامل مع تلك الأيام كغير عاملة، مما يمنع جدولة المهام تلقائيًا فيها ويحافظ على توافق الجدول الزمني مع القيود الواقعية مثل العطلات، وفترات الصيانة، أو أنماط النوبات الخاصة عبر المؤسسة.
 
-## جدول أيام غير العمل مع استثناءات التقويم
-عند الحفاظ على **non‑working days schedule**، عادةً ما يكون لديك قائمة رئيسية بالعطلات، وفترات الصيانة، أو فترات الحظر الأخرى. إضافة تلك التواريخ ككائنات `CalendarException` يضمن أن كل حساب—سواء كان تحليل المسار الحرج أو تسوية الموارد—يحترم تلك القيود تلقائيًا. هذه الطريقة تلغي التعديلات اليدوية للتواريخ وتقلل من خطر انحراف الجدول.
+- **جداول زمنية دقيقة:** لن تُوضع المهام في العطلات أو فترات الحظر.  
+- **تخطيط الموارد:** تُخصص الموارد فقط في أيام العمل الصالحة، مما يمنع الإفراط في التخصيص.  
+- **الامتثال:** تتبع الجداول تلقائيًا سياسات المنظمة أو تقاويم العطلات القانونية.  
+
+## جدولة أيام غير العمل مع استثناءات التقويم
+عند الحفاظ على **جدولة أيام غير العمل**، عادةً ما يكون لديك قائمة رئيسية بالعطلات، وفترات الصيانة، أو فترات الحظر الأخرى. إضافة تلك التواريخ ككائنات `CalendarException` يضمن أن كل حساب—سواء كان تحليل المسار الحرج أو موازنة الموارد—يتبع تلك القيود تلقائيًا. هذه الطريقة تلغي التعديلات اليدوية للتواريخ وتقلل من خطر انحراف الجدول الزمني.
 
 ## المتطلبات المسبقة
-1. **Java Development Kit (JDK)** – الإصدار 8 أو أحدث.  
-2. **Aspose.Tasks for Java** – تحميل من صفحة [Aspose.Tasks Java download page](https://releases.aspose.com/tasks/java/).  
-3. **An IDE** – IntelliJ IDEA، Eclipse، NetBeans، أو أي محرر متوافق مع Java.
+قبل البدء، تأكد من وجود ما يلي:
 
-## كيفية إنشاء تقويم مشروع aspose – تعريف أيام الأسبوع لاستثناءات التقويم
+1. **Java Development Kit (JDK)** – الإصدار 8 أو أحدث.  
+2. **Aspose.Tasks for Java** – قم بتنزيله من صفحة [Aspose.Tasks Java download page](https://releases.aspose.com/tasks/java/).  
+3. **بيئة تطوير متكاملة (IDE)** – IntelliJ IDEA، Eclipse، NetBeans، أو أي محرر متوافق مع Java.  
+
+## كيفية جدولة أيام غير العمل باستخدام استثناءات التقويم
+حمّل مشروعك، أنشئ تقويمًا مخصصًا، وأضف كائنات `CalendarException` التي تحدد أيام الأسبوع المطلوبة كغير عاملة. يمكن إكمال هذه العملية بالكامل في بضع خطوات بسيطة، وسيؤثر التقويم الناتج تلقائيًا على جميع منطق جدولة المهام.
+
 ### دليل خطوة بخطوة
 
 ### الخطوة 1: استيراد الحزم المطلوبة
-نحتاج إلى الفئات الأساسية في Aspose.Tasks و`GregorianCalendar` في Java لمعالجة التواريخ.
+نحتاج إلى فئات Aspose.Tasks الأساسية وحزمة Java `GregorianCalendar` لمعالجة التواريخ.
 
 ```java
 import com.aspose.tasks.*;
@@ -58,29 +128,28 @@ import java.util.GregorianCalendar;
 ```
 
 ### الخطوة 2: تحديد دليل البيانات
-حدد المكان الذي سيتم حفظ ملف المشروع المُنشأ فيه.
+حدد الموقع الذي سيتم حفظ ملف المشروع المُنشأ فيه.
 
 ```java
 String dataDir = "Your Data Directory";
 ```
 
-### الخطوة 3: إنشاء نسخة من المشروع
-إنشاء كائن `Project` جديد – هذا هو الحاوية لجميع بيانات المشروع، بما في ذلك التقويمات.
+### الخطوة 3: إنشاء مثيل للمشروع
+`Project` هو الكائن الرئيسي الذي يحتوي على جميع بيانات المشروع، بما في ذلك المهام والموارد والتقويمات.
 
 ```java
 Project project = new Project();
 ```
 
 ### الخطوة 4: تعريف تقويم
-إضافة تقويم مخصص إلى المشروع. سيحتوي هذا التقويم على استثناءاتنا.
+`Calendar` يمثل جدولًا لأوقات العمل وغير العمل داخل المشروع.
 
 ```java
 Calendar cal = project.getCalendars().add("Calendar1");
 ```
 
 ### الخطوة 5: تعريف استثناء أيام الأسبوع
-إنشاء `CalendarException` يحدد نطاقًا من الأيام (مثلاً الأسبوع الأخير من ديسمبر) كغير عمل.  
-المثال يحدد الاستثناء من **24 Dec 2009** إلى **31 Dec 2009**، ويعطل العمل لتلك الأيام، ويعامل الاستثناء كنوع يومي.
+`CalendarException` يمثل فترة تم تحديدها كغير عاملة في تقويم.
 
 ```java
 CalendarException except = new CalendarException();
@@ -93,7 +162,7 @@ cal.getExceptions().add(except);
 ```
 
 ### الخطوة 6: حفظ المشروع
-حفظ المشروع، بما في ذلك التقويم المخصص واستثنائه، إلى ملف XML.
+احفظ المشروع، بما في ذلك التقويم المخصص واستثنائه، إلى ملف XML.
 
 ```java
 project.save(dataDir + "project.xml", SaveFileFormat.Xml);
@@ -102,35 +171,41 @@ project.save(dataDir + "project.xml", SaveFileFormat.Xml);
 ## المشكلات الشائعة والحلول
 | المشكلة | الحل |
 |-------|----------|
-| **Exception dates not applied** | تأكد من ضبط `setEnteredByOccurrences(false)` والقيم الصحيحة لـ `FromDate/ToDate`. |
-| **Saved file is empty** | تحقق من أن `dataDir` يشير إلى مجلد قابل للكتابة وأن اسم الملف ينتهي بـ `.xml`. |
-| **Calendar not reflected in task scheduling** | قم بتعيين التقويم للمهام أو الموارد باستخدام `task.setCalendar(cal)` أو `resource.setCalendar(cal)`. |
+| **تواريخ الاستثناء غير مطبقة** | تأكد من `setEnteredByOccurrences(false)` والقيم الصحيحة لـ `FromDate/ToDate`. |
+| **الملف المحفوظ فارغ** | تحقق من أن `dataDir` يشير إلى مجلد قابل للكتابة وأن اسم الملف ينتهي بـ `.xml`. |
+| **التقويم غير منعكس في جدولة المهام** | قم بتعيين التقويم للمهام أو الموارد باستخدام `task.setCalendar(cal)` أو `resource.setCalendar(cal)`. |
 
 ## الأسئلة المتكررة
 
-**Q: هل يمكنني تعريف استثناءات متعددة لأيام أسبوع مختلفة داخل نفس التقويم؟**  
-A: نعم. أضف كائنات `CalendarException` إضافية إلى `cal.getExceptions()` لكل فترة أو قاعدة مميزة.
+**س: هل يمكنني تعريف استثناءات متعددة لأيام أسبوع مختلفة داخل نفس التقويم؟**  
+ج: نعم. أضف كائنات `CalendarException` إضافية إلى `cal.getExceptions()` لكل فترة أو قاعدة مميزة.
 
-**Q: هل Aspose.Tasks for Java متوافق مع بيئات تطوير Java المختلفة؟**  
-A: بالطبع. المكتبة تعمل مع IntelliJ IDEA، Eclipse، NetBeans، وأي بيئة تطوير تدعم مشاريع Java القياسية.
+**س: هل Aspose.Tasks for Java متوافق مع بيئات تطوير Java المختلفة؟**  
+ج: بالتأكيد. المكتبة تعمل مع IntelliJ IDEA، Eclipse، NetBeans، وأي بيئة تطوير تدعم مشاريع Java القياسية.
 
-**Q: هل يمكنني تخصيص أنواع استثناء غير الاستثناءات اليومية؟**  
-A: نعم. استخدم `CalendarExceptionType.Weekly` أو `Monthly` أو `Yearly` لتلبية احتياجات الجدولة الخاصة بك.
+**س: هل يمكنني تخصيص أنواع استثناءات غير الاستثناءات اليومية؟**  
+ج: نعم. استخدم `CalendarExceptionType.Weekly` أو `Monthly` أو `Yearly` لتلبية احتياجاتك الجدولية.
 
-**Q: كيف يمكنني معالجة الاستثناءات بشكل ديناميكي بناءً على متطلبات المشروع؟**  
-A: قم بإنشاء كائنات الاستثناء برمجيًا—مثلاً، قراءة تواريخ العطلات من قاعدة بيانات أو ملف إعدادات وإنشاء مثيلات `CalendarException` داخل حلقة.
+**س: كيف يمكنني التعامل مع الاستثناءات بشكل ديناميكي بناءً على متطلبات المشروع؟**  
+ج: أنشئ كائنات الاستثناء برمجيًا—مثلاً، اقرأ تواريخ العطلات من قاعدة بيانات أو ملف إعدادات وأنشئ مثيلات `CalendarException` داخل حلقة.
 
-**Q: هل هناك نسخة تجريبية متاحة لـ Aspose.Tasks for Java؟**  
-A: نعم، يمكنك تنزيل نسخة تجريبية مجانية من [صفحة تحميل Aspose.Tasks Java](https://releases.aspose.com/tasks/java/).
+**س: هل هناك نسخة تجريبية متاحة لـ Aspose.Tasks for Java؟**  
+ج: نعم، يمكنك تنزيل نسخة تجريبية مجانية من صفحة [Aspose.Tasks Java download page](https://releases.aspose.com/tasks/java/).
 
 ## الخلاصة
-باتباع هذه الخطوات، أصبحت الآن تعرف كيفية **create project calendar aspose** وتعريف استثناءات أيام الأسبوع التي تعكس بدقة العطلات أو فترات غير العمل الخاصة. تكوين التقويم بشكل صحيح أمر أساسي للجداول الزمنية الواقعية، وتخصيص الموارد، ونجاح المشروع بشكل عام. استكشف المزيد عن طريق إرفاق التقويم المخصص بالمهام أو الموارد وتجربة أنواع استثناء أخرى لبناء **non‑working days schedule** شاملة لأي مشروع.
+باتباعك لهذه الخطوات، أصبحت الآن تعرف كيفية **جدولة أيام غير العمل** من خلال إنشاء تقويم مشروع وتعريف استثناءات أيام الأسبوع التي تعكس بدقة العطلات أو الفترات غير العاملة الخاصة. تكوين التقويم بشكل صحيح أمر أساسي للجداول الزمنية الواقعية، وتخصيص الموارد، ونجاح المشروع ككل. استكشف المزيد بربط التقويم المخصص بالمهام أو الموارد وتجربة أنواع استثناءات أخرى لبناء **جدولة أيام غير العمل** شاملة لأي مشروع.
 
 ---
 
-**آخر تحديث:** 2026-01-28  
+**آخر تحديث:** 2026-07-29  
 **تم الاختبار مع:** Aspose.Tasks for Java 24.11  
-**المؤلف:** Aspose  
+**المؤلف:** Aspose
+
+## الدروس ذات الصلة
+
+- [إضافة تقويم إلى المشروع باستخدام Aspose.Tasks for Java](/tasks/java/calendars/create/)
+- [إنشاء استثناء تقويم Aspose for Java](/tasks/java/calendar-exceptions/add-remove/)
+- [كيفية تعيين التقويم وتحديد أيام الأسبوع في MS Project باستخدام Aspose.Tasks](/tasks/java/calendars/define-weekdays/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
