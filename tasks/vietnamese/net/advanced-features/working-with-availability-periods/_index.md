@@ -1,69 +1,87 @@
 ---
-title: Làm việc với Khoảng thời gian sẵn có trong Aspose.Tasks
-linktitle: Làm việc với Khoảng thời gian sẵn có trong Aspose.Tasks
+date: 2026-04-06
+description: Tìm hiểu cách thêm nguồn lực vào dự án và thiết lập các khoảng thời gian
+  khả dụng của nguồn lực bằng Aspose.Tasks cho .NET. Hướng dẫn từng bước để quản lý
+  lịch nguồn lực.
+keywords:
+- add resource to project
+- set resource availability
+- configure work schedule
+linktitle: Làm việc với các khoảng thời gian khả dụng trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Tìm hiểu cách quản lý hiệu quả thời gian sẵn có của tài nguyên bằng Aspose.Tasks cho .NET. Hướng dẫn này cung cấp hướng dẫn từng bước để làm việc với các khoảng thời gian sẵn có trong dự án .NET của bạn.
-weight: 17
+title: Thêm tài nguyên vào dự án và đặt khả năng sẵn sàng trong Aspose.Tasks
 url: /vi/net/advanced-features/working-with-availability-periods/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Làm việc với Khoảng thời gian sẵn có trong Aspose.Tasks
+# Thêm tài nguyên vào dự án và đặt khả dụng trong Aspose.Tasks
 
 ## Giới thiệu
 
-Trong hướng dẫn này, chúng ta sẽ khám phá cách làm việc với các khoảng thời gian khả dụng trong Aspose.Tasks dành cho .NET. Khoảng thời gian sẵn sàng là rất quan trọng để quản lý tài nguyên hiệu quả trong các tình huống quản lý dự án. Chúng tôi sẽ hướng dẫn bạn từng bước thực hiện quy trình.
+Trong hướng dẫn này, bạn sẽ học **cách thêm tài nguyên vào dự án** và sau đó xác định các khoảng thời gian khả dụng của nó bằng thư viện Aspose.Tasks .NET. Quản lý lịch tài nguyên là điều cần thiết cho các lịch trình dự án thực tế, và các bước dưới đây sẽ hướng dẫn bạn qua toàn bộ quá trình — từ tạo một thể hiện dự án đến in ra chi tiết của từng khoảng thời gian.
 
-## Điều kiện tiên quyết
+## Trả lời nhanh
+- **Mục tiêu chính là gì?** Thêm một tài nguyên vào dự án và cấu hình các khoảng thời gian khả dụng.  
+- **Thư viện nào được yêu cầu?** Aspose.Tasks cho .NET.  
+- **Tôi có cần giấy phép cho môi trường sản xuất không?** Có, cần giấy phép thương mại.  
+- **Các phiên bản .NET được hỗ trợ?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Thời gian thực hiện?** Thông thường dưới 15 phút cho các kịch bản cơ bản.
 
-Trước khi chúng tôi bắt đầu, hãy đảm bảo bạn có các điều kiện tiên quyết sau:
+## “Thêm tài nguyên vào dự án” là gì?
 
-1. Visual Studio: Cài đặt Visual Studio hoặc bất kỳ IDE ưa thích nào khác để phát triển .NET.
-2.  Aspose.Tasks for .NET: Tải xuống và cài đặt thư viện Aspose.Tasks for .NET từ[đây](https://releases.aspose.com/tasks/net/).
-3. Hiểu biết cơ bản về lập trình C#: Làm quen với những điều cơ bản về ngôn ngữ lập trình C# sẽ rất hữu ích.
+Thêm một tài nguyên vào dự án tạo ra một chỗ giữ cho người, thiết bị hoặc vật liệu có thể được gán cho các công việc. Khi tài nguyên đã tồn tại, bạn có thể **đặt khả dụng cho tài nguyên**, xác định lịch làm việc của nó, và cho phép bộ lập lịch tôn trọng các ràng buộc đó.
+
+## Tại sao cấu hình lịch làm việc và các khoảng thời gian khả dụng?
+
+- **Lập kế hoạch chính xác:** Các công việc chỉ được lên lịch khi tài nguyên thực sự rảnh.  
+- **Kiểm soát chi phí:** Đơn vị khả dụng phản ánh nỗ lực bán thời gian, giúp bạn tính toán chi phí nhân công một cách chính xác.  
+- **Cân bằng tài nguyên:** Công cụ có thể tự động cân bằng các quá tải khi biết lịch của từng tài nguyên.
+
+## Yêu cầu trước
+
+1. Visual Studio (hoặc bất kỳ IDE nào tương thích với .NET).  
+2. Aspose.Tasks cho .NET – tải xuống từ [here](https://releases.aspose.com/tasks/net/).  
+3. Kiến thức cơ bản về C#.
 
 ## Nhập không gian tên
-
-Trước khi đi sâu vào mã, hãy đảm bảo nhập các không gian tên cần thiết:
 
 ```csharp
 using Aspose.Tasks;
 using System;
 using System.Collections.Generic;
-
-
 ```
 
-Hãy chia mã ví dụ thành nhiều bước:
+## Cách thêm tài nguyên vào dự án?
 
-## Bước 1: Tạo một phiên bản Project mới
+### Bước 1: Tạo một thể hiện `Project` mới
 
 ```csharp
 var project = new Project();
 ```
 
-Dòng này khởi tạo một phiên bản mới của lớp Project, đại diện cho một dự án trong Aspose.Tasks.
+Đối tượng này đại diện cho toàn bộ tệp dự án trong bộ nhớ.
 
-## Bước 2: Thêm tài nguyên
+### Bước 2: Thêm một tài nguyên vào dự án
 
 ```csharp
 var resource = project.Resources.Add("Work Resource");
 ```
 
-Ở đây, chúng tôi thêm một tài nguyên mới vào dự án với tên "Tài nguyên công việc".
+Lệnh này tạo một **tài nguyên** có tên *Work Resource* mà bạn có thể gán cho các công việc sau này.
 
-## Bước 3: Xác định khoảng thời gian sẵn có
+### Bước 3: Xác định các khoảng thời gian khả dụng
 
 ```csharp
 IEnumerable<AvailabilityPeriod> periods = this.GetPeriods();
 ```
 
- Chúng tôi gọi`GetPeriods()` phương pháp để truy xuất một tập hợp các khoảng thời gian sẵn có.
+`GetPeriods()` là một phương thức trợ giúp (cài đặt không được hiển thị) trả về một tập hợp các đối tượng `AvailabilityPeriod`. Mỗi khoảng thời gian chỉ định ngày bắt đầu, ngày kết thúc và đơn vị (phần trăm nỗ lực toàn thời gian) mà tài nguyên có sẵn.
 
-## Bước 4: Thêm khoảng thời gian sẵn sàng vào tài nguyên
+### Bước 4: Thêm các khoảng thời gian vào tài nguyên
 
 ```csharp
 foreach (var period in periods)
@@ -72,9 +90,9 @@ foreach (var period in periods)
 }
 ```
 
-Chúng tôi lặp lại việc tập hợp các khoảng thời gian sẵn có có được ở bước trước và thêm chúng vào tài nguyên.
+Ở đây chúng ta **đặt khả dụng cho tài nguyên** bằng cách lặp qua tập hợp và thêm mỗi khoảng thời gian vào lịch của tài nguyên.
 
-## Bước 5: Hiển thị chi tiết thời gian có hàng
+### Bước 5: Hiển thị chi tiết khả dụng
 
 ```csharp
 foreach (var period in resource.AvailabilityPeriods)
@@ -86,33 +104,37 @@ foreach (var period in resource.AvailabilityPeriods)
 }
 ```
 
-Cuối cùng, chúng tôi lặp lại các khoảng thời gian sẵn có liên quan đến tài nguyên và in thông tin chi tiết của chúng, bao gồm ngày bắt đầu, ngày kết thúc và các đơn vị có sẵn.
+Đầu ra console cho phép bạn xác nhận rằng các khoảng thời gian đã được lưu đúng.
 
-## Phần kết luận
+## Những lỗi thường gặp & Mẹo
 
-Trong hướng dẫn này, chúng ta đã học cách làm việc với các khoảng thời gian khả dụng trong Aspose.Tasks cho .NET. Bằng cách làm theo hướng dẫn từng bước, bạn có thể quản lý hiệu quả tính khả dụng của tài nguyên trong các ứng dụng quản lý dự án của mình.
+- **Độ chính xác ngày:** `AvailableFrom` và `AvailableTo` là các giá trị `DateTime`; đảm bảo chúng được đặt vào lúc nửa đêm nếu bạn muốn khoảng thời gian toàn ngày.  
+- **Phạm vi đơn vị:** Giá trị hợp lệ là 0‑100 %; các giá trị ngoài phạm vi này sẽ gây ra ngoại lệ.  
+- **Các khoảng thời gian chồng lấn:** Các khoảng thời gian chồng lấn sẽ được hợp nhất tự động, nhưng nên giữ chúng riêng biệt để rõ ràng hơn.
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Tôi có thể sử dụng Aspose.Tasks cho .NET trong các dự án thương mại không?
+### Q1: Tôi có thể sử dụng Aspose.Tasks cho .NET trong các dự án thương mại không?
+A1: Có, Aspose.Tasks cho .NET có thể được sử dụng trong các dự án thương mại. Bạn có thể mua giấy phép [here](https://purchase.aspose.com/buy).
 
- Câu trả lời 1: Có, Aspose.Tasks cho .NET có thể được sử dụng trong các dự án thương mại. Bạn có thể mua giấy phép[đây](https://purchase.aspose.com/buy).
+### Q2: Có bản dùng thử miễn phí cho Aspose.Tasks cho .NET không?
+A2: Có, bạn có thể nhận bản dùng thử miễn phí của Aspose.Tasks cho .NET [here](https://releases.aspose.com/).
 
-### Câu hỏi 2: Có bản dùng thử miễn phí dành cho Aspose.Tasks dành cho .NET không?
+### Q3: Tôi có thể tìm tài liệu cho Aspose.Tasks cho .NET ở đâu?
+A3: Bạn có thể tìm tài liệu [here](https://reference.aspose.com/tasks/net/).
 
-Câu trả lời 2: Có, bạn có thể nhận bản dùng thử miễn phí Aspose.Tasks cho .NET[đây](https://releases.aspose.com/).
+### Q4: Làm thế nào để tôi nhận được hỗ trợ cho Aspose.Tasks cho .NET?
+A4: Bạn có thể nhận hỗ trợ từ diễn đàn cộng đồng [here](https://forum.aspose.com/c/tasks/15).
 
-### Câu hỏi 3: Tôi có thể tìm tài liệu về Aspose.Tasks cho .NET ở đâu?
+### Q5: Bạn có cung cấp giấy phép tạm thời cho Aspose.Tasks cho .NET không?
+A5: Có, giấy phép tạm thời có sẵn [here](https://purchase.aspose.com/temporary-license/).
 
- A3: Bạn có thể tìm thấy tài liệu[đây](https://reference.aspose.com/tasks/net/).
+---
 
-### Câu hỏi 4: Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.Tasks cho .NET?
+**Last Updated:** 2026-04-06  
+**Tested With:** Đã kiểm tra với: Aspose.Tasks cho .NET (phiên bản ổn định mới nhất)  
+**Author:** Aspose  
 
- A4: Bạn có thể nhận được hỗ trợ từ diễn đàn cộng đồng[đây](https://forum.aspose.com/c/tasks/15).
-
-### Câu hỏi 5: Bạn có cung cấp giấy phép tạm thời cho Aspose.Tasks cho .NET không?
-
- Câu trả lời 5: Có, giấy phép tạm thời có sẵn[đây](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

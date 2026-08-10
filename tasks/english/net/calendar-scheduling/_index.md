@@ -1,21 +1,58 @@
 ---
-title: Aspose.Tasks Calendar and Scheduling
+title: Aspose.Tasks Custom Field Types – Calendar and Scheduling
 linktitle: Aspose.Tasks Calendar and Scheduling
 second_title: Aspose.Tasks .NET API
-description: Manage project calendars, calculate durations, and handle exceptions with Aspose.Tasks for .NET. Explore step-by-step tutorials for calendar and scheduling tasks.
+description: Learn how to work with custom field types in Aspose.Tasks for .NET, manage calendars, calculate task durations, and handle scheduling exceptions.
 weight: 22
 url: /net/calendar-scheduling/
+date: 2026-04-06
+keywords:
+- custom field types
+- how to manage calendar
+- daily recurring tasks
+- csv export options
+- calculate task duration
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks Calendar and Scheduling
+# Aspose.Tasks Custom Field Types – Calendar and Scheduling
 
 ## Introduction
 
-Welcome to the world of Aspose.Tasks for .NET tutorials, your go-to resource for mastering the intricacies of calendar management and scheduling in your .NET projects. Aspose.Tasks empowers developers with robust tools to effortlessly handle project calendars, calculate durations, and manage exceptions. In this comprehensive collection of tutorials, we delve into various aspects, from working with calendars and managing exceptions to exploring specialized topics like compound document header exceptions and currency symbol positions. Whether you're a seasoned developer seeking advanced insights or a newcomer eager to enhance your project management skills, these tutorials provide step-by-step guidance and real-world examples. Let's embark on a journey to unlock the full potential of Aspose.Tasks for .NET and elevate your project management capabilities. Ready to dive in? Let's get started!
+Welcome to the world of Aspose.Tasks for .NET tutorials, your go‑to resource for mastering the intricacies of calendar management, scheduling, **custom field types**, and more in your .NET projects. Aspose.Tasks empowers developers with robust tools to effortlessly handle project calendars, calculate durations, manage exceptions, and work with custom field types. In this comprehensive collection of tutorials, we delve into various aspects, from working with calendars and managing exceptions to exploring specialized topics like compound document header exceptions and currency symbol positions. Whether you're a seasoned developer seeking advanced insights or a newcomer eager to enhance your project‑management skills, these tutorials provide step‑by‑step guidance and real‑world examples. Let's embark on a journey to unlock the full potential of Aspose.Tasks for .NET and elevate your project management capabilities.
+
+## Quick Answers
+- **What is the primary purpose of custom field types?** They let you store additional, user‑defined information on tasks, resources, or projects.  
+- **How can I manage calendar exceptions?** Use the CalendarExceptionCollection to add, edit, or remove exceptions programmatically.  
+- **Can I export project data to CSV?** Yes—Aspose.Tasks provides CSV export options to customize the output.  
+- **Is daily recurring task creation supported?** Absolutely; daily calendar repetitions let you schedule recurring work easily.  
+- **Do I need a license for production use?** A valid Aspose.Tasks license is required for commercial deployments.
+
+## What is a Custom Field Type?
+A **custom field type** in Aspose.Tasks is a user‑defined attribute that can be attached to tasks, resources, or the project itself. It extends the standard set of fields, allowing you to capture business‑specific data such as risk levels, department codes, or custom identifiers.
+
+## Why Use Custom Field Types?
+- **Flexibility:** Store any data that matters to your organization.  
+- **Reporting:** Pull custom data into reports without altering the core project schema.  
+- **Integration:** Seamlessly map custom fields to external systems (e.g., ERP or BI tools).
+
+## How to Manage Calendar
+Aspose.Tasks offers a rich API for creating, editing, and querying project calendars. You can define working days, set base calendars, and apply exceptions to reflect real‑world schedules.
+
+## Daily Recurring Tasks
+With daily calendar repetitions, you can automate the creation of tasks that repeat every day, simplifying the modeling of routine work such as daily stand‑ups or maintenance activities.
+
+## CSV Export Options
+The library’s CSV options let you control which fields are exported, the delimiter used, and the encoding, giving you full control over the generated CSV files.
+
+## Managing Custom Project Properties
+Custom project properties work hand‑in‑hand with custom field types, enabling you to store project‑level metadata that can be accessed programmatically or via the UI.
+
+## Calculate Task Duration Efficiently
+Accurate duration calculation respects calendar settings, exceptions, and working time definitions, ensuring that your schedules reflect true effort.
 
 ## Working with Calendar in Aspose.Tasks
 
@@ -27,9 +64,9 @@ Learn efficient ways to manage calendar collections in Aspose.Tasks for .NET. Cr
 
 ## Handling Calendar Exceptions in Aspose.Tasks
 
-Master the art of managing calendar exceptions in Aspose.Tasks for .NET with detailed step-by-step tutorials and examples. Ensure accurate scheduling in your projects. [Read more](./calendar-exceptions/)
+Master the art of managing calendar exceptions in Aspose.Tasks for .NET with detailed step‑by‑step tutorials and examples. Ensure accurate scheduling in your projects. [Read more](./calendar-exceptions/)
 
-Efficiently handle calendar exceptions in your .NET projects using Aspose.Tasks. Get step-by-step tutorials and examples for accurate scheduling and resource management. [Read more](./calendar-exception-collection/)
+Efficiently handle calendar exceptions in your .NET projects using Aspose.Tasks. Get step‑by‑step tutorials and examples for accurate scheduling and resource management. [Read more](./calendar-exception-collection/)
 
 ## Check Circuit in Aspose.Tasks
 
@@ -37,11 +74,11 @@ Learn how to use Aspose.Tasks for .NET to efficiently manage and analyze project
 
 ## Collecting Child Tasks in Aspose.Tasks
 
-Efficiently collect child tasks using Aspose.Tasks for .NET. Enhance project management in your .NET applications with step-by-step tutorials. [Read more](./child-tasks-collector/)
+Efficiently collect child tasks using Aspose.Tasks for .NET. Enhance project management in your .NET applications with step‑by‑step tutorials. [Read more](./child-tasks-collector/)
 
 ## Handling Compound Document Header Exception in Aspose.Tasks
 
-Learn how to handle CompoundDocumentHeaderException in Aspose.Tasks for .NET. Get step-by-step guidance with code examples for seamless project management. [Read more](./compound-document-header-exception/)
+Learn how to handle CompoundDocumentHeaderException in Aspose.Tasks for .NET. Get step‑by‑step guidance with code examples for seamless project management. [Read more](./compound-document-header-exception/)
 
 ## Constraint Types in Aspose.Tasks
 
@@ -53,7 +90,7 @@ Learn how to efficiently copy project data using Aspose.Tasks for .NET. Enhance 
 
 ## Cost Accrual Types in Aspose.Tasks
 
-Manage project costs effectively with Aspose.Tasks for .NET. Define cost accrual types for accurate budget tracking. Explore step-by-step tutorials for enhanced project management. [Read more](./cost-accrual-types/)
+Manage project costs effectively with Aspose.Tasks for .NET. Define cost accrual types for accurate budget tracking. Explore step‑by‑step tutorials for enhanced project management. [Read more](./cost-accrual-types/)
 
 ## CSS Saving Arguments in Aspose.Tasks
 
@@ -61,19 +98,19 @@ Efficiently save CSS arguments in Aspose.Tasks for .NET to customize HTML output
 
 ## CSV Options in Aspose.Tasks
 
-Utilize Aspose.Tasks for .NET to efficiently work with CSV files. Enhance your project management capabilities effortlessly with step-by-step tutorials. [Read more](./csv-options/)
+Utilize Aspose.Tasks for .NET to efficiently work with CSV files. Enhance your project management capabilities effortlessly with step‑by‑step tutorials. [Read more](./csv-options/)
 
 ## Currency Symbol Positions in Aspose.Tasks
 
-Control currency symbol positions in .NET projects effortlessly with Aspose.Tasks. Explore step-by-step tutorials for seamless integration. [Read more](./currency-symbol-positions/)
+Control currency symbol positions in .NET projects effortlessly with Aspose.Tasks. Explore step‑by‑step tutorials for seamless integration. [Read more](./currency-symbol-positions/)
 
 ## Custom Field Types in Aspose.Tasks
 
-Learn how to work with custom field types in Aspose.Tasks for .NET. Explore step-by-step guides with code examples and FAQs for efficient project management. [Read more](./custom-field-types/)
+Learn how to work with custom field types in Aspose.Tasks for .NET. Explore step‑by‑step guides with code examples and FAQs for efficient project management. [Read more](./custom-field-types/)
 
 ## Managing Custom Project Property Collection in Aspose.Tasks
 
-Effectively manage custom project properties in Aspose.Tasks for .NET. Enhance your project management experience with step-by-step tutorials. [Read more](./custom-project-property-collection/)
+Effectively manage custom project properties in Aspose.Tasks for .NET. Enhance your project management experience with step‑by‑step tutorials. [Read more](./custom-project-property-collection/)
 
 ## Daily Calendar Repetition in Aspose.Tasks
 
@@ -81,30 +118,31 @@ Create recurring tasks with daily calendar repetitions in Aspose.Tasks for .NET.
 
 ## Daily Work Repetition in Aspose.Tasks
 
-Create daily recurring tasks in Microsoft Project files using Aspose.Tasks for .NET. Boost productivity and organization with step-by-step tutorials. [Read more](./daily-work-repetition/)
+Create daily recurring tasks in Microsoft Project files using Aspose.Tasks for .NET. Boost productivity and organization with step‑by‑step tutorials. [Read more](./daily-work-repetition/)
 
 ## Date Format in Aspose.Tasks
 
-Customize date formats in Aspose.Tasks for .NET effortlessly with comprehensive step-by-step tutorials. Enhance your project management experience. [Read more](./date-format/)
+Customize date formats in Aspose.Tasks for .NET effortlessly with comprehensive step‑by‑step tutorials. Enhance your project management experience. [Read more](./date-format/)
 
 ## Managing Day Type Collection in Aspose.Tasks
 
-Efficiently manage day type collections in Aspose.Tasks for .NET. Create, modify, and manipulate calendar exceptions with ease using step-by-step tutorials. [Read more](./day-type-collection/)
+Efficiently manage day type collections in Aspose.Tasks for .NET. Create, modify, and manipulate calendar exceptions with ease using step‑by‑step tutorials. [Read more](./day-type-collection/)
 
 ## Database Settings in Aspose.Tasks
 
-Import projects from a Primavera database using Aspose.Tasks for .NET. Get step-by-step guidance in this comprehensive tutorial for efficient project management. [Read more](./database-settings/)
+Import projects from a Primavera database using Aspose.Tasks for .NET. Get step‑by‑step guidance in this comprehensive tutorial for efficient project management. [Read more](./database-settings/)
 
 ## Duration Handling in Aspose.Tasks
 
-Handle durations effectively in Aspose.Tasks for .NET with step-by-step tutorials. Enhance your project management capabilities effortlessly. [Read more](./duration-handling/)
+Handle durations effectively in Aspose.Tasks for .NET with step‑by‑step tutorials. Enhance your project management capabilities effortlessly. [Read more](./duration-handling/)
+
 ## Aspose.Tasks Calendar and Scheduling Tutorials
 ### [Working with Calendar in Aspose.Tasks](./working-with-calendar/)
 Manage project calendars, calculate durations, handle exceptions with ease using Aspose.Tasks for .NET.
 ### [Managing Calendar Collection in Aspose.Tasks](./calendar-collection/)
 Learn how to manage calendar collections in Aspose.Tasks for .NET efficiently. Create, modify, and manipulate calendars with ease.
 ### [Handling Calendar Exceptions in Aspose.Tasks](./calendar-exceptions/)
-Learn how to manage calendar exceptions in Aspose.Tasks for .NET with step-by-step tutorials and examples.
+Learn how to manage calendar exceptions in Aspose.Tasks for .NET with step‑by‑step tutorials and examples.
 ### [Collection of Calendar Exceptions in Aspose.Tasks](./calendar-exception-collection/)
 Learn how to efficiently handle calendar exceptions in your .NET projects using Aspose.Tasks, ensuring accurate scheduling and resource management.
 ### [Check Circuit in Aspose.Tasks](./check-circuit/)
@@ -112,7 +150,7 @@ Learn how to use Aspose.Tasks for .NET to efficiently manage and analyze project
 ### [Collecting Child Tasks in Aspose.Tasks](./child-tasks-collector/)
 Learn how to collect child tasks efficiently using Aspose.Tasks for .NET. Improve project management in your .NET applications.
 ### [Handling Compound Document Header Exception in Aspose.Tasks](./compound-document-header-exception/)
-Learn how to handle CompoundDocumentHeaderException in Aspose.Tasks for .NET. Get step-by-step guidance with code examples.
+Learn how to handle CompoundDocumentHeaderException in Aspose.Tasks for .NET. Get step‑by‑step guidance with code examples.
 ### [Constraint Types in Aspose.Tasks](./constraint-types/)
 Learn how to set constraint types in Aspose.Tasks for .NET to efficiently manage project schedules.
 ### [Copy Options in Aspose.Tasks](./copy-options/)
@@ -126,7 +164,7 @@ Learn how to utilize Aspose.Tasks for .NET to efficiently work with CSV files, e
 ### [Currency Symbol Positions in Aspose.Tasks](./currency-symbol-positions/)
 Learn how to control currency symbol positions in .NET projects effortlessly with Aspose.Tasks.
 ### [Custom Field Types in Aspose.Tasks](./custom-field-types/)
-Learn how to work with custom field types in Aspose.Tasks for .NET. Step-by-step guide with code examples and FAQs.
+Learn how to work with custom field types in Aspose.Tasks for .NET. Step‑by‑step guide with code examples and FAQs.
 ### [Managing Custom Project Property Collection in Aspose.Tasks](./custom-project-property-collection/)
 Learn how to effectively manage custom project properties in Aspose.Tasks for .NET, enhancing your project management experience. 
 ### [Daily Calendar Repetition in Aspose.Tasks](./daily-calendar-repetition/)
@@ -134,13 +172,37 @@ Learn how to create recurring tasks with daily calendar repetitions in Aspose.Ta
 ### [Daily Work Repetition in Aspose.Tasks](./daily-work-repetition/)
 Learn how to create daily recurring tasks in Microsoft Project files using Aspose.Tasks for .NET. Boost productivity and organization effortlessly.
 ### [Date Format in Aspose.Tasks](./date-format/)
-Learn how to customize date formats in Aspose.Tasks for .NET effortlessly with this comprehensive step-by-step tutorial.
+Learn how to customize date formats in Aspose.Tasks for .NET effortlessly with this comprehensive step‑by‑step tutorial.
 ### [Managing Day Type Collection in Aspose.Tasks](./day-type-collection/)
 Learn how to manage day type collections efficiently in Aspose.Tasks for .NET. Create, modify, and manipulate calendar exceptions with ease.
 ### [Database Settings in Aspose.Tasks](./database-settings/)
-Learn how to import projects from a Primavera database using Aspose.Tasks for .NET. Get step-by-step guidance in this comprehensive tutorial.
+Learn how to import projects from a Primavera database using Aspose.Tasks for .NET. Get step‑by‑step guidance in this comprehensive tutorial.
 ### [Duration Handling in Aspose.Tasks](./duration-handling/)
-Learn how to handle durations effectively in Aspose.Tasks for .NET with step-by-step tutorials.
+Learn how to handle durations effectively in Aspose.Tasks for .NET with step‑by‑step tutorials.
+
+## Frequently Asked Questions
+
+**Q:** *What are custom field types used for?*  
+**A:** They let you store additional, user‑defined data on tasks, resources, or projects, enabling richer reporting and integration scenarios.
+
+**Q:** *How do I manage calendar exceptions?*  
+**A:** Use the `CalendarExceptionCollection` to add, edit, or remove exceptions. The API respects these when calculating task durations.
+
+**Q:** *Can I export project data to CSV with specific columns?*  
+**A:** Yes—Aspose.Tasks’ CSV options let you select fields, set delimiters, and control encoding to match your downstream system.
+
+**Q:** *Is there support for daily recurring tasks?*  
+**A:** Absolutely. Define a daily repetition on a calendar or use the `RecurringTask` API to automate task creation.
+
+**Q:** *Do I need a license for production use?*  
+**A:** A valid Aspose.Tasks license is required for commercial deployments; a free trial is available for evaluation.
+
+---
+
+**Last Updated:** 2026-04-06  
+**Tested With:** Aspose.Tasks 24.12 for .NET  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

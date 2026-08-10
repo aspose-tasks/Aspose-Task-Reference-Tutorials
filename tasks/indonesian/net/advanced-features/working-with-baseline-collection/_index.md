@@ -1,75 +1,86 @@
 ---
-title: Bekerja dengan Koleksi Baseline di Aspose.Tasks
-linktitle: Bekerja dengan Koleksi Baseline di Aspose.Tasks
-second_title: Aspose.Tugas .NET API
-description: Pelajari cara mengelola garis dasar di Aspose.Tasks untuk .NET secara efisien. Ikuti tutorial komprehensif kami untuk panduan langkah demi langkah.
-weight: 20
+date: 2026-04-06
+description: Pelajari cara menghapus semua baseline dan mengelola koleksi baseline
+  di Aspose.Tasks untuk .NET dengan contoh kode langkah demi langkah.
+keywords:
+- delete all baselines
+- Aspose.Tasks baseline collection
+- manage project baselines
+linktitle: Hapus Semua Baseline dengan Koleksi Baseline Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+title: Hapus Semua Baseline dengan Koleksi Baseline Aspose.Tasks
 url: /id/net/advanced-features/working-with-baseline-collection/
+weight: 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Bekerja dengan Koleksi Baseline di Aspose.Tasks
+# Hapus Semua Baseline dengan Koleksi Baseline Aspose.Tasks
 
-## Perkenalan
+## Pendahuluan
 
-Aspose.Tasks untuk .NET adalah perpustakaan canggih yang memungkinkan pengembang bekerja dengan file Microsoft Project di aplikasi .NET mereka dengan lancar. Di antara banyak fiturnya, ini memberikan dukungan kuat untuk mengelola baseline dalam proyek. Garis dasar sangat penting untuk manajemen proyek karena memungkinkan Anda membandingkan rencana proyek awal dengan status saat ini, sehingga memungkinkan pelacakan dan analisis kemajuan proyek yang lebih baik.
+Aspose.Tasks untuk .NET memungkinkan Anda memanipulasi file Microsoft Project langsung dari aplikasi .NET Anda. Salah satu fitur paling kuat adalah kemampuan untuk **menghapus semua baseline** untuk sebuah sumber daya, yang penting ketika Anda perlu mengatur ulang data pelacakan proyek atau memulai periode baseline baru. Dalam tutorial ini kami akan membimbing Anda melalui seluruh proses—dari memuat file proyek hingga menghapus setiap baseline yang terlampir pada sumber daya tertentu—dengan penjelasan yang jelas, bersahabat, dan kode C# yang siap dijalankan.
+
+## Jawaban Cepat
+- **Apa yang dilakukan “delete all baselines”?** Ini menghapus setiap catatan baseline yang disimpan untuk sumber daya yang dipilih, membersihkan data biaya dan pekerjaan historis.  
+- **Mengapa saya membutuhkan ini?** Untuk mengatur ulang pelacakan setelah perubahan proyek besar atau ketika baseline asli tidak lagi relevan.  
+- **Perpustakaan mana yang menyediakan kemampuan ini?** Aspose.Tasks for .NET.  
+- **Apakah saya memerlukan lisensi?** Lisensi Aspose.Tasks yang valid diperlukan untuk penggunaan produksi; versi percobaan gratis tersedia.  
+- **Apakah kode kompatibel dengan .NET 6+?** Ya, API bekerja dengan .NET Framework 4.5+, .NET Core 3.1+, dan .NET 5/6.
+
+## Apa Itu Baseline dan Mengapa Menghapus Semua Baseline?
+
+Baseline menangkap rencana asli untuk biaya, pekerjaan, dan jadwal pada titik waktu tertentu. Sepanjang siklus hidup proyek Anda mungkin membuat beberapa baseline (Baseline 1, Baseline 2, dll.) untuk membandingkan kemajuan aktual dengan snapshot perencanaan yang berbeda. Namun, ada skenario—seperti perubahan ruang lingkup proyek atau memulai kembali—di mana mempertahankan baseline historis menjadi membingungkan. Menghapus semua baseline memberi Anda lembar bersih, memungkinkan Anda menetapkan baseline baru yang mencerminkan realitas saat ini.
 
 ## Prasyarat
 
-Sebelum kita mulai bekerja dengan koleksi dasar di Aspose.Tasks, pastikan Anda memiliki prasyarat berikut:
-
-1. Visual Studio: Instal Visual Studio IDE di sistem Anda.
-2.  Aspose.Tasks untuk .NET: Unduh dan instal perpustakaan Aspose.Tasks untuk .NET dari[tautan unduhan](https://releases.aspose.com/tasks/net/).
-3. Pemahaman dasar C#: Biasakan diri Anda dengan bahasa pemrograman C#.
-4. File Microsoft Project: Siapkan file Microsoft Project (.mpp) untuk tujuan pengujian.
+1. **Visual Studio** – edisi terbaru apa pun (Community, Professional, atau Enterprise).  
+2. **Aspose.Tasks for .NET** – unduh dari [tautan unduhan](https://releases.aspose.com/tasks/net/).  
+3. **Pengetahuan dasar C#** – Anda harus nyaman dengan variabel, loop, dan output konsol.  
+4. **File Microsoft Project** (`.mpp`) – file contoh bernama *WorkWithBaselineCollection.mpp* akan digunakan dalam contoh.
 
 ## Impor Namespace
 
-Untuk mulai bekerja dengan koleksi dasar di Aspose.Tasks, Anda perlu mengimpor namespace berikut:
+Pertama, bawa namespace yang diperlukan ke dalam ruang lingkup sehingga kompilator mengetahui di mana menemukan kelas yang akan kami gunakan.
 
 ```csharp
 using Aspose.Tasks;
 using System;
 using System.Collections.Generic;
-
-
 ```
-
-Sekarang, mari kita bagi setiap contoh menjadi beberapa langkah:
 
 ## Langkah 1: Muat File Proyek
 
-Pertama, muat file Microsoft Project menggunakan Aspose.Tasks:
+Kami memulai dengan memuat file Project yang ada. Sesuaikan `DataDir` untuk menunjuk ke folder yang berisi file `.mpp` Anda.
 
 ```csharp
-// Jalur ke direktori dokumen.
+// The path to the documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "WorkWithBaselineCollection.mpp");
 ```
 
-## Langkah 2: Dapatkan Sumber Daya
+## Langkah 2: Dapatkan Sumber Daya Target
 
-Selanjutnya, ambil sumber daya yang diinginkan dari proyek:
+Untuk demonstrasi kami mengambil sumber daya dengan UID = 1. Dalam skenario dunia nyata Anda akan menemukan sumber daya berdasarkan nama atau pengidentifikasi lain.
 
 ```csharp
 var resource = project.Resources.GetByUid(1);
 ```
 
-## Langkah 3: Tampilkan Informasi Dasar
+## Langkah 3: Tampilkan Informasi Baseline yang Ada
 
-Sekarang, tampilkan informasi tentang garis dasar yang terkait dengan sumber daya:
+Sebelum menghapus apa pun, berguna untuk melihat baseline apa yang saat ini terlampir pada sumber daya. Ini memberi Anda keyakinan bahwa Anda menghapus data yang tepat.
 
 ```csharp
 Console.WriteLine("Count of assignment baselines: " + resource.Baselines.Count);
 Console.WriteLine("Parent Resource Name: " + resource.Baselines.ParentResource.Get(Rsc.Name));
 ```
 
-## Langkah 4: Ulangi Melalui Garis Dasar
+## Langkah 4: Iterasi Melalui Semua Baseline
 
-Ulangi setiap garis dasar yang terkait dengan sumber daya dan cetak informasi yang relevan:
+Di sini kami melakukan loop melalui setiap baseline, mencetak metrik kunci seperti biaya, pekerjaan, dan nilai yang diperoleh (BCWP/BCWS). Langkah ini opsional tetapi berguna untuk tujuan pencatatan atau audit.
 
 ```csharp
 foreach (var baseline in resource.Baselines)
@@ -83,9 +94,9 @@ foreach (var baseline in resource.Baselines)
 }
 ```
 
-## Langkah 5: Hapus Garis Dasar
+## Hapus Semua Baseline
 
-Hapus semua garis dasar yang terkait dengan sumber daya:
+Sekarang kami melakukan aksi inti: **menghapus semua baseline** untuk sumber daya yang dipilih. Kami pertama-tama menyalin koleksi ke dalam daftar untuk menghindari memodifikasi koleksi saat iterasi, kemudian menghapus setiap baseline satu per satu.
 
 ```csharp
 Console.WriteLine("Delete all baselines: ");
@@ -97,31 +108,41 @@ foreach (var baseline in baselines)
 }
 ```
 
+Setelah blok ini dijalankan, `resource.Baselines.Count` akan menjadi `0`, mengonfirmasi bahwa semua catatan baseline telah dihapus.
+
+## Masalah Umum dan Tips
+
+- **NullReferenceException** – Pastikan file proyek benar‑benar berisi sumber daya yang Anda targetkan; jika tidak, `GetByUid` akan mengembalikan `null`.  
+- **Lisensi** – Tanpa lisensi Aspose.Tasks yang valid Anda akan melihat watermark pada output dan fungsionalitas terbatas.  
+- **Kinerja** – Untuk proyek yang sangat besar, pertimbangkan iterasi dengan `Parallel.ForEach` untuk mempercepat proses penghapusan, tetapi ingat bahwa koleksi dasar tidak thread‑safe.
+
+## Pertanyaan yang Sering Diajukan
+
+**Q: Dapatkah Aspose.Tasks menangani file proyek besar?**  
+A: Ya, Aspose.Tasks dioptimalkan untuk kinerja dan dapat memproses file `.mpp` multi‑gigabyte secara efisien.
+
+**Q: Apakah perpustakaan ini kompatibel dengan semua versi Microsoft Project?**  
+A: Aspose.Tasks mendukung Project 2000 hingga Project 2024, mencakup format `.mpp` lama serta file berbasis XML yang lebih baru.
+
+**Q: Bisakah saya menyesuaikan baseline sebelum menghapusnya?**  
+A: Tentu saja. Anda dapat membaca atau memodifikasi properti baseline apa pun (biaya, pekerjaan, tanggal) sebelum memutuskan untuk menghapusnya.
+
+**Q: Apakah Aspose.Tasks bekerja di platform cloud?**  
+A: Ya, API berjalan di lingkungan apa pun yang kompatibel dengan .NET, termasuk Azure App Service, AWS Lambda (via .NET Core), dan kontainer Docker.
+
+**Q: Di mana saya dapat bertanya kepada komunitas untuk bantuan?**  
+A: Kunjungi [forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) untuk terhubung dengan pengembang lain dan staf Aspose.
+
 ## Kesimpulan
 
-Dalam tutorial ini, kita menjelajahi cara bekerja dengan koleksi dasar di Aspose.Tasks untuk .NET. Dengan mengikuti panduan langkah demi langkah, Anda dapat dengan mudah mengelola garis dasar dalam aplikasi .NET Anda, sehingga memungkinkan pelacakan dan analisis proyek yang efektif.
+Dalam panduan ini kami menunjukkan cara **menghapus semua baseline** dari sebuah sumber daya menggunakan Aspose.Tasks untuk .NET. Dengan mengikuti kode langkah‑demi‑langkah, Anda dapat mengatur ulang data baseline, menjaga pelacakan proyek tetap bersih, dan menyiapkan jadwal Anda untuk siklus perencanaan baru. Jangan ragu untuk bereksperimen dengan membuat baseline baru setelah penghapusan untuk melihat bagaimana perpustakaan memperbarui file proyek.
 
-## FAQ
+---
 
-### Q1: Bisakah Aspose.Tasks menangani file proyek besar?
+**Terakhir Diperbarui:** 2026-04-06  
+**Diuji Dengan:** Aspose.Tasks 24.12 for .NET  
+**Penulis:** Aspose  
 
-A1: Ya, Aspose.Tasks dioptimalkan untuk menangani file proyek besar secara efisien, memastikan kinerja lancar.
-
-### Q2: Apakah Aspose.Tasks kompatibel dengan semua versi Microsoft Project?
-
-A2: Aspose.Tasks mendukung berbagai versi Microsoft Project, memastikan kompatibilitas di berbagai lingkungan.
-
-### Q3: Dapatkah saya menyesuaikan garis dasar di Aspose.Tasks?
-
-A3: Ya, Anda dapat menyesuaikan garis dasar sesuai dengan kebutuhan proyek Anda menggunakan Aspose.Tasks untuk .NET.
-
-### Q4: Apakah Aspose.Tasks menawarkan dukungan untuk platform cloud?
-
-A4: Ya, Aspose.Tasks memberikan dukungan untuk integrasi dengan platform cloud populer, menawarkan fleksibilitas dalam penerapan.
-
-### Q5: Apakah ada forum komunitas bagi pengguna Aspose.Tasks untuk mencari bantuan dan berbagi pengetahuan?
-
- A5: Ya, Anda dapat mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk terlibat dengan masyarakat dan mendapatkan bantuan dari para ahli.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

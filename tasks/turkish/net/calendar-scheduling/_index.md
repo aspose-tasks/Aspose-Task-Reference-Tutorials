@@ -1,146 +1,189 @@
 ---
-title: Aspose.Tasks Takvimi ve Planlama
-linktitle: Aspose.Tasks Takvimi ve Planlama
-second_title: Aspose.Tasks .NET API'si
-description: Aspose.Tasks for .NET ile proje takvimlerini yönetin, süreleri hesaplayın ve istisnaları yönetin. Takvim ve planlama görevleri için adım adım eğitimleri keşfedin.
-weight: 22
+date: 2026-04-06
+description: Aspose.Tasks for .NET'te özel alan türleriyle nasıl çalışılacağını, takvimleri
+  nasıl yöneteceğinizi, görev sürelerini nasıl hesaplayacağınızı ve zamanlama istisnalarını
+  nasıl ele alacağınızı öğrenin.
+keywords:
+- custom field types
+- how to manage calendar
+- daily recurring tasks
+- csv export options
+- calculate task duration
+linktitle: Aspose.Tasks Takvim ve Zamanlama
+second_title: Aspose.Tasks .NET API
+title: Aspose.Tasks Özel Alan Türleri – Takvim ve Zamanlama
 url: /tr/net/calendar-scheduling/
+weight: 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks Takvimi ve Planlama
+# Aspose.Tasks Özel Alan Türleri – Takvim ve Zamanlama
 
-## giriiş
+## Giriş
 
-.NET projelerinizde takvim yönetimi ve planlamanın inceliklerini öğrenmek için başvurulacak kaynağınız olan Aspose.Tasks for .NET eğitimlerinin dünyasına hoş geldiniz. Aspose.Tasks, geliştiricilere proje takvimlerini zahmetsizce yönetme, süreleri hesaplama ve istisnaları yönetme konusunda güçlü araçlar sağlar. Bu kapsamlı eğitim koleksiyonunda, takvimlerle çalışmaktan ve istisnaları yönetmekten, bileşik belge başlığı istisnaları ve para birimi simgesi konumları gibi özel konuları keşfetmeye kadar çeşitli konuları ele alıyoruz. İster gelişmiş bilgiler arayan deneyimli bir geliştirici olun, ister proje yönetimi becerilerinizi geliştirmek isteyen yeni başlayan biri olun, bu eğitimler adım adım rehberlik ve gerçek dünyadan örnekler sağlar. Aspose.Tasks for .NET'in tüm potansiyelini ortaya çıkarmak ve proje yönetimi becerilerinizi geliştirmek için bir yolculuğa çıkalım. Dalmaya hazır mısınız? Başlayalım!
+Aspose.Tasks for .NET eğitimlerinin dünyasına hoş geldiniz, .NET projelerinizde takvim yönetimi, zamanlama, **custom field types** ve daha fazlasının inceliklerini öğrenmek için başvuracağınız kaynak. Aspose.Tasks, geliştiricilere proje takvimlerini zahmetsizce yönetmek, süreleri hesaplamak, istisnaları yönetmek ve **custom field types** ile çalışmak için güçlü araçlar sunar. Bu kapsamlı eğitim koleksiyonunda, takvimlerle çalışmaktan istisna yönetimine, bileşik belge başlığı istisnaları ve para birimi simgesi konumları gibi özel konulara kadar çeşitli yönlere derinlemesine bakıyoruz. İster ileri düzey içgörüler arayan deneyimli bir geliştirici olun, ister proje yönetimi becerilerinizi geliştirmek isteyen yeni başlayan olun, bu eğitimler adım adım rehberlik ve gerçek dünya örnekleri sunar. Aspose.Tasks for .NET'in tam potansiyelini ortaya çıkarmak ve proje yönetimi yeteneklerinizi yükseltmek için bir yolculuğa çıkalım.
 
-## Aspose.Tasks'ta Takvimle Çalışmak
+## Hızlı Yanıtlar
+- **custom field types'ın temel amacı nedir?** Görevlerde, kaynaklarda veya projelerde ek, kullanıcı tanımlı bilgiler depolamanıza olanak tanır.  
+- **Takvim istisnalarını nasıl yönetebilirim?** CalendarExceptionCollection'ı kullanarak istisnaları programlı olarak ekleyebilir, düzenleyebilir veya kaldırabilirsiniz.  
+- **Projeyi CSV'ye dışa aktarabilir miyim?** Evet—Aspose.Tasks, çıktıyı özelleştirmenize olanak tanıyan CSV dışa aktarım seçenekleri sunar.  
+- **Günlük tekrarlayan görev oluşturma destekleniyor mu?** Kesinlikle; günlük takvim tekrarları, tekrarlayan işleri kolayca planlamanızı sağlar.  
+- **Üretim ortamında lisans gerekir mi?** Ticari dağıtımlar için geçerli bir Aspose.Tasks lisansı gereklidir.
 
-Aspose.Tasks for .NET'i kullanarak proje takvimlerini nasıl yöneteceğinizi, süreleri nasıl hesaplayacağınızı ve istisnaları nasıl sorunsuz bir şekilde ele alacağınızı keşfedin. Proje yönetimi yeteneklerinizi zahmetsizce geliştirin.[Devamını oku](./working-with-calendar/)
+## Özel Alan Türü Nedir?
+Aspose.Tasks'te bir **custom field type**, görevlere, kaynaklara veya projeye eklenebilen kullanıcı tanımlı bir özelliktir. Standart alan setini genişleterek risk seviyeleri, departman kodları veya özel tanımlayıcılar gibi iş‑özel verileri yakalamanıza olanak tanır.
 
-## Aspose.Tasks'ta Takvim Koleksiyonunu Yönetme
+## Neden Özel Alan Türleri Kullanılır?
+- **Flexibility:** Organizasyonunuz için önemli olan herhangi bir veriyi depolayın.  
+- **Reporting:** Çekirdek proje şemasını değiştirmeden özel verileri raporlara dahil edin.  
+- **Integration:** Özel alanları dış sistemlere (ör. ERP veya BI araçları) sorunsuz bir şekilde eşleyin.
 
- Aspose.Tasks for .NET'te takvim koleksiyonlarını yönetmenin etkili yollarını öğrenin. Takvimleri zahmetsizce oluşturun, değiştirin ve yönetin, böylece proje yönetimi verimliliğinizi artırın.[Devamını oku](./calendar-collection/)
+## Takvimi Nasıl Yönetilir
+Aspose.Tasks, proje takvimlerini oluşturmak, düzenlemek ve sorgulamak için zengin bir API sunar. Çalışma günlerini tanımlayabilir, temel takvimleri ayarlayabilir ve gerçek dünya programlarını yansıtmak için istisnalar uygulayabilirsiniz.
 
-## Aspose.Tasks'ta Takvim İstisnalarını Yönetme
+## Günlük Tekrarlayan Görevler
+Günlük takvim tekrarlarıyla, her gün tekrarlanan görevlerin otomatik olarak oluşturulmasını sağlayabilir, günlük toplantılar veya bakım faaliyetleri gibi rutin işleri modellemeyi basitleştirebilirsiniz.
 
- Ayrıntılı adım adım eğitimler ve örneklerle Aspose.Tasks for .NET'te takvim istisnalarını yönetme sanatında ustalaşın. Projelerinizde doğru zamanlamayı sağlayın.[Devamını oku](./calendar-exceptions/)
+## CSV Dışa Aktarım Seçenekleri
+Kütüphanenin CSV seçenekleri, hangi alanların dışa aktarılacağını, kullanılan ayırıcıyı ve kodlamayı kontrol etmenizi sağlar; böylece oluşturulan CSV dosyaları üzerinde tam kontrol elde edersiniz.
 
- Aspose.Tasks'ı kullanarak .NET projelerinizde takvim istisnalarını verimli bir şekilde yönetin. Doğru planlama ve kaynak yönetimi için adım adım eğitimler ve örnekler edinin.[Devamını oku](./calendar-exception-collection/)
+## Özel Proje Özelliklerini Yönetme
+Özel proje özellikleri, özel alan türleriyle el ele çalışır ve proje düzeyinde meta verileri depolamanıza olanak tanır; bu verilere programlı olarak veya UI üzerinden erişilebilir.
 
-## Aspose.Tasks'ta Devreyi Kontrol Edin
+## Görev Süresini Verimli Hesaplama
+Doğru süre hesaplaması, takvim ayarlarını, istisnaları ve çalışma zamanı tanımlarını dikkate alır; böylece planlarınız gerçek çabayı yansıtır.
 
-C#'ta proje dosyalarını verimli bir şekilde yönetmek ve analiz etmek için Aspose.Tasks for .NET'i nasıl kullanacağınızı öğrenin. Bu eğitimle proje yönetimi becerilerinizi geliştirin.[Devamını oku](./check-circuit/)
+## Aspose.Tasks'te Takvimle Çalışma
+Aspose.Tasks for .NET kullanarak proje takvimlerini yönetmeyi, süreleri hesaplamayı ve istisnaları sorunsuz bir şekilde ele almayı keşfedin. Proje yönetimi yeteneklerinizi zahmetsizce geliştirin. [Daha fazla bilgi](./working-with-calendar/)
 
-## Aspose.Tasks'ta Alt Görevleri Toplama
+## Aspose.Tasks'te Takvim Koleksiyonunu Yönetme
+Aspose.Tasks for .NET'te takvim koleksiyonlarını yönetmenin verimli yollarını öğrenin. Takvimleri zahmetsizce oluşturun, değiştirin ve manipüle edin, proje yönetimi verimliliğinizi artırın. [Daha fazla bilgi](./calendar-collection/)
 
- Aspose.Tasks for .NET'i kullanarak alt görevleri verimli bir şekilde toplayın. Adım adım eğitimlerle .NET uygulamalarınızdaki proje yönetimini geliştirin.[Devamını oku](./child-tasks-collector/)
+## Aspose.Tasks'te Takvim İstisnalarını Ele Alma
+Aspose.Tasks for .NET'te takvim istisnalarını yönetme sanatını ayrıntılı adım‑adım eğitimler ve örneklerle öğrenin. Projelerinizde doğru zamanlamayı sağlayın. [Daha fazla bilgi](./calendar-exceptions/)
 
-## Aspose.Tasks'ta Bileşik Belge Başlığı İstisnasını İşleme
+Efficiently handle calendar exceptions in your .NET projects using Aspose.Tasks. Get step‑by‑step tutorials and examples for accurate scheduling and resource management. [Daha fazla bilgi](./calendar-exception-collection/)
 
- Aspose.Tasks for .NET'te CompoundDocumentHeaderException'ın nasıl işleneceğini öğrenin. Sorunsuz proje yönetimi için kod örnekleriyle adım adım rehberlik alın.[Devamını oku](./compound-document-header-exception/)
+## Aspose.Tasks'te Devre Kontrolü
+Aspose.Tasks for .NET'i C# içinde proje dosyalarını verimli bir şekilde yönetmek ve analiz etmek için nasıl kullanacağınızı öğrenin. Bu eğitimle proje yönetimi yeteneklerinizi geliştirin. [Daha fazla bilgi](./check-circuit/)
 
-## Aspose.Tasks'taki Kısıtlama Türleri
+## Aspose.Tasks'te Alt Görevleri Toplama
+Aspose.Tasks for .NET kullanarak alt görevleri verimli bir şekilde toplayın. .NET uygulamalarınızda proje yönetimini adım‑adım eğitimlerle geliştirin. [Daha fazla bilgi](./child-tasks-collector/)
 
- Proje programlarını etkili bir şekilde yönetmek için Aspose.Tasks for .NET'te kısıtlama türlerini verimli bir şekilde ayarlayın. Bu eğitimle proje yönetimi becerilerinizi geliştirin.[Devamını oku](./constraint-types/)
+## Aspose.Tasks'te Compound Document Header Exception'ı Ele Alma
+Aspose.Tasks for .NET'te CompoundDocumentHeaderException'ı nasıl ele alacağınızı öğrenin. Sorunsuz proje yönetimi için kod örnekleriyle adım‑adım rehberlik alın. [Daha fazla bilgi](./compound-document-header-exception/)
 
-## Aspose.Tasks'taki Kopyalama Seçenekleri
+## Aspose.Tasks'te Kısıtlama Türleri
+Aspose.Tasks for .NET'te proje takvimlerini etkili bir şekilde yönetmek için kısıtlama türlerini verimli bir şekilde ayarlayın. Bu eğitimle proje yönetimi yeteneklerinizi geliştirin. [Daha fazla bilgi](./constraint-types/)
 
- Aspose.Tasks for .NET'i kullanarak proje verilerini verimli bir şekilde nasıl kopyalayacağınızı öğrenin. .NET uygulamalarınızı güçlü proje yönetimi yetenekleriyle geliştirin.[Devamını oku](./copy-options/)
+## Aspose.Tasks'te Kopyalama Seçenekleri
+Aspose.Tasks for .NET kullanarak proje verilerini verimli bir şekilde kopyalamayı öğrenin. .NET uygulamalarınızı güçlü proje yönetimi yetenekleriyle geliştirin. [Daha fazla bilgi](./copy-options/)
 
-## Aspose.Tasks'ta Maliyet Tahakkuk Türleri
+## Aspose.Tasks'te Maliyet Tahakkuk Türleri
+Aspose.Tasks for .NET ile proje maliyetlerini etkili bir şekilde yönetin. Doğru bütçe takibi için maliyet tahakkuk türlerini tanımlayın. Gelişmiş proje yönetimi için adım‑adım eğitimleri keşfedin. [Daha fazla bilgi](./cost-accrual-types/)
 
- Aspose.Tasks for .NET ile proje maliyetlerini etkili bir şekilde yönetin. Doğru bütçe takibi için maliyet tahakkuk türlerini tanımlayın. Gelişmiş proje yönetimi için adım adım eğitimleri keşfedin.[Devamını oku](./cost-accrual-types/)
+## Aspose.Tasks'te CSS Kaydetme Argümanları
+Aspose.Tasks for .NET'te HTML çıktısını özelleştirmek için CSS argümanlarını verimli bir şekilde kaydedin. Özelleştirilmiş CSS ayarlarıyla proje sunumunuzu geliştirin. [Daha fazla bilgi](./css-saving-arguments/)
 
-## Aspose.Tasks'ta CSS Argümanlarını Kaydetme
+## Aspose.Tasks'te CSV Seçenekleri
+Aspose.Tasks for .NET'i CSV dosyalarıyla verimli bir şekilde çalışmak için kullanın. Adım‑adım eğitimlerle proje yönetimi yeteneklerinizi zahmetsizce geliştirin. [Daha fazla bilgi](./csv-options/)
 
- HTML çıktısını özelleştirmek için CSS argümanlarını Aspose.Tasks for .NET'e verimli bir şekilde kaydedin. Özel CSS ayarlarıyla proje sunumunuzu geliştirin.[Devamını oku](./css-saving-arguments/)
+## Aspose.Tasks'te Para Birimi Simgesi Konumları
+Aspose.Tasks ile .NET projelerinde para birimi simgesi konumlarını zahmetsizce kontrol edin. Sorunsuz entegrasyon için adım‑adım eğitimleri keşfedin. [Daha fazla bilgi](./currency-symbol-positions/)
 
-## Aspose.Tasks'taki CSV Seçenekleri
+## Aspose.Tasks'te Özel Alan Türleri
+Aspose.Tasks for .NET'te custom field types ile nasıl çalışılacağını öğrenin. Verimli proje yönetimi için kod örnekleri ve SSS içeren adım‑adım rehberleri keşfedin. [Daha fazla bilgi](./custom-field-types/)
 
- CSV dosyalarıyla verimli bir şekilde çalışmak için Aspose.Tasks for .NET'i kullanın. Adım adım eğitimlerle proje yönetimi becerilerinizi zahmetsizce geliştirin.[Devamını oku](./csv-options/)
+## Aspose.Tasks'te Özel Proje Özellikleri Koleksiyonunu Yönetme
+Aspose.Tasks for .NET'te özel proje özelliklerini etkili bir şekilde yönetin. Adım‑adım eğitimlerle proje yönetimi deneyiminizi geliştirin. [Daha fazla bilgi](./custom-project-property-collection/)
 
-## Aspose.Tasks'ta Para Birimi Sembol Konumları
+## Aspose.Tasks'te Günlük Takvim Tekrarı
+Aspose.Tasks for .NET'te günlük takvim tekrarlarıyla tekrarlayan görevler oluşturun. Detaylı eğitimlerle proje yönetimi verimliliğini zahmetsizce artırın. [Daha fazla bilgi](./daily-calendar-repetition/)
 
- Aspose.Tasks ile .NET projelerindeki para birimi simgesi konumlarını zahmetsizce kontrol edin. Sorunsuz entegrasyon için adım adım eğitimleri keşfedin.[Devamını oku](./currency-symbol-positions/)
+## Aspose.Tasks'te Günlük İş Tekrarı
+Aspose.Tasks for .NET kullanarak Microsoft Project dosyalarında günlük tekrarlayan görevler oluşturun. Adım‑adım eğitimlerle verimliliği ve organizasyonu artırın. [Daha fazla bilgi](./daily-work-repetition/)
 
-## Aspose.Tasks'ta Özel Alan Türleri
+## Aspose.Tasks'te Tarih Formatı
+Aspose.Tasks for .NET'te tarih formatlarını kapsamlı adım‑adım eğitimlerle zahmetsizce özelleştirin. Proje yönetimi deneyiminizi geliştirin. [Daha fazla bilgi](./date-format/)
 
- Aspose.Tasks for .NET'te özel alan türleriyle nasıl çalışılacağını öğrenin. Etkin proje yönetimi için kod örnekleri ve SSS içeren adım adım kılavuzları keşfedin.[Devamını oku](./custom-field-types/)
+## Aspose.Tasks'te Gün Tipi Koleksiyonunu Yönetme
+Aspose.Tasks for .NET'te gün tipi koleksiyonlarını verimli bir şekilde yönetin. Adım‑adım eğitimlerle takvim istisnalarını kolayca oluşturun, değiştirin ve manipüle edin. [Daha fazla bilgi](./day-type-collection/)
 
-## Aspose.Tasks'ta Özel Proje Mülk Koleksiyonunu Yönetme
+## Aspose.Tasks'te Veritabanı Ayarları
+Aspose.Tasks for .NET kullanarak bir Primavera veritabanından projeleri içe aktarın. Verimli proje yönetimi için kapsamlı bu eğitimde adım‑adım rehberlik alın. [Daha fazla bilgi](./database-settings/)
 
- Aspose.Tasks for .NET'te özel proje özelliklerini etkili bir şekilde yönetin. Adım adım eğitimlerle proje yönetimi deneyiminizi geliştirin.[Devamını oku](./custom-project-property-collection/)
+## Aspose.Tasks'te Süre İşleme
+Aspose.Tasks for .NET'te süreleri etkili bir şekilde işlemek için adım‑adım eğitimleri kullanın. Proje yönetimi yeteneklerinizi zahmetsizce geliştirin. [Daha fazla bilgi](./duration-handling/)
 
-## Aspose.Tasks'ta Günlük Takvim Tekrarı
+## Aspose.Tasks Takvim ve Zamanlama Eğitimleri
+### [Aspose.Tasks'te Takvimle Çalışma](./working-with-calendar/)
+Aspose.Tasks for .NET kullanarak proje takvimlerini yönetmeyi, süreleri hesaplamayı ve istisnaları sorunsuz bir şekilde ele almayı keşfedin.
+### [Aspose.Tasks'te Takvim Koleksiyonunu Yönetme](./calendar-collection/)
+Aspose.Tasks for .NET'te takvim koleksiyonlarını yönetmenin verimli yollarını öğrenin. Takvimleri zahmetsizce oluşturun, değiştirin ve manipüle edin, proje yönetimi verimliliğinizi artırın.
+### [Aspose.Tasks'te Takvim İstisnalarını Ele Alma](./calendar-exceptions/)
+Aspose.Tasks for .NET'te takvim istisnalarını yönetme sanatını ayrıntılı adım‑adım eğitimler ve örneklerle öğrenin. Projelerinizde doğru zamanlamayı sağlayın.
+### [Aspose.Tasks'te Takvim İstisnaları Koleksiyonu](./calendar-exception-collection/)
+Aspose.Tasks kullanarak .NET projelerinizde takvim istisnalarını verimli bir şekilde yönetin. Doğru zamanlama ve kaynak yönetimi için adım‑adım eğitimler ve örnekler edinin.
+### [Aspose.Tasks'te Devre Kontrolü](./check-circuit/)
+Aspose.Tasks for .NET'i C# içinde proje dosyalarını verimli bir şekilde yönetmek ve analiz etmek için nasıl kullanacağınızı öğrenin. Bu eğitimle proje yönetimi yeteneklerinizi geliştirin.
+### [Aspose.Tasks'te Alt Görevleri Toplama](./child-tasks-collector/)
+Aspose.Tasks for .NET kullanarak alt görevleri verimli bir şekilde toplayın. .NET uygulamalarınızda proje yönetimini adım‑adım eğitimlerle geliştirin.
+### [Aspose.Tasks'te Compound Document Header Exception'ı Ele Alma](./compound-document-header-exception/)
+Aspose.Tasks for .NET'te CompoundDocumentHeaderException'ı nasıl ele alacağınızı öğrenin. Sorunsuz proje yönetimi için kod örnekleriyle adım‑adım rehberlik alın.
+### [Aspose.Tasks'te Kısıtlama Türleri](./constraint-types/)
+Aspose.Tasks for .NET'te proje takvimlerini etkili bir şekilde yönetmek için kısıtlama türlerini verimli bir şekilde ayarlayın. Bu eğitimle proje yönetimi yeteneklerinizi geliştirin.
+### [Aspose.Tasks'te Kopyalama Seçenekleri](./copy-options/)
+Aspose.Tasks for .NET kullanarak proje verilerini verimli bir şekilde kopyalamayı öğrenin. .NET uygulamalarınızı güçlü proje yönetimi yetenekleriyle geliştirin.
+### [Aspose.Tasks'te Maliyet Tahakkuk Türleri](./cost-accrual-types/)
+Aspose.Tasks for .NET ile proje maliyetlerini etkili bir şekilde yönetin. Doğru bütçe takibi için maliyet tahakkuk türlerini tanımlayın. Gelişmiş proje yönetimi için adım‑adım eğitimleri keşfedin.
+### [Aspose.Tasks'te CSS Kaydetme Argümanları](./css-saving-arguments/)
+Aspose.Tasks for .NET'te HTML çıktısını özelleştirmek için CSS argümanlarını verimli bir şekilde kaydedin. Özelleştirilmiş CSS ayarlarıyla proje sunumunuzu geliştirin.
+### [Aspose.Tasks'te CSV Seçenekleri](./csv-options/)
+Aspose.Tasks for .NET'i CSV dosyalarıyla verimli bir şekilde çalışmak için kullanın. Adım‑adım eğitimlerle proje yönetimi yeteneklerinizi zahmetsizce geliştirin.
+### [Aspose.Tasks'te Para Birimi Simgesi Konumları](./currency-symbol-positions/)
+Aspose.Tasks ile .NET projelerinde para birimi simgesi konumlarını zahmetsizce kontrol edin. Sorunsuz entegrasyon için adım‑adım eğitimleri keşfedin.
+### [Aspose.Tasks'te Özel Alan Türleri](./custom-field-types/)
+Aspose.Tasks for .NET'te custom field types ile nasıl çalışılacağını öğrenin. Verimli proje yönetimi için kod örnekleri ve SSS içeren adım‑adım rehberleri keşfedin.
+### [Aspose.Tasks'te Özel Proje Özellikleri Koleksiyonunu Yönetme](./custom-project-property-collection/)
+Aspose.Tasks for .NET'te özel proje özelliklerini etkili bir şekilde yönetin. Adım‑adım eğitimlerle proje yönetimi deneyiminizi geliştirin.
+### [Aspose.Tasks'te Günlük Takvim Tekrarı](./daily-calendar-repetition/)
+Aspose.Tasks for .NET'te günlük takvim tekrarlarıyla tekrarlayan görevler oluşturun. Detaylı eğitimlerle proje yönetimi verimliliğini zahmetsizce artırın.
+### [Aspose.Tasks'te Günlük İş Tekrarı](./daily-work-repetition/)
+Aspose.Tasks for .NET kullanarak Microsoft Project dosyalarında günlük tekrarlayan görevler oluşturun. Adım‑adım eğitimlerle verimliliği ve organizasyonu artırın.
+### [Aspose.Tasks'te Tarih Formatı](./date-format/)
+Aspose.Tasks for .NET'te tarih formatlarını kapsamlı adım‑adım eğitimlerle zahmetsizce özelleştirin. Proje yönetimi deneyiminizi geliştirin.
+### [Aspose.Tasks'te Gün Tipi Koleksiyonunu Yönetme](./day-type-collection/)
+Aspose.Tasks for .NET'te gün tipi koleksiyonlarını verimli bir şekilde yönetin. Adım‑adım eğitimlerle takvim istisnalarını kolayca oluşturun, değiştirin ve manipüle edin.
+### [Aspose.Tasks'te Veritabanı Ayarları](./database-settings/)
+Aspose.Tasks for .NET kullanarak bir Primavera veritabanından projeleri içe aktarın. Verimli proje yönetimi için kapsamlı bu eğitimde adım‑adım rehberlik alın.
+### [Aspose.Tasks'te Süre İşleme](./duration-handling/)
 
- Aspose.Tasks for .NET'te günlük takvim tekrarlarıyla yinelenen görevler oluşturun. Ayrıntılı eğitimlerle proje yönetimi verimliliğini zahmetsizce artırın.[Devamını oku](./daily-calendar-repetition/)
+## Sık Sorulan Sorular
 
-## Aspose.Tasks'ta Günlük İş Tekrarı
+**Q:** *custom field types ne için kullanılır?*  
+**A:** Görevlerde, kaynaklarda veya projelerde ek, kullanıcı tanımlı verileri depolamanıza olanak tanır; bu da daha zengin raporlama ve entegrasyon senaryoları sağlar.
 
- Aspose.Tasks for .NET'i kullanarak Microsoft Project dosyalarında günlük olarak yinelenen görevler oluşturun. Adım adım eğitimlerle üretkenliği ve organizasyonu artırın.[Devamını oku](./daily-work-repetition/)
+**Q:** *Takvim istisnalarını nasıl yönetirim?*  
+**A:** `CalendarExceptionCollection`'ı kullanarak istisnaları ekleyebilir, düzenleyebilir veya kaldırabilirsiniz. API, görev sürelerini hesaplarken bu istisnalara saygı gösterir.
 
-## Aspose.Tasks'ta Tarih Formatı
+**Q:** *Projeyi belirli sütunlarla CSV'ye dışa aktarabilir miyim?*  
+**A:** Evet—Aspose.Tasks’in CSV seçenekleri, alanları seçmenize, ayırıcıları ayarlamanıza ve kodlamayı kontrol etmenize olanak tanır, böylece hedef sisteminizle uyumlu olur.
 
- Kapsamlı, adım adım eğitimlerle Aspose.Tasks for .NET'teki tarih formatlarını zahmetsizce özelleştirin. Proje yönetimi deneyiminizi geliştirin.[Devamını oku](./date-format/)
+**Q:** *Günlük tekrarlayan görevler için destek var mı?*  
+**A:** Kesinlikle. Takvimde günlük bir tekrar tanımlayabilir veya `RecurringTask` API'sini kullanarak görev oluşturmayı otomatikleştirebilirsiniz.
 
-## Aspose.Tasks'ta Gün Türü Koleksiyonunu Yönetme
+**Q:** *Üretim ortamında lisans gerekir mi?*  
+**A:** Ticari dağıtımlar için geçerli bir Aspose.Tasks lisansı gereklidir; değerlendirme için ücretsiz deneme sürümü mevcuttur.
 
-Aspose.Tasks for .NET'te gün türü koleksiyonlarını verimli bir şekilde yönetin. Adım adım eğitimleri kullanarak takvim istisnalarını kolaylıkla oluşturun, değiştirin ve yönetin.[Devamını oku](./day-type-collection/)
+---
 
-## Aspose.Tasks'ta Veritabanı Ayarları
+**Son Güncelleme:** 2026-04-06  
+**Test Edilen Versiyon:** Aspose.Tasks 24.12 for .NET  
+**Yazar:** Aspose  
 
- Aspose.Tasks for .NET kullanarak projeleri Primavera veritabanından içe aktarın. Verimli proje yönetimi için bu kapsamlı eğitimde adım adım rehberlik alın.[Devamını oku](./database-settings/)
-
-## Aspose.Tasks'ta Süre İşleme
-
- Adım adım eğitimlerle Aspose.Tasks for .NET'te süreleri etkili bir şekilde yönetin. Proje yönetimi yeteneklerinizi zahmetsizce geliştirin.[Devamını oku](./duration-handling/)
-## Aspose.Tasks Takvimi ve Planlama Eğitimleri
-### [Aspose.Tasks'ta Takvimle Çalışmak](./working-with-calendar/)
-Aspose.Tasks for .NET'i kullanarak proje takvimlerini yönetin, süreleri hesaplayın, istisnaları kolaylıkla ele alın.
-### [Aspose.Tasks'ta Takvim Koleksiyonunu Yönetme](./calendar-collection/)
-Aspose.Tasks for .NET'te takvim koleksiyonlarını verimli bir şekilde nasıl yöneteceğinizi öğrenin. Takvimleri kolaylıkla oluşturun, değiştirin ve yönetin.
-### [Aspose.Tasks'ta Takvim İstisnalarını Yönetme](./calendar-exceptions/)
-Adım adım eğitimler ve örneklerle Aspose.Tasks for .NET'te takvim istisnalarını nasıl yöneteceğinizi öğrenin.
-### [Aspose.Tasks'ta Takvim İstisnalarının Toplanması](./calendar-exception-collection/)
-Aspose.Tasks'ı kullanarak .NET projelerinizde takvim istisnalarını nasıl verimli bir şekilde yöneteceğinizi, doğru planlama ve kaynak yönetimini nasıl sağlayacağınızı öğrenin.
-### [Aspose.Tasks'ta Devreyi Kontrol Edin](./check-circuit/)
-C#'ta proje dosyalarını verimli bir şekilde yönetmek ve analiz etmek için Aspose.Tasks for .NET'i nasıl kullanacağınızı öğrenin.
-### [Aspose.Tasks'ta Alt Görevleri Toplama](./child-tasks-collector/)
-Aspose.Tasks for .NET'i kullanarak alt görevleri verimli bir şekilde nasıl toplayacağınızı öğrenin. .NET uygulamalarınızda proje yönetimini iyileştirin.
-### [Aspose.Tasks'ta Bileşik Belge Başlığı İstisnasını İşleme](./compound-document-header-exception/)
-Aspose.Tasks for .NET'te CompoundDocumentHeaderException'ın nasıl işleneceğini öğrenin. Kod örnekleriyle adım adım rehberlik alın.
-### [Aspose.Tasks'taki Kısıtlama Türleri](./constraint-types/)
-Proje programlarını verimli bir şekilde yönetmek için Aspose.Tasks for .NET'te kısıtlama türlerini nasıl ayarlayacağınızı öğrenin.
-### [Aspose.Tasks'taki Kopyalama Seçenekleri](./copy-options/)
-Aspose.Tasks for .NET'i kullanarak proje verilerini verimli bir şekilde nasıl kopyalayacağınızı öğrenin. .NET uygulamalarınızı güçlü proje yönetimi yetenekleriyle geliştirin.
-### [Aspose.Tasks'ta Maliyet Tahakkuk Türleri](./cost-accrual-types/)
-Aspose.Tasks for .NET ile proje maliyetlerini etkili bir şekilde nasıl yöneteceğinizi öğrenin. Doğru bütçe takibi için maliyet tahakkuk türlerini tanımlayın.
-### [Aspose.Tasks'ta CSS Argümanlarını Kaydetme](./css-saving-arguments/)
-HTML çıktısını özelleştirmek için Aspose.Tasks for .NET'te CSS argümanlarını nasıl kaydedeceğinizi öğrenin. Özel CSS ayarlarıyla sunumu geliştirin.
-### [Aspose.Tasks'taki CSV Seçenekleri](./csv-options/)
-Aspose.Tasks for .NET'i kullanarak CSV dosyalarıyla verimli bir şekilde çalışmayı ve proje yönetimi becerilerinizi zahmetsizce geliştirmeyi öğrenin.
-### [Aspose.Tasks'ta Para Birimi Sembol Konumları](./currency-symbol-positions/)
-Aspose.Tasks ile .NET projelerinde para birimi simgesi konumlarını zahmetsizce nasıl kontrol edeceğinizi öğrenin.
-### [Aspose.Tasks'ta Özel Alan Türleri](./custom-field-types/)
-Aspose.Tasks for .NET'te özel alan türleriyle nasıl çalışılacağını öğrenin. Kod örnekleri ve SSS içeren adım adım kılavuz.
-### [Aspose.Tasks'ta Özel Proje Mülk Koleksiyonunu Yönetme](./custom-project-property-collection/)
-Aspose.Tasks for .NET'te özel proje özelliklerini etkili bir şekilde nasıl yöneteceğinizi öğrenin ve proje yönetimi deneyiminizi geliştirin. 
-### [Aspose.Tasks'ta Günlük Takvim Tekrarı](./daily-calendar-repetition/)
-Aspose.Tasks for .NET'te günlük takvim tekrarlarıyla yinelenen görevlerin nasıl oluşturulacağını öğrenin. Proje yönetimi verimliliğini zahmetsizce artırın.
-### [Aspose.Tasks'ta Günlük İş Tekrarı](./daily-work-repetition/)
-Aspose.Tasks for .NET'i kullanarak Microsoft Project dosyalarında günlük yinelenen görevleri nasıl oluşturacağınızı öğrenin. Verimliliği ve organizasyonu zahmetsizce artırın.
-### [Aspose.Tasks'ta Tarih Formatı](./date-format/)
-Bu kapsamlı, adım adım eğitimle Aspose.Tasks for .NET'te tarih formatlarını zahmetsizce nasıl özelleştireceğinizi öğrenin.
-### [Aspose.Tasks'ta Gün Türü Koleksiyonunu Yönetme](./day-type-collection/)
-Aspose.Tasks for .NET'te gün türü koleksiyonlarını verimli bir şekilde nasıl yöneteceğinizi öğrenin. Takvim istisnalarını kolaylıkla oluşturun, değiştirin ve yönetin.
-### [Aspose.Tasks'ta Veritabanı Ayarları](./database-settings/)
-Aspose.Tasks for .NET'i kullanarak Primavera veritabanından projeleri nasıl içe aktaracağınızı öğrenin. Bu kapsamlı eğitimde adım adım rehberlik alın.
-### [Aspose.Tasks'ta Süre İşleme](./duration-handling/)
-Adım adım eğitimlerle Aspose.Tasks for .NET'te süreleri etkili bir şekilde nasıl yöneteceğinizi öğrenin.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

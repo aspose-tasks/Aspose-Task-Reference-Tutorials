@@ -1,146 +1,189 @@
 ---
-title: Aspose.Tasks Calendar and Scheduling
-linktitle: Aspose.Tasks Calendar and Scheduling
+date: 2026-04-06
+description: Naučte se pracovat s vlastními typy polí v Aspose.Tasks pro .NET, spravovat
+  kalendáře, počítat trvání úkolů a řešit výjimky v plánování.
+keywords:
+- custom field types
+- how to manage calendar
+- daily recurring tasks
+- csv export options
+- calculate task duration
+linktitle: Kalendář a plánování Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Spravujte projektové kalendáře, počítejte dobu trvání a zpracujte výjimky pomocí Aspose.Tasks for .NET. Prozkoumejte podrobné výukové programy pro úkoly kalendáře a plánování.
-weight: 22
+title: Typy vlastních polí Aspose.Tasks – Kalendář a plánování
 url: /cs/net/calendar-scheduling/
+weight: 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks Calendar and Scheduling
+# Aspose.Tasks Vlastní typy polí – Kalendář a plánování
 
 ## Úvod
 
-Vítejte ve světě výukových programů Aspose.Tasks for .NET, vašeho oblíbeného zdroje pro zvládnutí složitosti správy kalendáře a plánování ve vašich projektech .NET. Aspose.Tasks umožňuje vývojářům pomocí robustních nástrojů bez námahy pracovat s kalendáři projektů, počítat trvání a spravovat výjimky. V této komplexní sbírce výukových programů se ponoříme do různých aspektů, od práce s kalendáři a správy výjimek až po zkoumání specializovaných témat, jako jsou výjimky složených záhlaví dokumentu a pozice symbolů měny. Ať už jste zkušený vývojář, který hledá pokročilé poznatky, nebo nováček, který touží zlepšit své dovednosti projektového řízení, tyto výukové programy poskytují podrobné pokyny a příklady ze skutečného světa. Vydejme se na cestu, abychom odemkli plný potenciál Aspose.Tasks pro .NET a zvýšili své schopnosti projektového řízení. Jste připraveni se ponořit? Začněme!
+Vítejte ve světě tutoriálů Aspose.Tasks pro .NET, vašem hlavním zdroji pro zvládnutí složitostí správy kalendářů, plánování, **custom field types** a dalších aspektů ve vašich .NET projektech. Aspose.Tasks poskytuje vývojářům robustní nástroje pro snadnou práci s projektovými kalendáři, výpočet trvání, správu výjimek a práci s custom field types. V této komplexní sbírce tutoriálů se zabýváme různými oblastmi, od práce s kalendáři a správy výjimek až po specializovaná témata jako jsou výjimky v hlavičkách složených dokumentů a pozice symbolu měny. Ať už jste zkušený vývojář hledající pokročilé poznatky nebo nováček, který chce zlepšit své dovednosti v řízení projektů, tyto tutoriály poskytují krok‑za‑krokem vedení a reálné příklady. Pojďme se vydat na cestu k odemčení plného potenciálu Aspose.Tasks pro .NET a zvýšit vaše schopnosti řízení projektů.
+
+## Rychlé odpovědi
+- **Jaký je hlavní účel custom field types?** Umožňují vám ukládat další, uživatelem definované informace o úlohách, zdrojích nebo projektech.  
+- **Jak mohu spravovat výjimky kalendáře?** Použijte CalendarExceptionCollection k přidání, úpravě nebo odebrání výjimek programově.  
+- **Mohu exportovat data projektu do CSV?** Ano—Aspose.Tasks poskytuje možnosti exportu CSV pro přizpůsobení výstupu.  
+- **Je podpora pro vytváření denních opakujících se úloh?** Ano; denní opakování kalendáře vám umožní snadno naplánovat opakující se práci.  
+- **Potřebuji licenci pro produkční použití?** Platná licence Aspose.Tasks je vyžadována pro komerční nasazení.  
+
+## Co je Custom Field Type?
+**custom field type** v Aspose.Tasks je uživatelem definovaný atribut, který může být přiřazen k úlohám, zdrojům nebo samotnému projektu. Rozšiřuje standardní sadu polí a umožňuje zachytit podnikově specifická data, jako jsou úrovně rizika, kódy oddělení nebo vlastní identifikátory.
+
+## Proč používat Custom Field Types?
+- **Flexibilita:** Ukládejte jakákoli data, která jsou pro vaši organizaci důležitá.  
+- **Reporting:** Přeneste vlastní data do reportů bez změny základního schématu projektu.  
+- **Integrace:** Bezproblémově mapujte custom fields na externí systémy (např. ERP nebo BI nástroje).  
+
+## Jak spravovat kalendář
+Aspose.Tasks nabízí bohaté API pro vytváření, úpravu a dotazování projektových kalendářů. Můžete definovat pracovní dny, nastavit základní kalendáře a aplikovat výjimky, aby odrážely reálné plány.
+
+## Denní opakující se úlohy
+S denními opakováními kalendáře můžete automatizovat vytváření úloh, které se opakují každý den, což zjednodušuje modelování rutinní práce, jako jsou denní stand‑upy nebo údržbové činnosti.
+
+## Možnosti exportu CSV
+Možnosti CSV knihovny vám umožňují řídit, která pole jsou exportována, jaký oddělovač se použije a kódování, což vám dává plnou kontrolu nad generovanými CSV soubory.
+
+## Správa vlastních projektových vlastností
+Vlastní projektové vlastnosti úzce spolupracují s custom field types, což vám umožňuje ukládat metadata na úrovni projektu, která lze přistupovat programově nebo přes uživatelské rozhraní.
+
+## Efektivní výpočet trvání úlohy
+Přesný výpočet trvání respektuje nastavení kalendáře, výjimky a definice pracovní doby, což zajišťuje, že vaše plány odrážejí skutečné úsilí.
 
 ## Práce s kalendářem v Aspose.Tasks
-
-Prozkoumejte, jak spravovat projektové kalendáře, vypočítat dobu trvání a bezproblémově zpracovávat výjimky pomocí Aspose.Tasks for .NET. Vylepšete své možnosti řízení projektů bez námahy.[Přečtěte si více](./working-with-calendar/)
+Prozkoumejte, jak spravovat projektové kalendáře, počítat trvání a bez problémů řešit výjimky pomocí Aspose.Tasks pro .NET. Zvyšte své schopnosti řízení projektů snadno. [Read more](./working-with-calendar/)
 
 ## Správa kolekce kalendářů v Aspose.Tasks
-
- Naučte se efektivní způsoby správy kolekcí kalendářů v Aspose.Tasks pro .NET. Vytvářejte, upravujte a manipulujte s kalendáři bez námahy, čímž zvýšíte efektivitu řízení projektů.[Přečtěte si více](./calendar-collection/)
+Naučte se efektivní způsoby správy kolekcí kalendářů v Aspose.Tasks pro .NET. Vytvářejte, upravujte a manipulujte s kalendáři snadno, čímž zvýšíte efektivitu řízení projektů. [Read more](./calendar-collection/)
 
 ## Zpracování výjimek kalendáře v Aspose.Tasks
+Ovládněte umění správy výjimek kalendáře v Aspose.Tasks pro .NET pomocí podrobných krok‑za‑krokem tutoriálů a příkladů. Zajistěte přesné plánování ve svých projektech. [Read more](./calendar-exceptions/)
 
- Osvojte si umění správy výjimek kalendáře v Aspose.Tasks pro .NET pomocí podrobných výukových programů a příkladů krok za krokem. Zajistěte přesné plánování ve svých projektech.[Přečtěte si více](./calendar-exceptions/)
+Efektivně řešte výjimky kalendáře ve svých .NET projektech pomocí Aspose.Tasks. Získejte krok‑za‑krokem tutoriály a příklady pro přesné plánování a správu zdrojů. [Read more](./calendar-exception-collection/)
 
- Efektivně zpracujte výjimky kalendáře ve svých projektech .NET pomocí Aspose.Tasks. Získejte podrobné návody a příklady pro přesné plánování a správu zdrojů.[Přečtěte si více](./calendar-exception-collection/)
+## Kontrola obvodu v Aspose.Tasks
+Naučte se, jak používat Aspose.Tasks pro .NET k efektivní správě a analýze projektových souborů v C#. Zlepšete své schopnosti řízení projektů pomocí tohoto tutoriálu. [Read more](./check-circuit/)
 
-## Zkontrolujte okruh v Aspose.Tasks
+## Shromažďování podřízených úloh v Aspose.Tasks
+Efektivně shromažďujte podřízené úlohy pomocí Aspose.Tasks pro .NET. Zvyšte řízení projektů ve svých .NET aplikacích pomocí krok‑za‑krokem tutoriálů. [Read more](./child-tasks-collector/)
 
-Naučte se používat Aspose.Tasks for .NET k efektivní správě a analýze projektových souborů v C#. Zlepšete své schopnosti projektového řízení pomocí tohoto kurzu.[Přečtěte si více](./check-circuit/)
-
-## Shromažďování dětských úkolů v Aspose.Tasks
-
- Efektivně sbírejte podřízené úkoly pomocí Aspose.Tasks for .NET. Vylepšete řízení projektů ve svých aplikacích .NET pomocí výukových programů krok za krokem.[Přečtěte si více](./child-tasks-collector/)
-
-## Zpracování výjimky záhlaví složeného dokumentu v Aspose.Tasks
-
- Naučte se, jak zacházet s výjimkou CompoundDocumentHeaderException v Aspose.Tasks pro .NET. Získejte podrobné pokyny s příklady kódu pro bezproblémové řízení projektů.[Přečtěte si více](./compound-document-header-exception/)
+## Zpracování výjimky hlavičky složeného dokumentu v Aspose.Tasks
+Naučte se, jak řešit CompoundDocumentHeaderException v Aspose.Tasks pro .NET. Získejte krok‑za‑krokem návod s ukázkami kódu pro plynulé řízení projektů. [Read more](./compound-document-header-exception/)
 
 ## Typy omezení v Aspose.Tasks
-
- Efektivně nastavte typy omezení v Aspose.Tasks pro .NET pro efektivní správu plánů projektů. Vylepšete své schopnosti projektového řízení pomocí tohoto kurzu.[Přečtěte si více](./constraint-types/)
+Efektivně nastavujte typy omezení v Aspose.Tasks pro .NET pro efektivní správu harmonogramů projektů. Zvyšte své schopnosti řízení projektů pomocí tohoto tutoriálu. [Read more](./constraint-types/)
 
 ## Možnosti kopírování v Aspose.Tasks
+Naučte se, jak efektivně kopírovat data projektu pomocí Aspose.Tasks pro .NET. Zvyšte své .NET aplikace pomocí výkonných schopností řízení projektů. [Read more](./copy-options/)
 
- Naučte se efektivně kopírovat data projektu pomocí Aspose.Tasks for .NET. Vylepšete své aplikace .NET pomocí výkonných možností řízení projektů.[Přečtěte si více](./copy-options/)
+## Typy akumulace nákladů v Aspose.Tasks
+Efektivně spravujte náklady projektu pomocí Aspose.Tasks pro .NET. Definujte typy akumulace nákladů pro přesné sledování rozpočtu. Prozkoumejte krok‑za‑krokem tutoriály pro vylepšené řízení projektů. [Read more](./cost-accrual-types/)
 
-## Typy časového rozlišení nákladů v Aspose.Tasks
-
- S Aspose.Tasks for .NET efektivně řiďte náklady na projekt. Definujte typy časového rozlišení nákladů pro přesné sledování rozpočtu. Prozkoumejte podrobné návody pro vylepšené řízení projektů.[Přečtěte si více](./cost-accrual-types/)
-
-## CSS ukládání argumentů v Aspose.Tasks
-
- Efektivně ukládejte argumenty CSS v Aspose.Tasks pro .NET a přizpůsobte si výstup HTML. Vylepšete prezentaci svého projektu pomocí přizpůsobených nastavení CSS.[Přečtěte si více](./css-saving-arguments/)
+## Argumenty pro ukládání CSS v Aspose.Tasks
+Efektivně uložte argumenty CSS v Aspose.Tasks pro .NET pro přizpůsobení výstupu HTML. Vylepšete prezentaci svého projektu pomocí přizpůsobených nastavení CSS. [Read more](./css-saving-arguments/)
 
 ## Možnosti CSV v Aspose.Tasks
-
- Pro efektivní práci se soubory CSV využijte Aspose.Tasks for .NET. Vylepšete své možnosti projektového řízení bez námahy pomocí výukových programů krok za krokem.[Přečtěte si více](./csv-options/)
+Využijte Aspose.Tasks pro .NET k efektivní práci se soubory CSV. Zvyšte své schopnosti řízení projektů snadno pomocí krok‑za‑krokem tutoriálů. [Read more](./csv-options/)
 
 ## Pozice symbolu měny v Aspose.Tasks
+Ovládejte pozice symbolu měny v .NET projektech snadno pomocí Aspose.Tasks. Prozkoumejte krok‑za‑krokem tutoriály pro plynulou integraci. [Read more](./currency-symbol-positions/)
 
- Ovládejte pozice symbolů měny v projektech .NET bez námahy pomocí Aspose.Tasks. Prozkoumejte podrobné návody pro bezproblémovou integraci.[Přečtěte si více](./currency-symbol-positions/)
+## Custom Field Types v Aspose.Tasks
+Naučte se, jak pracovat s custom field types v Aspose.Tasks pro .NET. Prozkoumejte krok‑za‑krokem průvodce s ukázkami kódu a častými dotazy pro efektivní řízení projektů. [Read more](./custom-field-types/)
 
-## Vlastní typy polí v Aspose.Tasks
-
- Naučte se pracovat s vlastními typy polí v Aspose.Tasks pro .NET. Prozkoumejte podrobné průvodce s příklady kódu a často kladenými dotazy pro efektivní řízení projektů.[Přečtěte si více](./custom-field-types/)
-
-## Správa vlastní kolekce vlastností projektu v Aspose.Tasks
-
- Efektivně spravujte vlastní vlastnosti projektu v Aspose.Tasks pro .NET. Vylepšete své zkušenosti s řízením projektů pomocí výukových programů krok za krokem.[Přečtěte si více](./custom-project-property-collection/)
+## Správa kolekce vlastních projektových vlastností v Aspose.Tasks
+Efektivně spravujte vlastní projektové vlastnosti v Aspose.Tasks pro .NET. Zvyšte své zkušenosti s řízením projektů pomocí krok‑za‑krokem tutoriálů. [Read more](./custom-project-property-collection/)
 
 ## Denní opakování kalendáře v Aspose.Tasks
-
- Vytvářejte opakující se úkoly s denním opakováním kalendáře v Aspose.Tasks pro .NET. Zvyšte efektivitu řízení projektů bez námahy pomocí podrobných výukových programů.[Přečtěte si více](./daily-calendar-repetition/)
+Vytvářejte opakující se úlohy s denními opakováními kalendáře v Aspose.Tasks pro .NET. Zvyšte efektivitu řízení projektů snadno pomocí podrobných tutoriálů. [Read more](./daily-calendar-repetition/)
 
 ## Denní opakování práce v Aspose.Tasks
-
- Vytvářejte každodenní opakující se úkoly v souborech aplikace Microsoft Project pomocí Aspose.Tasks for .NET. Zvyšte produktivitu a organizaci pomocí výukových programů krok za krokem.[Přečtěte si více](./daily-work-repetition/)
+Vytvářejte denní opakující se úlohy v souborech Microsoft Project pomocí Aspose.Tasks pro .NET. Zvýšte produktivitu a organizaci pomocí krok‑za‑krokem tutoriálů. [Read more](./daily-work-repetition/)
 
 ## Formát data v Aspose.Tasks
+Přizpůsobte formáty data v Aspose.Tasks pro .NET snadno pomocí komplexních krok‑za‑krokem tutoriálů. Zvyšte své zkušenosti s řízením projektů. [Read more](./date-format/)
 
- Přizpůsobte si formáty data v Aspose.Tasks pro .NET bez námahy pomocí komplexních výukových programů krok za krokem. Vylepšete své zkušenosti s řízením projektů.[Přečtěte si více](./date-format/)
-
-## Správa kolekce typů dne v Aspose.Tasks
-
-Efektivně spravujte kolekce typu dne v Aspose.Tasks pro .NET. Vytvářejte, upravujte a manipulujte s výjimkami kalendáře snadno pomocí výukových programů krok za krokem.[Přečtěte si více](./day-type-collection/)
+## Správa kolekce typů dnů v Aspose.Tasks
+Efektivně spravujte kolekce typů dnů v Aspose.Tasks pro .NET. Vytvářejte, upravujte a manipulujte s výjimkami kalendáře snadno pomocí krok‑za‑krokem tutoriálů. [Read more](./day-type-collection/)
 
 ## Nastavení databáze v Aspose.Tasks
+Importujte projekty z databáze Primavera pomocí Aspose.Tasks pro .NET. Získejte krok‑za‑krokem návod v tomto komplexním tutoriálu pro efektivní řízení projektů. [Read more](./database-settings/)
 
- Importujte projekty z databáze Primavera pomocí Aspose.Tasks for .NET. Získejte podrobné pokyny v tomto komplexním tutoriálu pro efektivní řízení projektů.[Přečtěte si více](./database-settings/)
+## Zpracování trvání v Aspose.Tasks
+Efektivně zpracovávejte trvání v Aspose.Tasks pro .NET pomocí krok‑za‑krokem tutoriálů. Zvyšte své schopnosti řízení projektů snadno. [Read more](./duration-handling/)
 
-## Zpracování doby trvání v Aspose.Tasks
-
- Zvládejte efektivně dobu trvání v Aspose.Tasks pro .NET pomocí podrobných výukových programů. Vylepšete své možnosti řízení projektů bez námahy.[Přečtěte si více](./duration-handling/)
-## Kalendář Aspose.Tasks a výukové programy plánování
+## Tutoriály kalendáře a plánování v Aspose.Tasks
 ### [Práce s kalendářem v Aspose.Tasks](./working-with-calendar/)
-Spravujte projektové kalendáře, počítejte dobu trvání, snadno zpracujte výjimky pomocí Aspose.Tasks for .NET.
+Manage project calendars, calculate durations, handle exceptions with ease using Aspose.Tasks for .NET.
 ### [Správa kolekce kalendářů v Aspose.Tasks](./calendar-collection/)
-Naučte se efektivně spravovat kolekce kalendářů v Aspose.Tasks for .NET. Vytvářejte, upravujte a manipulujte s kalendáři snadno.
+Learn how to manage calendar collections in Aspose.Tasks for .NET efficiently. Create, modify, and manipulate calendars with ease.
 ### [Zpracování výjimek kalendáře v Aspose.Tasks](./calendar-exceptions/)
-Naučte se, jak spravovat výjimky kalendáře v Aspose.Tasks pro .NET pomocí podrobných výukových programů a příkladů.
-### [Kolekce kalendářních výjimek v Aspose.Tasks](./calendar-exception-collection/)
-Naučte se, jak efektivně zpracovávat výjimky kalendáře ve vašich projektech .NET pomocí Aspose.Tasks, což zajišťuje přesné plánování a správu zdrojů.
-### [Zkontrolujte okruh v Aspose.Tasks](./check-circuit/)
-Naučte se používat Aspose.Tasks for .NET k efektivní správě a analýze projektových souborů v C#.
-### [Shromažďování dětských úkolů v Aspose.Tasks](./child-tasks-collector/)
-Naučte se, jak efektivně shromažďovat podřízené úkoly pomocí Aspose.Tasks for .NET. Zlepšete řízení projektů ve svých aplikacích .NET.
-### [Zpracování výjimky záhlaví složeného dokumentu v Aspose.Tasks](./compound-document-header-exception/)
-Naučte se, jak zacházet s výjimkou CompoundDocumentHeaderException v Aspose.Tasks pro .NET. Získejte podrobné pokyny s příklady kódu.
+Learn how to manage calendar exceptions in Aspose.Tasks for .NET with step‑by‑step tutorials and examples.
+### [Kolekce výjimek kalendáře v Aspose.Tasks](./calendar-exception-collection/)
+Learn how to efficiently handle calendar exceptions in your .NET projects using Aspose.Tasks, ensuring accurate scheduling and resource management.
+### [Kontrola obvodu v Aspose.Tasks](./check-circuit/)
+Learn how to use Aspose.Tasks for .NET to efficiently manage and analyze project files in C#.
+### [Shromažďování podřízených úloh v Aspose.Tasks](./child-tasks-collector/)
+Learn how to collect child tasks efficiently using Aspose.Tasks for .NET. Improve project management in your .NET applications.
+### [Zpracování výjimky hlavičky složeného dokumentu v Aspose.Tasks](./compound-document-header-exception/)
+Learn how to handle CompoundDocumentHeaderException in Aspose.Tasks for .NET. Get step‑by‑step guidance with code examples.
 ### [Typy omezení v Aspose.Tasks](./constraint-types/)
-Naučte se, jak nastavit typy omezení v Aspose.Tasks pro .NET, abyste mohli efektivně spravovat plány projektů.
+Learn how to set constraint types in Aspose.Tasks for .NET to efficiently manage project schedules.
 ### [Možnosti kopírování v Aspose.Tasks](./copy-options/)
-Naučte se efektivně kopírovat data projektu pomocí Aspose.Tasks for .NET. Vylepšete své aplikace .NET pomocí výkonných možností řízení projektů.
-### [Typy časového rozlišení nákladů v Aspose.Tasks](./cost-accrual-types/)
-Naučte se efektivně řídit náklady na projekt pomocí Aspose.Tasks for .NET. Definujte typy časového rozlišení nákladů pro přesné sledování rozpočtu.
-### [CSS ukládání argumentů v Aspose.Tasks](./css-saving-arguments/)
-Zjistěte, jak uložit argumenty CSS v Aspose.Tasks pro .NET a přizpůsobit tak výstup HTML. Vylepšete prezentaci pomocí přizpůsobených nastavení CSS.
+Learn how to efficiently copy project data using Aspose.Tasks for .NET. Enhance your .NET applications with powerful project management capabilities.
+### [Typy akumulace nákladů v Aspose.Tasks](./cost-accrual-types/)
+Learn how to manage project costs effectively with Aspose.Tasks for .NET. Define cost accrual types for accurate budget tracking.
+### [Argumenty pro ukládání CSS v Aspose.Tasks](./css-saving-arguments/)
+Learn how to save CSS arguments in Aspose.Tasks for .NET to customize HTML output. Enhance presentation with tailored CSS settings.
 ### [Možnosti CSV v Aspose.Tasks](./csv-options/)
-Naučte se, jak využít Aspose.Tasks pro .NET k efektivní práci se soubory CSV a bez námahy rozšiřovat možnosti řízení projektů.
+Learn how to utilize Aspose.Tasks for .NET to efficiently work with CSV files, enhancing your project management capabilities effortlessly.
 ### [Pozice symbolu měny v Aspose.Tasks](./currency-symbol-positions/)
-Naučte se, jak snadno ovládat pozice symbolů měny v projektech .NET pomocí Aspose.Tasks.
-### [Vlastní typy polí v Aspose.Tasks](./custom-field-types/)
-Naučte se pracovat s vlastními typy polí v Aspose.Tasks pro .NET. Podrobný průvodce s příklady kódu a často kladenými dotazy.
-### [Správa vlastní kolekce vlastností projektu v Aspose.Tasks](./custom-project-property-collection/)
-Naučte se, jak efektivně spravovat vlastní vlastnosti projektu v Aspose.Tasks pro .NET, a zlepšit tak své zkušenosti s řízením projektů. 
+Learn how to control currency symbol positions in .NET projects effortlessly with Aspose.Tasks.
+### [Custom Field Types v Aspose.Tasks](./custom-field-types/)
+Learn how to work with custom field types in Aspose.Tasks for .NET. Step‑by‑step guide with code examples and FAQs.
+### [Správa kolekce vlastních projektových vlastností v Aspose.Tasks](./custom-project-property-collection/)
+Learn how to effectively manage custom project properties in Aspose.Tasks for .NET, enhancing your project management experience. 
 ### [Denní opakování kalendáře v Aspose.Tasks](./daily-calendar-repetition/)
-Naučte se vytvářet opakující se úkoly s denním opakováním kalendáře v Aspose.Tasks pro .NET. Zvyšte efektivitu řízení projektů bez námahy.
+Learn how to create recurring tasks with daily calendar repetitions in Aspose.Tasks for .NET. Enhance project management efficiency effortlessly.
 ### [Denní opakování práce v Aspose.Tasks](./daily-work-repetition/)
-Naučte se vytvářet každodenní opakující se úkoly v souborech Microsoft Project pomocí Aspose.Tasks for .NET. Zvyšte produktivitu a organizaci bez námahy.
+Learn how to create daily recurring tasks in Microsoft Project files using Aspose.Tasks for .NET. Boost productivity and organization effortlessly.
 ### [Formát data v Aspose.Tasks](./date-format/)
-Naučte se, jak snadno přizpůsobit formáty data v Aspose.Tasks pro .NET pomocí tohoto komplexního podrobného tutoriálu.
-### [Správa kolekce typů dne v Aspose.Tasks](./day-type-collection/)
-Naučte se, jak efektivně spravovat kolekce typu dne v Aspose.Tasks pro .NET. Snadno vytvářejte, upravujte a manipulujte s výjimkami kalendáře.
+Learn how to customize date formats in Aspose.Tasks for .NET effortlessly with this comprehensive step‑by‑step tutorial.
+### [Správa kolekce typů dnů v Aspose.Tasks](./day-type-collection/)
+Learn how to manage day type collections efficiently in Aspose.Tasks for .NET. Create, modify, and manipulate calendar exceptions with ease.
 ### [Nastavení databáze v Aspose.Tasks](./database-settings/)
-Naučte se importovat projekty z databáze Primavera pomocí Aspose.Tasks for .NET. Získejte podrobné pokyny v tomto komplexním tutoriálu.
-### [Zpracování doby trvání v Aspose.Tasks](./duration-handling/)
-Naučte se, jak efektivně zacházet s trváním v Aspose.Tasks pro .NET pomocí podrobných výukových programů.
+Learn how to import projects from a Primavera database using Aspose.Tasks for .NET. Get step‑by‑step guidance in this comprehensive tutorial.
+### [Zpracování trvání v Aspose.Tasks](./duration-handling/)
+Learn how to handle durations effectively in Aspose.Tasks for .NET with step‑by‑step tutorials.
+
+## Často kladené otázky
+
+**Q:** *Co jsou custom field types a k čemu slouží?*  
+**A:** Umožňují vám ukládat další, uživatelem definovaná data o úlohách, zdrojích nebo projektech, což umožňuje bohatší reportování a integrační scénáře.
+
+**Q:** *Jak spravovat výjimky kalendáře?*  
+**A:** Použijte `CalendarExceptionCollection` k přidání, úpravě nebo odebrání výjimek. API je zohledňuje při výpočtu trvání úloh.
+
+**Q:** *Mohu exportovat data projektu do CSV s konkrétními sloupci?*  
+**A:** Ano — možnosti CSV v Aspose.Tasks vám umožňují vybrat pole, nastavit oddělovače a řídit kódování tak, aby odpovídalo vašemu downstream systému.
+
+**Q:** *Je podpora pro denní opakující se úlohy?*  
+**A:** Ano. Definujte denní opakování v kalendáři nebo použijte API `RecurringTask` k automatizaci vytváření úloh.
+
+**Q:** *Potřebuji licenci pro produkční použití?*  
+**A:** Platná licence Aspose.Tasks je vyžadována pro komerční nasazení; pro vyzkoušení je k dispozici bezplatná zkušební verze.
+
+---
+
+**Poslední aktualizace:** 2026-04-06  
+**Testováno s:** Aspose.Tasks 24.12 for .NET  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

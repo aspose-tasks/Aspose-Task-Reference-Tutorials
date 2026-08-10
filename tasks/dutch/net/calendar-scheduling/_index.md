@@ -1,146 +1,188 @@
 ---
-title: Aspose.Tasks Kalender en planning
-linktitle: Aspose.Tasks Kalender en planning
+date: 2026-04-06
+description: Leer hoe u met aangepaste veldtypen in Aspose.Tasks voor .NET werkt,
+  agenda's beheert, taakduur berekent en planningsuitzonderingen afhandelt.
+keywords:
+- custom field types
+- how to manage calendar
+- daily recurring tasks
+- csv export options
+- calculate task duration
+linktitle: Aspose.Tasks Kalender en Planning
 second_title: Aspose.Tasks .NET API
-description: Beheer projectkalenders, bereken de duur en handel uitzonderingen af met Aspose.Tasks voor .NET. Ontdek stapsgewijze zelfstudies voor agenda- en planningstaken.
-weight: 22
+title: Aspose.Tasks Aangepaste Veldtypen – Kalender en Planning
 url: /nl/net/calendar-scheduling/
+weight: 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks Kalender en planning
+# Aspose.Tasks Aangepaste Veldtypen – Kalender en Planning
 
-## Invoering
+## Introductie
 
-Welkom in de wereld van Aspose.Tasks voor .NET-tutorials, uw referentiebron voor het beheersen van de fijne kneepjes van agendabeheer en planning in uw .NET-projecten. Aspose.Tasks biedt ontwikkelaars robuuste tools waarmee ze moeiteloos projectkalenders kunnen verwerken, de duur kunnen berekenen en uitzonderingen kunnen beheren. In deze uitgebreide verzameling tutorials gaan we dieper in op verschillende aspecten, van het werken met kalenders en het beheren van uitzonderingen tot het verkennen van gespecialiseerde onderwerpen zoals uitzonderingen op samengestelde documentkopteksten en de posities van valutasymbolen. Of u nu een doorgewinterde ontwikkelaar bent die op zoek is naar geavanceerde inzichten of een nieuwkomer die graag uw projectmanagementvaardigheden wil verbeteren, deze tutorials bieden stapsgewijze begeleiding en praktijkvoorbeelden. Laten we op reis gaan om het volledige potentieel van Aspose.Tasks voor .NET te ontsluiten en uw projectmanagementmogelijkheden te verbeteren. Klaar om erin te duiken? Laten we beginnen!
+Welkom in de wereld van Aspose.Tasks voor .NET‑tutorials, uw ultieme bron om de complexiteit van kalenderbeheer, planning, **custom field types** en meer in uw .NET‑projecten onder de knie te krijgen. Aspose.Tasks stelt ontwikkelaars in staat met robuuste tools moeiteloos projectkalenders te beheren, duur te berekenen, uitzonderingen te beheren en met custom field types te werken. In deze uitgebreide verzameling tutorials gaan we in op verschillende aspecten, van werken met kalenders en beheren van uitzonderingen tot het verkennen van gespecialiseerde onderwerpen zoals CompoundDocumentHeaderException en valutatekenposities. Of u nu een ervaren ontwikkelaar bent die op zoek is naar geavanceerde inzichten of een nieuwkomer die zijn project‑managementvaardigheden wil verbeteren, deze tutorials bieden stap‑voor‑stap begeleiding en praktijkvoorbeelden. Laten we een reis beginnen om het volledige potentieel van Aspose.Tasks voor .NET te ontsluiten en uw projectmanagementcapaciteiten te verhogen.
 
-## Werken met Agenda in Aspose.Tasks
+## Snelle Antwoorden
+- **Wat is het primaire doel van custom field types?** Ze laten u extra, door de gebruiker gedefinieerde informatie opslaan op taken, resources of projecten.  
+- **Hoe kan ik kalenderuitzonderingen beheren?** Gebruik de CalendarExceptionCollection om uitzonderingen programmatisch toe te voegen, te bewerken of te verwijderen.  
+- **Kan ik projectgegevens exporteren naar CSV?** Ja—Aspose.Tasks biedt CSV‑exportopties om de output aan te passen.  
+- **Wordt het maken van dagelijkse terugkerende taken ondersteund?** Absoluut; dagelijkse kalenderherhalingen stellen u in staat terugkerend werk eenvoudig in te plannen.  
+- **Heb ik een licentie nodig voor productiegebruik?** Een geldige Aspose.Tasks‑licentie is vereist voor commerciële implementaties.
 
-Ontdek hoe u projectkalenders beheert, duur berekent en uitzonderingen naadloos afhandelt met Aspose.Tasks voor .NET. Verbeter moeiteloos uw projectmanagementmogelijkheden.[Lees verder](./working-with-calendar/)
+## Wat is een custom field type?
+Een **custom field type** in Aspose.Tasks is een door de gebruiker gedefinieerd attribuut dat kan worden gekoppeld aan taken, resources of het project zelf. Het breidt de standaard set velden uit, waardoor u bedrijfsspecifieke gegevens kunt vastleggen, zoals risiconiveaus, afdelingscodes of aangepaste identificatoren.
 
-## Agendaverzameling beheren in Aspose.Tasks
+## Waarom custom field types gebruiken?
+- **Flexibility:** Sla alle gegevens op die belangrijk zijn voor uw organisatie.  
+- **Reporting:** Haal aangepaste gegevens in rapporten zonder het kernprojectschema te wijzigen.  
+- **Integration:** Koppel custom fields naadloos aan externe systemen (bijv. ERP‑ of BI‑tools).
 
- Leer efficiënte manieren om agendaverzamelingen te beheren in Aspose.Tasks voor .NET. Creëer, wijzig en manipuleer moeiteloos agenda's, waardoor de efficiëntie van uw projectbeheer wordt vergroot.[Lees verder](./calendar-collection/)
+## Hoe kalender beheren?
+Aspose.Tasks biedt een uitgebreide API voor het maken, bewerken en opvragen van projectkalenders. U kunt werkdagen definiëren, basis‑kalenders instellen en uitzonderingen toepassen om real‑world schema's weer te geven.
 
-## Agenda-uitzonderingen afhandelen in Aspose.Tasks
+## Dagelijkse Terugkerende Taken
+Met dagelijkse kalenderherhalingen kunt u de creatie van taken die elke dag terugkeren automatiseren, waardoor het modelleren van routinematig werk zoals dagelijkse stand‑ups of onderhoudsactiviteiten wordt vereenvoudigd.
 
- Beheers de kunst van het beheren van agenda-uitzonderingen in Aspose.Tasks voor .NET met gedetailleerde stap-voor-stap tutorials en voorbeelden. Zorg voor een nauwkeurige planning van uw projecten.[Lees verder](./calendar-exceptions/)
+## CSV‑exportopties
+De CSV‑opties van de bibliotheek stellen u in staat te bepalen welke velden worden geëxporteerd, welke scheidingsteken wordt gebruikt en welke codering, waardoor u volledige controle heeft over de gegenereerde CSV‑bestanden.
 
- Beheer agenda-uitzonderingen in uw .NET-projecten efficiënt met Aspose.Tasks. Ontvang stapsgewijze zelfstudies en voorbeelden voor nauwkeurige planning en resourcebeheer.[Lees verder](./calendar-exception-collection/)
+## Aangepaste Projecteigenschappen Beheren
+Aangepaste projecteigenschappen werken hand‑in‑hand met custom field types, waardoor u project‑niveau metadata kunt opslaan die programmatisch of via de UI toegankelijk is.
 
-## Controleer het circuit in Aspose.Tasks
+## Taakduur Efficiënt Berekenen
+Nauwkeurige duurberekening houdt rekening met kalenderinstellingen, uitzonderingen en werktijddefinities, zodat uw planningen de werkelijke inspanning weerspiegelen.
 
-Leer hoe u Aspose.Tasks voor .NET kunt gebruiken om projectbestanden efficiënt te beheren en analyseren in C#. Verbeter uw projectmanagementmogelijkheden met deze tutorial.[Lees verder](./check-circuit/)
+## Werken met Kalender in Aspose.Tasks
+Ontdek hoe u projectkalenders kunt beheren, duur kunt berekenen en uitzonderingen naadloos kunt afhandelen met Aspose.Tasks voor .NET. Verhoog uw projectmanagementvaardigheden moeiteloos. [Read more](./working-with-calendar/)
 
-## Onderliggende taken verzamelen in Aspose.Tasks
+## Kalenderverzameling Beheren in Aspose.Tasks
+Leer efficiënte manieren om kalenderverzamelingen te beheren in Aspose.Tasks voor .NET. Maak, wijzig en bewerk kalenders moeiteloos, waardoor uw projectmanagementefficiëntie wordt verhoogd. [Read more](./calendar-collection/)
 
- Verzamel onderliggende taken efficiënt met Aspose.Tasks voor .NET. Verbeter het projectbeheer in uw .NET-applicaties met stapsgewijze tutorials.[Lees verder](./child-tasks-collector/)
+## Kalenderuitzonderingen Afhandelen in Aspose.Tasks
+Beheers de kunst van het beheren van kalenderuitzonderingen in Aspose.Tasks voor .NET met gedetailleerde stap‑voor‑stap tutorials en voorbeelden. Zorg voor nauwkeurige planning in uw projecten. [Read more](./calendar-exceptions/)
 
-## Afhandeling van samengestelde documentkopuitzonderingen in Aspose.Tasks
+Behandel kalenderuitzonderingen efficiënt in uw .NET‑projecten met Aspose.Tasks. Ontvang stap‑voor‑stap tutorials en voorbeelden voor nauwkeurige planning en resource‑beheer. [Read more](./calendar-exception-collection/)
 
- Leer hoe u omgaat met CompoundDocumentHeaderException in Aspose.Tasks voor .NET. Krijg stapsgewijze begeleiding met codevoorbeelden voor naadloos projectbeheer.[Lees verder](./compound-document-header-exception/)
+## Circuit Controleren in Aspose.Tasks
+Leer hoe u Aspose.Tasks voor .NET kunt gebruiken om projectbestanden in C# efficiënt te beheren en analyseren. Verbeter uw projectmanagementvaardigheden met deze tutorial. [Read more](./check-circuit/)
 
-## Beperkingstypen in Aspose.Tasks
+## Kindtaken Verzamelen in Aspose.Tasks
+Verzamel kindtaken efficiënt met Aspose.Tasks voor .NET. Verhoog het projectmanagement in uw .NET‑applicaties met stap‑voor‑stap tutorials. [Read more](./child-tasks-collector/)
 
- Stel op efficiënte wijze beperkingstypen in Aspose.Tasks voor .NET in om projectplanningen effectief te beheren. Verbeter uw projectmanagementmogelijkheden met deze tutorial.[Lees verder](./constraint-types/)
+## CompoundDocumentHeaderException Afhandelen in Aspose.Tasks
+Leer hoe u CompoundDocumentHeaderException kunt afhandelen in Aspose.Tasks voor .NET. Ontvang stap‑voor‑stap begeleiding met code‑voorbeelden voor naadloos projectmanagement. [Read more](./compound-document-header-exception/)
 
-## Kopieeropties in Aspose.Tasks
+## Constraint Types in Aspose.Tasks
+Efficiënt constraint types instellen in Aspose.Tasks voor .NET om projectplanningen effectief te beheren. Verhoog uw projectmanagementcapaciteiten met deze tutorial. [Read more](./constraint-types/)
 
- Leer hoe u projectgegevens efficiënt kunt kopiëren met Aspose.Tasks voor .NET. Verbeter uw .NET-applicaties met krachtige projectbeheermogelijkheden.[Lees verder](./copy-options/)
+## Copy Options in Aspose.Tasks
+Leer hoe u projectgegevens efficiënt kunt kopiëren met Aspose.Tasks voor .NET. Verhoog uw .NET‑applicaties met krachtige projectmanagementmogelijkheden. [Read more](./copy-options/)
 
-## Kostentoerekeningstypen in Aspose.Tasks
+## Cost Accrual Types in Aspose.Tasks
+Beheer projectkosten effectief met Aspose.Tasks voor .NET. Definieer cost accrual types voor nauwkeurige budgettracking. Ontdek stap‑voor‑stap tutorials voor verbeterd projectmanagement. [Read more](./cost-accrual-types/)
 
- Beheer projectkosten effectief met Aspose.Tasks voor .NET. Definieer typen kostentoerekening voor nauwkeurig bijhouden van het budget. Ontdek stapsgewijze zelfstudies voor verbeterd projectbeheer.[Lees verder](./cost-accrual-types/)
+## CSS Saving Arguments in Aspose.Tasks
+Sla CSS‑argumenten efficiënt op in Aspose.Tasks voor .NET om HTML‑output aan te passen. Verhoog uw projectpresentatie met op maat gemaakte CSS‑instellingen. [Read more](./css-saving-arguments/)
 
-## CSS Argumenten opslaan in Aspose.Tasks
+## CSV Options in Aspose.Tasks
+Gebruik Aspose.Tasks voor .NET om efficiënt met CSV‑bestanden te werken. Verhoog uw projectmanagementcapaciteiten moeiteloos met stap‑voor‑stap tutorials. [Read more](./csv-options/)
 
- Sla CSS-argumenten efficiënt op in Aspose.Tasks voor .NET om de HTML-uitvoer aan te passen. Verbeter uw projectpresentatie met op maat gemaakte CSS-instellingen.[Lees verder](./css-saving-arguments/)
+## Currency Symbol Positions in Aspose.Tasks
+Regel de positie van het valutateken in .NET‑projecten moeiteloos met Aspose.Tasks. Ontdek stap‑voor‑stap tutorials voor naadloze integratie. [Read more](./currency-symbol-positions/)
 
-## CSV-opties in Aspose.Tasks
+## Custom Field Types in Aspose.Tasks
+Leer hoe u met custom field types kunt werken in Aspose.Tasks voor .NET. Ontdek stap‑voor‑stap gidsen met code‑voorbeelden en FAQ’s voor efficiënt projectmanagement. [Read more](./custom-field-types/)
 
- Gebruik Aspose.Tasks voor .NET om efficiënt met CSV-bestanden te werken. Verbeter moeiteloos uw projectmanagementmogelijkheden met stapsgewijze zelfstudies.[Lees verder](./csv-options/)
+## Managing Custom Project Property Collection in Aspose.Tasks
+Beheer aangepaste projecteigenschappen effectief in Aspose.Tasks voor .NET. Verhoog uw projectmanagementervaring met stap‑voor‑stap tutorials. [Read more](./custom-project-property-collection/)
 
-## Valutasymboolposities in Aspose.Tasks
+## Daily Calendar Repetition in Aspose.Tasks
+Maak terugkerende taken met dagelijkse kalenderherhalingen in Aspose.Tasks voor .NET. Verhoog de efficiëntie van projectmanagement moeiteloos met gedetailleerde tutorials. [Read more](./daily-calendar-repetition/)
 
- Beheer de posities van valutasymbolen in .NET-projecten moeiteloos met Aspose.Tasks. Ontdek stapsgewijze tutorials voor naadloze integratie.[Lees verder](./currency-symbol-positions/)
+## Daily Work Repetition in Aspose.Tasks
+Maak dagelijkse terugkerende taken in Microsoft Project‑bestanden met Aspose.Tasks voor .NET. Verhoog productiviteit en organisatie met stap‑voor‑stap tutorials. [Read more](./daily-work-repetition/)
 
-## Aangepaste veldtypen in Aspose.Tasks
+## Date Format in Aspose.Tasks
+Pas datumformaten aan in Aspose.Tasks voor .NET moeiteloos met uitgebreide stap‑voor‑stap tutorials. Verhoog uw projectmanagementervaring. [Read more](./date-format/)
 
- Leer hoe u met aangepaste veldtypen kunt werken in Aspose.Tasks voor .NET. Ontdek stapsgewijze handleidingen met codevoorbeelden en veelgestelde vragen voor efficiënt projectbeheer.[Lees verder](./custom-field-types/)
+## Managing Day Type Collection in Aspose.Tasks
+Beheer dagtype‑collecties efficiënt in Aspose.Tasks voor .NET. Maak, wijzig en bewerk kalenderuitzonderingen eenvoudig met stap‑voor‑stap tutorials. [Read more](./day-type-collection/)
 
-## Aangepaste projecteigenschappenverzameling beheren in Aspose.Tasks
+## Database Settings in Aspose.Tasks
+Importeer projecten uit een Primavera‑database met Aspose.Tasks voor .NET. Ontvang stap‑voor‑stap begeleiding in deze uitgebreide tutorial voor efficiënt projectmanagement. [Read more](./database-settings/)
 
- Beheer op effectieve wijze aangepaste projecteigenschappen in Aspose.Tasks voor .NET. Verbeter uw projectmanagementervaring met stapsgewijze zelfstudies.[Lees verder](./custom-project-property-collection/)
+## Duration Handling in Aspose.Tasks
+Behandel duur effectief in Aspose.Tasks voor .NET met stap‑voor‑stap tutorials. Verhoog uw projectmanagementcapaciteiten moeiteloos. [Read more](./duration-handling/)
 
-## Dagelijkse kalenderherhaling in Aspose.Tasks
-
- Creëer terugkerende taken met dagelijkse agendaherhalingen in Aspose.Tasks voor .NET. Verbeter de efficiëntie van projectmanagement moeiteloos met gedetailleerde tutorials.[Lees verder](./daily-calendar-repetition/)
-
-## Dagelijkse werkherhaling in Aspose.Tasks
-
- Maak dagelijks terugkerende taken in Microsoft Project-bestanden met Aspose.Tasks voor .NET. Verbeter de productiviteit en organisatie met stapsgewijze zelfstudies.[Lees verder](./daily-work-repetition/)
-
-## Datumnotatie in Aspose.Tasks
-
- Pas datumformaten in Aspose.Tasks voor .NET moeiteloos aan met uitgebreide stap-voor-stap tutorials. Verbeter uw projectmanagementervaring.[Lees verder](./date-format/)
-
-## Verzameling van dagtypes beheren in Aspose.Tasks
-
-Beheer dagtypecollecties efficiënt in Aspose.Tasks voor .NET. Maak, wijzig en manipuleer eenvoudig agenda-uitzonderingen met behulp van stapsgewijze zelfstudies.[Lees verder](./day-type-collection/)
-
-## Database-instellingen in Aspose.Tasks
-
- Importeer projecten uit een Primavera-database met Aspose.Tasks voor .NET. Krijg stapsgewijze begeleiding in deze uitgebreide tutorial voor efficiënt projectbeheer.[Lees verder](./database-settings/)
-
-## Duurafhandeling in Aspose.Tasks
-
- Ga effectief om met duur in Aspose.Tasks voor .NET met stapsgewijze zelfstudies. Verbeter moeiteloos uw projectmanagementmogelijkheden.[Lees verder](./duration-handling/)
-## Aspose.Tasks Kalender en planningshandleidingen
-### [Werken met Agenda in Aspose.Tasks](./working-with-calendar/)
-Beheer projectkalenders, bereken de duur en handel uitzonderingen eenvoudig af met Aspose.Tasks voor .NET.
-### [Agendaverzameling beheren in Aspose.Tasks](./calendar-collection/)
-Leer hoe u agendaverzamelingen efficiënt beheert in Aspose.Tasks voor .NET. Creëer, wijzig en manipuleer kalenders met gemak.
-### [Agenda-uitzonderingen afhandelen in Aspose.Tasks](./calendar-exceptions/)
-Leer hoe u agenda-uitzonderingen beheert in Aspose.Tasks voor .NET met stapsgewijze zelfstudies en voorbeelden.
-### [Verzameling van agenda-uitzonderingen in Aspose.Tasks](./calendar-exception-collection/)
-Leer hoe u agenda-uitzonderingen in uw .NET-projecten efficiënt kunt afhandelen met behulp van Aspose.Tasks, zodat u verzekerd bent van nauwkeurige planning en resourcebeheer.
-### [Controleer het circuit in Aspose.Tasks](./check-circuit/)
-Leer hoe u Aspose.Tasks voor .NET kunt gebruiken om projectbestanden efficiënt te beheren en analyseren in C#.
-### [Onderliggende taken verzamelen in Aspose.Tasks](./child-tasks-collector/)
-Leer hoe u onderliggende taken efficiënt kunt verzamelen met Aspose.Tasks voor .NET. Verbeter het projectmanagement in uw .NET-applicaties.
-### [Afhandeling van samengestelde documentkopuitzonderingen in Aspose.Tasks](./compound-document-header-exception/)
-Leer hoe u omgaat met CompoundDocumentHeaderException in Aspose.Tasks voor .NET. Krijg stapsgewijze begeleiding met codevoorbeelden.
-### [Beperkingstypen in Aspose.Tasks](./constraint-types/)
-Leer hoe u beperkingstypen instelt in Aspose.Tasks voor .NET om projectplanningen efficiënt te beheren.
-### [Kopieeropties in Aspose.Tasks](./copy-options/)
-Leer hoe u projectgegevens efficiënt kunt kopiëren met Aspose.Tasks voor .NET. Verbeter uw .NET-applicaties met krachtige projectbeheermogelijkheden.
-### [Kostentoerekeningstypen in Aspose.Tasks](./cost-accrual-types/)
-Leer hoe u projectkosten effectief kunt beheren met Aspose.Tasks voor .NET. Definieer typen kostentoerekening voor nauwkeurig bijhouden van het budget.
-### [CSS Argumenten opslaan in Aspose.Tasks](./css-saving-arguments/)
-Leer hoe u CSS-argumenten opslaat in Aspose.Tasks voor .NET om de HTML-uitvoer aan te passen. Verbeter de presentatie met op maat gemaakte CSS-instellingen.
-### [CSV-opties in Aspose.Tasks](./csv-options/)
-Leer hoe u Aspose.Tasks voor .NET kunt gebruiken om efficiënt met CSV-bestanden te werken, waardoor u moeiteloos uw projectbeheermogelijkheden kunt verbeteren.
-### [Valutasymboolposities in Aspose.Tasks](./currency-symbol-positions/)
-Leer hoe u moeiteloos de posities van valutasymbolen in .NET-projecten kunt beheren met Aspose.Tasks.
-### [Aangepaste veldtypen in Aspose.Tasks](./custom-field-types/)
-Leer hoe u met aangepaste veldtypen kunt werken in Aspose.Tasks voor .NET. Stapsgewijze handleiding met codevoorbeelden en veelgestelde vragen.
-### [Aangepaste projecteigenschappenverzameling beheren in Aspose.Tasks](./custom-project-property-collection/)
-Leer hoe u aangepaste projecteigenschappen effectief kunt beheren in Aspose.Tasks voor .NET, waardoor uw projectbeheerervaring wordt verbeterd. 
-### [Dagelijkse kalenderherhaling in Aspose.Tasks](./daily-calendar-repetition/)
-Leer hoe u terugkerende taken kunt maken met dagelijkse agendaherhalingen in Aspose.Tasks voor .NET. Verbeter moeiteloos de efficiëntie van projectbeheer.
-### [Dagelijkse werkherhaling in Aspose.Tasks](./daily-work-repetition/)
-Leer hoe u dagelijks terugkerende taken in Microsoft Project-bestanden kunt maken met Aspose.Tasks voor .NET. Verhoog moeiteloos de productiviteit en organisatie.
-### [Datumnotatie in Aspose.Tasks](./date-format/)
-Leer hoe u datumnotaties in Aspose.Tasks voor .NET moeiteloos kunt aanpassen met deze uitgebreide stapsgewijze zelfstudie.
-### [Verzameling van dagtypes beheren in Aspose.Tasks](./day-type-collection/)
-Leer hoe u dagtypecollecties efficiënt beheert in Aspose.Tasks voor .NET. Creëer, wijzig en manipuleer eenvoudig agenda-uitzonderingen.
-### [Database-instellingen in Aspose.Tasks](./database-settings/)
-Leer hoe u projecten uit een Primavera-database importeert met Aspose.Tasks voor .NET. Krijg stapsgewijze begeleiding in deze uitgebreide zelfstudie.
+## Aspose.Tasks Kalender‑ en Planning Tutorials
+### [Werken met Kalender in Aspose.Tasks](./working-with-calendar/)
+Manage project calendars, calculate durations, handle exceptions with ease using Aspose.Tasks for .NET.
+### [Kalenderverzameling Beheren in Aspose.Tasks](./calendar-collection/)
+Learn how to manage calendar collections in Aspose.Tasks for .NET efficiently. Create, modify, and manipulate calendars with ease.
+### [Kalenderuitzonderingen Afhandelen in Aspose.Tasks](./calendar-exceptions/)
+Learn how to manage calendar exceptions in Aspose.Tasks for .NET with step‑by‑step tutorials and examples.
+### [Verzameling van Kalenderuitzonderingen in Aspose.Tasks](./calendar-exception-collection/)
+Learn how to efficiently handle calendar exceptions in your .NET projects using Aspose.Tasks, ensuring accurate scheduling and resource management.
+### [Circuit Controleren in Aspose.Tasks](./check-circuit/)
+Learn how to use Aspose.Tasks for .NET to efficiently manage and analyze project files in C#.
+### [Kindtaken Verzamelen in Aspose.Tasks](./child-tasks-collector/)
+Learn how to collect child tasks efficiently using Aspose.Tasks for .NET. Improve project management in your .NET applications.
+### [CompoundDocumentHeaderException Afhandelen in Aspose.Tasks](./compound-document-header-exception/)
+Learn how to handle CompoundDocumentHeaderException in Aspose.Tasks for .NET. Get step‑by‑step guidance with code examples.
+### [Constraint Types in Aspose.Tasks](./constraint-types/)
+Learn how to set constraint types in Aspose.Tasks for .NET to efficiently manage project schedules.
+### [Copy Options in Aspose.Tasks](./copy-options/)
+Learn how to efficiently copy project data using Aspose.Tasks for .NET. Enhance your .NET applications with powerful project management capabilities.
+### [Cost Accrual Types in Aspose.Tasks](./cost-accrual-types/)
+Learn how to manage project costs effectively with Aspose.Tasks for .NET. Define cost accrual types for accurate budget tracking.
+### [CSS Saving Arguments in Aspose.Tasks](./css-saving-arguments/)
+Learn how to save CSS arguments in Aspose.Tasks for .NET to customize HTML output. Enhance presentation with tailored CSS settings.
+### [CSV Options in Aspose.Tasks](./csv-options/)
+Learn how to utilize Aspose.Tasks for .NET to efficiently work with CSV files, enhancing your project management capabilities effortlessly.
+### [Currency Symbol Positions in Aspose.Tasks](./currency-symbol-positions/)
+Learn how to control currency symbol positions in .NET projects effortlessly with Aspose.Tasks.
+### [Custom Field Types in Aspose.Tasks](./custom-field-types/)
+Learn how to work with custom field types in Aspose.Tasks for .NET. Step‑by‑step guide with code examples and FAQs.
+### [Beheren van Aangepaste Projecteigenschap Collectie in Aspose.Tasks](./custom-project-property-collection/)
+Learn how to effectively manage custom project properties in Aspose.Tasks for .NET, enhancing your project management experience. 
+### [Dagelijkse Kalenderherhaling in Aspose.Tasks](./daily-calendar-repetition/)
+Learn how to create recurring tasks with daily calendar repetitions in Aspose.Tasks for .NET. Enhance project management efficiency effortlessly.
+### [Dagelijkse Werkherhaling in Aspose.Tasks](./daily-work-repetition/)
+Learn how to create daily recurring tasks in Microsoft Project files using Aspose.Tasks for .NET. Boost productivity and organization effortlessly.
+### [Datumformaat in Aspose.Tasks](./date-format/)
+Learn how to customize date formats in Aspose.Tasks for .NET effortlessly with this comprehensive step‑by‑step tutorial.
+### [Beheren van Dagtype Collectie in Aspose.Tasks](./day-type-collection/)
+Learn how to manage day type collections efficiently in Aspose.Tasks for .NET. Create, modify, and manipulate calendar exceptions with ease.
+### [Database‑instellingen in Aspose.Tasks](./database-settings/)
+Learn how to import projects from a Primavera database using Aspose.Tasks for .NET.
 ### [Duurafhandeling in Aspose.Tasks](./duration-handling/)
-Leer hoe u effectief met tijdsduur omgaat in Aspose.Tasks voor .NET met stapsgewijze zelfstudies.
+
+## Veelgestelde Vragen
+
+**Q:** *Waar worden custom field types voor gebruikt?*  
+**A:** Ze laten u extra, door de gebruiker gedefinieerde gegevens opslaan op taken, resources of projecten, waardoor rijkere rapportage en integratiescenario's mogelijk worden.
+
+**Q:** *Hoe beheer ik kalenderuitzonderingen?*  
+**A:** Gebruik de `CalendarExceptionCollection` om uitzonderingen toe te voegen, te bewerken of te verwijderen. De API houdt hier rekening mee bij het berekenen van taakduur.
+
+**Q:** *Kan ik projectgegevens exporteren naar CSV met specifieke kolommen?*  
+**A:** Ja—de CSV‑opties van Aspose.Tasks laten u velden selecteren, scheidingstekens instellen en de codering regelen om aan te sluiten bij uw downstream‑systeem.
+
+**Q:** *Is er ondersteuning voor dagelijkse terugkerende taken?*  
+**A:** Absoluut. Definieer een dagelijkse herhaling op een kalender of gebruik de `RecurringTask`‑API om taakcreatie te automatiseren.
+
+**Q:** *Heb ik een licentie nodig voor productiegebruik?*  
+**A:** Een geldige Aspose.Tasks‑licentie is vereist voor commerciële implementaties; een gratis proefversie is beschikbaar voor evaluatie.
+
+---
+
+**Laatst bijgewerkt:** 2026-04-06  
+**Getest met:** Aspose.Tasks 24.12 for .NET  
+**Auteur:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

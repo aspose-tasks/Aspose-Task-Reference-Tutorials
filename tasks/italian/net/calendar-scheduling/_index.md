@@ -1,146 +1,210 @@
 ---
-title: Aspose.Tasks Calendario e pianificazione
-linktitle: Aspose.Tasks Calendario e pianificazione
-second_title: Aspose.Tasks API .NET
-description: Gestisci i calendari dei progetti, calcola le durate e gestisci le eccezioni con Aspose.Tasks per .NET. Esplora tutorial passo passo per il calendario e le attività di pianificazione.
-weight: 22
+date: 2026-04-06
+description: Scopri come lavorare con i tipi di campo personalizzati in Aspose.Tasks
+  per .NET, gestire i calendari, calcolare le durate delle attività e gestire le eccezioni
+  di pianificazione.
+keywords:
+- custom field types
+- how to manage calendar
+- daily recurring tasks
+- csv export options
+- calculate task duration
+linktitle: Calendario e Pianificazione di Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+title: Tipi di campo personalizzato di Aspose.Tasks – Calendario e pianificazione
 url: /it/net/calendar-scheduling/
+weight: 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks Calendario e pianificazione
+# Aspose.Tasks Tipi di Campo Personalizzati – Calendario e Pianificazione
 
-## introduzione
+## Introduzione
 
-Benvenuto nel mondo dei tutorial Aspose.Tasks per .NET, la tua risorsa di riferimento per padroneggiare le complessità della gestione del calendario e della pianificazione nei tuoi progetti .NET. Aspose.Tasks offre agli sviluppatori strumenti robusti per gestire facilmente i calendari dei progetti, calcolare le durate e gestire le eccezioni. In questa raccolta completa di tutorial, approfondiamo vari aspetti, dal lavoro con i calendari e la gestione delle eccezioni all'esplorazione di argomenti specializzati come le eccezioni di intestazioni di documenti composti e le posizioni dei simboli di valuta. Che tu sia uno sviluppatore esperto alla ricerca di approfondimenti avanzati o un nuovo arrivato desideroso di migliorare le proprie capacità di gestione dei progetti, questi tutorial forniscono una guida passo passo ed esempi reali. Partiamo per un viaggio per sbloccare tutto il potenziale di Aspose.Tasks per .NET ed elevare le capacità di gestione dei progetti. Pronti a tuffarvi? Iniziamo!
+Benvenuti nel mondo dei tutorial di Aspose.Tasks per .NET, la vostra risorsa di riferimento per padroneggiare le complessità della gestione dei calendari, della pianificazione, **custom field types**, e molto altro nei vostri progetti .NET. Aspose.Tasks offre agli sviluppatori strumenti potenti per gestire agevolmente i calendari di progetto, calcolare le durate, gestire le eccezioni e lavorare con i tipi di campo personalizzati. In questa raccolta completa di tutorial, approfondiamo vari aspetti, dalla gestione dei calendari e delle eccezioni all'esplorazione di argomenti specializzati come le eccezioni di intestazione di documento composto e le posizioni del simbolo di valuta. Che siate sviluppatori esperti in cerca di approfondimenti avanzati o neofiti desiderosi di migliorare le vostre competenze nella gestione dei progetti, questi tutorial forniscono guide passo‑passo ed esempi reali. Iniziamo un viaggio per sbloccare tutto il potenziale di Aspose.Tasks per .NET e potenziare le vostre capacità di gestione dei progetti.
 
-## Lavorare con il calendario in Aspose.Tasks
+## Risposte Rapide
+- **Qual è lo scopo principale dei tipi di campo personalizzati?** Consentono di memorizzare informazioni aggiuntive, definite dall'utente, su attività, risorse o progetti.  
+- **Come posso gestire le eccezioni del calendario?** Utilizzate la `CalendarExceptionCollection` per aggiungere, modificare o rimuovere le eccezioni programmaticamente.  
+- **Posso esportare i dati del progetto in CSV?** Sì—Aspose.Tasks fornisce opzioni di esportazione CSV per personalizzare l'output.  
+- **È supportata la creazione di attività ricorrenti giornaliere?** Assolutamente; le ripetizioni giornaliere del calendario consentono di pianificare facilmente lavori ricorrenti.  
+- **È necessaria una licenza per l'uso in produzione?** È richiesta una licenza valida di Aspose.Tasks per le distribuzioni commerciali.
 
-Scopri come gestire i calendari dei progetti, calcolare le durate e gestire le eccezioni senza problemi utilizzando Aspose.Tasks per .NET. Migliora le tue capacità di gestione dei progetti senza sforzo.[Per saperne di più](./working-with-calendar/)
+## Cos'è un Tipo di Campo Personalizzato?
+Un **custom field type** in Aspose.Tasks è un attributo definito dall'utente che può essere associato a attività, risorse o al progetto stesso. Estende il set standard di campi, permettendo di catturare dati specifici per il business, come livelli di rischio, codici di reparto o identificatori personalizzati.
 
-## Gestione della raccolta di calendari in Aspose.Tasks
+## Perché Utilizzare i Tipi di Campo Personalizzati?
+- **Flessibilità:** Memorizzate qualsiasi dato rilevante per la vostra organizzazione.  
+- **Reporting:** Inserite dati personalizzati nei report senza modificare lo schema di base del progetto.  
+- **Integrazione:** Mappate agevolmente i campi personalizzati a sistemi esterni (ad es. ERP o strumenti BI).
 
- Scopri modi efficienti per gestire le raccolte di calendari in Aspose.Tasks per .NET. Crea, modifica e manipola i calendari senza sforzo, aumentando l'efficienza della gestione dei progetti.[Per saperne di più](./calendar-collection/)
+## Come Gestire il Calendario
+Aspose.Tasks offre un'API ricca per creare, modificare e interrogare i calendari di progetto. Potete definire i giorni lavorativi, impostare calendari di base e applicare eccezioni per riflettere i programmi del mondo reale.
 
-## Gestione delle eccezioni del calendario in Aspose.Tasks
+## Attività Ricorrenti Giornaliere
+Con le ripetizioni giornaliere del calendario, potete automatizzare la creazione di attività che si ripetono ogni giorno, semplificando la modellazione di lavori di routine come stand‑up giornalieri o attività di manutenzione.
 
- Padroneggia l'arte della gestione delle eccezioni del calendario in Aspose.Tasks per .NET con tutorial ed esempi dettagliati passo passo. Garantisci una pianificazione accurata dei tuoi progetti.[Per saperne di più](./calendar-exceptions/)
+## Opzioni di Esportazione CSV
+Le opzioni CSV della libreria consentono di controllare quali campi vengono esportati, il delimitatore utilizzato e la codifica, offrendovi il pieno controllo sui file CSV generati.
 
- Gestisci in modo efficiente le eccezioni del calendario nei tuoi progetti .NET utilizzando Aspose.Tasks. Ottieni tutorial ed esempi passo passo per una pianificazione accurata e una gestione delle risorse.[Per saperne di più](./calendar-exception-collection/)
+## Gestione delle Proprietà Personalizzate del Progetto
+Le proprietà personalizzate del progetto lavorano a stretto contatto con i tipi di campo personalizzati, permettendo di memorizzare metadati a livello di progetto accessibili programmaticamente o tramite l'interfaccia utente.
 
-## Controlla il circuito in Aspose.Tasks
+## Calcolare la Durata delle Attività in Modo Efficiente
+Il calcolo accurato della durata rispetta le impostazioni del calendario, le eccezioni e le definizioni di tempo lavorativo, garantendo che i vostri programmi riflettano lo sforzo reale.
 
-Scopri come utilizzare Aspose.Tasks for .NET per gestire e analizzare in modo efficiente i file di progetto in C#. Migliora le tue capacità di gestione dei progetti con questo tutorial.[Per saperne di più](./check-circuit/)
+## Lavorare con il Calendario in Aspose.Tasks
 
-## Raccolta di attività figlio in Aspose.Tasks
+Esplorate come gestire i calendari di progetto, calcolare le durate e gestire le eccezioni in modo fluido usando Aspose.Tasks per .NET. Potenziate le vostre capacità di gestione dei progetti senza sforzo. [Read more](./working-with-calendar/)
 
- Raccogli in modo efficiente attività figlio utilizzando Aspose.Tasks per .NET. Migliora la gestione dei progetti nelle tue applicazioni .NET con tutorial passo passo.[Per saperne di più](./child-tasks-collector/)
+## Gestione della Collezione di Calendari in Aspose.Tasks
 
-## Gestione dell'eccezione di intestazione del documento composto in Aspose.Tasks
+Scoprite modi efficienti per gestire le collezioni di calendari in Aspose.Tasks per .NET. Create, modificate e manipulate i calendari senza difficoltà, migliorando l'efficienza della gestione dei progetti. [Read more](./calendar-collection/)
 
- Scopri come gestire CompoundDocumentHeaderException in Aspose.Tasks per .NET. Ottieni indicazioni dettagliate con esempi di codice per una gestione dei progetti fluida.[Per saperne di più](./compound-document-header-exception/)
+## Gestione delle Eccezioni del Calendario in Aspose.Tasks
 
-## Tipi di vincolo in Aspose.Tasks
+Padroneggiate l'arte della gestione delle eccezioni del calendario in Aspose.Tasks per .NET con tutorial dettagliati passo‑passo ed esempi. Garantite una pianificazione accurata nei vostri progetti. [Read more](./calendar-exceptions/)
 
- Imposta in modo efficiente i tipi di vincolo in Aspose.Tasks per .NET per gestire le pianificazioni dei progetti in modo efficace. Migliora le tue capacità di gestione dei progetti con questo tutorial.[Per saperne di più](./constraint-types/)
+Gestite in modo efficiente le eccezioni del calendario nei vostri progetti .NET utilizzando Aspose.Tasks. Ottenete tutorial passo‑passo ed esempi per una pianificazione e una gestione delle risorse precise. [Read more](./calendar-exception-collection/)
 
-## Opzioni di copia in Aspose.Tasks
+## Verifica del Circuito in Aspose.Tasks
 
- Scopri come copiare in modo efficiente i dati del progetto utilizzando Aspose.Tasks per .NET. Migliora le tue applicazioni .NET con potenti funzionalità di gestione dei progetti.[Per saperne di più](./copy-options/)
+Imparate a utilizzare Aspose.Tasks per .NET per gestire e analizzare efficientemente i file di progetto in C#. Migliorate le vostre capacità di gestione dei progetti con questo tutorial. [Read more](./check-circuit/)
 
-## Tipi di accumulo costi in Aspose.Tasks
+## Raccolta di Attività Figlio in Aspose.Tasks
 
- Gestisci i costi del progetto in modo efficace con Aspose.Tasks per .NET. Definire i tipi di accumulo dei costi per un monitoraggio accurato del budget. Esplora tutorial passo passo per una migliore gestione dei progetti.[Per saperne di più](./cost-accrual-types/)
+Raccogliete in modo efficiente le attività figlio usando Aspose.Tasks per .NET. Potenziate la gestione dei progetti nelle vostre applicazioni .NET con tutorial passo‑passo. [Read more](./child-tasks-collector/)
 
-## Argomenti di salvataggio CSS in Aspose.Tasks
+## Gestione dell'Eccezione di Intestazione del Documento Composto in Aspose.Tasks
 
- Salva in modo efficiente gli argomenti CSS in Aspose.Tasks per .NET per personalizzare l'output HTML. Migliora la presentazione del tuo progetto con impostazioni CSS personalizzate.[Per saperne di più](./css-saving-arguments/)
+Imparate a gestire la `CompoundDocumentHeaderException` in Aspose.Tasks per .NET. Ottenete guide passo‑passo con esempi di codice per una gestione fluida dei progetti. [Read more](./compound-document-header-exception/)
+
+## Tipi di Vincolo in Aspose.Tasks
+
+Impostate in modo efficiente i tipi di vincolo in Aspose.Tasks per .NET per gestire efficacemente i programmi di progetto. Potenziate le vostre capacità di gestione dei progetti con questo tutorial. [Read more](./constraint-types/)
+
+## Opzioni di Copia in Aspose.Tasks
+
+Scoprite come copiare efficientemente i dati di progetto usando Aspose.Tasks per .NET. Potenziate le vostre applicazioni .NET con potenti capacità di gestione dei progetti. [Read more](./copy-options/)
+
+## Tipi di Accumulazione dei Costi in Aspose.Tasks
+
+Gestite i costi di progetto in modo efficace con Aspose.Tasks per .NET. Definite i tipi di accumulazione dei costi per un monitoraggio accurato del budget. Esplorate tutorial passo‑passo per migliorare la gestione dei progetti. [Read more](./cost-accrual-types/)
+
+## Argomenti di Salvataggio CSS in Aspose.Tasks
+
+Salvate efficientemente gli argomenti CSS in Aspose.Tasks per .NET per personalizzare l'output HTML. Potenziate la presentazione del vostro progetto con impostazioni CSS su misura. [Read more](./css-saving-arguments/)
 
 ## Opzioni CSV in Aspose.Tasks
 
- Utilizza Aspose.Tasks per .NET per lavorare in modo efficiente con i file CSV. Migliora facilmente le tue capacità di gestione dei progetti con tutorial passo passo.[Per saperne di più](./csv-options/)
+Utilizzate Aspose.Tasks per .NET per lavorare in modo efficiente con i file CSV. Potenziate le vostre capacità di gestione dei progetti senza sforzo con tutorial passo‑passo. [Read more](./csv-options/)
 
-## Posizioni dei simboli di valuta in Aspose.Tasks
+## Posizioni del Simbolo di Valuta in Aspose.Tasks
 
- Controlla facilmente le posizioni dei simboli di valuta nei progetti .NET con Aspose.Tasks. Esplora tutorial passo passo per un'integrazione perfetta.[Per saperne di più](./currency-symbol-positions/)
+Controllate le posizioni del simbolo di valuta nei progetti .NET senza difficoltà con Aspose.Tasks. Esplorate tutorial passo‑passo per un'integrazione fluida. [Read more](./currency-symbol-positions/)
 
-## Tipi di campi personalizzati in Aspose.Tasks
+## Tipi di Campo Personalizzati in Aspose.Tasks
 
- Scopri come lavorare con tipi di campi personalizzati in Aspose.Tasks per .NET. Esplora guide dettagliate con esempi di codice e domande frequenti per una gestione efficiente dei progetti.[Per saperne di più](./custom-field-types/)
+Imparate a lavorare con i tipi di campo personalizzati in Aspose.Tasks per .NET. Esplorate guide passo‑passo con esempi di codice e FAQ per una gestione efficiente dei progetti. [Read more](./custom-field-types/)
 
-## Gestione della raccolta di proprietà del progetto personalizzato in Aspose.Tasks
+## Gestione della Collezione di Proprietà Personalizzate del Progetto in Aspose.Tasks
 
- Gestisci in modo efficace le proprietà del progetto personalizzato in Aspose.Tasks per .NET. Migliora la tua esperienza di gestione dei progetti con tutorial passo passo.[Per saperne di più](./custom-project-property-collection/)
+Gestite efficacemente le proprietà personalizzate del progetto in Aspose.Tasks per .NET. Migliorate la vostra esperienza di gestione dei progetti con tutorial passo‑passo. [Read more](./custom-project-property-collection/)
 
-## Ripetizione del calendario giornaliero in Aspose.Tasks
+## Ripetizione Giornaliera del Calendario in Aspose.Tasks
 
- Crea attività ricorrenti con ripetizioni giornaliere del calendario in Aspose.Tasks per .NET. Migliora facilmente l'efficienza della gestione dei progetti con tutorial dettagliati.[Per saperne di più](./daily-calendar-repetition/)
+Create attività ricorrenti con ripetizioni giornaliere del calendario in Aspose.Tasks per .NET. Potenziate l'efficienza della gestione dei progetti senza sforzo con tutorial dettagliati. [Read more](./daily-calendar-repetition/)
 
-## Ripetizione del lavoro quotidiano in Aspose.Tasks
+## Ripetizione del Lavoro Giornaliero in Aspose.Tasks
 
- Crea attività ricorrenti quotidiane nei file Microsoft Project utilizzando Aspose.Tasks per .NET. Aumenta la produttività e l'organizzazione con tutorial passo passo.[Per saperne di più](./daily-work-repetition/)
+Create attività ricorrenti giornaliere nei file Microsoft Project usando Aspose.Tasks per .NET. Incrementate produttività e organizzazione con tutorial passo‑passo. [Read more](./daily-work-repetition/)
 
-## Formato data in Aspose.Tasks
+## Formato Data in Aspose.Tasks
 
- Personalizza facilmente i formati delle date in Aspose.Tasks per .NET con tutorial completi passo dopo passo. Migliora la tua esperienza di gestione dei progetti.[Per saperne di più](./date-format/)
+Personalizzate i formati data in Aspose.Tasks per .NET senza sforzo con tutorial completi passo‑passo. Migliorate la vostra esperienza di gestione dei progetti. [Read more](./date-format/)
 
-## Gestione della raccolta dei tipi di giorni in Aspose.Tasks
+## Gestione della Collezione di Tipi di Giorno in Aspose.Tasks
 
-Gestisci in modo efficiente le raccolte di tipi giornalieri in Aspose.Tasks per .NET. Crea, modifica e manipola facilmente le eccezioni del calendario utilizzando tutorial passo passo.[Per saperne di più](./day-type-collection/)
+Gestite in modo efficiente le collezioni di tipi di giorno in Aspose.Tasks per .NET. Create, modificate e manipulate le eccezioni del calendario con facilità usando tutorial passo‑passo. [Read more](./day-type-collection/)
 
-## Impostazioni del database in Aspose.Tasks
+## Impostazioni del Database in Aspose.Tasks
 
- Importa progetti da un database Primavera utilizzando Aspose.Tasks per .NET. Ottieni una guida passo passo in questo tutorial completo per una gestione efficiente dei progetti.[Per saperne di più](./database-settings/)
+Importate progetti da un database Primavera usando Aspose.Tasks per .NET. Ottenete guide passo‑passo in questo tutorial completo per una gestione efficiente dei progetti. [Read more](./database-settings/)
 
-## Gestione della durata in Aspose.Tasks
+## Gestione della Durata in Aspose.Tasks
 
- Gestisci le durate in modo efficace in Aspose.Tasks per .NET con tutorial passo passo. Migliora le tue capacità di gestione dei progetti senza sforzo.[Per saperne di più](./duration-handling/)
-## Aspose.Tasks Calendario ed esercitazioni di pianificazione
-### [Lavorare con il calendario in Aspose.Tasks](./working-with-calendar/)
-Gestisci i calendari dei progetti, calcola le durate, gestisci le eccezioni con facilità utilizzando Aspose.Tasks per .NET.
-### [Gestione della raccolta di calendari in Aspose.Tasks](./calendar-collection/)
-Scopri come gestire in modo efficiente le raccolte di calendari in Aspose.Tasks per .NET. Crea, modifica e manipola i calendari con facilità.
-### [Gestione delle eccezioni del calendario in Aspose.Tasks](./calendar-exceptions/)
-Scopri come gestire le eccezioni del calendario in Aspose.Tasks per .NET con tutorial ed esempi passo passo.
-### [Raccolta di eccezioni del calendario in Aspose.Tasks](./calendar-exception-collection/)
-Scopri come gestire in modo efficiente le eccezioni del calendario nei tuoi progetti .NET utilizzando Aspose.Tasks, garantendo una pianificazione accurata e una gestione delle risorse.
-### [Controlla il circuito in Aspose.Tasks](./check-circuit/)
-Scopri come utilizzare Aspose.Tasks for .NET per gestire e analizzare in modo efficiente i file di progetto in C#.
-### [Raccolta di attività figlio in Aspose.Tasks](./child-tasks-collector/)
-Scopri come raccogliere attività figlio in modo efficiente utilizzando Aspose.Tasks per .NET. Migliora la gestione dei progetti nelle tue applicazioni .NET.
-### [Gestione dell'eccezione di intestazione del documento composto in Aspose.Tasks](./compound-document-header-exception/)
-Scopri come gestire CompoundDocumentHeaderException in Aspose.Tasks per .NET. Ottieni indicazioni dettagliate con esempi di codice.
-### [Tipi di vincolo in Aspose.Tasks](./constraint-types/)
-Scopri come impostare i tipi di vincolo in Aspose.Tasks per .NET per gestire in modo efficiente le pianificazioni dei progetti.
-### [Opzioni di copia in Aspose.Tasks](./copy-options/)
-Scopri come copiare in modo efficiente i dati del progetto utilizzando Aspose.Tasks per .NET. Migliora le tue applicazioni .NET con potenti funzionalità di gestione dei progetti.
-### [Tipi di accumulo costi in Aspose.Tasks](./cost-accrual-types/)
-Scopri come gestire i costi del progetto in modo efficace con Aspose.Tasks per .NET. Definire i tipi di accumulo dei costi per un monitoraggio accurato del budget.
-### [Argomenti di salvataggio CSS in Aspose.Tasks](./css-saving-arguments/)
-Scopri come salvare gli argomenti CSS in Aspose.Tasks per .NET per personalizzare l'output HTML. Migliora la presentazione con impostazioni CSS personalizzate.
+Gestite le durate in modo efficace in Aspose.Tasks per .NET con tutorial passo‑passo. Potenziate le vostre capacità di gestione dei progetti senza sforzo. [Read more](./duration-handling/)
+
+## Tutorial di Calendario e Pianificazione di Aspose.Tasks
+### [Lavorare con il Calendario in Aspose.Tasks](./working-with-calendar/)
+Gestite i calendari di progetto, calcolate le durate, gestite le eccezioni con facilità usando Aspose.Tasks per .NET.
+### [Gestione della Collezione di Calendari in Aspose.Tasks](./calendar-collection/)
+Imparate a gestire le collezioni di calendari in Aspose.Tasks per .NET in modo efficiente. Create, modificate e manipulate i calendari con facilità.
+### [Gestione delle Eccezioni del Calendario in Aspose.Tasks](./calendar-exceptions/)
+Imparate a gestire le eccezioni del calendario in Aspose.Tasks per .NET con tutorial passo‑passo ed esempi.
+### [Raccolta di Eccezioni del Calendario in Aspose.Tasks](./calendar-exception-collection/)
+Imparate a gestire in modo efficiente le eccezioni del calendario nei vostri progetti .NET usando Aspose.Tasks, garantendo una pianificazione accurata e una gestione delle risorse.
+### [Verifica del Circuito in Aspose.Tasks](./check-circuit/)
+Imparate a usare Aspose.Tasks per .NET per gestire e analizzare efficientemente i file di progetto in C#.
+### [Raccolta di Attività Figlio in Aspose.Tasks](./child-tasks-collector/)
+Imparate a raccogliere attività figlio in modo efficiente usando Aspose.Tasks per .NET. Migliorate la gestione dei progetti nelle vostre applicazioni .NET.
+### [Gestione dell'Eccezione di Intestazione del Documento Composto in Aspose.Tasks](./compound-document-header-exception/)
+Imparate a gestire la `CompoundDocumentHeaderException` in Aspose.Tasks per .NET. Ottenete guide passo‑passo con esempi di codice.
+### [Tipi di Vincolo in Aspose.Tasks](./constraint-types/)
+Imparate a impostare i tipi di vincolo in Aspose.Tasks per .NET per gestire efficacemente i programmi di progetto.
+### [Opzioni di Copia in Aspose.Tasks](./copy-options/)
+Imparate a copiare in modo efficiente i dati di progetto usando Aspose.Tasks per .NET. Potenziate le vostre applicazioni .NET con potenti capacità di gestione dei progetti.
+### [Tipi di Accumulazione dei Costi in Aspose.Tasks](./cost-accrual-types/)
+Imparate a gestire i costi di progetto in modo efficace con Aspose.Tasks per .NET. Definite i tipi di accumulazione dei costi per un monitoraggio accurato del budget.
+### [Argomenti di Salvataggio CSS in Aspose.Tasks](./css-saving-arguments/)
+Imparate a salvare gli argomenti CSS in Aspose.Tasks per .NET per personalizzare l'output HTML. Migliorate la presentazione con impostazioni CSS su misura.
 ### [Opzioni CSV in Aspose.Tasks](./csv-options/)
-Scopri come utilizzare Aspose.Tasks for .NET per lavorare in modo efficiente con i file CSV, migliorando facilmente le tue capacità di gestione dei progetti.
-### [Posizioni dei simboli di valuta in Aspose.Tasks](./currency-symbol-positions/)
-Scopri come controllare facilmente le posizioni dei simboli di valuta nei progetti .NET con Aspose.Tasks.
-### [Tipi di campi personalizzati in Aspose.Tasks](./custom-field-types/)
-Scopri come lavorare con tipi di campi personalizzati in Aspose.Tasks per .NET. Guida passo passo con esempi di codice e domande frequenti.
-### [Gestione della raccolta di proprietà del progetto personalizzato in Aspose.Tasks](./custom-project-property-collection/)
-Scopri come gestire in modo efficace le proprietà del progetto personalizzato in Aspose.Tasks per .NET, migliorando la tua esperienza di gestione dei progetti. 
-### [Ripetizione del calendario giornaliero in Aspose.Tasks](./daily-calendar-repetition/)
-Scopri come creare attività ricorrenti con ripetizioni giornaliere del calendario in Aspose.Tasks per .NET. Migliora l'efficienza della gestione dei progetti senza sforzo.
-### [Ripetizione del lavoro quotidiano in Aspose.Tasks](./daily-work-repetition/)
-Scopri come creare attività ricorrenti quotidiane nei file Microsoft Project utilizzando Aspose.Tasks per .NET. Aumenta la produttività e l'organizzazione senza sforzo.
-### [Formato data in Aspose.Tasks](./date-format/)
-Scopri come personalizzare facilmente i formati della data in Aspose.Tasks per .NET con questo tutorial completo passo passo.
-### [Gestione della raccolta dei tipi di giorni in Aspose.Tasks](./day-type-collection/)
-Scopri come gestire in modo efficiente le raccolte di tipi giornalieri in Aspose.Tasks per .NET. Crea, modifica e manipola facilmente le eccezioni del calendario.
-### [Impostazioni del database in Aspose.Tasks](./database-settings/)
-Scopri come importare progetti da un database Primavera utilizzando Aspose.Tasks per .NET. Ottieni una guida passo passo in questo tutorial completo.
-### [Gestione della durata in Aspose.Tasks](./duration-handling/)
-Scopri come gestire le durate in modo efficace in Aspose.Tasks per .NET con esercitazioni dettagliate.
+Imparate a utilizzare Aspose.Tasks per .NET per lavorare in modo efficiente con i file CSV, migliorando le vostre capacità di gestione dei progetti senza sforzo.
+### [Posizioni del Simbolo di Valuta in Aspose.Tasks](./currency-symbol-positions/)
+Imparate a controllare le posizioni del simbolo di valuta nei progetti .NET senza difficoltà con Aspose.Tasks.
+### [Tipi di Campo Personalizzati in Aspose.Tasks](./custom-field-types/)
+Imparate a lavorare con i tipi di campo personalizzati in Aspose.Tasks per .NET. Guida passo‑passo con esempi di codice e FAQ.
+### [Gestione della Collezione di Proprietà Personalizzate del Progetto in Aspose.Tasks](./custom-project-property-collection/)
+Imparate a gestire efficacemente le proprietà personalizzate del progetto in Aspose.Tasks per .NET, migliorando la vostra esperienza di gestione dei progetti. 
+### [Ripetizione Giornaliera del Calendario in Aspose.Tasks](./daily-calendar-repetition/)
+Imparate a creare attività ricorrenti con ripetizioni giornaliere del calendario in Aspose.Tasks per .NET. Potenziate l'efficienza della gestione dei progetti senza sforzo.
+### [Ripetizione del Lavoro Giornaliero in Aspose.Tasks](./daily-work-repetition/)
+Imparate a creare attività ricorrenti giornaliere nei file Microsoft Project usando Aspose.Tasks per .NET. Incrementate produttività e organizzazione senza sforzo.
+### [Formato Data in Aspose.Tasks](./date-format/)
+Imparate a personalizzare i formati data in Aspose.Tasks per .NET senza sforzo con questo tutorial completo passo‑passo.
+### [Gestione della Collezione di Tipi di Giorno in Aspose.Tasks](./day-type-collection/)
+Imparate a gestire le collezioni di tipi di giorno in modo efficiente in Aspose.Tasks per .NET. Create, modificate e manipulate le eccezioni del calendario con facilità.
+### [Impostazioni del Database in Aspose.Tasks](./database-settings/)
+Imparate a importare progetti da un database Primavera usando Aspose.Tasks per .NET. Ottenete guide passo‑passo in questo tutorial completo.
+### [Gestione della Durata in Aspose.Tasks](./duration-handling/)
+Imparate a gestire le durate in modo efficace in Aspose.Tasks per .NET con tutorial passo‑passo.
+
+## Domande Frequenti
+
+**D:** *A cosa servono i tipi di campo personalizzati?*  
+**R:** Consentono di memorizzare dati aggiuntivi, definiti dall'utente, su attività, risorse o progetti, abilitando report più ricchi e scenari di integrazione.
+
+**D:** *Come gestisco le eccezioni del calendario?*  
+**R:** Utilizzate la `CalendarExceptionCollection` per aggiungere, modificare o rimuovere le eccezioni. L'API le considera durante il calcolo delle durate delle attività.
+
+**D:** *Posso esportare i dati del progetto in CSV con colonne specifiche?*  
+**R:** Sì—le opzioni CSV di Aspose.Tasks permettono di selezionare i campi, impostare i delimitatori e controllare la codifica per adattarsi al vostro sistema downstream.
+
+**D:** *È supportata la creazione di attività ricorrenti giornaliere?*  
+**R:** Assolutamente. Definite una ripetizione giornaliera su un calendario o utilizzate l'API `RecurringTask` per automatizzare la creazione delle attività.
+
+**D:** *È necessaria una licenza per l'uso in produzione?*  
+**R:** È richiesta una licenza valida di Aspose.Tasks per le distribuzioni commerciali; è disponibile una versione di prova gratuita per la valutazione.
+
+---
+
+**Last Updated:** 2026-04-06  
+**Tested With:** Aspose.Tasks 24.12 for .NET  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

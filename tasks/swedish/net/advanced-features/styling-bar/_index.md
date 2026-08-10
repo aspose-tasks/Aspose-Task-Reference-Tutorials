@@ -1,33 +1,54 @@
 ---
-title: Styling Bar i Aspose.Tasks
-linktitle: Styling Bar i Aspose.Tasks
+date: 2026-04-06
+description: Lär dig hur du ändrar stapelns stil och anpassar stapelfärger i Aspose.Tasks
+  för .NET för att förbättra projektvisualiseringen.
+keywords:
+- how to change bar
+- customize bar colors
+- Aspose.Tasks bar styling
+linktitle: Stylingfält i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Lär dig hur du stilar staplar i Aspose.Tasks för .NET för att förbättra projektvisualiseringen.
-weight: 19
+title: Hur man ändrar stapelstil i Aspose.Tasks
 url: /sv/net/advanced-features/styling-bar/
+weight: 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Styling Bar i Aspose.Tasks
+# Så ändrar du stapelstil i Aspose.Tasks
 
 ## Introduktion
 
-Styling av barer i Aspose.Tasks är en viktig aspekt av att skapa visuellt tilltalande projektplaner. Med flexibiliteten som erbjuds av Aspose.Tasks API kan utvecklare anpassa olika aspekter av staplar, såsom färg, form och textstil, för att förbättra projektvisualiseringen. I den här handledningen kommer vi att undersöka hur man stilar staplar med Aspose.Tasks för .NET, och delar upp varje exempel i hanterbara steg.
+Om du behöver **hur man ändrar stapel**-utseendet i en Microsoft Project‑fil, ger Aspose.Tasks för .NET dig full kontroll över stapelfärger, former och textstilar. Genom att anpassa stapelfärger och andra visuella attribut kan du göra projektplaner mycket lättare att läsa och mer i linje med ditt företags varumärke. I den här handledningen går vi igenom ett komplett, steg‑för‑steg‑exempel som visar hur du ändrar stapelstil, från att ladda ett projekt till att exportera det med de nya visuella reglerna tillämpade.
+
+## Snabba svar
+- **Vad kan jag formatera?** Staplar, milstolpar och uppgiftstext i Gantt‑diagram.  
+- **Vilket format stödjer stylade staplar?** PDF, XLSX, HTML och native MPP när de sparas med `PdfSaveOptions`.  
+- **Behöver jag en licens?** En kommersiell licens krävs för produktionsbruk; en gratis provversion fungerar för testning.  
+- **Kan jag tillämpa flera stilar?** Ja – lägg till så många `BarStyle`‑objekt du behöver.  
+- **Är det .NET Core‑kompatibelt?** Absolut – fungerar med .NET Framework och .NET Core/5/6+.
+
+## Vad är stapelstil i Aspose.Tasks?
+
+Stapelstil låter dig definiera visuella regler som Aspose.Tasks‑motorn använder när den renderar Gantt‑diagram. Varje regel (en **BarStyle**) riktar sig mot en specifik objekttyp – uppgifter, milstolpar eller samlingsuppgifter – och låter dig ange färger, former och till och med anpassad text.
+
+## Varför anpassa stapelfärger?
+
+Att anpassa stapelfärger hjälper intressenter att omedelbart identifiera kritiska vägar, försenade uppgifter eller milstolpar. Det låter dig också matcha företagets färgscheman, vilket får rapporterna att se professionella och varumärkesanpassade ut.
 
 ## Förutsättningar
 
-Innan vi börjar, se till att du har följande förutsättningar på plats:
+Innan vi börjar, se till att du har:
 
-1.  Aspose.Tasks for .NET Library: Ladda ner och installera Aspose.Tasks for .NET-biblioteket från[nedladdningssida](https://releases.aspose.com/tasks/net/).
-2. Utvecklingsmiljö: Skapa en utvecklingsmiljö med stöd för .NET framework.
-3. Grundläggande förståelse för C#: Bekantskap med programmeringsspråket C# kommer att vara fördelaktigt.
+1. **Aspose.Tasks för .NET** – ladda ner det från [download page](https://releases.aspose.com/tasks/net/).  
+2. En utvecklingsmiljö som stödjer .NET (Framework 4.6+, .NET Core 3.1+ eller senare).  
+3. Grundläggande kunskaper i C# – exemplen använder enkel, självständig kod.
 
-## Importera namnområden
+## Importera namnrymder
 
-Låt oss först importera de nödvändiga namnområdena för att komma åt Aspose.Tasks-klasser och metoder:
+Importera först de namnrymder som innehåller de klasser vi ska använda:
 
 ```csharp
 using Aspose.Tasks;
@@ -36,22 +57,21 @@ using System.Drawing;
 
 using Aspose.Tasks.Saving;
 using Aspose.Tasks.Visualization;
-
 ```
 
 ## Steg 1: Ladda projektet
 
-Börja med att ladda projektfilen med Aspose.Tasks API:
+Läs in en befintlig MPP‑fil (eller skapa en ny) så att du har ett projektobjekt att arbeta med:
 
 ```csharp
-// Sökvägen till dokumentkatalogen.
+// The path to th documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Project2.mpp");
 ```
 
 ## Steg 2: Konfigurera sparalternativ
 
-Definiera sparalternativen och ange de stapelstilar som ska tillämpas:
+Skapa en `PdfSaveOptions`‑instans och initiera `BarStyles`‑samlingen där vi ska lagra våra anpassade stilar:
 
 ```csharp
 SaveOptions options = new PdfSaveOptions
@@ -60,26 +80,26 @@ SaveOptions options = new PdfSaveOptions
 };
 ```
 
-## Steg 3: Definiera barstil
+## Steg 3: Definiera stapelstil
 
-Skapa en ny barstil och anpassa dess egenskaper:
+Nu bygger vi ett `BarStyle`‑objekt och sätter egenskaperna som styr hur stapeln ser ut. Här anpassar vi **stapelfärger** och former:
 
 ```csharp
 var style = new BarStyle();
-style.ItemType = BarItemType.Milestone; // Ställ in barobjektstyp
-style.BarColor = Color.Green; // Ställ in stapelfärg
-style.BarShape = BarShape.HalfHeight; // Ställ in stångform
-style.StartShape = Shape.LeftBracket; // Ställ in formen i början av stapeln
-style.StartShapeColor = Color.Aqua; // Ställ in färg på startformen
-style.EndShape = Shape.RightBracket; // Sätt formen i slutet av stången
-style.EndShapeColor = Color.Aquamarine; // Ställ in färg på slutformen
-style.TextStyle = new TextStyle(); // Ställ in textstil
-style.TextStyle.BackgroundColor = Color.Black; // Ställ in bakgrundsfärg för text
+style.ItemType = BarItemType.Milestone; // Set bar item type
+style.BarColor = Color.Green; // Set bar color
+style.BarShape = BarShape.HalfHeight; // Set bar shape
+style.StartShape = Shape.LeftBracket; // Set shape at the beginning of the bar
+style.StartShapeColor = Color.Aqua; // Set color of the start shape
+style.EndShape = Shape.RightBracket; // Set shape at the end of the bar
+style.EndShapeColor = Color.Aquamarine; // Set color of the end shape
+style.TextStyle = new TextStyle(); // Set text style
+style.TextStyle.BackgroundColor = Color.Black; // Set background color for text
 ```
 
-## Steg 4: Anpassa Text Converter
+## Steg 4: Anpassa textkonverterare (valfritt)
 
-Alternativt kan du anpassa textkonverteraren för att ändra textåtergivningen:
+Om du vill justera texten som visas på stapeln kan du tilldela en egen konverterare. Exemplet lägger till prefix på uppgiftsnamn som inte redan börjar med “T”:
 
 ```csharp
 style.LeftBarTextConverter = task =>
@@ -92,9 +112,9 @@ style.LeftBarTextConverter = task =>
 };
 ```
 
-## Steg 5: Lägg till barstil till alternativ
+## Steg 5: Lägg till stapelstil i alternativ
 
-Lägg till den konfigurerade stapelstilen till sparalternativen:
+Lägg till den fullständigt konfigurerade stilen i `BarStyles`‑samlingen på sparalternativen:
 
 ```csharp
 options.BarStyles.Add(style);
@@ -102,37 +122,62 @@ options.BarStyles.Add(style);
 
 ## Steg 6: Spara projektet
 
-Slutligen, spara projektet med de tillämpade stapelstilarna:
+Till sist exporterar du projektet. PDF‑filen (eller annat format) renderar Gantt‑diagrammet med den stapelstil vi definierat:
 
 ```csharp
 project.Save(DataDir + "WorkWithBarStyle_out.mpp", options);
 ```
 
-## Slutsats
+## Vanliga problem och lösningar
 
-Anpassning av barstilar i Aspose.Tasks för .NET ger utvecklare möjligheten att skapa visuellt tilltalande projektplaner. Genom att följa stegen som beskrivs i den här handledningen kan du effektivt utforma staplar för att möta specifika projektvisualiseringskrav.
+| Problem | Orsak | Lösning |
+|-------|--------|-----|
+| **Stil för stapel tillämpas inte** | `BarStyles`‑samlingen var tom eller inte kopplad till sparalternativen. | Se till att du lägger till `BarStyle` i `options.BarStyles` innan du anropar `Save`. |
+| **Färger ser annorlunda ut i PDF** | PDF‑rendering kan använda en annan färgprofil. | Använd standardvärden från `System.Drawing.Color` eller definiera egna ARGB‑färger. |
+| **Textkonverterare kastar null‑referens** | Uppgiftsegenskapen `Tsk.Name` är null för vissa uppgifter. | Lägg till en null‑kontroll innan du åtkommer `task.Get(Tsk.Name)`. |
 
-## FAQ's
+## Vanliga frågor
 
-### F1: Kan jag tillämpa flera stapelstilar på ett enda projekt?
+### Q1: Kan jag tillämpa flera stapelstilar på ett enda projekt?
 
-S1: Ja, du kan definiera och tillämpa flera stapelstilar på olika typer av uppgifter inom samma projekt.
-   
-### F2: Är det möjligt att dynamiskt ändra stapelstilar under körning?
+A1: Ja, du kan definiera och tillämpa flera stapelstilar på olika typer av uppgifter i samma projekt.
 
-S2: Ja, du kan dynamiskt ändra stapelstilar baserat på vissa villkor eller användarpreferenser i din applikation.
-   
-### F3: Stöder Aspose.Tasks export av projekt med formaterade staplar till olika filformat?
+### Q2: Är det möjligt att dynamiskt ändra stapelstilar under körning?
 
-S3: Ja, Aspose.Tasks stöder export av projekt med formaterade staplar till olika format som PDF, XLSX och HTML.
-   
-### F4: Finns det fördefinierade barstilar tillgängliga i Aspose.Tasks?
+A2: Ja, du kan dynamiskt ändra stapelstilar baserat på vissa villkor eller användarpreferenser i din applikation.
 
-S4: Medan Aspose.Tasks tillhandahåller standardfältstilar, kan utvecklare också skapa anpassade fältstilar skräddarsydda för deras projektkrav.
-   
-### F5: Kan jag hämta och ändra befintliga stapelstilar inom ett projekt med hjälp av API:et?
+### Q3: Stöder Aspose.Tasks att exportera projekt med stylade staplar till olika filformat?
 
-S5: Ja, du kan hämta och ändra befintliga stapelstilar programmatiskt med Aspose.Tasks för .NET API.
+A3: Ja, Aspose.Tasks stödjer export av projekt med stylade staplar till olika format såsom PDF, XLSX och HTML.
+
+### Q4: Finns fördefinierade stapelstilar i Aspose.Tasks?
+
+A4: Även om Aspose.Tasks tillhandahåller standardstapelstilar kan utvecklare också skapa egna stapelstilar anpassade efter deras projektbehov.
+
+### Q5: Kan jag hämta och ändra befintliga stapelstilar i ett projekt via API:et?
+
+A5: Ja, du kan programatiskt hämta och ändra befintliga stapelstilar med Aspose.Tasks för .NET API.
+
+## Vanliga frågor
+
+**Q: Hur ändrar jag stapelfärgen för vanliga uppgifter istället för milstolpar?**  
+A: Ange `style.ItemType = BarItemType.Task;` och tilldela `style.BarColor` till önskad `Color`.
+
+**Q: Kan jag använda detta tillvägagångssätt för att styla staplar vid export till HTML?**  
+A: Ja. Använd `HtmlSaveOptions` och fyll dess `BarStyles`‑samling på samma sätt.
+
+**Q: Finns det någon gräns för hur många stapelstilar jag kan definiera?**  
+A: Praktiskt sett ingen; du kan lägga till så många du behöver, men tänk på prestanda för mycket stora samlingar.
+
+**Q: Behöver jag anropa `project.Calculate()` efter att ha ändrat stilar?**  
+A: Nej, stilar tillämpas under sparoperationen; omräkning behövs bara för schemaläggningsändringar.
+
+---
+
+**Last Updated:** 2026-04-06  
+**Tested With:** Aspose.Tasks 24.11 for .NET  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

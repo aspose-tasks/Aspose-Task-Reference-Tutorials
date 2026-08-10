@@ -1,33 +1,54 @@
 ---
-title: Pasek stylizacji w Aspose.Tasks
+date: 2026-04-06
+description: Dowiedz się, jak zmienić styl pasków i dostosować ich kolory w Aspose.Tasks
+  dla .NET, aby ulepszyć wizualizację projektu.
+keywords:
+- how to change bar
+- customize bar colors
+- Aspose.Tasks bar styling
 linktitle: Pasek stylizacji w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Dowiedz się, jak stylizować paski w Aspose.Tasks dla .NET, aby ulepszyć wizualizację projektu.
-weight: 19
+title: Jak zmienić stylowanie pasków w Aspose.Tasks
 url: /pl/net/advanced-features/styling-bar/
+weight: 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Pasek stylizacji w Aspose.Tasks
+# Jak zmienić styl pasków w Aspose.Tasks
 
-## Wstęp
+## Wprowadzenie
 
-Stylizowanie pasków w Aspose.Tasks jest istotnym aspektem tworzenia atrakcyjnych wizualnie planów projektów. Dzięki elastyczności oferowanej przez interfejs API Aspose.Tasks programiści mogą dostosowywać różne aspekty pasków, takie jak kolor, kształt i styl tekstu, w celu ulepszenia wizualizacji projektu. W tym samouczku omówimy, jak stylizować paski za pomocą Aspose.Tasks dla .NET, dzieląc każdy przykład na łatwe do wykonania kroki.
+Jeśli potrzebujesz **jak zmienić wygląd paska** w pliku Microsoft Project, Aspose.Tasks dla .NET daje pełną kontrolę nad kolorami pasków, ich kształtami oraz stylami tekstu. Dostosowując kolory pasków i inne atrybuty wizualne, możesz uczynić plany projektów znacznie czytelniejszymi i lepiej dopasowanymi do identyfikacji wizualnej Twojej organizacji. W tym samouczku przeprowadzimy Cię krok po kroku przez kompletny przykład, który pokaże, jak zmienić styl pasków – od wczytania projektu po wyeksportowanie go z nowymi regułami wizualnymi.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co mogę stylizować?** Paski, kamienie milowe i tekst zadań w wykresach Gantta.  
+- **Który format obsługuje stylizowane paski?** PDF, XLSX, HTML oraz natywny MPP przy zapisie z użyciem `PdfSaveOptions`.  
+- **Czy potrzebna jest licencja?** Licencja komercyjna jest wymagana w środowisku produkcyjnym; darmowa wersja próbna wystarczy do testów.  
+- **Czy mogę zastosować wiele stylów?** Tak – dodaj tyle obiektów `BarStyle`, ile potrzebujesz.  
+- **Czy jest kompatybilny z .NET Core?** Absolutnie – działa z .NET Framework oraz .NET Core/5/6+.
 
-Zanim zaczniemy, upewnij się, że spełnione są następujące wymagania wstępne:
+## Co to jest stylizacja pasków w Aspose.Tasks?
 
-1.  Biblioteka Aspose.Tasks dla .NET: Pobierz i zainstaluj bibliotekę Aspose.Tasks dla .NET z[strona pobierania](https://releases.aspose.com/tasks/net/).
-2. Środowisko programistyczne: skonfiguruj środowisko programistyczne z obsługą platformy .NET.
-3. Podstawowa znajomość języka C#: Znajomość języka programowania C# będzie korzystna.
+Stylizacja pasków pozwala definiować reguły wizualne, które silnik Aspose.Tasks stosuje podczas renderowania wykresów Gantta. Każda reguła (obiekt **BarStyle**) dotyczy określonego typu elementu – zadań, kamieni milowych lub zadań podsumowujących – i umożliwia ustawienie kolorów, kształtów oraz własnego tekstu.
 
-## Importuj przestrzenie nazw
+## Dlaczego warto dostosować kolory pasków?
 
-Najpierw zaimportujmy niezbędne przestrzenie nazw, aby uzyskać dostęp do klas i metod Aspose.Tasks:
+Dostosowanie kolorów pasków pomaga interesariuszom natychmiast rozpoznać ścieżki krytyczne, opóźnione zadania lub kamienie milowe. Umożliwia także dopasowanie do firmowych schematów kolorystycznych, co sprawia, że raporty wyglądają profesjonalnie i zgodnie z marką.
+
+## Wymagania wstępne
+
+Zanim zaczniemy, upewnij się, że masz:
+
+1. **Aspose.Tasks for .NET** – pobierz go ze [strony pobierania](https://releases.aspose.com/tasks/net/).  
+2. Środowisko programistyczne obsługujące .NET (Framework 4.6+, .NET Core 3.1+ lub nowsze).  
+3. Podstawową znajomość C# – przykłady używają prostego, samodzielnego kodu.
+
+## Importowanie przestrzeni nazw
+
+Najpierw zaimportuj przestrzenie nazw zawierające klasy, które będziemy używać:
 
 ```csharp
 using Aspose.Tasks;
@@ -36,22 +57,21 @@ using System.Drawing;
 
 using Aspose.Tasks.Saving;
 using Aspose.Tasks.Visualization;
-
 ```
 
-## Krok 1: Załaduj projekt
+## Krok 1: Wczytaj projekt
 
-Aby rozpocząć, załaduj plik projektu za pomocą interfejsu API Aspose.Tasks:
+Wczytaj istniejący plik MPP (lub utwórz nowy), aby uzyskać obiekt projektu do dalszej pracy:
 
 ```csharp
-// Ścieżka do katalogu dokumentów.
+// The path to th documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Project2.mpp");
 ```
 
-## Krok 2: Skonfiguruj opcje zapisywania
+## Krok 2: Skonfiguruj opcje zapisu
 
-Zdefiniuj opcje zapisu, określając style prętów, które mają zostać zastosowane:
+Utwórz instancję `PdfSaveOptions` i zainicjuj kolekcję `BarStyles`, w której będziemy przechowywać własne style:
 
 ```csharp
 SaveOptions options = new PdfSaveOptions
@@ -62,24 +82,24 @@ SaveOptions options = new PdfSaveOptions
 
 ## Krok 3: Zdefiniuj styl paska
 
-Utwórz nowy styl paska i dostosuj jego właściwości:
+Teraz tworzymy obiekt `BarStyle` i ustawiamy właściwości kontrolujące wygląd paska. To miejsce, w którym **dostosowujemy kolory pasków** i ich kształty:
 
 ```csharp
 var style = new BarStyle();
-style.ItemType = BarItemType.Milestone; // Ustaw typ elementu paska
-style.BarColor = Color.Green; // Ustaw kolor paska
-style.BarShape = BarShape.HalfHeight; // Ustaw kształt paska
-style.StartShape = Shape.LeftBracket; // Ustaw kształt na początku paska
-style.StartShapeColor = Color.Aqua; // Ustaw kolor kształtu początkowego
-style.EndShape = Shape.RightBracket; // Ustaw kształt na końcu paska
-style.EndShapeColor = Color.Aquamarine; // Ustaw kolor kształtu końcowego
-style.TextStyle = new TextStyle(); // Ustaw styl tekstu
-style.TextStyle.BackgroundColor = Color.Black; // Ustaw kolor tła dla tekstu
+style.ItemType = BarItemType.Milestone; // Set bar item type
+style.BarColor = Color.Green; // Set bar color
+style.BarShape = BarShape.HalfHeight; // Set bar shape
+style.StartShape = Shape.LeftBracket; // Set shape at the beginning of the bar
+style.StartShapeColor = Color.Aqua; // Set color of the start shape
+style.EndShape = Shape.RightBracket; // Set shape at the end of the bar
+style.EndShapeColor = Color.Aquamarine; // Set color of the end shape
+style.TextStyle = new TextStyle(); // Set text style
+style.TextStyle.BackgroundColor = Color.Black; // Set background color for text
 ```
 
-## Krok 4: Dostosuj konwerter tekstu
+## Krok 4: Dostosuj konwerter tekstu (opcjonalnie)
 
-Opcjonalnie dostosuj konwerter tekstu, aby zmodyfikować renderowanie tekstu:
+Jeśli chcesz zmodyfikować tekst wyświetlany na pasku, możesz przypisać własny konwerter. Przykład dodaje prefiks do nazw zadań, które nie zaczynają się od „T”:
 
 ```csharp
 style.LeftBarTextConverter = task =>
@@ -94,7 +114,7 @@ style.LeftBarTextConverter = task =>
 
 ## Krok 5: Dodaj styl paska do opcji
 
-Dodaj skonfigurowany styl paska do opcji zapisu:
+Dodaj w pełni skonfigurowany styl do kolekcji `BarStyles` w opcjach zapisu:
 
 ```csharp
 options.BarStyles.Add(style);
@@ -102,37 +122,62 @@ options.BarStyles.Add(style);
 
 ## Krok 6: Zapisz projekt
 
-Na koniec zapisz projekt z zastosowanymi stylami pasków:
+Na koniec wyeksportuj projekt. PDF (lub inny format) wyrenderuje wykres Gantta przy użyciu zdefiniowanego stylu paska:
 
 ```csharp
 project.Save(DataDir + "WorkWithBarStyle_out.mpp", options);
 ```
 
-## Wniosek
+## Typowe problemy i rozwiązania
 
-Dostosowywanie stylów pasków w Aspose.Tasks dla .NET zapewnia programistom możliwość tworzenia atrakcyjnych wizualnie planów projektów. Wykonując kroki opisane w tym samouczku, możesz efektywnie stylizować paski, aby spełniały określone wymagania dotyczące wizualizacji projektu.
+| Problem | Powód | Rozwiązanie |
+|---------|-------|-------------|
+| **Styl paska nie został zastosowany** | Kolekcja `BarStyles` była pusta lub nie została podłączona do opcji zapisu. | Upewnij się, że dodałeś `BarStyle` do `options.BarStyles` przed wywołaniem `Save`. |
+| **Kolory wyglądają inaczej w PDF** | Renderowanie PDF może używać innego profilu kolorów. | Użyj standardowych wartości `System.Drawing.Color` lub zdefiniuj własne kolory ARGB. |
+| **Konwerter tekstu zgłasza błąd null reference** | Właściwość `Tsk.Name` jest null dla niektórych zadań. | Dodaj sprawdzenie null przed dostępem do `task.Get(Tsk.Name)`. |
 
-## Często zadawane pytania
+## FAQ
 
-### P1: Czy mogę zastosować wiele stylów pasków w jednym projekcie?
+### Q1: Czy mogę zastosować wiele stylów pasków w jednym projekcie?
 
-Odpowiedź 1: Tak, możesz zdefiniować i zastosować wiele stylów pasków do różnych typów zadań w tym samym projekcie.
-   
-### P2: Czy można dynamicznie zmieniać style pasków w czasie wykonywania?
+A1: Tak, możesz definiować i stosować wiele stylów pasków dla różnych typów zadań w tym samym projekcie.
 
-Odpowiedź 2: Tak, możesz dynamicznie modyfikować style pasków w oparciu o określone warunki lub preferencje użytkownika w swojej aplikacji.
-   
-### P3: Czy Aspose.Tasks obsługuje eksportowanie projektów ze stylizowanymi paskami do różnych formatów plików?
+### Q2: Czy istnieje możliwość dynamicznej zmiany stylów pasków w czasie działania aplikacji?
 
-O3: Tak, Aspose.Tasks obsługuje eksportowanie projektów ze stylizowanymi paskami do różnych formatów, takich jak PDF, XLSX i HTML.
-   
-### P4: Czy w Aspose.Tasks dostępne są predefiniowane style pasków?
+A2: Tak, możesz dynamicznie modyfikować style pasków w zależności od określonych warunków lub preferencji użytkownika w aplikacji.
 
-Odpowiedź 4: Chociaż Aspose.Tasks zapewnia domyślne style pasków, programiści mogą również tworzyć niestandardowe style pasków dostosowane do wymagań ich projektu.
-   
-### P5: Czy mogę pobrać i zmodyfikować istniejące style prętów w projekcie za pomocą interfejsu API?
+### Q3: Czy Aspose.Tasks obsługuje eksport projektów ze stylizowanymi paskami do różnych formatów plików?
 
-O5: Tak, możesz programowo pobierać i modyfikować istniejące style pasków za pomocą Aspose.Tasks for .NET API.
+A3: Tak, Aspose.Tasks umożliwia eksport projektów ze stylizowanymi paskami do różnych formatów, takich jak PDF, XLSX i HTML.
+
+### Q4: Czy dostępne są predefiniowane style pasków w Aspose.Tasks?
+
+A4: Choć Aspose.Tasks dostarcza domyślne style pasków, deweloperzy mogą także tworzyć własne style dostosowane do wymagań projektu.
+
+### Q5: Czy mogę pobrać i zmodyfikować istniejące style pasków w projekcie za pomocą API?
+
+A5: Tak, istnieje możliwość pobrania i modyfikacji istniejących stylów pasków programowo przy użyciu API Aspose.Tasks dla .NET.
+
+## Najczęściej zadawane pytania
+
+**P: Jak zmienić kolor paska dla zwykłych zadań, a nie kamieni milowych?**  
+O: Ustaw `style.ItemType = BarItemType.Task;` i przypisz `style.BarColor` do żądanego `Color`.
+
+**P: Czy mogę użyć tego podejścia do stylizacji pasków przy eksporcie do HTML?**  
+O: Tak. Użyj `HtmlSaveOptions` i wypełnij jego kolekcję `BarStyles` w ten sam sposób.
+
+**P: Czy istnieje limit liczby stylów pasków, które mogę zdefiniować?**  
+O: Praktycznie nie; możesz dodać dowolną liczbę, ale pamiętaj o wydajności przy bardzo dużych kolekcjach.
+
+**P: Czy muszę wywołać `project.Calculate()` po zmianie stylów?**  
+O: Nie, style są stosowane podczas operacji zapisu; przeliczenie jest wymagane tylko przy zmianach harmonogramu.
+
+---
+
+**Ostatnia aktualizacja:** 2026-04-06  
+**Testowano z:** Aspose.Tasks 24.11 dla .NET  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

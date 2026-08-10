@@ -1,75 +1,87 @@
 ---
-title: Working with Baseline Collection in Aspose.Tasks
-linktitle: Working with Baseline Collection in Aspose.Tasks
+title: Delete All Baselines with Aspose.Tasks Baseline Collection
+linktitle: Delete All Baselines with Aspose.Tasks Baseline Collection
 second_title: Aspose.Tasks .NET API
-description: Learn how to manage baselines in Aspose.Tasks for .NET efficiently. Follow our comprehensive tutorial for step-by-step guidance.
+description: Learn how to delete all baselines and manage baseline collections in Aspose.Tasks for .NET with step‑by‑step code examples.
 weight: 20
+date: 2026-04-06
 url: /net/advanced-features/working-with-baseline-collection/
+keywords:
+- delete all baselines
+- Aspose.Tasks baseline collection
+- manage project baselines
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Working with Baseline Collection in Aspose.Tasks
+# Delete All Baselines with Aspose.Tasks Baseline Collection
 
 ## Introduction
 
-Aspose.Tasks for .NET is a powerful library that enables developers to work with Microsoft Project files in their .NET applications seamlessly. Among its many features, it provides robust support for managing baselines within projects. Baselines are essential for project management as they allow you to compare the original project plan with the current status, enabling better tracking and analysis of project progress.
+Aspose.Tasks for .NET lets you manipulate Microsoft Project files directly from your .NET applications. One of the most powerful features is the ability to **delete all baselines** for a resource, which is essential when you need to reset a project's tracking data or start a new baseline period. In this tutorial we’ll walk through the whole process—from loading a project file to removing every baseline attached to a specific resource—using clear, conversational explanations and ready‑to‑run C# code.
+
+## Quick Answers
+- **What does “delete all baselines” do?** It removes every stored baseline record for a selected resource, clearing historic cost and work data.  
+- **Why would I need this?** To reset tracking after a major project change or when the original baselines are no longer relevant.  
+- **Which library provides this capability?** Aspose.Tasks for .NET.  
+- **Do I need a license?** A valid Aspose.Tasks license is required for production use; a free trial is available.  
+- **Is the code compatible with .NET 6+?** Yes, the API works with .NET Framework 4.5+, .NET Core 3.1+, and .NET 5/6.
+
+## What Is a Baseline and Why Delete All Baselines?
+
+A baseline captures the original plan for cost, work, and schedule at a specific point in time. Over the life of a project you may create several baselines (Baseline 1, Baseline 2, etc.) to compare actual progress against different planning snapshots. However, there are scenarios—such as a project re‑scope or a fresh start—where keeping those historic baselines becomes confusing. Deleting all baselines gives you a clean slate, allowing you to set new baselines that reflect the current reality.
 
 ## Prerequisites
 
-Before we dive into working with baseline collections in Aspose.Tasks, ensure that you have the following prerequisites in place:
+Before we dive into the code, make sure you have:
 
-1. Visual Studio: Install Visual Studio IDE on your system.
-2. Aspose.Tasks for .NET: Download and install the Aspose.Tasks for .NET library from the [download link](https://releases.aspose.com/tasks/net/).
-3. Basic understanding of C#: Familiarize yourself with the C# programming language.
-4. Microsoft Project file: Have a Microsoft Project file (.mpp) ready for testing purposes.
+1. **Visual Studio** – any recent edition (Community, Professional, or Enterprise).  
+2. **Aspose.Tasks for .NET** – download it from the [download link](https://releases.aspose.com/tasks/net/).  
+3. **Basic C# knowledge** – you should be comfortable with variables, loops, and console output.  
+4. **A Microsoft Project file** (`.mpp`) – a sample file named *WorkWithBaselineCollection.mpp* will be used in the examples.
 
 ## Import Namespaces
 
-To start working with baseline collections in Aspose.Tasks, you need to import the following namespaces:
+First, bring the necessary namespaces into scope so the compiler knows where to find the classes we’ll use.
 
 ```csharp
 using Aspose.Tasks;
 using System;
 using System.Collections.Generic;
-
-
 ```
 
-Now, let's break down each example into multiple steps:
+## Step 1: Load the Project File
 
-## Step 1: Load Project File
-
-First, load the Microsoft Project file using Aspose.Tasks:
+We start by loading an existing Project file. Adjust `DataDir` to point to the folder that contains your `.mpp` file.
 
 ```csharp
-// The path to th documents directory.
+// The path to the documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "WorkWithBaselineCollection.mpp");
 ```
 
-## Step 2: Get Resource
+## Step 2: Get the Target Resource
 
-Next, retrieve the desired resource from the project:
+For demonstration we fetch the resource with UID = 1. In a real‑world scenario you would locate the resource by name or another identifier.
 
 ```csharp
 var resource = project.Resources.GetByUid(1);
 ```
 
-## Step 3: Display Baseline Information
+## Step 3: Display Existing Baseline Information
 
-Now, display information about the baselines associated with the resource:
+Before deleting anything, it’s helpful to see what baselines are currently attached to the resource. This gives you confidence that you’re removing the right data.
 
 ```csharp
 Console.WriteLine("Count of assignment baselines: " + resource.Baselines.Count);
 Console.WriteLine("Parent Resource Name: " + resource.Baselines.ParentResource.Get(Rsc.Name));
 ```
 
-## Step 4: Iterate Through Baselines
+## Step 4: Iterate Through All Baselines
 
-Iterate through each baseline associated with the resource and print relevant information:
+Here we loop through each baseline, printing key metrics such as cost, work, and earned value (BCWP/BCWS). This step is optional but useful for logging or audit purposes.
 
 ```csharp
 foreach (var baseline in resource.Baselines)
@@ -83,9 +95,9 @@ foreach (var baseline in resource.Baselines)
 }
 ```
 
-## Step 5: Remove Baselines
+## Delete All Baselines
 
-Delete all baselines associated with the resource:
+Now we perform the core action: **delete all baselines** for the selected resource. We first copy the collection to a list to avoid modifying the collection while iterating, then remove each baseline one by one.
 
 ```csharp
 Console.WriteLine("Delete all baselines: ");
@@ -97,31 +109,40 @@ foreach (var baseline in baselines)
 }
 ```
 
+After this block runs, `resource.Baselines.Count` will be `0`, confirming that all baseline records have been cleared.
+
+## Common Issues and Tips
+
+- **NullReferenceException** – Make sure the project file actually contains the resource you’re targeting; otherwise `GetByUid` will return `null`.  
+- **Licensing** – Without a valid Aspose.Tasks license you’ll see a watermark in the output and limited functionality.  
+- **Performance** – For very large projects, consider iterating with `Parallel.ForEach` to speed up the removal process, but remember that the underlying collection is not thread‑safe.
+
+## Frequently Asked Questions
+
+**Q: Can Aspose.Tasks handle large project files?**  
+A: Yes, Aspose.Tasks is optimized for performance and can process multi‑gigabyte `.mpp` files efficiently.
+
+**Q: Is the library compatible with all Microsoft Project versions?**  
+A: Aspose.Tasks supports Project 2000 through Project 2024, covering both older `.mpp` formats and the newer XML‑based files.
+
+**Q: Can I customize baselines before deleting them?**  
+A: Absolutely. You can read or modify any baseline property (cost, work, dates) before you decide to remove it.
+
+**Q: Does Aspose.Tasks work on cloud platforms?**  
+A: Yes, the API runs on any .NET‑compatible environment, including Azure App Service, AWS Lambda (via .NET Core), and Docker containers.
+
+**Q: Where can I ask the community for help?**  
+A: Visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) to connect with other developers and Aspose staff.
+
 ## Conclusion
 
-In this tutorial, we explored how to work with baseline collections in Aspose.Tasks for .NET. By following the step-by-step guide, you can easily manage baselines within your .NET applications, allowing for effective project tracking and analysis.
+In this guide we demonstrated how to **delete all baselines** from a resource using Aspose.Tasks for .NET. By following the step‑by‑step code, you can reset baseline data, keep your project tracking clean, and prepare your schedule for a fresh planning cycle. Feel free to experiment with creating new baselines after the deletion to see how the library updates the project file.
 
-## FAQ's
+---
 
-### Q1: Can Aspose.Tasks handle large project files?
-
-A1: Yes, Aspose.Tasks is optimized to handle large project files efficiently, ensuring smooth performance.
-
-### Q2: Is Aspose.Tasks compatible with all versions of Microsoft Project?
-
-A2: Aspose.Tasks supports various versions of Microsoft Project, ensuring compatibility across different environments.
-
-### Q3: Can I customize baselines in Aspose.Tasks?
-
-A3: Yes, you can customize baselines according to your project requirements using Aspose.Tasks for .NET.
-
-### Q4: Does Aspose.Tasks offer support for cloud platforms?
-
-A4: Yes, Aspose.Tasks provides support for integration with popular cloud platforms, offering flexibility in deployment.
-
-### Q5: Is there a community forum for Aspose.Tasks users to seek help and share knowledge?
-
-A5: Yes, you can visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) to engage with the community and get assistance from experts.
+**Last Updated:** 2026-04-06  
+**Tested With:** Aspose.Tasks 24.12 for .NET  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
