@@ -1,69 +1,75 @@
 ---
-title: Aspose.Tasks 中按年周日重复
-linktitle: Aspose.Tasks 中按年周日重复
+date: 2026-04-03
+description: 学习如何使用 Aspose.Tasks 添加循环任务项目并将项目保存为 MPP。本指南逐步展示了按年、周、日的重复功能。
+keywords:
+- how to use aspose.tasks
+- add recurring task project
+- save project as mpp
+linktitle: Aspose.Tasks 中的按年、周、日重复
 second_title: Aspose.Tasks .NET API
-description: 探索 Aspose.Tasks for .NET 在有效管理重复任务方面的强大功能。实施按年周日重复功能的分步指南。
-weight: 28
+title: 如何使用 Aspose.Tasks – 按年、周、日重复
 url: /zh/net/advanced-features/repetition-by-year-week-day/
+weight: 28
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks 中按年周日重复
+# Aspose.Tasks 中的按年周日重复
 
 ## 介绍
 
-在项目管理领域，效率和精确度至关重要。 Aspose.Tasks for .NET 成为一个强大的工具，提供了大量的功能来简化项目处理。其武器库之一是能够以非凡的灵活性管理重复性任务。其中一个功能是“按年周日重复”功能，允许用户设置在一周中的特定日期、指定月份内以及跨多年重复的任务。
+当您需要 **how to use Aspose.Tasks** 来处理复杂的循环计划时，库提供了对年度模式的细粒度控制。在本教程中，我们将演示如何创建一个在特定月份的特定星期几重复的任务，跨越多个年份。完成后，您将能够使用几行 C# 代码 **add recurring task project** 条目并 **save project as MPP**。
 
-## 先决条件
+## 快速回答
+- **“Repetition by Year Week Day” 是什么意思？** 它在每年指定月份的选定星期几（例如第一个星期日）重复任务。  
+- **支持哪些 .NET 版本？** 支持所有现代 .NET Framework 和 .NET Core/5/6 版本。  
+- **运行代码是否需要许可证？** 开发阶段可使用免费试用版；生产环境需要商业许可证。  
+- **我可以更改重复范围吗？** 可以——您可以设置开始日期、结束日期或固定的出现次数。  
+- **输出是 MPP 文件吗？** 完全是——项目会保存为可在 Microsoft Project 中打开的 MPP 文件。
 
-在深入研究使用 Aspose.Tasks for .NET 中的“按年周日重复”功能的复杂性之前，请确保您具备以下先决条件：
+## 什么是“按年周日重复”功能？
 
-### 1..NET框架知识
+该功能允许您定义一个年度循环，针对特定的 **day of the week**（如 Sunday）以及 **position**（月份中的第一、第二、最后等）。这非常适合季度评审、年度审计或任何基于日历节奏的事件。
 
-熟悉 .NET Framework 的基础知识，包括面向对象的编程概念和 C# 语法。
+## 为什么在循环任务中使用 Aspose.Tasks？
 
-### 2.安装Aspose.Tasks for .NET
+- **Precision** – 完全控制月份、星期几和序数位置。  
+- **Compatibility** – 生成本机 MPP 文件，可在 Microsoft Project 中无缝打开。  
+- **No COM interop** – 纯 .NET API，无需安装 Office。  
+- **Scalability** – 适用于小型项目和企业级计划。
 
-从以下位置下载并安装 Aspose.Tasks for .NET 库[下载链接](https://releases.aspose.com/tasks/net/)。按照提供的安装说明将库集成到您的开发环境中。
+## 前置条件
 
-### 3. 获取文档
+在深入代码之前，请确保您具备：
 
-请参阅[文档](https://reference.aspose.com/tasks/net/)有关 Aspose.Tasks for .NET 的全面指南，包括类、方法和使用示例的详细说明。
+1. **Basic .NET knowledge** – 熟悉 C# 和面向对象概念。  
+2. **Aspose.Tasks for .NET** – 从 [download link](https://releases.aspose.com/tasks/net/) 下载并将 DLL 添加到项目中。  
+3. **Access to the official docs** – [documentation](https://reference.aspose.com/tasks/net/) 包含所有类的详细信息。  
+4. **A development IDE** – Visual Studio、Rider 或任何兼容的 .NET 编辑器。
 
-## 4. 开发环境设置
+准备就绪后，让我们看看实现方式。
 
-确保配置了合适的开发环境，例如 Visual Studio 或任何用于 .NET 开发的兼容 IDE。
+## 如何使用 Aspose.Tasks 进行循环任务
 
-现在您已经具备了先决条件，让我们深入研究在 Aspose.Tasks for .NET 中实现“按年周日重复”的分步指南。
+### 导入必要的命名空间
 
-
-## 导入必要的命名空间
-
-首先，导入所需的命名空间以访问 .NET 应用程序中的 Aspose.Tasks 类和功能。
-
-在您的 C# 代码文件中，包含以下命名空间声明：
+首先，引入所需的命名空间，以便能够操作项目、任务和保存选项。
 
 ```csharp
 using Aspose.Tasks;
 using System;
 
 using Aspose.Tasks.Saving;
-
 ```
 
-这些命名空间提供对 Aspose.Tasks 库以及处理任务和项目文件所需的类的访问。
+### 步骤 1：初始化项目和任务参数
 
-现在，让我们将使用 Aspose.Tasks for .NET 中的“按年周日重复”功能设置重复任务的过程分解为可管理的步骤。
-
-## 第 1 步：初始化项目和任务参数
-
-首先，初始化项目并定义重复任务的参数。
+创建一个新的 `Project` 实例，然后定义一个描述循环模式的 `RecurringTaskParameters` 对象。
 
 ```csharp
-//文档目录的路径。
+// The path to the documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Blank2010.mpp");
 var parameters = new RecurringTaskParameters
@@ -85,53 +91,64 @@ var parameters = new RecurringTaskParameters
 };
 ```
 
-此代码段初始化一个新项目并指定重复任务的参数。它设置任务名称、持续时间并定义重复模式。
+> **Pro tip:** 调整 `Month`、`WeekDay` 和 `Position` 以匹配您的实际日程安排。
 
-## 第2步：向项目添加参数
+### 步骤 2：将参数添加到项目
 
-接下来，将定义的参数添加到项目中。
+将循环任务定义插入项目的根节点。
 
 ```csharp
 project.RootTask.Children.Add(parameters);
 ```
 
-此行将任务参数添加到项目的根任务中，并合并重复任务配置。
+### 步骤 3：将项目保存为 MPP
 
-## 第3步：保存项目文件
-
-最后，保存带有配置的重复任务的项目文件。
+最后，将项目持久化为 MPP 文件，以便在 Microsoft Project 或任何兼容的查看器中打开。
 
 ```csharp
 project.Save(DataDir + "CanAddRecurringTask_Years_YearWeekDay_EndByRecurrenceRange_Test.mpp", SaveFileFormat.Mpp);
 ```
 
-此代码片段将具有指定重复任务配置的项目文件保存到指定的输出目录。
+> 这演示了在一行代码中 **save project as mpp**。
+
+## 常见问题及解决方案
+
+| 症状 | 可能原因 | 解决办法 |
+|---------|--------------|-----|
+| 打开 MPP 文件后没有任务显示 | 重复范围日期超出项目日历 | 确认 `Start` 和 `Finish` 日期在项目的工作时间范围内 |
+| 在 `Add` 时抛出 `ArgumentNullException` | `parameters` 为 null 或未完全初始化 | 确保已设置所有必需属性（TaskName、Duration、RecurrencePattern） |
+| 选择了错误的星期几 | `WeekDay` 枚举值不匹配 | 根据需要使用 `DayOfWeek.Monday` … `DayOfWeek.Sunday` |
+
+## 常见问答
+
+**Q: 我可以自定义除示例之外的重复模式吗？**  
+**A:** 是的，Aspose.Tasks 允许您组合 `MonthlyRecurrencePattern`、`WeeklyRecurrencePattern` 或甚至自定义 `RecurrenceRange` 对象以适应任何计划。
+
+**Q: Aspose.Tasks for .NET 与其他项目管理软件兼容吗？**  
+**A:** 完全兼容——库能够读取和写入 MPP、XML 和 Primavera 格式，实现平滑的数据交换。
+
+**Q: 我该如何处理循环任务的异常或修改？**  
+**A:** 使用 `ExceptionTask` 类为特定出现创建覆盖，或编辑 `RecurringTaskParameters` 并重新保存项目。
+
+**Q: Aspose.Tasks 支持云端解决方案吗？**  
+**A:** 支持——您可以在 Azure Functions、AWS Lambda 或任何兼容 .NET 的云服务中运行该 API。
+
+**Q: 是否有 Aspose.Tasks for .NET 的试用版？**  
+**A:** 有，您可以从 [website](https://releases.aspose.com/) 获取 Aspose.Tasks for .NET 的免费试用版，以在购买前评估其功能。
+
+**Q: 如何在不覆盖其他数据的情况下向现有项目添加循环任务？**  
+**A:** 使用 `new Project("Existing.mpp")` 加载现有项目，将 `RecurringTaskParameters` 添加到 `RootTask.Children`，然后 `Save` 文件。
 
 ## 结论
 
-总之，掌握 Aspose.Tasks for .NET 中的“按年周日重复”功能使项目经理和开发人员能够精确、灵活地高效处理重复性任务。通过遵循本文中概述的分步指南，您可以将此功能无缝集成到项目管理工作流程中，从而提高生产力和组织性。
+通过掌握 **how to use Aspose.Tasks** 在 **Repetition by Year Week Day** 场景下的使用，您能够 **add recurring task project** 条目，使其完美契合真实日历，并 **save project as MPP** 以实现无缝协作。将这些代码片段整合到您的解决方案中，可提升排程准确性并减少手动工作量。
 
-## 常见问题解答
+---
 
-### 问题 1：除了提供的示例之外，我还可以进一步自定义重复模式吗？
+**Last Updated:** 2026-04-03  
+**Tested With:** Aspose.Tasks 24.12 for .NET  
+**Author:** Aspose  
 
-答：是的，Aspose.Tasks for .NET 为重复任务提供了广泛的自定义选项，允许您根据您的特定要求定制重复模式。
-
-### Q2：Aspose.Tasks for .NET 与其他项目管理软件兼容吗？
-
-答：Aspose.Tasks for .NET 支持与各种项目管理格式的互操作性，从而能够与流行的软件套件无缝集成。
-
-### Q3：如何处理重复任务的异常或修改？
-
-答：Aspose.Tasks for .NET 提供 API 来处理重复任务的异常和修改，确保管理不断变化的项目需求的灵活性。
-
-### 问题 4：Aspose.Tasks for .NET 是否提供对基于云的项目管理解决方案的支持？
-
-答：是的，Aspose.Tasks for .NET 提供对基于云的项目管理解决方案的支持，促进跨不同平台的协作和可访问性。
-
-### Q5：Aspose.Tasks for .NET 有试用版吗？
-
-答：是的，您可以从以下位置访问 Aspose.Tasks for .NET 的免费试用版：[网站](https://releases.aspose.com/)，让您在做出购买决定之前探索其功能。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

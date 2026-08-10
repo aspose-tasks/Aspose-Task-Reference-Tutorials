@@ -1,59 +1,72 @@
 ---
-title: Ripetizione per giorno dell'anno in Aspose.Tasks
+date: 2026-04-03
+description: Impara la pianificazione delle attività di gestione dei progetti e come
+  aggiungere attività ricorrenti usando Aspose.Tasks per .NET, inclusa la possibilità
+  di salvare il progetto come MPP.
+keywords:
+- project management task scheduling
+- how to add recurring task
+- save project as mpp
 linktitle: Ripetizione per giorno dell'anno in Aspose.Tasks
-second_title: Aspose.Tasks API .NET
-description: Scopri come gestire le ripetizioni dei giorni dell'anno in Aspose.Tasks per .NET per semplificare in modo efficiente la gestione delle attività ricorrenti.
-weight: 27
+second_title: Aspose.Tasks .NET API
+title: Pianificazione delle attività di gestione progetti con ripetizione giornaliera
+  annuale in Aspose.Tasks
 url: /it/net/advanced-features/repetition-by-year-day/
+weight: 27
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ripetizione per giorno dell'anno in Aspose.Tasks
+# Pianificazione delle attività di gestione del progetto con ripetizione giorno dell'anno in Aspose.Tasks
 
-## introduzione
+## Introduzione
 
-Nell'ambito della gestione dei progetti, la pianificazione efficiente delle attività e la ricorrenza svolgono un ruolo fondamentale nel garantire un'esecuzione tempestiva e un flusso di lavoro regolare. Aspose.Tasks per .NET offre una soluzione solida per gli sviluppatori per gestire attività ricorrenti senza sforzo all'interno delle loro applicazioni. In questo tutorial, approfondiamo le complessità del lavoro con le ripetizioni dei giorni dell'anno utilizzando Aspose.Tasks, fornendo una guida completa per la creazione di attività ricorrenti basate su modelli annuali.
+Una **pianificazione delle attività di gestione del progetto** efficace è la spina dorsale di qualsiasi progetto di successo. Quando le attività si ripetono su base annuale — come audit annuali, finestre di manutenzione o revisioni stagionali — gestire manualmente queste ricorrenze può diventare soggetto a errori e richiedere molto tempo. Aspose.Tasks per .NET semplifica questo consentendo di definire programmaticamente i modelli giorno‑anno, così puoi concentrarti su ciò che conta di più: fornire valore. In questo tutorial imparerai **come aggiungere un'attività ricorrente** basata su un giorno specifico dell'anno e vedrai esattamente **come salvare il progetto come MPP** per un'integrazione fluida con Microsoft Project.
+
+## Risposte rapide
+- **Cosa significa “ripetizione giorno dell'anno”?** Programma un'attività in un giorno specifico di un mese specifico ogni anno.  
+- **Quale classe API crea la ricorrenza?** `YearlyRecurrencePattern` combined with `ByYearDayRepetition`.  
+- **Posso impostare una data di inizio e fine?** Yes, using `EndByRecurrenceRange`.  
+- **Quale formato file viene prodotto?** The project is saved as an MPP file (`SaveFileFormat.Mpp`).  
+- **È necessaria una licenza per la produzione?** A commercial license is required for non‑evaluation use.
 
 ## Prerequisiti
 
-Prima di immergerti nel tutorial, assicurati di disporre dei seguenti prerequisiti:
+Prima di immergerti nel tutorial, assicurati di avere i seguenti prerequisiti in ordine:
 
-1.  Aspose.Tasks for .NET Library: Scarica e installa la libreria Aspose.Tasks for .NET dal[sito web](https://releases.aspose.com/tasks/net/).
-   
-2. Ambiente di sviluppo: configura un ambiente di sviluppo adatto con Visual Studio o qualsiasi altro IDE preferito per lo sviluppo .NET.
+1. Libreria Aspose.Tasks per .NET: scarica e installa la libreria Aspose.Tasks per .NET dal [sito web](https://releases.aspose.com/tasks/net/).  
+2. Ambiente di sviluppo: configura un ambiente di sviluppo adeguato con Visual Studio o qualsiasi altro IDE preferito per lo sviluppo .NET.  
+3. Conoscenza di base di C#: familiarizzati con i fondamenti del linguaggio di programmazione C# per seguire gli esempi di codice.  
+4. Concetti di gestione del progetto: la comprensione dei concetti di gestione del progetto e della pianificazione delle attività aiuterà a cogliere efficacemente i concetti del tutorial.
 
-3. Conoscenza di base di C#: acquisisci familiarità con i fondamenti del linguaggio di programmazione C# da seguire insieme agli esempi di codice.
+## Importare gli spazi dei nomi
 
-4. Concetti di gestione del progetto: la comprensione dei concetti di gestione del progetto e della pianificazione delle attività aiuterà a comprendere in modo efficace i concetti del tutorial.
-
-## Importa spazi dei nomi
-
-Prima di iniziare a scrivere codice, importiamo gli spazi dei nomi necessari per facilitare la manipolazione delle attività utilizzando Aspose.Tasks per .NET.
+Prima di iniziare a scrivere codice, importiamo gli spazi dei nomi necessari per facilitare la manipolazione delle attività usando Aspose.Tasks per .NET.
 
 ```csharp
 using Aspose.Tasks;
 using System;
 
 using Aspose.Tasks.Saving;
-
 ```
 
-Ora suddividiamo l'esempio fornito in più passaggi e chiariamo ogni passaggio in dettaglio.
+Ora, suddividiamo l'esempio fornito in più passaggi e spieghiamo ogni passaggio in dettaglio.
 
-## Passaggio 1: caricare il file di progetto
+## Come aggiungere un'attività ricorrente con modello giorno dell'anno
+
+### Passo 1: Caricare il file di progetto
 
 ```csharp
-// Il percorso della directory dei documenti.
+// The path to th documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Project1.mpp");
 ```
 
- Qui inizializziamo un nuovo file`Project` oggetto e caricare un file di progetto esistente denominato "Project1.mpp".
+Qui, inizializziamo un nuovo oggetto `Project` e carichiamo un file di progetto esistente chiamato **Project1.mpp**.
 
-## Passaggio 2: definire i parametri delle attività ricorrenti
+### Passo 2: Definire i parametri dell'attività ricorrente
 
 ```csharp
 var parameters = new RecurringTaskParameters
@@ -72,49 +85,57 @@ var parameters = new RecurringTaskParameters
 };
 ```
 
- In questo passaggio definiamo i parametri per la nostra attività ricorrente. Specifichiamo il nome dell'attività, la durata e il modello di ricorrenza. Per la ricorrenza annuale, utilizziamo il file`YearlyRecurrencePattern` e impostare la ripetizione in modo che avvenga il 1° giorno di luglio utilizzando`ByYearDayRepetition`. Inoltre, definiamo l'intervallo di ricorrenza dal 1 luglio 2018 al 1 luglio 2019.
+In questo passaggio, definiamo i parametri per la nostra attività ricorrente. Specifichiamo il nome dell'attività, la durata e il modello di ricorrenza. Per una ricorrenza annuale, utilizziamo `YearlyRecurrencePattern` e impostiamo la ripetizione per il **1° giorno di luglio** usando `ByYearDayRepetition`. Inoltre, definiamo l'intervallo di ricorrenza dal 1 luglio 2018 al 1 luglio 2019.
 
-## Passaggio 3: aggiungi attività al progetto
+### Passo 3: Aggiungere l'attività al progetto
 
 ```csharp
 project.RootTask.Children.Add(parameters);
 ```
 
-Qui aggiungiamo i parametri dell'attività ricorrente definiti all'attività root del progetto.
+Qui, aggiungiamo i parametri dell'attività ricorrente definiti al task radice del progetto.
 
-## Passaggio 4: salva il progetto
+### Passo 4: Salvare il progetto come MPP
 
 ```csharp
 project.Save(DataDir + "CanAddRecurringTask_Years_YearDay_EndByRecurrenceRange_Test.mpp", SaveFileFormat.Mpp);
 ```
 
-Infine, salviamo il file di progetto modificato con l'attività ricorrente aggiunta.
+Infine, **salviamo il progetto come file MPP**, rendendolo pronto per l'apertura in Microsoft Project o in qualsiasi visualizzatore compatibile.
 
-## Conclusione
+## Perché è importante
 
-In questo tutorial, abbiamo esplorato il processo di utilizzo delle ripetizioni dei giorni dell'anno in Aspose.Tasks per .NET. Seguendo i passaggi forniti, gli sviluppatori possono integrare perfettamente le funzionalità delle attività ricorrenti nelle loro applicazioni, migliorando le capacità di gestione dei progetti.
+- **Automazione** – Elimina l'inserimento manuale delle attività annuali, riducendo gli errori umani.  
+- **Coerenza** – Garantisce che lo stesso modello giorno‑mese sia applicato su più anni.  
+- **Integrazione** – Il file MPP risultante può essere condiviso con le parti interessate che si affidano a Microsoft Project.  
+
+## Errori comuni e suggerimenti
+
+- **Precisione di DateTime** – Assicurati che l'ora di inizio sia allineata al calendario del progetto; altrimenti, l'attività potrebbe apparire spostata.  
+- **Fusi orari** – L'API lavora con oggetti `DateTime`; considera la conversione in UTC se la tua applicazione copre più regioni.  
+- **Applicazione della licenza** – In modalità valutazione, il MPP salvato può contenere una filigrana; utilizza una licenza valida per la produzione.
 
 ## Domande frequenti
 
-### Q1: Aspose.Tasks può gestire modelli di ricorrenza complessi?
+**Q: Aspose.Tasks può gestire modelli di ricorrenza complessi?**  
+A: Sì, Aspose.Tasks fornisce un supporto completo per vari modelli di ricorrenza, inclusi quelli annuali, mensili, settimanali e giornalieri.
 
-A1: Sì, Aspose.Tasks fornisce un supporto completo per vari modelli di ricorrenza, compresi quelli complessi come ripetizioni annuali, mensili, settimanali e giornaliere.
+**Q: Aspose.Tasks è compatibile con diversi formati di file di progetto?**  
+A: Assolutamente, Aspose.Tasks supporta formati di file di progetto popolari come MPP, XML e CSV, garantendo la compatibilità con diversi strumenti di gestione del progetto.
 
-### Q2: Aspose.Tasks è compatibile con diversi formati di file di progetto?
+**Q: Aspose.Tasks offre documentazione e supporto per gli sviluppatori?**  
+A: Sì, gli sviluppatori possono accedere a una documentazione estesa e richiedere assistenza nei forum della community di Aspose.Tasks per qualsiasi domanda o problema.
 
-A2: Assolutamente, Aspose.Tasks supporta i formati di file di progetto più diffusi come MPP, XML e CSV, garantendo la compatibilità tra diversi strumenti di gestione dei progetti.
+**Q: Posso personalizzare le proprietà dell'attività come durata e data di inizio usando Aspose.Tasks?**  
+A: Certamente, Aspose.Tasks fornisce API robuste per manipolare dinamicamente le proprietà delle attività, consentendo agli sviluppatori di personalizzare durate, date di inizio, dipendenze e altro.
 
-### Q3: Aspose.Tasks offre documentazione e supporto per gli sviluppatori?
+**Q: Aspose.Tasks è adatto sia per progetti di piccola scala che per progetti a livello aziendale?**  
+A: Infatti, Aspose.Tasks è progettato per soddisfare le esigenze degli sviluppatori che lavorano su progetti di qualsiasi dimensione, dalle singole attività a grandi progetti aziendali.
 
-R3: Sì, gli sviluppatori possono accedere a un'ampia documentazione e chiedere assistenza ai forum della community Aspose.Tasks per qualsiasi domanda o problema riscontrato.
+**Ultimo aggiornamento:** 2026-04-03  
+**Testato con:** Aspose.Tasks 24.12 per .NET  
+**Autore:** Aspose  
 
-### Q4: posso personalizzare le proprietà dell'attività come la durata e la data di inizio utilizzando Aspose.Tasks?
-
-A4: Certamente, Aspose.Tasks fornisce API robuste per manipolare dinamicamente le proprietà delle attività, consentendo agli sviluppatori di personalizzare durate, date di inizio, dipendenze e altro.
-
-### Q5: Aspose.Tasks è adatto sia a progetti su piccola scala che a livello aziendale?
-
-A5: In effetti, Aspose.Tasks è progettato per soddisfare le esigenze degli sviluppatori che lavorano su progetti di tutte le scale, dalle attività individuali ai progetti aziendali su larga scala.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,69 +1,77 @@
 ---
-title: Opakování podle Rok týden Den v Aspose.Tasks
-linktitle: Opakování podle Rok týden Den v Aspose.Tasks
+date: 2026-04-03
+description: Naučte se, jak pomocí Aspose.Tasks přidat opakující se úkol do projektu
+  a uložit projekt jako MPP. Tento průvodce krok za krokem ukazuje funkci Opakování
+  podle roku, týdne a dne.
+keywords:
+- how to use aspose.tasks
+- add recurring task project
+- save project as mpp
+linktitle: Opakování podle roku, týdne a dne v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Prozkoumejte sílu Aspose.Tasks pro .NET při efektivní správě opakujících se úkolů. Podrobný průvodce implementací funkce Opakování podle roku a týdne.
-weight: 28
+title: Jak používat Aspose.Tasks – Opakování podle roku, týdne a dne
 url: /cs/net/advanced-features/repetition-by-year-week-day/
+weight: 28
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Opakování podle Rok týden Den v Aspose.Tasks
+# Opakování podle roku, týdne a dne v Aspose.Tasks
 
 ## Úvod
 
-V oblasti projektového řízení je prvořadá efektivita a přesnost. Aspose.Tasks for .NET se ukazuje jako výkonný nástroj, který nabízí nepřeberné množství funkcí pro zefektivnění práce s projekty. Mezi jeho arzenál patří schopnost zvládat opakující se úkoly s pozoruhodnou flexibilitou. Jednou z takových funkcí je funkce „Opakování podle dne v týdnu roku“, která uživatelům umožňuje nastavit úkoly, které se opakují v určité dny v týdnu, v určených měsících a v průběhu několika let.
+Když potřebujete **jak používat Aspose.Tasks** pro zpracování složitých opakujících se rozvrhů, knihovna vám poskytuje detailní kontrolu nad ročními vzory. V tomto tutoriálu projdeme vytvoření úkolu, který se opakuje v konkrétní den v týdnu konkrétního měsíce během několika let. Na konci budete schopni **přidávat opakující se úkoly do projektu** a **uložit projekt jako MPP** pomocí několika řádků C#.
+
+## Rychlé odpovědi
+- **Co znamená „Opakování podle roku, týdne a dne“?** Opakuje úkol ve vybraný den v týdnu (např. první neděli) daného měsíce každý rok.  
+- **Které verze .NET jsou podporovány?** Všechny moderní verze .NET Framework a .NET Core/5/6.  
+- **Potřebuji licenci pro spuštění kódu?** Bezplatná zkušební verze funguje pro vývoj; pro produkci je vyžadována komerční licence.  
+- **Mohu změnit rozsah opakování?** Ano – můžete nastavit počáteční datum, koncové datum nebo pevný počet výskytů.  
+- **Je výstupem soubor MPP?** Rozhodně – projekt je uložen jako soubor MPP připravený pro Microsoft Project.
+
+## Co je funkce „Opakování podle roku, týdne a dne“?
+
+Funkce vám umožňuje definovat roční opakování, které cílí na konkrétní **den v týdnu** (např. neděle) a **pozici** v měsíci (první, druhá, poslední atd.). To je ideální pro úkoly jako čtvrtletní revize, roční audity nebo jakoukoli událost, která následuje kalendářní rytmus.
+
+## Proč používat Aspose.Tasks pro opakující se úkoly?
+
+- **Přesnost** – Plná kontrola nad měsíci, dny v týdnu a pořadovými pozicemi.  
+- **Kompatibilita** – Generuje nativní soubory MPP, které se otevřou bez problémů v Microsoft Project.  
+- **Žádný COM interop** – Čisté .NET API, není potřeba instalace Office.  
+- **Škálovatelnost** – Funguje pro malé projekty i pro podnikové rozvrhy.
 
 ## Předpoklady
 
-Než se ponoříte do složitosti používání funkce „Opakování podle dne v týdnu“ v Aspose.Tasks pro .NET, ujistěte se, že máte splněny následující předpoklady:
+Předtím, než se ponoříte do kódu, ujistěte se, že máte:
 
-### 1. Znalost .NET Framework
+1. **Základní znalosti .NET** – Znalost C# a objektově orientovaných konceptů.  
+2. **Aspose.Tasks pro .NET** – Stáhněte jej z [download link](https://releases.aspose.com/tasks/net/) a přidejte DLL do svého projektu.  
+3. **Přístup k oficiální dokumentaci** – [documentation](https://reference.aspose.com/tasks/net/) obsahuje podrobné informace o všech třídách.  
+4. **Vývojové IDE** – Visual Studio, Rider nebo jakýkoli kompatibilní .NET editor.
 
-Seznamte se se základy .NET Framework, včetně konceptů objektově orientovaného programování a syntaxe C#.
+Nyní, když jste připraveni, podívejme se na implementaci.
 
-### 2. Instalace Aspose.Tasks pro .NET
+## Jak používat Aspose.Tasks pro opakující se úkoly
 
- Stáhněte a nainstalujte knihovnu Aspose.Tasks for .NET z[odkaz ke stažení](https://releases.aspose.com/tasks/net/). Při integraci knihovny do vašeho vývojového prostředí postupujte podle pokynů k instalaci.
+### Importování potřebných jmenných prostorů
 
-### 3. Přístup k dokumentaci
-
- Odkazovat na[dokumentace](https://reference.aspose.com/tasks/net/) pro komplexní návod k Aspose.Tasks for .NET, včetně podrobného vysvětlení tříd, metod a příkladů použití.
-
-## 4. Nastavení vývojového prostředí
-
-Ujistěte se, že máte nakonfigurované vhodné vývojové prostředí, jako je Visual Studio nebo jakékoli kompatibilní IDE pro vývoj .NET.
-
-Nyní, když máte připravené předpoklady, pojďme se ponořit do podrobného průvodce implementací „Opakování podle roků v týdnu“ v Aspose.Tasks pro .NET.
-
-
-## Import nezbytných jmenných prostorů
-
-Chcete-li začít, importujte požadované jmenné prostory pro přístup ke třídám a funkcím Aspose.Tasks ve vaší aplikaci .NET.
-
-Do souboru kódu C# zahrňte následující deklarace jmenného prostoru:
+Nejprve přiveďte požadované jmenné prostory do rozsahu, abyste mohli pracovat s projekty, úkoly a možnostmi ukládání.
 
 ```csharp
 using Aspose.Tasks;
 using System;
 
 using Aspose.Tasks.Saving;
-
 ```
 
-Tyto jmenné prostory poskytují přístup ke knihovně Aspose.Tasks a třídám potřebným pro práci s úkoly a soubory projektu.
+### Krok 1: Inicializace projektu a parametrů úkolu
 
-Nyní si rozeberme proces nastavení opakujícího se úkolu pomocí funkce "Opakování podle roku a dne týdne" v Aspose.Tasks for .NET do zvládnutelných kroků.
-
-## Krok 1: Inicializujte parametry projektu a úkolu
-
-Nejprve inicializujte projekt a definujte parametry pro opakující se úkol.
+Vytvořte novou instanci `Project` a poté definujte objekt `RecurringTaskParameters`, který popisuje vzor opakování.
 
 ```csharp
-// Cesta k adresáři dokumentů.
+// The path to the documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Blank2010.mpp");
 var parameters = new RecurringTaskParameters
@@ -85,53 +93,64 @@ var parameters = new RecurringTaskParameters
 };
 ```
 
-Tento segment kódu inicializuje nový projekt a určuje parametry pro opakující se úkol. Nastavuje název úlohy, dobu trvání a definuje vzor opakování.
+> **Tip:** Upravit `Month`, `WeekDay` a `Position` tak, aby odpovídaly vašemu reálnému plánu.
 
-## Krok 2: Přidejte parametry do projektu
+### Krok 2: Přidání parametrů do projektu
 
-Dále přidejte definované parametry do projektu.
+Vložte definici opakujícího se úkolu do kořene projektu.
 
 ```csharp
 project.RootTask.Children.Add(parameters);
 ```
 
-Tento řádek přidává parametry úlohy ke kořenové úloze projektu a zahrnuje konfiguraci opakující se úlohy.
+### Krok 3: Uložení projektu jako MPP
 
-## Krok 3: Uložte soubor projektu
-
-Nakonec uložte soubor projektu s nakonfigurovanou opakovanou úlohou.
+Nakonec uložte projekt do souboru MPP, aby jej bylo možné otevřít v Microsoft Project nebo jakémkoli kompatibilním prohlížeči.
 
 ```csharp
 project.Save(DataDir + "CanAddRecurringTask_Years_YearWeekDay_EndByRecurrenceRange_Test.mpp", SaveFileFormat.Mpp);
 ```
 
-Tento fragment uloží soubor projektu se zadanou konfigurací opakované úlohy do zadaného výstupního adresáře.
+> Toto demonstruje **uložit projekt jako mpp** v jediném řádku kódu.
+
+## Časté problémy a řešení
+
+| Příznak | Pravděpodobná příčina | Oprava |
+|---------|-----------------------|--------|
+| Žádné úkoly se neobjeví po otevření souboru MPP | Data rozsahu opakování jsou mimo kalendář projektu | Ověřte, že data `Start` a `Finish` spadají do pracovního času projektu |
+| Výjimka `ArgumentNullException` při `Add` | `parameters` je null nebo není plně inicializován | Ujistěte se, že jsou nastaveny všechny požadované vlastnosti (TaskName, Duration, RecurrencePattern) |
+| Špatně vybraný den v týdnu | Neshoda hodnoty výčtu `WeekDay` | Použijte `DayOfWeek.Monday` … `DayOfWeek.Sunday` podle potřeby |
+
+## Často kladené otázky
+
+**Q: Mohu přizpůsobit vzor opakování mimo uvedený příklad?**  
+A: Ano, Aspose.Tasks vám umožní kombinovat `MonthlyRecurrencePattern`, `WeeklyRecurrencePattern` nebo i vlastní objekty `RecurrenceRange`, aby vyhovovaly libovolnému plánu.
+
+**Q: Je Aspose.Tasks pro .NET kompatibilní s jiným softwarem pro řízení projektů?**  
+A: Rozhodně – knihovna čte a zapisuje formáty MPP, XML a Primavera, což umožňuje plynulou výměnu dat.
+
+**Q: Jak mohu zvládat výjimky nebo úpravy opakujících se úkolů?**  
+A: Použijte třídu `ExceptionTask` k vytvoření výjimek pro konkrétní výskyty, nebo upravte `RecurringTaskParameters` a projekt znovu uložte.
+
+**Q: Podporuje Aspose.Tasks řešení založená na cloudu?**  
+A: Ano, můžete spouštět API v Azure Functions, AWS Lambda nebo jakékoli .NET‑kompatibilní cloudové službě.
+
+**Q: Je k dispozici zkušební verze Aspose.Tasks pro .NET?**  
+A: Ano, můžete získat bezplatnou zkušební verzi Aspose.Tasks pro .NET na [webu](https://releases.aspose.com/), která vám umožní prozkoumat jeho funkce před rozhodnutím o koupi.
+
+**Q: Jak přidat opakující se úkol do existujícího projektu, aniž bych přepsal ostatní data?**  
+A: Načtěte existující projekt pomocí `new Project("Existing.mpp")`, přidejte `RecurringTaskParameters` do `RootTask.Children` a poté soubor `Save`.
 
 ## Závěr
 
-Závěrem lze říci, že zvládnutí funkce „Opakování podle dne v týdnu“ v Aspose.Tasks for .NET umožňuje projektovým manažerům a vývojářům efektivně zpracovávat opakující se úkoly s přesností a flexibilitou. Pokud budete postupovat podle podrobného průvodce popsaného v tomto článku, můžete tuto funkci bez problémů integrovat do pracovních postupů řízení projektů a zvýšit produktivitu a organizaci.
+Když ovládnete **jak používat Aspose.Tasks** pro scénář **Opakování podle roku, týdne a dne**, získáte schopnost **přidávat opakující se úkoly do projektu**, které se dokonale shodují s reálnými kalendáři, a **uložit projekt jako MPP** pro bezproblémovou spolupráci. Začleňte tyto úryvky do svých vlastních řešení, abyste zvýšili přesnost plánování a snížili ruční úsilí.
 
-## FAQ
+---
 
-### Otázka 1: Mohu přizpůsobit vzor opakování dále než uvedené příklady?
+**Last Updated:** 2026-04-03  
+**Tested With:** Aspose.Tasks 24.12 for .NET  
+**Author:** Aspose  
 
-Odpověď: Ano, Aspose.Tasks for .NET nabízí rozsáhlé možnosti přizpůsobení pro opakující se úkoly, což vám umožňuje přizpůsobit vzor opakování vašim konkrétním požadavkům.
-
-### Q2: Je Aspose.Tasks for .NET kompatibilní s jiným softwarem pro správu projektů?
-
-Odpověď: Aspose.Tasks for .NET podporuje interoperabilitu s různými formáty řízení projektů, což umožňuje bezproblémovou integraci s oblíbenými softwarovými sadami.
-
-### Q3: Jak mohu zpracovat výjimky nebo úpravy opakujících se úkolů?
-
-Odpověď: Aspose.Tasks for .NET poskytuje rozhraní API pro zpracování výjimek a úprav opakujících se úloh, což zajišťuje flexibilitu při správě vyvíjejících se požadavků projektu.
-
-### Q4: Nabízí Aspose.Tasks for .NET podporu pro cloudová řešení pro řízení projektů?
-
-Odpověď: Ano, Aspose.Tasks for .NET nabízí podporu pro cloudová řešení pro řízení projektů, usnadňuje spolupráci a dostupnost napříč různými platformami.
-
-### Q5: Je k dispozici zkušební verze pro Aspose.Tasks pro .NET?
-
-Odpověď: Ano, máte přístup k bezplatné zkušební verzi Aspose.Tasks pro .NET z webu[webová stránka](https://releases.aspose.com/), což vám umožní prozkoumat jeho funkce před rozhodnutím o nákupu.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
