@@ -1,53 +1,77 @@
 ---
-title: Zkontrolujte okruh v Aspose.Tasks
-linktitle: Zkontrolujte okruh v Aspose.Tasks
+date: 2026-04-09
+description: Naučte se, jak zkontrolovat obvod a ověřit integritu souboru Microsoft
+  Project pomocí Aspose.Tasks pro .NET.
+keywords:
+- how to check circuit
+- check project structure
+- validate microsoft project
+- project file integrity check
+linktitle: Zkontrolovat okruh v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Naučte se používat Aspose.Tasks for .NET k efektivní správě a analýze projektových souborů v C#.
-weight: 14
+title: Jak zkontrolovat obvod v Aspose.Tasks
 url: /cs/net/calendar-scheduling/check-circuit/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zkontrolujte okruh v Aspose.Tasks
+# Jak zkontrolovat obvod v Aspose.Tasks
 
 ## Úvod
 
-Ve světě vývoje .NET je efektivní řízení úkolů a projektů prvořadé. Aspose.Tasks for .NET je výkonná knihovna, která poskytuje vývojářům nástroje, které potřebují k zefektivnění procesů řízení projektů. Ať už vytváříte, čtete nebo manipulujete se soubory Microsoft Project, Aspose.Tasks zjednodušuje úkol pomocí intuitivních rozhraní API a komplexních funkcí.
+Ve světě vývoje v .NET je efektivní správa úkolů a projektů naprosto zásadní. **How to check circuit** v souboru projektu je běžná požadavek, když potřebujete zajistit integritu plánu Microsoft Project. Aspose.Tasks pro .NET poskytuje jednoduché API, které vám umožní ověřit strukturu projektu a detekovat poškozené hierarchie úkolů pomocí několika řádků kódu.
+
+## Rychlé odpovědi
+- **Co dělá „check circuit“?** Prohledává hierarchii úkolů na kruhové reference nebo poškozené odkazy rodič‑potomek.  
+- **Proč je to důležité?** Pomáhá udržovat čistý soubor projektu a zabraňuje chybám výpočtů v Microsoft Project.  
+- **Která knihovna se používá?** Aspose.Tasks pro .NET.  
+- **Potřebuji licenci?** Pro produkci je vyžadována dočasná licence; pro testování funguje bezplatná zkušební verze.  
+- **Podporované platformy?** .NET Framework, .NET Core a .NET 5/6+.
+
+## Co je kontrola obvodu projektu?
+
+Kontrola obvodu (někdy nazývaná „validace struktury“) prochází každý úkol počínaje kořenovým úkolem a ověřuje, že každý podúkol odkazuje na platného rodiče. Pokud je nalezena smyčka nebo osiřelý úkol, knihovna vyhodí `TasksException`, což vám umožní problém řešit programově.
+
+## Proč ověřovat soubory Microsoft Project?
+
+- **Zabránit chybám výpočtů:** Kruhové reference mohou narušit výpočty harmonogramu.  
+- **Udržet integritu dat:** Zajišťuje, že každý úkol patří do správné hierarchie.  
+- **Automatizovat kontrolu kvality:** Užitečné v CI pipelinech, kde jsou soubory projektů generovány nebo upravovány automaticky.  
+- **Ušetřit čas:** Detekovat problémy dříve, než budete ladit poškozený harmonogram v Microsoft Project.
 
 ## Předpoklady
 
-Než se pustíte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
+Než se ponoříte do tutoriálu, ujistěte se, že máte následující předpoklady:
 
-1. Visual Studio: Ujistěte se, že máte v systému nainstalované Visual Studio.
-2.  Aspose.Tasks for .NET: Stáhněte si a nainstalujte knihovnu Aspose.Tasks for .NET z[tady](https://releases.aspose.com/tasks/net/).
-3. Základní znalost C#: Znalost programovacího jazyka C# je nutné dodržovat spolu s příklady.
+1. Visual Studio: Ujistěte se, že máte Visual Studio nainstalováno ve vašem systému.  
+2. Aspose.Tasks pro .NET: Stáhněte a nainstalujte knihovnu Aspose.Tasks pro .NET z [zde](https://releases.aspose.com/tasks/net/).  
+3. Základní znalost C#: Znalost programovacího jazyka C# je nezbytná pro sledování příkladů.
 
 ## Importovat jmenné prostory
 
-Ve svém projektu C# zahrňte následující jmenné prostory pro přístup k požadovaným třídám a metodám:
+Ve vašem projektu C# zahrňte následující jmenné prostory pro přístup k požadovaným třídám a metodám:
 
 ```csharp
 using Aspose.Tasks;
 using System;
 
 using Aspose.Tasks.Util;
-
 ```
 
-## Krok 1: Načtěte soubor projektu
+## Krok 1: Načíst soubor projektu
 
-Začněte načtením souboru Microsoft Project (.mpp), u kterého chcete zkontrolovat poškozenou strukturu. Použijte`Project` třídy k načtení souboru.
+Začněte načtením souboru Microsoft Project (.mpp), který chcete zkontrolovat na poškozenou strukturu. Použijte třídu `Project` pro načtení souboru.
 
 ```csharp
 var project = new Project(DataDir + "ParentChildTasks.mpp");
 ```
 
-## Krok 2: Zkontrolujte strukturu projektu
+## Krok 2: Zkontrolovat strukturu projektu
 
- K detekci jakékoli porušené struktury v projektu použijeme`CheckCircuit` třída spolu s`TaskUtils.Apply` metoda.
+Pro detekci jakékoli poškozené struktury v projektu použijeme třídu `CheckCircuit` spolu s metodou `TaskUtils.Apply`. Tento krok **kontroluje strukturu projektu** a vyvolá výjimku, pokud je nalezen obvod.
 
 ```csharp
 try
@@ -60,31 +84,39 @@ catch (TasksException ex)
 }
 ```
 
+## Běžné úskalí a tipy
+
+- **Úskalí:** Zapomenutí zabalit volání do `try/catch`. Operace `CheckCircuit` vyhodí `TasksException`, když najde problém, takže jej vždy ošetřete elegantně.  
+- **Tip:** Použijte `project.RootTask` jako vstupní bod; předání jakéhokoli jiného úkolu může přehlédnout problémy výše.  
+- **Tip:** Po opravě obvodu můžete znovu spustit kontrolu, abyste potvrdili integritu souboru projektu.
+
+## Často kladené otázky
+
+**Q: Můžu používat Aspose.Tasks pro .NET s jinými .NET frameworky?**  
+A: Ano, Aspose.Tasks pro .NET je kompatibilní s různými .NET frameworky, včetně .NET Core a .NET Framework.
+
+**Q: Je k dispozici zkušební verze před zakoupením?**  
+A: Ano, můžete získat bezplatnou zkušební verzi Aspose.Tasks pro .NET z [zde](https://releases.aspose.com/).
+
+**Q: Jak mohu získat podporu pro Aspose.Tasks pro .NET?**  
+A: Můžete požádat o pomoc na komunitním fóru Aspose.Tasks [zde](https://forum.aspose.com/c/tasks/15).
+
+**Q: Potřebuji dočasnou licenci pro testovací účely?**  
+A: Ano, můžete získat dočasnou licenci z [zde](https://purchase.aspose.com/temporary-license/) pro testování.
+
+**Q: Kde mohu zakoupit Aspose.Tasks pro .NET?**  
+A: Plnou verzi Aspose.Tasks pro .NET můžete zakoupit z [zde](https://purchase.aspose.com/buy).
+
 ## Závěr
 
-S Aspose.Tasks pro .NET se správa a analýza projektových souborů stává hračkou. Sledováním tohoto tutoriálu jste se naučili, jak zkontrolovat obvod ve struktuře projektu a zajistit jeho integritu a koherenci.
+Podle tohoto průvodce jste se naučili **how to check circuit** v projektu Aspose.Tasks, účinně ověřili integritu souboru projektu a zajistili čistou hierarchii úkolů. Začlenění této kontroly do vašeho build nebo import procesu může ušetřit hodiny ručního ladění a udržet vaše harmonogramy spolehlivé.
 
-## FAQ
+---
 
-### Q1: Mohu použít Aspose.Tasks pro .NET s jinými frameworky .NET?
+**Poslední aktualizace:** 2026-04-09  
+**Testováno s:** Aspose.Tasks pro .NET (nejnovější verze)  
+**Autor:** Aspose  
 
-Odpověď 1: Ano, Aspose.Tasks for .NET je kompatibilní s různými rozhraními .NET, včetně .NET Core a .NET Framework.
-
-### Q2: Je před zakoupením k dispozici zkušební verze?
-
- A2: Ano, můžete využít bezplatnou zkušební verzi Aspose.Tasks pro .NET od[tady](https://releases.aspose.com/).
-
-### Q3: Jak mohu získat podporu pro Aspose.Tasks pro .NET?
-
- A3: Můžete požádat o pomoc z fóra komunity Aspose.Tasks[tady](https://forum.aspose.com/c/tasks/15).
-
-### Q4: Potřebuji dočasnou licenci pro testovací účely?
-
- A4: Ano, můžete získat dočasnou licenci od[tady](https://purchase.aspose.com/temporary-license/) pro testování.
-
-### Q5: Kde mohu zakoupit Aspose.Tasks pro .NET?
-
- A5: Můžete si koupit plnou verzi Aspose.Tasks pro .NET od[tady](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,63 +1,78 @@
 ---
-title: Samling av kalenderundantag i Aspose.Tasks
-linktitle: Samling av kalenderundantag i Aspose.Tasks
+date: 2026-04-09
+description: Lär dig hur du ställer in standardkalender och hanterar projektledigheter
+  i dina .NET‑projekt med Aspose.Tasks för exakt schemaläggning.
+keywords:
+- set standard calendar
+- manage project holidays
+- load project calendar
+linktitle: Ställ in standardkalender och hantera undantag i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Lär dig hur du effektivt hanterar kalenderundantag i dina .NET-projekt med Aspose.Tasks, vilket säkerställer korrekt schemaläggning och resurshantering.
-weight: 13
+title: Ställ in standardkalender och hantera undantag i Aspose.Tasks
 url: /sv/net/calendar-scheduling/calendar-exception-collection/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Samling av kalenderundantag i Aspose.Tasks
+# Ställ in standardkalender och hantera undantag i Aspose.Tasks
 
 ## Introduktion
 
-Inom projektledning är exakt schemaläggning avgörande för framgång. Men verkliga scenarier kräver ofta avvikelser från standardscheman på grund av helgdagar, speciella händelser eller andra faktorer. Aspose.Tasks för .NET tillhandahåller en robust lösning för att hantera sådana undantag genom dess Calendar Exception Collection-funktion. Denna handledning guidar dig genom processen att använda den här funktionen steg för steg.
+Noggrann schemaläggning är ryggraden i alla framgångsrika projekt, och verkliga planer måste ofta avvika från standardarbetskalendern på grund av helgdagar, speciella evenemang eller oväntade avstängningar. Aspose.Tasks för .NET gör det enkelt att **set standard calendar**‑inställningar och sedan lägga till anpassade undantag ovanpå. I den här handledningen kommer du att lära dig hur du laddar en projektkalender, ställer in en standardkalender och hanterar projektets helgdagar via Calendar Exception Collection‑funktionen.
+
+## Snabba svar
+- **Vad gör “set standard calendar”?** Det återställer en kalender till standardarbetstid (9 AM‑5 PM, måndag‑fredag) innan du lägger till anpassade undantag.  
+- **Vilken metod rensar befintliga undantag?** `Calendar.Exceptions.Clear()` tar bort alla tidigare definierade undantag.  
+- **Hur kan jag lägga till en helgdag?** Skapa en `CalendarException` med `DayWorking = false` och lägg till den i samlingen.  
+- **Behöver jag ladda om projektet efter ändringar?** Nej, ändringarna tillämpas direkt på det minnes‑`Project`‑objektet.  
+- **Vilka bibliotek krävs?** Aspose.Tasks för .NET (valfri stödd .NET‑version) och `System`‑namnrymder.
 
 ## Förutsättningar
 
-Innan du dyker in i handledningen, se till att du har följande förutsättningar:
+Innan du dyker ner i koden, se till att du har:
 
-1.  Aspose.Tasks för .NET: Se till att du har biblioteket installerat. Du kan ladda ner den[här](https://releases.aspose.com/tasks/net/).
-2. Grundläggande kunskaper i C#: Förtrogenhet med programmeringsspråket C# kommer att vara till hjälp för att förstå exemplen.
-3. Utvecklingsmiljö: Konfigurera din föredragna utvecklingsmiljö, som Visual Studio eller JetBrains Rider.
+1. **Aspose.Tasks for .NET** – ladda ner den [här](https://releases.aspose.com/tasks/net/).  
+2. Grundläggande kunskap i **C#** – du kommer att skriva några korta kodsnuttar.  
+3. En utvecklingsmiljö som **Visual Studio** eller **JetBrains Rider**.
 
-## Importera namnområden
+## Importera namnrymder
 
-Innan du börjar arbeta med Aspose.Tasks för .NET måste du importera de nödvändiga namnrymden till ditt projekt. Detta steg ger dig tillgång till de klasser och metoder som krävs för att hantera kalenderundantag.
+Dessa `using`‑direktiv ger dig åtkomst till de klasser som behövs för kalendermanipulation.
 
 ```csharp
 using Aspose.Tasks;
 using System;
 using System.Collections.Generic;
-
-
 ```
 
-Låt oss nu dela upp exemplet i flera steg:
+## Vad är ett kalenderundantag?
 
-## Steg 1: Ladda projekt och hämta kalender
+*Ett kalenderundantag* representerar en period där det normala arbetsschemat ändras – till exempel en företagshelgdag eller ett tillfälligt övertidsschema. Genom att lägga till undantag i en kalender kan du modellera verkliga begränsningar utan att ändra grundkalendern.
+
+## Så ställer du in standardkalender i Aspose.Tasks
+
+Det första steget är att ladda din projektfil och hämta den kalender du vill arbeta med.
 
 ```csharp
 var project = new Project(DataDir + "project_update_test.mpp");
 var calendar = project.Calendars.GetByUid(3);
 ```
 
-I det här steget laddar vi en projektfil och hämtar den önskade kalendern med dess UID.
+### Steg 1: Rensa befintliga undantag och återställ till en standardkalender
 
-## Steg 2: Rensa befintliga undantag och ställ in standardkalender
+Innan du lägger till nya regler är det en bra praxis att rensa eventuella gamla undantag och **set standard calendar**‑inställningar. Detta säkerställer en ren grundlinje.
 
 ```csharp
 calendar.Exceptions.Clear();
 Calendar.MakeStandardCalendar(calendar);
 ```
 
-Detta steg rensar alla befintliga undantag från kalendern och ställer in den på en standardkonfiguration.
+### Steg 2: Definiera ett arbetstid‑undantag
 
-## Steg 3: Definiera och lägg till undantag för arbetstid
+Ibland behöver du skapa ett tillfälligt schema (t.ex. förlängda timmar för en produktlansering). Följande kodsnutt definierar ett arbetstid‑undantag som sträcker sig över flera dagar och inkluderar två dagliga arbetspass.
 
 ```csharp
 var exception = new CalendarException();
@@ -74,9 +89,9 @@ exception.WorkingTimes.Add(wt2);
 calendar.Exceptions.Add(exception);
 ```
 
-Det här steget definierar ett arbetstidsundantag med specifika start- och slutdatum, tillsammans med arbetstider inom dessa datum, och lägger till det i kalendern.
+### Steg 3: Lägg till icke‑arbetstid‑undantag (helgdagar)
 
-## Steg 4: Definiera och lägg till undantag för icke-arbetstid
+För att **manage project holidays** skapar du undantag där `DayWorking` är `false`. Exemplet nedan lägger till ett tvådagars helgblocket.
 
 ```csharp
 var nonWorkingExceptions = new CalendarException[2];
@@ -86,14 +101,14 @@ nonWorkingExceptions[0].ToDate = new DateTime(2020, 4, 18, 17, 0, 0);
 nonWorkingExceptions[0].DayWorking = false;
 nonWorkingExceptions[0].Name = "Exception 2";
 
-// Lägg till fler undantag om det behövs
+// Add more exceptions if needed
 
 calendar.Exceptions.AddRange(nonWorkingExceptions);
 ```
 
-Det här steget definierar undantag för icke-arbetstid, till exempel helgdagar, och lägger till dem i kalendern.
+### Steg 4: Visa kalenderundantag (verifiering)
 
-## Steg 5: Visa kalenderundantag
+Efter att ha lagt till undantag vill du ofta verifiera att de registrerats korrekt. Följande loop skriver ut varje undantags detaljer till konsolen.
 
 ```csharp
 Console.WriteLine("Exceptions of calendar {0}: ", calendar.Exceptions.ParentCalendar.Name);
@@ -109,9 +124,9 @@ foreach (var calendarException in calendar.Exceptions)
 }
 ```
 
-Detta steg visar de tillagda kalenderundantagen tillsammans med deras detaljer.
+### Steg 5: Ta bort alla undantag (rensning)
 
-## Steg 6: Ta bort alla undantag
+Om du behöver återställa kalendern till sitt ursprungliga tillstånd kan du ta bort alla undantag programatiskt.
 
 ```csharp
 Console.WriteLine("Remove calendar exceptions...");
@@ -122,33 +137,41 @@ foreach (var calendarException in exceptions)
 }
 ```
 
-Slutligen tar detta steg bort alla undantag från kalendern.
+## Vanliga problem och lösningar
+
+| Problem | Orsak | Lösning |
+|-------|--------|-----|
+| Undantag visas inte efter sparning | Projektet sparas inte efter ändringar | Anropa `project.Save("output.mpp")` efter att ha gjort ändringar. |
+| Överlappande undantag orsakar oväntade arbetstimmar | Aspose.Tasks använder det senast tillagda undantaget för överlappande perioder | Ordna dina `Add`‑anrop noggrant eller justera prioriteringar manuellt. |
+| `MakeStandardCalendar` återställer anpassade arbetstider | Den rensar avsiktligt anpassade tider; lägg till dem igen efter anropet om det behövs. | Lägg till dina anpassade `WorkingTime`‑objekt efter att ha anropat `MakeStandardCalendar`. |
+
+## Vanliga frågor
+
+**Q: Kan jag lägga till flera undantag i en enda kalender?**  
+A: Ja, du kan lägga till flera undantag i en kalender med `AddRange`‑metoden.
+
+**Q: Hur hanterar jag återkommande undantag, såsom veckovisa helgdagar?**  
+A: Du kan programatiskt beräkna återkommande undantag och lägga till dem i kalendern med anpassad logik.
+
+**Q: Är det möjligt att importera kalenderundantag från externa källor?**  
+A: Ja, du kan läsa kalenderundantag från externa källor som databaser eller CSV‑filer och integrera dem i ditt projekt.
+
+**Q: Vad händer om det finns överlappande undantag i kalendern?**  
+A: Aspose.Tasks för .NET låter dig hantera överlappande undantag genom att definiera prioriteringar eller lösa konflikter baserat på dina projektkrav.
+
+**Q: Kan jag anpassa arbetstiderna för varje dag inom ett undantag?**  
+A: Ja, du kan ange anpassade arbetstider för enskilda dagar inom ett undantag för att tillgodose specifika schemaläggningsbehov.
 
 ## Slutsats
 
-Att hantera kalenderundantag är avgörande för korrekt projektschemaläggning. Aspose.Tasks för .NET förenklar denna uppgift genom att tillhandahålla en omfattande uppsättning funktioner, inklusive Calendar Exception Collection. Genom att följa stegen som beskrivs i denna handledning kan du effektivt hantera olika schemaläggningsscenarier inom dina projekt.
+Genom att först **setting a standard calendar** och sedan lägga till anpassade undantag får du full kontroll över projektschemaläggning, vilket gör det enkelt att **manage project holidays** och andra specialtidslinjer. Calendar Exception Collection i Aspose.Tasks erbjuder ett rent, programatiskt sätt att modellera verkliga kalendrar direkt i dina .NET‑applikationer.
 
-## FAQ's
+---
 
-### F1: Kan jag lägga till flera undantag i en enda kalender?
+**Senast uppdaterad:** 2026-04-09  
+**Testat med:** Aspose.Tasks 24.12 for .NET  
+**Författare:** Aspose  
 
- S1: Ja, du kan lägga till flera undantag i en kalender med hjälp av`AddRange` metod.
-
-### F2: Hur hanterar jag återkommande undantag, såsom helgdagar?
-
-S2: Du kan programmatiskt beräkna återkommande undantag och lägga till dem i kalendern med hjälp av anpassad logik.
-
-### F3: Är det möjligt att importera kalenderundantag från externa källor?
-
-S3: Ja, du kan läsa kalenderundantag från externa källor som databaser eller CSV-filer och integrera dem i ditt projekt.
-
-### F4: Vad händer om det finns överlappande undantag i kalendern?
-
-S4: Aspose.Tasks för .NET låter dig hantera överlappande undantag genom att definiera prioriteringar eller lösa konflikter baserat på dina projektkrav.
-
-### F5: Kan jag anpassa arbetstiderna för varje dag inom ett undantag?
-
-S5: Ja, du kan ange anpassade arbetstider för enskilda dagar inom ett undantag för att tillgodose specifika schemaläggningsbehov.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

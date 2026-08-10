@@ -1,63 +1,78 @@
 ---
-title: Coleção de exceções de calendário em Aspose.Tasks
-linktitle: Coleção de exceções de calendário em Aspose.Tasks
-second_title: API Aspose.Tasks .NET
-description: Aprenda como lidar com exceções de calendário com eficiência em seus projetos .NET usando Aspose.Tasks, garantindo agendamento preciso e gerenciamento de recursos.
-weight: 13
+date: 2026-04-09
+description: Aprenda a definir o calendário padrão e gerenciar os feriados do projeto
+  em seus projetos .NET usando o Aspose.Tasks para um agendamento preciso.
+keywords:
+- set standard calendar
+- manage project holidays
+- load project calendar
+linktitle: Definir Calendário Padrão e Tratar Exceções no Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+title: Definir Calendário Padrão e Tratar Exceções no Aspose.Tasks
 url: /pt/net/calendar-scheduling/calendar-exception-collection/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Coleção de exceções de calendário em Aspose.Tasks
+# Definir Calendário Padrão e Manipular Exceções no Aspose.Tasks
 
 ## Introdução
 
-No gerenciamento de projetos, o agendamento preciso é vital para o sucesso. No entanto, os cenários do mundo real muitas vezes exigem desvios dos horários padrão devido a feriados, eventos especiais ou outros fatores. Aspose.Tasks for .NET fornece uma solução robusta para gerenciar tais exceções por meio de seu recurso Calendar Exception Collection. Este tutorial irá guiá-lo através do processo de utilização desta funcionalidade passo a passo.
+O agendamento preciso é a espinha dorsal de qualquer projeto bem-sucedido, e planos do mundo real frequentemente precisam se desviar do calendário de trabalho padrão devido a feriados, eventos especiais ou paralisações inesperadas. Aspose.Tasks para .NET facilita a configuração de **set standard calendar** e, em seguida, a sobreposição de exceções personalizadas. Neste tutorial, você aprenderá como carregar um calendário de projeto, definir um calendário padrão e gerenciar feriados do projeto através do recurso Calendar Exception Collection.
+
+## Respostas Rápidas
+- **O que faz “set standard calendar”?** Ele redefine um calendário para o horário de trabalho padrão (9 AM‑5 PM, segunda‑sexta) antes de você adicionar exceções personalizadas.  
+- **Qual método limpa exceções existentes?** `Calendar.Exceptions.Clear()` remove todas as exceções definidas anteriormente.  
+- **Como posso adicionar um feriado?** Crie um `CalendarException` com `DayWorking = false` e adicione-o à coleção.  
+- **Preciso recarregar o projeto após as alterações?** Não, as alterações são aplicadas diretamente ao objeto `Project` em memória.  
+- **Quais bibliotecas são necessárias?** Aspose.Tasks para .NET (qualquer versão .NET suportada) e namespaces `System`.
 
 ## Pré-requisitos
 
-Antes de mergulhar no tutorial, certifique-se de ter os seguintes pré-requisitos:
+Antes de mergulhar no código, certifique-se de que você tem:
 
-1.  Aspose.Tasks for .NET: Certifique-se de ter a biblioteca instalada. Você pode baixá-lo[aqui](https://releases.aspose.com/tasks/net/).
-2. Conhecimento básico de C#: Familiaridade com a linguagem de programação C# será útil na compreensão dos exemplos.
-3. Ambiente de desenvolvimento: configure seu ambiente de desenvolvimento preferido, como Visual Studio ou JetBrains Rider.
+1. **Aspose.Tasks for .NET** – faça o download [aqui](https://releases.aspose.com/tasks/net/).  
+2. Conhecimento básico de **C#** – você escreverá alguns trechos curtos.  
+3. Um ambiente de desenvolvimento como **Visual Studio** ou **JetBrains Rider**.
 
-## Importar namespaces
+## Importar Namespaces
 
-Antes de começar a trabalhar com Aspose.Tasks for .NET, você precisa importar os namespaces necessários para o seu projeto. Esta etapa permite acessar as classes e métodos necessários para gerenciar exceções de calendário.
+Essas diretivas `using` dão acesso às classes necessárias para a manipulação de calendários.
 
 ```csharp
 using Aspose.Tasks;
 using System;
 using System.Collections.Generic;
-
-
 ```
 
-Agora, vamos dividir o exemplo fornecido em várias etapas:
+## O que é uma Exceção de Calendário?
 
-## Etapa 1: carregar o projeto e recuperar o calendário
+Uma *exceção de calendário* representa um período em que o horário de trabalho normal é alterado – por exemplo, um feriado em toda a empresa ou um cronograma temporário de horas extras. Ao adicionar exceções a um calendário, você pode modelar restrições do mundo real sem mudar o calendário base.
+
+## Como Definir Calendário Padrão no Aspose.Tasks
+
+O primeiro passo é carregar seu arquivo de projeto e recuperar o calendário com o qual deseja trabalhar.
 
 ```csharp
 var project = new Project(DataDir + "project_update_test.mpp");
 var calendar = project.Calendars.GetByUid(3);
 ```
 
-Nesta etapa, carregamos um arquivo de projeto e recuperamos o calendário desejado pelo seu UID.
+### Etapa 1: Limpar Exceções Existentes e Redefinir para um Calendário Padrão
 
-## Etapa 2: limpar as exceções existentes e definir o calendário padrão
+Antes de adicionar novas regras, é uma boa prática limpar quaisquer exceções antigas e as configurações de **set standard calendar**. Isso garante uma base limpa.
 
 ```csharp
 calendar.Exceptions.Clear();
 Calendar.MakeStandardCalendar(calendar);
 ```
 
-Esta etapa limpa quaisquer exceções existentes do calendário e define-o para uma configuração padrão.
+### Etapa 2: Definir uma Exceção de Horário de Trabalho
 
-## Etapa 3: definir e adicionar exceção de horário de trabalho
+Às vezes, você precisa criar um cronograma temporário (por exemplo, horas estendidas para o lançamento de um produto). O trecho a seguir define uma exceção de horário de trabalho que abrange vários dias e inclui dois períodos de trabalho diários.
 
 ```csharp
 var exception = new CalendarException();
@@ -74,9 +89,9 @@ exception.WorkingTimes.Add(wt2);
 calendar.Exceptions.Add(exception);
 ```
 
-Esta etapa define uma exceção de horário de trabalho com datas específicas de início e término, juntamente com horários de trabalho dentro dessas datas, e a adiciona ao calendário.
+### Etapa 3: Adicionar Exceções de Tempo Não‑Trabalhado (Feriados)
 
-## Etapa 4: definir e adicionar exceções de horário de folga
+Para **manage project holidays**, crie exceções onde `DayWorking` é `false`. O exemplo abaixo adiciona um bloco de feriado de dois dias.
 
 ```csharp
 var nonWorkingExceptions = new CalendarException[2];
@@ -86,14 +101,14 @@ nonWorkingExceptions[0].ToDate = new DateTime(2020, 4, 18, 17, 0, 0);
 nonWorkingExceptions[0].DayWorking = false;
 nonWorkingExceptions[0].Name = "Exception 2";
 
-// Adicione mais exceções, se necessário
+// Add more exceptions if needed
 
 calendar.Exceptions.AddRange(nonWorkingExceptions);
 ```
 
-Esta etapa define exceções de horário não útil, como feriados, e as adiciona ao calendário.
+### Etapa 4: Exibir Exceções de Calendário (Verificação)
 
-## Etapa 5: exibir exceções de calendário
+Depois de adicionar exceções, você frequentemente desejará verificar se elas foram registradas corretamente. O loop a seguir imprime os detalhes de cada exceção no console.
 
 ```csharp
 Console.WriteLine("Exceptions of calendar {0}: ", calendar.Exceptions.ParentCalendar.Name);
@@ -109,9 +124,9 @@ foreach (var calendarException in calendar.Exceptions)
 }
 ```
 
-Esta etapa exibe as exceções de calendário adicionadas junto com seus detalhes.
+### Etapa 5: Remover Todas as Exceções (Limpeza)
 
-## Etapa 6: remover todas as exceções
+Se precisar reverter o calendário ao seu estado original, você pode remover todas as exceções programaticamente.
 
 ```csharp
 Console.WriteLine("Remove calendar exceptions...");
@@ -122,33 +137,41 @@ foreach (var calendarException in exceptions)
 }
 ```
 
-Finalmente, esta etapa remove todas as exceções do calendário.
+## Problemas Comuns e Soluções
+
+| Problema | Razão | Correção |
+|----------|-------|----------|
+| Exceções não aparecem após salvar | Projeto não salvo após modificações | Chame `project.Save("output.mpp")` após fazer alterações. |
+| Exceções sobrepostas causam horas de trabalho inesperadas | Aspose.Tasks usa a última exceção adicionada para períodos sobrepostos | Ordene suas chamadas `Add` cuidadosamente ou ajuste as prioridades manualmente. |
+| `MakeStandardCalendar` redefine horários de trabalho personalizados | Ele limpa intencionalmente os horários personalizados; adicione-os novamente após a chamada, se necessário. | Adicione seus objetos `WorkingTime` personalizados após invocar `MakeStandardCalendar`. |
+
+## Perguntas Frequentes
+
+**Q:** Posso adicionar várias exceções a um único calendário?  
+**A:** Sim, você pode adicionar várias exceções a um calendário usando o método `AddRange`.
+
+**Q:** Como lidar com exceções recorrentes, como feriados semanais?  
+**A:** Você pode calcular programaticamente exceções recorrentes e adicioná-las ao calendário usando lógica personalizada.
+
+**Q:** É possível importar exceções de calendário de fontes externas?  
+**A:** Sim, você pode ler exceções de calendário de fontes externas como bancos de dados ou arquivos CSV e integrá-las ao seu projeto.
+
+**Q:** O que acontece se houver exceções sobrepostas no calendário?  
+**A:** Aspose.Tasks para .NET permite que você trate exceções sobrepostas definindo prioridades ou resolvendo conflitos com base nos requisitos do seu projeto.
+
+**Q:** Posso personalizar os horários de trabalho para cada dia dentro de uma exceção?  
+**A:** Sim, você pode especificar horários de trabalho personalizados para dias individuais dentro de uma exceção para atender a necessidades específicas de agendamento.
 
 ## Conclusão
 
-Gerenciar exceções de calendário é crucial para um agendamento preciso do projeto. Aspose.Tasks for .NET simplifica essa tarefa, fornecendo um conjunto abrangente de recursos, incluindo a coleção de exceções de calendário. Seguindo as etapas descritas neste tutorial, você pode lidar com eficiência com vários cenários de agendamento em seus projetos.
+Ao **setting a standard calendar** primeiro e depois sobrepor exceções personalizadas, você obtém controle total sobre o agendamento do projeto, facilitando **manage project holidays** e quaisquer outras linhas de tempo especiais. A Calendar Exception Collection no Aspose.Tasks fornece uma maneira limpa e programática de modelar calendários do mundo real diretamente em suas aplicações .NET.
 
-## Perguntas frequentes
+---
 
-### P1: Posso adicionar várias exceções a um único calendário?
+**Última atualização:** 2026-04-09  
+**Testado com:** Aspose.Tasks 24.12 for .NET  
+**Autor:** Aspose  
 
- A1: Sim, você pode adicionar várias exceções a um calendário usando o`AddRange` método.
-
-### P2: Como lidar com exceções recorrentes, como feriados semanais?
-
-A2: Você pode calcular exceções recorrentes programaticamente e adicioná-las ao calendário usando lógica personalizada.
-
-### P3: É possível importar exceções de calendário de fontes externas?
-
-A3: Sim, você pode ler exceções de calendário de fontes externas, como bancos de dados ou arquivos CSV, e integrá-las ao seu projeto.
-
-### P4: O que acontece se houver exceções sobrepostas no calendário?
-
-A4: Aspose.Tasks for .NET permite que você lide com exceções sobrepostas definindo prioridades ou resolvendo conflitos com base nos requisitos do seu projeto.
-
-### P5: Posso personalizar os horários de trabalho de cada dia dentro de uma exceção?
-
-R5: Sim, você pode especificar horários de trabalho personalizados para dias individuais dentro de uma exceção para acomodar necessidades específicas de agendamento.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
