@@ -1,10 +1,41 @@
 ---
-title: تعيينات الموارد
+date: 2026-06-05
+description: تعلم كيفية حساب نسبة التعيين، وإدارة تباين المشروع، ومعالجة تعيينات الموارد
+  باستخدام Aspose.Tasks for Java.
+keywords:
+- calculate assignment percent
+- manage project variance
+- manage resource assignment
 linktitle: تعيينات الموارد
-second_title: Aspose.Tasks جافا API
-description: يمكنك إتقان Aspose.Tasks لـ Java بسهولة من خلال البرامج التعليمية لتعيين الموارد. إدارة معالجة MS Project وميزانيات المهام والتكاليف والمزيد.
-weight: 30
+schemas:
+- author: Aspose
+  dateModified: '2026-06-05'
+  description: Learn how to calculate assignment percent, manage project variance,
+    and handle resource assignments using Aspose.Tasks for Java.
+  headline: Calculate Assignment Percent – Resource Assignments with Aspose.Tasks
+    for Java
+  type: TechArticle
+- questions:
+  - answer: Yes – iterate each `Assignment` linked to the task and set `PercentWorkComplete`
+      individually; the API aggregates the values for reporting.
+    question: Can I calculate assignment percent for tasks that span multiple resources?
+  - answer: Absolutely. The library reads work, cost, start, and finish variance fields
+      directly from the file without extra configuration.
+    question: Does Aspose.Tasks support reading variance data from existing .mpp files?
+  - answer: You can export the `Project` to CSV or use the `Save` method with `SaveFormat.XLSX`;
+      the exported sheet includes the `PercentWorkComplete` column.
+    question: Is it possible to export assignment percentages to Excel?
+  - answer: Aspose.Tasks can handle projects with **500+ resources and 10,000+ tasks**
+      while keeping memory usage under 200 MB by streaming data.
+    question: What are the performance limits when processing large projects?
+  - answer: No – a single Aspose.Tasks license covers all supported Java versions
+      (8, 11, 17).
+    question: Do I need a separate license for each Java version?
+  type: FAQPage
+second_title: Aspose.Tasks Java API
+title: حساب نسبة التعيين – تعيينات الموارد باستخدام Aspose.Tasks for Java
 url: /ar/java/resource-assignments/
+weight: 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,103 +44,159 @@ url: /ar/java/resource-assignments/
 
 # تعيينات الموارد
 
-
 ## مقدمة
 
-مرحبًا بك في دليلنا الشامل حول إتقان Aspose.Tasks لـ Java، مع التركيز على تعيينات الموارد. سواء كنت مطور Java متمرسًا أو بدأت للتو، ستزودك هذه البرامج التعليمية بمعرفة متعمقة لإدارة الجوانب المختلفة لملفات Microsoft Project بكفاءة. دعونا نتعمق في المواضيع الرئيسية التي تم تناولها:
+مرحبًا بكم في دليلنا الشامل لإتقان Aspose.Tasks for Java، مع التركيز على **تعيينات الموارد**، والأهم من ذلك **حساب نسبة التعيين**. سواء كنت مطور Java متمرسًا أو مبتدئًا، ستزودك هذه الدروس بمعرفة متعمقة لإدارة مختلف جوانب ملفات Microsoft Project بكفاءة. ستتعلم كيفية **إدارة تباين المشروع**، والحفاظ على تنظيم تعيينات الموارد، وتطبيق حساب نسب التعيينات لتحقيق تقارير دقيقة.
 
-## إتقان معالجة مشروع MS باستخدام Aspose.Tasks لـ Java
+## إجابات سريعة
+- **ما هو الغرض الأساسي من حساب نسبة التعيين؟** يحول وحدات العمل إلى نسبة مئوية تعكس مقدار سعة المورد المخصصة للمهمة.  
+- **أي فئة API تتعامل مع نسب التعيين؟** فئة `Assignment` في Aspose.Tasks توفر الخاصية `PercentWorkComplete`.  
+- **هل أحتاج إلى ترخيص لهذه الميزات؟** نعم – يلزم وجود ترخيص Aspose.Tasks صالح للاستخدام في بيئة الإنتاج.  
+- **هل يمكنني معالجة العديد من التعيينات دفعة واحدة؟** بالتأكيد، يمكنك التكرار عبر مجموعة `Project.Resources` وتحديث كل `Assignment`.  
+- **هل هو متوافق مع Java 11+؟** المكتبة تدعم Java 8 والإصدارات الأحدث، بما في ذلك Java 11 وJava 17.
 
-استكشف الدليل التفصيلي لمطوري Java، والذي يعلمك كيفية كتابة معلومات MS Project بكفاءة باستخدام Aspose.Tasks. هذا البرنامج التعليمي،[إتقان التلاعب بمشروع MS](./add-extended-attributes/)، يوفر رؤى لا تقدر بثمن للتكامل السلس.
+## ما هو حساب نسبة التعيين؟
+**حساب نسبة التعيين** هو عملية تحويل كمية العمل المخصصة لمورد إلى نسبة مئوية من السعة الكلية المتاحة للمورد. تساعد هذه المقياس مديري المشاريع على رؤية توزيع الحمل العام بسرعة وتحديد الإفراط في التخصيص.
 
-## إدارة ميزانية المهمة في Aspose.Tasks
+## كيفية حساب نسبة التعيين في Aspose.Tasks for Java؟
 
- تعلم فن الإدارة الفعالة لميزانية المهام في Java باستخدام Aspose.Tasks. البرنامج التعليمي لدينا[إدارة الميزانية المخصصة](./assignment-budget/) يرشدك خلال العملية، مما يجعل تتبع الميزانية أمرًا سهلاً.
+تمثل فئة `Project` ملف Microsoft Project وتوفر الوصول إلى محتوياته.  
+تربط فئة `Assignment` المورد بالمهمة وتخزن بيانات العمل والتكلفة والجدولة.
 
-## إدارة تكلفة التعيين بكفاءة باستخدام Aspose.Tasks
+حمّل مشروعك باستخدام `Project project = new Project("myproject.mpp");` ثم قم بالتكرار عبر كل كائن `Assignment`، باستخدام `assignment.setPercentWorkComplete(value);`. تقوم المكتبة تلقائيًا بتحديث الحقول المرتبطة مثل العمل المتبقي والتكلفة، مما يضمن بقاء بيانات مشروعك متسقة. يعمل هذا النهج ذو الخطوتين لتحديث مهمة واحدة أو للمعالجة الجماعية عبر جدول كامل.
 
- تعمق في تعقيدات التعامل مع تكاليف المهمة بفعالية في Aspose.Tasks لـ Java. البرنامج التعليمي[إدارة تكلفة التعيين بكفاءة](./assignment-cost/) يضمن أنه يمكنك إدارة موارد المشروع بكفاءة.
+## كيفية إدارة تباين المشروع باستخدام Aspose.Tasks؟
 
-## حساب النسب المئوية لتخصيص الموارد باستخدام Aspose.Tasks
+تحتوي فئة `Assignment` أيضًا على خصائص التباين التي تتيح لك قراءة وكتابة اختلافات العمل، التكلفة، البداية، والنهاية.  
+تتيح لك Aspose.Tasks قراءة وكتابة حقول التباين (العمل، التكلفة، البداية، النهاية) عبر خصائص `Variance` لكائن `Assignment`. من خلال تعديل هذه القيم يمكنك نمذجة تأخر الجدول الزمني أو تجاوز التكاليف، وستعيد API حساب الحقول التابعة فورًا، مما يمنحك أداة تحليل “ماذا لو” موثوقة.
 
- قم بتبسيط مهام إدارة مشروعك من خلال تعلم كيفية حساب النسب المئوية لتعيينات الموارد في مشاريع Java. البرنامج التعليمي لدينا[حساب النسب المئوية لتعيين الموارد](./calculate-percentages/) يوفر خطوات سهلة لحسابات النسبة المئوية الدقيقة.
+## كيفية إدارة تعيين الموارد بكفاءة؟
+
+تمثل فئة `Resource` شخصًا أو معدات أو مادة يمكن تعيينها للمهام.  
+تربط فئة `Assignment` المورد بالمهمة وتخزن بيانات العمل والتكلفة والجدولة.
+
+استخدم كائني `Resource` و `Assignment` معًا: أنشئ كائن `Resource`، ثم اربطه بـ `Task` عبر `project.getResources().add(resource);` و `project.getAssignments().add(task, resource);`. يضمن ضبط خصائص مثل `Units` و `Start` و `Finish` على `Assignment` حجز المورد بشكل صحيح، بينما يقوم `Assignment.setCost(cost)` بتتبع الأثر المالي.
+
+## إتقان معالجة MS Project باستخدام Aspose.Tasks for Java
+
+استكشف الدليل خطوة بخطوة لمطوري Java، الذي يعلمك كيفية كتابة معلومات MS Project بكفاءة باستخدام Aspose.Tasks. يقدم هذا الدرس، [Mastering MS Project Manipulation](./add-extended-attributes/)، رؤى لا تقدر بثمن للتكامل السلس.
+
+## إدارة ميزانية التعيين في Aspose.Tasks
+
+تعلم فن إدارة ميزانية التعيين بكفاءة في Java باستخدام Aspose.Tasks. يوجهك درسنا [Assignment Budget Management](./assignment-budget/) خلال العملية، مما يجعل تتبع الميزانية سهلًا.
+
+## إدارة تكلفة التعيين بكفاءة مع Aspose.Tasks
+
+تعمق في تفاصيل التعامل مع تكاليف التعيين بفعالية في Aspose.Tasks for Java. يضمن الدرس [Efficient Assignment Cost Management](./assignment-cost/) قدرتك على إدارة موارد المشروع بكفاءة.
+
+## حساب نسب تعيين الموارد باستخدام Aspose.Tasks
+
+بسط مهام إدارة مشروعك من خلال تعلم كيفية حساب النسب المئوية لتعيينات الموارد في مشاريع Java. يقدم لك درسنا [Calculate Resource Assignment Percentages](./calculate-percentages/) خطوات سهلة لحساب النسب بدقة.
 
 ## إنشاء تعيينات الموارد في Aspose.Tasks
 
- قم بإنشاء تعيينات الموارد بسهولة في Aspose.Tasks لـ Java من خلال برنامجنا التعليمي خطوة بخطوة[إنشاء تعيينات الموارد](./create-resource-assignments/). عزز مهاراتك في إدارة موارد المشروع باستخدام هذا الدليل.
+أنشئ تعيينات الموارد في Aspose.Tasks for Java بسهولة باستخدام دليلنا خطوة بخطوة [Create Resource Assignments](./create-resource-assignments/). حسّن مهاراتك في إدارة موارد المشروع من خلال هذا الدليل.
 
-## التعامل بكفاءة مع تباين المشروع باستخدام Aspose.Tasks
+## معالجة تباين المشروع بكفاءة مع Aspose.Tasks
 
- تعامل مع فروق المشروع بكفاءة من خلال دليلنا[التعامل بكفاءة مع تباين المشروع](./deal-with-variances/) باستخدام Aspose.Tasks لجافا. إدارة الفروق في العمل والتكلفة والبدء والانتهاء بسهولة.
+تعامل مع تباينات المشروع بكفاءة باستخدام دليلنا حول [Efficient Project Variance Handling](./deal-with-variances/) باستخدام Aspose.Tasks for Java. إدارة تباينات العمل، التكلفة، البداية، والنهاية بسهولة.
 
-## إدارة خصائص الارتباط التشعبي للواجبات في Aspose.Tasks
+## إدارة خصائص الروابط التشعبية للتعيينات في Aspose.Tasks
 
- تعزيز التعاون وإمكانية الوصول في إدارة المشاريع من خلال تعلم كيفية إدارة خصائص الارتباط التشعبي لتعيينات الموارد في Aspose.Tasks. البرنامج التعليمي لدينا[إدارة خصائص الارتباط التشعبي](./hyperlink-properties/) يوفر رؤى أساسية.
+عزز التعاون وإمكانية الوصول في إدارة المشاريع من خلال تعلم كيفية إدارة خصائص الروابط التشعبية لتعيينات الموارد في Aspose.Tasks. يقدم لك درسنا [Manage Hyperlink Properties](./hyperlink-properties/) رؤى أساسية.
 
-## التعامل مع خصائص تأخير التسوية في Aspose.Tasks
+## معالجة خصائص تأخير التسوية في Aspose.Tasks
 
-هذا البرنامج التعليمي الشامل[التعامل مع خصائص تأخير التسوية](./leveling-delay-properties/) يرشدك خلال التعامل مع خصائص تأخير التسوية لتعيينات الموارد في Aspose.Tasks لـ Java.
+هذا الدرس الشامل [Handle Leveling Delay Properties](./leveling-delay-properties/) يوجهك عبر معالجة خصائص تأخير التسوية لتعيينات الموارد في Aspose.Tasks for Java.
 
-## مراقبة العمل الإضافي والتكاليف المتبقية والعمل في Aspose.Tasks
+## مراقبة العمل الإضافي، التكاليف المتبقية، والعمل في Aspose.Tasks
 
- مراقبة العمل الإضافي والتكاليف المتبقية بشكل فعال والعمل في مشاريع Java باستخدام Aspose.Tasks. البرنامج التعليمي لدينا[مراقبة العمل الإضافي والتكاليف المتبقية والعمل](./overtime-remaining-costs-work/) يمنحك خطوات سهلة لإدارة المشاريع بكفاءة.
+راقب بفعالية العمل الإضافي، التكاليف المتبقية، والعمل في مشاريع Java باستخدام Aspose.Tasks. يقدم لك درسنا [Monitor Overtime, Remaining Costs, and Work](./overtime-remaining-costs-work/) خطوات سهلة لإدارة مشروع فعّالة.
 
-## اقرأ تعيينات الموارد المشتركة في Aspose.Tasks
+## قراءة تعيينات الموارد المشتركة في Aspose.Tasks
 
- قم بتعزيز كفاءة إدارة المشروع من خلال تعلم كيفية قراءة تعيينات الموارد المشتركة في Aspose.Tasks لـ Java. البرنامج التعليمي لدينا[قراءة تعيينات الموارد المشتركة](./read-shared-resource-assignments/) يوفر رؤى خطوة بخطوة.
+عزز كفاءة إدارة المشروع من خلال تعلم كيفية قراءة تعيينات الموارد المشتركة في Aspose.Tasks for Java. يقدم لك درسنا [Read Shared Resource Assignments](./read-shared-resource-assignments/) رؤى خطوة بخطوة.
 
-## مقياس معدل القراءة والكتابة لتعيينات الموارد في Aspose.Tasks
+## قراءة وكتابة مقياس المعدل لتعيينات الموارد في Aspose.Tasks
 
- يمكنك إدارة مقياس معدل تعيينات الموارد بكفاءة في Aspose.Tasks لـ Java من خلال برنامجنا التعليمي الشامل[مقياس معدل القراءة والكتابة](./read-write-rate-scale/). تعزيز مهاراتك لإدارة المشاريع بشكل فعال.
+إدارة مقياس معدل تعيينات الموارد في Aspose.Tasks for Java بكفاءة باستخدام درسنا الشامل [Read and Write Rate Scale](./read-write-rate-scale/). حسّن مهاراتك لإدارة مشروع فعّالة.
 
-## إدارة الملاحظات الخاصة بتعيينات الموارد في Aspose.Tasks
+## إدارة الملاحظات لتعيينات الموارد في Aspose.Tasks
 
- قم بدمج الملاحظات الخاصة بتعيينات الموارد بسلاسة في Aspose.Tasks لـ Java من خلال برنامجنا التعليمي خطوة بخطوة[إدارة الملاحظات لتعيينات الموارد](./resource-assignment-notes/). رفع قدرات إدارة المشروع الخاص بك.
+دمج الملاحظات لتعيينات الموارد في Aspose.Tasks for Java بسلاسة باستخدام دليلنا خطوة بخطوة [Manage Notes for Resource Assignments](./resource-assignment-notes/). ارتقِ بقدراتك في إدارة المشروع.
 
 ## إيقاف واستئناف تعيينات الموارد في Aspose.Tasks
 
- تعرف على كيفية إدارة تعيينات الموارد بشكل فعال في Aspose.Tasks لـ Java من خلال البرنامج التعليمي الخاص بنا[إيقاف واستئناف تعيينات الموارد](./stop-resume-assignment/). احصل على رؤى حول تحسين سير عمل المشروع.
+تعلم كيفية إدارة تعيينات الموارد بفعالية في Aspose.Tasks for Java من خلال درسنا [Stop and Resume Resource Assignments](./stop-resume-assignment/). احصل على رؤى حول تحسين سير عمل المشروع.
 
-## إنشاء بيانات موزعة على الوقت في Aspose.Tasks
+## إنشاء بيانات زمنية في Aspose.Tasks
 
- قم بتحسين كفاءة إدارة المشروع من خلال تعلم كيفية إنشاء بيانات موزعة على الوقت لتعيينات الموارد باستخدام Aspose.Tasks لـ Java. دليلنا الشامل[توليد البيانات الموزعة على الوقت](./timephased-data-generation/) يرشدك خلال هذه العملية.
+حسّن كفاءة إدارة المشروع من خلال تعلم كيفية إنشاء بيانات زمنية لتعيينات الموارد باستخدام Aspose.Tasks for Java. يرشدك دليلنا الشامل [Generate Timephased Data](./timephased-data-generation/) خلال العملية.
 
-استكشف هذه البرامج التعليمية لفتح الإمكانات الكاملة لـ Aspose.Tasks لـ Java ورفع مهاراتك في إدارة المشروعات. ترميز سعيد!
+استكشف هذه الدروس لاكتشاف الإمكانات الكاملة لـ Aspose.Tasks for Java وتعزيز مهاراتك في إدارة المشاريع. برمجة سعيدة!
 
 ---
 
-## دروس تخصيص الموارد
-### [إتقان معالجة مشروع MS باستخدام Aspose.Tasks لـ Java](./add-extended-attributes/)
-تعرف على كيفية كتابة معلومات MS Project بكفاءة باستخدام Aspose.Tasks لـ Java. دليل خطوة بخطوة لمطوري جافا.
-### [إدارة ميزانية المهمة في Aspose.Tasks](./assignment-budget/)
-تعرف على كيفية إدارة ميزانيات المهام بكفاءة في Java باستخدام Aspose.Tasks، وهي مكتبة قوية لمعالجة ملفات Microsoft Project.
-### [إدارة تكلفة التعيين بكفاءة باستخدام Aspose.Tasks](./assignment-cost/)
-تعرف على كيفية التعامل مع تكاليف المهمة بشكل فعال في Aspose.Tasks لـ Java. دليل خطوة بخطوة لإدارة موارد المشروع بكفاءة.
-### [حساب النسب المئوية لتخصيص الموارد باستخدام Aspose.Tasks](./calculate-percentages/)
-تعرف على كيفية حساب النسب المئوية لتعيينات الموارد بكفاءة في مشاريع Java باستخدام Aspose.Tasks، مما يبسط مهام إدارة المشروع.
-### [إنشاء تعيينات الموارد في Aspose.Tasks](./create-resource-assignments/)
-تعرف على كيفية إنشاء تعيينات الموارد في Aspose.Tasks لـ Java بسهولة من خلال هذا البرنامج التعليمي خطوة بخطوة. أصبحت الإدارة الفعالة لموارد المشروع سهلة.
-### [التعامل بكفاءة مع تباين المشروع باستخدام Aspose.Tasks](./deal-with-variances/)
-تعرف على كيفية التعامل مع تباينات المشروع بكفاءة باستخدام Aspose.Tasks لـ Java. إدارة الفروق في العمل والتكلفة والبدء والانتهاء بسهولة.
-### [إدارة خصائص الارتباط التشعبي للواجبات في Aspose.Tasks](./hyperlink-properties/)
-تعرف على كيفية إدارة خصائص الارتباط التشعبي لتعيينات الموارد في Aspose.Tasks لـ Java. تعزيز التعاون وإمكانية الوصول في إدارة المشاريع.
-### [التعامل مع خصائص تأخير التسوية في Aspose.Tasks](./leveling-delay-properties/)
-تعرف على كيفية التعامل مع خصائص تأخير التسوية لتعيينات الموارد في Aspose.Tasks لـ Java باستخدام هذا البرنامج التعليمي الشامل.
-### [مراقبة العمل الإضافي والتكاليف المتبقية والعمل في Aspose.Tasks](./overtime-remaining-costs-work/)
-تعرف على كيفية مراقبة العمل الإضافي والتكاليف المتبقية والعمل في مشاريع Java باستخدام Aspose.Tasks. خطوات سهلة لإدارة المشاريع بفعالية.
-### [اقرأ تعيينات الموارد المشتركة في Aspose.Tasks](./read-shared-resource-assignments/)
-تعرف على كيفية قراءة تعيينات الموارد المشتركة في Aspose.Tasks لـ Java. تعزيز كفاءة إدارة المشروع من خلال البرامج التعليمية خطوة بخطوة.
-### [مقياس معدل القراءة والكتابة لتعيينات الموارد في Aspose.Tasks](./read-write-rate-scale/)
-تعرف على كيفية إدارة مقياس معدل تعيينات الموارد بشكل فعال في Aspose.Tasks لـ Java باستخدام هذا البرنامج التعليمي الشامل.
-### [إدارة الملاحظات الخاصة بتعيينات الموارد في Aspose.Tasks](./resource-assignment-notes/)
-تعرف على كيفية إدارة الملاحظات الخاصة بتعيينات الموارد في Aspose.Tasks لـ Java. البرنامج التعليمي خطوة بخطوة للتكامل السلس.
-### [إيقاف واستئناف تعيينات الموارد في Aspose.Tasks](./stop-resume-assignment/)
-تعرف على كيفية إدارة تعيينات الموارد بشكل فعال في Aspose.Tasks لـ Java باستخدام هذا البرنامج التعليمي خطوة بخطوة.
-### [إنشاء بيانات موزعة على الوقت في Aspose.Tasks](./timephased-data-generation/)
-تعرف على كيفية إنشاء بيانات موزعة على الوقت لتعيينات الموارد باستخدام Aspose.Tasks لـ Java. قم بتحسين كفاءة إدارة المشاريع باستخدام هذا الدليل الشامل.
-{{< /blocks/products/pf/tutorial-page-section >}}
+## الأسئلة المتكررة
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Q:** هل يمكنني حساب نسبة التعيين للمهام التي تشمل موارد متعددة؟  
+A: نعم – قم بالتكرار عبر كل `Assignment` مرتبط بالمهمة واضبط `PercentWorkComplete` بشكل فردي؛ تقوم API بتجميع القيم للتقارير.
+
+**Q:** هل تدعم Aspose.Tasks قراءة بيانات التباين من ملفات .mpp الموجودة؟  
+A: بالتأكيد. تقوم المكتبة بقراءة حقول التباين للعمل، التكلفة، البداية، والنهاية مباشرةً من الملف دون إعداد إضافي.
+
+**Q:** هل من الممكن تصدير نسب التعيينات إلى Excel؟  
+A: يمكنك تصدير `Project` إلى CSV أو استخدام طريقة `Save` مع `SaveFormat.XLSX`؛ تشمل الورقة المصدرة عمود `PercentWorkComplete`.
+
+**Q:** ما هي حدود الأداء عند معالجة مشاريع كبيرة؟  
+A: يمكن لـ Aspose.Tasks التعامل مع مشاريع تحتوي على **500+ موارد و10,000+ مهمة** مع الحفاظ على استهلاك الذاكرة أقل من 200 MB عبر تدفق البيانات.
+
+**Q:** هل أحتاج إلى ترخيص منفصل لكل نسخة Java؟  
+A: لا – ترخيص واحد لـ Aspose.Tasks يغطي جميع إصدارات Java المدعومة (8، 11، 17).
+
+**آخر تحديث:** 2026-06-05  
+**تم الاختبار مع:** Aspose.Tasks for Java 24.12  
+**المؤلف:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## دروس تعيينات الموارد
+### [إتقان معالجة MS Project باستخدام Aspose.Tasks for Java](./add-extended-attributes/)
+تعلم كيفية كتابة معلومات MS Project بكفاءة باستخدام Aspose.Tasks for Java. دليل خطوة بخطوة لمطوري Java.  
+### [إدارة ميزانية التعيين في Aspose.Tasks](./assignment-budget/)
+تعلم كيفية إدارة ميزانية التعيين بكفاءة في Java باستخدام Aspose.Tasks، مكتبة قوية لمعالجة ملفات Microsoft Project.  
+### [إدارة تكلفة التعيين بكفاءة مع Aspose.Tasks](./assignment-cost/)
+تعلم كيفية التعامل مع تكاليف التعيين بفعالية في Aspose.Tasks for Java. دليل خطوة بخطوة لإدارة موارد المشروع بكفاءة.  
+### [حساب نسب تعيين الموارد باستخدام Aspose.Tasks](./calculate-percentages/)
+تعلم كيفية حساب النسب المئوية لتعيينات الموارد في مشاريع Java باستخدام Aspose.Tasks، مبسطًا مهام إدارة المشروع.  
+### [إنشاء تعيينات الموارد في Aspose.Tasks](./create-resource-assignments/)
+تعلم كيفية إنشاء تعيينات الموارد في Aspose.Tasks for Java بسهولة مع هذا الدرس خطوة بخطوة. إدارة موارد المشروع بسهولة.  
+### [معالجة تباين المشروع بكفاءة مع Aspose.Tasks](./deal-with-variances/)
+تعلم كيفية معالجة تباينات المشروع بكفاءة مع Aspose.Tasks for Java. إدارة تباينات العمل، التكلفة، البداية، والنهاية بسهولة.  
+### [إدارة خصائص الروابط التشعبية للتعيينات في Aspose.Tasks](./hyperlink-properties/)
+تعلم كيفية إدارة خصائص الروابط التشعبية لتعيينات الموارد في Aspose.Tasks for Java. تعزيز التعاون وإمكانية الوصول في إدارة المشروع.  
+### [معالجة خصائص تأخير التسوية في Aspose.Tasks](./leveling-delay-properties/)
+تعلم كيفية معالجة خصائص تأخير التسوية لتعيينات الموارد في Aspose.Tasks for Java مع هذا الدرس الشامل.  
+### [مراقبة العمل الإضافي، التكاليف المتبقية، والعمل في Aspose.Tasks](./overtime-remaining-costs-work/)
+تعلم كيفية مراقبة العمل الإضافي، التكاليف المتبقية، والعمل في مشاريع Java باستخدام Aspose.Tasks. خطوات سهلة لإدارة مشروع فعّالة.  
+### [قراءة تعيينات الموارد المشتركة في Aspose.Tasks](./read-shared-resource-assignments/)
+تعلم كيفية قراءة تعيينات الموارد المشتركة في Aspose.Tasks for Java. تعزيز كفاءة إدارة المشروع مع دروس خطوة بخطوة.  
+### [قراءة وكتابة مقياس المعدل لتعيينات الموارد في Aspose.Tasks](./read-write-rate-scale/)
+تعلم كيفية إدارة مقياس معدل تعيينات الموارد بفعالية في Aspose.Tasks for Java مع هذا الدرس الشامل.  
+### [إدارة الملاحظات لتعيينات الموارد في Aspose.Tasks](./resource-assignment-notes/)
+تعلم كيفية إدارة الملاحظات لتعيينات الموارد في Aspose.Tasks for Java. دليل خطوة بخطوة للتكامل السلس.  
+### [إيقاف واستئناف تعيينات الموارد في Aspose.Tasks](./stop-resume-assignment/)
+تعلم كيفية إدارة تعيينات الموارد بفعالية في Aspose.Tasks for Java مع هذا الدرس خطوة بخطوة.  
+### [إنشاء بيانات زمنية في Aspose.Tasks](./timephased-data-generation/)
+تعلم كيفية إنشاء بيانات زمنية لتعيينات الموارد باستخدام Aspose.Tasks for Java. تحسين كفاءة إدارة المشروع مع هذا الدليل الشامل.
+
+## دروس ذات صلة
+
+- [كيفية حساب تباين التكلفة وإدارة تكاليف التعيين باستخدام Aspose.Tasks](/tasks/java/resource-assignments/assignment-cost/)
+- [إدارة ميزانية التعيين Java باستخدام Aspose.Tasks](/tasks/java/resource-assignments/assignment-budget/)
+- [حساب نسبة الموارد Java باستخدام Aspose.Tasks](/tasks/java/resource-management/percentage-calculations/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}

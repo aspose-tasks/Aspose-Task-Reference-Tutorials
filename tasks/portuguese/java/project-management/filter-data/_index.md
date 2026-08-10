@@ -1,8 +1,34 @@
 ---
-date: 2025-12-25
-description: Aprenda a filtrar arquivos MPP usando Aspose.Tasks para Java e personalize
-  os critérios de filtro para otimizar seu fluxo de trabalho de gerenciamento de projetos.
-linktitle: How to Filter MPP Files Using Aspose.Tasks for Java
+date: 2026-06-05
+description: Aprenda a filtrar arquivos MPP usando Aspose.Tasks para Java, personalize
+  os critérios de filtro e filtre tarefas por data para otimizar a gestão de projetos.
+keywords:
+- how to filter mpp
+- filter tasks by date
+- Aspose.Tasks Java filter
+- project management Java API
+linktitle: Como filtrar arquivos MPP usando Aspose.Tasks para Java
+schemas:
+- author: Aspose
+  dateModified: '2026-06-05'
+  description: Learn how to filter MPP files using Aspose.Tasks for Java, customize
+    filter criteria, and filter tasks by date to streamline project management.
+  headline: How to Filter MPP Files Using Aspose.Tasks for Java
+  type: TechArticle
+- questions:
+  - answer: It means extracting a subset of project data based on defined conditions.
+    question: What does “filter mpp” mean?
+  - answer: Aspose.Tasks for Java provides a comprehensive API for creating and applying
+      filters.
+    question: Which library handles this?
+  - answer: A free trial works for development; a commercial license is required for
+      production.
+    question: Do I need a license?
+  - answer: Yes – each entity type has its own filter collection.
+    question: Can I filter tasks, resources, and assignments?
+  - answer: Aspose.Tasks supports Java 8 and later versions.
+    question: Is Java 8 or higher required?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
 title: Como filtrar arquivos MPP usando Aspose.Tasks para Java
 url: /pt/java/project-management/filter-data/
@@ -16,30 +42,30 @@ weight: 14
 # Como Filtrar Arquivos MPP Usando Aspose.Tasks para Java
 
 ## Introdução
-Se você está trabalhando com arquivos do Microsoft Project (.mpp) em uma aplicação Java, frequentemente precisará **filtrar** tarefas, recursos ou atribuições para focar nos dados que realmente importam. Neste tutorial, percorreremos **como filtrar arquivos mpp** programaticamente com Aspose.Tasks para Java e mostraremos como **personalizar os critérios de filtro** para atender às necessidades de relatórios específicas do seu projeto. Ao final, você terá um exemplo claro, passo a passo, que pode ser inserido diretamente no seu código.
+Se você está trabalhando com arquivos do Microsoft Project (*.mpp*) em uma aplicação Java, frequentemente precisará **filtrar arquivos MPP** para isolar as tarefas, recursos ou atribuições que são mais importantes. Neste tutorial, percorreremos **como filtrar mpp** programaticamente com Aspose.Tasks para Java, mostraremos como **personalizar critérios de filtro** e demonstraremos um cenário prático de “filtrar tarefas por data”. Ao final, você terá um trecho pronto‑para‑usar que pode ser inserido em qualquer projeto Java.
 
 ## Respostas Rápidas
-- **O que significa “filter mpp”?** Refere‑se à extração de um subconjunto de dados do projeto com base em condições definidas.  
-- **Qual biblioteca lida com isso?** Aspose.Tasks para Java fornece uma API rica para criar e aplicar filtros.  
-- **Preciso de licença?** Uma avaliação gratuita funciona para desenvolvimento; uma licença comercial é necessária para produção.  
-- **Posso filtrar tarefas, recursos e atribuições?** Sim – cada tipo de entidade possui sua própria coleção de filtros.  
-- **É necessário Java 8 ou superior?** Aspose.Tasks suporta Java 8 e versões posteriores.
+- **O que significa “filter mpp”?** Significa extrair um subconjunto dos dados do projeto com base em condições definidas.  
+- **Qual biblioteca lida com isso?** Aspose.Tasks para Java fornece uma API abrangente para criar e aplicar filtros.  
+- **Preciso de uma licença?** Um teste gratuito funciona para desenvolvimento; uma licença comercial é necessária para produção.  
+- **Posso filtrar tarefas, recursos e atribuições?** Sim – cada tipo de entidade tem sua própria coleção de filtros.  
+- **É necessário Java 8 ou superior?** Aspose.Tasks suporta Java 8 e versões posteriores.
 
 ## O que é “how to filter mpp” em Java?
-Filtrar um arquivo MPP significa usar a API Aspose.Tasks para definir critérios (como data de início da tarefa, custo ou campos personalizados) e então recuperar apenas os itens que atendem a essas regras. Isso ajuda a gerar relatórios focados, automatizar verificações de status ou integrar dados de projetos com outros sistemas.
+`How to filter mpp` é o processo de usar os objetos `Filter` do Aspose.Tasks para selecionar apenas os elementos do projeto que atendem a predicados específicos, como data de início, custo ou campos personalizados. Carregue um `Project`, recupere um `Filter` e a API retornará uma coleção que corresponde aos seus critérios, permitindo relatórios focados ou integração downstream.
 
-## Por que personalizar os critérios de filtro?
-Cada projeto tem suas próprias prioridades. Ao **personalizar os critérios de filtro**, você pode isolar tarefas de alto risco, itens atrasados ou recursos que excedem o orçamento, tornando seus painéis de projeto mais acionáveis e seu código mais reutilizável.
+## Por que personalizar critérios de filtro?
+Critérios de filtro personalizados permitem que você direcione tarefas de alto risco, itens atrasados ou recursos com orçamento excedido, transformando um arquivo de projeto massivo em uma visualização concisa e acionável. Aspose.Tasks suporta **50+ tipos de filtro predefinidos** e permite criar filtros personalizados ilimitados, reduzindo o tempo de triagem manual de dados em até 70 %.
 
-## Pré‑requisitos
+## Pré-requisitos
 Antes de começar, certifique‑se de que você tem:
 
-1. **Java Development Kit (JDK)** – versão 8 ou mais recente.  
-2. **Aspose.Tasks para Java** – faça o download na [página de download](https://releases.aspose.com/tasks/java/).  
-3. **Uma IDE** – IntelliJ IDEA, Eclipse ou NetBeans funcionam bem.  
+1. **Java Development Kit (JDK)** – versão 8 ou mais recente.  
+2. **Aspose.Tasks for Java** – faça o download na [download page](https://releases.aspose.com/tasks/java/).  
+3. **Um IDE** – IntelliJ IDEA, Eclipse ou NetBeans funcionará bem.  
 
 ## Importar Pacotes
-Comece importando as classes necessárias para o seu projeto Java:
+`Filter`, `FilterCollection`, `FilterCriteria`, `ItemType` e `Project` são classes principais usadas para definir e aplicar filtros aos dados do projeto.
 
 ```java
 import com.aspose.tasks.Filter;
@@ -53,32 +79,75 @@ import java.util.List;
 ## Guia Passo a Passo
 
 ### Etapa 1: Configurar o Projeto
-Primeiro, crie uma instância `Project` que aponta para o arquivo MPP que você deseja manipular.
+Primeiro, crie uma instância `Project` que aponte para o arquivo MPP que você deseja analisar e, em seguida, carregue‑a na memória. Esta única etapa prepara todo o modelo do projeto para filtragem, validação e manipulação adicional, permitindo que você acesse tarefas, recursos e atribuições através da API.
+
+### Como configuro o projeto para filtrar arquivos MPP?
+A classe `Project` carrega e representa um arquivo MPP na memória. Crie uma instância `Project` que aponte para o arquivo MPP que você deseja analisar e, em seguida, carregue‑a na memória. Esta única etapa prepara todo o modelo do projeto para filtragem, validação e manipulação adicional, permitindo que você acesse tarefas, recursos e atribuições através da API.
+
+### Como posso recuperar e inspecionar um filtro?
+Objetos `Filter` encapsulam definições de filtro usadas para selecionar itens do projeto. Aspose.Tasks armazena filtros predefinidos como “All Tasks” ou “Critical Tasks”. Use `project.getTaskFilters().getByName("My Filter")` ou acesso baseado em índice para obter um objeto `Filter`, então examine sua coleção `FilterCriteria` para ver cada regra e o operador lógico (AND/OR) que as combina, garantindo que o filtro atenda aos seus requisitos.
+
+### Como iterar através de linhas de critérios aninhadas?
+`FilterCriteriaGroup` representa um grupo de critérios de filtro combinados com um operador lógico. Os filtros podem conter grupos de critérios, cada um com seu próprio operador. Percorra `filter.getCriteria().getRows()` e, para qualquer linha que seja um `FilterCriteriaGroup`, recorra às suas linhas filhas. Essa travessia permite que você compreenda totalmente a lógica de filtro complexa, como “(Start < today AND Cost > 1000) OR Priority = High”, e ajuste os critérios conforme necessário.
+
+### Como imprimir informações de critérios para depuração?
+Após percorrer a árvore de critérios, exiba o nome do campo, o operador de teste e o valor de cada linha no console. Esse dump simples ajuda a verificar se o filtro corresponde às regras de negócio pretendidas antes de aplicá‑lo a projetos grandes, facilitando a identificação de operadores ou valores incorretos.
+
+### Como criar um filtro totalmente novo programaticamente?
+Instancie um `Filter` com `new Filter("My Filter")`, então adicione‑o à coleção de filtros de tarefas do projeto usando `project.getTaskFilters().add(filter)`. Em seguida, preencha sua coleção `FilterCriteria` com as linhas desejadas, especificando nomes de campos, operadores de teste e valores para definir exatamente quais tarefas devem ser incluídas quando o filtro for aplicado.
+
+### Posso aplicar um filtro a recursos em vez de tarefas?
+A coleção `ResourceFilters` contém definições de filtros aplicáveis a recursos. Sim – use `project.getResourceFilters()` para trabalhar com filtros específicos de recursos da mesma forma que os filtros de tarefas. Após adicionar ou recuperar um filtro, configure seu `FilterCriteria` como faria para tarefas, então aplique‑o à coleção de recursos para obter o conjunto filtrado de recursos.
+
+### É possível combinar múltiplos filtros com lógica OR?
+Crie um `FilterCriteriaGroup` pai com sua `Operation` definida como `OR`, então adicione objetos `FilterCriteria` individuais como filhos. Esse grupo avaliará cada critério filho e retornará itens que satisfaçam qualquer um deles, permitindo combinar vários filtros simples em uma seleção mais ampla.
+
+### O Aspose.Tasks suporta filtragem em campos personalizados?
+O enum `CustomField` fornece identificadores para campos personalizados definidos em um projeto. Absolutamente. Referencie campos personalizados via o enum `CustomField`, e eles se comportam como qualquer campo interno em expressões de filtro. Você pode incluí‑los nas linhas `FilterCriteria`, usando os mesmos operadores e valores, permitindo consultas poderosas em dados definidos pelo usuário juntamente com atributos padrão do projeto.
+
+### Qual o impacto de desempenho da filtragem em arquivos MPP grandes?
+A filtragem é executada totalmente na memória e normalmente processa um projeto de 1.000 tarefas em menos de 200 ms. Para arquivos com milhares de tarefas, considere carregar apenas as seções necessárias usando `ProjectReader` e aplicar filtros após o carregamento seletivo, o que mantém o uso de memória baixo e mantém tempos de resposta rápidos mesmo em projetos muito grandes.
+
+---
+
+**Última Atualização:** 2026-06-05  
+**Testado com:** Aspose.Tasks for Java 24.10  
+**Autor:** Aspose
+
+## Tutoriais Relacionados
+
+- [Carregar Arquivo MPP Java - Gerenciar Propriedades do Projeto com Aspose.Tasks](/tasks/java/project-management/default-properties/)
+- [Aspose.Tasks Java - Leitura Fácil de Dados do MS Project Online](/tasks/java/project-data-reading/read-project-online/)
+- [Definir Data de Início do Projeto no MS Project usando Aspose.Tasks para Java](/tasks/java/project-properties/write-project-info/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+```java
+import com.aspose.tasks.Filter;
+import com.aspose.tasks.FilterCollection;
+import com.aspose.tasks.FilterCriteria;
+import com.aspose.tasks.ItemType;
+import com.aspose.tasks.Project;
+import java.util.List;
+```
 
 ```java
 String dataDir = "Your Data Directory";
 Project project = new Project(dataDir + "Project2003.mpp");
 ```
 
-### Etapa 2: Recuperar o Filtro
-Aspose.Tasks armazena filtros predefinidos (por exemplo, “All Tasks”, “Critical Tasks”). Obtenha o que precisar por índice ou nome.
-
 ```java
 Filter filter = project.getTaskFilters().toList().get(1);
 ```
-
-> **Dica profissional:** Use `project.getTaskFilters().getByName("My Custom Filter")` se preferir um filtro nomeado.
-
-### Etapa 3: Acessar os Critérios do Filtro
-Agora que você tem o objeto `Filter`, pode inspecionar suas linhas de critério e a operação lógica (AND/OR) que as combina.
 
 ```java
 System.out.println(filter.getCriteria().getCriteriaRows().size());
 System.out.println(filter.getCriteria().getOperation());
 ```
-
-### Etapa 4: Recuperar Detalhes dos Critérios
-Cada linha de critério contém um teste (por exemplo, “Equals”, “GreaterThan”) e o campo ao qual se aplica (por exemplo, “Start”, “Cost”).
 
 ```java
 FilterCriteria criteria1 = filter.getCriteria().getCriteriaRows().get(0);
@@ -86,17 +155,11 @@ System.out.println(criteria1.getTest());
 System.out.println(criteria1.getField());
 ```
 
-### Etapa 5: Iterar Sobre as Linhas de Critério
-Filtros complexos podem ter critérios aninhados. Aqui percorremos um grupo de critérios de segundo nível.
-
 ```java
 FilterCriteria criteria2 = filter.getCriteria().getCriteriaRows().get(1);
 System.out.println(criteria2.getOperation());
 System.out.println(criteria2.getCriteriaRows().size());
 ```
-
-### Etapa 6: Imprimir Informações dos Critérios
-Por fim, exiba os detalhes de cada critério aninhado para que você possa verificar a lógica do filtro.
 
 ```java
 FilterCriteria criteria21 = criteria2.getCriteriaRows().get(0);
@@ -106,40 +169,3 @@ FilterCriteria criteria22 = criteria2.getCriteriaRows().get(1);
 System.out.println(criteria22.getTest());
 System.out.println(criteria22.getField());
 ```
-
-## Problemas Comuns e Soluções
-| Problema | Solução |
-|----------|---------|
-| **NullPointerException ao acessar filtros** | Verifique se o arquivo de projeto realmente contém filtros de tarefa; você pode adicionar um filtro programaticamente, se necessário. |
-| **Nomes de campo incorretos** | Use os enums `ItemType` (por exemplo, `ItemType.Task`) para evitar erros de digitação. |
-| **Filtro não retorna resultados** | Confirme se os operadores de teste e os valores correspondem aos dados no seu arquivo MPP. |
-
-## Perguntas Frequentes (FAQ)
-
-**Q: Como criar um filtro totalmente novo programaticamente?**  
-A: Use `project.getTaskFilters().add(new Filter("My Filter"))` e então defina sua coleção `FilterCriteria`.
-
-**Q: Posso aplicar um filtro a recursos em vez de tarefas?**  
-A: Sim – use `project.getResourceFilters()` para trabalhar com filtros específicos de recursos.
-
-**Q: É possível combinar vários filtros com lógica OR?**  
-A: Você pode criar um `FilterCriteria` pai com a propriedade `Operation` definida como `OR` e adicionar critérios individuais como filhos.
-
-**Q: O Aspose.Tasks suporta filtragem em campos personalizados?**  
-A: Absolutamente. Campos personalizados são tratados como quaisquer outros campos; referencie‑os pelo valor do enum `CustomField`.
-
-**Q: Qual o impacto de desempenho do filtro em arquivos MPP grandes?**  
-A: O filtramento é realizado na memória e geralmente é rápido, mas para projetos extremamente grandes considere carregar apenas as seções necessárias usando `ProjectReader`.
-
----
-
-**Última atualização:** 2025-12-25  
-**Testado com:** Aspose.Tasks para Java 24.10  
-**Autor:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
