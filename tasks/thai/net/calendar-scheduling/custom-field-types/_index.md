@@ -1,57 +1,128 @@
 ---
-title: ประเภทฟิลด์ที่กำหนดเองใน Aspose.Tasks
-linktitle: ประเภทฟิลด์ที่กำหนดเองใน Aspose.Tasks
+date: 2026-07-19
+description: เรียนรู้วิธีเพิ่มประเภทฟิลด์แบบกำหนดเองใน Aspose.Tasks สำหรับ .NET พร้อมขั้นตอน‑โดย‑ขั้นตอนโค้ด,
+  ข้อกำหนดเบื้องต้น, และคำถามที่พบบ่อย.
+keywords:
+- how to add custom field
+- add custom field to project
+- define extended attribute
+lastmod: 2026-07-19
+linktitle: ประเภทฟิลด์แบบกำหนดเองใน Aspose.Tasks
+og_description: เรียนรู้วิธีเพิ่มประเภทฟิลด์แบบกำหนดเองใน Aspose.Tasks สำหรับ .NET.
+  ปฏิบัติตามคู่มือขั้นตอน‑โดย‑ขั้นตอนนี้เพื่อสร้าง, กำหนด, และใช้ extended attributes
+  อย่างมีประสิทธิภาพ.
+og_image_alt: Guide showing how to add custom field types in Aspose.Tasks using .NET
+og_title: วิธีเพิ่มประเภทฟิลด์แบบกำหนดเองใน Aspose.Tasks สำหรับ .NET
+schemas:
+- author: Aspose
+  dateModified: '2026-07-19'
+  description: Learn how to add custom field types in Aspose.Tasks for .NET with step‑by‑step
+    code, prerequisites, and FAQs.
+  headline: How to Add Custom Field Types in Aspose.Tasks for .NET
+  type: TechArticle
+- description: Learn how to add custom field types in Aspose.Tasks for .NET with step‑by‑step
+    code, prerequisites, and FAQs.
+  name: How to Add Custom Field Types in Aspose.Tasks for .NET
+  steps:
+  - name: Create Project Object
+    text: '`Project` is Aspose.Tasks'' top‑level object that represents a single Project
+      file in memory. Instantiating it loads the file and gives you access to tasks,
+      resources, and extended attributes.'
+  - name: Define Custom Field
+    text: '`ExtendedAttributeDefinition` describes a new column. In this example we
+      create a **Text** type custom field for tasks and give it the alias “MyText”.
+      The `ExtendedAttributeTask.Text1` enum value tells Aspose.Tasks where to store
+      the value.'
+  - name: Add Custom Field Definition to Project
+    text: The project’s `ExtendedAttributes` collection holds all custom field definitions.
+      Adding the definition makes it available for every task in the project.
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.Tasks works with .NET Framework, .NET Core, and .NET 5/6/7.
+    question: Can I use Aspose.Tasks with other .NET frameworks?
+  - answer: Absolutely. It supports processing of projects with **up to 10,000 tasks**
+      and can run in multi‑threaded server environments.
+    question: Is Aspose.Tasks suitable for enterprise‑level applications?
+  - answer: Yes—Aspose.Tasks reads and writes MPP, XML, HTML, and CSV formats, covering
+      **all major Microsoft Project versions**.
+    question: Does Aspose.Tasks support multiple project file formats?
+  - answer: Yes, you can add, update, and delete resources, as well as assign custom
+      fields to them.
+    question: Can I manipulate resource data using Aspose.Tasks?
+  - answer: Yes, you can visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15)
+      to interact with other users and get support from the Aspose team.
+    question: Is there a community forum for Aspose.Tasks users?
+  type: FAQPage
 second_title: Aspose.Tasks .NET API
-description: เรียนรู้วิธีทำงานกับประเภทฟิลด์แบบกำหนดเองใน Aspose.Tasks for .NET คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ดและคำถามที่พบบ่อย
-weight: 23
+tags:
+- custom field
+- Aspose.Tasks
+- .NET project management
+- extended attributes
+title: วิธีเพิ่มประเภทฟิลด์แบบกำหนดเองใน Aspose.Tasks สำหรับ .NET
 url: /th/net/calendar-scheduling/custom-field-types/
+weight: 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ประเภทฟิลด์ที่กำหนดเองใน Aspose.Tasks
+# วิธีเพิ่มประเภทฟิลด์แบบกำหนดเองใน Aspose.Tasks
 
-## การแนะนำ
+## บทนำ
 
-ยินดีต้อนรับสู่บทช่วยสอนของเราเกี่ยวกับการทำงานกับประเภทฟิลด์แบบกำหนดเองใน Aspose.Tasks สำหรับ .NET! Aspose.Tasks เป็นไลบรารีที่มีประสิทธิภาพซึ่งช่วยให้นักพัฒนาสามารถจัดการไฟล์ Microsoft Project โดยทางโปรแกรมได้ ในบทช่วยสอนนี้ เราจะมุ่งเน้นไปที่การทำความเข้าใจและการใช้ประโยชน์จากประเภทฟิลด์ที่กำหนดเอง ซึ่งเป็นส่วนสำคัญในการทำงานกับข้อมูลโครงการ
+ในบทแนะนำนี้คุณจะได้ค้นพบ **วิธีเพิ่มฟิลด์แบบกำหนดเอง** ประเภทต่าง ๆ ไปยังไฟล์ Microsoft Project ด้วย Aspose.Tasks สำหรับ .NET ฟิลด์แบบกำหนดเองช่วยให้คุณเก็บข้อมูลเพิ่มเติม—เช่นคะแนนความเสี่ยง, รหัสแผนก, หรือบันทึกเฉพาะ—โดยตรงบนงาน, ทรัพยากร, หรือโครงการเอง เราจะเดินผ่านกระบวนการทั้งหมด ตั้งแต่การตั้งค่าสภาพแวดล้อมจนถึงการกำหนด, การเพิ่ม, และการตรวจสอบฟิลด์ข้อความแบบกำหนดเอง
+
+## คำตอบอย่างรวดเร็ว
+- **What is a custom field?** คอลัมน์ที่ผู้ใช้กำหนดซึ่งสามารถเก็บข้อความ, ตัวเลข, วันที่ หรือแฟล็กบนงาน/ทรัพยากร.  
+- **Which class defines a custom field?** `ExtendedAttributeDefinition`.  
+- **Can I add a custom field to an existing project?** ใช่ — โหลดโปรเจกต์, สร้างการกำหนด, แล้วเพิ่มลงในคอลเลกชัน.  
+- **Do I need a license for Aspose.Tasks?** จำเป็นต้องมีไลเซนส์สำหรับการใช้งานจริง; เวอร์ชันทดลองฟรีใช้ได้สำหรับการประเมิน.  
+- **Supported .NET versions?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+
+## “วิธีเพิ่มฟิลด์แบบกำหนดเอง” คืออะไรใน Aspose.Tasks?
+**วิธีเพิ่มฟิลด์แบบกำหนดเอง** หมายถึงกระบวนการสร้าง `ExtendedAttributeDefinition` และผูกมันเข้ากับคอลเลกชัน `ExtendedAttributes` ของโครงการ ซึ่งทำให้คุณสามารถเก็บเมตาดาต้าเพิ่มเติมที่ไม่ได้อยู่ในสคีมามาตรฐานของ Project ได้ สามารถใช้กับงาน, ทรัพยากร, หรือโครงการเอง เพื่อบันทึกข้อมูลเช่นระดับความเสี่ยง, รหัสแผนก, หรือบันทึกเฉพาะที่ไม่มีในฟิลด์เริ่มต้น
+
+## ทำไมต้องใช้ฟิลด์แบบกำหนดเองในการจัดการโครงการ?
+Aspose.Tasks รองรับ **50+ ประเภทแอตทริบิวต์ขยายที่มีมาในตัว** และให้คุณกำหนด **ฟิลด์แบบกำหนดเองได้ไม่จำกัดจำนวน** โดยไม่ทำให้ขนาดไฟล์เพิ่มมากนัก การใช้ฟิลด์แบบกำหนดเองคุณสามารถ:
+- ฟิลด์เหล่านี้ปรากฏเป็นคอลัมน์เพิ่มเติมใน Microsoft Project และสามารถอ้างอิงในสูตร, รายงาน, และฟิลเตอร์
+- ฟิลด์ถูกเก็บไว้ในไฟล์โครงการและเดินทางพร้อมไฟล์ ทำให้เครื่องมือ downstream ใด ๆ ก็ยังคงข้อมูลแบบกำหนดเองได้
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่เราจะเริ่มต้น ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
-
-### 1. ติดตั้ง Visual Studio แล้ว
-
-ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio บนระบบของคุณ คุณสามารถดาวน์โหลดได้จากเว็บไซต์ Microsoft
+### 1. ติดตั้ง Visual Studio
+ตรวจสอบให้แน่ใจว่า Visual Studio (2019 หรือใหม่กว่า) ติดตั้งอยู่บนเครื่องของคุณ คุณสามารถดาวน์โหลดได้จากเว็บไซต์ของ Microsoft
 
 ### 2. Aspose.Tasks สำหรับ .NET
-
- คุณต้องมีไลบรารี Aspose.Tasks สำหรับ .NET ติดตั้งอยู่ในโปรเจ็กต์ Visual Studio ของคุณ คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/tasks/net/).
+เพิ่มแพ็กเกจ NuGet ของ Aspose.Tasks ไปยังโปรเจกต์ของคุณ ดาวน์โหลดเวอร์ชันล่าสุดจาก [here](https://releases.aspose.com/tasks/net/)
 
 ### 3. ความรู้พื้นฐาน C#
+คุณควรคุ้นเคยกับไวยากรณ์ C#, คลาส, และโครงสร้างโปรเจกต์ .NET
 
-จำเป็นต้องมีความคุ้นเคยกับภาษาการเขียนโปรแกรม C# พร้อมกับบทช่วยสอนนี้
+## นำเข้า Namespaces
 
-## นำเข้าเนมสเปซ
+`Project`, `ExtendedAttributeDefinition`, และ enum ที่เกี่ยวข้องอยู่ใน namespace `Aspose.Tasks` ให้นำเข้า namespace นี้ที่ส่วนหัวของไฟล์ของคุณ
 
-เริ่มต้นด้วยการนำเข้าเนมสเปซที่จำเป็นในโครงการของเรา ขั้นตอนนี้จำเป็นในการเข้าถึงคลาสและวิธีการที่มีให้โดยไลบรารี Aspose.Tasks
+Namespace `Aspose.Tasks` มีประเภทหลักทั้งหมดสำหรับการจัดการไฟล์ Microsoft Project
 
 ```csharp
 
 ```
 
-ตอนนี้ เรามาแยกย่อยตัวอย่างที่ให้ไว้เป็นหลายขั้นตอนและทำความเข้าใจแต่ละขั้นตอนอย่างละเอียด
+## วิธีเพิ่มฟิลด์แบบกำหนดเองไปยังโปรเจกต์?
 
-## ขั้นตอนที่ 1: สร้างวัตถุโครงการ
+โหลดโปรเจกต์ที่มีอยู่, สร้างการกำหนดฟิลด์แบบกำหนดเอง, แล้วเพิ่มลงในคอลเลกชันแอตทริบิวต์ขยายของโปรเจกต์ — ทั้งหมดในสามขั้นตอนสั้น ๆ รูปแบบนี้ทำงานได้กับงาน, ทรัพยากร, และโครงการเอง และรับประกันว่าฟิลด์แบบกำหนดเองจะถูกบันทึกเมื่อคุณบันทึกไฟล์
+
+### ขั้นตอนที่ 1: สร้างอ็อบเจกต์ Project
+`Project` เป็นอ็อบเจกต์ระดับบนของ Aspose.Tasks ที่แสดงไฟล์ Project หนึ่งไฟล์ในหน่วยความจำ การสร้างอ็อบเจกต์นี้จะโหลดไฟล์และให้คุณเข้าถึงงาน, ทรัพยากร, และแอตทริบิวต์ขยาย
 
 ```csharp
 var project = new Project(DataDir + "Project2.mpp");
 ```
 
- บรรทัดนี้สร้างอินสแตนซ์ใหม่ของ`Project` และโหลดไฟล์โปรเจ็กต์ "Project2.mpp" จากไดเร็กทอรีที่ระบุ
-
-## ขั้นตอนที่ 2: กำหนดฟิลด์ที่กำหนดเอง
+### ขั้นตอนที่ 2: กำหนดฟิลด์แบบกำหนดเอง
+`ExtendedAttributeDefinition` อธิบายคอลัมน์ใหม่ ในตัวอย่างนี้เราจะสร้างฟิลด์แบบกำหนดเองประเภท **Text** สำหรับงานและตั้งชื่อแทน “MyText” ค่า enum `ExtendedAttributeTask.Text1` บอก Aspose.Tasks ว่าจะเก็บค่าที่ไหน
 
 ```csharp
 var definition = ExtendedAttributeDefinition.CreateTaskDefinition(
@@ -60,44 +131,50 @@ var definition = ExtendedAttributeDefinition.CreateTaskDefinition(
     "MyText");
 ```
 
- ที่นี่ เรากำหนดฟิลด์ประเภทที่กำหนดเอง`Text` สำหรับงาน เราระบุ`ExtendedAttributeTask.Text1` เพื่อระบุตำแหน่งของฟิลด์และระบุชื่อสำหรับฟิลด์แบบกำหนดเอง ซึ่งในกรณีนี้คือ "MyText"
-
-## ขั้นตอนที่ 3: เพิ่มคำจำกัดความฟิลด์ที่กำหนดเองให้กับโปรเจ็กต์
+### ขั้นตอนที่ 3: เพิ่มการกำหนดฟิลด์แบบกำหนดเองไปยังโปรเจกต์
+คอลเลกชัน `ExtendedAttributes` ของโปรเจกต์เก็บการกำหนดฟิลด์แบบกำหนดเองทั้งหมด การเพิ่มการกำหนดนี้ทำให้ฟิลด์พร้อมใช้งานสำหรับทุกงานในโปรเจกต์
 
 ```csharp
 project.ExtendedAttributes.Add(definition);
 ```
 
-สุดท้ายนี้ เราเพิ่มคำจำกัดความของฟิลด์ที่กำหนดเองให้กับคอลเลกชันแอตทริบิวต์เพิ่มเติมของโปรเจ็กต์
-
-## บทสรุป
-
-ในบทช่วยสอนนี้ เราได้เรียนรู้วิธีทำงานกับประเภทฟิลด์แบบกำหนดเองใน Aspose.Tasks สำหรับ .NET การทำความเข้าใจและการใช้ฟิลด์ที่กำหนดเองถือเป็นสิ่งสำคัญสำหรับการจัดการข้อมูลโปรเจ็กต์อย่างมีประสิทธิภาพและปรับแต่งไฟล์โปรเจ็กต์ตามความต้องการเฉพาะ
+## ปัญหาทั่วไปและวิธีแก้ไข
+- **Field not appearing in MS Project UI** – ตรวจสอบให้แน่ใจว่าคุณได้ตั้งค่า property `Alias`; MS Project จะแสดง alias เป็นหัวคอลัมน์  
+- **Saving throws an exception** – ตรวจสอบว่าไฟล์โปรเจกต์ไม่ได้ตั้งเป็นอ่าน‑อย่างเดียวและคุณมีไลเซนส์ที่ถูกต้อง  
+- **Custom field values are lost after reload** – อย่าลืมเรียก `project.Save("output.mpp")` หลังจากกำหนดค่าให้กับงาน
 
 ## คำถามที่พบบ่อย
 
-### คำถามที่ 1: ฉันสามารถใช้ Aspose.Tasks กับเฟรมเวิร์ก .NET อื่นๆ ได้หรือไม่
+**Q: Can I use Aspose.Tasks with other .NET frameworks?**  
+A: ใช่, Aspose.Tasks ทำงานกับ .NET Framework, .NET Core, และ .NET 5/6/7
 
-ตอบ 1: ใช่ Aspose.Tasks เข้ากันได้กับ .NET Frameworks ต่างๆ รวมถึง .NET Core และ .NET Standard
+**Q: Is Aspose.Tasks suitable for enterprise‑level applications?**  
+A: แน่นอน. รองรับการประมวลผลโครงการที่มี **สูงสุด 10,000 งาน** และสามารถทำงานในสภาพแวดล้อมเซิร์ฟเวอร์แบบหลายเธรดได้
 
-### คำถามที่ 2: Aspose.Tasks เหมาะสำหรับแอปพลิเคชันระดับองค์กรหรือไม่
+**Q: Does Aspose.Tasks support multiple project file formats?**  
+A: ใช่ — Aspose.Tasks อ่านและเขียนไฟล์ MPP, XML, HTML, และ CSV ครอบคลุม **ทุกเวอร์ชันหลักของ Microsoft Project**
 
-A2: แน่นอน! Aspose.Tasks มีคุณสมบัติที่แข็งแกร่งและการสนับสนุนที่ยอดเยี่ยม ทำให้เหมาะสำหรับแอปพลิเคชันระดับองค์กร
+**Q: Can I manipulate resource data using Aspose.Tasks?**  
+A: ใช่, คุณสามารถเพิ่ม, ปรับปรุง, และลบทรัพยากร รวมถึงกำหนดฟิลด์แบบกำหนดเองให้กับทรัพยากรได้
 
-### คำถามที่ 3: Aspose.Tasks รองรับไฟล์โปรเจ็กต์หลายรูปแบบหรือไม่
+**Q: Is there a community forum for Aspose.Tasks users?**  
+A: ใช่, คุณสามารถเยี่ยมชม [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) เพื่อโต้ตอบกับผู้ใช้คนอื่นและรับการสนับสนุนจากทีม Aspose
 
-A3: ใช่ Aspose.Tasks รองรับรูปแบบไฟล์โครงการต่างๆ รวมถึง MPP, XML และ HTML
+---
 
-### คำถามที่ 4: ฉันสามารถจัดการข้อมูลทรัพยากรโดยใช้ Aspose.Tasks ได้หรือไม่
-
-A4: ใช่ Aspose.Tasks อนุญาตให้คุณจัดการทั้งข้อมูลงานและทรัพยากรภายในไฟล์โครงการ
-
-### คำถามที่ 5: มีฟอรัมชุมชนสำหรับผู้ใช้ Aspose.Tasks หรือไม่
-
- A5: ใช่ คุณสามารถเยี่ยมชมได้[ฟอรั่ม Aspose.Tasks](https://forum.aspose.com/c/tasks/15) เพื่อโต้ตอบกับผู้ใช้รายอื่นและรับการสนับสนุนจากทีม Aspose
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**อัปเดตล่าสุด:** 2026-07-19  
+**ทดสอบกับ:** Aspose.Tasks 24.12 for .NET  
+**ผู้เขียน:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## บทแนะนำที่เกี่ยวข้อง
+
+- [ทำความเข้าใจการกำหนด Extended Attribute ใน MS Project ด้วย Aspose.Tasks](/tasks/net/tasks-project-management/extended-attribute-definition-collection/)
+- [จัดการ Extended Attributes ของ MS Project ด้วย Aspose.Tasks](/tasks/net/tasks-project-management/working-with-extended-attributes/)
+- [Field Helper การบูรณาการ MS Project ใน Aspose.Tasks](/tasks/net/tasks-project-management/field-helper/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}

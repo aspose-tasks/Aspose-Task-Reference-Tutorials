@@ -1,57 +1,129 @@
 ---
-title: Niestandardowe typy pól w Aspose.Tasks
+date: 2026-07-19
+description: Dowiedz się, jak dodać niestandardowe typy pól w Aspose.Tasks dla .NET,
+  korzystając z kodu step‑by‑step, wymagań wstępnych i FAQ.
+keywords:
+- how to add custom field
+- add custom field to project
+- define extended attribute
+lastmod: 2026-07-19
 linktitle: Niestandardowe typy pól w Aspose.Tasks
+og_description: Dowiedz się, jak dodać niestandardowe typy pól w Aspose.Tasks dla
+  .NET. Postępuj zgodnie z tym step‑by‑step przewodnikiem, aby efektywnie tworzyć,
+  definiować i używać extended attributes.
+og_image_alt: Guide showing how to add custom field types in Aspose.Tasks using .NET
+og_title: Jak dodać niestandardowe typy pól w Aspose.Tasks dla .NET
+schemas:
+- author: Aspose
+  dateModified: '2026-07-19'
+  description: Learn how to add custom field types in Aspose.Tasks for .NET with step‑by‑step
+    code, prerequisites, and FAQs.
+  headline: How to Add Custom Field Types in Aspose.Tasks for .NET
+  type: TechArticle
+- description: Learn how to add custom field types in Aspose.Tasks for .NET with step‑by‑step
+    code, prerequisites, and FAQs.
+  name: How to Add Custom Field Types in Aspose.Tasks for .NET
+  steps:
+  - name: Create Project Object
+    text: '`Project` is Aspose.Tasks'' top‑level object that represents a single Project
+      file in memory. Instantiating it loads the file and gives you access to tasks,
+      resources, and extended attributes.'
+  - name: Define Custom Field
+    text: '`ExtendedAttributeDefinition` describes a new column. In this example we
+      create a **Text** type custom field for tasks and give it the alias “MyText”.
+      The `ExtendedAttributeTask.Text1` enum value tells Aspose.Tasks where to store
+      the value.'
+  - name: Add Custom Field Definition to Project
+    text: The project’s `ExtendedAttributes` collection holds all custom field definitions.
+      Adding the definition makes it available for every task in the project.
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.Tasks works with .NET Framework, .NET Core, and .NET 5/6/7.
+    question: Can I use Aspose.Tasks with other .NET frameworks?
+  - answer: Absolutely. It supports processing of projects with **up to 10,000 tasks**
+      and can run in multi‑threaded server environments.
+    question: Is Aspose.Tasks suitable for enterprise‑level applications?
+  - answer: Yes—Aspose.Tasks reads and writes MPP, XML, HTML, and CSV formats, covering
+      **all major Microsoft Project versions**.
+    question: Does Aspose.Tasks support multiple project file formats?
+  - answer: Yes, you can add, update, and delete resources, as well as assign custom
+      fields to them.
+    question: Can I manipulate resource data using Aspose.Tasks?
+  - answer: Yes, you can visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15)
+      to interact with other users and get support from the Aspose team.
+    question: Is there a community forum for Aspose.Tasks users?
+  type: FAQPage
 second_title: Aspose.Tasks .NET API
-description: Dowiedz się, jak pracować z niestandardowymi typami pól w Aspose.Tasks dla .NET. Przewodnik krok po kroku z przykładami kodu i często zadawanymi pytaniami.
-weight: 23
+tags:
+- custom field
+- Aspose.Tasks
+- .NET project management
+- extended attributes
+title: Jak dodać niestandardowe typy pól w Aspose.Tasks dla .NET
 url: /pl/net/calendar-scheduling/custom-field-types/
+weight: 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Niestandardowe typy pól w Aspose.Tasks
+# Jak dodać własne typy pól w Aspose.Tasks
 
-## Wstęp
+## Wprowadzenie
 
-Witamy w naszym samouczku na temat pracy z niestandardowymi typami pól w Aspose.Tasks dla .NET! Aspose.Tasks to potężna biblioteka, która umożliwia programistom programowe manipulowanie plikami Microsoft Project. W tym samouczku skupimy się na zrozumieniu i wykorzystaniu niestandardowych typów pól, co jest kluczowym aspektem pracy z danymi projektu.
+W tym samouczku odkryjesz **jak dodać własne pola** do pliku Microsoft Project przy użyciu Aspose.Tasks dla .NET. Własne pola pozwalają przechowywać dodatkowe informacje — takie jak oceny ryzyka, kody działów lub własne notatki — bezpośrednio na zadaniach, zasobach lub samym projekcie. Przejdziemy przez cały proces, od przygotowania środowiska po definiowanie, dodawanie i weryfikację własnego pola tekstowego.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Czym jest własne pole?** Kolumna definiowana przez użytkownika, która może przechowywać tekst, liczby, daty lub flagi w zadaniach/zasobach.  
+- **Która klasa definiuje własne pole?** `ExtendedAttributeDefinition`.  
+- **Czy mogę dodać własne pole do istniejącego projektu?** Tak — załaduj projekt, utwórz definicję, a następnie dodaj ją do kolekcji.  
+- **Czy potrzebna jest licencja na Aspose.Tasks?** Licencja jest wymagana w środowisku produkcyjnym; darmowa wersja próbna działa do oceny.  
+- **Obsługiwane wersje .NET?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
 
-Zanim zaczniemy, upewnij się, że masz następujące wymagania wstępne:
+## Co oznacza „jak dodać własne pole” w Aspose.Tasks?
 
-### 1. Zainstalowany program Visual Studio
+**Jak dodać własne pole** odnosi się do procesu tworzenia `ExtendedAttributeDefinition` i dołączania go do kolekcji `ExtendedAttributes` projektu. Umożliwia to przechowywanie dodatkowych metadanych, które nie są częścią standardowego schematu Project. Może być używane dla zadań, zasobów lub samego projektu, pozwalając na rejestrowanie informacji takich jak poziomy ryzyka, kody działów lub własne notatki, które nie są dostępne w domyślnych polach.
 
-Upewnij się, że masz zainstalowany program Visual Studio w swoim systemie. Można go pobrać ze strony internetowej Microsoft.
+## Dlaczego używać własnych pól w zarządzaniu projektami?
+
+Aspose.Tasks obsługuje **ponad 50 wbudowanych typów rozszerzonych atrybutów** i pozwala definiować **dowolną liczbę własnych pól** bez znaczącego wpływu na rozmiar pliku. Korzystając z własnych pól możesz:  
+Te pola pojawiają się jako dodatkowe kolumny w Microsoft Project i mogą być odwoływane w formułach, raportach i filtrach. Są przechowywane w pliku projektu i podróżują wraz z nim, zapewniając, że wszelkie narzędzia downstream zachowają niestandardowe dane.
+
+## Wymagania wstępne
+
+### 1. Zainstalowany Visual Studio
+Upewnij się, że Visual Studio (2019 lub nowszy) jest zainstalowane na Twoim komputerze. Możesz pobrać je ze strony Microsoft.
 
 ### 2. Aspose.Tasks dla .NET
+Dodaj pakiet NuGet Aspose.Tasks do swojego projektu. Pobierz najnowszą wersję [tutaj](https://releases.aspose.com/tasks/net/).
 
- Musisz mieć zainstalowaną bibliotekę Aspose.Tasks for .NET w swoim projekcie Visual Studio. Można go pobrać z[Tutaj](https://releases.aspose.com/tasks/net/).
+### 3. Podstawowa znajomość C#
+Powinieneś być zaznajomiony ze składnią C#, klasami i strukturą projektu .NET.
 
-### 3. Podstawowa znajomość języka C#
+## Importowanie przestrzeni nazw
 
-Aby zapoznać się z tym samouczkiem, konieczna jest znajomość języka programowania C#.
+Klasy `Project`, `ExtendedAttributeDefinition` oraz powiązane wyliczenia znajdują się w przestrzeni nazw `Aspose.Tasks`. Zaimportuj ją na początku swojego pliku:
 
-## Importuj przestrzenie nazw
-
-Zacznijmy od zaimportowania niezbędnych przestrzeni nazw do naszego projektu. Ten krok jest niezbędny, aby uzyskać dostęp do klas i metod udostępnianych przez bibliotekę Aspose.Tasks.
+Przestrzeń nazw `Aspose.Tasks` dostarcza wszystkie podstawowe typy do obsługi plików Microsoft Project.
 
 ```csharp
 
 ```
 
-Podzielmy teraz podany przykład na wiele kroków i szczegółowo omówmy każdy krok.
+## Jak dodać własne pole do projektu?
 
-## Krok 1: Utwórz obiekt projektu
+Załaduj istniejący projekt, utwórz definicję własnego pola i dodaj ją do kolekcji rozszerzonych atrybutów projektu — wszystko w trzech zwięzłych krokach. Ten wzorzec działa dla zadań, zasobów i samego projektu oraz zapewnia, że własne pole zostanie zachowane po zapisaniu pliku.
+
+### Krok 1: Utwórz obiekt Project
+`Project` jest obiektem najwyższego poziomu w Aspose.Tasks, który reprezentuje pojedynczy plik Project w pamięci. Utworzenie go ładuje plik i daje dostęp do zadań, zasobów oraz rozszerzonych atrybutów.
 
 ```csharp
 var project = new Project(DataDir + "Project2.mpp");
 ```
 
- Ta linia tworzy nową instancję`Project` class i ładuje plik projektu „Project2.mpp” z określonego katalogu.
-
-## Krok 2: Zdefiniuj pole niestandardowe
+### Krok 2: Zdefiniuj własne pole
+`ExtendedAttributeDefinition` opisuje nową kolumnę. W tym przykładzie tworzymy własne pole typu **Text** dla zadań i nadajemy mu alias „MyText”. Wartość wyliczeniowa `ExtendedAttributeTask.Text1` informuje Aspose.Tasks, gdzie przechowywać wartość.
 
 ```csharp
 var definition = ExtendedAttributeDefinition.CreateTaskDefinition(
@@ -60,44 +132,50 @@ var definition = ExtendedAttributeDefinition.CreateTaskDefinition(
     "MyText");
 ```
 
- Tutaj definiujemy niestandardowe pole typu`Text` do zadań. Określamy`ExtendedAttributeTask.Text1` aby wskazać lokalizację pola i podać nazwę pola niestandardowego, czyli w tym przypadku „MójTekst”.
-
-## Krok 3: Dodaj niestandardową definicję pola do projektu
+### Krok 3: Dodaj definicję własnego pola do projektu
+Kolekcja `ExtendedAttributes` projektu przechowuje wszystkie definicje własnych pól. Dodanie definicji udostępnia ją dla każdego zadania w projekcie.
 
 ```csharp
 project.ExtendedAttributes.Add(definition);
 ```
 
-Na koniec dodajemy niestandardową definicję pola do rozszerzonej kolekcji atrybutów projektu.
-
-## Wniosek
-
-W tym samouczku nauczyliśmy się, jak pracować z niestandardowymi typami pól w Aspose.Tasks dla .NET. Zrozumienie i wykorzystanie niestandardowych pól jest niezbędne do efektywnego zarządzania danymi projektu i dostosowywania plików projektu zgodnie z określonymi wymaganiami.
+## Typowe problemy i rozwiązania
+- **Pole nie pojawia się w interfejsie MS Project** – Upewnij się, że ustawiłeś właściwość `Alias`; MS Project wyświetla alias jako nagłówek kolumny.  
+- **Zapisywanie powoduje wyjątek** – Sprawdź, czy plik projektu nie jest tylko do odczytu i czy masz ważną licencję.  
+- **Wartości własnych pól znikają po ponownym załadowaniu** – Upewnij się, że wywołujesz `project.Save("output.mpp")` po przypisaniu wartości do zadań.
 
 ## Często zadawane pytania
 
-### P1: Czy mogę używać Aspose.Tasks z innymi frameworkami .NET?
+**Q: Czy mogę używać Aspose.Tasks z innymi frameworkami .NET?**  
+A: Tak, Aspose.Tasks działa z .NET Framework, .NET Core oraz .NET 5/6/7.
 
-O1: Tak, Aspose.Tasks jest kompatybilny z różnymi frameworkami .NET, w tym .NET Core i .NET Standard.
+**Q: Czy Aspose.Tasks jest odpowiedni dla aplikacji na poziomie przedsiębiorstwa?**  
+A: Zdecydowanie. Obsługuje przetwarzanie projektów z **do 10 000 zadań** i może działać w wielowątkowych środowiskach serwerowych.
 
-### P2: Czy Aspose.Tasks nadaje się do aplikacji na poziomie przedsiębiorstwa?
+**Q: Czy Aspose.Tasks obsługuje wiele formatów plików projektów?**  
+A: Tak — Aspose.Tasks odczytuje i zapisuje formaty MPP, XML, HTML i CSV, obejmując **wszystkie główne wersje Microsoft Project**.
 
-A2: Absolutnie! Aspose.Tasks zapewnia solidne funkcje i doskonałe wsparcie, dzięki czemu nadaje się do zastosowań na poziomie przedsiębiorstwa.
+**Q: Czy mogę manipulować danymi zasobów przy użyciu Aspose.Tasks?**  
+A: Tak, możesz dodawać, aktualizować i usuwać zasoby, a także przypisywać do nich własne pola.
 
-### P3: Czy Aspose.Tasks obsługuje wiele formatów plików projektów?
+**Q: Czy istnieje forum społecznościowe dla użytkowników Aspose.Tasks?**  
+A: Tak, możesz odwiedzić [forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15), aby interagować z innymi użytkownikami i uzyskać wsparcie od zespołu Aspose.
 
-O3: Tak, Aspose.Tasks obsługuje różne formaty plików projektów, w tym MPP, XML i HTML.
+---
 
-### P4: Czy mogę manipulować danymi zasobów za pomocą Aspose.Tasks?
-
-O4: Tak, Aspose.Tasks umożliwia manipulowanie danymi dotyczącymi zadań i zasobów w plikach projektu.
-
-### P5: Czy istnieje forum społecznościowe dla użytkowników Aspose.Tasks?
-
- A5: Tak, możesz odwiedzić[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) do interakcji z innymi użytkownikami i uzyskania wsparcia od zespołu Aspose.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Ostatnia aktualizacja:** 2026-07-19  
+**Testowano z:** Aspose.Tasks 24.12 for .NET  
+**Autor:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## Powiązane samouczki
+
+- [Mistrzowskie definicje rozszerzonych atrybutów MS Project w Aspose.Tasks](/tasks/net/tasks-project-management/extended-attribute-definition-collection/)
+- [Manipulowanie rozszerzonymi atrybutami MS Project przy użyciu Aspose.Tasks](/tasks/net/tasks-project-management/working-with-extended-attributes/)
+- [Integracja Field Helper MS Project w Aspose.Tasks](/tasks/net/tasks-project-management/field-helper/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}

@@ -1,10 +1,70 @@
 ---
-date: 2026-01-10
-description: เรียนรู้วิธีเพิ่มโน้ตในการมอบหมายทรัพยากรโดยใช้ Aspose.Tasks สำหรับ Java.
-  การสอนแบบขั้นตอนต่อขั้นตอนเพื่อการผสานรวมที่ราบรื่น.
-linktitle: How to Add Notes to Resource Assignments in Aspose.Tasks
+date: 2026-07-19
+description: เรียนรู้วิธีเพิ่ม aspose tasks resource notes ไปยังการมอบหมายทรัพยากรโดยใช้
+  Aspose.Tasks for Java. ปฏิบัติตามคู่มือขั้นตอนต่อขั้นตอนนี้เพื่อปรับปรุงการสื่อสารในโครงการ.
+keywords:
+- aspose tasks resource notes
+- resource assignment notes
+- aspose.tasks java
+lastmod: 2026-07-19
+linktitle: วิธีเพิ่ม Notes ลงในการมอบหมายทรัพยากรใน Aspose.Tasks
+og_description: เรียนรู้วิธีเพิ่ม aspose tasks resource notes ไปยังการมอบหมายทรัพยากรโดยใช้
+  Aspose.Tasks for Java. ปฏิบัติตามคู่มือขั้นตอนต่อขั้นตอนนี้เพื่อปรับปรุงการสื่อสารในโครงการ.
+og_image_alt: 'Guide: Adding resource assignment notes with Aspose.Tasks for Java'
+og_title: aspose tasks resource notes – เพิ่มบันทึกลงในการมอบหมายงาน
+schemas:
+- author: Aspose
+  dateModified: '2026-07-19'
+  description: Learn how to add aspose tasks resource notes to resource assignments
+    using Aspose.Tasks for Java. Follow this step‑by‑step guide to improve project
+    communication.
+  headline: aspose tasks resource notes – Add Notes to Assignments
+  type: TechArticle
+- description: Learn how to add aspose tasks resource notes to resource assignments
+    using Aspose.Tasks for Java. Follow this step‑by‑step guide to improve project
+    communication.
+  name: aspose tasks resource notes – Add Notes to Assignments
+  steps:
+  - name: Set Data Directory
+    text: Set the path to your data directory where your project files are located.
+  - name: Load Project File
+    text: Load the project file into your Java application.
+  - name: Get Task and Resource
+    text: Retrieve the task and resource to which you want to add notes.
+  - name: Create Resource Assignment
+    text: Create a resource assignment for the task and resource.
+  - name: Set Notes
+    text: Set the notes for the resource assignment.
+  - name: Display Notes
+    text: Display the notes text and RTF format.
+  - name: Process Completion
+    text: Print a success message indicating the completion of the process.
+  type: HowTo
+- questions:
+  - answer: Yes, simply call `assn.set(Asn.NOTES_TEXT, "Updated note")` again with
+      the new content.
+    question: Can I edit notes after they have been set?
+  - answer: Absolutely. When you save the `Project` object, the notes become part
+      of the assignment data inside the file.
+    question: Are notes stored in the .mpp file?
+  - answer: You must open the project with the correct password using the appropriate
+      `Project` constructor overload before accessing assignments.
+    question: Does this work with encrypted project files?
+  - answer: Practically, notes can be several kilobytes long; extremely large notes
+      may affect performance when loading the project.
+    question: Is there a limit to the length of a note?
+  - answer: Yes, iterate over `prj.getResourceAssignments()` and set `Asn.NOTES_TEXT`
+      for each assignment as needed.
+    question: Can I add notes to multiple assignments in a loop?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: วิธีเพิ่มโน้ตให้กับการมอบหมายทรัพยากรใน Aspose.Tasks
+tags:
+- aspose tasks
+- resource notes
+- java project management
+- resource assignments
+- aspose tasks java
+title: aspose tasks resource notes – เพิ่มบันทึกลงในการมอบหมายงาน
 url: /th/java/resource-assignments/resource-assignment-notes/
 weight: 21
 ---
@@ -16,31 +76,30 @@ weight: 21
 # วิธีเพิ่มบันทึกย่อให้กับการมอบหมายทรัพยากรใน Aspose.Tasks
 
 ## บทนำ
-ในบทแนะนำนี้ เราจะสาธิต **วิธีเพิ่มบันทึกย่อ** ให้กับการมอบหมายทรัพยากรโดยใช้ Aspose.Tasks for Java. Aspose.Tasks เป็นไลบรารี Java ที่แข็งแกร่งออกแบบมาสำหรับการจัดการงานด้านการจัดการโครงการอย่างมีประสิทธิภาพ คู่มือนี้จะพาคุณผ่านแต่ละขั้นตอน เพื่อให้คุณสามารถรวมการจัดการบันทึกย่อเข้ากับกระบวนการทำงานของโครงการได้อย่างราบรื่น.
+ในบทแนะนำนี้คุณจะได้เรียนรู้ **วิธีเพิ่มบันทึกย่อให้กับการมอบหมายทรัพยากร** ด้วย Aspose.Tasks for Java – ไลบรารีชั้นนำที่จัดการไฟล์การจัดการโครงการ โดยเมื่ออ่านจบคุณจะสามารถแนบความคิดเห็นแบบข้อความธรรมดาหรือข้อความรูปแบบ RTF ลงในลิงก์ระหว่างงานและทรัพยากรได้ ทำให้ข้อมูลโครงการของคุณสื่อสารได้ชัดเจนและพร้อมสำหรับการตรวจสอบ
 
-## คำตอบอย่างรวดเร็ว
-- **การเพิ่มบันทึกย่อส่งผลอย่างไร?** จะเก็บบันทึกย่อแบบ plain‑text และ RTF ไว้บนการมอบหมายทรัพยากร.  
-- **คลาสใดที่เก็บข้อมูลบันทึกย่อ?** คลาส `Asn` (เช่น `Asn.NOTES_TEXT`).  
-- **ฉันต้องมีลิขสิทธิ์เพื่อทดสอบหรือไม่?** ไม่จำเป็น มีการทดลองใช้ฟรีจากเว็บไซต์ของ Aspose.  
-- **ฉันสามารถดึงบันทึกย่อในรูปแบบ RTF ได้หรือไม่?** ได้ ใช้ `Asn.NOTES_RTF`.  
-- **รองรับกับ IDE ของ Java ทั้งหมดหรือไม่?** แน่นอน – IntelliJ IDEA, Eclipse, NetBeans ฯลฯ.
+## คำตอบสั้น
+- **อะไรที่ “add notes” มีผล?** It stores plain‑text and RTF notes on a resource assignment.  
+- **คลาสใดที่เก็บข้อมูลบันทึกย่อ?** The `Asn` class (e.g., `Asn.NOTES_TEXT`).  
+- **ฉันต้องมีลิขสิทธิ์เพื่อทดสอบหรือไม่?** No, a free trial is available from the Aspose website.  
+- **ฉันสามารถดึงบันทึกย่อในรูปแบบ RTF ได้หรือไม่?** Yes, use `Asn.NOTES_RTF`.  
+- **ฟีเจอร์นี้เข้ากันได้กับ IDE ของ Java ทั้งหมดหรือไม่?** Absolutely – IntelliJ IDEA, Eclipse, NetBeans, etc.  
 
 ## การเพิ่มบันทึกย่อให้กับการมอบหมายทรัพยากรคืออะไร?
-การเพิ่มบันทึกย่อหมายถึงการแนบข้อความอธิบาย (plain หรือ rich‑text) ไปยังการเชื่อมโยงระหว่างงานและทรัพยากร ซึ่งช่วยให้ผู้จัดการโครงการบันทึกบริบท คำแนะนำพิเศษ หรือความคิดเห็นโดยตรงบนการมอบหมาย.
+การเพิ่มบันทึกย่อหมายถึงการแนบข้อความอธิบาย—ไม่ว่าจะเป็นข้อความธรรมดาหรือข้อความรูปแบบ RTF—ไปยังลิงก์ระหว่างงานและทรัพยากร ฟีเจอร์นี้ช่วยให้ผู้จัดการโครงการฝังบริบท คำแนะนำพิเศษ หรือความคิดเห็นบันทึกการเปลี่ยนแปลงโดยตรงบนการมอบหมาย ทำให้ผู้ที่ตรวจสอบตารางเวลาเข้าใจ “ทำไม” ของแต่ละการจัดสรรได้ทันที
 
 ## ทำไมต้องเพิ่มบันทึกย่อ?
-- **การสื่อสารที่ดีขึ้น:** สมาชิกทีมสามารถเห็นเหตุผลที่ทรัพยากรถูกมอบหมาย.  
-- **บันทึกการตรวจสอบ:** เก็บประวัติการเปลี่ยนแปลงหรือข้อคิดเห็น.  
-- **การจัดรูปแบบที่หลากหลาย:** บันทึกย่อ RTF รองรับการทำตัวหนา ตัวเอียง และการจัดสไตล์อื่น ๆ เพื่อความชัดเจน.
+การเพิ่มบันทึกย่อสร้างช่องทางการสื่อสารภายในไฟล์โครงการทันที ลดความจำเป็นในการใช้สเปรดชีตหรืออีเมลภายนอก ให้มีร่องรอยการตรวจสอบในตัว และด้วยการสนับสนุน RTF คุณสามารถเน้นข้อมูลสำคัญด้วยการทำตัวหนา หรือเอียง—ทั้งหมดโดยไม่ต้องออกจากสภาพแวดล้อมการจัดการโครงการ
 
 ## ข้อกำหนดเบื้องต้น
-ก่อนที่เราจะเริ่ม โปรดตรวจสอบว่าคุณมีข้อกำหนดต่อไปนี้พร้อมใช้งาน:
-1. Java Development Kit (JDK) – ติดตั้งและกำหนดค่าแล้ว.  
-2. Aspose.Tasks for Java – ดาวน์โหลดและติดตั้งจาก [website](https://releases.aspose.com/tasks/java/).  
-3. Integrated Development Environment (IDE) – IntelliJ IDEA, Eclipse หรือ IDE ของ Java ที่คุณต้องการ.
+ก่อนเริ่มทำตามขั้นตอนต่อไปนี้ให้แน่ใจว่าคุณมี:
+
+1. **Java Development Kit (JDK)** – version 8 หรือสูงกว่า, ตั้งค่าอย่างถูกต้องบนเครื่องของคุณ.  
+2. **Aspose.Tasks for Java** – ดาวน์โหลด JAR ล่าสุดจาก [เว็บไซต์อย่างเป็นทางการ](https://releases.aspose.com/tasks/java/).  
+3. **An IDE** – IntelliJ IDEA, Eclipse, NetBeans, หรือเครื่องมือแก้ไขที่รองรับ Java ใด ๆ ที่คุณต้องการ.  
 
 ## นำเข้าแพ็กเกจ
-เริ่มต้นโดยนำเข้าแพ็กเกจที่จำเป็นเข้าสู่โครงการ Java ของคุณ:
+เริ่มต้นด้วยการนำเข้าแพ็กเกจที่จำเป็นเข้าสู่โครงการ Java ของคุณ:
 ```java
 import com.aspose.tasks.Asn;
 import com.aspose.tasks.Project;
@@ -50,10 +109,10 @@ import com.aspose.tasks.Task;
 ```
 
 ## วิธีเพิ่มบันทึกย่อให้กับการมอบหมายทรัพยากร
-ด้านล่างเป็นขั้นตอนแบบครบถ้วน ทีละขั้นตอน โค้ดบล็อกแต่ละอันคงเดิมจากบทแนะนำต้นฉบับ.
+ในส่วนนี้เราจะอธิบายขั้นตอนการทำงานเต็มรูปแบบสำหรับการแนบบันทึกย่อไปยังการมอบหมายทรัพยากร ตั้งแต่การกำหนดไดเรกทอรีข้อมูล, การโหลดโครงการ, การดึงงานและทรัพยากรที่เกี่ยวข้อง, การสร้างการมอบหมาย, และสุดท้ายการตั้งค่าและแสดงบันทึกย่อทั้งแบบข้อความธรรมดาและ RTF แต่ละขั้นตอนจะมีตัวอย่างโค้ดที่คุณสามารถแทนที่ด้วยสคริปต์จริงได้
 
 ### ขั้นตอนที่ 1: ตั้งค่าไดเรกทอรีข้อมูล
-กำหนดเส้นทางไปยังไดเรกทอรีข้อมูลของคุณที่เก็บไฟล์โครงการ.
+กำหนดเส้นทางไปยังไดเรกทอรีข้อมูลที่เก็บไฟล์โครงการของคุณ.
 ```java
 String dataDir = "Your Data Directory";
 ```
@@ -96,35 +155,44 @@ System.out.println("Notes RTF: " + assn.get(Asn.NOTES_RTF));
 System.out.println("Process completed Successfully");
 ```
 
-## ปัญหาทั่วไปและวิธีแก้
-- **NullPointerException เมื่อดึงงาน/ทรัพยากร:** ตรวจสอบว่า ID (`1` ในตัวอย่าง) มีอยู่จริงในไฟล์ `.mpp` ของคุณ.  
-- **บันทึกย่อไม่แสดงใน UI:** ตรวจสอบว่าคุณกำลังดูแผงบันทึกย่อการมอบหมายใน Microsoft Project หรือโปรแกรมดูอื่นที่รองรับบันทึกย่อการมอบหมาย.  
-- **ผลลัพธ์ RTF ว่างเปล่า:** API จะคืนค่า RTF เฉพาะเมื่อบันทึกย่อมีการจัดรูปแบบ rich‑text; ข้อความธรรมดาจะให้สตริง RTF ว่าง.
+## คลาส Asn คืออะไร?
+คลาส `Asn` กำหนดค่าคงที่ที่แทนฟิลด์บนการมอบหมายทรัพยากร เช่น บันทึกย่อ, ค่าใช้จ่าย, และงาน คุณใช้ค่าคงที่เหล่านี้ร่วมกับเมธอด `set` และ `get` บนวัตถุ `ResourceAssignment` เพื่ออ่านหรือเขียนข้อมูลที่สอดคล้อง ตัวอย่างเช่น `Asn.NOTES_TEXT` เก็บบันทึกย่อแบบข้อความธรรมดา ส่วน `Asn.NOTES_RTF` เก็บเวอร์ชันข้อความรูปแบบ RTF
 
-## คำถามที่พบบ่อย (FAQ)
+## ปัญหาที่พบบ่อยและวิธีแก้ไข
+- **NullPointerException when retrieving task/resource:** Verify that the IDs (`1` in the example) actually exist in your `.mpp` file.  
+- **Notes not appearing in the UI:** Ensure you are viewing the assignment notes pane in Microsoft Project or another viewer that supports assignment notes.  
+- **RTF output looks empty:** The API only returns RTF if the notes contain rich‑text formatting; plain text will result in an empty RTF string.  
+
+## คำถามที่พบบ่อย
 **Q: ฉันสามารถแก้ไขบันทึกย่อหลังจากตั้งค่าแล้วได้หรือไม่?**  
-A: ได้ เพียงเรียก `assn.set(Asn.NOTES_TEXT, "Updated note")` อีกครั้งพร้อมเนื้อหาใหม่.
+A: Yes, simply call `assn.set(Asn.NOTES_TEXT, "Updated note")` again with the new content.
 
-**Q: บันทึกย่อถูกเก็บในไฟล์ .mpp หรือไม่?**  
-A: แน่นอน เมื่อคุณบันทึกอ็อบเจ็กต์ `Project` บันทึกย่อจะเป็นส่วนหนึ่งของข้อมูลการมอบหมายภายในไฟล์.
+**Q: บันทึกย่อถูกเก็บไว้ในไฟล์ .mpp หรือไม่?**  
+A: Absolutely. When you save the `Project` object, the notes become part of the assignment data inside the file.
 
-**Q: วิธีนี้ทำงานกับไฟล์โครงการที่เข้ารหัสหรือไม่?**  
-A: คุณต้องเปิดโครงการด้วยรหัสผ่านที่ถูกต้องโดยใช้คอนสตรัคเตอร์ `Project` ที่เหมาะสมก่อนเข้าถึงการมอบหมาย.
+**Q: ฟีเจอร์นี้ทำงานกับไฟล์โครงการที่เข้ารหัสหรือไม่?**  
+A: You must open the project with the correct password using the appropriate `Project` constructor overload before accessing assignments.
 
 **Q: มีขีดจำกัดความยาวของบันทึกย่อหรือไม่?**  
-A: โดยปฏิบัติ บันทึกย่อสามารถยาวหลายกิโลไบต์; บันทึกย่อที่ใหญ่มากอาจส่งผลต่อประสิทธิภาพเมื่อโหลดโครงการ.
+A: Practically, notes can be several kilobytes long; extremely large notes may affect performance when loading the project.
 
 **Q: ฉันสามารถเพิ่มบันทึกย่อให้กับหลายการมอบหมายในลูปได้หรือไม่?**  
-A: ได้ ให้วนลูปผ่าน `prj.getResourceAssignments()` และตั้งค่า `Asn.NOTES_TEXT` สำหรับแต่ละการมอบหมายตามต้องการ.
+A: Yes, iterate over `prj.getResourceAssignments()` and set `Asn.NOTES_TEXT` for each assignment as needed.
 
 ## สรุป
-โดยทำตามขั้นตอนเหล่านี้ คุณจะรู้ **วิธีเพิ่มบันทึกย่อ** ให้กับการมอบหมายทรัพยากรใน Aspose.Tasks for Java การรวมบันทึกย่อช่วยเพิ่มความชัดเจนของโครงการและให้บันทึกการตรวจสอบที่มีคุณค่า อย่าลังเลที่จะสำรวจคุณลักษณะ API เพิ่มเติม เช่น การอัปเดตแบบกลุ่ม การจัดรูปแบบ RTF และการรวมเข้ากับกระบวนการทำงานการจัดการโครงการที่คุณมีอยู่.
+โดยทำตามขั้นตอนเหล่านี้คุณจะรู้ **วิธีเพิ่มบันทึกย่อให้กับการมอบหมายทรัพยากร** ด้วย Aspose.Tasks for Java การใช้บันทึกย่อของทรัพยากรใน Aspose ช่วยเพิ่มความชัดเจนของโครงการ สร้างร่องรอยการตรวจสอบในตัว และให้คุณฝังความคิดเห็นรูปแบบ RTF ได้โดยไม่ต้องออกจากไฟล์ตารางเวลา สำรวจฟีเจอร์ API เพิ่มเติมเช่น การอัปเดตเป็นกลุ่ม, ฟิลด์กำหนดเอง, และการผสานรวมกับระบบการจัดการโครงการที่คุณใช้อยู่
 
 ---
 
-**อัปเดตล่าสุด:** 2026-01-10  
-**ทดสอบด้วย:** Aspose.Tasks for Java 24.12 (ล่าสุด ณ เวลาที่เขียน)  
-**ผู้เขียน:** Aspose
+**Last Updated:** 2026-07-19  
+**Tested With:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
+**Author:** Aspose
+
+## บทแนะนำที่เกี่ยวข้อง
+
+- [เพิ่มทรัพยากรลงในโครงการด้วย Aspose.Tasks for Java](/tasks/java/resource-management/create-resources/)
+- [วิธีเพิ่มทรัพยากรลงในโครงการและจัดการคุณสมบัติการหน่วงเวลาเลเวลใน Aspose.Tasks](/tasks/java/resource-assignments/leveling-delay-properties/)
+- [วิธีหยุดการมอบหมายและทำการมอบหมายทรัพยากรต่อใน Aspose.Tasks](/tasks/java/resource-assignments/stop-resume-assignment/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

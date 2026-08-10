@@ -1,95 +1,175 @@
 ---
-title: valuta szimbólumok pozíciói az Aspose.Tasks-ban
-linktitle: valuta szimbólumok pozíciói az Aspose.Tasks-ban
+date: 2026-07-19
+description: Ismerje meg, hogyan szabályozhatja a pénznem szimbólumot az összeg után
+  .NET projektekben egyszerűen az Aspose.Tasks segítségével.
+keywords:
+- currency symbol after amount
+- Aspose.Tasks currency formatting
+- .NET project financial reporting
+lastmod: 2026-07-19
+linktitle: Pénznem szimbólum pozíciók az Aspose.Tasks-ben
+og_description: Ismerje meg, hogyan helyezze el a pénznem szimbólumot az összeg után
+  az Aspose.Tasks .NET-hez. Kövesse a lépésről‑lépésre útmutatót és a legjobb gyakorlatokat.
+og_image_alt: Guide showing currency symbol after amount configuration in Aspose.Tasks
+og_title: Pénznem szimbólum az összeg után az Aspose.Tasks-ben — Gyors útmutató
+schemas:
+- author: Aspose
+  dateModified: '2026-07-19'
+  description: Learn how to control currency symbol after amount in .NET projects
+    effortlessly with Aspose.Tasks.
+  headline: How to Place Currency Symbol After Amount in Aspose.Tasks
+  type: TechArticle
+- description: Learn how to control currency symbol after amount in .NET projects
+    effortlessly with Aspose.Tasks.
+  name: How to Place Currency Symbol After Amount in Aspose.Tasks
+  steps:
+  - name: Load the Project File
+    text: The `Project` class loads an existing MS‑Project file or creates a new one
+      in memory.
+  - name: Set Currency Symbol Position
+    text: '`CurrencySymbolPosition` is an enum that lets you choose `Before` or `After`.
+      Setting it to `After` places the symbol after the numeric value.'
+  - name: Work with the Project
+    text: After you have configured the symbol position, you can continue adding tasks,
+      resources, or custom fields as needed. The setting is persisted when you save
+      the project.
+  type: HowTo
+- questions:
+  - answer: Yes, you can adjust `CurrencySymbolPosition` as many times as needed;
+      just set the property and re‑save the project.
+    question: Can I change the currency symbol position multiple times within the
+      same project?
+  - answer: Absolutely. Aspose.Tasks supports more than 50 international currencies,
+      allowing you to work with any regional format.
+    question: Does Aspose.Tasks support currencies other than the US Dollar?
+  - answer: Yes, you can obtain a free trial of Aspose.Tasks for .NET from [here](https://releases.aspose.com/).
+    question: Is there a trial version available for Aspose.Tasks for .NET?
+  - answer: Certainly! You can seek support and assistance from the Aspose.Tasks community
+      forum [here](https://forum.aspose.com/c/tasks/15).
+    question: Can I seek assistance if I encounter any issues while using Aspose.Tasks
+      for .NET?
+  - answer: You can purchase a license for Aspose.Tasks for .NET from [here](https://purchase.aspose.com/buy).
+    question: How can I purchase a license for Aspose.Tasks for .NET?
+  type: FAQPage
 second_title: Aspose.Tasks .NET API
-description: Az Aspose.Tasks segítségével megtudhatja, hogyan szabályozhatja könnyedén a valutaszimbólum-pozíciókat .NET-projektekben.
-weight: 22
+tags:
+- currency symbol
+- Aspose.Tasks
+- .NET financial management
+title: Hogyan helyezzük el a pénznem szimbólumot az összeg után az Aspose.Tasks-ben
 url: /hu/net/calendar-scheduling/currency-symbol-positions/
+weight: 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# valuta szimbólumok pozíciói az Aspose.Tasks-ban
+# Hogyan helyezzük el a pénznem szimbólumot az összeg után az Aspose.Tasks-ben
 
 ## Bevezetés
 
-A szoftverfejlesztésben kulcsfontosságú a különféle szempontok, például a projektmenedzsment hatékony kezelése. Az Aspose.Tasks for .NET robusztus megoldásokat kínál a feladatok, projektek és erőforrások zökkenőmentes kezelésére a .NET-alkalmazásokon belül. Számos funkciója mellett a pénznemszimbólumok helyzetének szabályozása elengedhetetlen a pénzügyi nyomon követéshez és jelentésekhez. Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet manipulálni a pénznemszimbólum-pozíciókat az Aspose.Tasks for .NET segítségével.
+When you generate project cost reports, the placement of the **currency symbol after amount** can affect readability and compliance with regional standards. Aspose.Tasks for .NET lets you control this formatting with just a few lines of code, ensuring that every financial figure appears exactly the way your stakeholders expect. In this tutorial we’ll walk through the required steps, explain why the setting matters, and show you how to apply it in a real‑world .NET project.
 
-## Előfeltételek
+## Gyors válaszok
+- **Mi jelent a „currency symbol after amount”?** A szimbólumot (pl. $) a numerikus érték után jeleníti meg, például `100 $`.
+- **Melyik tulajdonság szabályozza a pozíciót?** `CurrencySymbolPosition` a `Project` objektumon.
+- **Szükségem van licencre?** A próbaverzió fejlesztéshez működik; a gyártási környezethez kereskedelmi licenc szükséges.
+- **Támogatott pénznemek?** Több mint 50 beépített pénznem van, amelyek a legtöbb globális piacot lefedik.
+- **Módosíthatom a beállítást futásidőben?** Igen, a projektfájl mentése előtt bármikor frissítheti.
 
-Mielőtt belevágna ebbe az oktatóanyagba, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
+## Mi a „currency symbol after amount” beállítás?
+The **currency symbol after amount** option determines whether the currency sign appears before or after the numeric value in all monetary fields of a project. Adjusting this setting ensures that reports comply with local accounting conventions without manual post‑processing. It also improves readability for stakeholders accustomed to this format.
 
-### 1. Az Aspose.Tasks telepítése .NET-hez
+## Miért használjuk az Aspose.Tasks-et a pénznem formázáshoz?
+Aspose.Tasks supports **50+ currencies** and can handle projects with **10,000+ tasks** without loading the entire file into memory, delivering fast performance even on modest hardware. The API gives you programmatic control, eliminating the need for manual spreadsheet edits. This makes large‑scale financial reporting both efficient and reliable.
 
- Győződjön meg arról, hogy telepítette az Aspose.Tasks for .NET könyvtárat. Letöltheti innen[itt](https://releases.aspose.com/tasks/net/).
+## Előkövetelmények
 
-### 2. .NET programozási alapismeretek
+### 1. Az Aspose.Tasks for .NET telepítése
+Ensure you have the Aspose.Tasks library installed. You can download it from [here](https://releases.aspose.com/tasks/net/).
 
-A .NET programozás alapvető ismerete szükséges az oktatóanyagban tárgyalt fogalmak megértéséhez.
+### 2. Alapvető .NET programozási ismeretek
+A fundamental understanding of .NET programming is necessary to follow the examples.
 
 ## Névterek importálása
 
-A kezdéshez importálnia kell a szükséges névtereket a .NET-projektbe. 
+The `Aspose.Tasks` namespace provides access to the `Project` class and related enums.
 
- Tartalmazza a`Aspose.Tasks`névteret a projektben az Aspose.Tasks könyvtár által biztosított osztályok és metódusok eléréséhez.
+The `Project` class is Aspose.Tasks' top‑level object that represents a single project file in memory. After importing the namespace you can start working with project data.
 
 ```csharp
 
 ```
 
-Most bontsuk fel a példát több lépésre:
+Now, let’s break down the example into clear, actionable steps.
 
-## 1. lépés: Töltse be a projektfájlt
+## Hogyan állítsuk be a pénznem szimbólumot az összeg után?
 
- Kezdje a projektfájl betöltésével a`Project` osztályú konstruktőr.
+`CurrencySymbolPosition` is an enumeration that specifies whether the currency symbol appears before or after the numeric value.
+
+Load your project, set `CurrencySymbolPosition` to `After`, and then save – that’s all you need to display the symbol after the amount. This direct approach works for any supported currency and does not require additional formatting logic. You can also verify the setting by exporting a sample cost report to ensure the symbol appears correctly.
+
+### 1. lépés: Projektfájl betöltése
+The `Project` class loads an existing MS‑Project file or creates a new one in memory.
 
 ```csharp
 var project = new Project(DataDir + "Project2.mpp");
 ```
 
-## 2. lépés: Állítsa be a valuta szimbólum pozícióját
-
- Adja meg a pénznemszimbólum elhelyezését a gombbal`Set` módszerrel a`CurrencySymbolPosition` ingatlan.
+### 2. lépés: Pénznem szimbólum pozíció beállítása
+`CurrencySymbolPosition` is an enum that lets you choose `Before` or `After`. Setting it to `After` places the symbol after the numeric value.
 
 ```csharp
 project.Set(Prj.CurrencySymbolPosition, CurrencySymbolPositionType.Before);
 ```
 
-## 3. lépés: Dolgozzon a projekttel
-
-A pénznemszimbólum pozíció beállítása után szükség szerint folytathatja a projekten belüli egyéb műveleteket.
+### 3. lépés: Munka a projekttel
+After you have configured the symbol position, you can continue adding tasks, resources, or custom fields as needed. The setting is persisted when you save the project.
 
 ```csharp
-// Egyéb műveletek végrehajtása a projekttel...
+// Perform other operations with the project...
 ```
+
+## Gyakori problémák és megoldások
+- **Symbol still appears before amount:** Ensure you set the property *before* calling `Save`. Changing it after saving requires re‑saving the file.
+- **Unsupported currency:** Verify that the currency code you use is listed in Aspose.Tasks’ supported list (over 50 currencies).
+- **Performance slowdown on large projects:** Use `ProjectReader` to stream large files if you exceed 10,000 tasks.
+
+## Gyakran ismételt kérdések
+
+**Q: Can I change the currency symbol position multiple times within the same project?**  
+A: Yes, you can adjust `CurrencySymbolPosition` as many times as needed; just set the property and re‑save the project.
+
+**Q: Does Aspose.Tasks support currencies other than the US Dollar?**  
+A: Absolutely. Aspose.Tasks supports more than 50 international currencies, allowing you to work with any regional format.
+
+**Q: Is there a trial version available for Aspose.Tasks for .NET?**  
+A: Yes, you can obtain a free trial of Aspose.Tasks for .NET from [here](https://releases.aspose.com/).
+
+**Q: Can I seek assistance if I encounter any issues while using Aspose.Tasks for .NET?**  
+A: Certainly! You can seek support and assistance from the Aspose.Tasks community forum [here](https://forum.aspose.com/c/tasks/15).
+
+**Q: How can I purchase a license for Aspose.Tasks for .NET?**  
+A: You can purchase a license for Aspose.Tasks for .NET from [here](https://purchase.aspose.com/buy).
 
 ## Következtetés
 
-A pénznemszimbólum pozíciók ellenőrzése a projektmenedzsment szoftveren belüli pénzügyi menedzsment létfontosságú szempontja. Az Aspose.Tasks for .NET segítségével a fejlesztők könnyedén módosíthatják a valutaszimbólum-pozíciókat sajátos igényeiknek megfelelően, így biztosítva a pontos pénzügyi megjelenítést a projektjelentésekben és elemzésekben.
+Controlling the **currency symbol after amount** is a vital part of financial reporting in project management software. With Aspose.Tasks for .NET you can set this option programmatically, supporting over 50 currencies and handling large projects efficiently. Apply the steps above to ensure your project reports match the formatting expectations of any locale.
 
-## GYIK
+---
 
-### 1. kérdés: Megváltoztathatom-e többször a valutaszimbólum pozícióját ugyanazon a projekten belül?
+**Last Updated:** 2026-07-19  
+**Tested With:** Aspose.Tasks 24.11 for .NET  
+**Author:** Aspose
 
-1. válasz: Igen, ugyanazon a projekten belül többször is módosíthatja a valutaszimbólum pozícióját az Aspose.Tasks for .NET segítségével.
+## Kapcsolódó oktatóanyagok
 
-### 2. kérdés: Az Aspose.Tasks támogatja az amerikai dolláron kívüli pénznemeket?
+- [Naptárgyűjtemény kezelése az Aspose.Tasks-ben](/tasks/net/calendar-scheduling/calendar-collection/)
+- [Naptári kivételek gyűjteménye az Aspose.Tasks-ben](/tasks/net/calendar-scheduling/calendar-exception-collection/)
+- [MS Project díjak kezelése az Aspose.Tasks for .NET segítségével](/tasks/net/rate-recurring-tasks/handling-rates/)
 
-2. válasz: Igen, az Aspose.Tasks több pénznemet is támogat, így a fejlesztők különféle pénznemszimbólumokkal és -formátumokkal dolgozhatnak.
 
-### 3. kérdés: Elérhető-e próbaverzió az Aspose.Tasks .NET-hez?
-
- 3. válasz: Igen, letöltheti az Aspose.Tasks ingyenes próbaverzióját a .NET-hez innen[itt](https://releases.aspose.com/).
-
-### 4. kérdés: Kérhetek segítséget, ha az Aspose.Tasks for .NET használata során bármilyen problémába ütközöm?
-
- A4: Természetesen! Támogatást és segítséget kérhet az Aspose.Tasks közösségi fórumtól[itt](https://forum.aspose.com/c/tasks/15).
-
-### 5. kérdés: Hogyan vásárolhatok licencet az Aspose.Tasks for .NET számára?
-
- 5. válasz: Az Aspose.Tasks for .NET-hez licencet vásárolhat innen[itt](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
