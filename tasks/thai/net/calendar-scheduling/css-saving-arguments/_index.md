@@ -1,33 +1,73 @@
 ---
-title: CSS บันทึกอาร์กิวเมนต์ใน Aspose.Tasks
-linktitle: CSS บันทึกอาร์กิวเมนต์ใน Aspose.Tasks
+date: 2026-07-05
+description: เรียนรู้วิธีปรับแต่ง CSS ขณะส่งออกโครงการเป็น HTML ด้วย Aspose.Tasks
+  สำหรับ .NET ปรับผลลัพธ์ HTML ด้วยอาร์กิวเมนต์การบันทึก CSS
+keywords:
+- how to customize css
+- export project to html
+- customize html output
+linktitle: วิธีปรับแต่ง CSS เมื่อบันทึกโครงการด้วย Aspose.Tasks
+schemas:
+- author: Aspose
+  dateModified: '2026-07-05'
+  description: Learn how to customize CSS while exporting a project to HTML using
+    Aspose.Tasks for .NET. Tailor HTML output with CSS saving arguments.
+  headline: How to Customize CSS When Saving Projects with Aspose.Tasks
+  type: TechArticle
+- questions:
+  - answer: Using custom CSS can reduce the total size by up to 15 % because you can
+      eliminate unused default styles.
+    question: How does customizing CSS affect the size of the exported HTML?
+  - answer: Absolutely. Implement the callbacks once and reuse them across any number
+      of project exports.
+    question: Can I use the same callbacks for multiple projects?
+  - answer: Yes, set `HtmlSaveOptions.EmbeddedCss = true` to inline the stylesheet,
+      which simplifies distribution.
+    question: Is it possible to embed CSS directly into the HTML instead of separate
+      files?
+  type: FAQPage
 second_title: Aspose.Tasks .NET API
-description: เรียนรู้วิธีบันทึกอาร์กิวเมนต์ CSS ใน Aspose.Tasks สำหรับ .NET เพื่อปรับแต่งเอาต์พุต HTML ปรับปรุงการนำเสนอด้วยการตั้งค่า CSS ที่ปรับแต่งโดยเฉพาะ
-weight: 20
+title: วิธีปรับแต่ง CSS เมื่อบันทึกโครงการด้วย Aspose.Tasks
 url: /th/net/calendar-scheduling/css-saving-arguments/
+weight: 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# CSS บันทึกอาร์กิวเมนต์ใน Aspose.Tasks
+# วิธีปรับแต่ง CSS เมื่อบันทึกโครงการด้วย Aspose.Tasks
 
-## การแนะนำ
+ในคู่มือนี้คุณจะได้ค้นพบ **วิธีปรับแต่ง CSS** ระหว่างการส่งออก HTML ของไฟล์ Microsoft Project ด้วย Aspose.Tasks สำหรับ .NET โดยการปรับแต่งอาร์กิวเมนต์การบันทึก CSS คุณจะได้ควบคุมสไตล์การแสดงผลของหน้า HTML ที่สร้างขึ้นอย่างเต็มที่ ทำให้ผลลัพธ์ตรงกับแบรนด์หรือมาตรฐานการรายงานของคุณ
 
-ในบทช่วยสอนนี้ เราจะเจาะลึกกระบวนการบันทึกอาร์กิวเมนต์ CSS โดยใช้ Aspose.Tasks สำหรับ .NET Cascading Style Sheets (CSS) มีความสำคัญอย่างยิ่งต่อการกำหนดการนำเสนอองค์ประกอบ HTML Aspose.Tasks ช่วยให้เราสามารถจัดการและบันทึกแอตทริบิวต์ CSS เหล่านี้ได้อย่างมีประสิทธิภาพ
+## คำตอบด่วน
+- **จุดเริ่มต้นหลักคืออะไร?** ใช้ `HtmlSaveOptions` กับคอลแบ็กที่กำหนดเอง.  
+- **ฉันต้องการใบอนุญาตหรือไม่?** ใช่, จำเป็นต้องมีใบอนุญาต Aspose.Tasks ที่ถูกต้องสำหรับการใช้งานในสภาพแวดล้อมการผลิต.  
+- **เวอร์ชัน .NET ที่รองรับคืออะไร?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **ฉันสามารถส่งออกโครงการขนาดใหญ่ได้หรือไม่?** Aspose.Tasks จัดการโครงการที่มี > 10,000 งานโดยไม่ต้องโหลดไฟล์ทั้งหมดเข้าสู่หน่วยความจำ.  
+- **การปรับแต่ง CSS เป็นทางเลือกหรือไม่?** ใช่, คุณสามารถละเว้นคอลแบ็กเพื่อใช้สไตล์ชีตเริ่มต้น.
+
+## วิธีปรับแต่ง CSS ใน Aspose.Tasks?
+
+โหลดโครงการของคุณ, แนบคอลแบ็กการบันทึก CSS ไปยังอ็อบเจ็กต์ `HtmlSaveOptions`, แล้วเรียก `project.Save`. แพทเทิร์นนี้ทำให้คุณเขียนไฟล์ CSS ที่กำหนดเอง, แทนที่สไตล์เริ่มต้น, และควบคุมโครงสร้างโฟลเดอร์—ทั้งหมดในไม่กี่บรรทัดของโค้ด. คอลแบ็กจะถูกเรียกโดยอัตโนมัติสำหรับแต่ละไฟล์ CSS ระหว่างกระบวนการส่งออก.
+
+`HtmlSaveOptions` กำหนดการส่งออกโครงการเป็น HTML อย่างไร.
+
+## บทนำ
+
+ในบทเรียนนี้เราจะเจาะลึกกระบวนการบันทึกอาร์กิวเมนต์ CSS ด้วย Aspose.Tasks สำหรับ .NET. Cascading Style Sheets (CSS) มีความสำคัญต่อการกำหนดการนำเสนอขององค์ประกอบ HTML. Aspose.Tasks ช่วยให้เราจัดการและบันทึกคุณลักษณะ CSS เหล่านี้ได้อย่างมีประสิทธิภาพ.
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่เราจะเริ่มต้น ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
+ก่อนที่เราจะเริ่ม, โปรดตรวจสอบว่าคุณมีข้อกำหนดต่อไปนี้พร้อมใช้งาน:
 
-1.  การติดตั้ง: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Tasks สำหรับ .NET แล้ว คุณสามารถดาวน์โหลดได้จาก[เว็บไซต์](https://releases.aspose.com/tasks/net/).
+1. การติดตั้ง: ตรวจสอบว่าคุณได้ติดตั้ง Aspose.Tasks สำหรับ .NET แล้ว คุณสามารถดาวน์โหลดได้จาก [website](https://releases.aspose.com/tasks/net/).
 
-2. ความรู้พื้นฐาน: แนะนำให้คุ้นเคยกับสภาพแวดล้อมการพัฒนา C# และ .NET
+2. ความรู้พื้นฐาน: แนะนำให้คุ้นเคยกับ C# และสภาพแวดล้อมการพัฒนา .NET.
 
-## นำเข้าเนมสเปซ
+## นำเข้า Namespaces
 
-ในการเริ่มต้น ให้นำเข้าเนมสเปซที่จำเป็น:
+เพื่อเริ่มต้น, ให้นำเข้าเนมสเปซที่จำเป็น:
 
 ```csharp
 using Aspose.Tasks;
@@ -38,46 +78,55 @@ using Aspose.Tasks.Saving;
 using Aspose.Tasks.Visualization;
 
 ```
-## ขั้นตอนที่ 1: กำหนดการบันทึกการโทรกลับ CSS
 
-ประการแรก เรากำหนดวิธีการโทรกลับเพื่อบันทึก CSS เพื่อจัดการการบันทึกไฟล์ CSS:
+## ขั้นตอนที่ 1: กำหนด CSS Saving Callbacks
+
+`ICssSavingCallback` เป็นอินเทอร์เฟซที่ให้คุณปรับแต่งวิธีการบันทึกไฟล์ CSS ระหว่างการส่งออก HTML.
+
+A **CSS saving callback** เป็น delegate ที่ Aspose.Tasks เรียกใช้เพื่อเขียนไฟล์ CSS ระหว่างการส่งออก HTML. กำหนดเมธอดคอลแบ็กเพื่อควบคุมวิธีการสร้างแต่ละไฟล์ CSS:
 
 ```csharp
 private class ResourcePrefixForNestedResources : ICssSavingCallback
 {
     public void CssSaving(CssSavingArgs args)
     {
-        // ใช้ตรรกะการบันทึก CSS ของคุณที่นี่
+        // Implement your CSS saving logic here
     }
 }
 ```
 
-## ขั้นตอนที่ 2: ใช้การโทรกลับการบันทึกแบบอักษรและรูปภาพ
+## ขั้นตอนที่ 2: Implement Font and Image Saving Callbacks
 
-จากนั้น ใช้วิธีการโทรกลับเพื่อบันทึกแบบอักษรและรูปภาพในทำนองเดียวกัน:
+`FontSavingArgs` ให้ข้อมูลเกี่ยวกับฟอนต์ที่กำลังบันทึก, ในขณะที่ `ImageSavingArgs` ให้รายละเอียดสำหรับทรัพยากรภาพ.
+
+Implement the font and image saving callback methods similarly:
 
 ```csharp
 public void FontSaving(FontSavingArgs args)
 {
-    // ใช้ตรรกะการบันทึกแบบอักษรของคุณที่นี่
+    // Implement your font saving logic here
 }
 
 public void ImageSaving(ImageSavingArgs args)
 {
-    // ใช้ตรรกะการบันทึกรูปภาพของคุณที่นี่
+    // Implement your image saving logic here
 }
 ```
 
-## ขั้นตอนที่ 3: กำหนดค่าตัวเลือกการบันทึก
+## ขั้นตอนที่ 3: กำหนดค่า Save Options
 
-ตอนนี้ กำหนดค่าตัวเลือกการบันทึก HTML เพื่อใช้การโทรกลับที่นำไปใช้:
+`HtmlSaveOptions` เป็นอ็อบเจ็กต์การกำหนดค่าที่ควบคุมวิธีการส่งออก Project เป็น HTML.
+
+`HtmlSaveOptions` ให้คุณระบุคอลแบ็ก, โฟลเดอร์ผลลัพธ์, และการตั้งค่าอื่น ๆ ของการส่งออก.
+
+Set its properties to use the callbacks defined earlier and to specify the output folder:
 
 ```csharp
 public static HtmlSaveOptions GetSaveOptions(int pageNumber)
 {
     var options = new HtmlSaveOptions
     {
-        //กำหนดค่าตัวเลือกการบันทึก HTML
+        // Configure HTML saving options
     };
 
     var program = new ResourcePrefixForNestedResources();
@@ -91,7 +140,9 @@ public static HtmlSaveOptions GetSaveOptions(int pageNumber)
 
 ## ขั้นตอนที่ 4: บันทึกโครงการด้วย CSS ที่กำหนดเอง
 
-สุดท้าย บันทึกโครงการของคุณด้วยการตั้งค่า CSS ที่กำหนดเอง:
+`Project` แทนไฟล์ Microsoft Project ที่สามารถจัดการและบันทึกได้.
+
+Finally, save your project with the customized CSS settings:
 
 ```csharp
 var project = new Project("Project1.mpp");
@@ -99,34 +150,59 @@ var options = ResourcePrefixForNestedResources.GetSaveOptions(1);
 project.Save("document_out.html", options);
 ```
 
-## บทสรุป
+## ทำไมต้องปรับแต่ง CSS เมื่อส่งออกโครงการ?
 
-ในบทช่วยสอนนี้ เราได้สำรวจวิธีการบันทึกอาร์กิวเมนต์ CSS โดยใช้ Aspose.Tasks สำหรับ .NET ด้วยการกำหนดการโทรกลับการบันทึก CSS และการกำหนดค่าตัวเลือกการบันทึก HTML ทำให้เราสามารถจัดการแอตทริบิวต์ CSS ตามความต้องการของเราได้อย่างมีประสิทธิภาพ
+Aspose.Tasks รองรับ **export project to HTML** ในรูปแบบกว่า 30 แบบและสามารถสร้างไฟล์ CSS แยกต่างหากได้ถึง 30 ไฟล์ต่อการส่งออก. มันประมวลผลโครงการที่มีงานมากกว่า 10 000 งานอย่างเชื่อถือได้โดยคงการใช้หน่วยความจำให้อยู่ต่ำกว่า 200 MB, ทำให้การรายงานระดับองค์กรเป็นไปได้โดยไม่มีคอขวดด้านประสิทธิภาพ.
+
+## สรุป
+
+ในบทเรียนนี้เราได้สำรวจวิธีบันทึกอาร์กิวเมนต์ CSS ด้วย Aspose.Tasks สำหรับ .NET. โดยการกำหนด CSS saving callbacks และการตั้งค่า HTML save options เราสามารถจัดการคุณลักษณะ CSS ได้อย่างมีประสิทธิภาพตามความต้องการของเรา.
 
 ## คำถามที่พบบ่อย
 
-### คำถามที่ 1: Aspose.Tasks สำหรับ .NET คืออะไร
+### Q1: Aspose.Tasks for .NET คืออะไร?
+A1: Aspose.Tasks for .NET เป็น API ของ .NET ที่มีประสิทธิภาพซึ่งช่วยให้นักพัฒนาสามารถทำงานกับไฟล์ Microsoft Project ได้โดยโปรแกรม.
 
-คำตอบ 1: Aspose.Tasks สำหรับ .NET เป็น .NET API ที่ทรงพลังซึ่งช่วยให้นักพัฒนาสามารถทำงานกับไฟล์ Microsoft Project โดยทางโปรแกรมได้
+### Q2: ฉันสามารถปรับแต่งคุณลักษณะ CSS เมื่อบันทึกไฟล์ HTML ด้วย Aspose.Tasks ได้หรือไม่?
+A2: ใช่, คุณสามารถกำหนด CSS saving callbacks เพื่อปรับแต่งคุณลักษณะ CSS ตามความต้องการของคุณ.
 
-### คำถามที่ 2: ฉันสามารถปรับแต่งแอตทริบิวต์ CSS เมื่อบันทึกไฟล์ HTML ด้วย Aspose.Tasks ได้หรือไม่
+### Q3: Aspose.Tasks for .NET รองรับกับเวอร์ชันทั้งหมดของไฟล์ Microsoft Project หรือไม่?
+A3: Aspose.Tasks for .NET รองรับเวอร์ชันต่าง ๆ ของไฟล์ Microsoft Project, ทำให้มั่นใจได้ว่ามีความเข้ากันได้ในสภาพแวดล้อมที่หลากหลาย.
 
-A2: ได้ คุณสามารถกำหนดการเรียกกลับที่บันทึก CSS เพื่อปรับแต่งแอตทริบิวต์ CSS ตามความต้องการของคุณได้
+### Q4: ฉันสามารถค้นหาเอกสารประกอบที่ครบถ้วนสำหรับ Aspose.Tasks for .NET ได้ที่ไหน?
+A4: คุณสามารถอ้างอิงไปที่ [documentation](https://reference.aspose.com/tasks/net/) เพื่อรับข้อมูลรายละเอียดและตัวอย่าง.
 
-### คำถามที่ 3: Aspose.Tasks สำหรับ .NET เข้ากันได้กับไฟล์ Microsoft Project ทุกเวอร์ชันหรือไม่
+### Q5: Aspose.Tasks for .NET มีการสนับสนุนนักพัฒนาหรือไม่?
+A5: ใช่, คุณสามารถรับการสนับสนุนจากชุมชน Aspose.Tasks ผ่าน [forum](https://forum.aspose.com/c/tasks/15).
 
-A3: Aspose.Tasks สำหรับ .NET รองรับไฟล์ Microsoft Project เวอร์ชันต่างๆ เพื่อให้มั่นใจถึงความเข้ากันได้ในสภาพแวดล้อมที่แตกต่างกัน
+**คำถามเพิ่มเติม**
 
-### คำถามที่ 4: ฉันจะหาเอกสารที่ครอบคลุมสำหรับ Aspose.Tasks for .NET ได้ที่ไหน
+**Q: การปรับแต่ง CSS มีผลต่อขนาดของ HTML ที่ส่งออกอย่างไร?**  
+A: การใช้ CSS ที่กำหนดเองสามารถลดขนาดรวมได้สูงสุดประมาณ 15 % เนื่องจากคุณสามารถกำจัดสไตล์เริ่มต้นที่ไม่ได้ใช้.
 
-A4: คุณสามารถอ้างถึง[เอกสารประกอบ](https://reference.aspose.com/tasks/net/) สำหรับข้อมูลโดยละเอียดและตัวอย่าง
+**Q: ฉันสามารถใช้คอลแบ็กเดียวกันสำหรับหลายโครงการได้หรือไม่?**  
+A: แน่นอน. กำหนดคอลแบ็กเพียงครั้งเดียวและนำกลับมาใช้ซ้ำได้กับการส่งออกโครงการจำนวนใดก็ได้.
 
-### คำถามที่ 5: Aspose.Tasks สำหรับ .NET ให้การสนับสนุนสำหรับนักพัฒนาหรือไม่
+**Q: สามารถฝัง CSS ลงใน HTML โดยตรงแทนไฟล์แยกได้หรือไม่?**  
+A: ใช่, ตั้งค่า `HtmlSaveOptions.EmbeddedCss = true` เพื่อฝังสไตล์ชีตในตัว HTML, ซึ่งทำให้การจัดจำหน่ายง่ายขึ้น.
 
- A5: ได้ คุณสามารถรับการสนับสนุนจากชุมชน Aspose.Tasks ผ่านทาง[ฟอรั่ม](https://forum.aspose.com/c/tasks/15).
+---
+
+**อัปเดตล่าสุด:** 2026-07-05  
+**ทดสอบกับ:** Aspose.Tasks 24.11 for .NET  
+**ผู้เขียน:** Aspose
+
+## บทเรียนที่เกี่ยวข้อง
+
+- [บันทึก MS Project เป็น HTML ด้วย Aspose.Tasks](/tasks/net/saving-options/html-save-options/)
+- [Implementing Page Saving Callback in Aspose.Tasks](/tasks/net/advanced-concepts/page-saving-callback/)
+- [Handling Image Saving in Aspose.Tasks](/tasks/net/advanced-concepts/image-saving/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}

@@ -1,100 +1,185 @@
 ---
-title: Aspose.Tasks 中的成本應計類型
-linktitle: Aspose.Tasks 中的成本應計類型
+date: 2026-07-05
+description: 了解如何使用 Aspose.Tasks for .NET 追蹤專案預算與管理專案成本。定義 Cost Accrual Types 以實現精確的成本追蹤。
+keywords:
+- track project budget
+- manage project costs
+- how to set accrual
+- define project cost tracking
+- access resource by id
+linktitle: Aspose.Tasks 中的 Cost Accrual Types
+schemas:
+- author: Aspose
+  dateModified: '2026-07-05'
+  description: Learn how to track project budget and manage project costs using Aspose.Tasks
+    for .NET. Define cost accrual types for accurate cost tracking.
+  headline: Track Project Budget with Cost Accrual Types in Aspose.Tasks
+  type: TechArticle
+- description: Learn how to track project budget and manage project costs using Aspose.Tasks
+    for .NET. Define cost accrual types for accurate cost tracking.
+  name: Track Project Budget with Cost Accrual Types in Aspose.Tasks
+  steps:
+  - name: Import Namespaces
+    text: 'Let''s start by importing the necessary namespaces to access Aspose.Tasks
+      functionality in our .NET project: Now that we have the namespaces ready, we
+      can move on to loading a project file.'
+  - name: Load Project File
+    text: The `Project` class represents a Microsoft Project file and provides access
+      to its tasks, resources, and other data. First, we need to load the project
+      file into our application. We create a new `Project` object and initialize it
+      with the path to our project file.
+  - name: Access Resource
+    text: 'The `Resources` collection holds all resources defined in the project.
+      The `GetById` method retrieves a resource by its unique identifier. Next, we
+      access the resource to which we want to apply the cost accrual type. We use
+      the `GetById` method of the `Resources` collection and pass the resource ID '
+  - name: Set Cost Accrual Type
+    text: The `Set` method assigns a value to a resource field. Here, we set the cost
+      accrual type for the resource. In this example, we are setting it to `CostAccrualType.End`,
+      which means costs will not be accrued until remaining work is zero. Choosing
+      `End` is ideal when you want to **track project budget*
+  - name: Continue Working with the Project
+    text: After setting the cost accrual type, you can continue working with the project
+      as needed, performing additional operations or calculations such as generating
+      cost reports, updating assignments, or exporting the file.
+  type: HowTo
+- questions:
+  - answer: Yes, iterate through `project.Resources` and assign the desired `CostAccrualType`
+      to each resource within a `foreach` loop.
+    question: Can I change the cost accrual type for multiple resources simultaneously?
+  - answer: Aspose.Tasks provides `Start`, `Prorated`, and `Duration`—each aligns
+      with a different billing strategy.
+    question: What are the other available cost accrual types besides `End`?
+  - answer: Retrieve the value via `resource.Get(TskResource.CostAccrualType)`; it
+      returns the enum representing the current setting.
+    question: How can I determine the current cost accrual type for a specific resource?
+  - answer: Absolutely. Both tasks and resources expose a `CostAccrualType` property,
+      allowing independent configuration per entity.
+    question: Is it possible to apply different cost accrual types to different tasks
+      in the same project?
+  - answer: No, the library currently supports the four built‑in types only; custom
+      logic must be implemented externally if required.
+    question: Does Aspose.Tasks support custom cost accrual types?
+  type: FAQPage
 second_title: Aspose.Tasks .NET API
-description: 了解如何使用 Aspose.Tasks for .NET 有效管理專案成本。定義成本應計類型以準確追蹤預算。
-weight: 19
+title: 使用 Aspose.Tasks 追蹤專案預算與 Cost Accrual Types
 url: /zh-hant/net/calendar-scheduling/cost-accrual-types/
+weight: 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks 中的成本應計類型
+# 使用 Aspose.Tasks 的成本累計類型追蹤專案預算
 
-## 介紹
+## 簡介
 
-在專案管理中，準確追蹤成本對於維持預算控制和確保專案成功至關重要。 Aspose.Tasks for .NET 提供了一套強大的工具來管理專案成本，包括定義不同成本應計類型的能力。本教學將引導您完成使用 Aspose.Tasks for .NET 來理解和實作成本應計類型的過程。
+準確 **追蹤專案預算** 是成功交付專案的基礎。當成本資訊在適當時機被捕捉時，你可以預測超支、調整資源，並讓利害關係人即時掌握。Aspose.Tasks for .NET 為開發者提供細緻的成本累計控制，讓你自行決定 *何時* 記錄成本——無論是在工作開始時、持續累計，或僅在工作完成時。本教學將說明相關概念、示範如何設定累計類型，並提供可靠預算追蹤的最佳實踐。
+
+## 快速解答
+- **成本累計類型的主要目的為何？** 它決定在任務生命週期的哪個階段認列成本，從而實現精確的預算追蹤。  
+- **哪個列舉值會延遲成本至工作完成才認列？** `CostAccrualType.End`。  
+- **執行程式碼是否需要授權？** 需要，有效的 Aspose.Tasks 授權是正式環境使用的前提。  
+- **是否可以一次變更多個資源的累計類型？** 可以——遍歷 `Resources` 集合並指派所需類型即可。  
+- **支援哪些 .NET 版本？** .NET Framework 4.5 以上、.NET Core 3.1 以上、.NET 5/6/7。
+
+## 什麼是成本累計類型？
+**成本累計類型** 告訴 Aspose.Tasks 何時將資源的成本套用到專案預算。它以 `CostAccrualType` 列舉表示，可於資源或任務層級設定。選擇正確的類型可確保成本資料符合組織的計費政策，無論是需要在工作開始時記錄、依期間比例分配，或僅在完成後認列。
+
+## 為何使用成本累計類型追蹤專案預算？
+Aspose.Tasks 支援 **四種** 累計選項——`Start`、`Prorated`、`Duration`、`End`——涵蓋常見的專案會計情境。選擇適當的選項可讓成本認列與合約計費週期同步、降低財務報表差異，並產生可順利整合至 ERP 系統的成本報表，同時在大型專案中保持低記憶體使用量。
 
 ## 先決條件
 
-在我們開始之前，請確保您符合以下先決條件：
+在開始之前，請確保具備以下條件：
 
-### 1.安裝Aspose.Tasks for .NET
+### 1. 安裝 Aspose.Tasks for .NET
+首先，需要在開發環境中安裝 Aspose.Tasks for .NET。可從[下載頁面](https://releases.aspose.com/tasks/net/)取得程式庫，並依照提供的安裝說明進行設定。
 
-首先，您需要在開發環境中安裝 Aspose.Tasks for .NET。您可以從以下位置下載該程式庫[下載頁面](https://releases.aspose.com/tasks/net/)並按照提供的安裝說明進行操作。
+### 2. 熟悉 .NET Framework
+需要具備 .NET Framework 與 C# 程式語言的基本知識，才能順利跟隨本教學中的範例。
 
-### 2. 熟悉.NET Framework
+## 如何為資源設定成本累計類型？
 
-遵循本教程中的範例需要具備 .NET 框架和 C# 程式語言的基本知識。
+載入專案、定位目標資源，然後指派所需的 `CostAccrualType`。以下兩行程式碼模式是標準做法：建立 `Project` 實例、依 ID 取得資源，最後設定 `CostAccrualType`。此簡潔流程確保從資源加入的那一刻起，即可 **準確追蹤專案預算**。
 
-## 導入命名空間
-
-首先，我們導入必要的命名空間來存取 .NET 專案中的 Aspose.Tasks 功能：
+### 步驟 1：匯入命名空間
+先匯入必要的命名空間，以在 .NET 專案中存取 Aspose.Tasks 功能：
 
 ```csharp
 
 ```
 
-現在我們已經介紹了先決條件並導入了所需的命名空間，讓我們繼續將每個範例分解為多個步驟。
+完成命名空間的引用後，我們即可繼續載入專案檔案。
 
-## 第 1 步：載入專案文件
+### 步驟 2：載入專案檔案
+`Project` 類別代表 Microsoft Project 檔案，提供對其任務、資源及其他資料的存取。
 
 ```csharp
 var project = new Project("Project2.mpp");
 ```
 
-首先，我們需要將專案文件載入到我們的應用程式中。我們創建一個新的`Project`物件並使用我們的專案文件的路徑對其進行初始化。
+首先，我們需要將專案檔案載入應用程式。建立新的 `Project` 物件，並以專案檔案路徑作為建構子參數。
 
-## 第 2 步：訪問資源
+### 步驟 3：存取資源
+`Resources` 集合包含專案中定義的所有資源。`GetById` 方法可依唯一識別碼取得資源。
 
 ```csharp
 var resource = project.Resources.GetById(1);
 ```
 
-接下來，我們存取要應用成本應計類型的資源。我們使用`GetById`的方法`Resources`集合並將資源 ID 作為參數傳遞。
+接著，我們存取欲套用成本累計類型的資源。使用 `Resources` 集合的 `GetById` 方法，傳入資源 ID。此步驟示範 **依 ID 存取資源**，是自動化成本更新的常見需求。
 
-## 步驟 3：設定成本應計類型
+### 步驟 4：設定成本累計類型
+`Set` 方法用於為資源欄位指派值。
 
 ```csharp
 resource.Set(Rsc.AccrueAt, CostAccrualType.End);
 ```
 
-在這裡，我們設定資源的成本應計類型。在本例中，我們將其設定為`CostAccrualType.End`，這意味著在剩餘工作量為零之前不會產生成本。
+此處，我們將資源的成本累計類型設定為 `CostAccrualType.End`，表示成本將在剩餘工作為零時才累計。選擇 `End` 適用於希望在任務完全完成後才 **追蹤專案預算** 的情境。
 
-## 第 4 步：處理項目
+### 步驟 5：繼續處理專案
+設定完成本累計類型後，可依需求繼續對專案執行其他操作，例如產生成本報表、更新指派或匯出檔案。
 
-設定成本應計類型後，您可以根據需要繼續處理項目，執行其他操作或計算。
+## 常見陷阱與專業提示
+- **專業提示：** 在修改累計類型後務必呼叫 `project.Save`，以確保變更寫入檔案。  
+- **陷阱：** 若在從未開始工作的資源上設定 `CostAccrualType.Start`，會導致預算報表膨脹——請先確認任務排程。  
+- **專業提示：** 需要批次更新大量資源時，可使用 `project.Resources.ToList()`，避免重複查找集合，提升大型專案的效能。
 
-## 結論
+## 常見問題
 
-了解和實施成本應計類型對於有效的專案成本管理至關重要。透過 Aspose.Tasks for .NET，您可以根據專案需求輕鬆定義和自訂成本應計類型，確保整個專案生命週期中準確的成本追蹤和預算控制。
+**Q: 可以同時變更多個資源的成本累計類型嗎？**  
+A: 可以，遍歷 `project.Resources`，在 `foreach` 迴圈中為每個資源指派所需的 `CostAccrualType`。
 
-## 常見問題解答
+**Q: 除了 `End`，還有哪些可用的成本累計類型？**  
+A: Aspose.Tasks 提供 `Start`、`Prorated`、`Duration`，每種皆對應不同的計費策略。
 
-### Q1：我可以同時更改多個資源的成本應計類型嗎？
+**Q: 如何取得特定資源目前的成本累計類型？**  
+A: 透過 `resource.Get(TskResource.CostAccrualType)` 取得，回傳代表目前設定的列舉值。
 
-A1：是的，您可以循環遍歷資源集合併單獨為每個資源設定成本應計類型。
+**Q: 能否在同一專案的不同任務上套用不同的成本累計類型？**  
+A: 當然可以。任務與資源皆暴露 `CostAccrualType` 屬性，允許針對每個實體獨立設定。
 
-### Q2：除了「結束」之外，還有哪些可用的成本應計類型？
+**Q: Aspose.Tasks 支援自訂成本累計類型嗎？**  
+A: 不支援，函式庫目前僅提供四種內建類型；若需自訂邏輯，必須在程式外自行實作。
 
-A2：Aspose.Tasks for .NET 提供了幾種其他成本應計類型，例如`Start`, `Prorated`， 和`Duration`.
+---
 
-### 問題 3：如何確定資源目前的成本應計類型？
-
- A3：您可以使用下列指令擷取目前的成本應計類型：`Get`資源對像上的方法。
-
-### 問題 4：我可以對同一專案中的不同任務應用不同的成本應計類型嗎？
-
-A4：是的，您可以為專案中的每個任務和資源單獨設定成本應計類型。
-
-### Q5：Aspose.Tasks for .NET 支援自訂成本應計類型嗎？
-
-A5：從最新版本開始，Aspose.Tasks for .NET 不支援定義自訂成本應計類型。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**最後更新：** 2026-07-05  
+**測試環境：** Aspose.Tasks 24.8 for .NET  
+**作者：** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## 相關教學
+
+- [Aspose.Tasks 行事曆與排程](/tasks/net/calendar-scheduling/)
+- [使用 Aspose.Tasks for .NET 處理 MS Project 费率](/tasks/net/rate-recurring-tasks/handling-rates/)
+- [輕鬆管理 MS Project 資源的 Aspose.Tasks](/tasks/net/resource-risk-analysis/managing-resources/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}

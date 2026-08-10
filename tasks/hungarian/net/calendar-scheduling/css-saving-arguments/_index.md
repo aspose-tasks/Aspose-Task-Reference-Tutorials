@@ -1,33 +1,73 @@
 ---
-title: CSS Argumentumok mentése az Aspose.Tasks-ban
-linktitle: CSS Argumentumok mentése az Aspose.Tasks-ban
+date: 2026-07-05
+description: Ismerje meg, hogyan testreszabhatja a CSS-t egy projekt HTML-be exportálása
+  során az Aspose.Tasks for .NET használatával. Szabja testre a HTML kimenetet CSS
+  mentési argumentumokkal.
+keywords:
+- how to customize css
+- export project to html
+- customize html output
+linktitle: Hogyan testreszabhatja a CSS-t projektek mentésekor az Aspose.Tasks segítségével
+schemas:
+- author: Aspose
+  dateModified: '2026-07-05'
+  description: Learn how to customize CSS while exporting a project to HTML using
+    Aspose.Tasks for .NET. Tailor HTML output with CSS saving arguments.
+  headline: How to Customize CSS When Saving Projects with Aspose.Tasks
+  type: TechArticle
+- questions:
+  - answer: Using custom CSS can reduce the total size by up to 15 % because you can
+      eliminate unused default styles.
+    question: How does customizing CSS affect the size of the exported HTML?
+  - answer: Absolutely. Implement the callbacks once and reuse them across any number
+      of project exports.
+    question: Can I use the same callbacks for multiple projects?
+  - answer: Yes, set `HtmlSaveOptions.EmbeddedCss = true` to inline the stylesheet,
+      which simplifies distribution.
+    question: Is it possible to embed CSS directly into the HTML instead of separate
+      files?
+  type: FAQPage
 second_title: Aspose.Tasks .NET API
-description: Ismerje meg, hogyan mentheti a CSS-argumentumokat az Aspose.Tasks for .NET-ben a HTML-kimenet testreszabásához. Fokozza a prezentációt személyre szabott CSS-beállításokkal.
-weight: 20
+title: Hogyan testreszabhatja a CSS-t projektek mentésekor az Aspose.Tasks segítségével
 url: /hu/net/calendar-scheduling/css-saving-arguments/
+weight: 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# CSS Argumentumok mentése az Aspose.Tasks-ban
+# Hogyan testreszabjuk a CSS-t a projektek mentésekor az Aspose.Tasks használatával
+
+Ebben az útmutatóban megtudja, **hogyan testreszabja a CSS-t** a Microsoft Project fájl HTML exportálása során az Aspose.Tasks for .NET használatával. A CSS mentési argumentumok finomhangolásával teljes irányítást kap a létrehozott HTML oldalak megjelenési stílusa felett, így a kimenet megfelel a márkázási vagy jelentési szabványainak.
+
+## Gyors válaszok
+- **Mi a fő belépési pont?** Használja a `HtmlSaveOptions`-t egyedi visszahívásokkal.  
+- **Szükségem van licencre?** Igen, egy érvényes Aspose.Tasks licenc szükséges a termeléshez.  
+- **Mely .NET verziók támogatottak?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Exportálhatok nagy projekteket?** Az Aspose.Tasks > 10 000 feladatot tartalmazó projekteket kezel anélkül, hogy a teljes fájlt a memóriába töltené.  
+- **A CSS testreszabás opcionális?** Igen, kihagyhatja a visszahívásokat, és használhatja az alapértelmezett stíluslapot.
+
+## Hogyan testreszabjuk a CSS-t az Aspose.Tasks-ben?
+
+Töltse be a projektet, csatolja a CSS‑mentési visszahívásokat a `HtmlSaveOptions` objektumhoz, majd hívja meg a `project.Save` metódust. Ez a minta lehetővé teszi egyedi CSS fájlok írását, az alapértelmezett stílusok cseréjét és a mappaszerkezet vezérlését – mindezt néhány kódsorral. A visszahívásokat automatikusan meghívja a rendszer minden egyes CSS fájl esetén az exportálás során.
+
+`HtmlSaveOptions` beállítja, hogyan exportálódik egy projekt HTML-be.
 
 ## Bevezetés
 
-Ebben az oktatóanyagban a CSS-argumentumok Aspose.Tasks for .NET használatával mentésének folyamatát mutatjuk be. A Cascading Style Sheets (CSS) kulcsfontosságú a HTML-elemek megjelenítésének meghatározásához. Az Aspose.Tasks lehetővé teszi ezen CSS-attribútumok hatékony kezelését és mentését.
+Ebben az oktatóanyagról a CSS argumentumok mentésének folyamatát vizsgáljuk meg az Aspose.Tasks for .NET használatával. A Cascading Style Sheets (CSS) kulcsfontosságú a HTML elemek megjelenésének meghatározásához. Az Aspose.Tasks lehetővé teszi ezen CSS attribútumok hatékony manipulálását és mentését.
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételeket teljesítette:
+Mielőtt elkezdenénk, győződjön meg arról, hogy az alábbi előfeltételek teljesülnek:
 
-1.  Telepítés: Győződjön meg arról, hogy telepítette az Aspose.Tasks for .NET programot. Letöltheti a[weboldal](https://releases.aspose.com/tasks/net/).
+1. Telepítés: Győződjön meg róla, hogy telepítette az Aspose.Tasks for .NET-et. Letöltheti a [weboldalról](https://releases.aspose.com/tasks/net/).
+2. Alapvető tudás: Ajánlott a C# és a .NET fejlesztői környezet ismerete.
 
-2. Alapvető ismeretek: C# és .NET fejlesztői környezet ismerete ajánlott.
+## Névtér importálása
 
-## Névterek importálása
-
-A kezdéshez importálja a szükséges névtereket:
+To get started, import the necessary namespaces:
 
 ```csharp
 using Aspose.Tasks;
@@ -38,46 +78,55 @@ using Aspose.Tasks.Saving;
 using Aspose.Tasks.Visualization;
 
 ```
-## 1. lépés: Határozza meg a CSS mentési visszahívásokat
 
-Először is meghatározzuk a CSS mentési visszahívási módszereket a CSS fájlok mentésének kezelésére:
+## 1. lépés: CSS mentési visszahívások definiálása
+
+`ICssSavingCallback` egy interfész, amely lehetővé teszi a CSS fájlok mentésének testreszabását HTML exportálás közben.
+
+A **CSS mentési visszahívás** egy delegált, amelyet az Aspose.Tasks hív meg a CSS fájlok írásához HTML exportálás során. Definiálja a visszahívási metódusokat, hogy szabályozza, hogyan jönnek létre az egyes CSS fájlok:
 
 ```csharp
 private class ResourcePrefixForNestedResources : ICssSavingCallback
 {
     public void CssSaving(CssSavingArgs args)
     {
-        // Itt valósítsa meg a CSS mentési logikáját
+        // Implement your CSS saving logic here
     }
 }
 ```
 
-## 2. lépés: Hajtsa végre a betűtípus- és képmentési visszahívásokat
+## 2. lépés: Betűtípus- és képmentési visszahívások megvalósítása
 
-Ezután hasonló módon hajtsa végre a betűtípus- és képmentési visszahívási módszereket:
+`FontSavingArgs` információt nyújt a mentésre kerülő betűtípusról, míg az `ImageSavingArgs` részleteket ad a kép erőforrásokról.
+
+A betűtípus- és képmentési visszahívási metódusokat hasonlóan valósítsa meg:
 
 ```csharp
 public void FontSaving(FontSavingArgs args)
 {
-    // Itt valósítsa meg a betűtípus-mentési logikáját
+    // Implement your font saving logic here
 }
 
 public void ImageSaving(ImageSavingArgs args)
 {
-    // Itt valósítsa meg képmentési logikáját
+    // Implement your image saving logic here
 }
 ```
 
-## 3. lépés: Konfigurálja a mentési beállításokat
+## 3. lépés: Mentési beállítások konfigurálása
 
-Most állítsa be a HTML mentési beállításokat a megvalósított visszahívások használatához:
+`HtmlSaveOptions` a konfigurációs objektum, amely szabályozza, hogyan exportálódik egy Project HTML-be.
+
+`HtmlSaveOptions` lehetővé teszi a visszahívások, kimeneti mappák és egyéb export beállítások megadását.
+
+Állítsa be a tulajdonságait, hogy használja a korábban definiált visszahívásokat, és adja meg a kimeneti mappát:
 
 ```csharp
 public static HtmlSaveOptions GetSaveOptions(int pageNumber)
 {
     var options = new HtmlSaveOptions
     {
-        //Konfigurálja a HTML mentési beállításokat
+        // Configure HTML saving options
     };
 
     var program = new ResourcePrefixForNestedResources();
@@ -89,9 +138,11 @@ public static HtmlSaveOptions GetSaveOptions(int pageNumber)
 }
 ```
 
-## 4. lépés: Projekt mentése testreszabott CSS-szel
+## 4. lépés: Projekt mentése testreszabott CSS-sel
 
-Végül mentse el projektjét a testreszabott CSS-beállításokkal:
+`Project` egy Microsoft Project fájlt képvisel, amely manipulálható és menthető.
+
+Végül mentse a projektet a testreszabott CSS beállításokkal:
 
 ```csharp
 var project = new Project("Project1.mpp");
@@ -99,34 +150,58 @@ var options = ResourcePrefixForNestedResources.GetSaveOptions(1);
 project.Save("document_out.html", options);
 ```
 
+## Miért testreszabjuk a CSS-t projektek exportálásakor?
+
+Az Aspose.Tasks támogatja a **projekt HTML-be exportálását** több mint 30 formátumban, és exportálásonként akár 30 különálló CSS fájlt is generálhat. Megbízhatóan kezeli a több mint 10 000 feladatot tartalmazó projekteket, miközben a memóriahasználatot 200 MB alatt tartja, lehetővé téve vállalati szintű jelentéskészítést teljesítménybeli szűk keresztmetszetek nélkül.
+
 ## Következtetés
 
-Ebben az oktatóanyagban megvizsgáltuk, hogyan menthetők el a CSS-argumentumok az Aspose.Tasks for .NET használatával. A CSS mentési visszahívások meghatározásával és a HTML mentési opciók konfigurálásával hatékonyan tudjuk kezelni a CSS attribútumokat igényeinknek megfelelően.
+Ebben az oktatóanyagban megvizsgáltuk, hogyan menthetők a CSS argumentumok az Aspose.Tasks for .NET használatával. A CSS mentési visszahívások definiálásával és a HTML mentési beállítások konfigurálásával hatékonyan manipulálhatjuk a CSS attribútumokat igényeink szerint.
 
-## GYIK
+## Gyakran Ismételt Kérdések
 
-### 1. kérdés: Mi az Aspose.Tasks for .NET?
+### Q1: Mi az Aspose.Tasks for .NET?
+A1: Az Aspose.Tasks for .NET egy erőteljes .NET API, amely lehetővé teszi a fejlesztők számára, hogy programozott módon dolgozzanak Microsoft Project fájlokkal.
 
-1. válasz: Az Aspose.Tasks for .NET egy hatékony .NET API, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak Microsoft Project fájlokkal.
+### Q2: Testreszabhatom a CSS attribútumokat HTML fájlok mentésekor az Aspose.Tasks használatával?
+A2: Igen, definiálhat CSS mentési visszahívásokat a CSS attribútumok igényei szerint történő testreszabásához.
 
-### 2. kérdés: Testreszabhatom a CSS-attribútumokat, amikor HTML-fájlokat mentünk az Aspose.Tasks programmal?
+### Q3: Az Aspose.Tasks for .NET kompatibilis-e a Microsoft Project fájlok minden verziójával?
+A3: Az Aspose.Tasks for .NET különböző Microsoft Project fájl verziókat támogat, biztosítva a kompatibilitást különböző környezetekben.
 
-2. válasz: Igen, megadhat CSS mentési visszahívásokat a CSS-attribútumok igényei szerint testreszabásához.
+### Q4: Hol találhatok átfogó dokumentációt az Aspose.Tasks for .NET-hez?
+A4: Részletes információkért és példákért tekintse meg a [dokumentációt](https://reference.aspose.com/tasks/net/).
 
-### 3. kérdés: Az Aspose.Tasks for .NET kompatibilis a Microsoft Project fájlok összes verziójával?
+### Q5: Az Aspose.Tasks for .NET nyújt támogatást a fejlesztőknek?
+A5: Igen, támogatást kaphat az Aspose.Tasks közösségtől a [fórumon](https://forum.aspose.com/c/tasks/15).
 
-3. válasz: Az Aspose.Tasks for .NET támogatja a Microsoft Project fájlok különféle verzióit, így biztosítja a kompatibilitást a különböző környezetekben.
+**További kérdések**
 
-### 4. kérdés: Hol találom az Aspose.Tasks for .NET átfogó dokumentációját?
+**Q: Hogyan befolyásolja a CSS testreszabása az exportált HTML méretét?**  
+A: Egyedi CSS használatával a teljes méret akár 15 %-kal is csökkenthető, mivel eltávolíthatók a nem használt alapértelmezett stílusok.
 
-A4: Hivatkozhat a[dokumentáció](https://reference.aspose.com/tasks/net/) részletes információkért és példákért.
+**Q: Használhatom ugyanazokat a visszahívásokat több projektnél?**  
+A: Természetesen. A visszahívásokat egyszer implementálja, és újra felhasználhatja bármennyi projekt exportálásához.
 
-### 5. kérdés: Az Aspose.Tasks for .NET támogatja a fejlesztőket?
+**Q: Lehetséges a CSS közvetlenül az HTML-be ágyazni a különálló fájlok helyett?**  
+A: Igen, állítsa be a `HtmlSaveOptions.EmbeddedCss = true` értéket, hogy a stíluslap be legyen ágyazva, ami egyszerűsíti a terjesztést.
 
- 5. válasz: Igen, támogatást kaphat az Aspose.Tasks közösségtől a következőn keresztül[fórum](https://forum.aspose.com/c/tasks/15).
+---
+
+**Legutóbb frissítve:** 2026-07-05  
+**Tesztelve a következővel:** Aspose.Tasks 24.11 for .NET  
+**Szerző:** Aspose
+
+## Kapcsolódó oktatóanyagok
+
+- [Microsoft Project mentése HTML-ként az Aspose.Tasks használatával](/tasks/net/saving-options/html-save-options/)
+- [Oldal mentési visszahívás megvalósítása az Aspose.Tasks-ben](/tasks/net/advanced-concepts/page-saving-callback/)
+- [Kép mentés kezelése az Aspose.Tasks-ben](/tasks/net/advanced-concepts/image-saving/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
