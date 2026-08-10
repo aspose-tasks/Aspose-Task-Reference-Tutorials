@@ -1,11 +1,15 @@
 ---
-date: 2025-12-31
-description: Pelajari cara membaca properti proyek dan membaca properti khusus di
-  Aspose.Tasks untuk Java. Panduan langkah demi langkah ini menunjukkan cara mengekstrak
-  metadata dari file MPP.
-linktitle: Read Project Properties in Aspose.Tasks Projects
+date: 2026-04-24
+description: Pelajari cara membaca properti proyek Java menggunakan Aspose.Tasks untuk
+  Java. Panduan langkah demi langkah ini menunjukkan cara mengekstrak metadata dari
+  file MPP.
+keywords:
+- read project properties java
+- Aspose.Tasks Java
+- read custom project properties
+linktitle: Baca Properti Proyek Java dengan Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: Baca Properti Proyek pada Proyek Aspose.Tasks
+title: Baca Properti Proyek Java dengan Aspose.Tasks
 url: /id/java/project-properties/read-meta-properties/
 weight: 10
 ---
@@ -14,34 +18,34 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Membaca Properti Proyek di Aspose.Tasks Projects
+# Baca Properti Proyek Java dengan Aspose.Tasks
 
 ## Pendahuluan
-Jika Anda perlu **membaca properti proyek** dari file Microsoft Project, Aspose.Tasks for Java memberikan API yang bersih dan tipe‑aman untuk mengambil metadata bawaan maupun kustom. Dalam tutorial ini Anda akan mengetahui mengapa mengakses properti‑properti ini penting, apa yang dapat Anda lakukan dengan informasi tersebut, dan cara tepat untuk mengambilnya dalam beberapa langkah sederhana.
+Jika Anda perlu **read project properties java** dari file Microsoft Project, Aspose.Tasks untuk Java memberikan API yang bersih dan type‑safe untuk mengambil metadata bawaan maupun kustom. Dalam tutorial ini Anda akan menemukan mengapa mengakses properti ini penting, apa yang dapat Anda lakukan dengan informasi tersebut, dan cara tepat untuk mengambilnya dalam beberapa langkah sederhana.
 
 ## Jawaban Cepat
-- **Apa yang dapat saya ekstrak?** Baik properti bawaan (Author, Title, dll.) maupun properti proyek kustom.  
-- **Versi perpustakaan mana?** Rilis terbaru Aspose.Tasks for Java (kompatibel dengan JDK 11+).  
-- **Prasyarat?** JDK terpasang dan Aspose.Tasks for Java ditambahkan ke proyek Anda.  
-- **Berapa lama implementasinya?** Biasanya kurang dari 10 menit untuk skenario baca‑saja dasar.  
-- **Apakah lisensi diperlukan?** Lisensi sementara dapat digunakan untuk evaluasi; lisensi penuh diperlukan untuk produksi.
+- **Apa yang dapat saya ekstrak?** Both built‑in (Author, Title, etc.) and custom project properties.  
+- **Versi perpustakaan mana?** The latest Aspose.Tasks for Java release (compatible with JDK 11+).  
+- **Prasyarat?** JDK terinstal dan Aspose.Tasks untuk Java ditambahkan ke proyek Anda.  
+- **Berapa lama implementasinya?** Typically under 10 minutes for a basic read‑only scenario.  
+- **Apakah lisensi diperlukan?** A temporary license works for evaluation; a full license is needed for production.
 
-## Apa itu “membaca properti proyek”?
-Membaca properti proyek berarti mengakses metadata yang disimpan di dalam file proyek (misalnya *.mpp*). Metadata ini mencakup detail tingkat jadwal, informasi penulis, dan bidang kustom apa pun yang Anda atau organisasi Anda tambahkan. Dengan mengekspose nilai‑nilai ini, Anda dapat menghasilkan laporan, mengaudit perubahan, atau mengalirkan data ke sistem hilir.
+## Cara Membaca Properti Proyek Java
+Membaca properti proyek berarti mengakses metadata yang disimpan di dalam file proyek (mis., *.mpp*). Metadata ini mencakup detail tingkat jadwal, informasi penulis, dan bidang kustom apa pun yang Anda atau organisasi Anda tambahkan. Dengan mengekspose nilai-nilai ini, Anda dapat menghasilkan laporan, mengaudit perubahan, atau memasukkan data ke sistem hilir.
 
-## Mengapa membaca properti proyek?
-- **Pelaporan yang lebih baik:** Tarik penulis, judul, dan bidang kustom untuk mengisi dasbor.  
-- **Validasi data:** Pastikan properti kustom yang diperlukan ada sebelum diproses.  
-- **Otomatisasi:** Gunakan nilai properti untuk menggerakkan logika bersyarat dalam aplikasi Anda.
+## Mengapa Ini Penting untuk Proyek Anda
+- **Pelaporan yang lebih baik:** Pull author, title, and custom fields to feed dashboards.  
+- **Validasi data:** Ensure required custom properties exist before processing.  
+- **Otomatisasi:** Use property values to drive conditional logic in your applications.  
 
 ## Prasyarat
-Sebelum memulai, pastikan hal‑hal berikut sudah siap:
+Sebelum Anda memulai, pastikan hal berikut siap:
 
-1. **Java Development Kit (JDK):** Instal JDK terbaru dari [here](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
-2. **Aspose.Tasks for Java Library:** Unduh perpustakaan dari [download link](https://releases.aspose.com/tasks/java/) dan tambahkan file JAR ke classpath proyek Anda.
+1. **Java Development Kit (JDK):** Instal JDK terbaru dari [di sini](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
+2. **Aspose.Tasks for Java Library:** Unduh perpustakaan dari [tautan unduhan](https://releases.aspose.com/tasks/java/) dan tambahkan file JAR ke classpath proyek Anda.
 
 ## Impor Paket
-Pertama, impor kelas‑kelas yang diperlukan. Blok kode di bawah ini tidak diubah dari tutorial asli.
+Pertama, impor kelas yang Anda perlukan.
 
 ```java
 import com.aspose.tasks.BuiltInProjectProperty;
@@ -65,7 +69,7 @@ Project project = new Project(dataDir + "project.mpp");
 ```
 
 ## Langkah 3. Baca Properti Kustom
-Untuk **membaca properti kustom**, iterasikan koleksi yang dikembalikan oleh `getCustomProps()`. Loop ini mencetak tipe, nama, dan nilai setiap properti.
+Untuk **read custom properties**, iterasi koleksi yang dikembalikan oleh `getCustomProps()`. Loop ini mencetak tipe, nama, dan nilai setiap properti.
 
 ```java
 for (CustomProjectProperty property : project.getCustomProps()) {
@@ -83,8 +87,8 @@ System.out.println("Author: " + project.getBuiltInProps().getAuthor());
 System.out.println("Title: " + project.getBuiltInProps().getTitle());
 ```
 
-## Langkah 5. Iterasi Melalui Properti Bawaan
-Jika Anda ingin mendaftar semua properti bawaan, gunakan iterable yang dikembalikan oleh `getBuiltInProps()`.
+## Langkah 5. Iterasi Properti Bawaan
+Jika Anda lebih suka mengenumerasi semua properti bawaan, gunakan iterable yang dikembalikan oleh `getBuiltInProps()`.
 
 ```java
 for (BuiltInProjectProperty property : project.getBuiltInProps()) {
@@ -93,30 +97,37 @@ for (BuiltInProjectProperty property : project.getBuiltInProps()) {
 }
 ```
 
-## Masalah Umum & Tips
-- **Nilai null:** Beberapa properti bawaan mungkin `null` jika belum pernah diatur. Selalu periksa `null` sebelum menggunakan nilai tersebut.  
-- **Masalah enkoding:** Saat menangani karakter non‑ASCII, pastikan JVM Anda dikonfigurasi dengan enkoding file yang tepat (misalnya, `-Dfile.encoding=UTF-8`).  
-- **Kinerja:** Membaca properti cepat, namun memuat file *.mpp* yang sangat besar dapat mengonsumsi memori; pertimbangkan menggunakan JVM 64‑bit untuk proyek besar.
+## Kasus Penggunaan Umum
+- **Pembuatan dasbor:** Pull project metadata to populate KPI dashboards.  
+- **Skrip migrasi:** Export custom properties before moving projects to another system.  
+- **Pemeriksaan kepatuhan:** Verify that mandatory fields (e.g., “Project Sponsor”) are populated.
 
-## Kesimpulan
-Dengan mengikuti langkah‑langkah ini Anda kini tahu cara **membaca properti proyek**—baik bawaan maupun kustom—dari proyek Aspose.Tasks. Memanfaatkan metadata ini dapat menyederhanakan pelaporan, meningkatkan kualitas data, dan memberdayakan otomatisasi di seluruh alur kerja manajemen proyek Anda.
+## Pemecahan Masalah & Tips
+- **Nilai null:** Some built‑in properties may be `null` if they were never set. Always check for `null` before using the value.  
+- **Masalah pengkodean:** When dealing with non‑ASCII characters, ensure your JVM is configured with the appropriate file encoding (e.g., `-Dfile.encoding=UTF-8`).  
+- **Kinerja:** Loading very large *.mpp* files can consume significant memory; consider using a 64‑bit JVM and increasing the heap size (`-Xmx2g`).  
 
-## FAQ
-### Q: Bisakah Aspose.Tasks menangani meta‑properti kustom secara efisien?
-A: Aspose.Tasks menyediakan dukungan kuat untuk baik meta‑properti kustom maupun bawaan, memastikan ekstraksi dan manipulasi yang efisien.  
-### Q: Apakah Aspose.Tasks kompatibel dengan berbagai format file proyek?
-A: Ya, Aspose.Tasks mendukung beragam format file proyek, termasuk MPP, XML, dan lainnya.  
-### Q: Bagaimana cara memperoleh lisensi sementara untuk Aspose.Tasks?
-A: Anda dapat memperoleh lisensi sementara untuk Aspose.Tasks melalui [temporary license portal](https://purchase.aspose.com/temporary-license/).  
-### Q: Apakah Aspose.Tasks menawarkan dokumentasi yang komprehensif?
-A: Ya, Anda dapat menemukan dokumentasi lengkap untuk Aspose.Tasks di [documentation page](https://reference.aspose.com/tasks/java/).  
-### Q: Di mana saya dapat mencari dukungan untuk pertanyaan terkait Aspose.Tasks?
-A: Untuk bantuan atau pertanyaan mengenai Aspose.Tasks, kunjungi [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) untuk dukungan khusus dari komunitas dan pakar.
+## Pertanyaan yang Sering Diajukan
+
+**Q: Dapatkah Aspose.Tasks menangani meta‑properties kustom secara efisien?**  
+A: Ya. Aspose.Tasks menyediakan dukungan kuat untuk meta‑properties kustom dan bawaan, memastikan ekstraksi dan manipulasi yang efisien.
+
+**Q: Apakah Aspose.Tasks kompatibel dengan berbagai format file proyek?**  
+A: Tentu saja. Ini mendukung MPP, XML, dan beberapa format lain seperti MPX dan file Planner.
+
+**Q: Bagaimana saya dapat memperoleh lisensi sementara untuk Aspose.Tasks?**  
+A: Anda dapat memperoleh lisensi sementara melalui [portal lisensi sementara](https://purchase.aspose.com/temporary-license/).
+
+**Q: Di mana saya dapat menemukan dokumentasi API yang detail?**  
+A: Dokumentasi lengkap tersedia di [halaman dokumentasi](https://reference.aspose.com/tasks/java/).
+
+**Q: Di mana saya dapat mendapatkan dukungan komunitas atau mengajukan pertanyaan teknis?**  
+A: Kunjungi [forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) untuk bantuan dari komunitas dan pakar Aspose.
 
 ---
 
-**Terakhir Diperbarui:** 2025-12-31  
-**Diuji Dengan:** Aspose.Tasks for Java (rilis terbaru)  
+**Terakhir Diperbarui:** 2026-04-24  
+**Diuji Dengan:** Aspose.Tasks for Java (latest release)  
 **Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -1,12 +1,16 @@
 ---
-date: 2025-12-31
+date: 2026-04-24
 description: Aprenda a leer la información del proyecto, incluido el cronograma desde
   el inicio, usando Aspose.Tasks para Java. Descubra cómo extraer rápidamente las
   propiedades del proyecto en Java.
-linktitle: Read Project Info with Aspose.Tasks
+keywords:
+- how to read project
+- Aspose.Tasks Java
+- read project properties
+linktitle: Leer información del proyecto con Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: Cómo leer información del proyecto de Microsoft Project con Aspose.Tasks para
-  Java
+title: Cómo leer la información del proyecto de Microsoft Project con Aspose.Tasks
+  para Java
 url: /es/java/project-properties/read-project-info/
 weight: 11
 ---
@@ -18,23 +22,27 @@ weight: 11
 # Cómo leer información de proyecto de Microsoft Project con Aspose.Tasks para Java
 
 ## Introducción
-If you need to **cómo leer proyecto** details such as start dates, finish dates, or calendar settings directly from a Microsoft Project file, Aspose.Tasks for Java gives you a clean, code‑first approach. In this tutorial you’ll see exactly **cómo leer proyecto** metadata, understand the **project schedule from start**, and learn to pull other key properties—all within a few lines of Java code.
+Si necesita **how to read project** detalles como fechas de inicio, fechas de finalización o configuraciones de calendario directamente desde un archivo de Microsoft Project, Aspose.Tasks para Java le ofrece un enfoque limpio, orientado al código. En este tutorial verá exactamente **how to read project** metadatos, comprender el **project schedule from start**, y aprenderá a extraer otras propiedades clave, todo en unas pocas líneas de código Java.
 
 ## Respuestas rápidas
 - **¿Qué hace Aspose.Tasks para Java?** Permite el acceso programático a archivos de Microsoft Project (MPP, XML, etc.) sin necesidad de tener Microsoft Project instalado.  
-- **¿Qué propiedad indica si la programación se basa en el inicio?** `Prj.SCHEDULE_FROM_START` – true significa programación desde el inicio, false significa desde el final.  
-- **¿Puedo extraer propiedades del proyecto en Java?** Sí, puedes leer la fecha de inicio, fecha de finalización, fecha actual, fecha de estado y el nombre del calendario.  
+- **¿Qué propiedad indica si el cronograma se basa en el inicio?** `Prj.SCHEDULE_FROM_START` – true significa cronograma desde el inicio, false significa desde la finalización.  
+- **¿Puedo extraer propiedades del proyecto en Java?** Sí, puede leer la fecha de inicio, la fecha de finalización, la fecha actual, la fecha de estado y el nombre del calendario.  
 - **¿Necesito una licencia para desarrollo?** Una licencia temporal gratuita funciona para evaluación; se requiere una licencia completa para producción.  
-- **¿Qué versión de Java se requiere?** Java 8 o superior con el JAR de Aspose.Tasks en el classpath.
+- **¿Qué versión de Java se requiere?** Java 8 o superior con el JAR de Aspose.Tasks en el classpath.  
+- **¿Hay una forma de cargar el archivo en modo de solo lectura?** Sí—use `new Project(filePath, new LoadOptions())` y establezca `ReadOnly` en true para reducir el uso de memoria.
+
+## ¿Por qué usar Aspose.Tasks para Java para leer información del proyecto?
+Leer datos del proyecto directamente desde un archivo MPP le permite automatizar informes, alimentar paneles de control o integrar cronogramas de proyecto en lógica de negocio personalizada sin pasos manuales de exportación. Aspose.Tasks maneja todas las versiones de Microsoft Project, por lo que obtiene una solución fiable, independiente de la versión, que funciona en cualquier plataforma que soporte Java.
 
 ## Requisitos previos
-Antes de comenzar, asegúrate de tener:
+Antes de comenzar, asegúrese de tener:
 
 1. **Entorno de desarrollo Java** – JDK 8 o más reciente instalado y configurado.  
-2. **Aspose.Tasks para Java** – Descarga la última biblioteca desde el [sitio web](https://releases.aspose.com/tasks/java/).  
+2. **Aspose.Tasks para Java** – Descargue la última biblioteca desde el [sitio web](https://releases.aspose.com/tasks/java/).  
 
 ## Importar paquetes
-Para interactuar con archivos de proyecto, importa el espacio de nombres principal de Aspose.Tasks:
+Para interactuar con archivos de proyecto, importe el espacio de nombres principal de Aspose.Tasks:
 
 ```java
 import com.aspose.tasks.*;
@@ -43,21 +51,21 @@ import com.aspose.tasks.*;
 ## Guía paso a paso
 
 ### Paso 1: Definir directorio de datos
-Establece la carpeta que contiene tu archivo `.mpp`. Reemplaza el marcador de posición con la ruta real en tu máquina.
+Establezca la carpeta que contiene su archivo `.mpp`. Reemplace el marcador de posición con la ruta real en su máquina.
 
 ```java
 String dataDir = "Your Data Directory";
 ```
 
 ### Paso 2: Cargar el archivo de proyecto
-Crea una instancia de `Project` cargando el archivo de Microsoft Project que deseas inspeccionar.
+Cree una instancia de `Project` cargando el archivo de Microsoft Project que desea inspeccionar.
 
 ```java
 Project project = new Project(dataDir + "ReadProjectInfo.mpp");
 ```
 
-### Paso 3: Determinar la base de la programación del proyecto
-Verifica si la programación se calcula a partir de la fecha de inicio del proyecto o de la fecha de finalización. Este es el núcleo de **cómo leer proyecto** información de programación.
+### Paso 3: Determinar la base del cronograma del proyecto
+Verifique si el cronograma se calcula a partir de la fecha de inicio del proyecto o de la fecha de finalización. Esto es el núcleo de **how to read project** información de programación.
 
 ```java
 if (project.get(Prj.SCHEDULE_FROM_START).getValue()) {
@@ -67,10 +75,10 @@ if (project.get(Prj.SCHEDULE_FROM_START).getValue()) {
 }
 ```
 
-> **Consejo profesional:** `Prj.SCHEDULE_FROM_START` devuelve un Boolean; `true` significa *programación del proyecto desde el inicio*.
+> **Consejo profesional:** `Prj.SCHEDULE_FROM_START` devuelve un Boolean; `true` significa *project schedule from start*.
 
-### Paso 4: Recuperar información adicional de la programación del proyecto
-Más allá de las fechas de inicio/finalización, a menudo necesitas la fecha actual, la fecha de estado y el calendario asociado al proyecto. Esto demuestra **leer propiedades del proyecto java** en acción.
+### Paso 4: Recuperar información adicional del cronograma del proyecto
+Más allá de las fechas de inicio/finalización, a menudo necesita la fecha actual, la fecha de estado y el calendario asociado al proyecto. Esto demuestra **read project properties java** en acción.
 
 ```java
 String strSchdl = (project.get(Prj.SCHEDULE_FROM_START).getValue()) ? "Project Start Date" : "Project Finish Date";
@@ -83,41 +91,41 @@ System.out.println("Calendar: " + project.get(Prj.CALENDAR).getName());
 ## Problemas comunes y soluciones
 | Problema | Causa | Solución |
 |----------|-------|----------|
-| `NullPointerException` en `project.get(Prj.CALENDAR)` | El archivo de proyecto no tiene un calendario predeterminado. | Asegúrate de que el archivo MPP defina un calendario o maneja verificaciones de `null`. |
-| Fechas impresas como `null` | Archivo de proyecto corrupto o faltan campos de fecha. | Valida el archivo fuente en Microsoft Project antes de procesarlo. |
-| Error de compilación: `cannot find symbol Prj` | El JAR de Aspose.Tasks no está en el classpath. | Agrega `aspose-tasks-xx.jar` al path de compilación de tu proyecto. |
+| `NullPointerException` en `project.get(Prj.CALENDAR)` | El archivo del proyecto no tiene un calendario predeterminado. | Asegúrese de que el archivo MPP defina un calendario o maneje verificaciones de `null`. |
+| Fechas impresas como `null` | Archivo del proyecto corrupto o faltan campos de fecha. | Valide el archivo fuente en Microsoft Project antes de procesarlo. |
+| Error de compilación: `cannot find symbol Prj` | El JAR de Aspose.Tasks no está en el classpath. | Agregue `aspose-tasks-xx.jar` a la ruta de compilación de su proyecto. |
 
 ## Preguntas frecuentes
 
-### P: ¿Puedo usar Aspose.Tasks para Java con cualquier versión de archivos de Microsoft Project?
-R: Sí, Aspose.Tasks para Java soporta varias versiones de archivos de Microsoft Project, incluidos los formatos MPP y XML.
+### ¿Puedo usar Aspose.Tasks para Java con cualquier versión de archivos de Microsoft Project?
+**R:** Sí, Aspose.Tasks para Java admite varias versiones de archivos de Microsoft Project, incluidos los formatos MPP y XML.
 
-### P: ¿Aspose.Tasks para Java es compatible con todos los entornos de desarrollo Java?
-R: Aspose.Tasks para Java es compatible con la mayoría de los entornos de desarrollo Java, garantizando flexibilidad en la integración.
+### ¿Aspose.Tasks para Java es compatible con todos los entornos de desarrollo Java?
+**R:** Aspose.Tasks para Java es compatible con la mayoría de los entornos de desarrollo Java, garantizando flexibilidad en la integración.
 
-### P: ¿Aspose.Tasks para Java ofrece soporte para manipular datos del proyecto más allá de leer información?
-R: Absolutamente, Aspose.Tasks para Java ofrece funcionalidades extensas para manipular datos del proyecto, incluyendo edición, guardado y exportación.
+### ¿Aspose.Tasks para Java ofrece soporte para manipular datos del proyecto más allá de leer información?
+**R:** Absolutamente, Aspose.Tasks para Java ofrece funcionalidades extensas para manipular datos del proyecto, incluyendo edición, guardado y exportación.
 
-### P: ¿Puedo automatizar la extracción de información del proyecto usando Aspose.Tasks para Java?
-R: Sí, Aspose.Tasks para Java permite la automatización mediante su API completa, habilitando procesos simplificados para la extracción y análisis de datos.
+### ¿Puedo automatizar la extracción de información del proyecto usando Aspose.Tasks para Java?
+**R:** Sí, Aspose.Tasks para Java permite la automatización a través de su API completa, habilitando procesos simplificados para la extracción y análisis de datos.
 
-### P: ¿Existe un foro comunitario o canal de soporte disponible para usuarios de Aspose.Tasks para Java?
-R: Sí, puedes encontrar recursos útiles y participar con la comunidad en el [foro de Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+### ¿Existe un foro comunitario o canal de soporte disponible para usuarios de Aspose.Tasks para Java?
+**R:** Sí, puede encontrar recursos útiles y participar con la comunidad en el [foro de Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
 
-### P: ¿Cómo leo las propiedades del proyecto en Java sin cargar todo el árbol de tareas?
-R: Utiliza el método `Project.get` con los valores de enumeración `Prj` requeridos; esto recupera solo los metadatos solicitados, manteniendo bajo el uso de memoria.
+### ¿Cómo leo las propiedades del proyecto en Java sin cargar todo el árbol de tareas?
+**R:** Use el método `Project.get` con los valores de enumeración `Prj` requeridos; esto recupera solo los metadatos solicitados, manteniendo bajo el uso de memoria.
 
-### P: ¿Cuál es la mejor manera de manejar archivos MPP grandes al extraer propiedades?
-R: Carga el proyecto en modo *solo lectura* (`new Project(filePath, LoadOptions)`) y consulta solo las propiedades necesarias para evitar un alto consumo de memoria.
+### ¿Cuál es la mejor manera de manejar archivos MPP grandes al extraer propiedades?
+**R:** Cargue el proyecto en modo *solo lectura* (`new Project(filePath, LoadOptions)`) y consulte solo las propiedades necesarias para evitar un alto consumo de memoria.
 
 ## Conclusión
-Al seguir esta guía ahora sabes **cómo leer proyecto** información como el origen de la programación, fechas y detalles del calendario usando Aspose.Tasks para Java. Incorporar estos fragmentos en tus aplicaciones permite informes automatizados, paneles personalizados y una toma de decisiones más inteligente sin interacción manual con Microsoft Project.
+Al seguir esta guía ahora sabe **how to read project** información como el origen del cronograma, fechas y detalles del calendario usando Aspose.Tasks para Java. Incorporar estos fragmentos en sus aplicaciones permite informes automatizados, paneles personalizados y una toma de decisiones más inteligente sin interacción manual con Microsoft Project.
 
 ---
 
-**Última actualización:** 2025-12-31  
-**Probado con:** Aspose.Tasks for Java 24.10  
-**Autor:** Aspose  
+**Last Updated:** 2026-04-24  
+**Tested With:** Aspose.Tasks for Java 24.10  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
