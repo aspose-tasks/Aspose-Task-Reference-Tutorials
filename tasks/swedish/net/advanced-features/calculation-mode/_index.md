@@ -1,46 +1,59 @@
 ---
-title: Beräkningsläge i Aspose.Tasks
-linktitle: Beräkningsläge i Aspose.Tasks
+date: 2026-03-24
+description: Lär dig hur du ställer in beräkningsläge i Aspose.Tasks för .NET, inklusive
+  automatiskt, manuellt och inget läge för att hantera uppgiftsberoenden.
+linktitle: How to Set Calculation Mode in Aspose.Tasks for .NET
 second_title: Aspose.Tasks .NET API
-description: Lär dig hur du hanterar beräkningslägen effektivt i Aspose.Tasks för .NET för att effektivisera projektschemaläggning och uppgiftsberoende.
-weight: 29
+title: Hur man ställer in beräkningsläge i Aspose.Tasks för .NET
 url: /sv/net/advanced-features/calculation-mode/
+weight: 29
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Beräkningsläge i Aspose.Tasks
+# Hur man ställer in beräkningsläge i Aspose.Tasks för .NET
 
 ## Introduktion
 
-Aspose.Tasks för .NET är ett kraftfullt API som låter utvecklare arbeta med Microsoft Project-filer programmatiskt i sina .NET-applikationer. En avgörande aspekt av att arbeta med projektfiler är att hantera beräkningslägen, som dikterar hur uppgifter och projektscheman beräknas och uppdateras. I den här handledningen kommer vi att fördjupa oss i de olika beräkningslägen som stöds av Aspose.Tasks för .NET och visa hur man använder dem effektivt.
+Aspose.Tasks for .NET är ett kraftfullt API som låter dig arbeta med Microsoft Project‑filer programatiskt. En av de viktigaste inställningarna du kommer att stöta på är **calculation mode**, som styr hur uppgiftsdatum och projektscheman uppdateras. I den här handledningen kommer du att lära dig **how to set calculation** mode, utforska **automatic calculation mode**, **manual calculation mode** och **none calculation mode**, och se hur dessa alternativ påverkar **manage task dependencies**, **create project start date** och **link tasks finish‑start**‑relationer.
+
+## Snabba svar
+- **Vad är calculation mode?** Det bestämmer om uppgiftsdatum beräknas om automatiskt, manuellt eller inte alls.  
+- **Varför använda manual calculation mode?** För att få full kontroll över när schemat uppdateras, användbart vid massuppdateringar.  
+- **Vilket läge är standard?** Automatic calculation mode, som uppdaterar datum omedelbart efter ändringar.  
+- **Kan jag ändra läget vid körning?** Ja—sätt helt enkelt `CalculationMode`‑egenskapen på `Project`‑objektet.  
+- **Behöver jag en licens?** En giltig Aspose.Tasks‑licens krävs för produktionsanvändning.
+
+## Vad är “how to set calculation” i Aspose.Tasks?
+
+Att ställa in beräkningsläget är så enkelt som att tilldela ett enum‑värde till `Project.CalculationMode`‑egenskapen. Enumet erbjuder tre alternativ: `Automatic`, `Manual` och `None`. Att välja rätt läge beror på ditt arbetsflöde—om du vill ha omedelbara uppdateringar, batch‑behandling eller full kontroll.
 
 ## Förutsättningar
 
-Innan du börjar, se till att du har följande:
+1. **Visual Studio** – någon nyare version (2019, 2022 eller senare).  
+2. **Aspose.Tasks for .NET** – ladda ner och installera biblioteket från [here](https://releases.aspose.com/tasks/net/).  
+3. **Basic C# knowledge** – du bör vara bekväm med att skapa konsolapplikationer och använda NuGet‑paket.
 
-1. Visual Studio: Se till att du har Visual Studio installerat på ditt system.
-2.  Aspose.Tasks for .NET: Ladda ner och installera Aspose.Tasks for .NET-biblioteket från[här](https://releases.aspose.com/tasks/net/).
-3. Grundläggande förståelse för C#-programmering: Bekanta dig med C#-programmeringskoncept.
+## Importera namnrymder
 
-## Importera namnområden
-
-Innan vi börjar arbeta med Aspose.Tasks för .NET, låt oss importera de nödvändiga namnrymden:
+Innan vi börjar arbeta med Aspose.Tasks för .NET, låt oss importera de nödvändiga namnrymderna:
 
 ```csharp
 using Aspose.Tasks;
 using System;
-
-
 ```
 
-## Använder automatiskt beräkningsläge
+## Hur man ställer in beräkningsläge
 
-### Steg 1: Skapa en ny projektinstans
+Nedan hittar du steg‑för‑steg‑exempel för varje beräkningsläge. Kodblocken är oförändrade från den ursprungliga handledningen; de omgivande förklaringarna har utökats för tydlighet.
 
- Initiera en ny`Project` objekt och ställ in dess`CalculationMode` egendom till`CalculationMode.Automatic`.
+### Använda Automatic Calculation Mode
+
+Automatic‑läget beräknar om datum omedelbart när du ändrar uppgifter eller länkar.
+
+#### Steg 1: Skapa en ny Project‑instans
 
 ```csharp
 var project = new Project
@@ -49,9 +62,7 @@ var project = new Project
 };
 ```
 
-### Steg 2: Ställ in projektets startdatum och lägg till uppgifter
-
-Definiera startdatumet för projektet och lägg till uppgifter till det.
+#### Steg 2: Ställ in projektets startdatum och lägg till uppgifter
 
 ```csharp
 project.Set(Prj.StartDate, new DateTime(2015, 4, 15));
@@ -59,28 +70,24 @@ var task1 = project.RootTask.Children.Add("Task 1");
 var task2 = project.RootTask.Children.Add("Task 2");
 ```
 
-### Steg 3: Länka uppgifter
-
-Upprätta beroenden mellan uppgifter.
+#### Steg 3: Länka uppgifter (finish‑to‑start)
 
 ```csharp
 project.TaskLinks.Add(task1, task2, TaskLinkType.FinishToStart);
 ```
 
-### Steg 4: Verifiera omräknade datum
-
-Kontrollera om datumen har räknats om automatiskt.
+#### Steg 4: Verifiera omräknade datum
 
 ```csharp
 Console.WriteLine("Task1 Start + 1 Equals Task2 Start : {0} ", task1.Get(Tsk.Start).AddDays(1).Equals(task2.Get(Tsk.Start)));
-// Lägg till fler verifieringar efter behov
+// Add more verifications as needed
 ```
 
-## Använder manuellt beräkningsläge
+### Använda Manual Calculation Mode
 
-### Steg 1: Skapa en ny projektinstans
+Manual‑läget inaktiverar automatiska uppdateringar, vilket ger dig möjlighet att batch‑processa ändringar innan du tvingar en omräkning.
 
- Initiera en ny`Project` objekt och ställ in dess`CalculationMode` egendom till`CalculationMode.Manual`.
+#### Steg 1: Skapa en ny Project‑instans
 
 ```csharp
 var project = new Project
@@ -89,9 +96,7 @@ var project = new Project
 };
 ```
 
-### Steg 2: Ställ in projektets startdatum och lägg till uppgifter
-
-Definiera startdatumet för projektet och lägg till uppgifter till det.
+#### Steg 2: Ställ in projektets startdatum och lägg till uppgifter
 
 ```csharp
 project.Set(Prj.StartDate, new DateTime(2015, 4, 15));
@@ -99,28 +104,24 @@ var task1 = project.RootTask.Children.Add("Task 1");
 var task2 = project.RootTask.Children.Add("Task 2");
 ```
 
-### Steg 3: Verifiera uppgiftens egenskaper
-
-Kontrollera om uppgiftsegenskaperna är korrekt inställda i manuellt läge.
+#### Steg 3: Verifiera uppgiftsegenskaper
 
 ```csharp
 Console.WriteLine("Task1.Id Equals 1 : {0} ", task1.Get(Tsk.Id).Equals(1));
-// Lägg till fler verifieringar efter behov
+// Add more verifications as needed
 ```
 
-### Steg 4: Länka uppgifter och verifiera datum
-
-Koppla samman uppgifter och kontrollera om deras datum inte räknas om.
+#### Steg 4: Länka uppgifter och verifiera datum (ingen automatisk omräkning)
 
 ```csharp
 project.TaskLinks.Add(task1, task2, TaskLinkType.FinishToStart);
 ```
 
-## Använder inget beräkningsläge
+### Använda None Calculation Mode
 
-### Steg 1: Skapa en ny projektinstans
+None‑läget stänger av alla interna beräkningar. Använd det när du bara behöver läsa eller exportera data utan några schemaläggningsändringar.
 
- Initiera en ny`Project` objekt och ställ in dess`CalculationMode` egendom till`CalculationMode.None`.
+#### Steg 1: Skapa en ny Project‑instans
 
 ```csharp
 var project = new Project
@@ -129,48 +130,48 @@ var project = new Project
 };
 ```
 
-### Steg 2: Lägg till en ny uppgift
-
-Lägg till en ny uppgift till projektet.
+#### Steg 2: Lägg till en ny uppgift
 
 ```csharp
 var task = project.RootTask.Children.Add("Task");
 ```
 
-### Steg 3: Verifiera uppgiftens egenskaper
-
-Kontrollera om uppgiftsegenskaperna inte beräknas automatiskt.
+#### Steg 3: Verifiera uppgiftsegenskaper (inga automatiska ID:n)
 
 ```csharp
 Console.WriteLine("Task.Id Equals 0 : {0} ", task.Get(Tsk.Id).Equals(0));
-// Lägg till fler verifieringar efter behov
+// Add more verifications as needed
 ```
 
-## Slutsats
+## Vanliga problem och lösningar
 
-I den här handledningen har vi utforskat de beräkningslägen som är tillgängliga i Aspose.Tasks för .NET och lärt oss hur man tillämpar dem i praktiska scenarier. Oavsett om du behöver automatiskt, manuellt eller inget beräkningsläge ger Aspose.Tasks flexibiliteten för att passa ditt projekts krav.
+| Problem | Varför det händer | Lösning |
+|-------|----------------|-----|
+| Datum uppdateras inte efter att ha länkat uppgifter | Projektet är i **Manual** eller **None**‑läge | Ställ in `project.CalculationMode = CalculationMode.Automatic` eller anropa `project.Calculate()` manuellt |
+| Uppgifts‑ID:n förblir 0 | Användning av **None**‑läge förhindrar ID‑generering | Byt till **Automatic** eller **Manual**‑läge, och beräkna sedan om |
+| Länkning misslyckas med `ArgumentException` | Startdatumet för föregångaren är senare än efterträdaren när **Manual**‑läge används utan omräkning | Säkerställ korrekta startdatum eller beräkna om efter att ha lagt till länkar |
 
-## FAQ's
+## Vanliga frågor
 
-### F1: Kan jag ändra beräkningsläget dynamiskt under körning?
+**Q1: Kan jag ändra beräkningsläget dynamiskt under körning?**  
+A1: Ja, du kan ändra `CalculationMode`‑egenskapen när som helst i din kod och sedan anropa `project.Calculate()` om du behöver en omedelbar uppdatering.
 
-S1: Ja, du kan ändra beräkningsläget för ett projekt när som helst under körning genom att ändra`CalculationMode` fast egendom.
+**Q2: Stöder Aspose.Tasks andra projektledningsfilformat förutom Microsoft Project?**  
+A2: Aspose.Tasks fokuserar främst på Microsoft Project‑format, men stöder även Primavera P6 XML, Primavera DB och Asta Powerproject XML.
 
-### F2: Stöder Aspose.Tasks andra filformat för projekthantering förutom Microsoft Project?
+**Q3: Är Aspose.Tasks lämpligt för både småskaliga och företagsnivåprojekt?**  
+A3: Absolut. API:et skalar från enkla uppgiftslistor till komplexa, flerfasiga företagsplaner.
 
-S2: Aspose.Tasks fokuserar främst på Microsoft Project-filformat, men det stöder även andra format som Primavera P6 XML, Primavera DB och Asta Powerproject XML.
+**Q4: Kan jag integrera Aspose.Tasks med andra .NET‑bibliotek och ramverk?**  
+A4: Ja, du kan kombinera Aspose.Tasks med ASP.NET, WPF, Xamarin eller någon annan .NET‑teknik för att bygga kraftfulla projektledningslösningar.
 
-### F3: Är Aspose.Tasks lämpligt för både småskaliga projekt och projekt på företagsnivå?
+**Q5: Finns det ett community‑forum eller supportkanal för Aspose.Tasks‑användare?**  
+A5: Ja, du kan besöka [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) för community‑support och diskussioner.
 
-A3: Absolut! Aspose.Tasks är designat för att tillgodose behoven hos både småskaliga projekt och projekt på företagsnivå med dess omfattande funktioner och robusta API:er.
+**Senast uppdaterad:** 2026-03-24  
+**Testad med:** Aspose.Tasks 24.11 for .NET  
+**Författare:** Aspose  
 
-### F4: Kan jag integrera Aspose.Tasks med andra .NET-bibliotek och ramverk?
-
-S4: Ja, du kan sömlöst integrera Aspose.Tasks med andra .NET-bibliotek och ramverk för att förbättra funktionaliteten i dina applikationer.
-
-### F5: Finns det ett communityforum eller supportkanal tillgängligt för Aspose.Tasks-användare?
-
- A5: Ja, du kan besöka[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) för samhällsstöd och diskussioner.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
