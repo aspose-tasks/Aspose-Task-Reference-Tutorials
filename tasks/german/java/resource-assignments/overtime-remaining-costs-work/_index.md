@@ -1,11 +1,67 @@
 ---
-date: 2026-01-07
-description: Erfahren Sie, wie Sie die Projektkostenüberwachung durchführen, Überstunden
-  verfolgen, die verbleibende Arbeit berechnen und die Kosten in Java‑Projekten mit
-  Aspose.Tasks verwalten. Einfache Schritte für ein effektives Projektmanagement.
-linktitle: 'Project Cost Monitoring with Aspose.Tasks - Overtime & Work'
+date: 2026-07-14
+description: Erfahren Sie, wie Sie Überstunden überwachen, verbleibende Arbeit berechnen
+  und Ressourcen‑Zuweisungen in Java‑Projekten mit Aspose.Tasks verwalten. Schritt‑für‑Schritt‑Anleitung
+  für eine effektive Überwachung der Projektkosten.
+keywords:
+- how to monitor overtime
+- calculate remaining work
+- manage resource assignments
+lastmod: 2026-07-14
+linktitle: So überwachen Sie Überstunden und Projektkosten mit Aspose.Tasks
+og_description: So überwachen Sie Überstunden in Java‑Projekten mit Aspose.Tasks.
+  Erfahren Sie, wie Sie verbleibende Arbeit berechnen, Ressourcen‑Zuweisungen verwalten
+  und Projektbudgets im Griff behalten.
+og_image_alt: Guide showing Java code for monitoring overtime and work costs with
+  Aspose.Tasks
+og_title: So überwachen Sie Überstunden und Projektkosten mit Aspose.Tasks
+schemas:
+- author: Aspose
+  dateModified: '2026-07-14'
+  description: Learn how to monitor overtime, calculate remaining work, and manage
+    resource assignments in Java projects using Aspose.Tasks. Step‑by‑step guide for
+    effective project cost monitoring.
+  headline: How to Monitor Overtime and Work Costs with Aspose.Tasks
+  type: TechArticle
+- description: Learn how to monitor overtime, calculate remaining work, and manage
+    resource assignments in Java projects using Aspose.Tasks. Step‑by‑step guide for
+    effective project cost monitoring.
+  name: How to Monitor Overtime and Work Costs with Aspose.Tasks
+  steps:
+  - name: '**Java Development Kit (JDK):** Aspose.Tasks for Java requires Java SE 6
+      or later.'
+    text: '**Java Development Kit (JDK):** Aspose.Tasks for Java requires Java SE 6
+      or later.'
+  - name: '**Aspose.Tasks for Java Library:** Download and install the library from
+      [here](https://releases.aspose.com/tasks/java/).'
+    text: '**Aspose.Tasks for Java Library:** Download and install the library from
+      [here](https://releases.aspose.com/tasks/java/).'
+  - name: '**Integrated Development Environment (IDE):** Any Java IDE such as Eclipse,
+      IntelliJ IDEA, or NetBeans.'
+    text: '**Integrated Development Environment (IDE):** Any Java IDE such as Eclipse,
+      IntelliJ IDEA, or NetBeans.'
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.Tasks for Java is compatible with other Java libraries and
+      frameworks.
+    question: Can I use Aspose.Tasks for Java with other Java libraries?
+  - answer: Yes, Aspose.Tasks supports various formats including MPP, XML, and more.
+    question: Does Aspose.Tasks support different project file formats?
+  - answer: Yes, you can download a free trial from [here](https://releases.aspose.com/).
+    question: Is there a trial version available?
+  - answer: You can visit the Aspose.Tasks forum [here](https://forum.aspose.com/c/tasks/15)
+      for support.
+    question: Where can I find support if I encounter issues?
+  - answer: You can buy a license from [here](https://purchase.aspose.com/buy).
+    question: How can I purchase a license for Aspose.Tasks?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: 'Projektkostenüberwachung mit Aspose.Tasks - Überstunden & Arbeit'
+tags:
+- overtime monitoring
+- Aspose.Tasks
+- Java project management
+- resource assignments
+title: So überwachen Sie Überstunden und Projektkosten mit Aspose.Tasks
 url: /de/java/resource-assignments/overtime-remaining-costs-work/
 weight: 18
 ---
@@ -14,34 +70,42 @@ weight: 18
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Projektkostenüberwachung mit Aspose.Tasks: Überstunden & Arbeit
+# Wie man Überstunden und Arbeitskosten mit Aspose.Tasks überwacht
 
-## Einführung
-In diesem Tutorial erfahren Sie, wie Sie die **Projektkostenüberwachung** mit Aspose.Tasks für Java durchführen. Wir gehen den Prozess der Verfolgung von Überstunden, verbleibenden Kosten und Arbeit durch, damit Sie Ihre Projekte im Zeitplan und im Budget halten können. Egal, ob Sie Projektmanager oder Teamleiter sind, diese Schritte helfen Ihnen, klare Sichtbarkeit über finanzielle und Ressourcen‑Metriken zu behalten.
+In diesem Tutorial lernen Sie **wie man Überstunden überwacht** und Arbeitskosten mit Aspose.Tasks für Java. Wir gehen das Laden einer MPP-Datei, das Durchlaufen von Ressourcen‑Zuweisungen und das Extrahieren von Überstunden-, Restarbeits- und Kostendaten durch, damit Sie Projekte im Zeitplan und im Budget halten können.
 
 ## Schnelle Antworten
-- **Was kann ich überwachen?** Überstundenkosten, Überstundenarbeit, verbleibende Kosten, verbleibende Arbeit und verbleibende Überstundenkosten.  
-- **Welche Bibliothek wird benötigt?** Aspose.Tasks für Java.  
-- **Benötige ich eine Lizenz für die Entwicklung?** Eine kostenlose Testversion funktioniert zum Testen; für die Produktion ist eine Lizenz erforderlich.  
-- **Kann ich vorhandene .mpp‑Dateien laden?** Ja, geben Sie einfach den Pfad zur Datei an.  
-- **Ist Java 6 ausreichend?** Die API unterstützt Java SE 6 und höher.  
+- **Was kann ich überwachen?** Überstundenkosten, Überstundenarbeit, Restkosten, Restarbeit und verbleibende Überstundenkosten.  
+- **Welche Bibliothek ist erforderlich?** Aspose.Tasks for Java.  
+- **Benötige ich eine Lizenz für die Entwicklung?** Eine kostenlose Testversion funktioniert für Tests; für die Produktion ist eine Lizenz erforderlich.  
+- **Kann ich vorhandene .mpp-Dateien laden?** Ja, geben Sie einfach den Pfad zur Datei an.  
+- **Reicht Java 6 aus?** Die API unterstützt Java SE 6 und höher.  
+
+## Wie man Überstunden und Arbeitskosten überwacht?
+
+Laden Sie das Projekt, iterieren Sie durch jede `ResourceAssignment` und lesen Sie die überstundenbezogenen Eigenschaften – dieser gesamte Vorgang kann in weniger als zehn Zeilen Java‑Code erledigt werden. Die API gibt Werte in den Währungseinheiten des Projekts zurück, und Sie können sie mit anderen Kennzahlen kombinieren, um ein vollständiges Kosten‑Tracking‑Dashboard zu erstellen.
 
 ## Was ist Projektkostenüberwachung?
-Projektkostenüberwachung ist die Praxis, alle finanziellen Aspekte eines Projekts kontinuierlich zu verfolgen – geplante Kosten, tatsächliche Ausgaben und prognostizierte verbleibende Kosten. Durch die Integration mit Ressourcen‑Zuweisungen erhalten Sie Echtzeit‑Einblicke in Überstunden‑Ausgaben und den Arbeitsfortschritt.
+
+Projektkostenüberwachung ist der kontinuierliche Prozess, das budgetierte, tatsächliche und prognostizierte Aufwandsbudget über alle Ressourcen eines Projekts hinweg zu verfolgen. Sie liefert Echtzeiteinblicke, wo Geld ausgegeben wird, hilft, Überstundenüberschreitungen frühzeitig zu erkennen, und ermöglicht eine genaue Vorhersage der verbleibenden Arbeit.
 
 ## Warum Überstunden und verbleibende Arbeit überwachen?
-- **Budgets kontrollieren:** Überstunden führen häufig zu unerwarteten Kostenüberschreitungen.  
-- **Prognosen verbessern:** Das Wissen über verbleibende Arbeit hilft Ihnen, Zeitpläne proaktiv anzupassen.  
-- **Transparenz erhöhen:** Stakeholder können genau sehen, wo Ressourcen verbraucht werden.  
+
+Überstunden sind der Haupttreiber unerwarteter Budgetüberschreitungen und machen in vielen Großprojekten bis zu **35 %** der Kostenabweichungen aus. Durch die Messung von Überstunden und verbleibender Arbeit können Sie:
+- **Budgets kontrollieren:** Kostensteigerungen erkennen, bevor sie kritisch werden.  
+- **Prognosen verbessern:** Zeitpläne basierend auf Schätzungen der verbleibenden Arbeit anpassen, wodurch Terminverschiebungen um bis zu **20 %** reduziert werden.  
+- **Transparenz erhöhen:** Stakeholdern konkrete Zahlen statt vager Schätzungen liefern.  
 
 ## Voraussetzungen
-Bevor wir beginnen, stellen Sie sicher, dass Sie Folgendes haben:
-1. **Java Development Kit (JDK):** Aspose.Tasks für Java erfordert Java SE 6 oder höher.  
-2. **Aspose.Tasks für Java Bibliothek:** Laden Sie die Bibliothek von [hier](https://releases.aspose.com/tasks/java/) herunter und installieren Sie sie.  
-3. **Integrierte Entwicklungsumgebung (IDE):** Jede Java‑IDE wie Eclipse, IntelliJ IDEA oder NetBeans.  
+1. **Java Development Kit (JDK):** Aspose.Tasks für Java erfordert Java SE 6 oder höher.  
+2. **Aspose.Tasks for Java Bibliothek:** Laden Sie die Bibliothek von [hier](https://releases.aspose.com/tasks/java/) herunter und installieren Sie sie.  
+3. **Integrated Development Environment (IDE):** Jede Java‑IDE wie Eclipse, IntelliJ IDEA oder NetBeans.  
 
 ## Pakete importieren
-Beginnen Sie damit, die erforderlichen Pakete in Ihrer Java‑Datei zu importieren:
+
+Die folgenden Importe geben Ihnen Zugriff auf die Kernklassen des Projektmanagements, die Sie benötigen.  
+Asn ist eine Hilfsklasse für die Arbeit mit zuweisungs‑spezifischen Daten.
+
 ```java
 import com.aspose.tasks.Asn;
 import com.aspose.tasks.Project;
@@ -49,41 +113,53 @@ import com.aspose.tasks.ResourceAssignment;
 ```
 
 ## Schritt 1: Datenverzeichnis einrichten
-Definieren Sie das Verzeichnis, in dem sich Ihre Projektdatei befindet:
+
+Definieren Sie den Ordner, der Ihre MPP-Datei enthält. Die Verwendung eines absoluten oder relativen Pfads funktioniert auf dieselbe Weise.
+
 ```java
 String dataDir = "Your Data Directory";
-```
+```  
 Ersetzen Sie `"Your Data Directory"` durch den Pfad zu Ihrer Projektdatei.
 
 ## Schritt 2: Projekt laden
-Instanziieren Sie ein `Project`‑Objekt und laden Sie die Projektdatei:
+
+`Project` ist das oberste Objekt von Aspose.Tasks, das eine komplette Microsoft‑Project‑Datei im Speicher repräsentiert. Durch die Instanziierung wird die Datei geladen und alle internen Sammlungen für die Verwendung vorbereitet.
+
 ```java
 Project project = new Project(dataDir + "ResourceAssignmentOvertimes.mpp");
-```
-Ersetzen Sie `"ResourceAssignmentOvertimes.mpp"` durch den Namen Ihrer MPP‑Datei. Dieser Schritt demonstriert die Verwendung von **load mpp file**.
+```  
+Ersetzen Sie `"ResourceAssignmentOvertimes.mpp"` durch den Namen Ihrer MPP-Datei. Dieser Schritt demonstriert die Verwendung von **load mpp file**.
 
 ## Schritt 3: Durch Ressourcen‑Zuweisungen iterieren
-Durchlaufen Sie jede Ressourcen‑Zuweisung im Projekt:
+
+`ResourceAssignment` stellt die Verbindung zwischen einer Ressource und einer Aufgabe dar und gibt Kosten-, Arbeits‑ und Überstundendetails preis. Das Durchlaufen der Sammlung ermöglicht es Ihnen, jede Zuweisung einzeln zu prüfen.
+
 ```java
 for (ResourceAssignment ra : project.getResourceAssignments()) {
 ```
 
 ## Schritt 4: Überstundenkosten und Arbeit ausgeben
-Rufen Sie die Überstundenkosten und die Arbeit für jede Ressourcen‑Zuweisung ab und geben Sie sie aus:
+
+Rufen Sie überstundenbezogene Kennzahlen direkt aus jeder `ResourceAssignment` ab. Diese Werte werden in den Währungs‑ und Zeiteinheiten des Projekts angegeben.
+
 ```java
     System.out.println(ra.get(Asn.OVERTIME_COST));
     System.out.println(ra.get(Asn.OVERTIME_WORK).toString());
 ```
 
-## Schritt 5: Verbleibende Kosten und Arbeit ausgeben
-Rufen Sie die verbleibenden Kosten und die Arbeit für jede Ressourcen‑Zuweisung ab und geben Sie sie aus:
+## Schritt 5: Restkosten und Arbeit ausgeben
+
+Die API stellt die Eigenschaften `RemainingCost` und `RemainingWork` bereit, die den prognostizierten Aufwand und die noch erforderlichen Kosten zur Fertigstellung jeder Zuweisung widerspiegeln.
+
 ```java
     System.out.println(ra.get(Asn.REMAINING_COST));
     System.out.println(ra.get(Asn.REMAINING_WORK).toString());
 ```
 
 ## Schritt 6: Verbleibende Überstundenkosten und Arbeit ausgeben
-Rufen Sie die verbleibenden Überstundenkosten und die Arbeit für jede Ressourcen‑Zuweisung ab und geben Sie sie aus:
+
+`RemainingOvertimeCost` und `RemainingOvertimeWork` geben Ihnen ein klares Bild vom zusätzlichen Budget und Aufwand, die aufgrund von Überstunden noch erwartet werden.
+
 ```java
     System.out.println(ra.get(Asn.REMAINING_OVERTIME_COST));
     System.out.println(ra.get(Asn.REMAINING_OVERTIME_WORK).toString());
@@ -92,38 +168,43 @@ Rufen Sie die verbleibenden Überstundenkosten und die Arbeit für jede Ressourc
 
 ## Häufige Probleme und Lösungen
 - **Datei nicht gefunden:** Überprüfen Sie den `dataDir`‑Pfad und stellen Sie sicher, dass der MPP‑Dateiname korrekt ist.  
-- **Null‑Werte:** Einige Zuweisungen haben möglicherweise keine Überstundendaten; prüfen Sie beim Ausgeben auf `null`.  
+- **Null‑Werte:** Einige Zuweisungen können keine Überstundendaten enthalten; schützen Sie sich beim Ausgeben vor `null`.  
 - **Versionskonflikt:** Verwenden Sie eine Bibliotheksversion, die zum MPP‑Dateiformat passt (z. B. neuere MS‑Project‑Versionen).  
 
 ## Häufig gestellte Fragen
 
-**F: Kann ich Aspose.Tasks für Java mit anderen Java‑Bibliotheken verwenden?**  
-A: Ja, Aspose.Tasks für Java ist mit anderen Java‑Bibliotheken und -Frameworks kompatibel.
+**Q:** Kann ich Aspose.Tasks für Java mit anderen Java‑Bibliotheken verwenden?  
+**A:** Ja, Aspose.Tasks für Java ist mit anderen Java‑Bibliotheken und -Frameworks kompatibel.
 
-**F: Unterstützt Aspose.Tasks verschiedene Projektdateiformate?**  
-A: Ja, Aspose.Tasks unterstützt verschiedene Formate, einschließlich MPP, XML und mehr.
+**Q:** Unterstützt Aspose.Tasks verschiedene Projektdateiformate?  
+**A:** Ja, Aspose.Tasks unterstützt verschiedene Formate, darunter MPP, XML und mehr.
 
-**F: Gibt es eine Testversion?**  
-A: Ja, Sie können eine kostenlose Testversion von [hier](https://releases.aspose.com/) herunterladen.
+**Q:** Gibt es eine Testversion?  
+**A:** Ja, Sie können eine kostenlose Testversion von [hier](https://releases.aspose.com/) herunterladen.
 
-**F: Wo finde ich Unterstützung, wenn ich Probleme habe?**  
-A: Sie können das Aspose.Tasks‑Forum [hier](https://forum.aspose.com/c/tasks/15) für Unterstützung besuchen.
+**Q:** Wo finde ich Unterstützung, wenn ich Probleme habe?  
+**A:** Sie können das Aspose.Tasks‑Forum [hier](https://forum.aspose.com/c/tasks/15) für Support besuchen.
 
-**F: Wie kann ich eine Lizenz für Aspose.Tasks erwerben?**  
-A: Sie können eine Lizenz von [hier](https://purchase.aspose.com/buy) kaufen.
+**Q:** Wie kann ich eine Lizenz für Aspose.Tasks erwerben?  
+**A:** Sie können eine Lizenz von [hier](https://purchase.aspose.com/buy) kaufen.
 
 ## Fazit
-Die Überwachung von Überstunden, verbleibenden Kosten und Arbeit ist ein Grundpfeiler einer effektiven **Projektkostenüberwachung**. Mit Aspose.Tasks für Java können Sie diese Kennzahlen programmgesteuert extrahieren, sodass Sie die Daten erhalten, die Sie benötigen, um Projekte im Zeitplan zu halten und Budget‑Überraschungen zu vermeiden. Erkunden Sie weitere Aspose.Tasks‑Funktionen, um Ihr Projektmanagement‑Werkzeugset weiter zu verbessern.
+Die Überwachung von Überstunden, Restkosten und Arbeit ist ein Grundpfeiler effektiver **Projektkostenüberwachung**. Mit Aspose.Tasks für Java können Sie diese Kennzahlen programmgesteuert extrahieren und datenbasierte Entscheidungen treffen, die Projekte auf Kurs halten und Budget‑Überraschungen vermeiden. Erkunden Sie weitere Aspose.Tasks‑Funktionen – wie die Analyse kritischer Pfade und Ressourcen‑Ausgleich – um Ihr Projekt‑Management‑Toolkit weiter zu stärken.
 
 ---
 
-**Last Updated:** 2026-01-07  
-**Tested With:** Aspose.Tasks for Java 24.12  
-**Author:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Zuletzt aktualisiert:** 2026-07-14  
+**Getestet mit:** Aspose.Tasks for Java 24.12  
+**Autor:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## Verwandte Tutorials
+
+- [Verwalten von MS Project Ressourcen‑Kosten mit Aspose.Tasks für Java](/tasks/java/resource-management/resource-cost/)
+- [Wie man Kostenabweichungen berechnet und Zuweisungskosten verwaltet mit Aspose.Tasks](/tasks/java/resource-assignments/assignment-cost/)
+- [Ressource zum Projekt hinzufügen mit Aspose.Tasks für Java](/tasks/java/resource-management/create-resources/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}

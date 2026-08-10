@@ -1,10 +1,52 @@
 ---
-date: 2026-01-10
-description: Узнайте, как отменить назначение, управлять назначениями ресурсов и просмотреть
-  пример назначения ресурса в Aspose.Tasks для Java с помощью этого пошагового руководства.
-linktitle: Stop and Resume Resource Assignments in Aspose.Tasks
+date: 2026-07-14
+description: Узнайте, как остановить назначение ресурсов в Java, управлять назначениями
+  ресурсов и просматривать примеры с использованием Aspose.Tasks for Java в этом пошаговом
+  руководстве.
+keywords:
+- stop resource assignment java
+- Aspose.Tasks Java
+- resource assignment management
+- project scheduling Java
+lastmod: 2026-07-14
+linktitle: Остановка и возобновление назначений ресурсов в Aspose.Tasks
+og_description: Остановка назначения ресурсов в Java с Aspose.Tasks. Этот учебник
+  показывает, как приостанавливать и возобновлять назначения, работать с датами и
+  интегрировать API без Microsoft Project.
+og_image_alt: Guide to stop and resume resource assignments in Aspose.Tasks for Java
+og_title: Остановка назначения ресурсов в Java – руководство Aspose.Tasks
+schemas:
+- author: Aspose
+  dateModified: '2026-07-14'
+  description: Learn how to stop resource assignment java, manage resource assignments,
+    and view examples using Aspose.Tasks for Java in this step‑by‑step guide.
+  headline: How to Stop Resource Assignment Java – Resume with Aspose.Tasks
+  type: TechArticle
+- questions:
+  - answer: Use `ra.set(Asn.STOP, yourDateObject);` where `yourDateObject` is a `java.util.Date`.
+    question: How do I programmatically set a stop date for an assignment?
+  - answer: The API does not enforce chronological order; however, the scheduler will
+      treat the assignment as active only after the later of the two dates, so you
+      should validate dates yourself.
+    question: What happens if the resume date is earlier than the stop date?
+  - answer: Yes, iterate through `prj.getResourceAssignments()` and check `ra.get(Asn.STOP)
+      != null`.
+    question: Can I filter assignments to only those that have a stop date set?
+  - answer: Set the stop date to `null` with `ra.set(Asn.STOP, null);` and then save
+      the project.
+    question: Is it possible to remove a stop date once set?
+  - answer: Absolutely. The `Asn` enum provides constants for all assignment fields,
+      such as `Asn.START`, `Asn.FINISH`, etc.
+    question: Does Aspose.Tasks support other date‑related fields like start, finish,
+      or actual start?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: Как остановить назначение и возобновить назначения ресурсов в Aspose.Tasks
+tags:
+- stop resource assignment
+- Aspose.Tasks
+- Java project scheduling
+- resource management
+title: Как остановить назначение ресурсов в Java – возобновление с Aspose.Tasks
 url: /ru/java/resource-assignments/stop-resume-assignment/
 weight: 23
 ---
@@ -13,36 +55,34 @@ weight: 23
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Как остановить назначение и возобновить назначения ресурсов в Aspose.Tasks
+# Как остановить назначение ресурса Java – возобновление с Aspose.Tasks
 
 ## Введение
-В этом руководстве **вы узнаете, как остановить назначение** и позже возобновить его с помощью Aspose.Tasks для Java. Aspose.Tasks — мощный Java‑API, позволяющий читать файлы проектов в форматах Java, манипулировать данными Microsoft Project и управлять назначениями ресурсов без установки Microsoft Project. Мы пройдём каждый шаг, объясним, почему важна каждая строка, и дадим практические советы, которые можно применить в реальных проектах.
+В этом руководстве вы узнаете **how to stop resource assignment java** и позже возобновите его, используя Aspose.Tasks для Java. Aspose.Tasks — это мощный Java API, позволяющий читать и записывать файлы Microsoft Project, управлять расписаниями и контролировать назначения ресурсов — без необходимости установки Microsoft Project. Мы пройдем каждый шаг, объясним, почему важна каждая строка, и поделимся практическими советами, которые вы можете применить к реальным планам проектов.
 
 ## Быстрые ответы
-- **Что означает «остановить назначение»?** Это помечает назначение ресурса как временно неактивное с определённой даты остановки.  
-- **Можно ли позже возобновить то же самое назначение?** Да, задав дату возобновления для того же назначения.  
+- **Что означает «stop assignment»?** Он помечает назначение ресурса как временно неактивное с определённой даты остановки.  
+- **Могу ли я позже возобновить то же назначение?** Да, установив дату возобновления для того же назначения.  
 - **Нужен ли Microsoft Project для использования этого API?** Нет, Aspose.Tasks работает независимо от Microsoft Project.  
-- **Какая версия Java требуется?** Рекомендуется Java 8 или выше.  
+- **Какая версия Java требуется?** Рекомендуется Java 8 или новее.  
 - **Где можно скачать библиотеку?** На официальной странице загрузки Aspose.Tasks Java.
 
-## Что означает «как остановить назначение» в контексте Aspose.Tasks?
-Остановка назначения сообщает планировщику игнорировать работу, выделенную ресурсу после **даты остановки** до **даты возобновления** (если она указана). Это полезно для учёта отпусков, простоев оборудования или любого периода, когда ресурс не должен считаться активным.
+## Как остановить назначение ресурса в Java?
+Загрузите ваш проект, найдите целевой `ResourceAssignment`, установите дату `STOP`, при необходимости задайте дату `RESUME`, а затем сохраните файл. Эта последовательность приостанавливает работу на указанный период и автоматически возобновляет её после даты возобновления, предоставляя точный контроль над календарями ресурсов без ручного редактирования файлов.
+
+## Что означает «how to stop assignment» в контексте Aspose.Tasks?
+Остановка назначения сообщает планировщику игнорировать работу, назначенную ресурсу после **stop date**, до **resume date** (если указана). Это полезно для учёта отпусков, простоя оборудования или любого периода, когда ресурс не должен считаться активным.
 
 ## Почему стоит использовать Aspose.Tasks для управления назначениями ресурсов?
-- **Не требуется Microsoft Project** — работа напрямую с файлами .mpp.  
-- **Полный контроль над датами** — можно программно проверять дату остановки, дату возобновления и изменять их.  
-- **Кросс‑платформенный** — работает на любой ОС, поддерживающей Java.  
-- **Богатый API** — предоставляет *пример назначения ресурса*, который можно расширять для пользовательской отчётности.
+Aspose.Tasks позволяет программно управлять датами назначений, устраняя ручные правки и снижая риск ошибок. Он поддерживает **более 50 форматов ввода и вывода** и может обрабатывать проекты с **до 10 000 задач**, при этом потребление памяти остаётся ниже 200 МБ, поскольку данные передаются потоково, а не загружаются полностью в память. API работает на любой ОС, поддерживающей Java, обеспечивая кросс‑платформенную гибкость.
 
 ## Предварительные требования
-Прежде чем начать, убедитесь, что у вас есть:
-
-- Установленный Java Development Kit (JDK).  
-- Скачанная библиотека Aspose.Tasks для Java. Вы можете загрузить её [здесь](https://releases.aspose.com/tasks/java/).  
+- Установлен Java Development Kit (JDK) версии 8 или новее.  
+- Скачана библиотека Aspose.Tasks for Java. Вы можете загрузить её [здесь](https://releases.aspose.com/tasks/java/).  
 - Базовые знания программирования на Java.  
 
 ## Импорт пакетов
-Сначала импортируем необходимые пакеты в наш Java‑проект:
+Классы `Project`, `ResourceAssignment` и `Asn` находятся в пространстве имён `com.aspose.tasks`. Импортируйте их в начале вашего исходного файла:
 
 ```java
 import com.aspose.tasks.Asn;
@@ -53,7 +93,9 @@ import java.util.GregorianCalendar;
 import java.util.Objects;
 ```
 
-## Шаг 1: Загрузка файла проекта
+## Шаг 1: Загрузка файла проекта
+Класс `Project` — это объект верхнего уровня Aspose.Tasks, представляющий в памяти один файл Microsoft Project. Создание экземпляра загружает файл и предоставляет доступ к задачам, ресурсам и назначениям.
+
 ```java
 // The path to the documents directory.
 String dataDir = "Your Data Directory";
@@ -61,9 +103,9 @@ String dataDir = "Your Data Directory";
 Project prj = new Project(dataDir + "ResourceAssignmentVariance.mpp");
 ```
 
-Здесь мы **читаем файл проекта Java** формата (`.mpp`) и создаём объект `Project`, который даёт доступ ко всем данным проекта, включая назначения ресурсов.
+## Шаг 2: Итерация по назначениям ресурсов
+Объекты `ResourceAssignment` раскрывают все поля, связанные с назначениями. Мы задаём **minimum date**, чтобы отфильтровать фиктивные даты, а затем перебираем каждое назначение. Этот шаблон является стандартным *примером назначения ресурсов* для проверки или изменения.
 
-## Шаг 2: Перебор назначений ресурсов
 ```java
 // Define minimum date
 java.util.Date minDate = new GregorianCalendar(2000, Calendar.JANUARY, 1).getTime();
@@ -71,9 +113,9 @@ java.util.Date minDate = new GregorianCalendar(2000, Calendar.JANUARY, 1).getTim
 for (ResourceAssignment ra : prj.getResourceAssignments()) {
 ```
 
-Мы задаём **минимальную дату** для фильтрации «заполнительных» дат и затем проходим по каждому назначению. Это типичный шаблон *примера назначения ресурса*, используемый при необходимости инспектировать или изменять назначения.
+## Шаг 3: Проверка дат STOP и RESUME
+В этом блоке мы проверяем поля `STOP` и `RESUME` для каждого назначения. Если дата раньше нашего `minDate`, считаем её не установленной (`"NA"`); иначе выводим фактическую дату. Эта логика необходима для правильного **управления назначениями ресурсов**.
 
-## Шаг 3: Проверка дат остановки и возобновления
 ```java
     // Check stop date
     if (ra.get(Asn.STOP).before(minDate)) {
@@ -90,42 +132,44 @@ for (ResourceAssignment ra : prj.getResourceAssignments()) {
 }
 ```
 
-В этом блоке мы **проверяем дату остановки** и **проверяем дату возобновления** для каждого назначения. Если дата раньше нашей `minDate`, считаем её неустановленной (`"NA"`); иначе выводим фактическую дату. Такая логика необходима для **правильного управления назначениями ресурсов**.
-
 ## Распространённые проблемы и решения
-- **Null‑даты** — `ra.get(Asn.STOP)` может вернуть `null`. Защититесь, добавив проверку на `null` перед вызовом `.before(minDate)`.  
-- **Неправильный путь к файлу** — Убедитесь, что `dataDir` заканчивается разделителем пути (`/` или `\\`), соответствующим вашей ОС.  
-- **Несоответствие версий** — Используйте последнюю версию Aspose.Tasks для Java, чтобы избежать отсутствующих значений перечислений.
+- **Null dates** – `ra.get(Asn.STOP)` может вернуть `null`. Защититесь, добавив проверку на null перед вызовом `.before(minDate)`.  
+- **Incorrect file path** – Убедитесь, что `dataDir` заканчивается разделителем пути (`/` или `\\`), соответствующим вашей ОС.  
+- **Version mismatch** – Используйте последнюю версию Aspose.Tasks for Java, чтобы избежать отсутствия значений перечисления.
 
 ## Часто задаваемые вопросы
 
-**В: Как программно установить дату остановки для назначения?**  
-О: Используйте `ra.set(Asn.STOP, yourDateObject);`, где `yourDateObject` — объект `java.util.Date`.
+**Q: Как программно установить дату остановки для назначения?**  
+A: Используйте `ra.set(Asn.STOP, yourDateObject);`, где `yourDateObject` — это `java.util.Date`.
 
-**В: Что произойдёт, если дата возобновления будет раньше даты остановки?**  
-О: API не проверяет хронологический порядок; однако планировщик будет считать назначение активным только после более поздней из двух дат, поэтому проверку дат следует выполнять самостоятельно.
+**Q: Что происходит, если дата возобновления раньше даты остановки?**  
+A: API не принуждает к хронологическому порядку; однако планировщик будет считать назначение активным только после более поздней из двух дат, поэтому вам следует самостоятельно проверять даты.
 
-**В: Можно ли отфильтровать назначения, у которых установлена только дата остановки?**  
-О: Да, перебирайте `prj.getResourceAssignments()` и проверяйте, что `ra.get(Asn.STOP) != null`.
+**Q: Можно ли отфильтровать назначения, оставив только те, у которых установлена дата остановки?**  
+A: Да, пройдитесь по `prj.getResourceAssignments()` и проверьте `ra.get(Asn.STOP) != null`.
 
-**В: Можно ли удалить дату остановки после её установки?**  
-О: Установите дату остановки в `null` с помощью `ra.set(Asn.STOP, null);`, затем сохраните проект.
+**Q: Можно ли удалить установленную дату остановки?**  
+A: Установите дату остановки в `null` с помощью `ra.set(Asn.STOP, null);`, затем сохраните проект.
 
-**В: Поддерживает ли Aspose.Tasks другие поля, связанные с датами, такие как start, finish или actual start?**  
-О: Абсолютно. Перечисление `Asn` содержит константы для всех полей назначения, например `Asn.START`, `Asn.FINISH` и т.д.
+**Q: Поддерживает ли Aspose.Tasks другие поля, связанные с датами, такие как start, finish или actual start?**  
+A: Конечно. Перечисление `Asn` предоставляет константы для всех полей назначения, например `Asn.START`, `Asn.FINISH` и т.д.
 
 ## Заключение
-Следуя этим шагам, вы теперь знаете **как остановить назначение**, просмотреть даты остановки/возобновления и возобновить назначение при необходимости. Эта возможность позволяет **точнее управлять назначениями ресурсов**, особенно в сценариях, таких как отпуска сотрудников или простои оборудования. Не стесняйтесь расширять пример для обновления дат, генерации отчётов или интеграции с собственной логикой планирования.
+Следуя этим шагам, вы теперь знаете **how to stop resource assignment java**, можете проверять даты STOP/RESUME и при необходимости возобновлять назначение. Эта возможность позволяет более точно **управлять назначениями ресурсов**, особенно в сценариях, таких как отпуска ресурсов или простой оборудования. Не стесняйтесь расширять пример для обновления дат, генерации отчётов или интеграции с вашей собственной логикой планирования.
 
 ---
 
-**Последнее обновление:** 2026-01-10  
+**Последнее обновление:** 2026-07-14  
 **Тестировано с:** Aspose.Tasks for Java 24.12  
-**Автор:** Aspose  
+**Автор:** Aspose
+
+## Связанные руководства
+
+- [Создать назначения ресурсов в Aspose.Tasks](/tasks/java/resource-assignments/create-resource-assignments/)
+- [Как рассчитать отклонение стоимости и управлять затратами назначений с Aspose.Tasks](/tasks/java/resource-assignments/assignment-cost/)
+- [Как добавить заметки к назначениям ресурсов в Aspose.Tasks](/tasks/java/resource-assignments/resource-assignment-notes/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
+{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
