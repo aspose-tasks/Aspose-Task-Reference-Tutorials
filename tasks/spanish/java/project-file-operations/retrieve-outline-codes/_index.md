@@ -1,10 +1,10 @@
 ---
-date: 2025-12-20
-description: Aprenda a obtener los códigos de esquema de MS Project de forma programática
-  usando Aspose.Tasks para Java. Mejore sus capacidades de gestión de proyectos.
+date: 2026-03-27
+description: Aprende a recuperar los códigos de esquema de MS Project de forma programática
+  usando Aspose.Tasks para Java. Mejora tus capacidades de gestión de proyectos.
 linktitle: Retrieve Outline Codes in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: Obtener códigos de esquema de MS Project en Aspose.Tasks
+title: Recuperar códigos de esquema de MS Project en Aspose.Tasks
 url: /es/java/project-file-operations/retrieve-outline-codes/
 weight: 15
 ---
@@ -16,23 +16,29 @@ weight: 15
 # Recuperar códigos de esquema de MS Project en Aspose.Tasks
 
 ## Introducción
-En este tutorial, descubrirás **cómo recuperar códigos de esquema de MS Project** usando Aspose.Tasks para Java. Los códigos de esquema en MS Project te ofrecen una forma poderosa de categorizar tareas, recursos y asignaciones, y acceder a ellos programáticamente te permite crear informes personalizados, automatización o soluciones de integración. Recorreremos un ejemplo completo, paso a paso, que puedes copiar en tu propio proyecto.
+En este tutorial, descubrirás **cómo recuperar los códigos de esquema de MS Project** usando Aspose.Tasks para Java. Los códigos de esquema en MS Project te ofrecen una forma poderosa de categorizar tareas, recursos y asignaciones, y acceder a ellos programáticamente te permite crear informes personalizados, automatización o soluciones de integración. Recorreremos un ejemplo completo, paso a paso, que puedes copiar en tu propio proyecto.
 
 ## Respuestas rápidas
-- **¿Qué hace el código?** Carga un archivo Project y muestra cada definición de código de esquema, sus máscaras y sus valores.  
+- **¿Qué hace el código?** Carga un archivo Project e imprime cada definición de código de esquema, sus máscaras y sus valores.  
 - **¿Qué biblioteca se requiere?** Aspose.Tasks para Java (cualquier versión reciente).  
 - **¿Necesito una licencia?** Una versión de prueba funciona para desarrollo; se requiere una licencia completa para producción.  
-- **¿Qué versión de Java se admite?** Java 8 o superior.  
+- **¿Qué versión de Java es compatible?** Java 8 o superior.  
 - **¿Puedo modificar los códigos después de recuperarlos?** Sí, la misma API te permite agregar, editar o eliminar códigos de esquema.
 
 ## ¿Qué son los códigos de esquema de MS Project?
-Los códigos de esquema son campos personalizados que permiten a los gerentes de proyecto agrupar y filtrar tareas más allá de la jerarquía predeterminada. Pueden ser valores numéricos simples, cadenas o incluso códigos personalizados a nivel empresarial definidos a nivel de organización. Al leer estos códigos, puedes impulsar paneles de control, exportar datos o aplicar convenciones de nomenclatura automáticamente.
+Los códigos de esquema son campos personalizados que permiten a los gerentes de proyecto agrupar y filtrar tareas más allá de la jerarquía predeterminada. Pueden ser valores numéricos simples, cadenas o incluso códigos personalizados a nivel empresarial definidos a nivel de organización. Al leer estos códigos, puedes impulsar paneles de control, exportar datos o aplicar convenciones de nombres automáticamente.
 
 ## ¿Por qué recuperar los códigos de esquema de MS Project con Aspose.Tasks?
 - **Automatización:** Generar informes o activar flujos de trabajo sin exportación manual.  
 - **Integración:** Sincronizar códigos de esquema con ERP, PPM o herramientas de BI.  
-- **Personalización:** Aplicar reglas de negocio basadas en los valores de los códigos (p. ej., asignación de costos).  
+- **Personalización:** Aplicar reglas de negocio basadas en los valores de los códigos (p. ej., asignación de costos).  
 - **Multiplataforma:** Funciona en Windows, Linux y macOS, independiente de la interfaz de Microsoft Project.
+
+## ¿Cómo leer archivos MPP para obtener códigos de esquema?
+Leer un archivo MPP (Microsoft Project) es el primer paso para extraer los códigos de esquema. Aspose.Tasks abstrae el formato del archivo, por lo que no necesitas analizar la estructura binaria tú mismo. La clase `Project` se encarga del trabajo pesado, permitiéndote centrarte en los datos que realmente necesitas.
+
+## Campos personalizados en MS Project
+Los códigos de esquema son un tipo de **campos personalizados** en MS Project. Mientras que los campos estándar cubren fechas, duraciones y recursos, los campos personalizados te permiten almacenar información específica de la organización. Acceder a ellos a través de Aspose.Tasks te brinda la misma flexibilidad programáticamente.
 
 ## Requisitos previos
 Antes de comenzar, asegúrate de tener los siguientes requisitos configurados:
@@ -83,7 +89,7 @@ if (ocd.getEnterprise()) {
     System.out.println("It is not an enterprise custom outline code.");
 }
 ```
-Verificamos si el código de esquema es un código personalizado empresarial y mostramos el resultado en consecuencia.
+Verificamos si el código de esquema es un código personalizado empresarial y imprimimos el resultado en consecuencia.
 
 ## Paso 5: Mostrar máscaras de códigos de esquema
 ```java
@@ -92,7 +98,7 @@ for (OutlineMask m1 : ocd.getMasks()) {
     System.out.println("Mask = " + m1.toString());
 }
 ```
-Iteramos a través de cada máscara asociada al código de esquema y mostramos su nivel y valor de máscara.
+Iteramos a través de cada máscara asociada al código de esquema e imprimimos su nivel y valor de máscara.
 
 ## Paso 6: Mostrar valores de códigos de esquema
 ```java
@@ -103,12 +109,12 @@ for (OutlineValue v1 : ocd.getValues()) {
     System.out.println("Type = " + v1.getType());
 }
 ```
-Iteramos a través de cada valor de código de esquema y mostramos su descripción, ID de valor, valor y tipo.
+Iteramos a través de cada valor de código de esquema e imprimimos su descripción, ID de valor, valor y tipo.
 
 ## Problemas comunes y soluciones
 | Problema | Razón | Solución |
 |----------|-------|----------|
-| **Sin salida** | Ruta del archivo del proyecto incorrecta | Verifica que `projectName` apunte a un archivo `.mpp` válido. |
+| **Sin salida** | Ruta del archivo de proyecto incorrecta | Verifica que `projectName` apunte a un archivo `.mpp` válido. |
 | **Valores nulos** | Código de esquema no definido en el archivo | Asegúrate de que el archivo Project realmente contenga códigos de esquema (verifica en la UI de MS Project). |
 | **LicenseException** | Uso de la versión de prueba sin activación adecuada | Aplica una licencia temporal o completa mediante `License license = new License(); license.setLicense("Aspose.Tasks.lic");` |
 
@@ -123,10 +129,10 @@ A: Sí, puedes descargar una versión de prueba gratuita de Aspose.Tasks para Ja
 **Q: ¿Cómo puedo obtener soporte técnico para Aspose.Tasks para Java?**  
 A: Puedes obtener soporte técnico visitando el [foro de Aspose.Tasks](https://forum.aspose.com/c/tasks/15) y publicando tus consultas allí.
 
-**Q: ¿Puedo adquirir una licencia temporal para Aspose.Tasks para Java?**  
-A: Sí, puedes adquirir una licencia temporal para Aspose.Tasks para Java desde la [página de compra](https://purchase.aspose.com/temporary-license/).
+**Q: ¿Puedo comprar una licencia temporal para Aspose.Tasks para Java?**  
+A: Sí, puedes comprar una licencia temporal para Aspose.Tasks para Java desde la [página de compra](https://purchase.aspose.com/temporary-license/).
 
-**Q: ¿Dónde puedo encontrar la documentación completa para Aspose.Tasks para Java?**  
+**Q: ¿Dónde puedo encontrar la documentación completa de Aspose.Tasks para Java?**  
 A: Puedes consultar la [documentación](https://reference.aspose.com/tasks/java/) para obtener información detallada sobre el uso de Aspose.Tasks para Java.
 
 ## Conclusión
@@ -134,8 +140,8 @@ En este tutorial, hemos aprendido cómo recuperar **códigos de esquema de MS Pr
 
 ---
 
-**Última actualización:** 2025-12-20  
-**Probado con:** Aspose.Tasks para Java 24.12 (última versión al momento de escribir)  
+**Última actualización:** 2026-03-27  
+**Probado con:** Aspose.Tasks para Java (última versión)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

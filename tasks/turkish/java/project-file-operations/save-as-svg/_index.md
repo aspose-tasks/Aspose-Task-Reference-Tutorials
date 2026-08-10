@@ -1,10 +1,11 @@
 ---
-date: 2025-12-21
-description: Java'da MPP dosyalarından SVG oluşturmayı ve Aspose.Tasks kütüphanesini
-  kullanarak projeyi SVG olarak kaydetmeyi öğrenin. Kod örnekleriyle adım adım rehber.
+date: 2026-03-27
+description: Aspose.Tasks ile Java’da MPP’yi SVG’ye nasıl dışa aktaracağınızı öğrenin.
+  Adım adım rehber, kod örnekleri ve bir projeyi hızlıca SVG olarak kaydetmek için
+  ipuçları.
 linktitle: Save As SVG in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: Aspose.Tasks kullanarak Java'da MPP'den SVG nasıl oluşturulur
+title: Java'da Aspose.Tasks kullanarak MPP'yi SVG'ye nasıl dışa aktarılır
 url: /tr/java/project-file-operations/save-as-svg/
 weight: 18
 ---
@@ -13,37 +14,37 @@ weight: 18
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java'da MPP'den SVG Oluşturma
+# Java'da MPP'yi SVG'ye Nasıl Dışa Aktarılır
 
-## Giriş
-Bu öğreticide Aspose.Tasks for Java kullanarak **create SVG from MPP** dosyalarını nasıl oluşturacağınızı öğreneceksiniz. Bir Microsoft Project (MPP) dosyasını ölçeklenebilir vektör grafiği (SVG) formatına dönüştürmek, yüksek kaliteli, çözünürlük bağımsız diyagramları doğrudan web sayfalarına, raporlara veya panellere yerleştirmenizi sağlar. Gerekli kurulumu adım adım gösterecek, ihtiyacınız olan tam kodu sunacak ve her adımı açıklayacağız, böylece kendi uygulamalarınızda **save project as SVG** işlemini güvenle yapabilirsiniz.
+## Export MPP to SVG – Giriş
+Bu öğreticide Aspose.Tasks for Java kullanarak **export MPP to SVG** dosyalarını nasıl dışa aktaracağınızı öğreneceksiniz. Bir Microsoft Project (MPP) dosyasını Scalable Vector Graphics (SVG) görüntüsüne dönüştürmek, yüksek kaliteli, çözünürlük bağımsız diyagramları doğrudan web sayfalarına, raporlara veya panolara yerleştirmenizi sağlar. Gerekli kurulumu adım adım gösterecek, ihtiyacınız olan tam kodu sunacak ve her adımı açıklayacağız, böylece kendi uygulamalarınızda **save project as SVG** işlemini güvenle yapabilirsiniz.
 
 ## Hızlı Yanıtlar
-- **“create SVG from MPP” ne anlama geliyor?**  
-  Bir Microsoft Project dosyasını (.mpp) kalite kaybı olmadan herhangi bir tarayıcıda görüntülenebilen bir SVG görüntüsüne dönüştürür.  
-- **Dönüşümü hangi kütüphane gerçekleştiriyor?**  
-  Aspose.Tasks for Java, dönüşümü gerçekleştirmek için tek satırlık bir `save` metodunu sağlar.  
+- **“export MPP to SVG” ne anlama geliyor?**  
+  Bir Microsoft Project dosyasını (.mpp) herhangi bir tarayıcıda kalite kaybı olmadan görüntülenebilen bir SVG resmine dönüştürür.  
+- **Dönüşümü hangi kütüphane gerçekleştirir?**  
+  Aspose.Tasks for Java, dönüşümü gerçekleştirmek için tek satırlık bir `save` yöntemi sağlar.  
 - **Bir lisansa ihtiyacım var mı?**  
-  Ticari kullanım için geçici bir lisans gereklidir; ücretsiz deneme sürümü mevcuttur.  
+  Ticari kullanım için geçici bir lisans gereklidir; ücretsiz bir deneme sürümü mevcuttur.  
 - **Önkoşullar nelerdir?**  
-  Java JDK 8+ ve Aspose.Tasks for Java JAR dosyası.  
+  Java JDK 8+ ve Aspose.Tasks for Java JAR.  
 - **Dönüşüm ne kadar sürer?**  
   Standart proje dosyaları için genellikle bir saniyeden az sürer.
 
-## “create SVG from MPP” nedir?
-Bir MPP dosyasından SVG oluşturmak, proje takviminin—görevlerin, zaman çizelgelerinin ve kaynakların—görsel temsilini Scalable Vector Graphics formatına dışa aktarmak anlamına gelir. SVG, XML tabanlı, hafif ve yüksek çözünürlüklü ekranlarda mükemmel ölçeklenir.
+## “export MPP to SVG” nedir?
+Export MPP to SVG, bir proje zaman çizelgesinin—görevler, zaman çizelgeleri ve kaynakların—görsel temsilini alıp bir SVG dosyası olarak yazmak anlamına gelir. SVG, XML tabanlı, hafif ve yüksek çözünürlüklü ekranlarda mükemmel ölçeklenir.
 
-## Projeyi SVG olarak kaydetmek için neden Aspose.Tasks kullanılmalı?
+## Aspose.Tasks ile MPP'yi SVG'ye neden dışa aktarılır?
 - **Microsoft Project kurulumu gerekmez** – kütüphane bağımsız çalışır.  
 - **Tam doğruluk** – grafikler, Gantt çubukları ve kilometre taşları stillerini korur.  
 - **Çapraz platform** – kodu Windows, Linux veya macOS üzerinde çalıştırabilirsiniz.  
-- **Kolay entegrasyon** – tek satırlık API çağrısı mevcut Java iş akışlarına doğal olarak uyum sağlar.
+- **Tek satır API** – tek bir çağrıyla proje SVG olarak kaydedilir, mevcut Java iş akışlarına doğal olarak uyum sağlar.
 
 ## Önkoşullar
 - **Java Development Kit (JDK)** – sürüm 8 veya üzeri. Oracle web sitesinden indirin.  
-- **Aspose.Tasks for Java** – kütüphaneyi resmi indirme sayfasından **[here](https://releases.aspose.com/tasks/java/)** edinin.
+- **Aspose.Tasks for Java** – kütüphaneyi resmi indirme sayfasından **[buradan](https://releases.aspose.com/tasks/java/)** edinin.
 
-## Paketleri İçe Aktarma
+## Import Packages
 İlk olarak, ihtiyacınız olan sınıfları içe aktarın. İçe aktarma bloğu değişmeden kalır.
 
 ```java
@@ -55,16 +56,16 @@ import com.aspose.tasks.Timescale;
 import java.io.IOException;
 ```
 
-## Adım 1: Veri Dizinini Tanımlama
-Kaynak MPP dosyanızın bulunduğu yeri ve SVG'nin yazılacağı yeri belirtin.
+## Step 1: Define the Data Directory
+Kaynak MPP dosyanızın bulunduğu yeri ve SVG'nin yazılacağı konumu belirtin.
 
 ```java
 String dataDir = "Your Data Directory";
 ```
 
-> **Pro tip:** `FileNotFoundException` hatasından kaçınmak için mutlak bir yol veya projenizin kaynak klasörüne göre bir yol kullanın.
+> **Pro ipucu:** `FileNotFoundException` hatasından kaçınmak için mutlak bir yol veya projenizin kaynak klasörüne göre göreceli bir yol kullanın.
 
-## Adım 2: MPP Dosyasını Yükleme
+## Step 2: Load the MPP File
 Mevcut Microsoft Project dosyasını yükleyerek bir `Project` örneği oluşturun.
 
 ```java
@@ -73,45 +74,50 @@ Project project = new Project(dataDir + "HomeMovePlan.mpp");
 
 Bu satır, daha önce tanımladığınız klasörden *HomeMovePlan.mpp* dosyasını okur.
 
-## Adım 3: Projeyi SVG Olarak Kaydetme
-Artık tek bir komutla **save project as SVG** yapabilirsiniz.
+## Step 3: Save the Project as SVG
+Artık tek bir komutla **export MPP to SVG** yapabilirsiniz.
 
 ```java
 project.save(dataDir + "project5.svg", SaveFileFormat.Svg);
 ```
 
-Metod, aynı dizine `project5.svg` dosyasını yazar. Oluşan SVG, herhangi bir modern tarayıcıda açılabilir veya doğrudan HTML içine gömülebilir.
+Metot, `project5.svg` dosyasını aynı dizine yazar. Oluşan SVG, herhangi bir modern tarayıcıda açılabilir veya doğrudan HTML içine yerleştirilebilir.
 
-## Yaygın Sorunlar ve Çözümler
+## Yaygın Kullanım Senaryoları
+- **Proje panoları** – müşterinin Microsoft Project kurmasını gerektirmeden web portallarına canlı Gantt grafiklerini yerleştirin.  
+- **Otomatik raporlama** – PDF veya HTML raporları için anlık SVG görüntüleri oluşturun.  
+- **Ekipler arası iş birliği** – sadece bir tarayıcıyla görüntüleyebilen paydaşlarla görsel bir takvimi paylaşın.
+
+## Common Issues and Solutions
 | Sorun | Sebep | Çözüm |
 |-------|--------|-----|
-| **File not found** | Yanlış `dataDir` yolu | Dizin stringinin bir ayırıcı (`/` veya `\\`) ile bittiğini doğrulayın. |
-| **Blank SVG output** | Proje görünümler olmadan yüklendi | Kaydetmeden önce MPP dosyasının bir Gantt şeması görünümü içerdiğinden emin olun. |
-| **License exception** | Geçerli bir lisans uygulanmadı | `save` metodunu çağırmadan önce `License.setLicense("path/to/license.xml")` kullanarak geçici bir lisans uygulayın. |
+| **Dosya bulunamadı** | Yanlış `dataDir` yolu | Dizin dizgisinin bir ayırıcı (`/` veya `\\`) ile bittiğini doğrulayın. |
+| **Boş SVG çıktısı** | Proje görünümler olmadan yüklendi | Kaydetmeden önce MPP dosyasının bir Gantt grafik görünümü içerdiğinden emin olun. |
+| **Lisans istisnası** | Geçerli bir lisans uygulanmadı | `save` metodunu çağırmadan önce `License.setLicense("path/to/license.xml")` kullanarak geçici bir lisans uygulayın. |
 
 ## Sıkça Sorulan Sorular
 
-**S: Aspose.Tasks for Java tüm Microsoft Project dosya sürümleriyle uyumlu mu?**  
-C: Evet, eski sürümlerden en yeni Project sürümlerine kadar MPP, MPT ve XML formatlarını destekler.
+**Q: Aspose.Tasks for Java tüm Microsoft Project dosyası sürümleriyle uyumlu mu?**  
+A: Evet, eski sürümlerden en yeni Project sürümlerine kadar MPP, MPT ve XML formatlarını destekler.
 
-**S: SVG çıktısının görünümünü özelleştirebilir miyim?**  
-C: Kesinlikle. `save` metodunu çağırmadan önce yazı tiplerini, renkleri ve düzen seçeneklerini ayarlamak için `SvgOptions` kullanın.
+**Q: SVG çıktısının görünümünü özelleştirebilir miyim?**  
+A: Kesinlikle. `save` metodunu çağırmadan önce yazı tiplerini, renkleri ve düzen seçeneklerini ayarlamak için `SvgOptions` kullanın.
 
-**S: Aspose.Tasks for Java ticari kullanım için lisans gerektiriyor mu?**  
-C: Evet, üretim için geçerli bir lisans gerekir. Geçici bir lisans **[here](https://purchase.aspose.com/temporary-license/)** adresinden alabilirsiniz.
+**Q: Aspose.Tasks for Java ticari kullanım için lisans gerektiriyor mu?**  
+A: Evet, üretim için geçerli bir lisans gereklidir. Geçici bir lisansı **[buradan](https://purchase.aspose.com/temporary-license/)** edinebilirsiniz.
 
-**S: Aspose.Tasks for Java'ı satın almadan önce deneyebilir miyim?**  
-C: Evet, ücretsiz bir deneme sürümü **[here](https://purchase.aspose.com/buy)** adresinde mevcuttur.
+**Q: Aspose.Tasks for Java'ı satın almadan önce deneyebilir miyim?**  
+A: Evet, ücretsiz bir deneme sürümü **[buradan](https://purchase.aspose.com/buy)** mevcuttur.
 
-**S: Aspose.Tasks for Java için destek nereden alınabilir?**  
-C: Sorular sormak ve geri bildirim paylaşmak için topluluk forumunu **[here](https://forum.aspose.com/c/tasks/15)** ziyaret edin.
+**Q: Aspose.Tasks for Java için destek nereden alınabilir?**  
+A: Sorular sormak ve geri bildirim paylaşmak için topluluk forumunu **[buradan](https://forum.aspose.com/c/tasks/15)** ziyaret edin.
 
 ## Sonuç
-Artık Java'da **create SVG from MPP** dosyalarını nasıl oluşturacağınızı ve Aspose.Tasks kullanarak **save project as SVG** işlemini verimli bir şekilde yapacağınızı biliyorsunuz. Bu yetenek, zengin proje görselleştirmelerini web portallarına, raporlama panellerine veya ölçeklenebilir grafiklerin gerektiği herhangi bir yere entegre etmenizi sağlar. Çıktıyı ince ayarlamak için `SvgOptions` ile deneyler yapın; böylece geliştirme araç kutunuzda güçlü bir araç elde etmiş olacaksınız.
+Artık Java'da **export MPP to SVG** yapmayı ve Aspose.Tasks kullanarak **save project as SVG** işlemini verimli bir şekilde gerçekleştirmeyi biliyorsunuz. Bu özellik, zengin proje görselleştirmelerini web portallarına, raporlama panolarına veya ölçeklenebilir grafiklerin gerektiği herhangi bir yere entegre etmenizi sağlar. Çıktıyı ince ayarlamak için `SvgOptions` ile deneyler yapın; böylece geliştirme araç setinizde güçlü bir araca sahip olacaksınız.
 
 ---
 
-**Son Güncelleme:** 2025-12-21  
+**Son Güncelleme:** 2026-03-27  
 **Test Edilen Versiyon:** Aspose.Tasks for Java 24.10  
 **Yazar:** Aspose  
 
