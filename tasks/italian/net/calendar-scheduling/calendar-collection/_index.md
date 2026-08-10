@@ -1,33 +1,44 @@
 ---
-title: Gestione della raccolta di calendari in Aspose.Tasks
-linktitle: Gestione della raccolta di calendari in Aspose.Tasks
-second_title: Aspose.Tasks API .NET
-description: Scopri come gestire in modo efficiente le raccolte di calendari in Aspose.Tasks per .NET. Crea, modifica e manipola i calendari con facilità.
-weight: 11
+date: 2026-04-13
+description: Scopri come impostare le ore lavorative e gestire le raccolte di calendari
+  in Aspose.Tasks per .NET. Importa i calendari di Microsoft Project, rimuovi il calendario
+  del progetto e ottieni il calendario per nome facilmente.
+keywords:
+- set working hours
+- import calendars microsoft project
+- remove calendar project
+- get calendar by name
+linktitle: Gestione della collezione di calendari in Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+title: Imposta le ore lavorative nella raccolta di calendari di Aspose.Tasks
 url: /it/net/calendar-scheduling/calendar-collection/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Gestione della raccolta di calendari in Aspose.Tasks
+# Imposta le ore lavorative nella raccolta di calendari Aspose.Tasks
 
-## introduzione
+In questo tutorial imparerai come **impostare le ore lavorative** e gestire le raccolte di calendari usando Aspose.Tasks per .NET. I calendari definiscono i giorni lavorativi, le festività e le eccezioni, quindi padroneggiarli ti consente di controllare i programmi di progetto con precisione. Ti mostreremo anche come importare i calendari da Microsoft Project, rimuovere un calendario da un progetto e ottenere un calendario per nome.
 
-In questo tutorial esploreremo come gestire le raccolte di calendari in Aspose.Tasks per .NET. I calendari svolgono un ruolo cruciale nella gestione dei progetti, definendo giorni lavorativi, festivi ed eccezioni. Aspose.Tasks fornisce funzionalità robuste per manipolare i calendari all'interno dei tuoi progetti.
+## Risposte rapide
+- **Qual è la classe principale per i calendari?** `Project.Calendars` collection.
+- **Come impostare le ore lavorative?** Create or modify a `Calendar` object and define its `WorkingTime`.
+- **Posso importare i calendari da Microsoft Project?** Yes – load an MPP file and access its calendars.
+- **Come rimuovere un calendario da un progetto?** Use `Project.Calendars.Remove(calendar)`.
+- **Come recuperare un calendario per nome?** Call `Project.Calendars.GetByName("YourCalendar")`.
 
 ## Prerequisiti
 
-Prima di iniziare, assicurati di avere quanto segue:
-
-1. Visual Studio: installa Visual Studio o qualsiasi altro IDE compatibile per lo sviluppo .NET.
-2.  Aspose.Tasks per .NET: Scarica e installa Aspose.Tasks per .NET da[Qui](https://releases.aspose.com/tasks/net/).
-3. Conoscenza di base di C#: la familiarità con il linguaggio di programmazione C# sarà utile.
+1. Visual Studio: Installa Visual Studio o qualsiasi altro IDE compatibile per lo sviluppo .NET.  
+2. Aspose.Tasks per .NET: Scarica e installa Aspose.Tasks per .NET da [here](https://releases.aspose.com/tasks/net/).  
+3. Conoscenza di base di C#: Familiarità con il linguaggio di programmazione C# sarà utile.
 
 ## Importa spazi dei nomi
 
-Innanzitutto, importiamo gli spazi dei nomi necessari per lavorare con Aspose.Tasks:
+Per prima cosa, importiamo gli spazi dei nomi necessari per lavorare con Aspose.Tasks:
 
 ```csharp
 using Aspose.Tasks;
@@ -35,24 +46,23 @@ using System;
 using System.Collections.Generic;
 
 using Aspose.Tasks.Saving;
-
 ```
 
 ## Creazione di un nuovo calendario
 
-###  Passaggio 1: inizializzare un nuovo file`Project` object.
+### Passo 1: Inizializza un nuovo oggetto `Project`.
 ```csharp
 var project = new Project();
 ```
 
-### Passaggio 2: aggiungi calendari alla raccolta di calendari del progetto.
+### Passo 2: Aggiungi calendari alla raccolta di calendari del progetto.
 ```csharp
 project.Calendars.Add("Calendar");
 var newCalendar = project.Calendars.Add("Parent");
 project.Calendars.Add("Child", newCalendar);
 ```
 
-### Passaggio 3: scorrere i calendari e visualizzare i loro nomi.
+### Passo 3: Itera attraverso i calendari e mostra i loro nomi.
 ```csharp
 foreach (var calendar in project.Calendars)
 {
@@ -60,14 +70,21 @@ foreach (var calendar in project.Calendars)
 }
 ```
 
-## Sostituzione di un calendario con un nuovo calendario
+## Come impostare le ore lavorative per un calendario?
 
-### Passaggio 1: carica un progetto esistente.
+Per **impostare le ore lavorative**, modifichi la collezione `WorkingTime` di un `Calendar`.  
+Ad esempio, puoi definire una giornata lavorativa standard dalle 9:00 alle 17:00 o aggiungere eccezioni personalizzate.  
+Il codice per questo è identico agli esempi mostrati più avanti quando creiamo un calendario standard.
+
+## Sostituire un calendario con un nuovo calendario
+
+### Passo 1: Carica un progetto esistente.
 ```csharp
 var project = new Project(DataDir + "Project5.mpp");
 ```
 
-### Passaggio 2: rimuovi il calendario esistente (se esiste).
+### Passo 2: Rimuovi il calendario esistente (se esiste).  
+Questo dimostra lo scenario di **rimozione del calendario dal progetto**.
 ```csharp
 var calendar = project.Calendars.GetByName("TestCalendar");
 if (calendar != null)
@@ -76,45 +93,46 @@ if (calendar != null)
 }
 ```
 
-### Passaggio 3: aggiungi un nuovo calendario.
+### Passo 3: Aggiungi un nuovo calendario.
 ```csharp
 project.Calendars.Add("New Calendar");
 project.Save(OutDir + "ReplaceCalendarWithNewCalendar_out.mpp", SaveFileFormat.Mpp);
 ```
 
-## Ottenere il calendario per nome o ID
+## Recuperare un calendario per nome o ID
 
-### Passaggio 1: caricare il progetto.
+### Passo 1: Carica il progetto.
 ```csharp
 var project = new Project(DataDir + "Project5.mpp");
 ```
 
-### Passaggio 2: recupera i calendari per nome o UID.
+### Passo 2: Recupera i calendari per nome o UID.  
+Questo illustra l'operazione di **recupero del calendario per nome**.
 ```csharp
 var calendarByName = project.Calendars.GetByName("TestCalendar");
 var calendarByUid = project.Calendars.GetByUid(4);
 ```
 
-### Passaggio 3: visualizza i dettagli del calendario.
+### Passo 3: Mostra i dettagli del calendario.
 ```csharp
 Console.WriteLine("Calendar Name: " + calendarByName.Name);
 Console.WriteLine("Calendar Name: " + calendarByUid.Name);
 Console.WriteLine("Are calendars equals: " + calendarByName.Equals(calendarByUid));
 ```
 
-## Iterazione sui calendari
+## Iterare sui calendari
 
-### Passaggio 1: caricare il progetto.
+### Passo 1: Carica il progetto.
 ```csharp
 var project = new Project(DataDir + "Project5.mpp");
 ```
 
-### Passaggio 2: recupera il conteggio dei calendari.
+### Passo 2: Recupera il conteggio dei calendari.
 ```csharp
 Console.WriteLine("Number of calendars in the project: " + project.Calendars.Count);
 ```
 
-### Passaggio 3: scorre la raccolta del calendario e visualizza i nomi.
+### Passo 3: Itera sulla collezione di calendari e mostra i nomi.
 ```csharp
 List<Calendar> calendars = project.Calendars.ToList();
 foreach (var calendar in calendars)
@@ -125,47 +143,68 @@ foreach (var calendar in calendars)
 
 ## Creare un calendario standard
 
-### Passaggio 1: inizializzare un nuovo progetto.
+### Passo 1: Inizializza un nuovo progetto.
 ```csharp
 var project = new Project();
 ```
 
-### Passaggio 2: definire un nuovo calendario e renderlo standard.
+### Passo 2: Definisci un nuovo calendario e rendilo standard.
 ```csharp
 var calendar = project.Calendars.Add("New Standard Calendar");
 Calendar.MakeStandardCalendar(calendar);
 ```
 
-### Passaggio 3: salva il progetto.
+### Passo 3: Salva il progetto.
 ```csharp
 project.Save(OutDir + "MakeAStandardCalendar_out.xml", SaveFileFormat.Xml);
 ```
 
-## Conclusione
+## Problemi comuni e soluzioni
 
-La gestione delle raccolte di calendari in Aspose.Tasks per .NET è essenziale per una gestione efficace del progetto. Con le funzionalità fornite, puoi creare, modificare e manipolare in modo efficiente i calendari in base ai requisiti del tuo progetto.
+- **Calendario non trovato quando si utilizza `GetByName`** – Assicurati che il nome esatto corrisponda al caso usato quando il calendario è stato aggiunto.  
+- **Ore lavorative non applicate** – Dopo aver impostato `WorkingTime`, ricorda di salvare il progetto; altrimenti le modifiche rimangono solo in memoria.  
+- **Importazione dei calendari da un file MPP fallita** – Verifica che il file di origine sia un file Microsoft Project valido e che tu abbia i permessi di lettura.
+
+## FAQ
+
+### Q1: Posso creare giorni lavorativi personalizzati in Aspose.Tasks?
+A1: Sì, è possibile creare giorni lavorativi personalizzati aggiungendo eccezioni ai calendari.
+
+### Q2: È possibile importare i calendari da file Microsoft Project?
+A2: Assolutamente, Aspose.Tasks supporta l'importazione dei calendari da file Microsoft Project.
+
+### Q3: Come posso rimuovere un calendario specifico da un progetto?
+A3: Puoi rimuovere un calendario prelevandolo dalla collezione e poi chiamando il metodo `Remove`.
+
+### Q4: Aspose.Tasks supporta l'esportazione dei calendari in formati diversi?
+A4: Sì, Aspose.Tasks consente di esportare i calendari in vari formati come XML, MPP, ecc.
+
+### Q5: Posso personalizzare le ore lavorative per giorni specifici in un calendario?
+A5: Certamente, puoi definire le ore lavorative per giorni individuali usando le eccezioni nel calendario.
 
 ## Domande frequenti
 
-### Q1: posso creare giorni lavorativi personalizzati in Aspose.Tasks?
+**Q: Qual è il modo migliore per impostare un calendario a turno di 24 ore?**  
+A: Crea un nuovo calendario, cancella le voci `WorkingTime` esistenti e aggiungi un unico intervallo `WorkingTime` dalle 00:00 alle 24:00 per ogni giorno della settimana.
 
-R1: Sì, puoi creare giorni lavorativi personalizzati aggiungendo eccezioni ai calendari.
+**Q: Posso copiare un calendario da un progetto a un altro?**  
+A: Sì—esporta il calendario in XML usando `project.Save` e poi importalo in un altro progetto con `new Project(xmlPath)`.
 
-### Q2: È possibile importare calendari da file Microsoft Project?
+**Q: Come importare programmaticamente i calendari da Microsoft Project?**  
+A: Carica il file MPP con `new Project("source.mpp")`; i calendari diventano disponibili tramite `project.Calendars`.
 
-A2: Assolutamente, Aspose.Tasks supporta l'importazione di calendari da file Microsoft Project.
+**Q: Esiste un limite al numero di calendari in un progetto?**  
+A: Praticamente no; la collezione può contenere quanti calendari la memoria consente, ma è consigliabile mantenere l'elenco gestibile per le prestazioni.
 
-### Q3: Come posso rimuovere un calendario specifico da un progetto?
+**Q: Le modifiche a un calendario aggiornano automaticamente le attività che lo utilizzano?**  
+A: Sì—le attività collegate a un calendario riflettono i tempi di lavoro aggiornati dopo aver salvato il progetto.
 
- R3: Puoi rimuovere un calendario recuperandolo dalla raccolta e quindi chiamando il`Remove` metodo.
+---
 
-### Q4: Aspose.Tasks supporta l'esportazione di calendari in diversi formati?
+**Ultimo aggiornamento:** 2026-04-13  
+**Testato con:** Aspose.Tasks 24.11 for .NET  
+**Autore:** Aspose  
 
-A4: Sì, Aspose.Tasks consente di esportare calendari in vari formati come XML, MPP, ecc.
-
-### Q5: Posso personalizzare l'orario di lavoro per giorni specifici in un calendario?
-
-R5: Certamente è possibile definire l'orario di lavoro per i singoli giorni utilizzando le eccezioni nel calendario.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

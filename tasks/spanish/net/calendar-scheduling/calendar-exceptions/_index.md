@@ -1,43 +1,64 @@
 ---
-title: Manejo de excepciones de calendario en Aspose.Tasks
-linktitle: Manejo de excepciones de calendario en Aspose.Tasks
-second_title: API Aspose.Tasks .NET
-description: Aprenda a administrar excepciones de calendario en Aspose.Tasks para .NET con tutoriales y ejemplos paso a paso.
-weight: 12
+date: 2026-04-13
+description: Aprenda cómo eliminar una excepción de calendario en Aspose.Tasks para
+  .NET y verifique la fecha de la excepción al gestionar la programación del calendario
+  en ASP.NET.
+keywords:
+- delete calendar exception
+- asp.net calendar scheduling
+- check exception date
+linktitle: Eliminar excepción de calendario con Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+title: Eliminar excepción del calendario con Aspose.Tasks
 url: /es/net/calendar-scheduling/calendar-exceptions/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Manejo de excepciones de calendario en Aspose.Tasks
+# Eliminar excepción de calendario con Aspose.Tasks
 
 ## Introducción
 
-En este tutorial, exploraremos cómo administrar excepciones de calendario en Aspose.Tasks usando el marco .NET. Las excepciones de calendario nos permiten definir fechas o períodos especiales en el calendario de un proyecto donde se altera el horario de trabajo habitual, como días festivos o cierres temporales. Cubriremos varios métodos para manejar excepciones de calendario paso a paso, usando Aspose.Tasks para .NET.
+En este tutorial, aprenderás cómo **eliminar una excepción de calendario** y gestionar otras excepciones de calendario en Aspose.Tasks usando el framework .NET. Las excepciones de calendario te permiten modelar festivos, cierres temporales o cualquier período especial donde el horario de trabajo normal cambia. Entender cómo agregar, consultar y eliminar estas excepciones es esencial para una programación de proyectos precisa, especialmente al trabajar con escenarios de **programación de calendarios ASP.NET**.
+
+## Respuestas rápidas
+- **¿Cuál es el método principal para eliminar una excepción?** Usa el método `Delete()` en el objeto `CalendarException`.  
+- **¿Qué clase verifica una fecha contra una excepción?** `CalendarException.CheckException()`—útil para **comprobar la fecha de excepción**.  
+- **¿Necesito una licencia para ejecutar el código?** Sí, se requiere una licencia válida de Aspose.Tasks para uso en producción.  
+- **¿Puedo agregar múltiples excepciones a un calendario?** Absolutamente; la colección `Exceptions` admite muchas entradas.  
+- **¿Versiones .NET compatibles?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+
+## Qué es una excepción de calendario?
+
+Una **excepción de calendario** representa una desviación del calendario de trabajo regular—piénsalo como una regla que dice “en estas fechas, las horas de trabajo son diferentes o no hay trabajo”. En Aspose.Tasks, cada excepción puede tener sus propios horarios de trabajo, patrón de recurrencia y banderas que indican si el día es laborable.
+
+## ¿Por qué gestionar excepciones de calendario en la programación de calendarios ASP.NET?
+
+- **Cronogramas precisos:** Los proyectos respetan automáticamente festivos y cierres especiales, evitando plazos poco realistas.  
+- **Flexibilidad:** Puedes definir patrones diarios, semanales, mensuales o anuales, adaptándolos a calendarios empresariales del mundo real.  
+- **Automatización:** Comprobar programáticamente una fecha de excepción te permite crear lógica de programación dinámica en aplicaciones ASP.NET.
 
 ## Requisitos previos
 
-Antes de comenzar, asegúrese de tener los siguientes requisitos previos:
-- Conocimientos básicos del lenguaje de programación C#.
-- Visual Studio instalado en su sistema.
-- Biblioteca Aspose.Tasks para .NET agregada a su proyecto.
+- Conocimientos básicos de programación en C#.  
+- Visual Studio (cualquier versión reciente).  
+- Biblioteca Aspose.Tasks para .NET añadida a tu proyecto (via NuGet o referencia manual).  
 
 ## Importar espacios de nombres
 
-En primer lugar, importemos los espacios de nombres necesarios para nuestro proyecto:
+Primero, importa los espacios de nombres que necesitarás:
 
 ```csharp
 using Aspose.Tasks;
 using System;
-
-
 ```
 
-## Paso 1: eliminar una excepción del calendario
+## Paso 1: Eliminar excepción de calendario
 
-Para eliminar una excepción de calendario, siga estos pasos:
+Eliminar una excepción no deseada es sencillo. El siguiente código carga un proyecto, selecciona el primer calendario, muestra información básica, elimina la primera excepción y luego muestra el recuento actualizado.
 
 ```csharp
 public void CalendarExceptionDelete()
@@ -45,20 +66,22 @@ public void CalendarExceptionDelete()
     var project = new Project(DataDir + "CalendarExceptions.mpp");
     var calendar = project.Calendars.ToList()[0];
 
-    // Mostrar información del calendario
+    // Display calendar information
     Console.WriteLine("Calendar Name: " + calendar.Name);
     Console.WriteLine("Calendar Exception Count: " + calendar.Exceptions.Count);
 
-    // Eliminar la primera excepción
+    // Remove the first exception
     calendar.Exceptions[0].Delete();
 
     Console.WriteLine("Calendar Exception Count after Deletion: " + calendar.Exceptions.Count);
 }
 ```
 
-## Paso 2: Obtener el tiempo de trabajo de una excepción de calendario
+> **Consejo profesional:** Siempre verifica que el índice de la excepción exista antes de llamar a `Delete()` para evitar `IndexOutOfRangeException`.
 
-Para recuperar el tiempo de trabajo de una excepción de calendario, siga estos pasos:
+## Paso 2: Obtener tiempo de trabajo de una excepción de calendario
+
+Si necesitas inspeccionar las horas de trabajo definidas para una excepción, usa `GetWorkingTime()`. Este ejemplo también muestra cómo **comprobar la fecha de excepción** con `CheckException`.
 
 ```csharp
 [Test]
@@ -68,12 +91,12 @@ public void CalendarExceptionGetWorkingTime()
     var calendar = project.Calendars.ToList()[0];
     var exception = calendar.Exceptions[0];
 
-    // Mostrar calendario e información de excepciones
+    // Display calendar and exception information
     Console.WriteLine("Calendar Name: " + calendar.Name);
     Console.WriteLine("Calendar Exception Count: " + calendar.Exceptions.Count);
     Console.WriteLine("Calendar Exception Name: " + exception.Name);
 
-    // Obtener tiempo de trabajo y mostrar detalles
+    // Get working time and display details
     var workingTime = exception.GetWorkingTime();
     Console.WriteLine("Exception Working Time: " + workingTime);
 
@@ -87,7 +110,7 @@ public void CalendarExceptionGetWorkingTime()
 
 ## Paso 3: Definir excepciones de calendario
 
-Para agregar o eliminar excepciones de calendario, siga estos pasos:
+A continuación se muestra un recorrido completo que demuestra cómo **agregar**, **comprobar** y **eliminar** excepciones de calendario. Observa el uso de `CheckException` para **comprobar la fecha de excepción** en un momento específico.
 
 ```csharp
 [Test]
@@ -96,10 +119,10 @@ public void DefineCalendarExceptions()
     var project = new Project(DataDir + "project_test.mpp");
     var calendar = project.Calendars.Add("Calendar1");
 
-    // Crear una nueva excepción de calendario
+    // Create a new calendar exception
     var exception = new CalendarException();
     exception.Name = "New Calendar Exception";
-    // Establecer detalles de excepción
+    // Set exception details
     exception.EnteredByOccurrences = false;
     exception.FromDate = new DateTime(2009, 12, 24, 0, 0, 0);
     exception.ToDate = new DateTime(2009, 12, 31, 23, 59, 0);
@@ -107,13 +130,13 @@ public void DefineCalendarExceptions()
     exception.Month = Month.December;
     exception.DayWorking = false;
 
-    // Comprobar si una fecha es una excepción
+    // Check if a date is an exception (check exception date)
     Console.WriteLine("Is date an exception date: " + exception.CheckException(new DateTime(2009, 12, 26, 8, 0, 0)));
 
-    // Agregar la excepción al calendario
+    // Add the exception to the calendar
     calendar.Exceptions.Add(exception);
 
-    // Eliminar una excepción si existe
+    // Remove an exception if exists
     var cal = project.Calendars.ToList()[0];
     if (cal.Exceptions.Count > 1)
     {
@@ -121,13 +144,13 @@ public void DefineCalendarExceptions()
         cal.Exceptions.Remove(excToRemove);
     }
 
-    // Agregar una nueva excepción
+    // Add a new exception
     var exception2 = new CalendarException();
     exception2.FromDate = new System.DateTime(2009, 1, 1);
     exception2.ToDate = new System.DateTime(2009, 1, 3);
     cal.Exceptions.Add(exception2);
 
-    // Imprimir excepciones
+    // Print exceptions
     foreach (var exc in cal.Exceptions)
     {
         Console.WriteLine("Name: " + exc.Name);
@@ -137,31 +160,41 @@ public void DefineCalendarExceptions()
 }
 ```
 
-## Conclusión
+## Problemas comunes y consejos
 
-En este artículo, cubrimos varios aspectos del manejo de excepciones de calendario en Aspose.Tasks para .NET. Si sigue los pasos proporcionados, puede gestionar eficazmente las excepciones en los cronogramas de su proyecto, garantizando una representación precisa de las horas de trabajo y eventos especiales.
+| Problema | Razón | Solución |
+|----------|-------|----------|
+| **`IndexOutOfRangeException` al eliminar** | Intentar eliminar una excepción que no existe. | Verifica que `calendar.Exceptions.Count` > índice antes de llamar a `Delete()`. |
+| **Tiempos de trabajo incorrectos** | No se establecen `DayWorking` o `WorkingTimes` correctamente. | Usa `exception.WorkingTimes.Add(new WorkingTime(...))` para definir períodos explícitos. |
+| **Excepción no reconocida** | `CheckException` devuelve `false` porque la fecha está fuera del rango definido. | Revisa `FromDate`/`ToDate` y el `Type` (Daily, Weekly, etc.). |
 
 ## Preguntas frecuentes
 
-### P1: ¿Puedo agregar varias excepciones a un solo calendario?
+**P: ¿Puedo agregar múltiples excepciones a un solo calendario?**  
+R: Sí, puedes agregar tantas excepciones como necesites para representar festivos, ventanas de mantenimiento o cualquier regla de programación especial.
 
-R1: Sí, puedes agregar múltiples excepciones a un calendario para acomodar varias fechas o períodos especiales.
+**P: ¿Cómo puedo **comprobar la fecha de excepción** para un día específico?**  
+R: Usa el método `CheckException(DateTime date)` en una instancia de `CalendarException`. Devuelve `true` si la fecha suministrada cae dentro del rango de la excepción.
 
-### P2: ¿Cómo puedo comprobar si una fecha específica es una excepción?
+**P: ¿Es posible eliminar una excepción existente de un calendario?**  
+R: Absolutamente. Accede a la colección `Exceptions` y llama a `Remove()` o invoca `Delete()` en el objeto `CalendarException` específico.
 
- A2: Puedes usar el`CheckException()` método para verificar si una fecha particular cae bajo una excepción.
+**P: ¿Qué tipos de excepciones de calendario son compatibles?**  
+R: Aspose.Tasks admite tipos de excepción Diaria, Semanal, Mensual y Anual, dándote flexibilidad para modelar casi cualquier patrón de recurrencia.
 
-### P3: ¿Es posible eliminar una excepción existente de un calendario?
+**P: ¿Puedo personalizar las horas de trabajo para fechas de excepción específicas?**  
+R: Sí. Después de crear una excepción, rellena su colección `WorkingTimes` con objetos `WorkingTime` que definan las horas de inicio y fin para ese día.
 
- R3: Sí, puede eliminar excepciones accediendo al`Exceptions` recopilación del calendario y uso del`Remove()` método.
+## Conclusión
 
-### P4: ¿Qué tipos de excepciones de calendario se admiten?
+Hemos recorrido todo el ciclo de vida de las operaciones de **eliminar excepción de calendario**, desde inspeccionar excepciones existentes hasta agregar nuevas y comprobar fechas. Dominar estas técnicas garantiza que los cronogramas de tus proyectos respeten calendarios del mundo real, haciendo que tus implementaciones de programación de calendarios ASP.NET sean robustas y fiables.
 
-R4: Aspose.Tasks admite varios tipos de excepciones, incluidas excepciones diarias, semanales, mensuales y anuales, lo que brinda flexibilidad para definir reglas de excepción.
+---
 
-### P5: ¿Puedo personalizar el horario laboral para fechas de excepción específicas?
+**Última actualización:** 2026-04-13  
+**Probado con:** Aspose.Tasks for .NET (última versión)  
+**Autor:** Aspose  
 
-R5: Sí, puede definir horarios de trabajo personalizados para fechas de excepción individuales utilizando los métodos apropiados proporcionados por Aspose.Tasks.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

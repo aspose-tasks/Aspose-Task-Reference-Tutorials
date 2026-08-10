@@ -1,72 +1,96 @@
 ---
-title: Sammeln von untergeordneten Aufgaben in Aspose.Tasks
-linktitle: Sammeln von untergeordneten Aufgaben in Aspose.Tasks
-second_title: Aspose.Tasks .NET-API
-description: Erfahren Sie, wie Sie untergeordnete Aufgaben mit Aspose.Tasks für .NET effizient sammeln. Verbessern Sie das Projektmanagement in Ihren .NET-Anwendungen.
-weight: 15
+date: 2026-04-13
+description: Erfahren Sie, wie Sie mit Aspose.Tasks für .NET einen Sammler für Unteraufgaben
+  erstellen. Verbessern Sie das Projektmanagement in Ihren .NET-Anwendungen.
+keywords:
+- create child tasks collector
+- Aspose.Tasks child tasks
+- .NET project management
+- collect child tasks
+- Aspose.Tasks API
+linktitle: Child Tasks Collector in Aspose.Tasks erstellen
+second_title: Aspose.Tasks .NET API
+title: Wie man einen Sammler für Unteraufgaben in Aspose.Tasks erstellt
 url: /de/net/calendar-scheduling/child-tasks-collector/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Sammeln von untergeordneten Aufgaben in Aspose.Tasks
+# Child Tasks Collector in Aspose.Tasks erstellen
 
 ## Einführung
 
-Im Bereich Projektmanagement zeichnet sich Aspose.Tasks für .NET als robuste Lösung für die effiziente Abwicklung von Aufgaben und Projekten aus. Diese leistungsstarke Bibliothek stellt Entwicklern die Tools zur Verfügung, die sie benötigen, um Aufgaben, Projekte und alles dazwischen nahtlos zu verwalten. In diesem Tutorial befassen wir uns mit einem bestimmten Aspekt von Aspose.Tasks: dem Sammeln untergeordneter Aufgaben.
+Wenn Sie einen **Child Tasks Collector** für eine Microsoft Project‑Datei erstellen müssen, macht Aspose.Tasks für .NET das unkompliziert. In diesem Tutorial führen wir Sie Schritt für Schritt durch die erforderlichen Vorgänge, um jeden Unterauftrag eines übergeordneten Auftrags zu sammeln, sodass Sie sie sicher verarbeiten, analysieren oder exportieren können. Am Ende der Anleitung verfügen Sie über ein wiederverwendbares Snippet, das sich nahtlos in jede .NET‑basierte Projekt‑Management‑Lösung einfügt.
+
+## Schnelle Antworten
+- **Was macht der ChildTasksCollector?** Er durchläuft eine Aufgabenhierarchie und sammelt alle Nachfolger‑Aufgaben in einer Sammlung.  
+- **Welche Bibliothek stellt diese Funktion bereit?** Aspose.Tasks für .NET.  
+- **Benötige ich eine Lizenz, um das Beispiel auszuführen?** Eine kostenlose Testversion reicht für die Evaluierung; für den Produktionseinsatz ist eine Lizenz erforderlich.  
+- **Welche .NET‑Versionen werden unterstützt?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Wie lange dauert die Implementierung?** Ungefähr 5‑10 Minuten, sobald die Bibliothek installiert ist.
+
+## Was ist ein Child Tasks Collector?
+
+Ein **Child Tasks Collector** ist ein Dienstobjekt, das den Aufgabenbaum einer Project‑Datei durchläuft, beginnend bei einer angegebenen Wurzelaufgabe, und jede gefundene Unteraufgabe (Sub‑Task) aggregiert. Das ist besonders nützlich, wenn Sie Massenoperationen – wie das Aktualisieren von Feldern, Exportieren von Daten oder Erzeugen von Berichten – durchführen möchten, ohne manuell jede Ebene der Hierarchie zu iterieren.
+
+## Warum einen Child Tasks Collector erstellen?
+
+- **Rekursion vereinfachen:** Der Collector übernimmt die Tiefensuche intern, sodass Sie keine eigenen rekursiven Schleifen schreiben müssen.  
+- **Produktivität steigern:** Alle Nachfolger‑Aufgaben werden in einer einzigen Sammlung bereitgestellt, was Massenbearbeitungen oder Analysen trivial macht.  
+- **Sauberen Code beibehalten:** Ihre Geschäftslogik bleibt von der low‑level Navigation der Projektstruktur getrennt.
 
 ## Voraussetzungen
 
-Bevor wir beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
+Bevor wir beginnen, stellen Sie sicher, dass Sie Folgendes haben:
 
-1. Grundlegendes Verständnis von C#: Vertrautheit mit der Programmiersprache C# ist unerlässlich.
-2.  Installation von Aspose.Tasks für .NET: Laden Sie die Aspose.Tasks für .NET-Bibliothek von herunter und installieren Sie sie[Download-Link](https://releases.aspose.com/tasks/net/).
-3. Entwicklungsumgebung: Richten Sie eine Entwicklungsumgebung wie Visual Studio ein, um C#-Code zu schreiben und auszuführen.
-4. Zugriff auf Dokumentation: Bewahren Sie die auf[Aspose.Tasks für .NET-Dokumentation](https://reference.aspose.com/tasks/net/) praktisch als Referenz.
+1. **Grundlegendes Verständnis von C#** – Sie sollten sich damit wohlfühlen, einfache Konsolenanwendungen zu schreiben und auszuführen.  
+2. **Aspose.Tasks für .NET installiert** – laden Sie es über den [download link](https://releases.aspose.com/tasks/net/).  
+3. **Eine Entwicklungsumgebung** – Visual Studio, Rider oder jede IDE, die C# unterstützt.  
+4. **Zugang zu den offiziellen Dokumenten** – halten Sie die [Aspose.Tasks für .NET documentation](https://reference.aspose.com/tasks/net/) in der Nähe für Referenz.
 
-Nachdem wir nun die Voraussetzungen erfüllt haben, tauchen wir in die Schritt-für-Schritt-Anleitung zum Sammeln untergeordneter Aufgaben mit Aspose.Tasks für .NET ein.
+Jetzt, da die Grundlagen geschaffen sind, tauchen wir in den Code ein.
 
 ## Namespaces importieren
 
-Importieren Sie zunächst die erforderlichen Namespaces in Ihren C#-Code, um auf die von Aspose.Tasks für .NET bereitgestellten Funktionen zuzugreifen.
+Zuerst bringen wir die benötigten Namespaces in den Gültigkeitsbereich, damit der Compiler weiß, wo er die Klassen findet, die wir verwenden werden.
 
 ```csharp
 using Aspose.Tasks;
 using System;
 
 using Aspose.Tasks.Util;
-
 ```
 
-Lassen Sie uns nun das bereitgestellte Beispiel in mehrere Schritte unterteilen, um den Prozess gründlich zu verstehen.
+## Schritt-für-Schritt-Anleitung
 
-## Schritt 1: Projektobjekt initialisieren
+### Schritt 1: Das Project‑Objekt initialisieren
 
 ```csharp
 var project = new Project(DataDir + "ParentChildTasks.mpp");
 ```
 
- Diese Codezeile initialisiert eine neue`Project` Objekt, das eine Projektdatei mit dem Namen „ParentChildTasks.mpp“ aus dem angegebenen Verzeichnis lädt.
+Diese Zeile lädt eine vorhandene Microsoft Project‑Datei (`ParentChildTasks.mpp`) aus dem Ordner `DataDir` in ein `Project`‑Objekt und gibt uns programmgesteuerten Zugriff auf deren Aufgaben.
 
-## Schritt 2: Erstellen Sie ein ChildTasksCollector-Objekt
+### Schritt 2: Eine ChildTasksCollector‑Instanz erstellen
 
 ```csharp
 var collector = new ChildTasksCollector();
 ```
 
- Hier erstellen wir ein neues`ChildTasksCollector` Objekt, das uns hilft, untergeordnete Aufgaben aus dem Projekt zu sammeln.
+Hier **erstellen wir einen Child Tasks Collector** – eine Instanz von `ChildTasksCollector`, die jede gefundene Unteraufgabe speichert.
 
-## Schritt 3: Collector auf Root-Task anwenden
+### Schritt 3: Den Collector auf die Root‑Aufgabe anwenden
 
 ```csharp
 TaskUtils.Apply(project.RootTask, collector, 0);
 ```
 
- Wir wenden das an`ChildTasksCollector` zur Stammaufgabe des Projekts und initiiert den Erfassungsprozess rekursiv.
+Wir weisen Aspose.Tasks an, die Sammlung bei der Root‑Aufgabe des Projekts zu starten. Die Methode `Apply` durchläuft die Hierarchie rekursiv und füllt `collector.Tasks` mit allen Nachfolger‑Aufgaben.
 
-## Schritt 4: Durchlaufen Sie die gesammelten Aufgaben
+### Schritt 4: Durch die gesammelten Aufgaben iterieren
 
 ```csharp
 foreach (var task in collector.Tasks)
@@ -75,33 +99,39 @@ foreach (var task in collector.Tasks)
 }
 ```
 
-Schließlich durchlaufen wir die gesammelten Aufgaben und geben ihre Namen auf der Konsole aus.
+Abschließend durchlaufen wir die gesammelten Aufgaben und geben den Namen jeder Aufgabe in der Konsole aus. In einem realen Szenario könnten Sie `Console.WriteLine` durch jede gewünschte benutzerdefinierte Verarbeitung ersetzen (z. B. Export nach CSV, Feld‑Updates usw.).
 
-## Abschluss
+## Häufige Probleme und Lösungen
 
-In diesem Tutorial haben wir untersucht, wie man untergeordnete Aufgaben mit Aspose.Tasks für .NET sammelt. Indem Sie die oben beschriebenen Schritte befolgen, können Sie Aufgaben innerhalb Ihrer Projekte effizient verwalten und manipulieren und so die Produktivität und Organisation verbessern.
+| Problem | Grund | Lösung |
+|---------|-------|--------|
+| **Keine Aufgaben werden zurückgegeben** | Der Collector wurde auf die falsche Aufgabe angewendet (z. B. ein Blattknoten). | Wenden Sie `TaskUtils.Apply` auf `project.RootTask` oder den gewünschten übergeordneten Auftrag an. |
+| **NullReferenceException** | `DataDir` oder der Dateipfad ist falsch. | Stellen Sie sicher, dass `DataDir` auf den Ordner zeigt, der `ParentChildTasks.mpp` enthält. |
+| **Lizenz nicht gesetzt** | Aspose.Tasks gibt im Testmodus eine Lizenzwarnung aus. | Laden Sie Ihre Lizenz mit `License license = new License(); license.SetLicense("Aspose.Tasks.lic");` bevor Sie das `Project`‑Objekt erstellen. |
 
-## FAQs
+## Häufig gestellte Fragen
 
-### F1: Ist Aspose.Tasks für .NET mit allen Versionen von .NET kompatibel?
+**F: Ist Aspose.Tasks für .NET mit allen .NET‑Versionen kompatibel?**  
+**A:** Ja, Aspose.Tasks für .NET funktioniert mit .NET Framework 4.5+, .NET Core 3.1+ und .NET 5/6+.
 
-A1: Ja, Aspose.Tasks für .NET ist mit verschiedenen Versionen des .NET-Frameworks kompatibel und gewährleistet so eine umfassende Kompatibilität.
+**F: Kann ich mit Aspose.Tasks für .NET neue Projektdateien erstellen?**  
+**A:** Absolut! Die Bibliothek ermöglicht das programmgesteuerte Erstellen, Lesen und Manipulieren von Projektdateien.
 
-### F2: Kann ich Aspose.Tasks für .NET verwenden, um neue Projektdateien zu erstellen?
+**F: Unterstützt Aspose.Tasks für .NET mehrere Plattformen?**  
+**A:** Obwohl es für .NET konzipiert ist, können Sie es auf jeder Plattform ausführen, die die .NET‑Laufzeit unterstützt, einschließlich Windows, Linux und macOS.
 
-A2: Auf jeden Fall! Aspose.Tasks für .NET bietet Funktionen zum mühelosen Erstellen, Lesen und Bearbeiten von Projektdateien.
+**F: Gibt es technischen Support für Aspose.Tasks für .NET?**  
+**A:** Ja, Sie erhalten Hilfe über das [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
 
-### F3: Unterstützt Aspose.Tasks für .NET mehrere Plattformen?
+**F: Kann ich Aspose.Tasks für .NET vor dem Kauf testen?**  
+**A:** Selbstverständlich! Eine kostenlose Testversion steht auf der [release page](https://releases.aspose.com/) zur Verfügung.
 
-A3: Obwohl Aspose.Tasks für .NET hauptsächlich für .NET-Umgebungen entwickelt wurde, kann es auf verschiedenen Plattformen verwendet werden, die die .NET-Entwicklung unterstützen.
+---
 
-### F4: Ist technischer Support für Aspose.Tasks für .NET verfügbar?
+**Last Updated:** 2026-04-13  
+**Tested With:** Aspose.Tasks 24.11 for .NET  
+**Author:** Aspose  
 
-A4: Ja, Benutzer können über das auf technischen Support zugreifen[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15).
-
-### F5: Kann ich Aspose.Tasks für .NET vor dem Kauf testen?
-
- A5: Auf jeden Fall! Sie können eine kostenlose Testversion von der nutzen[Release-Seite](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

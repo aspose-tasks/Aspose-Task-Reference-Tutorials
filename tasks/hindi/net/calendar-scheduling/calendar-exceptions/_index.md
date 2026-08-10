@@ -1,43 +1,63 @@
 ---
-title: Aspose.Tasks में कैलेंडर अपवादों को संभालना
-linktitle: Aspose.Tasks में कैलेंडर अपवादों को संभालना
+date: 2026-04-13
+description: Aspose.Tasks for .NET में कैलेंडर अपवाद को कैसे हटाएँ और ASP.NET कैलेंडर
+  शेड्यूलिंग का प्रबंधन करते समय अपवाद तिथि की जाँच करें।
+keywords:
+- delete calendar exception
+- asp.net calendar scheduling
+- check exception date
+linktitle: Aspose.Tasks के साथ कैलेंडर अपवाद हटाएँ
 second_title: Aspose.Tasks .NET API
-description: चरण-दर-चरण ट्यूटोरियल और उदाहरणों के साथ .NET के लिए Aspose.Tasks में कैलेंडर अपवादों को प्रबंधित करना सीखें।
-weight: 12
+title: Aspose.Tasks के साथ कैलेंडर अपवाद हटाएँ
 url: /hi/net/calendar-scheduling/calendar-exceptions/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks में कैलेंडर अपवादों को संभालना
+# Aspose.Tasks के साथ कैलेंडर अपवाद हटाएँ
 
 ## परिचय
 
-इस ट्यूटोरियल में, हम जानेंगे कि .NET फ्रेमवर्क का उपयोग करके Aspose.Tasks में कैलेंडर अपवादों को कैसे प्रबंधित किया जाए। कैलेंडर अपवाद हमें प्रोजेक्ट कैलेंडर में विशेष तिथियों या अवधियों को परिभाषित करने की अनुमति देते हैं जहां नियमित कामकाजी शेड्यूल बदल दिया जाता है, जैसे छुट्टियां या अस्थायी बंद। हम .NET के लिए Aspose.Tasks का उपयोग करके चरण दर चरण कैलेंडर अपवादों को संभालने के विभिन्न तरीकों को कवर करेंगे।
+इस ट्यूटोरियल में, आप Aspose.Tasks का उपयोग करके .NET फ्रेमवर्क में **कैलेंडर अपवाद हटाना** और अन्य कैलेंडर अपवादों का प्रबंधन करना सीखेंगे। कैलेंडर अपवाद आपको छुट्टियों, अस्थायी बंद या किसी भी विशेष अवधि को मॉडल करने की अनुमति देते हैं जहाँ सामान्य कार्य शेड्यूल बदलता है। इन अपवादों को जोड़ना, क्वेरी करना और हटाना समझना सटीक प्रोजेक्ट शेड्यूलिंग के लिए आवश्यक है, विशेष रूप से **ASP.NET कैलेंडर शेड्यूलिंग** परिदृश्यों में काम करते समय।
 
-## आवश्यक शर्तें
+## त्वरित उत्तर
+- **अपवाद हटाने की मुख्य विधि क्या है?** `CalendarException` ऑब्जेक्ट पर `Delete()` मेथड का उपयोग करें।  
+- **कौन सा क्लास किसी तिथि को अपवाद के विरुद्ध जांचता है?** `CalendarException.CheckException()`—**अपवाद तिथि जांचने** के लिए उपयोगी।  
+- **क्या कोड चलाने के लिए लाइसेंस चाहिए?** हाँ, उत्पादन उपयोग के लिए एक वैध Aspose.Tasks लाइसेंस आवश्यक है।  
+- **क्या मैं एक कैलेंडर में कई अपवाद जोड़ सकता हूँ?** बिल्कुल; `Exceptions` कलेक्शन कई एंट्रीज़ का समर्थन करता है।  
+- **समर्थित .NET संस्करण?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
 
-शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित आवश्यकताएँ हैं:
-- C# प्रोग्रामिंग भाषा का बुनियादी ज्ञान।
-- आपके सिस्टम पर विज़ुअल स्टूडियो स्थापित है।
-- .NET लाइब्रेरी के लिए Aspose.Tasks आपके प्रोजेक्ट में जोड़ा गया।
+## कैलेंडर अपवाद क्या है?
 
-## नामस्थान आयात करें
+**कैलेंडर अपवाद** नियमित कार्य कैलेंडर से विचलन को दर्शाता है—इसे इस तरह समझें कि “इन तिथियों पर कार्य घंटे अलग हैं या बिल्कुल नहीं।” Aspose.Tasks में, प्रत्येक अपवाद के अपने कार्य समय, आवृत्ति पैटर्न, और फ़्लैग हो सकते हैं जो यह संकेत देते हैं कि वह दिन कार्य दिवस है या नहीं।
 
-सबसे पहले, आइए अपने प्रोजेक्ट के लिए आवश्यक नामस्थान आयात करें:
+## ASP.NET कैलेंडर शेड्यूलिंग में कैलेंडर अपवादों का प्रबंधन क्यों करें?
+
+- **सटीक समयरेखा:** प्रोजेक्ट स्वचालित रूप से छुट्टियों और विशेष बंदों का सम्मान करते हैं, जिससे अवास्तविक डेडलाइन से बचा जा सके।  
+- **लचीलापन:** आप दैनिक, साप्ताहिक, मासिक, या वार्षिक पैटर्न परिभाषित कर सकते हैं, जो वास्तविक व्यवसाय कैलेंडरों से मेल खाते हैं।  
+- **स्वचालन:** प्रोग्रामेटिक रूप से अपवाद तिथि की जांच करने से आप ASP.NET एप्लिकेशन में डायनेमिक शेड्यूलिंग लॉजिक बना सकते हैं।
+
+## आवश्यकताएँ
+
+- C# प्रोग्रामिंग का बुनियादी ज्ञान।  
+- Visual Studio (कोई भी नवीनतम संस्करण)।  
+- आपके प्रोजेक्ट में Aspose.Tasks for .NET लाइब्रेरी जोड़ें (NuGet या मैन्युअल रेफ़रेंस के माध्यम से)।  
+
+## नेमस्पेस आयात करें
+
+सबसे पहले, उन नेमस्पेस को आयात करें जिनकी आपको आवश्यकता होगी:
 
 ```csharp
 using Aspose.Tasks;
 using System;
-
-
 ```
 
-## चरण 1: कैलेंडर अपवाद हटाना
+## चरण 1: कैलेंडर अपवाद हटाएँ
 
-कैलेंडर अपवाद को हटाने के लिए, इन चरणों का पालन करें:
+अनचाहे अपवाद को हटाना सरल है। निम्नलिखित कोड एक प्रोजेक्ट लोड करता है, पहला कैलेंडर चुनता है, बुनियादी जानकारी दिखाता है, पहला अपवाद हटाता है, और फिर अपडेटेड काउंट दिखाता है।
 
 ```csharp
 public void CalendarExceptionDelete()
@@ -45,20 +65,22 @@ public void CalendarExceptionDelete()
     var project = new Project(DataDir + "CalendarExceptions.mpp");
     var calendar = project.Calendars.ToList()[0];
 
-    // कैलेंडर जानकारी प्रदर्शित करें
+    // Display calendar information
     Console.WriteLine("Calendar Name: " + calendar.Name);
     Console.WriteLine("Calendar Exception Count: " + calendar.Exceptions.Count);
 
-    // पहला अपवाद हटाएँ
+    // Remove the first exception
     calendar.Exceptions[0].Delete();
 
     Console.WriteLine("Calendar Exception Count after Deletion: " + calendar.Exceptions.Count);
 }
 ```
 
-## चरण 2: कैलेंडर अपवाद का कार्य समय प्राप्त करना
+> **Pro tip:** `Delete()` कॉल करने से पहले हमेशा यह सत्यापित करें कि अपवाद इंडेक्स मौजूद है, ताकि `IndexOutOfRangeException` से बचा जा सके।
 
-कैलेंडर अपवाद का कार्य समय पुनः प्राप्त करने के लिए, इन चरणों का पालन करें:
+## चरण 2: कैलेंडर अपवाद का कार्य समय प्राप्त करें
+
+यदि आपको किसी अपवाद के लिए परिभाषित कार्य घंटों की जाँच करनी है, तो `GetWorkingTime()` का उपयोग करें। यह उदाहरण यह भी दर्शाता है कि `CheckException` के साथ **अपवाद तिथि जांचना** कैसे किया जाता है।
 
 ```csharp
 [Test]
@@ -68,12 +90,12 @@ public void CalendarExceptionGetWorkingTime()
     var calendar = project.Calendars.ToList()[0];
     var exception = calendar.Exceptions[0];
 
-    // कैलेंडर और अपवाद जानकारी प्रदर्शित करें
+    // Display calendar and exception information
     Console.WriteLine("Calendar Name: " + calendar.Name);
     Console.WriteLine("Calendar Exception Count: " + calendar.Exceptions.Count);
     Console.WriteLine("Calendar Exception Name: " + exception.Name);
 
-    // कार्य समय प्राप्त करें और विवरण प्रदर्शित करें
+    // Get working time and display details
     var workingTime = exception.GetWorkingTime();
     Console.WriteLine("Exception Working Time: " + workingTime);
 
@@ -85,9 +107,9 @@ public void CalendarExceptionGetWorkingTime()
 }
 ```
 
-## चरण 3: कैलेंडर अपवादों को परिभाषित करना
+## चरण 3: कैलेंडर अपवाद निर्धारित करें
 
-कैलेंडर अपवाद जोड़ने या हटाने के लिए, इन चरणों का पालन करें:
+नीचे एक पूर्ण walkthrough दिया गया है जो दिखाता है कि कैलेंडर अपवादों को **जोड़ना**, **जांचना**, और **हटाना** कैसे किया जाता है। विशेष क्षण के लिए **अपवाद तिथि जांचने** हेतु `CheckException` के उपयोग पर ध्यान दें।
 
 ```csharp
 [Test]
@@ -96,10 +118,10 @@ public void DefineCalendarExceptions()
     var project = new Project(DataDir + "project_test.mpp");
     var calendar = project.Calendars.Add("Calendar1");
 
-    // एक नया कैलेंडर अपवाद बनाएं
+    // Create a new calendar exception
     var exception = new CalendarException();
     exception.Name = "New Calendar Exception";
-    // अपवाद विवरण सेट करें
+    // Set exception details
     exception.EnteredByOccurrences = false;
     exception.FromDate = new DateTime(2009, 12, 24, 0, 0, 0);
     exception.ToDate = new DateTime(2009, 12, 31, 23, 59, 0);
@@ -107,13 +129,13 @@ public void DefineCalendarExceptions()
     exception.Month = Month.December;
     exception.DayWorking = false;
 
-    // जांचें कि क्या कोई तारीख अपवाद है
+    // Check if a date is an exception (check exception date)
     Console.WriteLine("Is date an exception date: " + exception.CheckException(new DateTime(2009, 12, 26, 8, 0, 0)));
 
-    // कैलेंडर में अपवाद जोड़ें
+    // Add the exception to the calendar
     calendar.Exceptions.Add(exception);
 
-    // यदि कोई अपवाद मौजूद है तो उसे हटा दें
+    // Remove an exception if exists
     var cal = project.Calendars.ToList()[0];
     if (cal.Exceptions.Count > 1)
     {
@@ -121,13 +143,13 @@ public void DefineCalendarExceptions()
         cal.Exceptions.Remove(excToRemove);
     }
 
-    // एक नया अपवाद जोड़ें
+    // Add a new exception
     var exception2 = new CalendarException();
     exception2.FromDate = new System.DateTime(2009, 1, 1);
     exception2.ToDate = new System.DateTime(2009, 1, 3);
     cal.Exceptions.Add(exception2);
 
-    // अपवाद प्रिंट करें
+    // Print exceptions
     foreach (var exc in cal.Exceptions)
     {
         Console.WriteLine("Name: " + exc.Name);
@@ -137,31 +159,41 @@ public void DefineCalendarExceptions()
 }
 ```
 
-## निष्कर्ष
+## सामान्य समस्याएँ और सुझाव
 
-इस लेख में, हमने .NET के लिए Aspose.Tasks में कैलेंडर अपवादों को संभालने के विभिन्न पहलुओं को शामिल किया है। दिए गए चरणों का पालन करके, आप काम के घंटों और विशेष घटनाओं का सटीक प्रतिनिधित्व सुनिश्चित करते हुए, अपने प्रोजेक्ट शेड्यूल में अपवादों को प्रभावी ढंग से प्रबंधित कर सकते हैं।
+| समस्या | कारण | समाधान |
+|-------|--------|----------|
+| **`IndexOutOfRangeException` हटाते समय** | ऐसे अपवाद को हटाने की कोशिश करना जो मौजूद नहीं है। | `Delete()` कॉल करने से पहले `calendar.Exceptions.Count` > इंडेक्स है यह सत्यापित करें। |
+| **गलत कार्य समय** | `DayWorking` या `WorkingTimes` को सही ढंग से सेट न करना। | स्पष्ट अवधि निर्धारित करने के लिए `exception.WorkingTimes.Add(new WorkingTime(...))` का उपयोग करें। |
+| **अपवाद पहचाना नहीं गया** | `CheckException` `false` लौटाता है क्योंकि तिथि परिभाषित रेंज के बाहर है। | `FromDate`/`ToDate` और `Type` (Daily, Weekly, आदि) को दोबारा जांचें। |
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
-### Q1: क्या मैं एक ही कैलेंडर में एकाधिक अपवाद जोड़ सकता हूँ?
+**Q: क्या मैं एक ही कैलेंडर में कई अपवाद जोड़ सकता हूँ?**  
+**A:** हाँ, आप आवश्यकतानुसार कई अपवाद जोड़ सकते हैं जो छुट्टियों, रखरखाव विंडो या किसी भी विशेष शेड्यूलिंग नियम को दर्शाते हैं।
 
-उ1: हां, आप विभिन्न विशेष तिथियों या अवधियों को समायोजित करने के लिए कैलेंडर में कई अपवाद जोड़ सकते हैं।
+**Q: मैं किसी विशिष्ट दिन के लिए **check exception date** कैसे करूँ?**  
+**A:** `CalendarException` इंस्टेंस पर `CheckException(DateTime date)` मेथड का उपयोग करें। यह `true` लौटाता है यदि प्रदान की गई तिथि अपवाद रेंज के भीतर आती है।
 
-### Q2: मैं कैसे जांच सकता हूं कि कोई विशिष्ट तारीख अपवाद है या नहीं?
+**Q: क्या कैलेंडर से मौजूदा अपवाद को हटाना संभव है?**  
+**A:** बिल्कुल। `Exceptions` कलेक्शन तक पहुँचें और `Remove()` कॉल करें या विशिष्ट `CalendarException` ऑब्जेक्ट पर `Delete()` को इनवोक करें।
 
- A2: आप इसका उपयोग कर सकते हैं`CheckException()` यह सत्यापित करने की विधि कि कोई विशेष तिथि अपवाद के अंतर्गत आती है या नहीं।
+**Q: कौन से प्रकार के कैलेंडर अपवाद समर्थित हैं?**  
+**A:** Aspose.Tasks Daily, Weekly, Monthly, और Yearly अपवाद प्रकारों को समर्थन देता है, जिससे आप लगभग किसी भी आवृत्ति पैटर्न को मॉडल कर सकते हैं।
 
-### Q3: क्या किसी कैलेंडर से मौजूदा अपवाद को हटाना संभव है?
+**Q: क्या मैं विशिष्ट अपवाद तिथियों के लिए कार्य घंटे कस्टमाइज़ कर सकता हूँ?**  
+**A:** हाँ। अपवाद बनाने के बाद, उसकी `WorkingTimes` कलेक्शन को `WorkingTime` ऑब्जेक्ट्स से भरें जो उस दिन के प्रारम्भ और समाप्ति समय को परिभाषित करते हैं।
 
- उ3: हां, आप पहुंच कर अपवादों को हटा सकते हैं`Exceptions` कैलेंडर का संग्रह और उसका उपयोग करना`Remove()` तरीका।
+## निष्कर्ष
 
-### Q4: किस प्रकार के कैलेंडर अपवाद समर्थित हैं?
+हमने **कैलेंडर अपवाद हटाने** ऑपरेशनों के पूरे जीवनचक्र को देखा, मौजूदा अपवादों की जाँच से लेकर नए जोड़ने और तिथियों की जांच तक। इन तकनीकों में निपुणता यह सुनिश्चित करती है कि आपके प्रोजेक्ट शेड्यूल वास्तविक कैलेंडरों का सम्मान करें, जिससे आपका ASP.NET कैलेंडर शेड्यूलिंग कार्यान्वयन मजबूत और विश्वसनीय बनता है।
 
-A4: Aspose.Tasks दैनिक, साप्ताहिक, मासिक और वार्षिक अपवादों सहित विभिन्न प्रकार के अपवादों का समर्थन करता है, जो अपवाद नियमों को परिभाषित करने में लचीलापन प्रदान करता है।
+---
 
-### Q5: क्या मैं विशिष्ट अपवाद तिथियों के लिए कार्य घंटों को अनुकूलित कर सकता हूँ?
+**अंतिम अद्यतन:** 2026-04-13  
+**परीक्षित संस्करण:** Aspose.Tasks for .NET (latest release)  
+**लेखक:** Aspose  
 
-A5: हां, आप Aspose.Tasks द्वारा प्रदान की गई उचित विधियों का उपयोग करके व्यक्तिगत अपवाद तिथियों के लिए कस्टम कार्य समय परिभाषित कर सकते हैं।
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

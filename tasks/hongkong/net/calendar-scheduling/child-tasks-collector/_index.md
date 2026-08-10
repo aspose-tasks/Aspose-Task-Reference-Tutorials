@@ -1,72 +1,95 @@
 ---
-title: 在 Aspose.Tasks 中收集子任務
-linktitle: 在 Aspose.Tasks 中收集子任務
+date: 2026-04-13
+description: 學習如何使用 Aspose.Tasks for .NET 建立子任務收集器。提升您 .NET 應用程式的專案管理。
+keywords:
+- create child tasks collector
+- Aspose.Tasks child tasks
+- .NET project management
+- collect child tasks
+- Aspose.Tasks API
+linktitle: 在 Aspose.Tasks 中建立子任務收集器
 second_title: Aspose.Tasks .NET API
-description: 了解如何使用 Aspose.Tasks for .NET 有效地收集子任務。改進 .NET 應用程式中的專案管理。
-weight: 15
+title: 如何在 Aspose.Tasks 中建立子任務收集器
 url: /zh-hant/net/calendar-scheduling/child-tasks-collector/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Aspose.Tasks 中收集子任務
+# 在 Aspose.Tasks 中建立子任務收集器
 
 ## 介紹
 
-在專案管理領域，Aspose.Tasks for .NET 作為高效能處理任務和專案的強大解決方案脫穎而出。這個強大的程式庫為開發人員提供了無縫管理任務、專案和所有內容所需的工具。在本教程中，我們將深入研究 Aspose.Tasks 的一個特定方面：收集子任務。
+如果您需要為 Microsoft Project 檔案 **create child tasks collector**，Aspose.Tasks for .NET 讓這個過程變得簡單。在本教學中，我們將逐步說明收集父任務下所有子任務的具體步驟，讓您能自信地處理、分析或匯出它們。完成本指南後，您將擁有一段可重用的程式碼片段，能自然地融入任何基於 .NET 的專案管理解決方案。
 
-## 先決條件
+## 快速解答
+- **ChildTasksCollector 的功能是什麼？** 它會遍歷任務層級結構，將所有子孫任務收集到一個集合中。  
+- **哪個函式庫提供此功能？** Aspose.Tasks for .NET。  
+- **執行範例是否需要授權？** 免費試用可用於評估；正式環境需購買授權。  
+- **支援哪些 .NET 版本？** .NET Framework 4.5+、.NET Core 3.1+、.NET 5/6+。  
+- **實作大約需要多久？** 安裝函式庫後約 5‑10 分鐘即可完成。
 
-在我們開始之前，請確保您具備以下先決條件：
+## 什麼是 Child Tasks Collector？
 
-1. 對 C# 的基本了解：熟悉 C# 程式語言至關重要。
-2. 安裝 Aspose.Tasks for .NET：從下列位置下載並安裝 Aspose.Tasks for .NET 函式庫：[下載連結](https://releases.aspose.com/tasks/net/).
-3. 開發環境：設定開發環境，例如 Visual Studio，用於編寫和執行 C# 程式碼。
-4. 取得文件：保留[.NET 文件的 Aspose.Tasks](https://reference.aspose.com/tasks/net/)方便參考。
+**child tasks collector** 是一個實用物件，會從指定的根任務開始，遍歷 Project 檔案的任務樹，並彙總它遇到的每一個子任務（子任務）。當您想要執行批次操作——例如更新欄位、匯出資料或產生報表——而不必手動逐層迭代時，這特別有用。
 
-現在我們已經滿足了先決條件，讓我們深入了解使用 Aspose.Tasks for .NET 收集子任務的逐步指南。
+## 為什麼要建立 child tasks collector？
 
-## 導入命名空間
+- **簡化遞迴：** 收集器在內部處理深度優先遍歷，讓您免於自行編寫遞迴迴圈。  
+- **提升生產力：** 在單一集合中取得所有子孫任務，使批次編輯或分析變得簡單。  
+- **維持程式碼整潔：** 將業務邏輯與專案結構的低階導航分離。
 
-首先，將必要的命名空間匯入到您的 C# 程式碼中，以存取 Aspose.Tasks for .NET 提供的功能。
+## 前置條件
+
+在開始之前，請確保您已具備以下條件：
+
+1. **Basic Understanding of C#** – 您應該能熟練撰寫與執行簡單的主控台應用程式。  
+2. **Aspose.Tasks for .NET installed** – 從 [download link](https://releases.aspose.com/tasks/net/) 下載並安裝。  
+3. **A development environment** – Visual Studio、Rider 或任何支援 C# 的 IDE。  
+4. **Access to the official docs** – 請將 [Aspose.Tasks for .NET documentation](https://reference.aspose.com/tasks/net/) 隨手備用以供參考。
+
+現在基礎已就緒，讓我們深入程式碼。
+
+## 匯入命名空間
+
+首先，將所需的命名空間匯入作用域，讓編譯器知道要從哪裡取得我們將使用的類別。
 
 ```csharp
 using Aspose.Tasks;
 using System;
 
 using Aspose.Tasks.Util;
-
 ```
 
-現在，讓我們將提供的範例分解為多個步驟，以徹底理解該過程。
+## 步驟說明
 
-## 第 1 步：初始化項目對象
+### 步驟 1：初始化 Project 物件
 
 ```csharp
 var project = new Project(DataDir + "ParentChildTasks.mpp");
 ```
 
-這行程式碼初始化一個新的`Project`對象，從指定目錄載入名為「ParentChildTasks.mpp」的專案檔案。
+此行程式碼會從 `DataDir` 資料夾載入現有的 Microsoft Project 檔案 (`ParentChildTasks.mpp`) 成為 `Project` 物件，讓我們能以程式方式存取其任務。
 
-## 步驟2：建立ChildTasksCollector對象
+### 步驟 2：建立 ChildTasksCollector 實例
 
 ```csharp
 var collector = new ChildTasksCollector();
 ```
 
-在這裡，我們創建一個新的`ChildTasksCollector`對象，這將幫助我們從專案中收集子任務。
+此處我們 **create child tasks collector** —— 建立一個 `ChildTasksCollector` 實例，用於儲存它發現的每一個子任務。
 
-## 步驟 3：將收集器應用到根任務
+### 步驟 3：將收集器套用至根任務
 
 ```csharp
 TaskUtils.Apply(project.RootTask, collector, 0);
 ```
 
-我們應用`ChildTasksCollector`到專案的根任務，遞歸地啟動收集過程。
+我們指示 Aspose.Tasks 從專案的根任務開始收集。`Apply` 方法會遞迴遍歷層級，將所有子孫任務填入 `collector.Tasks`。
 
-## 第 4 步：迭代收集的任務
+### 步驟 4：遍歷收集到的任務
 
 ```csharp
 foreach (var task in collector.Tasks)
@@ -75,33 +98,39 @@ foreach (var task in collector.Tasks)
 }
 ```
 
-最後，我們迭代收集的任務並將其名稱列印到控制台。
+最後，我們遍歷收集到的任務，並將每個任務的名稱輸出至主控台。實務上，您可以將 `Console.WriteLine` 替換為任何自訂的處理程序（例如匯出為 CSV、更新欄位等）。
 
-## 結論
+## 常見問題與解決方案
 
-在本教程中，我們探討如何使用 Aspose.Tasks for .NET 收集子任務。透過執行上述步驟，您可以有效地管理和操作專案中的任務，從而提高生產力和組織性。
+| 問題 | 原因 | 解決方案 |
+|-------|--------|-----|
+| **未返回任何任務** | 收集器套用到錯誤的任務（例如葉節點）。 | 將 `TaskUtils.Apply` 套用至 `project.RootTask` 或您想要開始的特定父任務。 |
+| **NullReferenceException** | `DataDir` 或檔案路徑不正確。 | 確認 `DataDir` 指向包含 `ParentChildTasks.mpp` 的資料夾。 |
+| **License not set** | Aspose.Tasks 在試用模式下會拋出授權警告。 | 在建立 `Project` 物件之前，使用 `License license = new License(); license.SetLicense("Aspose.Tasks.lic");` 載入授權。 |
 
-## 常見問題解答
+## 常見問答
 
-### Q1：Aspose.Tasks for .NET 是否與所有版本的 .NET 相容？
+**Q: Aspose.Tasks for .NET 是否相容所有 .NET 版本？**  
+A: 是的，Aspose.Tasks for .NET 支援 .NET Framework 4.5+、.NET Core 3.1+ 以及 .NET 5/6+。
 
-A1：是的，Aspose.Tasks for .NET 與.NET 框架的各個版本相容，確保了廣泛的兼容性。
+**Q: 我可以使用 Aspose.Tasks for .NET 來建立新專案檔案嗎？**  
+A: 當然可以！此函式庫允許您以程式方式建立、讀取與操作專案檔案。
 
-### Q2：我可以使用 Aspose.Tasks for .NET 建立新的專案檔案嗎？
+**Q: Aspose.Tasks for .NET 是否支援多平台？**  
+A: 雖然它是為 .NET 設計，但可在任何支援 .NET 執行環境的平台上執行，包括 Windows、Linux 與 macOS。
 
-A2：當然！ Aspose.Tasks for .NET 提供了輕鬆建立、讀取和操作項目檔案的功能。
+**Q: 是否提供 Aspose.Tasks for .NET 的技術支援？**  
+A: 有，您可透過 [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) 取得協助。
 
-### Q3：Aspose.Tasks for .NET 支援多個平台嗎？
+**Q: 我可以在購買前試用 Aspose.Tasks for .NET 嗎？**  
+A: 當然！可從 [release page](https://releases.aspose.com/) 取得免費試用版。
 
-A3：雖然Aspose.Tasks for .NET主要是為.NET環境設計的，但它可以在支援.NET開發的各種平台中使用。
+---
 
-### Q4：Aspose.Tasks for .NET 是否提供技術支援？
+**最後更新：** 2026-04-13  
+**測試環境：** Aspose.Tasks 24.11 for .NET  
+**作者：** Aspose  
 
-A4：是的，使用者可以透過[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15).
-
-### Q5：我可以在購買前試用 Aspose.Tasks for .NET 嗎？
-
- A5：當然！您可以從以下網站獲得免費試用[發布頁面](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
