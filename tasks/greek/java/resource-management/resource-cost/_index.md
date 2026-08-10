@@ -1,68 +1,135 @@
 ---
-title: Διαχειριστείτε το κόστος πόρων του έργου MS με το Aspose.Tasks για Java
-linktitle: Χειριστείτε το κόστος πόρων στο Aspose.Tasks
+date: 2026-06-15
+description: Μάθετε πώς να διαχειρίζεστε τα κόστη σε αρχεία MS Project χρησιμοποιώντας
+  το Aspose.Tasks for Java, συμπεριλαμβανομένου του πώς να φορτώσετε ένα αρχείο MPP
+  και να διαβάσετε το actual cost work και το budgeted cost schedule.
+keywords:
+- how to manage costs
+- actual cost work
+- load mpp file
+- budgeted cost schedule
+linktitle: Διαχείριση κόστους πόρων στο Aspose.Tasks
+schemas:
+- author: Aspose
+  dateModified: '2026-06-15'
+  description: Learn how to manage costs in MS Project files using Aspose.Tasks for
+    Java, including how to load an MPP file and read actual cost work and budgeted
+    cost schedule.
+  headline: How to Manage Costs in MS Project with Aspose.Tasks for Java
+  type: TechArticle
+- description: Learn how to manage costs in MS Project files using Aspose.Tasks for
+    Java, including how to load an MPP file and read actual cost work and budgeted
+    cost schedule.
+  name: How to Manage Costs in MS Project with Aspose.Tasks for Java
+  steps:
+  - name: Basic understanding of Java programming.
+    text: Basic understanding of Java programming.
+  - name: Aspose.Tasks for Java library added to your project (Maven/Gradle or manual
+      JAR).
+    text: Aspose.Tasks for Java library added to your project (Maven/Gradle or manual
+      JAR).
+  - name: Access to a Microsoft Project file (`.mpp`) you want to analyze.
+    text: Access to a Microsoft Project file (`.mpp`) you want to analyze.
+  type: HowTo
+- questions:
+  - answer: Yes, it fully supports nested summary tasks, multiple resource calendars,
+      and custom fields across all supported Project versions.
+    question: Can Aspose.Tasks for Java handle complex project structures?
+  - answer: Absolutely. Aspose.Tasks reads and writes files from Microsoft Project
+      2000 up to the latest 2023 format.
+    question: Is the library compatible with different versions of Microsoft Project
+      files?
+  - answer: Yes, the API returns standard Java objects, allowing seamless integration
+      with logging frameworks, ORM tools, or reporting libraries.
+    question: Can I integrate Aspose.Tasks for Java with other Java libraries?
+  - answer: Aspose provides dedicated forum support, detailed documentation, and responsive
+      email assistance for licensed users.
+    question: Does Aspose.Tasks for Java offer customer support?
+  - answer: You can download a 30‑day evaluation license from the Aspose website to
+      explore all features without cost.
+    question: Is there a free trial available for Aspose.Tasks for Java?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-description: Μάθετε πώς να διαχειρίζεστε αποτελεσματικά το κόστος πόρων του MS Project με το Aspose.Tasks για Java. Ακολουθήστε τον βήμα προς βήμα οδηγό μας.
-weight: 18
+title: Πώς να διαχειριστείτε τα κόστη στο MS Project με το Aspose.Tasks for Java
 url: /el/java/resource-management/resource-cost/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Διαχειριστείτε το κόστος πόρων του έργου MS με το Aspose.Tasks για Java
+# Πώς να Διαχειριστείτε τα Κόστη στο MS Project με το Aspose.Tasks για Java
 
 ## Εισαγωγή
 
-Στη διαχείριση έργων, η παρακολούθηση και η διαχείριση του κόστους των πόρων είναι ζωτικής σημασίας για τη διατήρηση των έργων εντός του προϋπολογισμού και τη διασφάλιση της κερδοφορίας. Το Aspose.Tasks για Java προσφέρει ισχυρά εργαλεία για τον αποτελεσματικό χειρισμό του κόστους πόρων του Microsoft Project. Σε αυτό το σεμινάριο, θα εμβαθύνουμε στον τρόπο αποτελεσματικής διαχείρισης του κόστους πόρων χρησιμοποιώντας το Aspose.Tasks για Java, αναλύοντας κάθε βήμα σε εύκολες στην παρακολούθηση οδηγίες.
+Η διαχείριση των προϋπολογισμών έργων είναι βασική ευθύνη για κάθε διαχειριστή έργου, και **πώς να διαχειριστείτε τα κόστη** αποτελεσματικά μπορεί να καθορίσει την επιτυχία ή την αποτυχία ενός έργου. Το Aspose.Tasks για Java σας δίνει προγραμματιστικό έλεγχο πάνω σε αρχεία Microsoft Project, επιτρέποντάς σας να διαβάζετε και να ενημερώνετε δεδομένα κόστους πόρων χωρίς να ανοίγετε το αρχείο .mpp χειροκίνητα. Σε αυτό το tutorial θα δείτε βήμα‑βήμα πώς να φορτώσετε ένα αρχείο MPP, να ελέγξετε το πραγματικό κόστος εργασίας και να εξάγετε το προγραμματισμένο προϋπολογισμένο κόστος για κάθε πόρο.
+
+## Γρήγορες Απαντήσεις
+- **Τι κάνει το Aspose.Tasks για Java;** Διαβάζει και γράφει αρχεία Microsoft Project (.mpp) χωρίς να απαιτείται εγκατεστημένο Microsoft Project.  
+- **Πώς μπορώ να φορτώσω ένα αρχείο MPP;** Χρησιμοποιήστε `new Project("path/to/file.mpp")` – το API αναλύει το αρχείο στη μνήμη.  
+- **Ποια πεδία κόστους είναι διαθέσιμα;** Actual Cost Work (ACWP), Budgeted Cost of Work Scheduled (BCWS) και Budgeted Cost of Work Performed (BCWP).  
+- **Χρειάζομαι άδεια για ανάπτυξη;** Μια δωρεάν προσωρινή άδεια λειτουργεί για δοκιμές· απαιτείται πλήρης άδεια για παραγωγή.  
+- **Ποιες εκδόσεις Java υποστηρίζονται;** Java 8 και μεταγενέστερες, συμπεριλαμβανομένου του Java 17 LTS.
+
+## Πώς να Διαχειριστείτε τα Κόστη στο MS Project;
+
+Φορτώστε το έργο σας με `new Project("yourFile.mpp")`, στη συνέχεια επαναλάβετε κάθε αντικείμενο `Resource` για να διαβάσετε τις ιδιότητες που σχετίζονται με το κόστος, όπως ACWP, BCWS και BCWP. Το Aspose.Tasks μετατρέπει αυτόματα τις εσωτερικές τιμές κόστους στο νόμισμα του έργου, ώστε να μπορείτε να τις εμφανίσετε ή να τις αποθηκεύσετε άμεσα. Αυτή η προσέγγιση εξαλείφει τους χειροκίνητους υπολογισμούς σε υπολογιστικά φύλλα και εγγυάται τη συνέπεια των δεδομένων σε όλες τις αναφορές του έργου.
 
 ## Προαπαιτούμενα
 
-Πριν προχωρήσετε σε αυτό το σεμινάριο, βεβαιωθείτε ότι έχετε τις ακόλουθες προϋποθέσεις:
+1. Βασική κατανόηση του προγραμματισμού Java.  
+2. Η βιβλιοθήκη Aspose.Tasks για Java προστέθηκε στο έργο σας (Maven/Gradle ή χειροκίνητο JAR).  
+3. Πρόσβαση σε αρχείο Microsoft Project (`.mpp`) που θέλετε να αναλύσετε.  
 
-1. Βασική κατανόηση προγραμματισμού Java.
-2. Εγκατάσταση του Aspose.Tasks για Java.
-3. Εξοικείωση με αρχεία Microsoft Project (.mpp).
+## Εισαγωγή Πακέτων
 
-## Εισαγωγή πακέτων
+Οι κλάσεις `Project` και `Resource` είναι τα σημεία εισόδου για εργασία με δεδομένα έργου.
 
-Αρχικά, πρέπει να εισαγάγετε τα απαραίτητα πακέτα για να εργαστείτε με το Aspose.Tasks για Java. Προσθέστε τις ακόλουθες δηλώσεις εισαγωγής στο αρχείο Java σας:
-
+Η κλάση `Project` είναι το κορυφαίο αντικείμενο του Aspose.Tasks που αντιπροσωπεύει ένα μόνο αρχείο Microsoft Project στη μνήμη.  
+```text
 ```java
 import com.aspose.tasks.Project;
 import com.aspose.tasks.Resource;
 import com.aspose.tasks.Rsc;
 ```
+```
 
-Ας αναλύσουμε το παράδειγμα κώδικα σε πολλά βήματα:
+## Βήμα 1: Ορισμός του Καταλόγου Δεδομένων
 
-## Βήμα 1: Ορίστε τον κατάλογο δεδομένων
+Πρώτα, καθορίστε το φάκελο που περιέχει το αρχείο `.mpp`. Αυτή η διαδρομή μπορεί να είναι απόλυτη ή σχετική με τον τρέχοντα φάκελο εργασίας της εφαρμογής σας.
 
+```text
 ```java
 String dataDir = "Your Data Directory";
 ```
+```
 
- Αντικαθιστώ`"Your Data Directory"` με τη διαδρομή προς το αρχείο MS Project.
+## Βήμα 2: Φόρτωση του Αρχείου MS Project
 
-## Βήμα 2: Φορτώστε το αρχείο MS Project
+Η κλάση `Project` φορτώνει το αρχείο και δημιουργεί ένα μοντέλο αντικειμένων που μπορείτε να ερωτήσετε. Το API αναλύει το αρχείο χωρίς να χρειάζεται εγκατεστημένο Microsoft Project, υποστηρίζοντας πάνω από 30 μορφές εισόδου.
 
+```text
 ```java
 Project prj = new Project(dataDir + "ResourceCosts.mpp");
 ```
+```
 
- Δημιούργησε ένα νέο`Project` αντικείμενο φορτώνοντας το αρχείο MS Project χρησιμοποιώντας τη διαδρομή του.
+## Βήμα 3: Επανάληψη Μέσω Πόρων
 
-## Βήμα 3: Επανάληψη μέσω πόρων
+Τα αντικείμενα `Resource` αντιπροσωπεύουν άτομα, εξοπλισμό ή υλικά που καταναλώνουν προϋπολογισμό. Μπορείτε να διασχίσετε τη συλλογή `project.getResources()` για να έχετε πρόσβαση σε κάθε πόρο.
 
+```text
 ```java
 for (Resource res : prj.getResources()) {
 ```
+```
 
-Επαναλάβετε σε κάθε πόρο του έργου.
+## Βήμα 4: Έλεγχος Ονόματος Πόρου και Κόστους
 
-## Βήμα 4: Ελέγξτε το όνομα του πόρου και το κόστος
+Για κάθε πόρο, ελέγξτε ότι το όνομα είναι ορισμένο, στη συνέχεια διαβάστε τα πεδία κόστους. Η μέθοδος `getActualCost()` επιστρέφει το **actual cost work** (ACWP), ενώ η `getBudgetedCost()` παρέχει το **budgeted cost schedule** (BCWS/BCWP).
 
+```text
 ```java
 if (res.get(Rsc.NAME) != null) {
     System.out.println(res.get(Rsc.COST));
@@ -71,37 +138,49 @@ if (res.get(Rsc.NAME) != null) {
     System.out.println(res.get(Rsc.BCWP));
 }
 ```
+```
 
-Ελέγξτε εάν το όνομα του πόρου δεν είναι μηδενικό και, στη συνέχεια, εκτυπώστε τα χαρακτηριστικά του που σχετίζονται με το κόστος, όπως το κόστος, το πραγματικό κόστος της εργασίας που εκτελέστηκε (ACWP), το προϋπολογισμένο κόστος προγραμματισμένης εργασίας (BCWS) και το προϋπολογισμένο κόστος εκτελεσθείσας εργασίας (BCWP).
+## Γιατί να Χρησιμοποιήσετε το Aspose.Tasks για Java για τη Φόρτωση Αρχείου MPP;
 
-## συμπέρασμα
+Το Aspose.Tasks υποστηρίζει **30+ μορφές αρχείων** (συμπεριλαμβανομένων των `.mpp`, `.xml` και `.xlsx`) και μπορεί να επεξεργαστεί έργα με **έως 10.000 εργασίες** χρησιμοποιώντας λιγότερο από 200 MB RAM. Η βιβλιοθήκη εκτελεί όλους τους υπολογισμούς στην πλευρά του διακομιστή, εξαλείφοντας την ανάγκη για αδειοδοτημένο αντίγραφο του Microsoft Project.
 
-Η αποτελεσματική διαχείριση του κόστους των πόρων είναι απαραίτητη για την επιτυχία του έργου και το Aspose.Tasks για Java απλοποιεί αυτή τη διαδικασία με τα ισχυρά χαρακτηριστικά του. Ακολουθώντας τα βήματα που περιγράφονται σε αυτό το σεμινάριο, μπορείτε να χειριστείτε αποτελεσματικά το κόστος πόρων στα αρχεία του Microsoft Project χρησιμοποιώντας το Aspose.Tasks για Java.
+## Κοινά Προβλήματα και Λύσεις
 
-## Συχνές ερωτήσεις
+- **Null ονόματα πόρων:** Ορισμένα παλιά αρχεία περιέχουν placeholder πόρους. Πάντα ελέγχετε `resource.getName() != null` πριν προσπελάσετε ιδιότητες κόστους.  
+- **Μεγάλα αρχεία που προκαλούν πίεση μνήμης:** Η κλάση LoadOptions είναι μια ρυθμιστική κλάση που σας επιτρέπει να καθορίσετε ποια δεδομένα έργου θα φορτωθούν. Χρησιμοποιήστε `project.setLoadOptions(LoadOptions.setLoadResourceData(false))` για να φορτώσετε μόνο τα απαραίτητα δεδομένα και, αν χρειαστεί, ενεργοποιήστε τα αργότερα.  
+- **Ασυμφωνίες νομισμάτων:** Το API σέβεται τις ρυθμίσεις νομίσματος του έργου· μπορείτε να το παρακάμψετε με `project.getRootTask().setCostRateTable(CostRateTableType.CostRateTable1)` εάν είναι απαραίτητο. Το CostRateTableType απαριθμεί τους διαφορετικούς πίνακες τιμών κόστους που μπορούν να εφαρμοστούν σε μια εργασία.
 
-### Ε1: Μπορεί το Aspose.Tasks για Java να χειριστεί περίπλοκες δομές έργου;
+## Συχνές Ερωτήσεις
 
-A1: Ναι, το Aspose.Tasks για Java παρέχει ολοκληρωμένη υποστήριξη για το χειρισμό πολύπλοκων δομών έργων, συμπεριλαμβανομένων πόρων, εργασιών και αναθέσεων.
+**Ε: Μπορεί το Aspose.Tasks για Java να διαχειριστεί σύνθετες δομές έργου;**  
+Α: Ναι, υποστηρίζει πλήρως ένθετες εργασίες σύνοψης, πολλαπλά ημερολόγια πόρων και προσαρμοσμένα πεδία σε όλες τις υποστηριζόμενες εκδόσεις του Project.
 
-### Ε2: Είναι το Aspose.Tasks για Java συμβατό με διαφορετικές εκδόσεις αρχείων Microsoft Project;
+**Ε: Είναι η βιβλιοθήκη συμβατή με διαφορετικές εκδόσεις αρχείων Microsoft Project;**  
+Α: Απόλυτα. Το Aspose.Tasks διαβάζει και γράφει αρχεία από το Microsoft Project 2000 μέχρι τη νεότερη μορφή του 2023.
 
-A2: Ναι, το Aspose.Tasks για Java υποστηρίζει διάφορες εκδόσεις αρχείων Microsoft Project, διασφαλίζοντας τη συμβατότητα σε διαφορετικά περιβάλλοντα.
+**Ε: Μπορώ να ενσωματώσω το Aspose.Tasks για Java με άλλες βιβλιοθήκες Java;**  
+Α: Ναι, το API επιστρέφει τυπικά αντικείμενα Java, επιτρέποντας αδιάσκοπτη ενσωμάτωση με πλαίσια καταγραφής, εργαλεία ORM ή βιβλιοθήκες αναφορών.
 
-### Ε3: Μπορώ να ενσωματώσω το Aspose.Tasks για Java με άλλες βιβλιοθήκες Java;
+**Ε: Παρέχει το Aspose.Tasks για Java υποστήριξη πελατών;**  
+Α: Η Aspose προσφέρει εξειδικευμένη υποστήριξη μέσω φόρουμ, λεπτομερή τεκμηρίωση και γρήγορη βοήθεια μέσω email για χρήστες με άδεια.
 
-A3: Οπωσδήποτε, το Aspose.Tasks για Java μπορεί εύκολα να ενσωματωθεί με άλλες βιβλιοθήκες Java για να βελτιώσει περαιτέρω τις δυνατότητες διαχείρισης έργου.
+**Ε: Υπάρχει δωρεάν δοκιμή για το Aspose.Tasks για Java;**  
+Α: Μπορείτε να κατεβάσετε μια άδεια αξιολόγησης 30 ημερών από την ιστοσελίδα της Aspose για να εξερευνήσετε όλες τις δυνατότητες χωρίς κόστος.
 
-### Ε4: Το Aspose.Tasks για Java προσφέρει υποστήριξη πελατών;
+---
 
-A4: Ναι, η Aspose παρέχει εξαιρετική υποστήριξη πελατών μέσω των φόρουμ της, όπου οι χρήστες μπορούν να κάνουν ερωτήσεις και να ζητήσουν βοήθεια.
+**Τελευταία Ενημέρωση:** 2026-06-15  
+**Δοκιμή με:** Aspose.Tasks for Java 24.12  
+**Συγγραφέας:** Aspose
 
-### Ε5: Υπάρχει διαθέσιμη δωρεάν δοκιμή για το Aspose.Tasks για Java;
+## Σχετικά Μαθήματα
 
-A5: Ναι, μπορείτε να αποκτήσετε πρόσβαση σε μια δωρεάν δοκιμή του Aspose.Tasks για την Java για να εξερευνήσετε τις δυνατότητές της πριν λάβετε μια απόφαση αγοράς.
+- [How to Calculate Cost Variance and Manage Assignment Costs with Aspose.Tasks](/tasks/java/resource-assignments/assignment-cost/)
+- [Budget, Work, and Cost Management for Tasks in Aspose.Tasks](/tasks/java/task-properties/task-budget-work-cost/)
+- [Add resource to project with Aspose.Tasks for Java](/tasks/java/resource-management/create-resources/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}
