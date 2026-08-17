@@ -1,11 +1,10 @@
 ---
-date: 2025-12-11
-description: Tìm hiểu cách Java đọc cơ sở dữ liệu Access và chuyển đổi Access sang
-  XML bằng Aspose.Tasks cho Java. Thực hiện theo hướng dẫn từng bước của chúng tôi
-  để xuất XML của MS Project.
+date: 2026-02-15
+description: Học cách đọc cơ sở dữ liệu Access trong Java, chuyển đổi Access sang
+  XML và xuất XML của MS Project bằng Aspose.Tasks cho Java.
 linktitle: Reading Project Data from Microsoft Access Database with Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: 'java đọc cơ sở dữ liệu Access: Đọc dữ liệu dự án bằng Aspose.Tasks'
+title: 'Cách đọc Access: Java Access DB sang XML với Aspose.Tasks'
 url: /vi/java/project-data-reading/read-access-database/
 weight: 11
 ---
@@ -14,33 +13,33 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# java read access database: Đọc Dữ liệu Dự án với Aspose.Tasks
+# cách đọc access: Java Access DB sang XML với Aspose.Tasks
 
 ## Introduction
-Aspose.Tasks for Java là một API mạnh mẽ cho phép bạn **java read access database** dữ liệu và chuyển đổi nó sang các định dạng Microsoft Project. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn chi tiết các bước cần thiết để đọc dữ liệu MS Project được lưu trong cơ sở dữ liệu Microsoft Access, chuyển đổi dữ liệu sang XML, và cuối cùng xuất dự án dưới dạng tệp XML có thể được các công cụ khác sử dụng.
+Nếu bạn cần **how to read access** dữ liệu được lưu trong cơ sở dữ liệu Microsoft Access cổ điển và chuyển nó thành tệp XML Microsoft Project hiện đại, bạn đã đến đúng nơi. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn từng bước cần thiết để kết nối tới tệp Access từ Java, sử dụng Aspose.Tasks để lấy thông tin dự án, **convert access to xml**, và cuối cùng **save project as xml** để các công cụ khác có thể sử dụng. Khi hoàn thành, bạn sẽ có một đoạn mã có thể tái sử dụng hoạt động trên Windows, Linux hoặc macOS.
 
 ## Quick Answers
-- **What does the tutorial cover?** Đọc dữ liệu MS Project từ một cơ sở dữ liệu Access và xuất ra XML bằng Aspose.Tasks.  
+- **What does the tutorial cover?** Đọc dữ liệu MS Project từ một Access DB và xuất nó ra XML bằng Aspose.Tasks.  
 - **Which library is required?** Aspose.Tasks for Java (phiên bản mới nhất).  
 - **Do I need a license?** Cần có giấy phép tạm thời hoặc đầy đủ cho việc sử dụng trong môi trường sản xuất.  
-- **Can I convert Access to XML?** Có – lớp `MpdSettings` tự động thực hiện việc chuyển đổi.  
-- **Is Java 8+ supported?** Chắc chắn, bất kỳ JDK 8 trở lên nào đều hoạt động.
+- **Can I convert Access to XML?** Có – lớp `MpdSettings` xử lý việc chuyển đổi tự động.  
+- **Is Java 8+ supported?** Hoàn toàn hỗ trợ, bất kỳ JDK 8 hoặc mới hơn đều hoạt động.
 
-## What is java read access database?
-Đọc dữ liệu từ một cơ sở dữ liệu Access trong Java có nghĩa là thiết lập chuỗi kết nối, lấy thông tin dự án, và sau đó sử dụng Aspose.Tasks để xử lý dữ liệu đó. Cách tiếp cận này lý tưởng khi bạn có dữ liệu dự án cũ được lưu trong Access và cần di chuyển chúng sang các công cụ quản lý dự án hiện đại.
+## What does “how to read access” mean?
+Trong thế giới Java, **how to read access** đề cập đến việc thiết lập một chuỗi kết nối kiểu JDBC cho tệp Access (.mdb/.accdb), truy xuất các hàng dự án đã lưu, và sau đó đưa dữ liệu đó vào một thư viện có thể hiểu cấu trúc Microsoft Project. Aspose.Tasks trừu tượng hoá phần công việc nặng, cho phép bạn tập trung vào logic chuyển đổi.
 
 ## Why use Aspose.Tasks for this task?
 - **No COM interop** – bạn không cần cài đặt Microsoft Project trên máy chủ.  
-- **Direct DB access** – `MpdSettings` đọc file Access mà không cần bước trung gian.  
+- **Direct DB access** – `MpdSettings` đọc tệp Access mà không cần bước xuất trung gian.  
 - **Built‑in conversion** – tự động **convert access to xml** và **export ms project xml**.  
-- **Cross‑platform** – hoạt động trên Windows, Linux và macOS với cùng một đoạn mã.
+- **Cross‑platform** – hoạt động giống nhau trên Windows, Linux và macOS.  
 
 ## Prerequisites
-- **Java Development Kit (JDK)** – Đảm bảo JDK 8 hoặc mới hơn đã được cài đặt.  
-- **Aspose.Tasks for Java Library** – Tải xuống từ trang chính thức. Tham khảo [download link](https://releases.aspose.com/tasks/java/) để lấy thư viện và thêm vào classpath của dự án.
+- **Java Development Kit (JDK)** – JDK 8 hoặc mới hơn đã được cài đặt.  
+- **Aspose.Tasks for Java Library** – Tải xuống từ trang chính thức. Tham khảo [download link](https://releases.aspose.com/tasks/java/) để lấy thư viện và thêm vào classpath của dự án.  
 
 ## Import Packages
-First, import the necessary classes that enable project handling and database connectivity.
+Đầu tiên, nhập các lớp cho phép xử lý dự án và kết nối cơ sở dữ liệu.
 ```java
 import com.aspose.tasks.MpdSettings;
 import com.aspose.tasks.Project;
@@ -48,31 +47,31 @@ import com.aspose.tasks.SaveFileFormat;
 import java.io.IOException;
 ```
 
-## How to java read access database with Aspose.Tasks?
-Below is a step‑by‑step walk‑through. Each step is explained in plain language before the code block, so you know exactly what’s happening.
+## How to read access database using Aspose.Tasks?
+Dưới đây là hướng dẫn từng bước. Mỗi bước được giải thích bằng ngôn ngữ đơn giản trước khối mã, để bạn biết chính xác những gì đang diễn ra.
 
 ### Step 1: Define Data Directory
-Set the folder where the resulting XML file will be saved. Replace the placeholder with your actual path.
+Đặt thư mục nơi tệp XML kết quả sẽ được lưu. Thay thế placeholder bằng đường dẫn thực tế của bạn.
 ```java
 String dataDir = "Your Data Directory";
 ```
 
 ### Step 2: Define MpdSettings
-Create an `MpdSettings` instance that contains the connection string to your Access database and the identifier of the project you want to read (here, `1` refers to the first project record).
+Tạo một thể hiện `MpdSettings` chứa chuỗi kết nối tới cơ sở dữ liệu Access của bạn và định danh dự án bạn muốn đọc (ở đây, `1` đại diện cho bản ghi dự án đầu tiên). Đây là cốt lõi của **read access database java**.
 ```java
 MpdSettings settings = new MpdSettings(getConnectionString(), 1);
 ```
 
-> **Pro tip:** If you need to **read ms project access** data for multiple projects, loop through the IDs and instantiate a new `MpdSettings` for each iteration.
+> **Pro tip:** Nếu bạn cần **read ms project access** dữ liệu cho nhiều dự án, hãy lặp qua các ID và tạo một `MpdSettings` mới cho mỗi vòng lặp.
 
 ### Step 3: Load Project from Database
-Pass the `MpdSettings` object to the `Project` constructor. Aspose.Tasks will fetch the project data directly from the Access file.
+Chuyển đối tượng `MpdSettings` vào hàm khởi tạo `Project`. Aspose.Tasks sẽ lấy dữ liệu dự án trực tiếp từ tệp Access.
 ```java
 Project project = new Project(settings);
 ```
 
 ### Step 4: Save Project Data
-Finally, export the loaded project to an XML file. This step **export ms project xml** so other tools can consume it.
+Cuối cùng, xuất dự án đã tải ra tệp XML. Bước này **export ms project xml** để các công cụ khác có thể sử dụng, và cũng **save project as xml** lên đĩa.
 ```java
 project.save(dataDir + "project1.xml", SaveFileFormat.Xml);
 ```
@@ -80,30 +79,34 @@ project.save(dataDir + "project1.xml", SaveFileFormat.Xml);
 ## Common Issues and Solutions
 | Issue | Solution |
 |-------|----------|
-| *Connection string errors* | Verify the Access file path and ensure the Jet/ACE OLEDB provider is installed on the machine. |
-| *Permission denied on save* | Make sure the `dataDir` folder exists and the application has write permissions. |
-| *Project appears empty* | Confirm that the correct project ID is passed to `MpdSettings`. Use a database viewer to inspect the `ProjectID` column. |
+| *Connection string errors* | Xác minh đường dẫn tệp Access và đảm bảo nhà cung cấp Jet/ACE OLEDB đã được cài đặt trên máy. |
+| *Permission denied on save* | Đảm bảo thư mục `dataDir` tồn tại và ứng dụng có quyền ghi. |
+| *Project appears empty* | Xác nhận rằng ID dự án đúng đã được truyền vào `MpdSettings`. Sử dụng công cụ xem cơ sở dữ liệu để kiểm tra cột `ProjectID`. |
 
 ## Frequently Asked Questions
-### Q: Can I use Aspose.Tasks for Java with other database systems besides Microsoft Access?  
-A: Yes, Aspose.Tasks supports various database systems like SQL Server, MySQL, and Oracle.
+### Q: Tôi có thể sử dụng Aspose.Tasks cho Java với các hệ thống cơ sở dữ liệu khác ngoài Microsoft Access không?  
+A: Có, Aspose.Tasks hỗ trợ nhiều hệ thống cơ sở dữ liệu như SQL Server, MySQL và Oracle.
 
-### Q: Is there a free trial available for Aspose.Tasks for Java?  
-A: Yes, you can get a free trial from [here](https://releases.aspose.com/).
+### Q: Có bản dùng thử miễn phí cho Aspose.Tasks cho Java không?  
+A: Có, bạn có thể nhận bản dùng thử miễn phí từ [here](https://releases.aspose.com/).
 
-### Q: How can I get technical support for Aspose.Tasks for Java?  
-A: You can get technical support from the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
+### Q: Làm sao tôi có thể nhận hỗ trợ kỹ thuật cho Aspose.Tasks cho Java?  
+A: Bạn có thể nhận hỗ trợ kỹ thuật từ [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
 
-### Q: Do I need a temporary license to use Aspose.Tasks for Java?  
-A: You may need a temporary license for some advanced features. Get it from [here](https://purchase.aspose.com/temporary-license/).
+### Q: Tôi có cần giấy phép tạm thời để sử dụng Aspose.Tasks cho Java không?  
+A: Bạn có thể cần giấy phép tạm thời cho một số tính năng nâng cao. Lấy nó từ [here](https://purchase.aspose.com/temporary-license/).
 
-### Q: Where can I purchase Aspose.Tasks for Java?  
-A: You can purchase Aspose.Tasks for Java from [this link](https://purchase.aspose.com/buy).
+### Q: Tôi có thể mua Aspose.Tasks cho Java ở đâu?  
+A: Bạn có thể mua Aspose.Tasks cho Java từ [this link](https://purchase.aspose.com/buy).
 
----  
-**Last Updated:** 2025-12-11  
-**Tested With:** Aspose.Tasks for Java (latest)  
-**Author:** Aspose  
+## Conclusion
+Bạn hiện đã có một ví dụ hoàn chỉnh, sẵn sàng cho môi trường sản xuất về **how to read access** dữ liệu, **convert access to xml**, và **save project as xml** bằng Aspose.Tasks cho Java. Hãy tự do điều chỉnh đoạn mã cho xử lý hàng loạt hoặc tích hợp vào các pipeline di chuyển lớn hơn.
+
+---
+
+**Cập nhật lần cuối:** 2026-02-15  
+**Kiểm tra với:** Aspose.Tasks for Java (latest)  
+**Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

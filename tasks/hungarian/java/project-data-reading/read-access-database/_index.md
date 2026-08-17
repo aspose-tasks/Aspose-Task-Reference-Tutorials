@@ -1,11 +1,11 @@
 ---
-date: 2025-12-11
-description: Tanulja meg, hogyan olvassa be a Java-val az Access adatbázist, és konvertálja
-  az Access-t XML-re az Aspose.Tasks for Java segítségével. Kövesse lépésről‑lépésre
-  útmutatónkat a MS Project XML exportálásához.
+date: 2026-02-15
+description: Tanulja meg, hogyan olvassa be az Access adatbázist Java-ban, konvertálja
+  az Access-et XML-re, és exportálja a MS Project XML-t az Aspose.Tasks for Java segítségével.
 linktitle: Reading Project Data from Microsoft Access Database with Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: 'java read access adatbázis: Projektadatok olvasása az Aspose.Tasks segítségével'
+title: 'Hogyan olvassuk be az Access-et: Java Access DB XML-re konvertálása az Aspose.Tasks
+  segítségével'
 url: /hu/java/project-data-reading/read-access-database/
 weight: 11
 ---
@@ -14,33 +14,33 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# java read access database: Projektadatok olvasása az Aspose.Tasks segítségével
+# hogyan olvassuk a hozzáférést: Java Access DB XML-re az Aspose.Tasks segítségével
 
-## Introduction
-Aspose.Tasks for Java egy erőteljes API, amely lehetővé teszi, hogy **java read access database** adatokat olvassunk, és azokat Microsoft Project formátumokká alakítsuk. Ebben az útmutatóban lépésről lépésre bemutatjuk, hogyan olvassuk be a MS Project adatokat egy Microsoft Access adatbázisból, hogyan konvertáljuk az adatokat XML-re, és végül hogyan exportáljuk a projektet XML-fájlként, amelyet más eszközök is felhasználhatnak.
+## Bevezetés
+Ha **hogyan olvassuk a hozzáférést** adatokat kell kiolvasni egy régi Microsoft Access adatbázisból, és modern Microsoft Project XML fájlba konvertálni, jó helyen jársz. Ebben az útmutatóban lépésről lépésre bemutatjuk, hogyan csatlakozzunk a Access fájlhoz Java‑ból, használjuk az Aspose.Tasks‑et a projektinformációk lekéréséhez, **konvertáljuk a hozzáférést XML‑re**, és végül **mentsük a projektet XML‑ként**, hogy más eszközök is felhasználhassák. A végére egy újrahasználható kódrészletet kapsz, amely Windows, Linux vagy macOS rendszeren működik.
 
-## Quick Answers
-- **What does the tutorial cover?** MS Project adatok olvasása Access DB‑ből és exportálása XML-be az Aspose.Tasks segítségével.  
-- **Which library is required?** Aspose.Tasks for Java (legújabb verzió).  
-- **Do I need a license?** Ideiglenes vagy teljes licenc szükséges a termelésben való használathoz.  
-- **Can I convert Access to XML?** Igen – a `MpdSettings` osztály automatikusan kezeli a konverziót.  
-- **Is Java 8+ supported?** Teljesen, bármely JDK 8 vagy újabb verzióval működik.
+## Gyors válaszok
+- **Miről szól a tutorial?** MS Project adatok olvasása Access DB‑ből és exportálása XML‑be az Aspose.Tasks‑szel.  
+- **Melyik könyvtár szükséges?** Aspose.Tasks for Java (legújabb verzió).  
+- **Szükség van licencre?** Ideiglenes vagy teljes licenc szükséges a termelésben való használathoz.  
+- **Konvertálhatók a Access adatok XML‑re?** Igen – a `MpdSettings` osztály automatikusan kezeli a konverziót.  
+- **Támogatott a Java 8+?** Teljesen, bármely JDK 8 vagy újabb verzió működik.
 
-## What is java read access database?
-A Java‑ban történő Access adatbázisból való adatolvasás azt jelenti, hogy létrehozunk egy kapcsolati karakterláncot, lekérjük a projektinformációkat, majd az Aspose.Tasks segítségével manipuláljuk az adatokat. Ez a megközelítés ideális, ha örökölt projektadatok vannak tárolva Access‑ben, és ezeket modern projektmenedzsment eszközökbe szeretnénk migrálni.
+## Mit jelent a „hogyan olvassuk a hozzáférést”?
+A Java környezetben a **hogyan olvassuk a hozzáférést** arra utal, hogy megfelelő JDBC‑stílusú kapcsolati karakterláncot állítsunk be egy Access (.mdb/.accdb) fájlhoz, lekérjük a tárolt projekt sorokat, majd ezeket egy olyan könyvtárba adjuk át, amely érti a Microsoft Project struktúrákat. Az Aspose.Tasks elvégzi a nehéz munkát, így a konverziós logikára koncentrálhatsz.
 
-## Why use Aspose.Tasks for this task?
-- **No COM interop** – nem szükséges a Microsoft Project telepítése a szerveren.  
-- **Direct DB access** – a `MpdSettings` közvetlenül olvassa az Access fájlt köztes lépések nélkül.  
-- **Built‑in conversion** – automatikusan **convert access to xml** és **export ms project xml**.  
-- **Cross‑platform** – Windows, Linux és macOS rendszereken egyaránt működik ugyanazzal a kóddal.
+## Miért használjuk az Aspose.Tasks‑et ehhez a feladathoz?
+- **Nincs COM interop** – nem kell Microsoft Projectet telepíteni a szerverre.  
+- **Közvetlen DB hozzáférés** – a `MpdSettings` közvetlenül olvassa a Access fájlt közbenső export lépés nélkül.  
+- **Beépített konverzió** – automatikusan **konvertálja a hozzáférést XML‑re** és **exportálja a MS Project XML‑t**.  
+- **Keresztplatformos** – ugyanúgy működik Windows, Linux és macOS rendszereken.  
 
-## Prerequisites
-- **Java Development Kit (JDK)** – Győződjön meg róla, hogy JDK 8 vagy újabb telepítve van.  
-- **Aspose.Tasks for Java Library** – Töltse le a hivatalos oldalról. Kövesse a [download link](https://releases.aspose.com/tasks/java/) útmutatót a könyvtár beszerzéséhez, és adja hozzá a projekt classpath‑jához.
+## Előkövetelmények
+- **Java Development Kit (JDK)** – telepített JDK 8 vagy újabb.  
+- **Aspose.Tasks for Java Library** – Töltsd le a hivatalos oldalról. Kövesd a [letöltési hivatkozást](https://releases.aspose.com/tasks/java/) a könyvtár beszerzéséhez, és add hozzá a projekt classpath‑jához.  
 
-## Import Packages
-First, import the necessary classes that enable project handling and database connectivity.
+## Csomagok importálása
+Először importáld azokat az osztályokat, amelyek a projektkezelést és az adatbázis‑kapcsolatot biztosítják.
 ```java
 import com.aspose.tasks.MpdSettings;
 import com.aspose.tasks.Project;
@@ -48,62 +48,66 @@ import com.aspose.tasks.SaveFileFormat;
 import java.io.IOException;
 ```
 
-## How to java read access database with Aspose.Tasks?
-Below is a step‑by‑step walk‑through. Each step is explained in plain language before the code block, so you know exactly what’s happening.
+## Hogyan olvassuk a Access adatbázist az Aspose.Tasks‑szel?
+Az alábbiakban lépésről‑lépésre bemutatjuk a folyamatot. Minden lépést egyszerű nyelven magyarázunk a kódrészlet előtt, hogy pontosan tudd, mi történik.
 
-### Step 1: Define Data Directory
-Set the folder where the resulting XML file will be saved. Replace the placeholder with your actual path.
+### 1. lépés: Adatkönyvtár meghatározása
+Állítsd be azt a mappát, ahová a létrehozott XML fájl kerül. Cseréld ki a helyőrzőt a saját útvonaladra.
 ```java
 String dataDir = "Your Data Directory";
 ```
 
-### Step 2: Define MpdSettings
-Create an `MpdSettings` instance that contains the connection string to your Access database and the identifier of the project you want to read (here, `1` refers to the first project record).
+### 2. lépés: MpdSettings definiálása
+Hozz létre egy `MpdSettings` példányt, amely tartalmazza a kapcsolati karakterláncot az Access adatbázishoz, valamint a beolvasni kívánt projekt azonosítóját (itt az `1` az első projekt rekordot jelöli). Ez a **read access database java** magja.
 ```java
 MpdSettings settings = new MpdSettings(getConnectionString(), 1);
 ```
 
-> **Pro tip:** If you need to **read ms project access** data for multiple projects, loop through the IDs and instantiate a new `MpdSettings` for each iteration.
+> **Pro tipp:** Ha több projekt adatát szeretnéd **read ms project access** módon beolvasni, ciklusban iterálj a projekt‑ID‑kön, és minden iterációhoz hozz létre egy új `MpdSettings` példányt.
 
-### Step 3: Load Project from Database
-Pass the `MpdSettings` object to the `Project` constructor. Aspose.Tasks will fetch the project data directly from the Access file.
+### 3. lépés: Projekt betöltése az adatbázisból
+Add át a `MpdSettings` objektumot a `Project` konstruktorának. Az Aspose.Tasks közvetlenül az Access fájlból fogja lekérni a projektadatokat.
 ```java
 Project project = new Project(settings);
 ```
 
-### Step 4: Save Project Data
-Finally, export the loaded project to an XML file. This step **export ms project xml** so other tools can consume it.
+### 4. lépés: Projektadatok mentése
+Végül exportáld a betöltött projektet XML fájlba. Ez a **export ms project xml** lépés biztosítja, hogy más eszközök is felhasználhassák, és egyben **save project as xml** a lemezen.
 ```java
 project.save(dataDir + "project1.xml", SaveFileFormat.Xml);
 ```
 
-## Common Issues and Solutions
-| Issue | Solution |
-|-------|----------|
-| *Connection string errors* | Verify the Access file path and ensure the Jet/ACE OLEDB provider is installed on the machine. |
-| *Permission denied on save* | Make sure the `dataDir` folder exists and the application has write permissions. |
-| *Project appears empty* | Confirm that the correct project ID is passed to `MpdSettings`. Use a database viewer to inspect the `ProjectID` column. |
+## Gyakori problémák és megoldások
+| Probléma | Megoldás |
+|----------|----------|
+| *Kapcsolati karakterlánc hibák* | Ellenőrizd az Access fájl útvonalát, és győződj meg róla, hogy a Jet/ACE OLEDB provider telepítve van a gépen. |
+| *Mentés közben engedély megtagadva* | Bizonyosodj meg arról, hogy a `dataDir` mappa létezik, és az alkalmazásnak van írási joga. |
+| *A projekt üresnek tűnik* | Ellenőrizd, hogy a helyes projekt‑ID‑t adtad‑e át a `MpdSettings`‑nek. Használj adatbázis‑böngészőt a `ProjectID` oszlop megtekintéséhez. |
 
-## Frequently Asked Questions
-### Q: Can I use Aspose.Tasks for Java with other database systems besides Microsoft Access?  
-A: Yes, Aspose.Tasks supports various database systems like SQL Server, MySQL, and Oracle.
+## Gyakran feltett kérdések
+### K: Használhatom az Aspose.Tasks for Java‑t más adatbázis‑rendszerekkel is, mint a Microsoft Access?  
+V: Igen, az Aspose.Tasks támogat több adatbázis‑rendszert, például SQL Server, MySQL és Oracle.
 
-### Q: Is there a free trial available for Aspose.Tasks for Java?  
-A: Yes, you can get a free trial from [here](https://releases.aspose.com/).
+### K: Van ingyenes próba verziója az Aspose.Tasks for Java‑nak?  
+V: Igen, ingyenes próbaverziót tölthetsz le [innen](https://releases.aspose.com/).
 
-### Q: How can I get technical support for Aspose.Tasks for Java?  
-A: You can get technical support from the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
+### K: Hogyan kaphatok technikai támogatást az Aspose.Tasks for Java‑hoz?  
+V: Technikai támogatást a [Aspose.Tasks fórumon](https://forum.aspose.com/c/tasks/15) kaphatsz.
 
-### Q: Do I need a temporary license to use Aspose.Tasks for Java?  
-A: You may need a temporary license for some advanced features. Get it from [here](https://purchase.aspose.com/temporary-license/).
+### K: Szükség van ideiglenes licencre az Aspose.Tasks for Java használatához?  
+V: Egyes fejlett funkciókhoz ideiglenes licenc szükséges lehet. Szerezd be [innen](https://purchase.aspose.com/temporary-license/).
 
-### Q: Where can I purchase Aspose.Tasks for Java?  
-A: You can purchase Aspose.Tasks for Java from [this link](https://purchase.aspose.com/buy).
+### K: Hol vásárolhatom meg az Aspose.Tasks for Java‑t?  
+V: Megvásárolhatod [ezen a linken](https://purchase.aspose.com/buy).
 
----  
-**Last Updated:** 2025-12-11  
-**Tested With:** Aspose.Tasks for Java (latest)  
-**Author:** Aspose  
+## Összegzés
+Most már rendelkezel egy teljes, termelés‑kész példával arra, hogyan **olvassuk a hozzáférést**, **konvertáljuk a hozzáférést XML‑re**, és **mentsük a projektet XML‑ként** az Aspose.Tasks for Java segítségével. Nyugodtan adaptáld a kódrészletet kötegelt feldolgozáshoz vagy integráld nagyobb migrációs folyamatokba.
+
+---
+
+**Utoljára frissítve:** 2026-02-15  
+**Tesztelt verzió:** Aspose.Tasks for Java (legújabb)  
+**Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
