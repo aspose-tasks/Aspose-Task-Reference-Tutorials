@@ -35,7 +35,7 @@ In the Java world, **how to read access** refers to establishing a proper JDBC�
 
 ## Prerequisites
 - **Java Development Kit (JDK)** – JDK 8 or newer installed.  
-- **Aspose.Tasks for Java Library** – Download it from the official site. Follow the [download link](https://releases.aspose.com/tasks/java/) to obtain the library and add it to your project’s classpath.  
+- **Aspose.Tasks for Java Library** – Download it from the official site. Follow the [Aspose.Tasks for Java download page](https://releases.aspose.com/tasks/java/) to obtain the library and add it to your project’s classpath.  
 
 ## Import Packages
 First, import the classes that enable project handling and database connectivity.
@@ -49,13 +49,13 @@ import java.io.IOException;
 ## How to read access database using Aspose.Tasks?
 Below is a step‑by‑step walk‑through. Each step is explained in plain language before the code block, so you know exactly what’s happening.
 
-### Step 1: Define Data Directory
+### Step 1: define data directory
 Set the folder where the resulting XML file will be saved. Replace the placeholder with your actual path.
 ```java
 String dataDir = "Your Data Directory";
 ```
 
-### Step 2: Define MpdSettings
+### Step 2: define mpdSettings
 Create an `MpdSettings` instance that contains the connection string to your Access database and the identifier of the project you want to read (here, `1` refers to the first project record). This is the core of **read access database java**.
 ```java
 MpdSettings settings = new MpdSettings(getConnectionString(), 1);
@@ -63,40 +63,40 @@ MpdSettings settings = new MpdSettings(getConnectionString(), 1);
 
 > **Pro tip:** If you need to **read ms project access** data for multiple projects, loop through the IDs and instantiate a new `MpdSettings` for each iteration.
 
-### Step 3: Load Project from Database
+### Step 3: load project from database
 Pass the `MpdSettings` object to the `Project` constructor. Aspose.Tasks will fetch the project data directly from the Access file.
 ```java
 Project project = new Project(settings);
 ```
 
-### Step 4: Save Project Data
+### Step 4: save project data
 Finally, export the loaded project to an XML file. This step **export ms project xml** so other tools can consume it, and it also **save project as xml** on disk.
 ```java
 project.save(dataDir + "project1.xml", SaveFileFormat.Xml);
 ```
 
-## Common Issues and Solutions
+## Common issues and solutions
 | Issue | Solution |
 |-------|----------|
 | *Connection string errors* | Verify the Access file path and ensure the Jet/ACE OLEDB provider is installed on the machine. |
 | *Permission denied on save* | Make sure the `dataDir` folder exists and the application has write permissions. |
 | *Project appears empty* | Confirm that the correct project ID is passed to `MpdSettings`. Use a database viewer to inspect the `ProjectID` column. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 ### Q: Can I use Aspose.Tasks for Java with other database systems besides Microsoft Access?  
 A: Yes, Aspose.Tasks supports various database systems like SQL Server, MySQL, and Oracle.
 
 ### Q: Is there a free trial available for Aspose.Tasks for Java?  
-A: Yes, you can get a free trial from [here](https://releases.aspose.com/).
+A: Yes, you can get a free trial from the [Aspose.Tasks free trial page](https://releases.aspose.com/).
 
 ### Q: How can I get technical support for Aspose.Tasks for Java?  
 A: You can get technical support from the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
 
 ### Q: Do I need a temporary license to use Aspose.Tasks for Java?  
-A: You may need a temporary license for some advanced features. Get it from [here](https://purchase.aspose.com/temporary-license/).
+A: You may need a temporary license for some advanced features. Get it from the [temporary license page](https://purchase.aspose.com/temporary-license/).
 
 ### Q: Where can I purchase Aspose.Tasks for Java?  
-A: You can purchase Aspose.Tasks for Java from [this link](https://purchase.aspose.com/buy).
+A: You can purchase Aspose.Tasks for Java from the [Aspose.Tasks purchase page](https://purchase.aspose.com/buy).
 
 ## Conclusion
 You now have a complete, production‑ready example of **how to read access** data, **convert access to xml**, and **save project as xml** using Aspose.Tasks for Java. Feel free to adapt the snippet for batch processing or to integrate it into larger migration pipelines.
