@@ -1,51 +1,70 @@
 ---
-date: 2025-12-15
-description: Tanulja meg, hogyan olvassa a MS Project Online adatokat az Aspose.Tasks
+date: 2026-02-18
+description: Tanulja meg, hogyan olvassa be az MS Project Online adatokat az Aspose.Tasks
   Java használatával. Ez az útmutató bemutatja, hogyan lehet lekérni a projektlistát,
-  a SharePoint projektek listáját, és a források számát.
+  a SharePoint projektek listáját, és az erőforrások számát.
 linktitle: Reading Project Online Data in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: 'Aspose.Tasks Java - Könnyed MS Project Online adatolvasás'
+title: 'aspose tasks java: Könnyed MS Project Online adatolvasás'
 url: /hu/java/project-data-reading/read-project-online/
 weight: 13
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+18  
+**Tested With:** Aspose.Tasks for Java 24.11 (latest at time of writing)  
+**Author:** Aspose  
+
+Translate labels.
+
+**Last Updated:** -> **Utolsó frissítés:** etc.
+
+**Tested With:** -> **Tesztelve:** etc.
+
+**Author:** -> **Szerző:** etc.
+
+Then closing shortcodes.
+
+Also backtop button shortcode unchanged.
+
+Now produce final content with same markdown.
+
+Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# aspose tasks java: Effortless MS Project Online Data Reading
+# aspose tasks java: Gondtalan MS Project Online adatok olvasása
 
-## Introduction
-A projektmenedzsment területén a Microsoft Project Online adatok hatékony kezelése kulcsfontosságú a zökkenőmentes működéshez. Az **aspose tasks java** egy robusztus, könnyen használható API-t biztosít, amely lehetővé teszi a Project Online adatok olvasását anélkül, hogy alacsony szintű HTTP hívásokkal kellene bajlódni. Ebben az útmutatóban bemutatjuk, hogyan kérhetünk le egy projektlistát, listázhatjuk a SharePoint projekteket, és hogyan kapjuk meg az erőforrások számát minden egyes projektben – mindezt csak néhány Java sorral.
+## Bevezetés
+A projektmenedzsment világában a Microsoft Project Online adatok hatékony kezelése elengedhetetlen a zökkenőmentes működéshez. **aspose tasks java** egy robusztus, könnyen használható API-t biztosít, amely lehetővé teszi a Project Online adatok olvasását anélkül, hogy alacsony szintű HTTP hívásokkal kellene küzdeni. Ebben az útmutatóban végigvezetünk a projektlista lekérésén, a **SharePoint projektek listázásán**, és az egyes projektek **erőforrás-számának** meghatározásán – mindezt csak néhány Java sorral.
 
-## Quick Answers
-- **What does aspose tasks java do?** It reads and manipulates Microsoft Project files and Project Online data programmatically.  
-- **Do I need a license to try it?** A free trial is available; a license is required for production use.  
-- **Which credentials are required?** SharePoint domain, username, and password (or Azure AD token).  
-- **Can I list SharePoint projects?** Yes – use `ProjectServerManager.getProjectList()` to retrieve them.  
-- **How do I get the resource count?** Load each `Project` object and call `project.getResources().size()`.
+## Gyors válaszok
+- **Mit csinál az aspose tasks java?** Programozott módon olvassa és módosítja a Microsoft Project fájlokat és a Project Online adatokat.  
+- **Szükségem van licencre a kipróbáláshoz?** Elérhető ingyenes próba; licenc szükséges a termelési használathoz.  
+- **Milyen hitelesítő adatokra van szükség?** SharePoint domain, felhasználónév és jelszó (vagy Azure AD token).  
+- **Listázhatok SharePoint projekteket?** Igen – használja a `ProjectServerManager.getProjectList()` metódust a lekéréshez.  
+- **Hogyan kapom meg az erőforrások számát?** Töltse be minden `Project` objektumot, és hívja a `project.getResources().size()` metódust.
 
-## What is aspose tasks java?
-**aspose tasks java** egy fejlesztő‑központú könyvtár, amely elrejti a Microsoft Project fájlformátumok és a Project Server REST API-k bonyolultságát. Lehetővé teszi a projektadatok olvasását, létrehozását és módosítását közvetlenül Java alkalmazásokból, így az integráció meglévő vállalati rendszerekkel egyszerűvé válik.
+## Mi az aspose tasks java?
+**aspose tasks java** egy fejlesztőközpontú könyvtár, amely elrejti a Microsoft Project fájlformátumok és a Project Server REST API összetettségét. Lehetővé teszi a projektadatok olvasását, létrehozását és módosítását közvetlenül Java alkalmazásokból, megkönnyítve az integrációt a meglévő vállalati rendszerekkel.
 
-## Why use aspose tasks java for reading MS Project Online?
-- **No manual HTTP handling** – the library takes care of authentication and REST calls.  
-- **Strong type safety** – work with `Project`, `ProjectInfo`, and other POJOs instead of raw JSON.  
-- **Cross‑platform** – runs on any JVM‑compatible environment.  
-- **Rich feature set** – beyond reading, you can also update tasks, resources, and timelines.
+## Miért használjuk az aspose tasks java-t MS Project Online olvasásához?
+- **Nincs manuális HTTP kezelés** – a könyvtár gondoskodik a hitelesítésről és a REST hívásokról.  
+- **Erős típusbiztonság** – dolgozzon `Project`, `ProjectInfo` és más POJO-kkal a nyers JSON helyett.  
+- **Keresztplatformos** – bármely JVM‑kompatibilis környezetben fut.  
+- **Gazdag funkciókészlet** – az olvasás mellett feladatokat, erőforrásokat és ütemterveket is frissíthet.  
+- **Belsőleg a Project Server REST API-t használja**, így stabil, támogatott kommunikációs réteget kap.
 
-## Prerequisites
-Before diving in, make sure you have:
+## Előkövetelmények
+Mielőtt belevágna, győződjön meg róla, hogy rendelkezik a következőkkel:
 
-1. **Java Development Kit (JDK)** – JDK 8 vagy újabb telepítve.  
-2. **Aspose.Tasks for Java library** – download it from [here](https://releases.aspose.com/tasks/java/).  
-3. **Microsoft Project Online account** – with permissions to read projects.  
-4. **SharePoint domain address** – where your Project Online instance lives.  
-5. **Username and password** – or appropriate Azure AD credentials for authentication.
+1. **Java Development Kit (JDK)** – telepített JDK 8 vagy újabb.  
+2. **Aspose.Tasks for Java könyvtár** – letölthető [itt](https://releases.aspose.com/tasks/java/).  
+3. **Microsoft Project Online fiók** – projektek olvasásához szükséges jogosultságokkal.  
+4. **SharePoint domain cím** – ahol a Project Online példány található.  
+5. **Felhasználónév és jelszó** – vagy megfelelő Azure AD hitelesítő adatok a bejelentkezéshez.
 
-## Import Packages
-First, import the essential Aspose.Tasks classes that we’ll use throughout the tutorial:
+## Csomagok importálása
+Először importálja azokat az alapvető Aspose.Tasks osztályokat, amelyeket a teljes útmutató során használni fog:
 
 ```java
 import com.aspose.tasks.Project;
@@ -54,8 +73,8 @@ import com.aspose.tasks.ProjectServerCredentials;
 import com.aspose.tasks.ProjectServerManager;
 ```
 
-## Step 1: Set SharePoint Domain, Username, and Password
-Define the connection details for your Project Online environment. Replace the placeholder values with your own credentials.
+## 1. lépés: SharePoint domain, felhasználónév és jelszó beállítása
+Határozza meg a kapcsolati adatokat a Project Online környezetéhez. Cserélje le a helyőrző értékeket a saját hitelesítő adataira.
 
 ```java
 String sharepointDomainAddress = "https://contoso.sharepoint.com";
@@ -63,16 +82,16 @@ String userName = "admin@contoso.onmicrosoft.com";
 String password = "MyPassword";
 ```
 
-## Step 2: Authenticate with Project Server Credentials
-Create a `ProjectServerCredentials` object and initialise a `ProjectServerManager`. This manager will handle all subsequent calls to Project Online.
+## 2. lépés: Hitelesítés a Project Server hitelesítő adatokkal
+Hozzon létre egy `ProjectServerCredentials` objektumot, és inicializáljon egy `ProjectServerManager`‑t. Ez a menedzser kezeli majd a további hívásokat a Project Online felé.
 
 ```java
 ProjectServerCredentials credentials = new ProjectServerCredentials(sharepointDomainAddress, userName, password);
 ProjectServerManager reader = new ProjectServerManager(credentials);
 ```
 
-## Step 3: Retrieve Project List and Display Information
-Use the manager to **retrieve project list** (list SharePoint projects) and print basic details such as name, creation date, and last saved date.
+## 3. lépés: Projektlista lekérése és információk megjelenítése
+Használja a menedzsert a **projektlista lekéréséhez** (azaz a SharePoint projektek listázásához), és írja ki az alapvető adatokat, például a nevet, a létrehozás dátumát és az utolsó mentés dátumát.
 
 ```java
 for (ProjectInfo p : reader.getProjectList()) {
@@ -82,8 +101,8 @@ for (ProjectInfo p : reader.getProjectList()) {
 }
 ```
 
-## Step 4: Load Individual Projects and Output Resource Count
-For each project returned in the previous step, load the full `Project` object and display the **resource count**.
+## 4. lépés: Egyedi projektek betöltése és erőforrás-szám kiírása
+Az előző lépésben kapott minden projekthez töltse be a teljes `Project` objektumot – ez a hívás **betölti a projekt adatokat** a megadott azonosítóhoz – és jelenítse meg a **erőforrás-számot**.
 
 ```java
 for (ProjectInfo p : reader.getProjectList()) {
@@ -93,35 +112,35 @@ for (ProjectInfo p : reader.getProjectList()) {
 }
 ```
 
-## Common Issues and Solutions
+## Gyakori problémák és megoldások
 | Issue | Reason | Fix |
 |-------|--------|-----|
-| **Authentication failed** | Incorrect domain, username, or password. | Verify credentials and ensure the account has Project Online read permissions. |
-| **SSLHandshakeException** | Java runtime lacks the required TLS version. | Update JDK to the latest release or enable TLS 1.2+. |
-| **`reader.getProjectList()` returns empty** | Account does not have access to any projects. | Check Project Online permissions or use an admin account. |
-| **Large projects cause OutOfMemoryError** | Loading many projects at once consumes memory. | Load projects one at a time and release references after use. |
+| **Hitelesítés sikertelen** | Helytelen domain, felhasználónév vagy jelszó. | Ellenőrizze a hitelesítő adatokat, és győződjön meg róla, hogy a fióknak van Project Online olvasási jogosultsága. |
+| **SSLHandshakeException** | A Java futtatókörnyezet nem rendelkezik a szükséges TLS verzióval. | Frissítse a JDK-t a legújabb kiadásra, vagy engedélyezze a TLS 1.2+ támogatást. |
+| ``reader.getProjectList()`` üres eredményt ad | A fióknak nincs hozzáférése projektekhez. | Ellenőrizze a Project Online jogosultságokat, vagy használjon admin fiókot. |
+| **Nagy projektek OutOfMemoryError-t okoznak** | Sok projekt egyidejű betöltése memóriát fogyaszt. | Töltse be a projekteket egyenként, és használat után szabadítsa fel a hivatkozásokat. |
 
-## Frequently Asked Questions
-### Q: Can I use aspose tasks java to modify MS Project Online data?
-A: Yes, Aspose.Tasks provides extensive capabilities for both reading **and** modifying Project Online data programmatically.
+## Gyakran Ismételt Kérdések
+**Q:** Használhatom az aspose tasks java-t MS Project Online adatok módosítására?  
+**A:** Igen, az Aspose.Tasks kiterjedt lehetőségeket biztosít mind az olvasásra, **mind** a Project Online adatok programozott módon történő módosítására.
 
-### Q: Does Aspose.Tasks support other project management file formats?
-A: Absolutely. It supports MPP, XML, Primavera, and many more, ensuring compatibility across diverse project ecosystems.
+**Q:** Támogatja az Aspose.Tasks más projektmenedzsment fájlformátumokat is?  
+**A:** Teljes mértékben. Támogatja az MPP, XML, Primavera és még sok más formátumot, biztosítva a kompatibilitást a különböző projektökoszisztémák között.
 
-### Q: Is there a free trial available for Aspose.Tasks for Java?
-A: Yes, you can avail of a free trial from [here](https://releases.aspose.com/) to explore the features and functionalities of Aspose.Tasks.
+**Q:** Elérhető ingyenes próba az Aspose.Tasks for Java-hoz?  
+**A:** Igen, egy ingyenes próbát igényelhet [itt](https://releases.aspose.com/), hogy felfedezze az Aspose.Tasks funkcióit és lehetőségeit.
 
-### Q: Where can I find comprehensive documentation for Aspose.Tasks for Java?
-A: You can refer to the detailed documentation [here](https://reference.aspose.com/tasks/java/) for comprehensive guidance on utilizing Aspose.Tasks in your Java projects.
+**Q:** Hol találok átfogó dokumentációt az Aspose.Tasks for Java-hoz?  
+**A:** Részletes dokumentációt találsz [itt](https://reference.aspose.com/tasks/java/), amely átfogó útmutatót nyújt az Aspose.Tasks Java projektekben való használatához.
 
-### Q: What support options are available for Aspose.Tasks for Java?
-A: If you encounter any issues or have queries, you can seek assistance from the Aspose.Tasks community forum [here](https://forum.aspose.com/c/tasks/15).
+**Q:** Milyen támogatási lehetőségek állnak rendelkezésre az Aspose.Tasks for Java-hoz?  
+**A:** Ha bármilyen problémába ütközik vagy kérdése van, segítséget kérhet az Aspose.Tasks közösségi fórumon [itt](https://forum.aspose.com/c/tasks/15).
 
 ---
 
-**Last Updated:** 2025-12-15  
-**Tested With:** Aspose.Tasks for Java 24.11 (latest at time of writing)  
-**Author:** Aspose  
+**Utolsó frissítés:** 2026-02-18  
+**Tesztelve:** Aspose.Tasks for Java 24.11 (a legújabb a kiírás időpontjában)  
+**Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

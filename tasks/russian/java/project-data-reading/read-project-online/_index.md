@@ -1,51 +1,52 @@
 ---
-date: 2025-12-15
-description: Изучите, как считывать данные MS Project Online с помощью Aspose.Tasks
-  для Java. В этом руководстве показано, как получить список проектов, список проектов
+date: 2026-02-18
+description: Узнайте, как читать данные MS Project Online с помощью Aspose.Tasks для
+  Java. В этом руководстве показано, как получить список проектов, список проектов
   SharePoint и количество ресурсов.
 linktitle: Reading Project Online Data in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: 'Aspose.Tasks Java - Легкое чтение данных MS Project Online'
+title: 'aspose tasks java: простое чтение данных MS Project Online'
 url: /ru/java/project-data-reading/read-project-online/
 weight: 13
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ produce final.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# aspose tasks java: Легкое чтение данных MS Project Online
+# aspose tasks java: Effortless MS Project Online Data Reading
 
-## Введение
-В сфере управления проектами эффективная работа с данными Microsoft Project Online имеет решающее значение для упрощения процессов. **aspose tasks java** предоставляет мощный, простой в использовании API, позволяющий читать данные Project Online без необходимости заниматься низкоуровневыми HTTP‑вызовами. В этом руководстве мы пройдемся по тому, как получить список проектов, перечислить проекты SharePoint и получить количество ресурсов в каждом проекте — всё это с помощью нескольких строк кода на Java.
+## Introduction
+В сфере управления проектами эффективная работа с данными Microsoft Project Online имеет решающее значение для упрощения процессов. **aspose tasks java** предоставляет надёжный, простой в использовании API, позволяющий читать данные Project Online без необходимости вручную выполнять HTTP‑запросы. В этом руководстве мы покажем, как получить список проектов, **перечислить проекты SharePoint**, и **получить количество ресурсов** в каждом проекте — всё это с помощью нескольких строк кода на Java.
 
-## Быстрые ответы
-- **Что делает aspose tasks java?** Читает и манипулирует файлами Microsoft Project и данными Project Online программно.  
-- **Нужна ли лицензия для пробного использования?** Доступна бесплатная пробная версия; для использования в продакшн‑среде требуется лицензия.  
-- **Какие учетные данные требуются?** Домен SharePoint, имя пользователя и пароль (или токен Azure AD).  
-- **Можно ли вывести список проектов SharePoint?** Да — используйте `ProjectServerManager.getProjectList()` для их получения.  
-- **Как получить количество ресурсов?** Загрузите каждый объект `Project` и вызовите `project.getResources().size()`.
+## Quick Answers
+- **What does aspose tasks java do?** It reads and manipulates Microsoft Project files and Project Online data programmatically.  
+- **Do I need a license to try it?** A free trial is available; a license is required for production use.  
+- **Which credentials are required?** SharePoint domain, username, and password (or Azure AD token).  
+- **Can I list SharePoint projects?** Yes – use `ProjectServerManager.getProjectList()` to retrieve them.  
+- **How do I get the resource count?** Load each `Project` object and call `project.getResources().size()`.
 
-## Что такое aspose tasks java?
-**aspose tasks java** — это библиотека, ориентированная на разработчиков, которая абстрагирует сложности форматов файлов Microsoft Project и REST‑API Project Server. Она позволяет читать, создавать и изменять данные проектов напрямую из Java‑приложений, упрощая интеграцию с существующими корпоративными системами.
+## What is aspose tasks java?
+**aspose tasks java** — это библиотека, ориентированная на разработчиков, которая абстрагирует сложность форматов файлов Microsoft Project и REST API Project Server. Она позволяет читать, создавать и изменять данные проектов напрямую из Java‑приложений, упрощая интеграцию с существующими корпоративными системами.
 
-## Почему стоит использовать aspose tasks java для чтения MS Project Online?
-- **Без ручной работы с HTTP** — библиотека берёт на себя аутентификацию и REST‑вызовы.  
-- **Строгая типобезопасность** — работайте с `Project`, `ProjectInfo` и другими POJO вместо сырого JSON.  
-- **Кроссплатформенность** — работает в любой среде, совместимой с JVM.  
-- **Богатый набор функций** — помимо чтения, вы также можете обновлять задачи, ресурсы и временные линии.
+## Why use aspose tasks java for reading MS Project Online?
+- **No manual HTTP handling** – the library takes care of authentication and REST calls.  
+- **Strong type safety** – work with `Project`, `ProjectInfo`, and other POJOs instead of raw JSON.  
+- **Cross‑platform** – runs on any JVM‑compatible environment.  
+- **Rich feature set** – beyond reading, you can also update tasks, resources, and timelines.  
+- **Internally leverages the Project Server REST API**, so you get a stable, supported communication layer.
 
-## Предварительные требования
-Перед тем как приступить, убедитесь, что у вас есть:
+## Prerequisites
+Before diving in, make sure you have:
 
-1. **Java Development Kit (JDK)** — установлен JDK 8 или новее.  
-2. **Aspose.Tasks for Java** — скачайте библиотеку [здесь](https://releases.aspose.com/tasks/java/).  
-3. **Учётная запись Microsoft Project Online** — с правами чтения проектов.  
-4. **Адрес домена SharePoint** — где размещён ваш экземпляр Project Online.  
-5. **Имя пользователя и пароль** — либо соответствующие учётные данные Azure AD для аутентификации.
+1. **Java Development Kit (JDK)** – JDK 8 or higher installed.  
+2. **Aspose.Tasks for Java library** – download it from [here](https://releases.aspose.com/tasks/java/).  
+3. **Microsoft Project Online account** – with permissions to read projects.  
+4. **SharePoint domain address** – where your Project Online instance lives.  
+5. **Username and password** – or appropriate Azure AD credentials for authentication.
 
-## Импорт пакетов
-Сначала импортируем основные классы Aspose.Tasks, которые будем использовать в ходе руководства:
+## Import Packages
+First, import the essential Aspose.Tasks classes that we’ll use throughout the tutorial:
 
 ```java
 import com.aspose.tasks.Project;
@@ -54,8 +55,8 @@ import com.aspose.tasks.ProjectServerCredentials;
 import com.aspose.tasks.ProjectServerManager;
 ```
 
-## Шаг 1: Установка домена SharePoint, имени пользователя и пароля
-Определите параметры подключения к вашему окружению Project Online. Замените значения‑заполнители на свои собственные учётные данные.
+## Step 1: Set SharePoint Domain, Username, and Password
+Define the connection details for your Project Online environment. Replace the placeholder values with your own credentials.
 
 ```java
 String sharepointDomainAddress = "https://contoso.sharepoint.com";
@@ -63,16 +64,16 @@ String userName = "admin@contoso.onmicrosoft.com";
 String password = "MyPassword";
 ```
 
-## Шаг 2: Аутентификация с помощью учётных данных Project Server
-Создайте объект `ProjectServerCredentials` и инициализируйте `ProjectServerManager`. Этот менеджер будет обрабатывать все последующие вызовы к Project Online.
+## Step 2: Authenticate with Project Server Credentials
+Create a `ProjectServerCredentials` object and initialise a `ProjectServerManager`. This manager will handle all subsequent calls to Project Online.
 
 ```java
 ProjectServerCredentials credentials = new ProjectServerCredentials(sharepointDomainAddress, userName, password);
 ProjectServerManager reader = new ProjectServerManager(credentials);
 ```
 
-## Шаг 3: Получение списка проектов и вывод информации
-Используйте менеджер для **получения списка проектов** (перечисления проектов SharePoint) и выведите базовые детали, такие как имя, дата создания и дата последнего сохранения.
+## Step 3: Retrieve Project List and Display Information
+Use the manager to **retrieve the project list** (i.e., list SharePoint projects) and print basic details such as name, creation date, and last saved date.
 
 ```java
 for (ProjectInfo p : reader.getProjectList()) {
@@ -82,8 +83,8 @@ for (ProjectInfo p : reader.getProjectList()) {
 }
 ```
 
-## Шаг 4: Загрузка отдельных проектов и вывод количества ресурсов
-Для каждого проекта, полученного на предыдущем шаге, загрузите полный объект `Project` и отобразите **количество ресурсов**.
+## Step 4: Load Individual Projects and Output Resource Count
+For each project returned in the previous step, load the full `Project` object—this call **loads project data** for the specific ID—and display the **resource count**.
 
 ```java
 for (ProjectInfo p : reader.getProjectList()) {
@@ -93,35 +94,35 @@ for (ProjectInfo p : reader.getProjectList()) {
 }
 ```
 
-## Распространённые проблемы и их решения
-| Проблема | Причина | Решение |
-|----------|----------|----------|
-| **Ошибка аутентификации** | Неправильный домен, имя пользователя или пароль. | Проверьте учётные данные и убедитесь, что у аккаунта есть права чтения в Project Online. |
-| **SSLHandshakeException** | В среде Java отсутствует требуемая версия TLS. | Обновите JDK до последней версии или включите поддержку TLS 1.2+. |
-| **`reader.getProjectList()` возвращает пустой список** | У аккаунта нет доступа к проектам. | Проверьте права доступа в Project Online или используйте учётную запись администратора. |
-| **Большие проекты вызывают OutOfMemoryError** | Одновременная загрузка множества проектов потребляет слишком много памяти. | Загружайте проекты по одному и освобождайте ссылки после использования. |
+## Common Issues and Solutions
+| Issue | Reason | Fix |
+|-------|--------|-----|
+| **Authentication failed** | Incorrect domain, username, or password. | Verify credentials and ensure the account has Project Online read permissions. |
+| **SSLHandshakeException** | Java runtime lacks the required TLS version. | Update JDK to the latest release or enable TLS 1.2+. |
+| **`reader.getProjectList()` returns empty** | Account does not have access to any projects. | Check Project Online permissions or use an admin account. |
+| **Large projects cause OutOfMemoryError** | Loading many projects at once consumes memory. | Load projects one at a time and release references after use. |
 
-## Часто задаваемые вопросы
-### В: Можно ли использовать aspose tasks java для изменения данных MS Project Online?
-О: Да, Aspose.Tasks предоставляет обширные возможности как для чтения, **так и** для изменения данных Project Online программно.
+## Frequently Asked Questions
+**Q:** Can I use aspose tasks java to modify MS Project Online data?  
+**A:** Yes, Aspose.Tasks provides extensive capabilities for both reading **and** modifying Project Online data programmatically.
 
-### В: Поддерживает ли Aspose.Tasks другие форматы файлов управления проектами?
-О: Абсолютно. Библиотека работает с MPP, XML, Primavera и многими другими форматами, обеспечивая совместимость в разных проектных экосистемах.
+**Q:** Does Aspose.Tasks support other project management file formats?  
+**A:** Absolutely. It supports MPP, XML, Primavera, and many more, ensuring compatibility across diverse project ecosystems.
 
-### В: Есть ли бесплатная пробная версия Aspose.Tasks for Java?
-О: Да, вы можете получить бесплатную пробную версию [здесь](https://releases.aspose.com/) для изучения функций и возможностей Aspose.Tasks.
+**Q:** Is there a free trial available for Aspose.Tasks for Java?  
+**A:** Yes, you can avail of a free trial from [here](https://releases.aspose.com/) to explore the features and functionalities of Aspose.Tasks.
 
-### В: Где найти полную документацию по Aspose.Tasks for Java?
-О: Подробную документацию можно посмотреть [здесь](https://reference.aspose.com/tasks/java/) для получения всесторонних рекомендаций по использованию Aspose.Tasks в ваших Java‑проектах.
+**Q:** Where can I find comprehensive documentation for Aspose.Tasks for Java?  
+**A:** You can refer to the detailed documentation [here](https://reference.aspose.com/tasks/java/) for comprehensive guidance on utilizing Aspose.Tasks in your Java projects.
 
-### В: Какие варианты поддержки доступны для Aspose.Tasks for Java?
-О: При возникновении вопросов или проблем вы можете обратиться за помощью на форум сообщества Aspose.Tasks [здесь](https://forum.aspose.com/c/tasks/15).
+**Q:** What support options are available for Aspose.Tasks for Java?  
+**A:** If you encounter any issues or have queries, you can seek assistance from the Aspose.Tasks community forum [here](https://forum.aspose.com/c/tasks/15).
 
 ---
 
-**Последнее обновление:** 2025-12-15  
-**Тестировано с:** Aspose.Tasks for Java 24.11 (на момент написания)  
-**Автор:** Aspose  
+**Last Updated:** 2026-02-18  
+**Tested With:** Aspose.Tasks for Java 24.11 (latest at time of writing)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

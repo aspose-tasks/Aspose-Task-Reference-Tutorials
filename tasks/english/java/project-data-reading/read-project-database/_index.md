@@ -1,36 +1,36 @@
 ---
-title: Read microsoft project database with Aspose.Tasks for Java
+title: Save project as PDF and read Project DB with Aspose.Tasks for Java
 linktitle: Reading Project Data from Microsoft Project Database in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: Learn how to read microsoft project database using Aspose.Tasks for Java. Step‑by‑step guide with code examples and best practices.
+description: Learn how to save project as PDF and read Microsoft Project database with Aspose.Tasks for Java, plus connect to Project Server, convert project to HTML, and export project to XML.
 weight: 12
 url: /java/project-data-reading/read-project-database/
-date: 2025-12-13
+date: 2026-02-18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Read microsoft project database with Aspose.Tasks for Java
+# Save project as PDF and read Microsoft Project database with Aspose.Tasks for Java
 
 ## Introduction
-In this tutorial you’ll discover how to **read microsoft project database** directly from a Microsoft Project Server using the Aspose.Tasks Java API. Whether you need to generate reports, migrate data, or integrate project information into your own applications, this guide walks you through every step—from setting up the database connection to exporting the project to XML. By the end, you’ll have a solid, production‑ready solution that works without installing Microsoft Project on the host machine.
+In this tutorial you’ll discover how to **read Microsoft Project database** directly from a Microsoft Project Server and then **save the project as PDF** using the Aspose.Tasks Java API. Whether you need to generate reports, migrate data, or integrate project information into your own applications, this guide walks you through every step—from setting up the database connection to exporting the project to PDF, XML, or HTML. By the end, you’ll have a solid, production‑ready solution that works without installing Microsoft Project on the host machine.
 
 ## Quick Answers
 - **What does Aspose.Tasks do?** It provides a pure‑Java API to read, write, and manipulate Microsoft Project files and databases.  
 - **Do I need Microsoft Project installed?** No, Aspose.Tasks works independently of Microsoft Project.  
 - **Which database type is supported?** Microsoft SQL Server (the backend of Project Server).  
-- **Can I export to other formats?** Yes, besides XML you can save to PDF, HTML, CSV, and more.  
-- **What are the main prerequisites?** JDK, Aspose.Tasks for Java library, and the SQL Server JDBC driver.
+- **Can I export to other formats?** Yes, besides PDF you can save to XML, HTML, CSV, and more.  
+- **What are the main prerequisites?** JDK, Aspose.Tasks for Java library, the SQL Server JDBC driver, and credentials to **connect to Project Server**.
 
-## What is “read microsoft project database”?
+## What is “read Microsoft Project database”?
 Reading a Microsoft Project database means connecting to the Project Server’s SQL Server repository, extracting the stored project data, and loading it into a `Project` object that Aspose.Tasks can manipulate. This approach is ideal for automated reporting, data migration, or custom analytics.
 
 ## Why use Aspose.Tasks for Java?
 - **No Microsoft Project dependency** – run on any server or CI environment.  
 - **Rich object model** – access tasks, resources, assignments, calendars, and custom fields programmatically.  
-- **Multiple export options** – XML, PDF, HTML, PNG, etc., with a single API call.  
+- **Multiple export options** – PDF, XML, HTML, PNG, etc., with a single API call.  
 - **High performance** – optimized for large enterprise projects.
 
 ## Prerequisites
@@ -38,7 +38,7 @@ Before you begin, make sure you have:
 
 1. A working Java development environment (JDK 8 or newer).  
 2. Aspose.Tasks for Java library added to your project’s classpath.  
-3. Access credentials for the Project Server SQL database (server name, port, database name, username, password).  
+3. Access credentials for the Project Server SQL database (server name, port, database name, username, password) **to connect to Project Server**.  
 4. The Microsoft JDBC Driver for SQL Server (e.g., `sqljdbc4.jar`).  
 
 ## Import Packages
@@ -54,6 +54,9 @@ import java.net.URL;
 import java.net.URLClassLoader;
 import java.util.UUID;
 ```
+
+## How to connect to Project Server
+Establishing a reliable connection is the foundation for reading project data. Make sure the SQL Server instance is reachable from your Java host and that the login you use has **SELECT** permissions on the Project Server schema.
 
 ## Step 1: Set Up Database Connection
 Create an `MspDbSettings` instance that holds the JDBC connection string. Replace the placeholder values with your actual server details.
@@ -88,14 +91,14 @@ Project project = new Project(settings);
 
 At this point you can explore the `project` object—list tasks, resources, or modify fields as needed.
 
-## Step 4: Save Project Data
-Export the loaded project to a file format of your choice. The example below saves the project as XML, which can later be imported into Microsoft Project or processed further.
+## Step 4: Save project as PDF
+Export the loaded project to a file format of your choice. The example below saves the project as **PDF**, which is perfect for printable reports. You can also **export project to XML** or **convert project to HTML** by changing the `SaveFileFormat` enum.
 
 ```java
-project.save(dataDir + "project1.xml", SaveFileFormat.Xml);
+project.save(dataDir + "project1.pdf", SaveFileFormat.Pdf);
 ```
 
-You can replace `SaveFileFormat.Xml` with `Pdf`, `Html`, `Csv`, etc., depending on your reporting needs.
+If you prefer XML, simply replace `SaveFileFormat.Pdf` with `SaveFileFormat.Xml`. For HTML output, use `SaveFileFormat.Html`.
 
 ## Common Issues & Solutions
 | Issue | Typical Cause | Fix |
@@ -117,17 +120,17 @@ A: Yes, Aspose.Tasks is designed to work with multiple Microsoft Project version
 A: Absolutely, Aspose.Tasks provides a rich API for adding tasks, updating resources, and setting project properties before export.
 
 **Q: Does Aspose.Tasks support multiple output formats?**  
-A: Yes, you can save projects as XML, PDF, HTML, CSV, PNG, JPEG, and more.
+A: Yes, you can save projects as PDF, XML, HTML, CSV, PNG, JPEG, and more.
 
 **Q: Where can I find further support or assistance with Aspose.Tasks?**  
 A: For additional help, visit the Aspose.Tasks forum or explore the documentation available on the website [here](https://forum.aspose.com/c/tasks/15).
 
 ## Conclusion
-By following this step‑by‑step guide, you now know how to **read microsoft project database** using Aspose.Tasks for Java, manipulate the data programmatically, and export it to the format you need. This approach eliminates the dependency on Microsoft Project, streamlines automated reporting, and opens the door to powerful custom integrations.
+By following this step‑by‑step guide, you now know how to **read Microsoft Project database**, **save the project as PDF**, and export to other formats using Aspose.Tasks for Java. This approach eliminates the dependency on Microsoft Project, streamlines automated reporting, and opens the door to powerful custom integrations.
 
 ---
 
-**Last Updated:** 2025-12-13  
+**Last Updated:** 2026-02-18  
 **Tested With:** Aspose.Tasks for Java 24.5 (latest at time of writing)  
 **Author:** Aspose  
 

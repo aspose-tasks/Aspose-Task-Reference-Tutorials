@@ -1,10 +1,11 @@
 ---
-date: 2025-12-11
-description: Aprenda a leer datos de definición de grupos de archivos de Microsoft
-  Project usando Aspose.Tasks para Java. Siga nuestro tutorial paso a paso.
+date: 2026-02-18
+description: Aprenda cómo leer los datos de definición de grupos de los archivos de
+  Microsoft Project usando Aspose.Tasks para Java. Este tutorial muestra cómo leer
+  los detalles del grupo y extraer la información de agrupación de tareas.
 linktitle: Read Group Definition Data in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: Leer datos de definición de grupo en Aspose.Tasks
+title: Cómo leer datos de definición de grupo en Aspose.Tasks
 url: /es/java/project-data-reading/read-group-definition/
 weight: 10
 ---
@@ -16,33 +17,37 @@ weight: 10
 # Leer datos de definición de grupos en Aspose.Tasks
 
 ## Introducción
-Aspose.Tasks for Java es una biblioteca potente que permite a los desarrolladores manipular archivos Microsoft Project con facilidad. En este tutorial, **aprenderá cómo leer datos de definición de grupos** de un archivo de proyecto paso a paso, para que pueda extraer y trabajar con la información de grupos de tareas en sus aplicaciones Java.
+Aspose.Tasks for Java es una biblioteca potente que permite a los desarrolladores manipular archivos de Microsoft Project con facilidad. En este tutorial, **aprenderás cómo leer la definición de grupos** paso a paso, para que puedas extraer y trabajar con la información de grupos de tareas en tus aplicaciones Java. Comprender **cómo leer grupos** te permite automatizar informes, migrar configuraciones y validar estructuras de proyecto de forma programática.
 
 ## Respuestas rápidas
-- **¿Qué significa “read group definition”?** Se refiere a extraer la definición de los grupos de tareas (nombre, criterios, formato) de un archivo Microsoft Project.  
+- **¿Qué significa “leer la definición de grupo”?** Se refiere a extraer la definición de los grupos de tareas (nombre, criterios, formato) de un archivo Microsoft Project.  
 - **¿Qué biblioteca necesito?** Aspose.Tasks for Java.  
 - **¿Necesito una licencia?** Una prueba gratuita funciona para desarrollo; se requiere una licencia comercial para producción.  
 - **¿Qué IDEs son compatibles?** Cualquier IDE de Java como IntelliJ IDEA o Eclipse.  
 - **¿Cuánto código se necesita?** Menos de 30 líneas de código Java para cargar un proyecto y mostrar los detalles del grupo.
 
-## ¿Qué es read group definition?
-Una *definición de grupo* en Microsoft Project describe cómo se agrupan las tareas en función de criterios (p. ej., estado, prioridad). Leer esta definición le permite inspeccionar programáticamente la lógica de agrupación, colores, fuentes y orden de clasificación aplicados en el archivo del proyecto.
+## Cómo leer datos de definición de grupos
+A continuación se muestra una guía concisa paso a paso que muestra **cómo leer grupos** de un archivo `.mpp`. Cada paso incluye una breve explicación seguida del código exacto que necesitas ejecutar.
 
-## ¿Por qué leer datos de definición de grupos?
-- **Automatización:** Generar informes personalizados que reflejen la agrupación que ve en Project.  
-- **Migración:** Mover reglas de agrupación a otro proyecto o a un sistema de gestión de proyectos diferente.  
-- **Validación:** Asegurarse de que los grupos esperados existan antes de ejecutar actualizaciones masivas.  
-- **Personalización:** Aplicar lógica empresarial adicional basada en la fuente o los colores del grupo.
+## ¿Qué es la definición de grupo?
+Una *definición de grupo* en Microsoft Project describe cómo se agrupan las tareas según criterios (p. ej., estado, prioridad). Leer esta definición te permite inspeccionar programáticamente la lógica de agrupación, colores, fuentes y orden de clasificación aplicados en el archivo del proyecto.
+
+## ¿Por qué leer datos de definición de grupo?
+- **Automatización:** Generar informes personalizados que reflejen la agrupación que ves en Project.  
+- **Migración:** Trasladar reglas de agrupación a otro proyecto o a un sistema de gestión de proyectos diferente.  
+- **Validación:** Asegurar que los grupos esperados existan antes de ejecutar actualizaciones masivas.  
+- **Personalización:** Aplicar lógica de negocio adicional basada en la fuente o configuración de color del grupo.  
+- **Información:** Saber **cómo leer grupos** ayuda a solucionar diseños de tareas inesperados.
 
 ## Requisitos previos
-Antes de comenzar, asegúrese de contar con lo siguiente:
+Antes de comenzar, asegúrate de contar con lo siguiente:
 
 1. **Java Development Kit (JDK)** – cualquier versión reciente (8 o superior).  
-2. **Aspose.Tasks for Java Library** – descárguela desde [aquí](https://releases.aspose.com/tasks/java/).  
-3. **IDE** – IntelliJ IDEA, Eclipse o cualquier editor que prefiera.  
+2. **Biblioteca Aspose.Tasks for Java** – descárgala desde [here](https://releases.aspose.com/tasks/java/).  
+3. **IDE** – IntelliJ IDEA, Eclipse, o cualquier editor que prefieras.  
 
 ## Importar paquetes
-Primero, importe el paquete principal de Aspose.Tasks:
+Primero, importa el paquete principal de Aspose.Tasks:
 
 ```java
 import com.aspose.tasks.*;
@@ -50,31 +55,31 @@ import com.aspose.tasks.*;
 
 ## Guía paso a paso
 
-### Paso 1: Configurar su directorio de datos
-Defina la carpeta que contiene el archivo `.mpp` que desea inspeccionar.
+### Paso 1: Configura tu directorio de datos
+Define la carpeta que contiene el archivo `.mpp` que deseas inspeccionar.
 
 ```java
 String dataDir = "Your Data Directory";
 ```
 
-Reemplace `"Your Data Directory"` con la ruta absoluta a la ubicación de su archivo de proyecto.
+Reemplaza `"Your Data Directory"` con la ruta absoluta a la ubicación de tu archivo de proyecto.
 
 ### Paso 2: Cargar el archivo del proyecto
-Cree una instancia `Project` apuntando a su archivo `.mpp`.
+Crea una instancia de `Project` apuntando a tu archivo `.mpp`.
 
 ```java
 Project project = new Project(dataDir + "project.mpp");
 ```
 
 ### Paso 3: Obtener el recuento de grupos de tareas
-Imprima el número total de grupos de tareas definidos en el proyecto.
+Imprime el número total de grupos de tareas definidos en el proyecto.
 
 ```java
 System.out.println("Task Groups Count: " + project.getTaskGroups().size());
 ```
 
 ### Paso 4: Obtener información de un grupo de tareas específico
-Obtenga un grupo concreto (índice 1 en este ejemplo) y muestre su nombre y la cantidad de criterios que contiene.
+Obtén un grupo particular (índice 1 en este ejemplo) y muestra su nombre y la cantidad de criterios que contiene.
 
 ```java
 Group taskGroup = project.getTaskGroups().toList().get(1);
@@ -83,7 +88,7 @@ System.out.println("Group Criteria count: " + taskGroup.getGroupCriteria().size(
 ```
 
 ### Paso 5: Obtener información del criterio del grupo
-Cada grupo puede tener uno o más criterios. El fragmento a continuación extrae detalles como el campo usado para agrupar, el modo de agrupación, el color de la celda y el patrón.
+Cada grupo puede tener uno o más criterios. El fragmento a continuación extrae detalles como el campo usado para agrupar, el modo de agrupación, el color de celda y el patrón.
 
 ```java
 GroupCriterion criterion = taskGroup.getGroupCriteria().toList().get(0);
@@ -102,7 +107,7 @@ if (taskGroup == criterion.getParentGroup())
 ```
 
 ### Paso 7: Obtener la información de fuente del criterio
-Los criterios de grupo pueden tener estilos de fuente personalizados. El siguiente código imprime la familia de fuente, el tamaño, el estilo y la dirección de clasificación.
+Los criterios de grupo pueden tener estilo de fuente personalizado. El siguiente código imprime la familia de fuente, tamaño, estilo y dirección de ordenamiento.
 
 ```java
 System.out.println("Font Family Name: " + criterion.getFont().getFontFamily());
@@ -114,35 +119,35 @@ System.out.println("Ascending/Descending: " + criterion.getAscending());
 ## Problemas comunes y soluciones
 | Problema | Por qué ocurre | Solución |
 |----------|----------------|----------|
-| **`NullPointerException` on `criterion.getParentGroup()`** | El criterio puede no tener un grupo padre. | Agregue una verificación de null antes de comparar. |
-| **File not found** | La ruta `dataDir` es incorrecta. | Utilice `Paths.get(dataDir, "project.mpp").toAbsolutePath()` para verificar. |
-| **License not set** | La biblioteca Aspose se ejecuta en modo de evaluación y puede limitar la salida. | Registre su licencia con `License license = new License(); license.setLicense("Aspose.Tasks.Java.lic");` |
+| **`NullPointerException` on `criterion.getParentGroup()`** | El criterio puede no tener un grupo padre. | Añade una verificación de null antes de comparar. |
+| **File not found** | La ruta `dataDir` es incorrecta. | Utiliza `Paths.get(dataDir, "project.mpp").toAbsolutePath()` para verificar. |
+| **License not set** | La biblioteca Aspose se ejecuta en modo de evaluación y puede limitar la salida. | Registra tu licencia con `License license = new License(); license.setLicense("Aspose.Tasks.Java.lic");` |
 
 ## Preguntas frecuentes
 
 **Q: ¿Puedo usar Aspose.Tasks for Java para modificar archivos de proyecto?**  
-A: Sí, la biblioteca ofrece capacidades completas de lectura/escritura para archivos Microsoft Project.
+A: Sí, la biblioteca ofrece capacidades completas de lectura/escritura para archivos de Microsoft Project.
 
-**Q: ¿Es Aspose.Tasks for Java compatible con todas las versiones de archivos Microsoft Project?**  
+**Q: ¿Aspose.Tasks for Java es compatible con todas las versiones de archivos de Microsoft Project?**  
 A: Soporta MPP, XML y otros formatos comunes de Project en muchas versiones.
 
 **Q: ¿Cómo puedo manejar errores al trabajar con Aspose.Tasks for Java?**  
-A: Envuélvalas operaciones de archivo en bloques `try‑catch` y examine `TasksException` para obtener mensajes detallados.
+A: Envuelve las operaciones de archivo en bloques `try‑catch` y revisa `TasksException` para obtener mensajes detallados.
 
 **Q: ¿Aspose.Tasks for Java ofrece soporte para exportar datos del proyecto a otros formatos?**  
-A: Absolutamente: puede exportar a PDF, XLSX, CSV y más usando las APIs de exportación de la biblioteca.
+A: Por supuesto, puedes exportar a PDF, XLSX, CSV y más usando las APIs de exportación de la biblioteca.
 
 **Q: ¿Dónde puedo encontrar recursos adicionales y soporte para Aspose.Tasks for Java?**  
-A: Visite la [documentación de Aspose.Tasks for Java](https://reference.aspose.com/tasks/java/) para referencias completas de la API y el [foro de Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para obtener ayuda de la comunidad.
+A: Visita la [documentación de Aspose.Tasks for Java](https://reference.aspose.com/tasks/java/) para referencias completas de la API y el [foro de Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para ayuda de la comunidad.
 
 ## Conclusión
-En este tutorial recorrimos cómo **leer datos de definición de grupos** de un archivo Microsoft Project usando Aspose.Tasks for Java. Siguiendo los pasos anteriores podrá extraer nombres de grupos, criterios, formatos y relaciones de grupos padre, lo que le permite crear informes personalizados, migrar configuraciones o automatizar la lógica de validación en sus aplicaciones Java.
+En este tutorial recorrimos **cómo leer la definición de grupos** de un archivo Microsoft Project usando Aspose.Tasks for Java. Siguiendo los pasos anteriores puedes extraer nombres de grupos, criterios, formato y relaciones de grupos padres, lo que te permite crear informes personalizados, migrar configuraciones o automatizar lógica de validación en tus aplicaciones Java.
 
 ---
 
-**Última actualización:** 2025-12-11  
-**Probado con:** Aspose.Tasks for Java 24.12  
-**Autor:** Aspose  
+**Last Updated:** 2026-02-18  
+**Tested With:** Aspose.Tasks for Java 24.12  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
