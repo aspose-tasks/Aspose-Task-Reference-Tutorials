@@ -1,10 +1,10 @@
 ---
-date: 2025-12-16
-description: Aprenda a ler dados de Gantt com Aspose.Tasks usando Aspose.Tasks para
-  Java. Tutorial passo a passo para integração perfeita em suas aplicações Java.
+date: 2026-02-23
+description: Aprenda a ler gráficos de Gantt em Java usando Aspose.Tasks for Java.
+  Tutorial passo a passo para integração perfeita em suas aplicações Java.
 linktitle: Read Specific Gantt Chart Data in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: Ler dados de Gantt aspose.tasks – Ler dados específicos do gráfico de Gantt
+title: Ler gráfico de Gantt Java – Extrair Dados Específicos do Gantt
 url: /pt/java/project-data-reading/read-specific-gantt-chart-data/
 weight: 16
 ---
@@ -13,33 +13,33 @@ weight: 16
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ler gantt data aspose.tasks – Ler Dados Específicos de Gráfico de Gantt
+# read gantt chart java – Extrair Dados Específicos do Gantt
 
 ## Introdução
-Neste tutorial, você aprenderá como **ler gantt data aspose.tasks** e extrair detalhes específicos de um gráfico de Gantt usando Aspose.Tasks para Java. Gráficos de Gantt são ferramentas indispensáveis para gerenciamento de projetos, permitindo que os usuários visualizem tarefas, cronogramas e dependências. Com Asp, os desenvolvedores podem obter de forma eficiente as informações exatas de que precisam e integrá‑las em suas aplicações. Vamos percorrer o processo passo a passo.
+Neste tutorial, você aprenderá como **read gantt chart java** e extrair detalhes específicos de diagramas Gantt usando Aspose.Tasks for Java. Diagramas Gantt são ferramentas inestimáveis para gerenciamento de projetos, permitindo que os usuários visualizem tarefas, cronogramas e dependências. Com Aspose.Tasks for Java, os desenvolvedores podem extrair eficientemente as informações exatas de que precisam e integrá‑las em suas aplicações. Vamos percorrer o processo passo a passo.
 
 ## Respostas Rápidas
-- **O que posso extrair?** Qualquer propriedade de visualização, estilo de barra, linha de grade, estilo de texto, linha de progresso ou nível de escala de tempo de um gráfico de Gantt.  
+- **O que posso extrair?** Qualquer propriedade de visualização, estilo de barra, linha de grade, estilo de texto, linha de progresso ou nível de escala de tempo de um diagrama Gantt.  
 - **Preciso de licença?** Uma versão de avaliação funciona para desenvolvimento; uma licença comercial é necessária para produção.  
 - **Qual versão do Java é suportada?** Java 8 ou posterior (o tutorial usa JDK 11).  
 - **O código pode ser executado como está?** Sim – basta substituir o caminho do diretório de dados.  
-- **Posso modificar a visualização após a leitura?** Absolutamente – a API permite alterar propriedades e salvar novamente no arquivo de projeto.
+- **Posso modificar a visualização após a leitura?** Absolutamente – a API permite alterar propriedades e salvar de volta no arquivo do projeto.
 
-## Por que ler gantt data aspose.tasks?
-Extrair dados de gráficos de Gantt programaticamente permite que você:
-- Construa dashboards ou ferramentas de relatório personalizadas.
-- Sincronize cronogramas de projetos com outros sistemas corporativos.
-- Execute auditorias automatizadas de dependências de tarefas e cronogramas.
-- Gere PDFs, planilhas Excel ou visualizações web sem exportação manual.
+## Por que read gantt chart java?
+Extrair dados de diagramas Gantt programaticamente permite que você:
+- Criar painéis personalizados ou ferramentas de relatório.
+- Sincronizar cronogramas de projetos com outros sistemas corporativos.
+- Realizar auditorias automatizadas de dependências de tarefas e cronogramas.
+- Gerar PDFs, planilhas Excel ou visualizações web sem exportação manual.
 
 ## Pré‑requisitos
-Antes de mergulhar no tutorial, certifique‑se de que você possui os seguintes pré‑requisitos:
-1. **Java Development Kit (JDK):** Verifique se o Java está instalado em seu sistema. Você pode baixá‑lo [aqui](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
-2. **Aspose.Tasks para Java:** Baixe e instale a biblioteca Aspose.Tasks para Java a partir de [aqui](https://releases.aspose.com/tasks/java/).  
-3. **Ambiente de Desenvolvimento Integrado (IDE):** Escolha a IDE de sua preferência. Opções populares incluem IntelliJ IDEA, Eclipse ou NetBeans.
+Antes de mergulhar no tutorial, certifique‑se de que você tem os seguintes pré‑requisitos:
+1. **Java Development Kit (JDK):** Certifique‑se de que o Java está instalado em seu sistema. Você pode baixá‑lo [aqui](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
+2. **Aspose.Tasks for Java Library:** Baixe e instale a biblioteca Aspose.Tasks for Java a partir de [aqui](https://releases.aspose.com/tasks/java/).  
+3. **Integrated Development Environment (IDE):** Escolha um IDE de sua preferência. Opções populares incluem IntelliJ IDEA, Eclipse ou NetBeans.
 
 ## Importar Pacotes
-Primeiramente, importe os pacotes necessários ao seu projeto Java para acessar as funcionalidades do Aspose.Tasks:
+Primeiro, importe os pacotes necessários em seu projeto Java para acessar as funcionalidades do Aspose.Tasks:
 ```java
 import com.aspose.tasks.DateLabel;
 import com.aspose.tasks.DayType;
@@ -60,21 +60,21 @@ import com.aspose.tasks.TextStyle;
 import com.aspose.tasks.TimescaleUnit;
 ```
 
-## Como ler gantt data aspose.tasks – Carregar o Arquivo de Projeto
-Comece carregando o arquivo de projeto que contém os dados do gráfico de Gantt. Forneça o caminho para o seu diretório de dados e especifique o nome do arquivo.
+## Como read gantt chart java – Carregar o Arquivo de Projeto
+Inicie carregando o arquivo de projeto que contém os dados do diagrama Gantt. Forneça o caminho para o seu diretório de dados e especifique o nome do arquivo.
 ```java
 String dataDir = "Your Data Directory";
 Project project = new Project(dataDir + "ReadSpecificGantChartViewData.mpp");
 ```
 
-## Etapa 1: Acessar a Visualização do Gráfico de Gantt
-Recupere a visualização do gráfico de Gantt a partir do projeto. Vamos assumir que é a primeira visualização da lista.
+## Etapa 1: Acessar a Visualização do Diagrama Gantt
+Recupere a visualização do diagrama Gantt do projeto. Vamos assumir que é a primeira visualização da lista.
 ```java
 GanttChartView view = (GanttChartView) project.getViews().toList().get(0);
 ```
 
 ## Etapa 2: Extrair Propriedades da Visualização
-Agora, vamos extrair várias propriedades da visualização do gráfico de Gantt e imprimi‑las para inspeção.
+Agora, vamos extrair várias propriedades da visualização do diagrama Gantt e imprimi‑las para inspeção.
 ```java
 System.out.println("View.BarRounding: " + view.getBarRounding());
 System.out.println("view.ShowBarSplits: " + view.getShowBarSplits());
@@ -83,7 +83,7 @@ System.out.println("view.ShowDrawings: " + view.getShowDrawings());
 ```
 
 ## Etapa 3: Extrair Estilos de Barra
-Itere pelos estilos de barra na visualização do gráfico de Gantt e imprima seus detalhes.
+Itere pelos estilos de barra na visualização do diagrama Gantt e imprima seus detalhes.
 ```java
 for (int i = 0; i < view.getBarStyles().size(); i++) {
     GanttBarStyle barStyle = view.getBarStyles().get(i);
@@ -92,7 +92,7 @@ for (int i = 0; i < view.getBarStyles().size(); i++) {
 ```
 
 ## Etapa 4: Extrair Linhas de Grade
-Recupere e imprima informações sobre as linhas de grade na visualização do gráfico de Gantt.
+Recupere e imprima informações sobre linhas de grade na visualização do diagrama Gantt.
 ```java
 System.out.println("Gridlines count: " + view.getGridlines().size());
 Gridlines gridlines = view.getGridlines().get(0);
@@ -100,7 +100,7 @@ Gridlines gridlines = view.getGridlines().get(0);
 ```
 
 ## Etapa 5: Extrair Estilos de Texto
-Recupere e imprima os estilos de texto usados na visualização do gráfico de Gantt.
+Recupere e imprima os estilos de texto usados na visualização do diagrama Gantt.
 ```java
 System.out.println("\nView Text Styles:");
 for (TextStyle textStyle : view.getTextStyles()) {
@@ -109,51 +109,51 @@ for (TextStyle textStyle : view.getTextStyles()) {
 ```
 
 ## Etapa 6: Extrair Linhas de Progresso
-Acesse e imprima as propriedades das linhas de progresso na visualização do gráfico de Gantt.
+Acesse e imprima as propriedades das linhas de progresso na visualização do diagrama Gantt.
 ```java
 System.out.println("ProgressLInes.BeginAtDate: " + view.getProgressLines().getBeginAtDate());
 // Print other progress line details...
 ```
 
-## Etapa 7: Extrair Níveis de Escala de Tempo
-Recupere e imprima informações sobre os níveis de escala de tempo na visualização do gráfico de Gantt.
+## Etapa 7: Extrair Níveis da Escala de Tempo
+Recupere e imprima informações sobre os níveis da escala de tempo na visualização do diagrama Gantt.
 ```java
 System.out.println("BottomTimescaleTier.Count: " + view.getBottomTimescaleTier().getCount());
 // Print details of other timescale tiers...
 ```
 
 ## Armadilhas Comuns & Dicas
-- **Diretório de dados incorreto:** Certifique‑se de que `dataDir` termina com um separador de arquivos (`/` ou `\\`) adequado ao seu SO.  
-- **Visualização ausente:** Se o projeto não possuir visualização de Gantt, `project.getViews()` estará vazio – adicione uma verificação antes de fazer o cast.  
-- **Exceções de licença:** Sem uma licença válida, a API pode adicionar uma marca d’água aos dados exportados.  
+- **Diretório de dados incorreto:** Certifique‑se de que `dataDir` termina com um separador de arquivos (`/` ou `\\`) apropriado para seu SO.  
+- **Visualização ausente:** Se o projeto não possuir visualização Gantt, `project.getViews()` estará vazio – adicione uma verificação antes de fazer o cast.  
+- **Exceções de licença:** Sem uma licença válida, a API pode adicionar uma marca d'água aos dados exportados.  
 
-## Perguntas Frequentes (Estendidas)
+## Perguntas Frequentes
 
-**P: Posso usar Aspose.Tasks para Java com outras bibliotecas Java?**  
-R: Sim, Aspose.Tasks para Java foi projetado para integrar‑se perfeitamente com outras bibliotecas e frameworks Java.
+**Q: Posso usar Aspose.Tasks for Java com outras bibliotecas Java?**  
+A: Sim, Aspose.Tasks for Java foi projetado para integrar‑se perfeitamente com outras bibliotecas e frameworks Java.
 
-**P: O Aspose.Tasks é adequado para projetos corporativos de grande escala?**  
-R: Absolutamente. Aspose.Tasks oferece recursos robustos e excelente desempenho, sendo adequado para projetos de qualquer porte.
+**Q: O Aspose.Tasks é adequado para projetos corporativos de grande escala?**  
+A: Absolutamente. Aspose.Tasks oferece recursos robustos e excelente desempenho, tornando‑o adequado para projetos de qualquer escala.
 
-**P: O Aspose.Tasks suporta múltiplos formatos de arquivo de projeto?**  
-R: Sim, Aspose.Tasks suporta vários formatos de arquivo de projeto, incluindo MPP, XML e MPX.
+**Q: O Aspose.Tasks suporta múltiplos formatos de arquivo de projeto?**  
+A: Sim, Aspose.Tasks suporta vários formatos de arquivo de projeto, incluindo MPP, XML e MPX.
 
-**P: Posso personalizar a aparência dos gráficos de Gantt com Aspose.Tasks?**  
-R: Certamente. Aspose.Tasks fornece APIs extensas para customizar a aparência dos gráficos de Gantt conforme suas necessidades.
+**Q: Posso personalizar a aparência dos diagramas Gantt com Aspose.Tasks?**  
+A: Certamente. Aspose.Tasks fornece APIs extensas para personalizar a aparência do diagrama Gantt de acordo com suas necessidades.
 
-**P: Existe suporte técnico disponível para usuários do Aspose.Tasks?**  
-R: Sim, Aspose.Tasks oferece suporte técnico abrangente por meio de seu fórum e canais de suporte dedicados.
+**Q: O suporte técnico está disponível para usuários do Aspose.Tasks?**  
+A: Sim, Aspose.Tasks oferece suporte técnico abrangente através de seu fórum e canais de suporte dedicados.
 
-**P: Como salvo as alterações após modificar uma visualização?**  
-R: Chame `project.save("output.mpp");` após fazer quaisquer modificações para persistir as alterações.
+**Q: Como salvo as alterações após modificar uma visualização?**  
+A: Chame `project.save("output.mpp");` após fazer quaisquer modificações para persistí‑las.
 
 ## Conclusão
-Parabéns! Você aprendeu com sucesso como **ler gantt data aspose.tasks** e extrair informações específicas de gráficos de Gantt usando Aspose.Tasks para Java. Seguindo estas etapas, você pode obter, analisar e manipular dados de Gantt de forma eficiente em suas aplicações Java, abrindo caminho para relatórios poderosos, integrações e automações.
+Parabéns! Você aprendeu com sucesso como **read gantt chart java** e extrair informações específicas de diagramas Gantt usando Aspose.Tasks for Java. Seguindo estas etapas, você pode extrair, analisar e manipular dados de diagramas Gantt de forma eficiente em suas aplicações Java, abrindo portas para relatórios poderosos, integrações e cenários de automação.
 
 ---
 
-**Última atualização:** 2025-12-16  
-**Testado com:** Aspose.Tasks para Java 24.12  
+**Última Atualização:** 2026-02-23  
+**Testado com:** Aspose.Tasks for Java 24.12  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

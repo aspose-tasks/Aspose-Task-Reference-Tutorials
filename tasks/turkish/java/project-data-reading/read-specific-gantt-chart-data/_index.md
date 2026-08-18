@@ -1,46 +1,53 @@
 ---
-date: 2025-12-16
-description: Aspose.Tasks for Java kullanarak gantt verilerini aspose.tasks ile nasıl
-  okuyacağınızı öğrenin. Java uygulamalarınıza sorunsuz entegrasyon için adım adım
-  öğretici.
+date: 2026-02-23
+description: Aspose.Tasks for Java kullanarak Java’da Gantt şemasını nasıl okuyacağınızı
+  öğrenin. Java uygulamalarınıza sorunsuz entegrasyon için adım adım öğretici.
 linktitle: Read Specific Gantt Chart Data in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: aspose.tasks ile Gantt verilerini oku – Belirli Gantt Şeması Verilerini Okuma
+title: gantt şemasını java ile oku – Belirli Gantt verilerini çıkar
 url: /tr/java/project-data-reading/read-specific-gantt-chart-data/
 weight: 16
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+-23" keep date. "**Tested With:** Aspose.Tasks for Java 24.12" keep. "**Author:** Aspose". Keep.
+
+Then closing shortcodes.
+
+Also there is a backtop button shortcode at end.
+
+Make sure to keep all shortcodes exactly.
+
+Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# read gantt data aspose.tasks – Read Specific Gantt Chart Data
+# read gantt chart java – Belirli Gantt Verilerini Çıkarma
 
 ## Introduction
-Bu öğreticide, **read gantt data aspose.tasks** nasıl okunur ve Aspose.Tasks for Java kullanarak belirli Gantt şeması detayları nasıl çıkarılır öğreneceksiniz. Gantt şemaları, görevleri, zaman çizelgelerini ve bağımlılıkları görselleştirerek proje yönetiminde vazgeçilmez araçlardır. Aspose.Tasks for Java ile geliştiriciler, ihtiyaç duydukları tam bilgiyi verimli bir şekilde çekebilir ve uygulamalarına entegre edebilir. Süreci adım adım inceleyelim.
+Bu öğreticide, **read gantt chart java** nasıl yapılacağını ve Aspose.Tasks for Java kullanarak belirli Gantt şeması ayrıntılarını nasıl çıkaracağınızı öğreneceksiniz. Gantt şemaları, görevleri, zaman çizelgelerini ve bağımlılıkları görselleştirerek proje yönetimi için vazgeçilmez araçlardır. Aspose.Tasks for Java ile geliştiriciler ihtiyaç duydukları kesin bilgileri verimli bir şekilde çekebilir ve uygulamalarına entegre edebilir. Süreci adım adım inceleyelim.
 
 ## Quick Answers
-- **Ne çıkarabilirim?** Bir Gantt şemasından herhangi bir görünüm özelliği, çubuk stili, ızgara çizgisi, metin stili, ilerleme çizgisi veya zaman ölçeği katmanı.  
-- **Lisans gerekli mi?** Geliştirme için bir deneme sürümü yeterlidir; üretim için ticari lisans gereklidir.  
-- **Hangi Java sürümü destekleniyor?** Java 8 ve üzeri (öğreticide JDK 11 kullanılmıştır).  
-- **Kod doğrudan çalıştırılabilir mi?** Evet – sadece veri dizini yolunu değiştirin.  
-- **Görünümü okuduktan sonra değiştirebilir miyim?** Kesinlikle – API, özellikleri değiştirmenize ve proje dosyasına geri kaydetmenize izin verir.
+- **What can I extract?** Gantt şemasından herhangi bir görünüm özelliği, çubuk stili, ızgara çizgisi, metin stili, ilerleme çizgisi veya zaman ölçeği katmanı.  
+- **Do I need a license?** Geliştirme için deneme sürümü çalışır; üretim için ticari bir lisans gereklidir.  
+- **Which Java version is supported?** Java 8 ve üzeri (öğreticide JDK 11 kullanılmıştır).  
+- **Is the code runnable as‑is?** Evet – sadece veri dizini yolunu değiştirmeniz yeterlidir.  
+- **Can I modify the view after reading?** Kesinlikle – API, özellikleri değiştirmenize ve proje dosyasına geri kaydetmenize olanak tanır.
 
-## Why read gantt data aspose.tasks?
-Gantt şeması verilerini programlı olarak çıkarmak şunları sağlar:
-- Özel panolar veya raporlama araçları oluşturma.
-- Proje takvimlerini diğer kurumsal sistemlerle senkronize etme.
-- Görev bağımlılıkları ve zaman çizelgelerinin otomatik denetimini yapma.
-- Manuel dışa aktarma gerektirmeden PDF, Excel veya web görselleştirmeleri üretme.
+## Why read gantt chart java?
+Programatik olarak Gantt şema verilerini çıkarmak şunları yapmanızı sağlar:
+- Özel gösterge panoları veya raporlama araçları oluşturun.
+- Proje takvimlerini diğer kurumsal sistemlerle senkronize edin.
+- Görev bağımlılıkları ve zaman çizelgeleri üzerinde otomatik denetimler gerçekleştirin.
+- Manuel dışa aktarma yapmadan PDF, Excel dosyaları veya web görselleştirmeleri oluşturun.
 
 ## Prerequisites
-Öğreticiye başlamadan önce aşağıdaki ön koşulları karşıladığınızdan emin olun:
-1. Java Development Kit (JDK): Sisteminizde Java yüklü olduğundan emin olun. İndirmek için [buraya](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) tıklayın.  
-2. Aspose.Tasks for Java Library: Aspose.Tasks for Java kütüphanesini [buradan](https://releases.aspose.com/tasks/java/) indirin ve kurun.  
-3. Integrated Development Environment (IDE): Tercih ettiğiniz bir IDE seçin. Popüler seçenekler arasında IntelliJ IDEA, Eclipse veya NetBeans bulunur.
+Öğreticiye başlamadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
+1. **Java Development Kit (JDK):** Sisteminizde Java yüklü olduğundan emin olun. [buradan](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) indirebilirsiniz.  
+2. **Aspose.Tasks for Java Library:** Aspose.Tasks for Java kütüphanesini [buradan](https://releases.aspose.com/tasks/java/) indirip kurun.  
+3. **Integrated Development Environment (IDE):** Tercihinize uygun bir IDE seçin. Popüler seçenekler arasında IntelliJ IDEA, Eclipse veya NetBeans bulunur.
 
 ## Import Packages
-İlk olarak, Aspose.Tasks işlevlerine erişmek için Java projenize gerekli paketleri içe aktarın:
+İlk olarak, Aspose.Tasks işlevselliğine erişmek için gerekli paketleri Java projenize içe aktarın:
 ```java
 import com.aspose.tasks.DateLabel;
 import com.aspose.tasks.DayType;
@@ -61,21 +68,21 @@ import com.aspose.tasks.TextStyle;
 import com.aspose.tasks.TimescaleUnit;
 ```
 
-## How to read gantt data aspose.tasks – Load the Project File
-Gantt şeması verilerini içeren proje dosyasını yükleyerek başlayın. Veri dizini yolunu ve dosya adını belirtin.
+## How to read gantt chart java – Load the Project File
+Gantt şema verilerini içeren proje dosyasını yükleyerek başlayın. Veri dizini yolunu sağlayın ve dosya adını belirtin.
 ```java
 String dataDir = "Your Data Directory";
 Project project = new Project(dataDir + "ReadSpecificGantChartViewData.mpp");
 ```
 
 ## Step 1: Access Gantt Chart View
-Projeden Gantt şeması görünümünü alın. Listede ilk görünüm olduğunu varsayacağız.
+Projeden Gantt şema görünümünü alın. Listede ilk görünüm olduğunu varsayacağız.
 ```java
 GanttChartView view = (GanttChartView) project.getViews().toList().get(0);
 ```
 
 ## Step 2: Extract View Properties
-Şimdi, Gantt şeması görünümünün çeşitli özelliklerini çıkaralım ve inceleme için ekrana yazdıralım.
+Şimdi, Gantt şema görünümünün çeşitli özelliklerini çıkaralım ve inceleme için ekrana yazdıralım.
 ```java
 System.out.println("View.BarRounding: " + view.getBarRounding());
 System.out.println("view.ShowBarSplits: " + view.getShowBarSplits());
@@ -84,7 +91,7 @@ System.out.println("view.ShowDrawings: " + view.getShowDrawings());
 ```
 
 ## Step 3: Extract Bar Styles
-Gantt şeması görünümündeki çubuk stillerini döngüyle gezerek detaylarını ekrana yazdırın.
+Gantt şema görünümündeki çubuk stilleri üzerinde döngü yapın ve ayrıntılarını ekrana yazdırın.
 ```java
 for (int i = 0; i < view.getBarStyles().size(); i++) {
     GanttBarStyle barStyle = view.getBarStyles().get(i);
@@ -93,7 +100,7 @@ for (int i = 0; i < view.getBarStyles().size(); i++) {
 ```
 
 ## Step 4: Extract Gridlines
-Gantt şeması görünümündeki ızgara çizgileri hakkında bilgi alın ve ekrana yazdırın.
+Gantt şema görünümündeki ızgara çizgileri hakkında bilgi alın ve ekrana yazdırın.
 ```java
 System.out.println("Gridlines count: " + view.getGridlines().size());
 Gridlines gridlines = view.getGridlines().get(0);
@@ -101,7 +108,7 @@ Gridlines gridlines = view.getGridlines().get(0);
 ```
 
 ## Step 5: Extract Text Styles
-Gantt şeması görünümünde kullanılan metin stillerini alın ve ekrana yazdırın.
+Gantt şema görünümünde kullanılan metin stillerini alın ve ekrana yazdırın.
 ```java
 System.out.println("\nView Text Styles:");
 for (TextStyle textStyle : view.getTextStyles()) {
@@ -110,50 +117,50 @@ for (TextStyle textStyle : view.getTextStyles()) {
 ```
 
 ## Step 6: Extract Progress Lines
-Gantt şeması görünümündeki ilerleme çizgilerinin özelliklerine erişin ve ekrana yazdırın.
+Gantt şema görünümündeki ilerleme çizgilerinin özelliklerine erişin ve ekrana yazdırın.
 ```java
 System.out.println("ProgressLInes.BeginAtDate: " + view.getProgressLines().getBeginAtDate());
 // Print other progress line details...
 ```
 
 ## Step 7: Extract Timescale Tiers
-Gantt şeması görünümündeki zaman ölçeği katmanları hakkında bilgi alın ve ekrana yazdırın.
+Gantt şema görünümündeki zaman ölçeği katmanları hakkında bilgi alın ve ekrana yazdırın.
 ```java
 System.out.println("BottomTimescaleTier.Count: " + view.getBottomTimescaleTier().getCount());
 // Print details of other timescale tiers...
 ```
 
 ## Common Pitfalls & Tips
-- **Yanlış veri dizini:** `dataDir` değişkeninin işletim sisteminize uygun bir dosya ayırıcı (`/` veya `\\`) ile bittiğinden emin olun.  
-- **Görünüm eksikliği:** Projede Gantt görünümü yoksa, `project.getViews()` boş dönecektir – tip dönüşümü yapmadan önce kontrol ekleyin.  
-- **Lisans istisnaları:** Geçerli bir lisans olmadan API, dışa aktarılan verilere bir filigran ekleyebilir.  
+- **Incorrect data directory:** `dataDir` değişkeninin işletim sisteminize uygun bir dosya ayırıcı (`/` veya `\\`) ile bittiğinden emin olun.  
+- **Missing view:** Projede Gantt görünümü yoksa, `project.getViews()` boş dönecektir – dönüştürmeden önce bir kontrol ekleyin.  
+- **License exceptions:** Geçerli bir lisans olmadan API, dışa aktarılan verilere bir filigran ekleyebilir.  
 
-## Frequently Asked Questions (Extended)
+## Frequently Asked Questions
 
-**S: Aspose.Tasks for Java’yı diğer Java kütüphaneleriyle kullanabilir miyim?**  
-C: Evet, Aspose.Tasks for Java diğer Java kütüphaneleri ve çerçeveleriyle sorunsuz entegrasyon için tasarlanmıştır.
+**Q: Can I use Aspose.Tasks for Java with other Java libraries?**  
+A: Evet, Aspose.Tasks for Java, diğer Java kütüphaneleri ve çerçeveleriyle sorunsuz entegrasyon için tasarlanmıştır.
 
-**S: Aspose.Tasks büyük ölçekli kurumsal projeler için uygun mu?**  
-C: Kesinlikle. Aspose.Tasks, güçlü özellikleri ve yüksek performansı sayesinde her ölçekten proje için uygundur.
+**Q: Is Aspose.Tasks suitable for large‑scale enterprise projects?**  
+A: Kesinlikle. Aspose.Tasks, güçlü özellikler ve mükemmel performans sunar, bu da her ölçekten proje için uygun olmasını sağlar.
 
-**S: Aspose.Tasks birden fazla proje dosyası formatını destekliyor mu?**  
-C: Evet, Aspose.Tasks MPP, XML ve MPX dahil olmak üzere çeşitli proje dosyası formatlarını destekler.
+**Q: Does Aspose.Tasks support multiple project file formats?**  
+A: Evet, Aspose.Tasks, MPP, XML ve MPX dahil olmak üzere çeşitli proje dosyası formatlarını destekler.
 
-**S: Gantt şemalarının görünümünü Aspose.Tasks ile özelleştirebilir miyim?**  
-C: Elbette. Aspose.Tasks, gereksinimlerinize göre Gantt şeması görünümünü özelleştirmenize olanak tanıyan kapsamlı API’ler sunar.
+**Q: Can I customize the appearance of Gantt charts with Aspose.Tasks?**  
+A: Elbette. Aspose.Tasks, Gantt şemalarının görünümünü gereksinimlerinize göre özelleştirmenize olanak tanıyan kapsamlı API'ler sunar.
 
-**S: Aspose.Tasks kullanıcıları için teknik destek mevcut mu?**  
-C: Evet, Aspose.Tasks forumu ve özel destek kanalları aracılığıyla kapsamlı teknik destek sağlar.
+**Q: Is technical support available for Aspose.Tasks users?**  
+A: Evet, Aspose.Tasks, forumu ve özel destek kanalları aracılığıyla kapsamlı teknik destek sunar.
 
-**S: Görünümü değiştirdikten sonra değişiklikleri nasıl kaydederim?**  
-C: Herhangi bir değişiklik yaptıktan sonra `project.save("output.mpp");` çağrısı yaparak kaydedin.
+**Q: How do I save changes after modifying a view?**  
+A: Herhangi bir değişiklik yaptıktan sonra `project.save("output.mpp");` çağırarak değişiklikleri kalıcı hale getirin.
 
 ## Conclusion
-Tebrikler! Aspose.Tasks for Java kullanarak **read gantt data aspose.tasks** nasıl okunur ve belirli Gantt şeması bilgileri nasıl çıkarılır öğrendiniz. Bu adımları izleyerek Java uygulamalarınız içinde Gantt şeması verilerini verimli bir şekilde çekebilir, analiz edebilir ve manipüle edebilir, böylece güçlü raporlama, entegrasyon ve otomasyon senaryolarının kapılarını açabilirsiniz.
+Tebrikler! Aspose.Tasks for Java kullanarak **read gantt chart java** nasıl yapılacağını ve belirli Gantt şema bilgilerini nasıl çıkaracağınızı başarıyla öğrendiniz. Bu adımları izleyerek Java uygulamalarınız içinde Gantt şema verilerini verimli bir şekilde çekebilir, analiz edebilir ve manipüle edebilir, güçlü raporlama, entegrasyon ve otomasyon senaryolarının kapılarını açabilirsiniz.
 
 ---
 
-**Last Updated:** 2025-12-16  
+**Last Updated:** 2026-02-23  
 **Tested With:** Aspose.Tasks for Java 24.12  
 **Author:** Aspose  
 

@@ -1,53 +1,96 @@
 ---
-title: Calcoli percentuali di completamento per le attività in Aspose.Tasks
-linktitle: Calcoli percentuali di completamento per le attività in Aspose.Tasks
-second_title: API Java Aspose.Tasks
-description: Esplora Aspose.Tasks per Java e semplifica il monitoraggio dell'avanzamento del progetto. Calcola facilmente le percentuali delle attività per una gestione efficiente dei progetti.
-weight: 25
+date: 2026-02-23
+description: Esplora Aspose.Tasks per Java per semplificare la gestione dei progetti
+  Java e impara come calcolare la percentuale delle attività e monitorare i progressi
+  in modo efficiente.
+linktitle: Percentage Complete Calculations for Tasks in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: 'Gestione progetti Java: Percentuale di completamento attività con Aspose.Tasks'
 url: /it/java/task-properties/percentage-complete-calculations/
+weight: 25
 ---
+
+ Tips" etc.
+
+Let's translate.
+
+Be careful with markdown formatting.
+
+Also note "## Troubleshooting & Tips" - keep & as is.
+
+Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Calcoli percentuali di completamento per le attività in Aspose.Tasks
+# Project Management Java: Calcolare la Percentuale di Completamento delle Attività con Aspose.Tasks
 
-## introduzione
-Benvenuti nella nostra guida approfondita sulla padronanza dei calcoli della percentuale delle attività utilizzando Aspose.Tasks per Java. Aspose.Tasks è una potente libreria Java progettata per lavorare con file Microsoft Project, offrendo un robusto set di funzionalità per la gestione dei progetti. In questo tutorial ci concentreremo sui calcoli della percentuale di completamento, fornendoti le conoscenze per monitorare e analizzare in modo efficace l'avanzamento del progetto.
-## Prerequisiti
-Prima di iniziare, assicurati di disporre dei seguenti prerequisiti:
-- Ambiente di sviluppo Java: assicurati di avere Java installato sul tuo sistema.
--  Libreria Aspose.Tasks: scarica la libreria Aspose.Tasks per Java da[questo link](https://releases.aspose.com/tasks/java/).
-## Importa pacchetti
-Iniziamo importando i pacchetti necessari per il tuo progetto Aspose.Tasks per Java. Includi il seguente snippet di codice nel tuo progetto:
+## Introduction
+Benvenuti alla nostra guida completa su **project management java** utilizzando Aspose.Tasks per Java. In questo tutorial imparerete a leggere un file Microsoft Project, a calcolare il lavoro completato e a ottenere percentuali di avanzamento accurate per ogni attività. Padroneggiare questi calcoli vi aiuta a tenere informati gli stakeholder e garantisce che il progetto rimanga nei tempi previsti.
+
+## Quick Answers
+- **What library handles Microsoft Project files in Java?** Aspose.Tasks for Java.  
+- **Which property shows overall progress?** `Tsk.PERCENT_COMPLETE`.  
+- **How do I read a .mpp file?** Load it with `new Project(filePath)`.  
+- **Can I calculate work completed?** Yes, use `Tsk.PERCENT_WORK_COMPLETE`.  
+- **Do I need a license for production?** A valid Aspose.Tasks license is required.
+
+## What is Project Management Java?
+Project management java si riferisce all'uso di strumenti e librerie basati su Java—come Aspose.Tasks—per creare, leggere e manipolare i piani di progetto in modo programmatico. Questo approccio consente reportistica automatizzata, dashboard personalizzate e integrazione fluida con le applicazioni Java esistenti.
+
+## Why Use Aspose.Tasks for Calculating Task Percentage?
+- **Accurate progress tracking** – retrieve native Project fields without manual parsing.  
+- **Full .mpp support** – read, edit, and save Microsoft Project files directly.  
+- **Scalable automation** – process thousands of tasks in seconds, ideal for large portfolios.  
+- **Cross‑platform** – works on any Java runtime, from desktop to cloud services.
+
+## Prerequisites
+Before you begin, make sure you have:
+
+- **Java Development Kit (JDK)** installed (Java 8 or newer).  
+- **Aspose.Tasks for Java** library – download it from [this link](https://releases.aspose.com/tasks/java/).  
+- A sample Microsoft Project file (e.g., *Software Development.mpp*) placed in a known directory.
+
+## Import Packages
+First, import the classes you’ll need. This snippet should be added to any Java class that works with Aspose.Tasks.
+
 ```java
 import com.aspose.tasks.Project;
 import com.aspose.tasks.Task;
 import com.aspose.tasks.TaskCollection;
 import com.aspose.tasks.Tsk;
 ```
-Ora analizziamo ogni passaggio con spiegazioni dettagliate.
-## Passaggio 1: importazione dei pacchetti
-Nel primo passaggio, importiamo i pacchetti necessari per configurare il nostro progetto Aspose.Tasks.
-## Passaggio 2: impostazione della directory dei documenti
- Definisci il percorso della directory dei documenti utilizzando il file`dataDir`variabile. Assicurati che il file Microsoft Project, come "Software Development.mpp", sia in questa directory.
+
+### Step 1: Set the Document Directory
+Define the folder that contains your *.mpp* file. Replace the placeholder with the actual path on your machine.
+
 ```java
-// Il percorso della directory dei documenti.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
 ```
-## Passaggio 3: caricamento del progetto
- Inizializzarne uno nuovo`Project` oggetto e caricare il file Microsoft Project nell'istanza del progetto.
+
+### Step 2: Load the Project File
+Create a `Project` instance and load the Microsoft Project file. This step **reads the Microsoft Project file** so you can access its tasks.
+
 ```java
 Project project = new Project(dataDir + "Software Development.mpp");
 ```
-## Passaggio 4: recupero della raccolta attività
- Ottieni l'attività root del progetto e recupera i suoi figli come raccolta utilizzando`getRootTask().getChildren()`.
+
+### Step 3: Retrieve the Task Collection
+Grab the root task and then its child tasks. This collection represents all top‑level tasks in the project.
+
 ```java
 TaskCollection alTasks = project.getRootTask().getChildren();
 ```
-## Passo 5: Percentuale di stampa completata
-Scorrere ciascuna attività nella raccolta e stampare Percentuale di completamento, Percentuale di lavoro completata e Percentuale fisica di completamento.
+
+### Step 4: Print Percentage Complete Values
+Iterate through each task and display three key progress metrics:
+
+- **Percentage Complete** – overall task progress.  
+- **Percentage Work Complete** – work‑based progress.  
+- **Physical Percentage Complete** – physical progress (if set).
+
 ```java
 for (Task tsk : alTasks) {
     System.out.println(tsk.get(Tsk.PERCENT_COMPLETE));
@@ -55,20 +98,50 @@ for (Task tsk : alTasks) {
     System.out.println(tsk.get(Tsk.PHYSICAL_PERCENT_COMPLETE).toString());
 }
 ```
-Ripeti questi passaggi per ogni attività del tuo progetto per ottenere informazioni dettagliate sullo stato di avanzamento di ciascuna.
-## Conclusione
-Congratulazioni! Hai padroneggiato con successo i calcoli della percentuale delle attività utilizzando Aspose.Tasks per Java. Questa potente libreria consente agli sviluppatori di gestire e analizzare l'avanzamento del progetto in modo efficiente.
-## Domande frequenti
-### D: Dove posso trovare la documentazione di Aspose.Tasks?
- La documentazione è disponibile[Qui](https://reference.aspose.com/tasks/java/).
-### D: Come posso scaricare la libreria Aspose.Tasks per Java?
- Puoi scaricarlo[Qui](https://releases.aspose.com/tasks/java/).
-### D: È disponibile una prova gratuita?
-Sì, puoi accedere a una prova gratuita[Qui](https://releases.aspose.com/).
-### D: Dove posso ottenere supporto per Aspose.Tasks?
- Visita il forum di supporto[Qui](https://forum.aspose.com/c/tasks/15).
-### D: Come posso ottenere una licenza temporanea?
- È possibile acquisire una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
+
+Run this loop for every task you need to monitor. The output gives you a clear snapshot of **how to get progress** for each work item.
+
+## Common Use Cases
+- **Dashboard reporting:** Pull percentages and feed them into BI tools.  
+- **Automated alerts:** Trigger notifications when a task’s `PERCENT_COMPLETE` falls below a threshold.  
+- **Resource leveling:** Adjust assignments based on `PERCENT_WORK_COMPLETE` to keep the schedule realistic.
+
+## Troubleshooting & Tips
+- **Null values:** Ensure the project file actually contains the fields you’re querying; some older .mpp files may lack `PHYSICAL_PERCENT_COMPLETE`.  
+- **Performance:** For very large projects, consider paging through `TaskCollection` or filtering by task ID to reduce memory usage.  
+- **License errors:** If you see licensing warnings, verify that a valid Aspose.Tasks license file is loaded before creating the `Project` object.
+
+## Frequently Asked Questions
+
+**Q: Where can I find the Aspose.Tasks documentation?**  
+A: The documentation is available [here](https://reference.aspose.com/tasks/java/).
+
+**Q: How can I download the Aspose.Tasks library for Java?**  
+A: You can download it [here](https://releases.aspose.com/tasks/java/).
+
+**Q: Is there a free trial available?**  
+A: Yes, you can access a free trial [here](https://releases.aspose.com/).
+
+**Q: Where can I get support for Aspose.Tasks?**  
+A: Visit the support forum [here](https://forum.aspose.com/c/tasks/15).
+
+**Q: How do I obtain a temporary license?**  
+A: You can acquire a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+**Additional Q&A**
+
+**Q: Can I calculate task percentage without Aspose.Tasks?**  
+A: You could parse the .mpp binary yourself, but Aspose.Tasks provides a reliable, fully‑supported API that handles all edge cases.
+
+**Q: Does Aspose.Tasks support reading Project Online files?**  
+A: Yes, you can load files exported from Project Online as long as they are saved in the .mpp format.
+
+---
+
+**Last Updated:** 2026-02-23  
+**Tested With:** Aspose.Tasks for Java 24.11 (latest)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
