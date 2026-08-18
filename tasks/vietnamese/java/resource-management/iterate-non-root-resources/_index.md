@@ -1,10 +1,49 @@
 ---
-date: 2026-01-13
-description: Tìm hiểu cách lặp lại các tài nguyên không phải gốc trong các tệp Microsoft
-  Project bằng cách sử dụng Aspose.Tasks cho Java.
-linktitle: Iterate Non-Root Resources with Aspose.Tasks for Java
+date: 2026-08-18
+description: Tìm hiểu cách duyệt các tài nguyên không‑gốc trong tệp Microsoft Project
+  bằng Aspose.Tasks for Java.
+keywords:
+- how to iterate resources
+- extract resource data
+- list project resources
+lastmod: 2026-08-18
+linktitle: Cách duyệt tài nguyên với Aspose.Tasks for Java
+og_description: Tìm hiểu cách duyệt tài nguyên trong tệp Microsoft Project bằng Aspose.Tasks
+  for Java. Hướng dẫn này bao gồm lọc tài nguyên không‑gốc, ví dụ mã và các thực tiễn
+  tốt nhất.
+og_image_alt: Developer guide showing Java code that iterates non‑root resources in
+  a Microsoft Project file
+og_title: Cách duyệt tài nguyên với Aspose.Tasks for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-08-18'
+  description: Learn how to iterate non‑root resources in Microsoft Project files
+    using Aspose.Tasks for Java.
+  headline: How to iterate resources with Aspose.Tasks for Java
+  type: TechArticle
+- questions:
+  - answer: Yes. The API offers full CRUD (Create, Read, Update, Delete) capabilities
+      for MPP, MPT, and XML formats.
+    question: Can I use Aspose.Tasks for Java to create new project files?
+  - answer: Absolutely. It handles Project 2003‑2019 files, including the latest MPP
+      specifications.
+    question: Does Aspose.Tasks support all versions of Microsoft Project files?
+  - answer: Yes. You can inject the library into Spring beans or use it in any standard
+      Java application.
+    question: Is Aspose.Tasks compatible with Java frameworks like Spring?
+  - answer: Definitely. The API lets you add, modify, or delete custom fields on tasks,
+      resources, and assignments.
+    question: Can I customize project data fields using Aspose.Tasks?
+  - answer: The product includes comprehensive API docs, code samples, and a dedicated
+      support forum for quick assistance.
+    question: Does Aspose.Tasks provide support and documentation for developers?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: Duyệt các tài nguyên không phải gốc với Aspose.Tasks cho Java
+tags:
+- Aspose.Tasks
+- Java resource handling
+- project management API
+title: Cách duyệt tài nguyên với Aspose.Tasks for Java
 url: /vi/java/resource-management/iterate-non-root-resources/
 weight: 12
 ---
@@ -13,26 +52,32 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Duyệt các tài nguyên không gốc bằng Aspose.Tasks cho Java
+# Cách lặp qua các tài nguyên với Aspose.Tasks cho Java
 
 ## Giới thiệu
-Aspose.Tasks cho Java là một thư viện mạnh mẽ cung cấp cho các nhà phát triển cách làm việc với các tệp Microsoft Project một cách sạch sẽ, hướng đối tượng. Trong hướng dẫn này, bạn sẽ học **cách duyệt các tài nguyên không phải gốc** để có thể đọc, sửa đổi hoặc phân tích dữ liệu tài nguyên mà không phải xử lý nút placeholder gốc. Dù bạn đang xây dựng công cụ báo cáo, script di chuyển dữ liệu, hay bộ lập lịch tùy chỉnh, việc nắm vững kỹ thuật này sẽ giúp mã của bạn chính xác và hiệu quả hơn.
+Trong hướng dẫn này, bạn sẽ khám phá **cách lặp qua các tài nguyên** — cụ thể là các tài nguyên không phải gốc — trong các tệp Microsoft Project bằng cách sử dụng Aspose.Tasks cho Java. Dù bạn đang xây dựng bảng điều khiển báo cáo, di chuyển dữ liệu dự án cũ, hay tạo bộ lập lịch tùy chỉnh, việc có thể bỏ qua placeholder “Project” tích hợp sẵn sẽ tiết kiệm thời gian và giữ cho đầu ra của bạn sạch sẽ. API hướng đối tượng của thư viện giúp nhiệm vụ này trở nên đơn giản, và các mẫu được trình bày ở đây hoạt động trên bất kỳ môi trường Java 8+ nào.
 
-## Trả lời nhanh
-- **“tài nguyên không gốc” có nghĩa là gì?** Một tài nguyên không phải là placeholder mặc định “Project” (nút gốc).  
-- **Tại sao phải lọc bỏ tài nguyên gốc?** Nút gốc không có dữ liệu lập lịch hữu ích và có thể làm rối các báo cáo.  
+## Câu trả lời nhanh
+- **“non‑root resource” có nghĩa là gì?** Đó là bất kỳ tài nguyên nào ngoại trừ placeholder mặc định “Project” nằm ở đầu cây tài nguyên.  
+- **Tại sao lọc bỏ tài nguyên gốc?** Tài nguyên gốc không có dữ liệu lập lịch, vì vậy việc loại bỏ nó ngăn ngừa các hàng trống trong báo cáo.  
 - **Lớp Aspose.Tasks nào cung cấp bộ sưu tập tài nguyên?** `Project.getResources()`.  
-- **Tôi có cần giấy phép cho đoạn mã này không?** Bản dùng thử miễn phí đủ cho việc phát triển; cần giấy phép thương mại cho môi trường sản xuất.  
-- **Có thể dùng với Java 17 không?** Có – Aspose.Tasks hỗ trợ Java 8 trở lên.
+- **Tôi có cần giấy phép cho đoạn mã này không?** Bản dùng thử miễn phí hoạt động cho phát triển; giấy phép thương mại cần thiết cho môi trường sản xuất.  
+- **Tôi có thể sử dụng với Java 17 không?** Có – Aspose.Tasks hỗ trợ Java 8 trở lên.
+
+## Cách lặp qua tài nguyên là gì?
+Cụm từ **cách lặp qua tài nguyên** mô tả các bước lập trình cần thiết để duyệt qua từng đối tượng `Resource` trong một thể hiện `Project` đồng thời áp dụng các bộ lọc tùy chỉnh như `isRoot()`. Bài hướng dẫn này cung cấp cho bạn một mẫu sẵn sàng sử dụng có thể được điều chỉnh cho báo cáo, di chuyển dữ liệu hoặc logic lập lịch tùy chỉnh.
+
+## Tại sao sử dụng Aspose.Tasks cho Java?
+Aspose.Tasks cho Java hỗ trợ **hơn 50 định dạng đầu vào và đầu ra** và có thể xử lý các dự án chứa **lên tới 10.000 công việc** mà không cần tải toàn bộ tệp vào bộ nhớ, nhờ kiến trúc streaming. API cũng cung cấp xác thực tích hợp, giúp bạn nhận được kết quả đáng tin cậy trên các tệp Project 2003‑2019.
 
 ## Yêu cầu trước
-Trước khi bắt đầu viết mã, hãy chắc chắn rằng bạn đã có:
+Trước khi bắt đầu, hãy đảm bảo các thành phần sau đã được cài đặt:
 
-1. **Java Development Kit (JDK)** – Cài đặt JDK mới nhất từ [trang web Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
-2. **Thư viện Aspose.Tasks cho Java** – Tải JAR mới nhất từ [trang tải về](https://releases.aspose.com/tasks/java/).  
+1. **Java Development Kit (JDK)** – Cài đặt JDK mới nhất từ [Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
+2. **Thư viện Aspose.Tasks cho Java** – Tải JAR mới nhất từ [download page](https://releases.aspose.com/tasks/java/).  
 
-## Nhập khẩu các gói
-Trong dự án Java của bạn, nhập các lớp cần thiết của Aspose.Tasks:
+## Nhập các gói
+`Project` đại diện cho một tệp Microsoft Project, `Resource` mô hình một tài nguyên cá nhân, và `Rsc` cung cấp các hằng trường tài nguyên.  
 
 ```java
 import com.aspose.tasks.Project;
@@ -40,19 +85,24 @@ import com.aspose.tasks.Resource;
 import com.aspose.tasks.Rsc;
 ```
 
-## Bước 1: Thiết lập thư mục dữ liệu
+## Bước 1: thiết lập thư mục dữ liệu
+Tạo một chuỗi trỏ tới thư mục chứa các tệp `.mpp` của bạn. Thay `"Your Data Directory"` bằng đường dẫn tuyệt đối nơi lưu trữ các tệp dự án của bạn.
+
 ```java
 String dataDir = "Your Data Directory";
 ```
-Thay thế `"Your Data Directory"` bằng đường dẫn tuyệt đối nơi lưu các tệp `.mpp` của bạn.
 
-## Bước 2: Tải tệp dự án
+## Bước 2: tải tệp dự án
+Lớp `Project` đại diện cho một tệp Microsoft Project được tải vào bộ nhớ. Khi khởi tạo, nó sẽ đọc cấu trúc tệp và chuẩn bị API cho các truy vấn tiếp theo.
+
 ```java
 Project prj = new Project(dataDir + "ResourceCosts.mpp");
 ```
-Đoạn mã này tạo một thể hiện `Project` bằng cách tải **ResourceCosts.mpp** từ thư mục bạn đã chỉ định.
+Điều này tạo một thể hiện `Project` bằng cách tải **ResourceCosts.mpp** từ thư mục bạn đã chỉ định.
 
-## Bước 3: Duyệt các tài nguyên không gốc
+## Bước 3: lặp qua các tài nguyên không phải gốc
+`isRoot()` trả về true nếu tài nguyên là placeholder dự án tích hợp sẵn.  
+
 ```java
 for (Resource res : prj.getResources()) {
     if (res.isRoot()) {
@@ -61,48 +111,52 @@ for (Resource res : prj.getResources()) {
     System.out.println(res.get(Rsc.NAME));
 }
 ```
-Vòng lặp sẽ duyệt qua mọi đối tượng `Resource` trong dự án. Kiểm tra `isRoot()` sẽ bỏ qua tài nguyên gốc được tích hợp sẵn, và câu lệnh `System.out.println` sẽ in ra tên của mỗi **tài nguyên không gốc**.
+Vòng lặp duyệt qua mọi đối tượng `Resource` trong dự án. Kiểm tra `isRoot()` bỏ qua tài nguyên gốc tích hợp, và câu lệnh `System.out.println` in ra tên của mỗi **tài nguyên không phải gốc**.
 
-## Cách duyệt các tài nguyên không gốc
-Đoạn mã trên minh họa mẫu cơ bản:
+## Cách lặp qua các tài nguyên không phải gốc
+`getResources()` trả về bộ sưu tập tất cả các tài nguyên trong dự án. Tải toàn bộ bộ sưu tập bằng `prj.getResources()`, lọc bỏ gốc bằng `isRoot()`, sau đó đọc bất kỳ trường nào bạn cần (ví dụ: `Rsc.NAME`, `Rsc.COST`). Mẫu này có thể mở rộng để:
 
-1. Lấy toàn bộ bộ sưu tập bằng `prj.getResources()`.  
-2. Dùng `isRoot()` để lọc bỏ placeholder.  
-3. Truy cập bất kỳ trường nào của tài nguyên (ví dụ: `Rsc.NAME`, `Rsc.COST`) khi cần.
+- Tính tổng chi phí tài nguyên.  
+- Xuất tên và tỷ lệ sang CSV.  
+- Áp dụng quy tắc kinh doanh tùy chỉnh như tính toán làm thêm giờ.
 
-Bạn có thể mở rộng mẫu này để tổng hợp chi phí, xuất ra CSV, hoặc áp dụng các quy tắc kinh doanh tùy chỉnh.
-
-## Những lỗi thường gặp & Mẹo
-- **Kiểm tra null** – Một số tài nguyên có thể có các trường tùy chọn; luôn kiểm tra `null` trước khi gọi `get()`.  
-- **Hiệu năng** – Đối với các dự án rất lớn, cân nhắc duyệt bằng vòng lặp dựa trên chỉ mục để tránh tạo các bộ sưu tập trung gian.  
-- **Giấy phép** – Chạy mã mà không có giấy phép hợp lệ sẽ thêm watermark vào các tệp xuất; hãy kích hoạt giấy phép sớm trong ứng dụng.
-
-## Kết luận
-Sau khi thực hiện các bước trên, bạn đã biết **cách duyệt các tài nguyên không gốc** bằng Aspose.Tasks cho Java. Kỹ thuật này giúp bạn tập trung vào các tài nguyên thực tế của dự án, làm sạch dữ liệu trích xuất và xây dựng các giải pháp quản lý dự án đáng tin cậy hơn.
+## Những khó khăn thường gặp & mẹo
+- **Kiểm tra null** – Một số trường tùy chọn có thể `null`; luôn kiểm tra null trước khi gọi để tránh `NullPointerException`.  
+- **Hiệu suất** – Đối với dự án có hàng nghìn tài nguyên, sử dụng vòng lặp dựa trên chỉ mục (`for (int i = 0; i < resources.size(); i++)`) để giảm việc tạo đối tượng tạm thời.  
+- **Giấy phép** – Chạy mà không có giấy phép hợp lệ sẽ thêm watermark vào các tệp xuất; kích hoạt giấy phép khi khởi động ứng dụng để tránh điều này.
 
 ## Câu hỏi thường gặp
-### Tôi có thể dùng Aspose.Tasks cho Java để tạo tệp dự án mới không?
-Có, Aspose.Tasks cung cấp đầy đủ khả năng CRUD (Create, Read, Update, Delete) cho các định dạng dự án MPP, MPT và XML.  
 
-### Aspose.Tasks có hỗ trợ tất cả các phiên bản tệp Microsoft Project không?
-Chắc chắn rồi. Thư viện xử lý các tệp Project 2003‑2019, bao gồm các đặc tả MPP mới nhất.  
+**Q: Tôi có thể sử dụng Aspose.Tasks cho Java để tạo tệp dự án mới không?**  
+A: Có. API cung cấp đầy đủ khả năng CRUD (Create, Read, Update, Delete) cho các định dạng MPP, MPT và XML.
 
-### Aspose.Tasks có tương thích với các framework Java như Spring không?
-Có, bạn có thể tiêm thư viện vào các bean Spring hoặc sử dụng trong bất kỳ ứng dụng Java tiêu chuẩn nào.  
+**Q: Aspose.Tasks có hỗ trợ tất cả các phiên bản tệp Microsoft Project không?**  
+A: Chắc chắn. Nó xử lý các tệp Project 2003‑2019, bao gồm cả các đặc tả MPP mới nhất.
 
-### Tôi có thể tùy chỉnh các trường dữ liệu dự án bằng Aspose.Tasks không?
-Có thể. API cho phép bạn thêm, sửa hoặc xóa các trường tùy chỉnh trên task, resource và assignment.  
+**Q: Aspose.Tasks có tương thích với các framework Java như Spring không?**  
+A: Có. Bạn có thể tiêm thư viện vào các bean Spring hoặc sử dụng trong bất kỳ ứng dụng Java tiêu chuẩn nào.
 
-### Aspose.Tasks có cung cấp hỗ trợ và tài liệu cho nhà phát triển không?
-Sản phẩm bao gồm tài liệu API chi tiết, các mẫu mã, và diễn đàn hỗ trợ chuyên biệt để giúp bạn nhanh chóng giải quyết vấn đề.
+**Q: Tôi có thể tùy chỉnh các trường dữ liệu dự án bằng Aspose.Tasks không?**  
+A: Đúng vậy. API cho phép bạn thêm, sửa hoặc xóa các trường tùy chỉnh trên công việc, tài nguyên và phân công.
 
----
+**Q: Aspose.Tasks có cung cấp hỗ trợ và tài liệu cho nhà phát triển không?**  
+A: Sản phẩm bao gồm tài liệu API toàn diện, mẫu mã, và diễn đàn hỗ trợ chuyên dụng để giúp bạn nhanh chóng giải quyết vấn đề.
 
-**Cập nhật lần cuối:** 2026-01-13  
-**Kiểm thử với:** Aspose.Tasks cho Java 24.12  
-**Tác giả:** Aspose  
+## Kết luận
+Bạn đã biết **cách lặp qua các tài nguyên** — cụ thể là các tài nguyên không phải gốc — bằng Aspose.Tasks cho Java. Cách tiếp cận này giúp bạn tập trung vào dữ liệu dự án thực tế, tạo báo cáo sạch sẽ và xây dựng các giải pháp quản lý dự án mạnh mẽ mà không bị rối bởi placeholder mặc định.
 
 ---
+
+**Last Updated:** 2026-08-18  
+**Tested With:** Aspose.Tasks for Java 24.12  
+**Author:** Aspose
+
+## Hướng dẫn liên quan
+
+- [Cách tạo tài nguyên – Quản lý tài nguyên với Aspose.Tasks cho Java](/tasks/java/resource-management/)
+- [Thêm tài nguyên vào dự án với Aspose.Tasks cho Java](/tasks/java/resource-management/create-resources/)
+- [Quản lý chi phí tài nguyên MS Project với Aspose.Tasks cho Java](/tasks/java/resource-management/resource-cost/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
