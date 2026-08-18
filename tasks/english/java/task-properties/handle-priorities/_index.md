@@ -1,5 +1,5 @@
 ---
-title: How to Use ASP: Handle Task Priorities in Aspose.Tasks
+title: 'Read and Set Task Priorities with Aspose.Tasks for Java'
 linktitle: Handle Task Priorities in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Learn how to use ASP to manage project task priorities with Aspose.Tasks for Java. Follow this step‑by‑step guide for seamless handling.
@@ -12,7 +12,7 @@ date: 2026-02-20
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to Use ASP: Handle Task Priorities in Aspose.Tasks
+# Read and Set Task Priorities with Aspose.Tasks for Java
 
 ## Introduction
 Managing task priorities is crucial for project success, and **how to use ASP** makes this process effortless with Aspose.Tasks for Java. In this tutorial you’ll learn how to **manage project task priorities** programmatically, whether you’re building a desktop tool or a web‑based project‑management solution.
@@ -35,7 +35,7 @@ Managing task priorities is crucial for project success, and **how to use ASP** 
 ## Prerequisites
 Before diving into the tutorial, ensure you have the following:
 - Java Development Environment: Make sure you have Java installed on your system.  
-- Aspose.Tasks for Java: Download and install the Aspose.Tasks library. You can find the necessary packages [here](https://releases.aspose.com/tasks/java/).
+- Aspose.Tasks for Java: Download and install the Aspose.Tasks library. You can find the necessary packages on the **Aspose.Tasks for Java download page**.
 
 ## Import Packages
 In your Java project, import the Aspose.Tasks library. Here's an example snippet:
@@ -63,7 +63,7 @@ Utilize `TaskUtils` to collect all tasks from the RootTask.
 TaskUtils.apply(project.getRootTask(), collector, 0);
 ```
 
-## 3. Handling Priorities
+## 3. handling priorities
 Parse through all the collected tasks and print their priorities.
 
 ```java
@@ -77,21 +77,21 @@ This snippet demonstrates how to effectively **manage project task priorities** 
 ## Conclusion
 Effectively managing task priorities is crucial for project success. With Aspose.Tasks for Java, you can streamline this process seamlessly. By following this step‑by‑step guide, you'll be adept at handling task priorities in no time.
 
-## Frequently Asked Questions
+## Frequently asked questions
 ### Q: Can I use Aspose.Tasks for Java in a web application?
 Yes, Aspose.Tasks for Java is suitable for both desktop and web applications.
 
 ### Q: Is there a free trial available?
-Yes, you can access the free trial [here](https://releases.aspose.com/).
+Yes, you can access the free trial on the **Aspose.Tasks free trial page**.
 
 ### Q: How can I get support for Aspose.Tasks for Java?
-Visit the support forum [here](https://forum.aspose.com/c/tasks/15).
+Visit the support forum on the **Aspose.Tasks support forum**.
 
 ### Q: Are temporary licenses available?
-Yes, you can obtain temporary licenses [here](https://purchase.aspose.com/temporary-license/).
+Yes, you can obtain temporary licenses on the **temporary license purchase page**.
 
 ### Q: Where can I find detailed documentation?
-Refer to the documentation [here](https://reference.aspose.com/tasks/java/).
+Refer to the documentation on the **Aspose.Tasks Java API documentation**.
 
 ### Q: Can I update priorities after the project is saved?
 Yes, modify the `Tsk.PRIORITY` property on a `Task` object and call `project.save(...)` to persist changes.

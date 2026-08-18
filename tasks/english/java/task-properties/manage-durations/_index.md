@@ -1,5 +1,5 @@
 ---
-title: Add Task to Project and Manage Durations with Aspose.Tasks
+title: Add Task to Project and Manage Durations
 linktitle: Manage Durations of Tasks in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Explore how to add task to project and manage durations with Aspose.Tasks for Java. Learn how to set duration and how to convert duration easily.
@@ -33,8 +33,8 @@ Accurate durations drive realistic timelines, resource allocation, and critical�
 ## Prerequisites
 Before you start, ensure you have the following:
 
-- Java Development Kit (JDK): Ensure that you have Java installed on your machine. You can download it [here](https://www.oracle.com/java/technologies/javase-downloads.html).
-- Aspose.Tasks Library: Download and include the Aspose.Tasks library in your project. You can find the library [here](https://releases.aspose.com/tasks/java/).
+- Java Development Kit (JDK): Ensure that you have Java installed on your machine. You can download it from the [Java SE downloads page](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Aspose.Tasks Library: Download and include the Aspose.Tasks library in your project. You can find the library on the [Aspose.Tasks Java library download page](https://releases.aspose.com/tasks/java/).
 
 ## Import Packages
 In your Java project, import the necessary packages to work with Aspose.Tasks:
@@ -46,7 +46,7 @@ import com.aspose.tasks.TimeUnitType;
 import com.aspose.tasks.Tsk;
 ```
 
-## Step 1: Set Up Your Project
+## Step 1: set up your project
 ```java
 // Create a new project
 Project project = new Project();
@@ -61,7 +61,7 @@ Task task = project.getRootTask().getChildren().add("Task");
 ## How to set duration
 Now that the task exists, you can define its length. By default, durations are expressed in days.
 
-## Step 3: Get and Convert Task Duration
+## Step 3: get and convert task duration
 ```java
 // Get task duration in days (default time unit)
 Duration duration = task.get(Tsk.DURATION);
@@ -74,14 +74,14 @@ System.out.println("Duration equals 8 hrs: " + duration.toString().equals("8 hrs
 ## How to convert duration
 The `convert` method lets you translate a `Duration` from one `TimeUnitType` to another (e.g., days → hours, weeks → days).
 
-## Step 4: Update Task Duration to 1 Week
+## Step 4: update task duration to 1 week
 ```java
 // Increase task duration to 1 week
 task.set(Tsk.DURATION, project.getDuration(1, TimeUnitType.Week));
 System.out.println("Duration equals 1 wk: " + task.get(Tsk.DURATION).toString().equals("1 wk"));
 ```
 
-## Step 5: Decrease Task Duration
+## Step 5: decrease task duration
 ```java
 // Decrease task duration
 task.set(Tsk.DURATION, task.get(Tsk.DURATION).subtract(0.5));
@@ -90,7 +90,7 @@ System.out.println("Duration equals 0.5 wks: " + task.get(Tsk.DURATION).toString
 
 By following these steps, you've successfully **added a task to a project** and managed its duration using Aspose.Tasks for Java.
 
-## Common Pitfalls & Tips
+## Common pitfalls & tips
 - **Pitfall:** Forgetting to convert the duration before performing arithmetic can lead to incorrect results. Always verify the unit with `duration.getTimeUnit()`.
 - **Tip:** Use `project.getDuration(value, TimeUnitType)` to create durations in the desired unit rather than converting later.
 - **Pitfall:** Setting a negative duration will throw an exception. Ensure you validate input values.
@@ -103,18 +103,18 @@ In this guide we covered how to **add task to project**, read its default durati
 Aspose.Tasks is compatible with Java 6 and later versions.
 
 ### Can I use Aspose.Tasks for commercial projects?
-Yes, you can use Aspose.Tasks for both personal and commercial projects. Visit [here](https://purchase.aspose.com/buy) for licensing details.
+Yes, you can use Aspose.Tasks for both personal and commercial projects. Visit the [Aspose.Tasks licensing page](https://purchase.aspose.com/buy) for licensing details.
 
 ### Where can I find additional support and resources?
 Visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) for community support and discussions.
 
 ### How can I obtain a temporary license for testing purposes?
-You can get a temporary license [here](https://purchase.aspose.com/temporary-license/) for testing and evaluation.
+You can get a temporary license on the [temporary license request page](https://purchase.aspose.com/temporary-license/) for testing and evaluation.
 
 ### Is there a free trial available for Aspose.Tasks?
-Yes, you can access the free trial [here](https://releases.aspose.com/) to explore Aspose.Tasks before making a purchase.
+Yes, you can access the Aspose.Tasks free trial download page at [https://releases.aspose.com/](https://releases.aspose.com/) to explore Aspose.Tasks before making a purchase.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: How do I change a task’s duration after it has been set?**  
 A: Retrieve the current duration with `task.get(Tsk.DURATION)`, modify it (e.g., `add`, `subtract`, or `convert`), and then set it back using `task.set(Tsk.DURATION, newDuration)`.

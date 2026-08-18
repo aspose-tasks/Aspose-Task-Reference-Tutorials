@@ -1,5 +1,5 @@
 ---
-title: Calculate Project Cost Variance with Aspose.Tasks for Java
+title: Calculate Project Cost Variance in Java
 linktitle: Manage Task Costs in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Learn how to calculate project cost variance and manage task costs in Java using Aspose.Tasks. Follow our step‑by‑step guide to set cost and control budgets.
@@ -37,7 +37,7 @@ Calculating project cost variance means comparing the **fixed cost** you origina
 Before we dive in, make sure you have:
 
 1. **Java Development Kit (JDK)** – Java 8 or later installed.  
-2. **Aspose.Tasks for Java library** – download it from the official site **[here](https://releases.aspose.com/tasks/java/)**.  
+2. **Aspose.Tasks for Java library** – download it from the official Aspose.Tasks for Java release page **[Aspose.Tasks for Java release page](https://releases.aspose.com/tasks/java/)**.  
 3. An IDE or build tool (IntelliJ, Eclipse, Maven, Gradle) to compile and run the sample code.
 
 ## Import Packages
@@ -53,7 +53,7 @@ import java.math.BigDecimal;
 
 ## Step‑by‑Step Guide
 
-### Step 1: Set up Your Project
+### Step 1: set up your project
 First, create a new `Project` instance and point to a folder where you might store generated files.
 
 ```java
@@ -63,7 +63,7 @@ String dataDir = "Your Document Directory";
 Project project = new Project();
 ```
 
-### Step 2: Add a New Task
+### Step 2: add a new task
 Add a task under the root task. This is where we’ll assign costs.
 
 ```java
@@ -103,29 +103,29 @@ System.out.println("Project Cost Variance: " + project.getRootTask().get(Tsk.COS
 ### Step 5: Repeat for Additional Tasks (Optional)
 If your project has multiple phases, repeat Steps 2‑4 for each task. Summing the individual variances gives you the overall project cost variance.
 
-## Common Issues and Solutions
+## Common issues and solutions
 | Issue | Why it Happens | Fix |
 |-------|----------------|-----|
 | `NullPointerException` when accessing task properties | The task was not added to the project hierarchy. | Ensure you call `project.getRootTask().getChildren().add(...)` before setting costs. |
 | Cost values appear as `0` | Using `int` instead of `BigDecimal`. | Always use `BigDecimal.valueOf(...)` as shown. |
 | Unexpected variance (negative) | `REMAINING_COST` exceeds `FIXED_COST`. | Verify that you update remaining cost as work progresses. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Where can I find the documentation for Aspose.Tasks for Java?**  
-A: You can access the documentation **[here](https://reference.aspose.com/tasks/java/)**.
+A: You can access the documentation **[Aspose.Tasks for Java documentation](https://reference.aspose.com/tasks/java/)**.
 
 **Q: How can I download the Aspose.Tasks for Java library?**  
-A: Download the library **[here](https://releases.aspose.com/tasks/java/)**.
+A: Download the library **[Aspose.Tasks for Java download page](https://releases.aspose.com/tasks/java/)**.
 
 **Q: Where can I purchase Aspose.Tasks for Java?**  
-A: You can buy it **[here](https://purchase.aspose.com/buy)**.
+A: You can buy it **[Aspose.Tasks purchase page](https://purchase.aspose.com/buy)**.
 
 **Q: Is there a free trial available for Aspose.Tasks for Java?**  
-A: Yes, you can get a free trial **[here](https://releases.aspose.com/)**.
+A: Yes, you can get a free trial **[Aspose.Tasks free trial page](https://releases.aspose.com/)**.
 
 **Q: Where can I seek support for Aspose.Tasks for Java?**  
-A: Visit the support forum **[here](https://forum.aspose.com/c/tasks/15)**.
+A: Visit the support forum **[Aspose.Tasks support forum](https://forum.aspose.com/c/tasks/15)**.
 
 ---
 
