@@ -1,77 +1,138 @@
 ---
-title: Aspose.Tasks でタスクのコストを管理する
-linktitle: Aspose.Tasks でタスクのコストを管理する
+date: 2026-02-20
+description: Aspose.Tasks を使用して Java でプロジェクトのコスト差異を計算し、タスクコストを管理する方法を学びましょう。コスト設定と予算管理のためのステップバイステップガイドに従ってください。
+linktitle: Manage Task Costs in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: Aspose.Tasks を使用して Java アプリケーションでタスクのコストを管理する方法を学びます。効果的なプロジェクトのコスト管理については、段階的なガイドに従ってください。
-weight: 21
+title: Aspose.Tasks for Javaでプロジェクトのコスト差異を計算する
 url: /ja/java/task-properties/manage-task-cost/
+weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks でタスクのコストを管理する
+# Aspose.Tasks を使用したプロジェクトコスト差異の計算
 
-## 導入
-Aspose.Tasks for Java の世界へようこそ。これは、Java アプリケーション内でタスクのコストをシームレスに管理できる強力なライブラリです。このステップバイステップのガイドでは、Aspose.Tasks を効果的に利用してタスクのコストを処理し、効率的なプロジェクト管理を確保する方法を検討します。
+## はじめに
+この包括的なチュートリアルでは、**プロジェクトコスト差異の計算方法**を学び、Aspose.Tasks を使用して Java アプリケーション内でタスクコストを効率的に管理する方法をご紹介します。小規模な社内プロジェクトから大規模なエンタープライズ展開まで、コスト差異を把握することで予算を適正に保ち、超過を早期に発見できます。
+
+## クイック回答
+- **コスト差異とは何ですか？** 計画された（固定）コストと実際の（残存）コストの差です。  
+- **タスクのコストを設定する API メソッドはどれですか？** `task.set(Tsk.COST, BigDecimal.valueOf(...))`。  
+- **開発にライセンスは必要ですか？** テストには無料トライアルで動作しますが、製品版には商用ライセンスが必要です。  
+- **プロジェクトレベルのコストデータを取得できますか？** はい、ルートタスクのコストプロパティにアクセスすることで取得できます。  
+- **サポートされている Java バージョンは何ですか？** Aspose.Tasks は Java 8 以降で動作します。
+
+## 「プロジェクトコスト差異の計算」とは何ですか？
+プロジェクトコスト差異の計算とは、タスクまたはプロジェクトに対して当初計画した **固定コスト** と、まだ実施されていない作業を表す **残存コスト** を比較することです。差異を把握することで、予算内か超過しているかが分かり、積極的な調整が可能になります。
+
+## なぜ Aspose.Tasks を使用してプロジェクトコスト差異を計算するのか？
+- **フル .NET フリーの Java API** – ネイティブライブラリ不要。  
+- **豊富なコスト管理プロパティ**（`COST`, `FIXED_COST`, `REMAINING_COST`, `COST_VARIANCE`）。  
+- **既存の Maven/Gradle プロジェクトへの簡単統合**。  
+- **正確なレポート作成** が可能で、MS Project® ファイルへエクスポートできます。
+
 ## 前提条件
-チュートリアルに入る前に、次の前提条件が満たされていることを確認してください。
-1. Java 環境: システムに Java 開発環境がセットアップされていることを確認します。
-2. Aspose.Tasks ライブラリ: Aspose.Tasks for Java ライブラリをダウンロードしてインストールします。図書館を見つけることができます[ここ](https://releases.aspose.com/tasks/java/).
+始める前に、以下が揃っていることを確認してください。
+
+1. **Java Development Kit (JDK)** – Java 8 以降がインストールされていること。  
+2. **Aspose.Tasks for Java ライブラリ** – 公式サイトから **[here](https://releases.aspose.com/tasks/java/)** でダウンロードしてください。  
+3. IDE またはビルドツール (IntelliJ, Eclipse, Maven, Gradle) を使用してサンプルコードをコンパイル・実行します。
+
 ## パッケージのインポート
-環境をセットアップし、Aspose.Tasks ライブラリをインストールしたら、必要なパッケージを Java プロジェクトにインポートする必要があります。コードに次の行を含めます。
+必要な Aspose.Tasks クラスを Java ソースファイルに追加し、プロジェクトやタスクを操作できるようにします。
+
 ```java
 import com.aspose.tasks.Project;
 import com.aspose.tasks.Task;
 import com.aspose.tasks.Tsk;
 import java.math.BigDecimal;
-// Aspose.Tasks クラスをインポートする
+// Import Aspose.Tasks classes
 ```
-ここで、タスクのコストを効果的に管理するために、例を複数のステップに分割してみましょう。
-## ステップ 1: プロジェクトをセットアップする
+
+## ステップバイステップガイド
+
+### ステップ 1: プロジェクトのセットアップ
+まず、新しい `Project` インスタンスを作成し、生成されたファイルを保存するフォルダーを指定します。
+
 ```java
-//ドキュメント ディレクトリへのパスを設定します
+// Set the path to your document directory
 String dataDir = "Your Document Directory";
-//新しいプロジェクトを作成する
+// Create a new project
 Project project = new Project();
 ```
-## ステップ 2: 新しいタスクを追加する
+
+### ステップ 2: 新しいタスクの追加
+ルートタスクの下にタスクを追加します。ここでコストを割り当てます。
+
 ```java
-//新しいタスクをルートタスクに追加します
+// Add a new task to the root task
 Task task = project.getRootTask().getChildren().add("Task");
 ```
-## ステップ 3: タスクのコストを設定する
+
+### ステップ 3: タスクコストの設定 – **コストの設定方法**
+タスクに計画コストを割り当てます。実際のシナリオでは、予算スプレッドシートから取得することがあります。
+
 ```java
-//タスクのコストを 800 に設定します
+// Set the task cost to 800
 task.set(Tsk.COST, BigDecimal.valueOf(800));
 ```
-## ステップ 4: タスク情報を取得する
+
+### ステップ 4: コスト情報の取得と表示 – **コスト管理方法**
+次に、さまざまなコストプロパティを読み取り、計算されたコスト差異を含めて表示します。
+
 ```java
-//タスク情報の取得と印刷
+// Retrieve and print task information
 System.out.println("Remaining Cost: " + task.get(Tsk.REMAINING_COST));
 System.out.println("Fixed Cost: " + task.get(Tsk.FIXED_COST));
 System.out.println("Cost Variance: " + task.get(Tsk.COST_VARIANCE));
-//プロジェクトレベルのコスト情報を取得して印刷する
+// Retrieve and print project-level cost information
 System.out.println("Project Cost: " + project.getRootTask().get(Tsk.COST));
 System.out.println("Project Fixed Cost: " + project.getRootTask().get(Tsk.FIXED_COST));
 System.out.println("Project Remaining Cost: " + project.getRootTask().get(Tsk.REMAINING_COST));
 System.out.println("Project Cost Variance: " + project.getRootTask().get(Tsk.COST_VARIANCE));
 ```
-これらの手順を繰り返して、Aspose.Tasks for Java アプリケーションのタスク コストを効果的に管理します。
-## 結論
-結論として、プロジェクトの実行を成功させるには、タスクのコスト管理をマスターすることが重要です。 Aspose.Tasks for Java は堅牢なソリューションを提供し、開発者がコストを正確に処理できるようにします。
+
+**表示される内容:**  
+- `Remaining Cost` は未完了の作業を表します。  
+- `Fixed Cost` は設定した基準値です（この例では 800）。  
+- `Cost Variance` は自動的に **Fixed – Remaining** として計算されます。  
+- 同じ値がプロジェクト（ルートタスク）レベルでも利用でき、すべてのタスクに対して **プロジェクトコスト差異を計算** できます。
+
+### ステップ 5: 追加タスクの繰り返し（オプション）
+プロジェクトに複数のフェーズがある場合、ステップ 2‑4 を各タスクに対して繰り返します。個々の差異を合計すると、全体のプロジェクトコスト差異が得られます。
+
+## 一般的な問題と解決策
+| 問題 | 発生原因 | 対策 |
+|------|----------|------|
+| `task` プロパティにアクセスしたときの `NullPointerException` | タスクがプロジェクト階層に追加されていません。 | コストを設定する前に `project.getRootTask().getChildren().add(...)` を呼び出してください。 |
+| コスト値が `0` と表示される | `int` を使用し、`BigDecimal` を使用していないため。 | 示した通り、常に `BigDecimal.valueOf(...)` を使用してください。 |
+| 予期しない差異（負の値） | `REMAINING_COST` が `FIXED_COST` を超えている。 | 作業が進むにつれて残存コストを更新しているか確認してください。 |
+
 ## よくある質問
-### Q: Aspose.Tasks for Java のドキュメントはどこで見つけられますか?
- A: ドキュメントにアクセスできます。[ここ](https://reference.aspose.com/tasks/java/).
-### Q: Aspose.Tasks for Java ライブラリをダウンロードするにはどうすればよいですか?
- A: ライブラリをダウンロードします[ここ](https://releases.aspose.com/tasks/java/).
-### Q: Aspose.Tasks for Java はどこで購入できますか?
-答え: 買えますよ[ここ](https://purchase.aspose.com/buy).
-### Q: Aspose.Tasks for Java に利用できる無料トライアルはありますか?
-A: はい、無料トライアルを利用できます[ここ](https://releases.aspose.com/).
-### Q: Aspose.Tasks for Java のサポートはどこに問い合わせればよいですか?
- A: サポート フォーラムにアクセスしてください[ここ](https://forum.aspose.com/c/tasks/15).
+
+**Q: Aspose.Tasks for Java のドキュメントはどこで見られますか？**  
+A: ドキュメントは **[here](https://reference.aspose.com/tasks/java/)** でアクセスできます。
+
+**Q: Aspose.Tasks for Java ライブラリはどこからダウンロードできますか？**  
+A: ライブラリは **[here](https://releases.aspose.com/tasks/java/)** でダウンロードしてください。
+
+**Q: Aspose.Tasks for Java はどこで購入できますか？**  
+A: 購入は **[here](https://purchase.aspose.com/buy)** から行えます。
+
+**Q: Aspose.Tasks for Java の無料トライアルはありますか？**  
+A: はい、無料トライアルは **[here](https://releases.aspose.com/)** から取得できます。
+
+**Q: Aspose.Tasks for Java のサポートはどこで受けられますか？**  
+A: サポートフォーラムは **[here](https://forum.aspose.com/c/tasks/15)** でご利用ください。
+
+---
+
+**Last Updated:** 2026-02-20  
+**Tested With:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

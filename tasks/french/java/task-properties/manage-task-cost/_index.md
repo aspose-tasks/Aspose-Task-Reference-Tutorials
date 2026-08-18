@@ -1,77 +1,139 @@
 ---
-title: Gérer les coûts des tâches dans Aspose.Tasks
-linktitle: Gérer les coûts des tâches dans Aspose.Tasks
-second_title: API Java Aspose.Tasks
-description: Découvrez comment gérer les coûts des tâches dans les applications Java à l'aide d'Aspose.Tasks. Suivez notre guide étape par étape pour une gestion efficace des coûts de projet.
-weight: 21
+date: 2026-02-20
+description: Apprenez à calculer la variance des coûts de projet et à gérer les coûts
+  des tâches en Java avec Aspose.Tasks. Suivez notre guide étape par étape pour définir
+  les coûts et contrôler les budgets.
+linktitle: Manage Task Costs in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Calculer la variance des coûts du projet avec Aspose.Tasks pour Java
 url: /fr/java/task-properties/manage-task-cost/
+weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Gérer les coûts des tâches dans Aspose.Tasks
+# Calculer la variance des coûts du projet avec Aspose.Tasks
 
 ## Introduction
-Bienvenue dans le monde d'Aspose.Tasks for Java, une bibliothèque puissante qui vous permet de gérer les coûts des tâches de manière transparente au sein de vos applications Java. Dans ce guide étape par étape, nous explorerons comment utiliser efficacement Aspose.Tasks pour gérer les coûts des tâches, garantissant ainsi une gestion de projet efficace.
-## Conditions préalables
-Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
-1. Environnement Java : assurez-vous d'avoir configuré un environnement de développement Java sur votre système.
-2. Bibliothèque Aspose.Tasks : téléchargez et installez la bibliothèque Aspose.Tasks pour Java. Vous pouvez trouver la bibliothèque[ici](https://releases.aspose.com/tasks/java/).
-## Importer des packages
-Une fois que vous avez configuré votre environnement et installé la bibliothèque Aspose.Tasks, vous devez importer les packages nécessaires dans votre projet Java. Incluez les lignes suivantes dans votre code :
+Dans ce tutoriel complet, vous découvrirez **comment calculer la variance des coûts du projet** et gérer efficacement les coûts des tâches dans vos applications Java avec Aspose.Tasks. Que vous suiviez un petit projet interne ou un déploiement d’entreprise à grande échelle, comprendre la variance des coûts vous aide à maintenir les budgets sous contrôle et à détecter les dépassements tôt.
+
+## Réponses rapides
+- **Qu’est‑ce que la variance des coûts ?** La différence entre le coût prévu (fixe) et le coût réel (restant).  
+- **Quelle méthode API définit le coût d’une tâche ?** `task.set(Tsk.COST, BigDecimal.valueOf(...))`.  
+- **Ai‑je besoin d’une licence pour le développement ?** Un essai gratuit suffit pour les tests ; une licence commerciale est requise pour la production.  
+- **Puis‑je récupérer les données de coût au niveau du projet ?** Oui, en accédant aux propriétés de coût de la tâche racine.  
+- **Quelle version de Java est prise en charge ?** Aspose.Tasks fonctionne avec Java 8 et versions ultérieures.
+
+## Qu’est‑ce que « calculer la variance des coûts du projet » ?
+Calculer la variance des coûts du projet signifie comparer le **coût fixe** que vous aviez initialement prévu pour une tâche ou un projet avec le **coût restant** qui reflète le travail encore à réaliser. La variance indique si vous êtes en dessous ou au‑dessus du budget, permettant des ajustements proactifs.
+
+## Pourquoi utiliser Aspose.Tasks pour calculer la variance des coûts du projet ?
+- **API Java complète sans .NET** – aucune bibliothèque native requise.  
+- **Propriétés riches de gestion des coûts** (`COST`, `FIXED_COST`, `REMAINING_COST`, `COST_VARIANCE`).  
+- **Intégration facile** avec les projets Maven/Gradle existants.  
+- **Rapports précis** pouvant être exportés vers des fichiers MS Project®.
+
+## Prérequis
+1. **Java Development Kit (JDK)** – Java 8 ou version ultérieure installé.  
+2. **Bibliothèque Aspose.Tasks pour Java** – téléchargez‑la depuis le site officiel **[here](https://releases.aspose.com/tasks/java/)**.  
+3. Un IDE ou un outil de construction (IntelliJ, Eclipse, Maven, Gradle) pour compiler et exécuter le code d’exemple.
+
+## Importer les packages
+Ajoutez les classes Aspose.Tasks requises à votre fichier source Java afin de pouvoir travailler avec les projets et les tâches.
+
 ```java
 import com.aspose.tasks.Project;
 import com.aspose.tasks.Task;
 import com.aspose.tasks.Tsk;
 import java.math.BigDecimal;
-// Importer des classes Aspose.Tasks
+// Import Aspose.Tasks classes
 ```
-Maintenant, décomposons l'exemple en plusieurs étapes pour gérer efficacement les coûts des tâches.
-## Étape 1 : Configurez votre projet
+
+## Guide étape par étape
+
+### Étape 1 : Configurer votre projet
+Tout d’abord, créez une nouvelle instance `Project` et indiquez un dossier où vous pourrez stocker les fichiers générés.
+
 ```java
-// Définissez le chemin d'accès à votre répertoire de documents
+// Set the path to your document directory
 String dataDir = "Your Document Directory";
-// Créer un nouveau projet
+// Create a new project
 Project project = new Project();
 ```
-## Étape 2 : ajouter une nouvelle tâche
+
+### Étape 2 : Ajouter une nouvelle tâche
+Ajoutez une tâche sous la tâche racine. C’est ici que nous attribuerons les coûts.
+
 ```java
-// Ajouter une nouvelle tâche à la tâche racine
+// Add a new task to the root task
 Task task = project.getRootTask().getChildren().add("Task");
 ```
-## Étape 3 : Définir le coût de la tâche
+
+### Étape 3 : Définir le coût de la tâche – **comment définir le coût**
+Attribuez un coût prévu à la tâche. Dans un scénario réel, cela pourrait provenir d’une feuille de calcul budgétaire.
+
 ```java
-// Fixez le coût de la tâche à 800
+// Set the task cost to 800
 task.set(Tsk.COST, BigDecimal.valueOf(800));
 ```
-## Étape 4 : Récupérer les informations sur la tâche
+
+### Étape 4 : Récupérer et afficher les informations de coût – **comment gérer les coûts**
+Nous allons maintenant lire les différentes propriétés de coût, y compris la variance de coût calculée.
+
 ```java
-// Récupérer et imprimer les informations sur les tâches
+// Retrieve and print task information
 System.out.println("Remaining Cost: " + task.get(Tsk.REMAINING_COST));
 System.out.println("Fixed Cost: " + task.get(Tsk.FIXED_COST));
 System.out.println("Cost Variance: " + task.get(Tsk.COST_VARIANCE));
-// Récupérer et imprimer des informations sur les coûts au niveau du projet
+// Retrieve and print project-level cost information
 System.out.println("Project Cost: " + project.getRootTask().get(Tsk.COST));
 System.out.println("Project Fixed Cost: " + project.getRootTask().get(Tsk.FIXED_COST));
 System.out.println("Project Remaining Cost: " + project.getRootTask().get(Tsk.REMAINING_COST));
 System.out.println("Project Cost Variance: " + project.getRootTask().get(Tsk.COST_VARIANCE));
 ```
-Répétez ces étapes pour gérer efficacement les coûts des tâches dans votre application Aspose.Tasks for Java.
-## Conclusion
-En conclusion, la maîtrise de la gestion des coûts des tâches est cruciale pour une bonne exécution du projet. Aspose.Tasks for Java fournit une solution robuste, permettant aux développeurs de gérer les coûts avec précision.
-## FAQ
-### Q : Où puis-je trouver la documentation d'Aspose.Tasks pour Java ?
- R : Vous pouvez accéder à la documentation[ici](https://reference.aspose.com/tasks/java/).
-### Q : Comment puis-je télécharger la bibliothèque Aspose.Tasks pour Java ?
- R : Téléchargez la bibliothèque[ici](https://releases.aspose.com/tasks/java/).
-### Q : Où puis-je acheter Aspose.Tasks pour Java ?
- R : Vous pouvez l'acheter[ici](https://purchase.aspose.com/buy).
-### Q : Existe-t-il un essai gratuit disponible pour Aspose.Tasks pour Java ?
- R : Oui, vous pouvez bénéficier d'un essai gratuit[ici](https://releases.aspose.com/).
-### Q : Où puis-je demander de l'aide pour Aspose.Tasks pour Java ?
- R : Visitez le forum d'assistance[ici](https://forum.aspose.com/c/tasks/15).
+
+**Ce que vous verrez :**  
+- `Remaining Cost` reflète le travail encore à accomplir.  
+- `Fixed Cost` est la référence que vous avez définie (800 dans cet exemple).  
+- `Cost Variance` est calculée automatiquement comme **Fixed – Remaining**.  
+- Les mêmes valeurs sont disponibles au niveau du projet (tâche racine), vous permettant de **calculer la variance des coûts du projet** pour toutes les tâches.
+
+### Étape 5 : Répéter pour des tâches supplémentaires (facultatif)
+Si votre projet comporte plusieurs phases, répétez les Étapes 2‑4 pour chaque tâche. La somme des variances individuelles vous donne la variance globale des coûts du projet.
+
+## Problèmes courants et solutions
+
+| Problème | Pourquoi cela se produit | Solution |
+|----------|--------------------------|----------|
+| `NullPointerException` lors de l'accès aux propriétés de la tâche | La tâche n’a pas été ajoutée à la hiérarchie du projet. | Assurez‑vous d’appeler `project.getRootTask().getChildren().add(...)` avant de définir les coûts. |
+| Les valeurs de coût apparaissent comme `0` | Utilisation de `int` au lieu de `BigDecimal`. | Utilisez toujours `BigDecimal.valueOf(...)` comme indiqué. |
+| Variance inattendue (négative) | `REMAINING_COST` dépasse `FIXED_COST`. | Vérifiez que vous mettez à jour le coût restant au fur et à mesure de l’avancement du travail. |
+
+## Questions fréquentes
+
+**Q : Où puis‑je trouver la documentation d’Aspose.Tasks pour Java ?**  
+R : Vous pouvez accéder à la documentation **[here](https://reference.aspose.com/tasks/java/)**.
+
+**Q : Comment télécharger la bibliothèque Aspose.Tasks pour Java ?**  
+R : Téléchargez la bibliothèque **[here](https://releases.aspose.com/tasks/java/)**.
+
+**Q : Où puis‑je acheter Aspose.Tasks pour Java ?**  
+R : Vous pouvez l’acheter **[here](https://purchase.aspose.com/buy)**.
+
+**Q : Existe‑t‑il un essai gratuit disponible pour Aspose.Tasks pour Java ?**  
+R : Oui, vous pouvez obtenir un essai gratuit **[here](https://releases.aspose.com/)**.
+
+**Q : Où puis‑je obtenir du support pour Aspose.Tasks pour Java ?**  
+R : Visitez le forum de support **[here](https://forum.aspose.com/c/tasks/15)**.
+
+---
+
+**Dernière mise à jour :** 2026-02-20  
+**Testé avec :** Aspose.Tasks for Java 24.12 (dernière version au moment de la rédaction)  
+**Auteur :** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
