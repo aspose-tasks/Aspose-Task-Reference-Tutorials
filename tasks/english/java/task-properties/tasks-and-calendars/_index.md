@@ -1,5 +1,5 @@
 ---
-title: Add Task to Project and Manage Calendars with Aspose.Tasks for Java
+title: Add Tasks and Manage Calendars in Java Projects
 linktitle: Tasks and Calendars in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Learn how to add task to project and create task calendar java using Aspose.Tasks for Java – a powerful library for project management.
@@ -12,7 +12,7 @@ date: 2026-02-28
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Add Task to Project and Manage Calendars with Aspose.Tasks for Java
+# Add Tasks and Manage Calendars in Java Projects
 
 ## Introduction
 Ready to **add task to project** and keep your schedule perfectly aligned? In this guide we’ll walk through the essential steps for creating tasks, attaching them to custom calendars, and leveraging Aspose.Tasks—an industry‑leading **java project management library**. By the end you’ll know exactly how to **create task calendar java**‑style, giving you fine‑grained control over project timelines.
@@ -33,7 +33,7 @@ A dedicated library like Aspose.Tasks handles the complex MS‑Project file form
 ## Prerequisites
 Before diving into the tutorial, make sure you have the following prerequisites in place:
 - Java Development Kit (JDK): Ensure you have Java installed on your system.
-- Aspose.Tasks Library: Download and include the Aspose.Tasks library in your project. You can find the library [here](https://releases.aspose.com/tasks/java/).
+- Aspose.Tasks Library: Download and include the Aspose.Tasks library in your project. You can find the library [Aspose.Tasks Java library download page](https://releases.aspose.com/tasks/java/).
 
 ## Import Packages
 In your Java project, import the necessary packages for Aspose.Tasks:
@@ -47,7 +47,7 @@ import com.aspose.tasks.TaskUtils;
 import com.aspose.tasks.Tsk;
 ```
 
-## Step 1: Set Up Your Project
+## Step 1: set up your project
 Begin by creating a new Java project and adding the Aspose.Tasks JAR to your build path. This gives you access to the full API.
 
 ## Step 2: How to add task to project
@@ -65,7 +65,7 @@ Add a standard calendar to your project. Calendars define working days, holidays
 Calendar cal = project.getCalendars().add("TaskCal1");
 ```
 
-## Step 4: Associate Task with Calendar
+## Step 4: associate task with calendar
 Link the previously created task to the new calendar so that its schedule respects the calendar’s working time.
 
 ```java
@@ -74,26 +74,26 @@ tsk.set(Tsk.CALENDAR, cal);
 
 *Tip:* Repeat these steps for each additional task and calendar you need. You can also customize calendar exceptions (e.g., non‑working days) using the `Calendar` API.
 
-## Common Issues and Solutions
+## Common issues and solutions
 - **Task not reflecting calendar changes:** Ensure you call `project.updateStructure()` after modifying calendars.  
 - **NullPointerException on `set` call:** Verify that the calendar was successfully added to the project before assigning it.  
 - **Incorrect dates after import/export:** Use `project.save("output.mpp")` and reopen to confirm that data persists.
 
-## Frequently Asked Questions
+## Frequently asked questions
 ### How can I download Aspose.Tasks for Java?
-Visit [this link](https://releases.aspose.com/tasks/java/) to download the library.
+Visit [Aspose.Tasks Java download page](https://releases.aspose.com/tasks/java/) to download the library.
 
 ### Where can I find the documentation for Aspose.Tasks?
-Explore the documentation [here](https://reference.aspose.com/tasks/java/).
+Explore the documentation [Aspose.Tasks Java API reference](https://reference.aspose.com/tasks/java/).
 
 ### Is there a free trial available?
-Yes, you can access a free trial [here](https://releases.aspose.com/).
+Yes, you can access a free trial [Aspose free trial page](https://releases.aspose.com/).
 
 ### How do I get support for Aspose.Tasks?
 Join the community at [Aspose.Tasks Forum](https://forum.aspose.com/c/tasks/15) for support.
 
 ### Can I purchase a license for Aspose.Tasks?
-Yes, you can buy a license [here](https://purchase.aspose.com/buy).
+Yes, you can buy a license [Aspose purchase page](https://purchase.aspose.com/buy).
 
 **Additional Q&A**
 
@@ -112,11 +112,18 @@ Congratulations! You’ve successfully learned how to **add task to project**, c
 **Tested With:** Aspose.Tasks for Java 24.12  
 **Author:** Aspose  
 
+
+
+
+
+
+
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----

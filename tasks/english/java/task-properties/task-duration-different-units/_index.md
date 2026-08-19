@@ -1,6 +1,6 @@
 ---
-title: How to Get Duration in Different Units with Aspose.Tasks
-linktitle: Task Duration in Different Units with Aspose.Tasks
+title: Retrieve Task Duration in Various Units
+linktitle: Retrieve Task Duration in Various Units
 second_title: Aspose.Tasks Java API
 description: Learn how to get duration in minutes, days, hours, weeks, and months using Aspose.Tasks for Java. Detailed guide with code examples.
 weight: 32
@@ -12,7 +12,7 @@ date: 2026-02-28
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to Get Duration in Different Units with Aspose.Tasks
+# Retrieve Task Duration in Various Units
 
 ## Introduction
 Understanding **how to get duration** for tasks is a core part of any project‑management workflow. Whether you need minutes for fine‑grained tracking or months for high‑level planning, Aspose.Tasks for Java makes the conversion straightforward. In this tutorial we’ll walk you through retrieving a task’s duration in minutes, days, hours, weeks, and months, while explaining why each unit might be useful in real‑world projects.
@@ -37,7 +37,7 @@ Aspose.Tasks stores a task’s length as a `Duration` object. By calling the `co
 Before we dive into the code, make sure you have:
 
 - Java Development Kit (JDK) installed
-- Aspose.Tasks for Java library. You can download it [here](https://releases.aspose.com/tasks/java/)
+- Aspose.Tasks for Java library. You can download it from the [Aspose.Tasks for Java download page](https://releases.aspose.com/tasks/java/)
 - A basic understanding of Java programming
 
 ## Import Packages
@@ -50,10 +50,10 @@ import com.aspose.tasks.TimeUnitType;
 import com.aspose.tasks.Tsk;
 ```
 
-## Step 1: Set Up Your Project
+## Step 1: set up your project
 Create a new Java project in your favorite IDE (IntelliJ, Eclipse, VS Code, etc.) and add the Aspose.Tasks JAR to the project’s classpath. This ensures the classes above are available at compile time.
 
-## Step 2: Read Project Template
+## Step 2: read project template
 ```java
 // The path to the documents directory.
 String dataDir = "Your Document Directory";
@@ -65,7 +65,7 @@ Project project = new Project(fileName);
 
 Replace `"Your Document Directory"` with the actual folder that contains your `.xml` or `.mpp` project file.
 
-## Step 3: Retrieve a Task
+## Step 3: retrieve a task
 ```java
 // Get a task to calculate its duration in different formats
 Task task = project.getRootTask().getChildren().getById(1);
@@ -113,14 +113,14 @@ double months = task.get(Tsk.DURATION).convert(TimeUnitType.Month).toDouble();
 
 Month‑level durations help when you’re aligning project phases with fiscal periods.
 
-## Common Issues and Solutions
+## Common issues and solutions
 | Symptom | Likely Cause | Fix |
 |---------|--------------|-----|
 | `NullPointerException` on `task` | Wrong task ID or missing children | Verify the task ID exists using `project.getRootTask().getChildren()` |
 | Unexpected values (e.g., 0) | Project uses a custom calendar with non‑working days | Ensure the project’s calendar is correctly defined or use `project.getCalendar()` to inspect it |
 | Conversion returns fractional weeks | Weeks are calculated based on the project’s default week length (usually 5 days) | Multiply by 5 if you need calendar weeks, or adjust the calendar settings |
 
-## Frequently Asked Questions
+## Frequently asked questions
 ### Q: Can I use Aspose.Tasks for Java with any Java IDE?
 A: Yes, Aspose.Tasks for Java is compatible with any Java Integrated Development Environment (IDE).
 
