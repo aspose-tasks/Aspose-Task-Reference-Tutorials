@@ -1,5 +1,5 @@
 ---
-title: Create Project Task Java – Task Notes with Aspose.Tasks
+title: Add and Manage Task Notes with Aspose.Tasks for Java
 linktitle: Task Notes Management in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Learn how to create project task java and manage task notes using Aspose.Tasks for Java. Follow this step‑by‑step guide to add task notes efficiently.
@@ -27,7 +27,7 @@ Aspose.Tasks for Java provides a robust solution that lets you **create project 
 ## Prerequisites
 Before we embark on our tutorial, make sure you have the following prerequisites in place:
 - Java Development Kit (JDK) installed on your machine.
-- Aspose.Tasks for Java library downloaded and set up. You can download it [here](https://releases.aspose.com/tasks/java/).
+- Aspose.Tasks for Java library downloaded and set up. You can download the Aspose.Tasks for Java library [download the Aspose.Tasks for Java library](https://releases.aspose.com/tasks/java/).
 - A basic understanding of Java programming.
 
 ## Import Packages
@@ -39,7 +39,7 @@ import com.aspose.tasks.Tsk;
 ```
 
 ## How to Create Project Task Java
-### Step 1: Create a Project and Task
+### Step 1: create a project and task
 First, you need to create a new `Project` instance and add a task to its root. This is the foundational step when you **create project task java** objects.
 ```java
 Project project = new Project();
@@ -47,7 +47,7 @@ Task task = project.getRootTask().getChildren().add("Task");
 ```
 
 ## How to Add Task Notes
-### Step 2: Set Notes in RTF Format
+### Step 2: set notes in RTF format
 Now that the task exists, you can attach notes. The following example shows **how to add task notes** in Rich Text Format.
 ```java
 String rtf = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset134 SimSun;}{\\f1\\fnil\\fcharset0 Calibri;}}\r\n"
@@ -57,32 +57,32 @@ String rtf = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fni
 task.set(Tsk.NOTES_RTF, rtf);
 ```
 
-### Step 3: Retrieve and Display Notes
+### Step 3: retrieve and display notes
 To verify that the notes were saved correctly, read the `NOTES_RTF` field and print it out.
 ```java
 System.out.println("Notes RTF: " + task.get(Tsk.NOTES_RTF));
 ```
 
-## Common Issues and Solutions
+## Common issues and solutions
 - **Notes appear garbled:** Ensure the RTF string is correctly escaped and uses proper Unicode encoding.
 - **Null pointer when accessing task:** Verify that the task was added to the project hierarchy before setting notes.
 - **License exception:** Use a valid license file or trial version; otherwise, Aspose may throw a licensing error.
 
-## Frequently Asked Questions
+## Frequently asked questions
 ### Can I use Aspose.Tasks for Java for free?
-Yes, you can download a free trial [here](https://releases.aspose.com/).
+Yes, you can download a free trial of Aspose.Tasks [download a free trial of Aspose.Tasks](https://releases.aspose.com/).
 
 ### Where can I find detailed documentation?
-Refer to the documentation [here](https://reference.aspose.com/tasks/java/).
+Refer to the Aspose.Tasks for Java documentation [Aspose.Tasks for Java documentation](https://reference.aspose.com/tasks/java/).
 
 ### How can I get support for Aspose.Tasks for Java?
-Visit the support forum [here](https://forum.aspose.com/c/tasks/15).
+Visit the Aspose.Tasks support forum [Aspose.Tasks support forum](https://forum.aspose.com/c/tasks/15).
 
 ### Are temporary licenses available?
-Yes, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
+Yes, you can obtain a temporary license [temporary license page](https://purchase.aspose.com/temporary-license/).
 
 ### Where can I purchase Aspose.Tasks for Java?
-You can buy the product [here](https://purchase.aspose.com/buy).
+You can buy the product [Aspose.Tasks purchase page](https://purchase.aspose.com/buy).
 
 #### Additional Q&A
 **Q: Can I store notes in plain text instead of RTF?**  

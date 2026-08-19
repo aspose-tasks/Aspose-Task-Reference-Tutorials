@@ -1,5 +1,5 @@
 ---
-title: How to Renumber WBS in Aspose.Tasks for Java
+title: Renumber WBS using Aspose.Tasks for Java
 linktitle: WBS Associated with Task in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Learn how to renumber WBS in Aspose.Tasks for Java, manage work breakdown and customize WBS codes efficiently with step‑by‑step examples.
@@ -36,7 +36,7 @@ A Work Breakdown Structure (WBS) is a hierarchical representation of a project�
 Before we dive into the code, confirm you have the following:
 
 - Java Development Kit (JDK) installed on your machine.  
-- Aspose.Tasks for Java library added to your project. You can get it from [here](https://releases.aspose.com/tasks/java/).  
+- Aspose.Tasks for Java library added to your project. You can get it from the [Aspose.Tasks for Java download page](https://releases.aspose.com/tasks/java/).  
 
 ## Import Packages
 Ensure you import the necessary packages to kickstart your project:
@@ -51,21 +51,21 @@ import java.util.ArrayList;
 import java.util.List;
 ```
 
-## Read WBS Codes
+## Read WBS codes
 First, we’ll read the existing WBS codes so you can see what you’re working with.
 
-### Step 1: Load the Project
+### Step 1: load the project
 ```java
 Project project = new Project("Your Document Directory" + "input.mpp");
 ```
 
-### Step 2: Collect Tasks
+### Step 2: collect tasks
 ```java
 ChildTasksCollector collector = new ChildTasksCollector();
 TaskUtils.apply(project.getRootTask(), collector, 0);
 ```
 
-### Step 3: Parse and Customize
+### Step 3: parse and customize
 ```java
 for (Task tsk : collector.getTasks()) {
     System.out.println(tsk.get(Tsk.WBS));
@@ -76,20 +76,20 @@ for (Task tsk : collector.getTasks()) {
 
 The snippet above prints each task’s current WBS and level, then demonstrates **customize wbs codes** by assigning a new string.
 
-## Renumber Task WBS Codes
+## Renumber task WBS codes
 Now let’s actually renumber the WBS hierarchy.
 
-### Step 1: Load the Project (Renumber Example)
+### Step 1: load the project (Renumber example)
 ```java
 Project project = new Project("Your Document Directory" + "RenumberExample.mpp");
 ```
 
-### Step 2: Select All Tasks
+### Step 2: select all tasks
 ```java
 List<Task> tasks = (List<Task>) project.getRootTask().selectAllChildTasks();
 ```
 
-### Step 3: Output Initial WBS Codes
+### Step 3: output initial WBS codes
 ```java
 System.out.println("WBS codes before: ");
 for (Task task : tasks) {
@@ -97,7 +97,7 @@ for (Task task : tasks) {
 }
 ```
 
-### Step 4: Renumber WBS Codes
+### Step 4: renumber WBS codes
 ```java
 List<Integer> listIds = new ArrayList<>();
 listIds.add(1);
@@ -106,7 +106,7 @@ listIds.add(3);
 project.renumberWBSCode(listIds);
 ```
 
-### Step 5: Output Updated WBS Codes
+### Step 5: output updated WBS codes
 ```java
 System.out.println("\nWBS codes after: ");
 for (Task task : tasks) {
@@ -116,27 +116,27 @@ for (Task task : tasks) {
 
 By following these steps, you’ll effectively **how to renumber wbs** for any set of tasks in your project file.
 
-## Common Issues and Solutions
+## Common issues and solutions
 - **WBS not changing after `set` call:** Ensure you are working with the correct task instance and that the project is saved after modifications.  
 - **`renumberWBSCode` throws an exception:** Verify that the list of IDs matches the number of top‑level tasks; otherwise the method cannot map new numbers correctly.  
 - **Missing WBS values:** Some tasks may have a `null` WBS if they were imported from a file that didn’t define one. Use a fallback value before printing.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Where can I find the documentation for Aspose.Tasks for Java?**  
-A: The documentation is available [here](https://reference.aspose.com/tasks/java/).
+A: The documentation is available the [Aspose.Tasks for Java API documentation](https://reference.aspose.com/tasks/java/).
 
 **Q: How can I download Aspose.Tasks for Java?**  
-A: You can download it [here](https://releases.aspose.com/tasks/java/).
+A: You can download it from the [Aspose.Tasks for Java download page](https://releases.aspose.com/tasks/java/).
 
 **Q: Is there a free trial available for Aspose.Tasks for Java?**  
-A: Yes, you can get a free trial [here](https://releases.aspose.com/).
+A: Yes, you can get a free trial on the [Aspose free trial page](https://releases.aspose.com/).
 
 **Q: Where can I get support for Aspose.Tasks for Java?**  
 A: Visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) for support.
 
 **Q: Can I obtain a temporary license for Aspose.Tasks for Java?**  
-A: Yes, get a temporary license [here](https://purchase.aspose.com/temporary-license/).
+A: Yes, get a temporary license on the [temporary license request page](https://purchase.aspose.com/temporary-license/).
 
 **Q: Can I rename the WBS format after renumbering?**  
 A: Absolutely. After calling `renumberWBSCode`, you can iterate over the tasks and apply `task.set(Tsk.WBS, "NewFormat-" + task.get(Tsk.WBS))` to suit your naming conventions.
