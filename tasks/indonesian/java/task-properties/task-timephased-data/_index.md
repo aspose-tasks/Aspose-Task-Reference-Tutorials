@@ -1,27 +1,49 @@
 ---
-title: Data Fase Waktu Tugas di Aspose.Tasks
-linktitle: Data Fase Waktu Tugas di Aspose.Tasks
-second_title: Aspose.Tugas Java API
-description: Jelajahi Aspose.Tasks untuk Java dan kuasai pengelolaan data bertahap tugas. Unduh perpustakaan, nikmati uji coba gratis, dan sederhanakan pelacakan proyek Anda.
-weight: 34
+date: 2026-02-28
+description: Pelajari cara menggunakan Aspose.Tasks untuk Java untuk mengelola data
+  tugas berwaktu, unduh perpustakaan, coba secara gratis, dan permudah pelacakan proyek.
+linktitle: Task Timephased Data in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Cara Menggunakan Aspose.Tasks untuk Mengelola Data Tugas Berfase Waktu (Java)
 url: /id/java/task-properties/task-timephased-data/
+weight: 34
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Data Fase Waktu Tugas di Aspose.Tasks
+# Cara Menggunakan Aspose.Tasks untuk Data Waktu Tugas
 
-## Perkenalan
-Dalam bidang manajemen proyek, pelacakan data tahapan waktu tugas yang tepat sangat penting untuk pelaksanaan proyek yang efisien. Aspose.Tasks untuk Java muncul sebagai alat yang ampuh untuk menyederhanakan proses ini, menawarkan fitur dan fleksibilitas yang tangguh. Tutorial ini akan memandu Anda dalam memanfaatkan Aspose.Tasks untuk Java untuk mengelola data fase waktu tugas secara efektif.
+## Pendahuluan
+Jika Anda mencari **cara menggunakan Aspose** untuk mengendalikan jadwal proyek Anda dengan ketat, Anda berada di tempat yang tepat. Pelacakan tepat data waktu tugas merupakan fondasi manajemen proyek yang sukses, dan Aspose.Tasks for Java memberikan alat yang Anda perlukan untuk mengotomatisasi proses tersebut. Dalam tutorial ini kami akan membahas contoh lengkap, end‑to‑end yang menunjukkan cara menggunakan Aspose.Tasks untuk membuat proyek, menetapkan sumber daya, mengatur baseline, dan akhirnya mengambil serta menampilkan data waktu.
+
+## Jawaban Cepat
+- **Apa arti “timephased data”?** Itu adalah data yang dipecah berdasarkan interval waktu (hari, minggu, bulan) yang menunjukkan pekerjaan, biaya, atau pekerjaan yang tersisa selama garis waktu proyek.  
+- **Perpustakaan mana yang menyediakan kemampuan ini?** Aspose.Tasks for Java.  
+- **Apakah saya memerlukan lisensi untuk menjalankan contoh?** Versi percobaan gratis dapat digunakan untuk pengembangan; lisensi diperlukan untuk produksi.  
+- **Versi Java apa yang diperlukan?** Java 8 atau lebih tinggi.  
+- **Bisakah saya mengekspor hasil ke Excel?** Ya – Anda dapat mengiterasi koleksi `TimephasedData` dan menulis nilai ke format apa pun yang Anda perlukan.
+
+## Apa Itu Data Waktu Tugas?
+Data waktu tugas mewakili jumlah pekerjaan (atau biaya) yang dijadwalkan untuk sebuah tugas selama setiap segmen waktu pada kalender proyek. Ini memungkinkan Anda melihat bagaimana pekerjaan didistribusikan, mengidentifikasi kelebihan alokasi, dan membandingkan rencana vs. kemajuan aktual.
+
+## Mengapa Menggunakan Aspose.Tasks untuk Mengelola Data Waktu?
+- **Full control** – membuat, memodifikasi, dan mengkueri informasi timephased secara programatik tanpa membuka Microsoft Project.  
+- **Cross‑platform** – bekerja pada sistem operasi apa pun yang mendukung Java.  
+- **No COM dependencies** – ideal untuk otomatisasi sisi server.  
+- **Rich API** – mendukung baseline, work contour, dan custom field secara langsung.
+
 ## Prasyarat
-Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
-- Lingkungan Pengembangan Java: Pastikan Anda telah menginstal Java di sistem Anda.
--  Aspose.Tasks untuk Java Library: Unduh dan sertakan perpustakaan Aspose.Tasks dalam proyek Anda. Anda dapat menemukan perpustakaan[Di Sini](https://releases.aspose.com/tasks/java/).
-- Direktori Dokumen: Siapkan direktori untuk dokumen proyek Anda.
-## Paket Impor
-Di proyek Java Anda, impor paket yang diperlukan untuk Aspose.Tasks:
+Sebelum menyelam ke dalam kode, pastikan Anda memiliki:
+
+- **Java Development Environment** – JDK 8+ terpasang dan `JAVA_HOME` dikonfigurasi.  
+- **Aspose.Tasks for Java Library** – Unduh dan sertakan pustaka Aspose.Tasks dalam proyek Anda. Anda dapat menemukan pustaka tersebut [di sini](https://releases.aspose.com/tasks/java/).  
+- **Document Directory** – Sebuah folder di mesin Anda tempat file proyek contoh (`project.xml`) akan dibaca dan ditulis.
+
+## Impor Paket
+Dalam proyek Java Anda, impor kelas Aspose.Tasks yang diperlukan:
+
 ```java
 import com.aspose.tasks.Asn;
 import com.aspose.tasks.BaselineType;
@@ -40,76 +62,100 @@ import java.math.BigDecimal;
 import java.util.Date;
 import java.util.List;
 ```
-## Langkah 1: Tetapkan Tanggal Mulai Proyek
+
+## Langkah 1: Atur Tanggal Mulai Proyek
 ```java
 Project project = new Project(dataDir + "project.xml");
-// Kode tambahan untuk impor paket
+// Additional code for package imports
 java.util.Calendar cal = java.util.Calendar.getInstance();
 cal.set(2013, 7, 17, 8, 0, 0);
 project.set(Prj.START_DATE, cal.getTime());
 ```
-Penjelasan: Inisialisasi objek kalender, atur tanggal mulai, dan terapkan pada proyek.
-## Langkah 2: Tentukan Tugas dan Sumber Daya
+*Explanation:* Kami membuat instance `Project`, menginisialisasi `Calendar` ke tanggal mulai yang diinginkan, dan menetapkannya ke properti `START_DATE` proyek.
+
+## Langkah 2: Definisikan Tugas dan Sumber Daya
 ```java
 Task task = project.getRootTask().getChildren().add("Task");
 Resource rsc = project.getResources().add("Rsc");
 rsc.set(Rsc.STANDARD_RATE, BigDecimal.valueOf(10));
 rsc.set(Rsc.OVERTIME_RATE, BigDecimal.valueOf(15));
 ```
-Penjelasan: Buat tugas dan sumber daya, tetapkan tarif standar dan lembur.
-## Langkah 3: Tetapkan Durasi Tugas
+*Explanation:* Tugas baru dengan nama **Task** ditambahkan di bawah tugas root. Kami juga membuat sumber daya bernama **Rsc** dan mengatur tarif standar serta lembur.
+
+## Langkah 3: Atur Durasi Tugas
 ```java
 task.set(Tsk.DURATION, project.getDuration(6));
 ```
-Penjelasan: Tentukan durasi tugas (misalnya 6 hari).
-## Langkah 4: Tetapkan Sumber Daya ke Tugas
+*Explanation:* Tugas dijadwalkan dengan durasi **6 hari**.
+
+## Langkah 4: Tugaskan Sumber Daya ke Tugas
 ```java
 ResourceAssignment assn = project.getResourceAssignments().add(task, rsc);
 ```
-Penjelasan: Tetapkan sumber daya untuk tugas tersebut.
-## Langkah 5: Konfigurasikan Penetapan Sumber Daya
+*Explanation:* Sumber daya yang telah didefinisikan sebelumnya dihubungkan ke tugas melalui `ResourceAssignment`.
+
+## Langkah 5: Konfigurasikan Penugasan Sumber Daya
 ```java
 Date d = new Date(0);
 assn.set(Asn.STOP, new Date(0));
 assn.set(Asn.RESUME, new Date(0));
 assn.set(Asn.WORK_CONTOUR, WorkContourType.BackLoaded);
 ```
-Penjelasan: Tetapkan parameter seperti berhenti, melanjutkan, dan kontur kerja untuk penetapan sumber daya.
-## Langkah 6: Tetapkan Garis Dasar
+*Explanation:* Kami mengatur tanggal berhenti dan melanjutkan penugasan (menggunakan nilai placeholder) dan menerapkan work contour **Back‑Loaded**, yang memindahkan lebih banyak pekerjaan ke akhir penugasan.
+
+## Langkah 6: Atur Baseline
 ```java
 project.setBaseline(BaselineType.Baseline);
 ```
-Penjelasan: Tetapkan garis dasar untuk proyek tersebut.
+*Explanation:* Menangkap baseline memungkinkan Anda membandingkan nilai rencana vs. aktual di kemudian hari.
+
 ## Langkah 7: Perbarui Penyelesaian Tugas
 ```java
 task.set(Tsk.PERCENT_COMPLETE, 50);
 ```
-Penjelasan: Tunjukkan persentase penyelesaian tugas.
-## Langkah 8: Ambil Data Bertahap Waktu
+*Explanation:* Tugas ditandai sebagai **50 % selesai**, yang akan memengaruhi perhitungan pekerjaan yang tersisa.
+
+## Langkah 8: Ambil Data Timephased
 ```java
 List<TimephasedData> td = assn.getTimephasedData(assn.get(Asn.START), assn.get(Asn.FINISH), TimephasedDataType.AssignmentRemainingWork).toList();
 ```
-Penjelasan: Ambil data bertahap waktu untuk sisa pekerjaan tugas.
-## Langkah 9: Tampilkan Data Berfase Waktu
+*Explanation:* Panggilan ini mengambil **remaining work** untuk penugasan, dipecah berdasarkan interval waktu proyek.
+
+## Langkah 9: Tampilkan Data Timephased
 ```java
 System.out.println(td.size());
 System.out.println(td.get(0).getValue());
-// Kode tambahan untuk menampilkan nilai lainnya
+// Additional code for displaying other values
 ```
-Penjelasan: Keluarkan dan tampilkan data bertahap waktu.
-## Kesimpulan
-Mengelola data fase waktu tugas secara efektif sangat diperlukan untuk keberhasilan proyek. Aspose.Tasks untuk Java menyederhanakan proses ini, menyediakan serangkaian fungsi yang komprehensif. Dengan mengikuti tutorial ini, Anda dapat mengintegrasikan Aspose.Tasks dengan lancar ke dalam proyek Java Anda, memastikan kontrol yang tepat atas jadwal proyek dan alokasi sumber daya.
+*Explanation:* Kami cukup mencetak jumlah entri timephased dan nilai entri pertama. Dalam skenario dunia nyata Anda akan mengiterasi daftar dan mengekspor data ke laporan atau UI.
+
+## Masalah Umum dan Solusinya
+- **NullPointerException pada `getTimephasedData`** – Pastikan tanggal `START` dan `FINISH` penugasan telah diatur sebelum memanggil metode tersebut.  
+- **Work contour tidak tepat** – Verifikasi bahwa `WorkContourType` yang Anda pilih sesuai dengan strategi penjadwalan Anda; `BackLoaded` hanyalah salah satu dari beberapa opsi.  
+- **Baseline tidak mencerminkan perubahan** – Ingatlah untuk memanggil `project.setBaseline` *setelah* Anda mendefinisikan tugas, sumber daya, dan penugasan.
+
 ## Pertanyaan yang Sering Diajukan
-### T: Dapatkah saya menggunakan Aspose.Tasks untuk Java di proyek Java mana pun?
-J: Ya, Aspose.Tasks for Java kompatibel dengan proyek berbasis Java apa pun.
-### T: Di mana saya dapat menemukan dukungan tambahan untuk Aspose.Tasks untuk Java?
- J: Kunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk dukungan dan diskusi.
-### T: Apakah ada uji coba gratis yang tersedia untuk Aspose.Tasks untuk Java?
- J: Ya, Anda dapat mencoba uji coba gratis[Di Sini](https://releases.aspose.com/).
-### T: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Tasks untuk Java?
- J: Anda dapat memperoleh lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
-### T: Di mana saya dapat membeli Aspose.Tasks untuk Java?
- J: Anda dapat membeli Aspose.Tasks untuk Java[Di Sini](https://purchase.aspose.com/buy).
+### Q: Bisakah saya menggunakan Aspose.Tasks for Java dalam proyek Java apa pun?
+A: Ya, Aspose.Tasks for Java kompatibel dengan proyek berbasis Java apa pun.
+
+### Q: Di mana saya dapat menemukan dukungan tambahan untuk Aspose.Tasks for Java?
+A: Kunjungi [Aspose.Tasks Forum](https://forum.aspose.com/c/tasks/15) untuk dukungan dan diskusi.
+
+### Q: Apakah ada percobaan gratis untuk Aspose.Tasks for Java?
+A: Ya, Anda dapat menjelajahi percobaan gratis [di sini](https://releases.aspose.com/).
+
+### Q: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Tasks for Java?
+A: Anda dapat memperoleh lisensi sementara [di sini](https://purchase.aspose.com/temporary-license/).
+
+### Q: Di mana saya dapat membeli Aspose.Tasks for Java?
+A: Anda dapat membeli Aspose.Tasks for Java [di sini](https://purchase.aspose.com/buy).
+
+---
+
+**Terakhir Diperbarui:** 2026-02-28  
+**Diuji Dengan:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
+**Penulis:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

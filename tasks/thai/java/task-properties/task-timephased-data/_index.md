@@ -1,27 +1,49 @@
 ---
-title: ข้อมูลแบ่งตามระยะเวลาของงานใน Aspose.Tasks
-linktitle: ข้อมูลแบ่งตามระยะเวลาของงานใน Aspose.Tasks
+date: 2026-02-28
+description: เรียนรู้วิธีใช้ Aspose.Tasks สำหรับ Java เพื่อจัดการข้อมูลเวลาแบบขั้นตอนของงาน
+  ดาวน์โหลดไลบรารี ทดลองใช้งานฟรี และทำให้การติดตามโครงการเป็นระบบง่ายขึ้น
+linktitle: Task Timephased Data in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: สำรวจ Aspose.Tasks สำหรับ Java และการจัดการข้อมูลตามระยะของงานหลัก ดาวน์โหลดไลบรารี เพลิดเพลินกับการทดลองใช้ฟรี และปรับปรุงการติดตามโปรเจ็กต์ของคุณ
-weight: 34
+title: วิธีใช้ Aspose.Tasks เพื่อจัดการข้อมูลการทำงานตามช่วงเวลา (Java)
 url: /th/java/task-properties/task-timephased-data/
+weight: 34
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ข้อมูลแบ่งตามระยะเวลาของงานใน Aspose.Tasks
+# วิธีใช้ Aspose.Tasks สำหรับข้อมูลแบบ Timephased ของงาน
 
-## การแนะนำ
-ในขอบเขตของการจัดการโครงการ การติดตามข้อมูลตามระยะเวลาของงานอย่างแม่นยำถือเป็นสิ่งสำคัญสำหรับการดำเนินโครงการอย่างมีประสิทธิภาพ Aspose.Tasks สำหรับ Java กลายเป็นเครื่องมือที่มีประสิทธิภาพในการปรับปรุงกระบวนการนี้ โดยนำเสนอคุณสมบัติที่แข็งแกร่งและความยืดหยุ่น บทช่วยสอนนี้จะแนะนำคุณเกี่ยวกับการใช้ Aspose.Tasks สำหรับ Java เพื่อจัดการข้อมูลตามระยะเวลาของงานอย่างมีประสิทธิภาพ
-## ข้อกำหนดเบื้องต้น
-ก่อนที่จะเข้าสู่บทช่วยสอน ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
-- สภาพแวดล้อมการพัฒนา Java: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Java บนระบบของคุณแล้ว
--  Aspose.Tasks สำหรับไลบรารี Java: ดาวน์โหลดและรวมไลบรารี Aspose.Tasks ในโปรเจ็กต์ของคุณ คุณสามารถค้นหาห้องสมุด[ที่นี่](https://releases.aspose.com/tasks/java/).
-- ไดเร็กทอรีเอกสาร: ตั้งค่าไดเร็กทอรีสำหรับเอกสารโครงการของคุณ
-## แพ็คเกจนำเข้า
-ในโปรเจ็กต์ Java ของคุณ ให้นำเข้าแพ็คเกจที่จำเป็นสำหรับ Aspose.Tasks:
+## Introduction
+หากคุณกำลังมองหา **วิธีใช้ Aspose** เพื่อควบคุมกำหนดการโครงการของคุณอย่างแน่นหนา คุณมาถูกที่แล้ว การติดตามข้อมูลแบบ timephased ของงานอย่างแม่นยำเป็นรากฐานของการจัดการโครงการที่ประสบความสำเร็จ และ Aspose.Tasks for Java ให้เครื่องมือที่คุณต้องการเพื่อทำกระบวนการนี้อัตโนมัติ ในบทแนะนำนี้เราจะเดินผ่านตัวอย่างครบวงจรจากต้นจนจบที่แสดงวิธีใช้ Aspose.Tasks เพื่อสร้างโครงการ กำหนดทรัพยากร ตั้ง baseline และสุดท้ายดึงและแสดงข้อมูลแบบ timephased
+
+## Quick Answers
+- **ข้อมูลแบบ “timephased” หมายถึงอะไร?** เป็นข้อมูลที่แยกตามช่วงเวลา (วัน, สัปดาห์, เดือน) ที่แสดงปริมาณงาน, ค่าใช้จ่าย หรืองานที่เหลืออยู่ตลอดระยะเวลาโครงการ  
+- **ไลบรารีใดที่ให้ความสามารถนี้?** Aspose.Tasks for Java.  
+- **ฉันต้องมีลิขสิทธิ์เพื่อรันตัวอย่างหรือไม่?** การทดลองใช้งานฟรีใช้ได้สำหรับการพัฒนา; จำเป็นต้องมีลิขสิทธิ์สำหรับการใช้งานจริง  
+- **ต้องใช้ Java เวอร์ชันใด?** Java 8 หรือสูงกว่า  
+- **ฉันสามารถส่งออกผลลัพธ์ไปยัง Excel ได้หรือไม่?** ได้ – คุณสามารถวนลูปคอลเลกชัน `TimephasedData` และเขียนค่าไปยังรูปแบบใดก็ได้ที่ต้องการ  
+
+## What is Task Timephased Data?
+ข้อมูลแบบ timephased ของงานแสดงปริมาณงาน (หรือค่าใช้จ่าย) ที่กำหนดไว้สำหรับงานในแต่ละช่วงเวลาของปฏิทินโครงการ มันช่วยให้คุณเห็นการกระจายงาน, ตรวจจับการจัดสรรเกิน, และเปรียบเทียบแผนกับความคืบหน้าจริง
+
+## Why Use Aspose.Tasks to Manage Timephased Data?
+- **Full control** – สร้าง, แก้ไข, และสอบถามข้อมูลแบบ timephased ผ่านโปรแกรมโดยไม่ต้องเปิด Microsoft Project  
+- **Cross‑platform** – ทำงานบนระบบปฏิบัติการใดก็ได้ที่รองรับ Java  
+- **No COM dependencies** – เหมาะสำหรับการทำงานอัตโนมัติบนเซิร์ฟเวอร์  
+- **Rich API** – รองรับ baseline, work contour, และ custom fields โดยตรง  
+
+## Prerequisites
+ก่อนจะลงลึกในโค้ด, โปรดตรวจสอบว่าคุณมี:
+
+- **Java Development Environment** – ติดตั้ง JDK 8+ และกำหนดค่า `JAVA_HOME`  
+- **Aspose.Tasks for Java Library** – ดาวน์โหลดและรวมไลบรารี Aspose.Tasks ในโครงการของคุณ คุณสามารถหาไลบรารีได้จาก [here](https://releases.aspose.com/tasks/java/).  
+- **Document Directory** – โฟลเดอร์บนเครื่องของคุณที่ไฟล์โครงการตัวอย่าง (`project.xml`) จะถูกอ่านและเขียน  
+
+## Import Packages
+ในโครงการ Java ของคุณ, ให้นำเข้าคลาส Aspose.Tasks ที่จำเป็น:
+
 ```java
 import com.aspose.tasks.Asn;
 import com.aspose.tasks.BaselineType;
@@ -40,76 +62,100 @@ import java.math.BigDecimal;
 import java.util.Date;
 import java.util.List;
 ```
-## ขั้นตอนที่ 1: กำหนดวันที่เริ่มต้นโครงการ
+
+## Step 1: Set Project Start Date
 ```java
 Project project = new Project(dataDir + "project.xml");
-// รหัสเพิ่มเติมสำหรับการนำเข้าแพ็คเกจ
+// Additional code for package imports
 java.util.Calendar cal = java.util.Calendar.getInstance();
 cal.set(2013, 7, 17, 8, 0, 0);
 project.set(Prj.START_DATE, cal.getTime());
 ```
-คำอธิบาย: เตรียมใช้งานวัตถุปฏิทิน กำหนดวันที่เริ่มต้น และนำไปใช้กับโปรเจ็กต์
-## ขั้นตอนที่ 2: กำหนดงานและทรัพยากร
+*Explanation:* เราสร้างอินสแตนซ์ `Project`, เริ่มต้น `Calendar` ไปยังวันที่เริ่มต้นที่ต้องการ, และกำหนดให้กับ property `START_DATE` ของโครงการ  
+
+## Step 2: Define Task and Resource
 ```java
 Task task = project.getRootTask().getChildren().add("Task");
 Resource rsc = project.getResources().add("Rsc");
 rsc.set(Rsc.STANDARD_RATE, BigDecimal.valueOf(10));
 rsc.set(Rsc.OVERTIME_RATE, BigDecimal.valueOf(15));
 ```
-คำอธิบาย: สร้างงานและทรัพยากร การกำหนดอัตราสำหรับมาตรฐานและค่าล่วงเวลา
-## ขั้นตอนที่ 3: กำหนดระยะเวลาของงาน
+*Explanation:* งานใหม่ชื่อ **Task** ถูกเพิ่มภายใต้งานราก เรายังสร้างทรัพยากรชื่อ **Rsc** และตั้งอัตรามาตรฐานและอัตรา overtime  
+
+## Step 3: Set Task Duration
 ```java
 task.set(Tsk.DURATION, project.getDuration(6));
 ```
-คำอธิบาย: กำหนดระยะเวลาของงาน (เช่น 6 วัน)
-## ขั้นตอนที่ 4: กำหนดทรัพยากรให้กับงาน
+*Explanation:* งานนี้ถูกกำหนดระยะเวลาเป็น **6 days**  
+
+## Step 4: Assign Resource to Task
 ```java
 ResourceAssignment assn = project.getResourceAssignments().add(task, rsc);
 ```
-คำอธิบาย: กำหนดทรัพยากรให้กับงาน
-## ขั้นตอนที่ 5: กำหนดค่าการกำหนดทรัพยากร
+*Explanation:* ทรัพยากรที่กำหนดไว้ก่อนหน้านี้ถูกเชื่อมโยงกับงานผ่าน `ResourceAssignment`  
+
+## Step 5: Configure Resource Assignment
 ```java
 Date d = new Date(0);
 assn.set(Asn.STOP, new Date(0));
 assn.set(Asn.RESUME, new Date(0));
 assn.set(Asn.WORK_CONTOUR, WorkContourType.BackLoaded);
 ```
-คำอธิบาย: ตั้งค่าพารามิเตอร์ เช่น หยุด ดำเนินการต่อ และโครงร่างการทำงานสำหรับการกำหนดทรัพยากร
-## ขั้นตอนที่ 6: ตั้งค่าพื้นฐาน
+*Explanation:* เราตั้งค่าวันที่หยุดและวันที่เริ่มใหม่ของการมอบหมาย (ใช้ค่า placeholder) และใช้ work contour แบบ **Back‑Loaded** ซึ่งทำให้มีงานมากขึ้นที่ส่วนท้ายของการมอบหมาย  
+
+## Step 6: Set Baseline
 ```java
 project.setBaseline(BaselineType.Baseline);
 ```
-คำอธิบาย: สร้างพื้นฐานสำหรับโครงการ
-## ขั้นตอนที่ 7: อัปเดตความสมบูรณ์ของงาน
+*Explanation:* การบันทึก baseline ทำให้คุณสามารถเปรียบเทียบค่าที่วางแผนกับค่าจริงในภายหลัง  
+
+## Step 7: Update Task Completion
 ```java
 task.set(Tsk.PERCENT_COMPLETE, 50);
 ```
-คำอธิบาย: ระบุเปอร์เซ็นต์ความสำเร็จของงาน
-## ขั้นตอนที่ 8: ดึงข้อมูลตามระยะเวลา
+*Explanation:* งานนี้ถูกทำเครื่องหมายว่า **50 % complete**, ซึ่งจะมีผลต่อการคำนวณงานที่เหลืออยู่  
+
+## Step 8: Retrieve Timephased Data
 ```java
 List<TimephasedData> td = assn.getTimephasedData(assn.get(Asn.START), assn.get(Asn.FINISH), TimephasedDataType.AssignmentRemainingWork).toList();
 ```
-คำอธิบาย: ดึงข้อมูลตามช่วงเวลาสำหรับงานที่เหลืออยู่ที่ได้รับมอบหมาย
-## ขั้นตอนที่ 9: แสดงข้อมูลตามช่วงเวลา
+*Explanation:* การเรียกนี้ดึง **remaining work** ของการมอบหมาย, แยกตามช่วงเวลาของโครงการ  
+
+## Step 9: Display Timephased Data
 ```java
 System.out.println(td.size());
 System.out.println(td.get(0).getValue());
-// รหัสเพิ่มเติมสำหรับการแสดงค่าอื่นๆ
+// Additional code for displaying other values
 ```
-คำอธิบาย: ส่งออกและแสดงข้อมูลตามช่วงเวลา
-## บทสรุป
-การจัดการข้อมูลตามระยะเวลาของงานอย่างมีประสิทธิภาพเป็นสิ่งที่ขาดไม่ได้สำหรับความสำเร็จของโครงการ Aspose.Tasks สำหรับ Java ทำให้กระบวนการนี้ง่ายขึ้น โดยมีชุดฟังก์ชันการทำงานที่ครอบคลุม เมื่อทำตามบทช่วยสอนนี้ คุณจะสามารถผสานรวม Aspose.Tasks เข้ากับโปรเจ็กต์ Java ของคุณได้อย่างราบรื่น ทำให้มั่นใจในการควบคุมไทม์ไลน์ของโปรเจ็กต์และการจัดสรรทรัพยากรได้อย่างแม่นยำ
-## คำถามที่พบบ่อย
-### ถาม: ฉันสามารถใช้ Aspose.Tasks สำหรับ Java ในโปรเจ็กต์ Java ใดๆ ได้หรือไม่
-ตอบ: ได้ Aspose.Tasks for Java เข้ากันได้กับโปรเจ็กต์ที่ใช้ Java ใดๆ
-### ถาม: ฉันจะรับการสนับสนุนเพิ่มเติมสำหรับ Aspose.Tasks สำหรับ Java ได้ที่ไหน
- ตอบ: เยี่ยมชม[ฟอรั่ม Aspose.Tasks](https://forum.aspose.com/c/tasks/15) สำหรับการสนับสนุนและการอภิปราย
-### ถาม: Aspose.Tasks สำหรับ Java มีรุ่นทดลองใช้ฟรีหรือไม่
- ตอบ: ได้ คุณสามารถทดลองใช้งานฟรีได้[ที่นี่](https://releases.aspose.com/).
-### ถาม: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.Tasks สำหรับ Java ได้อย่างไร
- ตอบ: คุณสามารถขอรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
-### ถาม: ฉันจะซื้อ Aspose.Tasks สำหรับ Java ได้ที่ไหน
- ตอบ: คุณสามารถซื้อ Aspose.Tasks สำหรับ Java ได้[ที่นี่](https://purchase.aspose.com/buy).
+*Explanation:* เราเพียงพิมพ์จำนวนรายการ timephased และค่าของรายการแรก ในสถานการณ์จริงคุณจะวนลูปรายการและส่งออกข้อมูลไปยังรายงานหรือ UI  
+
+## Common Issues and Solutions
+- **NullPointerException on `getTimephasedData`** – ตรวจสอบให้แน่ใจว่าได้ตั้งค่าวันที่ `START` และ `FINISH` ของการมอบหมายก่อนเรียกเมธอด  
+- **Incorrect work contour** – ตรวจสอบว่า `WorkContourType` ที่เลือกตรงกับกลยุทธ์การกำหนดเวลา; `BackLoaded` เป็นเพียงหนึ่งในหลายตัวเลือก  
+- **Baseline not reflecting changes** – จำไว้ว่าต้องเรียก `project.setBaseline` *หลังจาก* ที่คุณได้กำหนดงาน, ทรัพยากร, และการมอบหมายแล้ว  
+
+## Frequently Asked Questions
+### Q: ฉันสามารถใช้ Aspose.Tasks for Java ในโครงการ Java ใดก็ได้หรือไม่?
+A: ใช่, Aspose.Tasks for Java เข้ากันได้กับโครงการที่ใช้ Java ใดก็ได้  
+
+### Q: ฉันสามารถหาแหล่งสนับสนุนเพิ่มเติมสำหรับ Aspose.Tasks for Java ได้จากที่ไหน?
+A: เยี่ยมชม [Aspose.Tasks Forum](https://forum.aspose.com/c/tasks/15) เพื่อรับการสนับสนุนและการสนทนา  
+
+### Q: มีการทดลองใช้งานฟรีสำหรับ Aspose.Tasks for Java หรือไม่?
+A: มี, คุณสามารถสำรวจการทดลองใช้งานฟรีได้ [here](https://releases.aspose.com/).  
+
+### Q: ฉันจะขอรับลิขสิทธิ์ชั่วคราวสำหรับ Aspose.Tasks for Java ได้อย่างไร?
+A: คุณสามารถรับลิขสิทธิ์ชั่วคราวได้ [here](https://purchase.aspose.com/temporary-license/).  
+
+### Q: ฉันสามารถซื้อ Aspose.Tasks for Java ได้จากที่ไหน?
+A: คุณสามารถซื้อ Aspose.Tasks for Java ได้ [here](https://purchase.aspose.com/buy).  
+
+---
+
+**อัปเดตล่าสุด:** 2026-02-28  
+**ทดสอบด้วย:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
+**ผู้เขียน:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,94 +1,148 @@
 ---
-title: ระยะเวลางานในหน่วยต่าง ๆ ด้วย Aspose.Tasks
-linktitle: ระยะเวลางานในหน่วยต่าง ๆ ด้วย Aspose.Tasks
+date: 2026-02-28
+description: เรียนรู้วิธีการรับระยะเวลาเป็นนาที, วัน, ชั่วโมง, สัปดาห์และเดือนโดยใช้
+  Aspose.Tasks สำหรับ Java. คู่มือโดยละเอียดพร้อมตัวอย่างโค้ด.
+linktitle: Task Duration in Different Units with Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: สำรวจการจัดการระยะเวลางานในโปรเจ็กต์ Java ด้วย Aspose.Tasks คำนวณและแปลงระยะเวลาอย่างแม่นยำเป็นนาที วัน ชั่วโมง สัปดาห์ และเดือน
-weight: 32
+title: วิธีรับระยะเวลาในหน่วยต่าง ๆ ด้วย Aspose.Tasks
 url: /th/java/task-properties/task-duration-different-units/
+weight: 32
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ระยะเวลางานในหน่วยต่าง ๆ ด้วย Aspose.Tasks
+# วิธีการดึงระยะเวลาในหน่วยต่าง ๆ ด้วย Aspose.Tasks
 
-## การแนะนำ
-ในขอบเขตของการจัดการโครงการ การทำความเข้าใจและการจัดการระยะเวลาของงานเป็นสิ่งสำคัญ Aspose.Tasks for Java มอบชุดเครื่องมืออันทรงพลังเพื่อจัดการสิ่งนี้อย่างมีประสิทธิภาพ ในบทช่วยสอนนี้ เราจะแนะนำคุณเกี่ยวกับการดึงข้อมูลระยะเวลางานในหน่วยต่างๆ โดยใช้ Aspose.Tasks
-## ข้อกำหนดเบื้องต้น
-ก่อนที่เราจะเจาะลึกบทช่วยสอน ตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
-- ติดตั้ง Java Development Kit (JDK) แล้ว
--  Aspose.Tasks สำหรับไลบรารี Java คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/tasks/java/)
+## Introduction
+การเข้าใจ **วิธีการดึงระยะเวลา** ของงานเป็นส่วนสำคัญของกระบวนการจัดการโครงการใด ๆ ไม่ว่าคุณจะต้องการหน่วยเป็นนาทีสำหรับการติดตามแบบละเอียดหรือเดือนสำหรับการวางแผนระดับสูง Aspose.Tasks for Java ทำให้การแปลงหน่วยเป็นเรื่องง่าย ในบทเรียนนี้เราจะพาคุณผ่านขั้นตอนการดึงระยะเวลาของงานในหน่วยนาที, วัน, ชั่วโมง, สัปดาห์, และเดือน พร้อมอธิบายว่าทำไมแต่ละหน่วยจึงมีประโยชน์ในโครงการจริง
+
+## Quick Answers
+- **“how to get duration” หมายถึงอะไร?** เป็นกระบวนการดึงช่วงเวลาของงานและแปลงเป็นหน่วยที่คุณต้องการ  
+- **เมธอด API ใดทำการแปลง?** `Task.get(Tsk.DURATION).convert(TimeUnitType.<Unit>)`  
+- **ต้องมีไลเซนส์เพื่อรันโค้ดหรือไม่?** สามารถใช้เวอร์ชันทดลองฟรีสำหรับการทดสอบ; ต้องมีไลเซนส์เชิงพาณิชย์สำหรับการใช้งานจริง  
+- **สามารถแปลงเป็นหน่วยกำหนดเองได้หรือไม่?** คุณสามารถเชนการแปลงหรือใช้ `TimeSpan` สำหรับการคำนวณแบบกำหนดเอง  
+- **โค้ดนี้เข้ากันได้กับ Java 17 หรือไม่?** ใช่, Aspose.Tasks รองรับ Java 8 และเวอร์ชันใหม่กว่า
+
+## What is “how to get duration” in Aspose.Tasks?
+Aspose.Tasks เก็บความยาวของงานเป็นอ็อบเจ็กต์ `Duration` โดยการเรียกเมธอด `convert` พร้อมระบุ `TimeUnitType` (Minute, Hour, Day, Week, Month) คุณสามารถดึงค่าที่อยู่ภายใต้เดียวกันในหน่วยที่ต้องการ ความยืดหยุ่นนี้ช่วยให้คุณสร้างรายงาน, ทำการคำนวณ, หรือส่งข้อมูลไปยังระบบอื่นโดยไม่ต้องคำนวณด้วยมือ
+
+## Why use Aspose.Tasks for duration conversion?
+- **Accuracy:** จัดการข้อยกเว้นของปฏิทิน, เวลาทำงาน, และปฏิทินที่ไม่เป็นมาตรฐานโดยอัตโนมัติ  
+- **Performance:** การแปลงบรรทัดเดียวหลีกเลี่ยงการวนลูปหรือการพาร์สแบบกำหนดเอง  
+- **Portability:** ทำงานเหมือนกันบน Windows, Linux, และ macOS  
+- **Integration:** ผสานรวมได้อย่างราบรื่นกับแอปพลิเคชัน Java ที่ใช้ Aspose.Tasks อยู่แล้ว
+
+## Prerequisites
+ก่อนที่เราจะลงลึกในโค้ด, โปรดตรวจสอบว่าคุณมี:
+
+- Java Development Kit (JDK) ติดตั้งอยู่
+- ไลบรารี Aspose.Tasks for Java คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases.aspose.com/tasks/java/)
 - ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม Java
-## แพ็คเกจนำเข้า
-ในโปรเจ็กต์ Java ของคุณ ให้รวมไลบรารี Aspose.Tasks เพิ่มคำสั่งนำเข้าต่อไปนี้ที่จุดเริ่มต้นของรหัสของคุณ:
+
+## Import Packages
+ในโปรเจกต์ Java ของคุณ, ให้เพิ่มไลบรารี Aspose.Tasks และเพิ่มคำสั่ง import ต่อไปนี้ที่ส่วนหัวของโค้ด:
+
 ```java
 import com.aspose.tasks.Project;
 import com.aspose.tasks.Task;
 import com.aspose.tasks.TimeUnitType;
 import com.aspose.tasks.Tsk;
 ```
-## ขั้นตอนที่ 1: ตั้งค่าโครงการของคุณ
-เริ่มต้นด้วยการสร้างโปรเจ็กต์ Java ใหม่ใน Integrated Development Environment (IDE) ที่คุณต้องการ ตรวจสอบให้แน่ใจว่าได้รวมไลบรารี Aspose.Tasks ในการขึ้นต่อกันของโปรเจ็กต์ของคุณ
-## ขั้นตอนที่ 2: อ่านเทมเพลตโครงการ
+
+## Step 1: Set Up Your Project
+สร้างโปรเจกต์ Java ใหม่ใน IDE ที่คุณชื่นชอบ (IntelliJ, Eclipse, VS Code ฯลฯ) แล้วเพิ่มไฟล์ JAR ของ Aspose.Tasks ลงใน classpath ของโปรเจกต์ เพื่อให้คลาสที่กล่าวมาพร้อมใช้งานในขั้นตอนคอมไพล์
+
+## Step 2: Read Project Template
 ```java
-// เส้นทางไปยังไดเร็กทอรีเอกสาร
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
-// อ่านไฟล์เทมเพลต MS Project
+// Read MS Project template file
 String fileName = dataDir + "project.xml";
-// อ่านไฟล์อินพุตเป็นโครงการ
+// Read the input file as Project
 Project project = new Project(fileName);
 ```
- ให้แน่ใจว่าจะเปลี่ยน`"Your Document Directory"` พร้อมเส้นทางจริงไปยังไฟล์โครงการของคุณ
-## ขั้นตอนที่ 3: ดึงข้อมูลงาน
+
+แทนที่ `"Your Document Directory"` ด้วยโฟลเดอร์ที่มีไฟล์ `.xml` หรือ `.mpp` ของโครงการของคุณ
+
+## Step 3: Retrieve a Task
 ```java
-// รับงานเพื่อคำนวณระยะเวลาในรูปแบบต่างๆ
+// Get a task to calculate its duration in different formats
 Task task = project.getRootTask().getChildren().getById(1);
 ```
- ที่นี่ เราได้รับงานจากโครงการ ปรับ`getById(1)` ตามรหัสงานของโครงการของคุณ
-## ขั้นตอนที่ 4: ระยะเวลาเป็นนาที
+
+เมธอด `getById(1)` จะดึงงานที่มี ID = 1 ปรับค่า ID ตามต้องการเพื่อเข้าถึงงานอื่นในไฟล์ของคุณ
+
+## Step 4: Duration in Minutes – How to get duration in minutes?
 ```java
-// รับระยะเวลาเป็นนาที
+// Get the duration in Minutes
 double mins = task.get(Tsk.DURATION).convert(TimeUnitType.Minute).toDouble();
 ```
-ขั้นตอนนี้จะคำนวณระยะเวลาของงานเป็นนาที
-## ขั้นตอนที่ 5: ระยะเวลาเป็นวัน
+
+ตัวแปร `mins` ตอนนี้เก็บความยาวของงานในหน่วยนาทีแล้ว
+
+## Step 5: Duration in Days – How to get duration in days?
 ```java
-// รับระยะเวลาเป็นวัน
+// Get the duration in Days
 double days = task.get(Tsk.DURATION).convert(TimeUnitType.Day).toDouble();
 ```
-ขั้นตอนนี้จะคำนวณระยะเวลาของงานเป็นวัน
-## ขั้นตอนที่ 6: ระยะเวลาเป็นชั่วโมง
+
+ใช้ค่านี้เมื่อคุณต้องการความละเอียดระดับวันสำหรับการรายงานหรือการจัดสรรทรัพยากร
+
+## Step 6: Duration in Hours – How to get duration in hours?
 ```java
-// รับระยะเวลาเป็นชั่วโมง
+// Get the duration in Hours
 double hours = task.get(Tsk.DURATION).convert(TimeUnitType.Hour).toDouble();
 ```
-ขั้นตอนนี้จะคำนวณระยะเวลาของงานเป็นชั่วโมง
-## ขั้นตอนที่ 7: ระยะเวลาเป็นสัปดาห์
+
+ชั่วโมงมีประโยชน์สำหรับใบบันทึกเวลา หรือเมื่อคุณต้องการแบ่งวันเป็นกะทำงาน
+
+## Step 7: Duration in Weeks – How to get duration in weeks?
 ```java
-// รับระยะเวลาเป็นสัปดาห์
+// Get the duration in Weeks
 double weeks = task.get(Tsk.DURATION).convert(TimeUnitType.Week).toDouble();
 ```
-ขั้นตอนนี้จะคำนวณระยะเวลาของงานเป็นสัปดาห์
-## ขั้นตอนที่ 8: ระยะเวลาเป็นเดือน
+
+สัปดาห์มักใช้ในแผนภูมิ Gantt ระดับสูงหรือการวางแผนมิลสโตน
+
+## Step 8: Duration in Months – How to get duration in months?
 ```java
-// รับระยะเวลาเป็นเดือน
+// Get the duration in Months
 double months = task.get(Tsk.DURATION).convert(TimeUnitType.Month).toDouble();
 ```
-ขั้นตอนนี้จะคำนวณระยะเวลาของงานเป็นเดือน
-## บทสรุป
-การจัดการระยะเวลาของงานทำได้ง่ายด้วย Aspose.Tasks สำหรับ Java บทช่วยสอนนี้จะแนะนำคุณตลอดกระบวนการทีละขั้นตอน โดยให้ความชัดเจนในหน่วยเวลาต่างๆ
-## คำถามที่พบบ่อย
-### ถาม: ฉันสามารถใช้ Aspose.Tasks สำหรับ Java กับ Java IDE ใดๆ ได้หรือไม่
-ใช่ Aspose.Tasks สำหรับ Java เข้ากันได้กับ Java Integrated Development Environment (IDE)
-### ถาม: ฉันจะรับ ID ของงานในไฟล์ Microsoft Project ได้อย่างไร
-คุณสามารถตรวจสอบไฟล์โปรเจ็กต์หรือใช้ Aspose.Tasks API เพื่อดึงรหัสงานโดยทางโปรแกรม
-### ถาม: Aspose.Tasks เหมาะสำหรับการจัดการโครงการขนาดใหญ่หรือไม่
-อย่างแน่นอน. Aspose.Tasks ได้รับการออกแบบมาเพื่อจัดการโครงการที่มีขนาดแตกต่างกันได้อย่างมีประสิทธิภาพ
-### ถาม: ฉันจะหาเอกสารเพิ่มเติมได้จากที่ไหน?
- เยี่ยมชม[เอกสารประกอบ](https://reference.aspose.com/tasks/java/)เพื่อทรัพยากรที่ครอบคลุม
-### ถาม: ฉันสามารถลองใช้ Aspose.Tasks สำหรับ Java ก่อนซื้อได้หรือไม่
- ใช่ คุณสามารถสำรวจได้[ทดลองฟรี](https://releases.aspose.com/) เพื่อประเมินความสามารถของตน
+
+ระยะเวลาในระดับเดือนช่วยเมื่อคุณต้องการสอดคล้องระยะโครงการกับรอบงบประมาณ
+
+## Common Issues and Solutions
+| Symptom | Likely Cause | Fix |
+|---------|--------------|-----|
+| `NullPointerException` on `task` | ID ของงานไม่ถูกต้องหรือไม่มีลูก | ตรวจสอบว่า ID ของงานมีอยู่โดยใช้ `project.getRootTask().getChildren()` |
+| ค่าที่ได้ไม่คาดคิด (เช่น 0) | โครงการใช้ปฏิทินกำหนดเองที่มีวันทำงานไม่เป็นมาตรฐาน | ตรวจสอบให้แน่ใจว่าปฏิทินของโครงการกำหนดอย่างถูกต้อง หรือใช้ `project.getCalendar()` เพื่อตรวจสอบ |
+| การแปลงให้ค่าเป็นสัปดาห์เศษส่วน | สัปดาห์คำนวณตามความยาวสัปดาห์เริ่มต้นของโครงการ (โดยทั่วไป 5 วัน) | คูณด้วย 5 หากต้องการสัปดาห์ตามปฏิทิน, หรือปรับการตั้งค่าปฏิทิน |
+
+## Frequently Asked Questions
+### Q: สามารถใช้ Aspose.Tasks for Java กับ IDE ใดก็ได้หรือไม่?
+A: ใช่, Aspose.Tasks for Java เข้ากันได้กับทุก Java Integrated Development Environment (IDE)
+
+### Q: จะหาค่า ID ของงานในไฟล์ Microsoft Project ได้อย่างไร?
+A: คุณสามารถตรวจสอบไฟล์โครงการด้วยตนเองหรือเรียก `project.getRootTask().getChildren()` แล้ววนลูปเพื่ออ่านค่า `ID` ของแต่ละงาน
+
+### Q: Aspose.Tasks เหมาะกับการจัดการโครงการขนาดใหญ่หรือไม่?
+A: แน่นอน, Aspose.Tasks ถูกออกแบบมาเพื่อประมวลผลโครงการที่มีงานและทรัพยากรหลายพันรายการอย่างมีประสิทธิภาพ
+
+### Q: จะหาเอกสารอ้างอิงเพิ่มเติมได้จากที่ไหน?
+A: เยี่ยมชม [documentation](https://reference.aspose.com/tasks/java/) เพื่อดู API reference, ตัวอย่างโค้ด, และแนวทางปฏิบัติที่ดีที่สุด
+
+### Q: สามารถทดลองใช้ Aspose.Tasks for Java ก่อนซื้อได้หรือไม่?
+A: ได้, คุณสามารถสำรวจ [free trial](https://releases.aspose.com/) เพื่อประเมินคุณสมบัติต่าง ๆ
+
+---
+
+**Last Updated:** 2026-02-28  
+**Tested With:** Aspose.Tasks for Java 24.12  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
