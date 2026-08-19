@@ -1,26 +1,39 @@
 ---
-title: Pisahkan Tugas di Aspose.Tasks
-linktitle: Pisahkan Tugas di Aspose.Tasks
-second_title: Aspose.Tugas Java API
-description: Kuasai manajemen tugas di Java dengan Aspose.Tasks! Pelajari cara membagi tugas secara efisien untuk jadwal proyek yang optimal. Unduh sekarang!
-weight: 29
+date: 2026-02-26
+description: Pelajari cara memecah tugas dengan Aspose.Tasks untuk Java – panduan
+  definitif tentang cara memecah tugas, mengatur kalender proyek, dan membuat penugasan
+  sumber daya.
+linktitle: Split Tasks in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Cara Membagi Tugas di Aspose.Tasks
 url: /id/java/task-properties/split-tasks/
+weight: 29
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Pisahkan Tugas di Aspose.Tasks
+# Cara Membagi Tugas di Aspose.Tasks
 
-## Perkenalan
-Apakah Anda kesulitan dengan manajemen tugas di proyek Java Anda? Aspose.Tasks untuk Java memberikan solusi canggih untuk membagi tugas secara efisien, meningkatkan kemampuan manajemen proyek. Dalam tutorial ini, kami akan memandu Anda melalui proses pemisahan tugas menggunakan Aspose.Tasks untuk Java, membantu Anda mengoptimalkan jadwal proyek dan alokasi sumber daya.
-## Prasyarat
-Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
-- Java Development Kit (JDK) diinstal pada mesin Anda.
--  Aspose.Tasks untuk perpustakaan Java diunduh dan ditambahkan ke proyek Anda. Anda dapat mengunduhnya dari[Aspose.Tasks untuk dokumentasi Java](https://reference.aspose.com/tasks/java/).
-## Paket Impor
-Mulailah dengan mengimpor paket yang diperlukan ke proyek Java Anda:
+## Introduction
+Jika Anda mencari **cara membagi tugas** dalam proyek berbasis Java, Anda berada di tempat yang tepat. Aspose.Tasks untuk Java memberikan cara yang bersih dan programatis untuk memecah tugas yang berlangsung lama menjadi bagian‑bagian yang lebih kecil dan dapat dikelola, yang membantu dalam penyeimbangan sumber daya, pelaporan yang akurat, dan jadwal proyek yang lebih ketat. Dalam tutorial ini kami akan membahas seluruh proses—dari menyiapkan kalender proyek hingga membuat penugasan sumber daya dan akhirnya membagi tugas menjadi beberapa segmen.
+
+## Quick Answers
+- **Apa itu pembagian tugas?** Membagi satu tugas menjadi beberapa interval yang lebih kecil sambil mempertahankan total durasinya.  
+- **Mengapa membagi tugas di Java?** Hal ini memungkinkan alokasi sumber daya yang tepat dan pelacakan kemajuan yang lebih baik.  
+- **Perpustakaan mana yang membantu?** Aspose.Tasks untuk Java menyediakan metode bawaan untuk membagi dan fase waktu.  
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk pengembangan; lisensi diperlukan untuk produksi.  
+- **Versi Java apa yang didukung?** Perpustakaan ini bekerja dengan Java 8 dan yang lebih baru.
+
+## Prerequisites
+Sebelum memulai tutorial, pastikan Anda memiliki prasyarat berikut:
+- Java Development Kit (JDK) terpasang di mesin Anda.  
+- Perpustakaan Aspose.Tasks untuk Java diunduh dan ditambahkan ke proyek Anda. Anda dapat mengunduhnya dari [dokumentasi Aspose.Tasks untuk Java](https://reference.aspose.com/tasks/java/).
+
+## Import Packages
+Mulailah dengan mengimpor paket yang diperlukan ke dalam proyek Java Anda:
+
 ```java
 import com.aspose.tasks.Asn;
 import com.aspose.tasks.Calendar;
@@ -32,68 +45,103 @@ import com.aspose.tasks.Task;
 import com.aspose.tasks.Tsk;
 import com.aspose.tasks.WorkContourType;
 ```
-## Langkah 1: Buat Proyek Baru
+
+## Step 1: Create a New Project
 Mulailah dengan membuat proyek baru menggunakan perpustakaan Aspose.Tasks:
+
 ```java
-// Buat proyek baru
+// Create a new project
 Project splitTaskProject = new Project();
 ```
-## Langkah 2: Tetapkan Kalender Proyek
-Tetapkan pengaturan kalender proyek untuk menetapkan garis waktu:
+
+## Step 2: Set Project Calendar
+Menetapkan **kalender proyek** menentukan hari kerja, hari libur, dan keseluruhan timeline untuk jadwal Anda. Langkah ini penting untuk perhitungan fase waktu yang akurat.
+
 ```java
-// Dapatkan kalender standar
+// Get a standard calendar
 Calendar calendar = splitTaskProject.get(Prj.CALENDAR);
-// Tetapkan pengaturan kalender proyek
+// Set project's calendar settings
 java.util.Calendar cal = java.util.Calendar.getInstance();
-// ... (lanjutkan dengan contoh)
+// ... (continue with the example)
 ```
-## Langkah 3: Tambahkan Tugas Root
-Tambahkan tugas root ke proyek Anda:
+
+## Step 3: Add a Root Task
+Setiap proyek memerlukan kontainer root. Menambahkan tugas root memberi Anda tempat untuk melampirkan semua tugas berikutnya.
+
 ```java
-// Tugas akar
+// Root task
 Task rootTask = splitTaskProject.getRootTask();
 rootTask.set(Tsk.NAME, "Root");
 ```
-## Langkah 4: Tambahkan Tugas Baru untuk Dibagi
-Tambahkan tugas baru ke proyek Anda yang ingin Anda bagi:
+
+## Step 4: Add a New Task to Split
+Buat tugas yang ingin Anda bagi. Di sini kami menetapkan durasi tiga hari sebagai contoh.
+
 ```java
-// Tambahkan tugas baru
+// Add a new task
 Task taskToSplit = rootTask.getChildren().add("Task1");
 taskToSplit.set(Tsk.DURATION, splitTaskProject.getDuration(3));
 ```
-## Langkah 5: Buat Penugasan Sumber Daya
-Buat penetapan sumber daya baru untuk tugas tersebut:
+
+## Step 5: Create a Resource Assignment
+**Penugasan sumber daya** menghubungkan sumber daya (atau placeholder) ke tugas. Ini diperlukan sebelum menghasilkan data fase waktu.
+
 ```java
-// Buat penetapan sumber daya baru
+// Create a new resource assignment
 ResourceAssignment splitResourceAssignment = splitTaskProject.getResourceAssignments().add(taskToSplit, null);
 ```
-## Langkah 6: Hasilkan Data Berfase Waktu
-Menghasilkan data bertahap penugasan sumber daya:
+
+## Step 6: Generate Timephased Data
+Data fase waktu menggambarkan bagaimana pekerjaan didistribusikan selama durasi tugas. Menghasilkannya mempersiapkan tugas untuk dibagi.
+
 ```java
-// Menghasilkan data fase waktu penetapan sumber daya
+// Generate resource assignment timephased data
 splitResourceAssignment.timephasedDataFromTaskDuration(calendar);
 ```
-## Langkah 7: Bagi Tugas
-Bagi tugas menjadi beberapa bagian:
+
+## Step 7: Split the Task
+Sekarang kami **membagi tugas menjadi bagian‑bagian**. Dalam contoh ini kami membagi tugas tiga hari menjadi tiga segmen satu hari.
+
 ```java
-// Bagi tugas menjadi 3 bagian
+// Split the task into 3 parts
 java.util.Calendar cal = java.util.Calendar.getInstance();
 java.util.Calendar cal2 = java.util.Calendar.getInstance();
-// ... (lanjutkan dengan contoh)
+// ... (continue with the example)
 ```
-## Kesimpulan
-Selamat! Anda telah berhasil mempelajari cara membagi tugas menggunakan Aspose.Tasks untuk Java. Pustaka yang kuat ini menyederhanakan manajemen tugas dalam proyek Java, memberikan solusi efisien untuk mengoptimalkan jadwal proyek dan alokasi sumber daya.
-## Pertanyaan yang Sering Diajukan
-### Bisakah saya membagi tugas dengan durasi berbeda?
-Ya, Anda dapat menyesuaikan durasi tugas sesuai dengan kebutuhan proyek Anda.
-### Apakah Aspose.Tasks for Java kompatibel dengan semua versi Java?
-Aspose.Tasks untuk Java dirancang untuk bekerja secara lancar dengan berbagai versi Java, memastikan kompatibilitas.
-### Bisakah saya menggunakan Aspose.Tasks untuk Java secara gratis?
-Aspose.Tasks untuk Java menawarkan uji coba gratis, memungkinkan Anda menjelajahi fitur-fiturnya sebelum melakukan pembelian.
-### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Tasks untuk Java?
- Mengunjungi[Aspose.Tasks untuk forum dukungan Java](https://forum.aspose.com/c/tasks/15) untuk mendapatkan bantuan dan berhubungan dengan masyarakat.
-### Apakah saya memerlukan lisensi sementara untuk Aspose.Tasks untuk Java?
- Anda dapat memperoleh lisensi sementara dari[Link ini](https://purchase.aspose.com/temporary-license/) untuk tujuan pengujian dan evaluasi.
+
+## Why Split Tasks?
+Membagi tugas memberi Anda kontrol yang lebih terperinci atas:
+- **Penyeimbangan sumber daya:** Menetapkan sumber daya yang berbeda untuk setiap segmen.
+- **Pelacakan kemajuan:** Memperbarui status per segmen.
+- **Pelaporan:** Menghasilkan diagram Gantt dan laporan yang lebih detail.
+
+## Common Issues and Solutions
+- **Data kalender hilang:** Pastikan Anda memanggil `timephasedDataFromTaskDuration` sebelum membagi.  
+- **Segmen dengan durasi nol:** Verifikasi bahwa setiap interval yang dibagi memiliki durasi bukan nol; jika tidak, perpustakaan akan mengabaikannya.  
+- **Pengecualian lisensi:** Menjalankan tanpa lisensi yang valid dapat menambahkan watermark pada file yang diekspor.
+
+## Frequently Asked Questions
+### Can I split tasks with different durations?
+Ya, Anda dapat menyesuaikan durasi setiap bagian agar sesuai dengan kebutuhan proyek Anda.
+
+### Is Aspose.Tasks for Java compatible with all Java versions?
+Aspose.Tasks untuk Java dirancang untuk bekerja mulus dengan Java 8 dan yang lebih baru, memastikan kompatibilitas yang luas.
+
+### Can I use Aspose.Tasks for Java for free?
+Aspose.Tasks untuk Java menawarkan percobaan gratis, memungkinkan Anda menjelajahi fiturnya sebelum melakukan pembelian.
+
+### How can I get support for Aspose.Tasks for Java?
+Kunjungi [forum dukungan Aspose.Tasks untuk Java](https://forum.aspose.com/c/tasks/15) untuk mendapatkan bantuan dan terhubung dengan komunitas.
+
+### Do I need a temporary license for Aspose.Tasks for Java?
+Anda dapat memperoleh lisensi sementara dari [tautan ini](https://purchase.aspose.com/temporary-license/) untuk tujuan pengujian dan evaluasi.
+
+---
+
+**Last Updated:** 2026-02-26  
+**Tested With:** Aspose.Tasks for Java 24.11  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

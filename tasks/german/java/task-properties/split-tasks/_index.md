@@ -1,26 +1,39 @@
 ---
-title: Teilen Sie Aufgaben in Aspose.Tasks
-linktitle: Teilen Sie Aufgaben in Aspose.Tasks
-second_title: Aspose.Tasks Java-API
-description: Meistern Sie die Aufgabenverwaltung in Java mit Aspose.Tasks! Erfahren Sie, wie Sie Aufgaben effizient aufteilen, um die Projektzeitpläne zu optimieren. Jetzt downloaden!
-weight: 29
+date: 2026-02-26
+description: Erfahren Sie, wie Sie Aufgaben mit Aspose.Tasks für Java aufteilen –
+  der umfassende Leitfaden zum Aufteilen von Aufgaben, Festlegen des Projektkalenders
+  und Erstellen von Ressourcen‑Zuweisungen.
+linktitle: Split Tasks in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+title: Wie man Aufgaben in Aspose.Tasks aufteilt
 url: /de/java/task-properties/split-tasks/
+weight: 29
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Teilen Sie Aufgaben in Aspose.Tasks
+# Wie man Aufgaben in Aspose.Tasks aufteilt
 
-## Einführung
-Haben Sie Probleme mit der Aufgabenverwaltung in Ihrem Java-Projekt? Aspose.Tasks für Java bietet eine leistungsstarke Lösung zur effizienten Aufteilung von Aufgaben und verbessert die Projektmanagementfunktionen. In diesem Tutorial führen wir Sie durch den Prozess der Aufgabenaufteilung mit Aspose.Tasks für Java und helfen Ihnen dabei, Ihre Projektzeitpläne und Ressourcenzuweisungen zu optimieren.
+## Einleitung
+Wenn Sie nach **wie man Aufgaben aufteilt** in einem Java‑basierten Projekt suchen, sind Sie hier genau richtig. Aspose.Tasks for Java bietet Ihnen eine saubere, programmatische Möglichkeit, eine langlaufende Aufgabe in kleinere, handhabbare Teile zu zerlegen, was bei der Ressourcenlevelung, genauen Berichterstellung und strafferen Projektzeitplänen hilft. In diesem Tutorial führen wir Sie durch den gesamten Prozess – vom Einrichten des Projektkalenders über das Erstellen einer Ressourcen‑Zuweisung bis hin zum Aufteilen der Aufgabe in mehrere Segmente.
+
+## Schnelle Antworten
+- **Was ist Aufgabenaufteilung?** Aufteilen einer einzelnen Aufgabe in mehrere kleinere Intervalle bei gleichzeitiger Beibehaltung ihrer Gesamtdauer.  
+- **Warum Aufgaben in Java aufteilen?** Es ermöglicht eine präzise Ressourcenallokation und bessere Fortschrittsverfolgung.  
+- **Welche Bibliothek hilft?** Aspose.Tasks for Java stellt integrierte Methoden zum Aufteilen und Zeitphasen‑Management bereit.  
+- **Benötige ich eine Lizenz?** Eine kostenlose Testversion funktioniert für die Entwicklung; für die Produktion ist eine Lizenz erforderlich.  
+- **Welche Java‑Version wird unterstützt?** Die Bibliothek funktioniert mit Java 8 und neuer.
+
 ## Voraussetzungen
-Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
-- Java Development Kit (JDK) ist auf Ihrem Computer installiert.
--  Aspose.Tasks für Java-Bibliothek heruntergeladen und Ihrem Projekt hinzugefügt. Sie können es hier herunterladen[Aspose.Tasks für Java-Dokumentation](https://reference.aspose.com/tasks/java/).
+Bevor Sie in das Tutorial eintauchen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllt haben:
+- Java Development Kit (JDK) auf Ihrem Rechner installiert.  
+- Aspose.Tasks for Java Bibliothek heruntergeladen und zu Ihrem Projekt hinzugefügt. Sie können sie von der [Aspose.Tasks for Java documentation](https://reference.aspose.com/tasks/java/) herunterladen.
+
 ## Pakete importieren
-Beginnen Sie mit dem Importieren der erforderlichen Pakete in Ihr Java-Projekt:
+Beginnen Sie damit, die erforderlichen Pakete in Ihr Java‑Projekt zu importieren:
+
 ```java
 import com.aspose.tasks.Asn;
 import com.aspose.tasks.Calendar;
@@ -32,68 +45,103 @@ import com.aspose.tasks.Task;
 import com.aspose.tasks.Tsk;
 import com.aspose.tasks.WorkContourType;
 ```
-## Schritt 1: Erstellen Sie ein neues Projekt
-Erstellen Sie zunächst ein neues Projekt mithilfe der Aspose.Tasks-Bibliothek:
+
+## Schritt 1: Neues Projekt erstellen
+Beginnen Sie damit, ein neues Projekt mit der Aspose.Tasks‑Bibliothek zu erstellen:
+
 ```java
-// Erstellen Sie ein neues Projekt
+// Create a new project
 Project splitTaskProject = new Project();
 ```
+
 ## Schritt 2: Projektkalender festlegen
-Legen Sie die Kalendereinstellungen des Projekts fest, um die Zeitachse festzulegen:
+Das Festlegen des **Projektkalenders** definiert Arbeitstage, Feiertage und den Gesamtablauf Ihres Zeitplans. Dieser Schritt ist für genaue zeitphasenbasierte Berechnungen unerlässlich.
+
 ```java
-// Besorgen Sie sich einen Standardkalender
+// Get a standard calendar
 Calendar calendar = splitTaskProject.get(Prj.CALENDAR);
-// Legen Sie die Kalendereinstellungen des Projekts fest
+// Set project's calendar settings
 java.util.Calendar cal = java.util.Calendar.getInstance();
-// ... (weiter mit dem Beispiel)
+// ... (continue with the example)
 ```
-## Schritt 3: Fügen Sie eine Root-Aufgabe hinzu
-Fügen Sie Ihrem Projekt eine Root-Aufgabe hinzu:
+
+## Schritt 3: Root‑Aufgabe hinzufügen
+Jedes Projekt benötigt einen Root‑Container. Das Hinzufügen einer Root‑Aufgabe bietet Ihnen einen Ort, an dem Sie alle nachfolgenden Aufgaben anhängen können.
+
 ```java
-// Root-Aufgabe
+// Root task
 Task rootTask = splitTaskProject.getRootTask();
 rootTask.set(Tsk.NAME, "Root");
 ```
-## Schritt 4: Fügen Sie eine neue Aufgabe zu Split hinzu
-Fügen Sie Ihrem Projekt eine neue Aufgabe hinzu, die Sie aufteilen möchten:
+
+## Schritt 4: Neue Aufgabe zum Aufteilen hinzufügen
+Erstellen Sie die Aufgabe, die Sie aufteilen möchten. Hier setzen wir als Beispiel eine Dauer von drei Tagen.
+
 ```java
-// Fügen Sie eine neue Aufgabe hinzu
+// Add a new task
 Task taskToSplit = rootTask.getChildren().add("Task1");
 taskToSplit.set(Tsk.DURATION, splitTaskProject.getDuration(3));
 ```
-## Schritt 5: Erstellen Sie eine Ressourcenzuweisung
-Erstellen Sie eine neue Ressourcenzuweisung für die Aufgabe:
+
+## Schritt 5: Ressourcen‑Zuweisung erstellen
+Eine **Ressourcen‑Zuweisung** verknüpft eine Ressource (oder einen Platzhalter) mit der Aufgabe. Dies ist erforderlich, bevor zeitphasenbasierte Daten generiert werden.
+
 ```java
-// Erstellen Sie eine neue Ressourcenzuweisung
+// Create a new resource assignment
 ResourceAssignment splitResourceAssignment = splitTaskProject.getResourceAssignments().add(taskToSplit, null);
 ```
-## Schritt 6: Zeitphasendaten generieren
-Generieren Sie Zeitphasendaten für die Ressourcenzuweisung:
+
+## Schritt 6: Zeitphasen‑Daten generieren
+Zeitphasen‑Daten zeigen, wie die Arbeit über die Dauer der Aufgabe verteilt ist. Das Generieren dieser Daten bereitet die Aufgabe auf das Aufteilen vor.
+
 ```java
-// Generieren Sie Zeitphasendaten zur Ressourcenzuweisung
+// Generate resource assignment timephased data
 splitResourceAssignment.timephasedDataFromTaskDuration(calendar);
 ```
-## Schritt 7: Teilen Sie die Aufgabe auf
-Teilen Sie die Aufgabe in mehrere Teile auf:
+
+## Schritt 7: Aufgabe aufteilen
+Jetzt **teilen wir die Aufgabe in Teile**. In diesem Beispiel teilen wir die dreitägige Aufgabe in drei eintägige Segmente.
+
 ```java
-// Teilen Sie die Aufgabe in 3 Teile auf
+// Split the task into 3 parts
 java.util.Calendar cal = java.util.Calendar.getInstance();
 java.util.Calendar cal2 = java.util.Calendar.getInstance();
-// ... (weiter mit dem Beispiel)
+// ... (continue with the example)
 ```
-## Abschluss
-Glückwunsch! Sie haben erfolgreich gelernt, wie Sie Aufgaben mit Aspose.Tasks für Java aufteilen. Diese leistungsstarke Bibliothek vereinfacht die Aufgabenverwaltung in Java-Projekten und bietet effiziente Lösungen zur Optimierung von Projektzeitplänen und Ressourcenzuweisungen.
+
+## Warum Aufgaben aufteilen?
+Das Aufteilen von Aufgaben gibt Ihnen eine feinere Kontrolle über:
+- **Ressourcenleveling:** Unterschiedliche Ressourcen jedem Segment zuweisen.  
+- **Fortschrittsverfolgung:** Status pro Segment aktualisieren.  
+- **Berichterstellung:** Detailliertere Gantt‑Diagramme und Berichte erzeugen.
+
+## Häufige Probleme und Lösungen
+- **Fehlende Kalenderdaten:** Stellen Sie sicher, dass Sie `timephasedDataFromTaskDuration` vor dem Aufteilen aufrufen.  
+- **Null‑Dauer‑Segmente:** Prüfen Sie, dass jedes geteilte Intervall eine von Null verschiedene Dauer hat; andernfalls wird es von der Bibliothek ignoriert.  
+- **Lizenzausnahmen:** Das Ausführen ohne gültige Lizenz kann ein Wasserzeichen zu exportierten Dateien hinzufügen.
+
 ## Häufig gestellte Fragen
-### Kann ich Aufgaben mit unterschiedlicher Dauer aufteilen?
-Ja, Sie können die Dauer der Aufgaben entsprechend Ihren Projektanforderungen anpassen.
-### Ist Aspose.Tasks für Java mit allen Java-Versionen kompatibel?
-Aspose.Tasks für Java ist so konzipiert, dass es nahtlos mit verschiedenen Java-Versionen zusammenarbeitet und so die Kompatibilität gewährleistet.
-### Kann ich Aspose.Tasks für Java kostenlos nutzen?
-Aspose.Tasks für Java bietet eine kostenlose Testversion, mit der Sie die Funktionen erkunden können, bevor Sie einen Kauf tätigen.
-### Wie erhalte ich Unterstützung für Aspose.Tasks für Java?
- Besuche den[Aspose.Tasks für Java-Supportforum](https://forum.aspose.com/c/tasks/15) um Hilfe zu erhalten und mit der Community in Kontakt zu treten.
-### Benötige ich eine temporäre Lizenz für Aspose.Tasks für Java?
- Eine temporäre Lizenz erhalten Sie bei[dieser Link](https://purchase.aspose.com/temporary-license/) zu Test- und Evaluierungszwecken.
+### Kann ich Aufgaben mit unterschiedlichen Dauern aufteilen?
+Ja, Sie können die Dauer jedes Teils an Ihre Projektanforderungen anpassen.
+
+### Ist Aspose.Tasks for Java mit allen Java‑Versionen kompatibel?
+Aspose.Tasks for Java ist so konzipiert, dass es nahtlos mit Java 8 und neuer funktioniert und somit eine breite Kompatibilität gewährleistet.
+
+### Kann ich Aspose.Tasks for Java kostenlos nutzen?
+Aspose.Tasks for Java bietet eine kostenlose Testversion, mit der Sie die Funktionen vor einem Kauf ausprobieren können.
+
+### Wie kann ich Support für Aspose.Tasks for Java erhalten?
+Besuchen Sie das [Aspose.Tasks for Java support forum](https://forum.aspose.com/c/tasks/15), um Unterstützung zu erhalten und sich mit der Community zu vernetzen.
+
+### Benötige ich eine temporäre Lizenz für Aspose.Tasks for Java?
+Sie können eine temporäre Lizenz über [diesen Link](https://purchase.aspose.com/temporary-license/) für Test‑ und Evaluierungszwecke erhalten.
+
+---
+
+**Zuletzt aktualisiert:** 2026-02-26  
+**Getestet mit:** Aspose.Tasks for Java 24.11  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

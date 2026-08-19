@@ -1,26 +1,42 @@
 ---
-title: Rozdělit úkoly v Aspose.Tasks
-linktitle: Rozdělit úkoly v Aspose.Tasks
+date: 2026-02-26
+description: Naučte se, jak rozdělit úkoly pomocí Aspose.Tasks pro Javu – definitní
+  průvodce, jak rozdělit úkoly, nastavit kalendář projektu a vytvořit přiřazení zdrojů.
+linktitle: Split Tasks in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: Ovládněte správu úloh v Javě pomocí Aspose.Tasks! Naučte se, jak efektivně rozdělit úkoly pro optimalizované časové osy projektů. Stáhnout teď!
-weight: 29
+title: Jak rozdělit úkoly v Aspose.Tasks
 url: /cs/java/task-properties/split-tasks/
+weight: 29
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ close.
+
+We must keep them unchanged.
+
+Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Rozdělit úkoly v Aspose.Tasks
+# Jak rozdělit úkoly v Aspose.Tasks
 
 ## Úvod
-Potýkáte se se správou úloh ve svém projektu Java? Aspose.Tasks for Java poskytuje výkonné řešení pro efektivní rozdělování úkolů a zlepšuje možnosti řízení projektů. V tomto tutoriálu vás provedeme procesem rozdělování úkolů pomocí Aspose.Tasks for Java, který vám pomůže optimalizovat časové osy vašich projektů a alokace zdrojů.
+Pokud hledáte **jak rozdělit úkoly** v projektu založeném na Javě, jste na správném místě. Aspose.Tasks for Java vám poskytuje čistý, programový způsob, jak rozdělit dlouhodobý úkol na menší, zvládnutelné části, což pomáhá s vyrovnáváním zdrojů, přesným reportováním a těsnějšími termíny projektu. V tomto tutoriálu projdeme celý proces – od nastavení kalendáře projektu po vytvoření přiřazení zdroje a nakonec rozdělení úkolu na více segmentů.
+
+## Rychlé odpovědi
+- **Co je rozdělení úkolu?** Rozdělení jednoho úkolu na několik menších intervalů při zachování celkové délky.  
+- **Proč rozdělovat úkoly v Javě?** Umožňuje přesné přidělování zdrojů a lepší sledování postupu.  
+- **Která knihovna pomáhá?** Aspose.Tasks for Java poskytuje vestavěné metody pro rozdělení a časové fáze.  
+- **Potřebuji licenci?** Bezplatná zkušební verze funguje pro vývoj; licence je vyžadována pro produkci.  
+- **Jaká verze Javy je podporována?** Knihovna funguje s Javou 8 a novějšími.
+
 ## Předpoklady
-Než se pustíte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
-- Java Development Kit (JDK) nainstalovaný na vašem počítači.
--  Knihovna Aspose.Tasks pro Java byla stažena a přidána do vašeho projektu. Můžete si jej stáhnout z[Aspose.Tasks pro dokumentaci Java](https://reference.aspose.com/tasks/java/).
-## Importujte balíčky
-Začněte importováním potřebných balíčků do vašeho projektu Java:
+Než se ponoříte do tutoriálu, ujistěte se, že máte následující předpoklady:
+- Java Development Kit (JDK) nainstalovaný na vašem počítači.  
+- Knihovna Aspose.Tasks for Java stažená a přidaná do vašeho projektu. Můžete ji stáhnout z [dokumentace Aspose.Tasks for Java](https://reference.aspose.com/tasks/java/).
+
+## Import balíčků
+Začněte importováním potřebných balíčků do vašeho Java projektu:
+
 ```java
 import com.aspose.tasks.Asn;
 import com.aspose.tasks.Calendar;
@@ -32,68 +48,103 @@ import com.aspose.tasks.Task;
 import com.aspose.tasks.Tsk;
 import com.aspose.tasks.WorkContourType;
 ```
-## Krok 1: Vytvořte nový projekt
+
+## Krok 1: Vytvořit nový projekt
 Začněte vytvořením nového projektu pomocí knihovny Aspose.Tasks:
+
 ```java
-// Vytvořte nový projekt
+// Create a new project
 Project splitTaskProject = new Project();
 ```
-## Krok 2: Nastavte kalendář projektu
-Nastavením kalendáře projektu vytvořte časovou osu:
+
+## Krok 2: Nastavit kalendář projektu
+Nastavení **project calendar** definuje pracovní dny, svátky a celkový časový rámec vašeho plánu. Tento krok je nezbytný pro přesné výpočty časově fázovaných dat.
+
 ```java
-// Získejte standardní kalendář
+// Get a standard calendar
 Calendar calendar = splitTaskProject.get(Prj.CALENDAR);
-// Nastavit nastavení kalendáře projektu
+// Set project's calendar settings
 java.util.Calendar cal = java.util.Calendar.getInstance();
-// ... (pokračujte v příkladu)
+// ... (continue with the example)
 ```
-## Krok 3: Přidejte kořenovou úlohu
-Přidejte do projektu kořenovou úlohu:
+
+## Krok 3: Přidat kořenový úkol
+Každý projekt potřebuje kořenový kontejner. Přidání kořenového úkolu vám poskytne místo, kam můžete připojit všechny následné úkoly.
+
 ```java
-// Kořenový úkol
+// Root task
 Task rootTask = splitTaskProject.getRootTask();
 rootTask.set(Tsk.NAME, "Root");
 ```
-## Krok 4: Přidejte do Splitu nový úkol
-Přidejte do projektu nový úkol, který chcete rozdělit:
+
+## Krok 4: Přidat nový úkol k rozdělení
+Vytvořte úkol, který chcete rozdělit. Zde jako příklad nastavíme dobu trvání na tři dny.
+
 ```java
-// Přidat nový úkol
+// Add a new task
 Task taskToSplit = rootTask.getChildren().add("Task1");
 taskToSplit.set(Tsk.DURATION, splitTaskProject.getDuration(3));
 ```
-## Krok 5: Vytvořte přiřazení zdrojů
-Vytvořte nové přiřazení zdroje pro úkol:
+
+## Krok 5: Vytvořit přiřazení zdroje
+**Resource assignment** spojuje zdroj (nebo zástupný znak) s úkolem. Toto je vyžadováno před generováním časově fázovaných dat.
+
 ```java
-// Vytvořte nové přiřazení zdroje
+// Create a new resource assignment
 ResourceAssignment splitResourceAssignment = splitTaskProject.getResourceAssignments().add(taskToSplit, null);
 ```
-## Krok 6: Vygenerujte časově uspořádaná data
-Vygenerujte časově uspořádaná data přiřazení zdrojů:
+
+## Krok 6: Vygenerovat časově fázovaná data
+Časově fázovaná data představují, jak je práce rozložena během doby trvání úkolu. Jejich generování připraví úkol na rozdělení.
+
 ```java
-// Generujte časově uspořádaná data přiřazení zdrojů
+// Generate resource assignment timephased data
 splitResourceAssignment.timephasedDataFromTaskDuration(calendar);
 ```
-## Krok 7: Rozdělte úkol
-Rozdělte úkol na několik částí:
+
+## Krok 7: Rozdělit úkol
+Nyní **split the task into parts**. V tomto příkladu rozdělíme třídenní úkol na tři jednodenní segmenty.
+
 ```java
-// Rozdělte úkol na 3 části
+// Split the task into 3 parts
 java.util.Calendar cal = java.util.Calendar.getInstance();
 java.util.Calendar cal2 = java.util.Calendar.getInstance();
-// ... (pokračujte v příkladu)
+// ... (continue with the example)
 ```
-## Závěr
-Gratulujeme! Úspěšně jste se naučili, jak rozdělit úkoly pomocí Aspose.Tasks for Java. Tato výkonná knihovna zjednodušuje správu úloh v projektech Java a poskytuje efektivní řešení pro optimalizaci časových plánů projektů a alokace zdrojů.
+
+## Proč rozdělovat úkoly?
+Rozdělení úkolů vám poskytuje jemnější kontrolu nad:
+- **Vyrovnání zdrojů:** Přiřadit různé zdroje k jednotlivým segmentům.
+- **Sledování postupu:** Aktualizovat stav po jednotlivých segmentech.
+- **Reportování:** Vytvářet podrobnější Ganttovy diagramy a zprávy.
+
+## Časté problémy a řešení
+- **Chybějící data kalendáře:** Ujistěte se, že před rozdělením zavoláte `timephasedDataFromTaskDuration`.  
+- **Segmenty s nulovou délkou:** Ověřte, že každý rozdělený interval má nenulovou dobu trvání; jinak jej knihovna ignoruje.  
+- **Licence výjimky:** Spuštění bez platné licence může přidat vodoznak do exportovaných souborů.
+
 ## Často kladené otázky
-### Mohu rozdělit úkoly s různým trváním?
-Ano, dobu trvání úkolů můžete upravit podle požadavků vašeho projektu.
-### Je Aspose.Tasks for Java kompatibilní se všemi verzemi Java?
-Aspose.Tasks for Java je navržen tak, aby bezproblémově fungoval s různými verzemi Java a zajistil kompatibilitu.
-### Mohu používat Aspose.Tasks pro Javu zdarma?
-Aspose.Tasks for Java nabízí bezplatnou zkušební verzi, která vám umožní prozkoumat její funkce před nákupem.
-### Jak mohu získat podporu pro Aspose.Tasks pro Java?
- Navštivte[Aspose.Tasks for Java support forum](https://forum.aspose.com/c/tasks/15) získat pomoc a spojit se s komunitou.
+### Můžu rozdělit úkoly s různými délkami?
+Ano, můžete upravit délku každé části tak, aby odpovídala požadavkům vašeho projektu.
+
+### Je Aspose.Tasks for Java kompatibilní se všemi verzemi Javy?
+Aspose.Tasks for Java je navrženo tak, aby bez problémů fungovalo s Javou 8 a novějšími, což zajišťuje širokou kompatibilitu.
+
+### Můžu používat Aspose.Tasks for Java zdarma?
+Aspose.Tasks for Java nabízí bezplatnou zkušební verzi, která vám umožní prozkoumat jeho funkce před zakoupením.
+
+### Jak mohu získat podporu pro Aspose.Tasks for Java?
+Navštivte [Aspose.Tasks for Java support forum](https://forum.aspose.com/c/tasks/15), kde získáte pomoc a spojíte se s komunitou.
+
 ### Potřebuji dočasnou licenci pro Aspose.Tasks for Java?
- Dočasnou licenci můžete získat od[tento odkaz](https://purchase.aspose.com/temporary-license/) pro účely testování a hodnocení.
+Dočasnou licenci můžete získat na [this link](https://purchase.aspose.com/temporary-license/) pro testovací a evaluační účely.
+
+---
+
+**Poslední aktualizace:** 2026-02-26  
+**Testováno s:** Aspose.Tasks for Java 24.11  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

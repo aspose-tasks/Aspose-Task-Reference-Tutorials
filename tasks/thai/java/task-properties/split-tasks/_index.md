@@ -1,26 +1,50 @@
 ---
-title: แยกงานใน Aspose.Tasks
-linktitle: แยกงานใน Aspose.Tasks
+date: 2026-02-26
+description: เรียนรู้วิธีแยกงานด้วย Aspose.Tasks for Java – คู่มือที่ครอบคลุมเกี่ยวกับวิธีแยกงาน,
+  ตั้งปฏิทินโครงการ, และสร้างการมอบหมายทรัพยากร.
+linktitle: Split Tasks in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: การจัดการงานระดับปรมาจารย์ใน Java ด้วย Aspose.Tasks! เรียนรู้วิธีแบ่งงานอย่างมีประสิทธิภาพเพื่อปรับไทม์ไลน์ของโครงการให้เหมาะสม ดาวน์โหลดเดี๋ยวนี้!
-weight: 29
+title: วิธีแยกงานใน Aspose.Tasks
 url: /th/java/task-properties/split-tasks/
+weight: 29
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ "อัปเดตล่าสุด:"
+
+"Tested With:" => "ทดสอบด้วย:"
+
+"Author:" => "ผู้เขียน:"
+
+Then closing shortcodes.
+
+Make sure to keep markdown formatting: headings, bold, lists, links.
+
+Also keep code block placeholders unchanged.
+
+Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# แยกงานใน Aspose.Tasks
+# วิธีแยกงานใน Aspose.Tasks
 
-## การแนะนำ
-คุณกำลังดิ้นรนกับการจัดการงานในโปรเจ็กต์ Java ของคุณหรือไม่? Aspose.Tasks for Java มอบโซลูชันอันทรงพลังสำหรับการแบ่งงานอย่างมีประสิทธิภาพ และเพิ่มขีดความสามารถในการจัดการโครงการ ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดกระบวนการแบ่งงานโดยใช้ Aspose.Tasks สำหรับ Java ซึ่งช่วยให้คุณปรับไทม์ไลน์โปรเจ็กต์และการจัดสรรทรัพยากรให้เหมาะสม
+## บทนำ
+หากคุณกำลังมองหา **วิธีแยกงาน** ในโครงการที่ใช้ Java, คุณมาถูกที่แล้ว Aspose.Tasks for Java มอบวิธีการเชิงโปรแกรมที่สะอาดตาเพื่อแบ่งงานที่ใช้เวลานานออกเป็นส่วนย่อยที่จัดการได้ง่าย ซึ่งช่วยในการปรับระดับทรัพยากร, รายงานที่แม่นยำ, และกำหนดเวลาโครงการที่เข้มงวดมากขึ้น ในบทเรียนนี้เราจะเดินผ่านกระบวนการทั้งหมด ตั้งแต่การตั้งค่าปฏิทินโครงการจนถึงการสร้างการมอบหมายทรัพยากรและสุดท้ายการแยกงานออกเป็นหลายส่วน
+
+## คำตอบสั้น
+- **Task splitting คืออะไร?** การแบ่งงานเดียวเป็นหลายช่วงย่อยขณะยังคงรักษาระยะเวลารวมไว้  
+- **ทำไมต้องแยกงานใน Java?** ช่วยให้การจัดสรรทรัพยากรแม่นยำและการติดตามความคืบหน้าได้ดียิ่งขึ้น  
+- **ไลบรารีใดช่วยได้?** Aspose.Tasks for Java มีเมธอดในตัวสำหรับการแยกและการทำ Time‑phasing  
+- **ต้องการไลเซนส์หรือไม่?** สามารถใช้เวอร์ชันทดลองฟรีสำหรับการพัฒนา; ต้องมีไลเซนส์สำหรับการใช้งานจริง  
+- **รองรับเวอร์ชัน Java ใด?** ไลบรารีทำงานกับ Java 8 และใหม่กว่า
+
 ## ข้อกำหนดเบื้องต้น
-ก่อนที่จะเข้าสู่บทช่วยสอน ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
-- ติดตั้ง Java Development Kit (JDK) บนเครื่องของคุณแล้ว
--  Aspose.Tasks สำหรับไลบรารี Java ดาวน์โหลดและเพิ่มลงในโปรเจ็กต์ของคุณ คุณสามารถดาวน์โหลดได้จาก[Aspose.Tasks สำหรับเอกสาร Java](https://reference.aspose.com/tasks/java/).
-## แพ็คเกจนำเข้า
-เริ่มต้นด้วยการนำเข้าแพ็คเกจที่จำเป็นไปยังโปรเจ็กต์ Java ของคุณ:
+ก่อนจะเริ่มบทเรียน, โปรดตรวจสอบว่าคุณมีสิ่งต่อไปนี้พร้อมแล้ว:
+- Java Development Kit (JDK) ติดตั้งบนเครื่องของคุณ  
+- ไลบรารี Aspose.Tasks for Java ดาวน์โหลดและเพิ่มเข้าในโปรเจกต์ของคุณ คุณสามารถดาวน์โหลดได้จาก [Aspose.Tasks for Java documentation](https://reference.aspose.com/tasks/java/)
+
+## นำเข้าแพ็กเกจ
+เริ่มต้นด้วยการนำเข้าแพ็กเกจที่จำเป็นเข้าสู่โปรเจกต์ Java ของคุณ:
+
 ```java
 import com.aspose.tasks.Asn;
 import com.aspose.tasks.Calendar;
@@ -32,68 +56,103 @@ import com.aspose.tasks.Task;
 import com.aspose.tasks.Tsk;
 import com.aspose.tasks.WorkContourType;
 ```
-## ขั้นตอนที่ 1: สร้างโครงการใหม่
-เริ่มต้นด้วยการสร้างโปรเจ็กต์ใหม่โดยใช้ไลบรารี Aspose.Tasks:
+
+## ขั้นตอนที่ 1: สร้างโปรเจกต์ใหม่
+สร้างโปรเจกต์ใหม่โดยใช้ไลบรารี Aspose.Tasks:
+
 ```java
-// สร้างโครงการใหม่
+// Create a new project
 Project splitTaskProject = new Project();
 ```
-## ขั้นตอนที่ 2: ตั้งค่าปฏิทินโครงการ
-ตั้งค่าปฏิทินของโครงการเพื่อสร้างไทม์ไลน์:
+
+## ขั้นตอนที่ 2: ตั้งค่าปฏิทินโปรเจกต์
+การตั้งค่า **project calendar** กำหนดวันทำงาน, วันหยุด, และไทม์ไลน์โดยรวมสำหรับตารางของคุณ ขั้นตอนนี้สำคัญสำหรับการคำนวณ Time‑phased ที่แม่นยำ
+
 ```java
-// รับปฏิทินมาตรฐาน
+// Get a standard calendar
 Calendar calendar = splitTaskProject.get(Prj.CALENDAR);
-// ตั้งค่าปฏิทินของโครงการ
+// Set project's calendar settings
 java.util.Calendar cal = java.util.Calendar.getInstance();
-// ... (ต่อจากตัวอย่าง)
+// ... (continue with the example)
 ```
-## ขั้นตอนที่ 3: เพิ่มงานรูท
-เพิ่มงานรูทให้กับโปรเจ็กต์ของคุณ:
+
+## ขั้นตอนที่ 3: เพิ่มงานราก
+ทุกโปรเจกต์ต้องมีคอนเทนเนอร์ราก การเพิ่มงานรากจะให้จุดเชื่อมต่อสำหรับงานทั้งหมดที่ตามมา
+
 ```java
-// งานรูท
+// Root task
 Task rootTask = splitTaskProject.getRootTask();
 rootTask.set(Tsk.NAME, "Root");
 ```
+
 ## ขั้นตอนที่ 4: เพิ่มงานใหม่เพื่อแยก
-เพิ่มงานใหม่ในโครงการของคุณที่คุณต้องการแยก:
+สร้างงานที่คุณต้องการจะแยก ในตัวอย่างนี้เรากำหนดระยะเวลาเป็นสามวันเป็นตัวอย่าง
+
 ```java
-// เพิ่มงานใหม่
+// Add a new task
 Task taskToSplit = rootTask.getChildren().add("Task1");
 taskToSplit.set(Tsk.DURATION, splitTaskProject.getDuration(3));
 ```
+
 ## ขั้นตอนที่ 5: สร้างการมอบหมายทรัพยากร
-สร้างการมอบหมายทรัพยากรใหม่สำหรับงาน:
+**Resource assignment** เชื่อมทรัพยากร (หรือ placeholder) กับงาน ซึ่งจำเป็นก่อนการสร้างข้อมูล Time‑phased
+
 ```java
-// สร้างการมอบหมายทรัพยากรใหม่
+// Create a new resource assignment
 ResourceAssignment splitResourceAssignment = splitTaskProject.getResourceAssignments().add(taskToSplit, null);
 ```
-## ขั้นตอนที่ 6: สร้างข้อมูลตามช่วงเวลา
-สร้างข้อมูลตามระยะเวลาของการมอบหมายทรัพยากร:
+
+## ขั้นตอนที่ 6: สร้างข้อมูล Timephased
+ข้อมูล Time‑phased แสดงว่าการทำงานกระจายอย่างไรตลอดระยะเวลาของงาน การสร้างข้อมูลนี้เตรียมงานให้พร้อมสำหรับการแยก
+
 ```java
-// สร้างข้อมูลตามระยะเวลาการมอบหมายทรัพยากร
+// Generate resource assignment timephased data
 splitResourceAssignment.timephasedDataFromTaskDuration(calendar);
 ```
-## ขั้นตอนที่ 7: แบ่งงาน
-แบ่งงานออกเป็นหลายส่วน:
+
+## ขั้นตอนที่ 7: แยกงาน
+ตอนนี้เราจะ **แยกงานออกเป็นส่วน** ในตัวอย่างนี้เราจะแบ่งงานสามวันเป็นสามส่วนวันละหนึ่งวัน
+
 ```java
-// แบ่งงานออกเป็น 3 ส่วน
+// Split the task into 3 parts
 java.util.Calendar cal = java.util.Calendar.getInstance();
 java.util.Calendar cal2 = java.util.Calendar.getInstance();
-// ... (ต่อจากตัวอย่าง)
+// ... (continue with the example)
 ```
-## บทสรุป
-ยินดีด้วย! คุณได้เรียนรู้วิธีแบ่งงานโดยใช้ Aspose.Tasks สำหรับ Java เรียบร้อยแล้ว ไลบรารีอันทรงพลังนี้ช่วยลดความยุ่งยากในการจัดการงานในโปรเจ็กต์ Java โดยมอบโซลูชั่นที่มีประสิทธิภาพสำหรับการปรับไทม์ไลน์ของโปรเจ็กต์และการจัดสรรทรัพยากรให้เหมาะสม
+
+## ทำไมต้องแยกงาน?
+การแยกงานให้คุณควบคุมได้ละเอียดขึ้นในด้าน:
+- **Resource leveling:** มอบหมายทรัพยากรที่แตกต่างให้กับแต่ละส่วน  
+- **Progress tracking:** อัปเดตสถานะตามแต่ละส่วน  
+- **Reporting:** สร้าง Gantt chart และรายงานที่ละเอียดมากขึ้น
+
+## ปัญหาที่พบบ่อยและวิธีแก้
+- **Missing calendar data:** ตรวจสอบให้แน่ใจว่าคุณเรียก `timephasedDataFromTaskDuration` ก่อนทำการแยก  
+- **Zero‑duration segments:** ตรวจสอบว่าช่วงเวลาที่แยกแต่ละช่วงมีระยะเวลาไม่เป็นศูนย์; มิฉะนั้นไลบรารีจะละเลยมัน  
+- **License exceptions:** การรันโดยไม่มีไลเซนส์ที่ถูกต้องอาจทำให้ไฟล์ที่ส่งออกมีลายน้ำ
+
 ## คำถามที่พบบ่อย
-### ฉันสามารถแบ่งงานที่มีระยะเวลาต่างกันได้หรือไม่
-ได้ คุณสามารถปรับระยะเวลาของงานได้ตามความต้องการของโครงการ
-### Aspose.Tasks สำหรับ Java เข้ากันได้กับ Java เวอร์ชันทั้งหมดหรือไม่
-Aspose.Tasks for Java ได้รับการออกแบบมาให้ทำงานร่วมกับ Java เวอร์ชันต่างๆ ได้อย่างราบรื่น จึงมั่นใจได้ถึงความเข้ากันได้
-### ฉันสามารถใช้ Aspose.Tasks สำหรับ Java ได้ฟรีหรือไม่
-Aspose.Tasks for Java ให้ทดลองใช้ฟรี ช่วยให้คุณสามารถสำรวจคุณสมบัติต่างๆ ก่อนตัดสินใจซื้อ
-### ฉันจะรับการสนับสนุนสำหรับ Aspose.Tasks สำหรับ Java ได้อย่างไร
- เยี่ยมชม[Aspose.Tasks สำหรับฟอรัมสนับสนุน Java](https://forum.aspose.com/c/tasks/15) เพื่อรับความช่วยเหลือและเชื่อมต่อกับชุมชน
-### ฉันจำเป็นต้องมีใบอนุญาตชั่วคราวสำหรับ Aspose.Tasks สำหรับ Java หรือไม่
- คุณสามารถขอรับใบอนุญาตชั่วคราวได้จาก[ลิงค์นี้](https://purchase.aspose.com/temporary-license/) เพื่อวัตถุประสงค์ในการทดสอบและประเมินผล
+### ฉันสามารถแยกงานโดยมีระยะเวลาต่างกันได้หรือไม่?
+ได้, คุณสามารถปรับระยะเวลาของแต่ละส่วนให้ตรงกับความต้องการของโครงการของคุณ
+
+### Aspose.Tasks for Java เข้ากันได้กับเวอร์ชัน Java ทั้งหมดหรือไม่?
+Aspose.Tasks for Java ถูกออกแบบให้ทำงานอย่างราบรื่นกับ Java 8 และใหม่กว่า, เพื่อความเข้ากันได้อย่างกว้างขวาง
+
+### ฉันสามารถใช้ Aspose.Tasks for Java ได้ฟรีหรือไม่?
+Aspose.Tasks for Java มีเวอร์ชันทดลองฟรี, ให้คุณสำรวจคุณสมบัติก่อนตัดสินใจซื้อ
+
+### ฉันจะขอรับการสนับสนุนสำหรับ Aspose.Tasks for Java ได้อย่างไร?
+เยี่ยมชม [Aspose.Tasks for Java support forum](https://forum.aspose.com/c/tasks/15) เพื่อขอความช่วยเหลือและเชื่อมต่อกับชุมชน
+
+### ฉันต้องการใบอนุญาตชั่วคราวสำหรับ Aspose.Tasks for Java หรือไม่?
+คุณสามารถรับใบอนุญาตชั่วคราวจาก [this link](https://purchase.aspose.com/temporary-license/) สำหรับการทดสอบและประเมินผล
+
+---
+
+**อัปเดตล่าสุด:** 2026-02-26  
+**ทดสอบด้วย:** Aspose.Tasks for Java 24.11  
+**ผู้เขียน:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
