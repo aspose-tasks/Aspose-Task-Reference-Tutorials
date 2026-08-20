@@ -1,148 +1,180 @@
 ---
-title: Labels weergeven in Aspose.Tasks
-linktitle: Labels weergeven in Aspose.Tasks
+date: 2026-03-08
+description: Leer hoe u de weergave van labels instelt en het daglabel aanpast in
+  projectmanagement met Aspose.Tasks voor .NET, waardoor de leesbaarheid en duidelijkheid
+  worden verbeterd.
+linktitle: Displaying Labels in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Leer hoe u labelweergaven in projectbeheer kunt aanpassen met Aspose.Tasks voor .NET. Verbeter moeiteloos de leesbaarheid en duidelijkheid.
-weight: 14
+title: Hoe labelweergave instellen in Aspose.Tasks voor .NET
 url: /nl/net/advanced-concepts/label-display/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Labels weergeven in Aspose.Tasks
+# Hoe labelweergave in te stellen in Aspose.Tasks voor .NET
 
-## Invoering
+## Introductie
 
-Op het gebied van softwareontwikkeling is het efficiënt beheren van taken essentieel voor het succes van projecten. Aspose.Tasks voor .NET biedt een robuuste oplossing voor het naadloos afhandelen van projectbeheertaken binnen het .NET-framework. Een belangrijk aspect van projectmanagement is de mogelijkheid om de weergaveopties aan te passen aan specifieke vereisten. In deze zelfstudie onderzoeken we hoe u Aspose.Tasks voor .NET kunt gebruiken om de weergave van minuten-, uur-, dag-, week-, maand- en jaarlabels in projectbestanden te manipuleren.
+Wanneer u een project‑managementoplossing bouwt met **Aspose.Tasks for .NET**, is het kunnen **how to set label**‑opties essentieel om planningen gemakkelijk leesbaar te maken. Of u nu minutie‑voor‑minuut precisie nodig heeft of een hoog‑niveau jaaroverzicht, het aanpassen van de labelweergave stelt u in staat de tijdlijn precies zo te presenteren als uw belanghebbenden verwachten. In deze tutorial lopen we stap‑voor‑stap door het proces van het instellen van labelweergaven voor minuten, uren, dagen, weken, maanden en jaren, en laten we ook zien hoe u **customize day label**‑opmaak kunt aanpassen voor maximale duidelijkheid.
 
-## Vereisten
+## Snelle antwoorden
+- **Wat betekent “how to set label”?** Het verwijst naar het configureren van de `DisplayOptions`‑eigenschappen die bepalen hoe tijdseenheden verschijnen in een projectbestand.  
+- **Welke label kan ik wijzigen?** Minuten, uren, dagen, weken, maanden en jaren zijn allemaal configureerbaar.  
+- **Heb ik een licentie nodig?** Een geldige Aspose.Tasks‑licentie is vereist voor productiegebruik; een gratis proefversie werkt voor testen.  
+- **Wordt dit ondersteund op .NET Core?** Ja, de API werkt met .NET Core, .NET 5/6 en het volledige .NET Framework.  
+- **Kan ik het label tijdens runtime wijzigen?** Absoluut – u kunt de weergave‑opties op elk moment vóór het opslaan van het project aanpassen.
 
-Voordat we in de tutorial duiken, moet je ervoor zorgen dat je aan de volgende vereisten voldoet:
+## Wat is labelweergave in Aspose.Tasks?
 
-1. Kennis van C#-programmering: Een basiskennis van de C#-programmeertaal is noodzakelijk om de gegeven voorbeelden te begrijpen en te implementeren.
-2.  Installatie van Aspose.Tasks voor .NET: Download en installeer de Aspose.Tasks voor .NET-bibliotheek van[hier](https://releases.aspose.com/tasks/net/).
-3. Ontwikkelomgeving: Zet een ontwikkelomgeving op met Visual Studio of een andere gewenste IDE voor .NET-ontwikkeling.
+Labelweergave bepaalt de tekstuele weergave van tijdseenheden (minuut, uur, dag, enz.) op de Gantt‑grafiek en tijdschaal. Door de juiste `DisplayOptions`‑eigenschap in te stellen, geeft u Aspose.Tasks instructies hoe die eenheden weer te geven, wat de leesbaarheid van het project aanzienlijk kan verbeteren.
 
-## Naamruimten importeren
+## Waarom labelweergaven aanpassen?
 
-Zorg ervoor dat u, voordat u aan de slag gaat, de vereiste naamruimten voor Aspose.Tasks importeert:
+- **Verbeterde leesbaarheid:** Belanghebbenden kunnen direct de granulariteit van de planning begrijpen.  
+- **Consistente rapportage:** Stemmt de visuele output af op bedrijfsstandaarden (bijv. “Mo” voor maanden).  
+- **Flexibiliteit:** Schakel tussen gedetailleerde en hoog‑niveau weergaven zonder de onderliggende planningsgegevens te wijzigen.
+
+## Voorvereisten
+
+1. **C#-kennis** – basiskennis van C#‑syntaxis en .NET‑projectstructuur.  
+2. **Aspose.Tasks for .NET** – download en installeer de bibliotheek van [hier](https://releases.aspose.com/tasks/net/).  
+3. **Ontwikkelomgeving** – Visual Studio, VS Code, of elke IDE die .NET‑ontwikkeling ondersteunt.
+
+## Namespaces importeren
+
+Voordat u begint, importeert u de vereiste namespaces:
 
 ```csharp
 using Aspose.Tasks;
 using Aspose.Tasks;
 ```
 
-## 1. Minutenlabels weergeven
+## Hoe labelweergave voor minuten instellen
 
-Om minuutlabels binnen projectbestanden weer te geven:
+### 1. Minutelabels weergeven
+
+Om het minuutlabel in te stellen, gebruikt u de `MinuteLabel`‑eigenschap:
 
 ```csharp
 public void WorkWithMinuteLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // Stel in hoe het minutenlabel wordt weergegeven
+    // Set how the minute label is displayed
     project.DisplayOptions.MinuteLabel = MinuteLabelDisplay.M;
 }
 ```
 
-## 2. Uurlabels weergeven
+## Hoe labelweergave voor uren instellen
 
-Om uurlabels binnen projectbestanden weer te geven:
+### 2. Uurlabels weergeven
 
 ```csharp
 public void WorkWithHourLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // Stel in hoe het uurlabel wordt weergegeven
+    // Set how the hour label is displayed
     project.DisplayOptions.HourLabel = HourLabelDisplay.H;
 }
 ```
 
-## 3. Daglabels weergeven
+## Daglabelweergave aanpassen
 
-Om daglabels binnen projectbestanden weer te geven:
+### 3. Daglabels weergeven
 
 ```csharp
 public void WorkWithDayLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // Stel in hoe het daglabel wordt weergegeven
+    // Set how the day label is displayed
     project.DisplayOptions.DayLabel = DayLabelDisplay.D;
 }
 ```
 
-## 4. Weeklabels weergeven
+## Hoe labelweergave voor weken instellen
 
-Om weeklabels binnen projectbestanden weer te geven:
+### 4. Weeklabels weergeven
 
 ```csharp
 public void WorkWithWeekLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // Stel in hoe het weeklabel wordt weergegeven
+    // Set how the week label is displayed
     project.DisplayOptions.WeekLabel = WeekLabelDisplay.W;
 }
 ```
 
-## 5. Maandlabels weergeven
+## Hoe labelweergave voor maanden instellen
 
-Om maandlabels binnen projectbestanden weer te geven:
+### 5. Maandlabels weergeven
 
 ```csharp
 public void WorkWithMonthLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // Stel in hoe het maandlabel wordt weergegeven
+    // Set how the month label is displayed
     project.DisplayOptions.MonthLabel = MonthLabelDisplay.Mo;
 }
 ```
 
-## 6. Jaarlabels weergeven
+## Hoe labelweergave voor jaren instellen
 
-Om jaarlabels binnen projectbestanden weer te geven:
+### 6. Jaarlabels weergeven
 
 ```csharp
 public void WorkWithYearLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // Stel in hoe het jaarlabel wordt weergegeven
+    // Set how the year label is displayed
     project.DisplayOptions.YearLabel = YearLabelDisplay.Y;
 }
 ```
 
+## Veelvoorkomende valkuilen & tips
+
+- **Tip:** Stel de labelweergave altijd *voor* het opslaan van het project in; wijzigingen die na het opslaan worden aangebracht, worden niet in het bestand weergegeven.  
+- **Valkuil:** Het gebruiken van een niet‑ondersteunde enum‑waarde zal een `ArgumentException` veroorzaken. Houd u aan de meegeleverde `*LabelDisplay`‑enums.  
+- **Tip:** Als u verschillende labelformaten voor afzonderlijke weergaven nodig heeft, maak dan aparte `Project`‑instanties aan of kloon het `DisplayOptions`‑object.
+
 ## Conclusie
 
-Kortom, het efficiënt beheren van projecttaken is cruciaal voor het succes van projecten, en Aspose.Tasks voor .NET biedt een uitgebreide oplossing voor het afhandelen van projectmanagementtaken. Door de labelweergaven aan te passen, kunnen gebruikers de duidelijkheid en leesbaarheid van projectgegevens verbeteren, wat leidt tot verbeterde projectbeheerprocessen.
+Door **how to set label**‑opties in Aspose.Tasks onder de knie te krijgen, krijgt u fijnmazige controle over de visuele presentatie van uw projectplanningen. Of u nu het daglabel aanpast voor een dagelijkse scrum‑board of het jaarlabel bijstelt voor een meerjaren‑roadmap, deze instellingen helpen u duidelijkere, professionelere projectdocumentatie te leveren.
 
 ## Veelgestelde vragen
 
-### V1: Kan ik de labelweergaven aanpassen voor specifieke delen van een project?
+### Q1: Kan ik labelweergaven aanpassen voor specifieke secties van een project?
 
-A1: Ja, Aspose.Tasks voor .NET biedt gedetailleerde controle over labelweergaven, waardoor maatwerk voor specifieke delen van een project indien nodig mogelijk is.
+A1: Ja, Aspose.Tasks for .NET biedt granulaire controle over labelweergaven, waardoor aanpassing voor specifieke secties van een project mogelijk is.
 
-### V2: Is Aspose.Tasks compatibel met populaire .NET-frameworks?
+### Q2: Is Aspose.Tasks compatibel met populaire .NET‑frameworks?
 
-A2: Ja, Aspose.Tasks voor .NET is compatibel met verschillende .NET-frameworks, waaronder .NET Core en .NET Framework.
+A2: Ja, Aspose.Tasks for .NET is compatibel met verschillende .NET‑frameworks, waaronder .NET Core en .NET Framework.
 
-### V3: Kan ik de labelweergaven dynamisch wijzigen op basis van projectvereisten?
+### Q3: Kan ik labelweergaven dynamisch wijzigen op basis van projectvereisten?
 
-A3: Absoluut, de flexibiliteit van Aspose.Tasks voor .NET maakt dynamische aanpassingen mogelijk om displays te labelen op basis van veranderende projectvereisten.
+A3: Absoluut, de flexibiliteit van Aspose.Tasks for .NET maakt dynamische aanpassingen van labelweergaven mogelijk op basis van evoluerende projectvereisten.
 
-### Vraag 4: Zijn er beperkingen aan het aanpassen van labelweergaven?
+### Q4: Zijn er beperkingen aan de aanpassing van labelweergaven?
 
-A4: Aspose.Tasks voor .NET biedt uitgebreide aanpassingsmogelijkheden voor labelweergaven, met minimale beperkingen, waardoor gebruikers over voldoende flexibiliteit beschikken.
+A4: Aspose.Tasks for .NET biedt uitgebreide aanpassingsopties voor labelweergaven, met minimale beperkingen, waardoor gebruikers ruime flexibiliteit hebben.
 
-### V5: Ondersteunt Aspose.Tasks integratie met andere projectmanagementtools?
+### Q5: Ondersteunt Aspose.Tasks integratie met andere projectmanagementtools?
 
-A5: Ja, Aspose.Tasks biedt naadloze integratiemogelijkheden, waardoor interoperabiliteit met andere projectmanagementtools en -platforms wordt vergemakkelijkt.
+A5: Ja, Aspose.Tasks biedt naadloze integratiemogelijkheden, waardoor interoperabiliteit met andere projectmanagementtools en -platformen wordt vergemakkelijkt.
+
+---
+
+**Laatst bijgewerkt:** 2026-03-08  
+**Getest met:** Aspose.Tasks 24.11 for .NET  
+**Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

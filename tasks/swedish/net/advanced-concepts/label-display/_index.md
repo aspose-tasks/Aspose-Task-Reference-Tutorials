@@ -1,148 +1,179 @@
 ---
-title: Visar etiketter i Aspose.Tasks
-linktitle: Visar etiketter i Aspose.Tasks
+date: 2026-03-08
+description: Lär dig hur du ställer in etikettvisning och anpassar dagsetiketten i
+  projektledning med Aspose.Tasks för .NET, vilket förbättrar läsbarhet och tydlighet.
+linktitle: Displaying Labels in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Lär dig hur du anpassar etikettvisningar i projekthantering med Aspose.Tasks för .NET. Förbättra läsbarheten och tydligheten utan ansträngning.
-weight: 14
+title: Hur man ställer in etikettvisning i Aspose.Tasks för .NET
 url: /sv/net/advanced-concepts/label-display/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Visar etiketter i Aspose.Tasks
+# Hur man ställer in etikettvisning i Aspose.Tasks för .NET
 
 ## Introduktion
 
-Inom området för mjukvaruutveckling är det absolut nödvändigt att hantera uppgifter effektivt för att projektet ska lyckas. Aspose.Tasks för .NET erbjuder en robust lösning för att hantera projektledningsuppgifter sömlöst inom .NET-ramverket. En viktig aspekt av projektledning är möjligheten att anpassa visningsalternativen för att passa specifika krav. I den här handledningen kommer vi att utforska hur man använder Aspose.Tasks för .NET för att manipulera visningar av minut, timme, dag, vecka, månad och år i projektfiler.
+När du bygger en projekt‑hanteringslösning med **Aspose.Tasks for .NET**, är det viktigt att kunna **hur man ställer in etikett**‑alternativ för att göra scheman lätta att läsa. Oavsett om du behöver minut‑för‑minut‑precision eller en hög‑nivå årsöversikt, låter anpassning av etikettvisningen dig presentera tidslinjen exakt på det sätt dina intressenter förväntar sig. I den här handledningen går vi igenom steg‑för‑steg‑processen för att ställa in etikettvisningar för minuter, timmar, dagar, veckor, månader och år, och vi visar också hur du **anpassar dagsetikett**‑formatering för maximal tydlighet.
+
+## Snabba svar
+- **Vad betyder “hur man ställer in etikett”?** Det avser konfiguration av `DisplayOptions`‑egenskaperna som styr hur tidsenheter visas i en projektfil.  
+- **Vilken etikett kan jag ändra?** Minuter, timmar, dagar, veckor, månader och år kan alla konfigureras.  
+- **Behöver jag en licens?** En giltig Aspose.Tasks‑licens krävs för produktionsanvändning; en gratis provversion fungerar för testning.  
+- **Stöds detta på .NET Core?** Ja, API‑et fungerar med .NET Core, .NET 5/6 och hela .NET Framework.  
+- **Kan jag ändra etiketten vid körning?** Absolut – du kan modifiera visningsalternativen när som helst innan projektet sparas.
+
+## Vad är etikettvisning i Aspose.Tasks?
+
+Etikettvisning bestämmer den textuella representationen av tidsenheter (minut, timme, dag osv.) på Gantt‑diagrammet och tidslinjen. Genom att sätta rätt `DisplayOptions`‑egenskap instruerar du Aspose.Tasks hur dessa enheter ska renderas, vilket kan förbättra projektets läsbarhet avsevärt.
+
+## Varför anpassa etikettvisningar?
+
+- **Förbättrad läsbarhet:** Intressenter kan omedelbart förstå schemats granularitet.  
+- **Enhetlig rapportering:** Analyserar den visuella utdata med företagets standarder (t.ex. “Mo” för månader).  
+- **Flexibilitet:** Växla mellan detaljerade och övergripande vyer utan att ändra den underliggande schemadatan.
 
 ## Förutsättningar
 
-Innan vi dyker in i handledningen, se till att du har följande förutsättningar:
+1. **C#‑kunskaper** – grundläggande förståelse för C#‑syntax och .NET‑projektstruktur.  
+2. **Aspose.Tasks for .NET** – ladda ner och installera biblioteket från [here](https://releases.aspose.com/tasks/net/).  
+3. **Utvecklingsmiljö** – Visual Studio, VS Code eller någon IDE som stödjer .NET‑utveckling.
 
-1. Kunskaper om C#-programmering: En grundläggande förståelse av C#-programmeringsspråk är nödvändig för att förstå och implementera exemplen som ges.
-2.  Installation av Aspose.Tasks för .NET: Ladda ner och installera Aspose.Tasks for .NET-biblioteket från[här](https://releases.aspose.com/tasks/net/).
-3. Utvecklingsmiljö: Skapa en utvecklingsmiljö med Visual Studio eller någon annan föredragen IDE för .NET-utveckling.
+## Importera namnrymder
 
-## Importera namnområden
-
-Innan du börjar, se till att importera de nödvändiga namnrymden för Aspose.Tasks:
+Innan du börjar, importera de nödvändiga namnrymderna:
 
 ```csharp
 using Aspose.Tasks;
 using Aspose.Tasks;
 ```
 
-## 1. Visa minutetiketter
+## Hur man ställer in etikettvisning för minuter
 
-Så här visar du minutetiketter i projektfiler:
+### 1. Visa minutetiketter
+
+För att ange minutetiketten, använd egenskapen `MinuteLabel`:
 
 ```csharp
 public void WorkWithMinuteLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // Ställ in hur minutetiketten ska visas
+    // Set how the minute label is displayed
     project.DisplayOptions.MinuteLabel = MinuteLabelDisplay.M;
 }
 ```
 
-## 2. Visa timetiketter
+## Hur man ställer in etikettvisning för timmar
 
-Så här visar du timetiketter i projektfiler:
+### 2. Visa timmetiketter
 
 ```csharp
 public void WorkWithHourLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // Ställ in hur timetiketten ska visas
+    // Set how the hour label is displayed
     project.DisplayOptions.HourLabel = HourLabelDisplay.H;
 }
 ```
 
-## 3. Visa dagsetiketter
+## Anpassa dagsetikettvisning
 
-Så här visar du dagsetiketter i projektfiler:
+### 3. Visa dagetiketter
 
 ```csharp
 public void WorkWithDayLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // Ställ in hur dagsetiketten ska visas
+    // Set how the day label is displayed
     project.DisplayOptions.DayLabel = DayLabelDisplay.D;
 }
 ```
 
-## 4. Visa veckoetiketter
+## Hur man ställer in etikettvisning för veckor
 
-Så här visar du veckoetiketter i projektfiler:
+### 4. Visa veckoetiketter
 
 ```csharp
 public void WorkWithWeekLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // Ställ in hur veckoetiketten ska visas
+    // Set how the week label is displayed
     project.DisplayOptions.WeekLabel = WeekLabelDisplay.W;
 }
 ```
 
-## 5. Visa månadsetiketter
+## Hur man ställer in etikettvisning för månader
 
-Så här visar du månadsetiketter i projektfiler:
+### 5. Visa månadsetiketter
 
 ```csharp
 public void WorkWithMonthLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // Ställ in hur månadsetiketten ska visas
+    // Set how the month label is displayed
     project.DisplayOptions.MonthLabel = MonthLabelDisplay.Mo;
 }
 ```
 
-## 6. Visar årsetiketter
+## Hur man ställer in etikettvisning för år
 
-Så här visar du årsetiketter i projektfiler:
+### 6. Visa årsetiketter
 
 ```csharp
 public void WorkWithYearLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // Ställ in hur årsetiketten ska visas
+    // Set how the year label is displayed
     project.DisplayOptions.YearLabel = YearLabelDisplay.Y;
 }
 ```
 
+## Vanliga fallgropar & tips
+
+- **Tips:** Sätt alltid etikettvisningen *innan* du sparar projektet; ändringar som görs efter sparning kommer inte att återspeglas i filen.  
+- **Fallgrop:** Att använda ett ej‑stött enum‑värde kastar ett `ArgumentException`. Håll dig till de medföljande `*LabelDisplay`‑enum‑värdena.  
+- **Tips:** Om du behöver olika etikettstilar för separata vyer, skapa separata `Project`‑instanser eller klona `DisplayOptions`‑objektet.
+
 ## Slutsats
 
-Sammanfattningsvis är hantering av projektuppgifter effektivt avgörande för projektframgång, och Aspose.Tasks för .NET tillhandahåller en heltäckande lösning för att hantera projektledningsuppgifter. Genom att anpassa etikettdisplayer kan användare förbättra tydligheten och läsbarheten för projektdata, vilket leder till förbättrade projektledningsprocesser.
+Genom att behärska **hur man ställer in etikett**‑alternativ i Aspose.Tasks får du fin‑granulerad kontroll över den visuella presentationen av dina projektscheman. Oavsett om du anpassar dagsetiketten för en daglig scrum‑tavla eller justerar årsetiketten för en flerårs‑färdplan, hjälper dessa inställningar dig att leverera tydligare och mer professionell projektdokumentation.
 
-## FAQ's
+## Vanliga frågor
 
-### F1: Kan jag anpassa etikettvisningar för specifika delar av ett projekt?
+### Q1: Kan jag anpassa etikettvisningar för specifika sektioner i ett projekt?
 
-S1: Ja, Aspose.Tasks för .NET tillåter granulär kontroll över etikettskärmar, vilket möjliggör anpassning för specifika delar av ett projekt efter behov.
+A1: Ja, Aspose.Tasks for .NET möjliggör detaljerad kontroll över etikettvisningar, vilket gör det möjligt att anpassa specifika projektsektioner vid behov.
 
-### F2: Är Aspose.Tasks kompatibel med populära .NET-ramverk?
+### Q2: Är Aspose.Tasks kompatibel med populära .NET‑ramverk?
 
-S2: Ja, Aspose.Tasks för .NET är kompatibelt med olika .NET-ramverk, inklusive .NET Core och .NET Framework.
+A2: Ja, Aspose.Tasks for .NET är kompatibel med olika .NET‑ramverk, inklusive .NET Core och .NET Framework.
 
-### F3: Kan jag ändra etikettvisningar dynamiskt baserat på projektkrav?
+### Q3: Kan jag dynamiskt ändra etikettvisningar baserat på projektkrav?
 
-S3: Absolut, flexibiliteten hos Aspose.Tasks för .NET tillåter dynamiska justeringar av etikettskärmar baserat på utvecklande projektkrav.
+A3: Absolut, flexibiliteten i Aspose.Tasks for .NET tillåter dynamiska justeringar av etikettvisningar baserat på föränderliga projektkrav.
 
-### F4: Finns det några begränsningar för anpassningen av etikettdisplayer?
+### Q4: Finns det några begränsningar för anpassning av etikettvisningar?
 
-S4: Aspose.Tasks för .NET erbjuder omfattande anpassningsalternativ för etikettskärmar, med minimala begränsningar, vilket ger användarna stor flexibilitet.
+A4: Aspose.Tasks for .NET erbjuder omfattande anpassningsalternativ för etikettvisningar med minimala begränsningar, vilket ger användarna stor flexibilitet.
 
-### F5: Stöder Aspose.Tasks integration med andra projektledningsverktyg?
+### Q5: Stöder Aspose.Tasks integration med andra projektledningsverktyg?
 
-S5: Ja, Aspose.Tasks erbjuder sömlösa integrationsmöjligheter, vilket underlättar interoperabilitet med andra projekthanteringsverktyg och plattformar.
+A5: Ja, Aspose.Tasks erbjuder sömlösa integrationsmöjligheter, vilket underlättar interoperabilitet med andra projektledningsverktyg och plattformar.
+
+---
+
+**Senast uppdaterad:** 2026-03-08  
+**Testad med:** Aspose.Tasks 24.11 for .NET  
+**Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,148 +1,182 @@
 ---
-title: Menampilkan Label di Aspose.Tasks
-linktitle: Menampilkan Label di Aspose.Tasks
-second_title: Aspose.Tugas .NET API
-description: Pelajari cara menyesuaikan tampilan label dalam manajemen proyek dengan Aspose.Tasks untuk .NET. Tingkatkan keterbacaan dan kejelasan dengan mudah.
-weight: 14
+date: 2026-03-08
+description: Pelajari cara mengatur tampilan label dan menyesuaikan label hari dalam
+  manajemen proyek menggunakan Aspose.Tasks untuk .NET, meningkatkan keterbacaan dan
+  kejelasan.
+linktitle: Displaying Labels in Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+title: Cara Mengatur Tampilan Label di Aspose.Tasks untuk .NET
 url: /id/net/advanced-concepts/label-display/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Menampilkan Label di Aspose.Tasks
+# Cara Mengatur Tampilan Label di Aspose.Tasks untuk .NET
 
-## Perkenalan
+## Introduction
 
-Dalam bidang pengembangan perangkat lunak, mengelola tugas secara efisien sangat penting untuk keberhasilan proyek. Aspose.Tasks untuk .NET menawarkan solusi tangguh untuk menangani tugas manajemen proyek dengan lancar dalam kerangka .NET. Salah satu aspek kunci dari manajemen proyek adalah kemampuan untuk menyesuaikan opsi tampilan agar sesuai dengan kebutuhan spesifik. Dalam tutorial ini, kita akan mempelajari cara memanfaatkan Aspose.Tasks untuk .NET untuk memanipulasi tampilan label menit, jam, hari, minggu, bulan, dan tahun dalam file proyek.
+Saat Anda membangun solusi manajemen proyek dengan **Aspose.Tasks for .NET**, kemampuan untuk **cara mengatur label** sangat penting untuk membuat jadwal mudah dibaca. Baik Anda memerlukan presisi menit‑per‑menit atau tampilan tahunan tingkat tinggi, menyesuaikan tampilan label memungkinkan Anda menyajikan garis waktu persis seperti yang diharapkan pemangku kepentingan. Dalam tutorial ini kami akan membimbing Anda langkah demi langkah dalam mengatur tampilan label untuk menit, jam, hari, minggu, bulan, dan tahun, serta menunjukkan cara **menyesuaikan format label hari** untuk kejelasan maksimal.
 
-## Prasyarat
+## Quick Answers
+- **Apa arti “cara mengatur label”?** Ini merujuk pada konfigurasi properti `DisplayOptions` yang mengontrol bagaimana satuan waktu ditampilkan dalam file proyek.  
+- **Label mana yang dapat saya ubah?** Menit, jam, hari, minggu, bulan, dan tahun semuanya dapat dikonfigurasi.  
+- **Apakah saya memerlukan lisensi?** Lisensi Aspose.Tasks yang valid diperlukan untuk penggunaan produksi; versi percobaan gratis dapat digunakan untuk pengujian.  
+- **Apakah ini didukung di .NET Core?** Ya, API ini bekerja dengan .NET Core, .NET 5/6, dan .NET Framework lengkap.  
+- **Bisakah saya mengubah label saat runtime?** Tentu – Anda dapat memodifikasi opsi tampilan kapan saja sebelum menyimpan proyek.
 
-Sebelum kita mendalami tutorialnya, pastikan Anda memiliki prasyarat berikut:
+## What is label display in Aspose.Tasks?
 
-1. Pengetahuan tentang Pemrograman C#: Pemahaman dasar tentang bahasa pemrograman C# diperlukan untuk memahami dan mengimplementasikan contoh-contoh yang diberikan.
-2.  Instalasi Aspose.Tasks untuk .NET: Unduh dan instal perpustakaan Aspose.Tasks untuk .NET dari[Di Sini](https://releases.aspose.com/tasks/net/).
-3. Lingkungan Pengembangan: Siapkan lingkungan pengembangan dengan Visual Studio atau IDE pilihan lainnya untuk pengembangan .NET.
+Tampilan label menentukan representasi tekstual satuan waktu (menit, jam, hari, dll.) pada diagram Gantt dan skala waktu. Dengan mengatur properti `DisplayOptions` yang tepat, Anda memberi tahu Aspose.Tasks cara merender satuan tersebut, yang dapat secara signifikan meningkatkan keterbacaan proyek.
 
-## Impor Namespace
+## Why customize label displays?
 
-Sebelum memulai, pastikan untuk mengimpor namespace yang diperlukan untuk Aspose.Tasks:
+- **Meningkatkan keterbacaan:** Pemangku kepentingan dapat langsung memahami tingkat detail jadwal.  
+- **Pelaporan konsisten:** Menyelaraskan output visual dengan standar perusahaan (misalnya, menggunakan “Mo” untuk bulan).  
+- **Fleksibilitas:** Beralih antara tampilan detail dan tingkat tinggi tanpa mengubah data jadwal yang mendasarinya.
+
+## Prerequisites
+
+1. **C# knowledge** – pemahaman dasar tentang sintaks C# dan struktur proyek .NET.  
+2. **Aspose.Tasks for .NET** – unduh dan instal pustaka dari [here](https://releases.aspose.com/tasks/net/).  
+3. **Development environment** – Visual Studio, VS Code, atau IDE apa pun yang mendukung pengembangan .NET.
+
+## Import Namespaces
+
+Sebelum memulai, impor namespace yang diperlukan:
 
 ```csharp
 using Aspose.Tasks;
 using Aspose.Tasks;
 ```
 
-## 1. Menampilkan Label Menit
+## How to set label display for minutes
 
-Untuk menampilkan label menit dalam file proyek:
+### 1. Displaying Minute Labels
+
+Untuk mengatur label menit, gunakan properti `MinuteLabel`:
 
 ```csharp
 public void WorkWithMinuteLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // Atur bagaimana label menit ditampilkan
+    // Set how the minute label is displayed
     project.DisplayOptions.MinuteLabel = MinuteLabelDisplay.M;
 }
 ```
 
-## 2. Menampilkan Label Jam
+## How to set label display for hours
 
-Untuk menampilkan label jam dalam file proyek:
+### 2. Displaying Hour Labels
 
 ```csharp
 public void WorkWithHourLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // Atur bagaimana label jam ditampilkan
+    // Set how the hour label is displayed
     project.DisplayOptions.HourLabel = HourLabelDisplay.H;
 }
 ```
 
-## 3. Menampilkan Label Hari
+## Customize day label display
 
-Untuk menampilkan label hari dalam file proyek:
+### 3. Displaying Day Labels
 
 ```csharp
 public void WorkWithDayLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // Atur bagaimana label hari ditampilkan
+    // Set how the day label is displayed
     project.DisplayOptions.DayLabel = DayLabelDisplay.D;
 }
 ```
 
-## 4. Menampilkan Label Minggu
+## How to set label display for weeks
 
-Untuk menampilkan label minggu dalam file proyek:
+### 4. Displaying Week Labels
 
 ```csharp
 public void WorkWithWeekLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // Atur bagaimana label minggu ditampilkan
+    // Set how the week label is displayed
     project.DisplayOptions.WeekLabel = WeekLabelDisplay.W;
 }
 ```
 
-## 5. Menampilkan Label Bulan
+## How to set label display for months
 
-Untuk menampilkan label bulan dalam file proyek:
+### 5. Displaying Month Labels
 
 ```csharp
 public void WorkWithMonthLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // Atur bagaimana label bulan ditampilkan
+    // Set how the month label is displayed
     project.DisplayOptions.MonthLabel = MonthLabelDisplay.Mo;
 }
 ```
 
-## 6. Menampilkan Label Tahun
+## How to set label display for years
 
-Untuk menampilkan label tahun dalam file proyek:
+### 6. Displaying Year Labels
 
 ```csharp
 public void WorkWithYearLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // Atur bagaimana label tahun ditampilkan
+    // Set how the year label is displayed
     project.DisplayOptions.YearLabel = YearLabelDisplay.Y;
 }
 ```
 
-## Kesimpulan
+## Common Pitfalls & Tips
 
-Kesimpulannya, mengelola tugas proyek secara efisien sangat penting untuk keberhasilan proyek, dan Aspose.Tasks untuk .NET memberikan solusi komprehensif untuk menangani tugas manajemen proyek. Dengan menyesuaikan tampilan label, pengguna dapat meningkatkan kejelasan dan keterbacaan data proyek, sehingga meningkatkan proses manajemen proyek.
+- **Tip:** Selalu atur tampilan label *sebelum* Anda menyimpan proyek; perubahan yang dilakukan setelah penyimpanan tidak akan tercermin dalam file.  
+- **Pitfall:** Menggunakan nilai enum yang tidak didukung akan memunculkan `ArgumentException`. Gunakan enum `*LabelDisplay` yang disediakan.  
+- **Tip:** Jika Anda memerlukan gaya label yang berbeda untuk tampilan terpisah, buat instance `Project` terpisah atau kloning objek `DisplayOptions`.
 
-## FAQ
+## Conclusion
 
-### Q1: Dapatkah saya menyesuaikan tampilan label untuk bagian proyek tertentu?
+Dengan menguasai **cara mengatur label** di Aspose.Tasks, Anda memperoleh kontrol detail atas presentasi visual jadwal proyek Anda. Baik Anda menyesuaikan label hari untuk papan scrum harian atau mengatur label tahun untuk roadmap multi‑tahun, pengaturan ini membantu Anda menghasilkan dokumentasi proyek yang lebih jelas dan profesional.
 
-A1: Ya, Aspose.Tasks untuk .NET memungkinkan kontrol terperinci atas tampilan label, memungkinkan penyesuaian untuk bagian tertentu dari proyek sesuai kebutuhan.
+## FAQ's
 
-### Q2: Apakah Aspose.Tasks kompatibel dengan kerangka .NET yang populer?
+### Q1: Can I customize label displays for specific sections of a project?
 
-A2: Ya, Aspose.Tasks untuk .NET kompatibel dengan berbagai kerangka .NET, termasuk .NET Core dan .NET Framework.
+A1: Yes, Aspose.Tasks for .NET allows granular control over label displays, enabling customization for specific sections of a project as needed.
 
-### Q3: Dapatkah saya mengubah tampilan label secara dinamis berdasarkan persyaratan proyek?
+### Q2: Is Aspose.Tasks compatible with popular .NET frameworks?
 
-A3: Tentu saja, fleksibilitas Aspose.Tasks untuk .NET memungkinkan penyesuaian dinamis untuk memberi label tampilan berdasarkan persyaratan proyek yang berkembang.
+A2: Yes, Aspose.Tasks for .NET is compatible with various .NET frameworks, including .NET Core and .NET Framework.
 
-### Q4: Apakah ada batasan pada penyesuaian tampilan label?
+### Q3: Can I dynamically change label displays based
 
-A4: Aspose.Tasks untuk .NET menawarkan opsi penyesuaian ekstensif untuk tampilan label, dengan batasan minimal, memberikan fleksibilitas yang luas kepada pengguna.
+ on project requirements?
 
-### Q5: Apakah Aspose.Tasks mendukung integrasi dengan alat manajemen proyek lainnya?
+A3: Absolutely, the flexibility of Aspose.Tasks for .NET allows dynamic adjustments to label displays based on evolving project requirements.
 
-A5: Ya, Aspose.Tasks menawarkan kemampuan integrasi yang lancar, memfasilitasi interoperabilitas dengan alat dan platform manajemen proyek lainnya.
+### Q4: Are there any limitations to the customization of label displays?
+
+A4: Aspose.Tasks for .NET offers extensive customization options for label displays, with minimal limitations, providing users with ample flexibility.
+
+### Q5: Does Aspose.Tasks support integration with other project management tools?
+
+A5: Yes, Aspose.Tasks offers seamless integration capabilities, facilitating interoperability with other project management tools and platforms.
+
+---
+
+**Last Updated:** 2026-03-08  
+**Tested With:** Aspose.Tasks 24.11 for .NET  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

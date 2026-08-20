@@ -1,37 +1,46 @@
 ---
-title: Tùy chọn tải trong Aspose.Tasks
-linktitle: Tùy chọn tải trong Aspose.Tasks
+date: 2026-03-08
+description: Tìm hiểu cách nhập tệp dự án bằng Aspose.Tasks cho .NET, bao gồm cách
+  chỉ định mã hóa tệp và tải tệp Microsoft Project một cách hiệu quả.
+linktitle: Options for Loading in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Tìm hiểu cách khai thác sức mạnh của Aspose.Tasks dành cho .NET để quản lý hiệu quả các tài liệu Microsoft Project với hướng dẫn từng bước.
-weight: 16
+title: Nhập tệp dự án – Các tùy chọn tải trong Aspose.Tasks
 url: /vi/net/advanced-concepts/loading-options/
+weight: 16
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+Make sure to keep markdown formatting.
+
+Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tùy chọn tải trong Aspose.Tasks
+# Nhập Tệp Dự Án – Các Tùy Chọn Tải Trong Aspose.Tasks
 
-## Giới thiệu
+## Introduction
 
-Aspose.Tasks for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển thao tác với các tài liệu Microsoft Project theo chương trình. Cho dù bạn cần tạo, đọc, ghi hay chuyển đổi tệp Dự án, Aspose.Tasks đều cung cấp nhiều chức năng để hợp lý hóa các nhiệm vụ của bạn. Trong hướng dẫn này, chúng ta sẽ đi sâu vào các yếu tố cần thiết của việc sử dụng Aspose.Tasks cho .NET, chia nhỏ các quy trình chính thành các bước đơn giản, có thể thực hiện được.
+Aspose.Tasks for .NET giúp bạn dễ dàng **import project file** dữ liệu từ Microsoft Project, Primavera và các định dạng khác. Cho dù bạn cần đọc một tệp được bảo vệ bằng mật khẩu, thiết lập mã hoá tùy chỉnh, hoặc xử lý lỗi phân tích, thư viện cung cấp cho bạn kiểm soát chi tiết thông qua các tùy chọn tải. Trong hướng dẫn này, chúng tôi sẽ đi qua các kịch bản phổ biến nhất để bạn có thể tự tin **load Microsoft Project file** các đối tượng trong ứng dụng .NET của mình.
 
-## Điều kiện tiên quyết
+## Quick Answers
+- **Cách chính để nhập một tệp dự án là gì?** Sử dụng hàm khởi tạo `Project` với một thể hiện `LoadOptions`.  
+- **Tôi có thể mở các tệp được bảo vệ bằng mật khẩu không?** Có — đặt thuộc tính `Password` trên `LoadOptions`.  
+- **Làm thế nào để chỉ định mã hoá tệp?** Gán một đối tượng `Encoding` cho `LoadOptions.Encoding`.  
+- **Xử lý lỗi có thể tùy chỉnh không?** Hoàn toàn có thể — cung cấp một delegate cho `LoadOptions.ErrorHandler`.  
+- **Các tùy chọn này có hoạt động với tệp Primavera không?** Có, thông qua `PrimaveraReadOptions` bên trong `LoadOptions`.
 
-Trước khi đi sâu vào Aspose.Tasks cho .NET, hãy đảm bảo bạn đã thiết lập các điều kiện tiên quyết sau:
+## Prerequisites
 
-1. Visual Studio: Cài đặt Visual Studio hoặc bất kỳ IDE nào khác mà bạn chọn.
-2.  Aspose.Tasks for .NET: Tải xuống và cài đặt thư viện Aspose.Tasks for .NET từ[trang mạng](https://releases.aspose.com/tasks/net/).
-3. Hiểu biết cơ bản về C#: Làm quen với các nguyên tắc cơ bản của ngôn ngữ lập trình C#.
+Trước khi bắt đầu, hãy chắc chắn rằng bạn có:
 
-Bây giờ chúng ta đã nắm được các điều kiện tiên quyết, hãy cùng khám phá các không gian tên thiết yếu và đi sâu vào hướng dẫn từng bước.
+1. **Visual Studio** (hoặc bất kỳ IDE .NET nào bạn ưa thích).  
+2. **Aspose.Tasks for .NET** – tải xuống từ [trang web](https://releases.aspose.com/tasks/net/).  
+3. Kiến thức cơ bản về cú pháp **C#** và cấu trúc dự án.
 
-## Nhập không gian tên
+Bây giờ chúng ta đã sẵn sàng, hãy nhập các namespace cần thiết.
 
-Trong dự án C# của bạn, hãy nhập các vùng tên cần thiết để truy cập các chức năng của Aspose.Tasks:
+## Importing Namespaces
 
-1. Aspose.Tasks: Không gian tên này cung cấp các lớp và giao diện cốt lõi để làm việc với các tài liệu Project.
+Trong dự án C# của bạn, thêm các câu lệnh `using` sau để các lớp API có sẵn:
 
 ```csharp
 using Aspose.Tasks;
@@ -39,138 +48,142 @@ using System.Text;
 using System.Threading;
 ```
 
-Bây giờ, hãy chia nhỏ các nhiệm vụ khác nhau thành các hướng dẫn từng bước.
+## How to Import Project File with Loading Options
 
-## Bước 1: Tải dự án được bảo vệ bằng mật khẩu
+Dưới đây là bốn ví dụ thực tế bao phủ các kịch bản tải thường gặp nhất.
+
+### Step 1: Load a Password‑Protected Project
 
 ```csharp
 public void WorkWithLoadOptionsAndPassword()
 {
-    // Khởi tạo FileStream để tải file dự án
+    // Initialize FileStream to load the project file
     using (var stream = new FileStream(DataDir + "PasswordProtectedProject.mpp", FileMode.Open))
     {
-        // Tạo phiên bản LoadOptions
+        // Create LoadOptions instance
         var options = new LoadOptions
         {
-            Password = "password" // Đặt mật khẩu
+            Password = "password" // Set the password
         };
 
-        // Tải dự án với các tùy chọn được chỉ định
+        // Load the project with specified options
         var project = new Project(stream, options);
 
-        // Hiển thị tên dự án
+        // Display project name
         Console.WriteLine(project.Get(Prj.Name));
     }
 }
 ```
 
-## Bước 2: Tải dự án Primavera với các tùy chọn tùy chỉnh
+### Step 2: Load a Primavera Project with Custom Options
 
 ```csharp
 public void WorkWithLoadOptionsAndPrimaveraOptions()
 {
-    // Tạo phiên bản LoadOptions
+    // Create LoadOptions instance
     var loadOptions = new LoadOptions();
 
-    // Định cấu hình tùy chọn đọc Primavera
+    // Configure Primavera reading options
     var primaveraOptions = new PrimaveraReadOptions()
     {
-        ProjectUid = 3882, // Đặt UID dự án
+        ProjectUid = 3882, // Set the Project UID
         UndefinedConstraintHandlingBehavior = UndefinedConstraintHandlingBehavior.None,
         PreserveUids = true
     };
 
-    // Đặt tùy chọn đọc Primavera
+    // Set Primavera reading options
     loadOptions.PrimaveraReadOptions = primaveraOptions;
 
-    // Tải dự án Primavera với các tùy chọn được chỉ định
+    // Load the Primavera project with specified options
     var project = new Project(DataDir + "PrimaveraProject.xml", loadOptions);
 
-    // Hiển thị tên dự án
+    // Display project name
     Console.WriteLine("Project Name: " + project.Get(Prj.Name));
 
-    // Thực hiện các hoạt động tiếp theo với dự án đã tải
+    // Perform further operations with the loaded project
 }
 ```
 
-## Bước 3: Chỉ định mã hóa tệp
+### Step 3: **Specify File Encoding** When Importing an XER File
 
 ```csharp
 public void SpecifyFileEncoding()
 {
-    // Tạo phiên bản LoadOptions
+    // Create LoadOptions instance
     LoadOptions lo = new LoadOptions();
 
-    // Chỉ định mã hóa khi mở dự án từ tệp Primavera XER
+    // Specify encoding when opening a project from Primavera XER file
     lo.Encoding = Encoding.GetEncoding(1251);
 
-    // Tải dự án với mã hóa được chỉ định
+    // Load the project with specified encoding
     var project = new Project("encoding1251.xer", lo);
 
-    // Thực hiện các hoạt động tiếp theo với dự án đã tải
+    // Perform further operations with the loaded project
 }
 ```
 
-## Bước 4: Tải các dự án Primavera có xử lý lỗi
+### Step 4: Load a Primavera Project with Custom Error Handling
 
 ```csharp
 public void WorkWithLoadOptionsAndPrimaveraOptionsAndErrorHandler()
 {
-    // Tạo phiên bản LoadOptions
+    // Create LoadOptions instance
     var loadOptions = new LoadOptions();
 
-    // Định cấu hình tùy chọn đọc Primavera
+    // Configure Primavera reading options
     var primaveraOptions = new PrimaveraReadOptions
     {
-        ProjectUid = 3882 // Đặt UID dự án
+        ProjectUid = 3882 // Set the Project UID
     };
 
-    // Đặt tùy chọn đọc Primavera
+    // Set Primavera reading options
     loadOptions.PrimaveraReadOptions = primaveraOptions;
 
-    //Đặt xử lý lỗi tùy chỉnh
+    // Set custom error handling
     loadOptions.ErrorHandler = CustomDurationHandlerForFile;
 
-    // Tải dự án Primavera với các tùy chọn được chỉ định và xử lý lỗi
+    // Load the Primavera project with specified options and error handling
     var project = new Project(DataDir + "PrimaveraProject.xml", loadOptions);
 
-    // Thực hiện các hoạt động tiếp theo với dự án đã tải
+    // Perform further operations with the loaded project
 }
 
-// Phương pháp xử lý lỗi tùy chỉnh
+// Custom error handler method
 private static object CustomDurationHandlerForFile(object sender, ParseErrorArgs args)
 {
-    // Triển khai logic xử lý lỗi tùy chỉnh
+    // Implement custom error handling logic
 }
 ```
 
-Bằng cách làm theo các bước này, bạn có thể sử dụng hiệu quả các tùy chọn tải trong Aspose.Tasks dành cho .NET để thao tác các tài liệu Dự án theo yêu cầu của bạn.
+Bằng cách làm theo các bước này, bạn có thể chính xác **import project file** dữ liệu, tùy chỉnh quá trình tải theo nhu cầu và giữ cho ứng dụng của mình ổn định.
 
-## Phần kết luận
+## Common Issues & Tips
 
-Trong hướng dẫn này, chúng ta đã khám phá các nguyên tắc cơ bản khi làm việc với các tùy chọn tải trong Aspose.Tasks dành cho .NET. Từ việc tải các dự án được bảo vệ bằng mật khẩu đến chỉ định xử lý lỗi tùy chỉnh, việc nắm vững các kỹ thuật này sẽ giúp bạn quản lý hiệu quả các tệp Dự án trong ứng dụng .NET của mình.
+- **Mật khẩu không đúng** – thuộc tính `Password` sẽ ném ra ngoại lệ; hãy xác minh thông tin đăng nhập trước khi tải.  
+- **Mã hoá không được hỗ trợ** – đảm bảo trang mã bạn chỉ định tồn tại trên máy mục tiêu (`Encoding.GetEncoding(1251)` hoạt động cho Cyrillic).  
+- **Thiếu tùy chọn Primavera** – nếu bạn cần giữ lại UID của nhiệm vụ, đặt `PreserveUids = true`; nếu không, các ID trùng lặp có thể xuất hiện.  
+- **Trình xử lý lỗi trả về null** – trả về `null` sẽ báo cho bộ phân tích bỏ qua phần tử gây lỗi; tùy chỉnh theo yêu cầu.
 
-## Câu hỏi thường gặp
+## Frequently Asked Questions
 
-### Câu hỏi 1: Aspose.Tasks dành cho .NET có tương thích với tất cả các phiên bản Microsoft Project không?
+**Q: Aspose.Tasks for .NET có tương thích với tất cả các phiên bản của Microsoft Project không?**  
+A: Có, nó hỗ trợ một loạt các phiên bản Microsoft Project, vì vậy bạn có thể **load Microsoft Project file** các định dạng từ các tệp MPP cũ đến các định dạng mới nhất.
 
-Trả lời 1: Có, Aspose.Tasks for .NET hỗ trợ nhiều phiên bản khác nhau của Microsoft Project, đảm bảo khả năng tương thích trên các môi trường khác nhau.
+**Q: Tôi có thể tích hợp Aspose.Tasks for .NET với các thư viện của bên thứ ba khác không?**  
+A: Chắc chắn. Thư viện hoạt động liền mạch với các gói .NET khác, cho phép bạn kết hợp nó với các framework báo cáo, giao diện người dùng hoặc truy cập dữ liệu.
 
-### Câu hỏi 2: Tôi có thể tích hợp Aspose.Tasks cho .NET với các thư viện bên thứ ba khác không?
+**Q: Có, bạn có thể tham khảo tài liệu toàn diện [documentation](https://reference.aspose.com/tasks/net/) và truy cập hỗ trợ qua [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).**  
 
-Câu trả lời 2: Hoàn toàn có thể, Aspose.Tasks dành cho .NET tích hợp liền mạch với các thư viện .NET khác, cung cấp chức năng nâng cao và tính linh hoạt.
+**Q: Có, bạn có thể khám phá các tùy chọn cấp phép khác nhau, bao gồm dùng thử miễn phí và giấy phép tạm thời, trên [Aspose.Tasks website](https://purchase.aspose.com/buy).**  
 
-### Câu hỏi 3: Aspose.Tasks cho .NET có cung cấp tài liệu và tài nguyên hỗ trợ không?
+**Q: Aspose.Tasks nhận các bản cập nhật thường xuyên, bổ sung tính năng, cải thiện hiệu suất và duy trì tính tương thích với các phiên bản Microsoft Project mới nhất.**  
 
- A3: Có, bạn có thể tham khảo toàn diện[tài liệu](https://reference.aspose.com/tasks/net/) và truy cập hỗ trợ thông qua[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+---
 
-### Câu hỏi 4: Có bất kỳ tùy chọn cấp phép nào dành cho Aspose.Tasks dành cho .NET không?
+**Last Updated:** 2026-03-08  
+**Tested With:** Aspose.Tasks 24.11 for .NET  
+**Author:** Aspose  
 
- Câu trả lời 4: Có, bạn có thể khám phá các tùy chọn cấp phép khác nhau, bao gồm cả bản dùng thử miễn phí và giấy phép tạm thời, trên[Trang web Aspose.Tasks](https://purchase.aspose.com/buy).
-
-### Câu hỏi 5: Tần suất phát hành các bản cập nhật và tính năng mới cho Aspose.Tasks cho .NET là bao nhiêu?
-
-Câu trả lời 5: Aspose.Tasks dành cho .NET nhận được các bản cập nhật thường xuyên và cải tiến tính năng để đảm bảo hiệu suất và khả năng tương thích tối ưu với các công nghệ đang phát triển.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

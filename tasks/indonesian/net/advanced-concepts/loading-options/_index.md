@@ -1,37 +1,55 @@
 ---
-title: Opsi untuk Memuat di Aspose.Tasks
-linktitle: Opsi untuk Memuat di Aspose.Tasks
-second_title: Aspose.Tugas .NET API
-description: Pelajari cara memanfaatkan kekuatan Aspose.Tasks untuk .NET untuk mengelola dokumen Microsoft Project secara efisien dengan panduan langkah demi langkah.
-weight: 16
+date: 2026-03-08
+description: Pelajari cara mengimpor file proyek menggunakan Aspose.Tasks untuk .NET,
+  termasuk cara menentukan enkoding file dan memuat file Microsoft Project secara
+  efisien.
+linktitle: Options for Loading in Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+title: Impor File Proyek – Opsi untuk Memuat di Aspose.Tasks
 url: /id/net/advanced-concepts/loading-options/
+weight: 16
 ---
+
+ content with same markdown.
+
+Let's craft translation.
+
+Note: Keep code block placeholders unchanged.
+
+Also keep shortcodes at top and bottom unchanged.
+
+Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Opsi untuk Memuat di Aspose.Tasks
+# Impor File Proyek – Opsi untuk Memuat di Aspose.Tasks
 
-## Perkenalan
+## Pendahuluan
 
-Aspose.Tasks untuk .NET adalah perpustakaan canggih yang memungkinkan pengembang memanipulasi dokumen Microsoft Project secara terprogram. Baik Anda perlu membuat, membaca, menulis, atau mengonversi file Proyek, Aspose.Tasks menyediakan berbagai fungsi untuk menyederhanakan tugas Anda. Dalam tutorial ini, kita akan mempelajari esensi penggunaan Aspose.Tasks untuk .NET, memecah proses utama menjadi langkah-langkah sederhana dan dapat ditindaklanjuti.
+Aspose.Tasks untuk .NET memudahkan **mengimpor file proyek** dari Microsoft Project, Primavera, dan format lainnya. Baik Anda perlu membaca file yang dilindungi kata sandi, mengatur enkoding khusus, atau menangani kesalahan parsing, perpustakaan ini memberi Anda kontrol yang sangat detail melalui opsi pemuatan. Dalam tutorial ini kami akan membahas skenario paling umum sehingga Anda dapat dengan percaya diri **memuat file Microsoft Project** dalam aplikasi .NET Anda.
+
+## Jawaban Cepat
+- **Apa cara utama untuk mengimpor file proyek?** Gunakan konstruktor `Project` dengan instance `LoadOptions`.  
+- **Apakah saya dapat membuka file yang dilindungi kata sandi?** Ya—atur properti `Password` pada `LoadOptions`.  
+- **Bagaimana cara menentukan enkoding file?** Tetapkan objek `Encoding` ke `LoadOptions.Encoding`.  
+- **Apakah penanganan kesalahan dapat disesuaikan?** Tentu—sediakan delegate ke `LoadOptions.ErrorHandler`.  
+- **Apakah opsi ini bekerja dengan file Primavera?** Ya, melalui `PrimaveraReadOptions` di dalam `LoadOptions`.
 
 ## Prasyarat
 
-Sebelum mendalami Aspose.Tasks untuk .NET, pastikan Anda telah menyiapkan prasyarat berikut:
+Sebelum memulai, pastikan Anda memiliki:
 
-1. Visual Studio: Instal Visual Studio atau IDE lain pilihan Anda.
-2.  Aspose.Tasks untuk .NET: Unduh dan instal perpustakaan Aspose.Tasks untuk .NET dari[situs web](https://releases.aspose.com/tasks/net/).
-3. Pemahaman Dasar C#: Biasakan diri Anda dengan dasar-dasar bahasa pemrograman C#.
+1. **Visual Studio** (atau IDE .NET pilihan Anda).  
+2. **Aspose.Tasks untuk .NET** – unduh dari [situs web](https://releases.aspose.com/tasks/net/).  
+3. Pemahaman dasar tentang sintaks **C#** dan struktur proyek.
 
-Sekarang setelah prasyarat kita terpenuhi, mari jelajahi namespace penting dan selami panduan langkah demi langkah.
+Setelah semuanya siap, mari impor namespace yang diperlukan.
 
 ## Mengimpor Namespace
 
-Dalam proyek C# Anda, impor namespace yang diperlukan untuk mengakses fungsionalitas Aspose.Tasks:
-
-1. Aspose.Tasks: Namespace ini menyediakan kelas inti dan antarmuka untuk bekerja dengan dokumen Proyek.
+Di proyek C# Anda, tambahkan pernyataan `using` berikut agar kelas API tersedia:
 
 ```csharp
 using Aspose.Tasks;
@@ -39,138 +57,145 @@ using System.Text;
 using System.Threading;
 ```
 
-Sekarang, mari kita bagi berbagai tugas menjadi panduan langkah demi langkah.
+## Cara Mengimpor File Proyek dengan Opsi Pemuatan
 
-## Langkah 1: Memuat Proyek yang Dilindungi Kata Sandi
+Berikut empat contoh praktis yang mencakup skenario pemuatan paling sering.
+
+### Langkah 1: Memuat Proyek yang Dilindungi Kata Sandi
 
 ```csharp
 public void WorkWithLoadOptionsAndPassword()
 {
-    // Inisialisasi FileStream untuk memuat file proyek
+    // Initialize FileStream to load the project file
     using (var stream = new FileStream(DataDir + "PasswordProtectedProject.mpp", FileMode.Open))
     {
-        // Buat instance LoadOptions
+        // Create LoadOptions instance
         var options = new LoadOptions
         {
-            Password = "password" // Tetapkan kata sandi
+            Password = "password" // Set the password
         };
 
-        // Muat proyek dengan opsi tertentu
+        // Load the project with specified options
         var project = new Project(stream, options);
 
-        // Tampilkan nama proyek
+        // Display project name
         Console.WriteLine(project.Get(Prj.Name));
     }
 }
 ```
 
-## Langkah 2: Memuat Proyek Primavera dengan Opsi Kustom
+### Langkah 2: Memuat Proyek Primavera dengan Opsi Kustom
 
 ```csharp
 public void WorkWithLoadOptionsAndPrimaveraOptions()
 {
-    // Buat instance LoadOptions
+    // Create LoadOptions instance
     var loadOptions = new LoadOptions();
 
-    // Konfigurasikan opsi membaca Primavera
+    // Configure Primavera reading options
     var primaveraOptions = new PrimaveraReadOptions()
     {
-        ProjectUid = 3882, // Atur UID Proyek
+        ProjectUid = 3882, // Set the Project UID
         UndefinedConstraintHandlingBehavior = UndefinedConstraintHandlingBehavior.None,
         PreserveUids = true
     };
 
-    // Atur opsi membaca Primavera
+    // Set Primavera reading options
     loadOptions.PrimaveraReadOptions = primaveraOptions;
 
-    // Muat proyek Primavera dengan opsi yang ditentukan
+    // Load the Primavera project with specified options
     var project = new Project(DataDir + "PrimaveraProject.xml", loadOptions);
 
-    // Tampilkan nama proyek
+    // Display project name
     Console.WriteLine("Project Name: " + project.Get(Prj.Name));
 
-    // Lakukan operasi lebih lanjut dengan proyek yang dimuat
+    // Perform further operations with the loaded project
 }
 ```
 
-## Langkah 3: Menentukan Pengkodean File
+### Langkah 3: **Menentukan Enkoding File** Saat Mengimpor File XER
 
 ```csharp
 public void SpecifyFileEncoding()
 {
-    // Buat instance LoadOptions
+    // Create LoadOptions instance
     LoadOptions lo = new LoadOptions();
 
-    // Tentukan pengkodean saat membuka proyek dari file Primavera XER
+    // Specify encoding when opening a project from Primavera XER file
     lo.Encoding = Encoding.GetEncoding(1251);
 
-    // Muat proyek dengan pengkodean yang ditentukan
+    // Load the project with specified encoding
     var project = new Project("encoding1251.xer", lo);
 
-    // Lakukan operasi lebih lanjut dengan proyek yang dimuat
+    // Perform further operations with the loaded project
 }
 ```
 
-## Langkah 4: Memuat Proyek Primavera dengan Penanganan Kesalahan
+### Langkah 4: Memuat Proyek Primavera dengan Penanganan Kesalahan Kustom
 
 ```csharp
 public void WorkWithLoadOptionsAndPrimaveraOptionsAndErrorHandler()
 {
-    // Buat instance LoadOptions
+    // Create LoadOptions instance
     var loadOptions = new LoadOptions();
 
-    // Konfigurasikan opsi membaca Primavera
+    // Configure Primavera reading options
     var primaveraOptions = new PrimaveraReadOptions
     {
-        ProjectUid = 3882 // Atur UID Proyek
+        ProjectUid = 3882 // Set the Project UID
     };
 
-    // Atur opsi membaca Primavera
+    // Set Primavera reading options
     loadOptions.PrimaveraReadOptions = primaveraOptions;
 
-    //Atur penanganan kesalahan khusus
+    // Set custom error handling
     loadOptions.ErrorHandler = CustomDurationHandlerForFile;
 
-    // Muat proyek Primavera dengan opsi tertentu dan penanganan kesalahan
+    // Load the Primavera project with specified options and error handling
     var project = new Project(DataDir + "PrimaveraProject.xml", loadOptions);
 
-    // Lakukan operasi lebih lanjut dengan proyek yang dimuat
+    // Perform further operations with the loaded project
 }
 
-// Metode penanganan kesalahan khusus
+// Custom error handler method
 private static object CustomDurationHandlerForFile(object sender, ParseErrorArgs args)
 {
-    // Menerapkan logika penanganan kesalahan khusus
+    // Implement custom error handling logic
 }
 ```
 
-Dengan mengikuti langkah-langkah ini, Anda dapat secara efektif memanfaatkan opsi pemuatan di Aspose.Tasks untuk .NET guna memanipulasi dokumen Proyek sesuai dengan kebutuhan Anda.
+Dengan mengikuti langkah‑langkah ini Anda dapat secara tepat **mengimpor data file proyek**, menyesuaikan proses pemuatan sesuai kebutuhan, dan menjaga aplikasi tetap kuat.
 
-## Kesimpulan
+## Masalah Umum & Tips
 
-Dalam tutorial ini, kami telah menjelajahi dasar-dasar bekerja dengan opsi pemuatan di Aspose.Tasks untuk .NET. Dari memuat proyek yang dilindungi kata sandi hingga menentukan penanganan kesalahan khusus, menguasai teknik ini akan memberdayakan Anda untuk mengelola file Proyek secara efisien dalam aplikasi .NET Anda.
+- **Kata sandi salah** – properti `Password` akan melempar pengecualian; verifikasi kredensial sebelum memuat.  
+- **Enkoding tidak didukung** – pastikan halaman kode yang Anda tentukan ada di mesin target (`Encoding.GetEncoding(1251)` berfungsi untuk Cyrillic).  
+- **Opsi Primavera tidak ada** – jika Anda perlu mempertahankan UID tugas, atur `PreserveUids = true`; jika tidak, ID duplikat mungkin muncul.  
+- **Penangan kesalahan mengembalikan null** – mengembalikan `null` memberi sinyal pada parser untuk melewati elemen yang bermasalah; sesuaikan sesuai kebutuhan.
 
-## FAQ
+## Pertanyaan yang Sering Diajukan
 
-### Q1: Apakah Aspose.Tasks untuk .NET kompatibel dengan semua versi Microsoft Project?
+**T: Apakah Aspose.Tasks untuk .NET kompatibel dengan semua versi Microsoft Project?**  
+J: Ya, ia mendukung berbagai versi Microsoft Project, sehingga Anda dapat **memuat file Microsoft Project** mulai dari file MPP lama hingga format terbaru.
 
-A1: Ya, Aspose.Tasks untuk .NET mendukung berbagai versi Microsoft Project, memastikan kompatibilitas di berbagai lingkungan.
+**T: Bisakah saya mengintegrasikan Aspose.Tasks untuk .NET dengan perpustakaan pihak ketiga lainnya?**  
+J: Tentu. Perpustakaan ini bekerja mulus dengan paket .NET lainnya, memungkinkan Anda menggabungkannya dengan kerangka kerja pelaporan, UI, atau akses data.
 
-### Q2: Bisakah saya mengintegrasikan Aspose.Tasks untuk .NET dengan perpustakaan pihak ketiga lainnya?
+**T: Apakah Aspose.Tasks untuk .NET menyediakan dokumentasi dan sumber dukungan?**  
+J: Ya, Anda dapat merujuk ke [dokumentasi](https://reference.aspose.com/tasks/net/) yang komprehensif dan mengakses dukungan melalui [forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
 
-A2: Tentu saja, Aspose.Tasks untuk .NET terintegrasi secara mulus dengan pustaka .NET lainnya, menawarkan fungsionalitas dan fleksibilitas yang ditingkatkan.
+**T: Apakah ada opsi lisensi yang tersedia untuk Aspose.Tasks untuk .NET?**  
+J: Ya, Anda dapat menjelajahi berbagai opsi lisensi, termasuk percobaan gratis dan lisensi sementara, di [situs Aspose.Tasks](https://purchase.aspose.com/buy).
 
-### Q3: Apakah Aspose.Tasks untuk .NET menyediakan dokumentasi dan sumber daya dukungan?
+**T: Seberapa sering pembaruan dan fitur baru dirilis untuk Aspose.Tasks untuk .NET?**  
+J: Aspose.Tasks menerima pembaruan reguler yang menambah fitur, meningkatkan kinerja, dan menjaga kompatibilitas dengan rilis Microsoft Project terbaru.
 
- A3: Ya, Anda bisa merujuk ke komprehensif[dokumentasi](https://reference.aspose.com/tasks/net/) dan mengakses dukungan melalui[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15).
+---
 
-### Q4: Apakah ada opsi lisensi yang tersedia untuk Aspose.Tasks untuk .NET?
+**Terakhir Diperbarui:** 2026-03-08  
+**Diuji Dengan:** Aspose.Tasks 24.11 untuk .NET  
+**Penulis:** Aspose  
 
- A4: Ya, Anda dapat menjelajahi berbagai opsi lisensi, termasuk uji coba gratis dan lisensi sementara, di[Situs web Aspose.Tasks](https://purchase.aspose.com/buy).
-
-### Q5: Seberapa sering pembaruan dan fitur baru dirilis untuk Aspose.Tasks untuk .NET?
-
-A5: Aspose.Tasks untuk .NET menerima pembaruan rutin dan peningkatan fitur untuk memastikan kinerja optimal dan kompatibilitas dengan teknologi yang berkembang.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

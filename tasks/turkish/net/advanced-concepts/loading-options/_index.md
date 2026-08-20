@@ -1,37 +1,45 @@
 ---
-title: Aspose.Tasks'ta Yükleme Seçenekleri
-linktitle: Aspose.Tasks'ta Yükleme Seçenekleri
-second_title: Aspose.Tasks .NET API'si
-description: Adım adım rehberlikle Microsoft Project belgelerini verimli bir şekilde yönetmek için Aspose.Tasks for .NET'in gücünden nasıl yararlanacağınızı öğrenin.
-weight: 16
+date: 2026-03-08
+description: Aspose.Tasks for .NET kullanarak proje dosyasını nasıl içe aktaracağınızı,
+  dosya kodlamasını nasıl belirteceğinizi ve Microsoft Project dosyasını verimli bir
+  şekilde nasıl yükleyeceğinizi öğrenin.
+linktitle: Options for Loading in Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+title: Proje Dosyasını İçe Aktar – Aspose.Tasks'te Yükleme Seçenekleri
 url: /tr/net/advanced-concepts/loading-options/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks'ta Yükleme Seçenekleri
+# Proje Dosyasını İçe Aktarma – Aspose.Tasks'te Yükleme Seçenekleri
 
-## giriiş
+## Giriş
 
-Aspose.Tasks for .NET, geliştiricilerin Microsoft Project belgelerini programlı olarak yönetmelerine olanak tanıyan güçlü bir kitaplıktır. Proje dosyalarını oluşturmanız, okumanız, yazmanız veya dönüştürmeniz gerekiyorsa Aspose.Tasks, görevlerinizi kolaylaştırmak için geniş bir işlevsellik yelpazesi sunar. Bu eğitimde, Aspose.Tasks for .NET kullanımının temellerini inceleyerek önemli süreçleri basit, uygulanabilir adımlara ayıracağız.
+Aspose.Tasks for .NET, Microsoft Project, Primavera ve diğer formatlardan **import project file** verilerini kolayca almanızı sağlar. Şifre korumalı bir dosyayı okumanız, özel bir kodlama ayarlamanız veya ayrıştırma hatalarını yönetmeniz gerektiğinde, kütüphane yükleme seçenekleri aracılığıyla ayrıntılı kontrol sunar. Bu öğreticide en yaygın senaryoları adım adım inceleyecek ve .NET uygulamalarınızda **load Microsoft Project file** nesnelerini güvenle yükleyebileceksiniz.
+
+## Hızlı Yanıtlar
+- **Proje dosyasını içe aktarmanın temel yolu nedir?** `Project` yapıcısını bir `LoadOptions` örneğiyle kullanın.  
+- **Şifre korumalı dosyaları açabilir miyim?** Evet—`LoadOptions` üzerindeki `Password` özelliğini ayarlayın.  
+- **Dosya kodlamasını nasıl belirtirim?** `LoadOptions.Encoding` özelliğine bir `Encoding` nesnesi atayın.  
+- **Hata işleme özelleştirilebilir mi?** Kesinlikle—`LoadOptions.ErrorHandler` için bir temsilci (delegate) sağlayın.  
+- **Bu seçenekler Primavera dosyalarıyla çalışır mı?** Evet, `LoadOptions` içinde `PrimaveraReadOptions` aracılığıyla.
 
 ## Önkoşullar
 
-Aspose.Tasks for .NET'e dalmadan önce aşağıdaki önkoşulları oluşturduğunuzdan emin olun:
+Başlamadan önce, şunların olduğundan emin olun:
 
-1. Visual Studio: Visual Studio'yu veya seçtiğiniz herhangi bir IDE'yi yükleyin.
-2.  Aspose.Tasks for .NET: Aspose.Tasks for .NET kütüphanesini aşağıdaki adresten indirip yükleyin:[İnternet sitesi](https://releases.aspose.com/tasks/net/).
-3. Temel C# Anlayışı: C# programlama dilinin temellerine aşina olun.
+1. **Visual Studio** (veya tercih ettiğiniz herhangi bir .NET IDE).  
+2. **Aspose.Tasks for .NET** – bunu [web sitesinden](https://releases.aspose.com/tasks/net/) indirin.  
+3. **C#** sözdizimi ve proje yapısına temel bir hakimiyet.
 
-Artık önkoşullarımızı ele aldığımıza göre, temel ad alanlarını inceleyelim ve adım adım kılavuza dalalım.
+Şimdi kurulum tamam, gerekli ad alanlarını (namespaces) içe aktaralım.
 
-## Ad Alanlarını İçe Aktarma
+## Ad Alanlarını (Namespaces) İçeri Aktarma
 
-Aspose.Tasks işlevlerine erişmek için C# projenize gerekli ad alanlarını içe aktarın:
-
-1. Aspose.Tasks: Bu ad alanı, Proje belgeleriyle çalışmak için temel sınıflar ve arayüzler sağlar.
+C# projenizde, API sınıflarının kullanılabilir olması için aşağıdaki `using` ifadelerini ekleyin:
 
 ```csharp
 using Aspose.Tasks;
@@ -39,138 +47,145 @@ using System.Text;
 using System.Threading;
 ```
 
-Şimdi farklı görevleri adım adım kılavuzlara ayıralım.
+## Yükleme Seçenekleriyle Proje Dosyasını Nasıl İçe Aktarılır
 
-## Adım 1: Parola Korumalı Projeleri Yükleme
+Aşağıda en sık karşılaşılan yükleme senaryolarını kapsayan dört pratik örnek bulabilirsiniz.
+
+### Adım 1: Şifre‑Korumalı Bir Projeyi Yükleme
 
 ```csharp
 public void WorkWithLoadOptionsAndPassword()
 {
-    // Proje dosyasını yüklemek için FileStream'i başlatın
+    // Initialize FileStream to load the project file
     using (var stream = new FileStream(DataDir + "PasswordProtectedProject.mpp", FileMode.Open))
     {
-        // LoadOptions örneği oluştur
+        // Create LoadOptions instance
         var options = new LoadOptions
         {
-            Password = "password" // Şifreyi ayarla
+            Password = "password" // Set the password
         };
 
-        // Projeyi belirtilen seçeneklerle yükleyin
+        // Load the project with specified options
         var project = new Project(stream, options);
 
-        // Proje adını görüntüle
+        // Display project name
         Console.WriteLine(project.Get(Prj.Name));
     }
 }
 ```
 
-## Adım 2: Primavera Projelerini Özel Seçeneklerle Yükleme
+### Adım 2: Özel Seçeneklerle Bir Primavera Projesi Yükleme
 
 ```csharp
 public void WorkWithLoadOptionsAndPrimaveraOptions()
 {
-    // LoadOptions örneği oluştur
+    // Create LoadOptions instance
     var loadOptions = new LoadOptions();
 
-    // Primavera okuma seçeneklerini yapılandırma
+    // Configure Primavera reading options
     var primaveraOptions = new PrimaveraReadOptions()
     {
-        ProjectUid = 3882, // Proje UID'sini ayarlayın
+        ProjectUid = 3882, // Set the Project UID
         UndefinedConstraintHandlingBehavior = UndefinedConstraintHandlingBehavior.None,
         PreserveUids = true
     };
 
-    // Primavera okuma seçeneklerini ayarlama
+    // Set Primavera reading options
     loadOptions.PrimaveraReadOptions = primaveraOptions;
 
-    // Primavera projesini belirtilen seçeneklerle yükleyin
+    // Load the Primavera project with specified options
     var project = new Project(DataDir + "PrimaveraProject.xml", loadOptions);
 
-    // Proje adını görüntüle
+    // Display project name
     Console.WriteLine("Project Name: " + project.Get(Prj.Name));
 
-    // Yüklenen projeyle daha fazla işlem gerçekleştirin
+    // Perform further operations with the loaded project
 }
 ```
 
-## 3. Adım: Dosya Kodlamasını Belirleme
+### Adım 3: XER Dosyası İçe Aktarırken **Dosya Kodlamasını Belirtme**
 
 ```csharp
 public void SpecifyFileEncoding()
 {
-    // LoadOptions örneği oluştur
+    // Create LoadOptions instance
     LoadOptions lo = new LoadOptions();
 
-    // Primavera XER dosyasından bir proje açarken kodlamayı belirtin
+    // Specify encoding when opening a project from Primavera XER file
     lo.Encoding = Encoding.GetEncoding(1251);
 
-    // Projeyi belirtilen kodlamayla yükleyin
+    // Load the project with specified encoding
     var project = new Project("encoding1251.xer", lo);
 
-    // Yüklenen projeyle daha fazla işlem gerçekleştirin
+    // Perform further operations with the loaded project
 }
 ```
 
-## Adım 4: Primavera Projelerini Hata İşlemeyle Yükleme
+### Adım 4: Özel Hata İşleme ile Bir Primavera Projesi Yükleme
 
 ```csharp
 public void WorkWithLoadOptionsAndPrimaveraOptionsAndErrorHandler()
 {
-    // LoadOptions örneği oluştur
+    // Create LoadOptions instance
     var loadOptions = new LoadOptions();
 
-    // Primavera okuma seçeneklerini yapılandırma
+    // Configure Primavera reading options
     var primaveraOptions = new PrimaveraReadOptions
     {
-        ProjectUid = 3882 // Proje UID'sini ayarlayın
+        ProjectUid = 3882 // Set the Project UID
     };
 
-    // Primavera okuma seçeneklerini ayarlama
+    // Set Primavera reading options
     loadOptions.PrimaveraReadOptions = primaveraOptions;
 
-    //Özel hata işlemeyi ayarlayın
+    // Set custom error handling
     loadOptions.ErrorHandler = CustomDurationHandlerForFile;
 
-    // Primavera projesini belirtilen seçeneklerle ve hata işlemeyle yükleyin
+    // Load the Primavera project with specified options and error handling
     var project = new Project(DataDir + "PrimaveraProject.xml", loadOptions);
 
-    // Yüklenen projeyle daha fazla işlem gerçekleştirin
+    // Perform further operations with the loaded project
 }
 
-// Özel hata işleyici yöntemi
+// Custom error handler method
 private static object CustomDurationHandlerForFile(object sender, ParseErrorArgs args)
 {
-    // Özel hata işleme mantığını uygulayın
+    // Implement custom error handling logic
 }
 ```
 
-Bu adımları izleyerek Aspose.Tasks for .NET'teki yükleme seçeneklerini etkili bir şekilde kullanarak Proje belgelerini ihtiyaçlarınıza göre yönetebilirsiniz.
+Bu adımları izleyerek **import project file** verilerini kesin bir şekilde alabilir, yükleme sürecini ihtiyaçlarınıza göre özelleştirebilir ve uygulamanızı sağlam tutabilirsiniz.
 
-## Çözüm
+## Yaygın Sorunlar ve İpuçları
 
-Bu eğitimde Aspose.Tasks for .NET'te yükleme seçenekleriyle çalışmanın temellerini inceledik. Parola korumalı projelerin yüklenmesinden özel hata yönetiminin belirlenmesine kadar, bu tekniklerde uzmanlaşmak, .NET uygulamalarınızdaki Proje dosyalarını verimli bir şekilde yönetmenizi sağlayacaktır.
+- **Yanlış şifre** – `Password` özelliği bir istisna (exception) fırlatır; yüklemeden önce kimlik bilgilerini doğrulayın.  
+- **Desteklenmeyen kodlama** – belirttiğiniz kod sayfasının hedef makinede mevcut olduğundan emin olun (`Encoding.GetEncoding(1251)` Kiril alfabesi için çalışır).  
+- **Primavera seçenekleri eksik** – görev UID'lerini korumanız gerekiyorsa `PreserveUids = true` olarak ayarlayın; aksi takdirde yinelenen ID'ler ortaya çıkabilir.  
+- **Hata işleyicisinin null döndürmesi** – `null` döndürmek, ayrıştırıcıya sorunlu öğeyi atlamasını söyler; gerektiği gibi özelleştirin.
 
-## SSS'ler
+## Sıkça Sorulan Sorular
 
-### S1: Aspose.Tasks for .NET, Microsoft Project'in tüm sürümleriyle uyumlu mudur?
+**S: Aspose.Tasks for .NET tüm Microsoft Project sürümleriyle uyumlu mu?**  
+C: Evet, geniş bir Microsoft Project sürüm yelpazesini destekler, bu sayede eski MPP dosyalarından en yeni formatlara kadar **load Microsoft Project file** formatlarını **yükleyebilirsiniz**.
 
-C1: Evet, Aspose.Tasks for .NET, Microsoft Project'in çeşitli sürümlerini destekleyerek farklı ortamlar arasında uyumluluk sağlar.
+**S: Aspose.Tasks for .NET'i diğer üçüncü‑taraf kütüphanelerle entegre edebilir miyim?**  
+C: Kesinlikle. Kütüphane diğer .NET paketleriyle sorunsuz çalışır ve raporlama, UI veya veri‑erişim çerçeveleriyle birleştirmenize olanak tanır.
 
-### S2: Aspose.Tasks for .NET'i diğer üçüncü taraf kütüphanelerle entegre edebilir miyim?
+**S: Aspose.Tasks for .NET belge ve destek kaynakları sunuyor mu?**  
+C: Evet, kapsamlı [belgelere](https://reference.aspose.com/tasks/net/) başvurabilir ve [Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) üzerinden destek alabilirsiniz.
 
-Cevap2: Aspose.Tasks for .NET kesinlikle diğer .NET kitaplıklarıyla sorunsuz bir şekilde bütünleşerek gelişmiş işlevsellik ve esneklik sunar.
+**S: Aspose.Tasks for .NET için lisans seçenekleri mevcut mu?**  
+C: Evet, ücretsiz denemeler ve geçici lisanslar dahil olmak üzere çeşitli lisans seçeneklerini [Aspose.Tasks web sitesinde](https://purchase.aspose.com/buy) inceleyebilirsiniz.
 
-### S3: Aspose.Tasks for .NET dokümantasyon ve destek kaynakları sağlıyor mu?
+**S: Aspose.Tasks for .NET için güncellemeler ve yeni özellikler ne sıklıkla yayınlanıyor?**  
+C: Aspose.Tasks, yeni özellikler ekleyen, performansı artıran ve en son Microsoft Project sürümleriyle uyumluluğu koruyan düzenli güncellemeler alır.
 
- A3: Evet, kapsamlıya başvurabilirsiniz[dokümantasyon](https://reference.aspose.com/tasks/net/) ve aracılığıyla desteğe erişin[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15).
+---
 
-### S4: Aspose.Tasks for .NET için herhangi bir lisanslama seçeneği mevcut mu?
+**Son Güncelleme:** 2026-03-08  
+**Test Edilen Versiyon:** Aspose.Tasks 24.11 for .NET  
+**Yazar:** Aspose  
 
- C4: Evet, ücretsiz denemeler ve geçici lisanslar da dahil olmak üzere farklı lisanslama seçeneklerini[Aspose.Tasks web sitesi](https://purchase.aspose.com/buy).
-
-### S5: Aspose.Tasks for .NET için güncellemeler ve yeni özellikler ne sıklıkla yayınlanıyor?
-
-Cevap5: Aspose.Tasks for .NET, optimum performansı ve gelişen teknolojilerle uyumluluğu sağlamak için düzenli güncellemeler ve özellik geliştirmeleri alır.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

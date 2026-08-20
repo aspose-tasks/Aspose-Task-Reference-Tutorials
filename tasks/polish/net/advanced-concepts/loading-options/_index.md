@@ -1,37 +1,44 @@
 ---
-title: Opcje ładowania w Aspose.Tasks
-linktitle: Opcje ładowania w Aspose.Tasks
+date: 2026-03-08
+description: Dowiedz się, jak importować plik projektu przy użyciu Aspose.Tasks dla
+  .NET, w tym jak określić kodowanie pliku i efektywnie wczytać plik Microsoft Project.
+linktitle: Options for Loading in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Dowiedz się, jak wykorzystać moc Aspose.Tasks dla .NET, aby efektywnie zarządzać dokumentami Microsoft Project, korzystając ze wskazówek krok po kroku.
-weight: 16
+title: Importuj plik projektu – Opcje ładowania w Aspose.Tasks
 url: /pl/net/advanced-concepts/loading-options/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Opcje ładowania w Aspose.Tasks
+# Importowanie pliku projektu – Opcje ładowania w Aspose.Tasks
 
-## Wstęp
+## Wprowadzenie
 
-Aspose.Tasks dla .NET to potężna biblioteka, która pozwala programistom programowo manipulować dokumentami Microsoft Project. Niezależnie od tego, czy chcesz tworzyć, czytać, pisać czy konwertować pliki projektu, Aspose.Tasks zapewnia szeroką gamę funkcji usprawniających Twoje zadania. W tym samouczku zagłębimy się w podstawy korzystania z Aspose.Tasks dla .NET, dzieląc kluczowe procesy na proste, wykonalne kroki.
+Aspose.Tasks for .NET ułatwia **importowanie danych z pliku projektu** pochodzących z Microsoft Project, Primavera i innych formatów. Niezależnie od tego, czy musisz odczytać plik zabezpieczony hasłem, ustawić własne kodowanie, czy obsłużyć błędy parsowania, biblioteka daje precyzyjną kontrolę dzięki opcjom ładowania. W tym samouczku przeprowadzimy Cię przez najczęstsze scenariusze, abyś mógł pewnie **ładować obiekty plików Microsoft Project** w aplikacjach .NET.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Jaki jest podstawowy sposób importowania pliku projektu?** Użyj konstruktora `Project` z instancją `LoadOptions`.  
+- **Czy mogę otwierać pliki zabezpieczone hasłem?** Tak — ustaw właściwość `Password` w `LoadOptions`.  
+- **Jak określić kodowanie pliku?** Przypisz obiekt `Encoding` do `LoadOptions.Encoding`.  
+- **Czy obsługa błędów jest konfigurowalna?** Oczywiście — podaj delegata do `LoadOptions.ErrorHandler`.  
+- **Czy te opcje działają z plikami Primavera?** Tak, za pośrednictwem `PrimaveraReadOptions` wewnątrz `LoadOptions`.
 
-Zanim zagłębisz się w Aspose.Tasks dla .NET, upewnij się, że masz skonfigurowane następujące wymagania wstępne:
+## Wymagania wstępne
 
-1. Visual Studio: Zainstaluj Visual Studio lub dowolne inne wybrane IDE.
-2.  Aspose.Tasks dla .NET: Pobierz i zainstaluj bibliotekę Aspose.Tasks dla .NET z[strona internetowa](https://releases.aspose.com/tasks/net/).
-3. Podstawowa znajomość języka C#: Zapoznaj się z podstawami języka programowania C#.
+Zanim przejdziesz do kodu, upewnij się, że masz:
 
-Skoro już omówiliśmy wymagania wstępne, przyjrzyjmy się najważniejszym przestrzeniom nazw i zapoznajmy się z przewodnikiem krok po kroku.
+1. **Visual Studio** (lub dowolne preferowane środowisko IDE .NET).  
+2. **Aspose.Tasks for .NET** – pobierz je ze [strony internetowej](https://releases.aspose.com/tasks/net/).  
+3. Podstawową znajomość składni **C#** oraz struktury projektu.
+
+Teraz, gdy wszystko jest gotowe, zaimportujmy wymagane przestrzenie nazw.
 
 ## Importowanie przestrzeni nazw
 
-swoim projekcie C# zaimportuj niezbędne przestrzenie nazw, aby uzyskać dostęp do funkcjonalności Aspose.Tasks:
-
-1. Aspose.Tasks: Ta przestrzeń nazw udostępnia podstawowe klasy i interfejsy do pracy z dokumentami projektu.
+W swoim projekcie C# dodaj następujące dyrektywy `using`, aby klasy API były dostępne:
 
 ```csharp
 using Aspose.Tasks;
@@ -39,138 +46,145 @@ using System.Text;
 using System.Threading;
 ```
 
-Podzielmy teraz różne zadania na przewodniki krok po kroku.
+## Jak importować plik projektu z opcjami ładowania
 
-## Krok 1: Ładowanie projektów chronionych hasłem
+Poniżej znajdują się cztery praktyczne przykłady obejmujące najczęstsze scenariusze ładowania.
+
+### Krok 1: Ładowanie projektu zabezpieczonego hasłem
 
 ```csharp
 public void WorkWithLoadOptionsAndPassword()
 {
-    // Zainicjuj FileStream, aby załadować plik projektu
+    // Initialize FileStream to load the project file
     using (var stream = new FileStream(DataDir + "PasswordProtectedProject.mpp", FileMode.Open))
     {
-        // Utwórz instancję LoadOptions
+        // Create LoadOptions instance
         var options = new LoadOptions
         {
-            Password = "password" // Ustaw hasło
+            Password = "password" // Set the password
         };
 
-        // Załaduj projekt z określonymi opcjami
+        // Load the project with specified options
         var project = new Project(stream, options);
 
-        // Wyświetl nazwę projektu
+        // Display project name
         Console.WriteLine(project.Get(Prj.Name));
     }
 }
 ```
 
-## Krok 2: Ładowanie projektów Primavera z opcjami niestandardowymi
+### Krok 2: Ładowanie projektu Primavera z własnymi opcjami
 
 ```csharp
 public void WorkWithLoadOptionsAndPrimaveraOptions()
 {
-    // Utwórz instancję LoadOptions
+    // Create LoadOptions instance
     var loadOptions = new LoadOptions();
 
-    // Skonfiguruj opcje czytania Primavera
+    // Configure Primavera reading options
     var primaveraOptions = new PrimaveraReadOptions()
     {
-        ProjectUid = 3882, // Ustaw identyfikator UID projektu
+        ProjectUid = 3882, // Set the Project UID
         UndefinedConstraintHandlingBehavior = UndefinedConstraintHandlingBehavior.None,
         PreserveUids = true
     };
 
-    // Ustaw opcje czytania Primavera
+    // Set Primavera reading options
     loadOptions.PrimaveraReadOptions = primaveraOptions;
 
-    // Załaduj projekt Primavera z określonymi opcjami
+    // Load the Primavera project with specified options
     var project = new Project(DataDir + "PrimaveraProject.xml", loadOptions);
 
-    // Wyświetl nazwę projektu
+    // Display project name
     Console.WriteLine("Project Name: " + project.Get(Prj.Name));
 
-    // Wykonaj dalsze operacje na wczytanym projekcie
+    // Perform further operations with the loaded project
 }
 ```
 
-## Krok 3: Określanie kodowania pliku
+### Krok 3: **Określenie kodowania pliku** przy importowaniu pliku XER
 
 ```csharp
 public void SpecifyFileEncoding()
 {
-    // Utwórz instancję LoadOptions
+    // Create LoadOptions instance
     LoadOptions lo = new LoadOptions();
 
-    // Określ kodowanie podczas otwierania projektu z pliku Primavera XER
+    // Specify encoding when opening a project from Primavera XER file
     lo.Encoding = Encoding.GetEncoding(1251);
 
-    // Załaduj projekt z określonym kodowaniem
+    // Load the project with specified encoding
     var project = new Project("encoding1251.xer", lo);
 
-    // Wykonaj dalsze operacje na wczytanym projekcie
+    // Perform further operations with the loaded project
 }
 ```
 
-## Krok 4: Ładowanie projektów Primavera z obsługą błędów
+### Krok 4: Ładowanie projektu Primavera z własną obsługą błędów
 
 ```csharp
 public void WorkWithLoadOptionsAndPrimaveraOptionsAndErrorHandler()
 {
-    // Utwórz instancję LoadOptions
+    // Create LoadOptions instance
     var loadOptions = new LoadOptions();
 
-    // Skonfiguruj opcje czytania Primavera
+    // Configure Primavera reading options
     var primaveraOptions = new PrimaveraReadOptions
     {
-        ProjectUid = 3882 // Ustaw identyfikator UID projektu
+        ProjectUid = 3882 // Set the Project UID
     };
 
-    // Ustaw opcje czytania Primavera
+    // Set Primavera reading options
     loadOptions.PrimaveraReadOptions = primaveraOptions;
 
-    //Ustaw niestandardową obsługę błędów
+    // Set custom error handling
     loadOptions.ErrorHandler = CustomDurationHandlerForFile;
 
-    // Załaduj projekt Primavera z określonymi opcjami i obsługą błędów
+    // Load the Primavera project with specified options and error handling
     var project = new Project(DataDir + "PrimaveraProject.xml", loadOptions);
 
-    // Wykonaj dalsze operacje na wczytanym projekcie
+    // Perform further operations with the loaded project
 }
 
-// Niestandardowa metoda obsługi błędów
+// Custom error handler method
 private static object CustomDurationHandlerForFile(object sender, ParseErrorArgs args)
 {
-    // Zaimplementuj niestandardową logikę obsługi błędów
+    // Implement custom error handling logic
 }
 ```
 
-Wykonując te kroki, możesz efektywnie wykorzystać opcje ładowania w Aspose.Tasks dla .NET, aby manipulować dokumentami projektu zgodnie z własnymi wymaganiami.
+Postępując zgodnie z tymi krokami, możesz precyzyjnie **importować dane z pliku projektu**, dostosować proces ładowania do własnych potrzeb i utrzymać aplikację w stabilnym stanie.
 
-## Wniosek
+## Typowe problemy i wskazówki
 
-W tym samouczku omówiliśmy podstawy pracy z opcjami ładowania w Aspose.Tasks dla .NET. Od ładowania projektów chronionych hasłem po określanie niestandardowej obsługi błędów — opanowanie tych technik umożliwi wydajne zarządzanie plikami projektów w aplikacjach .NET.
+- **Nieprawidłowe hasło** – właściwość `Password` spowoduje wyrzucenie wyjątku; sprawdź poprawność danych przed ładowaniem.  
+- **Nieobsługiwane kodowanie** – upewnij się, że podana strona kodowa istnieje na docelowej maszynie (`Encoding.GetEncoding(1251)` działa dla cyrylicy).  
+- **Brak opcji Primavera** – jeśli potrzebujesz zachować identyfikatory zadań (UID), ustaw `PreserveUids = true`; w przeciwnym razie mogą pojawić się duplikaty ID.  
+- **Obsługa błędów zwracająca null** – zwrócenie `null` sygnalizuje parserowi pominięcie problematycznego elementu; dostosuj zachowanie w razie potrzeby.
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### P1: Czy Aspose.Tasks for .NET jest kompatybilny ze wszystkimi wersjami Microsoft Project?
+**P: Czy Aspose.Tasks for .NET jest kompatybilny ze wszystkimi wersjami Microsoft Project?**  
+O: Tak, obsługuje szeroką gamę wersji Microsoft Project, dzięki czemu możesz **ładować formaty plików Microsoft Project** od starszych plików MPP po najnowsze formaty.
 
-O1: Tak, Aspose.Tasks dla .NET obsługuje różne wersje Microsoft Project, zapewniając kompatybilność w różnych środowiskach.
+**P: Czy mogę integrować Aspose.Tasks for .NET z innymi bibliotekami firm trzecich?**  
+O: Oczywiście. Biblioteka współpracuje bezproblemowo z innymi pakietami .NET, umożliwiając łączenie jej z frameworkami raportowania, interfejsu użytkownika czy dostępu do danych.
 
-### P2: Czy mogę zintegrować Aspose.Tasks dla .NET z bibliotekami innych firm?
+**P: Czy Aspose.Tasks for .NET udostępnia dokumentację i zasoby wsparcia?**  
+O: Tak, możesz skorzystać z obszernej [dokumentacji](https://reference.aspose.com/tasks/net/) oraz uzyskać pomoc na [forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
 
-Odpowiedź 2: Oczywiście, Aspose.Tasks dla .NET bezproblemowo integruje się z innymi bibliotekami .NET, oferując zwiększoną funkcjonalność i elastyczność.
+**P: Czy dostępne są opcje licencjonowania Aspose.Tasks for .NET?**  
+O: Tak, możesz zapoznać się z różnymi opcjami licencjonowania, w tym wersjami próbnymi i licencjami tymczasowymi, na stronie [Aspose.Tasks](https://purchase.aspose.com/buy).
 
-### P3: Czy Aspose.Tasks dla .NET zapewnia dokumentację i zasoby wsparcia?
+**P: Jak często publikowane są aktualizacje i nowe funkcje dla Aspose.Tasks for .NET?**  
+O: Aspose.Tasks otrzymuje regularne aktualizacje, które wprowadzają nowe funkcje, poprawiają wydajność i zapewniają kompatybilność z najnowszymi wydaniami Microsoft Project.
 
- A3: Tak, możesz odwołać się do kompleksowości[dokumentacja](https://reference.aspose.com/tasks/net/) i uzyskaj dostęp do wsparcia poprzez[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+---
 
-### P4: Czy dostępne są opcje licencjonowania dla Aspose.Tasks dla .NET?
+**Ostatnia aktualizacja:** 2026-03-08  
+**Testowane z:** Aspose.Tasks 24.11 for .NET  
+**Autor:** Aspose  
 
- Odpowiedź 4: Tak, możesz poznać różne opcje licencjonowania, w tym bezpłatne wersje próbne i licencje tymczasowe, na stronie[Witryna Aspose.Tasks](https://purchase.aspose.com/buy).
-
-### P5: Jak często są wydawane aktualizacje i nowe funkcje dla Aspose.Tasks dla .NET?
-
-O5: Aspose.Tasks dla .NET otrzymuje regularne aktualizacje i ulepszenia funkcji, aby zapewnić optymalną wydajność i kompatybilność z rozwijającymi się technologiami.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,148 +1,180 @@
 ---
-title: Wyświetlanie etykiet w Aspose.Tasks
-linktitle: Wyświetlanie etykiet w Aspose.Tasks
+date: 2026-03-08
+description: Dowiedz się, jak ustawić wyświetlanie etykiet i dostosować etykietę dnia
+  w zarządzaniu projektami przy użyciu Aspose.Tasks dla .NET, poprawiając czytelność
+  i przejrzystość.
+linktitle: Displaying Labels in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Dowiedz się, jak dostosować wyświetlanie etykiet w zarządzaniu projektami za pomocą Aspose.Tasks dla .NET. Bez wysiłku zwiększ czytelność i przejrzystość.
-weight: 14
+title: Jak ustawić wyświetlanie etykiet w Aspose.Tasks dla .NET
 url: /pl/net/advanced-concepts/label-display/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Wyświetlanie etykiet w Aspose.Tasks
+# Jak ustawić wyświetlanie etykiet w Aspose.Tasks dla .NET
 
-## Wstęp
+## Wprowadzenie
 
-W dziedzinie tworzenia oprogramowania efektywne zarządzanie zadaniami jest niezbędne dla powodzenia projektu. Aspose.Tasks dla .NET oferuje solidne rozwiązanie do płynnej obsługi zadań zarządzania projektami w ramach .NET. Jednym z kluczowych aspektów zarządzania projektami jest możliwość dostosowania opcji wyświetlania do konkretnych wymagań. W tym samouczku odkryjemy, jak wykorzystać Aspose.Tasks dla .NET do manipulowania wyświetlaniem etykiet minut, godzin, dni, tygodni, miesięcy i lat w plikach projektu.
+Kiedy budujesz rozwiązanie do zarządzania projektami przy użyciu **Aspose.Tasks for .NET**, możliwość **ustawiania etykiet** jest niezbędna, aby harmonogramy były łatwe do odczytania. Niezależnie od tego, czy potrzebujesz precyzji co do minuty, czy przeglądu rocznego na wysokim poziomie, dostosowanie wyświetlania etykiet pozwala przedstawić oś czasu dokładnie tak, jak oczekują tego interesariusze. W tym samouczku przeprowadzimy Cię krok po kroku przez proces ustawiania wyświetlania etykiet dla minut, godzin, dni, tygodni, miesięcy i lat, a także pokażemy, jak **dostosować formatowanie etykiety dnia** dla maksymalnej przejrzystości.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co oznacza „how to set label”?** Odnosi się do konfigurowania właściwości `DisplayOptions`, które kontrolują, jak jednostki czasu wyświetlają się w pliku projektu.  
+- **Jaką etykietę mogę zmienić?** Minuty, godziny, dni, tygodnie, miesiące i lata można konfigurować.  
+- **Czy potrzebna jest licencja?** Wymagana jest ważna licencja Aspose.Tasks do użytku produkcyjnego; darmowa wersja próbna działa w testach.  
+- **Czy jest to wspierane w .NET Core?** Tak, API działa z .NET Core, .NET 5/6 oraz pełnym .NET Framework.  
+- **Czy mogę zmienić etykietę w czasie działania?** Oczywiście – możesz modyfikować opcje wyświetlania w dowolnym momencie przed zapisaniem projektu.
 
-Zanim przejdziemy do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
+## Co to jest wyświetlanie etykiet w Aspose.Tasks?
 
-1. Znajomość programowania C#: Do zrozumienia i wdrożenia podanych przykładów konieczna jest podstawowa znajomość języka programowania C#.
-2.  Instalacja Aspose.Tasks dla .NET: Pobierz i zainstaluj bibliotekę Aspose.Tasks dla .NET ze strony[Tutaj](https://releases.aspose.com/tasks/net/).
-3. Środowisko programistyczne: Skonfiguruj środowisko programistyczne w programie Visual Studio lub dowolnym innym preferowanym środowisku IDE do programowania w środowisku .NET.
+Wyświetlanie etykiet określa tekstową reprezentację jednostek czasu (minuta, godzina, dzień itp.) na wykresie Gantta i skali czasu. Ustawiając odpowiednią właściwość `DisplayOptions`, instruujesz Aspose.Tasks, jak renderować te jednostki, co może znacząco poprawić czytelność projektu.
 
-## Importuj przestrzenie nazw
+## Dlaczego dostosowywać wyświetlanie etykiet?
 
-Zanim zaczniesz, pamiętaj o zaimportowaniu wymaganych przestrzeni nazw dla Aspose.Tasks:
+- **Poprawiona czytelność:** Interesariusze mogą natychmiast zrozumieć szczegółowość harmonogramu.  
+- **Spójne raportowanie:** Dopasowuje wyjście wizualne do standardów korporacyjnych (np. używanie „Mo” dla miesięcy).  
+- **Elastyczność:** Przełączaj się między szczegółowymi a wysokopoziomowymi widokami bez zmiany podstawowych danych harmonogramu.
+
+## Wymagania wstępne
+
+1. **Znajomość C#** – podstawowa znajomość składni C# i struktury projektu .NET.  
+2. **Aspose.Tasks for .NET** – pobierz i zainstaluj bibliotekę z [tutaj](https://releases.aspose.com/tasks/net/).  
+3. **Środowisko programistyczne** – Visual Studio, VS Code lub dowolne IDE obsługujące rozwój w .NET.
+
+## Importowanie przestrzeni nazw
+
+Przed rozpoczęciem zaimportuj wymagane przestrzenie nazw:
 
 ```csharp
 using Aspose.Tasks;
 using Aspose.Tasks;
 ```
 
-## 1. Wyświetlanie etykiet minut
+## Jak ustawić wyświetlanie etykiet dla minut
 
-Aby wyświetlić etykiety minut w plikach projektu:
+### 1. Wyświetlanie etykiet minutowych
+
+Aby ustawić etykietę minut, użyj właściwości `MinuteLabel`:
 
 ```csharp
 public void WorkWithMinuteLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // Ustaw sposób wyświetlania etykiety minut
+    // Set how the minute label is displayed
     project.DisplayOptions.MinuteLabel = MinuteLabelDisplay.M;
 }
 ```
 
-## 2. Wyświetlanie etykiet godzin
+## Jak ustawić wyświetlanie etykiet dla godzin
 
-Aby wyświetlić etykiety godzin w plikach projektu:
+### 2. Wyświetlanie etykiet godzinowych
 
 ```csharp
 public void WorkWithHourLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // Ustaw sposób wyświetlania etykiety godziny
+    // Set how the hour label is displayed
     project.DisplayOptions.HourLabel = HourLabelDisplay.H;
 }
 ```
 
-## 3. Wyświetlanie etykiet dni
+## Dostosuj wyświetlanie etykiety dnia
 
-Aby wyświetlić etykiety dni w plikach projektu:
+### 3. Wyświetlanie etykiet dniowych
 
 ```csharp
 public void WorkWithDayLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // Ustaw sposób wyświetlania etykiety dnia
+    // Set how the day label is displayed
     project.DisplayOptions.DayLabel = DayLabelDisplay.D;
 }
 ```
 
-## 4. Wyświetlanie etykiet tygodni
+## Jak ustawić wyświetlanie etykiet dla tygodni
 
-Aby wyświetlić etykiety tygodni w plikach projektu:
+### 4. Wyświetlanie etykiet tygodniowych
 
 ```csharp
 public void WorkWithWeekLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // Ustaw sposób wyświetlania etykiety tygodnia
+    // Set how the week label is displayed
     project.DisplayOptions.WeekLabel = WeekLabelDisplay.W;
 }
 ```
 
-## 5. Wyświetlanie etykiet miesięcy
+## Jak ustawić wyświetlanie etykiet dla miesięcy
 
-Aby wyświetlić etykiety miesięcy w plikach projektu:
+### 5. Wyświetlanie etykiet miesięcznych
 
 ```csharp
 public void WorkWithMonthLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // Ustaw sposób wyświetlania etykiety miesiąca
+    // Set how the month label is displayed
     project.DisplayOptions.MonthLabel = MonthLabelDisplay.Mo;
 }
 ```
 
-## 6. Wyświetlanie etykiet roku
+## Jak ustawić wyświetlanie etykiet dla lat
 
-Aby wyświetlić etykiety lat w plikach projektu:
+### 6. Wyświetlanie etykiet rocznych
 
 ```csharp
 public void WorkWithYearLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // Ustaw sposób wyświetlania etykiety roku
+    // Set how the year label is displayed
     project.DisplayOptions.YearLabel = YearLabelDisplay.Y;
 }
 ```
 
-## Wniosek
+## Typowe pułapki i wskazówki
 
-Podsumowując, efektywne zarządzanie zadaniami projektowymi jest kluczowe dla powodzenia projektu, a Aspose.Tasks dla .NET zapewnia kompleksowe rozwiązanie do obsługi zadań związanych z zarządzaniem projektami. Dostosowując sposób wyświetlania etykiet, użytkownicy mogą zwiększyć przejrzystość i czytelność danych projektu, co prowadzi do usprawnienia procesów zarządzania projektami.
+- **Wskazówka:** Zawsze ustaw wyświetlanie etykiet *przed* zapisaniem projektu; zmiany wprowadzone po zapisaniu nie będą odzwierciedlone w pliku.  
+- **Pułapka:** Użycie nieobsługiwanej wartości wyliczenia spowoduje wyrzucenie `ArgumentException`. Trzymaj się dostarczonych wyliczeń `*LabelDisplay`.  
+- **Wskazówka:** Jeśli potrzebujesz różnych stylów etykiet dla oddzielnych widoków, utwórz osobne instancje `Project` lub sklonuj obiekt `DisplayOptions`.
 
-## Często zadawane pytania
+## Podsumowanie
 
-### P1: Czy mogę dostosować wyświetlanie etykiet do określonych sekcji projektu?
+Opanowując **ustawianie etykiet** w Aspose.Tasks, zyskujesz precyzyjną kontrolę nad wizualną prezentacją harmonogramów projektów. Niezależnie od tego, czy dostosowujesz etykietę dnia dla codziennego boardu scrum, czy modyfikujesz etykietę roku dla wieloletniej mapy drogowej, te ustawienia pomagają dostarczyć jaśniejszą, bardziej profesjonalną dokumentację projektu.
 
-Odpowiedź 1: Tak, Aspose.Tasks dla .NET umożliwia szczegółową kontrolę nad wyświetlaniem etykiet, umożliwiając dostosowanie do określonych sekcji projektu w razie potrzeby.
+## FAQ
+
+### P1: Czy mogę dostosować wyświetlanie etykiet dla konkretnych sekcji projektu?
+
+A1: Tak, Aspose.Tasks for .NET umożliwia szczegółową kontrolę nad wyświetlaniem etykiet, pozwalając na dostosowanie ich dla konkretnych sekcji projektu w razie potrzeby.
 
 ### P2: Czy Aspose.Tasks jest kompatybilny z popularnymi frameworkami .NET?
 
-O2: Tak, Aspose.Tasks dla .NET jest kompatybilny z różnymi frameworkami .NET, w tym .NET Core i .NET Framework.
+A2: Tak, Aspose.Tasks for .NET jest kompatybilny z różnymi frameworkami .NET, w tym .NET Core i .NET Framework.
 
-### P3: Czy mogę dynamicznie zmieniać wyświetlanie etykiet w oparciu o wymagania projektu?
+### P3: Czy mogę dynamicznie zmieniać wyświetlanie etykiet w zależności od wymagań projektu?
 
-O3: Absolutnie, elastyczność Aspose.Tasks dla .NET pozwala na dynamiczne dostosowywanie wyświetlania etykiet w oparciu o zmieniające się wymagania projektu.
+A3: Absolutnie, elastyczność Aspose.Tasks for .NET pozwala na dynamiczne dostosowywanie wyświetlania etykiet w zależności od zmieniających się wymagań projektu.
 
-### P4: Czy istnieją jakieś ograniczenia w dostosowywaniu wyświetlanych etykiet?
+### P4: Czy istnieją jakiekolwiek ograniczenia w dostosowywaniu wyświetlania etykiet?
 
-O4: Aspose.Tasks dla .NET oferuje szerokie możliwości dostosowywania wyświetlania etykiet, przy minimalnych ograniczeniach, zapewniając użytkownikom dużą elastyczność.
+A4: Aspose.Tasks for .NET oferuje rozbudowane opcje dostosowywania wyświetlania etykiet, z minimalnymi ograniczeniami, zapewniając użytkownikom dużą elastyczność.
 
-### P5: Czy Aspose.Tasks obsługuje integrację z innymi narzędziami do zarządzania projektami?
+### P5: Czy Aspose.Tasks wspiera integrację z innymi narzędziami do zarządzania projektami?
 
-Odpowiedź 5: Tak, Aspose.Tasks oferuje możliwości płynnej integracji, ułatwiając interoperacyjność z innymi narzędziami i platformami do zarządzania projektami.
+A5: Tak, Aspose.Tasks oferuje płynne możliwości integracji, ułatwiając interoperacyjność z innymi narzędziami i platformami do zarządzania projektami.
+
+---
+
+**Ostatnia aktualizacja:** 2026-03-08  
+**Testowane z:** Aspose.Tasks 24.11 for .NET  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

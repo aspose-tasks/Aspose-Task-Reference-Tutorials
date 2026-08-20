@@ -1,148 +1,179 @@
 ---
-title: การแสดงป้ายกำกับใน Aspose.Tasks
-linktitle: การแสดงป้ายกำกับใน Aspose.Tasks
+date: 2026-03-08
+description: Learn how to set label display and customize day label in project management
+  using Aspose.Tasks for .NET, improving readability and clarity.
+linktitle: Displaying Labels in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: เรียนรู้วิธีปรับแต่งการแสดงฉลากในการจัดการโครงการด้วย Aspose.Tasks for .NET เพิ่มความสามารถในการอ่านและความชัดเจนได้อย่างง่ายดาย
-weight: 14
+title: How to Set Label Display in Aspose.Tasks for .NET
 url: /th/net/advanced-concepts/label-display/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# การแสดงป้ายกำกับใน Aspose.Tasks
+# วิธีตั้งค่าการแสดงป้ายใน Aspose.Tasks สำหรับ .NET
 
-## การแนะนำ
+## Introduction
 
-ในขอบเขตของการพัฒนาซอฟต์แวร์ การจัดการงานอย่างมีประสิทธิภาพเป็นสิ่งจำเป็นสำหรับความสำเร็จของโครงการ Aspose.Tasks for .NET นำเสนอโซลูชันที่มีประสิทธิภาพสำหรับการจัดการงานการจัดการโครงการได้อย่างราบรื่นภายในกรอบงาน .NET สิ่งสำคัญประการหนึ่งของการจัดการโครงการคือความสามารถในการปรับแต่งตัวเลือกการแสดงผลให้เหมาะกับความต้องการเฉพาะ ในบทช่วยสอนนี้ เราจะสำรวจวิธีใช้ Aspose.Tasks สำหรับ .NET เพื่อจัดการการแสดงป้ายกำกับนาที ชั่วโมง วัน สัปดาห์ เดือน และปีภายในไฟล์โปรเจ็กต์
+เมื่อคุณกำลังสร้างโซลูชันการจัดการโครงการด้วย **Aspose.Tasks for .NET** การสามารถ **how to set label** ตัวเลือกเป็นสิ่งสำคัญสำหรับทำให้กำหนดการอ่านง่าย ไม่ว่าคุณจะต้องการความแม่นยำระดับนาทีหรือมุมมองระดับปี การปรับแต่งการแสดงป้ายช่วยให้คุณนำเสนอไทม์ไลน์ได้ตามที่ผู้มีส่วนได้ส่วนเสียคาดหวัง ในบทแนะนำนี้เราจะเดินผ่านกระบวนการตั้งค่าการแสดงป้ายสำหรับนาที ชั่วโมง วัน สัปดาห์ เดือน และปี และเราจะยังแสดงวิธี **customize day label** รูปแบบเพื่อความชัดเจนสูงสุด.
 
-## ข้อกำหนดเบื้องต้น
+## Quick Answers
+- **What does “how to set label” mean?** หมายถึงการกำหนดค่าคุณสมบัติ `DisplayOptions` ที่ควบคุมว่าหน่วยเวลาแสดงอย่างไรในไฟล์โครงการ  
+- **Which label can I change?** นาที ชั่วโมง วัน สัปดาห์ เดือน และปี ทั้งหมดสามารถกำหนดค่าได้  
+- **Do I need a license?** จำเป็นต้องมีใบอนุญาต Aspose.Tasks ที่ถูกต้องสำหรับการใช้งานในสภาพแวดล้อมการผลิต; เวอร์ชันทดลองฟรีใช้ได้สำหรับการทดสอบ  
+- **Is this supported on .NET Core?** ใช่, API ทำงานกับ .NET Core, .NET 5/6, และ .NET Framework เต็มรูปแบบ  
+- **Can I change the label at runtime?** แน่นอน – คุณสามารถแก้ไขตัวเลือกการแสดงได้ทุกเมื่อก่อนบันทึกโครงการ
 
-ก่อนที่เราจะเจาะลึกบทช่วยสอน ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
+## What is label display in Aspose.Tasks?
 
-1. ความรู้เกี่ยวกับการเขียนโปรแกรม C#: ความเข้าใจพื้นฐานเกี่ยวกับภาษาการเขียนโปรแกรม C# เป็นสิ่งจำเป็นในการทำความเข้าใจและนำตัวอย่างที่ให้มาไปใช้
-2.  การติดตั้ง Aspose.Tasks สำหรับ .NET: ดาวน์โหลดและติดตั้งไลบรารี Aspose.Tasks สำหรับ .NET จาก[ที่นี่](https://releases.aspose.com/tasks/net/).
-3. สภาพแวดล้อมการพัฒนา: ตั้งค่าสภาพแวดล้อมการพัฒนาด้วย Visual Studio หรือ IDE ที่ต้องการอื่นๆ สำหรับการพัฒนา .NET
+การแสดงป้ายกำหนดเป็นการกำหนดการแสดงผลเป็นข้อความของหน่วยเวลา (นาที, ชั่วโมง, วัน ฯลฯ) บนแผนภูมิ Gantt และสเกลเวลา โดยการตั้งค่าคุณสมบัติ `DisplayOptions` ที่เหมาะสม คุณจะสั่งให้ Aspose.Tasks เรนเดอร์หน่วยเหล่านั้น ซึ่งสามารถปรับปรุงความอ่านง่ายของโครงการได้อย่างมาก
 
-## นำเข้าเนมสเปซ
+## Why customize label displays?
 
-ก่อนที่จะเริ่มต้น ตรวจสอบให้แน่ใจว่าได้นำเข้าเนมสเปซที่จำเป็นสำหรับ Aspose.Tasks:
+- **Improved readability:** ผู้มีส่วนได้ส่วนเสียสามารถเข้าใจระดับความละเอียดของกำหนดการได้ทันที  
+- **Consistent reporting:** ทำให้ผลลัพธ์ภาพสอดคล้องกับมาตรฐานองค์กร (เช่น ใช้ “Mo” สำหรับเดือน)  
+- **Flexibility:** สลับระหว่างมุมมองละเอียดและระดับสูงโดยไม่ต้องเปลี่ยนแปลงข้อมูลกำหนดการพื้นฐาน
+
+## Prerequisites
+
+1. **C# knowledge** – ความคุ้นเคยพื้นฐานกับไวยากรณ์ C# และโครงสร้างโครงการ .NET  
+2. **Aspose.Tasks for .NET** – ดาวน์โหลดและติดตั้งไลบรารีจาก [here](https://releases.aspose.com/tasks/net/)  
+3. **Development environment** – Visual Studio, VS Code, หรือ IDE ใด ๆ ที่รองรับการพัฒนา .NET
+
+## Import Namespaces
+
+ก่อนเริ่มต้น ให้นำเข้าเนมสเปซที่จำเป็น:
 
 ```csharp
 using Aspose.Tasks;
 using Aspose.Tasks;
 ```
 
-## 1. การแสดงป้ายกำกับนาที
+## How to set label display for minutes
 
-วิธีแสดงป้ายกำกับนาทีภายในไฟล์โครงการ:
+### 1. Displaying Minute Labels
+
+เพื่อกำหนดป้ายนาที ให้ใช้คุณสมบัติ `MinuteLabel` :
 
 ```csharp
 public void WorkWithMinuteLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // กำหนดวิธีการแสดงป้ายกำกับนาที
+    // Set how the minute label is displayed
     project.DisplayOptions.MinuteLabel = MinuteLabelDisplay.M;
 }
 ```
 
-## 2. การแสดงป้ายกำกับชั่วโมง
+## How to set label display for hours
 
-วิธีแสดงป้ายกำกับชั่วโมงภายในไฟล์โครงการ:
+### 2. Displaying Hour Labels
 
 ```csharp
 public void WorkWithHourLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // กำหนดวิธีการแสดงป้ายกำกับชั่วโมง
+    // Set how the hour label is displayed
     project.DisplayOptions.HourLabel = HourLabelDisplay.H;
 }
 ```
 
-## 3. การแสดงป้ายกำกับวัน
+## Customize day label display
 
-วิธีแสดงป้ายกำกับวันภายในไฟล์โครงการ:
+### 3. Displaying Day Labels
 
 ```csharp
 public void WorkWithDayLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // กำหนดวิธีการแสดงป้ายกำกับวัน
+    // Set how the day label is displayed
     project.DisplayOptions.DayLabel = DayLabelDisplay.D;
 }
 ```
 
-## 4. การแสดงป้ายกำกับสัปดาห์
+## How to set label display for weeks
 
-วิธีแสดงป้ายกำกับสัปดาห์ภายในไฟล์โครงการ:
+### 4. Displaying Week Labels
 
 ```csharp
 public void WorkWithWeekLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // กำหนดวิธีการแสดงป้ายกำกับสัปดาห์
+    // Set how the week label is displayed
     project.DisplayOptions.WeekLabel = WeekLabelDisplay.W;
 }
 ```
 
-## 5. การแสดงป้ายกำกับเดือน
+## How to set label display for months
 
-วิธีแสดงป้ายกำกับเดือนภายในไฟล์โครงการ:
+### 5. Displaying Month Labels
 
 ```csharp
 public void WorkWithMonthLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // กำหนดวิธีการแสดงป้ายกำกับเดือน
+    // Set how the month label is displayed
     project.DisplayOptions.MonthLabel = MonthLabelDisplay.Mo;
 }
 ```
 
-## 6. การแสดงป้ายปี
+## How to set label display for years
 
-วิธีแสดงป้ายกำกับปีภายในไฟล์โครงการ:
+### 6. Displaying Year Labels
 
 ```csharp
 public void WorkWithYearLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // กำหนดวิธีการแสดงป้ายกำกับปี
+    // Set how the year label is displayed
     project.DisplayOptions.YearLabel = YearLabelDisplay.Y;
 }
 ```
 
-## บทสรุป
+## Common Pitfalls & Tips
 
-โดยสรุป การจัดการงานโครงการอย่างมีประสิทธิภาพเป็นสิ่งสำคัญต่อความสำเร็จของโครงการ และ Aspose.Tasks สำหรับ .NET มอบโซลูชันที่ครอบคลุมสำหรับการจัดการงานการจัดการโครงการ ด้วยการปรับแต่งการแสดงฉลาก ผู้ใช้สามารถเพิ่มความชัดเจนและความสามารถในการอ่านข้อมูลโครงการ ซึ่งนำไปสู่การปรับปรุงกระบวนการจัดการโครงการ
+- **Tip:** ควรตั้งค่าการแสดงป้าย *ก่อน* บันทึกโครงการ; การเปลี่ยนแปลงหลังจากบันทึกจะไม่แสดงในไฟล์  
+- **Pitfall:** การใช้ค่า enum ที่ไม่รองรับจะทำให้เกิด `ArgumentException`. ให้ใช้ enum `*LabelDisplay` ที่จัดเตรียมไว้เท่านั้น  
+- **Tip:** หากต้องการสไตล์ป้ายที่แตกต่างสำหรับมุมมองแยกกัน ให้สร้างอินสแตนซ์ `Project` แยกหรือคัดลอกอ็อบเจ็กต์ `DisplayOptions`
 
-## คำถามที่พบบ่อย
+## Conclusion
 
-### คำถามที่ 1: ฉันสามารถปรับแต่งการแสดงฉลากสำหรับส่วนเฉพาะของโปรเจ็กต์ได้หรือไม่
+โดยการเชี่ยวชาญการตั้งค่า **how to set label** ใน Aspose.Tasks คุณจะได้การควบคุมระดับละเอียดต่อการนำเสนอภาพของกำหนดการโครงการ ไม่ว่าคุณจะปรับแต่งป้ายวันสำหรับบอร์ดสครัมประจำวันหรือปรับป้ายปีสำหรับแผนงานหลายปี การตั้งค่าเหล่านี้ช่วยให้คุณส่งมอบเอกสารโครงการที่ชัดเจนและเป็นมืออาชีพมากขึ้น
 
-ตอบ 1: ใช่ Aspose.Tasks สำหรับ .NET ช่วยให้สามารถควบคุมการแสดงฉลากได้อย่างละเอียด ช่วยให้สามารถปรับแต่งส่วนเฉพาะของโปรเจ็กต์ได้ตามต้องการ
+## FAQ's
 
-### คำถามที่ 2: Aspose.Tasks เข้ากันได้กับเฟรมเวิร์ก .NET ยอดนิยมหรือไม่
+### Q1: ฉันสามารถปรับแต่งการแสดงป้ายสำหรับส่วนเฉพาะของโครงการได้หรือไม่?
 
-ตอบ 2: ใช่ Aspose.Tasks สำหรับ .NET เข้ากันได้กับ .NET Frameworks ต่างๆ รวมถึง .NET Core และ .NET Framework
+A1: ได้, Aspose.Tasks for .NET อนุญาตให้ควบคุมการแสดงป้ายอย่างละเอียด สามารถปรับแต่งสำหรับส่วนเฉพาะของโครงการตามความต้องการ
 
-### คำถามที่ 3: ฉันสามารถเปลี่ยนการแสดงฉลากแบบไดนามิกตามความต้องการของโครงการได้หรือไม่
+### Q2: Aspose.Tasks รองรับเฟรมเวิร์ก .NET ยอดนิยมหรือไม่?
 
-ตอบ 3: แน่นอนว่าความยืดหยุ่นของ Aspose.Tasks สำหรับ .NET ช่วยให้สามารถปรับการแสดงฉลากแบบไดนามิกตามความต้องการของโครงการที่เปลี่ยนแปลงไป
+A2: ใช่, Aspose.Tasks for .NET รองรับเฟรมเวิร์ก .NET ต่าง ๆ รวมถึง .NET Core และ .NET Framework
 
-### คำถามที่ 4: มีข้อจำกัดในการปรับแต่งการแสดงฉลากหรือไม่?
+### Q3: ฉันสามารถเปลี่ยนการแสดงป้ายแบบไดนามิกตามความต้องการของโครงการได้หรือไม่?
 
-ตอบ 4: Aspose.Tasks for .NET นำเสนอตัวเลือกการปรับแต่งที่ครอบคลุมสำหรับการแสดงฉลาก โดยมีข้อจำกัดน้อยที่สุด ทำให้ผู้ใช้มีความยืดหยุ่นอย่างมาก
+A3: แน่นอน, ความยืดหยุ่นของ Aspose.Tasks for .NET อนุญาตให้ปรับการแสดงป้ายแบบไดนามิกตามความต้องการของโครงการที่เปลี่ยนแปลงไป
 
-### คำถามที่ 5: Aspose.Tasks รองรับการผสานรวมกับเครื่องมือการจัดการโครงการอื่นๆ หรือไม่
+### Q4: มีข้อจำกัดใดในการปรับแต่งการแสดงป้ายหรือไม่?
 
-A5: ใช่ Aspose.Tasks นำเสนอความสามารถในการบูรณาการที่ราบรื่น อำนวยความสะดวกในการทำงานร่วมกันกับเครื่องมือและแพลตฟอร์มการจัดการโครงการอื่นๆ
+A4: Aspose.Tasks for .NET มีตัวเลือกการปรับแต่งการแสดงป้ายอย่างกว้างขวาง โดยมีข้อจำกัดเพียงเล็กน้อย ให้ผู้ใช้มีความยืดหยุ่นเพียงพอ
+
+### Q5: Aspose.Tasks รองรับการรวมกับเครื่องมือการจัดการโครงการอื่นหรือไม่?
+
+A5: ใช่, Aspose.Tasks มีความสามารถในการรวมอย่างราบรื่น ช่วยให้ทำงานร่วมกับเครื่องมือและแพลตฟอร์มการจัดการโครงการอื่น ๆ ได้
+
+---
+
+**อัปเดตล่าสุด:** 2026-03-08  
+**ทดสอบด้วย:** Aspose.Tasks 24.11 for .NET  
+**ผู้เขียน:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

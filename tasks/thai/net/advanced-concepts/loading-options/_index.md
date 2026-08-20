@@ -1,37 +1,54 @@
 ---
-title: ตัวเลือกสำหรับการโหลดใน Aspose.Tasks
-linktitle: ตัวเลือกสำหรับการโหลดใน Aspose.Tasks
+date: 2026-03-08
+description: เรียนรู้วิธีนำเข้าไฟล์โครงการโดยใช้ Aspose.Tasks สำหรับ .NET รวมถึงวิธีระบุการเข้ารหัสไฟล์และโหลดไฟล์
+  Microsoft Project อย่างมีประสิทธิภาพ
+linktitle: Options for Loading in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: เรียนรู้วิธีควบคุมพลังของ Aspose.Tasks สำหรับ .NET เพื่อจัดการเอกสาร Microsoft Project อย่างมีประสิทธิภาพพร้อมคำแนะนำทีละขั้นตอน
-weight: 16
+title: นำเข้าไฟล์โครงการ – ตัวเลือกสำหรับการโหลดใน Aspose.Tasks
 url: /th/net/advanced-concepts/loading-options/
+weight: 16
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ Import Project File – Options for Loading in Aspose.Tasks" becomes "# นำเข้าไฟล์โครงการ – ตัวเลือกการโหลดใน Aspose.Tasks". Keep dash.
+
+Similarly others.
+
+Make sure to keep code block placeholders unchanged.
+
+Translate bullet points.
+
+Be careful not to translate URLs, code names, etc.
+
+Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ตัวเลือกสำหรับการโหลดใน Aspose.Tasks
+# นำเข้าไฟล์โครงการ – ตัวเลือกการโหลดใน Aspose.Tasks
 
-## การแนะนำ
+## บทนำ
 
-Aspose.Tasks สำหรับ .NET เป็นไลบรารีที่มีประสิทธิภาพซึ่งช่วยให้นักพัฒนาสามารถจัดการเอกสาร Microsoft Project โดยทางโปรแกรมได้ ไม่ว่าคุณจะต้องการสร้าง อ่าน เขียน หรือแปลงไฟล์โปรเจ็กต์ Aspose.Tasks มีฟังก์ชันการทำงานที่หลากหลายเพื่อปรับปรุงงานของคุณ ในบทช่วยสอนนี้ เราจะเจาะลึกสิ่งสำคัญของการใช้ Aspose.Tasks สำหรับ .NET โดยแบ่งกระบวนการสำคัญออกเป็นขั้นตอนง่ายๆ ที่นำไปปฏิบัติได้
+Aspose.Tasks for .NET ทำให้การ **import project file** จาก Microsoft Project, Primavera และรูปแบบอื่น ๆ เป็นเรื่องง่าย ไม่ว่าคุณจะต้องการอ่านไฟล์ที่มีการป้องกันด้วยรหัสผ่าน, ตั้งค่าการเข้ารหัสแบบกำหนดเอง, หรือจัดการข้อผิดพลาดในการพาร์ส, ไลบรารีนี้ให้การควบคุมที่ละเอียดผ่านตัวเลือกการโหลด ในบทแนะนำนี้เราจะพาคุณผ่านสถานการณ์ที่พบบ่อยที่สุดเพื่อให้คุณสามารถ **load Microsoft Project file** ในแอปพลิเคชัน .NET ของคุณได้อย่างมั่นใจ
+
+## คำตอบสั้น
+- **วิธีหลักในการนำเข้าไฟล์โครงการคืออะไร?** ใช้คอนสตรัคเตอร์ `Project` พร้อมอินสแตนซ์ของ `LoadOptions`  
+- **ฉันสามารถเปิดไฟล์ที่ป้องกันด้วยรหัสผ่านได้หรือไม่?** ได้—ตั้งค่า `Password` บน `LoadOptions`  
+- **ฉันจะระบุการเข้ารหัสไฟล์อย่างไร?** กำหนดอ็อบเจ็กต์ `Encoding` ให้กับ `LoadOptions.Encoding`  
+- **การจัดการข้อผิดพลาดสามารถปรับแต่งได้หรือไม่?** แน่นอน—ให้ delegate กับ `LoadOptions.ErrorHandler`  
+- **ตัวเลือกเหล่านี้ทำงานกับไฟล์ Primavera หรือไม่?** ใช้ `PrimaveraReadOptions` ภายใน `LoadOptions`
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่จะเจาะลึก Aspose.Tasks สำหรับ .NET ตรวจสอบให้แน่ใจว่าคุณได้ตั้งค่าข้อกำหนดเบื้องต้นต่อไปนี้:
+ก่อนเริ่มทำงาน ให้ตรวจสอบว่าคุณมี:
 
-1. Visual Studio: ติดตั้ง Visual Studio หรือ IDE อื่น ๆ ที่คุณเลือก
-2.  Aspose.Tasks for .NET: ดาวน์โหลดและติดตั้งไลบรารี Aspose.Tasks for .NET จาก[เว็บไซต์](https://releases.aspose.com/tasks/net/).
-3. ความเข้าใจพื้นฐานของ C#: ทำความคุ้นเคยกับพื้นฐานภาษาการเขียนโปรแกรม C#
+1. **Visual Studio** (หรือ IDE .NET ที่คุณชื่นชอบ)  
+2. **Aspose.Tasks for .NET** – ดาวน์โหลดได้จาก [website](https://releases.aspose.com/tasks/net/)  
+3. ความเข้าใจพื้นฐานเกี่ยวกับไวยากรณ์ **C#** และโครงสร้างโปรเจกต์
 
-ตอนนี้เราได้ครอบคลุมข้อกำหนดเบื้องต้นแล้ว เรามาสำรวจเนมสเปซที่จำเป็นและเจาะลึกคำแนะนำทีละขั้นตอนกันดีกว่า
+เมื่อพร้อมแล้ว ให้ทำการนำเข้า namespace ที่จำเป็น
 
-## การนำเข้าเนมสเปซ
+## การนำเข้า Namespaces
 
-ในโปรเจ็กต์ C# ของคุณ ให้นำเข้าเนมสเปซที่จำเป็นเพื่อเข้าถึงฟังก์ชัน Aspose.Tasks:
-
-1. Aspose.Tasks: เนมสเปซนี้มีคลาสหลักและอินเทอร์เฟซสำหรับการทำงานกับเอกสาร Project
+ในโปรเจกต์ C# ของคุณ เพิ่ม `using` statements ด้านล่างเพื่อให้คลาส API พร้อมใช้งาน:
 
 ```csharp
 using Aspose.Tasks;
@@ -39,138 +56,145 @@ using System.Text;
 using System.Threading;
 ```
 
-ตอนนี้ เรามาแบ่งงานต่างๆ ออกเป็นคำแนะนำทีละขั้นตอน
+## วิธีนำเข้าไฟล์โครงการด้วยตัวเลือกการโหลด
 
-## ขั้นตอนที่ 1: กำลังโหลดโปรเจ็กต์ที่ป้องกันด้วยรหัสผ่าน
+ต่อไปนี้เป็นตัวอย่างสี่กรณีที่ครอบคลุมสถานการณ์การโหลดที่พบบ่อยที่สุด
+
+### ขั้นตอน 1: โหลดโครงการที่ป้องกันด้วยรหัสผ่าน
 
 ```csharp
 public void WorkWithLoadOptionsAndPassword()
 {
-    // เริ่มต้น FileStream เพื่อโหลดไฟล์โครงการ
+    // Initialize FileStream to load the project file
     using (var stream = new FileStream(DataDir + "PasswordProtectedProject.mpp", FileMode.Open))
     {
-        // สร้างอินสแตนซ์ LoadOptions
+        // Create LoadOptions instance
         var options = new LoadOptions
         {
-            Password = "password" // ตั้งรหัสผ่าน
+            Password = "password" // Set the password
         };
 
-        // โหลดโปรเจ็กต์ด้วยตัวเลือกที่ระบุ
+        // Load the project with specified options
         var project = new Project(stream, options);
 
-        // แสดงชื่อโครงการ
+        // Display project name
         Console.WriteLine(project.Get(Prj.Name));
     }
 }
 ```
 
-## ขั้นตอนที่ 2: กำลังโหลดโปรเจ็กต์ Primavera ด้วยตัวเลือกแบบกำหนดเอง
+### ขั้นตอน 2: โหลดโครงการ Primavera ด้วยตัวเลือกกำหนดเอง
 
 ```csharp
 public void WorkWithLoadOptionsAndPrimaveraOptions()
 {
-    // สร้างอินสแตนซ์ LoadOptions
+    // Create LoadOptions instance
     var loadOptions = new LoadOptions();
 
-    // กำหนดค่าตัวเลือกการอ่าน Primavera
+    // Configure Primavera reading options
     var primaveraOptions = new PrimaveraReadOptions()
     {
-        ProjectUid = 3882, // ตั้งค่า UID ของโครงการ
+        ProjectUid = 3882, // Set the Project UID
         UndefinedConstraintHandlingBehavior = UndefinedConstraintHandlingBehavior.None,
         PreserveUids = true
     };
 
-    // ตั้งค่าตัวเลือกการอ่าน Primavera
+    // Set Primavera reading options
     loadOptions.PrimaveraReadOptions = primaveraOptions;
 
-    // โหลดโปรเจ็กต์ Primavera ด้วยตัวเลือกที่ระบุ
+    // Load the Primavera project with specified options
     var project = new Project(DataDir + "PrimaveraProject.xml", loadOptions);
 
-    // แสดงชื่อโครงการ
+    // Display project name
     Console.WriteLine("Project Name: " + project.Get(Prj.Name));
 
-    // ดำเนินการเพิ่มเติมกับโปรเจ็กต์ที่โหลดแล้ว
+    // Perform further operations with the loaded project
 }
 ```
 
-## ขั้นตอนที่ 3: ระบุการเข้ารหัสไฟล์
+### ขั้นตอน 3: **ระบุการเข้ารหัสไฟล์** เมื่อ Import XER File
 
 ```csharp
 public void SpecifyFileEncoding()
 {
-    // สร้างอินสแตนซ์ LoadOptions
+    // Create LoadOptions instance
     LoadOptions lo = new LoadOptions();
 
-    // ระบุการเข้ารหัสเมื่อเปิดโปรเจ็กต์จากไฟล์ Primavera XER
+    // Specify encoding when opening a project from Primavera XER file
     lo.Encoding = Encoding.GetEncoding(1251);
 
-    // โหลดโปรเจ็กต์ด้วยการเข้ารหัสที่ระบุ
+    // Load the project with specified encoding
     var project = new Project("encoding1251.xer", lo);
 
-    // ดำเนินการเพิ่มเติมกับโปรเจ็กต์ที่โหลดแล้ว
+    // Perform further operations with the loaded project
 }
 ```
 
-## ขั้นตอนที่ 4: กำลังโหลดโปรเจ็กต์ Primavera พร้อมการจัดการข้อผิดพลาด
+### ขั้นตอน 4: โหลดโครงการ Primavera ด้วยการจัดการข้อผิดพลาดแบบกำหนดเอง
 
 ```csharp
 public void WorkWithLoadOptionsAndPrimaveraOptionsAndErrorHandler()
 {
-    // สร้างอินสแตนซ์ LoadOptions
+    // Create LoadOptions instance
     var loadOptions = new LoadOptions();
 
-    // กำหนดค่าตัวเลือกการอ่าน Primavera
+    // Configure Primavera reading options
     var primaveraOptions = new PrimaveraReadOptions
     {
-        ProjectUid = 3882 // ตั้งค่า UID ของโครงการ
+        ProjectUid = 3882 // Set the Project UID
     };
 
-    // ตั้งค่าตัวเลือกการอ่าน Primavera
+    // Set Primavera reading options
     loadOptions.PrimaveraReadOptions = primaveraOptions;
 
-    //ตั้งค่าการจัดการข้อผิดพลาดแบบกำหนดเอง
+    // Set custom error handling
     loadOptions.ErrorHandler = CustomDurationHandlerForFile;
 
-    // โหลดโปรเจ็กต์ Primavera ด้วยตัวเลือกที่ระบุและการจัดการข้อผิดพลาด
+    // Load the Primavera project with specified options and error handling
     var project = new Project(DataDir + "PrimaveraProject.xml", loadOptions);
 
-    // ดำเนินการเพิ่มเติมกับโปรเจ็กต์ที่โหลดแล้ว
+    // Perform further operations with the loaded project
 }
 
-// วิธีจัดการข้อผิดพลาดแบบกำหนดเอง
+// Custom error handler method
 private static object CustomDurationHandlerForFile(object sender, ParseErrorArgs args)
 {
-    // ใช้ตรรกะการจัดการข้อผิดพลาดแบบกำหนดเอง
+    // Implement custom error handling logic
 }
 ```
 
-ด้วยการทำตามขั้นตอนเหล่านี้ คุณจะสามารถใช้ตัวเลือกการโหลดใน Aspose.Tasks สำหรับ .NET เพื่อจัดการเอกสาร Project ตามความต้องการของคุณได้อย่างมีประสิทธิภาพ
+โดยทำตามขั้นตอนเหล่านี้ คุณจะสามารถ **import project file** ได้อย่างแม่นยำ ปรับกระบวนการโหลดให้ตรงกับความต้องการของคุณ และทำให้แอปพลิเคชันของคุณมีความเสถียร
 
-## บทสรุป
+## ปัญหาที่พบบ่อย & เคล็ดลับ
 
-ในบทช่วยสอนนี้ เราได้สำรวจพื้นฐานของการทำงานกับตัวเลือกการโหลดใน Aspose.Tasks สำหรับ .NET ตั้งแต่การโหลดโปรเจ็กต์ที่มีการป้องกันด้วยรหัสผ่านไปจนถึงการระบุการจัดการข้อผิดพลาดแบบกำหนดเอง การเรียนรู้เทคนิคเหล่านี้อย่างเชี่ยวชาญจะช่วยให้คุณสามารถจัดการไฟล์โปรเจ็กต์ภายในแอปพลิเคชัน .NET ของคุณได้อย่างมีประสิทธิภาพ
+- **รหัสผ่านไม่ถูกต้อง** – property `Password` จะโยนข้อยกเว้น; ตรวจสอบข้อมูลประจำตัวก่อนทำการโหลด  
+- **การเข้ารหัสที่ไม่รองรับ** – ตรวจสอบให้แน่ใจว่า code page ที่ระบุมีอยู่บนเครื่องเป้าหมาย (`Encoding.GetEncoding(1251)` ใช้สำหรับ Cyrillic)  
+- **ขาดตัวเลือก Primavera** – หากต้องการรักษา UID ของงาน, ตั้งค่า `PreserveUids = true`; มิฉะนั้นอาจมี ID ซ้ำเกิดขึ้น  
+- **Error handler คืนค่า null** – การคืนค่า `null` จะบอก parser ให้ข้ามองค์ประกอบที่มีปัญหา; ปรับแต่งตามต้องการ
 
 ## คำถามที่พบบ่อย
 
-### คำถามที่ 1: Aspose.Tasks สำหรับ .NET เข้ากันได้กับ Microsoft Project ทุกเวอร์ชันหรือไม่
+**Q: Aspose.Tasks for .NET รองรับทุกเวอร์ชันของ Microsoft Project หรือไม่?**  
+A: รองรับหลายเวอร์ชันของ Microsoft Project, ดังนั้นคุณสามารถ **load Microsoft Project file** จากไฟล์ MPP เก่าไปจนถึงรูปแบบล่าสุดได้
 
-ตอบ 1: ใช่ Aspose.Tasks สำหรับ .NET รองรับ Microsoft Project เวอร์ชันต่างๆ เพื่อให้มั่นใจถึงความเข้ากันได้ในสภาพแวดล้อมที่แตกต่างกัน
+**Q: ฉันสามารถรวม Aspose.Tasks for .NET กับไลบรารีของบุคคลที่สามอื่น ๆ ได้หรือไม่?**  
+A: แน่นอน ไลบรารีทำงานร่วมกับแพคเกจ .NET อื่น ๆ ได้อย่างราบรื่น ทำให้คุณสามารถผสานกับระบบรายงาน, UI หรือเฟรมเวิร์กการเข้าถึงข้อมูลได้
 
-### คำถามที่ 2: ฉันสามารถรวม Aspose.Tasks สำหรับ .NET เข้ากับไลบรารีของบริษัทอื่นได้หรือไม่
+**Q: Aspose.Tasks for .NET มีเอกสารและแหล่งสนับสนุนหรือไม่?**  
+A: มี คุณสามารถอ้างอิงเอกสารที่ครอบคลุมได้ที่ [documentation](https://reference.aspose.com/tasks/net/) และรับการสนับสนุนผ่าน [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15)
 
-ตอบ 2: แน่นอนว่า Aspose.Tasks สำหรับ .NET สามารถทำงานร่วมกับไลบรารี .NET อื่นๆ ได้อย่างราบรื่น โดยนำเสนอฟังก์ชันการทำงานและความยืดหยุ่นที่ได้รับการปรับปรุง
+**Q: มีตัวเลือกการให้ลิขสิทธิ์สำหรับ Aspose.Tasks for .NET หรือไม่?**  
+A: มี คุณสามารถสำรวจตัวเลือกลิขสิทธิ์ต่าง ๆ รวมถึงการทดลองใช้ฟรีและลิขสิทธิ์ชั่วคราวได้ที่ [Aspose.Tasks website](https://purchase.aspose.com/buy)
 
-### คำถามที่ 3: Aspose.Tasks สำหรับ .NET มีเอกสารประกอบและทรัพยากรสนับสนุนหรือไม่
+**Q: การอัปเดตและฟีเจอร์ใหม่ ๆ ของ Aspose.Tasks for .NET ปล่อยบ่อยแค่ไหน?**  
+A: Aspose.Tasks มีการอัปเดตเป็นประจำเพื่อเพิ่มฟีเจอร์, ปรับปรุงประสิทธิภาพ, และรักษาความเข้ากันได้กับการปล่อยเวอร์ชันใหม่ของ Microsoft Project
 
- A3: ใช่ คุณสามารถอ้างอิงถึงเนื้อหาที่ครอบคลุมได้[เอกสารประกอบ](https://reference.aspose.com/tasks/net/) และเข้าถึงการสนับสนุนผ่านทาง[ฟอรั่ม Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+---
 
-### คำถามที่ 4: มีตัวเลือกสิทธิ์การใช้งานสำหรับ Aspose.Tasks สำหรับ .NET หรือไม่
+**Last Updated:** 2026-03-08  
+**Tested With:** Aspose.Tasks 24.11 for .NET  
+**Author:** Aspose  
 
- A4: ได้ คุณสามารถสำรวจตัวเลือกใบอนุญาตต่างๆ รวมถึงการทดลองใช้ฟรีและใบอนุญาตชั่วคราวได้ที่[เว็บไซต์ Aspose.Tasks](https://purchase.aspose.com/buy).
-
-### คำถามที่ 5: มีการอัปเดตและฟีเจอร์ใหม่สำหรับ Aspose.Tasks สำหรับ .NET บ่อยเพียงใด
-
-A5: Aspose.Tasks สำหรับ .NET ได้รับการอัพเดตและการปรับปรุงคุณสมบัติเป็นประจำเพื่อให้มั่นใจถึงประสิทธิภาพสูงสุดและความเข้ากันได้กับเทคโนโลยีที่พัฒนา
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

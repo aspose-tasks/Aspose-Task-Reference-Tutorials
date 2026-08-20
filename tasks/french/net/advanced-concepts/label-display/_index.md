@@ -1,148 +1,180 @@
 ---
-title: Affichage des étiquettes dans Aspose.Tasks
-linktitle: Affichage des étiquettes dans Aspose.Tasks
-second_title: API Aspose.Tasks .NET
-description: Découvrez comment personnaliser l'affichage des étiquettes dans la gestion de projet avec Aspose.Tasks pour .NET. Améliorez la lisibilité et la clarté sans effort.
-weight: 14
+date: 2026-03-08
+description: Apprenez à définir l'affichage des libellés et à personnaliser le libellé
+  du jour dans la gestion de projet en utilisant Aspose.Tasks pour .NET, améliorant
+  la lisibilité et la clarté.
+linktitle: Displaying Labels in Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+title: Comment définir l'affichage des libellés dans Aspose.Tasks pour .NET
 url: /fr/net/advanced-concepts/label-display/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Affichage des étiquettes dans Aspose.Tasks
+# Comment définir l'affichage des libellés dans Aspose.Tasks pour .NET
 
 ## Introduction
 
-Dans le domaine du développement de logiciels, la gestion efficace des tâches est impérative pour la réussite du projet. Aspose.Tasks for .NET offre une solution robuste pour gérer les tâches de gestion de projet de manière transparente dans le framework .NET. Un aspect clé de la gestion de projet est la possibilité de personnaliser les options d'affichage pour répondre à des exigences spécifiques. Dans ce didacticiel, nous allons explorer comment utiliser Aspose.Tasks pour .NET pour manipuler les affichages d'étiquettes de minutes, d'heures, de jours, de semaines, de mois et d'années dans les fichiers de projet.
+Lorsque vous construisez une solution de gestion de projet avec **Aspose.Tasks for .NET**, pouvoir **how to set label** est essentiel pour rendre les plannings faciles à lire. Que vous ayez besoin d’une précision minute par minute ou d’une vue annuelle de haut niveau, personnaliser l’affichage des libellés vous permet de présenter la chronologie exactement comme vos parties prenantes l’attendent. Dans ce tutoriel, nous parcourrons le processus étape par étape de la définition des affichages des libellés pour les minutes, heures, jours, semaines, mois et années, et nous vous montrerons également comment **customize day label** pour une clarté maximale.
 
-## Conditions préalables
+## Quick Answers
+- **What does “how to set label” mean?** Il s'agit de configurer les propriétés `DisplayOptions` qui contrôlent la façon dont les unités de temps apparaissent dans un fichier de projet.  
+- **Which label can I change?** Les minutes, heures, jours, semaines, mois et années sont tous configurables.  
+- **Do I need a license?** Une licence valide d’Aspose.Tasks est requise pour une utilisation en production ; un essai gratuit suffit pour les tests.  
+- **Is this supported on .NET Core?** Oui, l’API fonctionne avec .NET Core, .NET 5/6 et le .NET Framework complet.  
+- **Can I change the label at runtime?** Absolument – vous pouvez modifier les options d’affichage à tout moment avant d’enregistrer le projet.
 
-Avant de plonger dans le didacticiel, assurez-vous de disposer des prérequis suivants :
+## What is label display in Aspose.Tasks?
 
-1. Connaissance de la programmation C# : Une compréhension de base du langage de programmation C# est nécessaire pour comprendre et mettre en œuvre les exemples fournis.
-2.  Installation d'Aspose.Tasks for .NET : Téléchargez et installez la bibliothèque Aspose.Tasks for .NET à partir de[ici](https://releases.aspose.com/tasks/net/).
-3. Environnement de développement : configurez un environnement de développement avec Visual Studio ou tout autre IDE préféré pour le développement .NET.
+L'affichage des libellés détermine la représentation textuelle des unités de temps (minute, heure, jour, etc.) sur le diagramme de Gantt et l'échelle de temps. En définissant la propriété `DisplayOptions` appropriée, vous indiquez à Aspose.Tasks comment rendre ces unités, ce qui peut améliorer considérablement la lisibilité du projet.
 
-## Importer des espaces de noms
+## Why customize label displays?
 
-Avant de commencer, assurez-vous d'importer les espaces de noms requis pour Aspose.Tasks :
+- **Improved readability:** Les parties prenantes peuvent immédiatement saisir la granularité du planning.  
+- **Consistent reporting:** Aligne la sortie visuelle avec les normes de l’entreprise (par ex., en utilisant « Mo » pour les mois).  
+- **Flexibility:** Passez d’une vue détaillée à une vue de haut niveau sans modifier les données de planification sous-jacentes.
+
+## Prerequisites
+
+1. **C# knowledge** – connaissance de base de la syntaxe C# et de la structure d’un projet .NET.  
+2. **Aspose.Tasks for .NET** – téléchargez et installez la bibliothèque depuis [here](https://releases.aspose.com/tasks/net/).  
+3. **Development environment** – Visual Studio, VS Code ou tout IDE supportant le développement .NET.
+
+## Import Namespaces
+
+Before you begin, import the required namespaces:
 
 ```csharp
 using Aspose.Tasks;
 using Aspose.Tasks;
 ```
 
-## 1. Affichage des étiquettes de minutes
+## How to set label display for minutes
 
-Pour afficher les étiquettes des minutes dans les fichiers de projet :
+### 1. Displaying Minute Labels
+
+To set the minute label, use the `MinuteLabel` property:
 
 ```csharp
 public void WorkWithMinuteLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // Définir la façon dont l'étiquette des minutes est affichée
+    // Set how the minute label is displayed
     project.DisplayOptions.MinuteLabel = MinuteLabelDisplay.M;
 }
 ```
 
-## 2. Affichage des étiquettes d'heure
+## How to set label display for hours
 
-Pour afficher les étiquettes d'heure dans les fichiers de projet :
+### 2. Displaying Hour Labels
 
 ```csharp
 public void WorkWithHourLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // Définir la façon dont l'étiquette d'heure est affichée
+    // Set how the hour label is displayed
     project.DisplayOptions.HourLabel = HourLabelDisplay.H;
 }
 ```
 
-## 3. Affichage des étiquettes de jour
+## Customize day label display
 
-Pour afficher les étiquettes de jour dans les fichiers de projet :
+### 3. Displaying Day Labels
 
 ```csharp
 public void WorkWithDayLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // Définir la façon dont l'étiquette du jour est affichée
+    // Set how the day label is displayed
     project.DisplayOptions.DayLabel = DayLabelDisplay.D;
 }
 ```
 
-## 4. Affichage des étiquettes de semaine
+## How to set label display for weeks
 
-Pour afficher les étiquettes de semaine dans les fichiers de projet :
+### 4. Displaying Week Labels
 
 ```csharp
 public void WorkWithWeekLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // Définir la façon dont l'étiquette de la semaine est affichée
+    // Set how the week label is displayed
     project.DisplayOptions.WeekLabel = WeekLabelDisplay.W;
 }
 ```
 
-## 5. Affichage des étiquettes de mois
+## How to set label display for months
 
-Pour afficher les étiquettes de mois dans les fichiers de projet :
+### 5. Displaying Month Labels
 
 ```csharp
 public void WorkWithMonthLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // Définir la façon dont l'étiquette du mois est affichée
+    // Set how the month label is displayed
     project.DisplayOptions.MonthLabel = MonthLabelDisplay.Mo;
 }
 ```
 
-## 6. Affichage des étiquettes d'année
+## How to set label display for years
 
-Pour afficher les étiquettes d'année dans les fichiers de projet :
+### 6. Displaying Year Labels
 
 ```csharp
 public void WorkWithYearLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // Définir la façon dont l'étiquette de l'année est affichée
+    // Set how the year label is displayed
     project.DisplayOptions.YearLabel = YearLabelDisplay.Y;
 }
 ```
 
+## Common Pitfalls & Tips
+
+- **Tip:** Toujours définir l'affichage du libellé *avant* d'enregistrer le projet ; les modifications effectuées après l'enregistrement ne seront pas reflétées dans le fichier.  
+- **Pitfall:** Utiliser une valeur d'énumération non prise en charge déclenchera une `ArgumentException`. Respectez les énumérations `*LabelDisplay` fournies.  
+- **Tip:** Si vous avez besoin de styles de libellés différents pour des vues séparées, créez des instances `Project` distinctes ou clonez l'objet `DisplayOptions`.
+
 ## Conclusion
 
-En conclusion, la gestion efficace des tâches de projet est cruciale pour la réussite du projet, et Aspose.Tasks for .NET fournit une solution complète pour gérer les tâches de gestion de projet. En personnalisant l'affichage des étiquettes, les utilisateurs peuvent améliorer la clarté et la lisibilité des données du projet, conduisant ainsi à de meilleurs processus de gestion de projet.
+En maîtrisant les options **how to set label** dans Aspose.Tasks, vous obtenez un contrôle granulaire sur la présentation visuelle de vos plannings de projet. Que vous personnalisiez le libellé du jour pour un tableau Scrum quotidien ou que vous ajustiez le libellé de l'année pour une feuille de route pluriannuelle, ces paramètres vous aident à fournir une documentation de projet plus claire et plus professionnelle.
 
-## FAQ
+## FAQ's
 
-### Q1 : Puis-je personnaliser l'affichage des étiquettes pour des sections spécifiques d'un projet ?
+### Q1: Puis-je personnaliser les affichages des libellés pour des sections spécifiques d’un projet ?
 
-A1 : Oui, Aspose.Tasks pour .NET permet un contrôle granulaire sur l'affichage des étiquettes, permettant la personnalisation de sections spécifiques d'un projet selon les besoins.
+A1 : Oui, Aspose.Tasks for .NET permet un contrôle granulaire des affichages des libellés, permettant la personnalisation pour des sections spécifiques d’un projet selon les besoins.
 
-### Q2 : Aspose.Tasks est-il compatible avec les frameworks .NET populaires ?
+### Q2: Aspose.Tasks est-il compatible avec les frameworks .NET populaires ?
 
-A2 : Oui, Aspose.Tasks pour .NET est compatible avec divers frameworks .NET, notamment .NET Core et .NET Framework.
+A2 : Oui, Aspose.Tasks for .NET est compatible avec divers frameworks .NET, y compris .NET Core et .NET Framework.
 
-### Q3 : Puis-je modifier dynamiquement l’affichage des étiquettes en fonction des exigences du projet ?
+### Q3: Puis-je modifier dynamiquement les affichages des libellés en fonction des exigences du projet ?
 
-A3 : Absolument, la flexibilité d'Aspose.Tasks pour .NET permet des ajustements dynamiques des affichages d'étiquettes en fonction de l'évolution des exigences du projet.
+A3 : Absolument, la flexibilité d’Aspose.Tasks for .NET permet des ajustements dynamiques des affichages des libellés en fonction des exigences évolutives du projet.
 
-### Q4 : Existe-t-il des limites à la personnalisation des affichages d'étiquettes ?
+### Q4: Existe-t-il des limitations à la personnalisation des affichages des libellés ?
 
-A4 : Aspose.Tasks pour .NET offre des options de personnalisation étendues pour l'affichage des étiquettes, avec des limitations minimales, offrant aux utilisateurs une grande flexibilité.
+A4 : Aspose.Tasks for .NET offre de vastes options de personnalisation des affichages des libellés, avec des limitations minimales, offrant aux utilisateurs une grande flexibilité.
 
-### Q5 : Aspose.Tasks prend-il en charge l'intégration avec d'autres outils de gestion de projet ?
+### Q5: Aspose.Tasks prend-il en charge l'intégration avec d'autres outils de gestion de projet ?
 
-A5 : Oui, Aspose.Tasks offre des capacités d'intégration transparentes, facilitant l'interopérabilité avec d'autres outils et plateformes de gestion de projet.
+A5 : Oui, Aspose.Tasks propose des capacités d'intégration transparentes, facilitant l'interopérabilité avec d'autres outils et plateformes de gestion de projet.
+
+---
+
+**Last Updated:** 2026-03-08  
+**Tested With:** Aspose.Tasks 24.11 for .NET  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

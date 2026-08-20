@@ -1,148 +1,180 @@
 ---
-title: Aspose.Tasks में लेबल प्रदर्शित करना
-linktitle: Aspose.Tasks में लेबल प्रदर्शित करना
+date: 2026-03-08
+description: Aspose.Tasks for .NET का उपयोग करके प्रोजेक्ट मैनेजमेंट में लेबल डिस्प्ले
+  सेट करना और डे लेबल को कस्टमाइज़ करना सीखें, जिससे पठनीयता और स्पष्टता में सुधार
+  हो।
+linktitle: Displaying Labels in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: .NET के लिए Aspose.Tasks के साथ प्रोजेक्ट प्रबंधन में लेबल डिस्प्ले को अनुकूलित करना सीखें। सहजता से पठनीयता और स्पष्टता बढ़ाएँ।
-weight: 14
+title: Aspose.Tasks for .NET में लेबल डिस्प्ले कैसे सेट करें
 url: /hi/net/advanced-concepts/label-display/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks में लेबल प्रदर्शित करना
+# Aspose.Tasks for .NET में लेबल डिस्प्ले कैसे सेट करें
 
-## परिचय
+## Introduction
 
-सॉफ्टवेयर विकास के क्षेत्र में, परियोजना की सफलता के लिए कार्यों को कुशलतापूर्वक प्रबंधित करना अनिवार्य है। .NET के लिए Aspose.Tasks, .NET ढांचे के भीतर परियोजना प्रबंधन कार्यों को निर्बाध रूप से संभालने के लिए एक मजबूत समाधान प्रदान करता है। परियोजना प्रबंधन का एक प्रमुख पहलू विशिष्ट आवश्यकताओं के अनुरूप प्रदर्शन विकल्पों को अनुकूलित करने की क्षमता है। इस ट्यूटोरियल में, हम यह पता लगाएंगे कि प्रोजेक्ट फ़ाइलों के भीतर मिनट, घंटे, दिन, सप्ताह, महीने और वर्ष के लेबल डिस्प्ले में हेरफेर करने के लिए .NET के लिए Aspose.Tasks का उपयोग कैसे करें।
+जब आप **Aspose.Tasks for .NET** के साथ प्रोजेक्ट‑मैनेजमेंट समाधान बना रहे होते हैं, तो **how to set label** विकल्पों को सक्षम करना शेड्यूल को आसानी से पढ़ने योग्य बनाने के लिए आवश्यक होता है। चाहे आपको मिनट‑दर‑मिनट सटीकता चाहिए या उच्च‑स्तरीय वार्षिक दृश्य, लेबल डिस्प्ले को कस्टमाइज़ करने से आप टाइमलाइन को ठीक उसी तरह प्रस्तुत कर सकते हैं जैसा आपके स्टेकहोल्डर्स अपेक्षा करते हैं। इस ट्यूटोरियल में हम मिनट, घंटे, दिन, सप्ताह, महीने और वर्ष के लिए लेबल डिस्प्ले सेट करने की चरण‑दर‑चरण प्रक्रिया को समझेंगे, और साथ ही **customize day label** फ़ॉर्मेटिंग को अधिकतम स्पष्टता के लिए कैसे किया जाए, यह भी दिखाएंगे।
 
-## आवश्यक शर्तें
+## Quick Answers
+- **What does “how to set label” mean?** यह `DisplayOptions` प्रॉपर्टीज़ को कॉन्फ़िगर करने को दर्शाता है जो प्रोजेक्ट फ़ाइल में समय इकाइयों के दिखने के तरीके को नियंत्रित करती हैं।  
+- **Which label can I change?** मिनट, घंटे, दिन, सप्ताह, महीने और वर्ष सभी को कॉन्फ़िगर किया जा सकता है।  
+- **Do I need a license?** प्रोडक्शन उपयोग के लिए एक वैध Aspose.Tasks लाइसेंस आवश्यक है; परीक्षण के लिए एक फ्री ट्रायल काम करता है।  
+- **Is this supported on .NET Core?** हाँ, API .NET Core, .NET 5/6 और पूर्ण .NET Framework के साथ काम करता है।  
+- **Can I change the label at runtime?** बिल्कुल – आप प्रोजेक्ट को सेव करने से पहले कभी भी डिस्प्ले विकल्पों को संशोधित कर सकते हैं।
 
-इससे पहले कि हम ट्यूटोरियल में उतरें, सुनिश्चित करें कि आपके पास निम्नलिखित शर्तें हैं:
+## What is label display in Aspose.Tasks?
 
-1. C# प्रोग्रामिंग का ज्ञान: दिए गए उदाहरणों को समझने और लागू करने के लिए C# प्रोग्रामिंग भाषा की बुनियादी समझ आवश्यक है।
-2.  .NET के लिए Aspose.Tasks की स्थापना: .NET लाइब्रेरी के लिए Aspose.Tasks को डाउनलोड और इंस्टॉल करें[यहाँ](https://releases.aspose.com/tasks/net/).
-3. विकास पर्यावरण: .NET विकास के लिए विजुअल स्टूडियो या किसी अन्य पसंदीदा आईडीई के साथ एक विकास वातावरण स्थापित करें।
+लेबल डिस्प्ले गैंट चार्ट और टाइमस्केल पर समय इकाइयों (मिनट, घंटा, दिन आदि) के टेक्स्टुअल प्रतिनिधित्व को निर्धारित करता है। उपयुक्त `DisplayOptions` प्रॉपर्टी सेट करके, आप Aspose.Tasks को बताते हैं कि इन इकाइयों को कैसे रेंडर किया जाए, जिससे प्रोजेक्ट की पठनीयता में काफी सुधार हो सकता है।
 
-## नामस्थान आयात करें
+## Why customize label displays?
 
-आरंभ करने से पहले, Aspose.Tasks के लिए आवश्यक नामस्थान आयात करना सुनिश्चित करें:
+- **Improved readability:** स्टेकहोल्डर्स तुरंत शेड्यूल की ग्रैन्युलैरिटी को समझ सकते हैं।  
+- **Consistent reporting:** विज़ुअल आउटपुट को कॉर्पोरेट मानकों के साथ संरेखित करता है (जैसे, महीनों के लिए “Mo” का उपयोग)।  
+- **Flexibility:** मूल शेड्यूल डेटा को बदले बिना विस्तृत और उच्च‑स्तरीय दृश्यों के बीच स्विच कर सकते हैं।
+
+## Prerequisites
+
+1. **C# knowledge** – C# सिंटैक्स और .NET प्रोजेक्ट स्ट्रक्चर की बुनियादी समझ।  
+2. **Aspose.Tasks for .NET** – लाइब्रेरी को [यहाँ](https://releases.aspose.com/tasks/net/) से डाउनलोड और इंस्टॉल करें।  
+3. **Development environment** – Visual Studio, VS Code, या कोई भी IDE जो .NET विकास को सपोर्ट करता हो।
+
+## Import Namespaces
+
+शुरू करने से पहले, आवश्यक नेमस्पेसेज़ इम्पोर्ट करें:
 
 ```csharp
 using Aspose.Tasks;
 using Aspose.Tasks;
 ```
 
-## 1. मिनट लेबल प्रदर्शित करना
+## How to set label display for minutes
 
-प्रोजेक्ट फ़ाइलों के भीतर मिनट लेबल प्रदर्शित करने के लिए:
+### 1. Displaying Minute Labels
+
+मिनट लेबल सेट करने के लिए, `MinuteLabel` प्रॉपर्टी का उपयोग करें:
 
 ```csharp
 public void WorkWithMinuteLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // सेट करें कि मिनट लेबल कैसे प्रदर्शित होता है
+    // Set how the minute label is displayed
     project.DisplayOptions.MinuteLabel = MinuteLabelDisplay.M;
 }
 ```
 
-## 2. घंटे के लेबल प्रदर्शित करना
+## How to set label display for hours
 
-प्रोजेक्ट फ़ाइलों के भीतर घंटे के लेबल प्रदर्शित करने के लिए:
+### 2. Displaying Hour Labels
 
 ```csharp
 public void WorkWithHourLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // सेट करें कि घंटे का लेबल कैसे प्रदर्शित होता है
+    // Set how the hour label is displayed
     project.DisplayOptions.HourLabel = HourLabelDisplay.H;
 }
 ```
 
-## 3. दिन के लेबल प्रदर्शित करना
+## Customize day label display
 
-प्रोजेक्ट फ़ाइलों में दिन के लेबल प्रदर्शित करने के लिए:
+### 3. Displaying Day Labels
 
 ```csharp
 public void WorkWithDayLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // सेट करें कि दिन का लेबल कैसे प्रदर्शित होता है
+    // Set how the day label is displayed
     project.DisplayOptions.DayLabel = DayLabelDisplay.D;
 }
 ```
 
-## 4. सप्ताह लेबल प्रदर्शित करना
+## How to set label display for weeks
 
-प्रोजेक्ट फ़ाइलों के भीतर सप्ताह लेबल प्रदर्शित करने के लिए:
+### 4. Displaying Week Labels
 
 ```csharp
 public void WorkWithWeekLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // सेट करें कि सप्ताह का लेबल कैसे प्रदर्शित होता है
+    // Set how the week label is displayed
     project.DisplayOptions.WeekLabel = WeekLabelDisplay.W;
 }
 ```
 
-## 5. माह लेबल प्रदर्शित करना
+## How to set label display for months
 
-प्रोजेक्ट फ़ाइलों के भीतर माह लेबल प्रदर्शित करने के लिए:
+### 5. Displaying Month Labels
 
 ```csharp
 public void WorkWithMonthLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // सेट करें कि महीने का लेबल कैसे प्रदर्शित होता है
+    // Set how the month label is displayed
     project.DisplayOptions.MonthLabel = MonthLabelDisplay.Mo;
 }
 ```
 
-## 6. वर्ष लेबल प्रदर्शित करना
+## How to set label display for years
 
-प्रोजेक्ट फ़ाइलों में वर्ष लेबल प्रदर्शित करने के लिए:
+### 6. Displaying Year Labels
 
 ```csharp
 public void WorkWithYearLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // सेट करें कि वर्ष लेबल कैसे प्रदर्शित होता है
+    // Set how the year label is displayed
     project.DisplayOptions.YearLabel = YearLabelDisplay.Y;
 }
 ```
 
-## निष्कर्ष
+## Common Pitfalls & Tips
 
-निष्कर्ष में, परियोजना की सफलता के लिए परियोजना कार्यों को कुशलतापूर्वक प्रबंधित करना महत्वपूर्ण है, और .NET के लिए Aspose.Tasks परियोजना प्रबंधन कार्यों को संभालने के लिए एक व्यापक समाधान प्रदान करता है। लेबल डिस्प्ले को अनुकूलित करके, उपयोगकर्ता प्रोजेक्ट डेटा की स्पष्टता और पठनीयता को बढ़ा सकते हैं, जिससे प्रोजेक्ट प्रबंधन प्रक्रियाओं में सुधार हो सकता है।
+- **Tip:** लेबल डिस्प्ले को *सेव करने से पहले* हमेशा सेट करें; सेव करने के बाद किए गए परिवर्तन फ़ाइल में परिलक्षित नहीं होंगे।  
+- **Pitfall:** असमर्थित enum वैल्यू का उपयोग करने पर `ArgumentException` फेंका जाएगा। प्रदान किए गए `*LabelDisplay` enums का ही उपयोग करें।  
+- **Tip:** यदि आपको अलग-अलग व्यूज़ के लिए विभिन्न लेबल स्टाइल्स चाहिए, तो अलग `Project` इंस्टेंसेज़ बनाएं या `DisplayOptions` ऑब्जेक्ट को क्लोन करें।
 
-## अक्सर पूछे जाने वाले प्रश्न
+## Conclusion
 
-### Q1: क्या मैं किसी प्रोजेक्ट के विशिष्ट अनुभागों के लिए लेबल डिस्प्ले को अनुकूलित कर सकता हूँ?
+Aspose.Tasks में **how to set label** विकल्पों में निपुणता हासिल करके आप अपने प्रोजेक्ट शेड्यूल की विज़ुअल प्रस्तुति पर सूक्ष्म नियंत्रण प्राप्त करते हैं। चाहे आप दैनिक स्क्रम बोर्ड के लिए दिन लेबल कस्टमाइज़ कर रहे हों या मल्टी‑इयर रोडमैप के लिए वर्ष लेबल समायोजित कर रहे हों, ये सेटिंग्स आपको स्पष्ट, अधिक प्रोफ़ेशनल प्रोजेक्ट डॉक्यूमेंटेशन प्रदान करने में मदद करती हैं।
 
-A1: हां, .NET के लिए Aspose.Tasks लेबल डिस्प्ले पर विस्तृत नियंत्रण की अनुमति देता है, जिससे आवश्यकतानुसार किसी प्रोजेक्ट के विशिष्ट अनुभागों के लिए अनुकूलन सक्षम हो जाता है।
+## FAQ's
 
-### Q2: क्या Aspose.Tasks लोकप्रिय .NET फ्रेमवर्क के साथ संगत है?
+### Q1: क्या मैं प्रोजेक्ट के विशिष्ट सेक्शन के लिए लेबल डिस्प्ले कस्टमाइज़ कर सकता हूँ?
 
-A2: हां, .NET के लिए Aspose.Tasks .NET कोर और .NET फ्रेमवर्क सहित विभिन्न .NET फ्रेमवर्क के साथ संगत है।
+A1: हाँ, Aspose.Tasks for .NET लेबल डिस्प्ले पर ग्रैन्युलर नियंत्रण प्रदान करता है, जिससे आवश्यकतानुसार प्रोजेक्ट के विशिष्ट सेक्शन को कस्टमाइज़ किया जा सकता है।
 
-### Q3: क्या मैं प्रोजेक्ट आवश्यकताओं के आधार पर लेबल डिस्प्ले को गतिशील रूप से बदल सकता हूँ?
+### Q2: क्या Aspose.Tasks लोकप्रिय .NET फ्रेमवर्क्स के साथ संगत है?
 
-A3: बिल्कुल, .NET के लिए Aspose.Tasks का लचीलापन उभरती परियोजना आवश्यकताओं के आधार पर लेबल डिस्प्ले में गतिशील समायोजन की अनुमति देता है।
+A2: हाँ, Aspose.Tasks for .NET विभिन्न .NET फ्रेमवर्क्स, जिसमें .NET Core और .NET Framework शामिल हैं, के साथ संगत है।
 
-### Q4: क्या लेबल डिस्प्ले के अनुकूलन की कोई सीमाएँ हैं?
+### Q3: क्या मैं प्रोजेक्ट की आवश्यकताओं के आधार पर लेबल डिस्प्ले को डायनामिकली बदल सकता हूँ?
 
-A4: .NET के लिए Aspose.Tasks न्यूनतम सीमाओं के साथ लेबल डिस्प्ले के लिए व्यापक अनुकूलन विकल्प प्रदान करता है, जो उपयोगकर्ताओं को पर्याप्त लचीलापन प्रदान करता है।
+A3: बिल्कुल, Aspose.Tasks for .NET की लचीलापन आपको प्रोजेक्ट की विकसित होती आवश्यकताओं के अनुसार लेबल डिस्प्ले को डायनामिकली समायोजित करने की अनुमति देती है।
 
-### Q5: क्या Aspose.Tasks अन्य परियोजना प्रबंधन उपकरणों के साथ एकीकरण का समर्थन करता है?
+### Q4: लेबल डिस्प्ले कस्टमाइज़ेशन में कोई सीमाएँ हैं क्या?
 
-A5: हां, Aspose.Tasks निर्बाध एकीकरण क्षमताएं प्रदान करता है, जो अन्य परियोजना प्रबंधन उपकरणों और प्लेटफार्मों के साथ अंतरसंचालनीयता की सुविधा प्रदान करता है।
+A4: Aspose.Tasks for .NET लेबल डिस्प्ले के लिए व्यापक कस्टमाइज़ेशन विकल्प प्रदान करता है, जिसमें न्यूनतम सीमाएँ हैं, जिससे उपयोगकर्ताओं को पर्याप्त लचीलापन मिलता है।
+
+### Q5: क्या Aspose.Tasks अन्य प्रोजेक्ट मैनेजमेंट टूल्स के साथ इंटीग्रेशन सपोर्ट करता है?
+
+A5: हाँ, Aspose.Tasks सहज इंटीग्रेशन क्षमताएँ प्रदान करता है, जिससे अन्य प्रोजेक्ट मैनेजमेंट टूल्स और प्लेटफ़ॉर्म्स के साथ इंटरऑपरेबिलिटी आसान हो जाती है।
+
+---
+
+**Last Updated:** 2026-03-08  
+**Tested With:** Aspose.Tasks 24.11 for .NET  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
