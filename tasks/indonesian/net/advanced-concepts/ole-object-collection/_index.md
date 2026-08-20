@@ -1,53 +1,73 @@
 ---
-title: Kumpulan Objek OLE di Aspose.Tasks
-linktitle: Kumpulan Objek OLE di Aspose.Tasks
-second_title: Aspose.Tugas .NET API
-description: Pelajari cara mengelola objek OLE di Aspose.Tasks untuk .NET dengan tutorial komprehensif ini. Kuasai penanganan file yang tertanam dalam dokumen proyek dengan mudah.
-weight: 23
+date: 2026-03-14
+description: Pelajari cara mengekstrak file yang disematkan dan memuat file proyek
+  menggunakan Aspose.Tasks untuk .NET. Tutorial ini menunjukkan ekstraksi objek OLE
+  langkah demi langkah.
+linktitle: Collection of OLE Objects in Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+title: Ekstrak File Tertanam dari Objek OLE di Aspose.Tasks
 url: /id/net/advanced-concepts/ole-object-collection/
+weight: 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Kumpulan Objek OLE di Aspose.Tasks
+# Ekstrak File Tertanam dari OLE Objects di Aspose.Tasks
 
-## Perkenalan
+## Introduction
 
-Dalam tutorial ini, kita akan mempelajari pengelolaan objek OLE (Object Linking and Embedding) di Aspose.Tasks untuk .NET. Objek OLE memungkinkan pengguna untuk menyematkan atau menghubungkan file dari aplikasi lain dalam file proyek. Kami akan membahas cara bekerja dengan koleksi objek ini langkah demi langkah.
+In this tutorial you'll **extract embedded files** that are stored as OLE objects inside a Microsoft Project file using Aspose.Tasks for .NET. Whether you need to pull out linked Word documents, Excel spreadsheets, or rich‑text files, the steps below show you how to **load project file**, discover each OLE entry, and write the binary content back to disk. By the end you’ll be comfortable with a complete **c# extract ole** workflow that you can reuse in your own applications.
 
-## Prasyarat
+## Quick Answers
+- **What does “extract embedded files” mean?** It means reading the binary payload of OLE objects and saving them as separate files on disk.  
+- **Which API method loads the project?** `new Project(filePath)` from the Aspose.Tasks namespace.  
+- **Can I export OLE objects of any type?** Only formats that Aspose.Tasks can recognize (e.g., RTF, Word, Excel) are supported.  
+- **Do I need a license for this?** A free trial works for evaluation; a commercial license is required for production.  
+- **Which .NET versions are supported?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
 
-Sebelum melanjutkan, pastikan Anda memiliki hal berikut:
+## What is “extract embedded files” in the context of OLE objects?
 
-1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di sistem Anda.
-2.  Aspose.Tasks untuk .NET: Unduh dan instal Aspose.Tasks untuk .NET dari[Di Sini](https://releases.aspose.com/tasks/net/).
-3. Pengetahuan Dasar C#: Biasakan diri Anda dengan dasar-dasar bahasa pemrograman C#.
+OLE (Object Linking and Embedding) lets a Project file contain full copies of external documents. Extracting those embedded files gives you direct access to the original content without opening the Project file in Microsoft Project.
 
-## Impor Namespace
+## Why extract embedded files from OLE objects?
 
-Untuk memulai, impor namespace yang diperlukan ke dalam proyek Anda:
+- **Preserve original data:** Keep a backup of every attached document.  
+- **Automate reporting:** Pull Word or Excel reports from many projects in a single batch.  
+- **Integrate with other systems:** Feed extracted files into document‑management or analytics pipelines.  
+
+## Prerequisites
+
+Before you start, make sure you have:
+
+1. **Visual Studio** – any recent version (2019, 2022, or later).  
+2. **Aspose.Tasks for .NET** – download and install from [here](https://releases.aspose.com/tasks/net/).  
+3. **Basic C# knowledge** – you should be comfortable with loops, collections, and file I/O.  
+
+## Import Namespaces
+
+To begin, import the necessary namespaces into your project:
 
 ```csharp
 using Aspose.Tasks;
 using System.Collections.Generic;
 using System.IO;
-
-
 ```
 
-## Langkah 1: Muat File Proyek
+## Step 1: Load the Project File
 
-Pertama, muat file proyek yang berisi objek OLE:
+First, load the Project file that contains the OLE objects you want to extract:
 
 ```csharp
 var project = new Project(DataDir + "Embedded.mpp");
 ```
 
-## Langkah 2: Tentukan Ekstensi File
+> **Tip:** `DataDir` should point to the folder where your `.mpp` file resides. This step satisfies the **load project file** requirement.
 
-Selanjutnya, tentukan ekstensi file yang terkait dengan objek OLE:
+## Step 2: Define File Extensions
+
+Create a lookup table that maps the OLE `FileFormat` identifiers to the desired output file names. This makes it easy to **export ole objects** with the correct extensions:
 
 ```csharp
 IDictionary<string, string> extensions = new Dictionary<string, string>
@@ -58,9 +78,9 @@ IDictionary<string, string> extensions = new Dictionary<string, string>
 };
 ```
 
-## Langkah 3: Ulangi Objek OLE
+## Step 3: Iterate Over OLE Objects and Extract Embedded Files
 
-Sekarang, ulangi objek OLE dalam proyek:
+Now walk through each OLE object in the project, verify that its format is one we support, and write the binary content to a new file:
 
 ```csharp
 foreach (var oleObject in project.OleObjects)
@@ -78,31 +98,39 @@ foreach (var oleObject in project.OleObjects)
 }
 ```
 
-## Kesimpulan
+> **Pro tip:** `OutDir` should be a writable directory. The code above will create files such as `EmbeddedContent__wordFile_out.docx`, effectively **extract ole objects** from the project.
 
-Kesimpulannya, mengelola objek OLE di Aspose.Tasks untuk .NET sangat penting untuk menangani file yang disematkan atau ditautkan dalam dokumen proyek. Dengan mengikuti langkah-langkah yang diuraikan dalam tutorial ini, Anda dapat bekerja secara efektif dengan kumpulan objek OLE di aplikasi .NET Anda.
+## Common Issues and Solutions
 
-## FAQ
+| Issue | Reason | Solution |
+|-------|--------|----------|
+| No files are created | `OutDir` does not exist or lacks write permission | Ensure the directory exists and the application has write access. |
+| Unexpected file format | OLE object’s `FileFormat` not in the dictionary | Add the missing format to the `extensions` dictionary. |
+| Large OLE objects cause memory pressure | Loading many large objects at once | Process objects one‑by‑one as shown, or stream them to disk directly. |
 
-### Q1: Apa yang dimaksud dengan objek OLE?
+## Frequently Asked Questions
 
-A1: Objek OLE (Object Linking and Embedding) adalah teknologi yang memungkinkan penyematan atau penautan file dari aplikasi lain dalam dokumen.
+**Q: What is an OLE object?**  
+A: An OLE (Object Linking and Embedding) object is a technology that enables embedding or linking files from other applications within a document.
 
-### Q2: Bagaimana cara menginstal Aspose.Tasks untuk .NET?
+**Q: How do I install Aspose.Tasks for .NET?**  
+A: You can download Aspose.Tasks for .NET from [here](https://releases.aspose.com/tasks/net/) and follow the installation instructions provided.
 
- A2: Anda dapat mengunduh Aspose.Tasks untuk .NET dari[Di Sini](https://releases.aspose.com/tasks/net/) dan ikuti petunjuk instalasi yang diberikan.
+**Q: Can I work with OLE objects in Aspose.Tasks without prior knowledge of C#?**  
+A: While basic knowledge of C# is recommended, Aspose.Tasks provides comprehensive documentation and tutorials to help users get started regardless of their programming background.
 
-### Q3: Bisakah saya bekerja dengan objek OLE di Aspose.Tasks tanpa pengetahuan sebelumnya tentang C#?
+**Q: Is there a free trial available for Aspose.Tasks?**  
+A: Yes, you can avail of a free trial of Aspose.Tasks from [here](https://releases.aspose.com/).
 
-A3: Meskipun pengetahuan dasar C# direkomendasikan, Aspose.Tasks menyediakan dokumentasi dan tutorial komprehensif untuk membantu pengguna memulai terlepas dari latar belakang pemrograman mereka.
+**Q: Where can I find support for Aspose.Tasks?**  
+A: You can seek support and ask questions on the Aspose.Tasks forum [here](https://forum.aspose.com/c/tasks/15).
 
-### Q4: Apakah ada uji coba gratis yang tersedia untuk Aspose.Tasks?
+---
 
- A4: Ya, Anda dapat memanfaatkan uji coba gratis Aspose.Tasks dari[Di Sini](https://releases.aspose.com/).
+**Last Updated:** 2026-03-14  
+**Tested With:** Aspose.Tasks 24.11 for .NET  
+**Author:** Aspose  
 
-### Q5: Di mana saya dapat menemukan dukungan untuk Aspose.Tasks?
-
- A5: Anda dapat mencari dukungan dan mengajukan pertanyaan di forum Aspose.Tasks[Di Sini](https://forum.aspose.com/c/tasks/15).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

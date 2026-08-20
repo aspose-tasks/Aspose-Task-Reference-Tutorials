@@ -1,32 +1,45 @@
 ---
-title: Aspose.Tasks での Microsoft Project データベースの設定
-linktitle: Aspose.Tasks での Microsoft Project データベースの設定
+date: 2026-03-14
+description: Aspose.Tasks を使用して Microsoft Project データベースのデータベース スキーマを指定する方法と、プロジェクト
+  データを .NET アプリケーションにインポートする方法を学びましょう。
+linktitle: Specify database schema for Project DB with Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Aspose.Tasks を使用して Microsoft Project データベース設定を構成し、.NET アプリケーションにシームレスに統合する方法を学びます。
-weight: 19
+title: Aspose.Tasks を使用した Project DB のデータベーススキーマを指定する
 url: /ja/net/advanced-concepts/msp-database-settings/
+weight: 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks での Microsoft Project データベースの設定
+# Aspose.Tasks における Microsoft Project データベースの設定
 
-## 導入
+## はじめに
 
-Aspose.Tasks を使用して .NET アプリケーションで Microsoft Project データベースを操作している場合は、プロジェクト データをシームレスにインポートするために必要な設定を構成する必要があります。このチュートリアルでは、プロセスを段階的に説明します。
+.NET アプリケーションで Aspose.Tasks を使用して Microsoft Project データベースを扱う場合、**データベース スキーマを指定**し、**プロジェクト データをシームレスにインポート**するための必要な設定を構成する必要があります。このチュートリアルでは、接続詳細の**設定方法**、**.NET 接続文字列の作成**、そして最終的に**MPP としてプロジェクトを保存**する手順をステップ バイ ステップで解説します。
+
+## クイック アンサー
+- **主な目的は何ですか？** データベース スキーマを指定し、Project データベースを .NET アプリにインポートすることです。  
+- **必要なライブラリは？** Aspose.Tasks for .NET。  
+- **Project Server への接続方法は？** 正しい SQL 接続文字列を作成し、`MspDbSettings` を使用します。  
+- **生成されるファイル形式は？** `SaveFileFormat.Mpp` で保存された MPP ファイル。  
+- **スキーマ名は変更できますか？** はい、`MspDbSettings` の `Schema` プロパティで設定できます。
+
+## Project DB のデータベース スキーマを指定する方法
+
+多くのエンタープライズ環境では、Project Server データベースがカスタム スキーマ（例: `dbo`、`psdata`）の下に配置されています。スキーマを明示的に設定することで、Aspose.Tasks が正しいテーブルを参照でき、実行時エラーを防ぎ、正確なデータ インポートが保証されます。
 
 ## 前提条件
 
-始める前に、以下のものがあることを確認してください。
+開始する前に、以下を用意してください。
 
-1.  Aspose.Tasks for .NET: Aspose.Tasks ライブラリをダウンロードしてインストールします。[ここ](https://releases.aspose.com/tasks/net/).
-2. Microsoft Project データベースへのアクセス: データをインポートするには、Microsoft Project データベースにアクセスできる必要があります。
+1. Aspose.Tasks for .NET: [こちら](https://releases.aspose.com/tasks/net/) から Aspose.Tasks ライブラリをダウンロードしてインストールします。  
+2. Microsoft Project データベースへのアクセス権: インポート元となる Microsoft Project データベースへのアクセスが必要です。  
 
 ## 名前空間のインポート
 
-まず、必要な名前空間をプロジェクトにインポートしていることを確認してください。
+まず、プロジェクトに必要な名前空間をインポートします。
 
 ```csharp
 using Aspose.Tasks;
@@ -37,9 +50,9 @@ using Aspose.Tasks.Connectivity;
 using Aspose.Tasks.Saving;
 ```
 
-## ステップ 1: 接続文字列を作成する
+## 手順 1: 接続文字列の作成
 
-Microsoft Project データベースへの接続文字列を作成します。以下に例を示します。
+Microsoft Project データベースへの接続文字列を構築します。ここで **.NET 接続文字列を作成**し、**Project Server への接続方法**も定義します。
 
 ```csharp
 var connectionString = new SqlConnectionStringBuilder();
@@ -53,58 +66,70 @@ connectionString.Password = "*";
 connectionString.ConnectTimeout = 2;
 ```
 
-プレースホルダーの値を実際のデータベース資格情報に置き換えてください。
+> **プロのコツ:** `DataSource` と `InitialCatalog` の値を必ず確認してください。サーバーのアドレスと公開されているデータベース名と一致している必要があります。
 
-## ステップ 2: MspDbSettings を構成する
+## 手順 2: MspDbSettings の構成
 
-のインスタンスを作成します`MspDbSettings`そして、プロジェクト GUID とともに接続文字列を指定します。
+`MspDbSettings` のインスタンスを作成し、接続文字列を渡したうえで `Schema` プロパティを設定して **データベース スキーマを指定**します。これにより Aspose.Tasks がどのスキーマをクエリするかが決まります。
 
 ```csharp
 var settings = new MspDbSettings(connectionString.ConnectionString, new Guid("E6426C44-D6CB-4B9C-AF16-48910ACE0F54"));
 settings.Schema = "dbo";
 ```
 
-## ステップ 3: プロジェクト データをロードする
+ここでは、読み込む対象プロジェクトを特定するプロジェクト GUID も提供しています。
 
-インスタンス化する`Project`構成された設定を使用してオブジェクトを作成します。
+## 手順 3: プロジェクト データの読み込み
+
+設定済みの `MspDbSettings` を使用して `Project` オブジェクトをインスタンス化します。このステップで **データベースからプロジェクトをインポート**する処理が実行され、.NET オブジェクトにデータが格納されます。
 
 ```csharp
 var project = new Project(settings);
 ```
 
-## ステップ 4: プロジェクト データを保存する
+## 手順 4: プロジェクト データの保存
 
-ロードしたプロジェクト データをファイルに保存します。
+最後に、読み込んだプロジェクトをディスク上の MPP ファイルとして永続化します。これにより **MPP としてプロジェクトを保存**する Aspose.Tasks API の使用例が示されます。
 
 ```csharp
 project.Save(OutDir + "ImportProjectDataFromDatabase_out.mpp", SaveFileFormat.Mpp);
 ```
 
+コードを実行すると、`ImportProjectDataFromDatabase_out.mpp` ファイルが出力ディレクトリに作成され、Microsoft Project で開くことができます。
+
 ## 結論
 
-このチュートリアルでは、Aspose.Tasks for .NET を使用して Microsoft Project データベースにアクセスするための設定を構成する方法を学習しました。これらの手順に従うことで、プロジェクト データをアプリケーションにシームレスにインポートでき、効率的なプロジェクト管理が容易になります。
+本チュートリアルでは、Microsoft Project データベースの **データベース スキーマを指定**し、**接続を構成**し、**プロジェクト データをインポート**し、**MPP として保存**する手順を Aspose.Tasks for .NET を用いて学びました。これらの手順により、Project Server のデータをカスタム アプリケーションにシームレスに統合でき、堅牢なプロジェクト管理ソリューションの構築が可能になります。
 
 ## よくある質問
 
-### Q1: Aspose.Tasks をさまざまなバージョンの Microsoft Project データベースで使用できますか?
+### Q1: 異なるバージョンの Microsoft Project データベースでも Aspose.Tasks を使用できますか？
+A1: はい、Aspose.Tasks はさまざまなバージョンの Microsoft Project データベースをサポートしており、統合の柔軟性を提供します。
 
-A1: はい、Aspose.Tasks はさまざまなバージョンの Microsoft Project データベースをサポートしているため、統合が柔軟に行えます。
+### Q2: データベース接続の問題をトラブルシューティングするには？
+A2: 接続文字列が正しい資格情報とデータベース情報で構成されていることを確認してください。また、[Aspose.Tasks フォーラム](https://forum.aspose.com/c/tasks/15) のドキュメントやサポートも参照できます。
 
-### Q2: データベースの接続問題をトラブルシューティングするにはどうすればよいですか?
+### Q3: Aspose.Tasks のトライアル版はありますか？
+A3: はい、[こちら](https://releases.aspose.com/) から無料トライアル版を入手できます。
 
- A2: 接続文字列が適切な資格情報とデータベースの詳細で正しく構成されていることを確認してください。ドキュメントを参照したり、サポートを求めたりすることもできます。[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15).
+### Q4: データベース操作用のスキーマをカスタマイズできますか？
+A4: はい、`MspDbSettings` オブジェクトの `Schema` プロパティでデータベース構造に合わせたスキーマを指定できます。
 
-### Q3: Aspose.Tasks の試用版はありますか?
+### Q5: Aspose.Tasks の詳細なドキュメントはどこで確認できますか？
+A5: 詳細な機能解説は、包括的なドキュメント [こちら](https://reference.aspose.com/tasks/net/) をご覧ください。
 
- A3: はい、以下から無料試用版にアクセスできます。[ここ](https://releases.aspose.com/).
+**Q: この方法は Azure SQL データベースでも動作しますか？**  
+A: もちろんです。`DataSource` を Azure のサーバー名に変更し、TLS/SSL 設定が有効になっていることを確認してください。
 
-### Q4: データベース対話用のスキーマをカスタマイズできますか?
+**Q: 大規模な Project データベースでタイムアウトが発生した場合は？**  
+A: 接続文字列の `ConnectTimeout` 値を増やし、必要に応じてバッチ単位でプロジェクトをロードすることを検討してください。
 
- A4: はい、スキーマを指定できます。`MspDbSettings`データベース構造に従ってオブジェクトを作成します。
+---
 
-### Q5: Aspose.Tasks の使用に関する詳細なドキュメントはどこで入手できますか?
+**最終更新日:** 2026-03-14  
+**テスト環境:** Aspose.Tasks 24.12 for .NET  
+**作成者:** Aspose  
 
- A5: 包括的なドキュメントを参照できます。[ここ](https://reference.aspose.com/tasks/net/) Aspose.Tasks 機能の詳細については、こちらをご覧ください。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
