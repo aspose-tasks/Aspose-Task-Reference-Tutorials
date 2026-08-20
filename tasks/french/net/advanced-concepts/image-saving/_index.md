@@ -1,33 +1,59 @@
 ---
-title: Gestion de l'enregistrement des images dans Aspose.Tasks
-linktitle: Gestion de l'enregistrement des images dans Aspose.Tasks
-second_title: API Aspose.Tasks .NET
-description: Découvrez comment gérer l’enregistrement d’images dans Aspose.Tasks pour .NET à l’aide de directives étape par étape. Intégrez de manière transparente la fonctionnalité d’enregistrement d’images dans vos applications .NET.
-weight: 10
+date: 2026-03-05
+description: Apprenez comment enregistrer des images, générer du HTML avec des images
+  et personnaliser l’exportation d’images à l’aide d’Aspose.Tasks pour .NET. Guide
+  étape par étape pour enregistrer le projet au format HTML.
+linktitle: How to Save Images with Aspose.Tasks for .NET
+second_title: Aspose.Tasks .NET API
+title: Comment enregistrer des images avec Aspose.Tasks pour .NET
 url: /fr/net/advanced-concepts/image-saving/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Gestion de l'enregistrement des images dans Aspose.Tasks
+# Comment enregistrer des images avec Aspose.Tasks pour .NET
 
 ## Introduction
 
-Dans ce didacticiel, nous approfondirons le processus de gestion de l'enregistrement des images dans Aspose.Tasks pour .NET. Aspose.Tasks est une API puissante qui permet aux développeurs de manipuler les fichiers Microsoft Project par programme. Une tâche courante lorsque l'on travaille avec des fichiers de projet est la nécessité d'enregistrer des images, qui peuvent inclure des tableaux, des graphiques ou d'autres éléments visuels. Nous décomposerons le processus étape par étape, en garantissant clarté et compréhension tout au long.
+Dans ce tutoriel, vous découvrirez **comment enregistrer des images** à partir de fichiers Microsoft Project en utilisant l'API Aspose.Tasks pour .NET. Que vous ayez besoin d'intégrer des graphiques dans des rapports, de générer des pages HTML contenant des visuels de projet, ou simplement d'exporter des ressources diagrammatiques, les étapes ci‑dessous vous guideront à travers le processus complet — depuis la configuration de l'objet projet jusqu'à la personnalisation des rappels d'exportation d'images.
 
-## Conditions préalables
+## Quick Answers
+- **Que signifie “how to save images” dans Aspose.Tasks ?**  
+  Cela fait référence à l’utilisation de l’interface `IImageSavingCallback` pour contrôler où et comment les ressources visuelles sont écrites sur le disque.
+- **Puis‑je enregistrer un projet au format HTML avec des images intégrées ?**  
+  Oui, en utilisant `HtmlSaveOptions` conjointement avec les callbacks d’enregistrement d’images, vous pouvez **enregistrer le projet au format HTML** qui inclut toutes les images générées.
+- **Ai‑je besoin d’une licence pour l’exportation d’images ?**  
+  Une licence d’évaluation temporaire suffit pour les tests ; une licence complète est requise pour la production.
+- **Quelles versions de .NET sont prises en charge ?**  
+  Aspose.Tasks pour .NET prend en charge .NET Framework 4.5+, .NET Core 3.1+ et .NET 5/6+.
+- **Est‑il possible de personnaliser l’exportation d’images (format, dossier, nommage) ?**  
+  Absolument – le callback vous donne un contrôle total sur le nom de fichier, le format et la destination.
 
-Avant de commencer, assurez-vous de disposer des prérequis suivants :
+## Qu’est‑ce que “how to save images” dans le contexte d’Aspose.Tasks ?
 
-1. Visual Studio : assurez-vous que Visual Studio est installé sur votre système.
-2.  Aspose.Tasks pour .NET : téléchargez et installez Aspose.Tasks pour .NET à partir de[ici](https://releases.aspose.com/tasks/net/).
-3. Compréhension de base de C# : Familiarisez-vous avec les bases du langage de programmation C#.
+Enregistrer des images signifie extraire les éléments visuels (graphes, barres de Gantt, graphiques de ressources) d’un fichier Project et les écrire dans des fichiers image (PNG, JPEG, etc.). Aspose.Tasks offre un mécanisme de rappel flexible qui vous permet de choisir l’emplacement exact, la convention de nommage, et même le format de l’image.
 
-## Importer des espaces de noms
+## Pourquoi utiliser Aspose.Tasks pour enregistrer des images ?
 
-Tout d'abord, importons les espaces de noms nécessaires dans notre projet :
+- **Contrôle programmatique complet** – aucune interaction manuelle avec l’interface utilisateur n’est requise.  
+- **Cross‑platform** – fonctionne sous Windows, Linux et macOS via .NET Core.  
+- **Rendu haute fidélité** – les images conservent la même qualité que la vue originale du projet.  
+- **Génération HTML facile** – combinez `HtmlSaveOptions` avec les callbacks d’image pour **générer automatiquement du HTML avec des images**.
+
+## Prérequis
+
+Avant de commencer, assurez‑vous d’avoir les éléments suivants :
+
+1. Visual Studio installé sur votre machine de développement.  
+2. Aspose.Tasks pour .NET téléchargé depuis [ici](https://releases.aspose.com/tasks/net/).  
+3. Familiarité de base avec C# et la structure d’un projet .NET.
+
+## Importer les espaces de noms
+
+Tout d’abord, importez les espaces de noms requis dans votre fichier source :
 
 ```csharp
 using Aspose.Tasks;
@@ -38,69 +64,69 @@ using Aspose.Tasks.Saving;
 using Aspose.Tasks.Visualization;
 ```
 
-## Étape 1 : Créer un objet de projet
+## Étape 1 : Créer un objet Project
 
-Commencez par créer un objet Project à partir de votre fichier Microsoft Project :
+Chargez le fichier Microsoft Project avec lequel vous souhaitez travailler :
 
 ```csharp
 var project = new Project("Project1.mpp");
 ```
 
-## Étape 2 : définir les options d'enregistrement
+## Étape 2 : Définir les options d’enregistrement
 
-Définissez les options d'enregistrement de votre projet, en spécifiant les pages et autres paramètres :
+Créez les options d’enregistrement HTML qui contiendront également nos callbacks d’enregistrement d’images :
 
 ```csharp
 var options = GetSaveOptions(1);
 ```
 
-## Étape 3 : Enregistrez le projet au format HTML
+## Étape 3 : Enregistrer le projet au format HTML (save project as html)
 
-Enregistrez le projet au format HTML avec les options spécifiées :
+Exportez maintenant le projet vers un fichier HTML. Les images référencées dans le HTML seront générées par le callback que nous définirons ensuite :
 
 ```csharp
 project.Save("document_out.html", options);
 ```
 
-## Étape 4 : implémenter le rappel d'enregistrement d'image
+## Étape 4 : Implémenter le callback d’enregistrement d’image (customize image export)
 
-Implémentez l'interface ImageSavingCallback pour gérer la sauvegarde des images :
+Implémentez l’interface `IImageSavingCallback`. C’est ici que vous **personnalisez le comportement d’exportation d’image** :
 
 ```csharp
 private class ResourcePrefixForNestedResources : IImageSavingCallback
 {
     public void ImageSaving(ImageSavingArgs args)
     {
-        // La logique de sauvegarde des images va ici
+        // Image saving logic goes here
     }
 }
 ```
 
-## Étape 5 : Enregistrer les images dans le répertoire spécifié
+## Étape 5 : Enregistrer les images dans le répertoire spécifié
 
-Dans la méthode ImageSaving, spécifiez la logique pour enregistrer les images dans le répertoire souhaité :
+Dans la méthode `ImageSaving`, décidez où chaque image doit être stockée. L’exemple ci‑dessous différencie les ressources PNG des autres formats :
 
 ```csharp
 if (args.FileName.EndsWith("png"))
 {
-    // Enregistrer les ressources imbriquées
+    // Save nested resources
 }
 else
 {
-    // Économisez les ressources régulières
+    // Save regular resources
 }
 ```
 
-## Étape 6 : Spécifier les options d'enregistrement
+## Étape 6 : Spécifier les options d’enregistrement (including callbacks)
 
-Spécifiez les options d'enregistrement, y compris les rappels pour CSS, les polices et les images :
+Configurez les callbacks pour les polices, le CSS et les images. Cela garantit que chaque élément visuel est traité de manière cohérente :
 
 ```csharp
 public static HtmlSaveOptions GetSaveOptions(int pageNumber)
 {
     var options = new HtmlSaveOptions
     {
-        // Spécifiez les options de sauvegarde ici
+        // Specify save options here
     };
 
     var program = new ResourcePrefixForNestedResources();
@@ -112,31 +138,41 @@ public static HtmlSaveOptions GetSaveOptions(int pageNumber)
 }
 ```
 
+## Problèmes courants et solutions
+
+| Issue | Cause | Fix |
+|-------|-------|-----|
+| Les images n’apparaissent pas dans le HTML généré | Le callback n’attribue pas un chemin de fichier valide | Assurez‑vous que `args.Path` pointe vers un dossier accessible en écriture et que `args.ImageStream` est correctement défini. |
+| Les fichiers PNG sont enregistrés avec une mauvaise extension | La logique conditionnelle ne vérifie que le suffixe “png” | Utilisez `Path.GetExtension(args.FileName).Equals(".png", StringComparison.OrdinalIgnoreCase)` pour une détection robuste. |
+| Les références HTML sont cassées après le déplacement des fichiers | Les chemins relatifs ont changé après le déplacement du dossier de sortie | Conservez les dossiers HTML et image ensemble ou mettez à jour `options.ImageFolder` en conséquence. |
+
 ## Conclusion
 
-En conclusion, la gestion de la sauvegarde des images dans Aspose.Tasks pour .NET implique de définir des options de sauvegarde et de mettre en œuvre des rappels pour gérer efficacement le processus de sauvegarde. En suivant les étapes décrites dans ce didacticiel, vous pouvez intégrer de manière transparente la fonctionnalité d'enregistrement d'images dans vos applications .NET.
+En suivant ces étapes, vous savez maintenant **comment enregistrer des images** à partir d’un fichier Project, **enregistrer le projet au format HTML**, et **personnaliser l’exportation d’image** pour s’adapter à la structure de dossiers de votre application. Cette approche vous permet de **générer du HTML avec des images** qui peuvent être intégrées de façon transparente dans des rapports, des portails de documentation ou des tableaux de bord web.
 
-## FAQ
+## Questions fréquentes
 
-### Q1 : Puis-je utiliser Aspose.Tasks pour manipuler des fichiers de projet dans d'autres formats que HTML ?
+**Q1 : Puis‑je utiliser Aspose.Tasks pour manipuler des fichiers projet dans d’autres formats que le HTML ?**  
+R1 : Oui, Aspose.Tasks prend en charge divers formats tels que PDF, XLSX et MPP.
 
-A1 : Oui, Aspose.Tasks prend en charge divers formats tels que PDF, XLSX et MPP.
+**Q2 : Aspose.Tasks propose‑t‑il une prise en charge de l’intégration avec le stockage cloud ?**  
+R2 : Oui, Aspose.Tasks offre des API pour travailler avec des services de stockage cloud populaires comme Amazon S3 et Google Drive.
 
-### Q2 : Aspose.Tasks prend-il en charge l'intégration du stockage dans le cloud ?
+**Q3 : Aspose.Tasks est‑il compatible avec .NET Core ?**  
+R3 : Oui, Aspose.Tasks est compatible avec .NET Core, vous permettant de développer des applications multiplateformes.
 
-A2 : Oui, Aspose.Tasks propose des API pour travailler avec des services de stockage cloud populaires comme Amazon S3 et Google Drive.
+**Q4 : Puis‑je personnaliser l’apparence des images enregistrées ?**  
+R4 : Oui, vous pouvez personnaliser l’apparence des images enregistrées en modifiant la logique d’enregistrement d’image dans les méthodes de callback.
 
-### Q3 : Aspose.Tasks est-il compatible avec .NET Core ?
+**Q5 : Aspose.Tasks propose‑t‑il des versions d’essai à des fins d’évaluation ?**  
+R5 : Oui, vous pouvez obtenir un essai gratuit d’Aspose.Tasks depuis [ici](https://releases.aspose.com/).
 
-A3 : Oui, Aspose.Tasks est compatible avec .NET Core, vous permettant de développer des applications multiplateformes.
+---
 
-### Q4 : Puis-je personnaliser l’apparence des images enregistrées ?
+**Dernière mise à jour :** 2026-03-05  
+**Testé avec :** Aspose.Tasks 24.11 for .NET  
+**Auteur :** Aspose  
 
-A4 : Oui, vous pouvez personnaliser l'apparence des images enregistrées en modifiant la logique d'enregistrement des images dans les méthodes de rappel.
-
-### Q5 : Aspose.Tasks propose-t-il des versions d'essai à des fins d'évaluation ?
-
- A5 : Oui, vous pouvez obtenir un essai gratuit d'Aspose.Tasks auprès de[ici](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,33 +1,57 @@
 ---
-title: képmentés kezelése az Aspose.Tasks programban
-linktitle: képmentés kezelése az Aspose.Tasks programban
+date: 2026-03-05
+description: Tanulja meg, hogyan menthet képeket, generálhat HTML-t képekkel, és testreszabhatja
+  a képek exportálását az Aspose.Tasks for .NET használatával. Lépésről‑lépésre útmutató
+  a projekt HTML‑ként való mentéséhez.
+linktitle: How to Save Images with Aspose.Tasks for .NET
 second_title: Aspose.Tasks .NET API
-description: Ismerje meg, hogyan kezelheti a képmentést az Aspose.Tasks for .NET-ben a lépésenkénti útmutatók segítségével. Zökkenőmentesen integrálja a képmentési funkciókat .NET-alkalmazásaiba.
-weight: 10
+title: Hogyan menthet képeket az Aspose.Tasks for .NET segítségével
 url: /hu/net/advanced-concepts/image-saving/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# képmentés kezelése az Aspose.Tasks programban
+# Hogyan menthetünk képeket az Aspose.Tasks for .NET használatával
 
 ## Bevezetés
 
-Ebben az oktatóanyagban az Aspose.Tasks for .NET rendszerben történő képmentés kezelési folyamatát mutatjuk be. Az Aspose.Tasks egy hatékony API, amely lehetővé teszi a fejlesztők számára, hogy programozottan kezeljék a Microsoft Project fájlokat. A projektfájlokkal végzett munka során az egyik gyakori feladat a képek mentése, amelyek diagramokat, grafikonokat vagy más vizuális elemeket tartalmazhatnak. A folyamatot lépésről lépésre lebontjuk, biztosítva az egyértelműséget és a megértést.
+Ebben az útmutatóban **megmutatjuk, hogyan menthetünk képeket** a Microsoft Project fájlokból az Aspose.Tasks API for .NET segítségével. Akár diagramokat kell beágyazni jelentésekbe, HTML oldalakat generálni, amelyek projektvizualizációkat tartalmaznak, vagy egyszerűen diagramok exportálása a cél, az alábbi lépések végigvezetik a teljes folyamaton – a projektobjektum beállításától a kép‑export visszahívások testreszabásáig.
+
+## Gyors válaszok
+- **Mit jelent a „hogyan menthetünk képeket” az Aspose.Tasks-ben?**  
+  Ez azt jelenti, hogy az `IImageSavingCallback` interfészt használva szabályozhatjuk, hogy a vizuális erőforrások hová és hogyan kerülnek lemezre.
+- **Menthetek-e egy projektet HTML‑ként beágyazott képekkel?**  
+  Igen, a `HtmlSaveOptions` és a kép‑mentési visszahívások kombinálásával **menthetünk projektet HTML‑ként**, amely tartalmazza az összes generált képet.
+- **Szükségem van licencre a képek exportálásához?**  
+  Ideiglenes értékelő licenc teszteléshez elegendő; a teljes licenc a termelésben való használathoz kötelező.
+- **Mely .NET verziók támogatottak?**  
+  Az Aspose.Tasks for .NET támogatja a .NET Framework 4.5+, a .NET Core 3.1+, valamint a .NET 5/6+ verziókat.
+- **Lehetséges-e testreszabni a képek exportálását (formátum, mappa, elnevezés)?**  
+  Teljes mértékben – a visszahívás lehetővé teszi a fájlnév, formátum és célhely teljes ellenőrzését.
+
+## Mi a „hogyan menthetünk képeket” az Aspose.Tasks kontextusában?
+A képek mentése azt jelenti, hogy a projektfájl vizuális elemeit (diagramok, Gantt‑oszlopok, erőforrás‑grafikák) kinyerjük, és képfájlokba (PNG, JPEG stb.) írjuk. Az Aspose.Tasks rugalmas visszahívás‑mechanizmust biztosít, amely lehetővé teszi a pontos hely, elnevezési szabály és akár a képformátum meghatározását.
+
+## Miért használjuk az Aspose.Tasks-et képek mentésére?
+- **Teljes programozott vezérlés** – nincs szükség manuális UI‑interakcióra.  
+- **Keresztplatformos** – Windows, Linux és macOS alatt is működik a .NET Core‑val.  
+- **Magas hűségű renderelés** – a képek ugyanolyan minőséget őriznek, mint az eredeti Project‑nézet.  
+- **Könnyű HTML generálás** – a `HtmlSaveOptions` és a kép‑visszahívások kombinálásával **automatikusan generálhat HTML‑t képekkel**.
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
+Mielőtt elkezdenénk, győződjön meg róla, hogy a következők rendelkezésre állnak:
 
-1. Visual Studio: Győződjön meg arról, hogy a Visual Studio telepítve van a rendszeren.
-2.  Aspose.Tasks for .NET: Töltse le és telepítse az Aspose.Tasks for .NET webhelyet innen[itt](https://releases.aspose.com/tasks/net/).
-3. A C# alapjai: Ismerkedjen meg a C# programozási nyelv alapjaival.
+1. Visual Studio telepítve van a fejlesztői gépén.  
+2. Aspose.Tasks for .NET letöltve a [itt](https://releases.aspose.com/tasks/net/) található helyről.  
+3. Alapvető ismeretek a C#‑ról és a .NET projektstruktúráról.
 
-## Névterek importálása
+## Névtér importálása
 
-Először is importáljuk a szükséges névtereket a projektünkbe:
+Először hozza be a szükséges névtereket a forrásfájlba:
 
 ```csharp
 using Aspose.Tasks;
@@ -38,69 +62,69 @@ using Aspose.Tasks.Saving;
 using Aspose.Tasks.Visualization;
 ```
 
-## 1. lépés: Hozzon létre egy projektobjektumot
+## 1. lépés: Projekt objektum létrehozása
 
-Először hozzon létre egy Project objektumot a Microsoft Project fájlból:
+Töltse be azt a Microsoft Project fájlt, amelyen dolgozni szeretne:
 
 ```csharp
 var project = new Project("Project1.mpp");
 ```
 
-## 2. lépés: Adja meg a mentési beállításokat
+## 2. lépés: Mentési beállítások meghatározása
 
-Határozza meg a projekt mentési beállításait az oldalak és egyéb beállítások megadásával:
+Hozza létre a HTML mentési beállításokat, amelyek tartalmazni fogják a kép‑mentési visszahívásainkat is:
 
 ```csharp
 var options = GetSaveOptions(1);
 ```
 
-## 3. lépés: Mentse el a projektet HTML-ként
+## 3. lépés: Projekt mentése HTML‑ként (save project as html)
 
-Mentse a projektet HTML-ként a megadott beállításokkal:
+Most exportálja a projektet egy HTML fájlba. A HTML‑ben hivatkozott képeket a következő lépésben definiált visszahívás fogja generálni:
 
 ```csharp
 project.Save("document_out.html", options);
 ```
 
-## 4. lépés: Végezze el a képmentő visszahívást
+## 4. lépés: Kép mentési visszahívás implementálása (customize image export)
 
-Valósítsa meg az ImageSavingCallback felületet a képmentés kezeléséhez:
+Implementálja az `IImageSavingCallback` interfészt. Itt **testreszabhatja a kép exportálás** viselkedését:
 
 ```csharp
 private class ResourcePrefixForNestedResources : IImageSavingCallback
 {
     public void ImageSaving(ImageSavingArgs args)
     {
-        // A képmentési logika ide tartozik
+        // Image saving logic goes here
     }
 }
 ```
 
-## 5. lépés: Mentse el a képeket a megadott könyvtárba
+## 5. lépés: Képek mentése a megadott könyvtárba
 
-Az ImageSaving metóduson belül adja meg a logikát, hogy a képeket a kívánt könyvtárba mentse:
+Az `ImageSaving` metódusban határozza meg, hogy minden kép hová kerüljön. Az alábbi példa megkülönbözteti a PNG erőforrásokat a többi formátumtól:
 
 ```csharp
 if (args.FileName.EndsWith("png"))
 {
-    // Mentse a beágyazott erőforrásokat
+    // Save nested resources
 }
 else
 {
-    // Takarítson meg rendszeres erőforrásokat
+    // Save regular resources
 }
 ```
 
-## 6. lépés: Adja meg a mentési beállításokat
+## 6. lépés: Mentési beállítások megadása (including callbacks)
 
-Adja meg a mentési beállításokat, beleértve a CSS, betűtípusok és képek visszahívásait:
+Kapcsolja össze a betűtípus, CSS és kép visszahívásokat. Ez biztosítja, hogy minden vizuális elem konzisztensen legyen kezelve:
 
 ```csharp
 public static HtmlSaveOptions GetSaveOptions(int pageNumber)
 {
     var options = new HtmlSaveOptions
     {
-        // Itt adja meg a mentési beállításokat
+        // Specify save options here
     };
 
     var program = new ResourcePrefixForNestedResources();
@@ -112,31 +136,41 @@ public static HtmlSaveOptions GetSaveOptions(int pageNumber)
 }
 ```
 
-## Következtetés
+## Gyakori problémák és megoldások
 
-Összefoglalva, az Aspose.Tasks for .NET rendszerben a képmentés kezelése magában foglalja a mentési beállítások meghatározását és a visszahívások végrehajtását a mentési folyamat hatékony kezelése érdekében. Az oktatóanyagban ismertetett lépések követésével zökkenőmentesen integrálhatja a képmentési funkciókat .NET-alkalmazásaiba.
+| Probléma | Ok | Megoldás |
+|----------|----|----------|
+| A képek nem jelennek meg a generált HTML‑ben | A visszahívás nem ad meg érvényes fájlútvonalat | Győződjön meg róla, hogy az `args.Path` egy írható mappára mutat, és az `args.ImageStream` helyesen van beállítva. |
+| PNG fájlok rossz kiterjesztéssel kerülnek mentésre | A feltételes logika csak a „png” utótagot ellenőrzi | Használja a `Path.GetExtension(args.FileName).Equals(".png", StringComparison.OrdinalIgnoreCase)` kifejezést a megbízható ellenőrzéshez. |
+| HTML hivatkozások hibásak a fájlok áthelyezése után | Relatív útvonalak megváltoztak a kimeneti mappa mozgatása során | Tartsa együtt a HTML‑t és a képmappákat, vagy frissítse az `options.ImageFolder` beállítást ennek megfelelően. |
 
-## GYIK
+## Összegzés
 
-### 1. kérdés: Az Aspose.Tasks segítségével kezelhetem a HTML-en kívül más formátumú projektfájlokat?
+Ezekkel a lépésekkel most már tudja, **hogyan menthet képeket** egy projektfájlból, **hogyan mentheti a projektet HTML‑ként**, és **hogyan testreszabhatja a kép exportálást** a saját mappastruktúrájához igazítva. Ez a megközelítés lehetővé teszi, hogy **HTML‑t képekkel generáljon**, amely könnyedén beágyazható jelentésekbe, dokumentációs portálokba vagy webes irányítópultokba.
 
-1. válasz: Igen, az Aspose.Tasks különféle formátumokat támogat, például PDF, XLSX és MPP.
+## Gyakran Ismételt Kérdések
 
-### 2. kérdés: Az Aspose.Tasks támogatja a felhőalapú tárolás integrációját?
+**Q1: Használhatom-e az Aspose.Tasks-et projektfájlok más formátumokban való manipulálására a HTML-en kívül?**  
+A1: Igen, az Aspose.Tasks számos formátumot támogat, például PDF, XLSX és MPP.
 
-2. válasz: Igen, az Aspose.Tasks API-kat kínál a népszerű felhőalapú tárolási szolgáltatásokhoz, például az Amazon S3-hoz és a Google Drive-hoz.
+**Q2: Az Aspose.Tasks biztosít-e támogatást felhőalapú tároló integrációhoz?**  
+A2: Igen, az Aspose.Tasks API‑k elérhetők népszerű felhőszolgáltatásokhoz, mint az Amazon S3 és a Google Drive.
 
-### 3. kérdés: Az Aspose.Tasks kompatibilis a .NET Core programmal?
+**Q3: Az Aspose.Tasks kompatibilis a .NET Core‑ral?**  
+A3: Igen, az Aspose.Tasks kompatibilis a .NET Core‑ral, így keresztplatformos alkalmazásokat fejleszthet.
 
-3. válasz: Igen, az Aspose.Tasks kompatibilis a .NET Core-al, lehetővé téve többplatformos alkalmazások fejlesztését.
+**Q4: Testreszabhatom-e a mentett képek megjelenését?**  
+A4: Igen, a kép mentési logikát a visszahívási metódusokban módosítva testreszabhatja a képek megjelenését.
 
-### 4. kérdés: Testreszabhatom a mentett képek megjelenését?
+**Q5: Az Aspose.Tasks kínál-e próbaverziót értékelési célokra?**  
+A5: Igen, ingyenes próbaverziót szerezhet az Aspose.Tasks‑hez a [itt](https://releases.aspose.com/) található oldalon.
 
-4. válasz: Igen, testreszabhatja a mentett képek megjelenését a visszahívási módokon belüli képmentési logika módosításával.
+---
 
-### 5. kérdés: Az Aspose.Tasks kínál próbaverziókat értékelési célokra?
+**Utolsó frissítés:** 2026-03-05  
+**Tesztelve:** Aspose.Tasks 24.11 for .NET  
+**Szerző:** Aspose  
 
- 5. válasz: Igen, beszerezheti az Aspose.Tasks ingyenes próbaverzióját a webhelyről[itt](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

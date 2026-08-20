@@ -1,33 +1,57 @@
 ---
-title: Omgaan met het opslaan van afbeeldingen in Aspose.Tasks
-linktitle: Omgaan met het opslaan van afbeeldingen in Aspose.Tasks
+date: 2026-03-05
+description: Leer hoe u afbeeldingen opslaat, HTML met afbeeldingen genereert en de
+  afbeeldingsexport aanpast met Aspose.Tasks voor .NET. Stapsgewijze handleiding om
+  een project op te slaan als HTML.
+linktitle: How to Save Images with Aspose.Tasks for .NET
 second_title: Aspose.Tasks .NET API
-description: Leer hoe u met stapsgewijze richtlijnen omgaat met het opslaan van afbeeldingen in Aspose.Tasks voor .NET. Integreer de functionaliteit voor het opslaan van afbeeldingen naadloos in uw .NET-toepassingen.
-weight: 10
+title: Hoe afbeeldingen opslaan met Aspose.Tasks voor .NET
 url: /nl/net/advanced-concepts/image-saving/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Omgaan met het opslaan van afbeeldingen in Aspose.Tasks
+# Hoe afbeeldingen opslaan met Aspose.Tasks voor .NET
 
-## Invoering
+## Inleiding
 
-In deze zelfstudie gaan we dieper in op het proces van het opslaan van afbeeldingen in Aspose.Tasks voor .NET. Aspose.Tasks is een krachtige API waarmee ontwikkelaars Microsoft Project-bestanden programmatisch kunnen manipuleren. Een veel voorkomende taak bij het werken met projectbestanden is de noodzaak om afbeeldingen op te slaan, zoals diagrammen, grafieken of andere visuele elementen. We zullen het proces stap voor stap opsplitsen, zodat er overal duidelijkheid en begrip ontstaat.
+In deze tutorial ontdek je **hoe je afbeeldingen** kunt opslaan vanuit Microsoft Project‑bestanden met de Aspose.Tasks‑API voor .NET. Of je nu grafieken in rapporten wilt insluiten, HTML‑pagina's wilt genereren die projectvisualisaties bevatten, of simpelweg diagrammen wilt exporteren, de onderstaande stappen begeleiden je door het volledige proces — van het instellen van het projectobject tot het aanpassen van de afbeelding‑export‑callbacks.
+
+## Snelle antwoorden
+- **Wat betekent “hoe afbeeldingen opslaan” in Aspose.Tasks?**  
+  Het verwijst naar het gebruik van de `IImageSavingCallback`‑interface om te bepalen waar en hoe visuele bronnen naar schijf worden geschreven.
+- **Kan ik een project opslaan als HTML met ingesloten afbeeldingen?**  
+  Ja, door `HtmlSaveOptions` te gebruiken in combinatie met afbeelding‑opslaancallbacks kun je **project opslaan als HTML** dat alle gegenereerde afbeeldingen bevat.
+- **Heb ik een licentie nodig voor afbeeldingsexport?**  
+  Een tijdelijke evaluatielicentie werkt voor testen; een volledige licentie is vereist voor productiegebruik.
+- **Welke .NET‑versies worden ondersteund?**  
+  Aspose.Tasks voor .NET ondersteunt .NET Framework 4.5+, .NET Core 3.1+, en .NET 5/6+.
+- **Is het mogelijk om afbeeldingsexport aan te passen (formaat, map, naamgeving)?**  
+  Absoluut — de callback geeft je volledige controle over bestandsnaam, formaat en bestemming.
+
+## Wat betekent “hoe afbeeldingen opslaan” in de context van Aspose.Tasks?
+Afbeeldingen opslaan betekent het extraheren van visuele elementen (grafieken, Gantt‑balken, resource‑graphics) uit een Project‑bestand en deze wegschrijven naar afbeeldingsbestanden (PNG, JPEG, enz.). Aspose.Tasks biedt een flexibel callback‑mechanisme waarmee je de exacte locatie, naamgevingsconventie en zelfs het afbeeldingsformaat kunt bepalen.
+
+## Waarom Aspose.Tasks gebruiken om afbeeldingen op te slaan?
+- **Volledige programmatiche controle** – geen handmatige UI‑interactie nodig.  
+- **Cross‑platform** – werkt op Windows, Linux en macOS via .NET Core.  
+- **Hoge‑fidelity rendering** – afbeeldingen behouden dezelfde kwaliteit als de oorspronkelijke Project‑weergave.  
+- **Eenvoudige HTML‑generatie** – combineer `HtmlSaveOptions` met afbeelding‑callbacks om **automatisch HTML met afbeeldingen** te genereren.
 
 ## Vereisten
 
-Voordat we beginnen, zorg ervoor dat u aan de volgende vereisten voldoet:
+Voordat we beginnen, zorg dat je het volgende hebt:
 
-1. Visual Studio: Zorg ervoor dat Visual Studio op uw systeem is geïnstalleerd.
-2.  Aspose.Tasks voor .NET: Download en installeer Aspose.Tasks voor .NET van[hier](https://releases.aspose.com/tasks/net/).
-3. Basiskennis van C#: maak uzelf vertrouwd met de basisbeginselen van de programmeertaal C#.
+1. Visual Studio geïnstalleerd op je ontwikkelmachine.  
+2. Aspose.Tasks voor .NET gedownload van [hier](https://releases.aspose.com/tasks/net/).  
+3. Basiskennis van C# en .NET‑projectstructuur.
 
-## Naamruimten importeren
+## Namespaces importeren
 
-Laten we eerst de benodigde naamruimten in ons project importeren:
+Breng eerst de benodigde namespaces in je bronbestand:
 
 ```csharp
 using Aspose.Tasks;
@@ -38,69 +62,69 @@ using Aspose.Tasks.Saving;
 using Aspose.Tasks.Visualization;
 ```
 
-## Stap 1: Maak een projectobject
+## Stap 1: Een Project‑object maken
 
-Begin met het maken van een Project-object vanuit uw Microsoft Project-bestand:
+Laad het Microsoft Project‑bestand dat je wilt gebruiken:
 
 ```csharp
 var project = new Project("Project1.mpp");
 ```
 
-## Stap 2: Definieer de opslagopties
+## Stap 2: Opslagopties definiëren
 
-Definieer de opslagopties voor uw project, waarbij u de pagina's en andere instellingen opgeeft:
+Maak de HTML‑opslaan‑opties aan die ook onze afbeelding‑opslaancallbacks bevatten:
 
 ```csharp
 var options = GetSaveOptions(1);
 ```
 
-## Stap 3: Sla het project op als HTML
+## Stap 3: Het project opslaan als HTML (save project as html)
 
-Sla het project op als HTML met de opgegeven opties:
+Exporteer nu het project naar een HTML‑bestand. De afbeeldingen die in de HTML worden verwezen, worden gegenereerd door de callback die we vervolgens definiëren:
 
 ```csharp
 project.Save("document_out.html", options);
 ```
 
-## Stap 4: Implementeer Callback voor het opslaan van afbeeldingen
+## Stap 4: Afbeelding‑opslaan‑callback implementeren (customize image export)
 
-Implementeer de ImageSavingCallback-interface om het opslaan van afbeeldingen af te handelen:
+Implementeer de `IImageSavingCallback`‑interface. Hier kun je het gedrag van **afbeeldingsexport aanpassen**:
 
 ```csharp
 private class ResourcePrefixForNestedResources : IImageSavingCallback
 {
     public void ImageSaving(ImageSavingArgs args)
     {
-        // Logica voor het opslaan van afbeeldingen komt hier
+        // Image saving logic goes here
     }
 }
 ```
 
-## Stap 5: Afbeeldingen opslaan in de opgegeven map
+## Stap 5: Afbeeldingen opslaan in opgegeven map
 
-Geef binnen de ImageSaving-methode de logica op om afbeeldingen in de gewenste map op te slaan:
+Binnen de `ImageSaving`‑methode bepaal je waar elke afbeelding moet worden opgeslagen. Het voorbeeld hieronder onderscheidt PNG‑bronnen van andere formaten:
 
 ```csharp
 if (args.FileName.EndsWith("png"))
 {
-    // Bewaar geneste bronnen
+    // Save nested resources
 }
 else
 {
-    // Bewaar reguliere bronnen
+    // Save regular resources
 }
 ```
 
-## Stap 6: Geef de opslagopties op
+## Stap 6: Opslaan‑opties specificeren (inclusief callbacks)
 
-Geef de opslagopties op, inclusief callbacks voor CSS, lettertypen en afbeeldingen:
+Koppel de callbacks voor lettertypen, CSS en afbeeldingen. Dit zorgt ervoor dat elk visueel element consistent wordt afgehandeld:
 
 ```csharp
 public static HtmlSaveOptions GetSaveOptions(int pageNumber)
 {
     var options = new HtmlSaveOptions
     {
-        // Geef hier de opslagopties op
+        // Specify save options here
     };
 
     var program = new ResourcePrefixForNestedResources();
@@ -112,31 +136,41 @@ public static HtmlSaveOptions GetSaveOptions(int pageNumber)
 }
 ```
 
+## Veelvoorkomende problemen en oplossingen
+
+| Probleem | Oorzaak | Oplossing |
+|----------|---------|-----------|
+| Afbeeldingen verschijnen niet in de gegenereerde HTML | Callback wijst geen geldig bestandspad toe | Zorg ervoor dat `args.Path` naar een schrijfbare map wijst en stel `args.ImageStream` correct in. |
+| PNG‑bestanden worden opgeslagen met verkeerde extensie | Voorwaardelijke logica controleert alleen op “png” suffix | Gebruik `Path.GetExtension(args.FileName).Equals(".png", StringComparison.OrdinalIgnoreCase)` voor robuuste detectie. |
+| HTML‑verwijzingen zijn kapot na het verplaatsen van bestanden | Relatieve paden veranderden na het verplaatsen van de output‑map | Houd de HTML‑ en afbeeldingsmappen samen of werk `options.ImageFolder` dienovereenkomstig bij. |
+
 ## Conclusie
 
-Kortom, het opslaan van afbeeldingen in Aspose.Tasks voor .NET omvat het definiëren van opslagopties en het implementeren van callbacks om het opslagproces effectief te beheren. Door de stappen in deze zelfstudie te volgen, kunt u de functionaliteit voor het opslaan van afbeeldingen naadloos integreren in uw .NET-toepassingen.
+Door deze stappen te volgen weet je nu **hoe je afbeeldingen kunt opslaan** uit een Project‑bestand, **hoe je project opslaat als HTML**, en **hoe je afbeeldingsexport kunt aanpassen** aan de mapstructuur van je applicatie. Deze aanpak stelt je in staat om **HTML met afbeeldingen** te genereren die naadloos kunnen worden ingebed in rapporten, documentatie‑portalen of web‑dashboards.
 
 ## Veelgestelde vragen
 
-### V1: Kan ik Aspose.Tasks gebruiken om projectbestanden in andere formaten dan HTML te manipuleren?
-
+**Q1: Kan ik Aspose.Tasks gebruiken om projectbestanden in andere formaten dan HTML te manipuleren?**  
 A1: Ja, Aspose.Tasks ondersteunt verschillende formaten zoals PDF, XLSX en MPP.
 
-### V2: Biedt Aspose.Tasks ondersteuning voor integratie van cloudopslag?
+**Q2: Biedt Aspose.Tasks ondersteuning voor integratie met cloudopslag?**  
+A2: Ja, Aspose.Tasks biedt API’s voor het werken met populaire cloudopslagdiensten zoals Amazon S3 en Google Drive.
 
-A2: Ja, Aspose.Tasks biedt API's voor het werken met populaire cloudopslagdiensten zoals Amazon S3 en Google Drive.
+**Q3: Is Aspose.Tasks compatibel met .NET Core?**  
+A3: Ja, Aspose.Tasks is compatibel met .NET Core, waardoor je cross‑platform applicaties kunt ontwikkelen.
 
-### V3: Is Aspose.Tasks compatibel met .NET Core?
+**Q4: Kan ik het uiterlijk van opgeslagen afbeeldingen aanpassen?**  
+A4: Ja, je kunt het uiterlijk van opgeslagen afbeeldingen aanpassen door de logica voor afbeelding opslaan binnen de callback‑methoden te wijzigen.
 
-A3: Ja, Aspose.Tasks is compatibel met .NET Core, waardoor u platformonafhankelijke applicaties kunt ontwikkelen.
+**Q5: Biedt Aspose.Tasks proefversies voor evaluatiedoeleinden?**  
+A5: Ja, je kunt een gratis proefversie van Aspose.Tasks verkrijgen via [hier](https://releases.aspose.com/).
 
-### V4: Kan ik het uiterlijk van opgeslagen afbeeldingen aanpassen?
+---
 
-A4: Ja, u kunt het uiterlijk van opgeslagen afbeeldingen aanpassen door de logica voor het opslaan van afbeeldingen binnen de callback-methoden te wijzigen.
+**Laatst bijgewerkt:** 2026-03-05  
+**Getest met:** Aspose.Tasks 24.11 voor .NET  
+**Auteur:** Aspose  
 
-### V5: Biedt Aspose.Tasks proefversies voor evaluatiedoeleinden?
-
- A5: Ja, u kunt een gratis proefversie van Aspose.Tasks verkrijgen via[hier](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

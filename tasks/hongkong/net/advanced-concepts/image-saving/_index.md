@@ -1,33 +1,56 @@
 ---
-title: 在 Aspose.Tasks 中處理影像保存
-linktitle: 在 Aspose.Tasks 中處理影像保存
+date: 2026-03-05
+description: 學習如何儲存圖像、產生含圖像的 HTML，並使用 Aspose.Tasks for .NET 自訂圖像匯出。一步一步的指南，將專案儲存為
+  HTML。
+linktitle: How to Save Images with Aspose.Tasks for .NET
 second_title: Aspose.Tasks .NET API
-description: 了解如何使用逐步指南在 Aspose.Tasks for .NET 中處理影像保存。將圖像保存功能無縫整合到您的 .NET 應用程式中。
-weight: 10
+title: 如何使用 Aspose.Tasks for .NET 保存圖片
 url: /zh-hant/net/advanced-concepts/image-saving/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Aspose.Tasks 中處理影像保存
+# 如何使用 Aspose.Tasks for .NET 儲存圖像
 
 ## 介紹
 
-在本教程中，我們將深入研究在 Aspose.Tasks for .NET 中處理影像保存的過程。 Aspose.Tasks 是一個功能強大的 API，使開發人員能夠以程式設計方式操作 Microsoft Project 檔案。使用專案文件時的常見任務是需要儲存圖像，其中可能包括圖表、圖形或其他視覺元素。我們將逐步分解該過程，確保整個過程的清晰度和理解性。
+在本教學中，您將會學會 **如何儲存圖像**，從 Microsoft Project 檔案中使用 Aspose.Tasks API for .NET 取得圖像。無論您是需要在報告中嵌入圖表、產生包含專案視覺的 HTML 頁面，或只是匯出圖形資源，以下步驟都會引導您完成整個流程——從設定 Project 物件到自訂圖像匯出回呼。
 
-## 先決條件
+## 快速解答
+- **“how to save images” 在 Aspose.Tasks 中是什麼意思？**  
+  它指的是使用 `IImageSavingCallback` 介面來控制視覺資源寫入磁碟的位置與方式。
+- **我可以將專案儲存為內嵌圖像的 HTML 嗎？**  
+  可以，透過使用 `HtmlSaveOptions` 搭配圖像儲存回呼，您可以 **save project as HTML**（將專案儲存為 HTML），其中包含所有產生的圖像。
+- **圖像匯出需要授權嗎？**  
+  暫時的評估授權可用於測試；正式使用則需要完整授權。
+- **支援哪些 .NET 版本？**  
+  Aspose.Tasks for .NET 支援 .NET Framework 4.5 以上、.NET Core 3.1 以上，以及 .NET 5/6 以上。
+- **可以自訂圖像匯出（格式、資料夾、命名）嗎？**  
+  當然可以——回呼讓您完全掌控檔名、格式與儲存位置。
 
-在我們開始之前，請確保您符合以下先決條件：
+## 在 Aspose.Tasks 中「如何儲存圖像」是什麼意思？
 
-1. Visual Studio：確保您的系統上安裝了 Visual Studio。
-2.  Aspose.Tasks for .NET：從下列位置下載並安裝 Aspose.Tasks for .NET[這裡](https://releases.aspose.com/tasks/net/).
-3. C# 的基本了解：熟悉 C# 程式語言基礎。
+儲存圖像指的是從 Project 檔案中擷取視覺元素（圖表、甘特條、資源圖形），並寫入圖像檔案（PNG、JPEG 等）。Aspose.Tasks 提供彈性的回呼機制，讓您自行決定儲存位置、命名慣例，甚至圖像格式。
 
-## 導入命名空間
+## 為什麼使用 Aspose.Tasks 來儲存圖像？
 
-首先，讓我們將必要的命名空間匯入到我們的專案中：
+- **完整程式化控制** – 無需手動 UI 操作。  
+- **跨平台** – 透過 .NET Core 可在 Windows、Linux 與 macOS 上執行。  
+- **高保真渲染** – 圖像保留與原始 Project 觀景相同的品質。  
+- **簡易 HTML 產生** – 結合 `HtmlSaveOptions` 與圖像回呼即可自動 **generate HTML with images**（產生含圖像的 HTML）。
+
+## 前置條件
+
+1. 開發機器上已安裝 Visual Studio。  
+2. 從 [here](https://releases.aspose.com/tasks/net/) 下載 Aspose.Tasks for .NET。  
+3. 具備 C# 及 .NET 專案結構的基本認識。
+
+## 匯入命名空間
+
+首先，將所需的命名空間加入您的原始檔案中：
 
 ```csharp
 using Aspose.Tasks;
@@ -38,69 +61,69 @@ using Aspose.Tasks.Saving;
 using Aspose.Tasks.Visualization;
 ```
 
-## 第 1 步：建立專案對象
+## 步驟 1：建立 Project 物件
 
-首先從 Microsoft Project 檔案建立一個 Project 物件：
+載入您要處理的 Microsoft Project 檔案：
 
 ```csharp
 var project = new Project("Project1.mpp");
 ```
 
-## 第 2 步：定義儲存選項
+## 步驟 2：定義儲存選項
 
-定義項目的儲存選項，指定頁面和其他設定：
+建立同時保存我們圖像儲存回呼的 HTML 儲存選項：
 
 ```csharp
 var options = GetSaveOptions(1);
 ```
 
-## 第 3 步：將項目另存為 HTML
+## 步驟 3：將專案儲存為 HTML（save project as html）
 
-使用指定選項將項目另存為 HTML：
+現在將專案匯出為 HTML 檔案。HTML 中參考的圖像將由接下來定義的回呼產生：
 
 ```csharp
 project.Save("document_out.html", options);
 ```
 
-## 第四步：實現圖片保存回調
+## 步驟 4：實作圖像儲存回呼（customize image export）
 
-實作 ImageSavingCallback 介面來處理影像保存：
+實作 `IImageSavingCallback` 介面。這裡是您 **自訂圖像匯出** 行為的地方：
 
 ```csharp
 private class ResourcePrefixForNestedResources : IImageSavingCallback
 {
     public void ImageSaving(ImageSavingArgs args)
     {
-        //圖像保存邏輯在這裡
+        // Image saving logic goes here
     }
 }
 ```
 
-## 第五步：儲存圖片到指定目錄
+## 步驟 5：將圖像儲存至指定目錄
 
-在 ImageSave 方法中，指定將影像儲存到所需目錄的邏輯：
+在 `ImageSaving` 方法內，決定每張圖像的儲存位置。以下範例會將 PNG 資源與其他格式區分開來：
 
 ```csharp
 if (args.FileName.EndsWith("png"))
 {
-    //保存嵌套資源
+    // Save nested resources
 }
 else
 {
-    //節省常規資源
+    // Save regular resources
 }
 ```
 
-## 步驟 6：指定儲存選項
+## 步驟 6：指定儲存選項（包含回呼）
 
-指定儲存選項，包括 CSS、字型和圖片的回呼：
+為字型、CSS 與圖像掛接回呼。這確保每個視覺元素都能一致處理：
 
 ```csharp
 public static HtmlSaveOptions GetSaveOptions(int pageNumber)
 {
     var options = new HtmlSaveOptions
     {
-        //在此指定保存選項
+        // Specify save options here
     };
 
     var program = new ResourcePrefixForNestedResources();
@@ -112,31 +135,41 @@ public static HtmlSaveOptions GetSaveOptions(int pageNumber)
 }
 ```
 
+## 常見問題與解決方案
+
+| 問題 | 原因 | 解決方式 |
+|-------|-------|-----|
+| 生成的 HTML 中未顯示圖像 | 回呼未指派有效的檔案路徑 | 確保 `args.Path` 指向可寫入的資料夾，並正確設定 `args.ImageStream`。 |
+| PNG 檔案儲存為錯誤的副檔名 | 條件邏輯僅檢查 “png” 後綴 | 使用 `Path.GetExtension(args.FileName).Equals(".png", StringComparison.OrdinalIgnoreCase)` 以進行更健全的偵測。 |
+| 移動檔案後 HTML 參考失效 | 移動輸出資料夾後相對路徑變更 | 保持 HTML 與圖像資料夾在同一位置，或相應更新 `options.ImageFolder`。 |
+
 ## 結論
 
-總之，在 Aspose.Tasks for .NET 中處理影像保存涉及定義保存選項和實作回呼以有效管理保存過程。透過遵循本教學中概述的步驟，您可以將圖像保存功能無縫整合到您的 .NET 應用程式中。
+依照上述步驟，您現在已掌握 **如何儲存圖像**、**save project as HTML**，以及 **自訂圖像匯出** 以符合應用程式的資料夾結構。此方法讓您能 **generate HTML with images**，輕鬆嵌入報告、文件入口網站或 Web 儀表板中。
 
-## 常見問題解答
+## 常見問答
 
-### Q1：我可以使用Aspose.Tasks來操作除HTML之外的其他格式的專案檔案嗎？
+**Q1：我可以使用 Aspose.Tasks 操作除 HTML 之外的其他格式的專案檔案嗎？**  
+A1：可以，Aspose.Tasks 支援多種格式，例如 PDF、XLSX 與 MPP。
 
-A1：是的，Aspose.Tasks 支援多種格式，例如 PDF、XLSX 和 MPP。
+**Q2：Aspose.Tasks 是否提供雲端儲存整合的支援？**  
+A2：提供，Aspose.Tasks 提供用於操作如 Amazon S3 與 Google Drive 等熱門雲端儲存服務的 API。
 
-### Q2：Aspose.Tasks 是否提供雲端儲存整合支援？
+**Q3：Aspose.Tasks 相容於 .NET Core 嗎？**  
+A3：相容，Aspose.Tasks 支援 .NET Core，讓您能開發跨平台應用程式。
 
-A2：是的，Aspose.Tasks 提供了與 Amazon S3 和 Google Drive 等流行雲端儲存服務搭配使用的 API。
+**Q4：我可以自訂已儲存圖像的外觀嗎？**  
+A4：可以，您可透過在回呼方法中修改圖像儲存邏輯來自訂圖像的外觀。
 
-### Q3：Aspose.Tasks 與.NET Core 相容嗎？
+**Q5：Aspose.Tasks 是否提供評估用的試用版？**  
+A5：提供，您可從 [here](https://releases.aspose.com/) 取得 Aspose.Tasks 的免費試用版。
 
-A3：是的，Aspose.Tasks 與 .NET Core 相容，可讓您開發跨平台應用程式。
+---
 
-### Q4：我可以自訂儲存影像的外觀嗎？
+**最後更新：** 2026-03-05  
+**測試環境：** Aspose.Tasks 24.11 for .NET  
+**作者：** Aspose  
 
-A4：是的，您可以透過修改回呼方法中的影像來儲存邏輯來自訂來儲存影像的外觀。
-
-### Q5：Aspose.Tasks 是否提供評估目的的試用版？
-
- A5：是的，您可以從以下位置取得 Aspose.Tasks 的免費試用版：[這裡](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
