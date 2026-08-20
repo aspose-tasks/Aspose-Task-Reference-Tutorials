@@ -1,6 +1,6 @@
 ---
-title: How to Save Images with Aspose.Tasks for .NET
-linktitle: How to Save Images with Aspose.Tasks for .NET
+title: Export Project Images and Generate HTML using Aspose.Tasks for .NET
+linktitle: Export Project Images and Generate HTML using Aspose.Tasks for .NET
 second_title: Aspose.Tasks .NET API
 description: Learn how to save images, generate HTML with images, and customize image export using Aspose.Tasks for .NET. Step‑by‑step guide to save project as HTML.
 date: 2026-03-05
@@ -12,7 +12,7 @@ url: /net/advanced-concepts/image-saving/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to Save Images with Aspose.Tasks for .NET
+# Export Project Images and Generate HTML using Aspose.Tasks for .NET
 
 ## Introduction
 
@@ -44,7 +44,7 @@ Saving images means extracting visual elements (charts, Gantt bars, resource gra
 Before we begin, make sure you have the following:
 
 1. Visual Studio installed on your development machine.  
-2. Aspose.Tasks for .NET downloaded from [here](https://releases.aspose.com/tasks/net/).  
+2. Aspose.Tasks for .NET downloaded from [Aspose.Tasks for .NET download page](https://releases.aspose.com/tasks/net/).  
 3. Basic familiarity with C# and .NET project structure.
 
 ## Import Namespaces
@@ -60,7 +60,7 @@ using Aspose.Tasks.Saving;
 using Aspose.Tasks.Visualization;
 ```
 
-## Step 1: Create a Project Object
+## Step 1: create a project object
 
 Load the Microsoft Project file you want to work with:
 
@@ -68,7 +68,7 @@ Load the Microsoft Project file you want to work with:
 var project = new Project("Project1.mpp");
 ```
 
-## Step 2: Define Save Options
+## Step 2: define save options
 
 Create the HTML save options that will also hold our image‑saving callbacks:
 
@@ -98,7 +98,7 @@ private class ResourcePrefixForNestedResources : IImageSavingCallback
 }
 ```
 
-## Step 5: Save Images to Specified Directory
+## Step 5: save images to specified directory
 
 Inside the `ImageSaving` method, decide where each image should be stored. The example below distinguishes PNG resources from other formats:
 
@@ -134,7 +134,7 @@ public static HtmlSaveOptions GetSaveOptions(int pageNumber)
 }
 ```
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Cause | Fix |
 |-------|-------|-----|
@@ -146,7 +146,7 @@ public static HtmlSaveOptions GetSaveOptions(int pageNumber)
 
 By following these steps you now know **how to save images** from a Project file, **save project as HTML**, and **customize image export** to fit your application’s folder structure. This approach lets you **generate HTML with images** that can be embedded in reports, documentation portals, or web dashboards seamlessly.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q1: Can I use Aspose.Tasks to manipulate project files in other formats besides HTML?**  
 A1: Yes, Aspose.Tasks supports various formats such as PDF, XLSX, and MPP.
@@ -161,7 +161,7 @@ A3: Yes, Aspose.Tasks is compatible with .NET Core, allowing you to develop cros
 A4: Yes, you can customize the appearance of saved images by modifying the image saving logic within the callback methods.
 
 **Q5: Does Aspose.Tasks offer trial versions for evaluation purposes?**  
-A5: Yes, you can obtain a free trial of Aspose.Tasks from [here](https://releases.aspose.com/).
+A5: Yes, you can obtain a free trial of Aspose.Tasks from [Aspose.Tasks free trial page](https://releases.aspose.com/).
 
 ---
 
