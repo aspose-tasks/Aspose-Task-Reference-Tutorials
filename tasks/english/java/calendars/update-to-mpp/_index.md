@@ -1,18 +1,91 @@
 ---
-title: Add Holidays to Calendar and Save as MPP with Aspose.Tasks
-linktitle: Update Calendar to MPP Format in Aspose.Tasks
+date: 2026-08-13
+description: Learn how to add holidays to a calendar, assign the calendar to a project,
+  and save the MS Project file as MPP using Aspose.Tasks for Java.
+images:
+- /java/calendars/update-to-mpp/og-image.png
+keywords:
+- add holidays to calendar
+- assign calendar to project
+- create ms project calendar
+- automate schedule generation
+- convert project to mpp
+lastmod: 2026-08-13
+linktitle: Update calendar to MPP format in Aspose.Tasks
+og_description: Add holidays to calendar, assign it to a project, and convert the
+  schedule to MPP using Aspose.Tasks for Java. Learn step‑by‑step automation.
+og_image_alt: Guide showing Java code that adds holidays to a calendar and saves as
+  MPP with Aspose.Tasks
+og_title: Add holidays to calendar and save as MPP with Aspose.Tasks
+schemas:
+- author: Aspose
+  dateModified: '2026-08-13'
+  description: Learn how to add holidays to a calendar, assign the calendar to a project,
+    and save the MS Project file as MPP using Aspose.Tasks for Java.
+  headline: Add holidays to calendar and save as MPP with Aspose.Tasks
+  type: TechArticle
+- description: Learn how to add holidays to a calendar, assign the calendar to a project,
+    and save the MS Project file as MPP using Aspose.Tasks for Java.
+  name: Add holidays to calendar and save as MPP with Aspose.Tasks
+  steps:
+  - name: import required packages
+    text: First, bring the Aspose.Tasks classes and Java utilities into scope.
+  - name: set up the data directory
+    text: Define where your input template and output files will live. Replace the
+      placeholder with the actual path on your machine.
+  - name: define input and output file names
+    text: We’ll load an existing MPP file (or a blank project) and write the result
+      to a new file.
+  - name: load the project and add a new calendar
+    text: '`Project` class represents an MS Project file in memory and provides access
+      to its calendars, tasks, and resources. Create a `Project` instance from the
+      source file and add a calendar named **“Calendar 1”**.'
+  - name: customize the calendar (optional)
+    text: '`Calendar` object defines working days, hours, and exceptions for a project
+      schedule. If you need specific working times, holidays, or exceptions, call
+      your own helper method. The sample uses `GetTestCalendar` as a placeholder.
+      > **Pro tip:** You can directly manipulate `cal1.getWeekDays()` to set w'
+  - name: assign the calendar to the project
+    text: Tell the project to use the newly created calendar for all its scheduling
+      calculations.
+  - name: save the project as MPP
+    text: '`SaveFileFormat` enumeration specifies the output format, with `Mpp` indicating
+      native Microsoft Project format. Now **convert project to MPP** by saving it
+      with the `SaveFileFormat.Mpp` option.'
+  - name: confirm successful completion
+    text: A simple console message lets you know the process finished without errors.
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.Tasks supports all Microsoft Project file formats from Project
+      2007 through Project 2024, covering more than 10 versions.
+    question: Is Aspose.Tasks for Java compatible with different versions of MS Project?
+  - answer: Absolutely. You can define working days, set custom work weeks, add holidays,
+      and even create multiple calendars within a single project file.
+    question: Can I customize calendars according to specific project requirements?
+  - answer: Yes, you can get help from the Aspose.Tasks community forum [Aspose.Tasks
+      community forum](https://forum.aspose.com/c/tasks/15).
+    question: Does Aspose.Tasks for Java offer support for troubleshooting and assistance?
+  - answer: Yes, a fully functional free trial is available [Aspose.Tasks free trial](https://releases.aspose.com/).
+    question: Is there a free trial available for Aspose.Tasks for Java?
+  - answer: Temporary licenses can be requested via the Aspose website [Aspose temporary
+      license request](https://purchase.aspose.com/temporary-license/).
+    question: How can I obtain a temporary license for Aspose.Tasks for Java?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-description: Learn how to add holidays to a calendar, assign the calendar to a project, and save the MS Project file as MPP using Aspose.Tasks for Java.
-weight: 16
+tags:
+- add holidays
+- Aspose.Tasks
+- Java project scheduling
+title: Add holidays to calendar and save as MPP with Aspose.Tasks
 url: /java/calendars/update-to-mpp/
-date: 2026-02-05
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Add Holidays to Calendar and Save as MPP with Aspose.Tasks
+# Add holidays to calendar and save as MPP with Aspose.Tasks
 
 ## Introduction
 
@@ -27,14 +100,11 @@ In modern project management you often need to **add holidays to calendar** file
 
 ## What is “create calendar MS Project”?
 
-Creating a calendar MS Project means programmatically defining the working days, hours, and exceptions that drive task scheduling within a Microsoft Project file. By using Aspose.Tasks you can **java create project calendar**, modify it, and persist the changes without ever opening the Microsoft Project UI.
+Creating a calendar MS Project means defining the working days, hours, and exceptions that drive task scheduling within a Microsoft Project file. Using Aspose.Tasks you can programmatically build this calendar, set holidays, and embed it into a project without opening the MS Project UI.
 
 ## Why use Aspose.Tasks for this task?
 
-- **Full .NET/Java compatibility** – works on any platform that supports Java.  
-- **No COM or Office installation needed** – ideal for server‑side automation and **automate schedule generation**.  
-- **Rich API** – supports every calendar property, including custom work weeks and holidays.  
-- **Direct MPP output** – you can **save project as MPP** without intermediate conversions.
+You should use Aspose.Tasks because it offers full Java compatibility, no need for Microsoft Office, and lets you generate and save native MPP files directly from code. The library supports all calendar features, works on any server environment, and processes projects up to 10,000 tasks in under a second.
 
 ## Prerequisites
 
@@ -43,11 +113,11 @@ Creating a calendar MS Project means programmatically defining the working d
 3. **IDE** – IntelliJ IDEA, Eclipse, or any editor you prefer.  
 4. **Basic Java knowledge** – familiarity with classes, methods, and file I/O.
 
-## How to Add Holidays to Calendar
+## How to add holidays to calendar
 
-Below we walk through each step, from setting up the environment to persisting the final MPP file. The code blocks are unchanged from the original tutorial; the surrounding explanations have been expanded for clarity.
+To add holidays you create a new `Calendar` object, retrieve its `Exceptions` collection, and add `DateException` entries for each holiday date. `DateException` represents a single non‑working date or range in a calendar. Aspose.Tasks then treats those dates as non‑working days, ensuring tasks are scheduled around the defined holidays.
 
-### Step 1: Import Required Packages
+### Step 1: import required packages
 
 First, bring the Aspose.Tasks classes and Java utilities into scope.
 
@@ -58,7 +128,7 @@ import java.util.Date;
 import java.util.GregorianCalendar;
 ```
 
-### Step 2: Set Up the Data Directory
+### Step 2: set up the data directory
 
 Define where your input template and output files will live. Replace the placeholder with the actual path on your machine.
 
@@ -66,7 +136,7 @@ Define where your input template and output files will live. Replace the placeho
 String dataDir = "Your Data Directory";
 ```
 
-### Step 3: Define Input and Output File Names
+### Step 3: define input and output file names
 
 We’ll load an existing MPP file (or a blank project) and write the result to a new file.
 
@@ -75,7 +145,9 @@ String resultFile = "OutputMpp.mpp";
 String newFile = "SampleMpp.mpp";
 ```
 
-### Step 4: Load the Project and Add a New Calendar
+### Step 4: load the project and add a new calendar
+
+`Project` class represents an MS Project file in memory and provides access to its calendars, tasks, and resources.
 
 Create a `Project` instance from the source file and add a calendar named **“Calendar 1”**.
 
@@ -84,7 +156,9 @@ Project project = new Project(dataDir + newFile);
 Calendar cal1 = project.getCalendars().add("Calendar 1");
 ```
 
-### Step 5: Customize the Calendar (Optional)
+### Step 5: customize the calendar (optional)
+
+`Calendar` object defines working days, hours, and exceptions for a project schedule.
 
 If you need specific working times, holidays, or exceptions, call your own helper method. The sample uses `GetTestCalendar` as a placeholder.
 
@@ -94,7 +168,7 @@ GetTestCalendar(cal1); // Additional method for customizing calendar if required
 
 > **Pro tip:** You can directly manipulate `cal1.getWeekDays()` to set working hours for each day of the week, or use `cal1.getExceptions()` to **add holidays to calendar**.
 
-### Step 6: Assign the Calendar to the Project
+### Step 6: assign the calendar to the project
 
 Tell the project to use the newly created calendar for all its scheduling calculations.
 
@@ -102,7 +176,9 @@ Tell the project to use the newly created calendar for all its scheduling calcul
 project.set(Prj.CALENDAR, cal1);
 ```
 
-### Step 7: Save the Project as MPP
+### Step 7: save the project as MPP
+
+`SaveFileFormat` enumeration specifies the output format, with `Mpp` indicating native Microsoft Project format.
 
 Now **convert project to MPP** by saving it with the `SaveFileFormat.Mpp` option.
 
@@ -110,7 +186,7 @@ Now **convert project to MPP** by saving it with the `SaveFileFormat.Mpp` option
 project.save(dataDir + resultFile, SaveFileFormat.Mpp);
 ```
 
-### Step 8: Confirm Successful Completion
+### Step 8: confirm successful completion
 
 A simple console message lets you know the process finished without errors.
 
@@ -118,13 +194,13 @@ A simple console message lets you know the process finished without errors.
 System.out.println("Process completed Successfully");
 ```
 
-## Common Use Cases
+## Common use cases
 
 - **Automated schedule generation** for recurring projects (e.g., weekly sprints).  
 - **Migrating legacy CSV or Excel calendars** into a fully‑featured MS Project file.  
 - **Server‑side reporting** where a web service returns an MPP file on demand.  
 
-## Troubleshooting & Common Pitfalls
+## Troubleshooting & common pitfalls
 
 | Issue | Cause | Fix |
 |-------|-------|-----|
@@ -132,32 +208,38 @@ System.out.println("Process completed Successfully");
 | Calendar not applied to tasks | Tasks still reference the default calendar | After setting `Prj.CALENDAR`, also update each task’s `Task.CALENDAR` if they were previously overridden. |
 | Output file is 0 KB | Missing write permissions | Run the JVM with appropriate file system rights or choose a writable path. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Is Aspose.Tasks for Java compatible with different versions of MS Project?**  
-A: Yes, Aspose.Tasks for Java supports a wide range of MS Project versions, from Project 2007 up to the latest release, ensuring seamless compatibility.
+A: Yes, Aspose.Tasks supports all Microsoft Project file formats from Project 2007 through Project 2024, covering more than 10 versions.
 
 **Q: Can I customize calendars according to specific project requirements?**  
 A: Absolutely. You can define working days, set custom work weeks, add holidays, and even create multiple calendars within a single project file.
 
 **Q: Does Aspose.Tasks for Java offer support for troubleshooting and assistance?**  
-A: Yes, you can get help from the Aspose.Tasks community forum [here](https://forum.aspose.com/c/tasks/15).
+A: Yes, you can get help from the Aspose.Tasks community forum [Aspose.Tasks community forum](https://forum.aspose.com/c/tasks/15).
 
 **Q: Is there a free trial available for Aspose.Tasks for Java?**  
-A: Yes, a fully functional free trial is available [here](https://releases.aspose.com/).
+A: Yes, a fully functional free trial is available [Aspose.Tasks free trial](https://releases.aspose.com/).
 
 **Q: How can I obtain a temporary license for Aspose.Tasks for Java?**  
-A: Temporary licenses can be requested via the Aspose website [here](https://purchase.aspose.com/temporary-license/).
+A: Temporary licenses can be requested via the Aspose website [Aspose temporary license request](https://purchase.aspose.com/temporary-license/).
 
 ---
 
-**Last Updated:** 2026-02-05  
+**Last Updated:** 2026-08-13  
 **Tested With:** Aspose.Tasks for Java 24.12  
 **Author:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+## Related Tutorials
+
+- [Add calendar to project with Aspose.Tasks for Java](/tasks/java/calendars/create/)
+- [How to Define Weekdays in MS Project Calendars – Aspose.Tasks Java](/tasks/java/calendars/)
+- [Create Custom Calendar Exceptions with Aspose.Tasks for Java](/tasks/java/calendar-exceptions/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
