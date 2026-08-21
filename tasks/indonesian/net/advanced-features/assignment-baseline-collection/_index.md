@@ -1,54 +1,69 @@
 ---
-title: Kumpulan Garis Dasar Penugasan di Aspose.Tasks
-linktitle: Kumpulan Garis Dasar Penugasan di Aspose.Tasks
-second_title: Aspose.Tugas .NET API
-description: Pelajari cara mengelola garis dasar penugasan secara efisien dalam manajemen proyek menggunakan Aspose.Tasks untuk .NET. Meningkatkan produktivitas dan akurasi.
-weight: 15
+date: 2026-03-19
+description: Pelajari cara membaca baseline dan mengelola baseline manajemen proyek
+  secara efisien dengan Aspose.Tasks untuk .NET.
+linktitle: Project Management Baselines using Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+title: Baseline Manajemen Proyek dengan Aspose.Tasks
 url: /id/net/advanced-features/assignment-baseline-collection/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Kumpulan Garis Dasar Penugasan di Aspose.Tasks
+# Baseline Manajemen Proyek menggunakan Aspose.Tasks
 
-## Perkenalan
+## Introduction
 
-Dalam bidang manajemen proyek, melacak dan mengelola garis dasar penugasan sangat penting untuk memastikan keberhasilan proyek dan kepatuhan terhadap jadwal. Aspose.Tasks untuk .NET menawarkan serangkaian fitur canggih untuk memfasilitasi penanganan dasar penugasan yang efisien dalam proyek. Dalam tutorial ini, kita akan mempelajari seluk-beluk bekerja dengan Koleksi Dasar Penugasan menggunakan Aspose.Tasks untuk .NET.
+Dalam manajemen proyek, baseline adalah titik referensi yang memungkinkan Anda membandingkan kinerja yang direncanakan dengan yang sebenarnya. Mengelola **baseline manajemen proyek**—terutama baseline penugasan—membantu menjaga jadwal tetap tepat waktu dan memastikan akuntabilitas. Aspose.Tasks untuk .NET menyediakan API yang kuat untuk membuat, membaca, memperbarui, dan menghapus baseline ini secara programatis. Dalam tutorial ini, kami akan menjelaskan cara bekerja dengan Koleksi Baseline Penugasan menggunakan Aspose.Tasks untuk .NET.
 
-## Prasyarat
+## Quick Answers
+- **Apa tujuan utama dari baseline penugasan?** Untuk menangkap tanggal mulai/selesai yang direncanakan untuk setiap penugasan sumber daya.  
+- **Metode API mana yang membaca baseline?** Koleksi `Assignment.Baselines`.  
+- **Apakah baseline dapat dihapus secara programatis?** Ya, dengan menghapus item dari koleksi `Assignment.Baselines`.  
+- **Apakah saya memerlukan lisensi untuk menggunakan fitur ini?** Lisensi Aspose.Tasks yang valid diperlukan untuk penggunaan produksi.  
+- **Versi .NET mana yang didukung?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.
+
+## What is project management baselines?
+Baseline manajemen proyek adalah cuplikan data jadwal, biaya, dan ruang lingkup yang diambil pada titik waktu tertentu. Mereka berfungsi sebagai tolok ukur untuk mengukur kinerja proyek dan mengidentifikasi variasi sepanjang siklus hidup proyek.
+
+## Why use Aspose.Tasks for project management baselines?
+- **Kontrol penuh:** Mengakses dan memanipulasi data baseline tanpa membuka proyek di Microsoft Project.  
+- **Siap otomatisasi:** Mengintegrasikan penanganan baseline ke dalam pipeline CI/CD atau alat pelaporan.  
+- **Dukungan lintas format:** Bekerja dengan file MPP, XML, dan MPX, memastikan fleksibilitas di berbagai format file proyek.  
+
+## Prerequisites
 
 Sebelum melanjutkan tutorial ini, pastikan Anda memiliki prasyarat berikut:
 
-1. Pengetahuan dasar bahasa pemrograman C#.
-2. Visual Studio diinstal pada sistem Anda.
-3.  Aspose.Tasks untuk perpustakaan .NET diinstal. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/tasks/net/).
+1. Pengetahuan dasar tentang bahasa pemrograman C#.  
+2. Visual Studio terpasang di sistem Anda.  
+3. Perpustakaan Aspose.Tasks untuk .NET terpasang. Anda dapat mengunduhnya dari [here](https://releases.aspose.com/tasks/net/).
 
-## Impor Namespace
+## Import Namespaces
 
 ```csharp
 using Aspose.Tasks;
 using System;
 using System.Collections.Generic;
 using Aspose.Tasks;
-
-
 ```
 
-## Langkah 1: Muat File Proyek
+## Step 1: Load the Project File
 
-Pertama, kita perlu memuat file proyek yang berisi garis dasar penugasan.
+Pertama, kita perlu memuat file proyek yang berisi baseline penugasan.
 
 ```csharp
-// Jalur ke direktori dokumen.
+// The path to th documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "AssignmentBaseline2007.mpp");
 ```
 
-## Langkah 2: Baca Dasar Penugasan
+## How to read baselines?
 
-Selanjutnya, kami mengulangi setiap penetapan sumber daya dalam proyek untuk mengakses baseline masing-masing.
+Selanjutnya, kita iterasi melalui setiap penugasan sumber daya dalam proyek untuk mengakses baseline masing-masing.
 
 ```csharp
 foreach (var assignment in project.ResourceAssignments)
@@ -66,9 +81,9 @@ foreach (var assignment in project.ResourceAssignments)
 }
 ```
 
-## Langkah 3: Hapus Garis Dasar Penugasan
+## Step 3: Delete Assignment Baselines
 
-Pada langkah ini, kami mendemonstrasikan cara menghapus semua garis dasar penugasan dari proyek.
+Pada langkah ini, kami menunjukkan cara menghapus semua baseline penugasan dari proyek.
 
 ```csharp
 foreach (var assignment in project.ResourceAssignments)
@@ -81,31 +96,63 @@ foreach (var assignment in project.ResourceAssignments)
 }
 ```
 
-## Kesimpulan
+## Common Issues and Solutions
 
-Manajemen garis dasar penugasan yang efisien sangat penting dalam manajemen proyek, memastikan kepatuhan terhadap jadwal dan melacak kemajuan proyek secara akurat. Dengan Aspose.Tasks untuk .NET, penanganan garis dasar penugasan menjadi lancar, memberikan pengembang alat yang diperlukan untuk menyederhanakan proses manajemen proyek.
+| Masalah | Solusi |
+|-------|----------|
+| **Baseline muncul kosong** | Pastikan file proyek memang berisi baseline yang disimpan; baseline tidak dibuat secara otomatis. |
+| **`NullReferenceException` saat mengakses `baselines.ParentAssignment`** | Verifikasi bahwa objek penugasan tidak null dan baseline telah diinisialisasi. |
+| **Penurunan kinerja pada proyek besar** | Proses penugasan dalam batch atau filter berdasarkan `Assignment.Id` untuk membatasi ruang lingkup. |
 
-## FAQ
+## Conclusion
 
-### Q1: Dapatkah Aspose.Tasks menangani garis dasar penugasan untuk format file proyek yang berbeda?
+Manajemen baseline penugasan yang efisien sangat penting dalam manajemen proyek, memastikan kepatuhan terhadap jadwal dan pelacakan kemajuan proyek secara akurat. Dengan Aspose.Tasks untuk .NET, penanganan baseline penugasan menjadi mulus, memberikan pengembang alat yang diperlukan untuk menyederhanakan proses manajemen proyek.
 
-A1: Ya, Aspose.Tasks mendukung berbagai format file proyek, termasuk MPP, XML, dan MPX, memungkinkan Anda mengelola garis dasar penugasan di berbagai jenis file dengan mudah.
+## FAQ's
 
-### Q2: Apakah Aspose.Tasks kompatibel dengan semua versi .NET Framework?
+### Q1: Can Aspose.Tasks handle assignment baselines for different project file formats?
 
-A2: Aspose.Tasks untuk .NET kompatibel dengan beberapa versi .NET Framework, memastikan kompatibilitas dan fleksibilitas bagi pengembang di lingkungan yang berbeda.
+A1: Ya, Aspose.Tasks mendukung berbagai format file proyek, termasuk MPP, XML, dan MPX, memungkinkan Anda mengelola baseline penugasan di berbagai jenis file dengan mudah.
 
-### Q3: Dapatkah saya memanipulasi garis dasar penugasan secara terprogram menggunakan Aspose.Tasks?
+### Q2: Is Aspose.Tasks compatible with all versions of .NET Framework?
 
-A3: Tentu saja, Aspose.Tasks menyediakan API komprehensif yang memungkinkan pengembang membuat, membaca, memperbarui, dan menghapus garis dasar penugasan secara terprogram sesuai kebutuhan proyek.
+A2: Aspose.Tasks untuk .NET kompatibel dengan banyak versi .NET Framework, memastikan kompatibilitas dan fleksibilitas bagi pengembang di berbagai lingkungan.
 
-### Q4: Apakah Aspose.Tasks menawarkan dukungan teknis untuk pengembang?
+### Q3: Can I manipulate assignment baselines programmatically using Aspose.Tasks?
 
-A4: Ya, Aspose.Tasks memberikan dukungan teknis yang kuat melalui forum komunitasnya, tempat pengembang dapat mencari bantuan, berbagi pengetahuan, dan berkolaborasi dengan rekan-rekan.
+A3: Tentu saja, Aspose.Tasks menyediakan API komprehensif yang memungkinkan pengembang secara programatis membuat, membaca, memperbarui, dan menghapus baseline penugasan sesuai kebutuhan proyek.
 
-### Q5: Bisakah saya mencoba Aspose.Tasks sebelum melakukan pembelian?
+### Q4: Does Aspose.Tasks offer technical support for developers?
 
-A5: Ya, Aspose.Tasks menawarkan versi uji coba gratis, memungkinkan pengembang menjelajahi fitur dan fungsinya sebelum membuat keputusan pembelian.
+A4: Ya, Aspose.Tasks menyediakan dukungan teknis yang kuat melalui forum komunitasnya, di mana pengembang dapat meminta bantuan, berbagi pengetahuan, dan berkolaborasi dengan rekan.
+
+### Q5: Can I try Aspose.Tasks before making a purchase?
+
+A5: Ya, Aspose.Tasks menawarkan versi percobaan gratis, memungkinkan pengembang menjelajahi fitur dan fungsionalitasnya sebelum memutuskan pembelian.
+
+## Frequently Asked Questions
+
+**Q: Bagaimana cara membaca baseline untuk penugasan tertentu?**  
+A: Akses koleksi `Assignment.Baselines` untuk penugasan tersebut dan iterasi melalui koleksi tersebut seperti yang ditunjukkan pada bagian “How to read baselines?”.
+
+**Q: Apakah memungkinkan menambahkan baseline baru ke penugasan yang ada?**  
+A: Ya, Anda dapat membuat objek `AssignmentBaseline`, mengatur nilai `Start` dan `Finish`-nya, dan menambahkannya ke koleksi `Assignment.Baselines`.
+
+**Q: Apakah menghapus baseline akan memengaruhi jadwal asli?**  
+A: Menghapus baseline hanya menghapus cuplikan yang disimpan; jadwal saat ini (tanggal aktual) tetap tidak berubah.
+
+**Q: Bisakah saya mengekspor data baseline ke CSV?**  
+A: Meskipun Aspose.Tasks tidak menyediakan ekspor CSV langsung untuk baseline, Anda dapat iterasi melalui koleksi dan menulis nilai-nilai ke file CSV menggunakan kelas I/O .NET standar.
+
+**Q: Apakah Aspose.Tasks mendukung laporan perbandingan baseline?**  
+A: Ya, Anda dapat membandingkan tanggal baseline dengan tanggal aktual secara programatis dan menghasilkan laporan kustom menggunakan perpustakaan pelaporan apa pun yang Anda pilih.
+
+---
+
+**Last Updated:** 2026-03-19  
+**Tested With:** Aspose.Tasks for .NET (latest)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

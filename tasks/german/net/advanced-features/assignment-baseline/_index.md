@@ -1,56 +1,64 @@
 ---
-title: Verwalten der Zuweisungsbasislinie in Aspose.Tasks
-linktitle: Verwalten der Zuweisungsbasislinie in Aspose.Tasks
-second_title: Aspose.Tasks .NET-API
-description: Erfahren Sie, wie Sie mit Aspose.Tasks für .NET Aufgabenbasislinien effizient verwalten und so eine genaue Verfolgung des Projektfortschritts und der Projektleistung gewährleisten.
-weight: 14
+date: 2026-03-19
+description: Erfahren Sie, wie Sie mit Aspose.Tasks für .NET Projektbaselines festlegen
+  und Zuordnungsbaselines effizient verwalten, um eine genaue Verfolgung des Projektfortschritts
+  zu gewährleisten.
+linktitle: Managing Assignment Baseline in Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+title: Projekt‑Baseline festlegen – Verwaltung der Zuordnungs‑Baseline in Aspose.Tasks
 url: /de/net/advanced-features/assignment-baseline/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Verwalten der Zuweisungsbasislinie in Aspose.Tasks
+# Projekt-Baseline festlegen – Verwaltung von Zuordnungs-Baselines in Aspose.Tasks
 
-## Einführung
+## Einleitung
 
-Bei der Arbeit an Projektmanagementaufgaben ist die Verwaltung der Zuweisungsbasislinien von entscheidender Bedeutung, um den Fortschritt genau verfolgen zu können. Aspose.Tasks für .NET bietet einen umfassenden Satz an Tools zur effizienten Handhabung von Zuweisungsbasislinien. In diesem Tutorial befassen wir uns Schritt für Schritt mit dem Prozess der Verwaltung von Zuweisungsbasislinien.
+Bei der Arbeit an Projektmanagement‑Aufgaben ist das **Festlegen einer Projekt‑Baseline** entscheidend, um den tatsächlichen Fortschritt mit dem ursprünglichen Plan zu messen. Aspose.Tasks für .NET ermöglicht nicht nur das **Festlegen einer Projekt‑Baseline**, sondern gibt Ihnen auch die volle Kontrolle über Zuordnungs‑Baselines, was eine präzise Leistungsnachverfolgung ermöglicht. In diesem Tutorial führen wir Sie durch den gesamten Prozess – Laden eines Projekts, Festlegen einer Baseline, Auslesen von Zuordnungs‑Baseline‑Daten und Vergleich von Baselines – damit Sie Ihre Projekte sicher überwachen können.
+
+## Schnelle Antworten
+- **Was bedeutet „Projekt‑Baseline festlegen“?** Sie zeichnet den ursprünglichen Zeitplan und Kostendaten für einen späteren Vergleich mit der tatsächlichen Leistung auf.  
+- **Welche API‑Methode legt eine Baseline fest?** `Project.SetBaseline(BaselineType.Baseline)`.  
+- **Erfordern Zuordnungs‑Baselines einen separaten Aufruf?** Nein, sie werden automatisch gespeichert, wenn Sie eine Projekt‑Baseline festlegen.  
+- **Welche Formate werden unterstützt?** MPP, XML, MPX und weitere über Aspose.Tasks.  
+- **Ist für den Produktionseinsatz eine Lizenz erforderlich?** Ja, für die Nutzung außerhalb der Testversion wird eine kommerzielle Lizenz benötigt.
 
 ## Voraussetzungen
 
-Bevor wir beginnen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
+Bevor wir beginnen, stellen Sie sicher, dass Sie Folgendes haben:
 
-- Grundkenntnisse der Programmiersprache C#.
-- Visual Studio ist auf Ihrem System installiert.
-- Aspose.Tasks für .NET-Bibliothek zu Ihrem Projekt hinzugefügt. Sie können es herunterladen unter[Hier](https://releases.aspose.com/tasks/net/).
-- Zugriff auf eine Projektdatei im MPP-Format.
+- Grundkenntnisse in C#-Programmierung.  
+- Visual Studio (beliebige aktuelle Version).  
+- Aspose.Tasks für .NET Bibliothek zu Ihrem Projekt hinzugefügt. Sie können sie von [hier](https://releases.aspose.com/tasks/net/) herunterladen.  
+- Zugriff auf eine Projektdatei im MPP-Format (z. B. `AssignmentBaseline2007.mpp`).
 
 ## Namespaces importieren
 
-Um mit Aspose.Tasks arbeiten zu können, müssen Sie die erforderlichen Namespaces in Ihr C#-Projekt importieren. Fügen Sie am Anfang Ihrer C#-Datei die folgenden Namespaces hinzu:
+Fügen Sie die erforderlichen Namespaces am Anfang Ihrer C#‑Datei hinzu, damit der Compiler weiß, wo die Aspose.Tasks‑Klassen zu finden sind.
 
 ```csharp
 using Aspose.Tasks;
 using System;
-
-
 ```
 
-## Schritt 1: Projekt laden und Basisplan festlegen
+## Schritt 1: Projekt laden und Projekt‑Baseline festlegen
 
- Laden Sie zunächst die Projektdatei mit`Project` Klasse von Aspose.Tasks. Legen Sie dann mithilfe von den Basistyp für das Projekt fest`SetBaseline` Methode.
+Laden Sie zunächst die vorhandene MPP‑Datei und rufen Sie anschließend `SetBaseline` auf, um die **Projekt‑Baseline** für das gesamte Projekt **festzulegen**.
 
 ```csharp
-// Der Pfad zum Dokumentenverzeichnis.
+// The path to the documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "AssignmentBaseline2007.mpp");
 project.SetBaseline(BaselineType.Baseline);
 ```
 
-## Schritt 2: Lesen Sie die Basisinformationen zur Zuweisung
+## Schritt 2: Zuordnungs‑Baseline‑Informationen auslesen
 
-Durchlaufen Sie jede Ressourcenzuweisung im Projekt und rufen Sie Basisinformationen für jede Zuweisung ab.
+Nachdem die Baseline festgelegt wurde, enthält jede Ressourcenzuordnung ihre eigenen Baseline‑Einträge. Die nachstehende Schleife extrahiert und gibt diese Details aus, einschließlich Start‑/Enddatum, Kosten, Arbeit und etwaiger zeitlich aufgeschlüsselter Daten.
 
 ```csharp
 foreach (var assignment in project.ResourceAssignments)
@@ -82,9 +90,9 @@ foreach (var assignment in project.ResourceAssignments)
 }
 ```
 
-## Schritt 3: Überprüfen Sie die Basisgleichheit
+## Schritt 3: Zuordnungs‑Baselines vergleichen
 
-Vergleichen Sie Basisinformationen für verschiedene Aufgaben mithilfe verschiedener Vergleichsmethoden, die von Aspose.Tasks bereitgestellt werden.
+Sie können Baselines verschiedener Zuordnungen mithilfe der integrierten Gleichheits‑ und Vergleichsoperatoren vergleichen. Das ist praktisch, wenn Sie Terminverschiebungen oder Kostenüberschreitungen zwischen Aufgaben erkennen müssen.
 
 ```csharp
 var assn1 = project.ResourceAssignments.GetByUid(5);
@@ -93,45 +101,51 @@ var assn2 = project.ResourceAssignments.GetByUid(7);
 var assignmentBaseline1 = assn1.Baselines.ToList()[0];
 var assignmentBaseline2 = assn2.Baselines.ToList()[0];
 
-// Überprüfen Sie die Grundliniengleichheit
+// Check baseline equality
 Console.WriteLine("Are baselines equal: " + assignmentBaseline1.Equals(assignmentBaseline2));
 
-// Überprüfen Sie den Basisvergleich
+// Check baseline comparison
 Console.WriteLine("Is baseline 1 less than baseline 2: " + (assignmentBaseline1 < assignmentBaseline2));
 
-// Baseline-Hashcodes anzeigen
+// Display baseline hashcodes
 Console.WriteLine("Assignment baseline 1 hashcode: " + assignmentBaseline1.GetHashCode());
 Console.WriteLine("Assignment baseline 2 hashcode: " + assignmentBaseline2.GetHashCode());
 ```
 
-## Abschluss
+## Häufige Probleme und Lösungen
 
-Die Verwaltung von Zuweisungsbasislinien ist ein wesentlicher Bestandteil des Projektmanagements und ermöglicht eine genaue Verfolgung von Fortschritt und Leistung. Mit Aspose.Tasks für .NET wird die Bearbeitung von Zuweisungs-Baselines rationalisiert und effizient und bietet Entwicklern leistungsstarke Tools zur Verbesserung der Projektmanagement-Workflows.
+| Problem | Ursache | Lösung |
+|-------|----------------|-----|
+| **Baseline‑Daten sind leer** | Die Projektdatei wurde im Nur‑Lese‑Modus geöffnet oder die Baseline wurde nie festgelegt. | Rufen Sie `project.SetBaseline(BaselineType.Baseline)` auf, bevor Sie Zuordnungs‑Baselines auslesen. |
+| **`NullReferenceException` bei `TimephasedData`** | Nicht alle Baselines enthalten zeitlich aufgeschlüsselte Einträge. | Prüfen Sie stets `baseline.TimephasedData != null` (wie im Code gezeigt). |
+| **Falscher UID‑Abruf** | UID‑Werte unterscheiden sich zwischen Dateiversionen. | Verwenden Sie `ResourceAssignments.GetByUid` mit der korrekten UID oder iterieren Sie, um die benötigte Zuordnung zu finden. |
 
-## FAQs
+## Häufig gestellte Fragen
 
-### F1: Kann Aspose.Tasks mehrere Baselines für eine einzelne Aufgabe verarbeiten?
+**Q: Kann Aspose.Tasks mehrere Baselines für eine einzelne Zuordnung verarbeiten?**  
+A: Ja, Aspose.Tasks unterstützt mehrere Baselines für jede Zuordnung, was eine umfassende Verfolgung des Projektfortschritts im Laufe der Zeit ermöglicht.
 
-A1: Ja, Aspose.Tasks unterstützt mehrere Baselines für jede Aufgabe und ermöglicht so eine umfassende Verfolgung des Projektfortschritts im Laufe der Zeit.
+**Q: Ist Aspose.Tasks mit verschiedenen Projektdateiformaten außer MPP kompatibel?**  
+A: Ja, Aspose.Tasks unterstützt eine Vielzahl von Projektdateiformaten, einschließlich XML, MPX und MPP, und gewährleistet die Kompatibilität mit verschiedenen Projektmanagement‑Tools.
 
-### F2: Ist Aspose.Tasks mit verschiedenen anderen Projektdateiformaten als MPP kompatibel?
+**Q: Kann ich Baseline‑Informationen programmgesteuert mit Aspose.Tasks ändern?**  
+A: Absolut, Aspose.Tasks stellt umfangreiche APIs bereit, um Baseline‑Informationen dynamisch gemäß den Projektanforderungen zu ändern, und bietet Flexibilität und Kontrolle über Projektmanagement‑Prozesse.
 
-A2: Ja, Aspose.Tasks unterstützt eine Vielzahl von Projektdateiformaten, einschließlich XML, MPX und MPP, und gewährleistet so die Kompatibilität mit verschiedenen Projektmanagement-Tools.
+**Q: Bietet Aspose.Tasks Dokumentations‑ und Support‑Ressourcen für Entwickler?**  
+A: Ja, Entwickler können auf umfassende Dokumentation, Tutorials und Foren auf der Aspose.Tasks‑Website zugreifen, was eine reibungslose Integration und Fehlersuche ermöglicht.
 
-### F3: Kann ich Basisinformationen programmgesteuert mit Aspose.Tasks ändern?
+**Q: Gibt es eine Testversion von Aspose.Tasks für .NET?**  
+A: Ja, Entwickler können eine kostenlose Testversion von Aspose.Tasks für .NET von [hier](https://releases.aspose.com/) erhalten, um die Funktionen und Fähigkeiten vor einer Kaufentscheidung zu evaluieren.
 
-A3: Absolut, Aspose.Tasks bietet umfangreiche APIs, um Basisinformationen dynamisch entsprechend den Projektanforderungen zu ändern und bietet so Flexibilität und Kontrolle über Projektmanagementprozesse.
-
-### F4: Bietet Aspose.Tasks Dokumentation und Supportressourcen für Entwickler?
-
-A4: Ja, Entwickler können auf der Aspose.Tasks-Website auf umfassende Dokumentation, Tutorials und Foren zugreifen, was eine reibungslose Integration und Fehlerbehebung erleichtert.
-
-### F5: Gibt es eine Testversion für Aspose.Tasks für .NET?
-
- A5: Ja, Entwickler können eine kostenlose Testversion von Aspose.Tasks für .NET unter erhalten[Hier](https://releases.aspose.com/)Dies ermöglicht es ihnen, die Funktionen und Fähigkeiten zu bewerten, bevor sie eine Kaufentscheidung treffen.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-03-19  
+**Tested With:** Aspose.Tasks 24.12 for .NET  
+**Author:** Aspose

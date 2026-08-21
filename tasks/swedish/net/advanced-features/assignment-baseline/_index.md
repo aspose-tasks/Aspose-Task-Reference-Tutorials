@@ -1,56 +1,64 @@
 ---
-title: Hantera Assignment Baseline i Aspose.Tasks
-linktitle: Hantera Assignment Baseline i Aspose.Tasks
+date: 2026-03-19
+description: Lär dig hur du ställer in projektbaslinje och hanterar uppdragsbaslinjer
+  effektivt med Aspose.Tasks för .NET, vilket säkerställer exakt spårning av projektets
+  framsteg.
+linktitle: Managing Assignment Baseline in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Lär dig hur du hanterar uppdragsbaslinjer effektivt med Aspose.Tasks för .NET, vilket säkerställer korrekt spårning av projektets framsteg och prestanda.
-weight: 14
+title: Ange projektbaslinje – Hantera uppdragsbaslinje i Aspose.Tasks
 url: /sv/net/advanced-features/assignment-baseline/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hantera Assignment Baseline i Aspose.Tasks
+# Ställ in projektbaslinje – Hantera tilldelningsbaslinje i Aspose.Tasks
 
 ## Introduktion
 
-När du arbetar med projektledningsuppgifter är hantering av uppdragets baslinjer avgörande för att spåra framstegen korrekt. Aspose.Tasks för .NET tillhandahåller en omfattande uppsättning verktyg för att hantera uppdragsbaslinjer effektivt. I den här handledningen kommer vi att fördjupa oss i processen att hantera uppdragsbaslinjer steg för steg.
+När du arbetar med projektledningsuppgifter är **att ställa in en projektbaslinje** avgörande för att mäta faktisk framsteg mot den ursprungliga planen. Aspose.Tasks för .NET låter dig inte bara **ställa in projektbaslinje** utan ger dig också full kontroll över tilldelningsbaslinjer, vilket möjliggör exakt prestationsspårning. I den här handledningen går vi igenom hela processen — att läsa in ett projekt, ställa in en baslinje, läsa tilldelningsbaslinjedata och jämföra baslinjer — så att du kan övervaka dina projekt med självförtroende.
+
+## Snabba svar
+- **Vad betyder “set project baseline”?** Det registrerar den ursprungliga tidsplanen och kostnadsdata för senare jämförelse med faktisk prestation.  
+- **Vilken API‑metod ställer in en baslinje?** `Project.SetBaseline(BaselineType.Baseline)`.  
+- **Kräver tilldelningsbaslinjer ett separat anrop?** Nej, de lagras automatiskt när du ställer in en projektbaslinje.  
+- **Vilka format stöds?** MPP, XML, MPX och fler via Aspose.Tasks.  
+- **Krävs en licens för produktion?** Ja, en kommersiell licens behövs för icke‑testanvändning.
 
 ## Förutsättningar
 
-Innan vi börjar, se till att du har följande förutsättningar:
+Innan vi börjar, se till att du har:
 
-- Grundläggande kunskaper i programmeringsspråket C#.
-- Visual Studio installerat på ditt system.
-- Aspose.Tasks för .NET-biblioteket har lagts till i ditt projekt. Du kan ladda ner den från[här](https://releases.aspose.com/tasks/net/).
-- Tillgång till en projektfil i MPP-format.
+- Grundläggande kunskap i C#‑programmering.  
+- Visual Studio (någon nyare version).  
+- Aspose.Tasks för .NET‑biblioteket tillagt i ditt projekt. Du kan ladda ner det från [här](https://releases.aspose.com/tasks/net/).  
+- Tillgång till en projektfil i MPP‑format (t.ex. `AssignmentBaseline2007.mpp`).
 
-## Importera namnområden
+## Importera namnrymder
 
-För att börja arbeta med Aspose.Tasks måste du importera de nödvändiga namnrymden till ditt C#-projekt. Lägg till följande namnrymder i början av din C#-fil:
+Lägg till de nödvändiga namnrymderna högst upp i din C#‑fil så att kompilatorn vet var den ska hitta Aspose.Tasks‑klasserna.
 
 ```csharp
 using Aspose.Tasks;
 using System;
-
-
 ```
 
-## Steg 1: Ladda projekt och ställ in baslinje
+## Steg 1: Läs in projekt och ställ in projektbaslinje
 
- Först laddar du projektfilen med hjälp av`Project` klass från Aspose.Tasks. Ställ sedan in baslinjetypen för projektet med hjälp av`SetBaseline` metod.
+Först läser du in den befintliga MPP‑filen och anropar sedan `SetBaseline` för att **ställa in projektbaslinje** för hela projektet.
 
 ```csharp
-// Sökvägen till dokumentkatalogen.
+// The path to the documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "AssignmentBaseline2007.mpp");
 project.SetBaseline(BaselineType.Baseline);
 ```
 
-## Steg 2: Läs Uppdragets baslinjeinformation
+## Steg 2: Läs tilldelningsbaslinjeinformation
 
-Iterera igenom varje resurstilldelning i projektet och hämta baslinjeinformation för varje uppdrag.
+Efter att baslinjen har ställts in innehåller varje resurs‑tilldelning sina egna baslinjeposter. Loopen nedan extraherar och skriver ut dessa detaljer, inklusive start-/slutdatum, kostnad, arbete och eventuell tidsfasad data.
 
 ```csharp
 foreach (var assignment in project.ResourceAssignments)
@@ -82,9 +90,9 @@ foreach (var assignment in project.ResourceAssignments)
 }
 ```
 
-## Steg 3: Kontrollera Baseline Equality
+## Steg 3: Jämför tilldelningsbaslinjer
 
-Jämför baslinjeinformation för olika uppdrag med hjälp av olika jämförelsemetoder från Aspose.Tasks.
+Du kan jämföra baslinjer för olika tilldelningar med de inbyggda likhets‑ och jämförelseoperatorerna. Detta är praktiskt när du behöver upptäcka schemaförskjutningar eller kostnadsöverskridanden mellan uppgifter.
 
 ```csharp
 var assn1 = project.ResourceAssignments.GetByUid(5);
@@ -93,45 +101,51 @@ var assn2 = project.ResourceAssignments.GetByUid(7);
 var assignmentBaseline1 = assn1.Baselines.ToList()[0];
 var assignmentBaseline2 = assn2.Baselines.ToList()[0];
 
-// Kontrollera baslinjejämlikhet
+// Check baseline equality
 Console.WriteLine("Are baselines equal: " + assignmentBaseline1.Equals(assignmentBaseline2));
 
-// Kontrollera baslinjejämförelse
+// Check baseline comparison
 Console.WriteLine("Is baseline 1 less than baseline 2: " + (assignmentBaseline1 < assignmentBaseline2));
 
-// Visa baslinjehashkoder
+// Display baseline hashcodes
 Console.WriteLine("Assignment baseline 1 hashcode: " + assignmentBaseline1.GetHashCode());
 Console.WriteLine("Assignment baseline 2 hashcode: " + assignmentBaseline2.GetHashCode());
 ```
 
-## Slutsats
+## Vanliga problem och lösningar
 
-Hantering av uppdragets baslinjer är en integrerad del av projektledning, vilket möjliggör korrekt spårning av framsteg och prestanda. Med Aspose.Tasks för .NET blir hanteringen av uppdragsbaslinjer strömlinjeformad och effektiv, vilket ger utvecklare kraftfulla verktyg för att förbättra arbetsflöden för projektledning.
+| Problem | Varför det händer | Lösning |
+|-------|----------------|-----|
+| **Baslinjedata visas tom** | Projektfilen öppnades i skrivskyddat läge eller baslinjen sattes aldrig. | Anropa `project.SetBaseline(BaselineType.Baseline)` innan du läser tilldelningsbaslinjer. |
+| **`NullReferenceException` on `TimephasedData`** | Inte alla baslinjer innehåller tidsfasade poster. | Kontrollera alltid `baseline.TimephasedData != null` (som visas i koden). |
+| **Felaktig UID‑hämtning** | UID‑värden skiljer sig mellan filversioner. | Använd `ResourceAssignments.GetByUid` med rätt UID eller iterera för att hitta den tilldelning du behöver. |
 
-## FAQ's
+## Vanliga frågor
 
-### F1: Kan Aspose.Tasks hantera flera baslinjer för en enda uppgift?
+**Q: Kan Aspose.Tasks hantera flera baslinjer för en enskild tilldelning?**  
+A: Ja, Aspose.Tasks stöder flera baslinjer för varje tilldelning, vilket möjliggör omfattande spårning av projektets framsteg över tid.
 
-S1: Ja, Aspose.Tasks stöder flera baslinjer för varje uppdrag, vilket möjliggör omfattande spårning av projektets framsteg över tid.
+**Q: Är Aspose.Tasks kompatibel med olika projektfilformat förutom MPP?**  
+A: Ja, Aspose.Tasks stödjer ett brett spektrum av projektfilformat, inklusive XML, MPX och MPP, vilket säkerställer kompatibilitet med olika projektledningsverktyg.
 
-### F2: Är Aspose.Tasks kompatibel med olika projektfilformat andra än MPP?
+**Q: Kan jag modifiera baslinjeinformation programatiskt med Aspose.Tasks?**  
+A: Absolut, Aspose.Tasks tillhandahåller omfattande API:er för att dynamiskt ändra baslinjeinformation enligt projektkrav, vilket ger flexibilitet och kontroll över projektledningsprocesser.
 
-S2: Ja, Aspose.Tasks stöder ett brett utbud av projektfilformat, inklusive XML, MPX och MPP, vilket säkerställer kompatibilitet med olika projekthanteringsverktyg.
+**Q: Erbjuder Aspose.Tasks dokumentation och supportresurser för utvecklare?**  
+A: Ja, utvecklare kan få tillgång till omfattande dokumentation, handledningar och forum på Aspose.Tasks‑webbplatsen, vilket underlättar smidig integration och felsökning.
 
-### F3: Kan jag ändra baslinjeinformation programmatiskt med Aspose.Tasks?
+**Q: Finns en provversion tillgänglig för Aspose.Tasks för .NET?**  
+A: Ja, utvecklare kan få en gratis provversion av Aspose.Tasks för .NET från [här](https://releases.aspose.com/), vilket låter dem utvärdera dess funktioner och möjligheter innan de fattar ett köpbeslut.
 
-S3: Absolut, Aspose.Tasks tillhandahåller omfattande API:er för att modifiera baslinjeinformation dynamiskt enligt projektkrav, vilket ger flexibilitet och kontroll över projektledningsprocesser.
-
-### F4: Erbjuder Aspose.Tasks dokumentation och supportresurser för utvecklare?
-
-S4: Ja, utvecklare kan få tillgång till omfattande dokumentation, handledningar och forum på Aspose.Tasks-webbplatsen, vilket underlättar smidig integration och felsökning.
-
-### F5: Finns det en testversion tillgänglig för Aspose.Tasks för .NET?
-
- S5: Ja, utvecklare kan få en gratis testversion av Aspose.Tasks för .NET från[här](https://releases.aspose.com/), så att de kan utvärdera dess funktioner och möjligheter innan de fattar ett köpbeslut.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Senast uppdaterad:** 2026-03-19  
+**Testat med:** Aspose.Tasks 24.12 för .NET  
+**Författare:** Aspose

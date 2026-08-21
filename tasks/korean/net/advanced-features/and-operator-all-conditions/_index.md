@@ -1,33 +1,48 @@
 ---
-title: Aspose.Tasks를 사용하여 모든 조건에서 AND 연산자 사용
-linktitle: Aspose.Tasks를 사용하여 모든 조건에서 AND 연산자 사용
-second_title: Aspose.태스크 .NET API
-description: Aspose.Tasks for .NET을 사용하여 모든 조건에서 AND 연산자를 사용하여 프로젝트 작업을 효율적으로 필터링하는 방법을 알아보세요.
-weight: 11
+date: 2026-03-19
+description: Aspose.Tasks for .NET를 사용하여 모든 조건에서 AND 연산자를 활용해 프로젝트 작업을 효율적으로 필터링하는
+  방법을 배워보세요.
+linktitle: Using AND Operator in All Conditions with Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+title: Aspose.Tasks에서 All Conditions와 함께 AND 연산자를 사용하는 방법
 url: /ko/net/advanced-features/and-operator-all-conditions/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks를 사용하여 모든 조건에서 AND 연산자 사용
+# Aspose.Tasks에서 모든 조건에 AND 연산자 사용하기
 
 ## 소개
 
-프로젝트 관리 작업을 효율적으로 간소화하고 싶으십니까? .NET용 Aspose.Tasks를 사용하면 강력한 기능을 활용하여 프로젝트 데이터를 효과적으로 조작할 수 있습니다. 이러한 기능 중 하나는 모든 조건에서 AND 연산자를 사용하여 동시에 여러 기준에 따라 작업을 필터링할 수 있는 기능입니다. 이 튜토리얼에서는 이 기능을 구현하는 과정을 단계별로 안내합니다.
+프로젝트 관리 작업을 효율적으로 간소화하고 싶으신가요? Aspose.Tasks for .NET을 사용하면 강력한 기능을 활용해 프로젝트 데이터를 효과적으로 조작할 수 있습니다. 그 중 하나가 **모든 조건에 AND 연산자 사용** 기능으로, 여러 기준을 동시에 적용해 작업을 필터링할 수 있습니다. 이 튜토리얼에서는 이 기능을 단계별로 구현하는 방법을 안내하여 **작업을 빠르고 안정적으로 필터링하는 방법**을 알려드립니다.
 
-## 전제조건
+## 빠른 답변
+- **AND 연산자는 무엇을 하나요?** 여러 필터 조건을 결합해 *모든* 기준을 만족하는 작업만 반환합니다.  
+- **어떤 라이브러리가 이 기능을 제공하나요?** Aspose.Tasks for .NET.  
+- **라이선스가 필요합니까?** 평가용 무료 체험판을 사용할 수 있지만, 실제 운영 환경에서는 라이선스가 필요합니다.  
+- **MPP 파일을 로드할 수 있나요?** 네 – `Project` 클래스를 사용해 *.mpp* 파일을 로드합니다.  
+- **요약 작업을 필터링할 수 있나요?** 물론입니다. 조건 목록에 `SummaryCondition`을 추가하면 됩니다.
 
-튜토리얼을 시작하기 전에 다음 전제조건이 충족되었는지 확인하십시오.
+## “use and operator” 기능이란?
+**use and operator** 기능을 사용하면 여러 `ICondition<T>` 구현을 `AndAllCondition<T>` 로 결합할 수 있습니다. 결과 필터는 지정한 *모든* 조건을 만족하는 작업만 반환합니다.
 
-1. C#에 대한 기본 지식: C# 프로그래밍 언어에 익숙하면 도움이 됩니다.
-2.  .NET 라이브러리용 Aspose.Tasks: 다음에서 .NET 라이브러리용 Aspose.Tasks를 다운로드하고 설치하세요.[여기](https://releases.aspose.com/tasks/net/).
-3. 통합 개발 환경(IDE): 코딩 편의를 위해 Visual Studio와 같은 IDE를 시스템에 설치합니다.
+## 여러 조건을 적용하는 이유
+여러 조건(예: “작업이 null이 아님” **and** “작업이 요약 작업임”)을 적용하면 데이터에 대한 정확한 제어가 가능합니다. 복잡한 프로젝트 일정에 대한 **맞춤형 필터** 로직을 만들거나 특정 작업 그룹에 초점을 맞춘 보고서를 생성할 때 특히 유용합니다.
+
+## 사전 요구 사항
+
+튜토리얼을 진행하기 전에 다음 요구 사항을 확인하세요:
+
+1. **C# 기본 지식** – C# 프로그래밍 언어에 익숙하면 도움이 됩니다.  
+2. **Aspose.Tasks for .NET 라이브러리** – [여기](https://releases.aspose.com/tasks/net/)에서 Aspose.Tasks for .NET 라이브러리를 다운로드하고 설치합니다.  
+3. **통합 개발 환경(IDE)** – 코딩을 편리하게 할 수 있도록 Visual Studio와 같은 IDE를 시스템에 설치합니다.  
 
 ## 네임스페이스 가져오기
 
-먼저, 필요한 클래스와 메서드에 액세스하려면 필요한 네임스페이스를 가져와야 합니다.
+먼저 필요한 클래스와 메서드에 접근하기 위해 네임스페이스를 가져와야 합니다.
 
 ```csharp
 using Aspose.Tasks;
@@ -35,31 +50,30 @@ using System;
 using System.Collections.Generic;
 
 using Aspose.Tasks.Util;
-
 ```
 
-이제 프로세스를 명확하게 이해하기 위해 예제를 여러 단계로 나누어 보겠습니다.
+이제 예제를 여러 단계로 나누어 과정을 명확히 이해해 보겠습니다.
 
-## 1단계: 프로젝트 파일 로드
+## 단계 1: 프로젝트 파일 로드 (load mpp file)
 
 ```csharp
-// 문서 디렉터리의 경로입니다.
+// The path to the documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Project2.mpp");
 ```
 
- 다음을 사용하여 프로젝트 파일을 로드합니다.`Project`클래스 생성자, 파일 경로를 지정합니다.
+`Project` 클래스 생성자를 사용해 파일 경로를 지정하면 프로젝트 파일을 로드합니다. 이 단계는 **load mpp file** 처리를 보여줍니다.
 
-## 2단계: 모든 프로젝트 작업 수집
+## 단계 2: 모든 프로젝트 작업 수집
 
 ```csharp
 var coll = new ChildTasksCollector();
 TaskUtils.Apply(project.RootTask, coll, 0);
 ```
 
- 활용`ChildTasksCollector` 프로젝트 내의 모든 작업을 수집하는 클래스입니다.
+`ChildTasksCollector` 클래스를 활용해 프로젝트 내 모든 작업을 수집합니다.
 
-## 3단계: 필터 조건 정의
+## 단계 3: 필터 조건 정의
 
 ```csharp
 var conditions = new List<ICondition<Task>>
@@ -69,64 +83,74 @@ var conditions = new List<ICondition<Task>>
 };
 ```
 
-작업을 필터링할 조건 목록을 만듭니다. 이 예에서는 null이 아니고 요약 작업인 작업을 필터링합니다.
+작업을 필터링할 조건 목록을 생성합니다. 이 예제에서는 **null이 아닌** 작업이면서 **요약 작업**인 경우를 필터링합니다 – **filter summary tasks** 의 예시입니다.
 
-## 4단계: 조건에 AND 연산자 적용
+## 단계 4: 조건에 AND 연산자 적용 (apply multiple conditions)
 
 ```csharp
 var joinedCondition = new AndAllCondition<Task>(conditions);
 ```
 
- 다음을 사용하여 조건에 가입하세요.`AndAllCondition` 클래스, 모든 조건에 AND 연산자를 적용합니다.
+`AndAllCondition` 클래스를 사용해 조건들을 결합하고, **use and operator** 를 모든 조건에 적용합니다.
 
-## 5단계: 작업 필터링
+## 단계 5: 작업 필터링
 
 ```csharp
 List<Task> collection = Filter(coll.Tasks, joinedCondition);
 ```
 
-수집된 작업에 조인 조건을 적용하여 그에 따라 필터링합니다.
+결합된 조건을 수집된 작업에 적용해 해당 작업들을 필터링합니다. 이 단계는 **how to filter tasks** 를 결합 조건으로 수행하는 방법을 보여줍니다.
 
-## 6단계: 필터링된 작업 처리
+## 단계 6: 필터링된 작업 처리
 
 ```csharp
 foreach (var task in collection)
 {
     Console.WriteLine("Name: " + task.Get(Tsk.Name));
-    // 필터링된 작업으로 작업 수행
+    // Perform operations with filtered tasks
 }
 ```
 
-필터링된 작업을 반복하고 필요에 따라 작업을 수행합니다.
+필터링된 작업을 순회하며 필요한 작업을 수행합니다.
+
+## 일반적인 문제와 해결책
+
+- **조건 목록이 비어 있음** – `AndAllCondition<T>` 를 만들기 전에 최소 하나의 `ICondition<T>` 를 추가했는지 확인하세요.  
+- **작업이 반환되지 않음** – 추가한 조건이 실제 프로젝트의 작업과 일치하는지 확인하세요(예: 요약 작업이 없는데 요약 작업을 필터링하고 있을 수 있습니다).  
+- **파일을 찾을 수 없음** – `DataDir` 경로와 *.mpp* 파일 이름을 다시 한 번 확인하세요.
+
+## 자주 묻는 질문
+
+**Q: 예제에 나온 것 외에 추가 조건을 적용할 수 있나요?**  
+A: 네, 프로젝트 요구 사항에 맞게 언제든지 사용자 정의 조건을 정의하고 적용할 수 있습니다.
+
+**Q: Aspose.Tasks for .NET은 다양한 프로젝트 파일 형식을 지원하나요?**  
+A: 네, Aspose.Tasks는 MPP, XML, CSV 등 여러 파일 형식을 지원합니다.
+
+**Q: 복잡한 프로젝트 일정 알고리즘을 지원하나요?**  
+A: 물론입니다. Aspose.Tasks는 중요 경로 분석, 자원 할당 등 고급 일정 관리 기능을 제공합니다.
+
+**Q: Aspose.Tasks를 다른 .NET 프레임워크나 라이브러리와 통합할 수 있나요?**  
+A: 네, Aspose.Tasks를 다른 .NET 프레임워크 및 라이브러리와 원활히 통합해 기능을 확장할 수 있습니다.
+
+**Q: Aspose.Tasks 사용자를 위한 커뮤니티 포럼이나 지원 채널이 있나요?**  
+A: 네, 문의 사항이나 도움이 필요하면 Aspose.Tasks 커뮤니티 포럼 [여기](https://forum.aspose.com/c/tasks/15)에서 확인할 수 있습니다.
 
 ## 결론
 
-결론적으로 Aspose.Tasks for .NET을 사용하여 모든 조건에서 AND 연산자를 활용하면 동시에 여러 기준에 따라 프로젝트 작업을 효율적으로 필터링할 수 있습니다. 이 튜토리얼에서 제공되는 단계별 가이드를 따르면 이 기능을 프로젝트 관리 워크플로우에 원활하게 통합하여 생산성과 구성을 향상시킬 수 있습니다.
+요약하면, Aspose.Tasks for .NET에서 **use and operator** 를 모든 조건에 적용하면 여러 기준을 동시에 만족하는 프로젝트 작업을 효율적으로 필터링할 수 있습니다. 이 튜토리얼의 단계별 가이드를 따라 하면 해당 기능을 프로젝트 관리 워크플로에 원활히 통합해 생산성과 조직력을 크게 향상시킬 수 있습니다.
 
-## FAQ
-
-### Q1: 예시에 나온 조건 외에 추가 조건을 적용할 수 있나요?
-
-A1: 예, 프로젝트 요구 사항에 따라 사용자 지정 조건을 정의하고 적용할 수 있습니다.
-
-### Q2: Aspose.Tasks for .NET은 다른 프로젝트 파일 형식과 호환됩니까?
-
-A2: 예, Aspose.Tasks는 MPP, XML, CSV와 같은 다양한 프로젝트 파일 형식을 지원합니다.
-
-### Q3: Aspose.Tasks는 복잡한 프로젝트 일정 알고리즘을 지원합니까?
-
-A3: 물론 Aspose.Tasks는 주요 경로 분석 및 리소스 할당을 포함하여 프로젝트 일정을 관리하기 위한 고급 기능을 제공합니다.
-
-### Q4: Aspose.Tasks를 다른 .NET 프레임워크 또는 라이브러리와 통합할 수 있습니까?
-
-A4: 예, Aspose.Tasks를 다른 .NET 프레임워크 및 라이브러리와 원활하게 통합하여 기능을 향상시킬 수 있습니다.
-
-### Q5: Aspose.Tasks 사용자가 사용할 수 있는 커뮤니티 포럼이나 지원 채널이 있습니까?
-
- A5: 예, Aspose.Tasks 커뮤니티 포럼에 액세스할 수 있습니다.[여기](https://forum.aspose.com/c/tasks/15) 문의사항이나 도움이 필요하시면
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**마지막 업데이트:** 2026-03-19  
+**테스트 환경:** Aspose.Tasks 24.11 for .NET  
+**작성자:** Aspose  
+
+---

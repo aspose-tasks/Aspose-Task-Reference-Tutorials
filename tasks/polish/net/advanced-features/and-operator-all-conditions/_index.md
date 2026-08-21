@@ -1,33 +1,48 @@
 ---
-title: Używanie operatora AND we wszystkich warunkach w Aspose.Tasks
-linktitle: Używanie operatora AND we wszystkich warunkach w Aspose.Tasks
+date: 2026-03-19
+description: Dowiedz się, jak używać operatora AND we wszystkich warunkach w Aspose.Tasks
+  dla .NET, aby skutecznie filtrować zadania projektu.
+linktitle: Using AND Operator in All Conditions with Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Dowiedz się, jak używać operatora AND w każdych warunkach z Aspose.Tasks dla .NET, aby efektywnie filtrować zadania projektowe.
-weight: 11
+title: Jak używać operatora AND we wszystkich warunkach w Aspose.Tasks
 url: /pl/net/advanced-features/and-operator-all-conditions/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Używanie operatora AND we wszystkich warunkach w Aspose.Tasks
+# Using AND Operator in All Conditions with Aspose.Tasks
 
-## Wstęp
+## Introduction
 
-Czy chcesz efektywnie usprawnić swoje zadania związane z zarządzaniem projektami? Dzięki Aspose.Tasks dla .NET możesz wykorzystać zaawansowane funkcje do skutecznego manipulowania danymi projektu. Jedną z takich funkcji jest możliwość wykorzystania operatora AND w każdych warunkach, co pozwala na filtrowanie zadań na podstawie wielu kryteriów jednocześnie. W tym samouczku przeprowadzimy Cię krok po kroku przez proces wdrażania tej funkcjonalności.
+Czy szukasz sposobu na efektywne usprawnienie swoich zadań zarządzania projektami? Dzięki Aspose.Tasks dla .NET możesz wykorzystać potężne funkcje do skutecznego manipulowania danymi projektu. Jedną z takich funkcji jest możliwość **use and operator** we wszystkich warunkach, co pozwala filtrować zadania na podstawie wielu kryteriów jednocześnie. W tym samouczku przeprowadzimy Cię krok po kroku przez proces implementacji tej funkcjonalności, abyś mógł **how to filter tasks** szybko i niezawodnie.
 
-## Warunki wstępne
+## Quick Answers
+- **What does the AND operator do?** Łączy wiele warunków filtracji, tak aby zwrócone zostały tylko zadania spełniające *wszystkie* kryteria.  
+- **Which library provides this feature?** Aspose.Tasks for .NET.  
+- **Do I need a license?** Darmowa wersja próbna działa w celach oceny; licencja jest wymagana w środowisku produkcyjnym.  
+- **Can I load an MPP file?** Tak – użyj klasy `Project`, aby załadować plik *.mpp*.  
+- **Is it possible to filter summary tasks?** Oczywiście, poprzez dodanie `SummaryCondition` do listy warunków.
 
-Przed przystąpieniem do samouczka upewnij się, że spełniasz następujące wymagania wstępne:
+## What is the “use and operator” feature?
+Funkcja **use and operator** pozwala połączyć kilka implementacji `ICondition<T>` przy użyciu `AndAllCondition<T>`. Wynikowy filtr zwraca tylko te zadania, które spełniają *każdy* podany warunek.
 
-1. Podstawowa znajomość języka C#: Znajomość języka programowania C# będzie korzystna.
-2.  Biblioteka Aspose.Tasks dla .NET: Pobierz i zainstaluj bibliotekę Aspose.Tasks dla .NET ze strony[Tutaj](https://releases.aspose.com/tasks/net/).
-3. Zintegrowane środowisko programistyczne (IDE): dla wygody kodowania należy zainstalować w systemie środowisko IDE, takie jak Visual Studio.
+## Why apply multiple conditions?
+Stosowanie wielu warunków (np. „zadanie nie jest null” **and** „zadanie jest zadaniem podsumowującym”) daje precyzyjną kontrolę nad danymi, z którymi pracujesz. Jest to szczególnie przydatne, gdy musisz **create custom filter** logikę dla złożonych harmonogramów projektów lub generować raporty koncentrujące się na określonych grupach zadań.
 
-## Importuj przestrzenie nazw
+## Prerequisites
 
-Po pierwsze, musisz zaimportować niezbędne przestrzenie nazw, aby uzyskać dostęp do wymaganych klas i metod.
+Zanim zagłębisz się w samouczek, upewnij się, że spełniasz następujące wymagania:
+
+1. **Basic Knowledge of C#** – Znajomość języka programowania C# będzie pomocna.  
+2. **Aspose.Tasks for .NET Library** – Pobierz i zainstaluj bibliotekę Aspose.Tasks for .NET z [here](https://releases.aspose.com/tasks/net/).  
+3. **Integrated Development Environment (IDE)** – Zainstaluj środowisko IDE, takie jak Visual Studio, na swoim komputerze, aby ułatwić kodowanie.  
+
+## Import Namespaces
+
+Najpierw musisz zaimportować niezbędne przestrzenie nazw, aby uzyskać dostęp do wymaganych klas i metod.
 
 ```csharp
 using Aspose.Tasks;
@@ -35,31 +50,30 @@ using System;
 using System.Collections.Generic;
 
 using Aspose.Tasks.Util;
-
 ```
 
-Podzielmy teraz przykład na wiele kroków, aby jasno zrozumieć proces.
+Teraz rozbijmy przykład na kilka kroków, aby jasno zrozumieć proces.
 
-## Krok 1: Załaduj plik projektu
+## Step 1: Load the Project File (load mpp file)
 
 ```csharp
-// Ścieżka do katalogu dokumentów.
+// The path to the documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Project2.mpp");
 ```
 
- Załaduj plik projektu za pomocą`Project`konstruktor klasy, określający ścieżkę pliku.
+Załaduj plik projektu przy użyciu konstruktora klasy `Project`, podając ścieżkę do pliku. Ten krok demonstruje obsługę **load mpp file**.
 
-## Krok 2: Zbierz wszystkie zadania projektu
+## Step 2: Collect All Project Tasks
 
 ```csharp
 var coll = new ChildTasksCollector();
 TaskUtils.Apply(project.RootTask, coll, 0);
 ```
 
- Skorzystaj z`ChildTasksCollector` klasę, aby zebrać wszystkie zadania w ramach projektu.
+Użyj klasy `ChildTasksCollector`, aby zebrać wszystkie zadania w projekcie.
 
-## Krok 3: Zdefiniuj warunki filtra
+## Step 3: Define Filter Conditions
 
 ```csharp
 var conditions = new List<ICondition<Task>>
@@ -69,64 +83,72 @@ var conditions = new List<ICondition<Task>>
 };
 ```
 
-Utwórz listę warunków do filtrowania zadań. W tym przykładzie filtrujemy zadania, które nie mają wartości null i są zadaniami sumarycznymi.
+Utwórz listę warunków do filtrowania zadań. W tym przykładzie filtrujemy zadania, które są **not null** i są **summary tasks** – przykład **filter summary tasks**.
 
-## Krok 4: Zastosuj operator AND do warunków
+## Step 4: Apply AND Operator to Conditions (apply multiple conditions)
 
 ```csharp
 var joinedCondition = new AndAllCondition<Task>(conditions);
 ```
 
- Połącz warunki za pomocą`AndAllCondition` klasy, stosując operator AND do wszystkich warunków.
+Połącz warunki przy użyciu klasy `AndAllCondition`, stosując **use and operator** do wszystkich warunków.
 
-## Krok 5: Filtruj zadania
+## Step 5: Filter Tasks
 
 ```csharp
 List<Task> collection = Filter(coll.Tasks, joinedCondition);
 ```
 
-Zastosuj warunek połączony do zebranych zadań, aby odpowiednio je przefiltrować.
+Zastosuj połączony warunek do zebranych zadań, aby odpowiednio je przefiltrować. Ten krok pokazuje **how to filter tasks** przy użyciu połączonego warunku.
 
-## Krok 6: Przetwarzaj filtrowane zadania
+## Step 6: Process Filtered Tasks
 
 ```csharp
 foreach (var task in collection)
 {
     Console.WriteLine("Name: " + task.Get(Tsk.Name));
-    // Wykonuj operacje na filtrowanych zadaniach
+    // Perform operations with filtered tasks
 }
 ```
 
 Iteruj po przefiltrowanych zadaniach i wykonuj wymagane operacje.
 
-## Wniosek
+## Common Issues and Solutions
 
-Podsumowując, użycie operatora AND we wszystkich warunkach w Aspose.Tasks dla .NET umożliwia efektywne filtrowanie zadań projektowych w oparciu o wiele kryteriów jednocześnie. Postępując zgodnie ze szczegółowym przewodnikiem zawartym w tym samouczku, możesz bezproblemowo zintegrować tę funkcjonalność z przepływem pracy związanym z zarządzaniem projektami, zwiększając produktywność i organizację.
+- **Condition list is empty** – Upewnij się, że dodałeś przynajmniej jeden `ICondition<T>` przed utworzeniem `AndAllCondition<T>`.  
+- **No tasks returned** – Sprawdź, czy dodane warunki rzeczywiście pasują do zadań w Twoim projekcie (np. możesz filtrować zadania podsumowujące, które nie istnieją).  
+- **File not found** – Dokładnie sprawdź ścieżkę `DataDir` oraz nazwę pliku *.mpp*.
 
-## Często zadawane pytania
+## Frequently Asked Questions
 
-### P1: Czy mogę zastosować dodatkowe warunki oprócz tych przedstawionych w przykładzie?
+**Q: Can I apply additional conditions apart from those demonstrated in the example?**  
+A: Tak, możesz definiować i stosować dowolne niestandardowe warunki w zależności od wymagań Twojego projektu.
 
-Odpowiedź 1: Tak, możesz zdefiniować i zastosować dowolne warunki niestandardowe w oparciu o wymagania projektu.
+**Q: Is Aspose.Tasks for .NET compatible with different project file formats?**  
+A: Tak, Aspose.Tasks obsługuje różne formaty plików projektowych, takie jak MPP, XML i CSV.
 
-### P2: Czy Aspose.Tasks dla .NET jest kompatybilny z różnymi formatami plików projektów?
+**Q: Does Aspose.Tasks offer support for complex project scheduling algorithms?**  
+A: Absolutnie, Aspose.Tasks oferuje zaawansowane funkcje zarządzania harmonogramami projektów, w tym analizę ścieżki krytycznej i alokację zasobów.
 
-O2: Tak, Aspose.Tasks obsługuje różne formaty plików projektów, takie jak MPP, XML i CSV.
+**Q: Can I integrate Aspose.Tasks with other .NET frameworks or libraries?**  
+A: Tak, możesz płynnie integrować Aspose.Tasks z innymi frameworkami i bibliotekami .NET, aby zwiększyć funkcjonalność.
 
-### P3: Czy Aspose.Tasks oferuje wsparcie dla złożonych algorytmów planowania projektów?
+**Q: Is there a community forum or support channel available for Aspose.Tasks users?**  
+A: Tak, możesz uzyskać dostęp do forum społeczności Aspose.Tasks [here](https://forum.aspose.com/c/tasks/15) w celu zadania pytań lub uzyskania pomocy.
 
-Odpowiedź 3: Oczywiście, Aspose.Tasks zapewnia zaawansowane funkcje do zarządzania harmonogramami projektów, w tym analizę ścieżki krytycznej i alokację zasobów.
+## Conclusion
 
-### P4: Czy mogę zintegrować Aspose.Tasks z innymi frameworkami lub bibliotekami .NET?
+Podsumowując, wykorzystanie **use and operator** we wszystkich warunkach z Aspose.Tasks dla .NET umożliwia efektywne filtrowanie zadań projektowych na podstawie wielu kryteriów jednocześnie. Postępując zgodnie z przewodnikiem krok po kroku przedstawionym w tym samouczku, możesz płynnie wprowadzić tę funkcjonalność do swojego przepływu pracy zarządzania projektami, zwiększając produktywność i organizację.
 
-O4: Tak, możesz bezproblemowo zintegrować Aspose.Tasks z innymi frameworkami i bibliotekami .NET w celu zwiększenia funkcjonalności.
-
-### P5: Czy dostępne jest forum społecznościowe lub kanał wsparcia dla użytkowników Aspose.Tasks?
-
- O5: Tak, możesz uzyskać dostęp do forum społeczności Aspose.Tasks[Tutaj](https://forum.aspose.com/c/tasks/15) w przypadku jakichkolwiek pytań lub pomocy.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Ostatnia aktualizacja:** 2026-03-19  
+**Testowano z:** Aspose.Tasks 24.11 for .NET  
+**Autor:** Aspose

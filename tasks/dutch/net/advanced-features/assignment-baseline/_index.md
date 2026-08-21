@@ -1,56 +1,64 @@
 ---
-title: Toewijzingsbasislijn beheren in Aspose.Tasks
-linktitle: Toewijzingsbasislijn beheren in Aspose.Tasks
+date: 2026-03-19
+description: Leer hoe u de projectbaseline kunt instellen en toewijzingsbaselines
+  efficiënt kunt beheren met Aspose.Tasks voor .NET, zodat de voortgang van het project
+  nauwkeurig kan worden gevolgd.
+linktitle: Managing Assignment Baseline in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Leer hoe u de basislijnen van opdrachten efficiënt kunt beheren met Aspose.Tasks voor .NET, zodat u de voortgang en prestaties van projecten nauwkeurig kunt volgen.
-weight: 14
+title: Projectbaseline instellen – Toewijzingsbaseline beheren in Aspose.Tasks
 url: /nl/net/advanced-features/assignment-baseline/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Toewijzingsbasislijn beheren in Aspose.Tasks
+# Projectbaseline instellen – Toewijzingsbaseline beheren in Aspose.Tasks
 
-## Invoering
+## Inleiding
 
-Bij het werken aan projectmanagementtaken is het beheren van de basislijnen van opdrachten cruciaal voor het nauwkeurig volgen van de voortgang. Aspose.Tasks voor .NET biedt een uitgebreide set tools om toewijzingsbasislijnen efficiënt af te handelen. In deze zelfstudie gaan we stap voor stap dieper in op het proces van het beheren van toewijzingsbasislijnen.
+Wanneer u werkt aan projectmanagementtaken, is **het instellen van een projectbaseline** essentieel om de werkelijke voortgang te meten ten opzichte van het oorspronkelijke plan. Aspose.Tasks voor .NET stelt u niet alleen in staat om **een projectbaseline in te stellen**, maar geeft u ook volledige controle over toewijzingsbaselines, waardoor nauwkeurige prestatie‑tracking mogelijk is. In deze tutorial lopen we het volledige proces door — een project laden, een baseline instellen, toewijzingsbaseline‑gegevens lezen en baselines vergelijken — zodat u uw projecten met vertrouwen kunt monitoren.
+
+## Snelle antwoorden
+- **Wat betekent “set project baseline”?** Het registreert de oorspronkelijke planning‑ en kostengegevens voor later vergelijken met de werkelijke prestaties.  
+- **Welke API‑methode stelt een baseline in?** `Project.SetBaseline(BaselineType.Baseline)`.  
+- **Vereisen toewijzingsbaselines een aparte aanroep?** Nee, ze worden automatisch opgeslagen wanneer u een projectbaseline instelt.  
+- **Welke formaten worden ondersteund?** MPP, XML, MPX en meer via Aspose.Tasks.  
+- **Is een licentie vereist voor productie?** Ja, een commerciële licentie is nodig voor niet‑trial gebruik.  
 
 ## Vereisten
 
-Voordat we beginnen, zorg ervoor dat u aan de volgende vereisten voldoet:
+Voordat we beginnen, zorg ervoor dat u het volgende heeft:
 
-- Basiskennis van de programmeertaal C#.
-- Visual Studio is op uw systeem geïnstalleerd.
-- Aspose.Tasks voor .NET-bibliotheek toegevoegd aan uw project. Je kunt het downloaden van[hier](https://releases.aspose.com/tasks/net/).
-- Toegang tot een projectbestand in MPP-formaat.
+- Basiskennis van C#‑programmeren.  
+- Visual Studio (een recente versie).  
+- Aspose.Tasks voor .NET‑bibliotheek toegevoegd aan uw project. U kunt deze downloaden van [hier](https://releases.aspose.com/tasks/net/).  
+- Toegang tot een projectbestand in MPP‑formaat (bijv. `AssignmentBaseline2007.mpp`).  
 
-## Naamruimten importeren
+## Namespaces importeren
 
-Om met Aspose.Tasks te gaan werken, moet u de benodigde naamruimten in uw C#-project importeren. Voeg de volgende naamruimten toe aan het begin van uw C#-bestand:
+Voeg de vereiste namespaces toe aan de bovenkant van uw C#‑bestand zodat de compiler weet waar de Aspose.Tasks‑klassen te vinden zijn.
 
 ```csharp
 using Aspose.Tasks;
 using System;
-
-
 ```
 
-## Stap 1: Project laden en basislijn instellen
+## Stap 1: Project laden en projectbaseline instellen
 
- Laad eerst het projectbestand met behulp van de`Project` klasse van Aspose.Tasks. Stel vervolgens het basislijntype voor het project in met behulp van de`SetBaseline` methode.
+Laad eerst het bestaande MPP‑bestand en roep vervolgens `SetBaseline` aan om **een projectbaseline in te stellen** voor het hele project.
 
 ```csharp
-// Het pad naar de documentenmap.
+// The path to the documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "AssignmentBaseline2007.mpp");
 project.SetBaseline(BaselineType.Baseline);
 ```
 
-## Stap 2: Lees de basislijninformatie van de opdracht
+## Stap 2: Toewijzingsbaseline‑informatie lezen
 
-Doorloop elke resourcetoewijzing in het project en haal basisinformatie op voor elke toewijzing.
+Nadat de baseline is ingesteld, bevat elke resource‑toewijzing zijn eigen baseline‑records. De onderstaande lus haalt die details op en drukt ze af, inclusief start-/einddatums, kosten, werk en eventuele tijdgebaseerde gegevens.
 
 ```csharp
 foreach (var assignment in project.ResourceAssignments)
@@ -82,9 +90,9 @@ foreach (var assignment in project.ResourceAssignments)
 }
 ```
 
-## Stap 3: Controleer de uitgangsgelijkheid
+## Stap 3: Toewijzingsbaselines vergelijken
 
-Vergelijk basisinformatie voor verschillende opdrachten met behulp van verschillende vergelijkingsmethoden van Aspose.Tasks.
+U kunt baselines van verschillende toewijzingen vergelijken met behulp van de ingebouwde gelijkheids‑ en vergelijkingsoperatoren. Dit is handig wanneer u schema‑verschuivingen of kostenoverschrijdingen tussen taken moet detecteren.
 
 ```csharp
 var assn1 = project.ResourceAssignments.GetByUid(5);
@@ -93,45 +101,51 @@ var assn2 = project.ResourceAssignments.GetByUid(7);
 var assignmentBaseline1 = assn1.Baselines.ToList()[0];
 var assignmentBaseline2 = assn2.Baselines.ToList()[0];
 
-// Controleer de basisgelijkheid
+// Check baseline equality
 Console.WriteLine("Are baselines equal: " + assignmentBaseline1.Equals(assignmentBaseline2));
 
-// Controleer de basislijnvergelijking
+// Check baseline comparison
 Console.WriteLine("Is baseline 1 less than baseline 2: " + (assignmentBaseline1 < assignmentBaseline2));
 
-// Basislijn-hashcodes weergeven
+// Display baseline hashcodes
 Console.WriteLine("Assignment baseline 1 hashcode: " + assignmentBaseline1.GetHashCode());
 Console.WriteLine("Assignment baseline 2 hashcode: " + assignmentBaseline2.GetHashCode());
 ```
 
-## Conclusie
+## Veelvoorkomende problemen en oplossingen
 
-Het beheren van opdrachtbasislijnen is een integraal onderdeel van projectmanagement, waardoor de voortgang en prestaties nauwkeurig kunnen worden gevolgd. Met Aspose.Tasks voor .NET wordt de afhandeling van toewijzingsbasislijnen gestroomlijnd en efficiënt, waardoor ontwikkelaars krachtige tools krijgen om de workflows voor projectbeheer te verbeteren.
+| Probleem | Waarom het gebeurt | Oplossing |
+|----------|--------------------|-----------|
+| **Baseline‑gegevens verschijnen leeg** | Het projectbestand werd geopend in alleen‑lezen‑modus of de baseline was nooit ingesteld. | Roep `project.SetBaseline(BaselineType.Baseline)` aan voordat u toewijzingsbaselines leest. |
+| **`NullReferenceException` op `TimephasedData`** | Niet alle baselines bevatten tijdgebaseerde items. | Controleer altijd `baseline.TimephasedData != null` (zoals getoond in de code). |
+| **Onjuiste UID‑ophaling** | UID‑waarden verschillen tussen bestandsversies. | Gebruik `ResourceAssignments.GetByUid` met de juiste UID of itereren om de benodigde toewijzing te vinden. |
 
 ## Veelgestelde vragen
 
-### Vraag 1: Kan Aspose.Tasks meerdere basislijnen verwerken voor één enkele opdracht?
+**Q: Kan Aspose.Tasks meerdere baselines voor één toewijzing verwerken?**  
+A: Ja, Aspose.Tasks ondersteunt meerdere baselines voor elke toewijzing, waardoor uitgebreide tracking van de projectvoortgang in de loop van de tijd mogelijk is.
 
-A1: Ja, Aspose.Tasks ondersteunt meerdere basislijnen voor elke opdracht, waardoor de projectvoortgang in de loop van de tijd uitgebreid kan worden gevolgd.
+**Q: Is Aspose.Tasks compatibel met verschillende projectbestandsformaten naast MPP?**  
+A: Ja, Aspose.Tasks ondersteunt een breed scala aan projectbestandsformaten, waaronder XML, MPX en MPP, waardoor compatibiliteit met diverse projectmanagementtools wordt gegarandeerd.
 
-### V2: Is Aspose.Tasks compatibel met verschillende andere projectbestandsformaten dan MPP?
+**Q: Kan ik baseline‑informatie programmatisch wijzigen met Aspose.Tasks?**  
+A: Absoluut, Aspose.Tasks biedt uitgebreide API’s om baseline‑informatie dynamisch aan te passen aan projectvereisten, waardoor flexibiliteit en controle over projectmanagementprocessen worden geboden.
 
-A2: Ja, Aspose.Tasks ondersteunt een breed scala aan projectbestandsformaten, waaronder XML, MPX en MPP, waardoor compatibiliteit met verschillende projectmanagementtools wordt gegarandeerd.
+**Q: Biedt Aspose.Tasks documentatie en ondersteuningsbronnen voor ontwikkelaars?**  
+A: Ja, ontwikkelaars hebben toegang tot uitgebreide documentatie, tutorials en forums op de Aspose.Tasks‑website, wat een soepele integratie en probleemoplossing vergemakkelijkt.
 
-### V3: Kan ik basislijninformatie programmatisch wijzigen met Aspose.Tasks?
+**Q: Is er een proefversie beschikbaar voor Aspose.Tasks voor .NET?**  
+A: Ja, ontwikkelaars kunnen een gratis proefversie van Aspose.Tasks voor .NET verkrijgen via [hier](https://releases.aspose.com/), zodat ze de functies en mogelijkheden kunnen evalueren voordat ze een aankoopbeslissing nemen.
 
-A3: Absoluut, Aspose.Tasks biedt uitgebreide API's om basisinformatie dynamisch aan te passen aan de projectvereisten, waardoor flexibiliteit en controle over projectmanagementprocessen wordt geboden.
-
-### V4: Biedt Aspose.Tasks documentatie en ondersteuningsbronnen voor ontwikkelaars?
-
-A4: Ja, ontwikkelaars hebben toegang tot uitgebreide documentatie, tutorials en forums op de Aspose.Tasks-website, wat een soepele integratie en probleemoplossing mogelijk maakt.
-
-### V5: Is er een proefversie beschikbaar voor Aspose.Tasks voor .NET?
-
- A5: Ja, ontwikkelaars kunnen een gratis proefversie van Aspose.Tasks voor .NET verkrijgen van[hier](https://releases.aspose.com/), waardoor ze de functies en mogelijkheden ervan kunnen evalueren voordat ze een aankoopbeslissing nemen.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Laatst bijgewerkt:** 2026-03-19  
+**Getest met:** Aspose.Tasks 24.12 for .NET  
+**Auteur:** Aspose

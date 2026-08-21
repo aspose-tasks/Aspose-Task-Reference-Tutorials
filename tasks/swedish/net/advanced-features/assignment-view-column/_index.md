@@ -1,33 +1,51 @@
 ---
-title: Anpassad tilldelning Visa kolumn i Aspose.Tasks
-linktitle: Anpassad tilldelning Visa kolumn i Aspose.Tasks
+date: 2026-03-19
+description: Lär dig hur du lägger till flera anpassade kolumner och formaterar anpassad
+  kolumnbredd när du exporterar ett projekt till XML med Aspose.Tasks för .NET.
+linktitle: Add Multiple Custom Columns to Assignment View in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Lär dig hur du lägger till anpassade uppdragsvykolumner i Aspose.Tasks för .NET för att förbättra projekthanteringskapaciteten.
-weight: 16
+title: Lägg till flera anpassade kolumner i tilldelningsvyn i Aspose.Tasks
 url: /sv/net/advanced-features/assignment-view-column/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Anpassad tilldelning Visa kolumn i Aspose.Tasks
+# Lägg till flera anpassade kolumner i tilldelningsvyn i Aspose.Tasks
 
 ## Introduktion
 
-den här handledningen kommer vi att utforska hur du lägger till anpassade kolumner för uppdragsvyer med Aspose.Tasks för .NET. Anpassade kolumner ger flexibilitet och låter dig visa ytterligare information som är relevant för dina projektledningsbehov.
+I den här handledningen kommer du att upptäcka **hur du lägger till flera anpassade kolumner** i en tilldelningsvy med Aspose.Tasks för .NET. Anpassade kolumner låter dig visa extra data—såsom anteckningar, kostnader eller anpassade flaggor—direkt i exporterade rapporter. I slutet av guiden kommer du att kunna formatera bredden på anpassade kolumner, exportera projektet till XML och anpassa vyn så att den matchar dina projektledningsbehov.
+
+## Snabba svar
+- **Vad kan jag uppnå?** Visa vilken tilldelningsdata som helst i anpassade kolumner och kontrollera deras utseende.  
+- **Vilket format stöder det?** Exportera projekt till XML (eller andra format) med `Spreadsheet2003SaveOptions`.  
+- **Behöver jag en licens?** Ja, en giltig Aspose.Tasks-licens krävs för produktionsanvändning.  
+- **Vilka .NET-versioner fungerar?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Hur många kolumner kan jag lägga till?** Obegränsat – skapa bara ytterligare `AssignmentViewColumn`-instanser.
+
+## Vad är flera anpassade kolumner?
+Flera anpassade kolumner är användardefinierade fält som visas bredvid standardkolumnerna för tilldelningar när ett projekt sparas eller exporteras. De ger dig flexibiliteten att visa vilken egenskap som helst i ett `ResourceAssignment`-objekt, såsom anpassade anteckningar, kostnadskoder eller beräknade värden.
+
+## Varför lägga till flera anpassade kolumner i tilldelningsvyn?
+- **Förbättrad rapportering:** Inkludera projektspecifik information som inte täcks av de inbyggda kolumnerna.  
+- **Bättre beslutsfattande:** Intressenter kan se exakt den data de behöver utan att gräva i råa filer.  
+- **Konsekvent formatering:** Kontrollera kolumnbredd och textkonvertering för ett rent, läsbart resultat.  
 
 ## Förutsättningar
 
-Innan vi börjar, se till att du har följande:
+Innan vi dyker in, se till att du har:
 
-1. Grundläggande kunskaper i programmeringsspråket C#.
-2.  Aspose.Tasks för .NET-biblioteket installerat. Om inte kan du ladda ner den[här](https://releases.aspose.com/tasks/net/).
-3. En integrerad utvecklingsmiljö (IDE) som Visual Studio.
+1. Grundläggande kunskap om programmeringsspråket C#.  
+2. Aspose.Tasks för .NET-biblioteket installerat. Om inte, kan du ladda ner det **[här](https://releases.aspose.com/tasks/net/)**.  
+3. En integrerad utvecklingsmiljö (IDE) såsom Visual Studio.  
 
-## Importera namnområden
+## Steg‑för‑steg‑guide
 
-Låt oss först importera de nödvändiga namnområdena för att komma åt de klasser och metoder som krävs för att skapa anpassade tilldelningsvykolumner:
+### Steg 1: Importera namnrymder
+Först, importera namnrymderna som tillhandahåller de klasser vi behöver för att arbeta med projekt och visualiseringar.
 
 ```csharp
 using Aspose.Tasks;
@@ -35,46 +53,42 @@ using System;
 
 using Aspose.Tasks.Saving;
 using Aspose.Tasks.Visualization;
-
 ```
 
-## Steg 1: Ladda projektet
-
- För att börja, ladda din projektfil med hjälp av`Project` klass:
+### Steg 2: Ladda projektet
+Skapa en `Project`-instans och ladda en befintlig MPP-fil.
 
 ```csharp
-// Sökvägen till dokumentkatalogen.
+// The path to th documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "CreateProject2.mpp");
 ```
 
-## Steg 2: Skapa sparalternativ för kalkylblad
-
- Skapa sedan en instans av`Spreadsheet2003SaveOptions` vilket gör att vi kan anpassa uppgiftsvykolumnerna:
+### Steg 3: Skapa Spreadsheet Save Options
+Instansiera `Spreadsheet2003SaveOptions` – detta objekt låter oss anpassa tilldelningsvyn innan export.
 
 ```csharp
 var options = new Spreadsheet2003SaveOptions();
 ```
 
-## Steg 3: Definiera anpassad kolumn
-
- Definiera nu din anpassade kolumn genom att skapa en instans av`AssignmentViewColumn`. Den här klassen kräver kolumnnamn, bredd och en delegatfunktion för att konvertera tilldelningsdata till kolumntext:
+### Steg 4: Definiera anpassad kolumn
+Skapa en `AssignmentViewColumn` för varje datapunkt du vill visa. Nedan lägger vi till en **Notes**-kolumn med en bredd på 200 punkter.
 
 ```csharp
 var column = new AssignmentViewColumn("Notes", 200, delegate(ResourceAssignment assignment) { return assignment.Get(Asn.NotesText); });
 ```
 
-## Steg 4: Lägg till anpassad kolumn till alternativ
+**Tips:** För att lägga till *flera* anpassade kolumner, upprepa detta steg med olika fältnamn och delegatlogik, och lägg sedan till varje instans i `options.AssignmentView.Columns`.
 
-Lägg till den anpassade kolumnen i kolumnsamlingen för uppdragsvyn med sparalternativ:
+### Steg 5: Lägg till anpassad kolumn i alternativ
+Lägg till kolumnen (eller kolumnerna) i `Columns`-samlingen för tilldelningsvyn.
 
 ```csharp
 options.AssignmentView.Columns.Add(column);
 ```
 
-## Steg 5: Iterera genom uppdrag
-
-Iterera genom varje resurstilldelning i projektet och visa den anpassade kolumntexten:
+### Steg 6: Iterera genom tilldelningar (valfri felsökning)
+Du kan loopa genom tilldelningarna för att verifiera att texten för den anpassade kolumnen genereras korrekt.
 
 ```csharp
 foreach (var assignment in project.ResourceAssignments)
@@ -89,39 +103,47 @@ foreach (var assignment in project.ResourceAssignments)
 }
 ```
 
-## Steg 6: Spara projektet med anpassade kolumner
-
-Slutligen sparar du projektet med kolumnerna för anpassad uppdragsvy:
+### Steg 7: Spara projektet med anpassade kolumner
+Slutligen, spara projektet. Exemplet sparar till XML, men du kan välja vilket stödformat som helst.
 
 ```csharp
 project.Save(OutDir + "UsingSpreadsheet2003SaveOptions_out.xml", options);
 ```
 
-## Slutsats
+## Hur exporterar man projekt till XML med anpassade kolumner?
+När du anropar `project.Save` med de konfigurerade `Spreadsheet2003SaveOptions` skriver Aspose.Tasks projektdata—inklusive alla **flera anpassade kolumner**—till den valda XML-filen. Detta gör det enkelt att dela berikad projektinformation med andra system eller intressenter.
 
-I den här handledningen lärde vi oss hur man lägger till anpassade uppdragsvykolumner med Aspose.Tasks för .NET. Anpassade kolumner erbjuder flexibilitet när det gäller att visa ytterligare information skräddarsydd för dina projektkrav, vilket förbättrar projektledningskapaciteten.
+## Formatera bredden på anpassade kolumner för bättre läsbarhet
+Den andra parametern i `AssignmentViewColumn`-konstruktorn styr kolumnbredden (mätt i punkter). Justera detta värde för att passa den mängd text du förväntar dig. Till exempel fungerar en bredd på **300** bra för längre anteckningar, medan **100** räcker för korta flaggor.
 
-## FAQ's
+## Vanliga problem och lösningar
+- **Kolumntext visas tom:** Se till att delegaten returnerar en sträng och att den underliggande tilldelningsegenskapen (t.ex. `Asn.NotesText`) är ifylld.  
+- **Kolumner syns inte i den exporterade filen:** Verifiera att `options.AssignmentView.Columns` innehåller dina anpassade kolumner innan du anropar `Save`.  
+- **Bredden verkar ignoreras:** Vissa exportformat har egna layoutregler; XML respekterar bredden, men PDF/HTML kan behöva ytterligare styling.
 
-### F1: Kan jag lägga till flera anpassade kolumner i uppdragsvyn?
+## Vanliga frågor
 
- S1: Ja, du kan lägga till flera anpassade kolumner genom att skapa ytterligare instanser av`AssignmentViewColumn` och lägga till dem i`Columns` samling.
+### Q1: Kan jag lägga till flera anpassade kolumner i tilldelningsvyn?
+**A:** Ja, skapa helt enkelt ytterligare `AssignmentViewColumn`-objekt och lägg till varje i `options.AssignmentView.Columns`.
 
-### F2: Finns det fördefinierade omvandlare tillgängliga för vanliga tilldelningsfält?
+### Q2: Finns det fördefinierade konverterare tillgängliga för vanliga tilldelningsfält?
+**A:** Ja, Aspose.Tasks tillhandahåller inbyggda konverterare för många standardfält, vilket gör det enkelt att hämta data utan att skriva anpassade delegater.
 
-S2: Ja, Aspose.Tasks tillhandahåller fördefinierade omvandlare för vanliga tilldelningsfält, vilket gör det lättare att extrahera data för anpassade kolumner.
+### Q3: Kan jag anpassa utseendet på anpassade kolumner, såsom formatering av text eller tillämpning av stilar?
+**A:** Absolut. Förutom att ställa in bredden kan du ändra teckensnitt, justering och andra visuella egenskaper via kolumnens stilalternativ.
 
-### F3: Kan jag anpassa utseendet på anpassade kolumner, som att formatera text eller använda stilar?
+### Q4: Är det möjligt att ta bort standardkolumner från tilldelningsvyn?
+**A:** Du kan exkludera standardkolumner genom att ta bort dem från `Columns`-samlingen eller genom att sätta deras bredd till noll.
 
-S3: Ja, du kan anpassa utseendet på anpassade kolumner genom att ändra egenskaper som bredd, teckensnitt och justering.
+### Q5: Stöder Aspose.Tasks att exportera projekt till andra format än kalkylblad med anpassade kolumner?
+**A:** Ja, Aspose.Tasks kan exportera till PDF, HTML, XML och många andra format samtidigt som anpassade kolumndefinitioner bevaras.
 
-### F4: Är det möjligt att ta bort standardkolumner från uppdragsvyn?
+---
 
- S4: Ja, du kan ta bort standardkolumner genom att utesluta dem från`Columns` samling eller ställ in deras bredd till noll.
+**Senast uppdaterad:** 2026-03-19  
+**Testat med:** Aspose.Tasks 24.12 för .NET  
+**Författare:** Aspose  
 
-### F5: Stöder Aspose.Tasks export av projekt till andra format än kalkylblad med anpassade kolumner?
-
-S5: Ja, Aspose.Tasks stöder export av projekt till olika format som PDF, HTML och XML, vilket möjliggör mångsidiga projektrapporteringsalternativ.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

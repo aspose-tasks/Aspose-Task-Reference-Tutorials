@@ -1,33 +1,52 @@
 ---
-title: Spalte „Benutzerdefinierte Zuweisungsansicht“ in Aspose.Tasks
-linktitle: Spalte „Benutzerdefinierte Zuweisungsansicht“ in Aspose.Tasks
-second_title: Aspose.Tasks .NET-API
-description: Erfahren Sie, wie Sie in Aspose.Tasks für .NET benutzerdefinierte Spalten für die Aufgabenansicht hinzufügen, um die Projektmanagementfunktionen zu verbessern.
-weight: 16
+date: 2026-03-19
+description: Erfahren Sie, wie Sie mehrere benutzerdefinierte Spalten hinzufügen und
+  die Breite benutzerdefinierter Spalten formatieren, wenn Sie ein Projekt mit Aspose.Tasks
+  für .NET in XML exportieren.
+linktitle: Add Multiple Custom Columns to Assignment View in Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+title: Mehrere benutzerdefinierte Spalten zur Zuweisungsansicht in Aspose.Tasks hinzufügen
 url: /de/net/advanced-features/assignment-view-column/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Spalte „Benutzerdefinierte Zuweisungsansicht“ in Aspose.Tasks
+# Mehrere benutzerdefinierte Spalten zur Zuordnungsansicht in Aspose.Tasks hinzufügen
 
-## Einführung
+## Einleitung
 
-In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Tasks für .NET benutzerdefinierte Spalten für Aufgabenansichten hinzufügen. Benutzerdefinierte Spalten bieten Flexibilität und ermöglichen Ihnen die Anzeige zusätzlicher Informationen, die für Ihre Projektmanagementanforderungen relevant sind.
+In diesem Tutorial erfahren Sie **wie Sie mehrere benutzerdefinierte Spalten** zu einer Zuordnungsansicht mit Aspose.Tasks für .NET hinzufügen können. Benutzerdefinierte Spalten ermöglichen es, zusätzliche Daten – wie Notizen, Kosten oder benutzerdefinierte Kennzeichen – direkt in exportierten Berichten anzuzeigen. Am Ende der Anleitung können Sie die Breite benutzerdefinierter Spalten formatieren, das Projekt nach XML exportieren und die Ansicht an Ihre Projektmanagement‑Bedürfnisse anpassen.
+
+## Schnelle Antworten
+- **Was kann ich erreichen?** Anzeigen beliebiger Zuordnungsdaten in benutzerdefinierten Spalten und Steuerung ihres Erscheinungsbildes.  
+- **Welches Format unterstützt das?** Exportieren des Projekts nach XML (oder anderen Formaten) mit `Spreadsheet2003SaveOptions`.  
+- **Benötige ich eine Lizenz?** Ja, für den Produktionseinsatz ist eine gültige Aspose.Tasks‑Lizenz erforderlich.  
+- **Welche .NET‑Versionen funktionieren?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Wie viele Spalten kann ich hinzufügen?** Unbegrenzt – einfach weitere `AssignmentViewColumn`‑Instanzen erstellen.
+
+## Was sind mehrere benutzerdefinierte Spalten?
+Mehrere benutzerdefinierte Spalten sind vom Benutzer definierte Felder, die neben den Standard‑Zuordnungsspalten erscheinen, wenn ein Projekt gespeichert oder exportiert wird. Sie geben Ihnen die Flexibilität, jede Eigenschaft eines `ResourceAssignment`‑Objekts anzuzeigen, z. B. benutzerdefinierte Notizen, Kostenstellen oder berechnete Werte.
+
+## Warum mehrere benutzerdefinierte Spalten zur Zuordnungsansicht hinzufügen?
+- **Erweiterte Berichterstellung:** Projektbezogene Informationen einbeziehen, die von den integrierten Spalten nicht abgedeckt werden.  
+- **Bessere Entscheidungsfindung:** Stakeholder können die genauen Daten sehen, die sie benötigen, ohne in Rohdateien zu graben.  
+- **Konsistente Formatierung:** Spaltenbreite und Textumwandlung steuern für eine saubere, lesbare Ausgabe.  
 
 ## Voraussetzungen
 
-Bevor wir beginnen, stellen Sie sicher, dass Sie über Folgendes verfügen:
+Bevor wir beginnen, stellen Sie sicher, dass Sie Folgendes haben:
 
-1. Grundkenntnisse der Programmiersprache C#.
-2.  Aspose.Tasks für .NET-Bibliothek installiert. Wenn nicht, können Sie es herunterladen[Hier](https://releases.aspose.com/tasks/net/).
-3. Eine integrierte Entwicklungsumgebung (IDE) wie Visual Studio.
+1. Grundkenntnisse der Programmiersprache C#.  
+2. Aspose.Tasks für .NET‑Bibliothek installiert. Falls nicht, können Sie sie **[hier](https://releases.aspose.com/tasks/net/)** herunterladen.  
+3. Eine integrierte Entwicklungsumgebung (IDE) wie Visual Studio.  
 
-## Namespaces importieren
+## Schritt-für-Schritt-Anleitung
 
-Importieren wir zunächst die erforderlichen Namespaces, um auf die Klassen und Methoden zuzugreifen, die zum Erstellen benutzerdefinierter Zuweisungsansichtsspalten erforderlich sind:
+### Schritt 1: Namespaces importieren
+Importieren Sie zunächst die Namespaces, die die Klassen bereitstellen, die wir für die Arbeit mit Projekten und Visualisierungen benötigen.
 
 ```csharp
 using Aspose.Tasks;
@@ -35,46 +54,42 @@ using System;
 
 using Aspose.Tasks.Saving;
 using Aspose.Tasks.Visualization;
-
 ```
 
-## Schritt 1: Laden Sie das Projekt
-
- Laden Sie zunächst Ihre Projektdatei mit`Project` Klasse:
+### Schritt 2: Projekt laden
+Erstellen Sie eine `Project`‑Instanz und laden Sie eine vorhandene MPP‑Datei.
 
 ```csharp
-// Der Pfad zum Dokumentenverzeichnis.
+// The path to th documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "CreateProject2.mpp");
 ```
 
-## Schritt 2: Erstellen Sie Optionen zum Speichern der Tabellenkalkulation
-
- Erstellen Sie als Nächstes eine Instanz von`Spreadsheet2003SaveOptions` Dadurch können wir die Spalten der Aufgabenansicht anpassen:
+### Schritt 3: Spreadsheet‑Speicheroptionen erstellen
+Instanziieren Sie `Spreadsheet2003SaveOptions` – dieses Objekt ermöglicht es uns, die Zuordnungsansicht vor dem Export anzupassen.
 
 ```csharp
 var options = new Spreadsheet2003SaveOptions();
 ```
 
-## Schritt 3: Benutzerdefinierte Spalte definieren
-
- Definieren Sie nun Ihre benutzerdefinierte Spalte, indem Sie eine Instanz von erstellen`AssignmentViewColumn`. Diese Klasse benötigt den Spaltennamen, die Breite und eine Delegate-Funktion, um Zuweisungsdaten in Spaltentext umzuwandeln:
+### Schritt 4: Benutzerdefinierte Spalte definieren
+Erstellen Sie für jedes anzuzeigende Datenelement ein `AssignmentViewColumn`. Unten fügen wir eine **Notes**‑Spalte mit einer Breite von 200 Punkten hinzu.
 
 ```csharp
 var column = new AssignmentViewColumn("Notes", 200, delegate(ResourceAssignment assignment) { return assignment.Get(Asn.NotesText); });
 ```
 
-## Schritt 4: Benutzerdefinierte Spalte zu den Optionen hinzufügen
+**Tipp:** Um *mehrere* benutzerdefinierte Spalten hinzuzufügen, wiederholen Sie diesen Schritt mit unterschiedlichen Feldnamen und Delegatenlogik und fügen Sie jede Instanz zu `options.AssignmentView.Columns` hinzu.
 
-Fügen Sie die benutzerdefinierte Spalte zur Sammlung der Zuweisungsansichtsspalten der Speicheroptionen hinzu:
+### Schritt 5: Benutzerdefinierte Spalte zu den Optionen hinzufügen
+Fügen Sie die Spalte (oder Spalten) zur `Columns`‑Sammlung der Zuordnungsansicht hinzu.
 
 ```csharp
 options.AssignmentView.Columns.Add(column);
 ```
 
-## Schritt 5: Durchgehen Sie die Aufgaben
-
-Durchlaufen Sie jede Ressourcenzuweisung im Projekt und zeigen Sie den benutzerdefinierten Spaltentext an:
+### Schritt 6: Durch Zuordnungen iterieren (optional Debugging)
+Sie können durch die Zuordnungen iterieren, um zu überprüfen, ob der Text der benutzerdefinierten Spalte korrekt erzeugt wird.
 
 ```csharp
 foreach (var assignment in project.ResourceAssignments)
@@ -89,39 +104,47 @@ foreach (var assignment in project.ResourceAssignments)
 }
 ```
 
-## Schritt 6: Speichern Sie das Projekt mit benutzerdefinierten Spalten
-
-Speichern Sie abschließend das Projekt mit den benutzerdefinierten Aufgabenansichtsspalten:
+### Schritt 7: Projekt mit benutzerdefinierten Spalten speichern
+Speichern Sie schließlich das Projekt. Das Beispiel speichert nach XML, Sie können jedoch jedes unterstützte Format wählen.
 
 ```csharp
 project.Save(OutDir + "UsingSpreadsheet2003SaveOptions_out.xml", options);
 ```
 
-## Abschluss
+## Wie exportiere ich ein Projekt mit benutzerdefinierten Spalten nach XML?
+Wenn Sie `project.Save` mit den konfigurierten `Spreadsheet2003SaveOptions` aufrufen, schreibt Aspose.Tasks die Projektdaten – einschließlich aller **mehreren benutzerdefinierten Spalten** – in die ausgewählte XML‑Datei. So lässt sich angereicherte Projektinformation leicht mit anderen Systemen oder Stakeholdern teilen.
 
-In diesem Tutorial haben wir gelernt, wie man mit Aspose.Tasks für .NET benutzerdefinierte Spalten für die Aufgabenansicht hinzufügt. Benutzerdefinierte Spalten bieten Flexibilität bei der Anzeige zusätzlicher, auf Ihre Projektanforderungen zugeschnittener Informationen und verbessern so die Projektmanagementfunktionen.
+## Spaltenbreite benutzerdefinierter Spalten für bessere Lesbarkeit formatieren
+Der zweite Parameter des `AssignmentViewColumn`‑Konstruktors steuert die Spaltenbreite (gemessen in Punkten). Passen Sie diesen Wert an die erwartete Textmenge an. Zum Beispiel funktioniert eine Breite von **300** gut für längere Notizen, während **100** für kurze Kennzeichen ausreicht.
 
-## FAQs
+## Häufige Probleme und Lösungen
+- **Spaltentext erscheint leer:** Stellen Sie sicher, dass der Delegat einen String zurückgibt und dass die zugrunde liegende Zuordnungseigenschaft (z. B. `Asn.NotesText`) befüllt ist.  
+- **Spalten sind in der exportierten Datei nicht sichtbar:** Vergewissern Sie sich, dass `options.AssignmentView.Columns` Ihre benutzerdefinierten Spalten enthält, bevor Sie `Save` aufrufen.  
+- **Breite scheint ignoriert zu werden:** Einige Exportformate haben eigene Layoutregeln; XML respektiert die Breite, aber PDF/HTML benötigen möglicherweise zusätzliche Formatierung.  
 
-### F1: Kann ich der Aufgabenansicht mehrere benutzerdefinierte Spalten hinzufügen?
+## Häufig gestellte Fragen
 
- A1: Ja, Sie können mehrere benutzerdefinierte Spalten hinzufügen, indem Sie zusätzliche Instanzen von erstellen`AssignmentViewColumn` und sie dem hinzufügen`Columns` Sammlung.
+### F1: Kann ich mehrere benutzerdefinierte Spalten zur Zuordnungsansicht hinzufügen?
+**A:** Ja, erstellen Sie einfach zusätzliche `AssignmentViewColumn`‑Objekte und fügen Sie jedes zu `options.AssignmentView.Columns` hinzu.
 
-### F2: Gibt es vordefinierte Konverter für allgemeine Zuweisungsfelder?
+### F2: Gibt es vordefinierte Konverter für gängige Zuordnungsfelder?
+**A:** Ja, Aspose.Tasks stellt integrierte Konverter für viele Standardfelder bereit, sodass Sie Daten leicht abrufen können, ohne eigene Delegaten zu schreiben.
 
-A2: Ja, Aspose.Tasks bietet vordefinierte Konverter für allgemeine Zuweisungsfelder und erleichtert so das Extrahieren von Daten für benutzerdefinierte Spalten.
+### F3: Kann ich das Aussehen benutzerdefinierter Spalten anpassen, z. B. Text formatieren oder Stile anwenden?
+**A:** Absolut. Neben dem Festlegen der Breite können Sie Schriftart, Ausrichtung und weitere visuelle Eigenschaften über die Stiloptionen der Spalte ändern.
 
-### F3: Kann ich das Erscheinungsbild benutzerdefinierter Spalten anpassen, z. B. durch Formatieren von Text oder Anwenden von Stilen?
+### F4: Ist es möglich, Standardspalten aus der Zuordnungsansicht zu entfernen?
+**A:** Sie können Standardspalten ausschließen, indem Sie sie aus der `Columns`‑Sammlung entfernen oder ihre Breite auf Null setzen.
 
-A3: Ja, Sie können das Erscheinungsbild benutzerdefinierter Spalten anpassen, indem Sie Eigenschaften wie Breite, Schriftart und Ausrichtung ändern.
+### F5: Unterstützt Aspose.Tasks den Export von Projekten in andere Formate neben Tabellenkalkulationen mit benutzerdefinierten Spalten?
+**A:** Ja, Aspose.Tasks kann in PDF, HTML, XML und viele andere Formate exportieren und dabei benutzerdefinierte Spaltendefinitionen beibehalten.
 
-### F4: Ist es möglich, Standardspalten aus der Aufgabenansicht zu entfernen?
+---
 
- A4: Ja, Sie können Standardspalten entfernen, indem Sie sie aus dem ausschließen`Columns` Sammlung oder Setzen ihrer Breite auf Null.
+**Last Updated:** 2026-03-19  
+**Tested With:** Aspose.Tasks 24.12 for .NET  
+**Author:** Aspose  
 
-### F5: Unterstützt Aspose.Tasks den Export von Projekten in andere Formate als Tabellenkalkulationen mit benutzerdefinierten Spalten?
-
-A5: Ja, Aspose.Tasks unterstützt den Export von Projekten in verschiedene Formate wie PDF, HTML und XML und ermöglicht so vielseitige Projektberichtsoptionen.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

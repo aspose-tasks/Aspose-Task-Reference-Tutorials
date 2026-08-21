@@ -1,53 +1,70 @@
 ---
-title: Menggunakan Algoritma Pohon di Aspose.Tasks
-linktitle: Menggunakan Algoritma Pohon di Aspose.Tasks
-second_title: Aspose.Tugas .NET API
-description: Pelajari cara memanipulasi hierarki tugas secara efektif di proyek .NET Anda menggunakan Algoritma Pohon Aspose.Tasks.
-weight: 13
+date: 2026-03-19
+description: Pelajari cara menambahkan sumber daya ke proyek, menghitung durasi tugas
+  menggunakan Algoritma Pohon Aspose.Tasks, dan menetapkan sumber daya ke tugas dalam
+  .NET.
+linktitle: Add Resource to Project with Tree Algorithm in Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+title: Tambahkan Sumber Daya ke Proyek dengan Algoritma Pohon di Aspose.Tasks
 url: /id/net/advanced-concepts/tree-algorithm/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Menggunakan Algoritma Pohon di Aspose.Tasks
+# Menambahkan Sumber Daya ke Proyek dengan Algoritma Pohon di Aspose.Tasks
 
-## Perkenalan
+## Introduction
 
-Aspose.Tasks untuk .NET menyediakan fungsionalitas canggih untuk bekerja dengan tugas, sumber daya, dan jadwal manajemen proyek. Salah satu fitur tersebut adalah Algoritma Pohon, yang memungkinkan pengguna memanipulasi hierarki tugas secara efisien. Dalam tutorial ini, kita akan mempelajari cara memanfaatkan Algoritma Pohon di Aspose.Tasks untuk .NET guna mengumpulkan pekerjaan umum dan memperbarui nilai pekerjaan dalam sebuah proyek.
+Dalam tutorial ini Anda akan menemukan **cara menambahkan sumber daya ke proyek** dengan memanfaatkan Algoritma Pohon yang kuat yang disediakan oleh Aspose.Tasks untuk .NET. Kami akan memandu Anda melalui pembuatan hierarki tugas, menghitung durasi tugas, dan menetapkan sumber daya ke tugas—semuanya dalam cara yang jelas, langkah demi langkah, yang dapat Anda salin ke dalam solusi Anda sendiri.
 
-## Prasyarat
+## Quick Answers
+- **What does the Tree Algorithm do?** Algoritma ini menelusuri hierarki tugas untuk mengakumulasi nilai kerja secara efisien.  
+- **Which primary operation does this guide cover?** Menambahkan sumber daya ke proyek dan memperbarui total kerja.  
+- **Do I need a license?** Lisensi sementara atau penuh diperlukan untuk penggunaan produksi.  
+- **Can I use this with .NET Core?** Ya, Aspose.Tasks mendukung .NET Framework dan .NET Core.  
+- **How long does implementation take?** Sekitar 10‑15 menit untuk file proyek dasar.
 
-Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
+## What is “add resource to project” in Aspose.Tasks?
 
-1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di sistem Anda.
-2.  Aspose.Tasks untuk .NET: Unduh dan instal Aspose.Tasks untuk .NET dari[Di Sini](https://releases.aspose.com/tasks/net/).
-3. Pemahaman dasar C#: Keakraban dengan bahasa pemrograman C# diperlukan untuk mengikuti contoh.
+Menambahkan sumber daya ke proyek berarti membuat objek `Resource`, menentukan tipenya (misalnya work), dan menautkannya ke satu atau lebih tugas melalui `ResourceAssignments`. Ini memungkinkan penjadwal menghitung upaya, biaya, dan durasi keseluruhan proyek.
 
-## Impor Namespace
+## Why use the Tree Algorithm for resource work calculations?
 
-Dalam proyek C# Anda, impor namespace yang diperlukan agar berfungsi dengan fungsi Aspose.Tasks:
+Algoritma Pohon menelusuri pohon tugas sekali, mengakumulasi kerja dari tugas daun hingga tugas rangkuman mereka. Pendekatan ini jauh lebih efisien dibandingkan mengiterasi setiap tugas secara individual, terutama pada proyek besar dengan hierarki yang dalam. Algoritma ini juga menjamin nilai kerja rangkuman tetap sinkron dengan anak‑anaknya.
+
+## Prerequisites
+
+Sebelum kita mulai, pastikan Anda memiliki hal‑hal berikut:
+
+1. **Visual Studio** – edisi terbaru apa pun (2019, 2022, atau lebih baru).  
+2. **Aspose.Tasks for .NET** – unduh dari [here](https://releases.aspose.com/tasks/net/).  
+3. **Basic C# knowledge** – Anda harus nyaman dengan kelas, objek, dan LINQ sederhana.
+
+## Import Namespaces
+
+Di proyek C# Anda, impor namespace yang diperlukan untuk bekerja dengan fungsionalitas Aspose.Tasks:
 
 ```csharp
 using Aspose.Tasks;
 using System;
 
 using Aspose.Tasks.Util;
-
 ```
 
-Sekarang, mari kita bagi setiap contoh menjadi beberapa langkah:
+Now, let's break down each example into multiple steps:
 
-## Langkah 1: Muat File Proyek
+## Step 1: Load Project File
 
 ```csharp
 var project = new Project(DataDir + "Project1.mpp");
 ```
 
- Muat file proyek ke dalam memori menggunakan`Project` kelas.
+Muat file proyek ke memori menggunakan kelas `Project`.
 
-## Langkah 2: Tentukan Hierarki Tugas
+## Step 2: Define Task Hierarchy
 
 ```csharp
 var root = project.RootTask.Children.Add("Project Management");
@@ -55,9 +72,9 @@ var summary = root.Children.Add("Manage iteration");
 var task = summary.Children.Add("Acquire staff");
 ```
 
-Tentukan hierarki tugas dengan menambahkan tugas induk dan anak.
+Definisikan hierarki tugas dengan menambahkan tugas induk dan anak.
 
-## Langkah 3: Tetapkan Properti Tugas
+## Step 3: Set Task Properties (including **calculate task duration**)
 
 ```csharp
 task.Set(Tsk.Start, new DateTime(1999, 5, 3, 9, 0, 0));
@@ -65,9 +82,9 @@ task.Set(Tsk.Duration, project.GetDuration(8 * 14, TimeUnitType.Hour));
 task.Set(Tsk.Finish, project.Get(Prj.Calendar).GetFinishDateByStartAndWork(task.Get(Tsk.Start), task.Get(Tsk.Duration)));
 ```
 
-Tetapkan properti seperti tanggal mulai, durasi, dan tanggal selesai untuk tugas.
+Di sini kami **calculate task duration** dengan mengonversi jam kerja menjadi objek `Duration` dan kemudian menentukan tanggal selesai.
 
-## Langkah 4: Tambahkan Sumber Daya
+## Step 4: Add Resource (**assign resources to tasks**)
 
 ```csharp
 var resource = project.Resources.Add("Project Manager");
@@ -75,18 +92,18 @@ resource.Set(Rsc.Type, ResourceType.Work);
 project.ResourceAssignments.Add(task, resource);
 ```
 
-Tambahkan sumber daya ke proyek dan tetapkan sumber daya tersebut ke tugas sesuai kebutuhan.
+Potongan kode ini **adds a resource to the project** dan **assigns resources to tasks** sehingga penjadwal mengetahui siapa yang bertanggung jawab atas pekerjaan tersebut.
 
-## Langkah 5: Terapkan Algoritma Pohon
+## Step 5: Apply Tree Algorithm
 
 ```csharp
 var acc = new WorkAccumulator();
 TaskUtils.Apply(summary, acc, 0);
 ```
 
- Inisialisasi`WorkAccumulator` kelas dan terapkan Algoritma Pohon untuk mengumpulkan pekerjaan umum.
+Inisialisasi kelas `WorkAccumulator` dan terapkan Algoritma Pohon untuk mengumpulkan kerja umum di seluruh hierarki.
 
-## Langkah 6: Perbarui Pekerjaan Tugas
+## Step 6: Update Task Work
 
 ```csharp
 var summaryWork = acc.Work.ToDouble();
@@ -94,33 +111,60 @@ summary.Set(Tsk.Work, project.GetWork(summaryWork));
 summary.Set(Tsk.RemainingWork, project.GetWork(summaryWork));
 ```
 
-Perbarui nilai pekerjaan untuk tugas berdasarkan informasi yang dikumpulkan.
+Perbarui nilai kerja untuk tugas berdasarkan informasi yang dikumpulkan.
 
-## Kesimpulan
+## Common Issues & Tips
 
-Dalam tutorial ini, kita telah mempelajari cara memanfaatkan Algoritma Pohon di Aspose.Tasks untuk .NET untuk memanipulasi hierarki tugas secara efektif. Dengan mengikuti panduan langkah demi langkah, Anda dapat mengelola tugas dan sumber daya dalam proyek Anda secara efisien.
+- **Missing calendar settings:** Jika tanggal selesai tampak tidak tepat, pastikan kalender proyek dikonfigurasi dengan benar sebelum memanggil `GetFinishDateByStartAndWork`.  
+- **Resource type mismatch:** Selalu set `Rsc.Type` ke `ResourceType.Work` untuk sumber daya berbasis upaya; jika tidak, akumulasi kerja dapat menghasilkan nol.  
+- **Pro tip:** Setelah memperbarui kerja, panggil `project.Save("UpdatedProject.mpp")` untuk menyimpan perubahan.
 
-## FAQ
+## Conclusion
 
-### Q1: Apa itu Aspose.Tasks untuk .NET?
+Dengan mengikuti langkah‑langkah ini Anda kini tahu cara **add resource to project**, **calculate task duration**, dan **assign resources to tasks** menggunakan Algoritma Pohon Aspose.Tasks. Metode ini menyederhanakan manajemen hierarki dan menjaga nilai kerja rangkuman tetap akurat dengan kode yang minimal.
 
-A1: Aspose.Tasks untuk .NET adalah API canggih yang memungkinkan pengembang memanipulasi file Microsoft Project secara terprogram menggunakan C#.
+## FAQ's
 
-### Q2: Dapatkah saya mengunduh uji coba gratis Aspose.Tasks untuk .NET?
+### Q1: What is Aspose.Tasks for .NET?
 
- A2: Ya, Anda dapat mengunduh uji coba gratis Aspose.Tasks untuk .NET dari[Di Sini](https://releases.aspose.com/).
+A1: Aspose.Tasks for .NET adalah API yang kuat yang memungkinkan pengembang memanipulasi file Microsoft Project secara programatis menggunakan C#.
 
-### Q3: Di mana saya dapat menemukan dokumentasi Aspose.Tasks untuk .NET?
+### Q2: Can I download a free trial of Aspose.Tasks for .NET?
 
- A3: Anda dapat menemukan dokumentasi Aspose.Tasks untuk .NET[Di Sini](https://reference.aspose.com/tasks/net/).
+A2: Ya, Anda dapat mengunduh versi percobaan gratis Aspose.Tasks untuk .NET dari [here](https://releases.aspose.com/).
 
-### Q4: Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Tasks untuk .NET?
+### Q3: Where can I find documentation for Aspose.Tasks for .NET?
 
- A4: Untuk dukungan terkait Aspose.Tasks untuk .NET, Anda dapat mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15).
+A3: Anda dapat menemukan dokumentasi untuk Aspose.Tasks for .NET [here](https://reference.aspose.com/tasks/net/).
 
-### Q5: Apakah ada lisensi sementara yang tersedia untuk tujuan pengujian?
+### Q4: How can I get support for Aspose.Tasks for .NET?
 
- A5: Ya, Anda bisa mendapatkan lisensi sementara untuk tujuan pengujian dari[Di Sini](https://purchase.aspose.com/temporary-license/).
+A4: Untuk dukungan terkait Aspose.Tasks for .NET, Anda dapat mengunjungi [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
+
+### Q5: Is there a temporary license available for testing purposes?
+
+A5: Ya, Anda dapat memperoleh lisensi sementara untuk tujuan pengujian dari [here](https://purchase.aspose.com/temporary-license/).
+
+## Frequently Asked Questions
+
+**Q: Can I use this approach with an existing large project file?**  
+A: Tentu saja. Algoritma Pohon bekerja pada instance `Project` apa pun, terlepas dari ukuran.
+
+**Q: Does the algorithm also update cost values?**  
+A: Contoh ini fokus pada kerja, tetapi Anda dapat memperluasnya ke biaya dengan mengakumulasi `Tsk.Cost` dengan cara serupa.
+
+**Q: What .NET versions are supported?**  
+A: Aspose.Tasks mendukung .NET Framework 4.5+, .NET Core 3.1+, .NET 5+, dan .NET 6+.
+
+**Q: How do I handle multiple resources per task?**  
+A: Tambahkan setiap sumber daya dengan `project.ResourceAssignments.Add(task, resource)`; akumulator akan menjumlahkan kerja mereka secara otomatis.
+
+---
+
+**Last Updated:** 2026-03-19  
+**Tested With:** Aspose.Tasks 24.11 for .NET  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

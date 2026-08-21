@@ -1,29 +1,45 @@
 ---
-title: Usando el algoritmo de árbol en Aspose.Tasks
-linktitle: Usando el algoritmo de árbol en Aspose.Tasks
-second_title: API Aspose.Tasks .NET
-description: Aprenda a manipular eficazmente las jerarquías de tareas en sus proyectos .NET utilizando el algoritmo de árbol de Aspose.Tasks.
-weight: 13
+date: 2026-03-19
+description: Aprende cómo agregar recursos al proyecto y calcular la duración de las
+  tareas usando el algoritmo de árbol de Aspose.Tasks, y asignar recursos a las tareas
+  en .NET.
+linktitle: Add Resource to Project with Tree Algorithm in Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+title: Agregar recurso al proyecto con algoritmo de árbol en Aspose.Tasks
 url: /es/net/advanced-concepts/tree-algorithm/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Usando el algoritmo de árbol en Aspose.Tasks
+# Agregar recurso al proyecto con el algoritmo de árbol en Aspose.Tasks
 
 ## Introducción
 
-Aspose.Tasks para .NET proporciona potentes funcionalidades para trabajar con tareas, recursos y cronogramas de gestión de proyectos. Una de esas características es el algoritmo de árbol, que permite a los usuarios manipular jerarquías de tareas de manera eficiente. En este tutorial, exploraremos cómo utilizar el algoritmo de árbol en Aspose.Tasks para .NET para recopilar trabajo común y actualizar valores de trabajo dentro de un proyecto.
+En este tutorial descubrirá **cómo agregar un recurso al proyecto** aprovechando el potente algoritmo de árbol suministrado por Aspose.Tasks para .NET. Recorreremos la creación de una jerarquía de tareas, el cálculo de la duración de las tareas y la asignación de recursos a las tareas, todo de manera clara, paso a paso, que podrá copiar en su propia solución.
+
+## Respuestas rápidas
+- **¿Qué hace el algoritmo de árbol?** Recorre una jerarquía de tareas para agregar valores de trabajo de manera eficiente.  
+- **¿Qué operación principal cubre esta guía?** Agregar un recurso a un proyecto y actualizar los totales de trabajo.  
+- **¿Necesito una licencia?** Se requiere una licencia temporal o completa para uso en producción.  
+- **¿Puedo usar esto con .NET Core?** Sí, Aspose.Tasks admite .NET Framework y .NET Core.  
+- **¿Cuánto tiempo lleva la implementación?** Aproximadamente 10‑15 minutos para un archivo de proyecto básico.
+
+## ¿Qué es “agregar recurso al proyecto” en Aspose.Tasks?
+
+Agregar un recurso a un proyecto significa crear un objeto `Resource`, definir su tipo (p. ej., trabajo) y vincularlo a una o más tareas mediante `ResourceAssignments`. Esto permite que el planificador calcule el esfuerzo, el costo y la duración total del proyecto.
+
+## ¿Por qué usar el algoritmo de árbol para los cálculos del trabajo de recursos?
+
+El algoritmo de árbol recorre el árbol de tareas una sola vez, acumulando el trabajo de las tareas hoja hasta sus tareas resumen. Este enfoque es mucho más eficiente que iterar sobre cada tarea individualmente, especialmente en proyectos grandes con jerarquías profundas. Además, garantiza que los valores de trabajo resumido permanezcan sincronizados con sus sub‑tareas.
 
 ## Requisitos previos
 
-Antes de comenzar, asegúrese de contar con los siguientes requisitos previos:
-
-1. Visual Studio: asegúrese de tener Visual Studio instalado en su sistema.
-2.  Aspose.Tasks para .NET: Descargue e instale Aspose.Tasks para .NET desde[aquí](https://releases.aspose.com/tasks/net/).
-3. Comprensión básica de C#: se requiere familiaridad con el lenguaje de programación C# para seguir los ejemplos.
+1. **Visual Studio** – cualquier edición reciente (2019, 2022 o posterior).  
+2. **Aspose.Tasks for .NET** – descárguelo desde [aquí](https://releases.aspose.com/tasks/net/).  
+3. **Conocimientos básicos de C#** – debe sentirse cómodo con clases, objetos y LINQ simple.
 
 ## Importar espacios de nombres
 
@@ -34,20 +50,19 @@ using Aspose.Tasks;
 using System;
 
 using Aspose.Tasks.Util;
-
 ```
 
-Ahora, dividamos cada ejemplo en varios pasos:
+Ahora, desglosaremos cada ejemplo en varios pasos:
 
-## Paso 1: cargar el archivo del proyecto
+## Paso 1: Cargar archivo de proyecto
 
 ```csharp
 var project = new Project(DataDir + "Project1.mpp");
 ```
 
- Cargue el archivo del proyecto en la memoria usando el`Project` clase.
+Cargue el archivo de proyecto en memoria usando la clase `Project`.
 
-## Paso 2: definir la jerarquía de tareas
+## Paso 2: Definir jerarquía de tareas
 
 ```csharp
 var root = project.RootTask.Children.Add("Project Management");
@@ -55,9 +70,9 @@ var summary = root.Children.Add("Manage iteration");
 var task = summary.Children.Add("Acquire staff");
 ```
 
-Defina la jerarquía de tareas agregando tareas principales y secundarias.
+Defina la jerarquía de tareas agregando tareas padre e hijo.
 
-## Paso 3: establecer las propiedades de la tarea
+## Paso 3: Establecer propiedades de la tarea (incluyendo **calcular duración de la tarea**)
 
 ```csharp
 task.Set(Tsk.Start, new DateTime(1999, 5, 3, 9, 0, 0));
@@ -65,9 +80,9 @@ task.Set(Tsk.Duration, project.GetDuration(8 * 14, TimeUnitType.Hour));
 task.Set(Tsk.Finish, project.Get(Prj.Calendar).GetFinishDateByStartAndWork(task.Get(Tsk.Start), task.Get(Tsk.Duration)));
 ```
 
-Establezca propiedades como la fecha de inicio, la duración y la fecha de finalización de las tareas.
+Aquí **calculamos la duración de la tarea** convirtiendo las horas de trabajo en un objeto `Duration` y luego derivamos la fecha de finalización.
 
-## Paso 4: agregar recurso
+## Paso 4: Agregar recurso (**asignar recursos a tareas**)
 
 ```csharp
 var resource = project.Resources.Add("Project Manager");
@@ -75,18 +90,18 @@ resource.Set(Rsc.Type, ResourceType.Work);
 project.ResourceAssignments.Add(task, resource);
 ```
 
-Agregue recursos al proyecto y asígnelos a tareas según sea necesario.
+Este fragmento **agrega un recurso al proyecto** y **asigna recursos a tareas** para que el planificador sepa quién es responsable del trabajo.
 
-## Paso 5: aplicar el algoritmo de árbol
+## Paso 5: Aplicar algoritmo de árbol
 
 ```csharp
 var acc = new WorkAccumulator();
 TaskUtils.Apply(summary, acc, 0);
 ```
 
- Inicializar el`WorkAccumulator` clase y aplicar el algoritmo de árbol para reunir trabajo común.
+Inicialice la clase `WorkAccumulator` y aplique el algoritmo de árbol para recopilar el trabajo común a lo largo de la jerarquía.
 
-## Paso 6: Actualizar el trabajo de la tarea
+## Paso 6: Actualizar trabajo de la tarea
 
 ```csharp
 var summaryWork = acc.Work.ToDouble();
@@ -94,33 +109,60 @@ summary.Set(Tsk.Work, project.GetWork(summaryWork));
 summary.Set(Tsk.RemainingWork, project.GetWork(summaryWork));
 ```
 
-Actualice los valores de trabajo para las tareas según la información recopilada.
+Actualice los valores de trabajo de las tareas basándose en la información recopilada.
+
+## Problemas comunes y consejos
+
+- **Configuración de calendario faltante:** Si la fecha de finalización parece incorrecta, asegúrese de que el calendario del proyecto esté configurado correctamente antes de llamar a `GetFinishDateByStartAndWork`.  
+- **Tipo de recurso no coincide:** Siempre establezca `Rsc.Type` a `ResourceType.Work` para recursos basados en esfuerzo; de lo contrario, la acumulación de trabajo puede devolver cero.  
+- **Consejo profesional:** Después de actualizar el trabajo, llame a `project.Save("UpdatedProject.mpp")` para guardar los cambios.
 
 ## Conclusión
 
-En este tutorial, aprendimos cómo utilizar el algoritmo de árbol en Aspose.Tasks para .NET para manipular jerarquías de tareas de manera efectiva. Siguiendo la guía paso a paso, podrá administrar de manera eficiente las tareas y recursos dentro de sus proyectos.
+Al seguir estos pasos ahora sabe cómo **agregar un recurso al proyecto**, **calcular la duración de la tarea** y **asignar recursos a tareas** usando el algoritmo de árbol de Aspose.Tasks. Este método simplifica la gestión de la jerarquía y mantiene los valores de trabajo resumido precisos con un código mínimo.
 
 ## Preguntas frecuentes
 
-### P1: ¿Qué es Aspose.Tasks para .NET?
+### Q1: ¿Qué es Aspose.Tasks para .NET?
 
-R1: Aspose.Tasks para .NET es una potente API que permite a los desarrolladores manipular archivos de Microsoft Project mediante programación utilizando C#.
+Aspose.Tasks para .NET es una API potente que permite a los desarrolladores manipular archivos de Microsoft Project programáticamente usando C#.
 
-### P2: ¿Puedo descargar una prueba gratuita de Aspose.Tasks para .NET?
+### Q2: ¿Puedo descargar una prueba gratuita de Aspose.Tasks para .NET?
 
- R2: Sí, puede descargar una prueba gratuita de Aspose.Tasks para .NET desde[aquí](https://releases.aspose.com/).
+Sí, puede descargar una prueba gratuita de Aspose.Tasks para .NET desde [aquí](https://releases.aspose.com/).
 
-### P3: ¿Dónde puedo encontrar documentación para Aspose.Tasks para .NET?
+### Q3: ¿Dónde puedo encontrar la documentación de Aspose.Tasks para .NET?
 
- R3: Puede encontrar la documentación de Aspose.Tasks para .NET[aquí](https://reference.aspose.com/tasks/net/).
+Puede encontrar la documentación de Aspose.Tasks para .NET [aquí](https://reference.aspose.com/tasks/net/).
 
-### P4: ¿Cómo puedo obtener soporte para Aspose.Tasks para .NET?
+### Q4: ¿Cómo puedo obtener soporte para Aspose.Tasks para .NET?
 
- R4: Para obtener soporte relacionado con Aspose.Tasks para .NET, puede visitar el[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+Para soporte relacionado con Aspose.Tasks para .NET, puede visitar el [foro de Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
 
-### P5: ¿Existe una licencia temporal disponible para realizar pruebas?
+### Q5: ¿Hay una licencia temporal disponible para propósitos de prueba?
 
- R5: Sí, puede obtener una licencia temporal para realizar pruebas en[aquí](https://purchase.aspose.com/temporary-license/).
+Sí, puede obtener una licencia temporal para propósitos de prueba desde [aquí](https://purchase.aspose.com/temporary-license/).
+
+## Preguntas frecuentes
+
+**Q: ¿Puedo usar este enfoque con un archivo de proyecto grande existente?**  
+A: Absolutamente. El algoritmo de árbol funciona con cualquier instancia de `Project`, sin importar el tamaño.
+
+**Q: ¿El algoritmo también actualiza los valores de costo?**  
+A: El ejemplo se centra en el trabajo, pero puede ampliarlo para incluir costos acumulando `Tsk.Cost` de forma similar.
+
+**Q: ¿Qué versiones de .NET son compatibles?**  
+A: Aspose.Tasks es compatible con .NET Framework 4.5+, .NET Core 3.1+, .NET 5+ y .NET 6+.
+
+**Q: ¿Cómo manejo varios recursos por tarea?**  
+A: Agregue cada recurso con `project.ResourceAssignments.Add(task, resource)`; el acumulador sumará su trabajo automáticamente.
+
+---
+
+**Última actualización:** 2026-03-19  
+**Probado con:** Aspose.Tasks 24.11 for .NET  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

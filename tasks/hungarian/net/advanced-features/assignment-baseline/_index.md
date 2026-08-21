@@ -1,56 +1,64 @@
 ---
-title: A hozzárendelés alapvonalának kezelése az Aspose.Tasks programban
-linktitle: A hozzárendelés alapvonalának kezelése az Aspose.Tasks programban
+date: 2026-03-19
+description: Tanulja meg, hogyan állíthat be projekt alapvonalat, és kezelheti hatékonyan
+  a feladat alapvonalakat az Aspose.Tasks for .NET segítségével, biztosítva a projekt
+  előrehaladásának pontos nyomon követését.
+linktitle: Managing Assignment Baseline in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Tanulja meg, hogyan kezelheti hatékonyan a hozzárendelési alapvonalakat az Aspose.Tasks for .NET segítségével, amely biztosítja a projekt előrehaladásának és teljesítményének pontos nyomon követését.
-weight: 14
+title: Projekt alapvonal beállítása – Kiosztási alapvonal kezelése az Aspose.Tasks-ben
 url: /hu/net/advanced-features/assignment-baseline/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# A hozzárendelés alapvonalának kezelése az Aspose.Tasks programban
+# Projekt alapvonal beállítása – Feladat alapvonal kezelése az Aspose.Tasks-ben
 
 ## Bevezetés
 
-A projektmenedzsment feladatokon végzett munka során a hozzárendelési alapállapotok kezelése kulcsfontosságú az előrehaladás pontos nyomon követéséhez. Az Aspose.Tasks for .NET átfogó eszközkészletet biztosít a hozzárendelési alaphelyzetek hatékony kezeléséhez. Ebben az oktatóanyagban lépésről lépésre elmélyülünk a hozzárendelési alapvonalak kezelésének folyamatában.
+Projektmenedzsment feladatok során a **projekt alapvonal beállítása** elengedhetetlen a tényleges előrehaladás méréséhez az eredeti tervhez képest. Az Aspose.Tasks for .NET nem csak lehetővé teszi a **projekt alapvonal beállítását**, hanem teljes ellenőrzést ad a feladat alapvonalak felett is, lehetővé téve a pontos teljesítménykövetést. Ebben az útmutatóban végigvezetünk a teljes folyamaton – a projekt betöltését, az alapvonal beállítását, a feladat alapvonal adatainak olvasását és az alapvonalak összehasonlítását – hogy magabiztosan nyomon követhesse projektjeit.
+
+## Gyors válaszok
+- **Mit jelent a „projekt alapvonal beállítása”?** Rögzíti az eredeti ütemezési és költségadatokat, hogy később össze lehessen hasonlítani a tényleges teljesítménnyel.  
+- **Melyik API metódus állít be alapvonalat?** `Project.SetBaseline(BaselineType.Baseline)`.  
+- **A feladat alapvonalakhoz külön hívás szükséges?** Nem, automatikusan tárolódnak, amikor projekt alapvonalat állít be.  
+- **Milyen formátumok támogatottak?** MPP, XML, MPX és továbbiak az Aspose.Tasks segítségével.  
+- **Szükséges licenc a termeléshez?** Igen, kereskedelmi licenc szükséges a nem‑próbaverzió használatához.
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
+Mielőtt elkezdenénk, győződjön meg róla, hogy rendelkezik:
 
-- C# programozási nyelv alapismerete.
-- A Visual Studio telepítve van a rendszerére.
-- Aspose.Tasks for .NET könyvtár hozzáadva a projekthez. Letöltheti innen[itt](https://releases.aspose.com/tasks/net/).
-- Hozzáférés egy projektfájlhoz MPP formátumban.
+- Alapvető C# programozási ismeretekkel.  
+- Visual Studio (bármely friss verzió).  
+- Az Aspose.Tasks for .NET könyvtár hozzáadva a projektjéhez. Letöltheti [itt](https://releases.aspose.com/tasks/net/).  
+- Hozzáférés egy MPP formátumú projektfájlhoz (pl. `AssignmentBaseline2007.mpp`).
 
-## Névterek importálása
+## Névtér importálása
 
-Az Aspose.Tasks használatának megkezdéséhez importálnia kell a szükséges névtereket a C# projektbe. Adja hozzá a következő névtereket a C# fájl elejéhez:
+Adja hozzá a szükséges névtereket a C# fájlja tetejéhez, hogy a fordító tudja, hol találja az Aspose.Tasks osztályokat.
 
 ```csharp
 using Aspose.Tasks;
 using System;
-
-
 ```
 
-## 1. lépés: Töltse be a projektet és állítsa be az alapvonalat
+## 1. lépés: Projekt betöltése és projekt alapvonal beállítása
 
- Először töltse be a projektfájlt a`Project` osztály az Aspose.Tasks. Ezután állítsa be a projekt alaptípusát a segítségével`SetBaseline` módszer.
+Először töltse be a meglévő MPP fájlt, majd hívja meg a `SetBaseline` metódust a **projekt alapvonal beállításához** az egész projektre.
 
 ```csharp
-// A dokumentumok könyvtárának elérési útja.
+// The path to the documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "AssignmentBaseline2007.mpp");
 project.SetBaseline(BaselineType.Baseline);
 ```
 
-## 2. lépés: Olvassa el a hozzárendelés alapinformációit
+## 2. lépés: Feladat alapvonal információk olvasása
 
-Iteráljon a projektben minden egyes erőforrás-hozzárendelésen keresztül, és kérjen le alapinformációkat minden egyes hozzárendeléshez.
+Miután az alapvonal be lett állítva, minden erőforrás feladat saját alapvonal rekordokat tartalmaz. Az alábbi ciklus kinyeri és kiírja ezeket a részleteket, beleértve a kezdő/vég dátumokat, költséget, munkát és minden időszakos adatot.
 
 ```csharp
 foreach (var assignment in project.ResourceAssignments)
@@ -82,9 +90,9 @@ foreach (var assignment in project.ResourceAssignments)
 }
 ```
 
-## 3. lépés: Ellenőrizze az alapvonal egyenlőségét
+## 3. lépés: Feladat alapvonalak összehasonlítása
 
-Hasonlítsa össze az alapinformációkat a különböző hozzárendelésekhez az Aspose.Tasks által biztosított különféle összehasonlítási módszerekkel.
+Az egyes feladatok alapvonalait összehasonlíthatja a beépített egyenlőség- és összehasonlító operátorokkal. Ez hasznos, ha ütemezési eltolódásokat vagy költségtúllépéseket kell felderíteni a feladatok között.
 
 ```csharp
 var assn1 = project.ResourceAssignments.GetByUid(5);
@@ -93,45 +101,53 @@ var assn2 = project.ResourceAssignments.GetByUid(7);
 var assignmentBaseline1 = assn1.Baselines.ToList()[0];
 var assignmentBaseline2 = assn2.Baselines.ToList()[0];
 
-// Ellenőrizze az alapvonal egyenlőségét
+// Check baseline equality
 Console.WriteLine("Are baselines equal: " + assignmentBaseline1.Equals(assignmentBaseline2));
 
-// Ellenőrizze az alapvonal összehasonlítását
+// Check baseline comparison
 Console.WriteLine("Is baseline 1 less than baseline 2: " + (assignmentBaseline1 < assignmentBaseline2));
 
-// Az alapvonal hashkódjainak megjelenítése
+// Display baseline hashcodes
 Console.WriteLine("Assignment baseline 1 hashcode: " + assignmentBaseline1.GetHashCode());
 Console.WriteLine("Assignment baseline 2 hashcode: " + assignmentBaseline2.GetHashCode());
 ```
 
-## Következtetés
+## Gyakori problémák és megoldások
 
-megbízások alaphelyzeteinek kezelése a projektmenedzsment szerves része, lehetővé téve a haladás és a teljesítmény pontos nyomon követését. Az Aspose.Tasks for .NET segítségével a hozzárendelési alapok kezelése egyszerűbbé és hatékonyabbá válik, hatékony eszközöket biztosítva a fejlesztőknek a projektmenedzsment munkafolyamatainak javításához.
+| Probléma | Miért fordul elő | Megoldás |
+|----------|------------------|----------|
+| **Az alapvonal adatok üresnek jelennek meg** | A projektfájlt csak‑olvasás módban nyitották meg, vagy az alapvonal soha nem lett beállítva. | Hívja meg a `project.SetBaseline(BaselineType.Baseline)` metódust a feladat alapvonalak olvasása előtt. |
+| **`NullReferenceException` a `TimephasedData`-n** | Nem minden alapvonal tartalmaz időszakos bejegyzéseket. | Mindig ellenőrizze, hogy `baseline.TimephasedData != null` (ahogy a kódban is látható). |
+| **Helytelen UID lekérés** | Az UID értékek fájlverziók között eltérnek. | Használja a `ResourceAssignments.GetByUid` metódust a megfelelő UID-vel, vagy iteráljon a szükséges feladat megtalálásához. |
 
-## GYIK
+## Gyakran ismételt kérdések
 
-### 1. kérdés: Az Aspose.Tasks képes-e több alapvonalat kezelni egyetlen feladathoz?
+**Q: Kezelhet-e az Aspose.Tasks több alapvonalat egyetlen feladatnál?**  
+A: Igen, az Aspose.Tasks több alapvonalat támogat minden feladatnál, lehetővé téve a projekt előrehaladásának átfogó nyomon követését az idő során.
 
-1. válasz: Igen, az Aspose.Tasks több alapvonalat támogat minden egyes feladathoz, lehetővé téve a projekt előrehaladásának átfogó nyomon követését az idő múlásával.
+**Q: Kompatibilis-e az Aspose.Tasks különböző projektfájl formátumokkal az MPP-n kívül?**  
+A: Igen, az Aspose.Tasks széles körű projektfájl formátumot támogat, beleértve az XML, MPX és MPP formátumokat, biztosítva a kompatibilitást különböző projektmenedzsment eszközökkel.
 
-### 2. kérdés: Az Aspose.Tasks kompatibilis az MPP-n kívüli különböző projektfájlformátumokkal?
+**Q: Módosíthatom programozottan az alapvonal információkat az Aspose.Tasks használatával?**  
+A: Teljes mértékben, az Aspose.Tasks kiterjedt API-kat biztosít az alapvonal információk dinamikus módosításához a projekt követelményei szerint, rugalmasságot és irányítást nyújtva a projektmenedzsment folyamatok felett.
 
-2. válasz: Igen, az Aspose.Tasks a projektfájlformátumok széles skáláját támogatja, beleértve az XML-t, az MPX-et és az MPP-t, biztosítva a kompatibilitást a különböző projektmenedzsment eszközökkel.
+**Q: Kínál-e az Aspose.Tasks dokumentációt és támogatási erőforrásokat fejlesztőknek?**  
+A: Igen, a fejlesztők hozzáférhetnek átfogó dokumentációhoz, útmutatókhoz és fórumokhoz az Aspose.Tasks weboldalán, megkönnyítve a zökkenőmentes integrációt és a hibakeresést.
 
-### 3. kérdés: Módosíthatom az alapadatokat programozottan az Aspose.Tasks használatával?
+**Q: Elérhető-e próbaverzió az Aspose.Tasks for .NET-hez?**  
+A: Igen, a fejlesztők ingyenes próbaverziót szerezhetnek az Aspose.Tasks for .NET-ből [itt](https://releases.aspose.com/), lehetővé téve a funkciók és képességek értékelését vásárlási döntés előtt.
 
-3. válasz: Természetesen az Aspose.Tasks kiterjedt API-kat biztosít az alapinformációk dinamikus módosításához a projekt követelményeinek megfelelően, rugalmasságot és irányítást biztosítva a projektmenedzsment folyamatok felett.
-
-### 4. kérdés: Az Aspose.Tasks dokumentációt és támogatási forrásokat kínál a fejlesztők számára?
-
-4. válasz: Igen, a fejlesztők hozzáférhetnek az Aspose.Tasks webhelyen található átfogó dokumentációkhoz, oktatóanyagokhoz és fórumokhoz, amelyek megkönnyítik a zökkenőmentes integrációt és a hibaelhárítást.
-
-### 5. kérdés: Elérhető-e próbaverzió az Aspose.Tasks .NET-hez?
-
- 5. válasz: Igen, a fejlesztők beszerezhetik az Aspose.Tasks ingyenes próbaverzióját .NET-hez innen[itt](https://releases.aspose.com/), lehetővé téve számukra, hogy a vásárlási döntés meghozatala előtt értékeljék a szolgáltatásait és képességeit.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Legutóbb frissítve:** 2026-03-19  
+**Tesztelve:** Aspose.Tasks 24.12 for .NET  
+**Szerző:** Aspose  
+
+---
