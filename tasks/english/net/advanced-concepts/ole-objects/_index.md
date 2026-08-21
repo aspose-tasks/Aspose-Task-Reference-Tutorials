@@ -1,6 +1,6 @@
 ---
-title: How to Remove OLE Objects in Aspose.Tasks for .NET
-linktitle: How to Remove OLE Objects in Aspose.Tasks for .NET
+title: How to Remove OLE Objects Using Aspose.Tasks for .NET API
+linktitle: How to Remove OLE Objects Using Aspose.Tasks for .NET API
 second_title: Aspose.Tasks .NET API
 description: Learn how to remove OLE objects using Aspose.Tasks for .NET, and discover how to manage OLE and clear OLE efficiently in your projects.
 weight: 22
@@ -12,7 +12,7 @@ date: 2026-03-16
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to Remove OLE Objects in Aspose.Tasks for .NET
+# How to Remove OLE Objects Using Aspose.Tasks for .NET API
 
 ## Introduction
 
@@ -39,7 +39,7 @@ Removing OLE objects means deleting the embedded files (images, Excel sheets, Wo
 
 Before we begin, make sure you have:
 
-1. **Aspose.Tasks for .NET** installed. You can download it from [here](https://releases.aspose.com/tasks/net/).  
+1. **Aspose.Tasks for .NET** installed. You can download it from [Aspose.Tasks for .NET download page](https://releases.aspose.com/tasks/net/).  
 2. Basic knowledge of **C#** and the **.NET** ecosystem.  
 3. A development environment such as **Visual Studio** (Community or higher).  
 
@@ -159,7 +159,7 @@ else
 | `project.Save` throws an exception | File is locked or you lack write permissions. | Close any open instances of the file and ensure the target folder is writable. |
 | Content bytes look corrupted | You are reading the full byte array as text. | Use `Get10Bytes` or write the bytes to a file to inspect them in a proper viewer. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can Aspose.Tasks handle various OLE object formats?**  
 A: Yes, it supports images, Office documents, PDFs, and many other OLE formats.
@@ -180,12 +180,12 @@ A: Check the official Aspose.Tasks documentation and the API reference for the `
 
 We’ve covered everything you need to **remove OLE objects** and manage OLE content in Aspose.Tasks for .NET. By following the step‑by‑step examples, you can inspect, clear, and adjust visual placement of OLE objects, keeping your project files lean and focused.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 
 ---
 
@@ -194,3 +194,10 @@ We’ve covered everything you need to **remove OLE objects** and manage OLE con
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -1,6 +1,6 @@
 ---
-title: Implement page saving callback in Aspose.Tasks
-linktitle: Implement page saving callback in Aspose.Tasks
+title: Export PNG pages using page saving callback in Aspose.Tasks
+linktitle: Export PNG pages using page saving callback in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to implement page saving callback in Aspose.Tasks for .NET, enabling customized handling of multi-page document output streams.
 weight: 12
@@ -34,7 +34,7 @@ Exporting a project as PNG gives you a raster image of each Gantt chart page, wh
 ## Prerequisites
 
 1. **C# knowledge** – basic familiarity with classes, interfaces, and streams.  
-2. **Aspose.Tasks for .NET** – download and install from [here](https://releases.aspose.com/tasks/net/).  
+2. **Aspose.Tasks for .NET** – download and install from the **Aspose.Tasks download page**.  
 3. **IDE** – Visual Studio, Rider, or any .NET‑compatible editor.
 
 ## Import Namespaces
@@ -49,7 +49,7 @@ using System.IO;
 using Aspose.Tasks.Saving;
 ```
 
-## Step 1: Create a Project Object
+## Step 1: create a project object
 
 Load an existing MPP file into a `Project` instance:
 
@@ -57,7 +57,7 @@ Load an existing MPP file into a `Project` instance:
 var project = new Project(DataDir + "Homemoveplan.mpp");
 ```
 
-## Step 2: Configure Image Save Options
+## Step 2: configure image save options
 
 Set up `ImageSaveOptions` for PNG output and attach the custom callback:
 
@@ -70,7 +70,7 @@ imageSaveOptions.RenderToSinglePage = false;
 
 > **Pro tip:** Setting `RenderToSinglePage = false` ensures each Gantt chart page is rendered separately, which is essential for the callback to receive distinct streams.
 
-## Step 3: Save Project with Callback
+## Step 3: save project with callback
 
 Invoke the `Save` method, passing `Stream.Null` because the actual streams are supplied by the callback:
 
@@ -78,7 +78,7 @@ Invoke the `Save` method, passing `Stream.Null` because the actual streams are s
 project.Save(Stream.Null, imageSaveOptions);
 ```
 
-## Step 4: Process Saved Page Streams
+## Step 4: process saved page streams
 
 After the save operation completes, the callback holds a collection of `MemoryStream` objects—one per page. You can now iterate over them:
 
@@ -89,7 +89,7 @@ foreach (var stream in callback.PageStreams)
 }
 ```
 
-## Step 5: Implement Custom Page Saving Callback
+## Step 5: implement custom page saving callback
 
 Create a sealed class that implements `IPageSavingCallback`. This class captures each page’s stream and stores it in a list for later use.
 
@@ -113,7 +113,7 @@ private sealed class CustomPageSavingCallback : IPageSavingCallback
 }
 ```
 
-## Common Pitfalls & Troubleshooting
+## Common pitfalls & troubleshooting
 
 | Issue | Reason | Solution |
 |-------|--------|----------|
@@ -121,7 +121,7 @@ private sealed class CustomPageSavingCallback : IPageSavingCallback
 | **Streams are empty** | `KeepStreamOpen` set to `true` without disposing later. | Keep it `false` (default) and let the callback close streams automatically. |
 | **Out‑of‑memory errors** | Very large projects generate many high‑resolution PNGs. | Process streams one‑by‑one or increase VM memory limits. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q1: What is a page saving callback in Aspose.Tasks?**  
 A: A page saving callback lets you intercept the saving process for each page of a multi‑page document, providing a custom `Stream` for that page.
@@ -136,7 +136,7 @@ A: Absolutely. Aspose.Tasks supports .NET Core, .NET 5, and .NET 6.
 A: Wrap the callback logic in try/catch blocks and log exceptions. The `OnFinish` method is a good place for final cleanup.
 
 **Q5: Where can I find more resources and support for Aspose.Tasks?**  
-A: You can visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) for assistance, access documentation [here](https://reference.aspose.com/tasks/net/), or explore additional features and licensing options on the [Aspose.Tasks website](https://purchase.aspose.com/buy).
+A: You can visit the **Aspose.Tasks forum** for assistance, access the **Aspose.Tasks .NET API reference**, or explore additional features and licensing options on the **Aspose.Tasks website**.
 
 ---
 

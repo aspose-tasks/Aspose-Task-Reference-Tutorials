@@ -1,6 +1,6 @@
 ---
-title: How to combine multiple conditions with Advanced AND Operation in Aspose.Tasks
-linktitle: Advanced AND Operation in Aspise.Tasks
+title: Combine Multiple Conditions Using the Advanced AND Operation in Aspose.Tasks .NET API
+linktitle: Advanced AND Operation in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to combine multiple conditions and filter project tasks using the advanced AND operation in Aspose.Tasks for .NET.
 weight: 10
@@ -40,7 +40,7 @@ Combining multiple conditions means creating a composite filter that evaluates e
 Before we begin, make sure you have:
 
 1. Basic knowledge of C# programming.  
-2. Aspose.Tasks for .NET installed. If you haven’t downloaded it yet, get it **[here](https://releases.aspose.com/tasks/net/)**.  
+2. Aspose.Tasks for .NET installed. If you haven’t downloaded it yet, get it **[Aspose.Tasks .NET download page](https://releases.aspose.com/tasks/net/)**.  
 3. An IDE such as Visual Studio (any edition works).  
 
 ## Import Namespaces
@@ -55,7 +55,7 @@ using System.Collections.Generic;
 using Aspose.Tasks.Util;
 ```
 
-## Step 1: Initialize Project and Collect Tasks
+## Step 1: initialize project and collect tasks
 
 We’ll create a `Project` instance and use the `ChildTasksCollector` to gather every task in the file. This demonstrates **how to use collector** to retrieve a flat list of tasks.
 
@@ -67,7 +67,7 @@ var coll = new ChildTasksCollector();
 TaskUtils.Apply(project.RootTask, coll, 0);
 ```
 
-## Step 2: Define Filter Conditions
+## Step 2: define filter conditions
 
 Here we define the individual conditions we want to apply. In this example we **filter summary tasks** and also ensure the task object is not null.
 
@@ -76,7 +76,7 @@ var condition1 = new SummaryCondition();
 var condition2 = new NotNullCondition();
 ```
 
-## Step 3: Combine Conditions with AND Operation
+## Step 3: combine conditions with AND operation
 
 Now we **combine multiple conditions** using the `And<T>` class. This is the core of the **advanced AND operation**.
 
@@ -84,7 +84,7 @@ Now we **combine multiple conditions** using the `And<T>` class. This is the cor
 var joinedCondition = new And<Task>(condition1, condition2);
 ```
 
-## Step 4: Apply Condition and Filter Tasks
+## Step 4: apply condition and filter tasks
 
 With the composite condition ready, we call `Filter` to **filter project tasks** based on the combined logic.
 
@@ -92,7 +92,7 @@ With the composite condition ready, we call `Filter` to **filter project tasks**
 List<Task> collection = Filter(coll.Tasks, joinedCondition);
 ```
 
-## Step 5: Output Filtered Tasks
+## Step 5: output filtered tasks
 
 Finally, we display the tasks that satisfied **all** conditions. You can replace the `Console.WriteLine` calls with any custom processing you need.
 
@@ -105,7 +105,7 @@ foreach (var task in collection)
 }
 ```
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Why it Happens | Quick Fix |
 |-------|----------------|-----------|
@@ -125,15 +125,15 @@ A: Yes, Util.And can be used to combine any number of conditions to create compl
 
 ### Q3: Is there a free trial available for Aspose.Tasks for .NET?
 
-A: Yes, you can download a free trial from **[here](https://releases.aspose.com/)**.
+A: Yes, you can download a free trial from **[Aspose.Tasks free trial download](https://releases.aspose.com/)**.
 
 ### Q4: Where can I find documentation for Aspose.Tasks for .NET?
 
-A: You can find the documentation **[here](https://reference.aspose.com/tasks/net/)**.
+A: You can find the documentation **[Aspose.Tasks .NET API reference](https://reference.aspose.com/tasks/net/)**.
 
 ### Q5: How can I get support for Aspose.Tasks for .NET?
 
-A: You can get support from the Aspose.Tasks community forum **[here](https://forum.aspose.com/c/tasks/15)**.
+A: You can get support from the Aspose.Tasks community forum **[Aspose.Tasks community forum](https://forum.aspose.com/c/tasks/15)**.
 
 **Additional Q&A**
 
