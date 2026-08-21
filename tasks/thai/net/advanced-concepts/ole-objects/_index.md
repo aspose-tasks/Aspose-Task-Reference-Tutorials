@@ -1,35 +1,58 @@
 ---
-title: การทำงานกับวัตถุ OLE ใน Aspose.Tasks
-linktitle: การทำงานกับวัตถุ OLE ใน Aspose.Tasks
+date: 2026-03-16
+description: เรียนรู้วิธีการลบวัตถุ OLE ด้วย Aspose.Tasks สำหรับ .NET และค้นพบวิธีจัดการ
+  OLE และลบ OLE อย่างมีประสิทธิภาพในโครงการของคุณ
+linktitle: How to Remove OLE Objects in Aspose.Tasks for .NET
 second_title: Aspose.Tasks .NET API
-description: เรียนรู้วิธีทำงานอย่างมีประสิทธิภาพกับออบเจ็กต์ OLE ในแอปพลิเคชัน .NET โดยใช้ Aspose.Tasks ซึ่งช่วยเพิ่มความสามารถในการจัดการโครงการ
-weight: 22
+title: วิธีลบวัตถุ OLE ใน Aspose.Tasks สำหรับ .NET
 url: /th/net/advanced-concepts/ole-objects/
+weight: 22
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ Keep them.
+
+Check that we didn't translate URLs.
+
+Check that we kept markdown formatting.
+
+Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# การทำงานกับวัตถุ OLE ใน Aspose.Tasks
+# วิธีการลบวัตถุ OLE ใน Aspose.Tasks สำหรับ .NET
 
-## การแนะนำ
+## Introduction
 
-Aspose.Tasks สำหรับ .NET มีฟังก์ชันการทำงานที่ครอบคลุมสำหรับการทำงานกับออบเจ็กต์ OLE (Object Linking and Embedding) ภายในไฟล์โครงการ บทช่วยสอนนี้จะแนะนำคุณตลอดกระบวนการจัดการออบเจ็กต์ OLE อย่างมีประสิทธิภาพโดยใช้ Aspose.Tasks ในแอปพลิเคชัน .NET ของคุณ
+Aspose.Tasks for .NET ให้คุณควบคุม OLE (Object Linking and Embedding) อย่างเต็มที่ที่อยู่ภายในไฟล์ Microsoft Project ในบทเรียนนี้คุณจะได้เรียนรู้ **วิธีการลบวัตถุ OLE**, วิธี **จัดการเนื้อหา OLE**, และขั้นตอนที่แน่นอนเพื่อ **ล้างข้อมูล OLE** เมื่อไม่ต้องการอีกต่อไป เมื่อเสร็จแล้วคุณจะสามารถโหลดไฟล์โครงการ, ตรวจสอบวัตถุ OLE ที่ฝังอยู่, ลบอย่างปลอดภัย, และบันทึกโครงการที่ทำความสะอาดแล้ว — ทั้งหมดด้วยโค้ด C# ที่สะอาดและอ่านง่าย.
 
-## ข้อกำหนดเบื้องต้น
+## Quick Answers
+- **วิธีหลักในการลบวัตถุ OLE คืออะไร?** Use `project.OleObjects.Clear()` and then save the project.  
+- **ฉันต้องการใบอนุญาตพิเศษหรือไม่?** A valid Aspose.Tasks license is required for production use.  
+- **เวอร์ชัน .NET ที่รองรับคืออะไร?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **ฉันสามารถตรวจสอบเนื้อหา OLE ก่อนลบได้หรือไม่?** Yes, iterate through `project.OleObjects` to read properties or content bytes.  
+- **การล้างวัตถุ OLE ในโครงการขนาดใหญ่ปลอดภัยหรือไม่?** Absolutely – the operation is fast and does not affect other project data.
 
-ก่อนที่เราจะเริ่มต้น ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
+## What is “remove OLE objects” in the context of Aspose.Tasks?
 
-1.  การติดตั้ง: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Tasks สำหรับ .NET ในสภาพแวดล้อมการพัฒนาของคุณ คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/tasks/net/).
+การลบวัตถุ OLE หมายถึงการลบไฟล์ที่ฝังอยู่ (รูปภาพ, แผ่น Excel, เอกสาร Word ฯลฯ) ที่เก็บไว้ภายในไฟล์ Microsoft Project (.mpp) ซึ่งมีประโยชน์เมื่อคุณต้องการลดขนาดไฟล์, กำจัดการอ้างอิงที่ล้าสมัย, หรือปฏิบัติตามนโยบายการเก็บรักษาข้อมูล.
 
-2. ความรู้พื้นฐาน: ทำความคุ้นเคยกับภาษาการเขียนโปรแกรม C# และแนวคิดกรอบงาน .NET
+## Why manage OLE objects with Aspose.Tasks?
 
-3. สภาพแวดล้อมการพัฒนา: ตั้งค่าสภาพแวดล้อมการพัฒนาที่เหมาะสม เช่น Visual Studio
+- **การควบคุมระดับละเอียด** – Access each OLE object’s ID, name, and raw bytes.  
+- **การทำงานอัตโนมัติ** – Programmatically clean up dozens of projects without opening them in Microsoft Project.  
+- **รองรับหลายเวอร์ชัน** – Works with Project 2007‑2023 files.  
 
-## นำเข้าเนมสเปซ
+## Prerequisites
 
-ขั้นแรก นำเข้าเนมสเปซที่จำเป็นเพื่อเข้าถึงฟังก์ชัน Aspose.Tasks:
+Before we begin, make sure you have:
+
+1. **Aspose.Tasks for .NET** installed. You can download it from [here](https://releases.aspose.com/tasks/net/).  
+2. Basic knowledge of **C#** and the **.NET** ecosystem.  
+3. A development environment such as **Visual Studio** (Community or higher).  
+
+## Import Namespaces
+
+First, import the namespaces that expose the Aspose.Tasks API:
 
 ```csharp
 using Aspose.Tasks;
@@ -37,36 +60,40 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
-
 ```
 
-ตอนนี้ เราจะแบ่งแต่ละตัวอย่างออกเป็นหลายขั้นตอนในรูปแบบคำแนะนำทีละขั้นตอน:
+## How to manage OLE objects – Step‑by‑step guide
 
-## การทำงานกับวัตถุ OLE
+Below we walk through three common scenarios:
 
-### ขั้นตอนที่ 1: โหลดไฟล์โครงการ
+1. **ตรวจสอบวัตถุ OLE** – read their properties and a snippet of the binary content.  
+2. **ล้างวัตถุ OLE ทั้งหมด** – the core “remove OLE objects” operation.  
+3. **อ่านข้อมูลการวางตำแหน่งเชิงภาพ** – useful when you need to adjust how OLE objects appear in Gantt or other views.
+
+### Scenario 1: Inspect OLE objects
+
+#### Step 1: Load project file  
 ```csharp
 var project = new Project("TaskImage2010.mpp");
 ```
 
-### ขั้นตอนที่ 2: เข้าถึงวัตถุ OLE
+#### Step 2: Access OLE objects  
 ```csharp
 List<OleObject> oleObjects = project.OleObjects.ToList();
 ```
 
-### ขั้นตอนที่ 3: วนซ้ำผ่านวัตถุ OLE
+#### Step 3: Iterate through OLE objects  
 ```csharp
 foreach (var oleObject in oleObjects)
 {
-    // เข้าถึงและพิมพ์คุณสมบัติของวัตถุ OLE
+    // Access and print OLE object properties
     Console.WriteLine("Id: " + oleObject.Id);
     Console.WriteLine("Name: " + oleObject.Name);
-    // ดำเนินการต่อสำหรับคุณสมบัติอื่น ๆ
+    // Continue for other properties
 }
 ```
 
-### ขั้นตอนที่ 4: ดึงข้อมูลไบต์ของเนื้อหา
+#### Step 4: Retrieve a small chunk of the binary content (optional)  
 ```csharp
 private string Get10Bytes(OleObject oleObject)
 {
@@ -84,38 +111,40 @@ private string Get10Bytes(OleObject oleObject)
 }
 ```
 
-## การล้างวัตถุ OLE
+### Scenario 2: How to clear OLE – removing all embedded objects
 
-### ขั้นตอนที่ 1: โหลดไฟล์โครงการ
+#### Step 1: Load project file  
 ```csharp
 var project = new Project("TaskImage2010.mpp");
 ```
 
-### ขั้นตอนที่ 2: ล้างวัตถุ OLE
+#### Step 2: Clear OLE objects  
 ```csharp
 project.OleObjects.Clear();
 ```
 
-### ขั้นตอนที่ 3: บันทึกโครงการ
+#### Step 3: Save the cleaned project  
 ```csharp
 project.Save("ClearedProject.mpp");
 ```
 
-## รับคุณสมบัติการวางวัตถุภาพ
+> **เคล็ดลับมืออาชีพ:** After clearing OLE objects, you can call `project.Save` with a different file name to keep the original untouched.
 
-### ขั้นตอนที่ 1: โหลดไฟล์โครงการ
+### Scenario 3: Getting visual object placement properties
+
+#### Step 1: Load project file  
 ```csharp
 var project = new Project("TaskImage2010.mpp");
 ```
 
-### ขั้นตอนที่ 2: เข้าถึงวัตถุ OLE และการวางตำแหน่งวัตถุภาพ
+#### Step 2: Access the first OLE object and its placement in the Gantt view  
 ```csharp
 var oleObject = project.OleObjects.First();
 var view = project.Views.First(v => v.Name == "&Gantt Chart");
 var oleObjectPlacement = view.VisualObjectsPlacements.First(p => p.OleObjectId == oleObject.Id);
 ```
 
-### ขั้นตอนที่ 3: ดึงข้อมูลคุณสมบัติ
+#### Step 3: Retrieve placement properties  
 ```csharp
 Console.WriteLine("BorderLineColor: {0}", oleObjectPlacement.BorderLineColor);
 Console.WriteLine("BorderLineThickness: {0}", oleObjectPlacement.BorderLineThickness);
@@ -129,34 +158,44 @@ else
 }
 ```
 
-## บทสรุป
+## Common pitfalls and troubleshooting
 
-ในบทช่วยสอนนี้ เราได้สำรวจวิธีการทำงานอย่างมีประสิทธิภาพกับอ็อบเจ็กต์ OLE ใน Aspose.Tasks สำหรับ .NET ด้วยการทำตามตัวอย่างทีละขั้นตอนเหล่านี้ คุณสามารถรวมความสามารถในการจัดการวัตถุ OLE เข้ากับแอปพลิเคชัน .NET ของคุณได้อย่างราบรื่น เพิ่มประสิทธิภาพการทำงานและการใช้งาน
+| ปัญหา | สาเหตุ | วิธีแก้ |
+|-------|--------|-----|
+| `project.OleObjects` ว่าง | The source .mpp file contains no OLE objects. | Verify the project file actually embeds OLE data (e.g., an attached Excel sheet). |
+| `project.Save` throws an exception | File is locked or you lack write permissions. | Close any open instances of the file and ensure the target folder is writable. |
+| Content bytes look corrupted | You are reading the full byte array as text. | Use `Get10Bytes` or write the bytes to a file to inspect them in a proper viewer. |
 
-## คำถามที่พบบ่อย
+## Frequently Asked Questions
 
-### คำถามที่ 1: Aspose.Tasks สามารถจัดการรูปแบบวัตถุ OLE ต่างๆ ได้หรือไม่
+**ถาม:** Aspose.Tasks สามารถจัดการรูปแบบวัตถุ OLE ต่างๆ ได้หรือไม่?  
+**ตอบ:** Yes, it supports images, Office documents, PDFs, and many other OLE formats.
 
-A1: ใช่ Aspose.Tasks รองรับรูปแบบวัตถุ OLE ที่หลากหลาย รวมถึงรูปภาพ เอกสาร และไฟล์มัลติมีเดีย
+**ถาม:** API รองรับเวอร์ชัน Microsoft Project เก่าได้หรือไม่?  
+**ตอบ:** Absolutely – Aspose.Tasks works with Project files from 2007 through the latest 2023 releases.
 
-### คำถามที่ 2: Aspose.Tasks เข้ากันได้กับไฟล์ Microsoft Project เวอร์ชันต่างๆ หรือไม่
+**ถาม:** ฉันจะลบเฉพาะวัตถุ OLE ที่ต้องการแทนการลบทั้งหมดได้อย่างไร?  
+**ตอบ:** Locate the desired `OleObject` by its `Id` or `Name` and call `project.OleObjects.Remove(oleObject)` before saving.
 
-ตอบ 2: ใช่ Aspose.Tasks รองรับไฟล์ Microsoft Project เวอร์ชันต่างๆ เพื่อให้มั่นใจถึงความเข้ากันได้และการผสานรวมที่ราบรื่น
+**ถาม:** การล้างวัตถุ OLE มีผลต่อการพึ่งพางานหรือกำหนดเวลาไหม?  
+**ตอบ:** No. OLE objects are independent visual elements; removing them does not modify task relationships.
 
-### คำถามที่ 3: ฉันสามารถจัดการการจัดวางวัตถุ OLE ภายในมุมมองโครงการได้หรือไม่
+**ถาม:** ฉันจะหา ตัวอย่างเพิ่มเติมเกี่ยวกับการจัดการ OLE ได้จากที่ไหน?  
+**ตอบ:** Check the official Aspose.Tasks documentation and the API reference for the `OleObject` and `VisualObjectsPlacements` classes.
 
-A3: แน่นอนว่า Aspose.Tasks มี API เพื่อจัดการคุณสมบัติการจัดวางและลักษณะที่ปรากฏของวัตถุ OLE ภายในมุมมองโครงการ
+## Conclusion
 
-### คำถามที่ 4: Aspose.Tasks เหมาะสำหรับโครงการระดับองค์กรหรือไม่
+We’ve covered everything you need to **remove OLE objects** and manage OLE content in Aspose.Tasks for .NET. By following the step‑by‑step examples, you can inspect, clear, and adjust visual placement of OLE objects, keeping your project files lean and focused.
 
-ตอบ 4: ใช่ Aspose.Tasks เหมาะอย่างยิ่งสำหรับทั้งโครงการขนาดเล็กและระดับองค์กร โดยนำเสนอฟีเจอร์ที่แข็งแกร่งและประสิทธิภาพที่เชื่อถือได้
-
-### คำถามที่ 5: Aspose.Tasks ให้การสนับสนุนลูกค้าและทรัพยากรด้านเอกสารประกอบหรือไม่
-
-ตอบ 5: ใช่ Aspose.Tasks มีเอกสาร ฟอรัม และการสนับสนุนลูกค้าที่ครอบคลุม เพื่อช่วยนักพัฒนาในการใช้คุณสมบัติต่างๆ ได้อย่างมีประสิทธิภาพ
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**อัปเดตล่าสุด:** 2026-03-16  
+**ทดสอบด้วย:** Aspose.Tasks 24.11 for .NET  
+**ผู้เขียน:** Aspose

@@ -1,33 +1,52 @@
 ---
-title: Zaawansowane operacje AND w Aspose.Tasks
-linktitle: Zaawansowane operacje AND w Aspose.Tasks
+date: 2026-03-16
+description: Dowiedz się, jak łączyć wiele warunków i filtrować zadania projektu przy
+  użyciu zaawansowanej operacji AND w Aspose.Tasks dla .NET.
+linktitle: Advanced AND Operation in Aspise.Tasks
 second_title: Aspose.Tasks .NET API
-description: Dowiedz się, jak wykonywać zaawansowane operacje AND w Aspose.Tasks dla .NET, aby efektywnie filtrować zadania projektu w oparciu o wiele kryteriów.
-weight: 10
+title: Jak połączyć wiele warunków przy użyciu zaawansowanej operacji AND w Aspose.Tasks
 url: /pl/net/advanced-features/advanced-and-operation/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zaawansowane operacje AND w Aspose.Tasks
+# Zaawansowana operacja AND w Aspose.Tasks
 
-## Wstęp
+## Wprowadzenie
 
- W tym samouczku zagłębimy się w zaawansowaną operację AND w Aspose.Tasks dla .NET, potężnym narzędziu do zarządzania zadaniami i projektami. Zbadamy, jak filtrować zadania projektu na podstawie wielu warunków za pomocą`Util.And` klasa.
+W tym samouczku odkryjesz **jak łączyć wiele warunków** przy użyciu *zaawansowanej operacji AND* w Aspose.Tasks dla .NET. Po zakończeniu przewodnika będziesz w stanie **filtrować zadania projektu** na podstawie kilku kryteriów — co jest niezbędne, gdy musisz **filtrować zadania** takie jak elementy podsumowujące, nie‑puste wpisy lub niestandardowe flagi w jednym przebiegu.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co robi zaawansowana operacja AND?** Łączy dwa lub więcej warunków filtru, tak że zwracane są tylko zadania spełniające *wszystkie* kryteria.  
+- **Która klasa łączy warunki?** `Util.And<T>` (udostępniona jako `And<T>` w API).  
+- **Czy potrzebna jest specjalna licencja?** Wymagana jest standardowa licencja Aspose.Tasks do użytku produkcyjnego; dostępna jest darmowa wersja próbna.  
+- **Czy mogę połączyć więcej niż dwa warunki?** Tak — `And<T>` akceptuje dowolną liczbę warunków.  
+- **Jakie wersje .NET są obsługiwane?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.
 
-Zanim zaczniemy, upewnij się, że masz następujące elementy:
+## Co oznacza „łączenie wielu warunków” w Aspose.Tasks?
 
-1. Podstawowa znajomość języka programowania C#.
-2.  Zainstalowano Aspose.Tasks dla .NET. Jeśli nie, możesz go pobrać z[Tutaj](https://releases.aspose.com/tasks/net/).
-3. Zintegrowane środowisko programistyczne (IDE), takie jak Visual Studio.
+Łączenie wielu warunków oznacza tworzenie złożonego filtru, który ocenia każde zadanie względem kilku reguł jednocześnie. Takie podejście jest znacznie bardziej wydajne niż iterowanie listy zadań wielokrotnie, ponieważ biblioteka stosuje logikę w jednym przebiegu.
 
-## Importuj przestrzenie nazw
+## Dlaczego używać zaawansowanej operacji AND?
 
-Najpierw zaimportujmy niezbędne przestrzenie nazw do naszego projektu C#:
+- **Wydajność:** Zmniejsza liczbę przebiegów po kolekcji zadań.  
+- **Czytelność:** Utrzymuje logikę filtru deklaratywną i łatwą w utrzymaniu.  
+- **Elastyczność:** Możesz mieszać wbudowane warunki (np. `SummaryCondition`) z własnymi predykatami.  
+
+## Wymagania wstępne
+
+Zanim zaczniemy, upewnij się, że masz:
+
+1. Podstawową wiedzę programowania w C#.  
+2. Zainstalowany Aspose.Tasks dla .NET. Jeśli jeszcze go nie pobrałeś, pobierz go **[tutaj](https://releases.aspose.com/tasks/net/)**.  
+3. Środowisko IDE, takie jak Visual Studio (dowolna edycja).  
+
+## Importowanie przestrzeni nazw
+
+Najpierw zaimportuj przestrzenie nazw, które dostarczają model zadania i klasy pomocnicze:
 
 ```csharp
 using Aspose.Tasks;
@@ -35,84 +54,106 @@ using System;
 using System.Collections.Generic;
 
 using Aspose.Tasks.Util;
-
 ```
 
-## Krok 1: Zainicjuj projekt i zbierz zadania
+## Krok 1: Inicjalizacja projektu i zbieranie zadań
 
-Rozpocznij od zainicjowania nowego projektu Aspose.Tasks i zebrania w nim wszystkich zadań:
+Utworzymy instancję `Project` i użyjemy `ChildTasksCollector`, aby zebrać każde zadanie w pliku. To pokazuje **jak używać kolektora** do pobrania płaskiej listy zadań.
 
 ```csharp
-// Ścieżka do katalogu dokumentów.
+// The path to the documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Project2.mpp");
 var coll = new ChildTasksCollector();
 TaskUtils.Apply(project.RootTask, coll, 0);
 ```
 
-## Krok 2: Zdefiniuj warunki filtra
+## Krok 2: Definiowanie warunków filtru
 
-Następnie zdefiniuj warunki filtra. Na potrzeby tego przykładu utworzymy dwa warunki: jeden do filtrowania zadań sumarycznych, a drugi do filtrowania zadań innych niż null:
+Tutaj definiujemy poszczególne warunki, które chcemy zastosować. W tym przykładzie **filtrujemy zadania podsumowujące** oraz zapewniamy, że obiekt zadania nie jest nullem.
 
 ```csharp
 var condition1 = new SummaryCondition();
 var condition2 = new NotNullCondition();
 ```
 
-## Krok 3: Połącz warunki za pomocą operacji AND
+## Krok 3: Łączenie warunków operacją AND
 
- Teraz połącz warunki za pomocą`Util.And` klasę, aby utworzyć warunek złożony:
+Teraz **łączymy wiele warunków** przy użyciu klasy `And<T>`. To jest sedno **zaawansowanej operacji AND**.
 
 ```csharp
 var joinedCondition = new And<Task>(condition1, condition2);
 ```
 
-## Krok 4: Zastosuj zadania warunku i filtra
+## Krok 4: Zastosowanie warunku i filtrowanie zadań
 
-Zastosuj połączony warunek do zebranych zadań i odpowiednio je przefiltruj:
+Gdy złożony warunek jest gotowy, wywołujemy `Filter`, aby **filtrować zadania projektu** na podstawie połączonej logiki.
 
 ```csharp
 List<Task> collection = Filter(coll.Tasks, joinedCondition);
 ```
 
-## Krok 5: Wyprowadź filtrowane zadania
+## Krok 5: Wyświetlanie przefiltrowanych zadań
 
-Na koniec wyprowadź przefiltrowane zadania:
+Na koniec wyświetlamy zadania, które spełniły **wszystkie** warunki. Możesz zamienić wywołania `Console.WriteLine` na dowolne własne przetwarzanie.
 
 ```csharp
 Console.WriteLine("Filtered tasks: ");
 foreach (var task in collection)
 {
     Console.WriteLine(" Name: " + task.Get(Tsk.Name));
-    // Tutaj można wykonać dodatkowe przetwarzanie
+    // Additional processing can be done here
 }
 ```
 
-## Wniosek
+## Typowe problemy i rozwiązania
 
- W tym samouczku nauczyliśmy się wykonywać zaawansowane operacje AND w Aspose.Tasks dla .NET. Łącząc warunki za pomocą`Util.And`class, możemy efektywnie filtrować zadania w oparciu o wiele kryteriów.
+| Problem | Dlaczego się pojawia | Szybka naprawa |
+|---------|----------------------|----------------|
+| `Filter` method not found | Brak `using Aspose.Tasks.Util;` | Upewnij się, że przestrzeń nazw Util jest zaimportowana (zobacz Importowanie przestrzeni nazw). |
+| No tasks returned | Warunki są zbyt restrykcyjne (np. filtrowanie zadań podsumowujących, gdy ich nie ma) | Zweryfikuj, czy projekt rzeczywiście zawiera zadania podsumowujące lub dostosuj warunki. |
+| NullReferenceException | `coll.Tasks` zawiera wpisy null | `NotNullCondition` już chroni przed tym; pozostaw go w łańcuchu AND. |
 
-## Często zadawane pytania
+## FAQ
 
-### P1: Co to jest Aspose.Tasks dla .NET?
+### Q1: Co to jest Aspose.Tasks dla .NET?
 
-O: Aspose.Tasks dla .NET to solidny interfejs API, który pozwala programistom programowo manipulować plikami Microsoft Project w aplikacjach .NET.
+Aspose.Tasks for .NET to solidne API, które umożliwia programistom programowe manipulowanie plikami Microsoft Project w aplikacjach .NET.
 
-### P2: Czy mogę zastosować więcej niż dwa warunki za pomocą narzędzia Util.And?
+### Q2: Czy mogę zastosować więcej niż dwa warunki używając Util.And?
 
-O: Tak, narzędzia Util.And można używać do łączenia dowolnej liczby warunków w celu utworzenia złożonych kryteriów filtrowania.
+Tak, Util.And może być użyty do połączenia dowolnej liczby warunków w celu stworzenia złożonych kryteriów filtrowania.
 
-### P3: Czy dostępna jest bezpłatna wersja próbna Aspose.Tasks dla .NET?
+### Q3: Czy dostępna jest darmowa wersja próbna Aspose.Tasks dla .NET?
 
- Odp.: Tak, możesz pobrać bezpłatną wersję próbną ze strony[Tutaj](https://releases.aspose.com/).
+Tak, możesz pobrać darmową wersję próbną **[tutaj](https://releases.aspose.com/)**.
 
-### P4: Gdzie mogę znaleźć dokumentację Aspose.Tasks dla .NET?
+### Q4: Gdzie mogę znaleźć dokumentację Aspose.Tasks dla .NET?
 
- Odp.: Można znaleźć dokumentację[Tutaj](https://reference.aspose.com/tasks/net/).
+Dokumentację znajdziesz **[tutaj](https://reference.aspose.com/tasks/net/)**.
 
-### P5: Jak mogę uzyskać wsparcie dla Aspose.Tasks dla .NET?
+### Q5: Jak mogę uzyskać wsparcie dla Aspose.Tasks dla .NET?
 
-Odp.: Możesz uzyskać pomoc na forum społeczności Aspose.Tasks[Tutaj](https://forum.aspose.com/c/tasks/15).
+Wsparcie możesz uzyskać na forum społeczności Aspose.Tasks **[tutaj](https://forum.aspose.com/c/tasks/15)**.
+
+**Additional Q&A**
+
+**Q: Jak filtrować zadania według wartości pól niestandardowych?**  
+A: Utwórz `CustomFieldCondition` (lub zaimplementuj `ICondition<Task>`) i dodaj go do łańcucha `And<T>`.
+
+**Q: Czy mogę użyć tego samego podejścia do filtrowania zasobów?**  
+A: Tak — zamień `Task` na `Resource` i użyj odpowiednich klas warunków.
+
+## Podsumowanie
+
+Postępując zgodnie z powyższymi krokami, teraz wiesz **jak łączyć wiele warunków** przy użyciu **zaawansowanej operacji AND** w Aspose.Tasks dla .NET. Ta technika pozwala **efektywnie filtrować zadania projektu**, niezależnie od tego, czy celujesz w elementy podsumowujące, nie‑puste wpisy czy dowolne niestandardowe kryteria.
+
+---
+
+**Ostatnia aktualizacja:** 2026-03-16  
+**Testowano z:** Aspose.Tasks for .NET (latest)  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

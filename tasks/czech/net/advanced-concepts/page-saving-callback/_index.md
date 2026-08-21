@@ -1,35 +1,46 @@
 ---
-title: Implementace Page Saving Callback v Aspose.Tasks
-linktitle: Implementace Page Saving Callback v Aspose.Tasks
+date: 2026-03-16
+description: Naučte se, jak implementovat zpětné volání při ukládání stránky v Aspose.Tasks
+  pro .NET, což umožňuje přizpůsobené zpracování výstupních toků vícestránkových dokumentů.
+linktitle: Implement page saving callback in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Zjistěte, jak implementovat zpětné volání pro ukládání stránky v Aspose.Tasks pro .NET, umožňující přizpůsobené zpracování vícestránkových výstupních proudů dokumentů.
-weight: 12
+title: Implementovat callback pro ukládání stránky v Aspose.Tasks
 url: /cs/net/advanced-concepts/page-saving-callback/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Implementace Page Saving Callback v Aspose.Tasks
+# Implementace zpětného volání při ukládání stránky v Aspose.Tasks
 
 ## Úvod
 
-V tomto tutoriálu prozkoumáme, jak implementovat zpětné volání ukládání stránky v Aspose.Tasks pro .NET. Tato funkce nám umožňuje uložit vícestránkový dokument do streamů poskytovaných uživateli, což nabízí flexibilitu a přizpůsobení při zpracování výstupu.
+V tomto tutoriálu se naučíte, jak **implementovat zpětné volání při ukládání stránky** v Aspose.Tasks pro .NET. Tato výkonná funkce vám umožní směrovat každou stránku vícestránkového dokumentu do libovolného proudu, čímž získáte plnou kontrolu nad tím, jak je výstup uložen nebo dále zpracován.
 
-## Předpoklady:
+## Rychlé odpovědi
+- **Co dělá zpětné volání při ukládání stránky?** Zachytí každou vykreslenou stránku do samostatného proudu, takže s ní můžete pracovat individuálně.  
+- **Do jakého formátu mohu exportovat?** Do libovolného formátu podporovaného `ImageSaveOptions`, např. PNG, JPEG, PDF.  
+- **Potřebuji licenci?** Pro produkční použití je vyžadována platná licence Aspose.Tasks.  
+- **Lze to použít s .NET Core?** Ano, Aspose.Tasks plně podporuje .NET Core a .NET 5/6+.  
+- **Je zpětné volání thread‑safe?** Zpětné volání běží ve stejném vlákně, které provádí vykreslování, takže platí běžná pravidla pro thread‑safety.
 
-Než začneme, ujistěte se, že máte následující:
+## Co je **implementace zpětného volání při ukládání stránky**?
+Vzor **implementace zpětného volání při ukládání stránky** vám umožňuje vložit vlastní logiku do pipeline ukládání v Aspose.Tasks. Místo přímého zápisu do souboru získáte objekt `Stream` pro každou stránku, což vám umožní uložit jej do paměti, nahrát do cloudového úložiště nebo provést další zpracování.
 
-1. Znalost programovacího jazyka C#: Měli byste mít základní znalosti o syntaxi a konceptech C#.
-   
-2.  Instalace Aspose.Tasks for .NET: Ujistěte se, že jste ve svém vývojovém prostředí nainstalovali knihovnu Aspose.Tasks. Můžete si jej stáhnout z[tady](https://releases.aspose.com/tasks/net/).
+## Proč exportovat projekt jako PNG se zpětným voláním?
+Export projektu jako PNG vám poskytne rastrový obrázek každé stránky Ganttova diagramu, což je ideální pro zprávy, e‑maily nebo vkládání do webových stránek. Použití zpětného volání vám umožní uchovat každou stránku v samostatném `MemoryStream` bez vytváření dočasných souborů na disku.
 
-3. Nastavení vývojového prostředí: Nastavte preferované IDE pro vývoj .NET, jako je Visual Studio.
+## Předpoklady
 
-## Importovat jmenné prostory:
+1. **Znalost C#** – základní povědomí o třídách, rozhraních a proudech.  
+2. **Aspose.Tasks pro .NET** – stáhněte a nainstalujte z [zde](https://releases.aspose.com/tasks/net/).  
+3. **IDE** – Visual Studio, Rider nebo jakýkoli editor kompatibilní s .NET.
 
-Chcete-li začít, musíte do kódu C# importovat potřebné jmenné prostory:
+## Import jmenných prostorů
+
+Pro začátek importujte požadované jmenné prostory:
 
 ```csharp
 using Aspose.Tasks;
@@ -37,20 +48,19 @@ using System.Collections.Generic;
 using System.IO;
 
 using Aspose.Tasks.Saving;
-
 ```
 
 ## Krok 1: Vytvořte objekt projektu
 
- Instantovat a`Project` objekt načtením existujícího souboru projektu:
+Načtěte existující soubor MPP do instance `Project`:
 
 ```csharp
 var project = new Project(DataDir + "Homemoveplan.mpp");
 ```
 
-## Krok 2: Nakonfigurujte možnosti uložení obrázku
+## Krok 2: Nakonfigurujte možnosti ukládání obrázku
 
- Definovat`ImageSaveOptions` přizpůsobit chování ukládání stránky nastavením`PageSavingCallback` vlastnictví:
+Nastavte `ImageSaveOptions` pro výstup PNG a připojte vlastní zpětné volání:
 
 ```csharp
 var imageSaveOptions = new ImageSaveOptions(SaveFileFormat.Png);
@@ -59,28 +69,30 @@ imageSaveOptions.PageSavingCallback = callback;
 imageSaveOptions.RenderToSinglePage = false;
 ```
 
-## Krok 3: Uložte projekt pomocí zpětného volání
+> **Tip:** Nastavení `RenderToSinglePage = false` zajistí, že každá stránka Ganttova diagramu bude vykreslena samostatně, což je nezbytné pro to, aby zpětné volání obdrželo odlišné proudy.
 
-Uložte projekt pomocí nakonfigurovaných možností uložení obrazu:
+## Krok 3: Uložte projekt se zpětným voláním
+
+Vyvolejte metodu `Save` a jako parametr předávejte `Stream.Null`, protože skutečné proudy jsou dodány zpětným voláním:
 
 ```csharp
 project.Save(Stream.Null, imageSaveOptions);
 ```
 
-## Krok 4: Zpracujte uložené streamy stránek
+## Krok 4: Zpracujte uložené proudy stránek
 
-Procházejte proudy stránek poskytované zpětným voláním a zpracujte každou stránku samostatně:
+Po dokončení operace ukládání obsahuje zpětné volání kolekci objektů `MemoryStream` – jeden pro každou stránku. Nyní je můžete iterovat:
 
 ```csharp
 foreach (var stream in callback.PageStreams)
 {
-    // Zpracujte každý datový proud stránky
+    // Process each page stream, e.g., upload to Azure Blob, write to a database, etc.
 }
 ```
 
-## Krok 5: Implementujte zpětné volání pro ukládání vlastních stránek
+## Krok 5: Implementujte vlastní zpětné volání při ukládání stránky
 
- Vytvořte třídu, která implementuje`IPageSavingCallback` rozhraní pro zpracování ukládání stránky:
+Vytvořte uzavřenou třídu, která implementuje `IPageSavingCallback`. Tato třída zachytí proud každé stránky a uloží jej do seznamu pro pozdější použití.
 
 ```csharp
 private sealed class CustomPageSavingCallback : IPageSavingCallback
@@ -97,36 +109,42 @@ private sealed class CustomPageSavingCallback : IPageSavingCallback
 
     public void OnFinish()
     {
-        // Proveďte jakékoli čištění nebo finalizaci
+        // Perform any cleanup or finalization
     }
 }
 ```
 
-## Závěr:
+## Časté chyby a řešení problémů
 
-V tomto tutoriálu jsme se naučili implementovat zpětné volání pro ukládání stránky v Aspose.Tasks pro .NET, což nám umožňuje ukládat vícestránkové dokumenty do samostatných proudů. Pomocí těchto kroků můžete vylepšit funkčnost vaší aplikace a dosáhnout přizpůsobeného zpracování výstupu.
+| Problém | Důvod | Řešení |
+|---------|-------|--------|
+| **Nejsou vráceny žádné stránky** | `RenderToSinglePage` zůstalo nastaveno na `true`. | Nastavte `RenderToSinglePage = false`, aby se generovaly samostatné stránky. |
+| **Proudy jsou prázdné** | `KeepStreamOpen` nastaveno na `true` bez následného uvolnění. | Nechte jej `false` (výchozí) a nechte zpětné volání automaticky uzavřít proudy. |
+| **Chyby nedostatku paměti** | Velmi velké projekty generují mnoho vysoce rozlišených PNG. | Zpracovávejte proudy po jednom nebo zvýšte limity paměti virtuálního stroje. |
 
-## FAQ
+## Často kladené otázky
 
-### Q1: Co je zpětné volání ukládání stránky v Aspose.Tasks?
+**Q1: Co je zpětné volání při ukládání stránky v Aspose.Tasks?**  
+A: Zpětné volání při ukládání stránky vám umožní zachytit proces ukládání pro každou stránku vícestránkového dokumentu a poskytnout vlastní `Stream` pro tuto stránku.
 
-Odpověď 1: Zpětné volání pro ukládání stránky je funkce v Aspose.Tasks, která umožňuje uživatelům přizpůsobit proces ukládání vícestránkových dokumentů poskytováním datových proudů pro každou stránku jednotlivě.
+**Q2: Mohu pomocí tohoto zpětného volání používat různé formáty pro ukládání stránek?**  
+A: Ano. Změnou `SaveFileFormat` můžete exportovat do PNG, JPEG, PDF, SVG atd.
 
-### Q2: Mohu použít různé formáty pro ukládání stránek pomocí tohoto zpětného volání?
+**Q3: Je Aspose.Tasks kompatibilní s .NET Core?**  
+A: Rozhodně. Aspose.Tasks podporuje .NET Core, .NET 5 i .NET 6.
 
-Odpověď 2: Ano, můžete použít různé formáty souborů podporované Aspose.Tasks, jako je PNG, JPEG, PDF atd., pro ukládání stránek se zpětným voláním.
+**Q4: Jak mohu ošetřit chyby během procesu ukládání stránek?**  
+A: Zabalte logiku zpětného volání do bloků try/catch a zaznamenávejte výjimky. Metoda `OnFinish` je vhodné místo pro finální úklid.
 
-### Q3: Je Aspose.Tasks kompatibilní s .NET Core?
+**Q5: Kde najdu další zdroje a podporu pro Aspose.Tasks?**  
+A: Navštivte [forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) pro pomoc, přístup k dokumentaci [zde](https://reference.aspose.com/tasks/net/), nebo prozkoumejte další funkce a licenční možnosti na [webu Aspose.Tasks](https://purchase.aspose.com/buy).
 
-Odpověď 3: Ano, Aspose.Tasks podporuje .NET Core a umožňuje vývojářům používat jeho funkce v aplikacích pro různé platformy.
+---
 
-### Q4: Jak mohu zvládnout chyby během procesu ukládání stránky?
+**Poslední aktualizace:** 2026-03-16  
+**Testováno s:** Aspose.Tasks 24.12 pro .NET  
+**Autor:** Aspose  
 
-A4: V rámci metod zpětného volání můžete implementovat mechanismy zpracování chyb, abyste mohli spravovat výjimky a zajistit robustnost vaší aplikace.
-
-### Q5: Kde najdu další zdroje a podporu pro Aspose.Tasks?
-
- A5: Můžete navštívit[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) pro pomoc, přístup k dokumentaci[tady](https://reference.aspose.com/tasks/net/) nebo prozkoumejte další funkce a možnosti licencování na[Web Aspose.Tasks](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

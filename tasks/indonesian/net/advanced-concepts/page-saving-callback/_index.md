@@ -1,35 +1,56 @@
 ---
-title: Menerapkan Panggilan Balik Penyimpanan Halaman di Aspose.Tasks
-linktitle: Menerapkan Panggilan Balik Penyimpanan Halaman di Aspose.Tasks
-second_title: Aspose.Tugas .NET API
-description: Pelajari cara menerapkan panggilan balik penyimpanan halaman di Aspose.Tasks untuk .NET, yang memungkinkan penanganan aliran keluaran dokumen multi-halaman yang disesuaikan.
-weight: 12
+date: 2026-03-16
+description: Pelajari cara mengimplementasikan callback penyimpanan halaman di Aspose.Tasks
+  untuk .NET, memungkinkan penanganan khusus aliran output dokumen multi‑halaman.
+linktitle: Implement page saving callback in Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+title: Implementasikan callback penyimpanan halaman pada Aspose.Tasks
 url: /id/net/advanced-concepts/page-saving-callback/
+weight: 12
 ---
+
+**Tested With:** Aspose.Tasks 24.12 for .NET -> "**Diuji dengan:** Aspose.Tasks 24.12 untuk .NET"
+
+**Author:** Aspose -> "**Penulis:** Aspose"
+
+Now ensure shortcodes remain.
+
+Now produce final content with same structure.
+
+Let's assemble.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Menerapkan Panggilan Balik Penyimpanan Halaman di Aspose.Tasks
+# Menerapkan callback penyimpanan halaman di Aspose.Tasks
 
-## Perkenalan
+## Pendahuluan
 
-Dalam tutorial ini, kita akan mempelajari cara mengimplementasikan callback penyimpanan halaman di Aspose.Tasks untuk .NET. Fitur ini memungkinkan kami menyimpan dokumen multi-halaman ke aliran yang disediakan pengguna, menawarkan fleksibilitas dan penyesuaian dalam menangani keluaran.
+Dalam tutorial ini, Anda akan belajar cara **menerapkan callback penyimpanan halaman** di Aspose.Tasks untuk .NET. Fitur kuat ini memungkinkan Anda mengarahkan setiap halaman dokumen multi‑halaman ke aliran (stream) pilihan Anda, memberi Anda kontrol penuh atas cara output disimpan atau diproses lebih lanjut.
 
-## Prasyarat:
+## Jawaban Cepat
+- **Apa yang dilakukan callback penyimpanan halaman?** Callback ini menangkap setiap halaman yang dirender ke dalam aliran terpisah sehingga Anda dapat menangani masing‑masing secara individual.  
+- **Format apa yang dapat saya ekspor?** Format apa pun yang didukung oleh `ImageSaveOptions`, misalnya PNG, JPEG, PDF.  
+- **Apakah saya memerlukan lisensi?** Lisensi Aspose.Tasks yang valid diperlukan untuk penggunaan produksi.  
+- **Bisakah saya menggunakan ini dengan .NET Core?** Ya, Aspose.Tasks sepenuhnya mendukung .NET Core dan .NET 5/6+.  
+- **Apakah callback ini thread‑safe?** Callback dijalankan pada thread yang sama dengan proses rendering, sehingga aturan thread‑safety normal berlaku.
 
-Sebelum kita mulai, pastikan Anda memiliki hal berikut:
+## Apa itu **callback penyimpanan halaman**?
+Pola **callback penyimpanan halaman** memungkinkan Anda menyisipkan logika khusus ke dalam alur penyimpanan Aspose.Tasks. Alih‑alih menulis langsung ke file, Anda menerima objek `Stream` untuk setiap halaman, memungkinkan Anda menyimpannya di memori, mengunggah ke penyimpanan cloud, atau menerapkan pemrosesan tambahan.
 
-1. Pengetahuan tentang bahasa pemrograman C#: Anda harus memiliki pemahaman dasar tentang sintaksis dan konsep C#.
-   
-2.  Instalasi Aspose.Tasks untuk .NET: Pastikan Anda telah menginstal perpustakaan Aspose.Tasks di lingkungan pengembangan Anda. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/tasks/net/).
+## Mengapa mengekspor proyek sebagai PNG dengan callback?
+Mengekspor proyek sebagai PNG memberikan Anda gambar raster dari setiap halaman diagram Gantt, yang ideal untuk laporan, email, atau penyematan di halaman web. Menggunakan callback berarti Anda dapat menyimpan setiap halaman dalam `MemoryStream` terpisah tanpa membuat file sementara di disk.
 
-3. Pengaturan Lingkungan Pengembangan: Siapkan IDE pilihan Anda untuk pengembangan .NET, seperti Visual Studio.
+## Prasyarat
 
-## Impor Namespace:
+1. **Pengetahuan C#** – pemahaman dasar tentang kelas, antarmuka, dan aliran.  
+2. **Aspose.Tasks untuk .NET** – unduh dan instal dari [di sini](https://releases.aspose.com/tasks/net/).  
+3. **IDE** – Visual Studio, Rider, atau editor kompatibel .NET apa pun.
 
-Untuk memulai, Anda perlu mengimpor namespace yang diperlukan dalam kode C# Anda:
+## Impor Namespace
+
+Untuk memulai, impor namespace yang diperlukan:
 
 ```csharp
 using Aspose.Tasks;
@@ -37,20 +58,19 @@ using System.Collections.Generic;
 using System.IO;
 
 using Aspose.Tasks.Saving;
-
 ```
 
-## Langkah 1: Buat Objek Proyek
+## Langkah 1: Buat Objek Project
 
- Buat contoh a`Project` objek dengan memuat file proyek yang ada:
+Muat file MPP yang ada ke dalam instance `Project`:
 
 ```csharp
 var project = new Project(DataDir + "Homemoveplan.mpp");
 ```
 
-## Langkah 2: Konfigurasikan Opsi Penyimpanan Gambar
+## Langkah 2: Konfigurasikan Image Save Options
 
- Mendefinisikan`ImageSaveOptions`dan sesuaikan perilaku penyimpanan halaman dengan mengatur`PageSavingCallback` Properti:
+Siapkan `ImageSaveOptions` untuk output PNG dan lampirkan callback khusus:
 
 ```csharp
 var imageSaveOptions = new ImageSaveOptions(SaveFileFormat.Png);
@@ -59,28 +79,30 @@ imageSaveOptions.PageSavingCallback = callback;
 imageSaveOptions.RenderToSinglePage = false;
 ```
 
-## Langkah 3: Simpan Proyek dengan Callback
+> **Tips pro:** Mengatur `RenderToSinglePage = false` memastikan setiap halaman diagram Gantt dirender secara terpisah, yang penting agar callback menerima aliran yang berbeda.
 
-Simpan proyek menggunakan opsi penyimpanan gambar yang dikonfigurasi:
+## Langkah 3: Simpan Project dengan Callback
+
+Panggil metode `Save`, dengan mengirim `Stream.Null` karena aliran sebenarnya disediakan oleh callback:
 
 ```csharp
 project.Save(Stream.Null, imageSaveOptions);
 ```
 
-## Langkah 4: Proses Aliran Halaman Tersimpan
+## Langkah 4: Proses Aliran Halaman yang Disimpan
 
-Ulangi aliran halaman yang disediakan oleh callback untuk memproses setiap halaman satu per satu:
+Setelah operasi penyimpanan selesai, callback menyimpan koleksi objek `MemoryStream`—satu per halaman. Anda sekarang dapat mengiterasinya:
 
 ```csharp
 foreach (var stream in callback.PageStreams)
 {
-    // Proses setiap aliran halaman
+    // Process each page stream, e.g., upload to Azure Blob, write to a database, etc.
 }
 ```
 
-## Langkah 5: Terapkan Panggilan Balik Penyimpanan Halaman Kustom
+## Langkah 5: Implementasikan Callback Penyimpanan Halaman Kustom
 
- Buat kelas yang mengimplementasikan`IPageSavingCallback` antarmuka untuk menangani penyimpanan halaman:
+Buat kelas sealed yang mengimplementasikan `IPageSavingCallback`. Kelas ini menangkap aliran setiap halaman dan menyimpannya dalam daftar untuk penggunaan selanjutnya.
 
 ```csharp
 private sealed class CustomPageSavingCallback : IPageSavingCallback
@@ -97,36 +119,42 @@ private sealed class CustomPageSavingCallback : IPageSavingCallback
 
     public void OnFinish()
     {
-        // Lakukan pembersihan atau penyelesaian apa pun
+        // Perform any cleanup or finalization
     }
 }
 ```
 
-## Kesimpulan:
+## Kesalahan Umum & Pemecahan Masalah
 
-Dalam tutorial ini, kita telah mempelajari cara mengimplementasikan callback penyimpanan halaman di Aspose.Tasks untuk .NET, memungkinkan kita menyimpan dokumen multi-halaman ke aliran terpisah. Dengan mengikuti langkah-langkah ini, Anda dapat meningkatkan fungsionalitas aplikasi dan mencapai penanganan keluaran yang disesuaikan.
+| Masalah | Penyebab | Solusi |
+|-------|--------|----------|
+| **Tidak ada halaman yang dikembalikan** | `RenderToSinglePage` dibiarkan `true`. | Setel `RenderToSinglePage = false` untuk menghasilkan halaman terpisah. |
+| **Aliran kosong** | `KeepStreamOpen` diatur ke `true` tanpa dibuang kemudian. | Biarkan `false` (default) dan biarkan callback menutup aliran secara otomatis. |
+| **Kesalahan kehabisan memori** | Proyek sangat besar menghasilkan banyak PNG beresolusi tinggi. | Proses aliran satu per satu atau tingkatkan batas memori VM. |
 
-## FAQ
+## Pertanyaan yang Sering Diajukan
 
-### Q1: Apa yang dimaksud dengan panggilan balik penyimpanan halaman di Aspose.Tasks?
+**Q1: Apa itu callback penyimpanan halaman di Aspose.Tasks?**  
+A: Callback penyimpanan halaman memungkinkan Anda menyela proses penyimpanan untuk setiap halaman dokumen multi‑halaman, menyediakan `Stream` khusus untuk halaman tersebut.
 
-A1: Panggilan balik penyimpanan halaman adalah fitur di Aspose.Tasks yang memungkinkan pengguna menyesuaikan proses penyimpanan dokumen multi-halaman dengan menyediakan aliran untuk setiap halaman satu per satu.
+**Q2: Apakah saya dapat menggunakan format berbeda untuk menyimpan halaman menggunakan callback ini?**  
+A: Ya. Dengan mengubah `SaveFileFormat` Anda dapat mengekspor ke PNG, JPEG, PDF, SVG, dll.
 
-### Q2: Bisakah saya menggunakan format berbeda untuk menyimpan halaman menggunakan panggilan balik ini?
+**Q3: Apakah Aspose.Tasks kompatibel dengan .NET Core?**  
+A: Tentu saja. Aspose.Tasks mendukung .NET Core, .NET 5, dan .NET 6.
 
-A2: Ya, Anda dapat menggunakan berbagai format file yang didukung oleh Aspose.Tasks, seperti PNG, JPEG, PDF, dll., untuk menyimpan halaman dengan panggilan balik.
+**Q4: Bagaimana saya dapat menangani kesalahan selama proses penyimpanan halaman?**  
+A: Bungkus logika callback dalam blok try/catch dan catat pengecualian. Metode `OnFinish` adalah tempat yang baik untuk pembersihan akhir.
 
-### Q3: Apakah Aspose.Tasks kompatibel dengan .NET Core?
+**Q5: Di mana saya dapat menemukan lebih banyak sumber daya dan dukungan untuk Aspose.Tasks?**  
+A: Anda dapat mengunjungi [forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) untuk bantuan, mengakses dokumentasi [di sini](https://reference.aspose.com/tasks/net/), atau menjelajahi fitur tambahan dan opsi lisensi di [situs web Aspose.Tasks](https://purchase.aspose.com/buy).
 
-A3: Ya, Aspose.Tasks mendukung .NET Core, memungkinkan pengembang untuk menggunakan fitur-fiturnya dalam aplikasi lintas platform.
+---
 
-### Q4: Bagaimana cara menangani kesalahan selama proses penyimpanan halaman?
+**Terakhir diperbarui:** 2026-03-16  
+**Diuji dengan:** Aspose.Tasks 24.12 untuk .NET  
+**Penulis:** Aspose  
 
-A4: Anda dapat menerapkan mekanisme penanganan kesalahan dalam metode panggilan balik untuk mengelola pengecualian dan memastikan ketahanan aplikasi Anda.
-
-### Q5: Di mana saya dapat menemukan lebih banyak sumber daya dan dukungan untuk Aspose.Tasks?
-
- A5: Anda dapat mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk bantuan, akses dokumentasi[Di Sini](https://reference.aspose.com/tasks/net/) , atau jelajahi fitur tambahan dan opsi lisensi di[Situs web Aspose.Tasks](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,35 +1,56 @@
 ---
-title: Trabajar con objetos OLE en Aspose.Tasks
-linktitle: Trabajar con objetos OLE en Aspose.Tasks
-second_title: API Aspose.Tasks .NET
-description: Aprenda a trabajar de manera eficiente con objetos OLE en aplicaciones .NET utilizando Aspose.Tasks, mejorando las capacidades de gestión de proyectos.
-weight: 22
+date: 2026-03-16
+description: Aprende a eliminar objetos OLE usando Aspose.Tasks para .NET y descubre
+  cómo gestionar OLE y limpiar OLE de manera eficiente en tus proyectos.
+linktitle: How to Remove OLE Objects in Aspose.Tasks for .NET
+second_title: Aspose.Tasks .NET API
+title: Cómo eliminar objetos OLE en Aspose.Tasks para .NET
 url: /es/net/advanced-concepts/ole-objects/
+weight: 22
 ---
+
+ placeholders unchanged.
+
+Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Trabajar con objetos OLE en Aspose.Tasks
+# Cómo eliminar objetos OLE en Aspose.Tasks para .NET
 
 ## Introducción
 
-Aspose.Tasks para .NET proporciona una funcionalidad integral para trabajar con objetos OLE (vinculación e incrustación de objetos) dentro de archivos de proyecto. Este tutorial lo guiará a través del proceso de administración eficiente de objetos OLE usando Aspose.Tasks en sus aplicaciones .NET.
+Aspose.Tasks para .NET le brinda control total sobre los objetos OLE (Object Linking and Embedding) que se encuentran dentro de los archivos de Microsoft Project. En este tutorial aprenderá **cómo eliminar objetos OLE**, cómo **gestionar el contenido OLE**, y los pasos exactos para **limpiar los datos OLE** cuando ya no se necesiten. Al final, podrá cargar un archivo de proyecto, inspeccionar sus objetos OLE incrustados, eliminarlos de forma segura y guardar el proyecto limpiado, todo con código C# limpio y legible.
+
+## Respuestas rápidas
+- **¿Cuál es la forma principal de eliminar objetos OLE?** Use `project.OleObjects.Clear()` y luego guarde el proyecto.  
+- **¿Necesito una licencia especial?** Se requiere una licencia válida de Aspose.Tasks para uso en producción.  
+- **¿Qué versiones de .NET son compatibles?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **¿Puedo inspeccionar el contenido OLE antes de eliminarlo?** Sí, recorra `project.OleObjects` para leer propiedades o los bytes del contenido.  
+- **¿Es seguro limpiar objetos OLE en proyectos grandes?** Absolutamente: la operación es rápida y no afecta otros datos del proyecto.
+
+## ¿Qué significa “eliminar objetos OLE” en el contexto de Aspose.Tasks?
+
+Eliminar objetos OLE implica borrar los archivos incrustados (imágenes, hojas de Excel, documentos de Word, etc.) que se almacenan dentro de un archivo de Microsoft Project (.mpp). Esto es útil cuando desea reducir el tamaño del archivo, eliminar referencias obsoletas o cumplir con políticas de retención de datos.
+
+## ¿Por qué gestionar objetos OLE con Aspose.Tasks?
+
+- **Control granular** – Acceda al ID, nombre y bytes sin procesar de cada objeto OLE.  
+- **Automatización** – Limpie programáticamente docenas de proyectos sin abrirlos en Microsoft Project.  
+- **Compatibilidad entre versiones** – Funciona con archivos de Project 2007‑2023.  
 
 ## Requisitos previos
 
-Antes de comenzar, asegúrese de tener implementados los siguientes requisitos previos:
+Antes de comenzar, asegúrese de tener:
 
-1.  Instalación: asegúrese de tener Aspose.Tasks para .NET instalado en su entorno de desarrollo. Puedes descargarlo desde[aquí](https://releases.aspose.com/tasks/net/).
-
-2. Conocimientos básicos: familiarícese con el lenguaje de programación C# y los conceptos del marco .NET.
-
-3. Entorno de desarrollo: configure un entorno de desarrollo adecuado, como Visual Studio.
+1. **Aspose.Tasks para .NET** instalado. Puede descargarlo desde [aquí](https://releases.aspose.com/tasks/net/).  
+2. Conocimientos básicos de **C#** y del ecosistema **.NET**.  
+3. Un entorno de desarrollo como **Visual Studio** (Community o superior).  
 
 ## Importar espacios de nombres
 
-En primer lugar, importe los espacios de nombres necesarios para acceder a la funcionalidad Aspose.Tasks:
+Primero, importe los espacios de nombres que exponen la API de Aspose.Tasks:
 
 ```csharp
 using Aspose.Tasks;
@@ -37,36 +58,40 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
-
 ```
 
-Ahora, dividamos cada ejemplo en varios pasos en un formato de guía paso a paso:
+## Cómo gestionar objetos OLE – Guía paso a paso
 
-## Trabajar con objetos OLE
+A continuación, revisamos tres escenarios comunes:
 
-### Paso 1: cargar el archivo del proyecto
+1. **Inspeccionar objetos OLE** – leer sus propiedades y un fragmento del contenido binario.  
+2. **Limpiar todos los objetos OLE** – la operación central de “eliminar objetos OLE”.  
+3. **Obtener información de ubicación visual** – útil cuando necesita ajustar cómo aparecen los objetos OLE en Gantt u otras vistas.
+
+### Escenario 1: Inspeccionar objetos OLE
+
+#### Paso 1: Cargar el archivo de proyecto  
 ```csharp
 var project = new Project("TaskImage2010.mpp");
 ```
 
-### Paso 2: acceder a objetos OLE
+#### Paso 2: Acceder a los objetos OLE  
 ```csharp
 List<OleObject> oleObjects = project.OleObjects.ToList();
 ```
 
-### Paso 3: iterar a través de objetos OLE
+#### Paso 3: Recorrer los objetos OLE  
 ```csharp
 foreach (var oleObject in oleObjects)
 {
-    // Acceder e imprimir propiedades de objetos OLE
+    // Access and print OLE object properties
     Console.WriteLine("Id: " + oleObject.Id);
     Console.WriteLine("Name: " + oleObject.Name);
-    // Continuar para otras propiedades
+    // Continue for other properties
 }
 ```
 
-### Paso 4: recuperar bytes de contenido
+#### Paso 4: Obtener un pequeño fragmento del contenido binario (opcional)  
 ```csharp
 private string Get10Bytes(OleObject oleObject)
 {
@@ -84,38 +109,40 @@ private string Get10Bytes(OleObject oleObject)
 }
 ```
 
-## Borrar objetos OLE
+### Escenario 2: Cómo limpiar OLE – eliminar todos los objetos incrustados
 
-### Paso 1: cargar el archivo del proyecto
+#### Paso 1: Cargar el archivo de proyecto  
 ```csharp
 var project = new Project("TaskImage2010.mpp");
 ```
 
-### Paso 2: borrar objetos OLE
+#### Paso 2: Limpiar objetos OLE  
 ```csharp
 project.OleObjects.Clear();
 ```
 
-### Paso 3: guardar proyecto
+#### Paso 3: Guardar el proyecto limpiado  
 ```csharp
 project.Save("ClearedProject.mpp");
 ```
 
-## Obtener propiedades de ubicación de objetos visuales
+> **Consejo profesional:** Después de limpiar los objetos OLE, puede llamar a `project.Save` con un nombre de archivo diferente para mantener el original intacto.
 
-### Paso 1: cargar el archivo del proyecto
+### Escenario 3: Obtener propiedades de ubicación visual del objeto
+
+#### Paso 1: Cargar el archivo de proyecto  
 ```csharp
 var project = new Project("TaskImage2010.mpp");
 ```
 
-### Paso 2: Acceda a la colocación de objetos OLE y objetos visuales
+#### Paso 2: Acceder al primer objeto OLE y su ubicación en la vista Gantt  
 ```csharp
 var oleObject = project.OleObjects.First();
 var view = project.Views.First(v => v.Name == "&Gantt Chart");
 var oleObjectPlacement = view.VisualObjectsPlacements.First(p => p.OleObjectId == oleObject.Id);
 ```
 
-### Paso 3: recuperar propiedades
+#### Paso 3: Recuperar las propiedades de ubicación  
 ```csharp
 Console.WriteLine("BorderLineColor: {0}", oleObjectPlacement.BorderLineColor);
 Console.WriteLine("BorderLineThickness: {0}", oleObjectPlacement.BorderLineThickness);
@@ -129,34 +156,46 @@ else
 }
 ```
 
-## Conclusión
+## Problemas comunes y solución de problemas
 
-En este tutorial, exploramos cómo trabajar eficazmente con objetos OLE en Aspose.Tasks para .NET. Si sigue estos ejemplos paso a paso, podrá integrar perfectamente las capacidades de administración de objetos OLE en sus aplicaciones .NET, mejorando su funcionalidad y usabilidad.
+| Problema | Razón | Solución |
+|----------|-------|----------|
+| `project.OleObjects` está vacío | El archivo .mpp de origen no contiene objetos OLE. | Verifique que el proyecto realmente incruste datos OLE (por ejemplo, una hoja de Excel adjunta). |
+| `project.Save` lanza una excepción | El archivo está bloqueado o no tiene permisos de escritura. | Cierre cualquier instancia abierta del archivo y asegúrese de que la carpeta de destino sea escribible. |
+| Los bytes del contenido aparecen corruptos | Está leyendo la matriz completa de bytes como texto. | Use `Get10Bytes` o escriba los bytes en un archivo para inspeccionarlos con un visor adecuado. |
 
 ## Preguntas frecuentes
 
-### P1: ¿Puede Aspose.Tasks manejar varios formatos de objetos OLE?
+**P: ¿Puede Aspose.Tasks manejar varios formatos de objetos OLE?**  
+R: Sí, admite imágenes, documentos de Office, PDFs y muchos otros formatos OLE.
 
-R1: Sí, Aspose.Tasks admite una amplia gama de formatos de objetos OLE, incluidas imágenes, documentos y archivos multimedia.
+**P: ¿Es la API compatible con versiones antiguas de Microsoft Project?**  
+R: Absolutamente – Aspose.Tasks funciona con archivos de Project desde 2007 hasta las últimas versiones 2023.
 
-### P2: ¿Aspose.Tasks es compatible con diferentes versiones de archivos de Microsoft Project?
+**P: ¿Cómo elimino solo objetos OLE específicos en lugar de limpiar todos?**  
+R: Ubique el `OleObject` deseado por su `Id` o `Name` y llame a `project.OleObjects.Remove(oleObject)` antes de guardar.
 
-R2: Sí, Aspose.Tasks admite varias versiones de archivos de Microsoft Project, lo que garantiza compatibilidad y una integración perfecta.
+**P: ¿Eliminar objetos OLE afecta las dependencias de tareas o los cronogramas?**  
+R: No. Los objetos OLE son elementos visuales independientes; su eliminación no modifica las relaciones entre tareas.
 
-### P3: ¿Puedo manipular la ubicación de objetos OLE dentro de las vistas del proyecto?
+**P: ¿Dónde puedo encontrar más ejemplos sobre manipulación de OLE?**  
+R: Consulte la documentación oficial de Aspose.Tasks y la referencia de API para las clases `OleObject` y `VisualObjectsPlacements`.
 
-R3: Por supuesto, Aspose.Tasks proporciona API para administrar la ubicación y las propiedades de apariencia de los objetos OLE dentro de las vistas del proyecto.
+## Conclusión
 
-### P4: ¿Aspose.Tasks es adecuado para proyectos de nivel empresarial?
+Hemos cubierto todo lo que necesita para **eliminar objetos OLE** y gestionar el contenido OLE en Aspose.Tasks para .NET. Siguiendo los ejemplos paso a paso, podrá inspeccionar, limpiar y ajustar la ubicación visual de los objetos OLE, manteniendo sus archivos de proyecto ligeros y enfocados.
 
-R4: Sí, Aspose.Tasks es adecuado para proyectos tanto de pequeña escala como de nivel empresarial, ya que ofrece características sólidas y un rendimiento confiable.
-
-### P5: ¿Aspose.Tasks ofrece soporte al cliente y recursos de documentación?
-
-R5: Sí, Aspose.Tasks proporciona documentación extensa, foros y atención al cliente para ayudar a los desarrolladores a utilizar sus funciones de manera efectiva.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Última actualización:** 2026-03-16  
+**Probado con:** Aspose.Tasks 24.11 for .NET  
+**Autor:** Aspose  
+
+---

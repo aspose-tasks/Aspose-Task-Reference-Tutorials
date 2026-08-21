@@ -1,107 +1,173 @@
 ---
-title: Pokročilé funkce Aspose.Tasks
-linktitle: Pokročilé funkce Aspose.Tasks
+date: 2026-03-16
+description: Naučte se, jak nastavit režim výpočtu v Aspose.Tasks pro .NET a spravovat
+  přiřazení projektů, dostupnost zdrojů a stylovat pruhy Ganttova diagramu pomocí
+  pokročilých tutoriálů.
+linktitle: Aspose.Tasks Advanced Features
 second_title: Aspose.Tasks .NET API
-description: Objevte pokročilé funkce v Aspose.Tasks pro .NET pomocí našich výukových programů. Zlepšete své dovednosti projektového řízení, od operací AND po zpracování výjimek paměti.
-weight: 21
+title: Nastavit režim výpočtu – Pokročilé funkce Aspose.Tasks
 url: /cs/net/advanced-features/
+weight: 21
 ---
+
+ose" keep.
+
+Now ensure we keep all markdown formatting, shortcodes, links, code blocks unchanged.
+
+There are no code blocks except inline code.
+
+Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Pokročilé funkce Aspose.Tasks
-
+# Nastavení režimu výpočtu – Pokročilé funkce Aspose.Tasks
 
 ## Úvod
 
-Jste připraveni zlepšit své dovednosti projektového řízení pomocí Aspose.Tasks pro .NET? Ponořte se do našich komplexních výukových programů zahrnujících řadu pokročilých funkcí. Ať už chcete provádět složité operace AND, zpracovávat výjimky paměti nebo přizpůsobovat zobrazení projektu, máme pro vás řešení.
+Jste připraveni posunout své dovednosti v řízení projektů s Aspose.Tasks pro .NET na vyšší úroveň? V tomto průvodci **se naučíte, jak nastavit režim výpočtu** a ovládnout další pokročilé funkce. Ponořte se do našich komplexních tutoriálů pokrývajících řadu funkcí. Ať už chcete provádět složité operace AND, řešit výjimky paměti nebo přizpůsobovat zobrazení projektů, máme pro vás řešení.
 
-## Pokročilé operace AND v Aspose.Tasks
+## Rychlé odpovědi
+- **Co je „set calculation mode“?** Jedná se o konfiguraci, která řídí, jak Aspose.Tasks vypočítává data úkolů, závislosti a přiřazení zdrojů.  
+- **Proč je to důležité?** Správný režim výpočtu zajišťuje přesné časové osy projektu a zabraňuje konfliktům v plánování.  
+- **Jaké režimy výpočtu jsou k dispozici?** Režimy Fixed, Auto a Manual jsou podporovány v .NET API.  
+- **Potřebuji licenci?** Ano, pro produkční použití je vyžadována platná licence Aspose.Tasks.  
+- **Je kompatibilní s .NET 6+?** Rozhodně – API funguje s .NET Framework, .NET Core a .NET 6/7.
 
-Odemkněte potenciál pokročilých operací AND v Aspose.Tasks pro .NET. Náš výukový program vás provede efektivním filtrováním projektových úkolů na základě více kritérií. Získejte hlubší porozumění správě úkolů pomocí praktických příkladů.[Přečtěte si více](./advanced-and-operation/)
+## Co je „Set Calculation Mode“?
+Nastavení režimu výpočtu určuje, jak projektový engine řeší data a přiřazení zdrojů. Výběrem správného režimu vám pomůže **spravovat přiřazení v projektu** předvídatelněji a snižuje pravděpodobnost neočekávaných posunů v harmonogramu.
 
-## Použití operátoru AND za všech podmínek s Aspose.Tasks
+## Proč používat Aspose.Tasks pro pokročilé řízení projektů?
+Aspose.Tasks poskytuje vývojářům detailní kontrolu nad soubory Microsoft Project bez nutnosti instalace Microsoft Project. Můžete automatizovat složité scénáře, jako je **správa dostupnosti zdrojů**, přizpůsobení vizuálu Ganttova diagramu a programové aplikování výpočetních pravidel.
 
- Prozkoumejte použití operátoru AND za všech podmínek s Aspose.Tasks pro .NET. Efektivně filtrujte projektové úkoly na základě různých kritérií. Zvyšte své dovednosti projektového řízení pomocí tohoto podrobného průvodce.[Přečtěte si více](./and-operator-all-conditions/)
+## Jak nastavit režim výpočtu v Aspose.Tasks
+Níže je stručný průvodce kroků, které budete v dedikovaném tutoriálu provádět:
 
-## Zpracování výjimek paměti pomocí Aspose.Tasks Layout Builder
+1. **Vytvořte nebo načtěte projekt** – začněte s novou instancí `Project` nebo otevřete existující soubor `.mpp`.  
+2. **Zvolte režim výpočtu** – nastavte `Project.CalculationMode` na `CalculationMode.Automatic`, `Manual` nebo `Fixed`.  
+3. **Uložte projekt** – uložte změny do nového souboru nebo proudu.
 
- Řešení výjimek paměti v .NET pomocí Aspose.Tasks Layout Builder. Náš průvodce poskytuje postup krok za krokem s příklady kódu, který zajišťuje bezproblémové zpracování výjimek. Zvyšte efektivitu svého projektu nyní.[Přečtěte si více](./layout-builder-out-of-memory/)
+> *Tip:* Po změně režimu výpočtu zavolejte `project.Recalculate()`, aby byly všechny data úkolů okamžitě aktualizovány.
+
+## Pokročilá operace AND v Aspose.Tasks
+
+Odemkněte potenciál pokročilých operací AND v Aspose.Tasks pro .NET. Náš tutoriál vás provede efektivním filtrováním úkolů projektu na základě více kritérií. Získejte hlubší pochopení správy úkolů pomocí praktických příkladů.  
+[Read more](./advanced-and-operation/)
+
+## Použití operátoru AND ve všech podmínkách s Aspose.Tasks
+
+Prozkoumejte použití operátoru AND ve všech podmínkách s Aspose.Tasks pro .NET. Efektivně filtrujte úkoly projektu na základě různorodých kritérií. Posilte své dovednosti v řízení projektů s tímto krok‑za‑krokem průvodcem.  
+[Read more](./and-operator-all-conditions/)
+
+## Řešení výjimky paměti s Aspose.Tasks Layout Builder
+
+Řešte výjimky paměti v .NET pomocí Aspose.Tasks Layout Builder. Náš průvodce poskytuje krok‑za‑krokem přístup s ukázkami kódu, což vám umožní výjimky řešit plynule. Zvýšte efektivitu svého projektu nyní.  
+[Read more](./layout-builder-out-of-memory/)
+
 ## Práce s přiřazením v Aspose.Tasks
 
-Efektivně spravujte zadání projektů v .NET pomocí Aspose.Tasks. Tento tutoriál se ponoří do různých kontur pro plánování zdrojů a nabízí praktické postřehy a tipy. Vylepšete organizaci svého projektu a zefektivněte pracovní postupy.[Přečtěte si více](./working-with-assignment/)
+Efektivně spravujte přiřazení v projektu v .NET pomocí Aspose.Tasks. Tento tutoriál se zabývá různými přístupy k plánování zdrojů a nabízí praktické postřehy a tipy. Vylepšete organizaci projektu a zjednodušte pracovní postupy.  
+[Read more](./working-with-assignment/)
 
-## Správa základního plánu přiřazení v Aspose.Tasks
+## Správa základní linie přiřazení v Aspose.Tasks
 
- Naučte se, jak efektivně spravovat základní linie přiřazení pomocí Aspose.Tasks pro .NET. To zajišťuje přesné sledování průběhu a výkonu projektu. Ponořte se do našeho tutoriálu, kde najdete podrobného průvodce optimalizací strategií řízení projektů.[Přečtěte si více](./assignment-baseline/)
+Naučte se efektivně spravovat základní linie přiřazení s Aspose.Tasks pro .NET. To zajišťuje přesné sledování postupu projektu a výkonu. Ponořte se do našeho tutoriálu pro krok‑za‑krokem návod na optimalizaci vašich strategií řízení projektů.  
+[Read more](./assignment-baseline/)
 
 ## Kolekce základních linií přiřazení v Aspose.Tasks
 
- Efektivně spravujte základní linie zadání v projektovém řízení pomocí Aspose.Tasks pro .NET. Zvyšte produktivitu a přesnost podle našeho komplexního návodu. Získejte cenné poznatky o optimalizaci pracovních postupů projektu.[Přečtěte si více](./assignment-baseline-collection/)
+Efektivně spravujte základní linie přiřazení v řízení projektů pomocí Aspose.Tasks pro .NET. Zvyšte produktivitu a přesnost podle našeho komplexního tutoriálu. Získejte cenné postřehy pro optimalizaci pracovních postupů projektu.  
+[Read more](./assignment-baseline-collection/)
 
-## Sloupec zobrazení vlastního přiřazení v Aspose.Tasks
+## Vlastní sloupec zobrazení přiřazení v Aspose.Tasks
 
-Prozkoumejte, jak přidat vlastní sloupce zobrazení přiřazení do Aspose.Tasks pro .NET, a zlepšit tak možnosti řízení projektů. Tento výukový program poskytuje podrobného průvodce, který vám umožní přizpůsobit zobrazení projektu tak, aby splňovaly konkrétní požadavky.[Přečtěte si více](./assignment-view-column/)
+Prozkoumejte, jak přidat vlastní sloupce zobrazení přiřazení v Aspose.Tasks pro .NET, čímž rozšíříte své schopnosti řízení projektů. Tento tutoriál poskytuje podrobný návod, který vám umožní přizpůsobit zobrazení projektu konkrétním požadavkům.  
+[Read more](./assignment-view-column/)
 
 ## Práce s obdobími dostupnosti v Aspose.Tasks
 
- Efektivně spravujte období dostupnosti zdrojů pomocí Aspose.Tasks for .NET. Tento výukový program nabízí podrobného průvodce, který poskytuje praktické poznatky pro práci s obdobími dostupnosti ve vašich projektech .NET. Vylepšete plánování a realizaci projektu.[Přečtěte si více](./working-with-availability-periods/)
+Efektivně spravujte období dostupnosti zdrojů pomocí Aspose.Tasks pro .NET. Tento tutoriál nabízí krok‑za‑krokem návod, poskytující praktické postřehy pro práci s obdobími dostupnosti ve vašich .NET projektech. Zlepšete plánování a realizaci projektu.  
+[Read more](./working-with-availability-periods/)
 
 ## Kolekce období dostupnosti v Aspose.Tasks
 
- Osvojte si umění správy období dostupnosti zdrojů v Aspose.Tasks pro .NET. Tento kurz vás provede přidáváním, aktualizací a odebíráním období dostupnosti a zajišťuje efektivní plánování zdrojů projektu. Zvyšte své dovednosti projektového řízení.[Přečtěte si více](./availability-period-collection/)
+Naučte se spravovat období dostupnosti zdrojů v Aspose.Tasks pro .NET. Tento tutoriál vás provede přidáváním, aktualizací a odstraňováním období dostupnosti, což zajišťuje efektivní plánování zdrojů projektu. Posilte své dovednosti v řízení projektů.  
+[Read more](./availability-period-collection/)
 
-## Styling Bar v Aspose.Tasks
+## Stylování pruhů v Aspose.Tasks
 
-Naučte se stylovat pruhy v Aspose.Tasks pro .NET a vylepšit tak vizualizaci projektu. Náš tutoriál poskytuje praktické poznatky, které vám pomohou vytvořit vizuálně přitažlivé časové osy projektů. Zvyšte svou prezentaci a komunikaci projektu.[Přečtěte si více](./styling-bar/)
+Naučte se stylovat pruhy v Aspose.Tasks pro .NET a zlepšit tak vizualizaci projektu. Náš tutoriál poskytuje praktické postřehy, které vám pomohou vytvořit vizuálně atraktivní časové osy projektu. Posilte prezentaci a komunikaci svého projektu.  
+[Read more](./styling-bar/)
 
-
-## Výukové programy pro pokročilé funkce Aspose.Tasks
-### [Pokročilé operace AND v Aspose.Tasks](./advanced-and-operation/)
-Naučte se provádět pokročilé operace AND v Aspose.Tasks pro .NET a efektivně filtrovat projektové úkoly na základě více kritérií.
-### [Použití operátoru AND za všech podmínek s Aspose.Tasks](./and-operator-all-conditions/)
-Naučte se používat operátor AND za všech podmínek s Aspose.Tasks for .NET k efektivnímu filtrování projektových úkolů.
-### [Zpracování výjimek paměti pomocí Aspose.Tasks Layout Builder](./layout-builder-out-of-memory/)
-Naučte se, jak efektivně zacházet s výjimkami paměti v .NET pomocí Aspose.Tasks Layout Builder. Podrobný průvodce s příklady kódu.
+## Tutoriály pokročilých funkcí Aspose.Tasks
+### [Pokročilá operace AND v Aspose.Tasks](./advanced-and-operation/)
+Naučte se provádět pokročilé operace AND v Aspose.Tasks pro .NET, abyste efektivně filtrovali úkoly projektu na základě více kritérií.
+### [Použití operátoru AND ve všech podmínkách s Aspose.Tasks](./and-operator-all-conditions/)
+Naučte se používat operátor AND ve všech podmínkách s Aspose.Tasks pro .NET k efektivnímu filtrování úkolů projektu.
+### [Řešení výjimky paměti s Aspose.Tasks Layout Builder](./layout-builder-out-of-memory/)
+Naučte se efektivně řešit výjimky paměti v .NET pomocí Aspose.Tasks Layout Builder. Praktický průvodce krok za krokem s ukázkami kódu.
 ### [Práce s přiřazením v Aspose.Tasks](./working-with-assignment/)
-Naučte se, jak spravovat přiřazení projektů v .NET pomocí Aspose.Tasks. Prozkoumejte různé obrysy pro plánování zdrojů.
-### [Správa základního plánu přiřazení v Aspose.Tasks](./assignment-baseline/)
-Naučte se, jak efektivně spravovat základní linie zadání pomocí Aspose.Tasks pro .NET, což zajišťuje přesné sledování průběhu a výkonu projektu.
+Naučte se spravovat přiřazení v projektu v .NET pomocí Aspose.Tasks. Prozkoumejte různé přístupy k plánování zdrojů.
+### [Správa základní linie přiřazení v Aspose.Tasks](./assignment-baseline/)
+Naučte se efektivně spravovat základní linie přiřazení s Aspose.Tasks pro .NET, což zajišťuje přesné sledování postupu projektu a výkonu.
 ### [Kolekce základních linií přiřazení v Aspose.Tasks](./assignment-baseline-collection/)
-Naučte se, jak efektivně spravovat základní linie přiřazení v projektovém řízení pomocí Aspose.Tasks for .NET. Zvyšte produktivitu a přesnost.
-### [Sloupec zobrazení vlastního přiřazení v Aspose.Tasks](./assignment-view-column/)
-Naučte se, jak přidat vlastní sloupce zobrazení přiřazení do Aspose.Tasks pro .NET, abyste zlepšili možnosti řízení projektů.
+Naučte se efektivně spravovat základní linie přiřazení v řízení projektů pomocí Aspose.Tasks pro .NET. Zvyšte produktivitu a přesnost.
+### [Vlastní sloupec zobrazení přiřazení v Aspose.Tasks](./assignment-view-column/)
+Naučte se přidávat vlastní sloupce zobrazení přiřazení v Aspose.Tasks pro .NET a rozšířit tak možnosti řízení projektů.
 ### [Práce s obdobími dostupnosti v Aspose.Tasks](./working-with-availability-periods/)
-Naučte se, jak efektivně spravovat období dostupnosti zdrojů pomocí Aspose.Tasks for .NET. Tento kurz poskytuje podrobného průvodce pro práci s obdobími dostupnosti ve vašich projektech .NET.
+Naučte se efektivně spravovat období dostupnosti zdrojů pomocí Aspose.Tasks pro .NET. Tento tutoriál poskytuje krok‑za‑krokem návod pro práci s obdobími dostupnosti ve vašich .NET projektech.
 ### [Kolekce období dostupnosti v Aspose.Tasks](./availability-period-collection/)
-Zjistěte, jak spravovat období dostupnosti prostředků v Aspose.Tasks for .NET. Tento podrobný návod vás provede přidáváním, aktualizací a odebíráním období dostupnosti a zajišťuje efektivní plánování zdrojů projektu.
-### [Styling Bar v Aspose.Tasks](./styling-bar/)
-Naučte se stylovat pruhy v Aspose.Tasks pro .NET a vylepšit tak vizualizaci projektu.
-### [Práce s Baseline Collection v Aspose.Tasks](./working-with-baseline-collection/)
-Naučte se, jak efektivně spravovat směrné plány v Aspose.Tasks pro .NET. Postupujte podle našeho komplexního návodu, kde najdete podrobné pokyny.
+Naučte se spravovat období dostupnosti zdrojů v Aspose.Tasks pro .NET. Tento krok‑za‑krokem tutoriál vás provede přidáváním, aktualizací a odstraňováním období dostupnosti, což zajišťuje efektivní plánování zdrojů projektu.
+### [Stylování pruhů v Aspose.Tasks](./styling-bar/)
+Naučte se stylovat pruhy v Aspose.Tasks pro .NET a zlepšit tak vizualizaci projektu.
+### [Práce s kolekcí základních linií v Aspose.Tasks](./working-with-baseline-collection/)
+Naučte se efektivně spravovat základní linie v Aspose.Tasks pro .NET. Postupujte podle našeho komplexního tutoriálu s podrobným návodem.
 ### [Různé typy základních linií v Aspose.Tasks](./baseline-types/)
-Naučte se efektivně nastavovat a manipulovat se základními liniemi projektu pomocí Aspose.Tasks for .NET.
-### [Zpracování výjimky pro neplatnou velikost pro bitmapu v Aspose.Tasks](./bitmap-invalid-size-exception/)
-Naučte se, jak zacházet s BitmapInvalidSizeException v Aspose.Tasks for .NET při ukládání projektů jako obrázků. Komplexní výukový program s návodem krok za krokem.
+Naučte se nastavit a manipulovat se základními liniemi projektu efektivně pomocí Aspose.Tasks pro .NET.
+### [Řešení výjimky neplatné velikosti bitmapy v Aspose.Tasks](./bitmap-invalid-size-exception/)
+Naučte se, jak řešit výjimku BitmapInvalidSizeException v Aspose.Tasks pro .NET při ukládání projektů jako obrázků. Kompletní tutoriál s podrobným návodem.
 ### [Vestavěná kolekce vlastností projektu v Aspose.Tasks](./built-in-project-property-collection/)
-Naučte se, jak efektivně spravovat metavlastnosti projektu v aplikacích .NET pomocí Aspose.Tasks. Čtěte, upravujte a iterujte vlastnosti bez námahy.
-### [Opakování po měsíčním dni v Aspose.Tasks](./repetition-by-month-day/)
-Naučte se spravovat opakující se úkoly v projektech .NET pomocí Aspose.Tasks. Průvodce krok za krokem pro zvládnutí opakování podle měsíce dne.
-### [Opakování podle měsíce týdne den v Aspose.Tasks](./repetition-by-month-week-day/)
-Naučte se, jak nastavit opakování podle měsíce, týdne a dne v Aspose.Tasks pro .NET, abyste mohli efektivně automatizovat opakující se úkoly.
-### [Opakování podle dne roku v Aspose.Tasks](./repetition-by-year-day/)
-Zjistěte, jak zacházet s opakováním po celý rok v Aspose.Tasks pro .NET, abyste efektivně zjednodušili správu opakujících se úloh.
-### [Opakování podle Rok týden Den v Aspose.Tasks](./repetition-by-year-week-day/)
-Prozkoumejte sílu Aspose.Tasks pro .NET při efektivní správě opakujících se úkolů. Podrobný průvodce implementací funkce Opakování podle roku a týdne.
+Naučte se efektivně spravovat meta‑vlastnosti projektu v .NET aplikacích pomocí Aspose.Tasks. Čtěte, upravujte a procházejte vlastnosti bez námahy.
+### [Opakování podle dne v měsíci v Aspose.Tasks](./repetition-by-month-day/)
+Naučte se spravovat opakující se úkoly v .NET projektech pomocí Aspose.Tasks. Praktický návod krok za krokem pro opakování podle dne v měsíci.
+### [Opakování podle dne v týdnu v měsíci v Aspose.Tasks](./repetition-by-month-week-day/)
+Naučte se nastavit opakování podle měsíce, týdne a dne v Aspose.Tasks pro .NET a efektivně automatizovat opakující se úkoly.
+### [Opakování podle dne v roce v Aspose.Tasks](./repetition-by-year-day/)
+Naučte se řešit opakování podle dne v roce v Aspose.Tasks pro .NET a efektivně zjednodušit správu opakujících se úkolů.
+### [Opakování podle dne v týdnu v roce v Aspose.Tasks](./repetition-by-year-week-day/)
+Prozkoumejte sílu Aspose.Tasks pro .NET při efektivní správě opakujících se úkolů. Praktický návod krok za krokem pro implementaci funkce Opakování podle dne v týdnu v roce.
 ### [Režim výpočtu v Aspose.Tasks](./calculation-mode/)
-Naučte se, jak efektivně spravovat režimy výpočtu v Aspose.Tasks for .NET, abyste zefektivnili plánování projektů a závislosti na úkolech.
+Naučte se efektivně spravovat režimy výpočtu v Aspose.Tasks pro .NET a zjednodušit plánování projektu a závislosti úkolů.
 ### [Typ výpočtu v Aspose.Tasks](./calculation-type/)
-Naučte se, jak přizpůsobit výpočty hodnot v projektech .NET pomocí Typu výpočtu v knihovně Aspose.Tasks.
+Naučte se přizpůsobit výpočty hodnot v .NET projektech pomocí typu výpočtu v knihovně Aspose.Tasks.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+## Často kladené otázky
+
+**Q: Jak mohu změnit režim výpočtu za běhu?**  
+A: Použijte vlastnost `Project.CalculationMode` a zavolejte `project.Recalculate()`, aby se nový režim použil okamžitě.
+
+**Q: Mohu nastavit různé režimy výpočtu pro různé části projektu?**  
+A: Režim výpočtu se nastavuje na úrovni celého projektu; nicméně můžete programově přepínat režimy před zpracováním konkrétních částí.
+
+**Q: Ovlivní změna režimu výpočtu existující přiřazení?**  
+A: Ano, může to ovlivnit způsob výpočtu dat přiřazení. Po změně režimu zkontrolujte přiřazení, aby byla zachována konzistence.
+
+**Q: Je „set calculation mode“ podporováno v nejnovější verzi Aspose.Tasks?**  
+A: Rozhodně. Tato funkce je plně podporována ve všech aktuálních verzích Aspose.Tasks pro .NET.
+
+**Q: Kde mohu najít další příklady správy dostupnosti zdrojů?**  
+A: Podívejte se na tutoriály „Práce s obdobími dostupnosti“ a „Kolekce období dostupnosti“ uvedené výše.
+
+---
+
+**Last Updated:** 2026-03-16  
+**Tested With:** Aspose.Tasks 24.11 for .NET  
+**Author:** Aspose

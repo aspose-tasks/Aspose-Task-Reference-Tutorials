@@ -1,35 +1,51 @@
 ---
-title: Implementieren des Rückrufs zum Speichern von Seiten in Aspose.Tasks
-linktitle: Implementieren des Rückrufs zum Speichern von Seiten in Aspose.Tasks
-second_title: Aspose.Tasks .NET-API
-description: Erfahren Sie, wie Sie einen Rückruf zum Speichern von Seiten in Aspose.Tasks für .NET implementieren und so die benutzerdefinierte Verarbeitung mehrseitiger Dokumentausgabeströme ermöglichen.
-weight: 12
+date: 2026-03-16
+description: Erfahren Sie, wie Sie den Page‑Saving‑Callback in Aspose.Tasks für .NET
+  implementieren, um die benutzerdefinierte Handhabung von mehrseitigen Dokumentausgabeströmen
+  zu ermöglichen.
+linktitle: Implement page saving callback in Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+title: Seiten‑Speicher‑Callback in Aspose.Tasks implementieren
 url: /de/net/advanced-concepts/page-saving-callback/
+weight: 12
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+Also need to translate "## Quick Answers" etc.
+
+Now produce final content with all shortcodes and markdown.
+
+Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Implementieren des Rückrufs zum Speichern von Seiten in Aspose.Tasks
+# Implementieren des Page‑Saving‑Callbacks in Aspose.Tasks
 
 ## Einführung
 
-In diesem Tutorial erfahren Sie, wie Sie einen Rückruf zum Speichern von Seiten in Aspose.Tasks für .NET implementieren. Mit dieser Funktion können wir ein mehrseitiges Dokument in vom Benutzer bereitgestellten Streams speichern und bieten so Flexibilität und Anpassung bei der Ausgabeverarbeitung.
+In diesem Tutorial lernen Sie, wie Sie den **Page‑Saving‑Callback** in Aspose.Tasks für .NET **implementieren**. Diese leistungsstarke Funktion ermöglicht es Ihnen, jede Seite eines mehrseitigen Dokuments in einen Stream Ihrer Wahl zu leiten, sodass Sie die Speicherung oder Weiterverarbeitung der Ausgabe vollständig kontrollieren können.
 
-## Voraussetzungen:
+## Schnelle Antworten
+- **Was macht der Page‑Saving‑Callback?** Er erfasst jede gerenderte Seite in einem separaten Stream, sodass Sie sie einzeln verarbeiten können.  
+- **In welches Format kann ich exportieren?** Jedes von `ImageSaveOptions` unterstützte Format, z. B. PNG, JPEG, PDF.  
+- **Benötige ich eine Lizenz?** Für den Produktionseinsatz ist eine gültige Aspose.Tasks‑Lizenz erforderlich.  
+- **Kann ich das mit .NET Core verwenden?** Ja, Aspose.Tasks unterstützt .NET Core sowie .NET 5/6+ vollständig.  
+- **Ist der Callback thread‑sicher?** Der Callback wird im selben Thread ausgeführt, der das Rendering durchführt, daher gelten die üblichen Thread‑Sicherheitsregeln.
 
-Bevor wir beginnen, stellen Sie sicher, dass Sie über Folgendes verfügen:
+## Was ist **implement page saving callback**?
+Das **implement page saving callback**‑Muster ermöglicht es Ihnen, benutzerdefinierte Logik in die Speicherschlauchleitung von Aspose.Tasks einzuklinken. Anstatt direkt in eine Datei zu schreiben, erhalten Sie für jede Seite ein `Stream`‑Objekt, das Sie im Speicher ablegen, in Cloud‑Speicher hochladen oder weiterverarbeiten können.
 
-1. Kenntnisse der Programmiersprache C#: Sie sollten über grundlegende Kenntnisse der Syntax und Konzepte von C# verfügen.
-   
-2.  Installation von Aspose.Tasks für .NET: Stellen Sie sicher, dass Sie die Aspose.Tasks-Bibliothek in Ihrer Entwicklungsumgebung installiert haben. Sie können es herunterladen unter[Hier](https://releases.aspose.com/tasks/net/).
+## Warum ein Projekt als PNG mit einem Callback exportieren?
+Der Export eines Projekts als PNG liefert Ihnen ein Rasterbild jeder Gantt‑Diagramm‑Seite, was sich ideal für Berichte, E‑Mails oder das Einbetten in Webseiten eignet. Durch die Verwendung eines Callbacks können Sie jede Seite in einem separaten `MemoryStream` behalten, ohne temporäre Dateien auf der Festplatte zu erzeugen.
 
-3. Einrichtung der Entwicklungsumgebung: Richten Sie Ihre bevorzugte IDE für die .NET-Entwicklung ein, z. B. Visual Studio.
+## Voraussetzungen
 
-## Namespaces importieren:
+1. **C#‑Kenntnisse** – Grundlegende Vertrautheit mit Klassen, Schnittstellen und Streams.  
+2. **Aspose.Tasks für .NET** – herunterladen und installieren von [hier](https://releases.aspose.com/tasks/net/).  
+3. **IDE** – Visual Studio, Rider oder ein beliebiger .NET‑kompatibler Editor.
 
-Zunächst müssen Sie die erforderlichen Namespaces in Ihren C#-Code importieren:
+## Namespaces importieren
+
+Um zu beginnen, importieren Sie die erforderlichen Namespaces:
 
 ```csharp
 using Aspose.Tasks;
@@ -37,20 +53,19 @@ using System.Collections.Generic;
 using System.IO;
 
 using Aspose.Tasks.Saving;
-
 ```
 
-## Schritt 1: Erstellen Sie ein Projektobjekt
+## Schritt 1: Erstellen eines Project‑Objekts
 
- Instanziieren Sie a`Project` Objekt durch Laden einer vorhandenen Projektdatei:
+Laden Sie eine vorhandene MPP‑Datei in eine `Project`‑Instanz:
 
 ```csharp
 var project = new Project(DataDir + "Homemoveplan.mpp");
 ```
 
-## Schritt 2: Konfigurieren Sie die Bildspeicheroptionen
+## Schritt 2: Konfigurieren der Image‑Save‑Optionen
 
- Definieren`ImageSaveOptions`und passen Sie das Verhalten beim Speichern von Seiten an, indem Sie Folgendes festlegen`PageSavingCallback` Eigentum:
+Richten Sie `ImageSaveOptions` für PNG‑Ausgabe ein und hängen Sie den benutzerdefinierten Callback an:
 
 ```csharp
 var imageSaveOptions = new ImageSaveOptions(SaveFileFormat.Png);
@@ -59,28 +74,30 @@ imageSaveOptions.PageSavingCallback = callback;
 imageSaveOptions.RenderToSinglePage = false;
 ```
 
-## Schritt 3: Projekt mit Rückruf speichern
+> **Profi‑Tipp:** Durch das Setzen von `RenderToSinglePage = false` wird sichergestellt, dass jede Gantt‑Diagramm‑Seite separat gerendert wird, was für den Callback notwendig ist, um unterschiedliche Streams zu erhalten.
 
-Speichern Sie das Projekt mit den konfigurierten Bildspeicheroptionen:
+## Schritt 3: Projekt mit Callback speichern
+
+Rufen Sie die `Save`‑Methode auf und übergeben Sie `Stream.Null`, weil die tatsächlichen Streams vom Callback bereitgestellt werden:
 
 ```csharp
 project.Save(Stream.Null, imageSaveOptions);
 ```
 
-## Schritt 4: Gespeicherte Seitenströme verarbeiten
+## Schritt 4: Gespeicherte Seiten‑Streams verarbeiten
 
-Durchlaufen Sie die vom Rückruf bereitgestellten Seitenströme, um jede Seite einzeln zu verarbeiten:
+Nachdem der Speicher‑Vorgang abgeschlossen ist, hält der Callback eine Sammlung von `MemoryStream`‑Objekten – eines pro Seite. Sie können nun über diese iterieren:
 
 ```csharp
 foreach (var stream in callback.PageStreams)
 {
-    // Verarbeiten Sie jeden Seitenstream
+    // Process each page stream, e.g., upload to Azure Blob, write to a database, etc.
 }
 ```
 
-## Schritt 5: Implementieren Sie einen benutzerdefinierten Rückruf zum Speichern von Seiten
+## Schritt 5: Benutzerdefinierten Page‑Saving‑Callback implementieren
 
- Erstellen Sie eine Klasse, die das implementiert`IPageSavingCallback` Schnittstelle zum Speichern von Seiten:
+Erstellen Sie eine versiegelte Klasse, die `IPageSavingCallback` implementiert. Diese Klasse erfasst den Stream jeder Seite und speichert ihn in einer Liste zur späteren Verwendung.
 
 ```csharp
 private sealed class CustomPageSavingCallback : IPageSavingCallback
@@ -97,36 +114,42 @@ private sealed class CustomPageSavingCallback : IPageSavingCallback
 
     public void OnFinish()
     {
-        // Führen Sie eine Bereinigung oder Finalisierung durch
+        // Perform any cleanup or finalization
     }
 }
 ```
 
-## Abschluss:
+## Häufige Fallstricke & Fehlerbehebung
 
-In diesem Tutorial haben wir gelernt, wie man in Aspose.Tasks für .NET einen Rückruf zum Speichern von Seiten implementiert, der es uns ermöglicht, mehrseitige Dokumente in separaten Streams zu speichern. Durch Befolgen dieser Schritte können Sie die Funktionalität Ihrer Anwendung verbessern und eine individuelle Ausgabeverarbeitung erreichen.
+| Problem | Grund | Lösung |
+|---------|-------|--------|
+| **Keine Seiten werden zurückgegeben** | `RenderToSinglePage` wurde auf `true` belassen. | Setzen Sie `RenderToSinglePage = false`, um separate Seiten zu erzeugen. |
+| **Streams sind leer** | `KeepStreamOpen` wurde auf `true` gesetzt, ohne später zu entsorgen. | Lassen Sie es `false` (Standard) und lassen Sie den Callback die Streams automatisch schließen. |
+| **Out‑of‑Memory‑Fehler** | Sehr große Projekte erzeugen viele hochauflösende PNGs. | Verarbeiten Sie die Streams einzeln oder erhöhen Sie die VM‑Speichergrenzen. |
 
-## FAQs
+## Häufig gestellte Fragen
 
-### F1: Was ist ein Rückruf zum Speichern von Seiten in Aspose.Tasks?
+**Q1: Was ist ein Page‑Saving‑Callback in Aspose.Tasks?**  
+A: Ein Page‑Saving‑Callback ermöglicht es Ihnen, den Speicherprozess jeder Seite eines mehrseitigen Dokuments abzufangen und einen benutzerdefinierten `Stream` für diese Seite bereitzustellen.
 
-A1: Ein Rückruf zum Speichern von Seiten ist eine Funktion in Aspose.Tasks, mit der Benutzer den Speichervorgang mehrseitiger Dokumente anpassen können, indem sie Streams für jede Seite einzeln bereitstellen.
+**Q2: Kann ich verschiedene Formate zum Speichern von Seiten mit diesem Callback verwenden?**  
+A: Ja. Durch Ändern von `SaveFileFormat` können Sie zu PNG, JPEG, PDF, SVG usw. exportieren.
 
-### F2: Kann ich mit diesem Rückruf verschiedene Formate zum Speichern von Seiten verwenden?
+**Q3: Ist Aspose.Tasks mit .NET Core kompatibel?**  
+A: Absolut. Aspose.Tasks unterstützt .NET Core, .NET 5 und .NET 6.
 
-A2: Ja, Sie können verschiedene von Aspose.Tasks unterstützte Dateiformate wie PNG, JPEG, PDF usw. zum Speichern von Seiten mit dem Rückruf verwenden.
+**Q4: Wie kann ich Fehler während des Seiten‑Speicher‑Prozesses behandeln?**  
+A: Umhüllen Sie die Callback‑Logik in try/catch‑Blöcke und protokollieren Sie Ausnahmen. Die Methode `OnFinish` ist ein guter Ort für die abschließende Bereinigung.
 
-### F3: Ist Aspose.Tasks mit .NET Core kompatibel?
+**Q5: Wo finde ich weitere Ressourcen und Support für Aspose.Tasks?**  
+A: Sie können das [Aspose.Tasks‑Forum](https://forum.aspose.com/c/tasks/15) für Unterstützung besuchen, die Dokumentation [hier](https://reference.aspose.com/tasks/net/) aufrufen oder weitere Funktionen und Lizenzierungsoptionen auf der [Aspose.Tasks‑Website](https://purchase.aspose.com/buy) erkunden.
 
-A3: Ja, Aspose.Tasks unterstützt .NET Core, sodass Entwickler seine Funktionen in plattformübergreifenden Anwendungen nutzen können.
+---
 
-### F4: Wie kann ich mit Fehlern während des Seitenspeichervorgangs umgehen?
+**Letzte Aktualisierung:** 2026-03-16  
+**Getestet mit:** Aspose.Tasks 24.12 für .NET  
+**Autor:** Aspose  
 
-A4: Sie können Fehlerbehandlungsmechanismen innerhalb der Rückrufmethoden implementieren, um Ausnahmen zu verwalten und die Robustheit Ihrer Anwendung sicherzustellen.
-
-### F5: Wo finde ich weitere Ressourcen und Unterstützung für Aspose.Tasks?
-
- A5: Sie können die besuchen[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15) Für Unterstützung greifen Sie auf die Dokumentation zu[Hier](https://reference.aspose.com/tasks/net/) , oder erkunden Sie zusätzliche Funktionen und Lizenzoptionen auf der[Aspose.Tasks-Website](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

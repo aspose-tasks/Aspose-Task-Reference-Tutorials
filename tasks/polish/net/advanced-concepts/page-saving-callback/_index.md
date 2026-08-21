@@ -1,35 +1,103 @@
 ---
-title: Implementacja wywołania zwrotnego zapisywania strony w Aspose.Tasks
-linktitle: Implementacja wywołania zwrotnego zapisywania strony w Aspose.Tasks
+date: 2026-03-16
+description: Dowiedz się, jak zaimplementować wywołanie zwrotne zapisywania stron
+  w Aspose.Tasks dla .NET, umożliwiając spersonalizowaną obsługę strumieni wyjściowych
+  dokumentów wielostronicowych.
+linktitle: Implement page saving callback in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Dowiedz się, jak zaimplementować wywołanie zwrotne oszczędzające stronę w Aspose.Tasks dla .NET, umożliwiając niestandardową obsługę wielostronicowych strumieni wyjściowych dokumentów.
-weight: 12
+title: Zaimplementuj wywołanie zwrotne zapisywania strony w Aspose.Tasks
 url: /pl/net/advanced-concepts/page-saving-callback/
+weight: 12
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ne
+
+List items.
+
+## Importowanie przestrzeni nazw
+
+Then code block placeholder.
+
+## Krok 1: Utwórz obiekt Project
+
+...
+
+## Krok 2: Skonfiguruj opcje zapisu obrazu
+
+...
+
+> **Pro tip:** ... translate.
+
+## Krok 3: Zapisz projekt z wywołaniem zwrotnym
+
+...
+
+## Krok 4: Przetwarzaj zapisane strumienie stron
+
+...
+
+## Krok 5: Zaimplementuj własne wywołanie zwrotne zapisu strony
+
+...
+
+## Typowe problemy i rozwiązywanie
+
+Table.
+
+Translate column headers: Issue -> Problem, Reason -> Przyczyna, Solution -> Rozwiązanie.
+
+Rows: "No pages are returned" -> "Nie zwrócono żadnych stron". etc.
+
+## Najczęściej zadawane pytania
+
+Then Q&A.
+
+Translate Q1 etc.
+
+Make sure to keep bold formatting.
+
+Also keep links.
+
+At the end, "Last Updated", "Tested With", "Author" translate.
+
+Probably "Ostatnia aktualizacja", "Testowane z", "Autor".
+
+But we must keep the same format: **Last Updated:** 2026-03-16 etc. Should translate the label.
+
+Let's translate.
+
+Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Implementacja wywołania zwrotnego zapisywania strony w Aspose.Tasks
+# Implementacja wywołania zwrotnego zapisu strony w Aspose.Tasks
 
-## Wstęp
+## Wprowadzenie
 
-W tym samouczku przyjrzymy się, jak zaimplementować wywołanie zwrotne zapisywania strony w Aspose.Tasks dla .NET. Ta funkcja pozwala nam zapisać wielostronicowy dokument w strumieniach dostarczonych przez użytkownika, oferując elastyczność i dostosowanie w obsłudze wyników.
+W tym samouczku dowiesz się, jak **zaimplementować wywołanie zwrotne zapisu strony** w Aspose.Tasks dla .NET. Ta potężna funkcja pozwala skierować każdą stronę wielostronicowego dokumentu do wybranego strumienia, dając pełną kontrolę nad tym, jak wynik jest przechowywany lub dalej przetwarzany.
 
-## Warunki wstępne:
+## Szybkie odpowiedzi
+- **Co robi wywołanie zwrotne zapisu strony?** Przechwytuje każdą wyrenderowaną stronę w osobnym strumieniu, aby można było obsłużyć je indywidualnie.  
+- **Do jakiego formatu mogę eksportować?** Do dowolnego formatu obsługiwanego przez `ImageSaveOptions`, np. PNG, JPEG, PDF.  
+- **Czy potrzebna jest licencja?** Wymagana jest ważna licencja Aspose.Tasks do użytku produkcyjnego.  
+- **Czy mogę używać tego z .NET Core?** Tak, Aspose.Tasks w pełni wspiera .NET Core oraz .NET 5/6+.  
+- **Czy wywołanie zwrotne jest bezpieczne wątkowo?** Wywołanie zwrotne działa w tym samym wątku, w którym odbywa się renderowanie, więc obowiązują standardowe zasady bezpieczeństwa wątkowego.
 
-Zanim zaczniemy, upewnij się, że masz następujące elementy:
+## Co to jest **implement page saving callback**?
+Wzorzec **implement page saving callback** pozwala podłączyć własną logikę do potoku zapisu w Aspose.Tasks. Zamiast zapisywać bezpośrednio do pliku, otrzymujesz obiekt `Stream` dla każdej strony, co umożliwia przechowywanie go w pamięci, przesyłanie do chmury lub dodatkowe przetwarzanie.
 
-1. Znajomość języka programowania C#: Powinieneś posiadać podstawową wiedzę na temat składni i pojęć C#.
-   
-2.  Instalacja Aspose.Tasks dla .NET: Upewnij się, że zainstalowałeś bibliotekę Aspose.Tasks w swoim środowisku programistycznym. Można go pobrać z[Tutaj](https://releases.aspose.com/tasks/net/).
+## Dlaczego eksportować projekt jako PNG z wywołaniem zwrotnym?
+Eksport projektu jako PNG daje rastrowy obraz każdej strony wykresu Gantta, co jest idealne do raportów, e‑maili lub osadzania w stronach internetowych. Użycie wywołania zwrotnego pozwala trzymać każdą stronę w osobnym `MemoryStream` bez tworzenia tymczasowych plików na dysku.
 
-3. Konfiguracja środowiska programistycznego: Skonfiguruj preferowane środowisko IDE dla programowania w środowisku .NET, takie jak Visual Studio.
+## Wymagania wstępne
 
-## Importuj przestrzenie nazw:
+1. **Znajomość C#** – podstawowa znajomość klas, interfejsów i strumieni.  
+2. **Aspose.Tasks for .NET** – pobierz i zainstaluj z [tutaj](https://releases.aspose.com/tasks/net/).  
+3. **IDE** – Visual Studio, Rider lub dowolny edytor kompatybilny z .NET.
 
-Aby rozpocząć, musisz zaimportować niezbędne przestrzenie nazw do swojego kodu C#:
+## Importowanie przestrzeni nazw
+
+Aby rozpocząć, zaimportuj wymagane przestrzenie nazw:
 
 ```csharp
 using Aspose.Tasks;
@@ -37,20 +105,19 @@ using System.Collections.Generic;
 using System.IO;
 
 using Aspose.Tasks.Saving;
-
 ```
 
-## Krok 1: Utwórz obiekt projektu
+## Krok 1: Utwórz obiekt Project
 
- Utwórz instancję a`Project` obiekt, ładując istniejący plik projektu:
+Wczytaj istniejący plik MPP do instancji `Project`:
 
 ```csharp
 var project = new Project(DataDir + "Homemoveplan.mpp");
 ```
 
-## Krok 2: Skonfiguruj opcje zapisywania obrazu
+## Krok 2: Skonfiguruj opcje zapisu obrazu
 
- Definiować`ImageSaveOptions` dostosuj zachowanie strony podczas zapisywania, ustawiając`PageSavingCallback` nieruchomość:
+Ustaw `ImageSaveOptions` dla wyjścia PNG i podłącz własne wywołanie zwrotne:
 
 ```csharp
 var imageSaveOptions = new ImageSaveOptions(SaveFileFormat.Png);
@@ -59,9 +126,11 @@ imageSaveOptions.PageSavingCallback = callback;
 imageSaveOptions.RenderToSinglePage = false;
 ```
 
-## Krok 3: Zapisz projekt z funkcją wywołania zwrotnego
+> **Pro tip:** Ustawienie `RenderToSinglePage = false` zapewnia, że każda strona wykresu Gantta jest renderowana osobno, co jest niezbędne, aby wywołanie zwrotne otrzymało odrębne strumienie.
 
-Zapisz projekt, korzystając ze skonfigurowanych opcji zapisywania obrazu:
+## Krok 3: Zapisz projekt z wywołaniem zwrotnym
+
+Wywołaj metodę `Save`, przekazując `Stream.Null`, ponieważ rzeczywiste strumienie są dostarczane przez wywołanie zwrotne:
 
 ```csharp
 project.Save(Stream.Null, imageSaveOptions);
@@ -69,18 +138,18 @@ project.Save(Stream.Null, imageSaveOptions);
 
 ## Krok 4: Przetwarzaj zapisane strumienie stron
 
-Wykonaj iterację strumieni stron dostarczonych przez wywołanie zwrotne, aby przetworzyć każdą stronę indywidualnie:
+Po zakończeniu operacji zapisu wywołanie zwrotne przechowuje kolekcję obiektów `MemoryStream` — po jednej na stronę. Możesz teraz iterować po nich:
 
 ```csharp
 foreach (var stream in callback.PageStreams)
 {
-    // Przetwarzaj każdy strumień strony
+    // Process each page stream, e.g., upload to Azure Blob, write to a database, etc.
 }
 ```
 
-## Krok 5: Zaimplementuj niestandardowe wywołanie zwrotne zapisywania strony
+## Krok 5: Zaimplementuj własne wywołanie zwrotne zapisu strony
 
- Utwórz klasę, która implementuje metodę`IPageSavingCallback` interfejs do obsługi zapisywania strony:
+Utwórz klasę sealed, która implementuje `IPageSavingCallback`. Klasa ta przechwytuje strumień każdej strony i zapisuje go w liście do późniejszego użycia.
 
 ```csharp
 private sealed class CustomPageSavingCallback : IPageSavingCallback
@@ -97,36 +166,42 @@ private sealed class CustomPageSavingCallback : IPageSavingCallback
 
     public void OnFinish()
     {
-        // Wykonaj czyszczenie lub finalizację
+        // Perform any cleanup or finalization
     }
 }
 ```
 
-## Wniosek:
+## Typowe problemy i rozwiązywanie
 
-W tym samouczku nauczyliśmy się, jak zaimplementować wywołanie zwrotne zapisywania strony w Aspose.Tasks dla .NET, co pozwala nam zapisywać wielostronicowe dokumenty w oddzielnych strumieniach. Wykonując poniższe kroki, możesz zwiększyć funkcjonalność aplikacji i uzyskać niestandardową obsługę wyników.
+| Problem | Przyczyna | Rozwiązanie |
+|---------|-----------|-------------|
+| **Nie zwrócono żadnych stron** | `RenderToSinglePage` pozostawiono jako `true`. | Ustaw `RenderToSinglePage = false`, aby generować oddzielne strony. |
+| **Strumienie są puste** | `KeepStreamOpen` ustawiono na `true` bez późniejszego zwalniania. | Pozostaw `false` (wartość domyślna) i pozwól wywołaniu zwrotnemu automatycznie zamykać strumienie. |
+| **Błędy pamięci (Out‑of‑memory)** | Bardzo duże projekty generują wiele wysokiej rozdzielczości PNG. | Przetwarzaj strumienie pojedynczo lub zwiększ limity pamięci wirtualnej. |
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### P1: Co to jest wywołanie zwrotne zapisywania strony w Aspose.Tasks?
+**Q1: Co to jest wywołanie zwrotne zapisu strony w Aspose.Tasks?**  
+A: Wywołanie zwrotne zapisu strony pozwala przechwycić proces zapisu każdej strony wielostronicowego dokumentu, udostępniając własny `Stream` dla tej strony.
 
-O1: Wywołanie zwrotne zapisywania strony to funkcja w Aspose.Tasks, która umożliwia użytkownikom dostosowywanie procesu zapisywania wielostronicowych dokumentów poprzez dostarczanie strumieni dla każdej strony indywidualnie.
+**Q2: Czy mogę używać różnych formatów do zapisu stron przy użyciu tego wywołania zwrotnego?**  
+A: Tak. Zmieniając `SaveFileFormat`, możesz eksportować do PNG, JPEG, PDF, SVG itp.
 
-### P2: Czy mogę używać różnych formatów do zapisywania stron przy użyciu tego wywołania zwrotnego?
+**Q3: Czy Aspose.Tasks jest kompatybilny z .NET Core?**  
+A: Absolutnie. Aspose.Tasks obsługuje .NET Core, .NET 5 oraz .NET 6.
 
-O2: Tak, możesz używać różnych formatów plików obsługiwanych przez Aspose.Tasks, takich jak PNG, JPEG, PDF itp., do zapisywania stron z wywołaniem zwrotnym.
+**Q4: Jak mogę obsłużyć błędy podczas procesu zapisu stron?**  
+A: Otocz logikę wywołania zwrotnego blokami try/catch i loguj wyjątki. Metoda `OnFinish` jest dobrym miejscem na końcowe czyszczenie.
 
-### P3: Czy Aspose.Tasks jest kompatybilny z .NET Core?
+**Q5: Gdzie mogę znaleźć więcej zasobów i wsparcie dla Aspose.Tasks?**  
+A: Możesz odwiedzić [forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) w celu uzyskania pomocy, dostęp do dokumentacji znajdziesz [tutaj](https://reference.aspose.com/tasks/net/), a dodatkowe funkcje i opcje licencjonowania – na stronie [Aspose.Tasks](https://purchase.aspose.com/buy).
 
-O3: Tak, Aspose.Tasks obsługuje .NET Core, umożliwiając programistom korzystanie z jego funkcji w aplikacjach wieloplatformowych.
+---
 
-### P4: Jak mogę poradzić sobie z błędami podczas procesu zapisywania strony?
+**Ostatnia aktualizacja:** 2026-03-16  
+**Testowane z:** Aspose.Tasks 24.12 dla .NET  
+**Autor:** Aspose  
 
-O4: Możesz zaimplementować mechanizmy obsługi błędów w ramach metod wywołania zwrotnego, aby zarządzać wyjątkami i zapewnić niezawodność aplikacji.
-
-### P5: Gdzie mogę znaleźć więcej zasobów i wsparcia dla Aspose.Tasks?
-
- A5: Możesz odwiedzić[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) uzyskać pomoc, uzyskać dostęp do dokumentacji[Tutaj](https://reference.aspose.com/tasks/net/) lub zapoznaj się z dodatkowymi funkcjami i opcjami licencjonowania na stronie[Witryna Aspose.Tasks](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
