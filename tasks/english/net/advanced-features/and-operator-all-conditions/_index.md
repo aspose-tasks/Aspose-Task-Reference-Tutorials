@@ -1,6 +1,6 @@
 ---
-title: How to use and operator in All Conditions with Aspose.Tasks
-linktitle: Using AND Operator in All Conditions with Aspose.Tasks
+title: Apply AND Operator in All Conditions Using Aspose.Tasks .NET API
+linktitle: Applying AND Operator in All Conditions with Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to use and operator in all conditions with Aspose.Tasks for .NET to filter project tasks efficiently.
 weight: 11
@@ -36,7 +36,7 @@ Applying multiple conditions (e.g., “task is not null” **and** “task is a 
 Before diving into the tutorial, ensure you have the following prerequisites:
 
 1. **Basic Knowledge of C#** – Familiarity with C# programming language will be beneficial.  
-2. **Aspose.Tasks for .NET Library** – Download and install the Aspose.Tasks for .NET library from [here](https://releases.aspose.com/tasks/net/).  
+2. **Aspose.Tasks for .NET Library** – Download and install the Aspose.Tasks for .NET library from the [Aspose.Tasks for .NET download page](https://releases.aspose.com/tasks/net/).  
 3. **Integrated Development Environment (IDE)** – Have an IDE such as Visual Studio installed on your system for coding convenience.  
 
 ## Import Namespaces
@@ -63,7 +63,7 @@ var project = new Project(DataDir + "Project2.mpp");
 
 Load the project file using the `Project` class constructor, specifying the file path. This step demonstrates **load mpp file** handling.
 
-## Step 2: Collect All Project Tasks
+## Step 2: collect all project tasks
 
 ```csharp
 var coll = new ChildTasksCollector();
@@ -72,7 +72,7 @@ TaskUtils.Apply(project.RootTask, coll, 0);
 
 Utilize the `ChildTasksCollector` class to collect all tasks within the project.
 
-## Step 3: Define Filter Conditions
+## Step 3: define filter conditions
 
 ```csharp
 var conditions = new List<ICondition<Task>>
@@ -92,7 +92,7 @@ var joinedCondition = new AndAllCondition<Task>(conditions);
 
 Join the conditions using the `AndAllCondition` class, applying the **use and operator** to all conditions.
 
-## Step 5: Filter Tasks
+## Step 5: filter tasks
 
 ```csharp
 List<Task> collection = Filter(coll.Tasks, joinedCondition);
@@ -100,7 +100,7 @@ List<Task> collection = Filter(coll.Tasks, joinedCondition);
 
 Apply the joined condition to the collected tasks to filter them accordingly. This step shows **how to filter tasks** using a combined condition.
 
-## Step 6: Process Filtered Tasks
+## Step 6: process filtered tasks
 
 ```csharp
 foreach (var task in collection)
@@ -112,13 +112,13 @@ foreach (var task in collection)
 
 Iterate through the filtered tasks and perform operations as required.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 - **Condition list is empty** – Ensure you add at least one `ICondition<T>` before creating `AndAllCondition<T>`.  
 - **No tasks returned** – Verify that the conditions you added actually match tasks in your project (e.g., you might be filtering for summary tasks when none exist).  
 - **File not found** – Double‑check the `DataDir` path and the name of the *.mpp* file.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I apply additional conditions apart from those demonstrated in the example?**  
 A: Yes, you can define and apply any custom conditions based on your project requirements.
@@ -133,18 +133,18 @@ A: Absolutely, Aspose.Tasks provides advanced features for managing project sche
 A: Yes, you can seamlessly integrate Aspose.Tasks with other .NET frameworks and libraries to enhance functionality.
 
 **Q: Is there a community forum or support channel available for Aspose.Tasks users?**  
-A: Yes, you can access the Aspose.Tasks community forum [here](https://forum.aspose.com/c/tasks/15) for any queries or assistance.
+A: Yes, you can access the Aspose.Tasks community forum [Aspose.Tasks community forum](https://forum.aspose.com/c/tasks/15) for any queries or assistance.
 
 ## Conclusion
 
 In conclusion, utilizing the **use and operator** in all conditions with Aspose.Tasks for .NET empowers you to efficiently filter project tasks based on multiple criteria simultaneously. By following the step‑by‑step guide provided in this tutorial, you can seamlessly integrate this functionality into your project management workflow, enhancing productivity and organization.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 
 ---
 
@@ -153,3 +153,10 @@ In conclusion, utilizing the **use and operator** in all conditions with Aspose.
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

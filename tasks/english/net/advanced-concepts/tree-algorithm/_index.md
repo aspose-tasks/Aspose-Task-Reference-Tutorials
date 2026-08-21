@@ -1,6 +1,6 @@
 ---
-title: Add Resource to Project with Tree Algorithm in Aspose.Tasks
-linktitle: Add Resource to Project with Tree Algorithm in Aspose.Tasks
+title: Add Resource to Project Using Tree Algorithm
+linktitle: Add Resource to Project Using Tree Algorithm
 second_title: Aspose.Tasks .NET API
 description: Learn how to add resource to project and calculate task duration using Aspose.Tasks' Tree Algorithm, and assign resources to tasks in .NET.
 weight: 13
@@ -12,7 +12,7 @@ date: 2026-03-19
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Add Resource to Project with Tree Algorithm in Aspose.Tasks
+# Add Resource to Project Using Tree Algorithm
 
 ## Introduction
 
@@ -38,7 +38,7 @@ The Tree Algorithm walks the task tree once, accumulating work from leaf tasks u
 Before we dive in, make sure you have the following:
 
 1. **Visual Studio** – any recent edition (2019, 2022, or later).  
-2. **Aspose.Tasks for .NET** – download it from [here](https://releases.aspose.com/tasks/net/).  
+2. **Aspose.Tasks for .NET** – download it from [Aspose.Tasks .NET download page](https://releases.aspose.com/tasks/net/).  
 3. **Basic C# knowledge** – you should be comfortable with classes, objects, and simple LINQ.
 
 ## Import Namespaces
@@ -54,7 +54,7 @@ using Aspose.Tasks.Util;
 
 Now, let's break down each example into multiple steps:
 
-## Step 1: Load Project File
+## Step 1: load project file
 
 ```csharp
 var project = new Project(DataDir + "Project1.mpp");
@@ -62,7 +62,7 @@ var project = new Project(DataDir + "Project1.mpp");
 
 Load the project file into memory using the `Project` class.
 
-## Step 2: Define Task Hierarchy
+## Step 2: define task hierarchy
 
 ```csharp
 var root = project.RootTask.Children.Add("Project Management");
@@ -92,7 +92,7 @@ project.ResourceAssignments.Add(task, resource);
 
 This snippet **adds a resource to the project** and **assigns resources to tasks** so the scheduler knows who is responsible for the work.
 
-## Step 5: Apply Tree Algorithm
+## Step 5: apply tree algorithm
 
 ```csharp
 var acc = new WorkAccumulator();
@@ -101,7 +101,7 @@ TaskUtils.Apply(summary, acc, 0);
 
 Initialize the `WorkAccumulator` class and apply the Tree Algorithm to gather common work across the hierarchy.
 
-## Step 6: Update Task Work
+## Step 6: update task work
 
 ```csharp
 var summaryWork = acc.Work.ToDouble();
@@ -111,7 +111,7 @@ summary.Set(Tsk.RemainingWork, project.GetWork(summaryWork));
 
 Update the work values for tasks based on the gathered information.
 
-## Common Issues & Tips
+## Common issues & tips
 
 - **Missing calendar settings:** If the finish date looks off, ensure the project calendar is correctly configured before calling `GetFinishDateByStartAndWork`.  
 - **Resource type mismatch:** Always set `Rsc.Type` to `ResourceType.Work` for effort‑based resources; otherwise, the work accumulation may return zero.  
@@ -129,11 +129,11 @@ A1: Aspose.Tasks for .NET is a powerful API that allows developers to manipulate
 
 ### Q2: Can I download a free trial of Aspose.Tasks for .NET?
 
-A2: Yes, you can download a free trial of Aspose.Tasks for .NET from [here](https://releases.aspose.com/).
+A2: Yes, you can download a free trial of Aspose.Tasks for .NET from [Aspose.Tasks free trial download page](https://releases.aspose.com/).
 
 ### Q3: Where can I find documentation for Aspose.Tasks for .NET?
 
-A3: You can find the documentation for Aspose.Tasks for .NET [here](https://reference.aspose.com/tasks/net/).
+A3: You can find the documentation for Aspose.Tasks for .NET [Aspose.Tasks .NET documentation](https://reference.aspose.com/tasks/net/).
 
 ### Q4: How can I get support for Aspose.Tasks for .NET?
 
@@ -141,9 +141,9 @@ A4: For support related to Aspose.Tasks for .NET, you can visit the [Aspose.Task
 
 ### Q5: Is there a temporary license available for testing purposes?
 
-A5: Yes, you can obtain a temporary license for testing purposes from [here](https://purchase.aspose.com/temporary-license/).
+A5: Yes, you can obtain a temporary license for testing purposes from [temporary license purchase page](https://purchase.aspose.com/temporary-license/).
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I use this approach with an existing large project file?**  
 A: Absolutely. The Tree Algorithm works on any `Project` instance, regardless of size.

@@ -1,6 +1,6 @@
 ---
-title: "Project Management Baselines using Aspose.Tasks"
-linktitle: "Project Management Baselines using Aspose.Tasks"
+title: "Read, Update, and Delete Assignment Baselines with Aspose.Tasks for .NET"
+linktitle: "Read, Update, and Delete Assignment Baselines with Aspose.Tasks for .NET"
 second_title: "Aspose.Tasks .NET API"
 description: "Learn how to read baselines and manage project management baselines efficiently with Aspose.Tasks for .NET."
 date: 2026-03-19
@@ -39,7 +39,7 @@ Before proceeding with this tutorial, ensure you have the following prerequisite
 
 1. Basic knowledge of C# programming language.  
 2. Visual Studio installed on your system.  
-3. Aspose.Tasks for .NET library installed. You can download it from [here](https://releases.aspose.com/tasks/net/).
+3. Aspose.Tasks for .NET library installed. You can download it from [Aspose.Tasks for .NET download page](https://releases.aspose.com/tasks/net/).
 
 ## Import Namespaces
 
@@ -50,7 +50,7 @@ using System.Collections.Generic;
 using Aspose.Tasks;
 ```
 
-## Step 1: Load the Project File
+## Step 1: load the project file
 
 Firstly, we need to load the project file that contains the assignment baselines.
 
@@ -80,7 +80,7 @@ foreach (var assignment in project.ResourceAssignments)
 }
 ```
 
-## Step 3: Delete Assignment Baselines
+## Step 3: delete assignment baselines
 
 In this step, we demonstrate how to delete all assignment baselines from the project.
 
@@ -95,7 +95,7 @@ foreach (var assignment in project.ResourceAssignments)
 }
 ```
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Solution |
 |-------|----------|
@@ -129,7 +129,7 @@ A4: Yes, Aspose.Tasks provides robust technical support through its community fo
 
 A5: Yes, Aspose.Tasks offers a free trial version, allowing developers to explore its features and functionalities before making a purchase decision.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: How do I read baselines for a specific assignment?**  
 A: Access the `Assignment.Baselines` collection for that assignment and iterate through it as shown in the “How to read baselines?” section.

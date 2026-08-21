@@ -1,5 +1,5 @@
 ---
-title: Set Project Baseline – Managing Assignment Baseline in Aspose.Tasks
+title: Project Baseline Management – Assignment Baseline Overview
 linktitle: Managing Assignment Baseline in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to set project baseline and manage assignment baselines efficiently with Aspose.Tasks for .NET, ensuring accurate tracking of project progress.
@@ -31,7 +31,7 @@ Before we begin, make sure you have:
 
 - Basic knowledge of C# programming.  
 - Visual Studio (any recent version).  
-- Aspose.Tasks for .NET library added to your project. You can download it from [here](https://releases.aspose.com/tasks/net/).  
+- Aspose.Tasks for .NET library added to your project. You can download it from [download Aspose.Tasks for .NET](https://releases.aspose.com/tasks/net/).  
 - Access to a project file in MPP format (e.g., `AssignmentBaseline2007.mpp`).
 
 ## Import Namespaces
@@ -43,7 +43,7 @@ using Aspose.Tasks;
 using System;
 ```
 
-## Step 1: Load Project and Set Project Baseline
+## Step 1: load project and set project baseline
 
 First, load the existing MPP file and then call `SetBaseline` to **set project baseline** for the whole project.
 
@@ -54,7 +54,7 @@ var project = new Project(DataDir + "AssignmentBaseline2007.mpp");
 project.SetBaseline(BaselineType.Baseline);
 ```
 
-## Step 2: Read Assignment Baseline Information
+## Step 2: read assignment baseline information
 
 After the baseline is set, each resource assignment contains its own baseline records. The loop below extracts and prints those details, including start/finish dates, cost, work, and any time‑phased data.
 
@@ -88,7 +88,7 @@ foreach (var assignment in project.ResourceAssignments)
 }
 ```
 
-## Step 3: Compare Assignment Baselines
+## Step 3: compare assignment baselines
 
 You can compare baselines of different assignments using the built‑in equality and comparison operators. This is handy when you need to detect schedule shifts or cost overruns between tasks.
 
@@ -110,7 +110,7 @@ Console.WriteLine("Assignment baseline 1 hashcode: " + assignmentBaseline1.GetHa
 Console.WriteLine("Assignment baseline 2 hashcode: " + assignmentBaseline2.GetHashCode());
 ```
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Why It Happens | Fix |
 |-------|----------------|-----|
@@ -118,7 +118,7 @@ Console.WriteLine("Assignment baseline 2 hashcode: " + assignmentBaseline2.GetHa
 | **`NullReferenceException` on `TimephasedData`** | Not all baselines contain time‑phased entries. | Always check `baseline.TimephasedData != null` (as shown in the code). |
 | **Incorrect UID retrieval** | UID values differ between file versions. | Use `ResourceAssignments.GetByUid` with the correct UID or iterate to find the assignment you need. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can Aspose.Tasks handle multiple baselines for a single assignment?**  
 A: Yes, Aspose.Tasks supports multiple baselines for each assignment, allowing comprehensive tracking of project progress over time.
@@ -133,14 +133,14 @@ A: Absolutely, Aspose.Tasks provides extensive APIs to modify baseline informati
 A: Yes, developers can access comprehensive documentation, tutorials, and forums on the Aspose.Tasks website, facilitating smooth integration and troubleshooting.
 
 **Q: Is there a trial version available for Aspose.Tasks for .NET?**  
-A: Yes, developers can obtain a free trial version of Aspose.Tasks for .NET from [here](https://releases.aspose.com/), allowing them to evaluate its features and capabilities before making a purchase decision.
+A: Yes, developers can obtain a free trial version of Aspose.Tasks for .NET from [download the free trial version](https://releases.aspose.com/), allowing them to evaluate its features and capabilities before making a purchase decision.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 
 ---
 
@@ -149,3 +149,10 @@ A: Yes, developers can obtain a free trial version of Aspose.Tasks for .NET from
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

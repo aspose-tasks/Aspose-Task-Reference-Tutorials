@@ -1,6 +1,6 @@
 ---
-title: Add Multiple Custom Columns to Assignment View in Aspose.Tasks
-linktitle: Add Multiple Custom Columns to Assignment View in Aspose.Tasks
+title: Add Multiple Custom Columns to Assignment View with AssignmentViewColumn API and Export to XML in Aspose.Tasks
+linktitle: Add Multiple Custom Columns to Assignment View with AssignmentViewColumn API and Export to XML in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to add multiple custom columns and format custom column width when exporting a project to XML using Aspose.Tasks for .NET.
 weight: 16
@@ -38,12 +38,12 @@ Multiple custom columns are user‑defined fields that appear alongside the defa
 Before we dive in, make sure you have:
 
 1. Basic knowledge of C# programming language.  
-2. Aspose.Tasks for .NET library installed. If not, you can download it **[here](https://releases.aspose.com/tasks/net/)**.  
+2. Aspose.Tasks for .NET library installed. If not, you can download it **[from the Aspose.Tasks for .NET release page](https://releases.aspose.com/tasks/net/)**.  
 3. An integrated development environment (IDE) such as Visual Studio.  
 
 ## Step-by-Step Guide
 
-### Step 1: Import Namespaces
+### Step 1: import namespaces
 First, import the namespaces that provide the classes we’ll need for working with projects and visualizations.
 
 ```csharp
@@ -54,7 +54,7 @@ using Aspose.Tasks.Saving;
 using Aspose.Tasks.Visualization;
 ```
 
-### Step 2: Load the Project
+### Step 2: load the project
 Create a `Project` instance and load an existing MPP file.
 
 ```csharp
@@ -63,14 +63,14 @@ String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "CreateProject2.mpp");
 ```
 
-### Step 3: Create Spreadsheet Save Options
+### Step 3: create spreadsheet save options
 Instantiate `Spreadsheet2003SaveOptions` – this object lets us customize the assignment view before exporting.
 
 ```csharp
 var options = new Spreadsheet2003SaveOptions();
 ```
 
-### Step 4: Define Custom Column
+### Step 4: define custom column
 Create an `AssignmentViewColumn` for each piece of data you want to show. Below we add a **Notes** column with a width of 200 points.
 
 ```csharp
@@ -79,14 +79,14 @@ var column = new AssignmentViewColumn("Notes", 200, delegate(ResourceAssignment 
 
 **Tip:** To add *multiple* custom columns, repeat this step with different field names and delegate logic, then add each instance to `options.AssignmentView.Columns`.
 
-### Step 5: Add Custom Column to Options
+### Step 5: add custom column to options
 Add the column (or columns) to the `Columns` collection of the assignment view.
 
 ```csharp
 options.AssignmentView.Columns.Add(column);
 ```
 
-### Step 6: Iterate Through Assignments (Optional Debugging)
+### Step 6: iterate through assignments (Optional debugging)
 You can loop through the assignments to verify that the custom column text is generated correctly.
 
 ```csharp
@@ -102,7 +102,7 @@ foreach (var assignment in project.ResourceAssignments)
 }
 ```
 
-### Step 7: Save the Project with Custom Columns
+### Step 7: save the project with custom columns
 Finally, save the project. The example saves to XML, but you can choose any supported format.
 
 ```csharp
@@ -115,12 +115,12 @@ When you call `project.Save` with the configured `Spreadsheet2003SaveOptions`, A
 ## Format custom column width for better readability
 The second parameter of the `AssignmentViewColumn` constructor controls the column width (measured in points). Adjust this value to suit the amount of text you expect. For example, a width of **300** works well for longer notes, while **100** is sufficient for short flags.
 
-## Common Issues and Solutions
+## Common issues and solutions
 - **Column text appears blank:** Ensure the delegate returns a string and that the underlying assignment property (e.g., `Asn.NotesText`) is populated.  
 - **Columns are not visible in the exported file:** Verify that `options.AssignmentView.Columns` contains your custom columns before calling `Save`.  
 - **Width seems ignored:** Some export formats have their own layout rules; XML respects the width, but PDF/HTML may need additional styling.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 ### Q1: Can I add multiple custom columns to the assignment view?
 **A:** Yes, simply create additional `AssignmentViewColumn` objects and add each to `options.AssignmentView.Columns`.
