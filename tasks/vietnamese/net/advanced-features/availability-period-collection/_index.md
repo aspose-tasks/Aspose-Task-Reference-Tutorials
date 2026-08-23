@@ -1,64 +1,76 @@
 ---
-title: Bộ sưu tập các khoảng thời gian khả dụng trong Aspose.Tasks
-linktitle: Bộ sưu tập các khoảng thời gian khả dụng trong Aspose.Tasks
+date: 2026-03-21
+description: Tìm hiểu cách quản lý các khoảng thời gian khả dụng cho tài nguyên và
+  đạt được khả năng sẵn sàng tài nguyên dự án hiệu quả với Aspose.Tasks cho .NET.
+  Hướng dẫn từng bước này chỉ ra cách thêm, cập nhật và xóa các khoảng thời gian khả
+  dụng.
+linktitle: Collection of Availability Periods in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Tìm hiểu cách quản lý khoảng thời gian sẵn có của tài nguyên trong Aspose.Tasks for .NET. Hướng dẫn từng bước này hướng dẫn bạn cách thêm, cập nhật và xóa các khoảng thời gian sẵn có, đảm bảo lập kế hoạch nguồn lực dự án hiệu quả.
-weight: 18
+title: Tính khả dụng tài nguyên dự án – Quản lý các khoảng thời gian khả dụng trong
+  Aspose.Tasks
 url: /vi/net/advanced-features/availability-period-collection/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Bộ sưu tập các khoảng thời gian khả dụng trong Aspose.Tasks
+# Độ sẵn có tài nguyên dự án: Bộ sưu tập các khoảng thời gian sẵn có trong Aspose.Tasks
 
-## Giới thiệu
+Quản lý **độ sẵn có tài nguyên dự án** là một phần cốt lõi của việc lập kế hoạch dự án thành công. Trong hướng dẫn này, bạn sẽ học **cách quản lý độ sẵn có** cho tài nguyên bằng API Aspose.Tasks cho .NET, từng bước một, từ việc tải dự án đến sao chép các khoảng thời gian giữa các tài nguyên.
 
-Trong hướng dẫn này, chúng ta sẽ khám phá cách làm việc với bộ sưu tập tài nguyên trong khoảng thời gian khả dụng trong Aspose.Tasks cho .NET. Quản lý thời gian sẵn sàng là rất quan trọng đối với việc quản lý dự án, cho phép chúng tôi xác định thời điểm có sẵn nguồn lực cho các nhiệm vụ trong dự án.
+## Trả lời nhanh
+- **Lớp chính cho các khoảng thời gian sẵn có là gì?** `AvailabilityPeriod` trong không gian tên `Aspose.Tasks`.  
+- **Tôi có thể xóa các khoảng thời gian hiện có không?** Có, gọi `resource.AvailabilityPeriods.Clear()`.  
+- **Làm sao để thêm một khoảng thời gian mới?** Tạo một đối tượng `AvailabilityPeriod` và sử dụng `Add` hoặc `Insert`.  
+- **Có thể sao chép các khoảng thời gian sang tài nguyên khác không?** Chắc chắn – dùng `CopyTo` rồi thêm từng mục vào tài nguyên đích.  
+- **Tôi có cần giấy phép cho việc sử dụng trong môi trường sản xuất không?** Có, cần giấy phép thương mại Aspose.Tasks cho các triển khai không phải thử nghiệm.
 
-## Điều kiện tiên quyết
+## Độ sẵn có tài nguyên dự án là gì?
+Độ sẵn có tài nguyên dự án xác định các ngày và đơn vị (tỷ lệ phần trăm năng lực) khi một tài nguyên có thể được gán cho các công việc. Bằng cách kiểm soát các khoảng thời gian này, bạn ngăn ngừa việc quá tải và cải thiện độ chính xác của lịch trình.
 
-Trước khi chúng ta bắt đầu, hãy đảm bảo bạn có những điều sau:
+## Tại sao nên dùng Aspose.Tasks để quản lý các khoảng thời gian sẵn có?
+- **Tích hợp đầy đủ .NET** – không cần COM interop, mã thuần managed.  
+- **Kiểm soát chi tiết** – đặt chính xác ngày bắt đầu/kết thúc và đơn vị phân số.  
+- **Sao chép dễ dàng** – di chuyển dữ liệu độ sẵn có giữa các tài nguyên mà không cần phân tích thủ công.  
+- **Tối ưu hiệu năng** – làm việc hiệu quả với các tệp MPP lớn.
 
-1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên hệ thống của mình.
-2.  Aspose.Tasks for .NET: Tải xuống và cài đặt thư viện Aspose.Tasks for .NET từ[đây](https://releases.aspose.com/tasks/net/).
-3. Hiểu biết cơ bản: Làm quen với C# và .NET framework.
+## Yêu cầu trước
+1. **Visual Studio** – bất kỳ phiên bản mới nào (2019, 2022, hoặc mới hơn).  
+2. **Aspose.Tasks cho .NET** – tải xuống từ [đây](https://releases.aspose.com/tasks/net/).  
+3. **Kiến thức C# cơ bản** – bạn nên quen thuộc với lớp, collection và LINQ.
 
 ## Nhập không gian tên
-
-Đầu tiên, chúng ta cần nhập các không gian tên cần thiết vào dự án của mình:
 
 ```csharp
 using Aspose.Tasks;
 using System;
 using System.Collections.Generic;
-
-
 ```
 
-Hãy chia mã ví dụ thành nhiều bước và hiểu từng phần:
+Chúng ta nhập không gian tên cốt lõi Aspose.Tasks cùng với các collection chuẩn của .NET mà sẽ cần sau này.
 
-## Bước 1: Khởi tạo dự án và tài nguyên
+## Bước 1: Khởi tạo Dự án và Tài nguyên
 
 ```csharp
-// Đường dẫn tới thư mục tài liệu.
+// The path to th documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "UpdateResourceData.mpp");
 var resource = project.Resources.GetById(1);
 ```
 
-Ở đây, chúng tôi đang tải một tệp dự án và lấy tài nguyên cụ thể theo ID của nó.
+Ở đây chúng ta tải một tệp MPP hiện có và lấy tài nguyên mà chúng ta muốn chỉnh sửa độ sẵn có (ID = 1).
 
-## Bước 2: Xóa khoảng thời gian sẵn có hiện tại
+## Bước 2: Xóa các khoảng thời gian sẵn có hiện có
 
 ```csharp
 resource.AvailabilityPeriods.Clear();
 ```
 
-Chúng tôi xóa mọi khoảng thời gian sẵn có hiện có liên quan đến tài nguyên.
+Việc xóa sẽ loại bỏ mọi khoảng thời gian đã định nghĩa trước, cho chúng ta một khởi đầu sạch sẽ.
 
-## Bước 3: Thêm khoảng thời gian sẵn có
+## Bước 3: Thêm các khoảng thời gian sẵn có
 
 ```csharp
 IEnumerable<AvailabilityPeriod> periods = this.GetPeriods();
@@ -71,9 +83,9 @@ foreach (var period in periods)
 }
 ```
 
-Chúng tôi lặp lại qua một tập hợp các khoảng thời gian sẵn có và thêm chúng vào tài nguyên.
+Chúng ta lấy một collection các đối tượng `AvailabilityPeriod` (giả sử hàm trợ giúp `GetPeriods` đã được định nghĩa ở nơi khác) và thêm từng cái, kiểm tra xem collection có thể ghi được không.
 
-## Bước 4: Chèn Khoảng thời gian sẵn sàng mới
+## Bước 4: Chèn một khoảng thời gian sẵn có mới
 
 ```csharp
 var period2013 = new AvailabilityPeriod { AvailableFrom = new DateTime(2013, 1, 1), AvailableTo = new DateTime(2013, 12, 12), AvailableUnits = 0.81 };
@@ -84,9 +96,9 @@ if (!resource.AvailabilityPeriods.Contains(period2013))
 }
 ```
 
-Chúng tôi tạo khoảng thời gian có sẵn mới cho năm 2013 và chèn nó vào bộ sưu tập.
+Điều này tạo một khoảng thời gian tùy chỉnh cho năm 2013 và chèn nó vào vị trí 1 (khoảng thứ hai) nếu chưa tồn tại.
 
-## Bước 5: Hiển thị thời gian có hàng
+## Bước 5: Hiển thị các khoảng thời gian sẵn có
 
 ```csharp
 Console.WriteLine("Count of availability periods: " + resource.AvailabilityPeriods.Count);
@@ -99,9 +111,9 @@ foreach (var period in resource.AvailabilityPeriods)
 }
 ```
 
-Chúng tôi in ra số lượng và chi tiết của từng khoảng thời gian sẵn có liên quan đến tài nguyên.
+Một lệnh in nhanh trên console cho thấy tổng số và chi tiết của mỗi khoảng – hữu ích cho việc gỡ lỗi hoặc xác minh.
 
-## Bước 6: Sao chép khoảng thời gian sẵn sàng sang tài nguyên khác
+## Bước 6: Sao chép các khoảng thời gian sẵn có sang tài nguyên khác
 
 ```csharp
 var periodsToCopy = new AvailabilityPeriod[resource.AvailabilityPeriods.Count];
@@ -115,45 +127,52 @@ foreach (var period in periodsToCopy)
 }
 ```
 
-Chúng tôi sao chép khoảng thời gian sẵn có từ tài nguyên này sang tài nguyên khác.
+Chúng ta sao chép toàn bộ collection vào một mảng, xóa các khoảng thời gian của tài nguyên đích, rồi lại thêm chúng vào. Điều này minh họa cách nhân bản dữ liệu độ sẵn có giữa các tài nguyên.
 
-## Bước 7: Cập nhật và xóa khoảng thời gian sẵn sàng
+## Bước 7: Cập nhật và Xóa các khoảng thời gian sẵn có
 
 ```csharp
-// Cập nhật các đơn vị có sẵn trong một khoảng thời gian cụ thể
+// Update available units for a specific period
 otherResource.AvailabilityPeriods[otherResource.AvailabilityPeriods.Count - 2].AvailableUnits = 0.90;
 
-// Xóa một khoảng thời gian cụ thể
+// Remove a specific period
 otherResource.AvailabilityPeriods.Remove(period2013);
 ```
 
-Chúng tôi cập nhật các đơn vị có sẵn trong một khoảng thời gian và xóa các khoảng thời gian cụ thể khỏi bộ sưu tập.
+Ở đây chúng ta điều chỉnh `AvailableUnits` cho khoảng thời gian kế cuối và sau đó xóa khoảng thời gian 2013 mà chúng ta đã thêm trước đó.
 
-## Phần kết luận
-
-Trong hướng dẫn này, chúng ta đã học cách làm việc với các bộ sưu tập khoảng thời gian khả dụng trong Aspose.Tasks dành cho .NET. Quản lý nguồn lực sẵn có là điều cần thiết để lập kế hoạch và thực hiện dự án hiệu quả.
+## Các vấn đề thường gặp và giải pháp
+- **Lỗi collection chỉ đọc** – Đảm bảo dự án không được mở ở chế độ chỉ đọc hoặc bạn đã gọi `resource.AvailabilityPeriods.Clear()` trước khi thêm mục mới.  
+- **Các khoảng thời gian chồng lấn** – Aspose.Tasks không tự động hợp nhất các khoảng chồng; bạn có thể cần viết logic tùy chỉnh để phát hiện và giải quyết chúng.  
+- **Định dạng ngày không đúng** – Luôn sử dụng đối tượng `DateTime`; việc phân tích chuỗi có thể gây lỗi phụ thuộc vào locale.
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Tôi có thể thêm trường tùy chỉnh vào khoảng thời gian sẵn có không?
+**H: Tôi có thể thêm trường tùy chỉnh vào các khoảng thời gian sẵn có không?**  
+Đ: Không, các khoảng thời gian sẵn có trong Aspose.Tasks cho .NET không hỗ trợ trường tùy chỉnh.
 
-Trả lời 1: Không, khoảng thời gian khả dụng trong Aspose.Tasks dành cho .NET không hỗ trợ các trường tùy chỉnh.
+**H: Các khoảng thời gian sẵn có có liên kết với công việc cụ thể nào không?**  
+Đ: Không, chúng được liên kết với tài nguyên và xác định thời điểm tài nguyên chung chung có sẵn cho các công việc.
 
-### Câu hỏi 2: Khoảng thời gian sẵn sàng có liên quan đến các nhiệm vụ cụ thể không?
+**H: Tôi có thể nhập các khoảng thời gian sẵn có từ nguồn bên ngoài không?**  
+Đ: Có, bạn có thể nhập các khoảng thời gian từ CSV, XML, hoặc cơ sở dữ liệu bằng cách tạo các đối tượng `AvailabilityPeriod` và thêm chúng vào collection.
 
-Câu trả lời 2: Không, khoảng thời gian sẵn sàng được liên kết với các nguồn lực và xác định thời điểm chúng sẵn sàng cho các nhiệm vụ nói chung.
+**H: Làm sao để xử lý các khoảng thời gian sẵn có chồng lấn?**  
+Đ: Các chồng lấn không được tự động giải quyết; bạn cần triển khai kiểm tra tùy chỉnh để hợp nhất hoặc từ chối các khoảng thời gian xung đột.
 
-### Câu hỏi 3: Tôi có thể nhập khoảng thời gian sẵn có từ các nguồn bên ngoài không?
+**H: Có giới hạn số lượng khoảng thời gian sẵn có mà một tài nguyên có thể có không?**  
+Đ: Không có giới hạn cứng, nhưng các collection rất lớn có thể ảnh hưởng đến hiệu năng; hãy cân nhắc gộp các khoảng thời gian khi có thể.
 
-Câu trả lời 3: Có, bạn có thể nhập khoảng thời gian sẵn sàng từ nhiều nguồn dữ liệu khác nhau bằng Aspose.Tasks cho API .NET.
+## Kết luận
 
-### Câu hỏi 4: Làm cách nào để xử lý các khoảng thời gian sẵn có chồng chéo?
+Trong hướng dẫn này, chúng ta đã bao quát mọi thứ bạn cần biết để quản lý **độ sẵn có tài nguyên dự án** với Aspose.Tasks cho .NET — từ khởi tạo dự án và xóa dữ liệu cũ, đến thêm, chèn, sao chép, cập nhật và xóa các khoảng thời gian sẵn có. Nắm vững các bước này giúp bạn duy trì lịch làm việc của tài nguyên chính xác và làm cho lịch trình dự án trở nên thực tế hơn.
 
-Câu trả lời 4: Aspose.Tasks dành cho .NET không cung cấp cơ chế tích hợp sẵn để xử lý các khoảng thời gian chồng chéo. Bạn có thể cần triển khai logic tùy chỉnh để quản lý các tình huống như vậy.
+---
 
-### Câu hỏi 5: Có giới hạn về số lượng thời gian sẵn sàng mà một nguồn lực có thể có không?
+**Cập nhật lần cuối:** 2026-03-21  
+**Đã kiểm tra với:** Aspose.Tasks cho .NET (phiên bản mới nhất)  
+**Tác giả:** Aspose  
 
-Câu trả lời 5: Không có giới hạn được xác định trước đối với số khoảng thời gian khả dụng mà tài nguyên có thể có, nhưng hiệu suất có thể giảm theo số lượng khoảng thời gian lớn.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

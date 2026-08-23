@@ -1,64 +1,72 @@
 ---
-title: Aspose.Tasks の利用可能期間のコレクション
-linktitle: Aspose.Tasks の利用可能期間のコレクション
+date: 2026-03-21
+description: Aspose.Tasks for .NET を使用して、リソースの利用可能期間の管理方法を学び、プロジェクトのリソース利用可能性を効果的に実現しましょう。このステップバイステップガイドでは、利用可能期間の追加、更新、削除方法を示します。
+linktitle: Collection of Availability Periods in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Aspose.Tasks for .NET でリソースの利用可能期間を管理する方法を学習します。このステップバイステップのチュートリアルでは、有効期間の追加、更新、削除について説明し、効果的なプロジェクト リソースの計画を確実にします。
-weight: 18
+title: プロジェクトリソースの可用性 – Aspose.Tasksでの可用期間の管理
 url: /ja/net/advanced-features/availability-period-collection/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks の利用可能期間のコレクション
+# プロジェクトリソースの可用性: Aspose.Tasks における可用期間のコレクション
 
-## 導入
+プロジェクトリソースの **可用性** を管理することは、成功するプロジェクト計画の核心です。このチュートリアルでは、Aspose.Tasks for .NET API を使用して、プロジェクトの読み込みからリソース間で期間をコピーするまで、可用性を段階的に管理する方法を学びます。
 
-このチュートリアルでは、Aspose.Tasks for .NET でリソースの利用可能期間コレクションを操作する方法を説明します。利用可能期間の管理はプロジェクト管理にとって重要であり、プロジェクト内のタスクにリソースがいつ利用できるかを定義できるようになります。
+## クイック回答
+- **可用期間のメインクラスは何ですか？** `Aspose.Tasks` 名前空間の `AvailabilityPeriod`。  
+- **既存の期間をクリアできますか？** はい、`resource.AvailabilityPeriods.Clear()` を呼び出します。  
+- **新しい期間はどうやって追加しますか？** `AvailabilityPeriod` オブジェクトを作成し、`Add` または `Insert` を使用します。  
+- **別のリソースに期間をコピーできますか？** もちろんです – `CopyTo` を使用し、各項目を対象リソースに追加します。  
+- **本番環境でライセンスは必要ですか？** はい、トライアル以外のデプロイには商用の Aspose.Tasks ライセンスが必要です。
+
+## プロジェクトリソースの可用性とは？
+プロジェクトリソースの可用性は、リソースがタスクに割り当て可能な日付と単位（容量のパーセンテージ）を定義します。これらの期間を管理することで、過剰割り当てを防ぎ、スケジュールの精度を向上させます。
+
+## なぜ Aspose.Tasks で可用期間を管理するのか？
+- **完全な .NET 統合** – COM 相互運用が不要で、純粋なマネージドコード。  
+- **細かな制御** – 正確な開始/終了日と小数単位を設定可能。  
+- **簡単なコピー** – 手動で解析することなく、リソース間で可用データを移動。  
+- **パフォーマンス最適化** – 大規模な MPP ファイルでも効率的に動作。
 
 ## 前提条件
-
-始める前に、以下のものがあることを確認してください。
-
-1. Visual Studio: システムに Visual Studio がインストールされていることを確認します。
-2.  Aspose.Tasks for .NET:Aspose.Tasks for .NET ライブラリをダウンロードしてインストールします。[ここ](https://releases.aspose.com/tasks/net/).
-3. 基本的な理解: C# および .NET Framework に関する知識。
+1. **Visual Studio** – 最近のバージョン（2019、2022、またはそれ以降）。  
+2. **Aspose.Tasks for .NET** – [here](https://releases.aspose.com/tasks/net/) からダウンロード。  
+3. **基本的な C# 知識** – クラス、コレクション、LINQ に慣れていること。
 
 ## 名前空間のインポート
-
-まず、必要な名前空間をプロジェクトにインポートする必要があります。
 
 ```csharp
 using Aspose.Tasks;
 using System;
 using System.Collections.Generic;
-
-
 ```
 
-サンプルコードを複数のステップに分けて、各部分を理解してみましょう。
+コアの Aspose.Tasks 名前空間と、後で使用する標準 .NET コレクションをインポートします。
 
-## ステップ 1: プロジェクトとリソースを初期化する
+## 手順 1: プロジェクトとリソースの初期化
 
 ```csharp
-//ドキュメント ディレクトリへのパス。
+// The path to th documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "UpdateResourceData.mpp");
 var resource = project.Resources.GetById(1);
 ```
 
-ここでは、プロジェクト ファイルをロードし、その ID によって特定のリソースを取得しています。
+既存の MPP ファイルを読み込み、可用性を編集したいリソース（ID = 1）を取得します。
 
-## ステップ 2: 既存の利用可能期間をクリアする
+## 手順 2: 既存の可用期間をクリア
 
 ```csharp
 resource.AvailabilityPeriods.Clear();
 ```
 
-リソースに関連付けられている既存の利用可能期間はすべてクリアされます。
+クリアすると、以前に定義された期間がすべて削除され、クリーンな状態になります。
 
-## ステップ 3: 利用可能期間を追加する
+## 手順 3: 可用期間を追加
 
 ```csharp
 IEnumerable<AvailabilityPeriod> periods = this.GetPeriods();
@@ -71,9 +79,9 @@ foreach (var period in periods)
 }
 ```
 
-利用可能な期間のコレクションを繰り返し処理し、それらをリソースに追加します。
+`AvailabilityPeriod` オブジェクトのコレクションを取得し（`GetPeriods` ヘルパーは別途定義されていると想定）、書き込み可能であることを確認しながら各期間を追加します。
 
-## ステップ 4: 新しい利用可能期間を挿入する
+## 手順 4: 新しい可用期間を挿入
 
 ```csharp
 var period2013 = new AvailabilityPeriod { AvailableFrom = new DateTime(2013, 1, 1), AvailableTo = new DateTime(2013, 12, 12), AvailableUnits = 0.81 };
@@ -84,9 +92,9 @@ if (!resource.AvailabilityPeriods.Contains(period2013))
 }
 ```
 
-2013 年の新しい利用可能期間を作成し、コレクションに挿入します。
+2013 年用のカスタム期間を作成し、既に存在しなければ位置 1（2 番目のスロット）に挿入します。
 
-## ステップ 5: 利用可能期間を表示する
+## 手順 5: 可用期間を表示
 
 ```csharp
 Console.WriteLine("Count of availability periods: " + resource.AvailabilityPeriods.Count);
@@ -99,9 +107,9 @@ foreach (var period in resource.AvailabilityPeriods)
 }
 ```
 
-リソースに関連付けられた各利用可能期間の数と詳細が出力されます。
+コンソールへの簡易ダンプで、総数と各期間の詳細を出力します。デバッグや検証に便利です。
 
-## ステップ 6: 利用可能期間を別のリソースにコピーする
+## 手順 6: 別リソースへ可用期間をコピー
 
 ```csharp
 var periodsToCopy = new AvailabilityPeriod[resource.AvailabilityPeriods.Count];
@@ -115,45 +123,52 @@ foreach (var period in periodsToCopy)
 }
 ```
 
-利用可能期間をあるリソースから別のリソースにコピーします。
+コレクション全体を配列にコピーし、対象リソースの期間をクリアしてから再度設定します。これにより、リソース間で可用データを複製する方法が示されます。
 
-## ステップ 7: 利用可能期間の更新と削除
+## 手順 7: 可用期間の更新と削除
 
 ```csharp
-//特定の期間の利用可能なユニットを更新する
+// Update available units for a specific period
 otherResource.AvailabilityPeriods[otherResource.AvailabilityPeriods.Count - 2].AvailableUnits = 0.90;
 
-//特定の期間を削除する
+// Remove a specific period
 otherResource.AvailabilityPeriods.Remove(period2013);
 ```
 
-ある期間で使用可能なユニットを更新し、コレクションから特定の期間を削除します。
+ここでは、最後から2番目の期間の `AvailableUnits` を調整し、以前追加した 2013 年の期間を削除します。
+
+## よくある問題と解決策
+- **読み取り専用コレクションエラー** – プロジェクトが読み取り専用モードで開かれていないか、`resource.AvailabilityPeriods.Clear()` を新しい項目を追加する前に呼び出したか確認してください。  
+- **期間の重複** – Aspose.Tasks は自動でマージしません。重複を検出・解消するカスタムロジックが必要です。  
+- **日付形式が正しくない** – 常に `DateTime` オブジェクトを使用してください。文字列解析はロケール依存のバグを招く可能性があります。
+
+## FAQ
+
+**Q: 可用期間にカスタムフィールドを追加できますか？**  
+A: いいえ、Aspose.Tasks for .NET の可用期間はカスタムフィールドをサポートしていません。
+
+**Q: 可用期間は特定のタスクにリンクされていますか？**  
+A: いいえ、リソースに紐付いており、リソースがタスクに対して一般的に利用可能な時期を定義します。
+
+**Q: 外部ソースから可用期間をインポートできますか？**  
+A: はい、CSV、XML、データベースなどから期間を読み取り、`AvailabilityPeriod` オブジェクトを作成してコレクションに追加することでインポート可能です。
+
+**Q: 重複する可用期間はどう処理すればよいですか？**  
+A: 重複は自動で解決されません。カスタムバリデーションを実装し、期間をマージまたは拒否するロジックを作成してください。
+
+**Q: リソースが持てる可用期間の数に上限はありますか？**  
+A: ハードコードされた上限はありませんが、非常に大きなコレクションはパフォーマンスに影響する可能性があります。可能な限り期間を統合することを検討してください。
 
 ## 結論
 
-このチュートリアルでは、Aspose.Tasks for .NET で利用可能期間コレクションを操作する方法を学習しました。リソースの可用性を管理することは、効果的なプロジェクトの計画と実行に不可欠です。
+本ガイドでは、Aspose.Tasks for .NET を使用して **プロジェクトリソースの可用性** を管理するために必要なすべての手順を網羅しました。プロジェクトの初期化、古いデータのクリア、期間の追加・挿入・コピー・更新・削除までを学び、リソースカレンダーを正確に保ち、プロジェクトスケジュールを現実的に保つ方法を習得できます。
 
-## よくある質問
+---
 
-### Q1: 利用可能な期間にカスタム フィールドを追加できますか?
+**最終更新日:** 2026-03-21  
+**テスト環境:** Aspose.Tasks for .NET（最新リリース）  
+**作者:** Aspose  
 
-A1: いいえ、Aspose.Tasks for .NET の利用可能期間はカスタム フィールドをサポートしていません。
-
-### Q2: 利用可能期間は特定のタスクに関連付けられていますか?
-
-A2: いいえ、利用可能期間はリソースに関連付けられており、一般的にタスクに利用できる時期を定義します。
-
-### Q3: 外部ソースから利用可能期間をインポートできますか?
-
-A3: はい、Aspose.Tasks for .NET API を使用して、さまざまなデータ ソースから利用可能期間をインポートできます。
-
-### Q4: 重複する利用可能期間はどのように処理すればよいですか?
-
-A4: Aspose.Tasks for .NET には、重複する期間を処理するための組み込みメカニズムが提供されていません。このようなシナリオを管理するには、カスタム ロジックの実装が必要になる場合があります。
-
-### Q5: リソースが持つことができる利用可能期間の数に制限はありますか?
-
-A5: リソースが持つことができる利用可能期間の数に事前定義された制限はありませんが、期間が多数になるとパフォーマンスが低下する可能性があります。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

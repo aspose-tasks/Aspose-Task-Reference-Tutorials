@@ -1,55 +1,66 @@
 ---
-title: Az Aspose.Tasks bitmap érvénytelen méret kivételének kezelése
-linktitle: Az Aspose.Tasks bitmap érvénytelen méret kivételének kezelése
+date: 2026-03-21
+description: Ismerje meg, hogyan exportáljon képet, és hogyan kezelje a BitmapInvalidSizeException
+  kivételt a projekt képként való mentésekor az Aspose.Tasks for .NET-ben. Tartalmazza
+  a projekt képként való mentésének és PNG formátumba történő exportálásának lépéseit.
+linktitle: Handling Invalid Size Exception for Bitmap in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Ismerje meg, hogyan kezelheti a BitmapInvalidSizeException kivételt az Aspose.Tasks for .NET-ben projektek képként történő mentésekor. Átfogó oktatóanyag lépésről lépésre.
-weight: 22
+title: Hogyan exportáljunk képet, és kezeljük az érvénytelen méret kivételt
 url: /hu/net/advanced-features/bitmap-invalid-size-exception/
+weight: 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Az Aspose.Tasks bitmap érvénytelen méret kivételének kezelése
+# Hogyan exportáljunk képet – Bitmap Invalid Size kivétel kezelése az Aspose.Tasks-ben
 
-## Bevezetés
+Ebben az útmutatóban megtanulja, **hogyan exportáljon képet** egy Microsoft Project fájlból az Aspose.Tasks for .NET segítségével, és ami még fontosabb, hogyan kezelje a `BitmapInvalidSizeException` kivételt, amely a folyamat során előfordulhat. A projekt képként történő exportálása gyakori igény jelentésműszerfalakhoz, dokumentációhoz vagy egyszerűen egy ütemterv vizuális pillanatképe megosztásához. A végére képes lesz **projekt mentésére képként** megbízhatóan, és akár **projekt exportálására PNG** formátumba is, váratlan összeomlások nélkül.
 
- Ebben az oktatóanyagban a kezelésével foglalkozunk`BitmapInvalidSizeException` amikor az Aspose.Tasks for .NET programmal dolgozik. Az Aspose.Tasks egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan kezeljék a Microsoft Project fájlokat, lehetővé téve például a projektek képként történő mentését. Időnként azonban, amikor egy projektet képként próbálunk menteni, előfordulhat, hogy egy`Invalid Size Exception` bittérképhez kapcsolódik. Ennek az oktatóanyagnak az a célja, hogy végigvezeti Önt a kivétel hatékony észlelésének és kezelésének folyamatán.
+## Gyors válaszok
+- **Milyen kivétel fordulhat elő kép exportálásakor?** `BitmapInvalidSizeException`  
+- **Melyik formátumot használja a példában?** PNG (`SaveFileFormat.Png`)  
+- **Szükség van-e speciális licencre?** Érvényes Aspose.Tasks licenc szükséges a termelésben való használathoz.  
+- **Módosíthatom-e az időskálát?** Igen – beállíthatja az időskála egységét (percek, órák, napok stb.).  
+- **Kompatibilis a kód a .NET Core-rel?** Teljesen – ugyanaz az API működik .NET Framework és .NET Core alatt is.
+
+## Mi az a BitmapInvalidSizeException?
+A `BitmapInvalidSizeException` akkor kerül dobásra, amikor a képhez számított bitmap méretek kívül esnek a támogatott tartományon (például a szélesség vagy magasság nulla, vagy meghaladja a belső korlátokat). Ez általában akkor fordul elő, amikor az időskála vagy a nézetbeállítások olyan képet eredményeznek, amely túl nagy vagy túl kicsi.
+
+## Miért exportáljunk projektet képként?
+- **Vizuális jelentés** – Gantt-diagram beágyazása PDF‑ekbe, Word dokumentumokba vagy weboldalakra.  
+- **Platformfüggetlen megosztás** – A PNG fájlok bármilyen eszközön megtekinthetők Microsoft Project nélkül.  
+- **Teljesítmény** – A képek könnyűek a teljes projektfájlokhoz képest, így gyors előnézetet biztosítanak.
 
 ## Előfeltételek
-
-Mielőtt folytatná ezt az oktatóanyagot, győződjön meg arról, hogy a következő előfeltételekkel rendelkezik:
-1. A C# programozási nyelv alapvető ismerete.
-2. Aspose.Tasks telepítve a .NET-hez.
-3. Ismeri a Microsoft Project fájlokkal való munkát.
+1. Alapvető C# és .NET fejlesztési ismeretek.  
+2. Aspose.Tasks for .NET telepítve (NuGet csomag `Aspose.Tasks`).  
+3. Egy minta Microsoft Project fájl (például `Blank2010.mpp`).  
 
 ## Névterek importálása
-
-Mielőtt elkezdené, feltétlenül importálja a szükséges névtereket:
 ```csharp
 using Aspose.Tasks;
 using System;
 
 using Aspose.Tasks.Saving;
 using Aspose.Tasks.Visualization;
-
 ```
 
-## 1. lépés: A projekt inicializálása és a nézet meghatározása
+## Lépésről‑lépésre útmutató
 
- Először inicializálja a`Project` objektumot, és definiáljon egy nézetet, például a`GanttChartView`.
+### 1. lépés: Inicializálja a projektet és válasszon nézetet
+Először hozzon létre egy `Project` példányt, és válassza ki a megjeleníteni kívánt nézetet (ebben a példában az első Gantt-diagram nézetet használjuk).
 
 ```csharp
-// A dokumentumok könyvtárának elérési útja.
+// The path to the documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Blank2010.mpp");
 GanttChartView view = (GanttChartView) project.Views.ToList()[0];
 ```
 
-## 2. lépés: Adja meg a képmentési beállításokat
-
-Ezután adja meg a kép mentési beállításait, beleértve a formátumot és az időskálát.
+### 2. lépés: Állítsa be a kép mentési beállításokat (Projekt exportálása PNG-be)
+Adja meg a kívánt képformátumot, és mondja meg az Aspose.Tasks‑nek, hogy a nézetben definiált időskálát használja.
 
 ```csharp
 var options = new ImageSaveOptions(SaveFileFormat.Png)
@@ -58,68 +69,75 @@ var options = new ImageSaveOptions(SaveFileFormat.Png)
 };
 ```
 
-## 3. lépés: Állítsa be az időskálát és a számot
-
-Állítsa be az időskálát, és számoljon az igényei szerint. Ebben a példában az időskálát percekre állítottuk.
+### 3. lépés: Az időskála egységének módosítása (Kép méretének szabályozása)
+Az időskála módosítása befolyásolja a bitmap méreteket. Ebben a példában **percek** egységet használunk, hogy a kép mérete kezelhető maradjon.
 
 ```csharp
 view.MiddleTimescaleTier.Unit = TimescaleUnit.Minutes;
 view.MiddleTimescaleTier.Count = 1;
 ```
 
-## 4. lépés: Projekt mentése képként
-
-Próbálja meg a projektet képként menteni a megadott beállításokkal.
+### 4. lépés: Próbálja meg menteni a projektet képként
+Ez a sor hajtja végre a tényleges **projekt mentését képként** műveletet.
 
 ```csharp
 project.Save(DataDir + "SaveToStreamAndCatchException_out.mpp", options);
 ```
 
-## 5. lépés: Fogás és kezelés kivétel
-
- A kivételkezelés végrehajtása a`BitmapInvalidSizeException` ha a képmentési folyamat során történik.
+### 5. lépés: A BitmapInvalidSizeException elkapása és kezelése
+Tegye a mentési hívást egy `try / catch` blokkba, hogy az alkalmazás elegánsan reagáljon, ha a bitmap mérete érvénytelen.
 
 ```csharp
 try
 {
-    // Próbálja meg menteni a projektet képként
+    // Attempt to save project as an image
     project.Save(DataDir + "SaveToStreamAndCatchException_out.mpp", options);
 }
 catch (BitmapInvalidSizeException ex)
 {
-    // Kezelje a kivételt
+    // Handle the exception – for example, log it or adjust the timescale
     Console.WriteLine(ex.Message);
 }
 ```
 
-## Következtetés
+## Gyakori problémák és megoldások
+| Probléma | Ok | Megoldás |
+|----------|----|----------|
+| A kivétel továbbra is dobódik az időskála módosítása után | Az időskála még mindig túl nagy bitmapet eredményez | Csökkentse a `view.MiddleTimescaleTier.Count` értékét vagy válasszon durvább `TimescaleUnit`‑ot (pl. Órák). |
+| A kimeneti fájl üres | Helytelen fájlútvonal vagy hiányzó írási jogosultság | Ellenőrizze, hogy a `DataDir` írható mappára mutat, és a fájlnév `.png`‑re végződik, ha más formátumot használ. |
+| A kép minősége gyenge | Az alap DPI alacsony lehet | Állítsa a `options.DpiX` és `options.DpiY` értékeket magasabbra (pl. 300). |
 
- Összegezve, kezelése a`BitmapInvalidSizeException` Amikor a projekteket képként menti az Aspose.Tasks for .NET-ben, elengedhetetlen az alkalmazások zökkenőmentes végrehajtásához. Az ebben az oktatóanyagban ismertetett lépések követésével hatékonyan elkaphatja és kezelheti ezt a kivételt, így növelve projektmenedzsment-megoldásai robusztusságát.
+## Gyakran Ismételt Kérdések
 
-## GYIK
+**K: Mi okozza a BitmapInvalidSizeException‑t az Aspose.Tasks-ben?**  
+A: Akkor fordul elő, amikor a számított bitmap méretek érvénytelenek – általában azért, mert az időskála olyan képet eredményez, amely túl nagy vagy nulla szélesség/magasság.
 
-### 1. kérdés: Mi okozza a BitmapInvalidSizeException kivételt az Aspose.Tasks programban?
+**K: Testreszabhatom-e az időskálát kép exportálásakor?**  
+Igen. A `view.MiddleTimescaleTier.Unit` és `Count` értékek módosításával a saját igényeihez igazíthatja, ahogy a bemutatóban is látható.
 
-1. válasz: Ez a kivétel akkor fordul elő, ha egy projektet érvénytelen bitképméret-paraméterekkel próbál meg képként menteni.
+**K: Támogatja-e az Aspose.Tasks más képformátumokat a PNG-en kívül?**  
+Természetesen. A `SaveFileFormat` tartalmazza a JPEG, BMP, GIF és TIFF formátumokat is. Csak cserélje ki az enum értékét az `ImageSaveOptions`‑ban.
 
-### 2. kérdés: Testreszabhatom az időskálát egy projekt képként történő mentésekor?
+**K: Szükséges-e licenc a képek exportálásához egy éles környezetben?**  
+Igen. Bár a könyvtár értékelő módban működik, egy kereskedelmi licenc eltávolítja az értékelési korlátozásokat és teljes támogatást biztosít.
 
-2. válasz: Igen, az oktatóanyagban bemutatott módon beállíthatja az időskálát és a számlálást igényei szerint.
+**K: Hogyan javíthatom az exportált PNG minőségét?**  
+Növelje a DPI beállításokat (`options.DpiX` és `options.DpiY`) vagy módosítsa a nézet időskáláját, hogy nagyobb bitmapet kapjon.
 
-### 3. kérdés: Hol találok további forrásokat az Aspose.Tasks for .NET használatához?
+## Összegzés
+A fenti lépések követésével most már tudja, **hogyan exportáljon képet** egy projektfájlból, hogyan **mentse a projektet képként**, és hogyan kezelje elegánsan a `BitmapInvalidSizeException` kivételt. Ezek a technikák megerősítik a jelentéskészítési folyamatokat, és biztosítják, hogy a vizuális exportok megbízhatóan működjenek különböző projektméretek és időskálák esetén.
 
-3. válasz: Megtekintheti az Aspose.Tasks által biztosított dokumentációt és támogatási fórumokat átfogó útmutatásért és segítségért.
-
-### 4. kérdés: Az Aspose.Tasks kompatibilis a Microsoft Project fájlok különböző verzióival?
-
-4. válasz: Igen, az Aspose.Tasks támogatja a Microsoft Project fájlok különféle verzióit, lehetővé téve a zökkenőmentes együttműködést.
-
-### 5. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.Tasks számára?
-
-5. válasz: A cikkben található hivatkozáson keresztül ideiglenes licencet szerezhet értékelési célokra.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Utolsó frissítés:** 2026-03-21  
+**Tesztelve:** Aspose.Tasks 24.12 for .NET  
+**Szerző:** Aspose  
+
+---
