@@ -1,5 +1,5 @@
 ---
-title: How to Export Image and Handle Invalid Size Exception
+title: How to Export PNG Image – Handling Invalid Size Exception for Bitmap in Aspose.Tasks
 linktitle: Handling Invalid Size Exception for Bitmap in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to export image and handle BitmapInvalidSizeException when saving a project as image in Aspose.Tasks for .NET. Includes steps to save project as image and export project to PNG.
@@ -12,7 +12,7 @@ date: 2026-03-21
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to Export Image – Handling Invalid Size Exception for Bitmap in Aspose.Tasks
+# How to Export PNG Image – Handling Invalid Size Exception for Bitmap in Aspose.Tasks
 
 In this tutorial you’ll learn **how to export image** from a Microsoft Project file using Aspose.Tasks for .NET and, more importantly, how to catch the `BitmapInvalidSizeException` that can occur during the process. Exporting a project as an image is a common requirement for reporting dashboards, documentation, or simply sharing a visual snapshot of a schedule. By the end of this guide you’ll be able to **save project as image** reliably and even **export project to PNG** format without unexpected crashes.
 
@@ -47,7 +47,7 @@ using Aspose.Tasks.Visualization;
 
 ## Step‑by‑Step Guide
 
-### Step 1: Initialize the Project and Choose a View
+### Step 1: initialize the project and choose a view
 First, create a `Project` instance and pick the view you want to render (here we use the first Gantt chart view).
 
 ```csharp
@@ -67,7 +67,7 @@ var options = new ImageSaveOptions(SaveFileFormat.Png)
 };
 ```
 
-### Step 3: Adjust the Timescale Unit (Control Image Size)
+### Step 3: adjust the timescale unit (Control image size)
 Changing the timescale influences the bitmap dimensions. In this example we use **minutes** to keep the image size manageable.
 
 ```csharp
@@ -82,7 +82,7 @@ This line performs the actual **save project as image** operation.
 project.Save(DataDir + "SaveToStreamAndCatchException_out.mpp", options);
 ```
 
-### Step 5: Catch and Handle the BitmapInvalidSizeException
+### Step 5: catch and handle the bitmapInvalidSizeException
 Wrap the save call in a `try / catch` block so your application can react gracefully if the bitmap size is invalid.
 
 ```csharp
@@ -98,14 +98,14 @@ catch (BitmapInvalidSizeException ex)
 }
 ```
 
-## Common Issues and Solutions
+## Common issues and solutions
 | Issue | Cause | Solution |
 |-------|-------|----------|
 | Exception still thrown after adjusting timescale | Timescale still results in too large bitmap | Reduce `view.MiddleTimescaleTier.Count` or switch to a coarser `TimescaleUnit` (e.g., Hours). |
 | Output file is empty | Incorrect file path or missing write permissions | Verify `DataDir` points to a writable folder and the filename ends with `.png` if you change the format. |
 | Image quality is poor | Default DPI may be low | Set `options.DpiX` and `options.DpiY` to higher values (e.g., 300). |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: What causes the BitmapInvalidSizeException in Aspose.Tasks?**  
 A: It occurs when the calculated bitmap dimensions are invalid—typically because the timescale creates an image that is too large or has zero width/height.
@@ -125,12 +125,12 @@ A: Increase the DPI settings (`options.DpiX` and `options.DpiY`) or adjust the v
 ## Conclusion
 By following the steps above you now know **how to export image** from a Project file, how to **save project as image**, and how to gracefully handle the `BitmapInvalidSizeException`. These techniques make your reporting pipelines more robust and ensure that visual exports work reliably across different project sizes and timescales.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 
 ---
 
@@ -139,3 +139,10 @@ By following the steps above you now know **how to export image** from a Project
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

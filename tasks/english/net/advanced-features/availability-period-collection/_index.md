@@ -1,5 +1,5 @@
 ---
-title: Project Resource Availability – Managing Availability Periods in Aspose.Tasks
+title: Project Resource Availability – Managing Availability Periods with Aspose.Tasks API
 linktitle: Collection of Availability Periods in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to manage availability periods for resources and achieve effective project resource availability with Aspose.Tasks for .NET. This step‑by‑step guide shows how to add, update, and remove availability periods.
@@ -34,7 +34,7 @@ Project resource availability defines the dates and units (percentage of capacit
 
 ## Prerequisites
 1. **Visual Studio** – any recent version (2019, 2022, or later).  
-2. **Aspose.Tasks for .NET** – download from [here](https://releases.aspose.com/tasks/net/).  
+2. **Aspose.Tasks for .NET** – download from [download Aspose.Tasks for .NET](https://releases.aspose.com/tasks/net/).  
 3. **Basic C# knowledge** – you should be comfortable with classes, collections, and LINQ.
 
 ## Import Namespaces
@@ -47,7 +47,7 @@ using System.Collections.Generic;
 
 We import the core Aspose.Tasks namespace together with standard .NET collections that we’ll need later.
 
-## Step 1: Initialize the Project and Resource
+## Step 1: initialize the project and resource
 
 ```csharp
 // The path to th documents directory.
@@ -58,7 +58,7 @@ var resource = project.Resources.GetById(1);
 
 Here we load an existing MPP file and fetch the resource whose availability we want to edit (ID = 1).
 
-## Step 2: Clear Existing Availability Periods
+## Step 2: clear existing availability periods
 
 ```csharp
 resource.AvailabilityPeriods.Clear();
@@ -66,7 +66,7 @@ resource.AvailabilityPeriods.Clear();
 
 Clearing removes any previously defined periods, giving us a clean slate.
 
-## Step 3: Add Availability Periods
+## Step 3: add availability periods
 
 ```csharp
 IEnumerable<AvailabilityPeriod> periods = this.GetPeriods();
@@ -81,7 +81,7 @@ foreach (var period in periods)
 
 We retrieve a collection of `AvailabilityPeriod` objects (the `GetPeriods` helper is assumed to be defined elsewhere) and add each one, checking that the collection is writable.
 
-## Step 4: Insert a New Availability Period
+## Step 4: insert a new availability period
 
 ```csharp
 var period2013 = new AvailabilityPeriod { AvailableFrom = new DateTime(2013, 1, 1), AvailableTo = new DateTime(2013, 12, 12), AvailableUnits = 0.81 };
@@ -94,7 +94,7 @@ if (!resource.AvailabilityPeriods.Contains(period2013))
 
 This creates a custom period for the year 2013 and inserts it at position 1 (second slot) if it isn’t already present.
 
-## Step 5: Display Availability Periods
+## Step 5: display availability periods
 
 ```csharp
 Console.WriteLine("Count of availability periods: " + resource.AvailabilityPeriods.Count);
@@ -109,7 +109,7 @@ foreach (var period in resource.AvailabilityPeriods)
 
 A quick console dump shows the total count and each period’s details – handy for debugging or verification.
 
-## Step 6: Copy Availability Periods to Another Resource
+## Step 6: copy availability periods to another resource
 
 ```csharp
 var periodsToCopy = new AvailabilityPeriod[resource.AvailabilityPeriods.Count];
@@ -125,7 +125,7 @@ foreach (var period in periodsToCopy)
 
 We copy the whole collection into an array, clear the target resource’s periods, and then repopulate it. This demonstrates how to duplicate availability data across resources.
 
-## Step 7: Update and Remove Availability Periods
+## Step 7: update and remove availability periods
 
 ```csharp
 // Update available units for a specific period
@@ -137,12 +137,12 @@ otherResource.AvailabilityPeriods.Remove(period2013);
 
 Here we adjust the `AvailableUnits` for the penultimate period and then remove the 2013 period we added earlier.
 
-## Common Issues and Solutions
+## Common issues and solutions
 - **Read‑only collection error** – Ensure the project is not opened in a read‑only mode or that you have called `resource.AvailabilityPeriods.Clear()` before adding new items.  
 - **Overlapping periods** – Aspose.Tasks does not automatically merge overlaps; you may need to write custom logic to detect and resolve them.  
 - **Incorrect date format** – Always use `DateTime` objects; string parsing can lead to locale‑specific bugs.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I add custom fields to availability periods?**  
 A: No, availability periods in Aspose.Tasks for .NET do not support custom fields.

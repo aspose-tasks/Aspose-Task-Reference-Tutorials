@@ -1,5 +1,5 @@
 ---
-title: How to read built-in project properties with Aspose.Tasks
+title: How to read built‑in project properties using Aspose.Tasks for .NET
 linktitle: Built-In Project Property Collection in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to read built-in project properties in .NET using Aspose.Tasks, modify them, and iterate over the collection efficiently.
@@ -31,7 +31,7 @@ Before diving into the code, make sure you have the following:
 
 1. **.NET Development Environment** – Visual Studio, Rider, or any IDE you prefer.  
 2. **Basic C# Knowledge** – variables, loops, and object‑oriented concepts.  
-3. **Aspose.Tasks for .NET** – download from the [website](https://releases.aspose.com/tasks/net/).  
+3. **Aspose.Tasks for .NET** – download from the [Aspose.Tasks .NET download page](https://releases.aspose.com/tasks/net/).  
 4. **Understanding of Project Management Basics** – helps you map properties to real‑world concepts.
 
 ## Import Namespaces
@@ -50,7 +50,7 @@ using Aspose.Tasks.Properties;
 
 Below is a step‑by‑step walkthrough that shows exactly how to load a project file and retrieve its built‑in properties.
 
-### Step 1: Load the Project File
+### Step 1: load the project file
 
 ```csharp
 // The path to the documents directory.
@@ -60,18 +60,18 @@ var project = new Project(DataDir + "ReadProjectInfo.mpp");
 
 The `Project` constructor reads the specified file and creates an in‑memory representation that you can query.
 
-### Step 2: Access Individual Built‑In Properties
+### Step 2: access individual built‑In properties
 
 ```csharp
 Console.WriteLine("Author: " + project.BuiltInProps.Author);
 Console.WriteLine("Category: " + project.BuiltInProps.Category);
 Console.WriteLine("Comments: " + project.BuiltInProps.Comments);
-// More properties...
+ // More properties...
 ```
 
 Each property (e.g., `Author`, `Category`) is exposed as a strongly‑typed member of the `BuiltInProps` collection, making it easy to **read built-in project properties** without parsing XML yourself.
 
-### Step 3: Iterate Over the Entire Built‑In Property Collection
+### Step 3: iterate over the entire built‑In property collection
 
 ```csharp
 foreach (Property property in project.BuiltInProps)
@@ -91,7 +91,7 @@ Iterating gives you a complete snapshot of every standard metadata field that th
 - **Automation:** Trigger custom workflows based on project metadata (e.g., auto‑assign resources when the “Category” matches a specific value).  
 - **Migration:** When moving projects between systems, the built‑in properties preserve essential context.
 
-## Common Issues & Tips
+## Common issues & tips
 
 - **File Path Errors:** Ensure `DataDir` ends with a path separator (`\` or `/`) or use `Path.Combine`.  
 - **Missing Properties:** Some properties may be empty if the source file didn’t define them; always check for `null` or empty strings.  
@@ -113,7 +113,7 @@ A3: Yes, Aspose.Tasks for .NET supports a wide range of project file formats, in
 
 ### Q4: Is there a free trial available for Aspose.Tasks for .NET?
 
-A4: Yes, you can avail of a free trial of Aspose.Tasks for .NET from the [website](https://releases.aspose.com/tasks/net/) to explore its features before making a purchase.
+A4: Yes, you can avail of a free trial of Aspose.Tasks for .NET from the [Aspose.Tasks .NET download page](https://releases.aspose.com/tasks/net/) to explore its features before making a purchase.
 
 ### Q5: Where can I find additional support and resources for Aspose.Tasks for .NET?
 
