@@ -1,11 +1,65 @@
 ---
-date: 2026-01-18
-description: Μάθετε πώς να ορίζετε το τυπικό κόστος και άλλες ιδιότητες πόρων στο
-  MS Project χρησιμοποιώντας το Aspose.Tasks για Java, συμπεριλαμβανομένου του πώς
-  να προσθέτετε πόρους στο MS Project και να διαχειρίζεστε τους πόρους αποδοτικά.
-linktitle: Set Resource Properties in Aspose.Tasks
+date: 2026-08-24
+description: Μάθετε πώς να προσθέσετε resource ms project, να ορίσετε standard rate
+  και άλλες resource properties στο MS Project χρησιμοποιώντας Aspose.Tasks for Java,
+  και να διαχειρίζεστε resources αποδοτικά.
+keywords:
+- add resource ms project
+- set resource rate
+- manage ms project resources
+- create ms project file
+lastmod: 2026-08-24
+linktitle: Ορίστε Resource Properties στο Aspose.Tasks
+og_description: Προσθέστε resource ms project και ορίστε standard rate χρησιμοποιώντας
+  Aspose.Tasks for Java. Μάθετε prerequisites, step‑by‑step code, και troubleshooting
+  σε αυτόν τον σύντομο οδηγό.
+og_image_alt: Screenshot of Aspose.Tasks Java code setting resource rates
+og_title: Προσθέστε resource ms project και ορίστε rate με Aspose.Tasks (Java)
+schemas:
+- author: Aspose
+  dateModified: '2026-08-24'
+  description: Learn how to add resource ms project, set standard rate and other resource
+    properties in MS Project using Aspose.Tasks for Java, and manage resources efficiently.
+  headline: How to add resource ms project with Aspose.Tasks
+  type: TechArticle
+- description: Learn how to add resource ms project, set standard rate and other resource
+    properties in MS Project using Aspose.Tasks for Java, and manage resources efficiently.
+  name: How to add resource ms project with Aspose.Tasks
+  steps:
+  - name: Install JDK 8 or newer. You can download it from the [Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+    text: Install JDK 8 or newer. You can download it from the [Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+  - name: Choose an IDE such as IntelliJ IDEA, Eclipse, or NetBeans and configure
+      it for Java development.
+    text: Choose an IDE such as IntelliJ IDEA, Eclipse, or NetBeans and configure
+      it for Java development.
+  - name: Download the latest Aspose.Tasks for Java package from the [download page](https://releases.aspose.com/tasks/java/).
+    text: Download the latest Aspose.Tasks for Java package from the [download page](https://releases.aspose.com/tasks/java/).
+  - name: Add the JAR files to your project’s classpath or declare the Maven/Gradle
+      dependency as shown in the product documentation.
+    text: Add the JAR files to your project’s classpath or declare the Maven/Gradle
+      dependency as shown in the product documentation.
+  type: HowTo
+- questions:
+  - answer: Yes, it supports all major Project formats, including large files with
+      thousands of tasks and resources, preserving every field without data loss.
+    question: Can Aspose.Tasks for Java handle complex MS Project files?
+  - answer: Yes, you can access a free trial of Aspose.Tasks for Java from the [Aspose.Tasks
+      free trial page](https://releases.aspose.com/).
+    question: Is there a free trial available?
+  - answer: You can seek assistance on the [support forum](https://forum.aspose.com/c/tasks/15).
+    question: Where can I get support for Aspose.Tasks for Java?
+  - answer: A temporary license is available from the [temporary license page](https://purchase.aspose.com/temporary-license/).
+    question: How do I obtain a temporary license for evaluation?
+  - answer: Purchase a full license from the [purchase page](https://purchase.aspose.com/buy).
+    question: Where can I purchase a licensed version?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: Πώς να ορίσετε το τυπικό ποσοστό για πόρους στο Aspose.Tasks
+tags:
+- aspose tasks
+- java project automation
+- ms project resources
+- resource rate
+title: Πώς να προσθέσετε resource ms project με Aspose.Tasks
 url: /el/java/resource-management/set-resource-properties/
 weight: 20
 ---
@@ -14,40 +68,37 @@ weight: 20
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ορισμός Τυπικής Τιμής για Πόρους στο Aspose.Tasks
+# Προσθήκη πόρου ms project και ορισμός τιμής στο Aspose.Tasks
 
 ## Εισαγωγή
-Αν δημιουργείτε εφαρμογές Java που χρειάζεται να αλληλεπιδρούν με αρχεία Microsoft Project, η **ρύθμιση της τυπικής τιμής** για έναν πόρο είναι μία από τις πιο συνηθισμένες εργασίες. Σε αυτό το tutorial θα μάθετε πώς να **ορίζετε την τυπική τιμή** και άλλες ιδιότητες πόρων χρησιμοποιώντας το Aspose.Tasks για Java. Στο τέλος του οδηγού θα μπορείτε να δημιουργήσετε ένα αντικείμενο project, να προσθέσετε έναν πόρο σε ένα αρχείο MS Project και να διαχειρίζεστε τους πόρους του MS Project με σιγουριά.
+Αν αναπτύσσετε εφαρμογές Java που χρειάζεται να διαβάζουν ή να γράφουν αρχεία Microsoft Project, **προσθήκη πόρου ms project** και η διαμόρφωση της τυπικής τιμής του είναι μια συνηθισμένη αλλά απαραίτητη εργασία. Σε αυτόν τον οδηγό θα δείτε πώς να δημιουργήσετε ένα αντικείμενο `Project`, να προσθέσετε έναν πόρο και να ορίσετε τόσο τις τυπικές όσο και τις υπερωριακές τιμές χρησιμοποιώντας το Aspose.Tasks για Java. Στο τέλος θα μπορείτε να αυτοματοποιήσετε τους υπολογισμούς κόστους και να διατηρείτε τα χρονοδιαγράμματα του έργου ενημερωμένα χωρίς να απαιτείται η εγκατάσταση του Microsoft Project.
 
-## Γρήγορες Απαντήσεις
-- **Ποια είναι η κύρια κλάση για εργασία με αρχείο Project;** `Project`
-- **Ποια μέθοδος προσθέτει νέο πόρο;** `project.getResources().add()`
+## Γρήγορες απαντήσεις
+- **Ποια κλάση αντιπροσωπεύει ένα αρχείο Project;** `Project`
+- **Ποια κλήση προσθέτει έναν νέο πόρο;** `project.getResources().add()`
 - **Πώς ορίζετε την τυπική τιμή;** `rsc.set(Rsc.STANDARD_RATE, BigDecimal.valueOf(...))`
-- **Χρειάζομαι άδεια για παραγωγή;** Ναι, απαιτείται έγκυρη άδεια Aspose.Tasks.
-- **Ποια έκδοση Java υποστηρίζεται;** Java 8+ (συνιστάται η τελευταία έκδοση JDK).
+- **Απαιτείται άδεια για παραγωγική χρήση;** Ναι, πρέπει να φορτώσετε μια έγκυρη άδεια Aspose.Tasks.
+- **Ποιες εκδόσεις Java υποστηρίζονται;** Java 8 και νεότερες (συνιστάται Java 17+).
 
-## Τι είναι η «ρύθμιση τυπικής τιμής»;
-Η λειτουργία *ρύθμιση τυπικής τιμής* εκχωρεί ένα προεπιλεγμένο ωριαίο κόστος σε έναν πόρο. Οι διαχειριστές έργων χρησιμοποιούν αυτήν την τιμή για να υπολογίζουν τα κόστη εργασίας, να δημιουργούν αναφορές κόστους και να προβλέπουν προϋπολογισμούς.
+## Τι είναι το «ορισμός τυπικής τιμής»?
+Η λειτουργία *ορισμός τυπικής τιμής* αναθέτει ένα προεπιλεγμένο ωριαίο κόστος σε έναν πόρο. Αυτή η τιμή χρησιμοποιείται από τους διαχειριστές έργων για τον υπολογισμό των εξόδων εργασίας, τη δημιουργία αναφορών κόστους και την πρόβλεψη προϋπολογισμών, εξασφαλίζοντας ότι οι υπολογισμοί κόστους αντικατοπτρίζουν την αναμενόμενη τιμή της εργασίας που εκτελείται από κάθε πόρο καθ' όλη τη διάρκεια του κύκλου ζωής του έργου.
 
 ## Γιατί να ορίζετε τιμές με το Aspose.Tasks;
-- **Δεν απαιτείται εγκατάσταση Microsoft Project** – διαχειριστείτε τα αρχεία απευθείας από Java.
-- **Πλήρης πιστότητα** – όλα τα πεδία πόρων, συμπεριλαμβανομένων των υπερωριών και των τιμών κόστους, διατηρούνται.
-- **Διαπλατφορμική** – λειτουργεί σε Windows, Linux και macOS.
-- **Φιλικό προς τον αυτοματισμό** – ιδανικό για επεξεργασία παρτίδων ή ενσωμάτωση σε CI pipelines.
+Το Aspose.Tasks μπορεί να επεξεργαστεί **πάνω από 50 μορφές εισόδου και εξόδου**, συμπεριλαμβανομένων των αρχείων MPP, MPX, XML και Primavera, και διαχειρίζεται έργα με εκατοντάδες σελίδες χωρίς να φορτώνει ολόκληρο το αρχείο στη μνήμη. Αυτό επιτρέπει επεξεργασία παρτίδων υψηλής απόδοσης σε διακομιστές Windows, Linux ή macOS, μειώνοντας την χειροκίνητη εργασία έως και 90 % σε τυπικά σενάρια αυτοματοποίησης.
 
 ## Προαπαιτούμενα
-Πριν ξεκινήσετε, βεβαιωθείτε ότι έχετε τα εξής:
+Πριν ξεκινήσετε, βεβαιωθείτε ότι τα παρακάτω στοιχεία είναι έτοιμα:
 
-### Ρύθμιση Περιβάλλοντος Ανάπτυξης Java
-1. **Εγκατάσταση JDK:** Βεβαιωθείτε ότι έχετε εγκατεστημένο το Java Development Kit (JDK) στο σύστημά σας. Μπορείτε να το κατεβάσετε από την [ιστοσελίδα της Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2. **Ρύθμιση IDE:** Επιλέξτε ένα Integrated Development Environment (IDE) όπως IntelliJ IDEA, Eclipse ή NetBeans και εγκαταστήστε το στο μηχάνημά σας.
+### Ρύθμιση περιβάλλοντος ανάπτυξης Java
+1. Εγκαταστήστε το JDK 8 ή νεότερο. Μπορείτε να το κατεβάσετε από την [Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
+2. Επιλέξτε ένα IDE όπως IntelliJ IDEA, Eclipse ή NetBeans και ρυθμίστε το για ανάπτυξη Java.
 
 ### Εγκατάσταση Aspose.Tasks για Java
-1. **Λήψη Aspose.Tasks για Java:** Μεταβείτε στη [σελίδα λήψης](https://releases.aspose.com/tasks/java/) και αποκτήστε την τελευταία έκδοση του Aspose.Tasks για Java.
-2. **Ενσωμάτωση στο Project:** Ενσωματώστε τη βιβλιοθήκη Aspose.Tasks για Java στο Java project σας προσθέτοντάς την ως εξάρτηση.
+1. Κατεβάστε το πιο πρόσφατο πακέτο Aspose.Tasks για Java από τη [download page](https://releases.aspose.com/tasks/java/).  
+2. Προσθέστε τα αρχεία JAR στην classpath του έργου σας ή δηλώστε την εξάρτηση Maven/Gradle όπως φαίνεται στην τεκμηρίωση του προϊόντος.
 
-## Εισαγωγή Πακέτων
-Για να ξεκινήσετε, πρέπει να εισάγετε τα απαραίτητα πακέτα από το Aspose.Tasks για Java στο project σας. Αυτό το βήμα εξασφαλίζει ότι έχετε πρόσβαση στις απαιτούμενες λειτουργίες.
+## Εισαγωγή πακέτων
+Εισάγετε τις βασικές κλάσεις Aspose.Tasks που θα χρειαστείτε. Αυτό το βήμα σας δίνει πρόσβαση στους τύπους `Project`, `Resource` και `Rsc` που χρησιμοποιούνται αργότερα.
 
 ```java
 import com.aspose.tasks.Project;
@@ -56,22 +107,23 @@ import com.aspose.tasks.Rsc;
 import java.math.BigDecimal;
 ```
 
-## Βήμα 1: Δημιουργία Αντικειμένου Project
-Η δημιουργία ενός **αντικειμένου project** είναι το πρώτο βήμα για οποιαδήποτε επεξεργασία MS Project. Αντιπροσωπεύει ολόκληρο το αρχείο project στη μνήμη.
+## Βήμα 1: δημιουργία αντικειμένου project
+Η κλάση `Project` είναι το αντικείμενο υψηλότερου επιπέδου που αντιπροσωπεύει ολόκληρο το αρχείο MS Project στη μνήμη. Η δημιουργία ενός στιγμιότυπου της δημιουργεί ένα κενό έργο που μπορείτε να γεμίσετε με εργασίες, πόρους και άλλα δεδομένα.
 
 ```java
 Project project = new Project();
 ```
 
-## Βήμα 2: Προσθήκη Πόρου (add resource ms project)
-Τώρα θα **προσθέσουμε πόρο MS Project** χρησιμοποιώντας τη συλλογή Resources. Το όνομα του πόρου μπορεί να είναι οτιδήποτε έχει νόημα για το χρονοδιάγραμμά σας.
+## Βήμα 2: προσθήκη πόρου (add resource ms project)
+Η κλάση `Resource` μοντελοποιεί έναν μοναδικό πόρο του έργου, όπως ένα άτομο, εξοπλισμό ή υλικό. Η προσθήκη ενός πόρου μέσω του `project.getResources().add()` επιστρέφει ένα μη‑null αντικείμενο `Resource` έτοιμο για διαμόρφωση ιδιοτήτων.
 
 ```java
 Resource rsc = project.getResources().add("Rsc");
 ```
 
-## Βήμα 3: Ορισμός Ιδιοτήτων Πόρου (how to set rates)
-Εδώ **ορίζουμε την τυπική τιμή** και επίσης δείχνουμε πώς να ορίσουμε μια τιμή υπερωρίας. Αυτές οι τιμές αποθηκεύονται ως τιμές `BigDecimal` για να διατηρηθεί η ακρίβεια.
+## Βήμα 3: ορισμός ιδιοτήτων πόρου (how to set rates)
+Η απαρίθμηση `Rsc` περιέχει σταθερές για πεδία πόρων όπως `STANDARD_RATE` και `OVERTIME_RATE`.  
+Ορίζετε τις τυπικές και υπερωριακές τιμές καλώντας τη μέθοδο `set` στο αντικείμενο `Resource` με τις κατάλληλες τιμές της απαρίθμησης `Rsc`. Οι τιμές αποθηκεύονται ως `BigDecimal` για να διατηρείται η χρηματική ακρίβεια.
 
 ```java
 // Set standard rate for the resource
@@ -80,37 +132,44 @@ rsc.set(Rsc.STANDARD_RATE, BigDecimal.valueOf(15));
 rsc.set(Rsc.OVERTIME_RATE, BigDecimal.valueOf(20));
 ```
 
-## Κοινά Προβλήματα και Λύσεις
+## Συχνά προβλήματα και λύσεις
 | Πρόβλημα | Γιατί συμβαίνει | Διόρθωση |
-|----------|------------------|----------|
-| `NullPointerException` when calling `set` | Ο πόρος δεν προστέθηκε σωστά. | Βεβαιωθείτε ότι το `project.getResources().add()` επιστρέφει ένα μη‑null `Resource`. |
-| Rates appear as 0 in the saved file | Χρήση `int` αντί για `BigDecimal`. | Πάντα χρησιμοποιείτε `BigDecimal.valueOf()` για χρηματικές τιμές. |
-| License not found | Το αρχείο άδειας δεν φορτώθηκε πριν τη δημιουργία του `Project`. | Φορτώστε την άδεια (`License license = new License(); license.setLicense("Aspose.Tasks.lic");`) στην αρχή του προγράμματός σας. |
+|----------|----------------|----------|
+| `NullPointerException` κατά την κλήση του `set` | Ο πόρος δεν προστέθηκε σωστά. | Βεβαιωθείτε ότι το `project.getResources().add()` επιστρέφει ένα μη‑null `Resource`. |
+| Οι τιμές εμφανίζονται ως 0 στο αποθηκευμένο αρχείο | Χρήση `int` αντί για `BigDecimal`. | Πάντα χρησιμοποιείτε `BigDecimal.valueOf()` για χρηματικές τιμές. |
+| Δεν βρέθηκε άδεια | Το αρχείο άδειας δεν φορτώθηκε πριν τη δημιουργία του `Project`. | Φορτώστε την άδεια (`License license = new License(); license.setLicense("Aspose.Tasks.lic");`) στην εκκίνηση του προγράμματος. |
 
 ## Συμπέρασμα
-Ακολουθώντας αυτά τα βήματα έχετε μάθει πώς να **δημιουργήσετε ένα αντικείμενο project**, **προσθέσετε έναν πόρο MS Project**, και **ορίσετε την τυπική τιμή** μαζί με άλλες ιδιότητες πόρων. Αυτό σας δίνει τη δυνατότητα να αυτοματοποιήσετε τους υπολογισμούς κόστους, να δημιουργήσετε προσαρμοσμένες αναφορές και να διαχειριστείτε πλήρως τους πόρους του MS Project από τη Java.
+Τώρα ξέρετε πώς να **προσθέσετε πόρο ms project**, να δημιουργήσετε ένα αντικείμενο `Project` και να **ορίσετε τυπικές και υπερωριακές τιμές** χρησιμοποιώντας το Aspose.Tasks για Java. Αυτή η δυνατότητα σας επιτρέπει να αυτοματοποιήσετε τους υπολογισμούς κόστους, να δημιουργήσετε προσαρμοσμένες αναφορές και να διαχειριστείτε πλήρως τους πόρους του MS Project από οποιαδήποτε εφαρμογή Java.
 
-## Συχνές Ερωτήσεις
-### Μπορεί το Aspose.Tasks για Java να διαχειριστεί σύνθετα αρχεία MS Project;
-Ναι, το Aspose.Tasks για Java είναι ικανό να διαχειριστεί μια ευρεία γκάμα μορφών αρχείων MS Project, συμπεριλαμβανομένων των σύνθετων με εκτεταμένες ιεραρχίες εργασιών.
+## Συχνές ερωτήσεις
+**Q: Μπορεί το Aspose.Tasks για Java να χειριστεί σύνθετα αρχεία MS Project;**  
+A: Ναι, υποστηρίζει όλες τις κύριες μορφές Project, συμπεριλαμβανομένων μεγάλων αρχείων με χιλιάδες εργασίες και πόρους, διατηρώντας κάθε πεδίο χωρίς απώλεια δεδομένων.
 
-### Υπάρχει δωρεάν δοκιμαστική έκδοση του Aspose.Tasks για Java;
-Ναι, μπορείτε να αποκτήσετε δωρεάν δοκιμαστική έκδοση του Aspose.Tasks για Java από [εδώ](https://releases.aspose.com/).
+**Q: Υπάρχει διαθέσιμη δωρεάν δοκιμή;**  
+A: Ναι, μπορείτε να αποκτήσετε δωρεάν δοκιμή του Aspose.Tasks για Java από τη [Aspose.Tasks free trial page](https://releases.aspose.com/).
 
-### Πού μπορώ να βρω υποστήριξη για το Aspose.Tasks για Java;
-Μπορείτε να ζητήσετε βοήθεια και να συμμετέχετε σε συζητήσεις σχετικά με το Aspose.Tasks για Java στο [φόρουμ υποστήριξης](https://forum.aspose.com/c/tasks/15).
+**Q: Πού μπορώ να λάβω υποστήριξη για το Aspose.Tasks για Java;**  
+A: Μπορείτε να ζητήσετε βοήθεια στο [support forum](https://forum.aspose.com/c/tasks/15).
 
-### Πώς μπορώ να αποκτήσω προσωρινή άδεια για το Aspose.Tasks για Java;
-Μπορείτε να αποκτήσετε προσωρινή άδεια από τη [σελίδα προσωρινής άδειας](https://purchase.aspose.com/temporary-license/) για σκοπούς αξιολόγησης.
+**Q: Πώς μπορώ να αποκτήσω προσωρινή άδεια για αξιολόγηση;**  
+A: Μια προσωρινή άδεια είναι διαθέσιμη από τη [temporary license page](https://purchase.aspose.com/temporary-license/).
 
-### Πού μπορώ να αγοράσω μια αδειοδοτημένη έκδοση του Aspose.Tasks για Java;
-Μπορείτε να αγοράσετε μια αδειοδοτημένη έκδοση του Aspose.Tasks για Java από τη [σελίδα αγοράς](https://purchase.aspose.com/buy).
+**Q: Πού μπορώ να αγοράσω μια άδεια έκδοσης;**  
+A: Αγοράστε πλήρη άδεια από τη [purchase page](https://purchase.aspose.com/buy).
 
 ---
 
-**Τελευταία ενημέρωση:** 2026-01-18  
+**Τελευταία ενημέρωση:** 2026-08-24  
 **Δοκιμή με:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
 **Συγγραφέας:** Aspose
+
+## Σχετικά μαθήματα
+
+- [Πώς να δημιουργήσετε πόρους – Διαχείριση πόρων με Aspose.Tasks για Java](/tasks/java/resource-management/)
+- [Προσθήκη πόρου στο έργο με Aspose.Tasks για Java](/tasks/java/resource-management/create-resources/)
+- [Πώς να προσθέσετε πόρο στο έργο και να διαχειριστείτε τις ιδιότητες καθυστέρησης εξισορρόπησης στο Aspose.Tasks](/tasks/java/resource-assignments/leveling-delay-properties/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

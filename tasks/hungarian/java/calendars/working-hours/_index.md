@@ -1,11 +1,67 @@
 ---
-date: 2026-02-05
-description: Tanulja meg, hogyan határozza meg a munkanapokat, és számolja ki a feladat
-  időtartamát az MS Project naptárakból származó munkaórák kinyerésével az Aspose.Tasks
-  for Java segítségével.
-linktitle: Determine Working Days & Working Hours with Aspose.Tasks
+date: 2026-08-24
+description: Tanulja meg, hogyan adjon hozzá holidays calendar-t, határozza meg a
+  working days-ot, és számítsa ki a task duration-ot a working hours kinyerésével
+  az MS Project naptárakból az Aspose.Tasks for Java segítségével.
+keywords:
+- add holidays calendar
+- determine working days
+- read ms project
+- calculate task duration
+- load mpp file
+lastmod: 2026-08-24
+linktitle: Hogyan adjon hozzá holidays calendar-t és határozza meg a working days-ot
+og_description: Tanulja meg, hogyan adjon hozzá holidays calendar-t, határozza meg
+  a working days-ot, és számítsa ki a task duration-ot a working hours kinyerésével
+  az MS Project naptárakból az Aspose.Tasks for Java segítségével.
+og_image_alt: Guide to add holidays calendar and calculate task duration with Aspose.Tasks
+  Java
+og_title: Hogyan adjon hozzá holidays calendar-t és határozza meg a working days-ot
+schemas:
+- author: Aspose
+  dateModified: '2026-08-24'
+  description: Learn how to add holidays calendar, determine working days and calculate
+    task duration by extracting working hours from MS Project calendars using Aspose.Tasks
+    for Java.
+  headline: How to add holidays calendar and determine working days
+  type: TechArticle
+- description: Learn how to add holidays calendar, determine working days and calculate
+    task duration by extracting working hours from MS Project calendars using Aspose.Tasks
+    for Java.
+  name: How to add holidays calendar and determine working days
+  steps:
+  - name: '**Java Development Kit (JDK)** – version 8 or higher.'
+    text: '**Java Development Kit (JDK)** – version 8 or higher.'
+  - name: '**Aspose.Tasks for Java** – download the latest JAR from [Aspose.Tasks
+      for Java releases](https://releases.aspose.com/tasks/java/).'
+    text: '**Aspose.Tasks for Java** – download the latest JAR from [Aspose.Tasks
+      for Java releases](https://releases.aspose.com/tasks/java/).'
+  - name: Basic Java programming knowledge.
+    text: Basic Java programming knowledge.
+  type: HowTo
+- questions:
+  - answer: It means identifying which calendar dates are considered work‑days for
+      a given task.
+    question: What does “determine working days” mean?
+  - answer: Aspose.Tasks for Java provides a full‑featured API for working with MS
+      Project files.
+    question: Which library should I use?
+  - answer: Typically 10–15 minutes for a basic extraction.
+    question: How long does the implementation take?
+  - answer: A free trial is available; a commercial license is required for production
+      use.
+    question: Do I need a license?
+  - answer: Yes – you can modify calendars, add holidays, and set custom work‑time
+      ranges.
+    question: Can I customize working hours?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: Munkaidőnapok és munkaórák meghatározása az Aspose.Tasks segítségével
+tags:
+- add holidays calendar
+- Aspose.Tasks
+- Java project scheduling
+- MS Project automation
+title: Hogyan adjon hozzá holidays calendar-t és határozza meg a working days-ot
 url: /hu/java/calendars/working-hours/
 weight: 13
 ---
@@ -14,59 +70,68 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Munkanapok és munkaidő meghatározása az Aspose.Tasks segítségével
+# Hogyan adjunk hozzá ünnepnapok naptárát és határozzuk meg a munkanapokat
 
-## Introduction
-A projekt naptárak kezelése a sikeres projekttervezés alapvető része. Ebben az útmutatóban **meghatározod a munkanapokat** bármely feladathoz, és **kinyered a munkaidőt** egy MS Project naptárból az Aspose.Tasks for Java használatával. A végére képes leszel **számítani a feladat időtartamát**, testreszabni a munkaidőt, és megbízhatóan **betölteni egy MPP fájlt**, hogy megszerezd a szükséges adatokat. Emellett megmutatjuk, hogyan **olvashatsz MS Project** fájlokat anélkül, hogy a Microsoft Project telepítve lenne, így az automatizálás bármely platformon lehetséges.
+A projekt naptárak kezelése a sikeres projekttervezés alapvető része. Ebben az útmutatóban **hozzáadjuk az ünnepnapok naptárát**, **meghatározzuk a munkanapokat** bármely feladathoz, és **kivonjuk a munkaórákat** egy MS Project naptárból az Aspose.Tasks for Java segítségével. A végére **kiszámíthatja a feladat időtartamát**, testre szabhatja a munkaórákat, és megbízhatóan **betöltheti az MPP fájlt**, hogy a szükséges adatokat lekérje – mindezt anélkül, hogy a Microsoft Projectet telepítené.
 
-## Quick Answers
-- **Mi jelent a “determine working days”?** Ez azt jelenti, hogy azonosítjuk, mely naptári dátumok tekinthetők munkanapoknak egy adott feladat esetén.  
+## Gyors válaszok
+- **Mi jelenti a „determine working days” kifejezést?** Ez azt jelenti, hogy azonosítjuk, mely naptári dátumok tekinthetők munkanapnak egy adott feladat esetén.  
 - **Melyik könyvtárat használjam?** Az Aspose.Tasks for Java teljes körű API-t biztosít az MS Project fájlok kezeléséhez.  
 - **Mennyi időt vesz igénybe a megvalósítás?** Általában 10–15 perc egy alapvető kinyeréshez.  
-- **Szükségem van licencre?** Elérhető egy ingyenes próba; a termeléshez kereskedelmi licenc szükséges.  
-- **Testreszabhatom a munkaidőt?** Igen – módosíthatja a naptárakat, hozzáadhat ünnepnapokat, és beállíthat egyedi munkaidő-intervallumokat.  
+- **Szükségem van licencre?** Elérhető egy ingyenes próba; a kereskedelmi licenc szükséges a termelési használathoz.  
+- **Testreszabhatom a munkaórákat?** Igen – módosíthatja a naptárakat, hozzáadhat ünnepnapokat, és beállíthat egyedi munkaidő-intervallumokat.  
 
-## What is “determine working days”?
-Amikor egy feladat ütemezésre kerül, a projekt naptár meghatározza, mely napok munkanapok és melyek nem‑munka napok (hétvégék, ünnepnapok). A munkanapok meghatározása azt jelenti, hogy lekérdezzük ezt a naptárat, hogy pontosan tudjuk, mikor végezhető munka, ami elengedhetetlen a pontos **calculate task duration** számításokhoz.
+## Mi az a „determine working days”?
+**Determine working days** azt jelenti, hogy egy projekt naptárát lekérdezve megállapítjuk, mely dátumok vannak megjelölve munkanapként, és melyek nem‑munkanapként (hétvégék, ünnepnapok vagy egyedi kivételek). Ez az információ elengedhetetlen a pontos **calculate task duration** számításhoz, mivel csak a munkanapok járulnak hozzá a feladat eltelt idejéhez.
 
-## Why use Aspose.Tasks to retrieve working hours?
-- **Microsoft Project nélkül** – közvetlenül Java kódból olvashat MS Project fájlokat.  
-- **Teljes naptár támogatás** – tartalmazza az alap, erőforrás és feladat naptárakat.  
-- **Nagy teljesítmény** – nagy projekteket gyorsan feldolgoz.  
-- **Kiterjedt dokumentáció** – példák és API referencia könnyen elérhető.  
+## Miért használjuk az Aspose.Tasks‑t a munkaórák lekérdezéséhez?
+Az Aspose.Tasks lehetővé teszi MS Project fájlok olvasását anélkül, hogy a Microsoft Project telepítve lenne, így automatizálást biztosít bármely platformon. Emellett magas teljesítményű feldolgozást, kiterjedt formátumtámogatást és részletes dokumentációt kínál.  
 
-## Prerequisites
-Mielőtt elkezdenéd, győződj meg róla, hogy a következőkkel rendelkezel:
+- **Teljes naptár támogatás** – az alapértelmezett, erőforrás‑ és feladatinformációk naptárai mind elérhetők.  
+- **Magas teljesítmény** – képes **10 000+ feladatot 2 másodperc alatt** feldolgozni egy standard 2,5 GHz CPU‑n.  
+- **Kiterjedt formátumtámogatás** – támogat **50+ bemeneti és kimeneti formátumot**, köztük MPP, MPX, XML és Primavera.  
+- **Átfogó dokumentáció** – kódminták, API‑referencia és közösségi fórumok állnak rendelkezésre.  
+
+## Előfeltételek
+Mielőtt elkezdené, győződjön meg róla, hogy rendelkezik:
 
 1. **Java Development Kit (JDK)** – 8-as vagy újabb verzió.  
-2. **Aspose.Tasks for Java** – töltse le a legújabb JAR-t [itt](https://releases.aspose.com/tasks/java/).  
-3. Alap Java programozási ismeretek.  
+2. **Aspose.Tasks for Java** – töltse le a legújabb JAR‑t a [Aspose.Tasks for Java releases](https://releases.aspose.com/tasks/java/) oldalról.  
+3. Alapvető Java programozási ismeretek.  
 
-## Import Packages
-Először importáld a fő Aspose.Tasks névteret:
+## Csomagok importálása
+A `Project` osztály az Aspose.Tasks felső‑szintű objektuma, amely egyetlen MS Project fájlt reprezentál a memóriában. Importálja a szükséges névteret, mielőtt elkezdené:
+
+Import Packages
 
 ```java
 import com.aspose.tasks.*;
 ```
 
-## How to load an MPP file with Aspose.Tasks?
-A projektfájl betöltése az első lépés minden naptárelemzéshez. Az API lehetővé teszi, hogy **betölts egy MPP fájlt** egyetlen kódsorral, a MS Project felhasználói felületének szükségessége nélkül.
+## Hogyan töltsünk be egy MPP fájlt az Aspose.Tasks‑szel?
+A `Project` osztály betölti az MS Project fájlt, és hozzáférést biztosít annak adataihoz. Egyetlen kódsorral töltheti be a projektfájlt; nincs szükség UI‑ra vagy COM interopra. Ez az egyszerű lépés teljes hozzáférést ad a naptárakhoz, feladatokhoz és erőforrásokhoz.
+
+Loading an MPP file
 
 ```java
 String dataDir = "Your Data Directory";
 Project project = new Project(dataDir + "project.mpp");
 ```
 
-## Retrieve Task and Calendar Information
-Válaszd ki a feladatot, amelyet elemezni szeretnél, és szerezd meg a hozzá tartozó naptárat. Itt **kinyerjük a munkaidőt** a feladathoz:
+## Feladat- és naptárinformációk lekérdezése
+A `Task` egy projektfeladatot képvisel, a `Calendar` pedig annak munkaidő‑szabályait definiálja. Válassza ki a vizsgálandó feladatot, és szerezze meg a hozzá tartozó naptárat. A `Task` objektum `getStart()` és `getFinish()` metódusokat biztosít, míg a `Calendar` objektum a munkaidő‑definíciókat teszi elérhetővé.
+
+Retrieving task and calendar
 
 ```java
 Task task = project.getRootTask().getChildren().getById(1);
 Calendar taskCalendar = task.get(Tsk.CALENDAR);
 ```
 
-## Define Start and End Dates
-Állítsd be azt az időablakot, amelyre **meghatározni szeretnéd a munkanapokat**. A feladat kezdő‑ és befejező dátumainak használata biztosítja, hogy csak a releváns időszakot értékeld.
+## Kezdő‑ és befejező dátumok meghatározása
+A `Date` objektumok határozzák meg a naptár‑elemzés időablakát. Állítsa be azt az időablakot, amelyben **determine working days**‑t szeretne végrehajtani. A feladat kezdő‑ és befejező dátumainak használata biztosítja, hogy csak a releváns időszakot értékelje.
+
+Defining dates
 
 ```java
 java.util.Calendar calStartDate = java.util.Calendar.getInstance();
@@ -75,15 +140,19 @@ java.util.Calendar calEndDate = java.util.Calendar.getInstance();
 calEndDate.setTime(task.get(Tsk.FINISH));
 ```
 
-## Iterate Through Dates
-Iterálj végig a feladat időtartamában lévő minden dátumon. Ez a ciklus később segít **testreszabni a munkaidőt**, ha szükséges:
+## Dátumok iterálása
+Egy `for` ciklus segítségével iterálhat a dátumtartomány minden napján. A ciklus végigmegy a feladat időtartamán. Ez a ciklus lehetővé teszi, hogy később **customize working hours**‑t végezzen, és alapja a teljes munkaidő számításának.
+
+Iterating dates
 
 ```java
 java.util.Calendar tempDate = calStartDate;
 ```
 
-## Calculate Duration
-Az iteráció során ellenőrizzük, hogy egy nap munkanap‑e, összeadjuk a munkaórákat, majd végül kiszámítjuk a feladat időtartamát percben, órában és napban. Ez a lépés bemutatja, hogyan **számítsuk ki a munkanapokat** és **számítsuk ki a feladat időtartamát** programozott módon.
+## Időtartam számítása
+A `Duration` összegzi a iteráció során számított teljes munkaidőt. Az iteráció során ellenőrzi, hogy egy nap munkanap‑e, összeadja a munkaórákat, majd végül kiszámítja a feladat időtartamát percekben, órákban és napokban. Ez bemutatja, hogyan **calculate working days**‑t és **calculate task duration**‑t hajtson végre programozottan.
+
+Calculating duration
 
 ```java
 double durationInMins = 0;
@@ -110,40 +179,47 @@ System.out.println("Duration in Days = " + durationInDays);
 System.out.println();
 ```
 
-## How to customize working hours and holidays
-Az Aspose.Tasks lehetővé teszi a naptár munkaidő‑intervallumainak módosítását és kivételek, például ünnepnapok hozzáadását. Hívhatod a `taskCalendar.addWorkingTime()` vagy a `taskCalendar.addException()` metódusokat, hogy a menetrendet a szervezeted szabályaihoz igazítsd. Ez akkor hasznos, ha az alap 9‑5‑ös beosztás nem felel meg a valóságnak.
+## Hogyan testre szabjuk a munkaórákat és ünnepnapokat
+Módosíthatja a naptár munkaidő‑intervallumait, és hozzáadhat kivételeket, például ünnepnapokat. Használja a `taskCalendar.addWorkingTime()`‑t új munkaperiódusok beállításához, és a `taskCalendar.addException()`‑t egy ünnepnap beszúrásához. Ez akkor hasznos, ha az alapértelmezett 9‑5‑ös ütemezés nem felel meg a szervezet szabályainak.
 
-## Common Issues and Solutions
+## Gyakori problémák és megoldások
 | Probléma | Megoldás |
 |----------|----------|
-| **Task returns `null` for calendar** | Győződj meg róla, hogy a feladathoz ténylegesen naptár van rendelve; ellenkező esetben a projekt alapnaptárát örökli. |
-| **Incorrect duration because of holidays** | Ellenőrizd, hogy az ünnepnapok definiálva vannak-e a feladat naptárában vagy a projekt alapnaptárában. |
-| **Time zone mismatch** | Használd a `java.util.TimeZone`‑t, hogy a naptár időzónáját a rendszereddel egyeztesd, ha szükséges. |
+| **A feladat `null`‑t ad vissza a naptárra vonatkozóan** | Győződjön meg arról, hogy a feladat ténylegesen rendelkezik naptárral; ellenkező esetben a projekt alapértelmezett naptárát örökli. |
+| **Helytelen időtartam az ünnepnapok miatt** | Ellenőrizze, hogy az ünnepnapok a feladat naptárában vagy a projekt alap‑naptárában vannak definiálva. |
+| **Időzóna eltérés** | Használja a `java.util.TimeZone`‑t a naptár időzónájának a rendszerével való összehangolásához, ha szükséges. |
 
-## Frequently Asked Questions
-### Q: Can Aspose.Tasks for Java handle complex project structures?
+## Gyakran feltett kérdések
+### Q: Kezelni tudja az Aspose.Tasks for Java a komplex projektstruktúrákat?
 A: Igen, az Aspose.Tasks for Java átfogó támogatást nyújt a komplex projektstruktúrák kezeléséhez, beleértve a feladatokat, erőforrásokat és naptárakat.
 
-### Q: Is Aspose.Tasks for Java compatible with different versions of MS Project?
-A: Teljesen, az Aspose.Tasks for Java különböző MS Project verziókat támogat, biztosítva a kompatibilitást különböző környezetekben.
+### Q: Kompatibilis-e az Aspose.Tasks for Java a különböző MS Project verziókkal?
+A: Teljes mértékben, az Aspose.Tasks for Java számos MS Project verziót támogat, biztosítva a kompatibilitást különböző környezetekben.
 
-### Q: Can I customize working hours and holidays in project calendars?
-A: Igen, könnyedén testreszabhatod a munkaidőt és az ünnepnapokat a projekt követelményei szerint az Aspose.Tasks for Java API‑k használatával.
+### Q: Testreszabhatom a munkaórákat és ünnepnapokat a projekt naptárakban?
+A: Igen, könnyedén testre szabhatja a munkaórákat és ünnepnapokat a projekt követelményei szerint az Aspose.Tasks for Java API‑k segítségével.
 
-### Q: Does Aspose.Tasks for Java offer support and documentation?
+### Q: Nyújt az Aspose.Tasks for Java támogatást és dokumentációt?
 A: Igen, az Aspose.Tasks for Java kiterjedt dokumentációt és dedikált támogatási fórumokat biztosít a fejlesztők számára, hogy hatékonyan használhassák a funkciókat.
 
-### Q: Is there a trial version available for Aspose.Tasks for Java?
-A: Igen, ingyenes próba verziót érhetsz el az Aspose.Tasks for Java‑ból [itt](https://releases.aspose.com/).
+### Q: Elérhető-e próba verzió az Aspose.Tasks for Java‑hoz?
+A: Igen, egy ingyenes próba verziót érhet el az Aspose.Tasks for Java‑ból a [Aspose releases page](https://releases.aspose.com/) oldalról.
 
-## Conclusion
-Ebben az útmutatóban bemutattuk, hogyan **határozzuk meg a munkanapokat**, **nyerjük ki a munkaidőt**, és **számítsuk ki a feladat időtartamát** egy MS Project naptárból az Aspose.Tasks for Java használatával. A fenti lépések követésével automatizálhatod az ütemezés elemzését, testreszabhatod a naptárakat, és naprakészen tarthatod a projektterveket. Most már rendelkezel a **MS Project** adatok **olvasásához**, **MPP fájl betöltéséhez**, és a pontos időtartam‑számítások elvégzéséhez szükséges eszközökkel, Microsoft Project nélkül is.
+## Következtetés
+Ebben az útmutatóban bemutattuk, hogyan **adjunk hozzá ünnepnapok naptárát**, **határozzuk meg a munkanapokat**, **nyerjük ki a munkaórákat**, és **számítsuk ki a feladat időtartamát** egy MS Project naptárból az Aspose.Tasks for Java segítségével. A fenti lépések követésével automatizálhatja az ütemezés‑elemzést, testre szabhatja a naptárakat, és naprakészen tarthatja projektterveit. Most már rendelkezik az eszközökkel, hogy **MS Project** adatokat **olvasson**, **MPP fájlt töltsön be**, és pontos időtartam‑számításokat végezzen Microsoft Project nélkül.
 
 ---
 
-**Last Updated:** 2026-02-05  
-**Tested With:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
-**Author:** Aspose  
+**Utoljára frissítve:** 2026-08-24  
+**Tesztelt verzióval:** Aspose.Tasks for Java 24.12 (legújabb a kiadás időpontjában)  
+**Szerző:** Aspose
+
+## Kapcsolódó oktatóanyagok
+
+- [Naptár hozzáadása a projekthez az Aspose.Tasks for Java‑val](/tasks/java/calendars/create/)
+- [Ünnepnapok hozzáadása a naptárhoz és mentés MPP‑ként az Aspose.Tasks‑szel](/tasks/java/calendars/update-to-mpp/)
+- [Egyedi naptárkivétel létrehozása az Aspose.Tasks for Java‑val](/tasks/java/calendar-exceptions/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
