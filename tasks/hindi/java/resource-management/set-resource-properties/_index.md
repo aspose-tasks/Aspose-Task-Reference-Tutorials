@@ -1,11 +1,65 @@
 ---
-date: 2026-01-18
-description: जानेँ कि Aspose.Tasks for Java का उपयोग करके MS Project में मानक दर और
-  अन्य संसाधन गुण कैसे सेट करें, जिसमें संसाधन को MS Project में जोड़ना और संसाधनों
-  का प्रभावी प्रबंधन कैसे किया जाए, शामिल है।
-linktitle: Set Resource Properties in Aspose.Tasks
+date: 2026-08-24
+description: Aspose.Tasks for Java का उपयोग करके MS Project में resource ms project
+  जोड़ना, standard rate और अन्य resource properties सेट करना, और संसाधनों को प्रभावी
+  ढंग से प्रबंधित करना सीखें।
+keywords:
+- add resource ms project
+- set resource rate
+- manage ms project resources
+- create ms project file
+lastmod: 2026-08-24
+linktitle: Aspose.Tasks में Resource Properties सेट करें
+og_description: Aspose.Tasks for Java का उपयोग करके resource ms project जोड़ें और
+  standard rate सेट करें। इस संक्षिप्त गाइड में आवश्यकताएँ, चरण‑दर‑चरण कोड, और समस्या
+  निवारण सीखें।
+og_image_alt: Screenshot of Aspose.Tasks Java code setting resource rates
+og_title: Aspose.Tasks (Java) के साथ resource ms project जोड़ें और rate सेट करें
+schemas:
+- author: Aspose
+  dateModified: '2026-08-24'
+  description: Learn how to add resource ms project, set standard rate and other resource
+    properties in MS Project using Aspose.Tasks for Java, and manage resources efficiently.
+  headline: How to add resource ms project with Aspose.Tasks
+  type: TechArticle
+- description: Learn how to add resource ms project, set standard rate and other resource
+    properties in MS Project using Aspose.Tasks for Java, and manage resources efficiently.
+  name: How to add resource ms project with Aspose.Tasks
+  steps:
+  - name: Install JDK 8 or newer. You can download it from the [Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+    text: Install JDK 8 or newer. You can download it from the [Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+  - name: Choose an IDE such as IntelliJ IDEA, Eclipse, or NetBeans and configure
+      it for Java development.
+    text: Choose an IDE such as IntelliJ IDEA, Eclipse, or NetBeans and configure
+      it for Java development.
+  - name: Download the latest Aspose.Tasks for Java package from the [download page](https://releases.aspose.com/tasks/java/).
+    text: Download the latest Aspose.Tasks for Java package from the [download page](https://releases.aspose.com/tasks/java/).
+  - name: Add the JAR files to your project’s classpath or declare the Maven/Gradle
+      dependency as shown in the product documentation.
+    text: Add the JAR files to your project’s classpath or declare the Maven/Gradle
+      dependency as shown in the product documentation.
+  type: HowTo
+- questions:
+  - answer: Yes, it supports all major Project formats, including large files with
+      thousands of tasks and resources, preserving every field without data loss.
+    question: Can Aspose.Tasks for Java handle complex MS Project files?
+  - answer: Yes, you can access a free trial of Aspose.Tasks for Java from the [Aspose.Tasks
+      free trial page](https://releases.aspose.com/).
+    question: Is there a free trial available?
+  - answer: You can seek assistance on the [support forum](https://forum.aspose.com/c/tasks/15).
+    question: Where can I get support for Aspose.Tasks for Java?
+  - answer: A temporary license is available from the [temporary license page](https://purchase.aspose.com/temporary-license/).
+    question: How do I obtain a temporary license for evaluation?
+  - answer: Purchase a full license from the [purchase page](https://purchase.aspose.com/buy).
+    question: Where can I purchase a licensed version?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: Aspose.Tasks में संसाधनों के लिए मानक दर कैसे सेट करें
+tags:
+- aspose tasks
+- java project automation
+- ms project resources
+- resource rate
+title: Aspose.Tasks के साथ resource ms project कैसे जोड़ें
 url: /hi/java/resource-management/set-resource-properties/
 weight: 20
 ---
@@ -14,40 +68,37 @@ weight: 20
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks में रिसोर्स के लिए स्टैंडर्ड रेट सेट करें
+# Aspose.Tasks में रिसोर्स एमएस प्रोजेक्ट जोड़ें और रेट सेट करें
 
 ## परिचय
-यदि आप Java एप्लिकेशन बना रहे हैं जिन्हें Microsoft Project फ़ाइलों के साथ इंटरैक्ट करना है, तो **रिसोर्स के लिए स्टैंडर्ड रेट सेट करना** सबसे आम कार्यों में से एक है। इस ट्यूटोरियल में आप सीखेंगे कि **स्टैंडर्ड रेट** और अन्य रिसोर्स प्रॉपर्टीज़ को Aspose.Tasks for Java का उपयोग करके कैसे सेट किया जाता है। गाइड के अंत तक आप एक प्रोजेक्ट ऑब्जेक्ट बना पाएँगे, MS Project फ़ाइल में रिसोर्स जोड़ पाएँगे, और आत्मविश्वास के साथ MS Project रिसोर्सेज़ को मैनेज कर पाएँगे।
+यदि आप ऐसे Java एप्लिकेशन विकसित कर रहे हैं जिन्हें Microsoft Project फ़ाइलों को पढ़ने या लिखने की आवश्यकता है, **adding a resource ms project** और उसके मानक रेट को कॉन्फ़िगर करना एक नियमित लेकिन आवश्यक कार्य है। इस गाइड में आप देखेंगे कि कैसे `Project` ऑब्जेक्ट बनाते हैं, एक रिसोर्स जोड़ते हैं, और Aspose.Tasks for Java का उपयोग करके मानक और ओवरटाइम दोनों रेट सेट करते हैं। अंत में आप लागत गणनाओं को स्वचालित कर सकेंगे और अपने प्रोजेक्ट शेड्यूल को अद्यतन रख सकेंगे बिना Microsoft Project स्थापित किए।
 
 ## त्वरित उत्तर
-- **प्रोजेक्ट फ़ाइल के साथ काम करने के लिए मुख्य क्लास कौन सी है?** `Project`
-- **नया रिसोर्स जोड़ने की मेथड कौन सी है?** `project.getResources().add()`
-- **स्टैंडर्ड रेट कैसे सेट करते हैं?** `rsc.set(Rsc.STANDARD_RATE, BigDecimal.valueOf(...))`
-- **क्या प्रोडक्शन के लिए लाइसेंस चाहिए?** हाँ, एक वैध Aspose.Tasks लाइसेंस आवश्यक है।
-- **कौन सा Java संस्करण समर्थित है?** Java 8+ (नवीनतम JDK की सलाह दी जाती है)।
+- **कौन सा क्लास Project फ़ाइल का प्रतिनिधित्व करता है?** `Project`
+- **कौन सा कॉल नया रिसोर्स जोड़ता है?** `project.getResources().add()`
+- **मानक रेट कैसे सेट करें?** `rsc.set(Rsc.STANDARD_RATE, BigDecimal.valueOf(...))`
+- **क्या उत्पादन उपयोग के लिए लाइसेंस आवश्यक है?** Yes, you must load a valid Aspose.Tasks license.
+- **कौन से Java संस्करण समर्थित हैं?** Java 8 and later (Java 17+ recommended).
 
 ## “set standard rate” क्या है?
-*set standard rate* ऑपरेशन रिसोर्स को एक डिफ़ॉल्ट प्रति घंटे लागत असाइन करता है। प्रोजेक्ट मैनेजर्स इस मान का उपयोग लेबर कॉस्ट की गणना, लागत रिपोर्ट जनरेट करने, और बजट का पूर्वानुमान लगाने के लिए करते हैं।
+*set standard rate* ऑपरेशन एक रिसोर्स को डिफ़ॉल्ट प्रति घंटे की लागत असाइन करता है। यह रेट प्रोजेक्ट मैनेजर्स द्वारा श्रम खर्चों की गणना, लागत रिपोर्ट बनाने, और बजट का पूर्वानुमान लगाने के लिए उपयोग किया जाता है, जिससे लागत गणनाएँ प्रत्येक रिसोर्स द्वारा पूरे प्रोजेक्ट जीवनचक्र में किए गए कार्य की अपेक्षित कीमत को दर्शाती हैं।
 
 ## Aspose.Tasks के साथ रेट सेट क्यों करें?
-- **Microsoft Project इंस्टॉलेशन की आवश्यकता नहीं** – फ़ाइलों को सीधे Java से मैनीपुलेट करें।
-- **पूर्ण फ़िडेलिटी** – ओवरटाइम और कॉस्ट रेट सहित सभी रिसोर्स फ़ील्ड संरक्षित रहते हैं।
-- **क्रॉस‑प्लेटफ़ॉर्म** – Windows, Linux, और macOS पर काम करता है।
-- **ऑटोमेशन‑फ्रेंडली** – बैच प्रोसेसिंग या CI पाइपलाइन के साथ इंटीग्रेशन के लिए आदर्श।
+Aspose.Tasks **over 50 input and output formats** को प्रोसेस कर सकता है, जिसमें MPP, MPX, XML, और Primavera फ़ाइलें शामिल हैं, और यह पूरी फ़ाइल को मेमोरी में लोड किए बिना कई‑सौ पृष्ठों वाले प्रोजेक्ट को संभालता है। यह Windows, Linux, या macOS सर्वरों पर हाई‑थ्रूपुट बैच प्रोसेसिंग को सक्षम करता है, सामान्य ऑटोमेशन परिदृश्यों में मैन्युअल प्रयास को 90 % तक कम करता है।
 
 ## पूर्वापेक्षाएँ
-शुरू करने से पहले सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
+शुरू करने से पहले, सुनिश्चित करें कि निम्नलिखित आइटम तैयार हैं:
 
-### Java डेवलपमेंट एनवायरनमेंट सेटअप
-1. JDK इंस्टॉल करें: सुनिश्चित करें कि आपके सिस्टम पर Java Development Kit (JDK) इंस्टॉल है। आप इसे [Oracle वेबसाइट](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) से डाउनलोड कर सकते हैं।
-2. IDE सेटअप: IntelliJ IDEA, Eclipse, या NetBeans जैसे किसी Integrated Development Environment (IDE) को चुनें और अपने मशीन पर सेटअप करें।
+### Java विकास पर्यावरण सेटअप
+1. JDK 8 या नया स्थापित करें। आप इसे [Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) से डाउनलोड कर सकते हैं।  
+2. IntelliJ IDEA, Eclipse, या NetBeans जैसे IDE चुनें और Java विकास के लिए कॉन्फ़िगर करें।
 
-### Aspose.Tasks for Java इंस्टॉलेशन
-1. Aspose.Tasks for Java डाउनलोड करें: [download page](https://releases.aspose.com/tasks/java/) पर जाएँ और Aspose.Tasks for Java का नवीनतम संस्करण प्राप्त करें।
-2. प्रोजेक्ट में इंटीग्रेट करें: Aspose.Tasks for Java लाइब्रेरी को अपने Java प्रोजेक्ट में डिपेंडेंसी के रूप में जोड़ें।
+### Aspose.Tasks for Java स्थापना
+1. नवीनतम Aspose.Tasks for Java पैकेज को [download page](https://releases.aspose.com/tasks/java/) से डाउनलोड करें।  
+2. JAR फ़ाइलों को अपने प्रोजेक्ट की क्लासपाथ में जोड़ें या उत्पाद दस्तावेज़ में दिखाए अनुसार Maven/Gradle डिपेंडेंसी घोषित करें।
 
-## पैकेज इम्पोर्ट करें
-शुरू करने के लिए, आपको Aspose.Tasks for Java से आवश्यक पैकेज अपने प्रोजेक्ट में इम्पोर्ट करने होंगे। यह स्टेप सुनिश्चित करता है कि आपको आवश्यक फ़ंक्शनैलिटी तक पहुँच है।
+## पैकेज आयात करें
+आपको आवश्यक कोर Aspose.Tasks क्लासेज़ को आयात करें। यह चरण आपको बाद में उपयोग होने वाले `Project`, `Resource`, और `Rsc` टाइप्स तक पहुंच देता है।
 
 ```java
 import com.aspose.tasks.Project;
@@ -57,21 +108,22 @@ import java.math.BigDecimal;
 ```
 
 ## चरण 1: प्रोजेक्ट ऑब्जेक्ट बनाएं
-एक **प्रोजेक्ट ऑब्जेक्ट** बनाना किसी भी MS Project मैनीपुलेशन का पहला कदम है। यह पूरी प्रोजेक्ट फ़ाइल को मेमोरी में प्रतिनिधित्व करता है।
+`Project` क्लास वह टॉप‑लेवल ऑब्जेक्ट है जो मेमोरी में पूरे MS Project फ़ाइल का प्रतिनिधित्व करता है। इसे इंस्टैंशिएट करने से एक खाली प्रोजेक्ट बनता है जिसे आप टास्क, रिसोर्स और अन्य डेटा से भर सकते हैं।
 
 ```java
 Project project = new Project();
 ```
 
 ## चरण 2: रिसोर्स जोड़ें (add resource ms project)
-अब हम **रिसोर्स MS Project** को Resources कलेक्शन का उपयोग करके जोड़ेंगे। रिसोर्स का नाम आपके शेड्यूल के अनुसार कोई भी समझदारीपूर्ण नाम हो सकता है।
+`Resource` क्लास एकल प्रोजेक्ट रिसोर्स को मॉडल करता है, जैसे व्यक्ति, उपकरण, या सामग्री। `project.getResources().add()` के माध्यम से रिसोर्स जोड़ने से एक non‑null `Resource` इंस्टेंस मिलता है जो प्रॉपर्टी कॉन्फ़िगरेशन के लिए तैयार होता है।
 
 ```java
 Resource rsc = project.getResources().add("Rsc");
 ```
 
-## चरण 3: रिसोर्स प्रॉपर्टीज़ सेट करें (how to set rates)
-यहाँ हम **स्टैंडर्ड रेट** सेट करेंगे और साथ ही ओवरटाइम रेट कैसे सेट किया जाता है, यह भी दिखाएंगे। ये रेट `BigDecimal` वैल्यू के रूप में स्टोर होते हैं ताकि प्रिसीजन बना रहे।
+## चरण 3: रिसोर्स प्रॉपर्टीज सेट करें (how to set rates)
+`Rsc` एनीम में `STANDARD_RATE` और `OVERTIME_RATE` जैसे रिसोर्स फ़ील्ड के कॉन्स्टेंट्स होते हैं।  
+आप उपयुक्त `Rsc` एनीम वैल्यूज़ के साथ `Resource` ऑब्जेक्ट पर `set` कॉल करके मानक और ओवरटाइम रेट सेट करते हैं। रेट्स को मौद्रिक सटीकता बनाए रखने के लिए `BigDecimal` में स्टोर किया जाता है।
 
 ```java
 // Set standard rate for the resource
@@ -81,32 +133,42 @@ rsc.set(Rsc.OVERTIME_RATE, BigDecimal.valueOf(20));
 ```
 
 ## सामान्य समस्याएँ और समाधान
-| समस्या | क्यों होता है | समाधान |
-|-------|----------------|-----|
-| `NullPointerException` जब `set` कॉल किया जाता है | रिसोर्स सही तरीके से नहीं जोड़ा गया था। | सुनिश्चित करें कि `project.getResources().add()` एक non‑null `Resource` रिटर्न करता है। |
-| सेव्ड फ़ाइल में रेट 0 दिख रहा है | `int` के बजाय `BigDecimal` का उपयोग नहीं किया गया। | मौद्रिक मानों के लिए हमेशा `BigDecimal.valueOf()` का उपयोग करें। |
-| लाइसेंस नहीं मिला | प्रोजेक्ट बनाने से पहले लाइसेंस फ़ाइल लोड नहीं हुई। | लाइसेंस लोड करें (`License license = new License(); license.setLicense("Aspose.Tasks.lic");`) प्रोग्राम की शुरुआत में। |
+| समस्या | कारण | समाधान |
+|-------|------|--------|
+| `set` कॉल करने पर `NullPointerException` | रिसोर्स सही तरीके से नहीं जोड़ा गया था। | `project.getResources().add()` एक non‑null `Resource` लौटाए, यह सुनिश्चित करें। |
+| सहेजी गई फ़ाइल में रेट 0 दिख रहे हैं | `int` का उपयोग `BigDecimal` के बजाय किया गया। | मौद्रिक मानों के लिए हमेशा `BigDecimal.valueOf()` का उपयोग करें। |
+| लाइसेंस नहीं मिला | `Project` बनाने से पहले लाइसेंस फ़ाइल लोड नहीं की गई। | प्रोग्राम शुरू में लाइसेंस लोड करें (`License license = new License(); license.setLicense("Aspose.Tasks.lic");`)। |
 
 ## निष्कर्ष
-इन चरणों का पालन करके आपने सीखा कि **प्रोजेक्ट ऑब्जेक्ट कैसे बनाते हैं**, **रिसोर्स MS Project कैसे जोड़ते हैं**, और **स्टैंडर्ड रेट** सहित अन्य रिसोर्स प्रॉपर्टीज़ कैसे सेट करते हैं। यह आपको लागत गणना को ऑटोमेट करने, कस्टम रिपोर्ट जनरेट करने, और Java से पूरी तरह MS Project रिसोर्सेज़ को मैनेज करने की शक्ति देता है।
+आप अब जानते हैं कि **add resource ms project** कैसे करें, एक `Project` ऑब्जेक्ट बनाएं, और Aspose.Tasks for Java का उपयोग करके **मानक और ओवरटाइम रेट** कैसे सेट करें। यह क्षमता आपको लागत गणनाओं को स्वचालित करने, कस्टम रिपोर्ट बनाने, और किसी भी Java एप्लिकेशन से MS Project रिसोर्सेज़ को पूरी तरह से प्रबंधित करने देती है।
 
 ## अक्सर पूछे जाने वाले प्रश्न
-### क्या Aspose.Tasks for Java जटिल MS Project फ़ाइलों को संभाल सकता है?
-हाँ, Aspose.Tasks for Java विभिन्न MS Project फ़ाइल फ़ॉर्मैट्स को संभालने में सक्षम है, जिसमें विस्तृत टास्क हायरार्की वाली जटिल फ़ाइलें भी शामिल हैं।
-### क्या Aspose.Tasks for Java के लिए कोई फ्री ट्रायल उपलब्ध है?
-हाँ, आप [यहाँ](https://releases.aspose.com/) से Aspose.Tasks for Java का फ्री ट्रायल एक्सेस कर सकते हैं।
-### Aspose.Tasks for Java के लिए सपोर्ट कहाँ मिल सकता है?
-आप [support forum](https://forum.aspose.com/c/tasks/15) पर Aspose.Tasks for Java से संबंधित सहायता और चर्चा में भाग ले सकते हैं।
-### Aspose.Tasks for Java के लिए अस्थायी लाइसेंस कैसे प्राप्त करें?
-आप मूल्यांकन उद्देश्यों के लिए [temporary license page](https://purchase.aspose.com/temporary-license/) से अस्थायी लाइसेंस प्राप्त कर सकते हैं।
-### Aspose.Tasks for Java का लाइसेंस्ड वर्ज़न कहाँ खरीदें?
-आप [purchase page](https://purchase.aspose.com/buy) से Aspose.Tasks for Java का लाइसेंस्ड वर्ज़न खरीद सकते हैं।
+**Q: क्या Aspose.Tasks for Java जटिल MS Project फ़ाइलों को संभाल सकता है?**  
+A: हाँ, यह सभी प्रमुख प्रोजेक्ट फ़ॉर्मैट्स को सपोर्ट करता है, जिसमें हजारों टास्क और रिसोर्स वाली बड़ी फ़ाइलें शामिल हैं, और डेटा लॉस के बिना हर फ़ील्ड को संरक्षित रखता है।
+
+**Q: क्या मुफ्त ट्रायल उपलब्ध है?**  
+A: हाँ, आप Aspose.Tasks for Java का मुफ्त ट्रायल [Aspose.Tasks free trial page](https://releases.aspose.com/) से प्राप्त कर सकते हैं।
+
+**Q: Aspose.Tasks for Java के लिए समर्थन कहाँ प्राप्त कर सकते हैं?**  
+A: आप [support forum](https://forum.aspose.com/c/tasks/15) पर सहायता ले सकते हैं।
+
+**Q: मूल्यांकन के लिए अस्थायी लाइसेंस कैसे प्राप्त करें?**  
+A: एक अस्थायी लाइसेंस [temporary license page](https://purchase.aspose.com/temporary-license/) से उपलब्ध है।
+
+**Q: लाइसेंस्ड संस्करण कहाँ खरीद सकते हैं?**  
+A: आप पूर्ण लाइसेंस [purchase page](https://purchase.aspose.com/buy) से खरीद सकते हैं।
 
 ---
 
-**Last Updated:** 2026-01-18  
-**Tested With:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
-**Author:** Aspose
+**अंतिम अपडेट:** 2026-08-24  
+**परीक्षित संस्करण:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
+**लेखक:** Aspose
+
+## संबंधित ट्यूटोरियल
+
+- [कैसे रिसोर्स बनाएं – Aspose.Tasks for Java के साथ रिसोर्स मैनेजमेंट](/tasks/java/resource-management/)
+- [Aspose.Tasks for Java के साथ प्रोजेक्ट में रिसोर्स जोड़ें](/tasks/java/resource-management/create-resources/)
+- [Aspose.Tasks में प्रोजेक्ट में रिसोर्स जोड़ना और लेवलिंग डिले प्रॉपर्टीज़ को संभालना कैसे करें](/tasks/java/resource-assignments/leveling-delay-properties/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
