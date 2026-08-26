@@ -1,6 +1,6 @@
 ---
-title: How to Set Calculation Mode in Aspose.Tasks for .NET
-linktitle: How to Set Calculation Mode in Aspose.Tasks for .NET
+title: Set Calculation Mode Using Aspose.Tasks for .NET API
+linktitle: Set Calculation Mode Using Aspose.Tasks for .NET API
 second_title: Aspose.Tasks .NET API
 description: Learn how to set calculation mode in Aspose.Tasks for .NET, covering automatic, manual calculation mode, and none mode to manage task dependencies.
 weight: 29
@@ -33,7 +33,7 @@ Setting the calculation mode is as simple as assigning an enum value to the `Pro
 Before you begin, make sure you have:
 
 1. **Visual Studio** – any recent version (2019, 2022, or later).  
-2. **Aspose.Tasks for .NET** – download and install the library from [here](https://releases.aspose.com/tasks/net/).  
+2. **Aspose.Tasks for .NET** – download and install the library from [Aspose.Tasks for .NET download page](https://releases.aspose.com/tasks/net/).  
 3. **Basic C# knowledge** – you should be comfortable with creating console applications and using NuGet packages.
 
 ## Import Namespaces
@@ -49,7 +49,7 @@ using System;
 
 Below you’ll find step‑by‑step examples for each calculation mode. The code blocks are unchanged from the original tutorial; the surrounding explanations have been expanded for clarity.
 
-### Applying Automatic Calculation Mode
+### Applying automatic calculation mode
 
 Automatic mode recalculates dates instantly whenever you modify tasks or links.
 
@@ -83,7 +83,7 @@ Console.WriteLine("Task1 Start + 1 Equals Task2 Start : {0} ", task1.Get(Tsk.Sta
 // Add more verifications as needed
 ```
 
-### Applying Manual Calculation Mode
+### Applying manual calculation mode
 
 Manual mode disables automatic updates, giving you the chance to batch‑process changes before forcing a recalculation.
 
@@ -117,7 +117,7 @@ Console.WriteLine("Task1.Id Equals 1 : {0} ", task1.Get(Tsk.Id).Equals(1));
 project.TaskLinks.Add(task1, task2, TaskLinkType.FinishToStart);
 ```
 
-### Applying None Calculation Mode
+### Applying none calculation mode
 
 None mode turns off all internal calculations. Use it when you only need to read or export data without any schedule changes.
 
@@ -143,7 +143,7 @@ Console.WriteLine("Task.Id Equals 0 : {0} ", task.Get(Tsk.Id).Equals(0));
 // Add more verifications as needed
 ```
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Why it Happens | Fix |
 |-------|----------------|-----|
@@ -151,7 +151,7 @@ Console.WriteLine("Task.Id Equals 0 : {0} ", task.Get(Tsk.Id).Equals(0));
 | Task IDs stay at 0 | Using **None** mode prevents ID generation | Switch to **Automatic** or **Manual** mode, then recalculate |
 | Linking fails with `ArgumentException` | The start date of the predecessor is later than the successor when using **Manual** mode without recalculation | Ensure correct start dates or recalculate after adding links |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q1: Can I change the calculation mode dynamically during runtime?**  
 A1: Yes, you can modify the `CalculationMode` property at any point in your code and then call `project.Calculate()` if you need an immediate update.

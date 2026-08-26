@@ -1,5 +1,5 @@
 ---
-title: Out of Memory Handling with Aspose.Tasks Layout Builder (C#)
+title: Managing Out of Memory Errors with Aspose.Tasks Layout Builder (C#)
 linktitle: Out of Memory Handling with Aspose.Tasks Layout Builder
 second_title: Aspose.Tasks .NET API
 description: Learn out of memory handling and how to save project image using Aspose.Tasks Layout Builder in .NET. Step‑by‑step guide with code examples.
@@ -30,7 +30,7 @@ Out of memory handling is a critical part of building reliable .NET applications
 Before diving into the code, make sure you have:
 
 1. **C# basics** – you should be comfortable with standard C# syntax.
-2. **Aspose.Tasks for .NET** installed. If you haven’t added it yet, download it from [here](https://releases.aspose.com/tasks/net/).
+2. **Aspose.Tasks for .NET** installed. If you haven’t added it yet, download it from [Aspose.Tasks .NET release page](https://releases.aspose.com/tasks/net/).
 3. **An IDE** such as Visual Studio (or VS Code with the C# extension) for compiling and running the sample.
 
 ## Import Namespaces
@@ -45,7 +45,7 @@ using Aspose.Tasks.Visualization;
 
 ## Step‑by‑Step Guide
 
-### Step 1: Load the Project
+### Step 1: load the project
 
 ```csharp
 // The path to the documents directory.
@@ -55,7 +55,7 @@ var project = new Project(DataDir + "Blank2010.mpp");
 
 This line loads **Blank2010.mpp** into a `Project` instance, preparing it for visualization.
 
-### Step 2: Customize Gantt Chart View
+### Step 2: customize gantt chart view
 
 ```csharp
 var ganttChart = (GanttChartView)project.Views.ToList()[0];
@@ -66,7 +66,7 @@ ganttChart.BottomTimescaleTier.Count = 1;
 
 Here we **customize Gantt view** by adjusting the middle and bottom timescale tiers. Changing these tiers reduces the amount of data rendered at once, which can help mitigate memory pressure.
 
-### Step 3: Configure Image Save Options
+### Step 3: configure image save options
 
 ```csharp
 var options = new ImageSaveOptions(SaveFileFormat.Png);
@@ -83,7 +83,7 @@ project.Save(DataDir + "SaveToStreamWithOptionsAndCatchException_out.mpp", optio
 
 The `Save` call **saves the project image** using the options defined above. If the project is very large, this is the point where an out‑of‑memory condition is most likely to surface.
 
-### Step 5: Handle Exceptions
+### Step 5: handle exceptions
 
 ```csharp
 catch (ApsLayoutBuilderOutOfMemoryException ex)
@@ -98,7 +98,7 @@ catch (BitmapInvalidSizeException ex)
 
 By catching `ApsLayoutBuilderOutOfMemoryException` you **handle memory exception** gracefully, providing a clear message instead of crashing the application. The second catch deals with bitmap size issues that can also arise when rendering huge charts.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Why it Happens | Fix |
 |-------|----------------|-----|
@@ -114,7 +114,7 @@ A1: Aspose.Tasks for .NET is a powerful API that allows developers to manipulate
 
 ### Q2: How can I obtain a temporary license for Aspose.Tasks?
 
-A2: You can obtain a temporary license for Aspose.Tasks by visiting [this link](https://purchase.aspose.com/temporary-license/).
+A2: You can obtain a temporary license for Aspose.Tasks by visiting [temporary license request page](https://purchase.aspose.com/temporary-license/).
 
 ### Q3: Is Aspose.Tasks suitable for handling large project files?
 
@@ -128,7 +128,7 @@ A4: Absolutely! Aspose.Tasks provides extensive capabilities to customize the ap
 
 A5: You can find more help and support, as well as engage with the community, on the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: How can I reduce memory usage when saving a project image?**  
 A: Lower the image resolution, limit the timescale range, or save the chart in multiple smaller segments.

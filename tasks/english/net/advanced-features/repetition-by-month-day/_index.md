@@ -1,5 +1,5 @@
 ---
-title: Manage Recurring Tasks: Repetition by Month Day in Aspose.Tasks
+title: 'Create Monthly Recurring Tasks by Day in .NET'
 linktitle: Repetition by Month Day in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to manage recurring tasks and create recurring task schedules in .NET projects with Aspose.Tasks. Step-by-step guide for handling repetition by month day.
@@ -30,7 +30,7 @@ If you need to **manage recurring tasks** in a .NET project, Aspose.Tasks gives 
 Before you start, make sure you have:
 
 1. **Basic C# knowledge** – you should be comfortable with classes and objects.  
-2. **Aspose.Tasks for .NET installed** – download it from [here](https://releases.aspose.com/tasks/net/).  
+2. **Aspose.Tasks for .NET installed** – download it from the **Aspose.Tasks .NET release page**.  
 3. **Visual Studio (or another IDE)** – to compile and run the sample code.
 
 ## Import Namespaces
@@ -46,7 +46,7 @@ using Aspose.Tasks.Saving;
 
 ## How to Create Recurring Task with Monthly Repetition
 
-### Step 1: Load the Project File
+### Step 1: load the project file
 
 ```csharp
 // The path to th documents directory.
@@ -56,7 +56,7 @@ var project = new Project(DataDir + "Project1.mpp");
 
 This line creates a `Project` instance and loads an existing MPP file named **Project1.mpp**.
 
-### Step 2: Define Recurrence Pattern
+### Step 2: define recurrence pattern
 
 ```csharp
 var parameters = new RecurringTaskParameters
@@ -90,7 +90,7 @@ project.RootTask.Children.Add(parameters);
 
 This line **adds the recurrence** to the root of the project hierarchy.
 
-### Step 4: How to Save MPP File
+### Step 4: how to save MPP file
 
 ```csharp
 project.Save(DataDir + "CanAddRecurringTask_Months_EndByRecurrenceRange_Test_out.mpp", SaveFileFormat.Mpp);
@@ -98,13 +98,13 @@ project.Save(DataDir + "CanAddRecurringTask_Months_EndByRecurrenceRange_Test_out
 
 After the task is added, we **save the project** using the `Save` method. The file is stored as an MPP file that can be opened in Microsoft Project.
 
-## Why Use Aspose.Tasks for Recurring Tasks?
+## Why use Aspose.Tasks for recurring tasks?
 
 * **Full control** – you decide the interval, day position, and date range programmatically.  
 * **No UI limitations** – unlike the Project UI, the API lets you automate complex schedules.  
 * **Cross‑platform** – works with .NET Framework, .NET Core, and .NET 5/6.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Solution |
 |-------|----------|
@@ -112,7 +112,7 @@ After the task is added, we **save the project** using the `Save` method. The fi
 | **Task not appearing in Gantt** | Ensure the project is saved after adding the recurrence and that you open the saved file. |
 | **License exception** | Load a valid Aspose.Tasks license before creating the `Project` instance. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Is Aspose.Tasks compatible with all versions of .NET?**  
 A: Aspose.Tasks supports .NET Framework 4.5+, .NET Core 3.1+, .NET 5, and .NET 6.
@@ -124,17 +124,17 @@ A: Yes, you can use other recurrence classes like `WeeklyRecurrencePattern` or a
 A: Absolutely, it includes task tracking, resource allocation, and Gantt chart generation.
 
 **Q: Is there a trial version available for Aspose.Tasks?**  
-A: Yes, you can avail of a free trial from [here](https://releases.aspose.com/) to explore Aspose.Tasks' capabilities before making a purchase decision.
+A: Yes, you can avail of a free trial from the **Aspose free trial page** to explore Aspose.Tasks' capabilities before making a purchase decision.
 
 **Q: Where can I seek assistance if I encounter issues or have queries?**  
 A: You can visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) to seek support from the community or the Aspose team.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 
 ---
 
@@ -143,3 +143,10 @@ A: You can visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) t
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

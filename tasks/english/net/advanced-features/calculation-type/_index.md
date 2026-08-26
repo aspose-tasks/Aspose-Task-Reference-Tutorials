@@ -1,5 +1,5 @@
 ---
-title: How to Set Calculation Type in Aspose.Tasks
+title: How to Set Calculation Type Using Aspose.Tasks .NET API
 linktitle: Calculation Type in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to set calculation in Aspose.Tasks for .NET, with examples to calculate summary values, define calculation formula, and configure rollup summary.
@@ -39,8 +39,8 @@ Before we begin, make sure you have:
 
 1. Basic knowledge of C# and the .NET framework.  
 2. Visual Studio (any recent version) installed on your machine.  
-3. Aspose.Tasks for .NET library installed – you can download it from [here](https://releases.aspose.com/tasks/net/).  
-4. Access to the official Aspose.Tasks for .NET documentation for reference, available [here](https://reference.aspose.com/tasks/net/).
+3. Aspose.Tasks for .NET library installed – you can download it from the **download page**.  
+4. Access to the official Aspose.Tasks for .NET documentation for reference, available in the **Aspose.Tasks .NET API reference**.
 
 ## Import Namespaces
 
@@ -81,7 +81,7 @@ calculation.Formula = "[stARt]";
 project.ExtendedAttributes.Add(calculation);
 ```
 
-## Step 4: Define Calculation Type for Summary Rows (Configure Rollup Summary)
+## Step 4: define calculation type for summary rows (Configure rollup summary)
 
 Next, we create another extended attribute definition that tells Aspose.Tasks to **configure rollup summary** using the *Average* roll‑up type. This is the typical way to **calculate summary values** for cost, work, or custom fields.
 
@@ -92,7 +92,7 @@ lookup.RollupType = RollupType.Average;
 project.ExtendedAttributes.Add(lookup);
 ```
 
-## Common Issues & Troubleshooting
+## Common issues & troubleshooting
 
 | Symptom | Likely Cause | Fix |
 |---------|--------------|-----|
