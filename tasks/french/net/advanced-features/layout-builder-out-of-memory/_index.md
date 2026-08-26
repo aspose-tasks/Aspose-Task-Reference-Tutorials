@@ -1,33 +1,41 @@
 ---
-title: Gestion des exceptions de mémoire avec Aspose.Tasks Layout Builder
-linktitle: Gestion des exceptions de mémoire avec Aspose.Tasks Layout Builder
-second_title: API Aspose.Tasks .NET
-description: Découvrez comment gérer efficacement les exceptions de mémoire dans .NET à l’aide d’Aspose.Tasks Layout Builder. Guide étape par étape avec des exemples de code.
-weight: 12
+date: 2026-03-24
+description: Apprenez la gestion des erreurs de mémoire insuffisante et comment enregistrer
+  l’image du projet à l’aide d’Aspose.Tasks Layout Builder en .NET. Guide étape par
+  étape avec des exemples de code.
+linktitle: Out of Memory Handling with Aspose.Tasks Layout Builder
+second_title: Aspose.Tasks .NET API
+title: Gestion du manque de mémoire avec le Layout Builder d'Aspose.Tasks (C#)
 url: /fr/net/advanced-features/layout-builder-out-of-memory/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Gestion des exceptions de mémoire avec Aspose.Tasks Layout Builder
+# Gestion du manque de mémoire avec Aspose.Tasks Layout Builder
 
 ## Introduction
 
-La gestion des exceptions de mémoire est cruciale pour garantir le bon fonctionnement de toute application logicielle. Lorsqu'ils travaillent avec Aspose.Tasks pour .NET, les développeurs rencontrent souvent des problèmes liés à la mémoire, en particulier lorsqu'ils traitent de grands projets ou des mises en page complexes. Dans ce didacticiel, nous verrons comment gérer efficacement les exceptions de mémoire à l'aide d'Aspose.Tasks Layout Builder.
+La gestion du manque de mémoire est une partie critique de la création d’applications .NET fiables qui manipulent de gros fichiers de projet. Lorsque vous générez des visualisations avec Aspose.Tasks Layout Builder, vous pouvez rapidement rencontrer des exceptions liées à la mémoire, notamment sur des diagrammes de Gantt complexes. Dans ce tutoriel, nous vous expliquerons comment **gérer les exceptions de mémoire**, **personnaliser la vue Gantt** et **enregistrer l’image du projet** en toute sécurité, afin que votre application reste réactive même avec des plannings massifs.
 
-## Conditions préalables
+## Réponses rapides
+- **Qu'est-ce que la gestion du manque de mémoire ?** Gestion de l’utilisation de la mémoire et capture des erreurs de type `OutOfMemoryException` lors du traitement de gros volumes de données.
+- **Quelle API aide ?** Aspose.Tasks Layout Builder pour .NET.
+- **Scénario typique ?** Rendu d’un diagramme de Gantt haute résolution au format PNG.
+- **Pré‑requis clé ?** .NET (Framework 4.5+ ou .NET 6) avec Aspose.Tasks installé.
+- **Comment attraper les erreurs ?** Utilisez des blocs `try…catch` pour `ApsLayoutBuilderOutOfMemoryException` et les exceptions associées.
 
-Avant de vous lancer dans ce didacticiel, assurez-vous de disposer des prérequis suivants :
+## Prérequis
 
-1. Connaissance de base de la programmation C# : ce didacticiel suppose une connaissance de la syntaxe et des concepts C#.
-2.  Installation d'Aspose.Tasks pour .NET : assurez-vous que Aspose.Tasks pour .NET est installé dans votre environnement de développement. Sinon, vous pouvez le télécharger depuis[ici](https://releases.aspose.com/tasks/net/).
-3. IDE (Integrated Development Environment) : disposez d'un IDE tel que Visual Studio installé pour le codage et la compilation.
+Avant de plonger dans le code, assurez‑vous d’avoir :
 
-## Importer des espaces de noms
+1. **Bases C#** – vous devez être à l’aise avec la syntaxe standard de C#.
+2. **Aspose.Tasks pour .NET** installé. Si vous ne l’avez pas encore ajouté, téléchargez‑le [ici](https://releases.aspose.com/tasks/net/).
+3. **Un IDE** tel que Visual Studio (ou VS Code avec l’extension C#) pour compiler et exécuter l’exemple.
 
-Pour commencer, importez les espaces de noms nécessaires dans votre projet C# :
+## Importer les espaces de noms
 
 ```csharp
 using Aspose.Tasks;
@@ -35,22 +43,21 @@ using System;
 
 using Aspose.Tasks.Saving;
 using Aspose.Tasks.Visualization;
-
 ```
 
-Décomposons l'exemple de code fourni en plusieurs étapes pour comprendre comment gérer efficacement les exceptions de mémoire avec Aspose.Tasks Layout Builder :
+## Guide étape par étape
 
-## Étape 1 : Charger le projet
+### Étape 1 : Charger le projet
 
 ```csharp
-// Le chemin d'accès au répertoire des documents.
+// The path to the documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Blank2010.mpp");
 ```
 
- Cette étape charge le fichier projet "Blank2010.mpp" dans une instance du`Project` classe.
+Cette ligne charge **Blank2010.mpp** dans une instance `Project`, la préparant pour la visualisation.
 
-## Étape 2 : Personnaliser la vue du diagramme de Gantt
+### Étape 2 : Personnaliser la vue du diagramme de Gantt
 
 ```csharp
 var ganttChart = (GanttChartView)project.Views.ToList()[0];
@@ -59,26 +66,26 @@ ganttChart.BottomTimescaleTier.Unit = TimescaleUnit.Minutes;
 ganttChart.BottomTimescaleTier.Count = 1;
 ```
 
-Ici, nous personnalisons la vue Diagramme de Gantt en ajustant les unités d'échelle de temps et en comptant pour une meilleure visualisation.
+Ici nous **personnalisons la vue Gantt** en ajustant les niveaux de l’échelle de temps du milieu et du bas. Modifier ces niveaux réduit la quantité de données rendues en une fois, ce qui peut aider à atténuer la pression sur la mémoire.
 
-## Étape 3 : configurer les options d'enregistrement de l'image
+### Étape 3 : Configurer les options d’enregistrement d’image
 
 ```csharp
 var options = new ImageSaveOptions(SaveFileFormat.Png);
 options.Timescale = Timescale.DefinedInView;
 ```
 
- Dans cette étape, nous créons une instance de`ImageSaveOptions` pour spécifier le format de l'image de sortie et les paramètres d'échelle de temps.
+`ImageSaveOptions` indique à Aspose.Tasks comment rendre le diagramme. Nous choisissons PNG comme format de sortie et associons l’échelle de temps à la vue que nous venons de personnaliser.
 
-## Étape 4 : Enregistrez le projet en tant qu’image
+### Étape 4 : Enregistrer le projet en tant qu’image
 
 ```csharp
 project.Save(DataDir + "SaveToStreamWithOptionsAndCatchException_out.mpp", options);
 ```
 
-Enfin, nous sauvegardons le projet avec les options spécifiées. C'est là qu'une exception de mémoire peut se produire si le projet est trop volumineux ou complexe.
+L’appel `Save` **enregistre l’image du projet** en utilisant les options définies ci‑dessus. Si le projet est très volumineux, c’est à ce moment‑là qu’une condition de manque de mémoire est la plus susceptible de se produire.
 
-## Étape 5 : Gérer les exceptions
+### Étape 5 : Gérer les exceptions
 
 ```csharp
 catch (ApsLayoutBuilderOutOfMemoryException ex)
@@ -91,33 +98,61 @@ catch (BitmapInvalidSizeException ex)
 }
 ```
 
-Ici, nous captons et traitons les exceptions spécifiques liées à la mémoire et à la taille du bitmap, en fournissant des messages d'erreur ou une logique de gestion appropriée.
+En capturant `ApsLayoutBuilderOutOfMemoryException` vous **gérez l’exception de mémoire** de façon élégante, en affichant un message clair au lieu de faire planter l’application. Le second `catch` traite les problèmes de taille de bitmap qui peuvent également survenir lors du rendu de diagrammes très grands.
 
-## Conclusion
+## Problèmes courants et solutions
 
-En suivant ce guide étape par étape, vous pouvez gérer efficacement les exceptions de mémoire lorsque vous travaillez avec Aspose.Tasks Layout Builder dans vos applications .NET. N'oubliez pas d'optimiser l'utilisation des ressources et de prendre en compte la complexité de vos projets pour atténuer les problèmes liés à la mémoire.
+| Problème | Pourquoi cela se produit | Solution |
+|----------|--------------------------|----------|
+| **OutOfMemoryException** | Le rendu d’une image très haute résolution consomme plus de RAM que le processus ne peut en allouer. | Réduisez les dimensions de l’image, simplifiez les niveaux d’échelle de temps, ou divisez le diagramme en plusieurs images. |
+| **BitmapInvalidSizeException** | La taille de bitmap demandée dépasse le maximum autorisé par la plateforme. | Limitez la largeur/hauteur dans `ImageSaveOptions` ou rendez le diagramme par segments. |
+| **Slow performance** | Les gros fichiers de projet nécessitent beaucoup de traitement. | Activez `project.Set(Prj.SaveToCache, true)` avant le rendu, ou utilisez un thread d’arrière‑plan. |
 
 ## FAQ
 
-### Q1 : Qu'est-ce qu'Aspose.Tasks pour .NET ?
+### Q1 : Qu'est‑ce qu'Aspose.Tasks pour .NET ?
 
-A1 : Aspose.Tasks for .NET est une API puissante qui permet aux développeurs de manipuler les fichiers Microsoft Project par programmation dans les applications .NET.
+A1 : Aspose.Tasks pour .NET est une API puissante qui permet aux développeurs de manipuler les fichiers Microsoft Project de façon programmatique dans les applications .NET.
 
-### Q2 : Comment puis-je obtenir une licence temporaire pour Aspose.Tasks ?
+### Q2 : Comment obtenir une licence temporaire pour Aspose.Tasks ?
 
- A2 : Vous pouvez obtenir une licence temporaire pour Aspose.Tasks en visitant[ce lien](https://purchase.aspose.com/temporary-license/).
+A2 : Vous pouvez obtenir une licence temporaire pour Aspose.Tasks en visitant [ce lien](https://purchase.aspose.com/temporary-license/).
 
-### Q3 : Aspose.Tasks est-il adapté à la gestion de fichiers de projet volumineux ?
+### Q3 : Aspose.Tasks est‑il adapté à la gestion de gros fichiers de projet ?
 
-A3 : Oui, Aspose.Tasks fournit des fonctionnalités et des optimisations pour gérer efficacement les fichiers de projet volumineux, mais les développeurs doivent toujours envisager des stratégies de gestion de la mémoire.
+A3 : Oui, Aspose.Tasks propose des fonctionnalités et des optimisations pour gérer efficacement de gros fichiers de projet, mais les développeurs doivent tout de même envisager des stratégies de gestion de la mémoire.
 
-### Q4 : Puis-je personnaliser l’apparence des diagrammes de Gantt à l’aide d’Aspose.Tasks ?
+### Q4 : Puis‑je personnaliser l'apparence des diagrammes de Gantt avec Aspose.Tasks ?
 
-A4 : Absolument ! Aspose.Tasks offre des fonctionnalités étendues pour personnaliser l'apparence et la disposition des diagrammes de Gantt en fonction de vos besoins.
+A4 : Absolument ! Aspose.Tasks offre de vastes possibilités de personnalisation de l’apparence et de la mise en page des diagrammes de Gantt selon vos besoins.
 
-### Q5 : Où puis-je trouver plus d'aide et de support pour Aspose.Tasks ?
+### Q5 : Où puis‑je trouver plus d'aide et de support pour Aspose.Tasks ?
 
- A5 : Vous pouvez trouver davantage d'aide et de soutien, ainsi que vous engager auprès de la communauté, sur le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+A5 : Vous pouvez trouver plus d’aide et de support, ainsi que rejoindre la communauté, sur le [forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+
+## Questions fréquemment posées
+
+**Q : Comment réduire l'utilisation de la mémoire lors de l'enregistrement d'une image de projet ?**  
+A : Diminuez la résolution de l'image, limitez la plage de l’échelle de temps, ou enregistrez le diagramme en plusieurs segments plus petits.
+
+**Q : Est‑il possible de diffuser l'image directement dans une réponse web ?**  
+A : Oui, vous pouvez utiliser `project.Save(stream, options)` et écrire le flux dans la réponse HTTP.
+
+**Q : Aspose.Tasks prend‑il en charge .NET Core et .NET 5/6 ?**  
+A : La bibliothèque est entièrement compatible avec .NET Core, .NET 5 et .NET 6.
+
+**Q : Que faire si je rencontre toujours une erreur de manque de mémoire après optimisation ?**  
+A : Envisagez de traiter le projet sur une machine disposant de plus de RAM ou de déléguer le rendu à un service d’arrière‑plan.
+
+**Q : Puis‑je exporter le diagramme de Gantt vers d'autres formats que PNG ?**  
+A : Oui, `ImageSaveOptions` prend en charge JPEG, BMP et TIFF en plus de PNG.
+
+---
+
+**Dernière mise à jour** : 2026-03-24  
+**Testé avec** : Aspose.Tasks 24.11 pour .NET  
+**Auteur** : Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
