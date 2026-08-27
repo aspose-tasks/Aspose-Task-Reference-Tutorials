@@ -1,7 +1,7 @@
 ---
-date: 2025-12-20
-description: เรียนรู้วิธีใช้ Aspose.Tasks เพื่อดึงรายละเอียดปฏิทินโครงการจากไฟล์ Microsoft
-  Project ด้วย Java คู่มือแบบขั้นตอนพร้อมตัวอย่างโค้ด
+date: 2026-03-27
+description: เรียนรู้วิธีใช้ Aspose และ Aspose.Tasks เพื่อดึงรายละเอียดปฏิทินโครงการจากไฟล์
+  Microsoft Project ด้วย Java คู่มือขั้นตอนโดยละเอียดพร้อมตัวอย่างโค้ด
 linktitle: Retrieve Calendar Info in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: วิธีใช้ Aspose.Tasks เพื่อดึงข้อมูลปฏิทินของ MS Project
@@ -16,30 +16,34 @@ weight: 14
 # วิธีใช้ Aspose.Tasks เพื่อดึงข้อมูลปฏิทินของ MS Project
 
 ## บทนำ
-ในบทเรียนนี้, **คุณจะได้ค้นพบวิธีใช้ Aspose.Tasks** เพื่อดึงข้อมูลปฏิทินจากไฟล์ Microsoft Project อย่างโปรแกรมเมติก การเข้าถึงข้อมูลปฏิทินเช่น วันทำงาน, ชั่วโมงทำงาน, และข้อยกเว้นเป็นสิ่งสำคัญเมื่อคุณต้อง **ดึงรายละเอียดปฏิทินของโครงการ** สำหรับการรายงาน, การรวมระบบ, หรือตรรกะการจัดตารางแบบกำหนดเอง มาดำเนินการตามขั้นตอนทีละขั้นตอนกันเถอะ
+ในบทแนะนำนี้, **คุณจะได้ค้นพบวิธีใช้ Aspose.Tasks** เพื่อดึงข้อมูลปฏิทินจากไฟล์ Microsoft Project อย่างอัตโนมัติ การเข้าถึงข้อมูลปฏิทินเช่นวันทำงาน, ชั่วโมงทำงาน, และข้อยกเว้นเป็นสิ่งสำคัญเมื่อคุณต้องการ **ดึงข้อมูลปฏิทินของโครงการ** สำหรับการรายงาน, การบูรณาการ, หรือตรรกะการกำหนดเวลาที่กำหนดเอง เราจะเดินผ่านกระบวนการทีละขั้นตอน และคุณจะเห็นอย่างชัดเจน **วิธีใช้ Aspose** เพื่อดึงข้อมูลนี้ออกจากไฟล์ *.mpp*.
 
 ## คำตอบสั้น
-- **ไลบรารีที่ใช้ในบทเรียนนี้คืออะไร?** Aspose.Tasks for Java.  
-- **คีย์เวิร์ดหลักที่ครอบคลุมคือ?** *how to use aspose.tasks*.  
-- **คุณสามารถดึงอะไรได้บ้าง?** ปฏิทินของโครงการ รวมถึงวันทำงานและชั่วโมงทำงาน.  
-- **ต้องการไลเซนส์หรือไม่?** มีรุ่นทดลองฟรี; จำเป็นต้องมีไลเซนส์สำหรับการใช้งานจริง.  
-- **เวอร์ชัน Java ที่รองรับคือ?** Java 8 หรือสูงกว่า.
+- **ไลบรารีที่บทแนะนำนี้ใช้คืออะไร?** Aspose.Tasks for Java.  
+- **คีย์เวิร์ดหลักที่ครอบคลุมคืออะไร?** *how to use aspose*.  
+- **คุณสามารถดึงอะไรได้บ้าง?** ปฏิทินของโครงการ, รวมถึงวันทำงานและชั่วโมงทำงาน.  
+- **ฉันต้องการไลเซนส์หรือไม่?** มีรุ่นทดลองฟรี; จำเป็นต้องมีไลเซนส์สำหรับการใช้งานจริง.  
+- **เวอร์ชัน Java ที่รองรับคืออะไร?** Java 8 หรือสูงกว่า.
+
+## Aspose.Tasks คืออะไรและทำไมต้องใช้?
+Aspose.Tasks เป็น API ของ Java ที่ทรงพลังซึ่งช่วยให้นักพัฒนาสามารถอ่าน, เขียน, และจัดการไฟล์ Microsoft Project ได้โดยไม่ต้องใช้ Microsoft Project เอง ด้วยการใช้ Aspose.Tasks คุณสามารถ **how to extract calendar** ข้อมูล, ทำการคำนวณตารางเวลาอัตโนมัติ, และบูรณาการข้อมูลโครงการกับระบบองค์กรอื่น ๆ — ทั้งหมดจากโค้ด Java แท้
 
 ## ทำไมต้องดึงข้อมูลปฏิทินของโครงการ?
-ปฏิทินของโครงการกำหนดวันที่ของงาน, การจัดสรรทรัพยากร, และการคำนวณระยะเวลาโดยรวม โดยการดึงข้อมูลนี้คุณสามารถ:
-- สร้างรายงานแบบกำหนดเองที่สะท้อนตารางการทำงานจริง.  
-- ซิงโครไนซ์ไทม์ไลน์ของ Microsoft Project กับระบบภายนอก (ERP, BI, ฯลฯ).  
-- ทำการวิเคราะห์แบบ what‑if โดยการปรับตั้งค่าปฏิทินผ่านโปรแกรม.
+ปฏิทินของโครงการกำหนดวันที่ของงาน, การจัดสรรทรัพยากร, และการคำนวณไทม์ไลน์โดยรวม โดยการดึงข้อมูลนี้คุณสามารถ:
+- สร้างรายงานกำหนดเองที่สะท้อนตารางการทำงานจริง  
+- ซิงโครไนซ์ไทม์ไลน์ของ Microsoft Project กับระบบภายนอก (ERP, BI, ฯลฯ)  
+- ทำการวิเคราะห์แบบ what‑if โดยการปรับตั้งค่าปฏิทินผ่านโปรแกรม  
+- **ดึงข้อมูลปฏิทินของ MS Project** เพื่อการย้ายไปยังเครื่องมือวางแผนอื่น
 
 ## ข้อกำหนดเบื้องต้น
-ก่อนเริ่ม, โปรดตรวจสอบว่าคุณมี:
+ก่อนที่เราจะเริ่ม, โปรดตรวจสอบว่าคุณมี:
 
-- ความรู้พื้นฐานด้านการเขียนโปรแกรม Java.  
-- Java Development Kit (JDK) ที่ติดตั้งบนระบบของคุณ.  
-- ไลบรารี Aspose.Tasks for Java. คุณสามารถดาวน์โหลดได้จาก [here](https://releases.aspose.com/tasks/java/).
+- ความรู้พื้นฐานด้านการเขียนโปรแกรม Java  
+- Java Development Kit (JDK) ติดตั้งบนระบบของคุณ  
+- ไลบรารี Aspose.Tasks for Java คุณสามารถดาวน์โหลดได้จาก [here](https://releases.aspose.com/tasks/java/).
 
-## นำเข้าชุดแพ็กเกจ
-ก่อนอื่น, นำเข้าคลาส Aspose.Tasks ที่จำเป็นเข้าสู่โครงการ Java ของคุณ
+## นำเข้าแพ็กเกจ
+First, import the necessary Aspose.Tasks classes into your Java project.
 
 ```java
 import com.aspose.tasks.Calendar;
@@ -50,16 +54,17 @@ import com.aspose.tasks.WeekDayCollection;
 ```
 
 ## ขั้นตอนที่ 1: ตั้งค่าไดเรกทอรีข้อมูล
-กำหนดโฟลเดอร์ที่มีไฟล์ *.mpp* ของคุณ
+Define the folder that contains your *.mpp* file.
 
 ```java
 String dataDir = "Your Data Directory";
 ```
 
-แทนที่ `"Your Data Directory"` ด้วยพาธเต็มของโฟลเดอร์ที่มี **project.mpp** อยู่
+Replace `"Your Data Directory"` with the absolute path to the folder where **project.mpp** resides.  
+เปลี่ยน `"Your Data Directory"` เป็นเส้นทางเต็มของโฟลเดอร์ที่มี **project.mpp** อยู่
 
 ## ขั้นตอนที่ 2: กำหนดหน่วยเวลา
-สร้างค่าสถิตที่ช่วยแปลงการแสดงเวลาแบบภายในให้เป็นชั่วโมงที่มนุษย์อ่านได้
+Create constants that help convert the internal time representation to human‑readable hours.
 
 ```java
 long OneSec = 10000000;
@@ -67,28 +72,31 @@ long OneMin = 60 * OneSec;
 long OneHour = 60 * OneMin;
 ```
 
-ค่านี้ถูกแสดงเป็นไมโครวินาที ซึ่งเป็นวิธีที่ Aspose.Tasks เก็บเวลาภายใน
+These values are expressed in microseconds, which is how Aspose.Tasks stores time internally.  
+ค่าต่าง ๆ นี้ถูกแสดงเป็นไมโครวินาที ซึ่งเป็นหน่วยที่ Aspose.Tasks ใช้เก็บเวลาโดยภายใน
 
 ## ขั้นตอนที่ 3: สร้างอินสแตนซ์ Project
-โหลดไฟล์ Microsoft Project เข้าไปในอ็อบเจกต์ `Project`
+Load the Microsoft Project file into a `Project` object.
 
 ```java
 Project project = new Project(dataDir + "project.mpp");
 ```
 
-คอนสตรัคเตอร์ `Project` จะทำการพาร์สไฟล์ *.mpp* และทำให้ข้อมูลโครงการทั้งหมด, รวมถึงปฏิทิน, สามารถเข้าถึงได้ผ่าน API
+The `Project` constructor parses the *.mpp* file and makes all project data, including calendars, accessible through the API.  
+คอนสตรัคเตอร์ `Project` จะทำการอ่านไฟล์ *.mpp* และทำให้ข้อมูลทั้งหมดของโครงการ, รวมถึงปฏิทิน, สามารถเข้าถึงได้ผ่าน API
 
 ## ขั้นตอนที่ 4: ดึงข้อมูลปฏิทิน
-รับคอลเลกชันของปฏิทินที่กำหนดไว้ในโครงการ
+Obtain the collection of calendars defined in the project.
 
 ```java
 CalendarCollection alCals = project.getCalendars();
 ```
 
-โครงการอาจมีหลายปฏิทิน (มาตรฐาน, ทรัพยากร, และปฏิทินกำหนดเอง) คอลเลกชันนี้ให้คุณเข้าถึงแต่ละปฏิทินได้
+A project can contain multiple calendars (standard, resource, and custom calendars). This collection gives you access to each one.  
+โครงการอาจมีหลายปฏิทิน (มาตรฐาน, ทรัพยากร, และปฏิทินที่กำหนดเอง) คอลเลกชันนี้ทำให้คุณเข้าถึงแต่ละปฏิทินได้
 
 ## ขั้นตอนที่ 5: วนลูปผ่านปฏิทิน
-วนลูปผ่านทุกปฏิทิน, แสดง UID, ชื่อ, และวันทำงานพร้อมชั่วโมงที่สอดคล้องกัน
+Loop through every calendar, display its UID, name, and the working days with corresponding hours.
 
 ```java
 for (Calendar cal : alCals) {
@@ -112,40 +120,44 @@ for (Calendar cal : alCals) {
 }
 ```
 
-ลูปภายในจะตรวจสอบแต่ละอ็อบเจกต์ `WeekDay` หากวันนั้นถูกกำหนดให้เป็นวันทำงาน จะพิมพ์ประเภทวัน (Monday, Tuesday, …) พร้อมกับชั่วโมงทำงานที่คำนวณได้
+The inner loop checks each `WeekDay` object. If the day is marked as working, it prints the day type (Monday, Tuesday, …) together with the calculated working hours.  
+ลูปภายในจะตรวจสอบแต่ละอ็อบเจ็กต์ `WeekDay` หากวันนั้นถูกกำหนดให้เป็นวันทำงาน จะพิมพ์ประเภทวัน (Monday, Tuesday, …) พร้อมกับจำนวนชั่วโมงทำงานที่คำนวณได้
 
 ## ขั้นตอนที่ 6: แสดงข้อความเสร็จสิ้น
-สัญญาณว่ากระบวนการดึงข้อมูลได้เสร็จสิ้น
+Signal that the extraction process has finished.
 
 ```java
 System.out.println("Process completed Successfully");
 ```
 
-## สรุป
-โดยทำตามขั้นตอนเหล่านี้, **คุณตอนนี้รู้วิธีใช้ Aspose.Tasks เพื่อดึงข้อมูลปฏิทินของโครงการ** จากไฟล์ MS Project ด้วย Java แล้ว คุณสามารถนำตรรกะนี้ไปผสานในแอปพลิเคชันที่ใหญ่ขึ้น, ทำอัตโนมัติการรายงาน, หรือซิงโครไนซ์ตารางกับระบบองค์กรอื่น ๆ
+## ปัญหาทั่วไปและวิธีแก้
+| ปัญหา | สาเหตุ | วิธีแก้ |
+|-------|--------|---------|
+| **No calendars returned** | The project file may not contain any custom calendars. | Verify that the *.mpp* actually defines calendars or open it in Microsoft Project to confirm. |
+| **Incorrect working hours** | Time conversion constants are off for a different Project version. | Adjust `OneSec`, `OneMin`, `OneHour` if you work with a newer Aspose.Tasks version that changes the internal time unit. |
+| **`NullPointerException` on `cal.getName()`** | Some calendar objects could be null. | Add a null‑check before accessing properties (already demonstrated). |
 
 ## คำถามที่พบบ่อย
 
-**ถาม: ฉันสามารถใช้ Aspose.Tasks กับภาษาโปรแกรมอื่นได้หรือไม่?**  
-ตอบ: ใช่, Aspose.Tasks รองรับหลายแพลตฟอร์มและหลายภาษาโปรแกรม, รวมถึง .NET, C++, Python, และ Java.
+**Q: Can I use Aspose.Tasks with other programming languages?**  
+A: Yes, Aspose.Tasks supports multiple platforms and programming languages, including .NET, C++, Python, and Java.  
+**Q: Is there a free trial available for Aspose.Tasks?**  
+A: Yes, you can download a free trial version from [here](https://releases.aspose.com/).  
+**Q: How can I get support for Aspose.Tasks?**  
+A: You can get support from the Aspose.Tasks community forum [here](https://forum.aspose.com/c/tasks/15).  
+**Q: Can I purchase a temporary license for Aspose.Tasks?**  
+A: Yes, temporary licenses are available for purchase [here](https://purchase.aspose.com/temporary-license/).  
+**Q: Where can I find detailed documentation for Aspose.Tasks?**  
+A: You can refer to the documentation [here](https://reference.aspose.com/tasks/java/).
 
-**ถาม: มีรุ่นทดลองฟรีสำหรับ Aspose.Tasks หรือไม่?**  
-ตอบ: มี, คุณสามารถดาวน์โหลดรุ่นทดลองฟรีได้จาก [here](https://releases.aspose.com/).
-
-**ถาม: ฉันจะรับการสนับสนุนสำหรับ Aspose.Tasks ได้อย่างไร?**  
-ตอบ: คุณสามารถรับการสนับสนุนจากฟอรั่มชุมชน Aspose.Tasks [here](https://forum.aspose.com/c/tasks/15).
-
-**ถาม: ฉันสามารถซื้อไลเซนส์ชั่วคราวสำหรับ Aspose.Tasks ได้หรือไม่?**  
-ตอบ: ได้, ไลเซนส์ชั่วคราวพร้อมจำหน่ายที่ [here](https://purchase.aspose.com/temporary-license/).
-
-**ถาม: ฉันจะหาเอกสารรายละเอียดสำหรับ Aspose.Tasks ได้จากที่ไหน?**  
-ตอบ: คุณสามารถอ้างอิงเอกสารได้ที่ [here](https://reference.aspose.com/tasks/java/).
+## สรุป
+By following these steps, **you now know how to use Aspose.Tasks to extract project calendar** information from an MS Project file using Java. You can integrate this logic into larger applications, automate reporting, or synchronize schedules with other enterprise systems. Remember, mastering **how to use aspose** opens the door to many advanced project‑management automation scenarios.
 
 ---
 
-**อัปเดตล่าสุด:** 2025-12-20  
-**ทดสอบด้วย:** Aspose.Tasks for Java 24.12 (ล่าสุด ณ เวลาที่เขียน)  
-**ผู้เขียน:** Aspose  
+**Last Updated:** 2026-03-27  
+**Tested With:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

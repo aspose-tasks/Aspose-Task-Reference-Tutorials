@@ -5,7 +5,7 @@ second_title: Aspose.Tasks Java API
 description: Learn how to retrieve ms project outline codes programmatically using Aspose.Tasks for Java. Enhance your project management capabilities.
 weight: 15
 url: /java/project-file-operations/retrieve-outline-codes/
-date: 2025-12-20
+date: 2026-03-27
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -32,6 +32,12 @@ Outline codes are custom fields that let project managers group and filter tasks
 - **Integration:** Sync outline codes with ERP, PPM, or BI tools.  
 - **Customization:** Apply business rules based on code values (e.g., cost allocation).  
 - **Cross‑platform:** Works on Windows, Linux, and macOS, independent of Microsoft Project UI.
+
+## How to read MPP files for outline codes?
+Reading an MPP (Microsoft Project) file is the first step toward extracting outline codes. Aspose.Tasks abstracts the file format, so you don’t need to parse the binary structure yourself. The `Project` class handles the heavy lifting, letting you focus on the data you actually need.
+
+## Custom fields in MS Project
+Outline codes are a type of **custom fields** in MS Project. While standard fields cover dates, durations, and resources, custom fields let you store organization‑specific information. Accessing them through Aspose.Tasks gives you the same flexibility programmatically.
 
 ## Prerequisites
 Before we begin, ensure you have the following prerequisites set up:
@@ -133,8 +139,8 @@ In this tutorial, we have learned how to retrieve **ms project outline codes** u
 
 ---
 
-**Last Updated:** 2025-12-20  
-**Tested With:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
+**Last Updated:** 2026-03-27  
+**Tested With:** Aspose.Tasks for Java (latest)  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -1,10 +1,11 @@
 ---
-date: 2025-12-20
-description: Aspose.Tasks for Java'da PDF dışa aktarmayı öğrenin, MPP'yi PDF'ye dönüştürmek
-  ve proje dosyalarınızı verimli bir şekilde kaydetmek için basit bir rehber.
+date: 2026-03-27
+description: Aspose.Tasks for Java kullanarak projeyi PDF olarak kaydetmeyi öğrenin;
+  MPP'yi PDF'ye dönüştürmek ve proje dosyalarını verimli bir şekilde dışa aktarmak
+  için basit bir rehber.
 linktitle: Save As PDF in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: Aspose.Tasks'te PDF Nasıl Dışa Aktarılır – PDF Olarak Kaydet
+title: Aspose.Tasks ile Projeyi PDF Olarak Kaydetme – Dışa Aktarma Rehberi
 url: /tr/java/project-file-operations/save-as-pdf/
 weight: 17
 ---
@@ -13,35 +14,35 @@ weight: 17
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks’te PDF Dışa Aktarma – PDF Olarak Kaydet
+# Aspise.Tasks ile Projeyi PDF Olarak Kaydetme – Dışa Aktarma Kılavuzu
 
 ## Giriş
-Bu öğreticide, Java için Aspose.Tasks’te **PDF nasıl dışa aktarılır** göstereceğiz ve bir projeyi PDF olarak kaydetme sürecinde size rehberlik edeceğiz. Aspose.Tasks ile **MPP'yi PDF'ye dönüştürmek** verimli bir şekilde mümkün olur, uyumluluğu ve ekipler ile paydaşlar arasında paylaşımı kolaylaştırır. Adımlara dalalım, böylece herhangi bir proje dosyasından hızlıca yazdırılabilir bir PDF elde edebilirsiniz.
+Bu öğreticide, Aspose.Tasks for Java kullanarak **projeyi pdf olarak nasıl kaydedeceğinizi** keşfedeceksiniz. Tek satırlık bir dönüşümden gelişmiş PDF özelleştirmesine kadar her şeyi adım adım göstereceğiz, böylece herhangi bir MPP (veya diğer desteklenen format) dosyasını şık, paylaşılabilir bir PDF belgesine dönüştürebileceksiniz. Hızlı bir yazdırılabilir rapor ya da tamamen biçimlendirilmiş bir Gantt şeması ihtiyacınız olsun, bu adımlar sizi hızlıca hedefe ulaştıracak.
 
 ## Hızlı Yanıtlar
-- **Aspose.Tasks’te “export PDF” ne anlama gelir?** Bir proje dosyasını (ör. MPP) görsel düzeni koruyan bir PDF belgesine dönüştürmek anlamına gelir.  
-- **Hangi kütüphane sürümü gereklidir?** `PdfSaveOptions`'ı destekleyen herhangi bir Aspose.Tasks for Java sürümü (en son sürüm önerilir).  
-- **Bu dönüşüm için lisansa ihtiyacım var mı?** Geliştirme için ücretsiz deneme çalışır; üretim kullanımı için ticari lisans gereklidir.  
-- **PDF görünümünü özelleştirebilir miyim?** Evet – zaman ölçeği, lejandlar ve diğer `PdfSaveOptions` ayarlarını yapabilirsiniz.  
-- **Büyük projeler için dönüşüm hızlı mı?** Genellikle saniyeler içinde; performans proje boyutu ve seçilen seçeneklere bağlıdır.
+- **Aspose.Tasks'te “PDF dışa aktar” ne anlama geliyor?** Bir proje dosyasını (ör. MPP) görsel düzeni koruyan bir PDF belgesine dönüştürmek anlamına gelir.  
+- **Hangi kütüphane sürümü gerekiyor?** `PdfSaveOptions`'ı destekleyen herhangi bir Aspose.Tasks for Java sürümü (en son sürüm önerilir).  
+- **Bu dönüşüm için lisansa ihtiyacım var mı?** Geliştirme için ücretsiz deneme sürümü yeterlidir; üretim kullanımı için ticari lisans gereklidir.  
+- **PDF görünümünü özelleştirebilir miyim?** Evet – zaman ölçeğini, lejandları ve diğer `PdfSaveOptions` ayarlarını belirleyebilirsiniz.  
+- **Büyük projeler için dönüşüm hızlı mı?** Genellikle saniyeler içinde; performans proje boyutu ve seçilen seçeneklere bağlıdır.  
 
-## Aspose.Tasks bağlamında “how to export pdf” nedir?
-Aspose.Tasks ile PDF dışa aktarmak, bir proje dosyasını (ör. `.mpp`, `.xml` veya `.xlsx`) alıp, Gantt şeması, görev kullanım görünümü veya yapılandırdığınız diğer sunum formatlarını yansıtan bir PDF oluşturmak anlamına gelir. Bu, raporlama, dokümantasyon veya teknik olmayan paydaşlarla yalnızca‑okunur görünümleri paylaşmak için faydalıdır.
+## Aspose.Tasks bağlamında “projeyi pdf olarak kaydetmek” ne anlama geliyor?
+Aspose.Tasks ile bir projeyi PDF olarak kaydetmek, bir proje dosyasını (ör. `.mpp`, `.xml` veya `.xlsx`) alıp, Gantt şeması, görev kullanım görünümü veya yapılandırdığınız diğer sunum formatını yansıtan bir PDF oluşturmak anlamına gelir. Bu, raporlama, dokümantasyon veya teknik olmayan paydaşlarla yalnızca okunabilir görünümler paylaşmak için faydalıdır.
 
-## Neden Proje Dosyalarını PDF Olarak Dışa Aktaralım?
-- **Evrensel okunabilirlik:** PDF, orijinal proje yazılımına ihtiyaç duymadan herhangi bir cihazda çalışır.  
-- **Profesyonel sunum:** Müşteri odaklı raporlar için biçimlendirme, renkler ve düzen korunur.  
-- **Kolay dağıtım:** E-posta, intranet veya bulut depolama üzerinden paylaşım, sürüm kontrolü endişesi olmadan yapılır.  
-- **Uyumluluk ve arşivleme:** PDF'ler uzun vadeli depolama ve yasal uyumluluk için idealdir.
+## Neden Gantt Şemasını PDF Olarak Dışa Aktarıyorsunuz?
+- **Evrensel okunabilirlik:** PDF'ler, orijinal proje yazılımına ihtiyaç duymadan herhangi bir cihazda açılabilir.  
+- **Profesyonel sunum:** Renkleri, yazı tiplerini ve düzeni, müşteri odaklı raporlar için korur.  
+- **Kolay dağıtım:** E-posta, intranet veya bulut depolama üzerinden, sürüm kontrolü endişesi olmadan paylaşabilirsiniz.  
+- **Uyumluluk ve arşivleme:** PDF'ler uzun vadeli depolama ve düzenleyici uyumluluk için idealdir.  
 
-## Önkoşullar
+## Ön Koşullar
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-1. **Java Development Kit (JDK):** Makinenizde JDK 8 veya daha yeni bir sürüm kurulu.  
-2. **Aspose.Tasks for Java Kütüphanesi:** Resmi siteden kütüphaneyi indirin [here](https://releases.aspose.com/tasks/java/).  
-3. **Bir Proje Dosyası:** Dönüşüm için hazır bir proje dosyanız (ör. `HomeMovePlan.mpp`) olsun.
+1. **Java Development Kit (JDK):** Makinenizde JDK 8 veya daha yeni bir sürüm yüklü olmalı.  
+2. **Aspose.Tasks for Java Kütüphanesi:** Kütüphaneyi resmi siteden [buradan](https://releases.aspose.com/tasks/java/) indirin.  
+3. **Bir Proje Dosyası:** Dönüşüm için hazır bir proje dosyanız (ör. `HomeMovePlan.mpp`) olsun.  
 
-## Paketleri İçe Aktarma
+## Import Packages
 ```java
 import com.aspose.tasks.PdfSaveOptions;
 import com.aspose.tasks.PresentationFormat;
@@ -51,26 +52,22 @@ import com.aspose.tasks.SaveOptions;
 import com.aspose.tasks.Timescale;
 ```
 
-## Adım‑Adım Kılavuz
+## Step‑by‑Step Guide
 
-### Adım 1: Giriş Proje Dosyasını Oku
-`"Your Data Directory"` ifadesini `.mpp` dosyanızın bulunduğu mutlak yol ile değiştirin. Bu, projeyi belleğe yükler, böylece üzerinde işlem yapabilir veya dışa aktarabilirsiniz.
+### Step 1: Read the Input Project File
 ```java
 String dataDir = "Your Data Directory";
 Project project = new Project(dataDir + "HomeMovePlan.mpp");
 ```
+`"Your Data Directory"` ifadesini `.mpp` dosyanızın bulunduğu mutlak yol ile değiştirin. Bu, projeyi belleğe yükler, böylece üzerinde işlem yapabilir veya dışa aktarabilirsiniz.
 
-### Adım 2: Projeyi PDF Olarak Kaydet
-Yukarıdaki satır, **projeyi PDF olarak kaydet** işlemini basitçe gerçekleştirir ve aynı klasörde `Project5.pdf` dosyasını oluşturur.
+### Step 2: Save the Project as PDF (Basic Conversion)
 ```java
 project.save(dataDir + "Project5.pdf", SaveFileFormat.Pdf);
 ```
+Yukarıdaki satır, basit bir **projeyi pdf olarak kaydet** işlemini gerçekleştirir ve aynı klasörde `Project5.pdf` dosyasını oluşturur.
 
-### Adım 3: İçeriği Hücre Boyutuna Sığdır (Gelişmiş PDF Kaydetme Seçenekleri)
-Burada, düzeni kontrol etmek için **pdf save options** kullanımını gösteriyoruz:
-- `setFitContent(true)` içeriğin hücre genişliğine sığmasını zorlar.  
-- `setTimescale(Timescale.Months)` zaman ölçeğini aylara değiştirir.  
-- `setPresentationFormat(PresentationFormat.TaskUsage)` Task Usage (Görev Kullanımı) görünümünü seçer.  
+### Step 3: Fit Contents to Cell Size (Advanced PDF Save Options)
 ```java
 Project project1 = new Project(dataDir + "project6.mpp");
 SaveOptions o = new PdfSaveOptions();
@@ -78,48 +75,55 @@ o.setFitContent(true);
 o.setTimescale(Timescale.Months);
 o.setPresentationFormat(PresentationFormat.TaskUsage);
 ```
+Burada, düzeni kontrol etmek için **pdf save options** kullanımını gösteriyoruz:
+- `setFitContent(true)` içeriğin hücre genişliğine sığmasını zorlar.  
+- `setTimescale(Timescale.Months)` zaman ölçeğini aylara değiştirir.  
+- `setPresentationFormat(PresentationFormat.TaskUsage)` Görev Kullanımı görünümünü seçer.
 
-### Adım 4: Lejantları Gizle (Daha Temiz Çıktı)
-Lejantları devre dışı bırakmak, özellikle büyük projeler için PDF'yi daha kompakt hale getirebilir.
+### Step 4: Hide Legends (Cleaner Output)
 ```java
 o.setLegendOnEachPage(false);
 ```
+Lejantları devre dışı bırakmak, özellikle büyük projelerde PDF'yi daha kompakt hale getirebilir.
 
-### Adım 5: Uygulanan Seçeneklerle Projeyi Kaydet
-Bu son adım, yukarıda tanımlanan özel seçenekleri kullanarak PDF'yi yazar, sayfa başına lejantlar olmadan temiz, ay‑ölçekli bir belge üretir.
+### Step 5: Save the Project with Applied Options
 ```java
 project1.save(dataDir + "result_months_WithoutLegend.pdf", o);
 ```
+Bu son adım, yukarıda tanımlanan özel seçenekleri kullanarak PDF'yi yazar ve sayfa başına lejant olmadan temiz, ay ölçekli bir belge üretir.
+
+## Gantt Şemasını PDF Olarak Dışa Aktar – Özel Stil
+Sadece Gantt şemasını belirli bir görünüyle dışa aktarmak istiyorsanız, `PresentationFormat`'u `GanttChart` olarak ayarlayın ve `setBarColor` veya `setShowCriticalTasks` gibi ek seçenekleri düzenleyin. Bu yaklaşım, görsel öğeler üzerinde tam kontrol sağlayarak **gantt şemasını pdf olarak dışa aktarmanıza** olanak tanır.
 
 ## Yaygın Sorunlar ve İpuçları
-- **Dosya bulunamadı:** `dataDir`'in dosya ayırıcı (`/` veya `\\`) ile bittiğinden ve doğru dizini gösterdiğinden emin olun.  
-- **Boş sayfalar:** Seçilen `PresentationFormat`'un beklediğiniz görünüme (ör. Gantt, Task Usage) uygun olduğunu doğrulayın.  
+- **Dosya bulunamadı:** `dataDir`'in bir dosya ayırıcı (`/` veya `\\`) ile bittiğinden ve doğru dizini işaret ettiğinden emin olun.  
+- **Boş sayfalar:** Seçilen `PresentationFormat`'un beklediğiniz görünüme (ör. Gantt, Görev Kullanımı) uygun olduğunu doğrulayın.  
 - **Büyük dosyalar daha uzun sürer:** İşlem süresini azaltmak için çok büyük projelerde `o.setFitContent(false)` ayarlamayı düşünün.  
 
-## Sıkça Sorulan Sorular
+## Frequently Asked Questions
 
-**S: Aspose.Tasks tüm Java sürümleriyle uyumlu mu?**  
-C: Evet, Aspose.Tasks JDK 6 ve üzeri Java sürümlerini destekler.
+**Q: Aspose.Tasks tüm Java sürümleriyle uyumlu mu?**  
+A: Evet, Aspose.Tasks JDK 6 ve üzeri Java sürümlerini destekler.
 
-**S: PDF çıktısının görünümünü özelleştirebilir miyim?**  
-C: Kesinlikle! Aspose.Tasks, zaman ölçeği, lejant görünürlüğü ve sunum formatı gibi birçok **pdf save options** sunar; PDF'yi ihtiyaçlarınıza göre şekillendirebilirsiniz.
+**Q: PDF çıktısının görünümünü özelleştirebilir miyim?**  
+A: Kesinlikle! Aspose.Tasks, zaman ölçeği, lejant görünürlüğü ve sunum formatı gibi çok sayıda **pdf save options** sunarak PDF'yi ihtiyaçlarınıza göre şekillendirmenizi sağlar.
 
-**S: Aspose.Tasks başka dosya formatlarını dönüştürmeyi destekliyor mu?**  
-C: Evet, MPP, XML, XLSX ve birçok diğer format arasında dönüşüm yapabilirsiniz; bu da **convert mpp to pdf** ve diğer dönüşümler için çok yönlü bir araçtır.
+**Q: Aspose.Tasks başka dosya formatlarını da dönüştürmeyi destekliyor mu?**  
+A: Evet, MPP, XML, XLSX ve birçok diğer format arasında dönüşüm yapabilirsiniz; bu da **mpp'yi pdf'ye dönüştürmek** ve diğer dönüşümler için çok yönlü bir araç olmasını sağlar.
 
-**S: Aspose.Tasks için bir deneme sürümü mevcut mu?**  
-C: Evet, Aspose.Tasks'in ücretsiz denemesini [here](https://releases.aspose.com/) adresinden alabilirsiniz.
+**Q: Aspose.Tasks için bir deneme sürümü mevcut mu?**  
+A: Evet, Aspose.Tasks'in ücretsiz deneme sürümünü [buradan](https://releases.aspose.com/) alabilirsiniz.
 
-**S: Aspose.Tasks için destek nereden alınabilir?**  
-C: Destek ve yardım için resmi [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) adresini ziyaret edin.
+**Q: Aspose.Tasks için destek nereden alınabilir?**  
+A: Destek ve yardım için resmi [Aspose.Tasks forumunu](https://forum.aspose.com/c/tasks/15) ziyaret edin.
 
 ## Sonuç
-Bu kılavuzu izleyerek, Aspose.Tasks kullanarak herhangi bir Java projesinden **PDF nasıl dışa aktarılır** artık biliyorsunuz; basit tek satırlık kayıttan `PdfSaveOptions` ile gelişmiş özelleştirmeye kadar. Bu teknikleri raporlama, müşteri sunumları veya arşivleme amaçları için şık, paylaşılabilir PDF'ler üretmekte kullanın.
+Bu kılavuzu izleyerek, Aspose.Tasks kullanarak herhangi bir Java projesinden **projeyi pdf olarak nasıl kaydedeceğinizi** artık biliyorsunuz; basit tek satırlık kayıttan `PdfSaveOptions` ile gelişmiş özelleştirmeye kadar. Bu teknikleri, raporlama, müşteri sunumları veya arşivleme amaçları için şık ve paylaşılabilir PDF'ler üretmek üzere kullanın.
 
 ---
 
-**Son Güncelleme:** 2025-12-20  
-**Test Edilen Sürüm:** Aspose.Tasks for Java 24.12 (yazım anındaki en son sürüm)  
+**Son Güncelleme:** 2026-03-27  
+**Test Edilen:** Aspose.Tasks for Java 24.12 (yazım zamanı itibarıyla en son)  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

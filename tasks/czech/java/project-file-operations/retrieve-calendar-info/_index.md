@@ -1,8 +1,8 @@
 ---
-date: 2025-12-20
-description: Naučte se, jak pomocí Aspose.Tasks získat podrobnosti kalendáře projektu
-  z Microsoft Project souborů pomocí Javy. Podrobný návod krok za krokem s ukázkami
-  kódu.
+date: 2026-03-27
+description: Naučte se, jak používat Aspose a Aspose.Tasks k extrakci podrobností
+  kalendáře projektu z Microsoft Project souborů pomocí Javy. Krok‑za‑krokem průvodce
+  s ukázkami kódu.
 linktitle: Retrieve Calendar Info in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 title: Jak použít Aspose.Tasks k získání informací o kalendáři MS Project
@@ -17,30 +17,34 @@ weight: 14
 # Jak použít Aspose.Tasks k získání informací o kalendáři MS Project
 
 ## Úvod
-V tomto tutoriálu **objevíte, jak použít Aspose.Tasks** k programatickému získání informací o kalendáři ze souborů Microsoft Project. Přístup k datům kalendáře, jako jsou pracovní dny, hodiny a výjimky, je nezbytný, když potřebujete **extrahovat kalendář projektu** pro reportování, integraci nebo vlastní plánovací logiku. Projděme si proces krok za krokem.
+V tomto tutoriálu **objevíte, jak použít Aspose.Tasks** k programovému získání informací o kalendáři ze souborů Microsoft Project. Přístup k datům kalendáře, jako jsou pracovní dny, hodiny a výjimky, je nezbytný, když potřebujete **extrahovat kalendář projektu** pro reportování, integraci nebo vlastní logiku plánování. Projdeme proces krok za krokem a uvidíte přesně **jak použít Aspose** k získání těchto dat ze souboru *.mpp*.
 
 ## Rychlé odpovědi
 - **Jaká knihovna se v tomto tutoriálu používá?** Aspose.Tasks pro Java.  
-- **Jaké hlavní klíčové slovo je pokryto?** *how to use aspose.tasks*.  
+- **Které hlavní klíčové slovo je pokryto?** *how to use aspose*.  
 - **Co můžete extrahovat?** Kalendáře projektu, včetně pracovních dnů a hodin.  
-- **Potřebuji licenci?** K dispozici je bezplatná zkušební verze; licence je vyžadována pro produkční nasazení.  
+- **Potřebuji licenci?** K dispozici je bezplatná zkušební verze; licence je vyžadována pro produkci.  
 - **Jaká verze Javy je podporována?** Java 8 nebo vyšší.
 
+## Co je Aspose.Tasks a proč jej použít?
+Aspose.Tasks je výkonné Java API, které umožňuje vývojářům číst, zapisovat a manipulovat se soubory Microsoft Project bez nutnosti samotného Microsoft Project. Používáním Aspose.Tasks můžete **how to extract calendar** informace, automatizovat výpočty plánů a integrovat data projektu s jinými podnikovými systémy — vše z čistého Java kódu.
+
 ## Proč extrahovat informace o kalendáři projektu?
-Kalendáře projektu určují termíny úkolů, přidělení zdrojů a celkové výpočty časové osy. Extrahováním těchto dat můžete:
-- Vytvářet vlastní reporty, které odrážejí skutečné pracovní rozvrhy.  
-- Synchronizovat časové osy Microsoft Project s externími systémy (ERP, BI atd.).  
-- Provádět analýzu „co‑kdy“ úpravou nastavení kalendáře programově.
+Kalendáře projektu určují data úkolů, přidělení zdrojů a celkové výpočty časové osy. Extrahováním těchto dat můžete:
+- Vytvářet vlastní zprávy, které odrážejí skutečné pracovní plány.  
+- Synchronizovat časové osy Microsoft Project s externími systémy (ERP, BI, atd.).  
+- Provádět what‑if analýzu úpravou nastavení kalendáře programově.  
+- **Extrahovat data kalendáře MS Project** pro migraci do jiných plánovacích nástrojů.
 
 ## Předpoklady
 Než začneme, ujistěte se, že máte:
 
 - Základní znalosti programování v Javě.  
-- Nainstalovaný Java Development Kit (JDK) na vašem systému.  
+- Nainstalovaný Java Development Kit (JDK) ve vašem systému.  
 - Knihovnu Aspose.Tasks pro Java. Můžete si ji stáhnout [zde](https://releases.aspose.com/tasks/java/).
 
 ## Import balíčků
-Nejprve importujte potřebné třídy Aspose.Tasks do svého Java projektu.
+Nejprve importujte potřebné třídy Aspose.Tasks do vašeho Java projektu.
 
 ```java
 import com.aspose.tasks.Calendar;
@@ -86,7 +90,7 @@ Získejte kolekci kalendářů definovaných v projektu.
 CalendarCollection alCals = project.getCalendars();
 ```
 
-Projekt může obsahovat více kalendářů (standardní, zdrojové a vlastní). Tato kolekce vám umožní přístup k jednotlivým kalendářům.
+Projekt může obsahovat více kalendářů (standardní, zdrojové a vlastní kalendáře). Tato kolekce vám poskytuje přístup k jednotlivým kalendářům.
 
 ## Krok 5: Procházení kalendářů
 Projděte každý kalendář, zobrazte jeho UID, název a pracovní dny s odpovídajícími hodinami.
@@ -122,31 +126,38 @@ Signalizujte, že proces extrakce byl dokončen.
 System.out.println("Process completed Successfully");
 ```
 
-## Závěr
-Po absolvování těchto kroků **nyní víte, jak použít Aspose.Tasks k extrakci informací o kalendáři projektu** ze souboru MS Project pomocí Javy. Tento postup můžete začlenit do větších aplikací, automatizovat reportování nebo synchronizovat rozvrhy s jinými podnikovými systémy.
+## Časté problémy a řešení
+| Problém | Proč k tomu dochází | Řešení |
+|-------|----------------|-----|
+| **Žádné kalendáře nebyly vráceny** | Soubor projektu nemusí obsahovat žádné vlastní kalendáře. | Ověřte, že *.mpp* skutečně definuje kalendáře, nebo jej otevřete v Microsoft Project pro potvrzení. |
+| **Nesprávné pracovní hodiny** | Konstanty pro převod času jsou nesprávné pro jinou verzi Projectu. | Upravte `OneSec`, `OneMin`, `OneHour`, pokud pracujete s novější verzí Aspose.Tasks, která mění interní časovou jednotku. |
+| **`NullPointerException` při `cal.getName()`** | Některé objekty kalendáře mohou být null. | Přidejte kontrolu null před přístupem k vlastnostem (již ukázáno). |
 
 ## Často kladené otázky
 
 **Q: Mohu použít Aspose.Tasks s jinými programovacími jazyky?**  
-A: Ano, Aspose.Tasks podporuje více platforem a programovacích jazyků, včetně .NET, C++, Python a Java.
+A: Ano, Aspose.Tasks podporuje více platforem a programovacích jazyků, včetně .NET, C++, Pythonu a Javy.
 
 **Q: Je k dispozici bezplatná zkušební verze Aspose.Tasks?**  
-A: Ano, bezplatnou zkušební verzi si můžete stáhnout [zde](https://releases.aspose.com/).
+A: Ano, můžete si stáhnout bezplatnou zkušební verzi [zde](https://releases.aspose.com/).
 
 **Q: Jak mohu získat podporu pro Aspose.Tasks?**  
 A: Podporu můžete získat na fóru komunity Aspose.Tasks [zde](https://forum.aspose.com/c/tasks/15).
 
 **Q: Mohu zakoupit dočasnou licenci pro Aspose.Tasks?**  
-A: Ano, dočasné licence jsou k dispozici k zakoupení [zde](https://purchase.aspose.com/temporary-license/).
+A: Ano, dočasné licence jsou k zakoupení [zde](https://purchase.aspose.com/temporary-license/).
 
-**Q: Kde najdu podrobnou dokumentaci pro Aspose.Tasks?**  
+**Q: Kde mohu najít podrobnou dokumentaci pro Aspose.Tasks?**  
 A: Dokumentaci najdete [zde](https://reference.aspose.com/tasks/java/).
+
+## Závěr
+Podle těchto kroků **nyní víte, jak použít Aspose.Tasks k extrahování informací o kalendáři projektu** z souboru MS Project pomocí Javy. Můžete tuto logiku integrovat do větších aplikací, automatizovat reportování nebo synchronizovat plány s jinými podnikovými systémy. Pamatujte, že zvládnutí **how to use aspose** otevírá dveře k mnoha pokročilým scénářům automatizace řízení projektů.
 
 ---
 
-**Poslední aktualizace:** 2025-12-20  
-**Testováno s:** Aspose.Tasks pro Java 24.12 (nejnovější v době psaní)  
-**Autor:** Aspose  
+**Last Updated:** 2026-03-27  
+**Tested With:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

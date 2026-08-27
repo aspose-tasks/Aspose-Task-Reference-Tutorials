@@ -1,5 +1,5 @@
 ---
-date: 2025-12-20
+date: 2026-03-27
 description: Pelajari cara mengambil kode outline MS Project secara programatis menggunakan
   Aspose.Tasks untuk Java. Tingkatkan kemampuan manajemen proyek Anda.
 linktitle: Retrieve Outline Codes in Aspose.Tasks
@@ -16,34 +16,40 @@ weight: 15
 # Mengambil Kode Outline MS Project di Aspose.Tasks
 
 ## Pendahuluan
-Dalam tutorial ini, Anda akan menemukan **cara mengambil kode outline ms project** menggunakan Aspose.Tasks untuk Java. Kode outline dalam MS Project memberi Anda cara yang kuat untuk mengkategorikan tugas, sumber daya, dan penugasan, dan mengaksesnya secara programatik memungkinkan Anda membangun pelaporan khusus, otomatisasi, atau solusi integrasi. Kami akan membimbing Anda melalui contoh lengkap, langkah demi langkah yang dapat Anda salin ke proyek Anda sendiri.
+Dalam tutorial ini, Anda akan menemukan **cara mengambil kode outline ms project** menggunakan Aspose.Tasks untuk Java. Kode outline di MS Project memberikan cara yang kuat untuk mengkategorikan tugas, sumber daya, dan penugasan, dan mengaksesnya secara programatis memungkinkan Anda membangun pelaporan khusus, otomatisasi, atau solusi integrasi. Kami akan memandu Anda melalui contoh lengkap langkah‑demi‑langkah yang dapat Anda salin ke dalam proyek Anda sendiri.
 
 ## Jawaban Cepat
-- **Apa yang dilakukan kode ini?** Kode ini memuat file Project dan mencetak setiap definisi kode outline, maskenya, dan nilainya.  
+- **Apa yang dilakukan kode ini?** Memuat file Project dan mencetak setiap definisi kode outline, maskenya, serta nilainya.  
 - **Perpustakaan apa yang diperlukan?** Aspose.Tasks untuk Java (versi terbaru apa pun).  
 - **Apakah saya memerlukan lisensi?** Versi percobaan dapat digunakan untuk pengembangan; lisensi penuh diperlukan untuk produksi.  
 - **Versi Java apa yang didukung?** Java 8 atau lebih tinggi.  
 - **Bisakah saya memodifikasi kode setelah mengambilnya?** Ya – API yang sama memungkinkan Anda menambah, mengedit, atau menghapus kode outline.
 
 ## Apa itu kode outline ms project?
-Kode outline adalah bidang khusus yang memungkinkan manajer proyek mengelompokkan dan menyaring tugas di luar hierarki default. Mereka dapat berupa nilai numerik sederhana, string, atau bahkan kode khusus tingkat perusahaan yang didefinisikan pada level organisasi. Dengan membaca kode ini, Anda dapat menggerakkan dasbor, mengekspor data, atau menegakkan konvensi penamaan secara otomatis.
+Kode outline adalah bidang khusus yang memungkinkan manajer proyek mengelompokkan dan memfilter tugas di luar hierarki default. Mereka dapat berupa nilai numerik sederhana, string, atau bahkan kode khusus tingkat perusahaan yang didefinisikan pada level organisasi. Dengan membaca kode ini, Anda dapat menggerakkan dasbor, mengekspor data, atau menegakkan konvensi penamaan secara otomatis.
 
 ## Mengapa mengambil kode outline ms project dengan Aspose.Tasks?
 - **Otomatisasi:** Menghasilkan laporan atau memicu alur kerja tanpa ekspor manual.  
 - **Integrasi:** Menyinkronkan kode outline dengan ERP, PPM, atau alat BI.  
-- **Kustomisasi:** Menerapkan aturan bisnis berdasarkan nilai kode (mis., alokasi biaya).  
+- **Kustomisasi:** Menerapkan aturan bisnis berdasarkan nilai kode (misalnya, alokasi biaya).  
 - **Lintas‑platform:** Berfungsi di Windows, Linux, dan macOS, terlepas dari UI Microsoft Project.
+
+## Cara membaca file MPP untuk kode outline?
+Membaca file MPP (Microsoft Project) adalah langkah pertama untuk mengekstrak kode outline. Aspose.Tasks mengabstraksi format file, sehingga Anda tidak perlu mengurai struktur biner secara manual. Kelas `Project` menangani pekerjaan berat, memungkinkan Anda fokus pada data yang benar‑benar dibutuhkan.
+
+## Kolom khusus di MS Project
+Kode outline adalah salah satu jenis **kolom khusus** di MS Project. Sementara kolom standar mencakup tanggal, durasi, dan sumber daya, kolom khusus memungkinkan Anda menyimpan informasi spesifik organisasi. Mengaksesnya melalui Aspose.Tasks memberi Anda fleksibilitas yang sama secara programatis.
 
 ## Prasyarat
 Sebelum kita mulai, pastikan Anda telah menyiapkan prasyarat berikut:
 
 ### 1. Lingkungan Pengembangan Java
-Pastikan Anda memiliki Java Development Kit (JDK) terpasang di sistem Anda. Anda dapat mengunduh dan menginstal JDK dari situs web Oracle.
+Pastikan Anda telah menginstal Java Development Kit (JDK) di sistem Anda. Anda dapat mengunduh dan menginstal JDK dari situs web Oracle.
 
 ### 2. Perpustakaan Aspose.Tasks
-Unduh dan sertakan perpustakaan Aspose.Tasks dalam proyek Java Anda. Anda dapat mengunduh perpustakaan dari [Halaman Unduhan Aspose.Tasks untuk Java](https://releases.aspose.com/tasks/java/).
+Unduh dan sertakan perpustakaan Aspose.Tasks dalam proyek Java Anda. Anda dapat mengunduh perpustakaan tersebut dari [Halaman Unduhan Aspose.Tasks untuk Java](https://releases.aspose.com/tasks/java/).
 
-## Impor Paket
+## Mengimpor Paket
 Pertama, impor paket yang diperlukan dari Aspose.Tasks dalam kode Java Anda:
 ```java
 import com.aspose.tasks.OutlineCodeDefinition;
@@ -54,28 +60,28 @@ import com.aspose.tasks.Project;
 
 Sekarang mari kita uraikan contoh kode yang diberikan menjadi beberapa langkah:
 
-## Langkah 1: Muat Proyek
+## Langkah 1: Memuat Proyek
 ```java
 String projectName = "ProjectFile.mpp";
 Project project = new Project(projectName);
 ```
 Pada langkah ini, kami memuat file Microsoft Project ke dalam objek `Project` menggunakan nama file yang diberikan.
 
-## Langkah 2: Ambil Kode Outline
+## Langkah 2: Mengambil Kode Outline
 ```java
 for (OutlineCodeDefinition ocd : project.getOutlineCodes()) {
 ```
 Kami mengiterasi setiap definisi kode outline dalam proyek.
 
-## Langkah 3: Akses Properti Kode Outline
+## Langkah 3: Mengakses Properti Kode Outline
 ```java
 System.out.println("Alias = " + ocd.getAlias());
 System.out.println("Field Id = " + ocd.getFieldId());
 System.out.println("Field Name = " + ocd.getFieldName());
 ```
-Kami mengambil dan mencetak berbagai properti dari definisi kode outline seperti Alias, Field ID, dan Field Name.
+Kami mengambil dan mencetak berbagai properti definisi kode outline seperti Alias, ID Kolom, dan Nama Kolom.
 
-## Langkah 4: Periksa Kode Kustom Perusahaan
+## Langkah 4: Memeriksa Kode Kustom Enterprise
 ```java
 if (ocd.getEnterprise()) {
     System.out.println("It is an enterprise custom outline code.");
@@ -83,18 +89,18 @@ if (ocd.getEnterprise()) {
     System.out.println("It is not an enterprise custom outline code.");
 }
 ```
-Kami memeriksa apakah kode outline adalah kode kustom perusahaan dan mencetak hasilnya sesuai.
+Kami memeriksa apakah kode outline merupakan kode kustom enterprise dan mencetak hasilnya sesuai.
 
-## Langkah 5: Tampilkan Masker Kode Outline
+## Langkah 5: Menampilkan Mask Kode Outline
 ```java
 for (OutlineMask m1 : ocd.getMasks()) {
     System.out.println("Level of a mask = " + m1.getLevel());
     System.out.println("Mask = " + m1.toString());
 }
 ```
-Kami mengiterasi setiap masker yang terkait dengan kode outline dan mencetak level serta nilai maskernya.
+Kami mengiterasi setiap mask yang terkait dengan kode outline dan mencetak level serta nilai masknya.
 
-## Langkah 6: Tampilkan Nilai Kode Outline
+## Langkah 6: Menampilkan Nilai Kode Outline
 ```java
 for (OutlineValue v1 : ocd.getValues()) {
     System.out.println("Description of outline value = " + v1.getDescription());
@@ -103,24 +109,24 @@ for (OutlineValue v1 : ocd.getValues()) {
     System.out.println("Type = " + v1.getType());
 }
 ```
-Kami mengiterasi setiap nilai kode outline dan mencetak deskripsinya, ID nilai, nilai, dan tipe.
+Kami mengiterasi setiap nilai kode outline dan mencetak deskripsi, ID nilai, nilai, dan tipe-nya.
 
 ## Masalah Umum dan Solusinya
 | Masalah | Alasan | Solusi |
-|---------|--------|--------|
+|-------|--------|-----|
 | **Tidak ada output** | Path file proyek tidak benar | Verifikasi `projectName` mengarah ke file `.mpp` yang valid. |
-| **Nilai null** | Kode outline tidak didefinisikan dalam file | Pastikan file Project benar-benar berisi kode outline (periksa di UI MS Project). |
+| **Nilai null** | Kode outline tidak didefinisikan dalam file | Pastikan file Project memang berisi kode outline (periksa di UI MS Project). |
 | **LicenseException** | Menggunakan versi percobaan tanpa aktivasi yang tepat | Terapkan lisensi sementara atau penuh melalui `License license = new License(); license.setLicense("Aspose.Tasks.lic");` |
 
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Bisakah saya menggunakan Aspose.Tasks untuk Java untuk memodifikasi kode outline dalam file Project?**  
-A: Ya, Aspose.Tasks untuk Java menyediakan API untuk memodifikasi kode outline secara programatik. Anda dapat menambah, mengedit, atau menghapus definisi menggunakan objek `Project` yang sama.
+A: Ya, Aspose.Tasks untuk Java menyediakan API untuk memodifikasi kode outline secara programatis. Anda dapat menambah, mengedit, atau menghapus definisi menggunakan objek `Project` yang sama.
 
-**Q: Apakah tersedia versi percobaan untuk Aspose.Tasks untuk Java?**  
-A: Ya, Anda dapat mengunduh versi percobaan gratis Aspose.Tasks untuk Java dari [situs web Aspose.Tasks](https://releases.aspose.com/).
+**Q: Apakah ada versi percobaan yang tersedia untuk Aspose.Tasks untuk Java?**  
+A: Ya, Anda dapat mengunduh versi percobaan gratis Aspose.Tasks untuk Java dari [situs Aspose.Tasks](https://releases.aspose.com/).
 
-**Q: Bagaimana saya dapat mendapatkan dukungan teknis untuk Aspose.Tasks untuk Java?**  
+**Q: Bagaimana cara mendapatkan dukungan teknis untuk Aspose.Tasks untuk Java?**  
 A: Anda dapat memperoleh dukungan teknis dengan mengunjungi [forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) dan mengirimkan pertanyaan Anda di sana.
 
 **Q: Bisakah saya membeli lisensi sementara untuk Aspose.Tasks untuk Java?**  
@@ -134,8 +140,8 @@ Dalam tutorial ini, kami telah mempelajari cara mengambil **kode outline ms proj
 
 ---
 
-**Terakhir Diperbarui:** 2025-12-20  
-**Diuji Dengan:** Aspose.Tasks untuk Java 24.12 (versi terbaru pada saat penulisan)  
+**Terakhir Diperbarui:** 2026-03-27  
+**Diuji Dengan:** Aspose.Tasks untuk Java (terbaru)  
 **Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
