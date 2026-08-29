@@ -1,11 +1,11 @@
 ---
-date: 2025-12-21
-description: Erfahren Sie, wie Sie ein Projekt erstellen und MS‑Project‑Attribute
-  für neue Aufgaben mit Aspose.Tasks für Java festlegen, einschließlich des Speicherns
-  des Projekts als XML und der Anpassung von Aufgabeneigenschaften.
+date: 2026-03-29
+description: Erfahren Sie, wie Sie ein Projekt mit Aspose.Tasks erstellen, das Startdatum
+  einer Aufgabe ändern und das Projekt als XML speichern, indem Sie die Aspose.Tasks
+  Java‑Bibliothek verwenden und dabei Aufgabeneigenschaften anpassen.
 linktitle: Set Attributes for New Tasks in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-title: Wie man ein Projekt erstellt – Neue Aufgabeneigenschaften mit Aspose.Tasks
+title: Wie man ein Projekt mit aspose.tasks erstellt – Neue Aufgabeneigenschaften
   festlegen
 url: /de/java/project-file-operations/set-attributes-new-tasks/
 weight: 21
@@ -15,30 +15,30 @@ weight: 21
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Wie man ein Projekt erstellt – Neue Aufgabenattribute mit Aspose.Tasks festlegen
+# Wie man ein Projekt aspose.tasks erstellt – Neue Aufgabeneigenschaften festlegt
 
-## Einleitung
-In diesem umfassenden Leitfaden erfahren Sie **wie man Projekt**‑Dateien erstellt und Microsoft Project‑Attribute für neue Aufgaben mithilfe der Aspose.Tasks Java‑Bibliothek festlegt. Wir führen Sie Schritt für Schritt durch, von der Vorbereitung Ihrer Entwicklungsumgebung bis zum Speichern des Projekts als XML‑Datei, sodass Sie **Aufgabeneigenschaften** einfach anpassen und Ihren Projektmanagement‑Workflow optimieren können.
+## Einführung
+In diesem umfassenden Leitfaden lernen Sie **wie man Projekt aspose.tasks**‑Dateien erstellt und Microsoft‑Project‑Attribute für neue Aufgaben mit der Aspose.Tasks‑Java‑Bibliothek festlegt. Wir führen Sie durch jeden Schritt – von der Vorbereitung Ihrer Entwicklungsumgebung bis zum **Speichern des Projekts als XML** – damit Sie ganz einfach **Aufgabeneigenschaften anpassen**, Startdaten von Aufgaben ändern und Ihren Projekt‑Management‑Workflow optimieren können.
 
 ## Schnelle Antworten
 - **Worum geht es im Tutorial?** Festlegen von Standard‑Startdaten für neue Aufgaben und Speichern des Projekts als XML.  
-- **Welche Bibliothek wird benötigt?** Aspose.Tasks für Java.  
-- **Benötige ich eine Lizenz?** Eine kostenlose Testversion reicht für die Entwicklung; für die Produktion ist eine kommerzielle Lizenz erforderlich.  
-- **Kann ich andere Aufgabenstandards ändern?** Ja, Aspose.Tasks ermöglicht das Ändern vieler aufgabenbezogener Standards.  
-- **Welches Ausgabeformat wird verwendet?** XML (SaveFileFormat.Xml).
+- **Welche Bibliothek wird benötigt?** Aspose.Tasks für Java, eine führende **java project management library**.  
+- **Brauche ich eine Lizenz?** Eine kostenlose Testversion funktioniert für die Entwicklung; für die Produktion ist eine kommerzielle Lizenz erforderlich.  
+- **Kann ich andere Aufgaben‑Standardwerte ändern?** Ja, Sie können **change task start date** ändern und weitere Standardwerte wie Dauer, Kosten und Priorität.  
+- **Welches Ausgabeformat wird verwendet?** XML (SaveFileFormat.Xml), das ideal für **export project to XML**‑Szenarien ist.
 
 ## Was ist ein Projekt in Aspose.Tasks?
-Ein *Projekt* ist ein Objektmodell, das einer Microsoft Project‑Datei entspricht. Es speichert Aufgaben, Ressourcen, Kalender und andere Planungsdaten und ermöglicht es Ihnen, Projektdateien programmgesteuert zu lesen, zu ändern und zu erzeugen.
+Ein *Projekt* ist ein Objektmodell, das eine Microsoft‑Project‑Datei abbildet. Es speichert Aufgaben, Ressourcen, Kalender und andere Planungsdaten und ermöglicht es Ihnen, Projektdateien programmgesteuert zu lesen, zu ändern und zu erzeugen.
 
-## Warum Aufgabenstandards festlegen?
-Das Festlegen von Standardwerten wie dem Startdatum für neue Aufgaben sorgt für Konsistenz im gesamten Plan. Es erspart Ihnen das manuelle Aktualisieren jeder Aufgabe und reduziert das Risiko von Planungsfehlern.
+## Warum Aufgaben‑Standardwerte festlegen?
+Das Festlegen von Standardwerten wie dem Startdatum für neue Aufgaben sorgt für Konsistenz im gesamten Plan. Es erspart Ihnen das manuelle Aktualisieren jeder Aufgabe, reduziert das Risiko von Planungsfehlern und ermöglicht es Ihnen, **customize task properties** einmalig statt wiederholt anzupassen.
 
-## Voraussetzungen
-1. **Java-Entwicklungsumgebung** – Java 8 oder höher installiert.  
-2. **Aspose.Tasks für Java** – Download von dem [download link](https://releases.aspose.com/tasks/java/).  
+## Prerequisites
+1. **Java-Entwicklungsumgebung** – Java 8 oder höher installiert.  
+2. **Aspose.Tasks für Java** – Download von dem [Download-Link](https://releases.aspose.com/tasks/java/).  
 3. **IDE** – Eclipse, IntelliJ IDEA oder ein beliebiger Java‑kompatibler Editor.
 
-## Import Packages
+## Pakete importieren
 ```java
 import com.aspose.tasks.Prj;
 import com.aspose.tasks.Project;
@@ -46,30 +46,30 @@ import com.aspose.tasks.SaveFileFormat;
 import com.aspose.tasks.TaskStartDateType;
 ```
 
-## Wie man ein Projekt erstellt – Neue Aufgabenattribute festlegt
-### Schritt 1: Definieren des Datenverzeichnisses
+## Wie man ein Projekt aspose.tasks erstellt – Neue Aufgabeneigenschaften festlegt
+### Schritt 1: Datenverzeichnis definieren
 ```java
 String dataDir = "Your Data Directory";
 ```
 Ersetzen Sie `"Your Data Directory"` durch den absoluten Pfad, in dem die Ausgabedatei gespeichert werden soll.
 
-### Schritt 2: Erstellen einer Projektinstanz
+### Schritt 2: Projektinstanz erstellen
 ```java
 Project prj = new Project();
 ```
-Dies erstellt ein leeres Projekt, das bereit für Anpassungen ist.
+Dies erstellt ein leeres Projekt, das bereit für die Anpassung ist.
 
-### Schritt 3: Neue Aufgaben‑Eigenschaft festlegen
+### Schritt 3: Neue Aufgabeneigenschaft festlegen
 ```java
 prj.set(Prj.NEW_TASK_START_DATE, TaskStartDateType.CurrentDate);
 ```
-Die obige Zeile weist Aspose.Tasks an, das **heutige Datum** als Startdatum für jede später hinzugefügte Aufgabe zu verwenden.
+Die obige Zeile weist Aspose.Tasks an, das **current date** als Startdatum für jede später hinzugefügte Aufgabe zu verwenden. Dies ist der entscheidende Schritt für das Verhalten **change task start date**.
 
 ### Schritt 4: Projekt speichern
 ```java
 prj.save(dataDir + "project1.xml", SaveFileFormat.Xml);
 ```
-Hier **speichern wir das Projekt als XML**, ein weit verbreitetes Format für den Austausch und die Weiterverarbeitung.
+Hier **Projekt als XML speichern**, ein weit verbreitetes Format für **export project to XML** und weitere Verarbeitung.
 
 ### Schritt 5: Ergebnis anzeigen
 ```java
@@ -77,50 +77,51 @@ System.out.println("Project file generated Successfully");
 ```
 Eine einfache Konsolennachricht bestätigt, dass die Datei ohne Fehler erstellt wurde.
 
-## Wie man Aufgabenattribute festlegt
-Neben dem Startdatum können Sie weitere Standard‑Aufgabeneinstellungen wie Dauer, Kalender und Priorität mithilfe der `Prj`‑Aufzählung ändern. Diese Flexibilität ermöglicht es Ihnen, **Aufgabeneigenschaften** an die Standards Ihrer Organisation anzupassen.
+## Wie man zusätzliche Aufgabeneigenschaften festlegt
+Neben dem Startdatum können Sie weitere Standard‑Aufgabeneinstellungen wie Dauer, Kalender und Priorität über die `Prj`‑Aufzählung ändern. Diese Flexibilität ermöglicht es Ihnen, **customize task properties** an die Standards Ihrer Organisation anzupassen.
 
 ## Wie man ein Projekt als XML speichert
-Das Speichern als XML bewahrt die vollständige Projektstruktur und bleibt gleichzeitig für Menschen lesbar. Es ist ideal für die Integration mit anderen Tools, Versionskontrolle oder automatisierten Pipelines.
+Das Speichern als XML bewahrt die vollständige Projektstruktur und bleibt gleichzeitig menschenlesbar. Es ist ideal für die Integration mit anderen Tools, Versionskontrolle oder automatisierten Pipelines.
 
 ## Häufige Probleme und Lösungen
-- **Ungültiger Pfad zum Datenverzeichnis** – Stellen Sie sicher, dass der Ordner existiert und die Anwendung Schreibrechte hat.  
-- **Lizenz nicht gefunden** – Laden Sie Ihre Aspose.Tasks‑Lizenz, bevor Sie das `Project`‑Objekt erstellen, um Evaluations‑Wasserzeichen zu vermeiden.  
-- **Unerwartete Startdaten** – Prüfen Sie, dass kein anderer Code `Prj.NEW_TASK_START_DATE` nach dem Setzen überschreibt.
+- **Ungültiger Pfad des Datenverzeichnisses** – Stellen Sie sicher, dass der Ordner existiert und die Anwendung Schreibrechte hat.  
+- **Lizenz nicht gefunden** – Laden Sie Ihre Aspose.Tasks‑Lizenz, bevor Sie das `Project`‑Objekt erstellen, um Evaluationswasserzeichen zu vermeiden.  
+- **Unerwartete Startdaten** – Vergewissern Sie sich, dass kein anderer Code `Prj.NEW_TASK_START_DATE` nach dem Setzen überschreibt.
 
-## FAQ
-### Q: Kann ich Aspose.Tasks für Java verwenden, um vorhandene Projektdateien zu manipulieren?
-A: Ja, Aspose.Tasks für Java bietet umfangreiche Funktionen zum Manipulieren vorhandener Projektdateien, einschließlich Lesen, Ändern und Speichern in verschiedenen Formaten.
+## Häufig gestellte Fragen
 
-### Q: Wo finde ich weitere Dokumentation und Ressourcen für Aspose.Tasks für Java?
-A: Sie können die Dokumentation und Ressourcen auf der [Aspose.Tasks für Java Dokumentationsseite](https://reference.aspose.com/tasks/java/) einsehen.
+**Q: Kann ich Aspose.Tasks für Java verwenden, um bestehende Projektdateien zu manipulieren?**  
+A: Ja, Aspose.Tasks für Java bietet umfangreiche Funktionen zum Manipulieren bestehender Projektdateien, einschließlich Lesen, Ändern und Speichern in verschiedenen Formaten.
 
-### Q: Gibt es eine kostenlose Testversion für Aspose.Tasks für Java?
-A: Ja, Sie können eine kostenlose Testversion von Aspose.Tasks für Java von [hier](https://releases.aspose.com/) herunterladen.
+**Q: Wo finde ich weitere Dokumentation und Ressourcen für Aspose.Tasks für Java?**  
+A: Sie können die Dokumentation und Ressourcen auf der [Aspose.Tasks für Java Dokumentationsseite](https://reference.aspose.com/tasks/java/) erkunden.
 
-### Q: Wie kann ich temporäre Lizenzen für Aspose.Tasks für Java erhalten?
-A: Temporäre Lizenzen für Aspose.Tasks für Java können Sie über die [temporäre Lizenzseite](https://purchase.aspose.com/temporary-license/) erhalten.
+**Q: Gibt es eine kostenlose Testversion für Aspose.Tasks für Java?**  
+A: Ja, Sie können eine kostenlose Testversion von Aspose.Tasks für Java [hier](https://releases.aspose.com/) herunterladen.
 
-### Q: Wo kann ich Unterstützung für Probleme oder Fragen zu Aspose.Tasks für Java erhalten?
-A: Sie können Unterstützung erhalten und mit der Community im [Aspose.Tasks für Java Support‑Forum](https://forum.aspose.com/c/tasks/15) interagieren.
+**Q: Wie kann ich temporäre Lizenzen für Aspose.Tasks für Java erhalten?**  
+A: Temporäre Lizenzen für Aspose.Tasks für Java können Sie auf der [temporären Lizenzseite](https://purchase.aspose.com/temporary-license/) erhalten.
 
-**Additional Q&A**
+**Q: Wo kann ich Support für Probleme oder Fragen zu Aspose.Tasks für Java erhalten?**  
+A: Sie können Support erhalten und mit der Community im [Aspose.Tasks für Java Support-Forum](https://forum.aspose.com/c/tasks/15) interagieren.
+
+**Zusätzliche Fragen & Antworten**
 
 **Q: Kann ich das Standard‑Startdatum nach dem Erstellen des Projekts ändern?**  
 A: Ja, Sie können `prj.set(Prj.NEW_TASK_START_DATE, ...)` jederzeit vor dem Hinzufügen neuer Aufgaben aufrufen.
 
-**Q: Beeinträchtigt das Speichern als XML die Leistung bei großen Projekten?**  
-A: XML ist textbasiert, daher kann die Dateigröße größer sein als bei binären Formaten, aber es bleibt für die meisten typischen Projektgrößen schnell.
+**Q: Beeinflusst das Speichern als XML die Leistung bei großen Projekten?**  
+A: XML ist textbasiert, sodass die Dateigröße größer sein kann als bei binären Formaten, aber es bleibt für die meisten typischen Projektgrößen schnell.
 
-**Q: Gibt es weitere Aufgabenstandards, die ich global festlegen kann?**  
-A: Auf jeden Fall – Eigenschaften wie `NEW_TASK_DURATION`, `NEW_TASK_COST` und `NEW_TASK_PRIORITY` können ebenfalls über die `Prj`‑Aufzählung konfiguriert werden.
+**Q: Gibt es weitere Aufgaben‑Standardwerte, die ich global setzen kann?**  
+A: Absolut – Eigenschaften wie `NEW_TASK_DURATION`, `NEW_TASK_COST` und `NEW_TASK_PRIORITY` können ebenfalls über die `Prj`‑Aufzählung global konfiguriert werden.
 
 ## Fazit
-Sie haben nun gelernt, **wie man Projekt**‑Dateien erstellt, Standard‑Startdaten für neue Aufgaben festlegt und **das Projekt als XML** mit Aspose.Tasks für Java speichert. Durch das Beherrschen dieser Schritte können Sie **Aufgabeneigenschaften** einfach an jedes Projektmanagement‑Szenario anpassen, die Konsistenz verbessern und wertvolle Zeit sparen.
+Sie haben nun gelernt, **wie man Projekt aspose.tasks erstellt**, Standard‑Startdaten für neue Aufgaben festlegt und **Projekt als XML speichert** mit Aspose.Tasks für Java. Durch das Beherrschen dieser Schritte können Sie ganz einfach **customize task properties** anpassen, Startdaten von Aufgaben ändern und **export project to XML** in jedem **java project management library**‑Szenario durchführen, was die Konsistenz verbessert und wertvolle Zeit spart.
 
 ---
 
-**Last Updated:** 2025-12-21  
+**Last Updated:** 2026-03-29  
 **Tested With:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
 **Author:** Aspose  
 
