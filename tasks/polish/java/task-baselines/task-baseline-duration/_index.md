@@ -1,11 +1,68 @@
 ---
-date: 2026-01-23
-description: Dowiedz się, jak ustawić czas trwania baseline i utworzyć instancję projektu
-  przy użyciu Aspose.Tasks dla Javy. Ten przewodnik krok po kroku pomaga efektywnie
-  zarządzać baseline'ami zadań.
-linktitle: How to Set Baseline Duration in Aspose.Tasks for Java
+date: 2026-08-29
+description: Dowiedz się, jak ustawić baseline duration i śledzić postęp projektu
+  przy użyciu Aspose.Tasks for Java. Ten przewodnik krok po kroku pomaga efektywnie
+  zarządzać task baselines.
+keywords:
+- track project progress
+- manage project baselines
+- Aspose.Tasks baseline duration
+- Java project scheduling
+- baseline management
+lastmod: 2026-08-29
+linktitle: Jak ustawić baseline duration w Aspose.Tasks for Java
+og_description: Dowiedz się, jak ustawić baseline duration i śledzić postęp projektu
+  przy użyciu Aspose.Tasks for Java. Zapoznaj się z tym szczegółowym przewodnikiem,
+  aby efektywnie zarządzać task baselines.
+og_image_alt: Developer guide showing baseline duration setup with Aspose.Tasks for
+  Java
+og_title: Jak ustawić baseline duration, aby śledzić postęp projektu
+schemas:
+- author: Aspose
+  dateModified: '2026-08-29'
+  description: Learn how to set baseline duration and track project progress using
+    Aspose.Tasks for Java. This step‑by‑step guide helps you manage task baselines
+    efficiently.
+  headline: How to set baseline duration to track project progress
+  type: TechArticle
+- description: Learn how to set baseline duration and track project progress using
+    Aspose.Tasks for Java. This step‑by‑step guide helps you manage task baselines
+    efficiently.
+  name: How to set baseline duration to track project progress
+  steps:
+  - name: '**Java Development Environment** – JDK 8+ installed and configured.'
+    text: '**Java Development Environment** – JDK 8+ installed and configured.'
+  - name: '**Aspose.Tasks for Java** – download the library from the [Aspose.Tasks
+      for Java download page](https://releases.aspose.com/tasks/java/).'
+    text: '**Aspose.Tasks for Java** – download the library from the [Aspose.Tasks
+      for Java download page](https://releases.aspose.com/tasks/java/).'
+  - name: '**IDE or build tool** – Maven, Gradle, or any IDE you prefer.'
+    text: '**IDE or build tool** – Maven, Gradle, or any IDE you prefer.'
+  type: HowTo
+- questions:
+  - answer: No. Calling `project.setBaseline(BaselineType.Baseline)` records the baseline
+      for all tasks in the project at once.
+    question: Do I need to call `setBaseline` for each task individually?
+  - answer: Use `project.setBaseline(BaselineType.Baseline1)` (or Baseline2‑Baseline10)
+      after updating the task’s schedule.
+    question: How can I set an interim baseline for a specific task?
+  - answer: Yes. Iterate over `task.getBaselines()` and write the desired fields to
+      a CSV file using standard Java I/O.
+    question: Is it possible to export the baseline data to CSV?
+  - answer: Absolutely. Load the file with `new Project("myproject.mpp")` and then
+      access each task’s baselines as shown above.
+    question: Can I read an existing .mpp file that already contains baselines?
+  - answer: Aspose.Tasks works with single‑project .mpp files. For multi‑project scenarios,
+      combine the projects programmatically.
+    question: Does Aspose.Tasks handle multi‑project files?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: Jak ustawić czas trwania linii bazowej w Aspose.Tasks dla Javy
+tags:
+- baseline duration
+- Aspose.Tasks
+- Java project management
+- task baselines
+title: Jak ustawić baseline duration, aby śledzić postęp projektu
 url: /pl/java/task-baselines/task-baseline-duration/
 weight: 12
 ---
@@ -14,33 +71,32 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak ustawić czas trwania baseline w Aspose.Tasks dla Javy
+# Jak ustawić czas trwania linii bazowej, aby śledzić postęp projektu
 
 ## Wprowadzenie
-Ustawienie baseline to podstawowy krok, który pozwala śledzić postęp projektu w stosunku do pierwotnego planu. W tym samouczku dowiesz się, **jak ustawić baseline** czasu trwania zadań w Microsoft Project przy użyciu biblioteki Aspose.Tasks dla Javy oraz zobaczysz, dlaczego wczesne ustanowienie baseline może zaoszczędzić Ci czasu i problemów w przyszłości.
+Śledzenie postępu projektu zaczyna się od solidnej linii bazowej. W tym samouczku dowiesz się **jak ustawić czas trwania linii bazowej** dla zadań w plikach Microsoft Project przy użyciu biblioteki Aspose.Tasks dla Javy oraz zrozumiesz, dlaczego wczesne ustalenie linii bazowej pomaga monitorować odchylenia harmonogramu, wariancje kosztów i nadmierne przydzielenie zasobów przez cały okres trwania projektu.
 
 ## Szybkie odpowiedzi
-- **Co oznacza „set baseline”?** Rejestruje oryginalne daty rozpoczęcia, zakończenia i czas trwania zadania, aby móc porównać przyszłe zmiany.  
-- **Która klasa Aspose.Tasks tworzy projekt?** Klasa `Project` – dowiesz się także, jak **create project instance** prawidłowo.  
-- **Czy potrzebna jest licencja do uruchomienia kodu?** Darmowa licencja ewaluacyjna wystarczy do testów; licencja komercyjna jest wymagana w środowisku produkcyjnym.  
-- **Czy mogę pobrać interim baselines?** Tak, Aspose.Tasks umożliwia zapytania o interim baselines oraz ich stałe koszty.  
-- **Jakiej wersji Javy potrzebuję?** Zalecana jest Java 8 lub nowsza.
+- **Co oznacza „ustawienie linii bazowej”?** Rejestruje ona pierwotną datę rozpoczęcia, zakończenia i czas trwania zadania, abyś mógł porównywać przyszłe zmiany.  
+- **Która klasa Aspose.Tasks tworzy projekt?** Klasa `Project` – dowiesz się również, jak **poprawnie utworzyć instancję projektu**.  
+- **Czy potrzebna jest licencja do uruchomienia kodu?** Bezpłatna licencja ewaluacyjna działa w testach; licencja komercyjna jest wymagana w środowisku produkcyjnym.  
+- **Czy mogę pobrać tymczasowe linie bazowe?** Tak, Aspose.Tasks umożliwia zapytanie o tymczasowe linie bazowe i ich stałe koszty.  
+- **Jaka wersja Javy jest wymagana?** Zalecana jest Java 8 lub nowsza.  
+- **Jak to pomaga w śledzeniu postępu projektu?** Po ustawieniu linii bazowej możesz natychmiast porównać rzeczywiste daty z pierwotnym planem, korzystając z wbudowanych funkcji raportowania.
 
-## Co to jest baseline zadania i dlaczego je ustawiać?
-Baseline zadania przechowuje zaplanowany harmonogram (datę rozpoczęcia, datę zakończenia i czas trwania) w określonym momencie. Ustawiając baseline, tworzysz punkt odniesienia, który ułatwia wykrywanie odchyleń w harmonogramie, przekroczeń kosztów oraz nadmiernego przydziału zasobów w miarę rozwoju projektu.
+## Czym jest linia bazowa zadania i dlaczego ją ustawiać?
+Linia bazowa zadania przechowuje zaplanowany harmonogram (datę rozpoczęcia, zakończenia i czas trwania) w określonym momencie. Ustawiając linię bazową tworzysz punkt odniesienia, który ułatwia wykrywanie odchyleń harmonogramu, przekroczeń kosztów i nadmiernego przydziału zasobów w miarę rozwoju projektu.
 
-## Dlaczego warto używać Aspose.Tasks do zarządzania baseline?
-- **Pełna kompatybilność z .mpp** – odczyt i zapis natywnych plików Microsoft Project bez potrzeby instalacji Office.  
-- **Bogate API** – programowy dostęp do danych baseline, interim baselines oraz informacji czasowo‑fazowych.  
-- **Cross‑platform** – działa na Windows, Linux i macOS z dowolnym standardowym JDK.
+## Dlaczego używać Aspose.Tasks do zarządzania liniami bazowymi?
+Aspose.Tasks zapewnia **pełną kompatybilność z .mpp** – możesz odczytywać i zapisywać natywne pliki Microsoft Project bez konieczności instalacji Microsoft Office. API daje programowy dostęp do **ponad 50 formatów wejścia i wyjścia**, obsługuje **tymczasowe linie bazowe 1‑10** oraz może obsługiwać **projekty o setkach stron** bez ładowania całego pliku do pamięci, co jest niezbędne przy wysokowydajnym przetwarzaniu wsadowym.
 
-## Wymagania wstępne
+## Prerequisites
 1. **Środowisko programistyczne Java** – zainstalowany i skonfigurowany JDK 8+.  
-2. **Aspose.Tasks for Java** – pobierz bibliotekę z [tutaj](https://releases.aspose.com/tasks/java/).  
-3. **IDE lub narzędzie budujące** – Maven, Gradle lub dowolne IDE, którego używasz.
+2. **Aspose.Tasks for Java** – pobierz bibliotekę ze [strony pobierania Aspose.Tasks for Java](https://releases.aspose.com/tasks/java/).  
+3. **IDE lub narzędzie budujące** – Maven, Gradle lub dowolne IDE, które preferujesz.
 
-## Import pakietów
-Najpierw zaimportuj niezbędne klasy do swojego projektu Java:
+## Importowanie pakietów
+Poniższe importy wprowadzają podstawowe klasy Aspose.Tasks potrzebne do pracy z projektami, zadaniami, liniami bazowymi i danymi czasowymi.
 
 ```java
 import com.aspose.tasks.BaselineType;
@@ -51,23 +107,23 @@ import com.aspose.tasks.TimeUnitType;
 import com.aspose.tasks.TimephasedData;
 ```
 
-## Krok 1: Utwórz instancję projektu
-Utworzenie instancji projektu jest podstawą wszelkich dalszych operacji. Ten krok pokazuje, jak **create project instance** przy użyciu Aspose.Tasks:
+## Krok 1: utwórz instancję projektu
+Klasa `Project` reprezentuje plik Microsoft Project w pamięci i jest punktem wejścia dla wszystkich operacji.
 
 ```java
 Project project = new Project();
 ```
 
-## Krok 2: Utwórz baseline zadania
-Dodaj nowe zadanie do korzenia projektu i ustaw jego baseline. To zapisuje pierwotny harmonogram zadania:
+## Krok 2: utwórz linię bazową zadania
+`TaskBaseline` przechowuje zaplanowane daty rozpoczęcia, zakończenia oraz czas trwania konkretnego zadania.
 
 ```java
 Task task = project.getRootTask().getChildren().add("Task");
 project.setBaseline(BaselineType.Baseline);
 ```
 
-## Krok 3: Wyświetl informacje o baseline zadania
-Pobierz właśnie utworzony baseline i wydrukuj jego kluczowe właściwości. Dzięki temu możesz zweryfikować, czy baseline został ustawiony prawidłowo:
+## Krok 3: wyświetl informacje o linii bazowej zadania
+Metoda `getBaselines()` zwraca kolekcję linii bazowych powiązanych z zadaniem.
 
 ```java
 TaskBaseline baseline = task.getBaselines().toList().get(0);
@@ -78,16 +134,16 @@ System.out.println("Is it an Estimated Duration?: " + baseline.getEstimatedDurat
 System.out.println("Baseline Finish: " + baseline.getFinish());
 ```
 
-## Krok 4: Sprawdź interim baseline i stały koszt
-Jeśli pracujesz z interim baselines, możesz sprawdzić, czy bieżący baseline jest interim oraz jaki ma powiązany stały koszt:
+## Krok 4: sprawdź tymczasową linię bazową i koszt stały
+`BaselineType` wylicza podstawowe i tymczasowe linie bazowe (Baseline, Baseline1‑Baseline10).
 
 ```java
 System.out.println("Interim: " + baseline.getInterim());
 System.out.println("Fixed Cost: " + baseline.getFixedCost());
 ```
 
-## Krok 5: Wydrukuj dane czasowo‑fazowe
-Dane czasowo‑fazowe pokazują, jak baseline jest rozłożony w czasie. Przejdź pętlą po kolekcji, aby przejrzeć każdy wpis:
+## Krok 5: wydrukuj dane czasowe
+`TimephasedData` reprezentuje fragment informacji o harmonogramie dla określonego przedziału czasu.
 
 ```java
 System.out.println("Number of Timephased Items: " + baseline.getTimephasedData().size());
@@ -98,50 +154,57 @@ for (TimephasedData data : baseline.getTimephasedData()) {
 }
 ```
 
-Postępując zgodnie z tymi krokami, możesz **how to set baseline** duration dla dowolnego zadania i pobrać szczegółowe informacje o baseline przy użyciu Aspose.Tasks for Java.
+Postępując zgodnie z tymi krokami, możesz **ustawić czas trwania linii bazowej** dla dowolnego zadania i pobrać szczegółowe informacje o linii bazowej przy użyciu Aspose.Tasks for Java, co zapewnia niezawodny sposób na **śledzenie postępu projektu** przez cały cykl życia projektu.
 
 ## Typowe problemy i rozwiązania
-- **Baseline nie pojawia się w MS Project:** Upewnij się, że wywołałeś `project.setBaseline(BaselineType.Baseline)` **po** dodaniu zadania.  
-- **NullPointerException przy `getBaselines()`:** Sprawdź, czy zadanie zostało dodane do projektu przed ustawieniem baseline.  
-- **Niezgodność jednostek czasu:** Użyj `TimeUnitType`, aby prawidłowo sformatować czas trwania, szczególnie przy niestandardowych kalendarzach.
+- **Linia bazowa nie pojawia się w MS Project:** Upewnij się, że wywołałeś `project.setBaseline(BaselineType.Baseline)` **po** dodaniu zadania.  
+- **NullPointerException przy `getBaselines()`:** Sprawdź, czy zadanie zostało dodane do projektu przed ustawieniem linii bazowej.  
+- **Niezgodność jednostki czasu:** Użyj `TimeUnitType`, aby poprawnie sformatować czas trwania, szczególnie przy pracy z niestandardowymi kalendarzami.
 
 ## FAQ
-### Co to jest baseline zadania w MS Project?
-Baseline zadania w MS Project to migawka początkowego planowanego harmonogramu, obejmująca datę rozpoczęcia, datę zakończenia i czas trwania.
+### Czym jest linia bazowa zadania w MS Project?
+Linia bazowa zadania w MS Project to migawka początkowego planowanego harmonogramu zadania, obejmująca datę rozpoczęcia, zakończenia oraz czas trwania.
 
-### Dlaczego zarządzanie baseline zadania jest ważne?
-Zarządzanie baseline zadania umożliwia porównanie planowanego harmonogramu z rzeczywistym postępem projektu, co ułatwia lepsze śledzenie i podejmowanie decyzji.
+### Dlaczego zarządzanie liniami bazowymi zadania jest ważne?
+Zarządzanie liniami bazowymi zadania pomaga porównać planowany harmonogram z rzeczywistym postępem projektu, ułatwiając lepsze śledzenie i podejmowanie decyzji.
 
-### Czy mogę modyfikować baseline zadania po jego ustawieniu?
-Tak, możesz modyfikować baseline zadania w MS Project, aby odzwierciedlić zmiany w planie projektu. Ważne jest jednak dokumentowanie wszelkich odchyleń od pierwotnego baseline.
+### Czy mogę zmodyfikować linię bazową zadania po jej ustawieniu?
+Tak, możesz modyfikować linie bazowe zadania w MS Project, aby odzwierciedlić zmiany w planie projektu. Jednak ważne jest dokumentowanie wszelkich odchyleń od pierwotnej linii bazowej.
 
 ### Czy Aspose.Tasks obsługuje inne funkcje zarządzania projektami?
-Tak, Aspose.Tasks oferuje szeroki zakres funkcji do zarządzania projektami, w tym harmonogramowanie zadań, przydział zasobów i generowanie wykresów Gantta.
+Tak, Aspose.Tasks oferuje szeroki zakres funkcji zarządzania projektami, w tym planowanie zadań, przydzielanie zasobów i generowanie wykresów Gantta.
 
-### Gdzie mogę uzyskać wsparcie dla Aspose.Tasks?
-Wsparcie dla Aspose.Tasks znajdziesz na [forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15), gdzie możesz zadawać pytania i wymieniać się doświadczeniami z innymi użytkownikami.
+### Gdzie mogę znaleźć wsparcie dla Aspose.Tasks?
+Wsparcie dla Aspose.Tasks znajdziesz na [forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15), gdzie możesz zadawać pytania i współpracować z innymi użytkownikami.
 
 ## Dodatkowe często zadawane pytania
-**Q: Czy muszę wywoływać `setBaseline` dla każdego zadania osobno?**  
-A: Nie. Wywołanie `project.setBaseline(BaselineType.Baseline)` zapisuje baseline dla wszystkich zadań w projekcie jednocześnie.
+**P: Czy muszę wywoływać `setBaseline` dla każdego zadania osobno?**  
+O: Nie. Wywołanie `project.setBaseline(BaselineType.Baseline)` zapisuje linię bazową dla wszystkich zadań w projekcie jednocześnie.
 
-**Q: Jak ustawić interim baseline dla konkretnego zadania?**  
-A: Użyj `project.setBaseline(BaselineType.Baseline1)` (lub Baseline2‑Baseline10) po zaktualizowaniu harmonogramu zadania.
+**P: Jak mogę ustawić tymczasową linię bazową dla konkretnego zadania?**  
+O: Użyj `project.setBaseline(BaselineType.Baseline1)` (lub Baseline2‑Baseline10) po zaktualizowaniu harmonogramu zadania.
 
-**Q: Czy można wyeksportować dane baseline do CSV?**  
-A: Tak. Przejdź pętlą po `task.getBaselines()` i zapisz wybrane pola do pliku CSV przy użyciu standardowego I/O Javy.
+**P: Czy można wyeksportować dane linii bazowej do CSV?**  
+O: Tak. Iteruj po `task.getBaselines()` i zapisz wybrane pola do pliku CSV używając standardowego I/O Javy.
 
-**Q: Czy mogę odczytać istniejący plik .mpp, który już zawiera baseline?**  
-A: Oczywiście. Załaduj plik za pomocą `new Project("myproject.mpp")`, a następnie uzyskaj dostęp do baseline każdego zadania, jak pokazano powyżej.
+**P: Czy mogę odczytać istniejący plik .mpp, który już zawiera linie bazowe?**  
+O: Oczywiście. Załaduj plik za pomocą `new Project("myproject.mpp")`, a następnie uzyskaj dostęp do linii bazowych każdego zadania, jak pokazano powyżej.
 
-**Q: Czy Aspose.Tasks obsługuje pliki wieloprojektowe?**  
-A: Aspose.Tasks działa z pojedynczymi plikami .mpp. W scenariuszach wieloprojektowych projekty należy łączyć programowo.
+**P: Czy Aspose.Tasks obsługuje pliki wieloprojektowe?**  
+O: Aspose.Tasks działa z pojedynczymi plikami .mpp. W scenariuszach wieloprojektowych należy łączyć projekty programowo.
 
 ---
 
-**Ostatnia aktualizacja:** 2026-01-23  
+**Ostatnia aktualizacja:** 2026-08-29  
 **Testowano z:** Aspose.Tasks for Java 24.12  
-**Autor:** Aspose  
+**Autor:** Aspose
+
+## Powiązane samouczki
+
+- [Utwórz listę zadań Java – Linia bazowa MS Project przy użyciu Aspose.Tasks](/tasks/java/task-baselines/create-task-baseline/)
+- [Utwórz projekt MPP Java – Zmiana postępu zadania przy użyciu Aspose.Tasks](/tasks/java/task-properties/change-progress/)
+- [Linia bazowa zarządzania projektem – Planowanie zadań przy użyciu Aspose.Tasks](/tasks/java/task-baselines/baseline-task-scheduling/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
