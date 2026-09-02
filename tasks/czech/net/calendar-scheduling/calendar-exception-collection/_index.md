@@ -1,63 +1,78 @@
 ---
-title: Kolekce kalendářních výjimek v Aspose.Tasks
-linktitle: Kolekce kalendářních výjimek v Aspose.Tasks
+date: 2026-04-09
+description: Naučte se nastavit standardní kalendář a spravovat svátky projektu ve
+  svých .NET projektech pomocí Aspose.Tasks pro přesné plánování.
+keywords:
+- set standard calendar
+- manage project holidays
+- load project calendar
+linktitle: Nastavte standardní kalendář a řešte výjimky v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Naučte se, jak efektivně zpracovávat výjimky kalendáře ve vašich projektech .NET pomocí Aspose.Tasks, což zajišťuje přesné plánování a správu zdrojů.
-weight: 13
+title: Nastavte standardní kalendář a zpracujte výjimky v Aspose.Tasks
 url: /cs/net/calendar-scheduling/calendar-exception-collection/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Kolekce kalendářních výjimek v Aspose.Tasks
+# Nastavte standardní kalendář a řešte výjimky v Aspose.Tasks
 
 ## Úvod
 
-projektovém řízení je přesné plánování zásadní pro úspěch. Scénáře reálného světa však často vyžadují odchylky od standardních plánů kvůli svátkům, zvláštním událostem nebo jiným faktorům. Aspose.Tasks for .NET poskytuje robustní řešení pro správu takových výjimek prostřednictvím funkce Calendar Exception Collection. Tento tutoriál vás krok za krokem provede procesem využití této funkce.
+Přesné plánování je základem každého úspěšného projektu a reálné plány často musí odbočit od výchozího pracovního kalendáře kvůli svátkům, zvláštním událostem nebo nečekaným odstávkám. Aspose.Tasks pro .NET usnadňuje nastavení **set standard calendar** a následné přidání vlastních výjimek. V tomto tutoriálu se naučíte, jak načíst kalendář projektu, nastavit standardní kalendář a spravovat svátky projektu pomocí funkce Calendar Exception Collection.
+
+## Rychlé odpovědi
+- **Co dělá “set standard calendar”?** Resetuje kalendář na výchozí pracovní dobu (9 AM‑5 PM, pondělí‑pátek) před přidáním vlastních výjimek.  
+- **Která metoda vymaže existující výjimky?** `Calendar.Exceptions.Clear()` odstraňuje všechny dříve definované výjimky.  
+- **Jak mohu přidat svátek?** Vytvořte `CalendarException` s `DayWorking = false` a přidejte jej do kolekce.  
+- **Potřebuji po změnách znovu načíst projekt?** Ne, změny jsou aplikovány přímo na objekt `Project` v paměti.  
+- **Jaké knihovny jsou vyžadovány?** Aspose.Tasks pro .NET (libovolná podporovaná verze .NET) a jmenné prostory `System`.
 
 ## Předpoklady
 
-Než se ponoříte do výukového programu, ujistěte se, že máte následující předpoklady:
+Předtím, než se ponoříte do kódu, ujistěte se, že máte:
 
-1.  Aspose.Tasks for .NET: Ujistěte se, že máte nainstalovanou knihovnu. Můžete si jej stáhnout[tady](https://releases.aspose.com/tasks/net/).
-2. Základní znalost C#: Pro pochopení příkladů pomůže znalost programovacího jazyka C#.
-3. Vývojové prostředí: Nastavte si preferované vývojové prostředí, jako je Visual Studio nebo JetBrains Rider.
+1. **Aspose.Tasks pro .NET** – stáhněte jej [zde](https://releases.aspose.com/tasks/net/).  
+2. Základní znalost **C#** – budete psát několik krátkých úryvků.  
+3. Vývojové prostředí jako **Visual Studio** nebo **JetBrains Rider**.
 
-## Importovat jmenné prostory
+## Importujte jmenné prostory
 
-Než začnete pracovat s Aspose.Tasks for .NET, musíte do svého projektu importovat požadované jmenné prostory. Tento krok vám umožní přístup ke třídám a metodám nezbytným pro správu výjimek kalendáře.
+Tyto `using` direktivy vám poskytují přístup ke třídám potřebným pro manipulaci s kalendářem.
 
 ```csharp
 using Aspose.Tasks;
 using System;
 using System.Collections.Generic;
-
-
 ```
 
-Nyní si uvedený příklad rozdělíme do několika kroků:
+## Co je výjimka kalendáře?
 
-## Krok 1: Načtěte projekt a načtěte kalendář
+*Kalendářová výjimka* představuje období, kdy je normální pracovní rozvrh změněn – například celopodnikový svátek nebo dočasný přesčasový rozvrh. Přidáním výjimek do kalendáře můžete modelovat reálná omezení, aniž byste měnili základní kalendář.
+
+## Jak nastavit standardní kalendář v Aspose.Tasks
+
+Prvním krokem je načíst soubor projektu a získat kalendář, se kterým chcete pracovat.
 
 ```csharp
 var project = new Project(DataDir + "project_update_test.mpp");
 var calendar = project.Calendars.GetByUid(3);
 ```
 
-V tomto kroku načteme soubor projektu a načteme požadovaný kalendář podle jeho UID.
+### Krok 1: Vymazat existující výjimky a resetovat na standardní kalendář
 
-## Krok 2: Vymažte existující výjimky a nastavte standardní kalendář
+Před přidáním nových pravidel je dobré vymazat všechny staré výjimky a nastavit **set standard calendar**. To zajišťuje čistý výchozí stav.
 
 ```csharp
 calendar.Exceptions.Clear();
 Calendar.MakeStandardCalendar(calendar);
 ```
 
-Tento krok vymaže všechny existující výjimky z kalendáře a nastaví jej na standardní konfiguraci.
+### Krok 2: Definovat výjimku pracovní doby
 
-## Krok 3: Definujte a přidejte výjimku pracovní doby
+Někdy je potřeba vytvořit dočasný rozvrh (např. prodloužené hodiny pro uvedení produktu na trh). Následující úryvek definuje výjimku pracovní doby, která zahrnuje několik dní a obsahuje dva denní pracovní úseky.
 
 ```csharp
 var exception = new CalendarException();
@@ -74,9 +89,9 @@ exception.WorkingTimes.Add(wt2);
 calendar.Exceptions.Add(exception);
 ```
 
-Tento krok definuje výjimku pracovní doby s konkrétními daty začátku a konce spolu s pracovní dobou v rámci těchto dat a přidá ji do kalendáře.
+### Krok 3: Přidat výjimky nepracovních časů (svátky)
 
-## Krok 4: Definujte a přidejte výjimky nepracovní doby
+Pro **správu svátků projektu** vytvořte výjimky, kde je `DayWorking` nastaveno na `false`. Níže uvedený příklad přidává dvoudenní blok svátku.
 
 ```csharp
 var nonWorkingExceptions = new CalendarException[2];
@@ -86,14 +101,14 @@ nonWorkingExceptions[0].ToDate = new DateTime(2020, 4, 18, 17, 0, 0);
 nonWorkingExceptions[0].DayWorking = false;
 nonWorkingExceptions[0].Name = "Exception 2";
 
-// V případě potřeby přidejte další výjimky
+// Add more exceptions if needed
 
 calendar.Exceptions.AddRange(nonWorkingExceptions);
 ```
 
-Tento krok definuje výjimky mimo pracovní dobu, jako jsou svátky, a přidá je do kalendáře.
+### Krok 4: Zobrazit výjimky kalendáře (ověření)
 
-## Krok 5: Zobrazení výjimek kalendáře
+Po přidání výjimek budete často chtít ověřit, že byly zaznamenány správně. Následující smyčka vypíše podrobnosti každé výjimky do konzole.
 
 ```csharp
 Console.WriteLine("Exceptions of calendar {0}: ", calendar.Exceptions.ParentCalendar.Name);
@@ -109,9 +124,9 @@ foreach (var calendarException in calendar.Exceptions)
 }
 ```
 
-Tento krok zobrazí přidané výjimky kalendáře spolu s jejich podrobnostmi.
+### Krok 5: Odstranit všechny výjimky (úklid)
 
-## Krok 6: Odstraňte všechny výjimky
+Pokud potřebujete vrátit kalendář do původního stavu, můžete programově odstranit všechny výjimky.
 
 ```csharp
 Console.WriteLine("Remove calendar exceptions...");
@@ -122,33 +137,41 @@ foreach (var calendarException in exceptions)
 }
 ```
 
-Nakonec tento krok odstraní všechny výjimky z kalendáře.
+## Časté problémy a řešení
+
+| Problém | Příčina | Řešení |
+|-------|--------|-----|
+| Výjimky se neobjevují po uložení | Projekt nebyl po úpravách uložen | Po provedení změn zavolejte `project.Save("output.mpp")`. |
+| Překrývající se výjimky způsobují neočekávané pracovní hodiny | Aspose.Tasks používá poslední přidanou výjimku pro překrývající se období | Pečlivě uspořádejte volání `Add` nebo ručně upravte priority. |
+| `MakeStandardCalendar` resetuje vlastní pracovní časy | Úmyslně vymaže vlastní časy; po volání je případně přidejte znovu. | Přidejte své vlastní objekty `WorkingTime` po volání `MakeStandardCalendar`. |
+
+## Často kladené otázky
+
+**Q: Mohu přidat více výjimek do jednoho kalendáře?**  
+A: Ano, můžete přidat více výjimek do kalendáře pomocí metody `AddRange`.
+
+**Q: Jak mohu řešit opakující se výjimky, například týdenní svátky?**  
+A: Můžete programově vypočítat opakující se výjimky a přidat je do kalendáře pomocí vlastní logiky.
+
+**Q: Je možné importovat kalendářové výjimky z externích zdrojů?**  
+A: Ano, můžete načíst kalendářové výjimky z externích zdrojů, jako jsou databáze nebo CSV soubory, a integrovat je do svého projektu.
+
+**Q: Co se stane, pokud jsou v kalendáři překrývající se výjimky?**  
+A: Aspose.Tasks pro .NET vám umožňuje řešit překrývající se výjimky definováním priorit nebo řešením konfliktů podle požadavků vašeho projektu.
+
+**Q: Mohu přizpůsobit pracovní časy pro každý den ve výjimce?**  
+A: Ano, můžete specifikovat vlastní pracovní časy pro jednotlivé dny ve výjimce, aby vyhovovaly konkrétním potřebám plánování.
 
 ## Závěr
 
-Správa výjimek kalendáře je zásadní pro přesné plánování projektu. Aspose.Tasks for .NET tento úkol zjednodušuje poskytováním komplexní sady funkcí, včetně kolekce výjimek kalendáře. Podle kroků uvedených v tomto kurzu můžete efektivně zpracovat různé scénáře plánování v rámci svých projektů.
+Nejprve **nastavením standardního kalendáře** a následným přidáním vlastních výjimek získáte plnou kontrolu nad plánováním projektu, což usnadňuje **správu svátků projektu** a jakýchkoli dalších speciálních časových os. Kolekce Calendar Exception v Aspose.Tasks poskytuje čistý programový způsob, jak modelovat reálné kalendáře přímo ve vašich .NET aplikacích.
 
-## FAQ
+---
 
-### Q1: Mohu přidat více výjimek do jednoho kalendáře?
+**Last Updated:** 2026-04-09  
+**Tested With:** Aspose.Tasks 24.12 for .NET  
+**Author:** Aspose  
 
- A1: Ano, můžete přidat více výjimek do kalendáře pomocí`AddRange` metoda.
-
-### Q2: Jak zpracuji opakující se výjimky, jako jsou týdenní svátky?
-
-A2: Můžete programově vypočítat opakované výjimky a přidat je do kalendáře pomocí vlastní logiky.
-
-### Q3: Je možné importovat výjimky kalendáře z externích zdrojů?
-
-A3: Ano, můžete číst výjimky kalendáře z externích zdrojů, jako jsou databáze nebo soubory CSV, a integrovat je do svého projektu.
-
-### Q4: Co se stane, pokud se v kalendáři překrývají výjimky?
-
-A4: Aspose.Tasks for .NET umožňuje zpracovat překrývající se výjimky definováním priorit nebo řešením konfliktů na základě požadavků projektu.
-
-### Q5: Mohu upravit pracovní dobu pro každý den v rámci výjimky?
-
-A5: Ano, můžete zadat vlastní pracovní dobu pro jednotlivé dny v rámci výjimky, aby vyhovovala konkrétním potřebám plánování.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

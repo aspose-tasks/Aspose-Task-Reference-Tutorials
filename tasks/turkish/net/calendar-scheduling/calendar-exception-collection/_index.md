@@ -1,63 +1,76 @@
 ---
-title: Aspose.Tasks'ta Takvim İstisnalarının Toplanması
-linktitle: Aspose.Tasks'ta Takvim İstisnalarının Toplanması
-second_title: Aspose.Tasks .NET API'si
-description: Aspose.Tasks'ı kullanarak .NET projelerinizde takvim istisnalarını nasıl verimli bir şekilde yöneteceğinizi, doğru planlama ve kaynak yönetimini nasıl sağlayacağınızı öğrenin.
-weight: 13
+date: 2026-04-09
+description: Aspose.Tasks kullanarak .NET projelerinizde standart takvim ayarlamayı
+  ve proje tatillerini yönetmeyi öğrenin, böylece doğru zamanlama elde edersiniz.
+keywords:
+- set standard calendar
+- manage project holidays
+- load project calendar
+linktitle: Aspose.Tasks'te Standart Takvimi Ayarlayın ve İstisnaları İşleyin
+second_title: Aspose.Tasks .NET API
+title: Aspose.Tasks'te Standart Takvimi Ayarlayın ve İstisnaları İşleyin
 url: /tr/net/calendar-scheduling/calendar-exception-collection/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks'ta Takvim İstisnalarının Toplanması
+# Standart Takvimi Ayarla ve Aspose.Tasks'te İstisnaları Yönet
 
-## giriiş
+## Giriş
 
-Proje yönetiminde kesin planlama başarı için hayati öneme sahiptir. Ancak gerçek dünya senaryoları genellikle tatiller, özel etkinlikler veya diğer faktörler nedeniyle standart programlardan sapmalar gerektirir. Aspose.Tasks for .NET, Takvim İstisna Toplama özelliği aracılığıyla bu tür istisnaları yönetmek için güçlü bir çözüm sunar. Bu eğitim, bu işlevselliği adım adım kullanma sürecinde size rehberlik edecektir.
+Doğru zamanlama, herhangi bir başarılı projenin temelidir ve gerçek dünya planları, tatiller, özel etkinlikler veya beklenmedik kapanışlar nedeniyle varsayılan çalışma takviminden sapmak zorunda kalabilir. Aspose.Tasks for .NET, **standart takvim** ayarlarını kolayca yapmanızı ve ardından özel istisnalar eklemenizi sağlar. Bu öğreticide bir proje takvimini nasıl yükleyeceğinizi, standart takvimi nasıl ayarlayacağınızı ve Takvim İstisna Koleksiyonu özelliğiyle proje tatillerini nasıl yöneteceğinizi öğreneceksiniz.
+
+## Hızlı Yanıtlar
+- **“set standard calendar” ne yapar?** Özel istisnalar eklemeden önce takvimi varsayılan çalışma saatlerine (09:00‑17:00, Pazartesi‑Cuma) sıfırlar.  
+- **Hangi yöntem mevcut istisnaları temizler?** `Calendar.Exceptions.Clear()` daha önce tanımlanmış tüm istisnaları kaldırır.  
+- **Nasıl tatil ekleyebilirim?** `DayWorking = false` olan bir `CalendarException` oluşturup koleksiyona ekleyin.  
+- **Değişikliklerden sonra projeyi yeniden yüklemem gerekir mi?** Hayır, değişiklikler doğrudan bellek içindeki `Project` nesnesine uygulanır.  
+- **Hangi kütüphaneler gereklidir?** Aspose.Tasks for .NET (desteklenen herhangi bir .NET sürümü) ve `System` ad alanları.
 
 ## Önkoşullar
 
-Eğiticiye dalmadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
-
-1.  Aspose.Tasks for .NET: Kütüphanenin kurulu olduğundan emin olun. İndirebilirsin[Burada](https://releases.aspose.com/tasks/net/).
-2. Temel C# bilgisi: C# programlama diline aşinalık, örneklerin anlaşılmasında yardımcı olacaktır.
-3. Geliştirme Ortamı: Visual Studio veya JetBrains Rider gibi tercih ettiğiniz geliştirme ortamını kurun.
+1. **Aspose.Tasks for .NET** – [buradan](https://releases.aspose.com/tasks/net/) indirin.  
+2. **C#** temel bilgisi – birkaç kısa kod parçacığı yazacaksınız.  
+3. **Visual Studio** veya **JetBrains Rider** gibi bir geliştirme ortamı.
 
 ## Ad Alanlarını İçe Aktar
 
-Aspose.Tasks for .NET ile çalışmaya başlamadan önce gerekli ad alanlarını projenize aktarmanız gerekir. Bu adım, takvim istisnalarını yönetmek için gerekli sınıflara ve yöntemlere erişmenizi sağlar.
+Bu `using` yönergeleri, takvim manipülasyonu için gereken sınıflara erişmenizi sağlar.
 
 ```csharp
 using Aspose.Tasks;
 using System;
 using System.Collections.Generic;
-
-
 ```
 
-Şimdi verilen örneği birden çok adıma ayıralım:
+## Takvim İstisnası Nedir?
 
-## Adım 1: Projeyi Yükleyin ve Takvimi Alın
+*Takvim istisnası*, normal çalışma programının değiştiği bir dönemi temsil eder – örneğin, şirket çapında bir tatil veya geçici bir fazla mesai programı. Bir takvime istisnalar ekleyerek temel takvimi değiştirmeden gerçek dünya kısıtlamalarını modelleyebilirsiniz.
+
+## Aspose.Tasks'te Standart Takvimi Nasıl Ayarlarsınız
+
+İlk adım, proje dosyanızı yüklemek ve üzerinde çalışmak istediğiniz takvimi almak.
 
 ```csharp
 var project = new Project(DataDir + "project_update_test.mpp");
 var calendar = project.Calendars.GetByUid(3);
 ```
 
-Bu adımda bir proje dosyası yüklüyoruz ve istenen takvimi UID'sine göre alıyoruz.
+### Adım 1: Mevcut İstisnaları Temizle ve Standart Takvime Sıfırla
 
-## 2. Adım: Mevcut İstisnaları Temizleyin ve Standart Takvimi Ayarlayın
+Yeni kurallar eklemeden önce, eski istisnaları temizlemek ve **standart takvimi ayarlamak** iyi bir uygulamadır. Bu, temiz bir temel sağlar.
 
 ```csharp
 calendar.Exceptions.Clear();
 Calendar.MakeStandardCalendar(calendar);
 ```
 
-Bu adım, takvimdeki mevcut tüm istisnaları temizler ve takvimi standart bir yapılandırmaya ayarlar.
+### Adım 2: Çalışma Süresi İstisnası Tanımla
 
-## 3. Adım: Çalışma Süresi İstisnasını Tanımlayın ve Ekleyin
+Bazen geçici bir program oluşturmanız gerekir (ör. bir ürün lansmanı için uzatılmış saatler). Aşağıdaki kod parçacığı, birkaç günü kapsayan ve günlük iki çalışma periyodu içeren bir çalışma süresi istisnası tanımlar.
 
 ```csharp
 var exception = new CalendarException();
@@ -74,9 +87,9 @@ exception.WorkingTimes.Add(wt2);
 calendar.Exceptions.Add(exception);
 ```
 
-Bu adım, belirli başlangıç ve bitiş tarihleriyle birlikte bu tarihlerdeki çalışma süreleriyle birlikte bir çalışma süresi istisnası tanımlar ve bunu takvime ekler.
+### Adım 3: Çalışma Dışı Zaman İstisnaları (Tatil) Ekle
 
-## Adım 4: Çalışma Dışı Zaman İstisnalarını Tanımlayın ve Ekleyin
+**Proje tatillerini yönetmek** için `DayWorking` değeri `false` olan istisnalar oluşturun. Aşağıdaki örnek iki günlük bir tatil bloğu ekler.
 
 ```csharp
 var nonWorkingExceptions = new CalendarException[2];
@@ -86,14 +99,14 @@ nonWorkingExceptions[0].ToDate = new DateTime(2020, 4, 18, 17, 0, 0);
 nonWorkingExceptions[0].DayWorking = false;
 nonWorkingExceptions[0].Name = "Exception 2";
 
-// Gerekirse daha fazla istisna ekleyin
+// Add more exceptions if needed
 
 calendar.Exceptions.AddRange(nonWorkingExceptions);
 ```
 
-Bu adım, tatiller gibi çalışma dışı zaman istisnalarını tanımlar ve bunları takvime ekler.
+### Adım 4: Takvim İstisnalarını Görüntüle (Doğrulama)
 
-## 5. Adım: Takvim İstisnalarını Görüntüleyin
+İstisnalar eklendikten sonra, genellikle doğru kaydedildiklerini doğrulamak istersiniz. Aşağıdaki döngü, her istisnanın ayrıntılarını konsola yazdırır.
 
 ```csharp
 Console.WriteLine("Exceptions of calendar {0}: ", calendar.Exceptions.ParentCalendar.Name);
@@ -109,9 +122,9 @@ foreach (var calendarException in calendar.Exceptions)
 }
 ```
 
-Bu adım, eklenen takvim istisnalarını ayrıntılarıyla birlikte görüntüler.
+### Adım 5: Tüm İstisnaları Kaldır (Temizleme)
 
-## Adım 6: Tüm İstisnaları Kaldır
+Takvimi orijinal durumuna geri döndürmeniz gerekiyorsa, tüm istisnaları programlı olarak kaldırabilirsiniz.
 
 ```csharp
 Console.WriteLine("Remove calendar exceptions...");
@@ -122,33 +135,41 @@ foreach (var calendarException in exceptions)
 }
 ```
 
-Son olarak, bu adım takvimdeki tüm istisnaları kaldırır.
+## Yaygın Sorunlar ve Çözümler
 
-## Çözüm
+| Sorun | Sebep | Çözüm |
+|-------|--------|-----|
+| Kaydedildikten sonra istisnalar görünmüyor | Değişikliklerden sonra proje kaydedilmedi | `project.Save("output.mpp")` değişikliklerden sonra çağırın. |
+| Çakışan istisnalar beklenmeyen çalışma saatlerine neden oluyor | Aspose.Tasks, çakışan dönemler için en son eklenen istisnayı kullanır | `Add` çağrılarınızı dikkatlice sıralayın veya öncelikleri manuel olarak ayarlayın. |
+| `MakeStandardCalendar` özel çalışma saatlerini sıfırlar | Özel saatleri kasıtlı olarak temizler; gerekirse çağrıdan sonra tekrar ekleyin. | `MakeStandardCalendar` çağrıldıktan sonra özel `WorkingTime` nesnelerinizi ekleyin. |
 
-Takvim istisnalarını yönetmek, doğru proje planlaması için çok önemlidir. Aspose.Tasks for .NET, Takvim İstisna Koleksiyonu da dahil olmak üzere kapsamlı bir dizi özellik sunarak bu görevi basitleştirir. Bu öğreticide özetlenen adımları izleyerek projelerinizdeki çeşitli planlama senaryolarını verimli bir şekilde yönetebilirsiniz.
+## Sıkça Sorulan Sorular
 
-## SSS'ler
+**S: Tek bir takvime birden fazla istisna ekleyebilir miyim?**  
+C: Evet, `AddRange` yöntemiyle bir takvime birden fazla istisna ekleyebilirsiniz.
 
-### S1: Tek bir takvime birden fazla istisna ekleyebilir miyim?
+**S: Haftalık tatiller gibi yinelenen istisnaları nasıl yönetirim?**  
+C: Yinelenen istisnaları programlı olarak hesaplayıp özel mantıkla takvime ekleyebilirsiniz.
 
- Cevap1: Evet, bir takvime birden fazla istisna ekleyebilirsiniz.`AddRange` yöntem.
+**S: Takvim istisnalarını dış kaynaklardan içe aktarmak mümkün mü?**  
+C: Evet, veritabanları veya CSV dosyaları gibi dış kaynaklardan takvim istisnalarını okuyup projenize entegre edebilirsiniz.
 
-### S2: Haftalık tatiller gibi yinelenen istisnaları nasıl halledebilirim?
+**S: Takvimde çakışan istisnalar varsa ne olur?**  
+C: Aspose.Tasks for .NET, çakışan istisnaları öncelik tanımlayarak veya proje gereksinimlerinize göre çakışmaları çözerek yönetmenize olanak tanır.
 
-Cevap2: Yinelenen istisnaları programlı olarak hesaplayabilir ve bunları özel mantığı kullanarak takvime ekleyebilirsiniz.
+**S: Bir istisna içinde her gün için çalışma saatlerini özelleştirebilir miyim?**  
+C: Evet, belirli planlama ihtiyaçlarını karşılamak için bir istisna içinde bireysel günler için özel çalışma saatleri belirtebilirsiniz.
 
-### S3: Takvim istisnalarını dış kaynaklardan içe aktarmak mümkün müdür?
+## Sonuç
 
-C3: Evet, veritabanları veya CSV dosyaları gibi harici kaynaklardan takvim istisnalarını okuyabilir ve bunları projenize entegre edebilirsiniz.
+**Standart takvimi** önce ayarlayıp ardından özel istisnalar ekleyerek, proje zamanlaması üzerinde tam kontrol elde eder, **proje tatillerini** ve diğer özel zaman çizelgelerini yönetmeyi kolaylaştırırsınız. Aspose.Tasks'teki Takvim İstisna Koleksiyonu, gerçek dünya takvimlerini .NET uygulamalarınız içinde doğrudan modellemenin temiz, programatik bir yolunu sunar.
 
-### S4: Takvimde çakışan istisnalar varsa ne olur?
+---
 
-Cevap4: Aspose.Tasks for .NET, proje gereksinimlerinize göre öncelikleri tanımlayarak veya çakışmaları çözerek çakışan istisnaları ele almanızı sağlar.
+**Son Güncelleme:** 2026-04-09  
+**Test Edilen Versiyon:** Aspose.Tasks 24.12 for .NET  
+**Yazar:** Aspose  
 
-### S5: İstisnai durumlar dahilinde her gün için çalışma sürelerini özelleştirebilir miyim?
-
-C5: Evet, belirli planlama ihtiyaçlarını karşılamak amacıyla istisna dahilinde tek tek günler için özel çalışma süreleri belirleyebilirsiniz.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

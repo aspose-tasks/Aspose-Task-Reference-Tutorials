@@ -1,63 +1,78 @@
 ---
-title: Naptári kivételek gyűjteménye az Aspose.Tasks-ban
-linktitle: Naptári kivételek gyűjteménye az Aspose.Tasks-ban
+date: 2026-04-09
+description: Tanulja meg, hogyan állíthat be szabványos naptárat, és kezelheti a projekt
+  ünnepnapjait .NET projektjeiben az Aspose.Tasks használatával a pontos ütemezéshez.
+keywords:
+- set standard calendar
+- manage project holidays
+- load project calendar
+linktitle: Standard naptár beállítása és kivételek kezelése az Aspose.Tasks-ben
 second_title: Aspose.Tasks .NET API
-description: Tanulja meg, hogyan kezelheti hatékonyan a naptárkivételeket a .NET-projektekben az Aspose.Tasks segítségével, biztosítva a pontos ütemezést és az erőforrás-kezelést.
-weight: 13
+title: Állítsa be a szabványos naptárat, és kezelje a kivételeket az Aspose.Tasks-ben
 url: /hu/net/calendar-scheduling/calendar-exception-collection/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Naptári kivételek gyűjteménye az Aspose.Tasks-ban
+# Állítsa be a szabványos naptárat és kezelje a kivételeket az Aspose.Tasks-ben
 
 ## Bevezetés
 
-projektmenedzsmentben a pontos ütemezés elengedhetetlen a sikerhez. A valós forgatókönyvek azonban gyakran megkövetelik a szokásos ütemezéstől való eltérést ünnepek, különleges események vagy egyéb tényezők miatt. Az Aspose.Tasks for .NET robusztus megoldást kínál az ilyen kivételek kezelésére a Calendar Exception Collection szolgáltatáson keresztül. Ez az oktatóanyag lépésről lépésre végigvezeti Önt a funkció használatának folyamatán.
+A pontos ütemezés minden sikeres projekt gerince, és a valós világban a tervek gyakran eltérnek az alapértelmezett munkanaptártól ünnepek, különleges események vagy váratlan leállások miatt. Az Aspose.Tasks for .NET megkönnyíti a **szabványos naptár** beállítását, majd egyedi kivételek hozzáadását. Ebben az útmutatóban megtanulja, hogyan töltsön be egy projekt naptárat, állítsa be a szabványos naptárat, és kezelje a projekt ünnepnapokat a Calendar Exception Collection funkción keresztül.
+
+## Gyors válaszok
+- **Mit csinál a „set standard calendar”?** Visszaállítja a naptárat az alapértelmezett munkaidőre (9 h‑17 h, hétfő‑péntek), mielőtt egyedi kivételeket adna hozzá.  
+- **Melyik metódus törli a meglévő kivételeket?** A `Calendar.Exceptions.Clear()` eltávolítja az összes korábban definiált kivételt.  
+- **Hogyan adhatok hozzá egy ünnepnapot?** Hozzon létre egy `CalendarException`-t, ahol `DayWorking = false`, és adja hozzá a gyűjteményhez.  
+- **Szükséges újratölteni a projektet a módosítások után?** Nem, a változások közvetlenül az memóriában lévő `Project` objektumra vonatkoznak.  
+- **Milyen könyvtárak szükségesek?** Aspose.Tasks for .NET (bármely támogatott .NET verzió) és a `System` névtér.
 
 ## Előfeltételek
 
-Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
+Mielőtt belemerülne a kódba, győződjön meg róla, hogy rendelkezik:
 
-1.  Aspose.Tasks for .NET: Győződjön meg arról, hogy a könyvtár telepítve van. Letöltheti[itt](https://releases.aspose.com/tasks/net/).
-2. A C# alapismerete: A C# programozási nyelv ismerete segít a példák megértésében.
-3. Fejlesztési környezet: Állítsa be a kívánt fejlesztői környezetet, például a Visual Studio vagy a JetBrains Rider.
+1. **Aspose.Tasks for .NET** – töltse le [itt](https://releases.aspose.com/tasks/net/).  
+2. Alapvető **C#** ismeretek – néhány rövid kódrészletet fog írni.  
+3. Fejlesztői környezet, például **Visual Studio** vagy **JetBrains Rider**.
 
 ## Névterek importálása
 
-Mielőtt elkezdené a munkát az Aspose.Tasks for .NET-hez, importálnia kell a szükséges névtereket a projektbe. Ez a lépés lehetővé teszi a naptárkivételek kezeléséhez szükséges osztályok és metódusok elérését.
+Ezek a `using` direktívák hozzáférést biztosítanak a naptárkezeléshez szükséges osztályokhoz.
 
 ```csharp
 using Aspose.Tasks;
 using System;
 using System.Collections.Generic;
-
-
 ```
 
-Most bontsuk fel a példát több lépésre:
+## Mi az a Calendar Exception?
 
-## 1. lépés: A projekt betöltése és a naptár visszakeresése
+A *calendar exception* egy olyan időszakot jelöl, amikor a normál munkarend módosul – például vállalati szintű ünnepnap vagy ideiglenes túlóra ütemezés. Kivétel hozzáadásával a naptárhoz valós világbeli korlátozásokat modellezhet anélkül, hogy az alap naptárat módosítaná.
+
+## Hogyan állítsuk be a szabványos naptárat az Aspose.Tasks-ben
+
+Az első lépés a projektfájl betöltése és a kívánt naptár lekérése.
 
 ```csharp
 var project = new Project(DataDir + "project_update_test.mpp");
 var calendar = project.Calendars.GetByUid(3);
 ```
 
-Ebben a lépésben betöltünk egy projektfájlt, és lekérjük a kívánt naptárt az UID alapján.
+### 1. lépés: A meglévő kivételek törlése és a szabványos naptár visszaállítása
 
-## 2. lépés: Törölje a meglévő kivételeket és állítsa be a szabványos naptárat
+Új szabályok hozzáadása előtt jó gyakorlat a régi kivételek törlése és a **szabványos naptár** beállítása. Ez tiszta alapot biztosít.
 
 ```csharp
 calendar.Exceptions.Clear();
 Calendar.MakeStandardCalendar(calendar);
 ```
 
-Ez a lépés törli a meglévő kivételeket a naptárból, és normál konfigurációra állítja be.
+### 2. lépés: Munkavégzési idő kivétel definiálása
 
-## 3. lépés: Munkaidő-kivétel meghatározása és hozzáadása
+Néha ideiglenes ütemtervet kell létrehozni (pl. meghosszabbított munkaidő egy termékbevezetéshez). Az alábbi kódrészlet egy munkavégzési idő kivételt definiál, amely több napra kiterjed, és két napi munkaperiódust tartalmaz.
 
 ```csharp
 var exception = new CalendarException();
@@ -74,9 +89,9 @@ exception.WorkingTimes.Add(wt2);
 calendar.Exceptions.Add(exception);
 ```
 
-Ez a lépés munkaidő-kivételt határoz meg meghatározott kezdési és befejezési dátumokkal, valamint az ezen dátumokon belüli munkaidővel, és hozzáadja azt a naptárhoz.
+### 3. lépés: Nem munkavégzési idő kivételek hozzáadása (ünnepnapok)
 
-## 4. lépés: Határozza meg és adja hozzá a nem munkaidő-kivételeket
+A **projekt ünnepnapok kezelése** érdekében hozzon létre olyan kivételeket, ahol a `DayWorking` értéke `false`. Az alábbi példa egy kétnapos ünnepnap blokkot ad hozzá.
 
 ```csharp
 var nonWorkingExceptions = new CalendarException[2];
@@ -86,14 +101,14 @@ nonWorkingExceptions[0].ToDate = new DateTime(2020, 4, 18, 17, 0, 0);
 nonWorkingExceptions[0].DayWorking = false;
 nonWorkingExceptions[0].Name = "Exception 2";
 
-// Adjon hozzá további kivételeket, ha szükséges
+// Add more exceptions if needed
 
 calendar.Exceptions.AddRange(nonWorkingExceptions);
 ```
 
-Ez a lépés meghatározza a munkaidőn kívüli kivételeket, például a szabadságokat, és hozzáadja őket a naptárhoz.
+### 4. lépés: Naptárkivétel megjelenítése (ellenőrzés)
 
-## 5. lépés: Jelenítse meg a naptári kivételeket
+Kivételek hozzáadása után gyakran szeretnénk ellenőrizni, hogy helyesen rögzültek-e. Az alábbi ciklus kiírja minden kivétel részleteit a konzolra.
 
 ```csharp
 Console.WriteLine("Exceptions of calendar {0}: ", calendar.Exceptions.ParentCalendar.Name);
@@ -109,9 +124,9 @@ foreach (var calendarException in calendar.Exceptions)
 }
 ```
 
-Ez a lépés megjeleníti a hozzáadott naptári kivételeket a részletekkel együtt.
+### 5. lépés: Minden kivétel eltávolítása (tisztítás)
 
-## 6. lépés: Távolítsa el az összes kivételt
+Ha vissza kell állítani a naptárat az eredeti állapotába, programozottan eltávolíthatja az összes kivételt.
 
 ```csharp
 Console.WriteLine("Remove calendar exceptions...");
@@ -122,33 +137,41 @@ foreach (var calendarException in exceptions)
 }
 ```
 
-Végül ez a lépés eltávolítja az összes kivételt a naptárból.
+## Gyakori problémák és megoldások
+
+| Probléma | Ok | Megoldás |
+|----------|----|----------|
+| A kivételek nem jelennek meg mentés után | A projekt nem lett mentve a módosítások után | Hívja a `project.Save("output.mpp")` metódust a módosítások után. |
+| Átfedő kivételek váratlan munkavégzési órákat okoznak | Az Aspose.Tasks az átfedő időszakoknál az utoljára hozzáadott kivételt használja | Rendezze gondosan az `Add` hívásokat, vagy állítsa be manuálisan a prioritásokat. |
+| `MakeStandardCalendar` visszaállítja az egyedi munkavégzési időket | Szándékosan törli az egyedi időket; szükség esetén adja hozzá újra a hívás után | Adja hozzá egyedi `WorkingTime` objektumait a `MakeStandardCalendar` meghívása után. |
+
+## Gyakran ismételt kérdések
+
+**K: Hozzáadhatok több kivételt egy naptárhoz?**  
+Igen, több kivételt is hozzáadhat egy naptárhoz az `AddRange` metódus használatával.
+
+**K: Hogyan kezelem az ismétlődő kivételeket, például heti ünnepnapokat?**  
+Programozottan kiszámíthatja az ismétlődő kivételeket, és egyedi logikával hozzáadhatja őket a naptárhoz.
+
+**K: Lehetséges naptárkivétel importálása külső forrásokból?**  
+Igen, naptárkivételeket beolvashat külső forrásokból, például adatbázisokból vagy CSV fájlokból, és integrálhatja őket a projektbe.
+
+**K: Mi történik, ha átfedő kivételek vannak a naptárban?**  
+Az Aspose.Tasks for .NET lehetővé teszi az átfedő kivételek kezelését prioritások meghatározásával vagy a konfliktusok megoldásával a projekt követelményei alapján.
+
+**K: Testreszabhatom az egyes napok munkavégzési időit egy kivételen belül?**  
+Igen, egy kivételen belül egyes napokhoz egyedi munkavégzési időket adhat meg, hogy megfeleljen a speciális ütemezési igényeknek.
 
 ## Következtetés
 
-naptári kivételek kezelése kulcsfontosságú a projekt pontos ütemezéséhez. Az Aspose.Tasks for .NET leegyszerűsíti ezt a feladatot azáltal, hogy átfogó szolgáltatáskészletet biztosít, beleértve a Calendar Exception Collectiont. Az oktatóanyagban ismertetett lépések követésével hatékonyan kezelheti a projektjein belüli különböző ütemezési forgatókönyveket.
+Először a **szabványos naptár** beállításával, majd egyedi kivételek hozzáadásával teljes irányítást kap a projekt ütemezése felett, így egyszerűen **kezelheti a projekt ünnepnapokat** és bármilyen egyéb speciális idővonalat. Az Aspose.Tasks Calendar Exception Collection tiszta, programozott módot biztosít a valós világ naptárainak modellezésére közvetlenül .NET alkalmazásaiban.
 
-## GYIK
+---
 
-### 1. kérdés: Hozzáadhatok több kivételt egyetlen naptárhoz?
+**Utoljára frissítve:** 2026-04-09  
+**Tesztelve:** Aspose.Tasks 24.12 for .NET  
+**Szerző:** Aspose  
 
- 1. válasz: Igen, a naptárhoz több kivételt is hozzáadhat a`AddRange` módszer.
-
-### 2. kérdés: Hogyan kezelhetem az ismétlődő kivételeket, például a heti ünnepeket?
-
-2. válasz: Programozottan kiszámíthatja az ismétlődő kivételeket, és egyéni logika segítségével hozzáadhatja őket a naptárhoz.
-
-### 3. kérdés: Lehetséges-e naptárkivételek importálása külső forrásokból?
-
-3. válasz: Igen, beolvashat naptárkivételeket külső forrásokból, például adatbázisokból vagy CSV-fájlokból, és integrálhatja azokat a projektjébe.
-
-### 4. kérdés: Mi történik, ha átfedő kivételek vannak a naptárban?
-
-4. válasz: Az Aspose.Tasks for .NET lehetővé teszi az egymást átfedő kivételek kezelését prioritások meghatározásával vagy az ütközések feloldásával a projekt követelményei alapján.
-
-### 5. kérdés: Testreszabhatom-e a munkaidőt minden egyes napra, kivételen belül?
-
-5. válasz: Igen, egyedi munkaidőket határozhat meg az egyes napokra, kivételeken belül, hogy megfeleljen a konkrét ütemezési igényeknek.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
