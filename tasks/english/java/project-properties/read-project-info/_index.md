@@ -5,7 +5,11 @@ second_title: Aspose.Tasks Java API
 description: Learn how to read project information, including schedule from start, using Aspose.Tasks for Java. Discover how to extract project properties in Java quickly.
 weight: 11
 url: /java/project-properties/read-project-info/
-date: 2025-12-31
+date: 2026-04-24
+keywords:
+- how to read project
+- Aspose.Tasks Java
+- read project properties
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -22,7 +26,11 @@ If you need to **how to read project** details such as start dates, finish dates
 - **Which property tells if the schedule is based on start?** `Prj.SCHEDULE_FROM_START` – true means schedule from start, false means from finish.  
 - **Can I extract project properties in Java?** Yes, you can read start date, finish date, current date, status date, and calendar name.  
 - **Do I need a license for development?** A free temporary license works for evaluation; a full license is required for production.  
-- **What Java version is required?** Java 8 or higher with the Aspose.Tasks JAR on the classpath.
+- **What Java version is required?** Java 8 or higher with the Aspose.Tasks JAR on the classpath.  
+- **Is there a way to load the file in read‑only mode?** Yes—use `new Project(filePath, new LoadOptions())` and set `ReadOnly` to true to reduce memory usage.
+
+## Why use Aspose.Tasks for Java to read project information?
+Reading project data directly from an MPP file lets you automate reporting, feed dashboards, or integrate project schedules into custom business logic without manual export steps. Aspose.Tasks handles all Microsoft Project versions, so you get a reliable, version‑agnostic solution that works on any platform supporting Java.
 
 ## Prerequisites
 Before you begin, make sure you have:
@@ -87,32 +95,32 @@ System.out.println("Calendar: " + project.get(Prj.CALENDAR).getName());
 ## Frequently Asked Questions
 
 ### Q: Can I use Aspose.Tasks for Java with any version of Microsoft Project files?
-A: Yes, Aspose.Tasks for Java supports various versions of Microsoft Project files, including MPP and XML formats.
+**A:** Yes, Aspose.Tasks for Java supports various versions of Microsoft Project files, including MPP and XML formats.
 
 ### Q: Is Aspose.Tasks for Java compatible with all Java development environments?
-A: Aspose.Tasks for Java is compatible with most Java development environments, ensuring flexibility in integration.
+**A:** Aspose.Tasks for Java is compatible with most Java development environments, ensuring flexibility in integration.
 
 ### Q: Does Aspose.Tasks for Java provide support for manipulating project data beyond reading information?
-A: Absolutely, Aspose.Tasks for Java offers extensive functionalities for manipulating project data, including editing, saving, and exporting.
+**A:** Absolutely, Aspose.Tasks for Java offers extensive functionalities for manipulating project data, including editing, saving, and exporting.
 
 ### Q: Can I automate the extraction of project information using Aspose.Tasks for Java?
-A: Yes, Aspose.Tasks for Java allows for automation through its comprehensive API, enabling streamlined processes for data extraction and analysis.
+**A:** Yes, Aspose.Tasks for Java allows for automation through its comprehensive API, enabling streamlined processes for data extraction and analysis.
 
 ### Q: Is there a community forum or support channel available for Aspose.Tasks for Java users?
-A: Yes, you can find helpful resources and engage with the community on the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
+**A:** Yes, you can find helpful resources and engage with the community on the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
 
 ### Q: How do I read project properties in Java without loading the entire task tree?
-A: Use the `Project.get` method with the required `Prj` enumeration values; this retrieves only the requested metadata, keeping memory usage low.
+**A:** Use the `Project.get` method with the required `Prj` enumeration values; this retrieves only the requested metadata, keeping memory usage low.
 
 ### Q: What is the best way to handle large MPP files when extracting properties?
-A: Load the project in *read‑only* mode (`new Project(filePath, LoadOptions)`) and query only the needed properties to avoid high memory consumption.
+**A:** Load the project in *read‑only* mode (`new Project(filePath, LoadOptions)`) and query only the needed properties to avoid high memory consumption.
 
 ## Conclusion
 By following this guide you now know **how to read project** information such as schedule origin, dates, and calendar details using Aspose.Tasks for Java. Incorporating these snippets into your applications enables automated reporting, custom dashboards, and smarter decision‑making without manual interaction with Microsoft Project.
 
 ---
 
-**Last Updated:** 2025-12-31  
+**Last Updated:** 2026-04-24  
 **Tested With:** Aspose.Tasks for Java 24.10  
 **Author:** Aspose  
 
