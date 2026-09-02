@@ -1,5 +1,5 @@
 ---
-title: How to Use Aspose.Tasks – Repetition by Year Week Day
+title: Implement Repetition by Year Week Day in .NET
 linktitle: Repetition by Year Week Day in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn how to use Aspose.Tasks to add recurring task project and save project as MPP. This guide shows the Repetition by Year Week Day feature step‑by‑step.
@@ -53,7 +53,7 @@ Now that you’re set, let’s see the implementation.
 
 ## How to Use Aspose.Tasks for Recurring Tasks
 
-### Importing Necessary Namespaces
+### Importing necessary namespaces
 
 First, bring the required namespaces into scope so you can work with projects, tasks, and saving options.
 
@@ -64,7 +64,7 @@ using System;
 using Aspose.Tasks.Saving;
 ```
 
-### Step 1: Initialize Project and Task Parameters
+### Step 1: initialize project and task parameters
 
 Create a new `Project` instance, then define a `RecurringTaskParameters` object that describes the recurrence pattern.
 
@@ -93,7 +93,7 @@ var parameters = new RecurringTaskParameters
 
 > **Pro tip:** Adjust `Month`, `WeekDay`, and `Position` to match your real‑world schedule.
 
-### Step 2: Add Parameters to Project
+### Step 2: add parameters to project
 
 Insert the recurring task definition into the root of the project.
 
@@ -111,7 +111,7 @@ project.Save(DataDir + "CanAddRecurringTask_Years_YearWeekDay_EndByRecurrenceRan
 
 > This demonstrates **save project as mpp** in a single line of code.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Symptom | Likely Cause | Fix |
 |---------|--------------|-----|
@@ -119,7 +119,7 @@ project.Save(DataDir + "CanAddRecurringTask_Years_YearWeekDay_EndByRecurrenceRan
 | Exception `ArgumentNullException` on `Add` | `parameters` is null or not fully initialized | Ensure all required properties (TaskName, Duration, RecurrencePattern) are set |
 | Wrong weekday selected | `WeekDay` enum value mismatch | Use `DayOfWeek.Monday` … `DayOfWeek.Sunday` as needed |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I customize the recurrence pattern beyond the provided example?**  
 A: Yes, Aspose.Tasks lets you combine `MonthlyRecurrencePattern`, `WeeklyRecurrencePattern`, or even custom `RecurrenceRange` objects to fit any schedule.

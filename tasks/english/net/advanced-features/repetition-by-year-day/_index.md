@@ -1,5 +1,5 @@
 ---
-title: "Project Management Task Scheduling with Year Day Repetition in Aspose.Tasks"
+title: "Add Recurring Task with Year‑Day Repetition Using Aspose.Tasks for .NET"
 linktitle: Repetition by Year Day in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Learn project management task scheduling and how to add recurring task using Aspose.Tasks for .NET, including saving project as MPP.
@@ -53,7 +53,7 @@ Now, let's break down the provided example into multiple steps and elucidate eac
 
 ## How to Add Recurring Task with Year Day Pattern
 
-### Step 1: Load Project File
+### Step 1: load project file
 
 ```csharp
 // The path to th documents directory.
@@ -63,7 +63,7 @@ var project = new Project(DataDir + "Project1.mpp");
 
 Here, we initialize a new `Project` object and load an existing project file named **Project1.mpp**.
 
-### Step 2: Define Recurring Task Parameters
+### Step 2: define recurring task parameters
 
 ```csharp
 var parameters = new RecurringTaskParameters
@@ -84,7 +84,7 @@ var parameters = new RecurringTaskParameters
 
 In this step, we define parameters for our recurring task. We specify the task name, duration, and recurrence pattern. For yearly recurrence, we use the `YearlyRecurrencePattern` and set the repetition to occur on the **1st day of July** using `ByYearDayRepetition`. Additionally, we define the recurrence range from July 1 2018 to July 1 2019.
 
-### Step 3: Add Task to Project
+### Step 3: add task to project
 
 ```csharp
 project.RootTask.Children.Add(parameters);
@@ -100,19 +100,19 @@ project.Save(DataDir + "CanAddRecurringTask_Years_YearDay_EndByRecurrenceRange_T
 
 Finally, we **save the project as an MPP file**, making it ready for opening in Microsoft Project or any compatible viewer.
 
-## Why This Matters
+## Why this matters
 
 - **Automation** – Eliminates manual entry of yearly tasks, reducing human error.  
 - **Consistency** – Guarantees that the same day‑month pattern is applied across multiple years.  
 - **Integration** – The resulting MPP file can be shared with stakeholders who rely on Microsoft Project.  
 
-## Common Pitfalls & Tips
+## Common pitfalls & tips
 
 - **DateTime precision** – Ensure the start time aligns with your project calendar; otherwise, the task may appear offset.  
 - **Time zones** – The API works with `DateTime` objects; consider UTC conversion if your application spans multiple regions.  
 - **License enforcement** – In evaluation mode, the saved MPP may contain a watermark; use a valid license for production.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can Aspose.Tasks handle complex recurrence patterns?**  
 A: Yes, Aspose.Tasks provides comprehensive support for various recurrence patterns, including yearly, monthly, weekly, and daily repetitions.

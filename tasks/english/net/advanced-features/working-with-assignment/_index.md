@@ -1,6 +1,6 @@
 ---
-title: How to Set Contour: Working with Assignment in Aspose.Tasks
-linktitle: How to Set Contour: Working with Assignment in Aspose.Tasks
+title: 'Setting Contour on Resource Assignments in .NET'
+linktitle: 'Setting Contour on Resource Assignments in .NET'
 second_title: Aspose.Tasks .NET API
 description: Learn how to set contour for resource assignments in .NET using Aspose.Tasks. Explore project management API features and add resource to task.
 weight: 13
@@ -54,7 +54,7 @@ using Aspose.Tasks.Util;
 
 Below we walk through the complete workflow—from creating a project to changing the contour type. The steps are written in a conversational style so you can follow along easily.
 
-### Step 1: Create a Project, Set Task Duration, and Define Dates  
+### Step 1: create a project, set task duration, and define dates
 
 Creating a project and setting the task duration is the first building block of any **project management API** usage.
 
@@ -69,7 +69,7 @@ task.Set(Tsk.Duration, project.GetDuration(8, TimeUnitType.Hour));
 task.Set(Tsk.Finish, new DateTime(2000, 1, 3, 17, 0, 0));
 ```
 
-### Add Resource to Task (Resource Assignment Example)
+### Add resource to task (Resource assignment example)
 
 Now we add a resource and bind it to the task—this is the classic **resource assignment example**.
 
@@ -96,7 +96,7 @@ foreach (var td in collection)
 }
 ```
 
-### Step 4: Change Contours and Generate Data  
+### Step 4: change contours and generate data
 
 You can switch to any of the built‑in contour types (Turtle, Bell, Peak, etc.) by setting `Asn.WorkContour`. Below is a quick example for the Turtle contour; repeat the block for other contours as needed.
 
@@ -107,7 +107,7 @@ resourceAssignment.Set(Asn.WorkContour, WorkContourType.Turtle);
 // Repeat this step for other contour types
 ```
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Why it Happens | Fix |
 |-------|----------------|-----|
@@ -127,7 +127,7 @@ A1: Yes, Aspose.Tasks provides comprehensive APIs for task scheduling and manage
 
 ### Q2: Is there a free trial available for Aspose.Tasks?
 
-A2: Yes, you can avail of a free trial from [here](https://releases.aspose.com/).
+A2: Yes, you can avail of a free trial from the [Aspose.Tasks free trial page](https://releases.aspose.com/).
 
 ### Q3: Are there any limitations on the number of tasks or resources in Aspose.Tasks?
 
@@ -141,7 +141,7 @@ A4: Yes, as demonstrated in this tutorial, you can set various contours such as 
 
 A5: You can find support on the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) where experts and community members actively engage in discussions.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: How do I retrieve the total work for a specific contour?**  
 A: After setting the contour, call `task.GetTimephasedData(start, finish)` and sum the `Value` property of each returned `TimephasedData` item.
