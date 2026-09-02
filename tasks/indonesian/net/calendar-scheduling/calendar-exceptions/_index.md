@@ -1,43 +1,63 @@
 ---
-title: Menangani Pengecualian Kalender di Aspose.Tasks
-linktitle: Menangani Pengecualian Kalender di Aspose.Tasks
-second_title: Aspose.Tugas .NET API
-description: Pelajari cara mengelola pengecualian kalender di Aspose.Tasks untuk .NET dengan tutorial langkah demi langkah dan contoh.
-weight: 12
+date: 2026-04-13
+description: Pelajari cara menghapus pengecualian kalender di Aspose.Tasks untuk .NET
+  dan memeriksa tanggal pengecualian saat mengelola penjadwalan kalender ASP.NET.
+keywords:
+- delete calendar exception
+- asp.net calendar scheduling
+- check exception date
+linktitle: Hapus Pengecualian Kalender dengan Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+title: Hapus Pengecualian Kalender dengan Aspose.Tasks
 url: /id/net/calendar-scheduling/calendar-exceptions/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Menangani Pengecualian Kalender di Aspose.Tasks
+# Hapus Pengecualian Kalender dengan Aspose.Tasks
 
-## Perkenalan
+## Pendahuluan
 
-Dalam tutorial ini, kita akan mempelajari cara mengelola pengecualian kalender di Aspose.Tasks menggunakan kerangka .NET. Pengecualian kalender memungkinkan kami menentukan tanggal atau periode khusus dalam kalender proyek di mana jadwal kerja reguler diubah, seperti hari libur atau penutupan sementara. Kami akan membahas berbagai metode untuk menangani pengecualian kalender langkah demi langkah, menggunakan Aspose.Tasks untuk .NET.
+Dalam tutorial ini, Anda akan belajar cara **menghapus pengecualian kalender** dan mengelola pengecualian kalender lainnya di Aspose.Tasks menggunakan kerangka kerja .NET. Pengecualian kalender memungkinkan Anda memodelkan hari libur, penutupan sementara, atau periode khusus apa pun di mana jadwal kerja normal berubah. Memahami cara menambahkan, menanyakan, dan menghapus pengecualian ini sangat penting untuk penjadwalan proyek yang akurat, terutama saat bekerja dengan skenario **penjadwalan kalender ASP.NET**.
+
+## Jawaban Cepat
+- **Apa metode utama untuk menghapus pengecualian?** Gunakan metode `Delete()` pada objek `CalendarException`.  
+- **Kelas mana yang memeriksa tanggal terhadap pengecualian?** `CalendarException.CheckException()`—berguna untuk **memeriksa tanggal pengecualian**.  
+- **Apakah saya memerlukan lisensi untuk menjalankan kode?** Ya, lisensi Aspose.Tasks yang valid diperlukan untuk penggunaan produksi.  
+- **Bisakah saya menambahkan beberapa pengecualian ke satu kalender?** Tentu saja; koleksi `Exceptions` mendukung banyak entri.  
+- **Versi .NET yang didukung?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+
+## Apa itu Pengecualian Kalender?
+
+**Pengecualian kalender** mewakili penyimpangan dari kalender kerja reguler—bayangkan sebagai aturan yang menyatakan “pada tanggal-tanggal ini, jam kerja berbeda atau tidak ada sama sekali.” Di Aspose.Tasks, setiap pengecualian dapat memiliki waktu kerja sendiri, pola berulang, dan flag yang menunjukkan apakah hari tersebut merupakan hari kerja.
+
+## Mengapa Mengelola Pengecualian Kalender dalam Penjadwalan Kalender ASP.NET?
+
+- **Garis waktu yang akurat:** Proyek secara otomatis menghormati hari libur dan penutupan khusus, mencegah tenggat waktu yang tidak realistis.  
+- **Fleksibilitas:** Anda dapat mendefinisikan pola harian, mingguan, bulanan, atau tahunan, menyesuaikan dengan kalender bisnis dunia nyata.  
+- **Otomatisasi:** Memeriksa tanggal pengecualian secara programatik memungkinkan Anda membangun logika penjadwalan dinamis dalam aplikasi ASP.NET.
 
 ## Prasyarat
 
-Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
-- Pengetahuan dasar bahasa pemrograman C#.
-- Visual Studio diinstal pada sistem Anda.
-- Aspose.Tasks untuk perpustakaan .NET ditambahkan ke proyek Anda.
+- Pengetahuan dasar pemrograman C#.  
+- Visual Studio (versi terbaru apa pun).  
+- Perpustakaan Aspose.Tasks untuk .NET ditambahkan ke proyek Anda (melalui NuGet atau referensi manual).  
 
 ## Impor Namespace
 
-Pertama, mari impor namespace yang diperlukan untuk proyek kita:
+Pertama, impor namespace yang Anda perlukan:
 
 ```csharp
 using Aspose.Tasks;
 using System;
-
-
 ```
 
-## Langkah 1: Menghapus Pengecualian Kalender
+## Langkah 1: Hapus Pengecualian Kalender
 
-Untuk menghapus pengecualian kalender, ikuti langkah-langkah berikut:
+Menghapus pengecualian yang tidak diinginkan sangat mudah. Kode berikut memuat proyek, memilih kalender pertama, menampilkan info dasar, menghapus pengecualian pertama, dan kemudian menunjukkan jumlah yang diperbarui.
 
 ```csharp
 public void CalendarExceptionDelete()
@@ -45,20 +65,22 @@ public void CalendarExceptionDelete()
     var project = new Project(DataDir + "CalendarExceptions.mpp");
     var calendar = project.Calendars.ToList()[0];
 
-    // Menampilkan informasi kalender
+    // Display calendar information
     Console.WriteLine("Calendar Name: " + calendar.Name);
     Console.WriteLine("Calendar Exception Count: " + calendar.Exceptions.Count);
 
-    // Hapus pengecualian pertama
+    // Remove the first exception
     calendar.Exceptions[0].Delete();
 
     Console.WriteLine("Calendar Exception Count after Deletion: " + calendar.Exceptions.Count);
 }
 ```
 
-## Langkah 2: Mendapatkan Waktu Kerja dari Pengecualian Kalender
+> **Pro tip:** Selalu verifikasi bahwa indeks pengecualian ada sebelum memanggil `Delete()` untuk menghindari `IndexOutOfRangeException`.
 
-Untuk mengambil waktu kerja pengecualian kalender, ikuti langkah-langkah berikut:
+## Langkah 2: Dapatkan Waktu Kerja dari Pengecualian Kalender
+
+Jika Anda perlu memeriksa jam kerja yang didefinisikan untuk sebuah pengecualian, gunakan `GetWorkingTime()`. Contoh ini juga menunjukkan cara **memeriksa tanggal pengecualian** dengan `CheckException`.
 
 ```csharp
 [Test]
@@ -68,12 +90,12 @@ public void CalendarExceptionGetWorkingTime()
     var calendar = project.Calendars.ToList()[0];
     var exception = calendar.Exceptions[0];
 
-    // Menampilkan informasi kalender dan pengecualian
+    // Display calendar and exception information
     Console.WriteLine("Calendar Name: " + calendar.Name);
     Console.WriteLine("Calendar Exception Count: " + calendar.Exceptions.Count);
     Console.WriteLine("Calendar Exception Name: " + exception.Name);
 
-    // Dapatkan waktu kerja dan tampilkan detail
+    // Get working time and display details
     var workingTime = exception.GetWorkingTime();
     Console.WriteLine("Exception Working Time: " + workingTime);
 
@@ -85,9 +107,9 @@ public void CalendarExceptionGetWorkingTime()
 }
 ```
 
-## Langkah 3: Menentukan Pengecualian Kalender
+## Langkah 3: Definisikan Pengecualian Kalender
 
-Untuk menambah atau menghapus pengecualian kalender, ikuti langkah-langkah berikut:
+Berikut adalah contoh lengkap yang menunjukkan cara **menambah**, **memeriksa**, dan **menghapus** pengecualian kalender. Perhatikan penggunaan `CheckException` untuk **memeriksa tanggal pengecualian** pada momen tertentu.
 
 ```csharp
 [Test]
@@ -96,10 +118,10 @@ public void DefineCalendarExceptions()
     var project = new Project(DataDir + "project_test.mpp");
     var calendar = project.Calendars.Add("Calendar1");
 
-    // Buat pengecualian kalender baru
+    // Create a new calendar exception
     var exception = new CalendarException();
     exception.Name = "New Calendar Exception";
-    // Tetapkan detail pengecualian
+    // Set exception details
     exception.EnteredByOccurrences = false;
     exception.FromDate = new DateTime(2009, 12, 24, 0, 0, 0);
     exception.ToDate = new DateTime(2009, 12, 31, 23, 59, 0);
@@ -107,13 +129,13 @@ public void DefineCalendarExceptions()
     exception.Month = Month.December;
     exception.DayWorking = false;
 
-    // Periksa apakah suatu tanggal merupakan pengecualian
+    // Check if a date is an exception (check exception date)
     Console.WriteLine("Is date an exception date: " + exception.CheckException(new DateTime(2009, 12, 26, 8, 0, 0)));
 
-    // Tambahkan pengecualian ke kalender
+    // Add the exception to the calendar
     calendar.Exceptions.Add(exception);
 
-    // Hapus pengecualian jika ada
+    // Remove an exception if exists
     var cal = project.Calendars.ToList()[0];
     if (cal.Exceptions.Count > 1)
     {
@@ -121,13 +143,13 @@ public void DefineCalendarExceptions()
         cal.Exceptions.Remove(excToRemove);
     }
 
-    // Tambahkan pengecualian baru
+    // Add a new exception
     var exception2 = new CalendarException();
     exception2.FromDate = new System.DateTime(2009, 1, 1);
     exception2.ToDate = new System.DateTime(2009, 1, 3);
     cal.Exceptions.Add(exception2);
 
-    // Pengecualian cetak
+    // Print exceptions
     foreach (var exc in cal.Exceptions)
     {
         Console.WriteLine("Name: " + exc.Name);
@@ -137,31 +159,41 @@ public void DefineCalendarExceptions()
 }
 ```
 
+## Masalah Umum & Tips
+
+| Masalah | Alasan | Solusi |
+|-------|--------|----------|
+| **`IndexOutOfRangeException` saat menghapus** | Mencoba menghapus pengecualian yang tidak ada. | Verifikasi `calendar.Exceptions.Count` > indeks sebelum memanggil `Delete()`. |
+| **Waktu kerja tidak tepat** | Tidak mengatur `DayWorking` atau `WorkingTimes` dengan benar. | Gunakan `exception.WorkingTimes.Add(new WorkingTime(...))` untuk mendefinisikan periode eksplisit. |
+| **Pengecualian tidak dikenali** | `CheckException` mengembalikan `false` karena tanggal berada di luar rentang yang ditentukan. | Periksa kembali `FromDate`/`ToDate` dan `Type` (Daily, Weekly, dll.). |
+
+## Pertanyaan yang Sering Diajukan
+
+**Q: Bisakah saya menambahkan beberapa pengecualian ke satu kalender?**  
+A: Ya, Anda dapat menambahkan sebanyak mungkin pengecualian yang diperlukan untuk mewakili hari libur, jendela pemeliharaan, atau aturan penjadwalan khusus apa pun.
+
+**Q: Bagaimana cara **memeriksa tanggal pengecualian** untuk hari tertentu?**  
+A: Gunakan metode `CheckException(DateTime date)` pada instance `CalendarException`. Metode ini mengembalikan `true` jika tanggal yang diberikan berada dalam rentang pengecualian.
+
+**Q: Apakah memungkinkan menghapus pengecualian yang ada dari kalender?**  
+A: Tentu saja. Akses koleksi `Exceptions` dan panggil `Remove()` atau gunakan `Delete()` pada objek `CalendarException` tertentu.
+
+**Q: Jenis pengecualian kalender apa yang didukung?**  
+A: Aspose.Tasks mendukung tipe pengecualian Daily, Weekly, Monthly, dan Yearly, memberi Anda fleksibilitas untuk memodelkan hampir semua pola berulang.
+
+**Q: Bisakah saya menyesuaikan jam kerja untuk tanggal pengecualian tertentu?**  
+A: Ya. Setelah membuat pengecualian, isi koleksi `WorkingTimes`-nya dengan objek `WorkingTime` yang menentukan waktu mulai dan selesai untuk hari tersebut.
+
 ## Kesimpulan
 
-Dalam artikel ini, kami telah membahas berbagai aspek penanganan pengecualian kalender di Aspose.Tasks untuk .NET. Dengan mengikuti langkah-langkah yang disediakan, Anda dapat secara efektif mengelola pengecualian dalam jadwal proyek Anda, memastikan representasi jam kerja dan acara khusus yang akurat.
+Kami telah menelusuri siklus lengkap operasi **menghapus pengecualian kalender**, mulai dari memeriksa pengecualian yang ada hingga menambahkan yang baru dan memeriksa tanggal. Menguasai teknik ini memastikan jadwal proyek Anda menghormati kalender dunia nyata, membuat implementasi penjadwalan kalender ASP.NET Anda menjadi kuat dan dapat diandalkan.
 
-## FAQ
+---
 
-### Q1: Bisakah saya menambahkan beberapa pengecualian ke satu kalender?
+**Last Updated:** 2026-04-13  
+**Diuji Dengan:** Aspose.Tasks for .NET (latest release)  
+**Penulis:** Aspose  
 
-A1: Ya, Anda dapat menambahkan beberapa pengecualian ke kalender untuk mengakomodasi berbagai tanggal atau periode khusus.
-
-### Q2: Bagaimana cara memeriksa apakah tanggal tertentu merupakan pengecualian?
-
- A2: Anda dapat menggunakan`CheckException()` metode untuk memverifikasi apakah tanggal tertentu termasuk dalam pengecualian.
-
-### Q3: Apakah mungkin untuk menghapus pengecualian yang ada dari kalender?
-
- A3: Ya, Anda dapat menghapus pengecualian dengan mengakses`Exceptions` koleksi kalender dan menggunakan`Remove()` metode.
-
-### Q4: Jenis pengecualian kalender apa yang didukung?
-
-A4: Aspose.Tasks mendukung berbagai jenis pengecualian, termasuk pengecualian harian, mingguan, bulanan, dan tahunan, memberikan fleksibilitas dalam menentukan aturan pengecualian.
-
-### Q5: Dapatkah saya menyesuaikan jam kerja untuk tanggal pengecualian tertentu?
-
-A5: Ya, Anda dapat menentukan waktu kerja khusus untuk masing-masing tanggal pengecualian menggunakan metode yang sesuai yang disediakan oleh Aspose.Tasks.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

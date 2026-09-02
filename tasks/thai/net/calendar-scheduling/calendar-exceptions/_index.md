@@ -1,43 +1,63 @@
 ---
-title: การจัดการข้อยกเว้นปฏิทินใน Aspose.Tasks
-linktitle: การจัดการข้อยกเว้นปฏิทินใน Aspose.Tasks
+date: 2026-04-13
+description: เรียนรู้วิธีลบข้อยกเว้นของปฏิทินใน Aspose.Tasks สำหรับ .NET และตรวจสอบวันที่ของข้อยกเว้นขณะจัดการการกำหนดเวลาปฏิทิน
+  ASP.NET
+keywords:
+- delete calendar exception
+- asp.net calendar scheduling
+- check exception date
+linktitle: ลบข้อยกเว้นปฏิทินด้วย Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: เรียนรู้วิธีจัดการข้อยกเว้นปฏิทินใน Aspose.Tasks สำหรับ .NET พร้อมบทช่วยสอนและตัวอย่างทีละขั้นตอน
-weight: 12
+title: ลบข้อยกเว้นปฏิทินด้วย Aspose.Tasks
 url: /th/net/calendar-scheduling/calendar-exceptions/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# การจัดการข้อยกเว้นปฏิทินใน Aspose.Tasks
+# ลบข้อยกเว้นปฏิทินด้วย Aspose.Tasks
 
-## การแนะนำ
+## บทนำ
 
-ในบทช่วยสอนนี้ เราจะสำรวจวิธีจัดการข้อยกเว้นปฏิทินใน Aspose.Tasks โดยใช้เฟรมเวิร์ก .NET ข้อยกเว้นของปฏิทินช่วยให้เราสามารถกำหนดวันที่หรือช่วงเวลาพิเศษในปฏิทินโครงการที่ตารางการทำงานปกติมีการเปลี่ยนแปลง เช่น วันหยุดหรือการปิดทำการชั่วคราว เราจะกล่าวถึงวิธีการต่างๆ ในการจัดการข้อยกเว้นของปฏิทินทีละขั้นตอน โดยใช้ Aspose.Tasks สำหรับ .NET
+ในบทแนะนำนี้ คุณจะได้เรียนรู้วิธี **ลบข้อยกเว้นปฏิทิน** และจัดการข้อยกเว้นปฏิทินอื่น ๆ ใน Aspose.Tasks ด้วยการใช้ .NET framework. ข้อยกเว้นปฏิทินช่วยให้คุณจำลองวันหยุด, การปิดชั่วคราว, หรือช่วงเวลาพิเศษใด ๆ ที่ตารางทำงานปกติเปลี่ยนแปลง การเข้าใจวิธีการเพิ่ม, ค้นหา, และลบข้อยกเว้นเหล่านี้เป็นสิ่งสำคัญสำหรับการกำหนดเวลาของโครงการอย่างแม่นยำ, โดยเฉพาะเมื่อทำงานกับสถานการณ์ **การกำหนดเวลาปฏิทิน ASP.NET**.
+
+## คำตอบอย่างรวดเร็ว
+- **วิธีหลักในการลบข้อยกเว้นคืออะไร?** ใช้เมธอด `Delete()` ของอ็อบเจกต์ `CalendarException`.  
+- **คลาสใดที่ตรวจสอบวันที่กับข้อยกเว้น?** `CalendarException.CheckException()` — มีประโยชน์สำหรับ **ตรวจสอบวันที่ของข้อยกเว้น**.  
+- **ต้องการไลเซนส์เพื่อรันโค้ดหรือไม่?** ใช่, จำเป็นต้องมีไลเซนส์ Aspose.Tasks ที่ถูกต้องสำหรับการใช้งานในสภาพแวดล้อมการผลิต.  
+- **สามารถเพิ่มหลายข้อยกเว้นในปฏิทินเดียวได้หรือไม่?** ได้แน่นอน; คอลเลกชัน `Exceptions` รองรับหลายรายการ.  
+- **เวอร์ชัน .NET ที่รองรับ?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+
+## ข้อยกเว้นปฏิทินคืออะไร?
+
+**ข้อยกเว้นปฏิทิน** แสดงถึงการเบี่ยงเบนจากปฏิทินทำงานปกติ — คิดว่าเป็นกฎที่บอกว่า “ในวันที่เหล่านี้ ชั่วโมงทำงานแตกต่างหรือไม่มีเลย”. ใน Aspose.Tasks, แต่ละข้อยกเว้นสามารถมีเวลาทำงานของตนเอง, รูปแบบการเกิดซ้ำ, และแฟล็กที่บ่งบอกว่าวันนั้นเป็นวันทำงานหรือไม่.
+
+## ทำไมต้องจัดการข้อยกเว้นปฏิทินในการกำหนดเวลาปฏิทิน ASP.NET?
+
+- **ไทม์ไลน์ที่แม่นยำ:** โครงการจะเคารพวันหยุดและการปิดพิเศษโดยอัตโนมัติ, ป้องกันกำหนดเวลาที่ไม่เป็นจริง.  
+- **ความยืดหยุ่น:** คุณสามารถกำหนดรูปแบบรายวัน, รายสัปดาห์, รายเดือน, หรือรายปี, ตรงกับปฏิทินธุรกิจในโลกจริง.  
+- **การอัตโนมัติ:** การตรวจสอบวันที่ของข้อยกเว้นแบบโปรแกรมช่วยให้คุณสร้างตรรกะการกำหนดเวลาที่เปลี่ยนแปลงได้ในแอปพลิเคชัน ASP.NET.
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่เราจะเริ่มต้น ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
-- ความรู้พื้นฐานเกี่ยวกับภาษาการเขียนโปรแกรม C#
-- ติดตั้ง Visual Studio บนระบบของคุณแล้ว
-- เพิ่มไลบรารี Aspose.Tasks สำหรับ .NET ในโครงการของคุณ
+- ความรู้พื้นฐานของการเขียนโปรแกรม C#.  
+- Visual Studio (เวอร์ชันล่าสุดใดก็ได้).  
+- ไลบรารี Aspose.Tasks for .NET ที่เพิ่มเข้าไปในโปรเจคของคุณ (ผ่าน NuGet หรือการอ้างอิงแบบแมนนวล).
 
-## นำเข้าเนมสเปซ
+## นำเข้าชื่อเนมสเปซ
 
-ขั้นแรก เรามานำเข้าเนมสเปซที่จำเป็นสำหรับโครงการของเรา:
+ก่อนอื่น, นำเข้าชื่อเนมสเปซที่คุณต้องการใช้:
 
 ```csharp
 using Aspose.Tasks;
 using System;
-
-
 ```
 
-## ขั้นตอนที่ 1: การลบข้อยกเว้นปฏิทิน
+## ขั้นตอนที่ 1: ลบข้อยกเว้นปฏิทิน
 
-เมื่อต้องการลบข้อยกเว้นปฏิทิน ให้ทำตามขั้นตอนเหล่านี้:
+การลบข้อยกเว้นที่ไม่ต้องการเป็นเรื่องง่าย. โค้ดต่อไปนี้จะโหลดโปรเจค, เลือกปฏิทินแรก, แสดงข้อมูลพื้นฐาน, ลบข้อยกเว้นแรก, และจากนั้นแสดงจำนวนที่อัปเดต.
 
 ```csharp
 public void CalendarExceptionDelete()
@@ -45,20 +65,22 @@ public void CalendarExceptionDelete()
     var project = new Project(DataDir + "CalendarExceptions.mpp");
     var calendar = project.Calendars.ToList()[0];
 
-    // แสดงข้อมูลปฏิทิน
+    // Display calendar information
     Console.WriteLine("Calendar Name: " + calendar.Name);
     Console.WriteLine("Calendar Exception Count: " + calendar.Exceptions.Count);
 
-    // ลบข้อยกเว้นแรกออก
+    // Remove the first exception
     calendar.Exceptions[0].Delete();
 
     Console.WriteLine("Calendar Exception Count after Deletion: " + calendar.Exceptions.Count);
 }
 ```
 
+> **เคล็ดลับ:** ตรวจสอบให้แน่ใจว่าดัชนีของข้อยกเว้นมีอยู่ก่อนเรียก `Delete()` เพื่อหลีกเลี่ยง `IndexOutOfRangeException`.
+
 ## ขั้นตอนที่ 2: รับเวลาทำงานของข้อยกเว้นปฏิทิน
 
-เมื่อต้องการดึงข้อมูลเวลาทำงานของข้อยกเว้นปฏิทิน ให้ทำตามขั้นตอนเหล่านี้:
+หากคุณต้องการตรวจสอบชั่วโมงทำงานที่กำหนดไว้สำหรับข้อยกเว้น, ใช้ `GetWorkingTime()`. ตัวอย่างนี้ยังแสดงวิธี **ตรวจสอบวันที่ของข้อยกเว้น** ด้วย `CheckException`.
 
 ```csharp
 [Test]
@@ -68,12 +90,12 @@ public void CalendarExceptionGetWorkingTime()
     var calendar = project.Calendars.ToList()[0];
     var exception = calendar.Exceptions[0];
 
-    // แสดงปฏิทินและข้อมูลข้อยกเว้น
+    // Display calendar and exception information
     Console.WriteLine("Calendar Name: " + calendar.Name);
     Console.WriteLine("Calendar Exception Count: " + calendar.Exceptions.Count);
     Console.WriteLine("Calendar Exception Name: " + exception.Name);
 
-    // รับเวลาทำงานและแสดงรายละเอียด
+    // Get working time and display details
     var workingTime = exception.GetWorkingTime();
     Console.WriteLine("Exception Working Time: " + workingTime);
 
@@ -85,9 +107,9 @@ public void CalendarExceptionGetWorkingTime()
 }
 ```
 
-## ขั้นตอนที่ 3: การกำหนดข้อยกเว้นของปฏิทิน
+## ขั้นตอนที่ 3: กำหนดข้อยกเว้นปฏิทิน
 
-เมื่อต้องการเพิ่มหรือลบข้อยกเว้นปฏิทิน ให้ทำตามขั้นตอนเหล่านี้:
+ด้านล่างเป็นขั้นตอนเต็มที่แสดงวิธี **เพิ่ม**, **ตรวจสอบ**, และ **ลบ** ข้อยกเว้นปฏิทิน. สังเกตการใช้ `CheckException` เพื่อ **ตรวจสอบวันที่ของข้อยกเว้น** สำหรับช่วงเวลาที่กำหนด.
 
 ```csharp
 [Test]
@@ -96,10 +118,10 @@ public void DefineCalendarExceptions()
     var project = new Project(DataDir + "project_test.mpp");
     var calendar = project.Calendars.Add("Calendar1");
 
-    // สร้างข้อยกเว้นปฏิทินใหม่
+    // Create a new calendar exception
     var exception = new CalendarException();
     exception.Name = "New Calendar Exception";
-    // กำหนดรายละเอียดข้อยกเว้น
+    // Set exception details
     exception.EnteredByOccurrences = false;
     exception.FromDate = new DateTime(2009, 12, 24, 0, 0, 0);
     exception.ToDate = new DateTime(2009, 12, 31, 23, 59, 0);
@@ -107,13 +129,13 @@ public void DefineCalendarExceptions()
     exception.Month = Month.December;
     exception.DayWorking = false;
 
-    // ตรวจสอบว่าวันที่เป็นข้อยกเว้นหรือไม่
+    // Check if a date is an exception (check exception date)
     Console.WriteLine("Is date an exception date: " + exception.CheckException(new DateTime(2009, 12, 26, 8, 0, 0)));
 
-    // เพิ่มข้อยกเว้นลงในปฏิทิน
+    // Add the exception to the calendar
     calendar.Exceptions.Add(exception);
 
-    // ลบข้อยกเว้นหากมีอยู่
+    // Remove an exception if exists
     var cal = project.Calendars.ToList()[0];
     if (cal.Exceptions.Count > 1)
     {
@@ -121,13 +143,13 @@ public void DefineCalendarExceptions()
         cal.Exceptions.Remove(excToRemove);
     }
 
-    // เพิ่มข้อยกเว้นใหม่
+    // Add a new exception
     var exception2 = new CalendarException();
     exception2.FromDate = new System.DateTime(2009, 1, 1);
     exception2.ToDate = new System.DateTime(2009, 1, 3);
     cal.Exceptions.Add(exception2);
 
-    // พิมพ์ข้อยกเว้น
+    // Print exceptions
     foreach (var exc in cal.Exceptions)
     {
         Console.WriteLine("Name: " + exc.Name);
@@ -137,31 +159,41 @@ public void DefineCalendarExceptions()
 }
 ```
 
-## บทสรุป
+## ปัญหาและเคล็ดลับทั่วไป
 
-ในบทความนี้ เราได้กล่าวถึงแง่มุมต่างๆ ของการจัดการข้อยกเว้นของปฏิทินใน Aspose.Tasks สำหรับ .NET ด้วยการทำตามขั้นตอนที่ให้ไว้ คุณสามารถจัดการข้อยกเว้นในกำหนดการโครงการของคุณได้อย่างมีประสิทธิภาพ รับรองว่าจะแสดงชั่วโมงทำงานและกิจกรรมพิเศษได้อย่างแม่นยำ
+| ปัญหา | สาเหตุ | วิธีแก้ |
+|-------|--------|----------|
+| **`IndexOutOfRangeException` เมื่อทำการลบ** | พยายามลบข้อยกเว้นที่ไม่มีอยู่. | ตรวจสอบว่า `calendar.Exceptions.Count` > ดัชนีก่อนเรียก `Delete()`. |
+| **เวลาทำงานไม่ถูกต้อง** | ไม่ได้ตั้งค่า `DayWorking` หรือ `WorkingTimes` อย่างถูกต้อง. | ใช้ `exception.WorkingTimes.Add(new WorkingTime(...))` เพื่อกำหนดช่วงเวลาที่ชัดเจน. |
+| **ข้อยกเว้นไม่ถูกตรวจจับ** | `CheckException` คืนค่า `false` เนื่องจากวันที่อยู่นอกช่วงที่กำหนด. | ตรวจสอบ `FromDate`/`ToDate` และ `Type` (Daily, Weekly, ฯลฯ) อีกครั้ง. |
 
 ## คำถามที่พบบ่อย
 
-### คำถามที่ 1: ฉันสามารถเพิ่มข้อยกเว้นหลายรายการลงในปฏิทินเดียวได้หรือไม่
+**Q:** ฉันสามารถเพิ่มหลายข้อยกเว้นในปฏิทินเดียวได้หรือไม่?  
+**A:** ได้, คุณสามารถเพิ่มข้อยกเว้นได้ตามต้องการเพื่อแสดงวันหยุด, หน้าต่างการบำรุงรักษา, หรือกฎการกำหนดเวลาพิเศษใด ๆ  
 
-A1: ได้ คุณสามารถเพิ่มข้อยกเว้นได้หลายรายการในปฏิทินเพื่อรองรับวันหรือช่วงเวลาพิเศษต่างๆ
+**Q:** ฉันจะ **ตรวจสอบวันที่ของข้อยกเว้น** สำหรับวันเฉพาะได้อย่างไร?  
+**A:** ใช้เมธอด `CheckException(DateTime date)` บนอินสแตนซ์ `CalendarException`. มันจะคืนค่า `true` หากวันที่ที่ระบุอยู่ในช่วงของข้อยกเว้น.  
 
-### คำถามที่ 2: ฉันจะตรวจสอบได้อย่างไรว่าวันที่ที่ระบุเป็นข้อยกเว้นหรือไม่
+**Q:** สามารถลบข้อยกเว้นที่มีอยู่จากปฏิทินได้หรือไม่?  
+**A:** แน่นอน. เข้าถึงคอลเลกชัน `Exceptions` แล้วเรียก `Remove()` หรือใช้ `Delete()` บนอ็อบเจกต์ `CalendarException` เฉพาะ.  
 
- A2: คุณสามารถใช้`CheckException()` วิธีการตรวจสอบว่าวันที่ใดตกอยู่ภายใต้ข้อยกเว้น
+**Q:** ประเภทของข้อยกเว้นปฏิทินที่รองรับมีอะไรบ้าง?  
+**A:** Aspose.Tasks รองรับประเภทข้อยกเว้น Daily, Weekly, Monthly, และ Yearly, ทำให้คุณมีความยืดหยุ่นในการจำลองรูปแบบการเกิดซ้ำเกือบทั้งหมด.  
 
-### คำถามที่ 3: เป็นไปได้ไหมที่จะลบข้อยกเว้นที่มีอยู่ออกจากปฏิทิน
+**Q:** ฉันสามารถปรับแต่งชั่วโมงทำงานสำหรับวันที่มีข้อยกเว้นเฉพาะได้หรือไม่?  
+**A:** ได้. หลังจากสร้างข้อยกเว้น, เติมคอลเลกชัน `WorkingTimes` ของมันด้วยอ็อบเจกต์ `WorkingTime` ที่กำหนดเวลาเริ่มและสิ้นสุดสำหรับวันนั้น.  
 
- A3: ได้ คุณสามารถลบข้อยกเว้นได้โดยเข้าไปที่`Exceptions` การรวบรวมปฏิทินและการใช้`Remove()` วิธี.
+## สรุป
 
-### คำถามที่ 4: รองรับข้อยกเว้นปฏิทินประเภทใดบ้าง
+เราได้เดินผ่านวงจรชีวิตเต็มของการดำเนินการ **ลบข้อยกเว้นปฏิทิน** ตั้งแต่การตรวจสอบข้อยกเว้นที่มีอยู่จนถึงการเพิ่มใหม่และการตรวจสอบวันที่. การเชี่ยวชาญเทคนิคเหล่านี้ทำให้ตารางโครงการของคุณเคารพปฏิทินจริง, ทำให้การนำการกำหนดเวลาปฏิทิน ASP.NET ของคุณมีความทนทานและเชื่อถือได้.
 
-A4: Aspose.Tasks รองรับข้อยกเว้นหลายประเภท รวมถึงข้อยกเว้นรายวัน รายสัปดาห์ รายเดือน และรายปี ซึ่งให้ความยืดหยุ่นในการกำหนดกฎข้อยกเว้น
+---
 
-### คำถามที่ 5: ฉันสามารถปรับแต่งเวลาทำงานสำหรับวันยกเว้นที่เฉพาะเจาะจงได้หรือไม่
+**อัปเดตล่าสุด:** 2026-04-13  
+**ทดสอบด้วย:** Aspose.Tasks for .NET (latest release)  
+**ผู้เขียน:** Aspose  
 
-A5: ได้ คุณสามารถกำหนดเวลาทำงานที่กำหนดเองสำหรับวันที่ยกเว้นแต่ละรายการได้โดยใช้วิธีการที่เหมาะสมที่ Aspose.Tasks มอบให้
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

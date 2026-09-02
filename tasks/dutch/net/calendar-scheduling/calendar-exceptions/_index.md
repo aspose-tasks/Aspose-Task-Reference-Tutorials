@@ -1,43 +1,63 @@
 ---
-title: Agenda-uitzonderingen afhandelen in Aspose.Tasks
-linktitle: Agenda-uitzonderingen afhandelen in Aspose.Tasks
+date: 2026-04-13
+description: Leer hoe u een kalenderuitzondering kunt verwijderen in Aspose.Tasks
+  voor .NET en controleer de uitzonderingsdatum bij het beheren van ASP.NET‑kalenderplanning.
+keywords:
+- delete calendar exception
+- asp.net calendar scheduling
+- check exception date
+linktitle: Verwijder kalenderuitzondering met Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Leer hoe u agenda-uitzonderingen beheert in Aspose.Tasks voor .NET met stapsgewijze zelfstudies en voorbeelden.
-weight: 12
+title: Kalenderuitzondering verwijderen met Aspose.Tasks
 url: /nl/net/calendar-scheduling/calendar-exceptions/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Agenda-uitzonderingen afhandelen in Aspose.Tasks
+# Kalenderuitzondering verwijderen met Aspose.Tasks
 
-## Invoering
+## Inleiding
 
-In deze zelfstudie onderzoeken we hoe u agenda-uitzonderingen in Aspose.Tasks kunt beheren met behulp van het .NET-framework. Kalenderuitzonderingen stellen ons in staat speciale datums of perioden in een projectkalender te definiëren waarin het reguliere werkschema wordt gewijzigd, zoals vakanties of tijdelijke sluitingen. We bespreken stap voor stap verschillende methoden om agenda-uitzonderingen af te handelen, met behulp van Aspose.Tasks voor .NET.
+In deze tutorial leer je hoe je **kalenderuitzondering verwijderen** en andere kalenderuitzonderingen beheert in Aspose.Tasks met behulp van het .NET-framework. Kalenderuitzonderingen stellen je in staat om feestdagen, tijdelijke sluitingen of andere speciale perioden te modelleren waarin het normale werkschema wijzigt. Het begrijpen van het toevoegen, opvragen en verwijderen van deze uitzonderingen is essentieel voor nauwkeurige projectplanning, vooral bij **ASP.NET calendar scheduling** scenario's.
+
+## Snelle antwoorden
+- **Wat is de primaire methode om een uitzondering te verwijderen?** Use the `Delete()` method on the `CalendarException` object.  
+- **Welke klasse controleert een datum tegen een uitzondering?** `CalendarException.CheckException()`—useful to **check exception date**.  
+- **Heb ik een licentie nodig om de code uit te voeren?** Yes, a valid Aspose.Tasks license is required for production use.  
+- **Kan ik meerdere uitzonderingen aan één kalender toevoegen?** Absolutely; the `Exceptions` collection supports many entries.  
+- **Ondersteunde .NET-versies?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+
+## Wat is een kalenderuitzondering?
+
+Een **kalenderuitzondering** vertegenwoordigt een afwijking van de reguliere werkagenda—beschouw het als een regel die zegt “op deze data zijn de werktijden anders of er zijn geen werktijden”. In Aspose.Tasks kan elke uitzondering eigen werktijden, herhalingspatroon en vlaggen hebben die aangeven of de dag een werkdag is.
+
+## Waarom kalenderuitzonderingen beheren in ASP.NET Calendar Scheduling?
+
+- **Nauwkeurige tijdlijnen:** Projects automatically respect holidays and special closures, preventing unrealistic deadlines.
+- **Flexibiliteit:** You can define daily, weekly, monthly, or yearly patterns, matching real‑world business calendars.
+- **Automatisering:** Programmatically checking an exception date lets you build dynamic scheduling logic in ASP.NET applications.
 
 ## Vereisten
 
-Voordat we beginnen, zorg ervoor dat u aan de volgende vereisten voldoet:
-- Basiskennis van de programmeertaal C#.
-- Visual Studio is op uw systeem geïnstalleerd.
-- Aspose.Tasks voor .NET-bibliotheek toegevoegd aan uw project.
+- Basiskennis van C# programmeren.  
+- Visual Studio (een recente versie).  
+- Aspose.Tasks for .NET bibliotheek toegevoegd aan je project (via NuGet of handmatige referentie).  
 
-## Naamruimten importeren
+## Namespaces importeren
 
-Laten we eerst de benodigde naamruimten voor ons project importeren:
+Eerst importeer je de namespaces die je nodig hebt:
 
 ```csharp
 using Aspose.Tasks;
 using System;
-
-
 ```
 
-## Stap 1: Een agenda-uitzondering verwijderen
+## Stap 1: Kalenderuitzondering verwijderen
 
-Volg deze stappen om een agenda-uitzondering te verwijderen:
+Het verwijderen van een ongewenste uitzondering is eenvoudig. De volgende code laadt een project, selecteert de eerste kalender, toont basisinformatie, verwijdert de eerste uitzondering, en toont vervolgens het bijgewerkte aantal.
 
 ```csharp
 public void CalendarExceptionDelete()
@@ -45,20 +65,22 @@ public void CalendarExceptionDelete()
     var project = new Project(DataDir + "CalendarExceptions.mpp");
     var calendar = project.Calendars.ToList()[0];
 
-    // Agenda-informatie weergeven
+    // Display calendar information
     Console.WriteLine("Calendar Name: " + calendar.Name);
     Console.WriteLine("Calendar Exception Count: " + calendar.Exceptions.Count);
 
-    // Verwijder de eerste uitzondering
+    // Remove the first exception
     calendar.Exceptions[0].Delete();
 
     Console.WriteLine("Calendar Exception Count after Deletion: " + calendar.Exceptions.Count);
 }
 ```
 
-## Stap 2: Werktijd verkrijgen van een kalenderuitzondering
+> **Pro tip:** Controleer altijd of de uitzonderingsindex bestaat voordat je `Delete()` aanroept om `IndexOutOfRangeException` te voorkomen.
 
-Volg deze stappen om de werktijd van een kalenderuitzondering op te halen:
+## Stap 2: Werkuren van een kalenderuitzondering ophalen
+
+Als je de werkuren die voor een uitzondering zijn gedefinieerd wilt inspecteren, gebruik dan `GetWorkingTime()`. Dit voorbeeld toont ook hoe je **check exception date** kunt gebruiken met `CheckException`.
 
 ```csharp
 [Test]
@@ -68,12 +90,12 @@ public void CalendarExceptionGetWorkingTime()
     var calendar = project.Calendars.ToList()[0];
     var exception = calendar.Exceptions[0];
 
-    // Agenda- en uitzonderingsinformatie weergeven
+    // Display calendar and exception information
     Console.WriteLine("Calendar Name: " + calendar.Name);
     Console.WriteLine("Calendar Exception Count: " + calendar.Exceptions.Count);
     Console.WriteLine("Calendar Exception Name: " + exception.Name);
 
-    // Krijg werktijd en geef details weer
+    // Get working time and display details
     var workingTime = exception.GetWorkingTime();
     Console.WriteLine("Exception Working Time: " + workingTime);
 
@@ -85,9 +107,9 @@ public void CalendarExceptionGetWorkingTime()
 }
 ```
 
-## Stap 3: Agenda-uitzonderingen definiëren
+## Stap 3: Kalenderuitzonderingen definiëren
 
-Volg deze stappen om agenda-uitzonderingen toe te voegen of te verwijderen:
+Hieronder staat een volledige walkthrough die laat zien hoe je kalenderuitzonderingen **toevoegt**, **controleert**, en **verwijdert**. Let op het gebruik van `CheckException` om **check exception date** voor een specifiek moment te controleren.
 
 ```csharp
 [Test]
@@ -96,10 +118,10 @@ public void DefineCalendarExceptions()
     var project = new Project(DataDir + "project_test.mpp");
     var calendar = project.Calendars.Add("Calendar1");
 
-    // Maak een nieuwe agenda-uitzondering
+    // Create a new calendar exception
     var exception = new CalendarException();
     exception.Name = "New Calendar Exception";
-    // Uitzonderingsdetails instellen
+    // Set exception details
     exception.EnteredByOccurrences = false;
     exception.FromDate = new DateTime(2009, 12, 24, 0, 0, 0);
     exception.ToDate = new DateTime(2009, 12, 31, 23, 59, 0);
@@ -107,13 +129,13 @@ public void DefineCalendarExceptions()
     exception.Month = Month.December;
     exception.DayWorking = false;
 
-    // Controleer of een datum een uitzondering is
+    // Check if a date is an exception (check exception date)
     Console.WriteLine("Is date an exception date: " + exception.CheckException(new DateTime(2009, 12, 26, 8, 0, 0)));
 
-    // Voeg de uitzondering toe aan de kalender
+    // Add the exception to the calendar
     calendar.Exceptions.Add(exception);
 
-    // Verwijder een uitzondering als deze bestaat
+    // Remove an exception if exists
     var cal = project.Calendars.ToList()[0];
     if (cal.Exceptions.Count > 1)
     {
@@ -121,13 +143,13 @@ public void DefineCalendarExceptions()
         cal.Exceptions.Remove(excToRemove);
     }
 
-    // Voeg een nieuwe uitzondering toe
+    // Add a new exception
     var exception2 = new CalendarException();
     exception2.FromDate = new System.DateTime(2009, 1, 1);
     exception2.ToDate = new System.DateTime(2009, 1, 3);
     cal.Exceptions.Add(exception2);
 
-    // Uitzonderingen afdrukken
+    // Print exceptions
     foreach (var exc in cal.Exceptions)
     {
         Console.WriteLine("Name: " + exc.Name);
@@ -137,31 +159,41 @@ public void DefineCalendarExceptions()
 }
 ```
 
-## Conclusie
+## Veelvoorkomende problemen & tips
 
-In dit artikel hebben we verschillende aspecten van het omgaan met agenda-uitzonderingen in Aspose.Tasks voor .NET besproken. Door de aangegeven stappen te volgen, kunt u uitzonderingen in uw projectplanningen effectief beheren, waardoor u verzekerd bent van een nauwkeurige weergave van werktijden en speciale gebeurtenissen.
+| Probleem | Reden | Oplossing |
+|----------|-------|-----------|
+| **`IndexOutOfRangeException` when deleting** | Proberen een uitzondering te verwijderen die niet bestaat. | Controleer `calendar.Exceptions.Count` > index voordat je `Delete()` aanroept. |
+| **Incorrect working times** | `DayWorking` of `WorkingTimes` niet correct instellen. | Gebruik `exception.WorkingTimes.Add(new WorkingTime(...))` om expliciete periodes te definiëren. |
+| **Exception not recognized** | `CheckException` retourneert `false` omdat de datum buiten het gedefinieerde bereik valt. | Controleer `FromDate`/`ToDate` en het `Type` (Daily, Weekly, etc.) dubbel. |
 
 ## Veelgestelde vragen
 
-### V1: Kan ik meerdere uitzonderingen toevoegen aan één kalender?
+**Q: Kan ik meerdere uitzonderingen aan één kalender toevoegen?**  
+A: Ja, je kunt zoveel uitzonderingen toevoegen als nodig is om feestdagen, onderhoudsvensters of andere speciale planningsregels te vertegenwoordigen.
 
-A1: Ja, u kunt meerdere uitzonderingen aan een kalender toevoegen om verschillende speciale datums of periodes mogelijk te maken.
+**Q: Hoe kan ik **check exception date** voor een specifieke dag?**  
+A: Gebruik de `CheckException(DateTime date)`-methode op een `CalendarException`-instance. Deze retourneert `true` als de opgegeven datum binnen het uitzonderingsbereik valt.
 
-### Vraag 2: Hoe kan ik controleren of een specifieke datum een uitzondering is?
+**Q: Is het mogelijk om een bestaande uitzondering uit een kalender te verwijderen?**  
+A: Absoluut. Toegang tot de `Exceptions`-collectie en roep `Remove()` aan of gebruik `Delete()` op het specifieke `CalendarException`-object.
 
- A2: U kunt de`CheckException()` methode om te verifiëren of een bepaalde datum onder een uitzondering valt.
+**Q: Welke soorten kalenderuitzonderingen worden ondersteund?**  
+A: Aspose.Tasks ondersteunt Daily, Weekly, Monthly en Yearly uitzonderingssoorten, waardoor je flexibiliteit hebt om bijna elk herhalingspatroon te modelleren.
 
-### Vraag 3: Is het mogelijk om een bestaande uitzondering uit een kalender te verwijderen?
+**Q: Kan ik werkuren aanpassen voor specifieke uitzonderingsdatums?**  
+A: Ja. Na het aanmaken van een uitzondering vul je de `WorkingTimes`-collectie met `WorkingTime`-objecten die de start- en eindtijden voor die dag definiëren.
 
- A3: Ja, u kunt uitzonderingen verwijderen door naar het bestand te gaan`Exceptions` verzameling van de kalender en het gebruik van de`Remove()` methode.
+## Conclusie
 
-### V4: Welke typen agenda-uitzonderingen worden ondersteund?
+We hebben de volledige levenscyclus van **delete calendar exception**-operaties doorlopen, van het inspecteren van bestaande uitzonderingen tot het toevoegen van nieuwe en het controleren van datums. Het beheersen van deze technieken zorgt ervoor dat je projectschema's rekening houden met de echte wereld kalenders, waardoor je ASP.NET calendar scheduling-implementaties robuust en betrouwbaar zijn.
 
-A4: Aspose.Tasks ondersteunt verschillende soorten uitzonderingen, waaronder dagelijkse, wekelijkse, maandelijkse en jaarlijkse uitzonderingen, waardoor flexibiliteit wordt geboden bij het definiëren van uitzonderingsregels.
+---
 
-### V5: Kan ik de werktijden aanpassen voor specifieke uitzonderingsdata?
+**Laatst bijgewerkt:** 2026-04-13  
+**Getest met:** Aspose.Tasks for .NET (latest release)  
+**Auteur:** Aspose  
 
-A5: Ja, u kunt aangepaste werktijden definiëren voor individuele uitzonderingsdata met behulp van de juiste methoden van Aspose.Tasks.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

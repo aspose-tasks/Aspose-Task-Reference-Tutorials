@@ -1,43 +1,63 @@
 ---
-title: Aspose.Tasks에서 달력 예외 처리
-linktitle: Aspose.Tasks에서 달력 예외 처리
-second_title: Aspose.태스크 .NET API
-description: 단계별 튜토리얼과 예제를 통해 Aspose.Tasks for .NET에서 달력 예외를 관리하는 방법을 알아보세요.
-weight: 12
+date: 2026-04-13
+description: Aspose.Tasks for .NET에서 캘린더 예외를 삭제하는 방법을 배우고, ASP.NET 캘린더 일정 관리 시 예외
+  날짜를 확인하세요.
+keywords:
+- delete calendar exception
+- asp.net calendar scheduling
+- check exception date
+linktitle: Aspose.Tasks로 캘린더 예외 삭제
+second_title: Aspose.Tasks .NET API
+title: Aspose.Tasks를 사용하여 캘린더 예외 삭제
 url: /ko/net/calendar-scheduling/calendar-exceptions/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks에서 달력 예외 처리
+# Aspose.Tasks와 함께 캘린더 예외 삭제
 
 ## 소개
 
-이 튜토리얼에서는 .NET 프레임워크를 사용하여 Aspose.Tasks에서 달력 예외를 관리하는 방법을 살펴보겠습니다. 달력 예외를 사용하면 휴일이나 임시 휴무 등 정규 작업 일정이 변경되는 프로젝트 달력에서 특별한 날짜나 기간을 정의할 수 있습니다. .NET용 Aspose.Tasks를 사용하여 달력 예외를 단계별로 처리하는 다양한 방법을 다룰 것입니다.
+이 튜토리얼에서는 **delete calendar exception**을 수행하고 Aspose.Tasks에서 .NET 프레임워크를 사용하여 다른 캘린더 예외를 관리하는 방법을 배웁니다. 캘린더 예외를 사용하면 휴일, 일시적인 폐쇄 또는 일반 작업 일정이 변경되는 특별한 기간을 모델링할 수 있습니다. 이러한 예외를 추가, 조회 및 제거하는 방법을 이해하는 것은 정확한 프로젝트 일정 관리에 필수적이며, 특히 **ASP.NET calendar scheduling** 시나리오에서 중요합니다.
 
-## 전제조건
+## 빠른 답변
+- **예외를 제거하는 기본 메서드는 무엇입니까?** `CalendarException` 객체의 `Delete()` 메서드를 사용합니다.  
+- **예외에 대해 날짜를 확인하는 클래스는 무엇입니까?** `CalendarException.CheckException()` — **check exception date**를 확인하는 데 유용합니다.  
+- **코드를 실행하려면 라이선스가 필요합니까?** 예, 프로덕션 사용을 위해 유효한 Aspose.Tasks 라이선스가 필요합니다.  
+- **하나의 캘린더에 여러 예외를 추가할 수 있나요?** 물론입니다; `Exceptions` 컬렉션은 다수의 항목을 지원합니다.  
+- **지원되는 .NET 버전은?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
 
-시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
-- C# 프로그래밍 언어에 대한 기본 지식.
-- 시스템에 Visual Studio가 설치되어 있습니다.
-- .NET 라이브러리용 Aspose.Tasks가 프로젝트에 추가되었습니다.
+## 캘린더 예외란?
+
+**calendar exception**은 일반 작업 캘린더에서 벗어나는 경우를 나타냅니다—즉, “이 날짜에는 근무 시간이 다르거나 전혀 없음”이라는 규칙이라고 생각하면 됩니다. Aspose.Tasks에서 각 예외는 자체 작업 시간, 반복 패턴 및 해당 날짜가 작업일인지 여부를 나타내는 플래그를 가질 수 있습니다.
+
+## ASP.NET Calendar Scheduling에서 캘린더 예외를 관리해야 하는 이유
+
+- **정확한 일정:** 프로젝트가 자동으로 휴일 및 특별 폐쇄를 고려하여 비현실적인 마감일을 방지합니다.  
+- **유연성:** 일일, 주간, 월간 또는 연간 패턴을 정의하여 실제 비즈니스 캘린더와 일치시킬 수 있습니다.  
+- **자동화:** 예외 날짜를 프로그래밍 방식으로 확인함으로써 ASP.NET 애플리케이션에서 동적 일정 로직을 구축할 수 있습니다.
+
+## 전제 조건
+
+- C# 프로그래밍에 대한 기본 지식.  
+- Visual Studio(최근 버전).  
+- 프로젝트에 Aspose.Tasks for .NET 라이브러리를 추가(NuGet 또는 수동 참조).
 
 ## 네임스페이스 가져오기
 
-먼저 프로젝트에 필요한 네임스페이스를 가져오겠습니다.
+먼저, 필요한 네임스페이스를 가져옵니다:
 
 ```csharp
 using Aspose.Tasks;
 using System;
-
-
 ```
 
-## 1단계: 달력 예외 삭제
+## 단계 1: 캘린더 예외 삭제
 
-캘린더 예외를 삭제하려면 다음 단계를 따르세요.
+원하지 않는 예외를 제거하는 것은 간단합니다. 아래 코드는 프로젝트를 로드하고, 첫 번째 캘린더를 선택한 뒤 기본 정보를 표시하고, 첫 번째 예외를 삭제한 후 업데이트된 개수를 보여줍니다.
 
 ```csharp
 public void CalendarExceptionDelete()
@@ -45,20 +65,22 @@ public void CalendarExceptionDelete()
     var project = new Project(DataDir + "CalendarExceptions.mpp");
     var calendar = project.Calendars.ToList()[0];
 
-    // 캘린더 정보 표시
+    // Display calendar information
     Console.WriteLine("Calendar Name: " + calendar.Name);
     Console.WriteLine("Calendar Exception Count: " + calendar.Exceptions.Count);
 
-    // 첫 번째 예외 제거
+    // Remove the first exception
     calendar.Exceptions[0].Delete();
 
     Console.WriteLine("Calendar Exception Count after Deletion: " + calendar.Exceptions.Count);
 }
 ```
 
-## 2단계: 달력 예외의 근무 시간 가져오기
+> **팁:** `Delete()`를 호출하기 전에 예외 인덱스가 존재하는지 항상 확인하여 `IndexOutOfRangeException`을 방지하세요.
 
-달력 예외의 작업 시간을 검색하려면 다음 단계를 따르십시오.
+## 단계 2: 캘린더 예외의 작업 시간 가져오기
+
+예외에 정의된 작업 시간을 확인해야 하면 `GetWorkingTime()`을 사용합니다. 이 예제는 `CheckException`을 사용하여 **check exception date**를 확인하는 방법도 보여줍니다.
 
 ```csharp
 [Test]
@@ -68,12 +90,12 @@ public void CalendarExceptionGetWorkingTime()
     var calendar = project.Calendars.ToList()[0];
     var exception = calendar.Exceptions[0];
 
-    // 달력 및 예외 정보 표시
+    // Display calendar and exception information
     Console.WriteLine("Calendar Name: " + calendar.Name);
     Console.WriteLine("Calendar Exception Count: " + calendar.Exceptions.Count);
     Console.WriteLine("Calendar Exception Name: " + exception.Name);
 
-    // 근무 시간 확인 및 세부정보 표시
+    // Get working time and display details
     var workingTime = exception.GetWorkingTime();
     Console.WriteLine("Exception Working Time: " + workingTime);
 
@@ -85,9 +107,9 @@ public void CalendarExceptionGetWorkingTime()
 }
 ```
 
-## 3단계: 달력 예외 정의
+## 단계 3: 캘린더 예외 정의
 
-캘린더 예외를 추가하거나 제거하려면 다음 단계를 따르세요.
+아래는 캘린더 예외를 **add**, **check**, **remove**하는 전체 과정을 보여주는 예제입니다. 특정 순간에 **check exception date**를 확인하기 위해 `CheckException`을 사용하는 것을 확인하세요.
 
 ```csharp
 [Test]
@@ -96,10 +118,10 @@ public void DefineCalendarExceptions()
     var project = new Project(DataDir + "project_test.mpp");
     var calendar = project.Calendars.Add("Calendar1");
 
-    // 새 캘린더 예외 만들기
+    // Create a new calendar exception
     var exception = new CalendarException();
     exception.Name = "New Calendar Exception";
-    // 예외 세부정보 설정
+    // Set exception details
     exception.EnteredByOccurrences = false;
     exception.FromDate = new DateTime(2009, 12, 24, 0, 0, 0);
     exception.ToDate = new DateTime(2009, 12, 31, 23, 59, 0);
@@ -107,13 +129,13 @@ public void DefineCalendarExceptions()
     exception.Month = Month.December;
     exception.DayWorking = false;
 
-    // 날짜가 예외인지 확인
+    // Check if a date is an exception (check exception date)
     Console.WriteLine("Is date an exception date: " + exception.CheckException(new DateTime(2009, 12, 26, 8, 0, 0)));
 
-    // 달력에 예외 추가
+    // Add the exception to the calendar
     calendar.Exceptions.Add(exception);
 
-    // 존재하는 경우 예외 제거
+    // Remove an exception if exists
     var cal = project.Calendars.ToList()[0];
     if (cal.Exceptions.Count > 1)
     {
@@ -121,13 +143,13 @@ public void DefineCalendarExceptions()
         cal.Exceptions.Remove(excToRemove);
     }
 
-    // 새 예외 추가
+    // Add a new exception
     var exception2 = new CalendarException();
     exception2.FromDate = new System.DateTime(2009, 1, 1);
     exception2.ToDate = new System.DateTime(2009, 1, 3);
     cal.Exceptions.Add(exception2);
 
-    // 인쇄 예외
+    // Print exceptions
     foreach (var exc in cal.Exceptions)
     {
         Console.WriteLine("Name: " + exc.Name);
@@ -137,31 +159,41 @@ public void DefineCalendarExceptions()
 }
 ```
 
+## 일반적인 문제 및 팁
+
+| 문제 | 원인 | 해결 방법 |
+|-------|--------|----------|
+| **삭제 시 `IndexOutOfRangeException`** | 존재하지 않는 예외를 삭제하려고 시도함. | `Delete()` 호출 전에 `calendar.Exceptions.Count`가 인덱스보다 큰지 확인합니다. |
+| **잘못된 작업 시간** | `DayWorking` 또는 `WorkingTimes`를 올바르게 설정하지 않음. | `exception.WorkingTimes.Add(new WorkingTime(...))`를 사용하여 명시적인 기간을 정의합니다. |
+| **예외가 인식되지 않음** | `CheckException`이 정의된 범위를 벗어난 날짜이므로 `false`를 반환함. | `FromDate`/`ToDate`와 `Type`(Daily, Weekly 등)을 다시 확인합니다. |
+
+## 자주 묻는 질문
+
+**Q: 단일 캘린더에 여러 예외를 추가할 수 있나요?**  
+A: 예, 휴일, 유지보수 기간 또는 기타 특별 일정 규칙을 나타내기 위해 필요한 만큼 많은 예외를 추가할 수 있습니다.
+
+**Q: 특정 날짜에 **check exception date**를 어떻게 확인합니까?**  
+A: `CalendarException` 인스턴스의 `CheckException(DateTime date)` 메서드를 사용합니다. 제공된 날짜가 예외 범위에 포함되면 `true`를 반환합니다.
+
+**Q: 캘린더에서 기존 예외를 제거할 수 있나요?**  
+A: 물론 가능합니다. `Exceptions` 컬렉션에 접근하여 `Remove()`를 호출하거나 특정 `CalendarException` 객체에서 `Delete()`를 호출합니다.
+
+**Q: 어떤 유형의 캘린더 예외를 지원하나요?**  
+A: Aspose.Tasks는 Daily, Weekly, Monthly, Yearly 예외 유형을 지원하여 거의 모든 반복 패턴을 모델링할 수 있는 유연성을 제공합니다.
+
+**Q: 특정 예외 날짜에 대한 작업 시간을 사용자 정의할 수 있나요?**  
+A: 예. 예외를 만든 후 해당 날짜의 시작 및 종료 시간을 정의하는 `WorkingTime` 객체를 `WorkingTimes` 컬렉션에 추가합니다.
+
 ## 결론
 
-이 기사에서는 .NET용 Aspose.Tasks에서 달력 예외를 처리하는 다양한 측면을 다루었습니다. 제공된 단계를 따르면 프로젝트 일정의 예외를 효과적으로 관리하여 근무 시간과 특별 이벤트를 정확하게 표시할 수 있습니다.
+우리는 기존 예외를 검사하고 새 예외를 추가하며 날짜를 확인하는 **delete calendar exception** 작업의 전체 수명 주기를 살펴보았습니다. 이러한 기술을 숙달하면 프로젝트 일정이 실제 캘린더를 반영하게 되어 ASP.NET 캘린더 일정 구현이 견고하고 신뢰할 수 있게 됩니다.
 
-## FAQ
+---
 
-### Q1: 단일 달력에 여러 예외를 추가할 수 있나요?
+**마지막 업데이트:** 2026-04-13  
+**테스트 환경:** Aspose.Tasks for .NET (latest release)  
+**작성자:** Aspose  
 
-A1: 예, 다양한 특별 날짜나 기간을 수용하기 위해 달력에 여러 예외를 추가할 수 있습니다.
-
-### Q2: 특정 날짜가 예외인지 어떻게 확인할 수 있나요?
-
- A2: 다음을 사용할 수 있습니다.`CheckException()` 특정 날짜가 예외에 해당하는지 확인하는 방법입니다.
-
-### Q3: 달력에서 기존 예외를 제거할 수 있습니까?
-
- A3: 예, 다음 페이지에 액세스하여 예외를 제거할 수 있습니다.`Exceptions` 달력 수집 및 사용`Remove()` 방법.
-
-### Q4: 어떤 유형의 달력 예외가 지원됩니까?
-
-A4: Aspose.Tasks는 일일, 주간, 월간 및 연간 예외를 포함한 다양한 유형의 예외를 지원하여 예외 규칙 정의에 유연성을 제공합니다.
-
-### Q5: 특정 예외일의 근무 시간을 맞춤 설정할 수 있나요?
-
-A5: 예, Aspose.Tasks에서 제공하는 적절한 방법을 사용하여 개별 예외 날짜에 대한 사용자 정의 작업 시간을 정의할 수 있습니다.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

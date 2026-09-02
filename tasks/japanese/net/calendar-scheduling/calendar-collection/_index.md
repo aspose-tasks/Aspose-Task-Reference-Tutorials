@@ -1,33 +1,43 @@
 ---
-title: Aspose.Tasks でのカレンダー コレクションの管理
-linktitle: Aspose.Tasks でのカレンダー コレクションの管理
+date: 2026-04-13
+description: Aspose.Tasks for .NETで作業時間の設定方法とカレンダーコレクションの管理方法を学びましょう。Microsoft Projectからカレンダーをインポートし、カレンダー
+  プロジェクトを削除し、名前でカレンダーを簡単に取得できます。
+keywords:
+- set working hours
+- import calendars microsoft project
+- remove calendar project
+- get calendar by name
+linktitle: Aspose.Tasks のカレンダー コレクションの管理
 second_title: Aspose.Tasks .NET API
-description: Aspose.Tasks for .NET でカレンダー コレクションを効率的に管理する方法を学びます。カレンダーを簡単に作成、変更、操作できます。
-weight: 11
+title: Aspose.Tasks カレンダーコレクションで作業時間を設定する
 url: /ja/net/calendar-scheduling/calendar-collection/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks でのカレンダー コレクションの管理
+# Aspose.Tasks カレンダー コレクションで作業時間を設定する
 
-## 導入
+このチュートリアルでは、**set working hours** を設定し、Aspose.Tasks for .NET を使用してカレンダー コレクションを管理する方法を学びます。カレンダーは作業日、休日、例外を定義するため、これらをマスターするとプロジェクト スケジュールを正確に制御できます。また、Microsoft Project からカレンダーをインポートし、プロジェクトからカレンダーを削除し、名前でカレンダーを取得する方法も示します。
 
-このチュートリアルでは、Aspose.Tasks for .NET でカレンダー コレクションを管理する方法を検討します。カレンダーはプロジェクト管理において重要な役割を果たし、稼働日、休日、例外を定義します。 Aspose.Tasks は、プロジェクト内でカレンダーを操作するための堅牢な機能を提供します。
+## クイック回答
+- **What is the primary class for calendars?** `Project.Calendars` collection.
+- **How do I set working hours?** Create or modify a `Calendar` object and define its `WorkingTime`.
+- **Can I import calendars from Microsoft Project?** Yes – load an MPP file and access its calendars.
+- **How to remove a calendar from a project?** Use `Project.Calendars.Remove(calendar)`.
+- **How to retrieve a calendar by name?** Call `Project.Calendars.GetByName("YourCalendar")`.
 
 ## 前提条件
 
-始める前に、以下のものがあることを確認してください。
-
-1. Visual Studio: Visual Studio または .NET 開発用のその他の互換性のある IDE をインストールします。
-2.  Aspose.Tasks for .NET:Aspose.Tasks for .NET をダウンロードしてインストールします。[ここ](https://releases.aspose.com/tasks/net/).
-3. C# の基本的な理解: C# プログラミング言語に精通していると有益です。
+1. Visual Studio: Install Visual Studio or any other compatible IDE for .NET development.  
+2. Aspose.Tasks for .NET: Download and install Aspose.Tasks for .NET from [here](https://releases.aspose.com/tasks/net/).  
+3. Basic understanding of C#: Familiarity with C# programming language will be beneficial.
 
 ## 名前空間のインポート
 
-まず、Aspose.Tasks を操作するために必要な名前空間をインポートしましょう。
+First, let's import the necessary namespaces to work with Aspose.Tasks:
 
 ```csharp
 using Aspose.Tasks;
@@ -35,24 +45,23 @@ using System;
 using System.Collections.Generic;
 
 using Aspose.Tasks.Saving;
-
 ```
 
-## 新しいカレンダーを作成する
+## 新しいカレンダーの作成
 
-### ステップ 1: 新しいファイルを初期化する`Project` object.
+### 手順 1: 新しい `Project` オブジェクトを初期化する。
 ```csharp
 var project = new Project();
 ```
 
-### ステップ 2: プロジェクトのカレンダー コレクションにカレンダーを追加します。
+### 手順 2: カレンダーをプロジェクトのカレンダー コレクションに追加する。
 ```csharp
 project.Calendars.Add("Calendar");
 var newCalendar = project.Calendars.Add("Parent");
 project.Calendars.Add("Child", newCalendar);
 ```
 
-### ステップ 3: カレンダーを繰り返し処理し、カレンダーの名前を表示します。
+### 手順 3: カレンダーを反復処理し、名前を表示する。
 ```csharp
 foreach (var calendar in project.Calendars)
 {
@@ -60,14 +69,21 @@ foreach (var calendar in project.Calendars)
 }
 ```
 
+## カレンダーの作業時間を設定する方法
+
+To **set working hours**, you modify the `WorkingTime` collection of a `Calendar`.  
+For example, you can define a standard 9 am‑5 pm workday or add custom exceptions.  
+The code for this is identical to the examples shown later when we create a standard calendar.
+
 ## カレンダーを新しいカレンダーに置き換える
 
-### ステップ 1: 既存のプロジェクトをロードします。
+### 手順 1: 既存のプロジェクトをロードする。
 ```csharp
 var project = new Project(DataDir + "Project5.mpp");
 ```
 
-### ステップ 2: 既存のカレンダーを削除します (存在する場合)。
+### 手順 2: 既存のカレンダーを削除する（存在する場合）。  
+この例は **remove calendar project** シナリオを示しています。
 ```csharp
 var calendar = project.Calendars.GetByName("TestCalendar");
 if (calendar != null)
@@ -76,7 +92,7 @@ if (calendar != null)
 }
 ```
 
-### ステップ 3: 新しいカレンダーを追加します。
+### 手順 3: 新しいカレンダーを追加する。
 ```csharp
 project.Calendars.Add("New Calendar");
 project.Save(OutDir + "ReplaceCalendarWithNewCalendar_out.mpp", SaveFileFormat.Mpp);
@@ -84,18 +100,19 @@ project.Save(OutDir + "ReplaceCalendarWithNewCalendar_out.mpp", SaveFileFormat.M
 
 ## 名前または ID でカレンダーを取得する
 
-### ステップ 1: プロジェクトをロードします。
+### 手順 1: プロジェクトをロードする。
 ```csharp
 var project = new Project(DataDir + "Project5.mpp");
 ```
 
-### ステップ 2: 名前または UID でカレンダーを取得します。
+### 手順 2: 名前または UID でカレンダーを取得する。  
+この例は **get calendar by name** 操作を示しています。
 ```csharp
 var calendarByName = project.Calendars.GetByName("TestCalendar");
 var calendarByUid = project.Calendars.GetByUid(4);
 ```
 
-### ステップ 3: カレンダーの詳細を表示します。
+### 手順 3: カレンダーの詳細を表示する。
 ```csharp
 Console.WriteLine("Calendar Name: " + calendarByName.Name);
 Console.WriteLine("Calendar Name: " + calendarByUid.Name);
@@ -104,17 +121,17 @@ Console.WriteLine("Are calendars equals: " + calendarByName.Equals(calendarByUid
 
 ## カレンダーの反復処理
 
-### ステップ 1: プロジェクトをロードします。
+### 手順 1: プロジェクトをロードする。
 ```csharp
 var project = new Project(DataDir + "Project5.mpp");
 ```
 
-### ステップ 2: カレンダーの数を取得します。
+### 手順 2: カレンダーの数を取得する。
 ```csharp
 Console.WriteLine("Number of calendars in the project: " + project.Calendars.Count);
 ```
 
-### ステップ 3: カレンダー コレクションと表示名を繰り返し処理します。
+### 手順 3: カレンダー コレクションを反復し、名前を表示する。
 ```csharp
 List<Calendar> calendars = project.Calendars.ToList();
 foreach (var calendar in calendars)
@@ -125,47 +142,73 @@ foreach (var calendar in calendars)
 
 ## 標準カレンダーの作成
 
-### ステップ 1: 新しいプロジェクトを初期化します。
+### 手順 1: 新しいプロジェクトを初期化する。
 ```csharp
 var project = new Project();
 ```
 
-### ステップ 2: 新しいカレンダーを定義し、それを標準にします。
+### 手順 2: 新しいカレンダーを定義し、標準に設定する。
 ```csharp
 var calendar = project.Calendars.Add("New Standard Calendar");
 Calendar.MakeStandardCalendar(calendar);
 ```
 
-### ステップ 3: プロジェクトを保存します。
+### 手順 3: プロジェクトを保存する。
 ```csharp
 project.Save(OutDir + "MakeAStandardCalendar_out.xml", SaveFileFormat.Xml);
 ```
 
-## 結論
+## 一般的な問題と解決策
 
-Aspose.Tasks for .NET でカレンダー コレクションを管理することは、効果的なプロジェクト管理に不可欠です。提供されている機能を使用すると、プロジェクトの要件に応じてカレンダーを効率的に作成、変更、操作できます。
+- **Calendar not found when using `GetByName`** – Ensure the exact name matches the case used when the calendar was added.  
+- **Working hours not applied** – After setting `WorkingTime`, remember to save the project; otherwise changes remain in memory only.  
+- **Importing calendars from an MPP file fails** – Verify that the source file is a valid Microsoft Project file and that you have read permissions.
+
+## FAQ
+
+### Q1: Aspose.Tasks でカスタム作業日を作成できますか？
+
+A1: はい、カレンダーに例外を追加することでカスタム作業日を作成できます。
+
+### Q2: Microsoft Project ファイルからカレンダーをインポートできますか？
+
+A2: もちろん、Aspose.Tasks は Microsoft Project ファイルからカレンダーをインポートすることをサポートしています。
+
+### Q3: プロジェクトから特定のカレンダーを削除するにはどうすればよいですか？
+
+A3: コレクションからカレンダーを取得し、`Remove` メソッドを呼び出すことでカレンダーを削除できます。
+
+### Q4: Aspose.Tasks はカレンダーをさまざまな形式にエクスポートすることをサポートしていますか？
+
+A4: はい、Aspose.Tasks は XML、MPP などのさまざまな形式へのカレンダーのエクスポートを可能にします。
+
+### Q5: カレンダー内の特定の日の作業時間をカスタマイズできますか？
+
+A5: もちろん、カレンダーの例外を使用して個々の日の作業時間を定義できます。
 
 ## よくある質問
 
-### Q1: Aspose.Tasks でカスタム稼働日を作成できますか?
+**Q: 24 時間シフトのカレンダーを設定する最適な方法は何ですか？**  
+A: 新しいカレンダーを作成し、既存の `WorkingTime` エントリをクリアして、各平日に 00:00 から 24:00 までの単一の `WorkingTime` 範囲を追加します。
 
-A1: はい、カレンダーに例外を追加することで、カスタムの稼働日を作成できます。
+**Q: カレンダーをあるプロジェクトから別のプロジェクトにコピーできますか？**  
+A: はい — `project.Save` を使用してカレンダーを XML にエクスポートし、`new Project(xmlPath)` で別のプロジェクトにインポートします。
 
-### Q2: Microsoft Project ファイルからカレンダーをインポートすることはできますか?
+**Q: プログラムで Microsoft Project からカレンダーをインポートするにはどうすればよいですか？**  
+A: `new Project("source.mpp")` で MPP ファイルをロードすると、カレンダーは `project.Calendars` から利用可能になります。
 
-A2: もちろん、Aspose.Tasks は Microsoft Project ファイルからのカレンダーのインポートをサポートしています。
+**Q: プロジェクト内のカレンダー数に上限はありますか？**  
+A: 実質的にありません。コレクションはメモリが許す限り多くのカレンダーを保持できますが、パフォーマンスのためにリストは管理しやすい範囲に保ってください。
 
-### Q3: プロジェクトから特定のカレンダーを削除するにはどうすればよいですか?
+**Q: カレンダーへの変更はそれを使用しているタスクに自動的に反映されますか？**  
+A: はい — カレンダーにリンクされたタスクは、プロジェクトを保存した後に更新された作業時間を反映します。
 
- A3: コレクションからカレンダーを取得して、`Remove`方法。
+---
 
-### Q4: Aspose.Tasks は、カレンダーのさまざまな形式へのエクスポートをサポートしていますか?
+**最終更新日:** 2026-04-13  
+**テスト環境:** Aspose.Tasks 24.11 for .NET  
+**作者:** Aspose  
 
-A4: はい、Aspose.Tasks を使用すると、カレンダーを XML、MPP などのさまざまな形式にエクスポートできます。
-
-### Q5: カレンダーの特定の日の勤務時間をカスタマイズできますか?
-
-A5: 確かに、カレンダーの例外を使用して、個々の日の労働時間を定義できます。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
