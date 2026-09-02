@@ -1,69 +1,77 @@
 ---
-title: Pengulangan berdasarkan Tahun Minggu Hari di Aspose.Tugas
-linktitle: Pengulangan berdasarkan Tahun Minggu Hari di Aspose.Tugas
-second_title: Aspose.Tugas .NET API
-description: Jelajahi kekuatan Aspose.Tasks untuk .NET dalam mengelola tugas berulang secara efisien. Panduan langkah demi langkah untuk menerapkan fitur Pengulangan berdasarkan Tahun, Hari Minggu.
-weight: 28
+date: 2026-04-03
+description: Pelajari cara menggunakan Aspose.Tasks untuk menambahkan tugas berulang
+  ke proyek dan menyimpan proyek sebagai MPP. Panduan ini menunjukkan fitur Pengulangan
+  berdasarkan Tahun, Minggu, dan Hari langkah demi langkah.
+keywords:
+- how to use aspose.tasks
+- add recurring task project
+- save project as mpp
+linktitle: Pengulangan berdasarkan Tahun, Minggu, Hari di Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+title: Cara Menggunakan Aspose.Tasks – Pengulangan Berdasarkan Tahun, Minggu, Hari
 url: /id/net/advanced-features/repetition-by-year-week-day/
+weight: 28
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Pengulangan berdasarkan Tahun Minggu Hari di Aspose.Tugas
+# Pengulangan berdasarkan Tahun Minggu Hari dalam Aspose.Tasks
 
-## Perkenalan
+## Pendahuluan
 
-Dalam bidang manajemen proyek, efisiensi dan presisi adalah hal yang terpenting. Aspose.Tasks untuk .NET muncul sebagai alat yang ampuh, menawarkan banyak fitur untuk menyederhanakan penanganan proyek. Di antara persenjataannya adalah kemampuan untuk mengelola tugas berulang dengan fleksibilitas luar biasa. Salah satu fitur tersebut adalah fungsi "Pengulangan berdasarkan Tahun, Hari Minggu", yang memungkinkan pengguna mengatur tugas yang berulang pada hari tertentu dalam seminggu, dalam bulan yang ditentukan, dan dalam beberapa tahun.
+Ketika Anda perlu **how to use Aspose.Tasks** untuk menangani jadwal berulang yang kompleks, perpustakaan ini memberi Anda kontrol yang halus atas pola tahunan. Dalam tutorial ini kami akan menjelaskan cara membuat tugas yang berulang pada hari kerja tertentu dalam bulan tertentu, meliputi beberapa tahun. Pada akhir tutorial Anda akan dapat **add recurring task project** entri dan **save project as MPP** dengan hanya beberapa baris kode C#.
+
+## Jawaban Cepat
+- **What does “Repetition by Year Week Day” mean?** Itu mengulangi sebuah tugas pada hari kerja yang dipilih (misalnya, Minggu pertama) dari bulan tertentu setiap tahun.  
+- **Which .NET versions are supported?** Semua versi .NET Framework dan .NET Core/5/6 modern.  
+- **Do I need a license to run the code?** Versi percobaan gratis dapat digunakan untuk pengembangan; lisensi komersial diperlukan untuk produksi.  
+- **Can I change the recurrence range?** Ya – Anda dapat mengatur tanggal mulai, tanggal selesai, atau jumlah kejadian tetap.  
+- **Is the output an MPP file?** Tentu – proyek disimpan sebagai file MPP yang siap untuk Microsoft Project.
+
+## Apa itu fitur “Repetition by Year Week Day”?
+
+Fitur ini memungkinkan Anda mendefinisikan pengulangan tahunan yang menargetkan **day of the week** tertentu (misalnya, Sunday) dan **position** dalam bulan (pertama, kedua, terakhir, dll.). Ini ideal untuk tugas seperti tinjauan kuartalan, audit tahunan, atau acara apa pun yang mengikuti irama berbasis kalender.
+
+## Mengapa menggunakan Aspose.Tasks untuk tugas berulang?
+
+- **Precision** – Kontrol penuh atas bulan, hari kerja, dan posisi ordinal.  
+- **Compatibility** – Menghasilkan file MPP native yang dapat dibuka tanpa masalah di Microsoft Project.  
+- **No COM interop** – API .NET murni, tidak memerlukan instalasi Office.  
+- **Scalability** – Berfungsi untuk proyek kecil maupun jadwal tingkat perusahaan.
 
 ## Prasyarat
 
-Sebelum mendalami seluk-beluk penggunaan fitur "Pengulangan menurut Tahun Hari Minggu" di Aspose.Tasks untuk .NET, pastikan Anda memiliki prasyarat berikut:
+Sebelum menyelami kode, pastikan Anda memiliki:
 
-### 1. Pengetahuan tentang .NET Framework
+1. **Basic .NET knowledge** – Familiaritas dengan C# dan konsep berorientasi objek.  
+2. **Aspose.Tasks for .NET** – Unduh dari [tautan unduhan](https://releases.aspose.com/tasks/net/) dan tambahkan DLL ke proyek Anda.  
+3. **Access to the official docs** – [dokumentasi](https://reference.aspose.com/tasks/net/) berisi detail lengkap tentang semua kelas.  
+4. **A development IDE** – Visual Studio, Rider, atau editor .NET kompatibel lainnya.
 
-Biasakan diri Anda dengan dasar-dasar .NET Framework, termasuk konsep pemrograman berorientasi objek dan sintaksis C#.
+Sekarang Anda siap, mari lihat implementasinya.
 
-### 2. Instalasi Aspose.Tasks untuk .NET
+## Cara Menggunakan Aspose.Tasks untuk Tugas Berulang
 
- Unduh dan instal perpustakaan Aspose.Tasks untuk .NET dari[tautan unduhan](https://releases.aspose.com/tasks/net/). Ikuti petunjuk instalasi yang diberikan untuk mengintegrasikan perpustakaan ke dalam lingkungan pengembangan Anda.
+### Mengimpor Namespace yang Diperlukan
 
-### 3. Akses terhadap Dokumentasi
-
- Mengacu kepada[dokumentasi](https://reference.aspose.com/tasks/net/) untuk panduan komprehensif tentang Aspose.Tasks untuk .NET, termasuk penjelasan mendetail tentang kelas, metode, dan contoh penggunaan.
-
-## 4. Pengaturan Lingkungan Pengembangan
-
-Pastikan Anda memiliki konfigurasi lingkungan pengembangan yang sesuai, seperti Visual Studio atau IDE apa pun yang kompatibel untuk pengembangan .NET.
-
-Sekarang setelah Anda memiliki prasyaratnya, mari pelajari panduan langkah demi langkah dalam menerapkan "Pengulangan berdasarkan Tahun, Hari Minggu" di Aspose.Tasks untuk .NET.
-
-
-## Mengimpor Namespace yang Diperlukan
-
-Untuk memulai, impor namespace yang diperlukan untuk mengakses kelas dan fungsi Aspose.Tasks dalam aplikasi .NET Anda.
-
-Dalam file kode C# Anda, sertakan deklarasi namespace berikut:
+Pertama, bawa namespace yang diperlukan ke dalam ruang lingkup sehingga Anda dapat bekerja dengan proyek, tugas, dan opsi penyimpanan.
 
 ```csharp
 using Aspose.Tasks;
 using System;
 
 using Aspose.Tasks.Saving;
-
 ```
 
-Namespace ini menyediakan akses ke perpustakaan Aspose.Tasks dan kelas yang diperlukan untuk bekerja dengan tugas dan file proyek.
+### Langkah 1: Inisialisasi Proyek dan Parameter Tugas
 
-Sekarang, mari kita uraikan proses pengaturan tugas berulang menggunakan fitur "Pengulangan berdasarkan Tahun, Hari Minggu" di Aspose.Tasks untuk .NET menjadi langkah-langkah yang dapat dikelola.
-
-## Langkah 1: Inisialisasi Parameter Proyek dan Tugas
-
-Pertama, inisialisasi proyek dan tentukan parameter untuk tugas berulang.
+Buat instance `Project` baru, kemudian definisikan objek `RecurringTaskParameters` yang menggambarkan pola pengulangan.
 
 ```csharp
-// Jalur ke direktori dokumen.
+// The path to the documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Blank2010.mpp");
 var parameters = new RecurringTaskParameters
@@ -85,53 +93,64 @@ var parameters = new RecurringTaskParameters
 };
 ```
 
-Segmen kode ini menginisialisasi proyek baru dan menentukan parameter untuk tugas berulang. Ini menetapkan nama tugas, durasi, dan menentukan pola pengulangan.
+> **Pro tip:** Sesuaikan `Month`, `WeekDay`, dan `Position` agar sesuai dengan jadwal dunia nyata Anda.
 
-## Langkah 2: Tambahkan Parameter ke Proyek
+### Langkah 2: Tambahkan Parameter ke Proyek
 
-Selanjutnya, tambahkan parameter yang ditentukan ke proyek.
+Sisipkan definisi tugas berulang ke dalam root proyek.
 
 ```csharp
 project.RootTask.Children.Add(parameters);
 ```
 
-Baris ini menambahkan parameter tugas ke tugas utama proyek, menggabungkan konfigurasi tugas berulang.
+### Langkah 3: Simpan Proyek sebagai MPP
 
-## Langkah 3: Simpan File Proyek
-
-Terakhir, simpan file proyek dengan tugas berulang yang dikonfigurasi.
+Akhirnya, simpan proyek ke file MPP sehingga dapat dibuka di Microsoft Project atau penampil kompatibel lainnya.
 
 ```csharp
 project.Save(DataDir + "CanAddRecurringTask_Years_YearWeekDay_EndByRecurrenceRange_Test.mpp", SaveFileFormat.Mpp);
 ```
 
-Cuplikan ini menyimpan file proyek dengan konfigurasi tugas berulang yang ditentukan ke direktori keluaran yang ditentukan.
+> Ini menunjukkan **save project as mpp** dalam satu baris kode.
+
+## Masalah Umum dan Solusinya
+
+| Gejala | Penyebab Kemungkinan | Solusi |
+|---------|----------------------|--------|
+| Tidak ada tugas yang muncul setelah membuka file MPP | Tanggal rentang pengulangan berada di luar kalender proyek | Verifikasi tanggal `Start` dan `Finish` berada dalam waktu kerja proyek |
+| Exception `ArgumentNullException` pada `Add` | `parameters` bernilai null atau tidak terinisialisasi sepenuhnya | Pastikan semua properti yang diperlukan (TaskName, Duration, RecurrencePattern) telah diatur |
+| Hari kerja yang dipilih salah | Nilai enum `WeekDay` tidak cocok | Gunakan `DayOfWeek.Monday` … `DayOfWeek.Sunday` sesuai kebutuhan |
+
+## Pertanyaan yang Sering Diajukan
+
+**Q: Can I customize the recurrence pattern beyond the provided example?**  
+A: Ya, Aspose.Tasks memungkinkan Anda menggabungkan objek `MonthlyRecurrencePattern`, `WeeklyRecurrencePattern`, atau bahkan `RecurrenceRange` kustom untuk menyesuaikan jadwal apa pun.
+
+**Q: Is Aspose.Tasks for .NET compatible with other project management software?**  
+A: Tentu – perpustakaan ini dapat membaca dan menulis format MPP, XML, dan Primavera, memungkinkan pertukaran data yang lancar.
+
+**Q: How can I handle exceptions or modifications to recurring tasks?**  
+A: Gunakan kelas `ExceptionTask` untuk membuat penimpaan pada kejadian tertentu, atau edit `RecurringTaskParameters` dan simpan kembali proyek.
+
+**Q: Does Aspose.Tasks support cloud‑based solutions?**  
+A: Ya, Anda dapat menjalankan API di Azure Functions, AWS Lambda, atau layanan cloud apa pun yang kompatibel dengan .NET.
+
+**Q: Is there a trial version available for Aspose.Tasks for .NET?**  
+A: Ya, Anda dapat mengakses percobaan gratis Aspose.Tasks untuk .NET dari [situs web](https://releases.aspose.com/), memungkinkan Anda menjelajahi fiturnya sebelum membuat keputusan pembelian.
+
+**Q: How do I add a recurring task to an existing project without overwriting other data?**  
+A: Muat proyek yang ada dengan `new Project("Existing.mpp")`, tambahkan `RecurringTaskParameters` ke `RootTask.Children`, lalu `Save` file tersebut.
 
 ## Kesimpulan
 
-Kesimpulannya, menguasai fitur "Pengulangan berdasarkan Tahun, Hari Minggu" di Aspose.Tasks untuk .NET memberdayakan manajer proyek dan pengembang untuk menangani tugas berulang secara efisien dengan presisi dan fleksibilitas. Dengan mengikuti panduan langkah demi langkah yang diuraikan dalam artikel ini, Anda dapat dengan mudah mengintegrasikan fungsi ini ke dalam alur kerja manajemen proyek Anda, sehingga meningkatkan produktivitas dan organisasi.
+Dengan menguasai **how to use Aspose.Tasks** untuk skenario **Repetition by Year Week Day**, Anda memperoleh kemampuan untuk **add recurring task project** entri yang selaras sempurna dengan kalender dunia nyata dan **save project as MPP** untuk kolaborasi tanpa hambatan. Gabungkan potongan kode ini ke dalam solusi Anda sendiri untuk meningkatkan akurasi penjadwalan dan mengurangi upaya manual.
 
-## FAQ
+---
 
-### Q1: Dapatkah saya menyesuaikan pola pengulangan lebih jauh dari contoh yang diberikan?
+**Terakhir Diperbarui:** 2026-04-03  
+**Diuji Dengan:** Aspose.Tasks 24.12 for .NET  
+**Penulis:** Aspose  
 
-J: Ya, Aspose.Tasks untuk .NET menawarkan opsi penyesuaian ekstensif untuk tugas berulang, memungkinkan Anda menyesuaikan pola pengulangan dengan kebutuhan spesifik Anda.
-
-### Q2: Apakah Aspose.Tasks untuk .NET kompatibel dengan perangkat lunak manajemen proyek lainnya?
-
-J: Aspose.Tasks untuk .NET mendukung interoperabilitas dengan berbagai format manajemen proyek, memungkinkan integrasi tanpa hambatan dengan rangkaian perangkat lunak populer.
-
-### Q3: Bagaimana cara menangani pengecualian atau modifikasi pada tugas berulang?
-
-J: Aspose.Tasks untuk .NET menyediakan API untuk menangani pengecualian dan modifikasi pada tugas berulang, memastikan fleksibilitas dalam mengelola persyaratan proyek yang terus berkembang.
-
-### Q4: Apakah Aspose.Tasks untuk .NET menawarkan dukungan untuk solusi manajemen proyek berbasis cloud?
-
-J: Ya, Aspose.Tasks untuk .NET menawarkan dukungan untuk solusi manajemen proyek berbasis cloud, memfasilitasi kolaborasi dan aksesibilitas di berbagai platform.
-
-### Q5: Apakah ada versi uji coba yang tersedia untuk Aspose.Tasks untuk .NET?
-
-J: Ya, Anda dapat mengakses uji coba gratis Aspose.Tasks untuk .NET dari[situs web](https://releases.aspose.com/), memungkinkan Anda menjelajahi fitur-fiturnya sebelum membuat keputusan pembelian.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

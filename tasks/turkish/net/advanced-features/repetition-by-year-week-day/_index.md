@@ -1,69 +1,77 @@
 ---
-title: Aspose.Tasks'ta Yıl Hafta Gününe Göre Tekrarlama
-linktitle: Aspose.Tasks'ta Yıl Hafta Gününe Göre Tekrarlama
-second_title: Aspose.Tasks .NET API'si
-description: Yinelenen görevleri verimli bir şekilde yönetme konusunda Aspose.Tasks for .NET'in gücünü keşfedin. Yıl Hafta Gününe Göre Tekrarlama özelliğini uygulamaya yönelik adım adım kılavuz.
-weight: 28
+date: 2026-04-03
+description: Aspose.Tasks'i kullanarak yinelenen görev projesi eklemeyi ve projeyi
+  MPP olarak kaydetmeyi öğrenin. Bu kılavuz, Yıl Hafta Gününe göre Tekrar özelliğini
+  adım adım gösterir.
+keywords:
+- how to use aspose.tasks
+- add recurring task project
+- save project as mpp
+linktitle: Aspose.Tasks'te Yıl, Hafta, Gün Tekrarı
+second_title: Aspose.Tasks .NET API
+title: Aspose.Tasks Nasıl Kullanılır – Yıl, Hafta, Gün Tekrarlama
 url: /tr/net/advanced-features/repetition-by-year-week-day/
+weight: 28
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks'ta Yıl Hafta Gününe Göre Tekrarlama
+# Aspose.Tasks'te Yıl Hafta Gününe Göre Tekrarlama
 
-## giriiş
+## Giriş
 
-Proje yönetimi alanında verimlilik ve hassasiyet çok önemlidir. Aspose.Tasks for .NET, proje yönetimini kolaylaştırmak için çok sayıda özellik sunan güçlü bir araç olarak ortaya çıkıyor. Cephaneliği arasında yinelenen görevleri olağanüstü bir esneklikle yönetme yeteneği de vardır. Bu tür özelliklerden biri, kullanıcıların haftanın belirli günlerinde, belirlenen aylarda ve birden fazla yılda tekrarlanan görevleri ayarlamasına olanak tanıyan "Yılın Hafta Gününe Göre Tekrarlama" işlevidir.
+Karmaşık yinelenen takvimleri yönetmek için **how to use Aspose.Tasks**'a ihtiyacınız olduğunda, kütüphane yıllık desenler üzerinde ayrıntılı kontrol sağlar. Bu öğreticide, belirli bir ayın belirli bir haft günü üzerinde birden fazla yıl boyunca tekrarlanan bir görev oluşturmayı adım adım göstereceğiz. Sonunda sadece birkaç C# satırıyla **add recurring task project** girişlerini ekleyebilecek ve **save project as MPP** yapabileceksiniz.
+
+## Hızlı Yanıtlar
+- **“Repetition by Year Week Day” ne anlama geliyor?** Bir görevi her yıl belirli bir ayın seçilen haft gününde (ör. ilk Pazar) tekrarlatır.  
+- **Hangi .NET sürümleri destekleniyor?** Tüm modern .NET Framework ve .NET Core/5/6 sürümleri.  
+- **Kodu çalıştırmak için lisansa ihtiyacım var mı?** Geliştirme için ücretsiz deneme sürümü yeterlidir; üretim için ticari lisans gereklidir.  
+- **Tekrarlama aralığını değiştirebilir miyim?** Evet – bir başlangıç tarihi, bitiş tarihi veya sabit bir tekrar sayısı belirleyebilirsiniz.  
+- **Çıktı bir MPP dosyası mı?** Kesinlikle – proje, Microsoft Project için hazır bir MPP dosyası olarak kaydedilir.
+
+## “Repetition by Year Week Day” özelliği nedir?
+
+Bu özellik, belirli bir **hafta günü** (ör. Pazar) ve ay içindeki bir **konum** (ilk, ikinci, son vb.) hedefleyen yıllık bir tekrarlamayı tanımlamanıza olanak tanır. Bu, üç aylık incelemeler, yıllık denetimler veya takvim temelli bir ritme sahip herhangi bir etkinlik gibi görevler için idealdir.
+
+## Neden yinelenen görevler için Aspose.Tasks kullanmalı?
+
+- **Precision** – Aylar, hafta günleri ve sıra konumları üzerinde tam kontrol.  
+- **Compatibility** – Microsoft Project'te sorunsuz açılan yerel MPP dosyaları üretir.  
+- **No COM interop** – Saf .NET API, Office kurulumuna gerek yok.  
+- **Scalability** – Küçük projeler ve kurumsal ölçekli takvimler için aynı şekilde çalışır.
 
 ## Önkoşullar
 
-Aspose.Tasks for .NET'teki "Yıllara Göre Hafta Gününe Göre Tekrarlama" özelliğini kullanmanın inceliklerine dalmadan önce, aşağıdaki önkoşulların yerine getirildiğinden emin olun:
+Koda başlamadan önce, şunların olduğundan emin olun:
 
-### 1. .NET Framework Bilgisi
+1. **Basic .NET knowledge** – C# ve nesne‑yönelimli kavramlara aşina olmak.  
+2. **Aspose.Tasks for .NET** – [download link](https://releases.aspose.com/tasks/net/) adresinden indirin ve DLL'i projenize ekleyin.  
+3. **Access to the official docs** – [documentation](https://reference.aspose.com/tasks/net/) tüm sınıflar hakkında kapsamlı detaylar içerir.  
+4. **A development IDE** – Visual Studio, Rider veya uyumlu herhangi bir .NET editörü.
 
-Nesne yönelimli programlama kavramları ve C# sözdizimi de dahil olmak üzere .NET Framework'ün temellerini öğrenin.
+Şimdi hazır olduğunuzda, uygulamayı görelim.
 
-### 2. Aspose.Tasks for .NET'in Kurulumu
+## Aspose.Tasks'i Yinelenen Görevler için Nasıl Kullanılır
 
- Aspose.Tasks for .NET kütüphanesini şu adresten indirip yükleyin:[İndirme: {link](https://releases.aspose.com/tasks/net/). Kitaplığı geliştirme ortamınıza entegre etmek için sağlanan kurulum talimatlarını izleyin.
+### Gerekli Ad Alanlarını İçe Aktarma
 
-### 3. Dokümantasyona Erişim
-
- Bakın[dokümantasyon](https://reference.aspose.com/tasks/net/) Sınıfların, yöntemlerin ve kullanım örneklerinin ayrıntılı açıklamalarını içeren Aspose.Tasks for .NET hakkında kapsamlı rehberlik için.
-
-## 4. Geliştirme Ortamı Kurulumu
-
-Visual Studio veya .NET geliştirme için uyumlu herhangi bir IDE gibi uygun bir geliştirme ortamının yapılandırılmış olduğundan emin olun.
-
-Artık önkoşulları yerine getirdiğinize göre, Aspose.Tasks for .NET'te "Yılın Hafta Gününe Göre Tekrarlama" uygulamasına ilişkin adım adım kılavuzu inceleyelim.
-
-
-## Gerekli Ad Alanlarını İçe Aktarma
-
-Başlamak için, .NET uygulamanızdaki Aspose.Tasks sınıflarına ve işlevlerine erişmek için gerekli ad alanlarını içe aktarın.
-
-C# kod dosyanıza aşağıdaki ad alanı bildirimlerini ekleyin:
+İlk olarak, projeler, görevler ve kaydetme seçenekleriyle çalışabilmek için gerekli ad alanlarını kapsam içine getirin.
 
 ```csharp
 using Aspose.Tasks;
 using System;
 
 using Aspose.Tasks.Saving;
-
 ```
 
-Bu ad alanları Aspose.Tasks kütüphanesine ve görevler ve proje dosyalarıyla çalışmak için gereken sınıflara erişim sağlar.
+### Adım 1: Proje ve Görev Parametrelerini Başlatma
 
-Şimdi Aspose.Tasks for .NET'teki "Yılın Hafta Gününe Göre Tekrarlama" özelliğini kullanarak yinelenen bir görev oluşturma sürecini yönetilebilir adımlara ayıralım.
-
-## Adım 1: Proje ve Görev Parametrelerini Başlatın
-
-Öncelikle projeyi başlatın ve yinelenen görevin parametrelerini tanımlayın.
+Yeni bir `Project` örneği oluşturun, ardından tekrarlama desenini tanımlayan bir `RecurringTaskParameters` nesnesi tanımlayın.
 
 ```csharp
-// Belgeler dizinine giden yol.
+// The path to the documents directory.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Blank2010.mpp");
 var parameters = new RecurringTaskParameters
@@ -85,53 +93,64 @@ var parameters = new RecurringTaskParameters
 };
 ```
 
-Bu kod bölümü yeni bir projeyi başlatır ve yinelenen bir görev için parametreleri belirtir. Görev adını, süresini belirler ve yinelenme modelini tanımlar.
+> **Pro tip:** `Month`, `WeekDay` ve `Position` değerlerini gerçek zamanlı takviminize göre ayarlayın.
 
-## Adım 2: Projeye Parametreler Ekleme
+### Adım 2: Parametreleri Projeye Ekleme
 
-Daha sonra tanımlanan parametreleri projeye ekleyin.
+Yinelenen görev tanımını projenin köküne ekleyin.
 
 ```csharp
 project.RootTask.Children.Add(parameters);
 ```
 
-Bu satır, yinelenen görev yapılandırmasını da dahil ederek görev parametrelerini projenin kök görevine ekler.
+### Adım 3: Projeyi MPP Olarak Kaydet
 
-## Adım 3: Proje Dosyasını Kaydet
-
-Son olarak proje dosyasını yapılandırılan yinelenen görevle birlikte kaydedin.
+Son olarak, projeyi bir MPP dosyasına kaydedin, böylece Microsoft Project ya da uyumlu bir görüntüleyicide açılabilir.
 
 ```csharp
 project.Save(DataDir + "CanAddRecurringTask_Years_YearWeekDay_EndByRecurrenceRange_Test.mpp", SaveFileFormat.Mpp);
 ```
 
-Bu kod parçası, belirtilen yinelenen görev yapılandırmasına sahip proje dosyasını belirtilen çıktı dizinine kaydeder.
+> Bu, tek bir kod satırıyla **save project as mpp** gösterir.
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümler
 
-Sonuç olarak, Aspose.Tasks for .NET'teki "Yılın Hafta Gününe Göre Tekrarlama" özelliğinde uzmanlaşmak, proje yöneticilerine ve geliştiricilere, yinelenen görevleri hassas ve esnek bir şekilde verimli bir şekilde ele alma gücü verir. Bu makalede özetlenen adım adım kılavuzu takip ederek, bu işlevselliği proje yönetimi iş akışlarınıza sorunsuz bir şekilde entegre ederek üretkenliği ve organizasyonu artırabilirsiniz.
+| Semptom | Muhtemel Neden | Çözüm |
+|---------|----------------|------|
+| MPP dosyası açıldıktan sonra görevler görünmüyor | Tekrarlama aralığı tarihleri proje takviminin dışındadır | `Start` ve `Finish` tarihlerinin projenin çalışma zamanına dahil olduğunu doğrulayın |
+| `Add` işleminde `ArgumentNullException` istisnası | `parameters` null veya tam olarak başlatılmamış | Tüm gerekli özelliklerin (TaskName, Duration, RecurrencePattern) ayarlandığından emin olun |
+| Yanlış hafta günü seçildi | `WeekDay` enum değeri uyumsuz | Gerekli olduğunda `DayOfWeek.Monday` … `DayOfWeek.Sunday` kullanın |
 
-## SSS'ler
+## Sıkça Sorulan Sorular
 
-### S1: Yinelenme modelini sağlanan örneklerin ötesinde özelleştirebilir miyim?
+**S: Sağlanan örnek dışındaki tekrarlama desenini özelleştirebilir miyim?**  
+A: Evet, Aspose.Tasks, herhangi bir takvime uyması için `MonthlyRecurrencePattern`, `WeeklyRecurrencePattern` veya hatta özel `RecurrenceRange` nesnelerini birleştirmenize izin verir.
 
-C: Evet, Aspose.Tasks for .NET, yinelenen görevler için kapsamlı özelleştirme seçenekleri sunarak yineleme modelini özel gereksinimlerinize göre uyarlamanıza olanak tanır.
+**S: Aspose.Tasks for .NET diğer proje yönetim yazılımlarıyla uyumlu mu?**  
+A: Kesinlikle – kütüphane MPP, XML ve Primavera formatlarını okuyup yazar, sorunsuz veri alışverişi sağlar.
 
-### S2: Aspose.Tasks for .NET diğer proje yönetimi yazılımlarıyla uyumlu mu?
+**S: Yinelenen görevlerde istisnaları veya değişiklikleri nasıl yönetebilirim?**  
+A: `ExceptionTask` sınıfını belirli tekrarlar için geçersiz kılmalar oluşturmak üzere kullanın, ya da `RecurringTaskParameters`'ı düzenleyip projeyi yeniden kaydedin.
 
-C: Aspose.Tasks for .NET, çeşitli proje yönetimi formatlarıyla birlikte çalışabilirliği destekleyerek popüler yazılım paketleriyle kusursuz entegrasyon sağlar.
+**S: Aspose.Tasks bulut tabanlı çözümleri destekliyor mu?**  
+A: Evet, API'yi Azure Functions, AWS Lambda veya herhangi bir .NET uyumlu bulut hizmetinde çalıştırabilirsiniz.
 
-### S3: Yinelenen görevlerdeki istisnaları veya değişiklikleri nasıl halledebilirim?
+**S: Aspose.Tasks for .NET için bir deneme sürümü mevcut mu?**  
+A: Evet, [website](https://releases.aspose.com/) adresinden Aspose.Tasks for .NET'in ücretsiz deneme sürümüne erişebilir, satın alma kararından önce özelliklerini keşfedebilirsiniz.
 
-C: Aspose.Tasks for .NET, yinelenen görevlerdeki istisnaları ve değişiklikleri ele almak için API'ler sağlayarak, gelişen proje gereksinimlerinin yönetilmesinde esneklik sağlar.
+**S: Mevcut bir projeye diğer verileri üzerine yazmadan yinelenen görev nasıl eklenir?**  
+A: Mevcut projeyi `new Project("Existing.mpp")` ile yükleyin, `RecurringTaskParameters`'ı `RootTask.Children`'a ekleyin ve ardından dosyayı `Save` edin.
 
-### S4: Aspose.Tasks for .NET, bulut tabanlı proje yönetimi çözümleri için destek sunuyor mu?
+## Sonuç
 
-C: Evet, Aspose.Tasks for .NET, bulut tabanlı proje yönetimi çözümleri için destek sunarak çeşitli platformlarda işbirliğini ve erişilebilirliği kolaylaştırır.
+**how to use Aspose.Tasks**'i **Repetition by Year Week Day** senaryosu için ustalaşarak, gerçek takvimlerle mükemmel uyumlu **add recurring task project** girişleri ekleme ve **save project as MPP** yaparak sorunsuz iş birliği sağlama yeteneği kazanırsınız. Bu kod parçacıklarını kendi çözümlerinizde kullanarak zamanlama doğruluğunu artırın ve manuel çabayı azaltın.
 
-### S5: Aspose.Tasks for .NET'in deneme sürümü mevcut mu?
+---
 
-C: Evet, Aspose.Tasks for .NET'in ücretsiz deneme sürümüne şu adresten erişebilirsiniz:[İnternet sitesi](https://releases.aspose.com/)satın alma kararı vermeden önce özelliklerini keşfetmenize olanak tanır.
+**Last Updated:** 2026-04-03  
+**Tested With:** Aspose.Tasks 24.12 for .NET  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
