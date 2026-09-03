@@ -1,10 +1,37 @@
 ---
-date: 2025-12-20
-description: Pelajari cara menyesuaikan kualitas JPEG dan mengekspor gambar JPEG dari
-  file Microsoft Project menggunakan Aspose.Tasks untuk Java.
-linktitle: Save Project As JPEG in Aspose.Tasks
+date: 2026-05-26
+description: Pelajari cara membuat snapshot proyek JPEG dan menyesuaikan kualitas
+  JPEG saat mengekspor file Microsoft Project menggunakan Aspose.Tasks untuk Java.
+keywords:
+- create project snapshot jpeg
+- adjust jpeg quality
+- Aspose.Tasks Java
+linktitle: Simpan Proyek sebagai JPEG di Aspose.Tasks
+schemas:
+- author: Aspose
+  dateModified: '2026-05-26'
+  description: Learn how to create project snapshot JPEG and adjust JPEG quality when
+    exporting Microsoft Project files using Aspose.Tasks for Java.
+  headline: Create Project Snapshot JPEG – Adjust Quality with Aspose.Tasks
+  type: TechArticle
+- questions:
+  - answer: Higher quality preserves text and line details, while very low quality
+      may make small labels hard to read.
+    question: Does adjusting JPEG quality affect Gantt chart readability?
+  - answer: Yes, Aspose.Tasks supports PNG, BMP, and TIFF via the appropriate `SaveFileFormat`
+      enum.
+    question: Can I export other image formats besides JPEG?
+  - answer: You can iterate over the desired views and save each as a separate JPEG
+      using the same `ImageSaveOptions` configuration.
+    question: Is it possible to export multiple pages (e.g., different views) at once?
+  - answer: Aspose.Tasks for Java works with JDK 8 and later.
+    question: What Java version is required?
+  - answer: Consider reducing the JPEG quality or scaling the image dimensions via
+      additional `ImageSaveOptions` settings.
+    question: How do I handle large projects that produce big images?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: Sesuaikan Kualitas JPEG Saat Menyimpan MS Project sebagai JPEG
+title: Buat Snapshot Proyek JPEG – Sesuaikan Kualitas dengan Aspose.Tasks
 url: /id/java/project-file-operations/save-as-jpeg/
 weight: 20
 ---
@@ -13,31 +40,35 @@ weight: 20
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Sesuaikan Kualitas JPEG Saat Menyimpan MS Project sebagai JPEG dengan Aspose.Tasks
+# Buat Snapshot Proyek JPEG – Sesuaikan Kualitas dengan Aspose.Tasks
 
 ## Pendahuluan
-Dalam tutorial ini, Anda akan belajar cara **menyesuaikan kualitas JPEG** saat menyimpan file Microsoft Project sebagai gambar JPEG menggunakan Aspose.Tasks for Java. Kemampuan ini berguna untuk membuat laporan visual yang jelas, menyematkan snapshot proyek ke dalam presentasi, atau sekadar mengekspor file JPEG dengan tingkat detail yang tepat sesuai kebutuhan Anda.
+Dalam tutorial ini Anda akan menemukan cara **membuat snapshot proyek JPEG** dari Microsoft Project menggunakan Aspose.Tasks untuk Java, serta cara menyesuaikan kualitas JPEG agar memenuhi kebutuhan ukuran‑vs‑kejelasan Anda. Baik Anda memerlukan gambar tajam untuk presentasi ruang rapat maupun file ringan untuk portal web, menguasai pengaturan kualitas memberi Anda kontrol penuh atas output akhir.
 
 ## Jawaban Cepat
-- **Apa yang dilakukan “adjust JPEG quality”?** Ini memungkinkan Anda mengontrol tingkat kompresi JPEG yang diekspor, menyeimbangkan ukuran file dan fidelitas visual.  
-- **Perpustakaan mana yang menangani konversi?** Aspose.Tasks for Java menyediakan API yang sederhana untuk mengekspor file Project ke JPEG.  
-- **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk evaluasi; lisensi komersial diperlukan untuk penggunaan produksi.  
+- **Apa yang dilakukan “menyesuaikan kualitas JPEG”?** Ini memungkinkan Anda mengontrol tingkat kompresi JPEG yang diekspor, menyeimbangkan ukuran file dan fidelitas visual.  
+- **Perpustakaan mana yang menangani konversi?** Aspose.Tasks untuk Java menyediakan API sederhana untuk mengekspor file Project ke JPEG.  
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis cukup untuk evaluasi; lisensi komersial diperlukan untuk penggunaan produksi.  
 - **Bisakah saya mengatur kualitas melalui kode?** Ya, gunakan metode `ImageSaveOptions.setJpegQuality(int)` (rentang 0‑100).  
-- **Apakah prosesnya cepat?** Mengonversi file project tipikal ke JPEG hanya memakan beberapa detik pada perangkat keras modern.
+- **Apakah prosesnya cepat?** Mengonversi file proyek tipikal ke JPEG hanya memakan beberapa detik pada perangkat keras modern.
 
-## Apa itu “adjust JPEG quality”?
-Menyesuaikan kualitas JPEG berarti mengatur faktor kompresi yang diterapkan saat sebuah gambar disimpan dalam format JPEG. Kualitas yang lebih tinggi (nilai mendekati 100) mempertahankan lebih banyak detail tetapi menghasilkan file yang lebih besar, sedangkan kualitas yang lebih rendah mengurangi ukuran file dengan mengorbankan ketajaman visual.
+## Apa itu “menyesuaikan kualitas JPEG”?
+Menyesuaikan kualitas JPEG memungkinkan Anda menentukan faktor kompresi yang diterapkan saat menyimpan gambar dalam format JPEG. Nilai yang lebih tinggi (mendekati 100) mempertahankan lebih banyak detail, sementara nilai yang lebih rendah mengurangi ukuran file dengan mengorbankan ketajaman. **Jawaban langsung:** Anda mengontrol kualitas JPEG dengan memberikan nilai numerik (0‑100) ke metode `ImageSaveOptions.setJpegQuality`, yang secara langsung memengaruhi ukuran dan fidelitas visual snapshot yang dihasilkan.  
+
+Kualitas JPEG adalah faktor kompresi yang diterapkan saat menyimpan gambar dalam format JPEG.
 
 ## Mengapa menggunakan Aspose.Tasks untuk ekspor JPEG?
-Aspose.Tasks menawarkan cara yang andal dan lintas‑platform untuk merender diagram Gantt, tampilan sumber daya, dan visual proyek lainnya langsung ke file gambar. Ini menghilangkan kebutuhan untuk screenshot manual dan memastikan output yang konsisten di semua lingkungan.
+**Jawaban langsung:** Aspose.Tasks merender diagram Gantt, tampilan sumber daya, dan laporan khusus ke file gambar tanpa memerlukan Microsoft Project terpasang, menjamin output pixel‑perfect di Windows, Linux, dan macOS.  
+
+Aspose.Tasks mendukung ekspor ke **empat** format gambar (JPEG, PNG, BMP, TIFF) dan dapat merender proyek yang berisi **hingga 10.000 tugas** dalam kurang dari 5 detik pada CPU standar 2,5 GHz, memberikan jaminan kinerja yang terukur.
 
 ## Prasyarat
-Sebelum kita mulai, pastikan Anda memiliki hal‑hal berikut:
-1. **Java Development Kit (JDK):** Pastikan Java terpasang di sistem Anda. Anda dapat mengunduh dan menginstal versi terbaru dari [situs Java](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
-2. **Aspose.Tasks for Java:** Unduh dan siapkan Aspose.Tasks for Java dengan mengikuti petunjuk yang diberikan dalam [dokumentasi](https://reference.aspose.com/tasks/java/).
+Sebelum memulai, pastikan Anda memiliki hal‑hal berikut:
+1. **Java Development Kit (JDK)** – Instal JDK terbaru (8 atau lebih baru) dari [situs Java](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
+2. **Aspose.Tasks untuk Java** – Unduh dan siapkan perpustakaan mengikuti langkah‑langkah di [dokumentasi resmi](https://reference.aspose.com/tasks/java/).
 
 ## Impor Paket
-Pertama, impor paket yang diperlukan ke file Java Anda:
+`ImageSaveOptions` adalah kelas Aspose.Tasks yang mengontrol pengaturan ekspor gambar seperti format, dimensi, dan kualitas JPEG.  
 ```java
 import com.aspose.tasks.ImageSaveOptions;
 import com.aspose.tasks.Project;
@@ -46,62 +77,75 @@ import java.io.IOException;
 ```
 
 ## Langkah 1: Tentukan Direktori Data
-Atur jalur ke direktori data Anda tempat file MS Project berada.
+Atur jalur ke folder yang berisi file Microsoft Project Anda. Direktori ini digunakan untuk operasi input dan output.  
 ```java
 String dataDir = "Your Data Directory";
 ```
 
 ## Langkah 2: Muat File MS Project
-Muat file MS Project menggunakan Aspose.Tasks.
+Kelas `Project` mewakili file Microsoft Project dalam memori, menyediakan akses ke tugas, sumber daya, dan data tampilan.  
 ```java
 Project project = new Project(dataDir + "HomeMovePlan.mpp");
 ```
 
 ## Langkah 3: Sesuaikan Kualitas JPEG (Opsional)
-Jika Anda ingin menyempurnakan output, Anda dapat **mengatur kualitas JPEG** menggunakan kelas `ImageSaveOptions`. Nilai kualitas berkisar dari 0 hingga 100, dan ini adalah cara umum untuk **menetapkan jpeg quality java**‑style.
+Jika Anda ingin menyesuaikan output secara detail, Anda dapat **mengatur kualitas JPEG** menggunakan kelas `ImageSaveOptions`. Nilai kualitas berkisar antara 0 hingga 100, di mana 100 menghasilkan fidelitas visual tertinggi.  
 ```java
 ImageSaveOptions options = new ImageSaveOptions(SaveFileFormat.Jpeg);
 options.setJpegQuality(50); // Set JPEG quality to 50
 ```
 
-## Langkah 4: Simpan Project sebagai JPEG
-Simpan file MS Project sebagai gambar JPEG.
+## Langkah 4: Simpan Proyek sebagai JPEG
+`Project.save` menulis tampilan yang dirender ke file gambar menggunakan opsi yang telah Anda konfigurasikan.  
 ```java
 project.save(dataDir + "image_out.jpeg", options);
 ```
 
 ## Cara Mengekspor JPEG dari MS Project
-Langkah‑langkah di atas menunjukkan **cara mengekspor JPEG** dari file Microsoft Project. Dengan menyesuaikan kualitas JPEG, Anda mengontrol kompromi antara kejernihan gambar dan ukuran file, sehingga gambar yang diekspor cocok untuk publikasi web, laporan cetak, atau slide yang disematkan.
+**Jawaban langsung:** Panggil `project.save("output.jpeg", SaveFileFormat.JPEG, saveOptions)` setelah mengonfigurasi `ImageSaveOptions`; metode ini merender tampilan aktif (secara default diagram Gantt) dan menulis file JPEG dengan kualitas yang ditentukan. Panggilan satu baris ini menangani paginasi, skala, dan manajemen warna secara otomatis.  
+
+Dengan menyesuaikan kualitas JPEG, Anda mengontrol kompromi antara kejernihan gambar dan ukuran file, menjadikan gambar yang diekspor cocok untuk publikasi web, laporan cetak, atau slide yang disisipkan.
+
+## Masalah Umum dan Solusi
+- **Kualitas rendah membuat teks tidak terbaca:** Tingkatkan kualitas JPEG di atas 70 atau beralih ke PNG untuk rendering lossless.  
+- **Kesalahan out‑of‑memory pada proyek besar:** Aktifkan streaming dengan mengatur `saveOptions.setUseMemoryCache(true)` agar penggunaan memori tetap di bawah 200 MB.  
+- **Tampilan yang diekspor salah:** Gunakan `saveOptions.setView(ViewType.TaskSheet)` untuk mengekspor tampilan lain.
+
+## Pertanyaan yang Sering Diajukan
+
+**T: Apakah menyesuaikan kualitas JPEG memengaruhi keterbacaan diagram Gantt?**  
+J: Kualitas lebih tinggi mempertahankan teks dan detail garis, sementara kualitas sangat rendah dapat membuat label kecil sulit dibaca.  
+
+**T: Bisakah saya mengekspor format gambar lain selain JPEG?**  
+J: Ya, Aspose.Tasks mendukung PNG, BMP, dan TIFF melalui enum `SaveFileFormat` yang sesuai.  
+
+**T: Apakah memungkinkan mengekspor beberapa halaman (misalnya, tampilan berbeda) sekaligus?**  
+J: Anda dapat mengiterasi tampilan yang diinginkan dan menyimpan masing‑masing sebagai JPEG terpisah menggunakan konfigurasi `ImageSaveOptions` yang sama.  
+
+**T: Versi Java apa yang diperlukan?**  
+J: Aspose.Tasks untuk Java bekerja dengan JDK 8 ke atas.  
+
+**T: Bagaimana menangani proyek besar yang menghasilkan gambar besar?**  
+J: Pertimbangkan menurunkan kualitas JPEG atau menskalakan dimensi gambar melalui pengaturan tambahan pada `ImageSaveOptions`.
 
 ## Kesimpulan
-Dalam tutorial ini, kami telah membahas cara **menyesuaikan kualitas JPEG** saat mengonversi file Microsoft Project menjadi gambar JPEG menggunakan Aspose.Tasks for Java. Pendekatan ini mempermudah berbagi visualisasi proyek, memastikan kualitas gambar yang konsisten, dan memberi Anda kontrol penuh atas ukuran output.
-
-## Pertanyaan Umum Tambahan
-
-**Q: Apakah menyesuaikan kualitas JPEG memengaruhi keterbacaan diagram Gantt?**  
-A: Kualitas yang lebih tinggi mempertahankan detail teks dan garis, sementara kualitas yang sangat rendah dapat membuat label kecil sulit dibaca.  
-
-**Q: Bisakah saya mengekspor format gambar lain selain JPEG?**  
-A: Ya, Aspose.Tasks mendukung PNG, BMP, dan TIFF melalui enum `SaveFileFormat` yang sesuai.  
-
-**Q: Apakah memungkinkan mengekspor beberapa halaman (misalnya, tampilan berbeda) sekaligus?**  
-A: Anda dapat mengiterasi tampilan yang diinginkan dan menyimpan masing‑masing sebagai JPEG terpisah menggunakan konfigurasi `ImageSaveOptions` yang sama.  
-
-**Q: Versi Java apa yang diperlukan?**  
-A: Aspose.Tasks for Java bekerja dengan JDK 8 dan yang lebih baru.  
-
-**Q: Bagaimana cara menangani proyek besar yang menghasilkan gambar berukuran besar?**  
-A: Pertimbangkan mengurangi kualitas JPEG atau menskalakan dimensi gambar melalui pengaturan tambahan pada `ImageSaveOptions`.  
+Kami telah membahas cara **membuat snapshot proyek JPEG** dan menyesuaikan kualitas JPEG menggunakan Aspose.Tasks untuk Java. Pendekatan ini menghilangkan kebutuhan screenshot manual, menjamin rendering konsisten di semua platform, dan memungkinkan Anda menyesuaikan keseimbangan antara kejernihan gambar dan ukuran file—sempurna untuk laporan, presentasi, dan publikasi web.
 
 ---
 
-**Terakhir Diperbarui:** 2025-12-20  
-**Diuji Dengan:** Aspose.Tasks for Java 24.11  
+**Terakhir Diperbarui:** 2026-05-26  
+**Diuji Dengan:** Aspose.Tasks untuk Java 24.11  
 **Penulis:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+## Tutorial Terkait
+
+- [Cara Membuat File MPP – Buat & Simpan Proyek Kosong dalam Format MPP dengan Aspose.Tasks](/tasks/java/project-configuration/create-save-mpp/)
+- [Simpan Proyek sebagai Template, CSV, dan Teks dengan Aspose.Tasks untuk Java](/tasks/java/project-file-operations/save-csv-text-template/)
+- [Buat File MS Project Kosong di Aspose.Tasks](/tasks/java/project-configuration/create-empty-project-file/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

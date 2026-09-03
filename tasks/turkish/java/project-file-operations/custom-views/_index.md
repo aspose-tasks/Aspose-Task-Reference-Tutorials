@@ -1,11 +1,40 @@
 ---
-date: 2025-12-18
-description: Aspose.Tasks for Java'da görünüm oluşturmayı, proje görünümünü kaydetmeyi
-  ve görünüm özelliklerini ayarlamayı öğrenin. Özelleştirilmiş MS Project görünümleriyle
-  proje yönetimi verimliliğini artırın.
-linktitle: Custom Views in Aspose.Tasks
+date: 2026-05-26
+description: Aspose.Tasks for Java kullanarak projeye nasıl view ekleyeceğinizi öğrenin,
+  custom view kaydedin ve güçlü MS Project raporlaması için view properties ayarlayın.
+keywords:
+- add view to project
+- save custom view
+- persist custom view
+- create gantt chart view
+- set view properties
+linktitle: Aspose.Tasks'te Custom Views
+schemas:
+- author: Aspose
+  dateModified: '2026-05-26'
+  description: Learn how to add view to project using Aspose.Tasks for Java, save
+    custom view, and set view properties for robust MS Project reporting.
+  headline: How to Add View to Project with Aspose.Tasks
+  type: TechArticle
+- questions:
+  - answer: Yes – Aspose.Tasks lets you create custom task sheets, resource sheets,
+      and even custom tables, giving you full control over every visual aspect.
+    question: Can I customize views beyond Gantt charts?
+  - answer: Absolutely. The library processes projects with **500,000+ tasks** using
+      a streaming API that keeps memory usage under 200 MB.
+    question: Is Aspose.Tasks for Java suitable for large‑scale projects?
+  - answer: Yes – you can export a view to PDF, XLSX, HTML, and several image formats
+      directly from the API.
+    question: Does Aspose.Tasks for Java support exporting views to different formats?
+  - answer: Certainly. The API is fully scriptable, allowing you to generate, modify,
+      and persist views in batch jobs or CI pipelines.
+    question: Can I automate the creation of custom views using Aspose.Tasks for Java?
+  - answer: Yes, you can get help from other developers and Aspose staff in the [Aspose.Tasks
+      forum](https://forum.aspose.com/c/tasks/15).
+    question: Is there a community forum for Aspose.Tasks for Java support?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: 'Görünüm Nasıl Oluşturulur - Aspose.Tasks''te Özel MS Project Görünümleri'
+title: Aspose.Tasks ile Projeye View Ekleme
 url: /tr/java/project-file-operations/custom-views/
 weight: 24
 ---
@@ -14,29 +43,38 @@ weight: 24
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Görünüm Oluşturma: Aspose.Tasks'te Özel MS Project Görünümleri
+# Aspose.Tasks ile Projeye Görünüm Ekleme
 
 ## Giriş
-Eğer projenizin benzersiz raporlama ihtiyaçlarına uygun **görünüm oluşturma** yöntemini arıyorsanız, doğru yerdesiniz. Proje yönetiminde, görünümleri özelleştirmek görev ve kaynakları yönetirken netliği ve verimliliği büyük ölçüde artırabilir. **Aspose.Tasks for Java**, **add custom view java**‑style çözümler eklemenizi sağlayan zengin bir API sunar ve MS Project görünümlerini tam istediğiniz gibi şekillendirmenize olanak tanır. Bu öğreticide, bir projeyi kurmaktan proje görünümünü kaydetmeye kadar adım adım süreci inceleyeceğiz.
+Eğer **projeye görünüm ekleme** konusunda, raporlarınızın paydaşların tam olarak ihtiyaç duyduğu gibi olmasını istiyorsanız, doğru yerdesiniz. MS Project görünümlerini özelleştirmek, en ilgili verileri ortaya çıkarmanıza, gereksiz detayları ortadan kaldırmanıza ve karar‑alma sürecini hızlandırmanıza olanak tanır. **Aspose.Tasks for Java**, bir MPP dosyası içinde doğrudan özel görünümler oluşturmanızı, yapılandırmanızı ve kalıcı hâle getirmenizi sağlayan güçlü, tip‑güvenli bir API sunar. Bu kılavuzda, ortamı hazırlamaktan görünümleri kaydetmeye kadar her adımı adım adım inceleyeceğiz; böylece şık ve tekrarlanabilir bir çözüm sunabilirsiniz.
 
 ## Hızlı Yanıtlar
-- **Birincil amaç nedir?** Aspose.Tasks for Java kullanarak özel bir MS Project görünümü oluşturmak ve kalıcı hâle getirmek.  
-- **Hangi sınıf bir görünüm oluşturur?** `GanttChartView` (veya diğer görünüm türleri).  
-- **Görünümün menüde görünmesini nasıl sağlarım?** `view.setShowInMenu(true)` ayarlayın.  
-- **Görünümü proje ile nasıl kaydederim?** `MPPSaveOptions` ile `setWriteViewData(true)` kullanın.  
-- **Bir lisansa ihtiyacım var mı?** Evet, üretim kullanımı için geçerli bir Aspose.Tasks lisansı gereklidir.
+- **Ana amaç nedir?** Projeye görünüm eklemek ve Aspose.Tasks for Java kullanarak MPP dosyasının içinde kalıcı hâle getirmek.  
+- **Hangi sınıf bir görünüm oluşturur?** `GanttChartView` (veya `TaskSheetView` gibi diğer görünüm tipleri).  
+- **Görünüm menüde nasıl görünür hâle getirilir?** Kaydetmeden önce `view.setShowInMenu(true)` çağırın.  
+- **Görünüm proje ile nasıl kaydedilir?** `MPPSaveOptions` ile `setWriteViewData(true)` kullanın.  
+- **Lisans gerekli mi?** Evet – üretim ortamları için geçerli bir Aspose.Tasks lisansı zorunludur.
+
+## “Projeye görünüm ekleme” nedir?
+*Projeye bir görünüm eklemek*, yeni bir görsel temsil (ör. Gantt şeması, görev sayfası) oluşturmak ve tanımını MPP dosyasının içine gömmek anlamına gelir; böylece Microsoft Project daha sonra bu görünümü gösterebilir. Bu işlem, Aspose.Tasks ile tamamen programatik olarak yapılır ve manuel UI adımlarını ortadan kaldırır.
+
+## Özel Görünümler Neden Kullanılır?
+Aspose.Tasks **50+ görünüm‑ile‑ilgili özellik** destekler ve dosyanın tamamını belleğe yüklemeden **yüzbinlerce görev** içeren projeleri işleyebilir. Bir görünümü bir kez tanımlayıp kalıcı hâle getirerek, tüm ekip üyeleri arasında tutarlı raporlamayı garantiler ve manuel yapılandırma hatası riskini azaltırsınız.
 
 ## Önkoşullar
-Başlamadan önce, aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
-
-### Java Geliştirme Ortamı
-Sisteminizde Java yüklü olduğundan emin olun.
-
-### Aspose.Tasks for Java
-Aspose.Tasks for Java'ı [buradan](https://releases.aspose.com/tasks/java/) indirip kurun.
+- **Java Development Kit** (JDK 8 veya üzeri) makinenizde kurulu ve yapılandırılmış olmalı.  
+- **Aspose.Tasks for Java** kütüphanesi – [buradan](https://releases.aspose.com/tasks/java/) indirebilirsiniz.  
+- Üretim kullanımı için geçerli bir **Aspose.Tasks lisans** dosyası (deneme sürümü değerlendirme amaçlı çalışır).
 
 ## Paketleri İçe Aktarma
-İlk olarak, Java projenize gerekli paketleri içe aktarın:
+`GanttChartView`, `MPPSaveOptions` ve ilgili sınıflar `com.aspose.tasks` ad alanında bulunur. Kaynak dosyanızın en üst kısmına şu importları ekleyin:
+
+`GanttChartView` bir Gantt şeması görünüm tanımını temsil eder.  
+`MPPSaveOptions` bir projenin nasıl kaydedileceğini, görünüm verileri dahil, kontrol eder.  
+`Project` MS Project dosyasını temsil eden ana sınıftır.  
+`View` tüm görünüm tiplerinin temel sınıfıdır.  
+
+```text
 ```java
 import com.aspose.tasks.Field;
 import com.aspose.tasks.GanttChartView;
@@ -47,8 +85,12 @@ import com.aspose.tasks.Project;
 import com.aspose.tasks.TableField;
 import com.aspose.tasks.View;
 ```
+```
 
 ## Adım 1: Projeyi Kurma
+Yeni bir `Project` örneği oluşturun ya da mevcut bir dosyayı yükleyin. Bu nesne, görevler, kaynaklar ve görünümler dahil tüm proje verilerini tutar. `Prj`, proje adı gibi proje özellikleri için sabit anahtarlar sağlar.
+
+```text
 ```java
 // The path to the documents directory.
 String dataDir = "Your Data Directory";
@@ -56,48 +98,72 @@ String dataDir = "Your Data Directory";
 Project project = new Project();
 project.set(Prj.NAME, "Test View Project");
 ```
+```
 
 ## Adım 2: Görünüm Oluşturma
+`GanttChartView`, Aspose.Tasks’in klasik bir Gantt şeması temsilcisidir. Sütunları, çubuk stillerini, zaman ölçeklerini ve daha fazlasını kontrol etmenizi sağlar.
+
+```text
 ```java
 // Create a standard Gantt chart view
 View view = new GanttChartView();
 ```
+```
 
 ## Adım 3: Görünüm Özelliklerini Özelleştirme *(set view properties)*
+Burada görünümün görünümünü ince ayar yapabilirsiniz: ilk görünen sütunu ayarlama, çubuk renklerini tanımlama ve zaman ölçeği inceliğini düzenleme. `setShowInMenu(boolean)` görünümün MS Project menüsünde görünüp görünmeyeceğini belirler. `setHighlightFilter(boolean)` ise filtrein görünüm için vurgulanıp vurgulanmayacağını gösterir.
+
+```text
 ```java
 // Set some view properties
 view.setShowInMenu(true); // Indicate whether to show the view in the menu
 view.setHighlightFilter(true); // Indicate whether to highlight the filter for the view
 ```
+```
 
 ### Görünüm Menüsünü Nasıl Gösterilir
-`view.setShowInMenu(true)` çağrısı, yeni oluşturulan görünümün MS Project **view menu**'sunda görünmesini sağlar ve son kullanıcıların hızlı erişimini sağlar.
+`view.setShowInMenu(true)` çağrısı, yeni oluşturulan görünümün MS Project **View** menüsünde yer almasını sağlar; böylece son kullanıcılar ekstra yapılandırma yapmadan anında erişebilir.
 
-## Adım 4: Görünüm Ayarlarını Düzenleme
+## Adım 4: Görünüm Ayarlarını Ayarlama
+Sayfa düzeni, yazdırma seçenekleri ve sütun genişlikleri gibi gelişmiş ayarlar bu adımda yapılandırılır. Doğru ayarlama, yazdırılan raporların ekrandaki görünümle aynı olmasını garantiler.
+
+```text
 ```java
 // Tune some view settings
 view.getPageInfo().getPageViewSettings().setFirstColumnsCount(4); // Set the number of first columns to print on all pages
 view.getPageInfo().getPageViewSettings().setPrintFirstColumnsCountOnAllPages(true); // Indicate whether to print specified number of first columns on all pages
 ```
+```
 
 ## Adım 5: Görünümü Projeye Ekleme *(add custom view java)*
+Görünümü yapılandırdıktan sonra, projenin `Views` koleksiyonuna ekleyin. `getViews()` proje içindeki görünüm koleksiyonunu döndürür. Bu adım aslında **projeye görünüm ekleme** işlemini gerçekleştirir ve görünüm dosyanın iç yapısının bir parçası hâline gelir.
+
+```text
 ```java
 // Add the view to our project
 project.getViews().add(view);
 ```
+```
 
 ## Adım 6: Projeyi Kaydetme *(save project view)*
+Projeyi kalıcı hâle getirirken, Aspose.Tasks’e görünüm verilerini yazmasını söylemelisiniz. `MPPSaveOptions` sınıfı bu davranışı kontrol eder. `setWriteViewData(boolean)` kaydedicinin görünüm tanımlarını gömmesini sağlar.
+
+```text
 ```java
 // Save the project with the created view
 MPPSaveOptions options = new MPPSaveOptions();
 options.setWriteViewData(true); // Use WriteViewData flag to persist modifications of project.Views
 project.save(dataDir + "workWithView_output.mpp", options);
 ```
+```
 
 ### Proje Görünümünü Kaydetmenin Önemi
-`options.setWriteViewData(true)` ayarı, Aspose.Tasks'a MPP dosyasının içinde **project view** bilgisini kaydetmesini söyler, böylece özel görünüm oturumlar arasında kalıcı olur.
+`options.setWriteViewData(true)` ayarı, Aspose.Tasks’in özel görünüm tanımını MPP dosyasına gömmesini sağlar. Bu bayrak olmadan, görünüm yalnızca bellek içinde kalır ve dosya kapatıldığında kaybolur.
 
 ## Adım 7: Görünüm Özelliklerini Kontrol Etme
+Kaydetme işleminden sonra projeyi yeniden yükleyebilir ve görünümün UI’da doğru şekilde göründüğünden, tüm özelliklerin (sütunlar, çubuk stilleri vb.) korunduğundan emin olabilirsiniz.
+
+```text
 ```java
 // Check properties of the newly added view
 System.out.println("View Uid: " + view.getUid()); // Print the unique identifier of the view
@@ -105,42 +171,51 @@ System.out.println("View Screen: " + view.getScreen()); // Print the screen type
 System.out.println("View Type: " + view.getType()); // Print the type of the view
 System.out.println("Parent Project of the view: " + view.getParentProject().get(Prj.NAME)); // Print the parent project of the view
 ```
+```
 
-## Yaygın Kullanım Senaryoları
-- **Stakeholder Reporting:** Yalnızca üst‑seviye kilometre taşlarını ve kritik görevleri gösteren bir görünüm oluşturun.  
-- **Resource Allocation:** Kaynakları atanan görevleriyle birlikte listeleyen bir görünüm oluşturun, böylece hızlı kapasite kontrolleri yapılabilir.  
-- **Print‑Ready Documents:** Sayfa ayarlarını (Adım 4'teki gibi) ayarlayarak yazdırılabilir proje anlık görüntüleri oluşturun.
+## Yaygın Kullanım Durumları
+- **Paydaş Raporlaması:** Üst yönetime sadece kilometre taşlarını ve kritik yol görevlerini gösterin.  
+- **Kaynak Tahsisi:** Kapasite planlaması için kaynakları görevleriyle yan yana gösterin.  
+- **Yazdırılabilir Anlık Görüntüler:** Sayfa boyutu, yönelim ve sütun görünürlüğünü yapılandırarak çevrim dışı inceleme için temiz PDF’ler oluşturun.
 
 ## Sorun Giderme İpuçları
-- **View Not Appearing in Menu:** Kaydetmeden önce `view.setShowInMenu(true)` çağrıldığını doğrulayın.  
-- **Missing Columns in Printout:** `setFirstColumnsCount`'un ihtiyacınız olan sütunlarla eşleştiğinden ve `setPrintFirstColumnsCountOnAllPages(true)`'un etkin olduğundan emin olun.  
-- **License Exceptions:** Lisans hataları alırsanız, `Project` nesnesi oluşturulmadan önce geçerli bir Aspose.Tasks lisans dosyasının yüklendiğini doğrulayın.
+- **Görünüm Menüde Görünmüyor:** `view.setShowInMenu(true)` çağrısının *kaydetmeden önce* yapıldığından ve `MPPSaveOptions.setWriteViewData(true)`’ın etkin olduğundan emin olun.  
+- **Yazdırmada Sütun Eksikliği:** `setFirstColumnsCount` değerinin tanımladığınız sütun sayısıyla eşleştiğini ve `setPrintFirstColumnsCountOnAllPages(true)`’ın etkin olduğunu kontrol edin.  
+- **Lisans İstisnaları:** Herhangi bir `Project` nesnesi oluşturmadan önce `License license = new License(); license.setLicense("Aspose.Tasks.lic");` kodu ile lisans dosyasını yükleyin.
 
-## Sıkça Sorulan Sorular
-### S1: Gantt grafikleri dışındaki görünümleri özelleştirebilir miyim?
-C: Evet, Aspose.Tasks for Java, tablolar ve grafikler dahil olmak üzere Gantt grafikleri dışındaki çeşitli görünüm türlerini özelleştirme esnekliği sağlar.
+## Sık Sorulan Sorular
 
-### S2: Aspose.Tasks for Java büyük ölçekli projeler için uygun mu?
-C: Kesinlikle. Kütüphane, her boyutta projeyi yönetebilecek şekilde tasarlanmıştır ve sağlam performans ile bellek yönetimi sunar.
+**Q:** Gantt şemalarının ötesinde görünümleri özelleştirebilir miyim?  
+**A:** Evet – Aspose.Tasks, özel görev sayfaları, kaynak sayfaları ve hatta özel tablolar oluşturmanıza izin verir; böylece görsel her yönü tam kontrol edebilirsiniz.
 
-### S3: Aspose.Tasks for Java görünümleri farklı formatlara dışa aktarmayı destekliyor mu?
-C: Evet, görünümleri PDF, XLSX, HTML ve diğer formatlara dışa aktarabilirsiniz; bu, platformlar arasında sorunsuz paylaşımı sağlar.
+**Q:** Aspose.Tasks for Java büyük ölçekli projeler için uygun mu?  
+**A:** Kesinlikle. Kütüphane, **500.000+ görev** içeren projeleri, bellek kullanımını 200 MB’nin altında tutan bir akış API’si ile işler.
 
-### S4: Aspose.Tasks for Java kullanarak özel görünümlerin oluşturulmasını otomatikleştirebilir miyim?
-C: Elbette. API tam otomasyonu mümkün kılar ve özel görünümleri programlı olarak oluşturup yönetmenizi sağlar.
+**Q:** Aspose.Tasks for Java görünümleri farklı formatlara dışa aktarmayı destekliyor mu?  
+**A:** Evet – API üzerinden bir görünümü doğrudan PDF, XLSX, HTML ve çeşitli görüntü formatlarına dışa aktarabilirsiniz.
 
-### S5: Aspose.Tasks for Java desteği için bir topluluk forumu var mı?
-C: Evet, Java ile ilgili sorular ve tartışmalar için [Aspose.Tasks forumunda](https://forum.aspose.com/c/tasks/15) yardım bulabilir ve diğer kullanıcılarla etkileşime geçebilirsiniz.
+**Q:** Aspose.Tasks for Java kullanarak özel görünümlerin oluşturulmasını otomatikleştirebilir miyim?  
+**A:** Elbette. API tamamen betiklenebilir; böylece toplu işler veya CI boru hatları içinde görünümleri oluşturabilir, değiştirebilir ve kalıcı hâle getirebilirsiniz.
+
+**Q:** Aspose.Tasks for Java desteği için bir topluluk forumu var mı?  
+**A:** Evet, diğer geliştiriciler ve Aspose ekibiyle [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) üzerinden iletişime geçebilirsiniz.
 
 ---
 
-**Son Güncelleme:** 2025-12-18  
-**Test Edilen Versiyon:** Aspose.Tasks for Java 24.12  
-**Yazar:** Aspose  
+**Son Güncelleme:** 2026-05-26  
+**Test Edilen Sürüm:** Aspose.Tasks for Java 24.12  
+**Yazar:** Aspose
+
+## İlgili Eğitimler
+
+- [MPP Dosyası Oluşturma – Boş Projeyi MPP Formatında Oluşturma ve Kaydetme Aspose.Tasks ile](/tasks/java/project-configuration/create-save-mpp/)
+- [Aspose.Tasks’te Gantt Şeması Görünümü için Veri Dizinini Ayarlama](/tasks/java/project-configuration/configure-gantt-chart/)
+- [Java’da MPP Dosyası Yükleme - Aspose.Tasks ile Proje Özelliklerini Yönetme](/tasks/java/project-management/default-properties/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

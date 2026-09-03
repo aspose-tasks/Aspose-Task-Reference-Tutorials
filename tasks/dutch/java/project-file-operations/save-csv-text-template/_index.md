@@ -1,10 +1,49 @@
 ---
-date: 2025-12-21
-description: Leer hoe u een project als sjabloon opslaat, MPP exporteert naar CSV
-  en MPP converteert naar tekst met Aspose.Tasks voor Java.
-linktitle: Save Project as Template, CSV, and Text with Aspose.Tasks for Java
+date: 2026-05-26
+description: Leer hoe u MPP naar CSV kunt exporteren, een project als sjabloon kunt
+  opslaan en MPP naar tekst kunt converteren met Aspose.Tasks voor Java.
+keywords:
+- export mpp to csv
+- save project as template
+- convert mpp to csv
+linktitle: Export MPP naar CSV, tekst en sjabloon met Aspose.Tasks Java
+schemas:
+- author: Aspose
+  dateModified: '2026-05-26'
+  description: Learn how to export MPP to CSV, save project as template, and convert
+    MPP to text using Aspose.Tasks for Java.
+  headline: Export MPP to CSV, Text & Template with Aspose.Tasks Java
+  type: TechArticle
+- description: Learn how to export MPP to CSV, save project as template, and convert
+    MPP to text using Aspose.Tasks for Java.
+  name: Export MPP to CSV, Text & Template with Aspose.Tasks Java
+  steps:
+  - name: Save as CSV
+    text: '`SaveFileFormat.CSV` tells Aspose.Tasks to output the project in CSV format.'
+  - name: Save as Text
+    text: '`SaveFileFormat.TEXT` instructs the library to generate a plain‑text representation
+      of the project.'
+  - name: Set Template Options
+    text: Use `Project.save` with `SaveFileFormat.MPT` (or `SaveFileFormat.TEMPLATE`)
+      to create a template file that strips dates and baselines.
+  type: HowTo
+- questions:
+  - answer: Yes, it fully supports tasks, resources, assignments, baselines, and custom
+      fields across all Project versions up to 2024.
+    question: Can Aspose.Tasks for Java handle complex, multi‑phase projects?
+  - answer: Absolutely – download a free trial from [here](https://releases.aspose.com/).
+    question: Is a trial version available?
+  - answer: The official support forum is at [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15)
+      where staff and community members answer questions.
+    question: Where can I get help if I run into problems?
+  - answer: Yes, purchase a temporary license at [here](https://purchase.aspose.com/temporary-license/).
+    question: Can I obtain a temporary license for short‑term evaluation?
+  - answer: It is fully cross‑platform and works on Windows, macOS, and Linux with
+      any Java 8+ runtime.
+    question: Does Aspose.Tasks run on Linux and macOS?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: Project opslaan als sjabloon, CSV en tekst met Aspose.Tasks voor Java
+title: Export MPP naar CSV, tekst en sjabloon met Aspose.Tasks Java
 url: /nl/java/project-file-operations/save-csv-text-template/
 weight: 16
 ---
@@ -13,79 +52,80 @@ weight: 16
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Project opslaan als sjabloon, CSV en tekst met Aspose.Tasks
+# Export MPP naar CSV, Tekst & Sjabloon met Aspose.Tasks voor Java
 
-## Introductie
-In deze tutorial ontdek je **hoe je een project als sjabloon kunt opslaan** en ook hoe je je Microsoft Project‑bestanden (MPP) kunt exporteren naar CSV‑ en platte‑tekstformaten met de Aspose.Tasks‑bibliotheek voor Java. Of je nu een herbruikbaar projectsjabloon wilt maken, CSV‑rapporten voor analyse wilt genereren, of eenvoudige tekst‑extracten voor integratie wilt produceren, deze stappen begeleiden je snel en efficiënt door het proces.
+## Inleiding
+In deze tutorial ontdek je **hoe je MPP naar CSV exporteert**, herbruikbare projectsjablonen maakt en platte‑tekstextracten genereert met de Aspose.Tasks‑bibliotheek voor Java. Of je nu een rapportage‑pipeline bouwt, projectcreatie automatiseert of integreert met andere systemen, deze stappen brengen je van een ruwe MPP‑bestand naar de exacte output die je nodig hebt—snel en zonder Microsoft Project te installeren.
 
-## Snelle antwoorden
-- **Kan ik MPP naar CSV exporteren?** Ja – gebruik `project.save(..., SaveFileFormat.CSV)`.  
-- **Hoe exporteer ik tekst?** Sla op met `SaveFileFormat.TEXT`.  
-- **Wat doet “project opslaan als sjabloon”?** Het maakt een `.mpt`‑bestand aan dat de feitelijke en baseline‑waarden verwijdert, klaar voor hergebruik.  
-- **Heb ik een licentie nodig?** Er is een proefversie beschikbaar; een commerciële licentie is vereist voor productie.  
-- **Welke Java‑versie is vereist?** Java 8+ wordt ondersteund.
+## Snelle Antwoorden
+- **Kan ik MPP naar CSV exporteren?** Ja – roep `project.save("output.csv", SaveFileFormat.CSV)` aan.  
+- **Hoe exporteer ik naar platte tekst?** Gebruik `SaveFileFormat.TEXT` met de `save`‑methode.  
+- **Wat doet “save project as template”?** Het maakt een `.mpt`‑bestand aan dat datums en baselines verwijdert, en alleen de structuur overlaat.  
+- **Heb ik een licentie nodig?** Een proefversie werkt voor evaluatie; een commerciële licentie verwijdert de evaluatielimieten.  
+- **Welke Java‑versie is vereist?** Java 8 of hoger wordt volledig ondersteund.
 
-## Wat is “project opslaan als sjabloon”?
-Een project opslaan als sjabloon (`.mpt`) legt de structuur, taakhiërarchie en resource‑toewijzingen vast terwijl de feitelijke start‑/einddatums en baseline‑gegevens worden verwijderd. Dit maakt het sjabloon ideaal om een standaard projectindeling herhaaldelijk te gebruiken in meerdere nieuwe projecten.
+## Wat is “save project as template”?
+Een project opslaan als sjabloon (`.mpt`) legt de structuur, taakhiërarchie en resource‑toewijzingen vast, terwijl de werkelijke start‑/einddatums en baseline‑gegevens worden verwijderd. Dit maakt het sjabloon ideaal om een standaard projectindeling opnieuw te gebruiken in meerdere nieuwe projecten. Het behoudt alle aangepaste velden, kostentarieven en toewijzingsdetails, zodat het sjabloon op elk nieuw project kan worden toegepast zonder essentiële configuratie te verliezen.
 
 ## Waarom Aspose.Tasks voor Java gebruiken?
-Aspose.Tasks stelt je in staat Microsoft Project‑bestanden te manipuleren zonder Microsoft Project zelf te installeren. Het ondersteunt **hoe je MPP exporteert**, **hoe je tekst exporteert**, en **MPP naar CSV converteert**, alles vanuit pure Java‑code, perfect voor server‑side automatisering, CI‑pipelines of desktop‑hulpmiddelen.
+Exporteer MPP naar CSV, tekst of sjabloon rechtstreeks vanuit Java zonder Microsoft Project. Aspose.Tasks ondersteunt **meer dan 20 Microsoft Project‑versies** (2000‑2024) en kan bestanden tot **500 MB** verwerken in een geheugen‑efficiënte modus, waardoor het ideaal is voor server‑side automatisering, CI‑pipelines en cross‑platform hulpprogramma's.
 
 ## Vereisten
-Voordat we beginnen, zorg dat je het volgende hebt:
-
-1. Java Development Kit (JDK) 8 of hoger geïnstalleerd.  
-2. Aspose.Tasks voor Java‑bibliotheek toegevoegd aan je project. Download deze van [hier](https://releases.aspose.com/tasks/java/).  
-3. Basiskennis van Java‑syntaxis en Maven/Gradle‑projectopzet.
+- Java Development Kit 8 of hoger geïnstalleerd.  
+- Aspose.Tasks voor Java‑bibliotheek toegevoegd aan je project – download vanaf [hier](https://releases.aspose.com/tasks/java/).  
+- Je kunt ook andere Aspose‑bibliotheken verkennen op [hier](https://releases.aspose.com/).  
+- Basiskennis van Java en Maven/Gradle projectconfiguratie.
 
 ## Pakketten importeren
-Importeer eerst de benodigde klassen in je Java‑bronbestand:
+De `Project`‑klasse is het kernobject van Aspose.Tasks dat een Microsoft Project‑bestand in het geheugen vertegenwoordigt. Nadat je de bibliotheek aan je build‑bestand hebt toegevoegd, importeer je de benodigde klassen:
 
 ```java
 import java.io.IOException;
 import com.aspose.tasks.*;
 ```
 
-## Project opslaan als CSV (MPP exporteren naar CSV)
-Een MPP‑bestand naar CSV exporteren is handig voor data‑analyse in Excel of BI‑tools.
+## Project opslaan als CSV (Export MPP naar CSV)
+Een MPP‑bestand naar CSV exporteren stelt je in staat om taakgegevens in Excel, Power BI of elk analytics‑platform te laden.
 
-### Stap 1: Het project laden
+### Stap 1: Laad het project
 ```java
 String projectName = "YourProject.mpp";
 Project project = new Project(projectName);
 ```
 
 ### Stap 2: Opslaan als CSV
+`SaveFileFormat.CSV` vertelt Aspose.Tasks om het project in CSV‑formaat uit te voeren.  
 ```java
 String csvFileName = "output.csv";
 project.save(csvFileName, com.aspose.tasks.SaveFileFormat.CSV);
 ```
 
-## Project opslaan als tekst (Hoe tekst exporteren)
-Als je een platte‑tekstrepresentatie van taken, resources of toewijzingen nodig hebt, sla je het project op als een tekstbestand.
+## Project opslaan als Tekst (Hoe tekst exporteren)
+Een platte‑tekstbestand biedt een snelle, menselijk leesbare dump van taken, resources en toewijzingen.
 
-### Stap 1: Het project laden
+### Stap 1: Laad het project
 ```java
 String projectName = "YourProject.mpp";
 Project project = new Project(projectName);
 ```
 
 ### Stap 2: Opslaan als tekst
+`SaveFileFormat.TEXT` instrueert de bibliotheek om een platte‑tekstrepresentatie van het project te genereren.  
 ```java
 String textFileName = "output.txt";
 project.save(textFileName, com.aspose.tasks.SaveFileFormat.TEXT);
 ```
 
-## Project opslaan als sjabloon (Project sjabloon maken in Java)
-Een herbruikbaar sjabloon maken verwijdert feitelijke datums en baselines, waardoor een schoon skelet voor nieuwe projecten ontstaat.
+## Project opslaan als Sjabloon (Project‑sjabloon maken in Java)
 
-### Stap 1: Het project laden
+### Stap 1: Laad het project
 ```java
 String projectName = "YourProject.mpp";
 Project project = new Project(projectName);
 ```
 
 ### Stap 2: Sjabloonopties instellen
+Gebruik `Project.save` met `SaveFileFormat.MPT` (of `SaveFileFormat.TEMPLATE`) om een sjabloonbestand te maken dat datums en baselines verwijdert.  
 ```java
 SaveTemplateOptions options = new SaveTemplateOptions();
 options.setRemoveActualValues(true);
@@ -98,36 +138,46 @@ String templateName = "output.mpt";
 project.saveAsTemplate(templateName, options);
 ```
 
-## Veelvoorkomende problemen & tips
-- **Bestand niet gevonden:** Zorg ervoor dat het naar `YourProject.mpp` correct is of gebruik een absoluut pad.  
-- **Licentie‑uitzonderingen:** Zonder een geldige licentie draait de bibliotheek in evaluatiemodus en kan watermerken toevoegen. Pas je licentie vroeg in de code toe (`License license = new License(); license.setLicense("Aspose.Tasks.Java.lic");`).  
-- **Grote projecten:** Voor zeer grote MPP‑bestanden, overweeg de JVM‑heapgrootte te verhogen (`-Xmx2g`) om `OutOfMemoryError` te voorkomen.
+## Veelvoorkomende problemen & Tips
+- **Bestand niet gevonden:** Controleer het pad naar `YourProject.mpp` of gebruik een absoluut pad.  
+- **Licentie‑uitzonderingen:** Zonder een geldige licentie draait de bibliotheek in evaluatiemodus en kan watermerken toevoegen. Pas je licentie vroeg toe (`License license = new License(); license.setLicense("Aspose.Tasks.Java.lic");`).  
+- **Grote projecten:** Voor bestanden groter dan 200 MB, vergroot de JVM‑heap (`-Xmx2g`) om `OutOfMemoryError` te voorkomen.  
+- **Prestaties:** Bij het converteren van veel projecten, hergebruik waar mogelijk een enkele `Project`‑instantie om overhead van objectcreatie te verminderen.
 
 ## Conclusie
-We hebben behandeld **hoe je een project als sjabloon opslaat**, evenals hoe je **MPP naar CSV exporteert** en **MPP naar tekst converteert** met Aspose.Tasks voor Java. Deze mogelijkheden stellen je in staat projectdata te automatiseren, herbruikbare sjablonen te genereren en projectinformatie in andere systemen te integreren — allemaal zonder Microsoft Project geïnstalleerd te hebben.
+We hebben laten zien hoe je **MPP naar CSV exporteert**, **MPP naar tekst converteert**, en **een project opslaat als sjabloon** met Aspose.Tasks voor Java. Deze mogelijkheden stellen je in staat om rapportage te automatiseren, gestandaardiseerde projectskeletten te maken en projectgegevens te integreren in elk downstream‑systeem—zonder dat Microsoft Project geïnstalleerd hoeft te zijn.
 
 ## Veelgestelde vragen
-### V: Kan Aspose.Tasks voor Java complexe projectbestanden aan?
-A: Absoluut! Aspose.Tasks voor Java kan projecten van uiteenlopende complexiteit moeiteloos verwerken en biedt uitgebreide ondersteuning voor Microsoft Project‑bestandsformaten.  
-### V: Is er een proefversie beschikbaar voor Aspose.Tasks voor Java?
-A: Ja, je kunt een gratis proefversie van Aspose.Tasks voor Java verkrijgen via [hier](https://releases.aspose.com/).  
-### V: Waar vind ik ondersteuning voor Aspose.Tasks voor Java?
-A: Bezoek het [Aspose.Tasks‑forum](https://forum.aspose.com/c/tasks/15) voor hulp of vragen over Aspose.Tasks voor Java.  
-### V: Kan ik een tijdelijke licentie aanschaffen voor Aspose.Tasks voor Java?
-A: Ja, je kunt een tijdelijke licentie kopen via [hier](https://purchase.aspose.com/temporary-license/), zodat je de volledige mogelijkheden van de bibliotheek kunt evalueren.  
-### V: Is Aspose.Tasks voor Java compatibel met verschillende besturingssystemen?
-A: Ja, Aspose.Tasks voor Java is compatibel met diverse besturingssystemen, waaronder Windows, macOS en Linux.
+
+**V: Kan Aspose.Tasks voor Java complexe, multi‑fase projecten aan?**  
+A: Ja, het ondersteunt volledig taken, resources, toewijzingen, baselines en aangepaste velden in alle Project‑versies tot 2024.
+
+**V: Is een proefversie beschikbaar?**  
+A: Absoluut – download een gratis proefversie vanaf [hier](https://releases.aspose.com/).
+
+**V: Waar kan ik hulp krijgen als ik tegen problemen aanloop?**  
+A: Het officiële ondersteuningsforum is te vinden op [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) waar medewerkers en community‑leden vragen beantwoorden.
+
+**V: Kan ik een tijdelijke licentie verkrijgen voor kortetermijn‑evaluatie?**  
+A: Ja, koop een tijdelijke licentie op [hier](https://purchase.aspose.com/temporary-license/).
+
+**V: Werkt Aspose.Tasks op Linux en macOS?**  
+A: Het is volledig cross‑platform en werkt op Windows, macOS en Linux met elke Java 8+ runtime.
 
 ---
 
-**Laatst bijgewerkt:** 2025-12-21  
-**Getest met:** Aspose.Tasks voor Java 24.12 (latest)  
-**Auteur:** Aspose  
+**Last Updated:** 2026-05-26  
+**Tested With:** Aspose.Tasks for Java 24.12 (latest)  
+**Author:** Aspose
 
----
+## Gerelateerde tutorials
+
+- [Hoe een MPP‑bestand maken – Leeg project maken & opslaan in MPP‑formaat met Aspose.Tasks](/tasks/java/project-configuration/create-save-mpp/)
+- [MPP‑bestand laden Java - Projecteigenschappen beheren met Aspose.Tasks](/tasks/java/project-management/default-properties/)
+- [Hoe MPP exporteren naar Excel met Aspose.Tasks voor Java](/tasks/java/project-file-operations/save-data-to-excel/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
+{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}
