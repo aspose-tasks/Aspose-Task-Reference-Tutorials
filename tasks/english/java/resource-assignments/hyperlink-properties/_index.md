@@ -1,5 +1,5 @@
 ---
-title: Set Hyperlink Properties for Resource Assignments with Aspose.Tasks Java API
+title: Configure Hyperlink Properties for Resource Assignments
 linktitle: Manage Hyperlink Properties for Resource Assignments using Aspose.Tasks Java
 second_title: Aspose.Tasks Java API
 description: Learn how to set hyperlink properties for resource assignments in Aspose.Tasks for Java, showing exactly **how to set hyperlink** and improve collaboration.

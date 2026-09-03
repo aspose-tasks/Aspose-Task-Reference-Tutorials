@@ -1,6 +1,6 @@
 ---
-title: Programmatically Filter MPP Files with Aspose.Tasks for Java
-linktitle: Programmatically Filter MPP Files with Aspose.Tasks for Java
+title: How to Filter Project Files Programmatically in Java
+linktitle: How to Filter Project Files Programmatically in Java
 second_title: Aspose.Tasks Java API
 description: Learn how to filter MPP files using Aspose.Tasks for Java, customize filter criteria, and filter tasks by date to streamline project management.
 weight: 14
@@ -87,7 +87,7 @@ The `Project` class loads and represents an MPP file in memory. Create a `Projec
 `Filter` objects encapsulate filter definitions used to select project items. Aspose.Tasks stores predefined filters such as “All Tasks” or “Critical Tasks”. Use `project.getTaskFilters().getByName("My Filter")` or index‑based access to obtain a `Filter` object, then examine its `FilterCriteria` collection to see each rule and the logical operator (AND/OR) that combines them, ensuring the filter matches your requirements.
 
 ### How to iterate through nested criteria rows?
-`FilterCriteriaGroup` represents a group of filter criteria combined with a logical operator. Filters can contain groups of criteria, each with its own operator. Loop through `filter.getCriteria().getRows()` and, for any row that is a `FilterCriteriaGroup`, recurse into its child rows. This traversal lets you fully understand complex filter logic such as “(Start < today AND Cost > 1000) OR Priority = High”, and adjust criteria as needed.
+`FilterCriteriaGroup` represents a group of filter criteria combined with a logical operator. Filters can contain groups of criteria, each with its own operator. Loop through `filter.getCriteria().getRows()` and for any row that is a `FilterCriteriaGroup`, recurse into its child rows. This traversal lets you fully understand complex filter logic such as “(Start < today AND Cost > 1000) OR Priority = High”, and adjust criteria as needed.
 
 ### How do I print criteria information for debugging?
 After traversing the criteria tree, output each row’s field name, test operator, and value to the console. This simple dump helps you verify that the filter matches the intended business rules before applying it to large projects, and makes it easier to spot incorrect operators or values.
@@ -115,11 +115,11 @@ Filtering runs entirely in memory and typically processes a 1,000‑task project
 
 ## Related Tutorials
 
-{{< relref "tasks/java/project-management/default-properties/_index.md" >}}Load MPP File Java – Manage Project Properties with Aspose.Tasks{{< /relref >}}
+[Load MPP File Java – Manage Project Properties with Aspose.Tasks](tasks/java/project-management/default-properties/_index.md)
 
-{{< relref "tasks/java/project-data-reading/read-project-online/_index.md" >}}Aspose.Tasks Java – Effortless MS Project Online Data Reading{{< /relref >}}
+[Aspose.Tasks Java – Effortless MS Project Online Data Reading](tasks/java/project-data-reading/read-project-online/_index.md)
 
-{{< relref "tasks/java/project-properties/write-project-info/_index.md" >}}Set Project Start Date in MS Project using Aspose.Tasks for Java{{< /relref >}}
+[Set Project Start Date in MS Project using Aspose.Tasks for Java](tasks/java/project-properties/write-project-info/_index.md)
 
 ```java
 import com.aspose.tasks.Filter;

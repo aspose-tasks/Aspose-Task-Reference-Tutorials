@@ -1,5 +1,5 @@
 ---
-title: "Set Leveling Delay and Create Resource Assignment Using Aspose.Tasks for Java"
+title: "Configure Leveling Delay and Create Resource Assignments"
 linktitle: "Handle Leveling Delay Properties for Resource Assignments in Aspose.Tasks"
 second_title: "Aspose.Tasks Java API"
 description: "Learn how to create resource assignment with Aspose.Tasks for Java, add resources to a project, and manage leveling delay properties."
@@ -170,9 +170,9 @@ A: Request a temporary license from the [temporary license page](https://purchas
 
 ## Related Tutorials
 
-- {{< relref "../create-resource-assignments/_index.md" >}}Create Resource Assignments in Aspose.Tasks{{< /relref >}}
-- {{< relref "../assignment-budget/_index.md" >}}Manage Assignment Budget Java using Aspose.Tasks{{< /relref >}}
-- {{< relref "../stop-resume-assignment/_index.md" >}}How to Stop Assignment and Resume Resource Assignments in Aspose.Tasks{{< /relref >}}
+- [Create Resource Assignments in Aspose.Tasks](../create-resource-assignments/_index.md)
+- [Manage Assignment Budget Java using Aspose.Tasks](../assignment-budget/_index.md)
+- [How to Stop Assignment and Resume Resource Assignments in Aspose.Tasks](../stop-resume-assignment/_index.md)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

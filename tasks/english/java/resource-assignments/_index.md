@@ -1,5 +1,5 @@
 ---
-title: "How to Calculate Assignment Percent in Resource Assignments with Aspose.Tasks for Java"
+title: "How to Use Aspose.Tasks for Java to Calculate Assignment Percent in Resource Assignments"
 linktitle: Resource Assignments
 second_title: Aspose.Tasks Java API
 description: "Learn how to calculate assignment percent, manage project variance, and handle resource assignments using Aspose.Tasks for Java."
