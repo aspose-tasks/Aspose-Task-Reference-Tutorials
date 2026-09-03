@@ -1,5 +1,5 @@
 ---
-title: "Create Resource Assignment with Aspose.Tasks for Java"
+title: "Set Leveling Delay and Create Resource Assignment Using Aspose.Tasks for Java"
 linktitle: "Handle Leveling Delay Properties for Resource Assignments in Aspose.Tasks"
 second_title: "Aspose.Tasks Java API"
 description: "Learn how to create resource assignment with Aspose.Tasks for Java, add resources to a project, and manage leveling delay properties."
@@ -92,19 +92,19 @@ import java.util.Calendar;
 ## How to create resource assignment aspotasks?
 Load your `Project` object, add a task, create a resource, and then bind them together with a `ResourceAssignment`. This end‑to‑end flow lets you programmatically build a full project structure and immediately control leveling delay on the assignment. The process demonstrates the core workflow: project initialization, task definition, resource creation, assignment linking, and finally applying scheduling parameters such as leveling delay.
 
-## Step 1: Create a Project Object
+## Step 1: create a project object
 The `Project` class is Aspose.Tasks' top‑level container that represents an entire project file in memory. Instantiating it gives you a clean slate to add tasks, resources, and assignments.
 ```java
 Project prj = new Project();
 ```
 
-## Step 2: Create a Task
+## Step 2: create a task
 The `Task` class represents a single work item in the schedule. Adding a task demonstrates **how to add task** programmatically and provides a target for the upcoming resource assignment.
 ```java
 Task task = prj.getRootTask().getChildren().add("Task 1");
 ```
 
-## Step 3: Set Task Start Date and Duration
+## Step 3: set task start date and duration
 Define when the task starts and how long it will run. Proper start dates are essential because leveling calculations use them as the baseline for any delay you later specify.
 ```java
 java.util.Calendar cal = java.util.Calendar.getInstance();
@@ -113,25 +113,25 @@ task.set(Tsk.START, cal.getTime());
 task.set(Tsk.DURATION, prj.getDuration(8));
 ```
 
-## Step 4: Add a Resource
+## Step 4: add a resource
 Now we **add resource to project** by creating a new `Resource` entry. The `Resource` class is the representation of a person, equipment, or material that can be assigned to tasks.
 ```java
 Resource resource = prj.getResources().add("Resource 1");
 ```
 
-## Step 5: Create a Resource Assignment
+## Step 5: create a resource assignment
 `ResourceAssignment` links a `Task` and a `Resource`. This association lets you record work, cost, and leveling details for a specific resource on a specific task.
 ```java
 ResourceAssignment assignment = prj.getResourceAssignments().add(task, resource);
 ```
 
-## Step 6: Set Leveling Delay
+## Step 6: set leveling delay
 Configure the leveling delay for the assignment. Setting it to zero means no additional delay, but you can adjust the value as needed. The `Asn.DELAY` field holds the delay in minutes; `Asn.LEVELING_DELAY` is an alias that works the same way.
 ```java
 assignment.set(Asn.DELAY, prj.getDuration(0, TimeUnitType.Day));
 ```
 
-## Step 7: Display Results
+## Step 7: display results
 Print the important properties to verify that everything was set correctly. This step helps you confirm that the resource, task, and delay values are exactly what you expect before saving the file.
 ```java
 System.out.println("Delay: " + assignment.get(Asn.DELAY));
@@ -139,13 +139,13 @@ System.out.println("Leveling Delay: " + assignment.get(Asn.LEVELING_DELAY));
 System.out.println("Process completed Successfully");
 ```
 
-## Common Pitfalls & Tips
+## Common pitfalls & tips
 - **Pitfall:** Forgetting to set the task start date can cause the assignment to default to the project start.  
 - **Tip:** Use `prj.getDuration(value, TimeUnitType.Day)` to control the granularity of the delay.  
 - **Tip:** After adding multiple resources, call `prj.updateResourceAssignments()` to let the scheduler recalculate leveling.  
 - **Pro tip:** For large projects (10,000+ tasks) enable `prj.setAutoCalculate(false)` before bulk updates, then call `prj.calculate()` once at the end to improve performance.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I use Aspose.Tasks with other Java libraries?**  
 A: Yes, Aspose.Tasks integrates smoothly with libraries such as Jackson for JSON handling or Apache POI for additional spreadsheet operations, allowing you to build richer project‑management solutions.
@@ -170,10 +170,9 @@ A: Request a temporary license from the [temporary license page](https://purchas
 
 ## Related Tutorials
 
-- [Create Resource Assignments in Aspose.Tasks](/tasks/java/resource-assignments/create-resource-assignments/)
-- [Manage Assignment Budget Java using Aspose.Tasks](/tasks/java/resource-assignments/assignment-budget/)
-- [How to Stop Assignment and Resume Resource Assignments in Aspose.Tasks](/tasks/java/resource-assignments/stop-resume-assignment/)
-
+- {{< relref "../create-resource-assignments/_index.md" >}}Create Resource Assignments in Aspose.Tasks{{< /relref >}}
+- {{< relref "../assignment-budget/_index.md" >}}Manage Assignment Budget Java using Aspose.Tasks{{< /relref >}}
+- {{< relref "../stop-resume-assignment/_index.md" >}}How to Stop Assignment and Resume Resource Assignments in Aspose.Tasks{{< /relref >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

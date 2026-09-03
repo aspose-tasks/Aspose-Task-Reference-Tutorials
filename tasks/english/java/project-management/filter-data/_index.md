@@ -1,6 +1,6 @@
 ---
-title: How to Filter MPP Files Using Aspose.Tasks for Java
-linktitle: How to Filter MPP Files Using Aspose.Tasks for Java
+title: Programmatically Filter MPP Files with Aspose.Tasks for Java
+linktitle: Programmatically Filter MPP Files with Aspose.Tasks for Java
 second_title: Aspose.Tasks Java API
 description: Learn how to filter MPP files using Aspose.Tasks for Java, customize filter criteria, and filter tasks by date to streamline project management.
 weight: 14
@@ -13,7 +13,7 @@ keywords:
   - project management Java API
 schemas:
 - type: TechArticle
-  headline: How to Filter MPP Files Using Aspose.Tasks for Java
+  headline: Programmatically Filter MPP Files with Aspose.Tasks for Java
   description: Learn how to filter MPP files using Aspose.Tasks for Java, customize
     filter criteria, and filter tasks by date to streamline project management.
   dateModified: '2026-06-05'
@@ -115,15 +115,11 @@ Filtering runs entirely in memory and typically processes a 1,000‑task project
 
 ## Related Tutorials
 
-- [Load MPP File Java - Manage Project Properties with Aspose.Tasks](/tasks/java/project-management/default-properties/)
-- [Aspose.Tasks Java - Effortless MS Project Online Data Reading](/tasks/java/project-data-reading/read-project-online/)
-- [Set Project Start Date in MS Project using Aspose.Tasks for Java](/tasks/java/project-properties/write-project-info/)
+{{< relref "tasks/java/project-management/default-properties/_index.md" >}}Load MPP File Java – Manage Project Properties with Aspose.Tasks{{< /relref >}}
 
+{{< relref "tasks/java/project-data-reading/read-project-online/_index.md" >}}Aspose.Tasks Java – Effortless MS Project Online Data Reading{{< /relref >}}
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< relref "tasks/java/project-properties/write-project-info/_index.md" >}}Set Project Start Date in MS Project using Aspose.Tasks for Java{{< /relref >}}
 
 ```java
 import com.aspose.tasks.Filter;
@@ -168,3 +164,10 @@ FilterCriteria criteria22 = criteria2.getCriteriaRows().get(1);
 System.out.println(criteria22.getTest());
 System.out.println(criteria22.getField());
 ```
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

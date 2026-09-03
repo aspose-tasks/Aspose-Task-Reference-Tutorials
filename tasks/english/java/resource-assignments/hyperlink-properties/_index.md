@@ -1,6 +1,6 @@
 ---
-title: How to Set Hyperlink Properties for Assignments in Aspose.Tasks
-linktitle: Manage Hyperlink Properties for Resource Assignments in Aspose.Tasks
+title: Set Hyperlink Properties for Resource Assignments with Aspose.Tasks Java API
+linktitle: Manage Hyperlink Properties for Resource Assignments using Aspose.Tasks Java
 second_title: Aspose.Tasks Java API
 description: Learn how to set hyperlink properties for resource assignments in Aspose.Tasks for Java, showing exactly **how to set hyperlink** and improve collaboration.
 weight: 16
@@ -14,7 +14,7 @@ keywords:
 - Java project hyperlink
 schemas:
 - type: TechArticle
-  headline: How to Set Hyperlink Properties for Assignments in Aspose.Tasks
+  headline: Set Hyperlink Properties for Resource Assignments with Aspose.Tasks Java API
   description: Learn how to set hyperlink properties for resource assignments in Aspose.Tasks
     for Java, showing exactly **how to set hyperlink** and improve collaboration.
   dateModified: '2026-06-05'
@@ -42,7 +42,7 @@ schemas:
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to Set Hyperlink Properties for Assignments in Aspose.Tasks
+# Set Hyperlink Properties for Resource Assignments with Aspose.Tasks Java API
 
 ## Introduction
 In this guide you’ll discover **how to set hyperlink** properties on resource assignments using Aspose.Tasks for Java. By the end of the tutorial you’ll be able to attach clickable URLs, validate them, and query them programmatically—making your project files a hub of contextual information that your whole team can rely on.
@@ -75,36 +75,36 @@ The `Task` class models a single work item within the project hierarchy.
 The `Resource` class defines a person, equipment, or material that can be assigned to tasks.  
 The `Asn` class represents the link between a `Task` and a `Resource` and stores assignment‑level properties, including hyperlink fields.
 
-## Step 1: Create a Project Instance
+## Step 1: create a project instance
 Load or create a new project file. This is the container for all subsequent objects.
 
 ## Step 2: Add a Task to the Project
 Create a task that will later receive the hyperlink through its assignment.
 
-## Step 3: Add a Resource
+## Step 3: add a resource
 Define a resource (e.g., a developer or a piece of equipment) that you will assign to the task.
 
-## Step 4: Create a Resource Assignment
+## Step 4: create a resource assignment
 Link the task and resource together, producing an `Asn` object that holds assignment‑specific data.
 
-## Step 5: Set Hyperlink Properties
+## Step 5: set hyperlink properties
 Assign the hyperlink address and optional sub‑address to the `Asn` object. You can also set the display text via the `HYPERLINK` field.
 
-## Step 6: Print Hyperlink Properties
+## Step 6: print hyperlink properties
 Retrieve and display the stored hyperlink values to confirm that the assignment was configured correctly.
 
-## Step 7: Process Completion
+## Step 7: process completion
 Output a friendly message indicating that the hyperlink setup completed without errors.
 
 ## How can I validate hyperlink java?
 **Validate the URL before assigning it by constructing a `java.net.URL` object; if the constructor throws a `MalformedURLException`, the string is not a well‑formed URL.** This simple check prevents runtime errors and ensures that only reachable links are stored in the project file.
 
-## Common Issues and Solutions
+## Common issues and solutions
 - **Invalid URL format:** Validate the URL using `java.net.URL` before assigning it to avoid runtime errors.  
 - **Null hyperlink values:** Ensure you set all three properties (`HYPERLINK`, `HYPERLINK_ADDRESS`, `HYPERLINK_SUB_ADDRESS`) if you need them; otherwise, set unused ones to `null` or an empty string.  
 - **License not found:** If you receive licensing errors, verify that the Aspose.Tasks license file is correctly loaded before creating the `Project` object.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I add multiple hyperlinks to a single resource assignment?**  
 A: Yes, you can repeat the assignment process for each URL, setting different `HYPERLINK_ADDRESS` values on the same `Asn` object.
@@ -138,14 +138,6 @@ By following these steps you now know **how to set hyperlink** properties for re
 - [Create Resource Assignments in Aspose.Tasks](/tasks/java/resource-assignments/create-resource-assignments/)
 - [How to Add Notes to Resource Assignments in Aspose.Tasks](/tasks/java/resource-assignments/resource-assignment-notes/)
 - [Manage Assignment Budget Java using Aspose.Tasks](/tasks/java/resource-assignments/assignment-budget/)
-
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/products-backtop-button >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 ```java
 import com.aspose.tasks.Asn;
@@ -192,3 +184,10 @@ System.out.println("Hyperlink Sub Address: " + assignment.get(Asn.HYPERLINK_SUB_
 ```java
 System.out.println("Process completed Successfully");
 ```
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
