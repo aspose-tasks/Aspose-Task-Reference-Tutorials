@@ -1,5 +1,5 @@
 ---
-title: Load MPP File in Java Using Aspose.Tasks API – Manage Project Properties
+title: Load Project Files in Java and Manage Project Properties
 linktitle: Manage Default Project Properties in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Learn how to load an MPP file in Java and manage project properties with Aspose.Tasks, including setting default properties and converting formats.
@@ -14,7 +14,7 @@ keywords:
 - convert mpp to pdf
 schemas:
 - type: TechArticle
-  headline: Load MPP File in Java Using Aspose.Tasks API – Manage Project Properties
+  headline: Load Project Files in Java and Manage Project Properties
   description: Learn how to load an MPP file in Java and manage project properties
     with Aspose.Tasks, including setting default properties and converting formats.
   dateModified: '2026-05-31'

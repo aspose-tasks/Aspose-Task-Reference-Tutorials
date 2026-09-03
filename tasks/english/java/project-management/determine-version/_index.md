@@ -1,5 +1,5 @@
 ---
-title: "Retrieve Project Version Using Aspose.Tasks for Java"
+title: "Determine Microsoft Project File Version and Last Saved Date Using Java"
 linktitle: "Determine Project Version with Aspose.Tasks for Java"
 second_title: "Aspose.Tasks Java API"
 description: "Learn how to get project version and retrieve last saved date from MS Project files using Aspose.Tasks for Java. Step‑by‑step guide with code examples."
@@ -26,9 +26,9 @@ schemas:
   steps:
   - name: '**Java Development Kit (JDK)** – version 8 or newer.'
     text: '**Java Development Kit (JDK)** – version 8 or newer.'
-  - name: '**Aspose.Tasks for Java JAR** – download from the [website](https://releases.aspose.com/tasks/java/)
+  - name: '**Aspose.Tasks for Java JAR** – download from the [Aspose.Tasks for Java download page](https://releases.aspose.com/tasks/java/)
       and add it to your project’s classpath.'
-    text: '**Aspose.Tasks for Java JAR** – download from the [website](https://releases.aspose.com/tasks/java/)
+    text: '**Aspose.Tasks for Java JAR** – download from the [Aspose.Tasks for Java download page](https://releases.aspose.com/tasks/java/)
       and add it to your project’s classpath.'
   - name: '**MS Project file** – an XML‑based Project file (e.g., `input.xml`) that
       you want to inspect.'
@@ -48,7 +48,7 @@ schemas:
     answer: No, the library works independently and does not need Microsoft Project
       on the host machine.
   - question: Is technical support available for Aspose.Tasks?
-    answer: Yes, you can get help from the Aspose.Tasks forum [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
+    answer: Yes, you can get help from the Aspose.Tasks support forum [Aspose.Tasks support forum](https://forum.aspose.com/c/tasks/15).
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -76,7 +76,7 @@ Aspose.Tasks provides **exact version metadata** and **last‑saved timestamps**
 Before we begin, ensure you have:
 
 1. **Java Development Kit (JDK)** – version 8 or newer.  
-2. **Aspose.Tasks for Java JAR** – download from the [website](https://releases.aspose.com/tasks/java/) and add it to your project’s classpath.  
+2. **Aspose.Tasks for Java JAR** – download from the [Aspose.Tasks for Java download page](https://releases.aspose.com/tasks/java/) and add it to your project’s classpath.  
 3. **MS Project file** – an XML‑based Project file (e.g., `input.xml`) that you want to inspect.  
 
 > **Pro tip:** Store the Project file in a dedicated `data` folder to keep paths tidy and avoid accidental overwrites.
@@ -149,7 +149,7 @@ A: Yes, you can modify tasks, resources, calendars, and any other project elemen
 A: No, the library works independently and does not need Microsoft Project on the host machine.
 
 **Q: Is technical support available for Aspose.Tasks?**  
-A: Yes, you can get help from the Aspose.Tasks forum [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
+A: Yes, you can get help from the Aspose.Tasks support forum [Aspose.Tasks support forum](https://forum.aspose.com/c/tasks/15).
 
 **Additional Q&A**
 
@@ -175,9 +175,9 @@ You’ve now mastered **how to get project version** and **retrieve last saved d
 
 ## Related Tutorials
 
-{{< relref "/tasks/java/project-properties/write-project-info/" >}}Set Project Start Date in MS Project using Aspose.Tasks for Java{{< /relref >}}
-{{< relref "/tasks/java/project-data-reading/read-project-database/" >}}Read Microsoft Project database with Aspose.Tasks for Java{{< /relref >}}
-{{< relref "/tasks/java/project-file-operations/save-csv-text-template/" >}}Save Project as Template, CSV, and Text with Aspose.Tasks for Java{{< /relref >}}
+[Set Project Start Date in MS Project using Aspose.Tasks for Java](/tasks/java/project-properties/write-project-info/)
+[Read Microsoft Project database with Aspose.Tasks for Java](/tasks/java/project-data-reading/read-project-database/)
+[Save Project as Template, CSV, and Text with Aspose.Tasks for Java](/tasks/java/project-file-operations/save-csv-text-template/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

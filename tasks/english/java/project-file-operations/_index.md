@@ -1,5 +1,5 @@
 ---
-title: "Update MS Project Schedule with Aspose.Tasks for Java – Project File Operations"
+title: "Managing MS Project Schedules – Project File Operations"
 linktitle: Project File Operations
 second_title: Aspose.Tasks Java API
 description: "Learn how to update MS Project schedule, convert MS Project PDF, export to Excel, retrieve outline codes, and save CSV using Aspose.Tasks for Java. Comprehensive step‑by‑step tutorials."

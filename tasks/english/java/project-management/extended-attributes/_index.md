@@ -1,6 +1,6 @@
 ---
-title: 'Add a custom column with Aspose.Tasks Java API: Manage extended attributes'
-linktitle: 'Add a custom column with Aspose.Tasks Java API: Manage extended attributes'
+title: 'Custom columns and extended attributes in Java project management'
+linktitle: 'Custom columns and extended attributes in Java project management'
 second_title: Aspose.Tasks Java API
 description: Learn how to add custom column and create custom field in Aspose.Tasks projects using Java, handling extended attributes efficiently.
 weight: 13

@@ -1,5 +1,5 @@
 ---
-title: How to Export MPP to Excel Using Aspose.Tasks for Java API
+title: How to Export MPP Files to Excel Using Java
 linktitle: Save Data to Excel in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Learn how to export MPP to Excel and convert project file to Excel using Aspose.Tasks for Java. Simple steps for Java developers.
@@ -82,7 +82,7 @@ Exporting MPP to Excel lets you share project information in a universally‑ava
 Before we begin, ensure you have the following:
 
 1. **Java Development Kit (JDK)** – installed and added to your system PATH.  
-2. **Aspose.Tasks for Java library** – download it from the [download link](https://releases.aspose.com/tasks/java/) and add the JAR to your project’s classpath.
+2. **Aspose.Tasks for Java library** – download it from the [Aspose.Tasks for Java download page](https://releases.aspose.com/tasks/java/) and add the JAR to your project’s classpath.
 
 ## Import Packages
 `com.aspose.tasks` provides the core API for handling Project files, while `java.io` supplies file‑system utilities.  
