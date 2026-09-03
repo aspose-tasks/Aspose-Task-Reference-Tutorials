@@ -1,6 +1,6 @@
 ---
-title: "How to Get Project Version – Aspose Tasks Java Tutorial"
-linktitle: "Determine Project Version with Aspose.Tasks"
+title: "Retrieve Project Version Using Aspose.Tasks for Java"
+linktitle: "Determine Project Version with Aspose.Tasks for Java"
 second_title: "Aspose.Tasks Java API"
 description: "Learn how to get project version and retrieve last saved date from MS Project files using Aspose.Tasks for Java. Step‑by‑step guide with code examples."
 weight: 12
@@ -14,13 +14,13 @@ keywords:
 - read project version java
 schemas:
 - type: TechArticle
-  headline: How to Get Project Version – Aspose Tasks Java Tutorial
+  headline: Retrieve Project Version Using Aspose.Tasks for Java
   description: Learn how to get project version and retrieve last saved date from
     MS Project files using Aspose.Tasks for Java. Step‑by‑step guide with code examples.
   dateModified: '2026-05-31'
   author: Aspose
 - type: HowTo
-  name: How to Get Project Version – Aspose Tasks Java Tutorial
+  name: Retrieve Project Version Using Aspose.Tasks for Java
   description: Learn how to get project version and retrieve last saved date from
     MS Project files using Aspose.Tasks for Java. Step‑by‑step guide with code examples.
   steps:
@@ -48,14 +48,14 @@ schemas:
     answer: No, the library works independently and does not need Microsoft Project
       on the host machine.
   - question: Is technical support available for Aspose.Tasks?
-    answer: Yes, you can get help from the Aspose.Tasks forum [here](https://forum.aspose.com/c/tasks/15).
+    answer: Yes, you can get help from the Aspose.Tasks forum [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to Get Project Version – Aspose Tasks Java Tutorial
+# Retrieve Project Version Using Aspose.Tasks for Java
 
 In this **Aspose Tasks Java tutorial** you’ll learn **how to get project version** of a Microsoft Project file and also how to **retrieve last saved date** using the Aspose.Tasks library for Java. Knowing the file version and save timestamp helps you avoid compatibility problems, enforce migration policies, and keep accurate audit logs. We'll walk through every step—from environment setup to printing the version and date—so you can embed this check into any Java application with confidence.
 
@@ -127,14 +127,14 @@ After retrieving the version and last‑saved information, you typically want to
 System.out.println("Process completed Successfully");
 ```
 
-## Common Issues and Solutions
+## Common issues and solutions
 | Issue | Reason | Fix |
 |-------|--------|-----|
 | `NullPointerException` on `project.get(...)` | File not found or path incorrect | Verify `dataDir` and file name; use an absolute path for testing. |
 | Unexpected version number (e.g., 0) | Loading a non‑Project XML file | Ensure the file is a valid Microsoft Project file (MPP/XML). |
 | License exception | Using the trial without a valid license in production | Apply your Aspose.Tasks license (`License license = new License(); license.setLicense("Aspose.Tasks.lic");`). |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I use Aspose.Tasks with other programming languages?**  
 A: Yes, Aspose.Tasks supports .NET, Java, and C++ among others.
@@ -149,7 +149,7 @@ A: Yes, you can modify tasks, resources, calendars, and any other project elemen
 A: No, the library works independently and does not need Microsoft Project on the host machine.
 
 **Q: Is technical support available for Aspose.Tasks?**  
-A: Yes, you can get help from the Aspose.Tasks forum [here](https://forum.aspose.com/c/tasks/15).
+A: Yes, you can get help from the Aspose.Tasks forum [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
 
 **Additional Q&A**
 
@@ -175,10 +175,9 @@ You’ve now mastered **how to get project version** and **retrieve last saved d
 
 ## Related Tutorials
 
-- [Set Project Start Date in MS Project using Aspose.Tasks for Java](/tasks/java/project-properties/write-project-info/)
-- [Read microsoft project database with Aspose.Tasks for Java](/tasks/java/project-data-reading/read-project-database/)
-- [Save Project as Template, CSV, and Text with Aspose.Tasks for Java](/tasks/java/project-file-operations/save-csv-text-template/)
-
+{{< relref "/tasks/java/project-properties/write-project-info/" >}}Set Project Start Date in MS Project using Aspose.Tasks for Java{{< /relref >}}
+{{< relref "/tasks/java/project-data-reading/read-project-database/" >}}Read Microsoft Project database with Aspose.Tasks for Java{{< /relref >}}
+{{< relref "/tasks/java/project-file-operations/save-csv-text-template/" >}}Save Project as Template, CSV, and Text with Aspose.Tasks for Java{{< /relref >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

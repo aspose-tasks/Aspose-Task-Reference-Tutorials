@@ -1,5 +1,5 @@
 ---
-title: How to Export MPP to Excel with Aspose.Tasks for Java
+title: How to Export MPP to Excel Using Aspose.Tasks for Java API
 linktitle: Save Data to Excel in Aspose.Tasks
 second_title: Aspose.Tasks Java API
 description: Learn how to export MPP to Excel and convert project file to Excel using Aspose.Tasks for Java. Simple steps for Java developers.
@@ -46,14 +46,14 @@ schemas:
       modify project files, including tasks, resources, calendars, and custom fields.
   - question: Is there a free trial available for Aspose.Tasks for Java?
     answer: Yes, you can download a free trial version of Aspose.Tasks for Java from
-      [here](https://releases.aspose.com/).
+      [Aspose.Tasks for Java free trial download page](https://releases.aspose.com/).
   - question: Where can I find documentation for Aspose.Tasks for Java?
-    answer: The official documentation is available [here](https://reference.aspose.com/tasks/java/).
+    answer: The official documentation is available [Aspose.Tasks for Java documentation](https://reference.aspose.com/tasks/java/).
   - question: How can I get support for issues or queries related to Aspose.Tasks
       for Java?
-    answer: Support is provided through the Aspose.Tasks forum, reachable [here](https://forum.aspose.com/c/tasks/15).
+    answer: Support is provided through the Aspose.Tasks forum, reachable [Aspose.Tasks forum support page](https://forum.aspose.com/c/tasks/15).
   - question: Can I purchase a temporary license for Aspose.Tasks for Java?
-    answer: Yes, a temporary license can be obtained from [here](https://purchase.aspose.com/temporary-license/).
+    answer: Yes, a temporary license can be obtained from [temporary license purchase page](https://purchase.aspose.com/temporary-license/).
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -101,7 +101,7 @@ import com.aspose.tasks.SaveFileFormat;
 ### How do I export MPP to Excel using Aspose.Tasks?
 Load your `.mpp` file with `new Project("yourfile.mpp")` and immediately call `project.save("output.xlsx", SaveFileFormat.Xlsx)`. This two‑line pattern performs a full conversion, preserving tasks, resources, and custom fields. The operation runs in under a second for typical 100‑task projects on a standard development machine.
 
-#### Step 1: Define the Data Directory Path
+#### Step 1: define the data directory path
 Set the folder where your `.mpp` file resides. Replace the placeholder with your actual path. The `dataDir` string tells the API where to locate the source file and where to write the resulting Excel workbook.
 
 ```text
@@ -110,7 +110,7 @@ String dataDir = "Your Data Directory";
 ```
 ```
 
-#### Step 2: Load the Project File
+#### Step 2: load the project file
 Create a `Project` instance by loading the `.mpp` file you want to convert. The `Project` class represents a Microsoft Project file in memory, allowing further manipulation or direct export.
 
 ```text
@@ -128,32 +128,32 @@ project.save(dataDir + "project1.xlsx", SaveFileFormat.Xlsx);
 ```
 ```
 
-## Common Use Cases
+## Common use cases
 - **Executive reporting:** Provide high‑level project snapshots in Excel for senior management.  
 - **Data analysis:** Feed task and resource data into Excel’s Power Query for deeper insights.  
 - **Integration:** Pass the exported Excel file to downstream systems that only accept CSV/Excel inputs.
 
-## Additional Tips & Best Practices
+## Additional tips & best practices
 - **Performance tip:** For projects larger than 500 tasks, enable `project.setReadWriteMode(ReadWriteMode.MemoryOptimized)` to reduce memory consumption. `ReadWriteMode.MemoryOptimized` minimizes RAM usage when handling large projects.  
 - **Formatting tip:** Use `project.save("output.xlsx", SaveFileFormat.Xlsx, new XlsxSaveOptions { ExportAllFields = true })` to include custom fields in the export. `XlsxSaveOptions` lets you customize the Excel export, such as exporting all fields.  
 - **Error handling:** Wrap the load and save calls in a try‑catch block to capture `FileNotFoundException` or `LicenseException` and provide clear user feedback.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I use Aspose.Tasks for Java to manipulate project data programmatically?**  
 A: Yes, Aspose.Tasks for Java provides extensive APIs to read, write, and modify project files, including tasks, resources, calendars, and custom fields.
 
 **Q: Is there a free trial available for Aspose.Tasks for Java?**  
-A: Yes, you can download a free trial version of Aspose.Tasks for Java from [here](https://releases.aspose.com/).
+A: Yes, you can download a free trial version of Aspose.Tasks for Java from [Aspose.Tasks for Java free trial download page](https://releases.aspose.com/).
 
 **Q: Where can I find documentation for Aspose.Tasks for Java?**  
-A: The official documentation is available [here](https://reference.aspose.com/tasks/java/).
+A: The official documentation is available [Aspose.Tasks for Java documentation](https://reference.aspose.com/tasks/java/).
 
 **Q: How can I get support for issues or queries related to Aspose.Tasks for Java?**  
-A: Support is provided through the Aspose.Tasks forum, reachable [here](https://forum.aspose.com/c/tasks/15).
+A: Support is provided through the Aspose.Tasks forum, reachable [Aspose.Tasks forum support page](https://forum.aspose.com/c/tasks/15).
 
 **Q: Can I purchase a temporary license for Aspose.Tasks for Java?**  
-A: Yes, a temporary license can be obtained from [here](https://purchase.aspose.com/temporary-license/).
+A: Yes, a temporary license can be obtained from [temporary license purchase page](https://purchase.aspose.com/temporary-license/).
 
 ## Conclusion
 In this guide we demonstrated **how to export MPP to Excel** using Aspose.Tasks for Java. By following the three simple steps—defining the data directory, loading the Project file, and saving it as XLSX—you can effortlessly **export project data to Excel** and empower your team with flexible, shareable reports. The library’s ability to **write Excel workbook Java** style code makes integration seamless for any Java‑based workflow.

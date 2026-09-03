@@ -1,6 +1,6 @@
 ---
-title: Add custom column with Aspose.Tasks: Handle extended attributes
-linktitle: Add custom column with Aspose.Tasks: Handle extended attributes
+title: 'Add a custom column with Aspose.Tasks Java API: Manage extended attributes'
+linktitle: 'Add a custom column with Aspose.Tasks Java API: Manage extended attributes'
 second_title: Aspose.Tasks Java API
 description: Learn how to add custom column and create custom field in Aspose.Tasks projects using Java, handling extended attributes efficiently.
 weight: 13
@@ -57,7 +57,7 @@ import java.util.Date;
 import com.aspose.tasks.*;
 ```
 
-## Step 1: Define Data Directory
+## Step 1: define data directory
 First, tell the program where your source files live.
 
 The `dataDir` string points to the folder that contains `project5.mpp`. Using an absolute path or a well‑structured relative path prevents `FileNotFoundException` at runtime.  
@@ -68,7 +68,7 @@ String dataDir = "Your Data Directory";
 
 > **Pro tip:** Keep all project assets (templates, resources, and output files) under a single `data` folder to simplify path management.
 
-## Step 2: Load Project File
+## Step 2: load project file
 Load the existing project so you can modify it.
 
 The `Project` class represents the whole project in memory; calling its constructor with the file path parses the MPP file and builds a full object model.  
@@ -77,7 +77,7 @@ The `Project` class represents the whole project in memory; calling its construc
 Project prj = new Project(dataDir + "project5.mpp");
 ```
 
-## Step 3: Access Extended Attribute Definitions
+## Step 3: access extended attribute definitions
 Retrieve the collection that holds all custom field definitions.
 
 `prj.getExtendedAttributes()` returns a live collection you can query, add to, or iterate over.  
@@ -86,7 +86,7 @@ Retrieve the collection that holds all custom field definitions.
 ExtendedAttributeDefinitionCollection eads = prj.getExtendedAttributes();
 ```
 
-## Step 4: Create Extended Attribute Definition
+## Step 4: create extended attribute definition
 Define the new custom column “Start 7” as a start‑date field for tasks.
 
 `ExtendedAttributeDefinition` specifies the schema of a custom field, including its type, alias, and unique ID.  
@@ -95,7 +95,7 @@ Define the new custom column “Start 7” as a start‑date field for tasks.
 ExtendedAttributeDefinition attributeDefinition = ExtendedAttributeDefinition.createTaskDefinition(CustomFieldType.Start, ExtendedAttributeTask.Start7, "Start 7");
 ```
 
-## Step 5: Add Definition to Project
+## Step 5: add definition to project
 Insert the new definition into the project’s global collection.
 
 Adding the definition to `prj.getExtendedAttributes()` makes it available for any task, resource, or assignment in the file.  
@@ -105,7 +105,7 @@ prj.getExtendedAttributes().add(attributeDefinition);
 eads.add(attributeDefinition);
 ```
 
-## Step 6: Access Task and Extended Attributes
+## Step 6: access task and extended attributes
 Select a task (ID = 1) and fetch its current extended attributes.
 
 `Task` represents an individual work item in the project schedule.  
@@ -115,7 +115,7 @@ Task tsk = prj.getRootTask().getChildren().getById(1);
 ExtendedAttributeCollection eas = tsk.getExtendedAttributes();
 ```
 
-## Step 7: Create Extended Attribute Instance
+## Step 7: create extended attribute instance
 Create an instance of the definition for the chosen task.
 
 `ExtendedAttribute` holds the actual value for a custom field attached to a task, resource, or assignment.  
@@ -124,7 +124,7 @@ Create an instance of the definition for the chosen task.
 ExtendedAttribute ea = attributeDefinition.createExtendedAttribute();
 ```
 
-## Step 8: Set Attribute Value
+## Step 8: set attribute value
 Assign today’s date to the new custom column.
 
 `setDateValue` assigns a Date object to the attribute, storing it as a date‑type custom field.  
@@ -134,7 +134,7 @@ Date date = new Date();
 ea.setDateValue(date);
 ```
 
-## Step 9: Add Attribute to Task
+## Step 9: add attribute to task
 Attach the populated custom field to the task’s collection.
 
 `add` inserts the ExtendedAttribute into the task’s attribute list, making it part of the project data.  
@@ -143,7 +143,7 @@ Attach the populated custom field to the task’s collection.
 eas.add(ea);
 ```
 
-## Step 10: Save Project
+## Step 10: save project
 Persist the changes back to disk.
 
 `SaveFileFormat` enumerates the supported output formats such as XML, MPP, and PDF.  
@@ -152,7 +152,7 @@ Persist the changes back to disk.
 prj.save(dataDir + "project5.xml", SaveFileFormat.Xml);
 ```
 
-## Common Issues & Solutions
+## Common issues & solutions
 | Issue | Solution |
 |-------|----------|
 | **`NullPointerException` when accessing task** | Verify that the task ID exists (`getById(1)` assumes a task with ID 1). Use `prj.getRootTask().getChildren().size()` to list available IDs. |
@@ -173,9 +173,9 @@ A: Yes, you can define custom fields of type Date, Text, Cost, Number, Flag, and
 A: Comprehensive API docs are available at the Aspose.Tasks [documentation](https://reference.aspose.com/tasks/java/) site.
 
 **Q: Is technical support offered for Aspose.Tasks users?**  
-A: Yes, the Aspose.Tasks community forum provides prompt assistance: [website](https://forum.aspose.com/c/tasks/15).
+A: Yes, the Aspose.Tasks community forum provides prompt assistance: [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
 
-## Additional Frequently Asked Questions
+## Additional frequently asked questions
 **Q: Does adding a custom column affect project performance?**  
 A: Adding a few custom columns has a negligible impact; performance degradation only becomes noticeable when thousands of custom fields are created in a single project.
 
@@ -193,9 +193,9 @@ A: Custom columns saved in newer Aspose.Tasks versions remain readable by older 
 
 ## Related Tutorials
 
-- [Add Extended Attributes to Tasks in Aspose.Tasks](/tasks/java/task-properties/add-extended-attributes/)
-- [How to Create Project – Set New Task Attributes with Aspose.Tasks](/tasks/java/project-file-operations/set-attributes-new-tasks/)
-- [How to Create View - Custom MS Project Views in Aspose.Tasks](/tasks/java/project-file-operations/custom-views/)
+- [Add Extended Attributes to Tasks in Aspose.Tasks]({{< relref "tasks/java/task-properties/add-extended-attributes/_index.md" >}})
+- [How to Create Project – Set New Task Attributes with Aspose.Tasks]({{< relref "tasks/java/project-file-operations/set-attributes-new-tasks/_index.md" >}})
+- [How to Create View - Custom MS Project Views in Aspose.Tasks]({{< relref "tasks/java/project-file-operations/custom-views/_index.md" >}})
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
