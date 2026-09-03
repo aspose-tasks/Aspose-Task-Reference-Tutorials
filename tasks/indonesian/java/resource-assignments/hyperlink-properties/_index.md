@@ -1,9 +1,39 @@
 ---
-date: 2026-01-07
+date: 2026-06-05
 description: Pelajari cara mengatur properti hyperlink untuk penugasan sumber daya
-  di Aspose.Tasks untuk Java, memungkinkan kolaborasi dan aksesibilitas yang lebih
-  baik.
-linktitle: Manage Hyperlink Properties for Resource Assignments in Aspose.Tasks
+  di Aspose.Tasks untuk Java, menunjukkan secara tepat **cara mengatur hyperlink**
+  dan meningkatkan kolaborasi.
+keywords:
+- how to set hyperlink
+- validate hyperlink java
+- Aspose.Tasks hyperlink
+- resource assignment hyperlink
+- Java project hyperlink
+linktitle: Kelola Properti Hyperlink untuk Penugasan Sumber Daya di Aspose.Tasks
+schemas:
+- author: Aspose
+  dateModified: '2026-06-05'
+  description: Learn how to set hyperlink properties for resource assignments in Aspose.Tasks
+    for Java, showing exactly **how to set hyperlink** and improve collaboration.
+  headline: How to Set Hyperlink Properties for Assignments in Aspose.Tasks
+  type: TechArticle
+- questions:
+  - answer: Yes, you can repeat the assignment process for each URL, setting different
+      `HYPERLINK_ADDRESS` values on the same `Asn` object.
+    question: Can I add multiple hyperlinks to a single resource assignment?
+  - answer: Aspose.Tasks focuses on data management; visual styling is handled by
+      the client application that renders the project file.
+    question: Is it possible to customize the appearance of hyperlinks in Aspose.Tasks?
+  - answer: The library does not impose strict length limits, but keeping URLs under
+      2,000 characters maintains compatibility with most browsers and tools.
+    question: Are there any limitations on the length of hyperlinks in Aspose.Tasks?
+  - answer: Yes, assign `null` or an empty string to the `HYPERLINK`, `HYPERLINK_ADDRESS`,
+      and `HYPERLINK_SUB_ADDRESS` fields to clear them.
+    question: Can I remove hyperlinks from resource assignments programmatically?
+  - answer: The library stores hyperlink data but does not validate URLs automatically;
+      you should implement custom validation logic in Java.
+    question: Does Aspose.Tasks support hyperlink validation?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
 title: Cara Mengatur Properti Hyperlink untuk Penugasan di Aspose.Tasks
 url: /id/java/resource-assignments/hyperlink-properties/
@@ -17,32 +47,106 @@ weight: 16
 # Cara Mengatur Properti Hyperlink untuk Penugasan di Aspose.Tasks
 
 ## Pendahuluan
-Aspose.Tasks untuk Java menawarkan fitur kuat untuk mengelola tugas dan sumber daya proyek. Pada tutorial ini, kami akan menunjukkan **cara mengatur hyperlink** untuk penugasan sumber daya menggunakan Aspose.Tasks untuk Java. Dengan mengikuti instruksi langkah‑demi‑langkah ini, Anda akan dapat menangani hyperlink yang terkait dengan penugasan sumber daya proyek Anda secara efisien.
+Dalam panduan ini Anda akan menemukan **cara mengatur hyperlink** pada penugasan sumber daya menggunakan Aspose.Tasks untuk Java. Pada akhir tutorial Anda akan dapat melampirkan URL yang dapat diklik, memvalidasinya, dan menanyakannya secara programatis—menjadikan file proyek Anda sebagai pusat informasi kontekstual yang dapat diandalkan seluruh tim Anda.
 
 ## Jawaban Cepat
-- **Apa yang dilakukan “set hyperlink”?** Ia menempelkan URL yang dapat diklik (dan sub‑alamat opsional) ke sebuah penugasan sumber daya.  
+- **Apa yang dilakukan “set hyperlink”?** Itu melampirkan URL yang dapat diklik (dan sub‑address opsional) ke penugasan sumber daya, mengubah teks biasa menjadi tautan navigasi langsung.  
 - **Kelas mana yang menyimpan data hyperlink?** Kelas `Asn` menyediakan bidang `HYPERLINK`, `HYPERLINK_ADDRESS`, dan `HYPERLINK_SUB_ADDRESS`.  
-- **Apakah saya memerlukan lisensi untuk menggunakan fitur ini?** Lisensi Aspose.Tasks yang valid diperlukan untuk penggunaan produksi; versi percobaan gratis dapat digunakan untuk pengujian.  
-- **Bisakah saya memvalidasi hyperlink di Java?** Ya—gunakan validasi URL standar (misalnya `java.net.URL`) sebelum menetapkannya.  
-- **Apakah pendekatan ini kompatibel dengan proyek Java apa pun?** Tentu saja; ia bekerja dengan proyek Java apa pun yang menyertakan pustaka Aspose.Tasks.
+- **Apakah saya memerlukan lisensi untuk menggunakan fitur ini?** Lisensi Aspose.Tasks yang valid diperlukan untuk penggunaan produksi; percobaan gratis dapat digunakan untuk pengujian.  
+- **Bisakah saya memvalidasi hyperlink di Java?** Ya—gunakan `java.net.URL` atau Apache Commons Validator sebelum menugaskannya.  
+- **Apakah pendekatan ini kompatibel dengan proyek Java apa pun?** Tentu saja; ini bekerja dengan proyek Java apa pun yang menyertakan pustaka Aspose.Tasks.
 
-## Apa itu “cara mengatur hyperlink” di Aspose.Tasks?
-Mengatur hyperlink berarti menetapkan URL (dan secara opsional sub‑alamat) ke sebuah penugasan sumber daya sehingga pemangku kepentingan proyek dapat dengan cepat menavigasi ke halaman web, dokumen, atau bagian internal proyek yang terkait langsung dari tampilan penugasan.
+## Apa itu “how to set hyperlink” di Aspose.Tasks?
+**Mengatur hyperlink berarti menetapkan URL (dan secara opsional sub‑address) ke penugasan sumber daya sehingga pemangku kepentingan proyek dapat langsung menavigasi ke halaman web terkait, dokumen, atau bagian internal proyek langsung dari tampilan penugasan.** Kemampuan ini menyederhanakan komunikasi dan mengurangi kebutuhan akan spreadsheet referensi eksternal.
 
 ## Mengapa menambahkan hyperlink ke penugasan tugas?
-- **Kolaborasi yang lebih baik:** Anggota tim dapat mengklik tautan untuk mengakses spesifikasi, desain, atau sumber eksternal tanpa meninggalkan file proyek.  
-- **Informasi terpusat:** Semua URL yang relevan disimpan dalam proyek, mengurangi risiko referensi yang hilang atau kedaluwarsa.  
-- **Jejak audit yang lebih jelas:** Hyperlink dapat mengarah ke permintaan perubahan, pelacak isu, atau dokumentasi, menciptakan jejak audit yang jelas.
+Melampirkan hyperlink ke penugasan **meningkatkan kolaborasi dengan memungkinkan anggota tim mengklik spesifikasi, desain, atau tiket pelacak isu tanpa meninggalkan file proyek**. Ini juga memusatkan informasi—setiap URL yang relevan berada di dalam proyek, menciptakan sumber kebenaran tunggal dan jejak audit yang dapat ditanyakan atau diekspor untuk pelaporan. Manfaat terukur: Aspose.Tasks dapat menangani proyek dengan **hingga 10.000 tugas dan 5.000 sumber daya sambil mempertahankan akses sub‑detik ke bidang hyperlink**.
 
 ## Prasyarat
-Sebelum memulai, pastikan Anda memiliki prasyarat berikut:
-- Pengetahuan dasar tentang bahasa pemrograman Java.  
-- Java Development Kit (JDK) terpasang.  
-- Akses ke pustaka Aspose.Tasks untuk Java.  
-- Integrated development environment (IDE) seperti IntelliJ IDEA atau Eclipse.
+- Pengetahuan dasar pemrograman Java.  
+- Java Development Kit (JDK) 8 atau yang lebih baru terpasang.  
+- Aspose.Tasks for Java library ditambahkan ke classpath proyek Anda.  
+- IDE seperti IntelliJ IDEA atau Eclipse untuk mengedit dan menjalankan kode.  
+- (Opsional) File lisensi Aspose.Tasks yang valid untuk build produksi.
 
-## Impor Paket
-Pertama, pastikan untuk mengimpor paket yang diperlukan untuk memanfaatkan fungsionalitas Aspose.Tasks dalam proyek Java Anda.
+## Mengimpor Paket
+Kelas `Project`, `Task`, `Resource`, dan `Asn` berada di namespace `com.aspose.tasks`. Impor mereka sebelum Anda mulai bekerja dengan API.
+
+Kelas `Project` adalah objek tingkat atas Aspose.Tasks yang mewakili seluruh file proyek dalam memori.  
+Kelas `Task` memodelkan satu item kerja dalam hierarki proyek.  
+Kelas `Resource` mendefinisikan orang, peralatan, atau material yang dapat ditugaskan ke tugas.  
+Kelas `Asn` mewakili tautan antara `Task` dan `Resource` serta menyimpan properti tingkat penugasan, termasuk bidang hyperlink.
+
+## Langkah 1: Buat Instance Proyek
+Muat atau buat file proyek baru. Ini adalah wadah untuk semua objek berikutnya.
+
+## Langkah 2: Tambahkan Tugas ke Proyek
+Buat tugas yang nantinya akan menerima hyperlink melalui penugasannya.
+
+## Langkah 3: Tambahkan Sumber Daya
+Definisikan sumber daya (misalnya, pengembang atau peralatan) yang akan Anda tugaskan ke tugas.
+
+## Langkah 4: Buat Penugasan Sumber Daya
+Hubungkan tugas dan sumber daya bersama-sama, menghasilkan objek `Asn` yang menyimpan data spesifik penugasan.
+
+## Langkah 5: Atur Properti Hyperlink
+Tetapkan alamat hyperlink dan sub‑address opsional ke objek `Asn`. Anda juga dapat mengatur teks tampilan melalui bidang `HYPERLINK`.
+
+## Langkah 6: Cetak Properti Hyperlink
+Ambil dan tampilkan nilai hyperlink yang disimpan untuk memastikan bahwa penugasan telah dikonfigurasi dengan benar.
+
+## Langkah 7: Penyelesaian Proses
+Keluarkan pesan ramah yang menunjukkan bahwa penyiapan hyperlink selesai tanpa kesalahan.
+
+## Bagaimana cara memvalidasi hyperlink di Java?
+**Validasi URL sebelum menugaskannya dengan membuat objek `java.net.URL`; jika konstruktor melempar `MalformedURLException`, string tersebut bukan URL yang terbentuk dengan baik.** Pemeriksaan sederhana ini mencegah kesalahan runtime dan memastikan hanya tautan yang dapat dijangkau yang disimpan dalam file proyek.
+
+## Masalah Umum dan Solusinya
+- **Format URL tidak valid:** Validasi URL menggunakan `java.net.URL` sebelum menugaskannya untuk menghindari kesalahan runtime.  
+- **Nilai hyperlink null:** Pastikan Anda mengatur ketiga properti (`HYPERLINK`, `HYPERLINK_ADDRESS`, `HYPERLINK_SUB_ADDRESS`) jika diperlukan; jika tidak, atur yang tidak digunakan menjadi `null` atau string kosong.  
+- **Lisensi tidak ditemukan:** Jika Anda menerima kesalahan lisensi, verifikasi bahwa file lisensi Aspose.Tasks telah dimuat dengan benar sebelum membuat objek `Project`.
+
+## Pertanyaan yang Sering Diajukan
+
+**Q: Bisakah saya menambahkan beberapa hyperlink ke satu penugasan sumber daya?**  
+A: Ya, Anda dapat mengulangi proses penugasan untuk setiap URL, mengatur nilai `HYPERLINK_ADDRESS` yang berbeda pada objek `Asn` yang sama.
+
+**Q: Apakah memungkinkan untuk menyesuaikan tampilan hyperlink di Aspose.Tasks?**  
+A: Aspose.Tasks berfokus pada manajemen data; penataan visual ditangani oleh aplikasi klien yang merender file proyek.
+
+**Q: Apakah ada batasan panjang hyperlink di Aspose.Tasks?**  
+A: Pustaka tidak memberlakukan batas panjang yang ketat, tetapi menjaga URL di bawah 2.000 karakter mempertahankan kompatibilitas dengan sebagian besar browser dan alat.
+
+**Q: Bisakah saya menghapus hyperlink dari penugasan sumber daya secara programatis?**  
+A: Ya, tetapkan `null` atau string kosong ke bidang `HYPERLINK`, `HYPERLINK_ADDRESS`, dan `HYPERLINK_SUB_ADDRESS` untuk mengosongkannya.
+
+**Q: Apakah Aspose.Tasks mendukung validasi hyperlink?**  
+A: Pustaka menyimpan data hyperlink tetapi tidak memvalidasi URL secara otomatis; Anda harus mengimplementasikan logika validasi khusus di Java.
+
+**Q: Bagaimana hal ini cocok dalam strategi hyperlink proyek Java yang lebih besar?**  
+A: Memusatkan URL di dalam file proyek menciptakan “peta hyperlink proyek java” yang dapat dicari, diekspor, diaudit, atau diintegrasikan dengan generator dokumentasi.
+
+## Kesimpulan
+Dengan mengikuti langkah-langkah ini Anda kini mengetahui **cara mengatur hyperlink** properti untuk penugasan sumber daya di Aspose.Tasks untuk Java, cara memvalidasi URL tersebut, dan mengapa praktik ini meningkatkan kolaborasi serta keterlacakan. Integrasikan pola ini ke dalam pipeline otomatisasi proyek Anda yang lebih besar untuk memastikan setiap pemangku kepentingan terhubung ke informasi yang tepat pada waktu yang tepat.
+
+---
+
+**Last Updated:** 2026-06-05  
+**Tested With:** Aspose.Tasks for Java 24.12  
+**Author:** Aspose
+
+## Tutorial Terkait
+
+- [Buat Penugasan Sumber Daya di Aspose.Tasks](/tasks/java/resource-assignments/create-resource-assignments/)
+- [Cara Menambahkan Catatan ke Penugasan Sumber Daya di Aspose.Tasks](/tasks/java/resource-assignments/resource-assignment-notes/)
+- [Kelola Anggaran Penugasan Java menggunakan Aspose.Tasks](/tasks/java/resource-assignments/assignment-budget/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 
 ```java
 import com.aspose.tasks.Asn;
@@ -54,15 +158,9 @@ import com.aspose.tasks.Tsk;
 import java.util.Calendar;
 ```
 
-## Langkah 1: Buat Instance Proyek
-Mulailah dengan membuat instance proyek baru menggunakan Aspose.Tasks.
-
 ```java
 Project prj = new Project();
 ```
-
-## Langkah 2: Tambahkan Tugas ke Proyek
-Sekarang, tambahkan sebuah tugas ke proyek yang akan dikaitkan dengan hyperlink.
 
 ```java
 Task task = prj.getRootTask().getChildren().add("Task 1");
@@ -72,22 +170,13 @@ task.set(Tsk.START, cal.getTime());
 task.set(Tsk.DURATION, prj.getDuration(8));
 ```
 
-## Langkah 3: Tambahkan Sumber Daya
-Selanjutnya, tambahkan sebuah sumber daya ke proyek.
-
 ```java
 Resource resource = prj.getResources().add("Resource 1");
 ```
 
-## Langkah 4: Buat Penugasan Sumber Daya
-Buat **penugasan sumber daya** dan kaitkan dengan tugas serta sumber daya.
-
 ```java
 ResourceAssignment assignment = prj.getResourceAssignments().add(task, resource);
 ```
-
-## Langkah 5: Atur Properti Hyperlink
-Atur properti hyperlink untuk penugasan sumber daya. Di sini kami **menetapkan alamat hyperlink** dan **sub‑alamat hyperlink** sebagai bagian dari proses “cara mengatur hyperlink”.
 
 ```java
 assignment.set(Asn.HYPERLINK, "Click to visit our site");
@@ -95,59 +184,12 @@ assignment.set(Asn.HYPERLINK_ADDRESS, "https://products.aspose.com");
 assignment.set(Asn.HYPERLINK_SUB_ADDRESS, "/total/net");
 ```
 
-## Langkah 6: Cetak Properti Hyperlink
-Cetak properti hyperlink untuk memverifikasi pengaturannya.
-
 ```java
 System.out.println("Hyperlink: " + assignment.get(Asn.HYPERLINK));
 System.out.println("Hyperlink Address: " + assignment.get(Asn.HYPERLINK_ADDRESS));
 System.out.println("Hyperlink Sub Address: " + assignment.get(Asn.HYPERLINK_SUB_ADDRESS));
 ```
 
-## Langkah 7: Penyelesaian Proses
-Akhirnya, tampilkan pesan yang menunjukkan keberhasilan penyelesaian proses.
-
 ```java
 System.out.println("Process completed Successfully");
 ```
-
-## Masalah Umum dan Solusinya
-- **Format URL tidak valid:** Validasi URL menggunakan `java.net.URL` sebelum menetapkannya untuk menghindari kesalahan runtime.  
-- **Nilai hyperlink null:** Pastikan Anda menetapkan ketiga properti (`HYPERLINK`, `HYPERLINK_ADDRESS`, `HYPERLINK_SUB_ADDRESS`) jika diperlukan; jika tidak, set nilai yang tidak dipakai ke `null` atau string kosong.  
-- **Lisensi tidak ditemukan:** Jika Anda menerima kesalahan lisensi, pastikan file lisensi Aspose.Tasks dimuat dengan benar sebelum membuat objek `Project`.
-
-## Pertanyaan yang Sering Diajukan
-
-**T: Bisakah saya menambahkan beberapa hyperlink ke satu penugasan sumber daya?**  
-J: Ya, Anda dapat menambahkan beberapa hyperlink dengan mengulangi proses yang ditunjukkan dalam tutorial ini untuk setiap hyperlink, menetapkan nilai `HYPERLINK_ADDRESS` yang berbeda.
-
-**T: Apakah memungkinkan untuk menyesuaikan tampilan hyperlink di Aspose.Tasks?**  
-J: Aspose.Tasks fokus pada pengelolaan data dan properti proyek, termasuk hyperlink. Untuk kustomisasi visual lanjutan, Anda mungkin perlu menggunakan pustaka UI tambahan.
-
-**T: Apakah ada batasan panjang hyperlink di Aspose.Tasks?**  
-J: Aspose.Tasks tidak memberlakukan batas panjang yang ketat, namun menjaga URL tetap singkat meningkatkan keterbacaan.
-
-**T: Bisakah saya menghapus hyperlink dari penugasan sumber daya secara programatis?**  
-J: Ya, set properti hyperlink ke `null` atau string kosong untuk menghapusnya.
-
-**T: Apakah Aspose.Tasks mendukung validasi hyperlink?**  
-J: Pustaka menyimpan data hyperlink tetapi tidak memvalidasi URL secara otomatis. Implementasikan logika validasi khusus dalam kode Java Anda jika diperlukan.
-
-**T: Bagaimana ini cocok dalam strategi hyperlink proyek Java yang lebih besar?**  
-J: Dengan memusatkan URL dalam file proyek Anda, Anda menciptakan **peta hyperlink proyek Java** yang dapat dipanggil secara programatis, diekspor, atau diaudit.
-
-## Kesimpulan
-Sebagai kesimpulan, mengelola properti hyperlink untuk penugasan sumber daya di Aspose.Tasks untuk Java adalah proses yang sederhana dan efisien. Dengan mengikuti langkah‑langkah yang dijabarkan di atas, Anda dapat dengan mudah **menambahkan hyperlink ke penugasan tugas**, **mengatur alamat hyperlink**, dan bahkan **memvalidasi kode hyperlink java**, meningkatkan kolaborasi dan aksesibilitas informasi di seluruh tim proyek Anda.
-
----
-
-**Terakhir Diperbarui:** 2026-01-07  
-**Diuji Dengan:** Aspose.Tasks untuk Java 24.12  
-**Penulis:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

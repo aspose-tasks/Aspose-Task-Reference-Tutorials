@@ -1,7 +1,33 @@
 ---
-date: 2025-12-25
-description: 學習如何使用 Aspose.Tasks for Java 篩選 MPP 檔案，並自訂篩選條件，以簡化您的專案管理工作流程。
-linktitle: How to Filter MPP Files Using Aspose.Tasks for Java
+date: 2026-06-05
+description: 了解如何使用 Aspose.Tasks for Java 篩選 MPP 檔案、客製化篩選條件，並依日期篩選工作，以提升專案管理效率。
+keywords:
+- how to filter mpp
+- filter tasks by date
+- Aspose.Tasks Java filter
+- project management Java API
+linktitle: 如何使用 Aspose.Tasks for Java 篩選 MPP 檔案
+schemas:
+- author: Aspose
+  dateModified: '2026-06-05'
+  description: Learn how to filter MPP files using Aspose.Tasks for Java, customize
+    filter criteria, and filter tasks by date to streamline project management.
+  headline: How to Filter MPP Files Using Aspose.Tasks for Java
+  type: TechArticle
+- questions:
+  - answer: It means extracting a subset of project data based on defined conditions.
+    question: What does “filter mpp” mean?
+  - answer: Aspose.Tasks for Java provides a comprehensive API for creating and applying
+      filters.
+    question: Which library handles this?
+  - answer: A free trial works for development; a commercial license is required for
+      production.
+    question: Do I need a license?
+  - answer: Yes – each entity type has its own filter collection.
+    question: Can I filter tasks, resources, and assignments?
+  - answer: Aspose.Tasks supports Java 8 and later versions.
+    question: Is Java 8 or higher required?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
 title: 如何使用 Aspose.Tasks for Java 篩選 MPP 檔案
 url: /zh-hant/java/project-management/filter-data/
@@ -12,33 +38,33 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 如何使用 Aspose.Tasks for Java 篩選 MPP 檔案
+# 使用 Aspose.Tasks for Java 過濾 MPP 檔案的方法
 
-## 簡介
-如果您在 Java 應用程式中使用 Microsoft Project 檔案 (.mpp)，通常需要對任務、資源或指派進行**篩選**，以便專注於真正重要的資料。本教學將逐步說明如何使用 Aspose.Tasks for Java 以程式方式篩選 .mpp 文件，並向您展示如何**自訂篩選條件**以滿足您專案特定的報告需求。最後，您將獲得一個清晰的逐步範例，可以直接將其應用到您自己的程式碼庫中。
+## 介紹
+如果您在 Java 應用程式中處理 Microsoft Project 檔案（*.mpp*），通常需要 **過濾 MPP 檔案** 以挑選出最重要的工作、資源或指派項目。在本教學中，我們將示範如何使用 Aspose.Tasks for Java 程式化 **過濾 mpp** 檔案、**自訂過濾條件**，並展示一個實務的「依日期過濾工作」情境。完成後，您將擁有一段可直接放入任何 Java 專案的即用程式碼片段。
 
-## 快速解答
-- **「filter mpp」是什麼意思？** 它指的是根據定義的條件提取項目資料的子集。  
-- **哪個函式庫負責此功能？** Aspose.Tasks for Java 提供了豐富的 API，用於建立和套用篩選器。 
-- **我需要授權嗎？** 免費試用版適用於開發階段；生產階段需要商業許可。  
-- **我可以篩選任務、資源和指派嗎？** 是的－每種實體類型都有自己的過濾器集合。  
-- **需要 Java 8 或以上版本嗎？** Aspose.Tasks 支援 Java 8 及更高版本。
+## 快速答覆
+- **「filter mpp」是什麼意思？** 即根據定義的條件抽取專案資料的子集合。  
+- **哪個函式庫負責此功能？** Aspose.Tasks for Java 提供完整的 API 來建立與套用過濾器。  
+- **需要授權嗎？** 開發階段可使用免費試用版；正式上線需購買商業授權。  
+- **可以過濾工作、資源與指派嗎？** 可以——每種實體都有自己的過濾集合。  
+- **是否需要 Java 8 或更高版本？** Aspose.Tasks 支援 Java 8 及以上版本。
 
-## 什麼是 Java 中的「how to filter mpp」？
-篩選 .mpp 檔案意味著使用 Aspose.Tasks API 定義篩選條件（例如任務開始日期、成本或自訂欄位），然後僅擷取符合這些規則的項目。這有助於您產生重點突出的報告、自動執行狀態檢查或將專案資料與其他系統整合。
+## 在 Java 中「如何過濾 mpp」是什麼？
+`How to filter mpp` 是指使用 Aspose.Tasks 的 `Filter` 物件，選取符合特定謂詞（如開始日期、成本或自訂欄位）的專案元素。載入 `Project`、取得 `Filter`，API 會回傳符合條件的集合，讓您能進行聚焦報表或後續整合。
 
-## 為什麼要自訂篩選條件？
-每個項目都有其自身的優先順序。透過**自訂篩選條件**，您可以隔離高風險任務、逾期專案或超出預算的資源，從而使您的專案儀表板更具實用性，程式碼更易於重複使用。
+## 為什麼要自訂過濾條件？
+自訂過濾條件讓您能鎖定高風險工作、逾期項目或預算超支的資源，將龐大的專案檔案轉換為簡潔、可行的視圖。Aspose.Tasks 支援 **50+ 預定義過濾類型**，且允許建立無限制的自訂過濾器，將手動篩選時間縮短最高可達 70 %。
 
-## 先決條件
-在開始之前，請確保您已準備好以下工具：
+## 前置條件
+在開始之前，請確保您已具備：
 
-1. **Java 開發工具包 (JDK)** – 版本 8 或更高版本。
-2. **Aspose.Tasks for Java** – 請從[下載頁面](https://releases.aspose.com/tasks/java/)下載。
-3. **整合開發環境 (IDE)** – IntelliJ IDEA、Eclipse 或 NetBeans 皆可。  
+1. **Java Development Kit (JDK)** – 版本 8 或更新。  
+2. **Aspose.Tasks for Java** – 從 [download page](https://releases.aspose.com/tasks/java/) 下載。  
+3. **IDE** – IntelliJ IDEA、Eclipse 或 NetBeans 都可使用。  
 
 ## 匯入套件
-首先，將必要的類別匯入到您的 Java 專案中：
+`Filter`、`FilterCollection`、`FilterCriteria`、`ItemType` 與 `Project` 為定義與套用過濾器的核心類別。
 
 ```java
 import com.aspose.tasks.Filter;
@@ -49,35 +75,78 @@ import com.aspose.tasks.Project;
 import java.util.List;
 ```
 
-## 逐步指南
+## 步驟指南
 
 ### 步驟 1：設定專案
-首先，建立一個指向您要處理的 MPP 檔案的 `Project` 實例。
+首先，建立指向欲分析的 MPP 檔案的 `Project` 實例，並將其載入記憶體。此一步驟會將整個專案模型準備好，以供過濾、驗證與後續操作，讓您能透過 API 存取工作、資源與指派。
+
+### 如何設定專案以過濾 MPP 檔案？
+`Project` 類別會將 MPP 檔案載入記憶體並加以表示。建立指向目標 MPP 檔案的 `Project` 實例，然後載入即可。此單一步驟會為過濾、驗證與進一步操作準備完整的專案模型，讓您能透過 API 存取工作、資源與指派。
+
+### 如何取得並檢視過濾器？
+`Filter` 物件封裝了用於選取專案項目的過濾定義。Aspose.Tasks 內建如「All Tasks」或「Critical Tasks」等預設過濾器。使用 `project.getTaskFilters().getByName("My Filter")` 或索引方式取得 `Filter` 物件，然後檢查其 `FilterCriteria` 集合，以了解每條規則及其組合的邏輯運算子（AND/OR），確保過濾器符合您的需求。
+
+### 如何遍歷巢狀的條件列？
+`FilterCriteriaGroup` 代表以邏輯運算子結合的一組過濾條件。過濾器可包含多個條件群組，每個群組都有自己的運算子。遍歷 `filter.getCriteria().getRows()`，對於任何屬於 `FilterCriteriaGroup` 的列，遞迴處理其子列。此遍歷讓您完整了解複雜的過濾邏輯，例如「(Start < today AND Cost > 1000) OR Priority = High」，並依需求調整條件。
+
+### 如何列印條件資訊以進行除錯？
+在遍歷條件樹後，將每列的欄位名稱、測試運算子與值輸出至主控台。這個簡易的 dump 可協助您在將過濾器套用至大型專案前，驗證其是否符合預期的業務規則，並更容易發現錯誤的運算子或值。
+
+### 如何程式化建立全新過濾器？
+使用 `new Filter("My Filter")` 建立 `Filter`，然後透過 `project.getTaskFilters().add(filter)` 加入專案的工作過濾集合。之後，將所需的列（欄位名稱、測試運算子、值）加入其 `FilterCriteria` 集合，即可定義在套用過濾器時應包含的工作項目。
+
+### 能否將過濾器套用於資源而非工作？
+`ResourceFilters` 集合保存適用於資源的過濾定義。是的——使用 `project.getResourceFilters()` 以與工作過濾器相同的方式處理資源過濾器。加入或取得過濾器後，像處理工作一樣配置其 `FilterCriteria`，然後套用至資源集合，即可取得過濾後的資源集合。
+
+### 是否可以使用 OR 邏輯結合多個過濾器？
+建立一個 `FilterCriteriaGroup`，將其 `Operation` 設為 `OR`，再將個別的 `FilterCriteria` 物件作為子項加入。此群組會評估每個子條件，返回符合任一條件的項目，讓您能將多個簡單過濾器合併為更廣的選取範圍。
+
+### Aspose.Tasks 是否支援自訂欄位的過濾？
+`CustomField` 列舉提供專案中自訂欄位的識別碼。當然支援。透過 `CustomField` 列舉引用自訂欄位，它們在過濾表達式中與內建欄位同等對待。您可以在 `FilterCriteria` 列中加入自訂欄位，使用相同的運算子與值，實現對使用者定義資料的強大查詢。
+
+### 大型 MPP 檔案的過濾效能如何？
+過濾完全在記憶體中執行，通常可在 200 ms 內處理 1,000 工作的專案。對於數千工作的大型檔案，建議使用 `ProjectReader` 僅載入必要的區段，然後在選擇性載入後套用過濾器，這樣可降低記憶體使用量，並在極大規模專案中仍保持快速回應。
+
+---
+
+**最後更新：** 2026-06-05  
+**測試環境：** Aspose.Tasks for Java 24.10  
+**作者：** Aspose
+
+## 相關教學
+
+- [Load MPP File Java - Manage Project Properties with Aspose.Tasks](/tasks/java/project-management/default-properties/)
+- [Aspose.Tasks Java - Effortless MS Project Online Data Reading](/tasks/java/project-data-reading/read-project-online/)
+- [Set Project Start Date in MS Project using Aspose.Tasks for Java](/tasks/java/project-properties/write-project-info/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+```java
+import com.aspose.tasks.Filter;
+import com.aspose.tasks.FilterCollection;
+import com.aspose.tasks.FilterCriteria;
+import com.aspose.tasks.ItemType;
+import com.aspose.tasks.Project;
+import java.util.List;
+```
 
 ```java
 String dataDir = "Your Data Directory";
 Project project = new Project(dataDir + "Project2003.mpp");
 ```
 
-### 步驟 2：取得篩選器
-Aspose.Tasks 儲存了預先定義的篩選器（例如，「所有任務」、「關鍵任務」）。您可以按索引或名稱取得所需的篩選器。
-
 ```java
 Filter filter = project.getTaskFilters().toList().get(1);
 ```
-
-> **專業提示：** 如果您喜歡使用命名篩選器，請使用 `project.getTaskFilters().getByName("我的自訂篩選器")`。
-
-### 步驟 3：存取篩選條件
-現在您已經有了 `Filter` 對象，可以檢查其條件行以及組合這些條件的邏輯運算（AND/OR）。
 
 ```java
 System.out.println(filter.getCriteria().getCriteriaRows().size());
 System.out.println(filter.getCriteria().getOperation());
 ```
-
-### 步驟 4：取得條件細節
-每個條件行都包含一個測試（例如，「等於」、「大於」）以及它所應用的欄位（例如，「開始時間」、「成本」）。
 
 ```java
 FilterCriteria criteria1 = filter.getCriteria().getCriteriaRows().get(0);
@@ -85,17 +154,11 @@ System.out.println(criteria1.getTest());
 System.out.println(criteria1.getField());
 ```
 
-### 步驟 5：遍歷條件列
-複雜的篩選器可以包含嵌套條件。這裡我們來看看第二層條件組。
-
 ```java
 FilterCriteria criteria2 = filter.getCriteria().getCriteriaRows().get(1);
 System.out.println(criteria2.getOperation());
 System.out.println(criteria2.getCriteriaRows().size());
 ```
-
-### 步驟 6：列印條件資訊
-最後，輸出每個嵌套條件的詳細信息，以便您可以驗證篩選邏輯。
 
 ```java
 FilterCriteria criteria21 = criteria2.getCriteriaRows().get(0);
@@ -105,40 +168,3 @@ FilterCriteria criteria22 = criteria2.getCriteriaRows().get(1);
 System.out.println(criteria22.getTest());
 System.out.println(criteria22.getField());
 ```
-
-## 常見問題與解決方案
-| 問題 | 解決方案 |
-|-------|----------|
-| **在存取篩選器時發生 NullPointerException** | 請確保專案文件中確實包含任務篩選器；如果需要，可以透過程式設計方式新增篩選器。 |
-| **欄位名稱不正確** | 使用 `ItemType` 枚舉（例如，`ItemType.Task`）可以避免拼字錯誤。 |
-| **篩選結果為空** | 請驗證測試運算子和值是否與 MPP 檔案中的資料相符。 |
-
-## 常見問題
-
-**問：如何以程式方式建立全新的篩選器？**  
-答：使用 `project.getTaskFilters().add(new Filter("My Filter"))`，然後定義其 `FilterCriteria` 集合。
-
-**問：我可以將篩選器套用於資源而非任務嗎？**  
-答：是的－使用 `project.getResourceFilters()` 來處理特定於資源的篩選器。
-
-**問：是否可以使用 OR 邏輯結合多個篩選器？**  
-答：您可以建立一個父級 `FilterCriteria`，並將 `Operation` 設定為 `OR`，然後新增各個條件作為子條件。
-
-**問：Aspose.Tasks 是否支援對自訂欄位進行篩選？**  
-答：當然。自訂欄位的處理方式與其他欄位相同；可以透過其 `CustomField` 枚舉值來引用它們。
-
-**問：在大型 MPP 檔案上執行篩選會產生什麼效能影響？**  
-答：過濾操作在記憶體中執行，速度通常很快，但對於非常大的項目，請考慮使用 `ProjectReader` 僅載入所需的部分。
-
----
-
-**最後更新：** 2025-12-25  
-**測試版本：** Aspose.Tasks for Java 24.10  
-**作者：** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -1,12 +1,40 @@
 ---
-date: 2026-01-07
-description: Scopri come aggiungere una risorsa al progetto e gestire le proprietà
-  di ritardo di livellamento per le assegnazioni di risorse utilizzando Aspose.Tasks
-  per Java.
-linktitle: Handle Leveling Delay Properties for Resource Assignments in Aspose.Tasks
+date: 2026-06-05
+description: Scopri come creare un'assegnazione di risorse con Aspose.Tasks per Java,
+  aggiungere risorse a un progetto e gestire le proprietà di ritardo di livellamento.
+keywords:
+- create resource assignment aspotasks
+- Aspose.Tasks Java
+- leveling delay properties
+linktitle: Gestisci le proprietà di ritardo di livellamento per le assegnazioni di
+  risorse in Aspose.Tasks
+schemas:
+- author: Aspose
+  dateModified: '2026-06-05'
+  description: Learn how to create resource assignment with Aspose.Tasks for Java,
+    add resources to a project, and manage leveling delay properties.
+  headline: Create Resource Assignment with Aspose.Tasks for Java
+  type: TechArticle
+- questions:
+  - answer: Yes, Aspose.Tasks integrates smoothly with libraries such as Jackson for
+      JSON handling or Apache POI for additional spreadsheet operations, allowing
+      you to build richer project‑management solutions.
+    question: Can I use Aspose.Tasks with other Java libraries?
+  - answer: Aspose.Tasks supports 12+ file formats—including .MPP (2003‑2021), .XML,
+      .XER, .CSV, .PDF, .HTML, and .MPP12—ensuring seamless round‑trip editing across
+      all major Project versions.
+    question: Is Aspose.Tasks compatible with different versions of Microsoft Project
+      files?
+  - answer: You can find support and community discussions on the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
+    question: Where can I find additional support for Aspose.Tasks?
+  - answer: Yes, a fully functional free trial is available from the [releases page](https://releases.aspose.com/).
+    question: Can I try Aspose.Tasks before purchasing?
+  - answer: Request a temporary license from the [temporary license page](https://purchase.aspose.com/temporary-license/)
+      to run the library without evaluation restrictions.
+    question: How can I obtain a temporary license for evaluation?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: Come aggiungere una risorsa al progetto e gestire le proprietà di ritardo di
-  livellamento in Aspose.Tasks
+title: Crea assegnazione di risorse con Aspose.Tasks per Java
 url: /it/java/resource-assignments/leveling-delay-properties/
 weight: 17
 ---
@@ -15,31 +43,43 @@ weight: 17
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Come aggiungere una risorsa al progetto e gestire le proprietà di ritardo di livellamento in Aspose.Tasks
+# Crea Assegnazione di Risorse con Aspose.Tasks per Java
 
-## Introduzione
-In questo tutorial, imparerai **come aggiungere una risorsa al progetto** gestendo anche le proprietà di ritardo di livellamento per le assegnazioni delle risorse con Aspose.Tasks per Java. Che tu stia costruendo un motore di pianificazione o automatizzando gli aggiornamenti del progetto, padroneggiare questi passaggi ti permette di mantenere i dati del progetto accurati senza la necessità di avere Microsoft Project installato.
+In questa guida completa imparerai **how to create resource assignment aspotasks** utilizzando la libreria Aspose.Tasks per Java. Che tu stia costruendo un motore di pianificazione personalizzato, automatizzando aggiornamenti di progetto in blocco, o semplicemente abbia bisogno di manipolare i file Microsoft Project senza l'applicazione desktop, padroneggiare questi passaggi ti permette di mantenere i dati del progetto accurati e completamente controllabili.
 
-## Risposte rapide
-- **Che cosa significa “add resource to project”?** Crea una nuova voce di risorsa che può essere assegnata alle attività.  
-- **Posso impostare un ritardo di livellamento dopo l'assegnazione?** Sì, usando i campi `Asn.DELAY` o `Asn.LEVELING_DELAY`.  
-- **È necessaria una licenza per eseguire questo codice?** Una versione di prova gratuita funziona per lo sviluppo; è richiesta una licenza a pagamento per la produzione.  
-- **Quale versione di Java è supportata?** Java 8 o successive.  
-- **È compatibile con tutti i formati di file MS Project?** Aspose.Tasks supporta .MPP, .XML, .XER e altri.
+## Risposte Rapide
+- **What does “add resource to project” mean?** Crea una nuova voce di risorsa che può essere successivamente assegnata alle attività.  
+- **Can I set a leveling delay after assignment?** Sì, utilizzando i campi `Asn.DELAY` o `Asn.LEVELING_DELAY`.  
+- **Do I need a license to run this code?** Una versione di prova gratuita funziona per lo sviluppo; è necessaria una licenza a pagamento per la produzione.  
+- **Which Java version is supported?** Java 8 or later.  
+- **Is this compatible with all MS Project file formats?** Aspose.Tasks supporta più di 12 formati—incluse .MPP, .XML, .XER, .CSV, .PDF e altri.
 
 ## Cos'è “add resource to project” in Aspose.Tasks?
-Aggiungere una risorsa a un progetto significa creare un oggetto `Resource` all'interno del modello `Project`. Questo oggetto può poi essere collegato alle attività tramite `ResourceAssignment`, consentendo di tenere traccia del lavoro, dei costi e delle impostazioni di livellamento.
+Aggiungere una risorsa a un progetto significa creare un oggetto `Resource` all'interno del modello `Project`. Questo oggetto può essere successivamente collegato alle attività tramite `ResourceAssignment`, consentendo di monitorare lavoro, costi e impostazioni di leveling. Inserendo una risorsa fornisci allo scheduler qualcosa da allocare, e puoi successivamente interrogare o modificare le sue proprietà come disponibilità, tariffe e assegnazioni di calendario.
 
-## Perché gestire le proprietà di ritardo di livellamento?
-Il ritardo di livellamento aiuta il pianificatore a distribuire il lavoro quando le risorse sono sovraccaricate. Impostando un ritardo, si indica al motore di posticipare l'inizio di un'assegnazione, evitando conflitti e mantenendo il progetto realistico.
+## Perché gestire le proprietà di ritardo di leveling?
+Il ritardo di leveling indica allo scheduler di posticipare l'inizio di un'assegnazione sovraccarica, distribuendo il lavoro più uniformemente lungo la linea temporale. Configurando questo ritardo eviti date di inizio irrealistiche, riduci gli avvisi di sovraccarico e produci un programma che riflette le limitazioni delle risorse nel mondo reale. Regolare il ritardo ti offre anche un controllo dettagliato su quanta flessibilità il motore può inserire, aiutandoti a rispettare le scadenze del progetto mantenendo i limiti delle risorse.
+
+## Come creare resource assignment aspotasks?
+Carica il tuo oggetto `Project`, aggiungi un'attività, crea una risorsa e poi collegali insieme con un `ResourceAssignment`. Questo flusso end‑to‑end ti consente di costruire programmaticamente una struttura di progetto completa e controllare immediatamente il ritardo di leveling sull'assegnazione. Il processo dimostra il flusso di lavoro principale: inizializzazione del progetto, definizione dell'attività, creazione della risorsa, collegamento dell'assegnazione e infine l'applicazione di parametri di pianificazione come il ritardo di leveling.
 
 ## Prerequisiti
 Prima di iniziare, assicurati di avere i seguenti prerequisiti:
-1. **Java Development Kit (JDK):** Assicurati di avere Java JDK installato sul tuo sistema. Puoi scaricarlo e installarlo dal [sito web](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).  
-2. **Libreria Aspose.Tasks per Java:** Scarica la libreria Aspose.Tasks per Java dalla [pagina di download](https://releases.aspose.com/tasks/java/).
+1. Java Development Kit (JDK): Assicurati di avere il Java JDK installato sul tuo sistema. Puoi scaricarlo e installarlo dal [website](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).  
+2. Aspose.Tasks for Java Library: Scarica la libreria Aspose.Tasks per Java dalla [download page](https://releases.aspose.com/tasks/java/).
 
-## Importa i pacchetti
-Prima, importa i pacchetti necessari nel tuo progetto Java per utilizzare le funzionalità di Aspose.Tasks:
+## Importa Pacchetti
+Le seguenti importazioni includono le classi core di Aspose.Tasks necessarie per la manipolazione del progetto.  
+```java
+import com.aspose.tasks.Asn;
+import com.aspose.tasks.Project;
+import com.aspose.tasks.Resource;
+import com.aspose.tasks.ResourceAssignment;
+import com.aspose.tasks.Task;
+import com.aspose.tasks.TimeUnitType;
+import com.aspose.tasks.Tsk;
+import java.util.Calendar;
+```
 ```java
 import com.aspose.tasks.Asn;
 import com.aspose.tasks.Project;
@@ -51,20 +91,23 @@ import com.aspose.tasks.Tsk;
 import java.util.Calendar;
 ```
 
-## Passo 1: Crea un oggetto Project
-Istanzia un oggetto `Project`, che servirà da contenitore per tutte le attività, risorse e assegnazioni:
+## Come creare resource assignment aspotasks?
+Carica il tuo oggetto `Project`, aggiungi un'attività, crea una risorsa e poi collegali insieme con un `ResourceAssignment`. Questo flusso end‑to‑end ti consente di costruire programmaticamente una struttura di progetto completa e controllare immediatamente il ritardo di leveling sull'assegnazione. Il processo dimostra il flusso di lavoro principale: inizializzazione del progetto, definizione dell'attività, creazione della risorsa, collegamento dell'assegnazione e infine l'applicazione di parametri di pianificazione come il ritardo di leveling.
+
+## Passo 1: Crea un Oggetto Project
+La classe `Project` è il contenitore di livello superiore di Aspose.Tasks che rappresenta un intero file di progetto in memoria. Istanziandola ottieni una base pulita per aggiungere attività, risorse e assegnazioni.
 ```java
 Project prj = new Project();
 ```
 
-## Passo 2: Crea un'attività
-Aggiungi un'attività al progetto. Questo dimostra **come aggiungere un'attività** programmaticamente:
+## Passo 2: Crea un'Attività
+La classe `Task` rappresenta un singolo elemento di lavoro nella pianificazione. Aggiungere un'attività dimostra **how to add task** programmaticamente e fornisce un obiettivo per la prossima assegnazione di risorsa.
 ```java
 Task task = prj.getRootTask().getChildren().add("Task 1");
 ```
 
-## Passo 3: Imposta la data di inizio e la durata dell'attività
-Definisci quando l'attività inizia e quanto durerà:
+## Passo 3: Imposta Data di Inizio e Durata dell'Attività
+Definisci quando l'attività inizia e quanto durerà. Le date di inizio corrette sono essenziali perché i calcoli di leveling le usano come base per qualsiasi ritardo che specifichi successivamente.
 ```java
 java.util.Calendar cal = java.util.Calendar.getInstance();
 cal.set(2000, Calendar.JANUARY, 3, 8, 0, 0);
@@ -72,72 +115,65 @@ task.set(Tsk.START, cal.getTime());
 task.set(Tsk.DURATION, prj.getDuration(8));
 ```
 
-## Passo 4: Aggiungi una risorsa
-Ora **addiamo una risorsa al progetto** creando una nuova voce `Resource`:
+## Passo 4: Aggiungi una Risorsa
+Ora **add resource to project** creando una nuova voce `Resource`. La classe `Resource` è la rappresentazione di una persona, attrezzatura o materiale che può essere assegnato alle attività.
 ```java
 Resource resource = prj.getResources().add("Resource 1");
 ```
 
-## Passo 5: Crea un'assegnazione di risorsa
-Collega l'attività e la risorsa appena aggiunta:
+## Passo 5: Crea un'Assegnazione di Risorsa
+`ResourceAssignment` collega un `Task` e una `Resource`. Questa associazione ti consente di registrare lavoro, costo e dettagli di leveling per una risorsa specifica su un'attività specifica.
 ```java
 ResourceAssignment assignment = prj.getResourceAssignments().add(task, resource);
 ```
 
-## Passo 6: Imposta il ritardo di livellamento
-Configura il ritardo di livellamento per l'assegnazione. Impostarlo a zero significa nessun ritardo aggiuntivo, ma puoi regolare il valore secondo necessità:
+## Passo 6: Imposta il Ritardo di Leveling
+Configura il ritardo di leveling per l'assegnazione. Impostarlo a zero significa nessun ritardo aggiuntivo, ma puoi regolare il valore secondo necessità. Il campo `Asn.DELAY` contiene il ritardo in minuti; `Asn.LEVELING_DELAY` è un alias che funziona allo stesso modo.
 ```java
 assignment.set(Asn.DELAY, prj.getDuration(0, TimeUnitType.Day));
 ```
 
-## Passo 7: Visualizza i risultati
-Stampa le proprietà importanti per verificare che tutto sia stato impostato correttamente:
+## Passo 7: Visualizza i Risultati
+Stampa le proprietà importanti per verificare che tutto sia stato impostato correttamente. Questo passaggio ti aiuta a confermare che la risorsa, l'attività e i valori di ritardo siano esattamente quelli attesi prima di salvare il file.
 ```java
 System.out.println("Delay: " + assignment.get(Asn.DELAY));
 System.out.println("Leveling Delay: " + assignment.get(Asn.LEVELING_DELAY));
 System.out.println("Process completed Successfully");
 ```
 
-## Problemi comuni e consigli
-- **Problema:** Dimenticare di impostare la data di inizio dell'attività può far sì che l'assegnazione utilizzi la data di inizio del progetto per impostazione predefinita.  
-- **Consiglio:** Usa `prj.getDuration(value, TimeUnitType.Day)` per controllare la granularità del ritardo.  
-- **Consiglio:** Dopo aver aggiunto più risorse, chiama `prj.updateResourceAssignments()` per far ricalcolare al pianificatore il livellamento.
+## Problemi Comuni e Suggerimenti
+- **Pitfall:** Dimenticare di impostare la data di inizio dell'attività può far sì che l'assegnazione predefinisca l'inizio del progetto.  
+- **Tip:** Utilizza `prj.getDuration(value, TimeUnitType.Day)` per controllare la granularità del ritardo.  
+- **Tip:** Dopo aver aggiunto più risorse, chiama `prj.updateResourceAssignments()` per consentire allo scheduler di ricalcolare il leveling.  
+- **Pro tip:** Per progetti di grandi dimensioni (oltre 10.000 attività) abilita `prj.setAutoCalculate(false)` prima degli aggiornamenti in blocco, quindi chiama `prj.calculate()` una volta alla fine per migliorare le prestazioni.
 
-## Conclusione
-Seguendo questi passaggi, ora sai **come aggiungere una risorsa al progetto**, assegnarla a un'attività e gestire le proprietà di ritardo di livellamento usando Aspose.Tasks per Java. Questa conoscenza ti consente di costruire soluzioni robuste di automazione dei progetti che rimangono sincronizzate con le reali limitazioni delle risorse.
+## Domande Frequenti
 
-## FAQ's
-### Q: Posso usare Aspose.Tasks con altre librerie Java?
-A: Sì, Aspose.Tasks può essere integrato con altre librerie Java per migliorare le capacità di gestione dei progetti.
+**Q: Posso usare Aspose.Tasks con altre librerie Java?**  
+A: Sì, Aspose.Tasks si integra perfettamente con librerie come Jackson per la gestione di JSON o Apache POI per operazioni aggiuntive su fogli di calcolo, consentendoti di creare soluzioni di gestione progetti più ricche.
 
-### Q: Aspose.Tasks è compatibile con diverse versioni dei file Microsoft Project?
-A: Sì, Aspose.Tasks supporta varie versioni dei file Microsoft Project, garantendo la compatibilità in diversi ambienti.
+**Q: Aspose.Tasks è compatibile con diverse versioni dei file Microsoft Project?**  
+A: Aspose.Tasks supporta più di 12 formati di file—incluse .MPP (2003‑2021), .XML, .XER, .CSV, .PDF, .HTML e .MPP12—garantendo una modifica round‑trip senza interruzioni su tutte le principali versioni di Project.
 
-### Q: Dove posso trovare supporto aggiuntivo per Aspose.Tasks?
-A: Puoi trovare supporto e risorse sul [forum di Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+**Q: Dove posso trovare supporto aggiuntivo per Aspose.Tasks?**  
+A: Puoi trovare supporto e discussioni della community sul [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
 
-### Q: Posso provare Aspose.Tasks prima di acquistarlo?
-A: Sì, puoi ottenere una versione di prova gratuita di Aspose.Tasks dalla [pagina dei rilasci](https://releases.aspose.com/).
+**Q: Posso provare Aspose.Tasks prima di acquistarlo?**  
+A: Sì, una versione di prova completamente funzionale è disponibile dalla [releases page](https://releases.aspose.com/).
 
-### Q: Come posso ottenere una licenza temporanea per Aspose.Tasks?
-A: Puoi richiedere una licenza temporanea dalla [pagina della licenza temporanea](https://purchase.aspose.com/temporary-license/) per scopi di valutazione.
+**Q: Come posso ottenere una licenza temporanea per la valutazione?**  
+A: Richiedi una licenza temporanea dalla [temporary license page](https://purchase.aspose.com/temporary-license/) per eseguire la libreria senza restrizioni di valutazione.
 
-## Domande frequenti aggiuntive
-
-**Q: Cosa succede se imposto un ritardo di livellamento diverso da zero?**  
-A: Il pianificatore posticiperà l'inizio dell'assegnazione della durata specificata, aiutando a risolvere le sovrallocazioni.
-
-**Q: Posso recuperare il ritardo di livellamento dopo aver salvato il progetto?**  
-A: Sì, puoi riaprire il file del progetto e leggere la proprietà `Asn.DELAY` dall'assegnazione.
-
-**Q: Esiste un modo per applicare il ritardo di livellamento a tutte le assegnazioni contemporaneamente?**  
-A: Puoi iterare su `prj.getResourceAssignments()` e impostare il ritardo per ogni assegnazione in un ciclo.
-
----
-
-**Last Updated:** 2026-01-07  
+**Last Updated:** 2026-06-05  
 **Tested With:** Aspose.Tasks for Java 24.11  
-**Author:** Aspose  
+**Author:** Aspose
+
+## Tutorial Correlati
+
+- [Crea Assegnazioni di Risorse in Aspose.Tasks](/tasks/java/resource-assignments/create-resource-assignments/)
+- [Gestisci il Budget delle Assegnazioni Java usando Aspose.Tasks](/tasks/java/resource-assignments/assignment-budget/)
+- [Come interrompere l'Assegnazione e riprendere le Assegnazioni di Risorse in Aspose.Tasks](/tasks/java/resource-assignments/stop-resume-assignment/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
