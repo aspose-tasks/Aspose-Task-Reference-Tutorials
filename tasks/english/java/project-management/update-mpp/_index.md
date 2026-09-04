@@ -1,6 +1,6 @@
 ---
-title: How to Add Task and Update MPP File in Aspose.Tasks
-linktitle: How to Add Task and Update MPP File in Aspose.Tasks
+title: How to Add a Task and Update an MPP File Using Aspose.Tasks for Java
+linktitle: How to Add a Task and Update an MPP File Using Aspose.Tasks for Java
 second_title: Aspose.Tasks Java API
 description: Learn how to add task and update MPP files using Aspose.Tasks for Java, a java project management library that lets you create task Microsoft Project files and save project as MPP.
 date: 2026-06-25
@@ -13,14 +13,14 @@ keywords:
 - save project as mpp
 schemas:
 - type: TechArticle
-  headline: How to Add Task and Update MPP File in Aspose.Tasks
+  headline: How to Add a Task and Update an MPP File Using Aspose.Tasks for Java
   description: Learn how to add task and update MPP files using Aspose.Tasks for Java,
     a java project management library that lets you create task Microsoft Project
     files and save project as MPP.
   dateModified: '2026-06-25'
   author: Aspose
 - type: HowTo
-  name: How to Add Task and Update MPP File in Aspose.Tasks
+  name: How to Add a Task and Update an MPP File Using Aspose.Tasks for Java
   description: Learn how to add task and update MPP files using Aspose.Tasks for Java,
     a java project management library that lets you create task Microsoft Project
     files and save project as MPP.
@@ -100,13 +100,13 @@ import java.util.Calendar;
 ```  
 `Project` represents a Microsoft Project file loaded in memory. `SaveFileFormat` enumerates the formats you can save to, such as MPP or PDF. `Task` models an individual work item within the project hierarchy. `Tsk` provides constants for task fields used when setting or retrieving values. `Calendar` offers date‑time utilities for defining schedules.
 
-## Step 1: Define Data Directory
+## Step 1: define data directory
 ```java
 String dataDir = "Your Data Directory";
 ```  
 Replace `"Your Data Directory"` with the absolute path where your source MPP file resides.
 
-## Step 2: Read Existing Project
+## Step 2: read existing project
 The `Project` class is Aspose.Tasks' core object that represents a Microsoft Project file in memory.  
 ```java
 Project project = new Project(dataDir + "SampleMSP2010.mpp");
@@ -120,7 +120,7 @@ Task task = project.getRootTask().getChildren().add("Task1");
 ```  
 This line **creates task in mpp** by adding a child named *Task1* to the root task.
 
-## Step 4: Set Start and Finish Dates
+## Step 4: set start and finish dates
 The `Calendar` class provides date‑time utilities; months are zero‑based (e.g., `Calendar.JULY`).  
 ```java
 java.util.Calendar cal = java.util.Calendar.getInstance();
@@ -138,14 +138,14 @@ project.save(dataDir + "AfterLinking.mpp", SaveFileFormat.Mpp);
 ```  
 The updated project, now containing the new task, is persisted as **AfterLinking.mpp**.
 
-## Common Issues and Solutions
+## Common issues and solutions
 | Issue | Solution |
 |-------|----------|
 | **File not found** | Verify `dataDir` ends with a path separator (`/` or `\\`) and the file name is correct. |
 | **Incorrect dates** | Remember that `Calendar` months are zero‑based; `Calendar.JULY` is correct for July. |
 | **License exception** | Install a valid Aspose.Tasks license before calling any API to avoid evaluation watermarks. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 **Q: How do I add multiple tasks at once?**  
 A: Loop over a collection of task names and repeat the “create task” block inside the loop.
 

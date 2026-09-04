@@ -1,5 +1,5 @@
 ---
-title: "How to Compute Variance with Aspose.Tasks"
+title: "How to Compute Cost Variance for Project Assignments"
 linktitle: "Handle Assignment Cost in Aspose.Tasks"
 second_title: "Aspose.Tasks Java API"
 description: "Learn how to compute variance and manage assignment costs using Aspose.Tasks for Java. Step‑by‑step guide covering cost variance, budgeted cost work performed, and schedule variance calculation."
@@ -89,7 +89,7 @@ import com.aspose.tasks.*;
 import java.math.BigDecimal;
 ```
 
-## Step 1: Load the Project File
+## Step 1: load the project file
 `Project` is Aspose.Tasks' core object that represents a Microsoft Project file in memory. Creating an instance automatically parses the file structure.
 
 Create a `Project` instance that points to your existing Microsoft Project file:
@@ -99,7 +99,7 @@ String dataDir = "Your Data Directory";
 Project project = new Project(dataDir + "project.mpp");
 ```
 
-## Step 2: Iterate Through Resource Assignments
+## Step 2: iterate through resource assignments
 `ResourceAssignment` is the class that links a resource to a task and stores all cost‑related fields. Loop over each assignment to read the values you need for variance calculations.
 
 ```java
@@ -124,7 +124,7 @@ for (ResourceAssignment ra : project.getResourceAssignments()) {
 }
 ```
 
-### Why These Fields Matter
+### Why these fields matter
 - **`Asn.COST`** – The total cost you planned for the assignment.  
 - **`Asn.ACWP`** – *Actual cost of work* performed to date.  
 - **`Asn.CV`** – The result of **how to compute variance** (`BCWP - ACWP`).  
@@ -134,7 +134,7 @@ for (ResourceAssignment ra : project.getResourceAssignments()) {
 ## How to Compute Variance?
 Load each assignment, retrieve `BCWP` and `ACWP`, then subtract: `CV = BCWP - ACWP`. This one‑line arithmetic gives you the cost variance for that assignment. A positive CV indicates you’re under budget, while a negative CV flags an overrun that needs attention. For large projects, you can batch the calculation to avoid repeated I/O.
 
-## Common Pitfalls & Tips
+## Common pitfalls & tips
 - **Null values:** Some assignments may not have cost data populated. Always check for `null` before performing arithmetic.  
 - **Currency handling:** Costs are stored as `BigDecimal`. Use `setScale` if you need a specific number of decimal places.  
 - **Performance:** For very large projects, consider filtering assignments (`project.getResourceAssignments().where(...)`) to reduce iteration overhead.
@@ -154,7 +154,7 @@ A: Yes, you can download a free trial from the [website](https://releases.aspose
 ### Q: Do I need a temporary license for using Aspose.Tasks for Java in a trial?
 A: No, a temporary license is not required for trial usage. However, it's recommended for production environments.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: How do I export the calculated cost variance to an Excel report?**  
 A: After iterating through assignments, you can use Aspose.Cells to write the values into a spreadsheet, mapping each assignment’s ID to its CV.

@@ -1,6 +1,6 @@
 ---
-title: "How to Calculate Percentage of Work Completed for Resources with Aspose.Tasks"
-linktitle: "How to Calculate Percentage of Work Completed for Resources with Aspify.Tasks"
+title: "How to Calculate Percentage of Work Completed for Resources in Java Projects"
+linktitle: "How to Calculate Percentage of Work Completed for Resources in Java"
 second_title: "Aspose.Tasks Java API"
 description: "Learn how to calculate the percentage of work completed for resource assignments in Java projects using Aspose.Tasks, improving project tracking and resource utilization."
 weight: 13
@@ -31,9 +31,9 @@ schemas:
       to enhance your project management capabilities.
   - question: Does Aspose.Tasks provide customer support?
     answer: Yes, Aspose.Tasks offers dedicated customer support through their forum.
-      You can find assistance [here](https://forum.aspose.com/c/tasks/15).
+      You can find assistance [Aspose.Tasks support forum](https://forum.aspose.com/c/tasks/15).
   - question: Is there a free trial available for Aspose.Tasks?
-    answer: Yes, you can explore Aspose.Tasks with a free trial available [here](https://releases.aspose.com/).
+    answer: Yes, you can explore Aspose.Tasks with a free trial available [Aspose.Tasks free trial page](https://releases.aspose.com/).
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -61,11 +61,11 @@ Aspose.Tasks supports **50+ input and output formats**, can process **multi‑hu
 ## Prerequisites
 Before diving into the code, make sure you have the following set up:
 
-### Java Development Environment
-Make sure you have Java Development Kit (JDK) installed on your system. You can download it from [here](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+### Java development environment
+Make sure you have Java Development Kit (JDK) installed on your system. You can download it from the [Oracle JDK 11 download page](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
 
 ### Aspose.Tasks for Java Library
-Download and install Aspose.Tasks for Java library. You can find the download link [here](https://releases.aspose.com/tasks/java/).
+Download and install Aspose.Tasks for Java library. You can find the download link [Aspose.Tasks Java library download page](https://releases.aspose.com/tasks/java/).
 
 ### Integrated Development Environment (IDE)
 Choose an IDE of your preference such as IntelliJ IDEA, Eclipse, or NetBeans for coding. 
@@ -126,7 +126,7 @@ Understanding the resource utilization percentage enables project managers to ba
 - **Time‑phased data:** The API returns the overall percentage; if you need daily values, explore the `TimephasedData` collection.  
 - **Performance:** For very large .mpp files, iterate with a `for` loop as shown rather than using streams to keep memory usage low.
 
-## Frequently Asked Questions
+## Frequently asked questions
 **Q: Can Aspose.Tasks handle complex project structures?**  
 A: Yes, Aspose.Tasks supports handling complex project structures with ease, allowing you to manage projects of any scale.
 
@@ -137,10 +137,10 @@ A: Absolutely, Aspose.Tasks offers robust features tailored for enterprise‑lev
 A: Certainly, Aspose.Tasks can be seamlessly integrated with other Java libraries to enhance your project management capabilities.
 
 **Q: Does Aspose.Tasks provide customer support?**  
-A: Yes, Aspose.Tasks offers dedicated customer support through their forum. You can find assistance [here](https://forum.aspose.com/c/tasks/15).
+A: Yes, Aspose.Tasks offers dedicated customer support through their forum. You can find assistance [Aspose.Tasks support forum](https://forum.aspose.com/c/tasks/15).
 
 **Q: Is there a free trial available for Aspose.Tasks?**  
-A: Yes, you can explore Aspose.Tasks with a free trial available [here](https://releases.aspose.com/).
+A: Yes, you can explore Aspose.Tasks with a free trial available [Aspose.Tasks free trial page](https://releases.aspose.com/).
 
 ---
 

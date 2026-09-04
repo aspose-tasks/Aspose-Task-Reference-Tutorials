@@ -1,6 +1,6 @@
 ---
-title: Add Legend to Image: Print Pages to Separate Image
-linktitle: Add Legend to Image: Print Pages to Separate Image
+title: 'Add Legend to Image and Print Pages to Separate Images with Aspose.Tasks for Java'
+linktitle: 'Add Legend to Image and Print Pages to Separate Images with Aspose.Tasks for Java'
 second_title: Aspose.Tasks Java API
 description: Learn how to add legend to image and print pages to separate images in Aspose.Tasks for Java, enabling you to save project as image with full control.
 weight: 22
@@ -40,8 +40,8 @@ Printing pages to separate images lets you focus on specific time periods withou
 ## Prerequisites
 Before we start, ensure you have the following:
 
-1. **Java Development Kit (JDK)** – download it from [here](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).  
-2. **Aspose.Tasks for Java Library** – get the latest version from [here](https://releases.aspose.com/tasks/java/).  
+1. **Java Development Kit (JDK)** – download it from the **Oracle JDK 15 download page**.  
+2. **Aspose.Tasks for Java Library** – get the latest version from the **Aspose.Tasks for Java download page**.  
 
 Both are required to compile and run the sample code below.
 
@@ -62,7 +62,7 @@ import java.util.ArrayList;
 
 ## Step‑by‑Step Guide
 
-### Step 1: Load Project Data
+### Step 1: load project data
 `Project` is Aspose.Tasks' core class that represents an MPP file in memory. Loading the file gives you access to tasks, resources, and schedule information.
 
 ```java
@@ -98,7 +98,7 @@ gridline.setPattern(LinePattern.Dashed);
 saveOptions.getGridlines().add(gridline);
 ```
 
-### Step 4: Export Pages – Single vs. Separate Images
+### Step 4: export pages – single vs. separate images
 `save` method on the `Project` object writes the rendered image(s) to disk. `setRenderToSinglePage` determines whether the entire project is rendered on a single page or split into multiple pages. When `setRenderToSinglePage(false)` is used, Aspose.Tasks creates one PNG per page, automatically appending the page number to the file name.
 
 ```java
@@ -112,14 +112,14 @@ project.save(dataDir + "CustomerFeedback_.png", saveOptions);
 
 > **Pro tip:** The file name `CustomerFeedback_.png` will be suffixed with the page number automatically, giving you `CustomerFeedback_1.png`, `CustomerFeedback_2.png`, etc.
 
-## Common Issues & Solutions
+## Common issues & solutions
 | Issue | Solution |
 |-------|----------|
 | **Legend does not appear** | Ensure `setLegendOnEachPage(true)` is called **after** initializing `ImageSaveOptions`. |
 | **Exported image is blank** | Verify that the start/end dates cover the task timeline; adjust with `setStartDate` / `setEndDate`. |
 | **Colors look different** | Set explicit colors for gridlines and tasks, or use `saveOptions.setColorPalette(...)`. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I customize the image format when saving project layouts?**  
 A: Yes, Aspose.Tasks for Java supports PNG, JPEG, BMP, TIFF, and GIF. Choose the format in the `ImageSaveOptions` constructor.
