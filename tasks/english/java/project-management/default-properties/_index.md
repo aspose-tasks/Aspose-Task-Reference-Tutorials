@@ -163,9 +163,9 @@ In this tutorial we covered how to **load MPP file Java** projects, read and mod
 
 ## Related Tutorials
 
-- [Set Project Start Date in MS Project using Aspose.Tasks for Java]({{< relref "/tasks/java/project-properties/write-project-info/_index.md" >}})
-- [How to Set Project Calendar with Aspose.Tasks for Java]({{< relref "/tasks/java/calendars/properties/_index.md" >}})
-- [How to Create MPP File – Create & Save Empty Project in MPP Format with Aspose.Tasks]({{< relref "/tasks/java/project-configuration/create-save-mpp/_index.md" >}})
+- [Set Project Start Date in MS Project using Aspose.Tasks for Java]({{< relref "java/project-properties/write-project-info/_index.md" >}})
+- [How to Set Project Calendar with Aspose.Tasks for Java]({{< relref "java/calendars/properties/_index.md" >}})
+- [How to Create MPP File – Create & Save Empty Project in MPP Format with Aspose.Tasks]({{< relref "java/project-configuration/create-save-mpp/_index.md" >}})
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

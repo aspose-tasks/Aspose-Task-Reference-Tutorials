@@ -200,9 +200,9 @@ Learn how to generate timephased data for resource assignments using Aspose.Task
 
 ## Related Tutorials
 
-- [How to Calculate Cost Variance and Manage Assignment Costs with Aspose.Tasks]({{< relref "tasks/java/resource-assignments/assignment-cost/_index.md" >}})
-- [Manage Assignment Budget Java using Aspose.Tasks]({{< relref "tasks/java/resource-assignments/assignment-budget/_index.md" >}})
-- [calculate resource percentage java using Aspose.Tasks]({{< relref "tasks/java/resource-management/percentage-calculations/_index.md" >}})
+- [How to Calculate Cost Variance and Manage Assignment Costs with Aspose.Tasks]({{< relref "java/resource-assignments/assignment-cost/_index.md" >}})
+- [Manage Assignment Budget Java using Aspose.Tasks]({{< relref "java/resource-assignments/assignment-budget/_index.md" >}})
+- [calculate resource percentage java using Aspose.Tasks]({{< relref "java/resource-management/percentage-calculations/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

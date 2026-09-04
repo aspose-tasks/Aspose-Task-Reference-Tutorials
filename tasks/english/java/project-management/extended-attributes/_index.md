@@ -193,9 +193,9 @@ A: Custom columns saved in newer Aspose.Tasks versions remain readable by older 
 
 ## Related Tutorials
 
-- [Add Extended Attributes to Tasks in Aspose.Tasks]({{< relref "tasks/java/task-properties/add-extended-attributes/_index.md" >}})
-- [How to Create Project – Set New Task Attributes with Aspose.Tasks]({{< relref "tasks/java/project-file-operations/set-attributes-new-tasks/_index.md" >}})
-- [How to Create View - Custom MS Project Views in Aspose.Tasks]({{< relref "tasks/java/project-file-operations/custom-views/_index.md" >}})
+- [Add Extended Attributes to Tasks in Aspose.Tasks]({{< relref "java/task-properties/add-extended-attributes/_index.md" >}})
+- [How to Create Project – Set New Task Attributes with Aspose.Tasks]({{< relref "java/project-file-operations/set-attributes-new-tasks/_index.md" >}})
+- [How to Create View - Custom MS Project Views in Aspose.Tasks]({{< relref "java/project-file-operations/custom-views/_index.md" >}})
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
