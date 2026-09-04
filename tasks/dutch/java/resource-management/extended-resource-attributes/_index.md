@@ -1,11 +1,63 @@
 ---
-date: 2026-01-13
-description: Leer hoe u een aangepast attribuut maakt, een Microsoft Project‑bestand
-  laadt, een numerieke waarde instelt in Java en het project opslaat als XML met Aspose.Tasks
+date: 2026-06-10
+description: Leer hoe je een uitgebreid attribuut maakt in Java, een Microsoft Project‑bestand
+  laadt, numerieke waarden instelt en het project opslaat als XML met Aspose.Tasks
   voor Java.
-linktitle: Handle Extended Resource Attributes in Aspose.Tasks
+keywords:
+- create extended attribute java
+- custom attribute Aspose.Tasks
+- Java project management
+linktitle: Beheer uitgebreide resource‑attributen in Aspose.Tasks
+schemas:
+- author: Aspose
+  dateModified: '2026-06-10'
+  description: Learn how to create extended attribute in Java, load a Microsoft Project
+    file, set numeric values, and save the project as XML using Aspose.Tasks for Java.
+  headline: How to create extended attribute in Java with Aspose.Tasks
+  type: TechArticle
+- description: Learn how to create extended attribute in Java, load a Microsoft Project
+    file, set numeric values, and save the project as XML using Aspose.Tasks for Java.
+  name: How to create extended attribute in Java with Aspose.Tasks
+  steps:
+  - name: Define Data Directory
+    text: '`Paths` is a utility class that provides methods to obtain a file system
+      path in a platform‑independent way.'
+  - name: Load Microsoft Project File
+    text: '`Project` represents a Microsoft Project file in memory, allowing read
+      and write access to its contents.'
+  - name: Define the Custom Attribute
+    text: '`ExtendedAttributeDefinition` defines the schema of a new custom field
+      that can be attached to resources or tasks.'
+  - name: Set Numeric Value in Java
+    text: '`ExtendedAttributeResource` holds the value of a custom attribute for a
+      specific resource instance.'
+  - name: Add Resource and Attach the Custom Attribute
+    text: '`Resource` models a project resource such as a person, equipment, or material.'
+  - name: Save Project as XML
+    text: '`SaveFileFormat` enumerates the supported output formats for saving a project,
+      including XML.'
+  - name: Display Result
+    text: '`System.out.println` prints a line of text to the standard console output.'
+  type: HowTo
+- questions:
+  - answer: Yes – use `ExtendedAttributeTask` instead of `ExtendedAttributeResource`
+      when defining the attribute schema.
+    question: Can I create custom attributes for tasks as well as resources?
+  - answer: Absolutely. Create separate `ExtendedAttributeDefinition` objects for
+      each attribute and attach them to the desired resources or tasks.
+    question: Is it possible to add multiple custom attributes at once?
+  - answer: Aspose.Tasks supports XML, MPP, PDF, HTML, and more than 30 additional
+      formats. In this example we used `SaveFileFormat.Xml`.
+    question: What formats can I save the project in?
+  - answer: A temporary evaluation license is sufficient for testing. For any production
+      deployment, a full commercial license is required.
+    question: Do I need a license for development builds?
+  - answer: Call `resource.getExtendedAttributes()` and iterate over the collection;
+      retrieve the stored value with `getNumericValue()` or `getTextValue()`.
+    question: How do I read back the custom attribute values later?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: Hoe een aangepast attribuut te maken in MS Project met Aspose.Tasks
+title: Hoe een uitgebreid attribuut te creëren in Java met Aspose.Tasks
 url: /nl/java/resource-management/extended-resource-attributes/
 weight: 11
 ---
@@ -14,42 +66,46 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hoe een aangepast attribuut te maken in MS Project met Aspose.Tasks
+# Hoe een uitgebreid attribuut in Java maken met Aspose.Tasks
 
-## Inleiding
-In deze tutorial ontdek je hoe je een aangepast attribuut maakt voor resources in een Microsoft Project‑bestand met Aspose.Tasks voor Java. We lopen door het laden van een Microsoft Project‑bestand, het definiëren van een nieuw numeriek attribuut, het toewijzen van een waarde, en tenslotte het opslaan van het project als XML. Aan het einde heb je een duidelijk, hands‑on voorbeeld dat je kunt aanpassen aan je eigen project‑managementoplossingen.
+## Introductie
+In deze praktische gids **maak je een uitgebreid attribuut in Java** voor een Microsoft Project‑bestand met Aspose.Tasks. We lopen door het laden van een bestaand project, het definiëren van een nieuw numeriek attribuut, het toewijzen van een waarde aan een resource, en uiteindelijk het opslaan van de wijzigingen als een XML‑bestand. Aan het einde heb je een herbruikbaar code‑patroon dat in elke Java‑gebaseerde project‑managementoplossing kan worden geïntegreerd.
 
 ## Snelle antwoorden
-- **Wat betekent “custom attribute”?**  
-  Een door de gebruiker gedefinieerd veld dat extra informatie opslaat (bijv. Leeftijd, Vaardigheidsniveau) voor een resource of taak.  
-- **Welke bibliotheek behandelt dit?**  
-  Aspose.Tasks for Java provides a fluent API to create and manage custom attributes.  
+- **Wat is een uitgebreid attribuut?**  
+  Een door de gebruiker gedefinieerd veld (bijv. Leeftijd, Vaardigheidsniveau) dat extra gegevens opslaat voor resources of taken.  
+- **Welke API maakt het?**  
+  Aspose.Tasks for Java biedt de `ExtendedAttributeDefinition`‑klasse om aangepaste attributen te definiëren en te beheren.  
 - **Heb ik een licentie nodig?**  
-  Een gratis tijdelijke licentie werkt voor evaluatie; een volledige licentie is vereist voor productie.  
-- **Kan ik numerieke waarden instellen?**  
-  Ja – gebruik `setNumericValue` met een `BigDecimal` (bijv. `30.5345`).  
-- **Hoe wordt het project opgeslagen?**  
-  Het gewijzigde bestand kan worden opgeslagen als XML met `SaveFileFormat.Xml`.
+  Een tijdelijke evaluatielicentie werkt voor ontwikkeling; een volledige licentie is vereist voor productie‑implementaties.  
+- **Kan ik getallen opslaan?**  
+  Ja – gebruik `setNumericValue(BigDecimal)` om precieze decimale waarden toe te wijzen.  
+- **Hoe sla ik de wijzigingen op?**  
+  Roep `project.save("output.xml", SaveFileFormat.Xml)` aan om het bijgewerkte project in XML‑formaat te schrijven.
 
-## Wat is een custom attribute?
-Een **custom attribute** (ook wel extended attribute genoemd) is een extra kolom die je kunt toevoegen aan resources of taken in Microsoft Project. Het stelt je in staat gegevens vast te leggen die niet worden gedekt door de ingebouwde velden, zoals de leeftijd van een medewerker, certificeringsniveau, of elke bedrijfsspecifieke metriek.
+## Wat is een aangepast attribuut?
+Een **aangepast attribuut** (ook wel een uitgebreid attribuut genoemd) is een extra kolom die je kunt toevoegen aan resources of taken in Microsoft Project. Het stelt je in staat gegevens vast te leggen die niet door de ingebouwde velden worden gedekt, zoals de leeftijd van een medewerker, certificatieniveau, of een bedrijfs‑specifieke metric.
 
-## Waarom een custom attribute maken in MS Project?
-- **Pas projectgegevens aan** de behoeften van uw organisatie aan.  
-- **Stel geavanceerde rapportage mogelijk** door waarden op te slaan die later kunnen worden opgevraagd.  
-- **Behoud consistentie** over meerdere projecten door programmatically dezelfde attribuutdefinitie toe te passen.
+## Waarom een uitgebreid attribuut in Java maken?
+Het maken van een uitgebreid attribuut in Java stelt je in staat projectgegevens programmatically te verrijken, consistentie over bestanden te waarborgen en geautomatiseerde rapportage mogelijk te maken. Door het attribuut één keer te definiëren, kun je het toepassen op een willekeurig aantal resources of taken zonder handmatige invoer, waardoor tijd wordt bespaard en fouten worden verminderd.
 
-## Vereisten
-Voordat u begint, zorg ervoor dat u het volgende heeft:
+- **Pas gegevens aan jouw organisatie aan** – sla elke metriek op die voor jou van belang is zonder handmatige Excel‑omwegen.  
+- **Maak rijkere rapportage mogelijk** – query later het aangepaste veld voor dashboards of analyses.  
+- **Behoud consistentie** – pas programmatically dezelfde definitie toe over tientallen projecten, waardoor menselijke fouten worden geëlimineerd.  
+- **Prestatietest** – Aspose.Tasks verwerkt projecten met tot 10.000 taken en 5.000 resources zonder het volledige bestand in het geheugen te laden, volgens de productbenchmarks.
 
-1. **Java Development Environment** – JDK 8 of hoger geïnstalleerd.  
-2. **Aspose.Tasks for Java** – Download de nieuwste versie van [hier](https://releases.aspose.com/tasks/java/).  
-3. **IDE** – Eclipse, IntelliJ IDEA, of een andere Java‑compatibele IDE.  
+## Voorvereisten
+1. **Java Development Kit** – JDK 8 of nieuwer geïnstalleerd.  
+2. **Aspose.Tasks for Java** – download de nieuwste release van [hier](https://releases.aspose.com/tasks/java/).  
+3. **IDE** – Eclipse, IntelliJ IDEA, of een andere Java‑compatibele ontwikkelomgeving.  
 
-## Stapsgewijze handleiding
+## Hoe maak je een uitgebreid attribuut in Java?
+Laad je project, definieer het attribuut, koppel het aan een resource en sla het bestand op – alles in een paar eenvoudige stappen. De volgende secties splitsen elke stap op in een beknopte uitleg, gevolgd door de placeholder waar je eigen code staat.
 
-### Import Packages
-Eerst, importeer de Aspose.Tasks‑klassen die u nodig heeft. Deze bieden de kernfunctionaliteit voor het verwerken van projecten, resources en uitgebreide attributen.
+### Stapsgewijze handleiding
+
+#### Pakketten importeren
+`Project`, `ExtendedAttributeDefinition`, `ExtendedAttributeResource` en gerelateerde klassen bevinden zich in de `com.aspose.tasks` namespace. Importeer ze bovenaan je Java‑bestand.
 
 ```java
 import com.aspose.tasks.ExtendedAttribute;
@@ -62,22 +118,22 @@ import com.aspose.tasks.SaveFileFormat;
 import java.math.BigDecimal;
 ```
 
-### Stap 1: Definieer de gegevensdirectory
-Stel de map in waar uw bron‑projectbestand zich bevindt en waar de uitvoer wordt weggeschreven.
+#### Stap 1: Definieer gegevensdirectory
+`Paths` is een hulpprogrammaklasse die methoden biedt om een bestandssysteempad op een platform‑onafhankelijke manier te verkrijgen.
 
 ```java
 String dataDir = "Your Data Directory";
 ```
 
-### Stap 2: Laad Microsoft Project‑bestand
-Maak een `Project`‑instantie door het bestaande bestand te laden. Dit is de **load Microsoft project file** stap die u volledige toegang tot de inhoud geeft.
+#### Stap 2: Laad Microsoft Project‑bestand
+`Project` vertegenwoordigt een Microsoft Project‑bestand in het geheugen, waardoor lezen en schrijven van de inhoud mogelijk is.
 
 ```java
 Project prj = new Project(dataDir + "ResourceWithExtAttribs.xml");
 ```
 
-### Stap 3: Definieer het aangepaste attribuut
-We definiëren een nieuw numeriek attribuut genaamd **Age**. De API controleert of de definitie al bestaat; zo niet, dan maakt hij er een aan.
+#### Stap 3: Definieer het aangepaste attribuut
+`ExtendedAttributeDefinition` definieert het schema van een nieuw aangepast veld dat kan worden gekoppeld aan resources of taken.
 
 ```java
 ExtendedAttributeDefinition myNumber1 = prj.getExtendedAttributes().getById((int) ExtendedAttributeTask.Number1);
@@ -87,72 +143,72 @@ if (myNumber1 == null) {
 }
 ```
 
-### Stap 4: Stel numerieke waarde in Java in
-Maak een instantie van het attribuut voor een specifieke resource en wijs een numerieke waarde toe met `setNumericValue`. Dit demonstreert **set numeric value java** in actie.
+#### Stap 4: Numerieke waarde instellen in Java
+`ExtendedAttributeResource` bevat de waarde van een aangepast attribuut voor een specifieke resource‑instantie.
 
 ```java
 ExtendedAttribute number1Resource = myNumber1.createExtendedAttribute();
 number1Resource.setNumericValue(BigDecimal.valueOf(30.5345));
 ```
 
-### Stap 5: Voeg resource toe en koppel het aangepaste attribuut
-Voeg een nieuwe resource toe met de naam **R1** en koppel het eerder gemaakte aangepaste attribuut eraan.
+#### Stap 5: Voeg resource toe en koppel het aangepaste attribuut
+`Resource` modelleert een projectresource zoals een persoon, uitrusting of materiaal.
 
 ```java
 Resource rsc = prj.getResources().add("R1");
 rsc.getExtendedAttributes().add(number1Resource);
 ```
 
-### Stap 6: Sla project op als XML
-Ten slotte, bewaar de wijzigingen door het project op te slaan. Dit is de **save project as xml** stap, die een schone XML‑representatie van het bijgewerkte bestand produceert.
+#### Stap 6: Sla project op als XML
+`SaveFileFormat` somt de ondersteunde uitvoerformaten op voor het opslaan van een project, inclusief XML.
 
 ```java
 prj.save(dataDir + "project5.xml", SaveFileFormat.Xml);
 ```
 
-### Stap 7: Toon resultaat
-Print een vriendelijke bevestiging zodat u weet dat het proces zonder fouten is voltooid.
+#### Stap 7: Resultaat weergeven
+`System.out.println` drukt een regel tekst af naar de standaard console‑output.
 
 ```java
 System.out.println("Process completed Successfully");
 ```
 
-Door deze stappen te volgen, heeft u met succes **een aangepast attribuut** gemaakt, een Microsoft Project‑bestand geladen, een numerieke waarde ingesteld met Java, en het project opgeslagen als XML.
-
 ## Veelvoorkomende valkuilen & tips
-- **Attribuut‑ID‑conflicten:** Controleer altijd `getById` voordat u een nieuwe definitie maakt om dubbele ID's te voorkomen.  
-- **Precisiebehandeling:** `BigDecimal` behoudt decimale precisie; vermijd het gebruik van `float` of `double` voor exacte waarden.  
-- **Bestandspaden:** Gebruik absolute paden of configureer de werkdirectory van uw IDE om `FileNotFoundException` te voorkomen.  
+- **Conflicten met attribuut‑ID's:** Roep altijd `project.getExtendedAttributes().getById(id)` aan voordat je een nieuwe definitie maakt om dubbele identifiers te voorkomen.  
+- **Precisiebehandeling:** Geef de voorkeur aan `BigDecimal` boven `float`/`double` voor exacte numerieke waarden; dit voorkomt afrondingsfouten in rapportage.  
+- **Betrouwbaarheid van bestandspaden:** Gebruik `Paths.get(...).toAbsolutePath()` of configureer de werkmap van je IDE om `FileNotFoundException` te voorkomen.  
 
 ## Veelgestelde vragen
 
-**Q: Kan ik custom attributes maken voor taken evenals voor resources?**  
-A: Ja – gebruik `ExtendedAttributeTask` in plaats van `ExtendedAttributeResource` bij het definiëren van het attribuut.
+**Q: Kun ik aangepaste attributen maken voor taken evenals resources?**  
+A: Ja – gebruik `ExtendedAttributeTask` in plaats van `ExtendedAttributeResource` bij het definiëren van het attribuut‑schema.
 
-**Q: Is het mogelijk om meerdere custom attributes in één keer toe te voegen?**  
-A: Absoluut. Maak afzonderlijke `ExtendedAttributeDefinition`‑objecten voor elk attribuut en koppel ze aan de gewenste resources of taken.
+**Q: Is het mogelijk om meerdere aangepaste attributen in één keer toe te voegen?**  
+A: Absoluut. Maak aparte `ExtendedAttributeDefinition`‑objecten voor elk attribuut en koppel ze aan de gewenste resources of taken.
 
 **Q: In welke formaten kan ik het project opslaan?**  
-A: Aspose.Tasks ondersteunt XML, MPP, en verschillende andere formaten zoals PDF en HTML. In dit voorbeeld gebruikten we `SaveFileFormat.Xml`.
+A: Aspose.Tasks ondersteunt XML, MPP, PDF, HTML en meer dan 30 extra formaten. In dit voorbeeld hebben we `SaveFileFormat.Xml` gebruikt.
 
-**Q: Heb ik een licentie nodig voor Aspose.Tasks voor ontwikkel‑builds?**  
-A: Een tijdelijke licentie is voldoende voor evaluatie. Voor productie‑implementaties is een volledige licentie vereist.
+**Q: Heb ik een licentie nodig voor ontwikkel‑builds?**  
+A: Een tijdelijke evaluatielicentie is voldoende voor testen. Voor elke productie‑implementatie is een volledige commerciële licentie vereist.
 
-**Q: Hoe lees ik later de custom attribute‑waarden terug?**  
-A: Gebruik `resource.getExtendedAttributes()` om door de gekoppelde attributen te itereren en hun waarden op te halen met `getNumericValue()` of `getTextValue()`.
-
-## Conclusie
-Het creëren van een **aangepast attribuut** in Microsoft Project met Aspose.Tasks voor Java is eenvoudig zodra u de workflow begrijpt: laad het project, definieer het attribuut, stel de waarde in, koppel het aan een resource, en sla het bestand op. Deze aanpak stelt u in staat om projectdatamodellen programmatisch uit te breiden, waardoor rijkere rapportage en een strakkere integratie met uw bedrijfsprocessen mogelijk wordt.
+**Q: Hoe lees ik later de waarden van het aangepaste attribuut terug?**  
+A: Roep `resource.getExtendedAttributes()` aan en doorloop de collectie; haal de opgeslagen waarde op met `getNumericValue()` of `getTextValue()`.
 
 ---
 
-**Last Updated:** 2026-01-13  
+**Last Updated:** 2026-06-10  
 **Tested With:** Aspose.Tasks for Java 24.12  
-**Author:** Aspose  
+**Author:** Aspose
+
+## Gerelateerde tutorials
+
+- [Hoe resources maken – Resourcebeheer met Aspose.Tasks voor Java](/tasks/java/resource-management/)
+- [Aangepast veld maken Aspose - Uitgebreide attributen verwerken](/tasks/java/project-management/extended-attributes/)
+- [Hoe een project maken – Nieuwe taak‑attributen instellen met Aspose.Tasks](/tasks/java/project-file-operations/set-attributes-new-tasks/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

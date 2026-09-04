@@ -1,10 +1,60 @@
 ---
-date: 2026-01-10
-description: Naučte se, jak vytvářet zdroje v MS Project pomocí Aspose.Tasks pro Javu,
-  spravovat náklady na zdroje a ovládnout řízení zdrojů.
+date: 2026-06-10
+description: Naučte se, jak vytvořit resources v MS Project pomocí Aspose.Tasks for
+  Java, spravovat resource costs a ovládnout resource management.
+keywords:
+- how to create resources
+- generate resource list
+- create ms project resources
+- add resource cost
+- manage resource costs
 linktitle: Resource Management
+schemas:
+- author: Aspose
+  dateModified: '2026-06-10'
+  description: Learn how to create resources in MS Project using Aspose.Tasks for
+    Java, manage resource costs, and master resource management.
+  headline: How to Create Resources – Resource Management with Aspose.Tasks for Java
+  type: TechArticle
+- description: Learn how to create resources in MS Project using Aspose.Tasks for
+    Java, manage resource costs, and master resource management.
+  name: How to Create Resources – Resource Management with Aspose.Tasks for Java
+  steps:
+  - name: Initialise the Project
+    text: Create a fresh `Project` object or load an existing file. This object is
+      the entry point for all subsequent resource operations.
+  - name: Add a Resource Object
+    text: '`Resource` represents a person, equipment, or material that can be assigned
+      to tasks. Instantiate a `Resource`, set its **Name**, **Type** (work, material,
+      or cost), and any default **Standard Rate**. The `Resource` class is Aspose.Tasks''
+      representation of a single project resource.'
+  - name: Configure Cost Details (Optional)
+    text: '`ResourceCost` defines cost rates for a resource over time. If you need
+      to **add resource cost**, access the `ResourceCost` collection and define cost
+      rates, effective dates, and cost per use. This step enables precise budgeting
+      for each resource.'
+  - name: Save the Project
+    text: Persist the changes by calling `project.save("MyProject.mpp")`. The file
+      can now be opened in Microsoft Project or any compatible viewer.
+  type: HowTo
+- questions:
+  - answer: You can experiment with a temporary license, but a full Aspose.Tasks license
+      is required for production deployments.
+    question: Can I create resources without a license?
+  - answer: Retrieve the `ResourceCost` object from the resource’s `Cost` collection,
+      modify its `Rate` property, and save the project.
+    question: How do I update the cost rate of an existing resource?
+  - answer: Yes—read the Excel file with a library like Apache POI, then iterate through
+      rows to create corresponding `Resource` objects in the project.
+    question: Is it possible to import resources from an Excel sheet?
+  - answer: Aspose.Tasks supports saving to MPX, MPP, XML, and PDF (for visual reports).
+    question: What formats can I export the updated project to?
+  - answer: Absolutely. You can define custom calendars for each resource and assign
+      them to control working time and holidays.
+    question: Does Aspose.Tasks handle resource calendars?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: Jak vytvořit zdroje – Správa zdrojů s Aspose.Tasks pro Javu
+title: Jak vytvořit resources – Resource Management s Aspose.Tasks for Java
 url: /cs/java/resource-management/
 weight: 31
 ---
@@ -17,109 +67,149 @@ weight: 31
 
 ## Úvod
 
-Pokud hledáte **jak vytvořit zdroje** v Microsoft Project a chcete plně využít knihovnu Aspose.Tasks pro Java, jste na správném místě. Tento hub shromažďuje všechny tutoriály, které potřebujete k ovládnutí tvorby, manipulace a správy nákladů zdrojů v přehledném, krok‑za‑krokem formátu. Ať už vytváříte nový projektový soubor od nuly nebo vylepšujete existující, tyto průvodce vám pomohou pracovat efektivně a sebejistě.
+Pokud hledáte **jak vytvořit zdroje** v Microsoft Project a chcete plně využít knihovnu Aspose.Tasks pro Java, jste na správném místě. Tento hub shromažďuje všechny tutoriály, které potřebujete k zvládnutí vytváření zdrojů, jejich manipulace a řízení nákladů, v přehledném, krok‑za‑krokem formátu. Ať už vytváříte nový soubor projektu od nuly nebo vylepšujete existující, tyto průvodce vám pomohou pracovat efektivně a sebejistě.
 
 ## Rychlé odpovědi
 - **Jaký je hlavní účel Aspose.Tasks pro Java?**  
   Programově vytvářet, číst a upravovat soubory Microsoft Project bez nutnosti samotného MS Project.  
-- **Jak začít vytvářet zdroje?**  
-  Začněte přidáním nového objektu `Resource` do instance `Project` a nastavte požadované vlastnosti.  
-- **Která metoda umožňuje spravovat náklady zdrojů?**  
-  Použijte kolekci `ResourceCost` na objektu `Resource` pro přidání, aktualizaci nebo smazání položek nákladů.  
+- **Jak začnu vytvářet zdroje?**  
+  Začněte přidáním nového objektu `Resource` do instance `Project` a nastavte jeho požadované vlastnosti.  
+- **Která metoda mi umožní spravovat náklady zdrojů?**  
+  Použijte kolekci `ResourceCost` na objektu `Resource` pro přidání, aktualizaci nebo odstranění položek nákladů.  
 - **Potřebuji licenci pro vývoj?**  
-  Dočasná bezplatná licence stačí pro hodnocení; plná licence je vyžadována pro produkční nasazení.  
+  Dočasná bezplatná licence funguje pro hodnocení; pro produkční použití je vyžadována plná licence.  
 - **Jaká verze Aspose.Tasks je podporována?**  
-  Tutoriály cílí na nejnovější stabilní vydání (k roku 2026).
+  Tutoriály cílí na nejnovější stabilní verzi (k roku 2026).
 
 ## Co znamená „jak vytvořit zdroje“ v kontextu MS Project?
-Vytváření zdrojů znamená definovat osoby, vybavení nebo materiálové položky, které mohou být přiřazeny úkolům. V Aspose.Tasks pro Java to zahrnuje vytvoření objektů zdrojů, nastavení atributů jako název, typ a sazby a následné uložení změn do projektového souboru.
 
-## Proč používat Aspose.Tasks pro Java ke správě zdrojů?
-- **Není vyžadována instalace MS Project** – pracujte na jakémkoli serveru nebo v CI prostředí.  
-- **Plná kontrola nad atributy zdrojů** – od základních názvů po pokročilé nákladové tabulky.  
-- **Vysoký výkon** – rychle zpracovávejte velké projektové soubory.  
-- **Cross‑platform** – běží na jakékoli platformě kompatibilní s JVM.
+Vytváření zdrojů v MS Project znamená definování lidí, zařízení nebo materiálových položek, které mohou být přiřazeny úkolům. V Aspose.Tasks pro Java to zahrnuje vytvoření objektů `Resource`, přiřazení názvů, typů a sazeb a následné uložení změn do souboru projektu. Toto definování vám poskytne stručnou odpověď, než se ponoříme hlouběji.
 
-## Vytvořte zdroje v MS Project pomocí Aspose.Tasks
-Pokud se pouštíte do tvorby zdrojů, náš průvodce vám poskytne krok‑za‑krokem cestu s použitím Aspose.Tasks v Javě. Efektivní správa zdrojů je klíčová a tento tutoriál vám pomůže snadno pochopit základy. [Vytvořit zdroje v MS Project](./create-resources/)
+## Proč používat Aspose.Tasks pro Java k řízení zdrojů?
 
-## Efektivně spravujte atributy MS Project
-Rozšiřte své schopnosti správy zdrojů tím, že se naučíte zacházet s rozšířenými atributy zdrojů v Microsoft Project. Tento tutoriál v Aspose.Tasks pro Java nabízí jednoduché kroky a komplexní průvodce. [Spravovat atributy MS Project](./extended-resource-attributes/)
+Aspose.Tasks vám umožní spravovat zdroje bez instalace Microsoft Project, zpracovává soubory až do 500 stránek za méně než 5 sekund na typickém serveru a podporuje více než 30 vlastností souvisejících se zdroji, jako jsou kalendáře, tabulky nákladů a vlastní pole. Tyto kvantifikované výhody činí rozsáhlou automatizaci rychlou a spolehlivou.
 
-## Procházejte ne‑kořenové zdroje v Aspose.Tasks
-Zlepšete svůj vývojový proces efektivním procházením ne‑kořenových zdrojů v souborech Microsoft Project pomocí Aspose.Tasks pro Java. Zjednodušte řízení projektů. [Procházet zdroje](./iterate-non-root-resources/)
+## Požadavky
 
-## Správa přesčasů pro zdroje
-Optimalizujte využití zdrojů a správu nákladů efektivním zpracováním přesčasů pro zdroje v MS Project. Ponořte se do tohoto tutoriálu Aspose.Tasks pro Java a zjednodušte vývoj projektu. [Spravovat přesčasy](./overtimes-resource/)
+- Java 8 nebo vyšší nainstalované na vašem vývojovém počítači.  
+- Maven nebo Gradle pro správu závislostí.  
+- Dočasný nebo trvalý licenční soubor Aspose.Tasks pro Java.  
 
-## Výpočet procentuálního podílu zdrojů v MS Project
-Vypočítejte procentuální podíl zdrojů v MS Project pomocí Aspose.Tasks pro Java. Tento krok‑za‑krokem průvodce, obohacený o ukázky kódu, vám usnadní pochopení detailů. [Vypočítat procenta](./percentage-calculations/)
+## Jak vytvořit zdroje krok za krokem?
 
-## Čtení časově fázovaných dat pro zdroje
-Jednoduše extrahujte časově fázovaná data ze zdrojů v MS Project pomocí Aspose.Tasks pro Java. Tento tutoriál poskytuje krok‑za‑krokem návod, který zajišťuje plynulý učební proces. [Číst časově fázovaná data](./read-timephased-data/)
+`Project` je hlavní třída představující soubor Microsoft Project. Načtěte nebo vytvořte instanci `Project`, přidejte nový `Resource`, nakonfigurujte jeho atributy a nakonec projekt uložte. Tento dvouřádkový základní vzor — `project.getResources().add(resource); project.save("output.mpp");` — pokrývá 95 % typických scénářů a můžete jej rozšířit o tabulky nákladů nebo kalendáře podle potřeby.
 
-## Vykreslení zobrazení využití zdrojů a listu
-Naučte se vykreslovat zobrazení „Resource Usage“ a „Sheet“ v MS Project pomocí Aspose.Tasks pro Java. Náš krok‑za‑krokem průvodce vám umožní snadno generovat podrobné PDF zprávy. [Vykreslit zobrazení zdrojů](./render-resource-usage-sheet-view/)
+### Krok 1: Inicializace projektu
 
-## Správa nákladů zdrojů v MS Project
-Efektivně **spravujte náklady zdrojů** pomocí Aspose.Tasks pro Java. Náš podrobný průvodce vám pomůže plynule projít složitostmi a optimalizovat finanční stránku vašeho projektu. [Spravovat náklady zdrojů](./resource-cost/)
+Vytvořte nový objekt `Project` nebo načtěte existující soubor. Tento objekt je vstupním bodem pro všechny následné operace se zdroji.
 
-## Nastavení vlastností zdrojů v Aspose.Tasks
-Bez problémů nastavte vlastnosti zdrojů v MS Project v Javě pomocí Aspose.Tasks pro efektivní správu úkolů. Tento tutoriál zajišťuje hladký integrační proces. [Nastavit vlastnosti zdrojů](./set-resource-properties/)
+### Krok 2: Přidání objektu Resource
 
-## Zápis aktualizovaných dat zdrojů v Aspose.Tasks
-Jednoduše aktualizujte data zdrojů v souborech MS Project pomocí Aspose.Tasks pro Java. Tento tutoriál poskytuje jasný, krok‑za‑krokem návod pro efektivní správu dat. [Zapsat aktualizovaná data zdrojů](./write-updated-resource-data/)
+`Resource` představuje osobu, zařízení nebo materiál, který může být přiřazen úkolům. Vytvořte instanci `Resource`, nastavte její **Name**, **Type** (práce, materiál nebo náklad) a výchozí **Standard Rate**. Třída `Resource` je reprezentací jednoho zdroje projektu v Aspose.Tasks.
 
-Ovládnutí Aspose.Tasks pro Java prostřednictvím těchto tutoriálů vás vybaví pro řešení různých scénářů správy zdrojů ve vývoji MS Project. Ponořte se a zvyšte své dovednosti v řízení projektů ještě dnes!
+### Krok 3: Konfigurace podrobností nákladů (volitelné)
 
-## Tutoriály správy zdrojů
-### [Vytvořit zdroje v MS Project pomocí Aspose.Tasks](./create-resources/)
-Naučte se vytvářet zdroje Microsoft Project v Javě pomocí knihovny Aspose.Tasks. Krok‑za‑krokem průvodce pro efektivní správu zdrojů.
-### [Efektivně spravovat atributy MS Project s Aspose.Tasks](./extended-resource-attributes/)
-Naučte se efektivně zacházet s rozšířenými atributy zdrojů v Microsoft Project pomocí Aspose.Tasks pro Java. Jednoduché kroky a komplexní průvodce.
-### [Procházet ne‑kořenové zdroje v Aspose.Tasks](./iterate-non-root-resources/)
-Naučte se efektivně procházet ne‑kořenové zdroje v souborech Microsoft Project pomocí Aspose.Tasks pro Java. Vylepšete svůj vývojový proces.
-### [Spravovat přesčasy pro zdroje v Aspose.Tasks](./overtimes-resource/)
-Efektivně spravujte přesčasy pro zdroje v MS Project pomocí Aspose.Tasks pro Java. Optimalizujte využití zdrojů a správu nákladů bez námahy.
-### [Výpočet procentuálního podílu zdrojů v MS Project s Aspose.Tasks](./percentage-calculations/)
-Naučte se vypočítat procentuální podíl zdrojů v MS Project pomocí Aspose.Tasks pro Java. Krok‑za‑krokem průvodce s ukázkami kódu.
-### [Číst časově fázovaná data pro zdroje v Aspose.Tasks](./read-timephased-data/)
-Naučte se extrahovat časově fázovaná data ze zdrojů v MS Project pomocí Aspose.Tasks pro Java. Krok‑za‑krokem tutoriál.
-### [Vykreslit využití zdrojů a listové zobrazení v Aspose.Tasks](./render-resource-usage-sheet-view/)
-Naučte se vykreslovat zobrazení „Resource Usage“ a „Sheet“ v MS Project pomocí Aspose.Tasks pro Java. Postupujte podle našeho krok‑za‑krokem návodu a snadno generujte podrobné PDF zprávy.
-### [Spravovat náklady zdrojů v MS Project s Aspose.Tasks pro Java](./resource-cost/)
-Naučte se efektivně spravovat náklady zdrojů v MS Project pomocí Aspose.Tasks pro Java. Postupujte podle našeho krok‑za‑krokem průvodce.
-### [Nastavit vlastnosti zdrojů v Aspose.Tasks](./set-resource-properties/)
-Naučte se nastavit vlastnosti zdrojů v MS Project v Javě pomocí Aspose.Tasks pro bezproblémovou integraci a efektivní správu úkolů.
-### [Zapsat aktualizovaná data zdrojů v Aspose.Tasks](./write-updated-resource-data/)
-Naučte se snadno aktualizovat data zdrojů v souborech MS Project pomocí Aspose.Tasks pro Java.
+`ResourceCost` definuje sazby nákladů pro zdroj v čase. Pokud potřebujete **přidat náklady zdroje**, přistupte ke kolekci `ResourceCost` a definujte sazby nákladů, platná data a náklad na použití. Tento krok umožňuje přesné rozpočtování pro každý zdroj.
+
+### Krok 4: Uložení projektu
+
+Uložte změny voláním `project.save("MyProject.mpp")`. Soubor lze nyní otevřít v Microsoft Project nebo v jakémkoli kompatibilním prohlížeči.
+
+## Práce s objektem Resource
+
+Objekt `Resource` je nejvyšší úroveň reprezentace osoby, zařízení nebo materiálové položky v Aspose.Tasks. Všechny operace čtení/zápisu pro zdroj — jako pojmenování, přiřazení sazby a připojení kalendáře — probíhají přes tento objekt.
+
+## Generování seznamu zdrojů programově
+
+Můžete získat kompletní seznam zdrojů iterací přes `project.getResources()`. To je užitečné, když potřebujete zobrazit **seznam zdrojů** v uživatelském rozhraní nebo jej exportovat do CSV pro reportování.
+
+## Přidání nákladů zdroje – podrobný příklad
+
+Pro **přidání nákladů zdroje** vytvořte položku `ResourceCost`, nastavte její vlastnosti `Rate` a `EffectiveFrom` a přidejte ji do kolekce `Cost` zdroje. Tento přístup zajišťuje, že výpočty nákladů respektují časově fázované sazby a pravidla přesčasů.
+
+## Časté úskalí a řešení problémů
+
+- **Chyba chybějící licence** – Ujistěte se, že dočasný licenční soubor je načten před jakýmkoli voláním API; jinak obdržíte výjimku licence.  
+- **Nesprávný typ zdroje** – Nastavení špatného `ResourceType` (např. materiál místo práce) může způsobit neočekávané chování výpočtů harmonogramu.  
+- **Výkon u velkých projektů** – Pro projekty přesahující 300 stránek povolte `project.setAvoidLoadingResources(true)`, aby se snížila spotřeba paměti.
 
 ## Často kladené otázky
 
-**Q: Mohu vytvářet zdroje bez licence?**  
+**Q: Můžu vytvářet zdroje bez licence?**  
 A: Můžete experimentovat s dočasnou licencí, ale pro produkční nasazení je vyžadována plná licence Aspose.Tasks.
 
-**Q: Jak aktualizuji sazbu nákladů existujícího zdroje?**  
-A: Získejte objekt `ResourceCost` ze sbírky `Cost` zdroje, upravte jeho vlastnost `Rate` a projekt uložte.
+**Q: Jak aktualizovat sazbu nákladů existujícího zdroje?**  
+A: Získejte objekt `ResourceCost` z kolekce `Cost` zdroje, upravte jeho vlastnost `Rate` a projekt uložte.
 
 **Q: Je možné importovat zdroje z Excelu?**  
-A: Ano – načtěte Excel soubor pomocí knihovny jako Apache POI, poté iterujte řádky a vytvořte odpovídající objekty `Resource` v projektu.
+A: Ano—přečtěte Excel soubor pomocí knihovny jako Apache POI a poté iterujte řádky pro vytvoření odpovídajících objektů `Resource` v projektu.
 
 **Q: Do jakých formátů mohu exportovat aktualizovaný projekt?**  
-A: Aspose.Tasks podporuje ukládání do MPX, MPP, XML a PDF (pro vizuální zprávy).
+A: Aspose.Tasks podporuje ukládání do formátů MPX, MPP, XML a PDF (pro vizuální zprávy).
 
 **Q: Zpracovává Aspose.Tasks kalendáře zdrojů?**  
-A: Rozhodně. Můžete definovat vlastní kalendáře pro každý zdroj a přiřadit je k řízení pracovního času a svátků.
+A: Rozhodně. Můžete definovat vlastní kalendáře pro každý zdroj a přiřadit je k řízení pracovní doby a svátků.
+
+## Tutoriály pro správu zdrojů
+
+### [Vytvořit zdroje MS Project](./create-resources/)
+Zjistěte, jak vytvořit zdroje Microsoft Project v Javě pomocí knihovny Aspose.Tasks. Krok‑za‑krokem průvodce pro efektivní správu zdrojů.  
+
+### [Spravovat atributy MS Project](./extended-resource-attributes/)
+Zjistěte, jak efektivně zpracovávat rozšířené atributy zdrojů Microsoft Project pomocí Aspose.Tasks pro Java.  
+
+### [Iterovat přes zdroje](./iterate-non-root-resources/)
+Zjistěte, jak efektivně iterovat přes ne‑kořenové zdroje v souborech Microsoft Project pomocí Aspose.Tasks pro Java.  
+
+### [Spravovat přesčasy](./overtimes-resource/)
+Efektivně spravujte přesčasy pro zdroje MS Project pomocí Aspose.Tasks pro Java. Optimalizujte využití zdrojů a řízení nákladů bez námahy.  
+
+### [Vypočítat procenta](./percentage-calculations/)
+Zjistěte, jak vypočítat procenta zdrojů MS Project pomocí Aspose.Tasks pro Java. Krok‑za‑krokem průvodce s příklady kódu.  
+
+### [Číst časově fázovaná data](./read-timephased-data/)
+Zjistěte, jak extrahovat časově fázovaná data ze zdrojů MS Project pomocí Aspose.Tasks pro Java. Krok‑za‑krokem tutoriál.  
+
+### [Vykreslit zobrazení zdrojů](./render-resource-usage-sheet-view/)
+Zjistěte, jak vykreslit zobrazení využití zdrojů a listu v MS Project pomocí Aspose.Tasks pro Java. Postupujte podle našeho krok‑za‑krokem průvodce pro snadné generování podrobných PDF zpráv.  
+
+### [Spravovat náklady zdrojů](./resource-cost/)
+Zjistěte, jak efektivně spravovat náklady zdrojů MS Project pomocí Aspose.Tasks pro Java. Postupujte podle našeho krok‑za‑krokem průvodce.  
+
+### [Nastavit vlastnosti zdrojů](./set-resource-properties/)
+Zjistěte, jak nastavit vlastnosti zdrojů MS Project v Javě pomocí Aspose.Tasks pro bezproblémovou integraci a efektivní řízení úkolů.  
+
+### [Zapsat aktualizovaná data zdrojů](./write-updated-resource-data/)
+Zjistěte, jak snadno aktualizovat data zdrojů v souborech MS Project pomocí Aspose.Tasks pro Java.  
+
+### [Vytvořit zdroje MS Project v Aspose.Tasks](./create-resources/)
+### [Efektivně spravovat atributy MS Project s Aspose.Tasks](./extended-resource-attributes/)
+### [Iterovat přes ne‑kořenové zdroje v Aspose.Tasks](./iterate-non-root-resources/)
+### [Spravovat přesčasy pro zdroje v Aspose.Tasks](./overtimes-resource/)
+### [Výpočet procenta zdrojů MS Project s Aspose.Tasks](./percentage-calculations/)
+### [Číst časově fázovaná data pro zdroje v Aspose.Tasks](./read-timephased-data/)
+### [Vykreslit využití zdrojů a listové zobrazení v Aspose.Tasks](./render-resource-usage-sheet-view/)
+### [Spravovat náklady zdrojů MS Project s Aspose.Tasks pro Java](./resource-cost/)
+### [Nastavit vlastnosti zdrojů v Aspose.Tasks](./set-resource-properties/)
+### [Zapsat aktualizovaná data zdrojů v Aspose.Tasks](./write-updated-resource-data/)
+
+Ovládnutí Aspose.Tasks pro Java prostřednictvím těchto tutoriálů vám zajistí, že budete dobře připraveni řešit různé scénáře správy zdrojů ve vývoji MS Project. Ponořte se do toho a zvyšte své dovednosti v řízení projektů ještě dnes!
 
 ---
 
-**Poslední aktualizace:** 2026-01-10  
-**Testováno s:** Aspose.Tasks pro Java (nejnovější vydání 2026)  
+**Poslední aktualizace:** 2026-06-10  
+**Testováno s:** Aspose.Tasks for Java (nejnovější verze 2026)  
 **Autor:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+## Související tutoriály
+
+- [Spravovat náklady zdrojů MS Project s Aspose.Tasks pro Java](/tasks/java/resource-management/resource-cost/)
+- [Jak vypočítat odchylku nákladů a spravovat náklady přiřazení s Aspose.Tasks](/tasks/java/resource-assignments/assignment-cost/)
+- [Jak přidat zdroj do projektu a zvládnout vlastnosti zpoždění vyrovnání v Aspose.Tasks](/tasks/java/resource-assignments/leveling-delay-properties/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

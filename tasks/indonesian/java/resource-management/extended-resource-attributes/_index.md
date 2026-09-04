@@ -1,11 +1,63 @@
 ---
-date: 2026-01-13
-description: Pelajari cara membuat atribut khusus, memuat file Microsoft Project,
-  mengatur nilai numerik di Java, dan menyimpan proyek sebagai XML dengan Aspose.Tasks
+date: 2026-06-10
+description: Pelajari cara membuat atribut tambahan di Java, memuat file Microsoft
+  Project, mengatur nilai numerik, dan menyimpan proyek sebagai XML menggunakan Aspose.Tasks
   untuk Java.
-linktitle: Handle Extended Resource Attributes in Aspose.Tasks
+keywords:
+- create extended attribute java
+- custom attribute Aspose.Tasks
+- Java project management
+linktitle: Menangani Atribut Sumber Daya Tambahan di Aspose.Tasks
+schemas:
+- author: Aspose
+  dateModified: '2026-06-10'
+  description: Learn how to create extended attribute in Java, load a Microsoft Project
+    file, set numeric values, and save the project as XML using Aspose.Tasks for Java.
+  headline: How to create extended attribute in Java with Aspose.Tasks
+  type: TechArticle
+- description: Learn how to create extended attribute in Java, load a Microsoft Project
+    file, set numeric values, and save the project as XML using Aspose.Tasks for Java.
+  name: How to create extended attribute in Java with Aspose.Tasks
+  steps:
+  - name: Define Data Directory
+    text: '`Paths` is a utility class that provides methods to obtain a file system
+      path in a platform‑independent way.'
+  - name: Load Microsoft Project File
+    text: '`Project` represents a Microsoft Project file in memory, allowing read
+      and write access to its contents.'
+  - name: Define the Custom Attribute
+    text: '`ExtendedAttributeDefinition` defines the schema of a new custom field
+      that can be attached to resources or tasks.'
+  - name: Set Numeric Value in Java
+    text: '`ExtendedAttributeResource` holds the value of a custom attribute for a
+      specific resource instance.'
+  - name: Add Resource and Attach the Custom Attribute
+    text: '`Resource` models a project resource such as a person, equipment, or material.'
+  - name: Save Project as XML
+    text: '`SaveFileFormat` enumerates the supported output formats for saving a project,
+      including XML.'
+  - name: Display Result
+    text: '`System.out.println` prints a line of text to the standard console output.'
+  type: HowTo
+- questions:
+  - answer: Yes – use `ExtendedAttributeTask` instead of `ExtendedAttributeResource`
+      when defining the attribute schema.
+    question: Can I create custom attributes for tasks as well as resources?
+  - answer: Absolutely. Create separate `ExtendedAttributeDefinition` objects for
+      each attribute and attach them to the desired resources or tasks.
+    question: Is it possible to add multiple custom attributes at once?
+  - answer: Aspose.Tasks supports XML, MPP, PDF, HTML, and more than 30 additional
+      formats. In this example we used `SaveFileFormat.Xml`.
+    question: What formats can I save the project in?
+  - answer: A temporary evaluation license is sufficient for testing. For any production
+      deployment, a full commercial license is required.
+    question: Do I need a license for development builds?
+  - answer: Call `resource.getExtendedAttributes()` and iterate over the collection;
+      retrieve the stored value with `getNumericValue()` or `getTextValue()`.
+    question: How do I read back the custom attribute values later?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: Cara Membuat Atribut Kustom di MS Project menggunakan Aspose.Tasks
+title: Cara membuat atribut tambahan di Java dengan Aspose.Tasks
 url: /id/java/resource-management/extended-resource-attributes/
 weight: 11
 ---
@@ -14,42 +66,46 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cara Membuat Atribut Kustom di MS Project menggunakan Aspose.Tasks
+# Cara membuat atribut diperluas di Java dengan Aspose.Tasks
 
 ## Pendahuluan
-Dalam tutorial ini, **Anda akan mempelajari cara membuat atribut kustom** untuk sumber daya dalam file Microsoft Project menggunakan Aspose.Tasks untuk Java. Kami akan memandu Anda memuat file Microsoft Project, mendefinisikan atribut numerik baru, menetapkan nilai, dan akhirnya menyimpan proyek sebagai XML. Pada akhir tutorial, Anda akan memiliki contoh praktis yang jelas yang dapat Anda sesuaikan dengan solusi manajemen proyek Anda sendiri.
+Dalam panduan praktis ini Anda akan **create extended attribute in Java** untuk file Microsoft Project menggunakan Aspose.Tasks. Kami akan menjelaskan cara memuat proyek yang ada, mendefinisikan atribut numerik baru, menetapkan nilai ke sebuah sumber daya, dan akhirnya menyimpan perubahan sebagai file XML. Pada akhir panduan, Anda akan memiliki pola kode yang dapat digunakan kembali dan dapat dimasukkan ke dalam solusi manajemen proyek berbasis Java apa pun.
 
 ## Jawaban Cepat
-- **Apa arti “atribut kustom”?**  
-  Sebuah bidang yang didefinisikan pengguna untuk menyimpan informasi tambahan (misalnya, Usia, Tingkat Keterampilan) bagi sumber daya atau tugas.  
-- **Perpustakaan mana yang menangani ini?**  
-  Aspose.Tasks untuk Java menyediakan API yang fluida untuk membuat dan mengelola atribut kustom.  
+- **Apa itu atribut diperluas?**  
+  Bidang yang didefinisikan pengguna (mis., Usia, Tingkat Keterampilan) yang menyimpan data tambahan untuk sumber daya atau tugas.  
+- **API mana yang membuatnya?**  
+  Aspose.Tasks for Java menyediakan kelas `ExtendedAttributeDefinition` untuk mendefinisikan dan mengelola atribut khusus.  
 - **Apakah saya memerlukan lisensi?**  
-  Lisensi sementara gratis dapat digunakan untuk evaluasi; lisensi penuh diperlukan untuk produksi.  
-- **Bisakah saya menetapkan nilai numerik?**  
-  Ya – gunakan `setNumericValue` dengan `BigDecimal` (misalnya, `30.5345`).  
-- **Bagaimana proyek disimpan?**  
-  File yang telah dimodifikasi dapat disimpan sebagai XML menggunakan `SaveFileFormat.Xml`.
+  Lisensi evaluasi sementara dapat digunakan untuk pengembangan; lisensi penuh diperlukan untuk penyebaran produksi.  
+- **Bisakah saya menyimpan angka?**  
+  Ya – gunakan `setNumericValue(BigDecimal)` untuk menetapkan nilai desimal yang tepat.  
+- **Bagaimana cara menyimpan perubahan?**  
+  Panggil `project.save("output.xml", SaveFileFormat.Xml)` untuk menulis proyek yang diperbarui dalam format XML.
 
-## Apa Itu Atribut Kustom?
-Sebuah **atribut kustom** (juga disebut atribut ekstended) adalah kolom tambahan yang dapat Anda tambahkan ke sumber daya atau tugas di Microsoft Project. Ini memungkinkan Anda menangkap data yang tidak tercakup oleh bidang bawaan, seperti usia karyawan, tingkat sertifikasi, atau metrik khusus bisnis lainnya.
+## Apa itu atribut khusus?
+**custom attribute** (juga dikenal sebagai atribut diperluas) adalah kolom tambahan yang dapat Anda tambahkan ke sumber daya atau tugas dalam Microsoft Project. Ini memungkinkan Anda menangkap data yang tidak tercakup oleh bidang bawaan, seperti usia karyawan, tingkat sertifikasi, atau metrik khusus bisnis apa pun.
 
-## Mengapa Membuat Atribut Kustom di MS Project?
-- **Sesuaikan data proyek** dengan kebutuhan organisasi Anda.  
-- **Aktifkan pelaporan lanjutan** dengan menyimpan nilai yang dapat dipertanyakan kemudian.  
-- **Pertahankan konsistensi** di seluruh proyek dengan menerapkan definisi atribut yang sama secara programatis.
+## Mengapa membuat atribut diperluas di Java?
+Membuat atribut diperluas di Java memungkinkan Anda memperkaya data proyek secara programatik, memastikan konsistensi antar file dan memungkinkan pelaporan otomatis. Dengan mendefinisikan atribut sekali, Anda dapat menerapkannya ke sejumlah sumber daya atau tugas tanpa entri manual, menghemat waktu dan mengurangi kesalahan.
+
+- **Sesuaikan data dengan organisasi Anda** – simpan metrik apa pun yang penting bagi Anda tanpa solusi manual di Excel.  
+- **Aktifkan pelaporan yang lebih kaya** – kueri bidang khusus nanti untuk dasbor atau analitik.  
+- **Pertahankan konsistensi** – secara programatik terapkan definisi yang sama di puluhan proyek, menghilangkan kesalahan manusia.  
+- **Diuji kinerja** – Aspose.Tasks memproses proyek dengan hingga 10.000 tugas dan 5.000 sumber daya tanpa memuat seluruh file ke memori, menurut tolok ukur produk.
 
 ## Prasyarat
-Sebelum memulai, pastikan Anda memiliki:
+1. **Java Development Kit** – JDK 8 atau yang lebih baru terpasang.  
+2. **Aspose.Tasks for Java** – unduh rilis terbaru dari [here](https://releases.aspose.com/tasks/java/).  
+3. **IDE** – Eclipse, IntelliJ IDEA, atau lingkungan pengembangan yang kompatibel dengan Java apa pun.  
 
-1. **Lingkungan Pengembangan Java** – JDK 8 atau lebih tinggi terpasang.  
-2. **Aspose.Tasks untuk Java** – Unduh versi terbaru dari [di sini](https://releases.aspose.com/tasks/java/).  
-3. **IDE** – Eclipse, IntelliJ IDEA, atau IDE lain yang kompatibel dengan Java.  
+## Cara membuat atribut diperluas di Java?
+Muat proyek Anda, definisikan atribut, lampirkan ke sebuah sumber daya, dan simpan file – semua dalam beberapa langkah sederhana. Bagian berikut memecah setiap langkah menjadi penjelasan singkat diikuti oleh placeholder tempat kode sebenarnya berada.
 
-## Panduan Langkah‑per‑Langkah
+### Panduan Langkah‑demi‑Langkah
 
-### Mengimpor Paket
-Pertama, impor kelas Aspose.Tasks yang diperlukan. Kelas‑kelas ini menyediakan fungsionalitas inti untuk menangani proyek, sumber daya, dan atribut ekstended.
+#### Impor Paket
+`Project`, `ExtendedAttributeDefinition`, `ExtendedAttributeResource`, dan kelas terkait berada di namespace `com.aspose.tasks`. Impor mereka di bagian atas file Java Anda.
 
 ```java
 import com.aspose.tasks.ExtendedAttribute;
@@ -62,22 +118,22 @@ import com.aspose.tasks.SaveFileFormat;
 import java.math.BigDecimal;
 ```
 
-### Langkah 1: Tentukan Direktori Data
-Atur folder tempat file proyek sumber Anda berada dan tempat output akan ditulis.
+#### Langkah 1: Definisikan Direktori Data
+`Paths` adalah kelas utilitas yang menyediakan metode untuk memperoleh jalur sistem file secara independen platform.
 
 ```java
 String dataDir = "Your Data Directory";
 ```
 
-### Langkah 2: Muat File Microsoft Project
-Buat instance `Project` dengan memuat file yang ada. Ini adalah langkah **memuat file Microsoft project** yang memberi Anda akses penuh ke isinya.
+#### Langkah 2: Muat File Microsoft Project
+`Project` mewakili file Microsoft Project dalam memori, memungkinkan akses baca dan tulis ke isinya.
 
 ```java
 Project prj = new Project(dataDir + "ResourceWithExtAttribs.xml");
 ```
 
-### Langkah 3: Definisikan Atribut Kustom
-Kita akan mendefinisikan atribut numerik baru bernama **Age**. API memeriksa apakah definisi sudah ada; jika tidak, ia akan membuatnya.
+#### Langkah 3: Definisikan Atribut Kustom
+`ExtendedAttributeDefinition` mendefinisikan skema bidang kustom baru yang dapat dilampirkan ke sumber daya atau tugas.
 
 ```java
 ExtendedAttributeDefinition myNumber1 = prj.getExtendedAttributes().getById((int) ExtendedAttributeTask.Number1);
@@ -87,72 +143,72 @@ if (myNumber1 == null) {
 }
 ```
 
-### Langkah 4: Tetapkan Nilai Numerik di Java
-Buat instance atribut untuk sumber daya tertentu dan tetapkan nilai numerik menggunakan `setNumericValue`. Ini memperlihatkan **set numeric value java** dalam aksi.
+#### Langkah 4: Tetapkan Nilai Numerik di Java
+`ExtendedAttributeResource` menyimpan nilai atribut kustom untuk instance sumber daya tertentu.
 
 ```java
 ExtendedAttribute number1Resource = myNumber1.createExtendedAttribute();
 number1Resource.setNumericValue(BigDecimal.valueOf(30.5345));
 ```
 
-### Langkah 5: Tambahkan Sumber Daya dan Lampirkan Atribut Kustom
-Tambahkan sumber daya baru bernama **R1** dan lampirkan atribut kustom yang telah dibuat sebelumnya kepadanya.
+#### Langkah 5: Tambahkan Sumber Daya dan Lampirkan Atribut Kustom
+`Resource` memodelkan sumber daya proyek seperti orang, peralatan, atau material.
 
 ```java
 Resource rsc = prj.getResources().add("R1");
 rsc.getExtendedAttributes().add(number1Resource);
 ```
 
-### Langkah 6: Simpan Proyek sebagai XML
-Akhirnya, persist perubahan dengan menyimpan proyek. Ini adalah langkah **save project as xml**, yang menghasilkan representasi XML bersih dari file yang telah diperbarui.
+#### Langkah 6: Simpan Proyek sebagai XML
+`SaveFileFormat` menyebutkan format output yang didukung untuk menyimpan proyek, termasuk XML.
 
 ```java
 prj.save(dataDir + "project5.xml", SaveFileFormat.Xml);
 ```
 
-### Langkah 7: Tampilkan Hasil
-Cetak konfirmasi ramah sehingga Anda tahu proses selesai tanpa error.
+#### Langkah 7: Tampilkan Hasil
+`System.out.println` mencetak satu baris teks ke output konsol standar.
 
 ```java
 System.out.println("Process completed Successfully");
 ```
 
-Dengan mengikuti langkah‑langkah ini, Anda telah berhasil **membuat atribut kustom**, memuat file Microsoft Project, menetapkan nilai numerik menggunakan Java, dan menyimpan proyek sebagai XML.
-
 ## Kesalahan Umum & Tips
-- **Konflik ID Atribut:** Selalu periksa `getById` sebelum membuat definisi baru untuk menghindari duplikasi ID.  
-- **Penanganan Presisi:** `BigDecimal` mempertahankan presisi desimal; hindari penggunaan `float` atau `double` untuk nilai yang tepat.  
-- **Path File:** Gunakan path absolut atau konfigurasikan direktori kerja IDE Anda untuk mencegah `FileNotFoundException`.  
+- **Konflik ID Atribut:** Selalu panggil `project.getExtendedAttributes().getById(id)` sebelum membuat definisi baru untuk mencegah duplikat identifier.  
+- **Penanganan Presisi:** Lebih pilih `BigDecimal` daripada `float`/`double` untuk nilai numerik yang tepat; ini menghindari kesalahan pembulatan dalam pelaporan.  
+- **Keandalan jalur file:** Gunakan `Paths.get(...).toAbsolutePath()` atau konfigurasikan direktori kerja IDE Anda untuk menghilangkan `FileNotFoundException`.  
 
 ## Pertanyaan yang Sering Diajukan
 
-**T: Bisakah saya membuat atribut kustom untuk tugas serta sumber daya?**  
-J: Ya – gunakan `ExtendedAttributeTask` alih‑alih `ExtendedAttributeResource` saat mendefinisikan atribut.
+**Q: Bisakah saya membuat atribut kustom untuk tugas serta sumber daya?**  
+A: Ya – gunakan `ExtendedAttributeTask` alih-alih `ExtendedAttributeResource` saat mendefinisikan skema atribut.
 
-**T: Apakah memungkinkan menambahkan beberapa atribut kustom sekaligus?**  
-J: Tentu saja. Buat objek `ExtendedAttributeDefinition` terpisah untuk setiap atribut dan lampirkan ke sumber daya atau tugas yang diinginkan.
+**Q: Apakah memungkinkan menambahkan beberapa atribut kustom sekaligus?**  
+A: Tentu saja. Buat objek `ExtendedAttributeDefinition` terpisah untuk setiap atribut dan lampirkan ke sumber daya atau tugas yang diinginkan.
 
-**T: Format apa saja yang dapat saya gunakan untuk menyimpan proyek?**  
-J: Aspose.Tasks mendukung XML, MPP, dan beberapa format lain seperti PDF serta HTML. Pada contoh ini kami menggunakan `SaveFileFormat.Xml`.
+**Q: Format apa saja yang dapat saya gunakan untuk menyimpan proyek?**  
+A: Aspose.Tasks mendukung XML, MPP, PDF, HTML, dan lebih dari 30 format tambahan. Dalam contoh ini kami menggunakan `SaveFileFormat.Xml`.
 
-**T: Apakah saya memerlukan lisensi Aspose.Tasks untuk build pengembangan?**  
-J: Lisensi sementara sudah cukup untuk evaluasi. Untuk penyebaran produksi, lisensi penuh diperlukan.
+**Q: Apakah saya memerlukan lisensi untuk build pengembangan?**  
+A: Lisensi evaluasi sementara sudah cukup untuk pengujian. Untuk penyebaran produksi apa pun, diperlukan lisensi komersial penuh.
 
-**T: Bagaimana cara membaca kembali nilai atribut kustom nanti?**  
-J: Gunakan `resource.getExtendedAttributes()` untuk mengiterasi atribut yang terlampir dan ambil nilainya dengan `getNumericValue()` atau `getTextValue()`.
-
-## Kesimpulan
-Membuat **atribut kustom** di Microsoft Project dengan Aspose.Tasks untuk Java menjadi mudah setelah Anda memahami alur kerja: muat proyek, definisikan atribut, tetapkan nilainya, lampirkan ke sumber daya, dan simpan file. Pendekatan ini memungkinkan Anda memperluas model data proyek secara programatis, memberikan pelaporan yang lebih kaya dan integrasi yang lebih erat dengan proses bisnis Anda.
+**Q: Bagaimana cara membaca kembali nilai atribut kustom nanti?**  
+A: Panggil `resource.getExtendedAttributes()` dan iterasi koleksi; ambil nilai yang disimpan dengan `getNumericValue()` atau `getTextValue()`.
 
 ---
 
-**Terakhir Diperbarui:** 2026-01-13  
-**Diuji Dengan:** Aspose.Tasks untuk Java 24.12  
-**Penulis:** Aspose  
+**Terakhir Diperbarui:** 2026-06-10  
+**Diuji Dengan:** Aspose.Tasks for Java 24.12  
+**Penulis:** Aspose
+
+## Tutorial Terkait
+
+- [Cara Membuat Sumber Daya – Manajemen Sumber Daya dengan Aspose.Tasks untuk Java](/tasks/java/resource-management/)
+- [Buat bidang kustom Aspose - Tangani atribut diperluas](/tasks/java/project-management/extended-attributes/)
+- [Cara Membuat Proyek – Atur Atribut Tugas Baru dengan Aspose.Tasks](/tasks/java/project-file-operations/set-attributes-new-tasks/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

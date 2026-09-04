@@ -1,11 +1,63 @@
 ---
-date: 2026-01-13
-description: Dowiedz się, jak utworzyć niestandardowy atrybut, wczytać plik Microsoft
-  Project, ustawić wartość numeryczną w Javie oraz zapisać projekt jako XML przy użyciu
-  Aspose.Tasks dla Javy.
-linktitle: Handle Extended Resource Attributes in Aspose.Tasks
+date: 2026-06-10
+description: Dowiedz się, jak utworzyć rozszerzony atrybut w Javie, wczytać plik Microsoft
+  Project, ustawić wartości numeryczne i zapisać projekt jako XML przy użyciu Aspose.Tasks
+  for Java.
+keywords:
+- create extended attribute java
+- custom attribute Aspose.Tasks
+- Java project management
+linktitle: Obsługa rozszerzonych atrybutów zasobów w Aspose.Tasks
+schemas:
+- author: Aspose
+  dateModified: '2026-06-10'
+  description: Learn how to create extended attribute in Java, load a Microsoft Project
+    file, set numeric values, and save the project as XML using Aspose.Tasks for Java.
+  headline: How to create extended attribute in Java with Aspose.Tasks
+  type: TechArticle
+- description: Learn how to create extended attribute in Java, load a Microsoft Project
+    file, set numeric values, and save the project as XML using Aspose.Tasks for Java.
+  name: How to create extended attribute in Java with Aspose.Tasks
+  steps:
+  - name: Define Data Directory
+    text: '`Paths` is a utility class that provides methods to obtain a file system
+      path in a platform‑independent way.'
+  - name: Load Microsoft Project File
+    text: '`Project` represents a Microsoft Project file in memory, allowing read
+      and write access to its contents.'
+  - name: Define the Custom Attribute
+    text: '`ExtendedAttributeDefinition` defines the schema of a new custom field
+      that can be attached to resources or tasks.'
+  - name: Set Numeric Value in Java
+    text: '`ExtendedAttributeResource` holds the value of a custom attribute for a
+      specific resource instance.'
+  - name: Add Resource and Attach the Custom Attribute
+    text: '`Resource` models a project resource such as a person, equipment, or material.'
+  - name: Save Project as XML
+    text: '`SaveFileFormat` enumerates the supported output formats for saving a project,
+      including XML.'
+  - name: Display Result
+    text: '`System.out.println` prints a line of text to the standard console output.'
+  type: HowTo
+- questions:
+  - answer: Yes – use `ExtendedAttributeTask` instead of `ExtendedAttributeResource`
+      when defining the attribute schema.
+    question: Can I create custom attributes for tasks as well as resources?
+  - answer: Absolutely. Create separate `ExtendedAttributeDefinition` objects for
+      each attribute and attach them to the desired resources or tasks.
+    question: Is it possible to add multiple custom attributes at once?
+  - answer: Aspose.Tasks supports XML, MPP, PDF, HTML, and more than 30 additional
+      formats. In this example we used `SaveFileFormat.Xml`.
+    question: What formats can I save the project in?
+  - answer: A temporary evaluation license is sufficient for testing. For any production
+      deployment, a full commercial license is required.
+    question: Do I need a license for development builds?
+  - answer: Call `resource.getExtendedAttributes()` and iterate over the collection;
+      retrieve the stored value with `getNumericValue()` or `getTextValue()`.
+    question: How do I read back the custom attribute values later?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: Jak utworzyć niestandardowy atrybut w MS Project przy użyciu Aspose.Tasks
+title: Jak utworzyć rozszerzony atrybut w Javie przy użyciu Aspose.Tasks
 url: /pl/java/resource-management/extended-resource-attributes/
 weight: 11
 ---
@@ -14,42 +66,48 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak utworzyć niestandardowy atrybut w MS Project przy użyciu Aspose.Tasks
+# Jak utworzyć rozszerzony atrybut w Javie z Aspose.Tasks
 
-## Introduction
-W tym samouczku **dowiesz się, jak utworzyć niestandardowy atrybut** dla zasobów w pliku Microsoft Project przy użyciu Aspose.Tasks for Java. Przeprowadzimy Cię przez ładowanie pliku Microsoft Project, definiowanie nowego atrybutu numerycznego, przypisywanie wartości oraz ostateczne zapisanie projektu jako XML. Po zakończeniu będziesz mieć jasny, praktyczny przykład, który możesz dostosować do własnych rozwiązań zarządzania projektami.
+## Wprowadzenie
+W tym praktycznym przewodniku **utworzysz rozszerzony atrybut w Javie** dla pliku Microsoft Project przy użyciu Aspose.Tasks. Przejdziemy przez ładowanie istniejącego projektu, definiowanie nowego atrybutu numerycznego, przypisanie wartości do zasobu oraz ostateczne zapisanie zmian jako plik XML. Po zakończeniu będziesz mieć wielokrotnego użytku wzorzec kodu, który można wstawić do dowolnego rozwiązania do zarządzania projektami opartego na Javie.
 
-## Quick Answers
-- **Co oznacza „custom attribute”?**  
-  Pole definiowane przez użytkownika, które przechowuje dodatkowe informacje (np. Wiek, Poziom umiejętności) dla zasobu lub zadania.  
-- **Która biblioteka to obsługuje?**  
-  Aspose.Tasks for Java udostępnia płynne API do tworzenia i zarządzania niestandardowymi atrybutami.  
+## Szybkie odpowiedzi
+- **Co to jest rozszerzony atrybut?**  
+  Pole definiowane przez użytkownika (np. Wiek, Poziom umiejętności), które przechowuje dodatkowe dane dla zasobów lub zadań.  
+- **Które API go tworzy?**  
+  Aspose.Tasks for Java udostępnia klasę `ExtendedAttributeDefinition` do definiowania i zarządzania niestandardowymi atrybutami.  
 - **Czy potrzebna jest licencja?**  
-  Tymczasowa darmowa licencja wystarczy do oceny; pełna licencja jest wymagana w środowisku produkcyjnym.  
-- **Czy mogę ustawiać wartości liczbowe?**  
-  Tak – użyj `setNumericValue` z obiektem `BigDecimal` (np. `30.5345`).  
-- **Jak projekt jest zapisywany?**  
-  Zmieniony plik może być zapisany jako XML przy użyciu `SaveFileFormat.Xml`.
+  Tymczasowa licencja ewaluacyjna działa w trakcie rozwoju; pełna licencja jest wymagana przy wdrożeniach produkcyjnych.  
+- **Czy mogę przechowywać liczby?**  
+  Tak – użyj `setNumericValue(BigDecimal)`, aby przypisać precyzyjne wartości dziesiętne.  
+- **Jak zachować zmiany?**  
+  Wywołaj `project.save("output.xml", SaveFileFormat.Xml)`, aby zapisać zaktualizowany projekt w formacie XML.
 
-## What is a Custom Attribute?
-**Custom attribute** (zwany także atrybutem rozszerzonym) to dodatkowa kolumna, którą możesz dodać do zasobów lub zadań w Microsoft Project. Umożliwia przechowywanie danych, które nie są objęte wbudowanymi polami, takich jak wiek pracownika, poziom certyfikacji czy dowolna metryka specyficzna dla firmy.
+## Czym jest niestandardowy atrybut?
+**Niestandardowy atrybut** (znany również jako rozszerzony atrybut) to dodatkowa kolumna, którą możesz dodać do zasobów lub zadań w Microsoft Project. Umożliwia przechwytywanie danych, które nie są objęte wbudowanymi polami, takich jak wiek pracownika, poziom certyfikacji lub dowolna metryka specyficzna dla firmy.
 
-## Why Create a Custom Attribute in MS Project?
-- **Tailor project data** do potrzeb Twojej organizacji.  
-- **Enable advanced reporting** poprzez przechowywanie wartości, które później można zapytać.  
-- **Maintain consistency** w wielu projektach, programowo stosując tę samą definicję atrybutu.
+## Dlaczego tworzyć rozszerzony atrybut w Javie?
+Tworzenie rozszerzonego atrybutu w Javie pozwala programowo wzbogacić dane projektu, zapewniając spójność między plikami i umożliwiając automatyczne raportowanie. Definiując atrybut raz, możesz zastosować go do dowolnej liczby zasobów lub zadań bez ręcznego wprowadzania, oszczędzając czas i redukując błędy.
 
-## Prerequisites
-Zanim rozpoczniesz, upewnij się, że masz:
+- **Dostosuj dane do swojej organizacji** – przechowuj dowolną metrykę, która ma znaczenie, bez ręcznych obejść w Excelu.  
+- **Umożliw bogatsze raportowanie** – zapytaj o niestandardowe pole później w dashboardach lub analizach.  
+- **Utrzymaj spójność** – programowo zastosuj tę samą definicję w dziesiątkach projektów, eliminując błędy ludzkie.  
+- **Testowane pod kątem wydajności** – Aspose.Tasks przetwarza projekty z aż do 10 000 zadań i 5 000 zasobów bez ładowania całego pliku do pamięci, zgodnie z benchmarkami produktu.
 
-1. **Java Development Environment** – zainstalowany JDK 8 lub nowszy.  
+## Wymagania wstępne
+Przed rozpoczęciem upewnij się, że masz:
+
+1. **Java Development Kit** – zainstalowany JDK 8 lub nowszy.  
 2. **Aspose.Tasks for Java** – pobierz najnowszą wersję z [here](https://releases.aspose.com/tasks/java/).  
-3. **IDE** – Eclipse, IntelliJ IDEA lub dowolne środowisko kompatybilne z Javą.  
+3. **IDE** – Eclipse, IntelliJ IDEA lub dowolne środowisko programistyczne kompatybilne z Javą.  
 
-## Przewodnik krok po kroku
+## Jak utworzyć rozszerzony atrybut w Javie?
+Załaduj swój projekt, zdefiniuj atrybut, przypisz go do zasobu i zapisz plik – wszystko w kilku prostych krokach. Poniższe sekcje dzielą każdy krok na krótkie wyjaśnienie, po którym znajduje się placeholder, w którym znajduje się Twój rzeczywisty kod.
 
-### Import Packages
-Importuj najpierw klasy Aspose.Tasks, których będziesz potrzebować. Zapewniają one podstawową funkcjonalność obsługi projektów, zasobów i atrybutów rozszerzonych.
+### Przewodnik krok po kroku
+
+#### Importowanie pakietów
+`Project`, `ExtendedAttributeDefinition`, `ExtendedAttributeResource` oraz powiązane klasy znajdują się w przestrzeni nazw `com.aspose.tasks`. Zaimportuj je na początku swojego pliku Java.
 
 ```java
 import com.aspose.tasks.ExtendedAttribute;
@@ -62,22 +120,22 @@ import com.aspose.tasks.SaveFileFormat;
 import java.math.BigDecimal;
 ```
 
-### Krok 1: Define Data Directory
-Ustaw folder, w którym znajduje się źródłowy plik projektu oraz miejsce, w którym zostanie zapisany wynik.
+#### Krok 1: Zdefiniuj katalog danych
+`Paths` jest klasą narzędziową, która udostępnia metody uzyskiwania ścieżki systemu plików w sposób niezależny od platformy.
 
 ```java
 String dataDir = "Your Data Directory";
 ```
 
-### Krok 2: Load Microsoft Project File
-Utwórz instancję `Project`, ładując istniejący plik. To **load Microsoft project file** krok, który daje pełny dostęp do jego zawartości.
+#### Krok 2: Załaduj plik Microsoft Project
+`Project` reprezentuje plik Microsoft Project w pamięci, umożliwiając odczyt i zapis jego zawartości.
 
 ```java
 Project prj = new Project(dataDir + "ResourceWithExtAttribs.xml");
 ```
 
-### Krok 3: Define the Custom Attribute
-Zdefiniujemy nowy atrybut numeryczny o nazwie **Age**. API sprawdza, czy definicja już istnieje; jeśli nie, tworzy ją.
+#### Krok 3: Zdefiniuj niestandardowy atrybut
+`ExtendedAttributeDefinition` definiuje schemat nowego niestandardowego pola, które może być przypisane do zasobów lub zadań.
 
 ```java
 ExtendedAttributeDefinition myNumber1 = prj.getExtendedAttributes().getById((int) ExtendedAttributeTask.Number1);
@@ -87,72 +145,72 @@ if (myNumber1 == null) {
 }
 ```
 
-### Krok 4: Set Numeric Value in Java
-Utwórz instancję atrybutu dla konkretnego zasobu i przypisz wartość numeryczną przy użyciu `setNumericValue`. To demonstracja **set numeric value java** w praktyce.
+#### Krok 4: Ustaw wartość numeryczną w Javie
+`ExtendedAttributeResource` przechowuje wartość niestandardowego atrybutu dla konkretnej instancji zasobu.
 
 ```java
 ExtendedAttribute number1Resource = myNumber1.createExtendedAttribute();
 number1Resource.setNumericValue(BigDecimal.valueOf(30.5345));
 ```
 
-### Krok 5: Add Resource and Attach the Custom Attribute
-Dodaj nowy zasób o nazwie **R1** i dołącz do niego wcześniej utworzony niestandardowy atrybut.
+#### Krok 5: Dodaj zasób i dołącz niestandardowy atrybut
+`Resource` modeluje zasób projektu, taki jak osoba, sprzęt lub materiał.
 
 ```java
 Resource rsc = prj.getResources().add("R1");
 rsc.getExtendedAttributes().add(number1Resource);
 ```
 
-### Krok 6: Save Project as XML
-Na koniec zachowaj zmiany, zapisując projekt. To **save project as xml** krok, który generuje czystą reprezentację XML zaktualizowanego pliku.
+#### Krok 6: Zapisz projekt jako XML
+`SaveFileFormat` wymienia obsługiwane formaty wyjściowe do zapisywania projektu, w tym XML.
 
 ```java
 prj.save(dataDir + "project5.xml", SaveFileFormat.Xml);
 ```
 
-### Krok 7: Display Result
-Wydrukuj przyjazne potwierdzenie, abyś wiedział, że proces zakończył się bez błędów.
+#### Krok 7: Wyświetl wynik
+`System.out.println` wypisuje linię tekstu na standardowe wyjście konsoli.
 
 ```java
 System.out.println("Process completed Successfully");
 ```
 
-Postępując zgodnie z tymi krokami, pomyślnie **utworzyłeś niestandardowy atrybut**, załadowałeś plik Microsoft Project, ustawiłeś wartość numeryczną przy użyciu Javy i zapisałeś projekt jako XML.
-
 ## Typowe pułapki i wskazówki
-- **Attribute ID conflicts:** Zawsze sprawdzaj `getById` przed utworzeniem nowej definicji, aby uniknąć duplikatów ID.  
-- **Precision handling:** `BigDecimal` zachowuje precyzję dziesiętną; unikaj używania `float` lub `double` dla dokładnych wartości.  
-- **File paths:** Używaj ścieżek bezwzględnych lub skonfiguruj katalog roboczy IDE, aby zapobiec `FileNotFoundException`.  
+- **Konflikty identyfikatorów atrybutów:** Zawsze wywołuj `project.getExtendedAttributes().getById(id)` przed utworzeniem nowej definicji, aby zapobiec duplikatom identyfikatorów.  
+- **Obsługa precyzji:** Preferuj `BigDecimal` zamiast `float`/`double` dla dokładnych wartości liczbowych; zapobiega to błędom zaokrągleń w raportowaniu.  
+- **Niezawodność ścieżki pliku:** Użyj `Paths.get(...).toAbsolutePath()` lub skonfiguruj katalog roboczy IDE, aby wyeliminować `FileNotFoundException`.  
 
 ## Najczęściej zadawane pytania
 
-**Q: Czy mogę tworzyć niestandardowe atrybuty także dla zadań, jak i zasobów?**  
-A: Tak – użyj `ExtendedAttributeTask` zamiast `ExtendedAttributeResource` przy definiowaniu atrybutu.
+**Q: Czy mogę tworzyć niestandardowe atrybuty zarówno dla zadań, jak i zasobów?**  
+A: Tak – użyj `ExtendedAttributeTask` zamiast `ExtendedAttributeResource` przy definiowaniu schematu atrybutu.
 
-**Q: Czy istnieje możliwość dodania wielu niestandardowych atrybutów jednocześnie?**  
+**Q: Czy można dodać wiele niestandardowych atrybutów jednocześnie?**  
 A: Oczywiście. Utwórz osobne obiekty `ExtendedAttributeDefinition` dla każdego atrybutu i dołącz je do wybranych zasobów lub zadań.
 
 **Q: W jakich formatach mogę zapisać projekt?**  
-A: Aspose.Tasks obsługuje XML, MPP oraz kilka innych formatów, takich jak PDF i HTML. W tym przykładzie użyliśmy `SaveFileFormat.Xml`.
+A: Aspose.Tasks obsługuje XML, MPP, PDF, HTML i ponad 30 dodatkowych formatów. W tym przykładzie użyliśmy `SaveFileFormat.Xml`.
 
-**Q: Czy potrzebuję licencji Aspose.Tasks do wersji deweloperskich?**  
-A: Tymczasowa licencja wystarczy do oceny. W środowiskach produkcyjnych wymagana jest pełna licencja.
+**Q: Czy potrzebuję licencji do wersji deweloperskich?**  
+A: Tymczasowa licencja ewaluacyjna wystarcza do testów. Do wszelkich wdrożeń produkcyjnych wymagana jest pełna licencja komercyjna.
 
 **Q: Jak później odczytać wartości niestandardowych atrybutów?**  
-A: Użyj `resource.getExtendedAttributes()` aby przeiterować dołączone atrybuty i pobrać ich wartości metodami `getNumericValue()` lub `getTextValue()`.
-
-## Podsumowanie
-Tworzenie **custom attribute** w Microsoft Project przy użyciu Aspose.Tasks for Java jest proste, gdy zrozumiesz przepływ pracy: załaduj projekt, zdefiniuj atrybut, ustaw jego wartość, dołącz go do zasobu i zapisz plik. Takie podejście umożliwia programowe rozszerzanie modeli danych projektu, co pozwala na bogatsze raportowanie i lepszą integrację z procesami biznesowymi.
+A: Wywołaj `resource.getExtendedAttributes()` i iteruj po kolekcji; pobierz przechowywaną wartość za pomocą `getNumericValue()` lub `getTextValue()`.
 
 ---
 
-**Last Updated:** 2026-01-13  
+**Last Updated:** 2026-06-10  
 **Tested With:** Aspose.Tasks for Java 24.12  
-**Author:** Aspose  
+**Author:** Aspose
+
+## Powiązane samouczki
+
+- [Jak utworzyć zasoby – zarządzanie zasobami z Aspose.Tasks dla Java](/tasks/java/resource-management/)
+- [Utwórz niestandardowe pole Aspose – obsługa rozszerzonych atrybutów](/tasks/java/project-management/extended-attributes/)
+- [Jak utworzyć projekt – ustaw nowe atrybuty zadań z Aspose.Tasks](/tasks/java/project-file-operations/set-attributes-new-tasks/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

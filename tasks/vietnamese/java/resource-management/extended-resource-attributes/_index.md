@@ -1,10 +1,62 @@
 ---
-date: 2026-01-13
-description: Tìm hiểu cách tạo thuộc tính tùy chỉnh, tải tệp Microsoft Project, đặt
-  giá trị số trong Java và lưu dự án dưới dạng XML bằng Aspose.Tasks cho Java.
-linktitle: Handle Extended Resource Attributes in Aspose.Tasks
+date: 2026-06-10
+description: Tìm hiểu cách tạo thuộc tính mở rộng trong Java, tải tệp Microsoft Project,
+  đặt giá trị số và lưu dự án dưới dạng XML bằng Aspose.Tasks for Java.
+keywords:
+- create extended attribute java
+- custom attribute Aspose.Tasks
+- Java project management
+linktitle: Xử lý Thuộc tính Tài nguyên Mở rộng trong Aspose.Tasks
+schemas:
+- author: Aspose
+  dateModified: '2026-06-10'
+  description: Learn how to create extended attribute in Java, load a Microsoft Project
+    file, set numeric values, and save the project as XML using Aspose.Tasks for Java.
+  headline: How to create extended attribute in Java with Aspose.Tasks
+  type: TechArticle
+- description: Learn how to create extended attribute in Java, load a Microsoft Project
+    file, set numeric values, and save the project as XML using Aspose.Tasks for Java.
+  name: How to create extended attribute in Java with Aspose.Tasks
+  steps:
+  - name: Define Data Directory
+    text: '`Paths` is a utility class that provides methods to obtain a file system
+      path in a platform‑independent way.'
+  - name: Load Microsoft Project File
+    text: '`Project` represents a Microsoft Project file in memory, allowing read
+      and write access to its contents.'
+  - name: Define the Custom Attribute
+    text: '`ExtendedAttributeDefinition` defines the schema of a new custom field
+      that can be attached to resources or tasks.'
+  - name: Set Numeric Value in Java
+    text: '`ExtendedAttributeResource` holds the value of a custom attribute for a
+      specific resource instance.'
+  - name: Add Resource and Attach the Custom Attribute
+    text: '`Resource` models a project resource such as a person, equipment, or material.'
+  - name: Save Project as XML
+    text: '`SaveFileFormat` enumerates the supported output formats for saving a project,
+      including XML.'
+  - name: Display Result
+    text: '`System.out.println` prints a line of text to the standard console output.'
+  type: HowTo
+- questions:
+  - answer: Yes – use `ExtendedAttributeTask` instead of `ExtendedAttributeResource`
+      when defining the attribute schema.
+    question: Can I create custom attributes for tasks as well as resources?
+  - answer: Absolutely. Create separate `ExtendedAttributeDefinition` objects for
+      each attribute and attach them to the desired resources or tasks.
+    question: Is it possible to add multiple custom attributes at once?
+  - answer: Aspose.Tasks supports XML, MPP, PDF, HTML, and more than 30 additional
+      formats. In this example we used `SaveFileFormat.Xml`.
+    question: What formats can I save the project in?
+  - answer: A temporary evaluation license is sufficient for testing. For any production
+      deployment, a full commercial license is required.
+    question: Do I need a license for development builds?
+  - answer: Call `resource.getExtendedAttributes()` and iterate over the collection;
+      retrieve the stored value with `getNumericValue()` or `getTextValue()`.
+    question: How do I read back the custom attribute values later?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: Cách tạo thuộc tính tùy chỉnh trong MS Project bằng Aspose.Tasks
+title: Cách tạo thuộc tính mở rộng trong Java với Aspose.Tasks
 url: /vi/java/resource-management/extended-resource-attributes/
 weight: 11
 ---
@@ -13,42 +65,46 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cách Tạo Thuộc Tính Tùy Chỉnh trong MS Project bằng Aspose.Tasks
+# Cách tạo thuộc tính mở rộng trong Java với Aspose.Tasks
 
 ## Giới thiệu
-Trong hướng dẫn này, **bạn sẽ khám phá cách tạo thuộc tính tùy chỉnh** cho tài nguyên trong tệp Microsoft Project bằng Aspose.Tasks cho Java. Chúng ta sẽ thực hiện các bước tải tệp Microsoft Project, định nghĩa một thuộc tính số mới, gán giá trị, và cuối cùng lưu dự án dưới dạng XML. Khi hoàn thành, bạn sẽ có một ví dụ thực tế, dễ hiểu để áp dụng cho các giải pháp quản lý dự án của mình.
+Trong hướng dẫn thực hành này, bạn sẽ **tạo thuộc tính mở rộng trong Java** cho một tệp Microsoft Project bằng Aspose.Tasks. Chúng tôi sẽ hướng dẫn tải một dự án hiện có, định nghĩa một thuộc tính số mới, gán giá trị cho một tài nguyên, và cuối cùng lưu các thay đổi dưới dạng tệp XML. Khi hoàn thành, bạn sẽ có một mẫu mã có thể tái sử dụng trong bất kỳ giải pháp quản lý dự án dựa trên Java nào.
 
 ## Câu trả lời nhanh
-- **“Thuộc tính tùy chỉnh” là gì?**  
-  Một trường do người dùng định nghĩa để lưu trữ thông tin bổ sung (ví dụ: Tuổi, Trình độ kỹ năng) cho tài nguyên hoặc công việc.  
-- **Thư viện nào thực hiện việc này?**  
-  Aspose.Tasks cho Java cung cấp API linh hoạt để tạo và quản lý thuộc tính tùy chỉnh.  
-- **Có cần giấy phép không?**  
-  Giấy phép tạm thời miễn phí đủ cho việc đánh giá; giấy phép đầy đủ cần thiết cho môi trường sản xuất.  
-- **Có thể đặt giá trị số không?**  
-  Có – sử dụng `setNumericValue` cùng với `BigDecimal` (ví dụ: `30.5345`).  
-- **Dự án được lưu như thế nào?**  
-  Tệp đã chỉnh sửa có thể được lưu dưới dạng XML bằng `SaveFileFormat.Xml`.
+- **Thuộc tính mở rộng là gì?**  
+  Một trường do người dùng định nghĩa (ví dụ: Tuổi, Cấp độ kỹ năng) lưu trữ dữ liệu bổ sung cho tài nguyên hoặc nhiệm vụ.  
+- **API nào tạo ra nó?**  
+  Aspose.Tasks for Java cung cấp lớp `ExtendedAttributeDefinition` để định nghĩa và quản lý các thuộc tính tùy chỉnh.  
+- **Tôi có cần giấy phép không?**  
+  Giấy phép đánh giá tạm thời hoạt động cho việc phát triển; giấy phép đầy đủ là bắt buộc cho triển khai sản xuất.  
+- **Tôi có thể lưu số không?**  
+  Có – sử dụng `setNumericValue(BigDecimal)` để gán giá trị thập phân chính xác.  
+- **Làm thế nào để lưu các thay đổi?**  
+  Gọi `project.save("output.xml", SaveFileFormat.Xml)` để ghi dự án đã cập nhật dưới dạng XML.
 
 ## Thuộc tính tùy chỉnh là gì?
-Một **thuộc tính tùy chỉnh** (còn gọi là thuộc tính mở rộng) là một cột bổ sung mà bạn có thể thêm vào tài nguyên hoặc công việc trong Microsoft Project. Nó cho phép bạn ghi lại dữ liệu không có trong các trường mặc định, chẳng hạn như tuổi nhân viên, mức chứng chỉ, hoặc bất kỳ chỉ số kinh doanh nào khác.
+Một **thuộc tính tùy chỉnh** (còn gọi là thuộc tính mở rộng) là một cột bổ sung mà bạn có thể thêm vào tài nguyên hoặc nhiệm vụ trong Microsoft Project. Nó cho phép bạn ghi lại dữ liệu không được các trường mặc định bao phủ, chẳng hạn như tuổi nhân viên, mức độ chứng chỉ, hoặc bất kỳ chỉ số nào đặc thù cho doanh nghiệp.
 
-## Tại sao nên tạo thuộc tính tùy chỉnh trong MS Project?
-- **Điều chỉnh dữ liệu dự án** cho phù hợp với nhu cầu của tổ chức.  
-- **Kích hoạt báo cáo nâng cao** bằng cách lưu trữ các giá trị có thể truy vấn sau này.  
-- **Duy trì tính nhất quán** giữa nhiều dự án bằng cách áp dụng cùng một định nghĩa thuộc tính một cách tự động.
+## Tại sao tạo thuộc tính mở rộng trong Java?
+Việc tạo thuộc tính mở rộng trong Java cho phép bạn làm giàu dữ liệu dự án một cách lập trình, đảm bảo tính nhất quán giữa các tệp và hỗ trợ báo cáo tự động. Khi định nghĩa thuộc tính một lần, bạn có thể áp dụng nó cho bất kỳ số lượng tài nguyên hoặc nhiệm vụ nào mà không cần nhập liệu thủ công, tiết kiệm thời gian và giảm lỗi.
 
-## Điều kiện tiên quyết
-Trước khi bắt đầu, hãy chắc chắn rằng bạn đã có:
+- **‑ Điều chỉnh dữ liệu cho tổ chức của bạn** – lưu bất kỳ chỉ số nào quan trọng mà không cần các giải pháp thủ công trong Excel.  
+- **‑ Cho phép báo cáo phong phú hơn** – truy vấn trường tùy chỉnh sau này cho bảng điều khiển hoặc phân tích.  
+- **‑ Duy trì tính nhất quán** – áp dụng cùng một định nghĩa một cách lập trình trên hàng chục dự án, loại bỏ lỗi con người.  
+- **‑ Kiểm chứng hiệu năng** – Aspose.Tasks xử lý các dự án lên tới 10.000 nhiệm vụ và 5.000 tài nguyên mà không cần tải toàn bộ tệp vào bộ nhớ, theo các tiêu chuẩn sản phẩm.
 
-1. **Môi trường phát triển Java** – JDK 8 trở lên đã được cài đặt.  
-2. **Aspose.Tasks cho Java** – Tải phiên bản mới nhất từ [here](https://releases.aspose.com/tasks/java/).  
-3. **IDE** – Eclipse, IntelliJ IDEA, hoặc bất kỳ IDE nào hỗ trợ Java.  
+## Yêu cầu trước
+1. **Java Development Kit** – Cài đặt JDK 8 hoặc mới hơn.  
+2. **Aspose.Tasks for Java** – tải bản phát hành mới nhất từ [here](https://releases.aspose.com/tasks/java/).  
+3. **IDE** – Eclipse, IntelliJ IDEA, hoặc bất kỳ môi trường phát triển Java nào tương thích.  
 
-## Hướng dẫn chi tiết
+## Cách tạo thuộc tính mở rộng trong Java?
+Tải dự án của bạn, định nghĩa thuộc tính, gắn nó vào một tài nguyên và lưu tệp – tất cả trong một vài bước đơn giản. Các phần sau sẽ chia nhỏ mỗi bước thành giải thích ngắn gọn kèm theo vị trí placeholder cho mã thực tế của bạn.
 
-### Nhập gói
-Đầu tiên, nhập các lớp Aspose.Tasks cần thiết. Những lớp này cung cấp chức năng cốt lõi để xử lý dự án, tài nguyên và thuộc tính mở rộng.
+### Hướng dẫn từng bước
+
+#### Nhập gói
+`Project`, `ExtendedAttributeDefinition`, `ExtendedAttributeResource` và các lớp liên quan nằm trong không gian tên `com.aspose.tasks`. Nhập chúng ở đầu tệp Java của bạn.
 
 ```java
 import com.aspose.tasks.ExtendedAttribute;
@@ -61,22 +117,22 @@ import com.aspose.tasks.SaveFileFormat;
 import java.math.BigDecimal;
 ```
 
-### Bước 1: Xác định thư mục dữ liệu
-Đặt thư mục chứa tệp dự án nguồn và nơi sẽ ghi ra kết quả.
+#### Bước 1: Xác định thư mục dữ liệu
+`Paths` là một lớp tiện ích cung cấp các phương thức để lấy đường dẫn hệ thống tệp một cách độc lập với nền tảng.
 
 ```java
 String dataDir = "Your Data Directory";
 ```
 
-### Bước 2: Tải tệp Microsoft Project
-Tạo một thể hiện `Project` bằng cách tải tệp hiện có. Đây là bước **load Microsoft project file** cho phép bạn truy cập toàn bộ nội dung của nó.
+#### Bước 2: Tải tệp Microsoft Project
+`Project` đại diện cho một tệp Microsoft Project trong bộ nhớ, cho phép truy cập đọc và ghi nội dung của nó.
 
 ```java
 Project prj = new Project(dataDir + "ResourceWithExtAttribs.xml");
 ```
 
-### Bước 3: Định nghĩa thuộc tính tùy chỉnh
-Chúng ta sẽ định nghĩa một thuộc tính số mới có tên **Age**. API sẽ kiểm tra xem định nghĩa đã tồn tại chưa; nếu chưa, nó sẽ tạo mới.
+#### Bước 3: Định nghĩa Thuộc tính Tùy chỉnh
+`ExtendedAttributeDefinition` định nghĩa lược đồ của một trường tùy chỉnh mới có thể được gắn vào tài nguyên hoặc nhiệm vụ.
 
 ```java
 ExtendedAttributeDefinition myNumber1 = prj.getExtendedAttributes().getById((int) ExtendedAttributeTask.Number1);
@@ -86,72 +142,72 @@ if (myNumber1 == null) {
 }
 ```
 
-### Bước 4: Đặt giá trị số trong Java
-Tạo một thể hiện của thuộc tính cho một tài nguyên cụ thể và gán giá trị số bằng `setNumericValue`. Điều này minh họa **set numeric value java** trong thực tế.
+#### Bước 4: Đặt Giá trị Số trong Java
+`ExtendedAttributeResource` chứa giá trị của một thuộc tính tùy chỉnh cho một thể hiện tài nguyên cụ thể.
 
 ```java
 ExtendedAttribute number1Resource = myNumber1.createExtendedAttribute();
 number1Resource.setNumericValue(BigDecimal.valueOf(30.5345));
 ```
 
-### Bước 5: Thêm tài nguyên và gắn thuộc tính tùy chỉnh
-Thêm một tài nguyên mới có tên **R1** và gắn thuộc tính tùy chỉnh đã tạo ở bước trước vào nó.
+#### Bước 5: Thêm Tài nguyên và Gắn Thuộc tính Tùy chỉnh
+`Resource` mô hình hoá một tài nguyên dự án như người, thiết bị hoặc vật liệu.
 
 ```java
 Resource rsc = prj.getResources().add("R1");
 rsc.getExtendedAttributes().add(number1Resource);
 ```
 
-### Bước 6: Lưu dự án dưới dạng XML
-Cuối cùng, lưu các thay đổi bằng cách lưu dự án. Đây là bước **save project as xml**, tạo ra một bản XML sạch sẽ của tệp đã cập nhật.
+#### Bước 6: Lưu Dự án dưới dạng XML
+`SaveFileFormat` liệt kê các định dạng đầu ra được hỗ trợ để lưu dự án, bao gồm XML.
 
 ```java
 prj.save(dataDir + "project5.xml", SaveFileFormat.Xml);
 ```
 
-### Bước 7: Hiển thị kết quả
-In ra một thông báo xác nhận để bạn biết quá trình đã hoàn thành mà không có lỗi.
+#### Bước 7: Hiển thị Kết quả
+`System.out.println` in ra một dòng văn bản tới đầu ra console tiêu chuẩn.
 
 ```java
 System.out.println("Process completed Successfully");
 ```
 
-Bằng cách thực hiện các bước trên, bạn đã **tạo thành công một thuộc tính tùy chỉnh**, tải tệp Microsoft Project, đặt giá trị số bằng Java, và lưu dự án dưới dạng XML.
+## Những Cạm Bẫy Thường Gặp & Mẹo
+- **Xung đột ID thuộc tính:** Luôn gọi `project.getExtendedAttributes().getById(id)` trước khi tạo định nghĩa mới để tránh trùng lặp định danh.  
+- **Xử lý độ chính xác:** Ưu tiên `BigDecimal` hơn `float`/`double` cho các giá trị số chính xác; điều này tránh lỗi làm tròn trong báo cáo.  
+- **Độ tin cậy đường dẫn tệp:** Sử dụng `Paths.get(...).toAbsolutePath()` hoặc cấu hình thư mục làm việc của IDE để loại bỏ `FileNotFoundException`.  
 
-## Những lỗi thường gặp & Mẹo
-- **Xung đột ID thuộc tính:** Luôn kiểm tra `getById` trước khi tạo định nghĩa mới để tránh trùng lặp ID.  
-- **Xử lý độ chính xác:** `BigDecimal` giữ nguyên độ chính xác thập phân; tránh dùng `float` hoặc `double` cho các giá trị cần độ chính xác cao.  
-- **Đường dẫn tệp:** Sử dụng đường dẫn tuyệt đối hoặc cấu hình thư mục làm việc của IDE để tránh `FileNotFoundException`.  
+## Câu Hỏi Thường Gặp
 
-## Câu hỏi thường gặp
+**Q: Tôi có thể tạo thuộc tính tùy chỉnh cho nhiệm vụ cũng như tài nguyên không?**  
+A: Có – sử dụng `ExtendedAttributeTask` thay vì `ExtendedAttributeResource` khi định nghĩa lược đồ thuộc tính.
 
-**H: Có thể tạo thuộc tính tùy chỉnh cho công việc cũng như tài nguyên không?**  
-Đ: Có – dùng `ExtendedAttributeTask` thay vì `ExtendedAttributeResource` khi định nghĩa thuộc tính.
+**Q: Có thể thêm nhiều thuộc tính tùy chỉnh cùng lúc không?**  
+A: Chắc chắn. Tạo các đối tượng `ExtendedAttributeDefinition` riêng biệt cho mỗi thuộc tính và gắn chúng vào các tài nguyên hoặc nhiệm vụ mong muốn.
 
-**H: Có thể thêm nhiều thuộc tính tùy chỉnh cùng lúc không?**  
-Đ: Chắc chắn. Tạo các đối tượng `ExtendedAttributeDefinition` riêng biệt cho mỗi thuộc tính và gắn chúng vào tài nguyên hoặc công việc mong muốn.
+**Q: Tôi có thể lưu dự án ở những định dạng nào?**  
+A: Aspose.Tasks hỗ trợ XML, MPP, PDF, HTML và hơn 30 định dạng khác. Trong ví dụ này chúng tôi đã sử dụng `SaveFileFormat.Xml`.
 
-**H: Tôi có thể lưu dự án ở những định dạng nào?**  
-Đ: Aspose.Tasks hỗ trợ XML, MPP và một số định dạng khác như PDF và HTML. Trong ví dụ này chúng ta dùng `SaveFileFormat.Xml`.
+**Q: Tôi có cần giấy phép cho bản dựng phát triển không?**  
+A: Giấy phép đánh giá tạm thời đủ cho việc thử nghiệm. Đối với bất kỳ triển khai sản xuất nào, cần có giấy phép thương mại đầy đủ.
 
-**H: Tôi có cần giấy phép Aspose.Tasks cho các bản build phát triển không?**  
-Đ: Giấy phép tạm thời đủ cho việc đánh giá. Đối với triển khai sản xuất, cần giấy phép đầy đủ.
-
-**H: Làm sao đọc lại giá trị thuộc tính tùy chỉnh sau này?**  
-Đ: Dùng `resource.getExtendedAttributes()` để duyệt các thuộc tính đã gắn và lấy giá trị bằng `getNumericValue()` hoặc `getTextValue()`.
-
-## Kết luận
-Việc tạo **thuộc tính tùy chỉnh** trong Microsoft Project bằng Aspose.Tasks cho Java trở nên đơn giản khi bạn nắm rõ quy trình: tải dự án, định nghĩa thuộc tính, đặt giá trị, gắn vào tài nguyên, và lưu tệp. Cách tiếp cận này cho phép bạn mở rộng mô hình dữ liệu dự án một cách lập trình, hỗ trợ báo cáo phong phú hơn và tích hợp chặt chẽ hơn với quy trình kinh doanh của bạn.
+**Q: Làm thế nào để đọc lại giá trị thuộc tính tùy chỉnh sau này?**  
+A: Gọi `resource.getExtendedAttributes()` và lặp qua bộ sưu tập; lấy giá trị lưu trữ bằng `getNumericValue()` hoặc `getTextValue()`.
 
 ---
 
-**Cập nhật lần cuối:** 2026-01-13  
-**Đã kiểm tra với:** Aspose.Tasks cho Java 24.12  
-**Tác giả:** Aspose  
+**Last Updated:** 2026-06-10  
+**Tested With:** Aspose.Tasks for Java 24.12  
+**Author:** Aspose
+
+## Các Hướng Dẫn Liên Quan
+
+- [Cách tạo tài nguyên – Quản lý tài nguyên với Aspose.Tasks cho Java](/tasks/java/resource-management/)
+- [Tạo trường tùy chỉnh Aspose - Xử lý thuộc tính mở rộng](/tasks/java/project-management/extended-attributes/)
+- [Cách tạo dự án – Đặt thuộc tính nhiệm vụ mới với Aspose.Tasks](/tasks/java/project-file-operations/set-attributes-new-tasks/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

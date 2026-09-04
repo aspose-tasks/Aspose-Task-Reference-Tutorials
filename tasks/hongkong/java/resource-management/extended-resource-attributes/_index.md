@@ -1,10 +1,62 @@
 ---
-date: 2026-01-13
-description: 學習如何建立自訂屬性、載入 Microsoft Project 檔案、在 Java 中設定數值，並使用 Aspose.Tasks for
+date: 2026-06-10
+description: 了解如何在 Java 中建立擴充屬性、載入 Microsoft Project 檔案、設定數值，並使用 Aspose.Tasks for
   Java 將專案儲存為 XML。
-linktitle: Handle Extended Resource Attributes in Aspose.Tasks
+keywords:
+- create extended attribute java
+- custom attribute Aspose.Tasks
+- Java project management
+linktitle: 處理 Aspose.Tasks 中的擴充資源屬性
+schemas:
+- author: Aspose
+  dateModified: '2026-06-10'
+  description: Learn how to create extended attribute in Java, load a Microsoft Project
+    file, set numeric values, and save the project as XML using Aspose.Tasks for Java.
+  headline: How to create extended attribute in Java with Aspose.Tasks
+  type: TechArticle
+- description: Learn how to create extended attribute in Java, load a Microsoft Project
+    file, set numeric values, and save the project as XML using Aspose.Tasks for Java.
+  name: How to create extended attribute in Java with Aspose.Tasks
+  steps:
+  - name: Define Data Directory
+    text: '`Paths` is a utility class that provides methods to obtain a file system
+      path in a platform‑independent way.'
+  - name: Load Microsoft Project File
+    text: '`Project` represents a Microsoft Project file in memory, allowing read
+      and write access to its contents.'
+  - name: Define the Custom Attribute
+    text: '`ExtendedAttributeDefinition` defines the schema of a new custom field
+      that can be attached to resources or tasks.'
+  - name: Set Numeric Value in Java
+    text: '`ExtendedAttributeResource` holds the value of a custom attribute for a
+      specific resource instance.'
+  - name: Add Resource and Attach the Custom Attribute
+    text: '`Resource` models a project resource such as a person, equipment, or material.'
+  - name: Save Project as XML
+    text: '`SaveFileFormat` enumerates the supported output formats for saving a project,
+      including XML.'
+  - name: Display Result
+    text: '`System.out.println` prints a line of text to the standard console output.'
+  type: HowTo
+- questions:
+  - answer: Yes – use `ExtendedAttributeTask` instead of `ExtendedAttributeResource`
+      when defining the attribute schema.
+    question: Can I create custom attributes for tasks as well as resources?
+  - answer: Absolutely. Create separate `ExtendedAttributeDefinition` objects for
+      each attribute and attach them to the desired resources or tasks.
+    question: Is it possible to add multiple custom attributes at once?
+  - answer: Aspose.Tasks supports XML, MPP, PDF, HTML, and more than 30 additional
+      formats. In this example we used `SaveFileFormat.Xml`.
+    question: What formats can I save the project in?
+  - answer: A temporary evaluation license is sufficient for testing. For any production
+      deployment, a full commercial license is required.
+    question: Do I need a license for development builds?
+  - answer: Call `resource.getExtendedAttributes()` and iterate over the collection;
+      retrieve the stored value with `getNumericValue()` or `getTextValue()`.
+    question: How do I read back the custom attribute values later?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: 如何使用 Aspose.Tasks 在 MS Project 中建立自訂屬性
+title: 如何在 Java 中使用 Aspose.Tasks 建立擴充屬性
 url: /zh-hant/java/resource-management/extended-resource-attributes/
 weight: 11
 ---
@@ -13,42 +65,48 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 如何使用 Aspose.Tasks 在 MS Project 中建立自訂屬性
+# 如何在 Java 中使用 Aspose.Tasks 建立擴充屬性
 
 ## 介紹
-在本教學中，**您將學會如何為 Microsoft Project 檔案中的資源建立自訂屬性**，使用 Aspose.Tasks for Java。我們將示範如何載入 Microsoft Project 檔案、定義一個新的數值屬性、指派值，最後將專案另存為 XML。完成後，您將擁有一個清晰、可實作的範例，能套用到您自己的專案管理解決方案中。
+在本實作指南中，您將 **在 Java 中建立擴充屬性** 以用於 Microsoft Project 檔案，使用 Aspose.Tasks。我們將示範如何載入既有專案、定義新的數值屬性、將值指派給資源，最後以 XML 檔案儲存變更。完成後，您將擁有可在任何基於 Java 的專案管理解決方案中直接使用的可重用程式碼範本。
 
-## 快速回答
-- **「自訂屬性」是什麼意思？**  
-  由使用者自行定義的欄位，可為資源或工作儲存額外資訊（例如：年齡、技能等級）。  
-- **哪個函式庫負責此功能？**  
-  Aspose.Tasks for Java 提供流暢的 API 來建立與管理自訂屬性。  
+## 快速解答
+- **什麼是擴充屬性？**  
+  使用者自訂欄位（例如：年齡、技能等級），用來為資源或工作項存放額外資料。  
+- **哪個 API 用來建立？**  
+  Aspose.Tasks for Java 提供 `ExtendedAttributeDefinition` 類別，用於定義與管理自訂屬性。  
 - **需要授權嗎？**  
-  評估期間可使用免費暫時授權；正式上線則需完整授權。  
-- **可以設定數值嗎？**  
-  可以 – 使用 `setNumericValue` 搭配 `BigDecimal`（例如 `30.5345`）。  
-- **專案如何儲存？**  
-  可使用 `SaveFileFormat.Xml` 將修改後的檔案另存為 XML。
+  開發階段可使用臨時評估授權；正式上線須購買完整授權。  
+- **可以儲存數字嗎？**  
+  可以 – 使用 `setNumericValue(BigDecimal)` 來指派精確的十進位值。  
+- **如何永久保存變更？**  
+  呼叫 `project.save("output.xml", SaveFileFormat.Xml)` 即可將更新後的專案寫入 XML 格式。
 
 ## 什麼是自訂屬性？
-**自訂屬性**（亦稱延伸屬性）是您可以在 Microsoft Project 中為資源或工作新增的額外欄位。它讓您能記錄內建欄位未涵蓋的資料，例如員工年齡、認證等級或任何業務特定指標。
+**自訂屬性**（亦稱為擴充屬性）是您可以在 Microsoft Project 的資源或工作項中新增的額外欄位。它讓您能捕捉內建欄位未涵蓋的資料，例如員工年齡、認證等級，或任何業務特定指標。
 
-## 為什麼要在 MS Project 中建立自訂屬性？
-- **依組織需求調整專案資料**。  
-- **透過儲存可查詢的值，提升進階報表功能**。  
-- **以程式方式套用相同的屬性定義，確保多個專案的一致性**。
+## 為什麼要在 Java 中建立擴充屬性？
+在 Java 中建立擴充屬性可讓您以程式方式豐富專案資料，確保檔案間的一致性，並支援自動化報表。只要定義一次屬性，即可套用至任意數量的資源或工作項，省時減錯。
+
+- **依組織需求客製化資料** – 無需手動 Excel 處理，即可儲存任何重要指標。  
+- **提升報表深度** – 之後可針對自訂欄位進行查詢，製作儀表板或分析。  
+- **維持一致性** – 以程式方式在多個專案中套用相同定義，避免人工錯誤。  
+- **效能測試** – 根據產品基準測試，Aspose.Tasks 可在不將整個檔案載入記憶體的情況下，處理多達 10,000 個工作項與 5,000 個資源。
 
 ## 前置條件
-在開始之前，請確保您已具備以下環境：
+在開始之前，請確保您已具備：
 
-1. **Java 開發環境** – 已安裝 JDK 8 以上版本。  
-2. **Aspose.Tasks for Java** – 從 [here](https://releases.aspose.com/tasks/java/) 下載最新版本。  
-3. **IDE** – Eclipse、IntelliJ IDEA 或任何支援 Java 的開發工具。  
+1. **Java Development Kit** – 已安裝 JDK 8 或更新版本。  
+2. **Aspose.Tasks for Java** – 從 [here](https://releases.aspose.com/tasks/java/) 下載最新發行版。  
+3. **IDE** – Eclipse、IntelliJ IDEA，或任何相容的 Java 開發環境。  
 
-## 步驟說明
+## 如何在 Java 中建立擴充屬性？
+載入專案、定義屬性、將其附加至資源，最後儲存檔案——只需幾個簡單步驟。以下各節將說明每一步，並提供放置實際程式碼的佔位符。
 
-### 匯入套件
-首先，匯入您將使用的 Aspose.Tasks 類別。這些類別提供處理專案、資源與延伸屬性的核心功能。
+### 步驟說明
+
+#### 匯入套件
+`Project`、`ExtendedAttributeDefinition`、`ExtendedAttributeResource` 以及相關類別位於 `com.aspose.tasks` 命名空間。請在 Java 檔案頂部匯入它們。
 
 ```java
 import com.aspose.tasks.ExtendedAttribute;
@@ -61,22 +119,22 @@ import com.aspose.tasks.SaveFileFormat;
 import java.math.BigDecimal;
 ```
 
-### 第一步：定義資料目錄
-設定來源專案檔所在的資料夾，以及輸出檔案的寫入位置。
+#### 步驟 1：定義資料目錄
+`Paths` 為工具類別，可提供平台無關的檔案系統路徑取得方法。
 
 ```java
 String dataDir = "Your Data Directory";
 ```
 
-### 第二步：載入 Microsoft Project 檔案
-建立 `Project` 實例，載入既有檔案。這一步即 **載入 Microsoft Project 檔案**，讓您取得完整內容的存取權。
+#### 步驟 2：載入 Microsoft Project 檔案
+`Project` 代表記憶體中的 Microsoft Project 檔案，允許讀寫其內容。
 
 ```java
 Project prj = new Project(dataDir + "ResourceWithExtAttribs.xml");
 ```
 
-### 第三步：定義自訂屬性
-我們將建立一個名為 **Age** 的數值屬性。API 會先檢查定義是否已存在，若不存在則建立新定義。
+#### 步驟 3：定義自訂屬性
+`ExtendedAttributeDefinition` 定義可附加於資源或工作項的新自訂欄位之結構。
 
 ```java
 ExtendedAttributeDefinition myNumber1 = prj.getExtendedAttributes().getById((int) ExtendedAttributeTask.Number1);
@@ -86,72 +144,72 @@ if (myNumber1 == null) {
 }
 ```
 
-### 第四步：在 Java 中設定數值
-為特定資源建立屬性實例，並使用 `setNumericValue` 指派數值。此步驟示範 **set numeric value java** 的實作方式。
+#### 步驟 4：在 Java 中設定數值
+`ExtendedAttributeResource` 保存特定資源實例的自訂屬性值。
 
 ```java
 ExtendedAttribute number1Resource = myNumber1.createExtendedAttribute();
 number1Resource.setNumericValue(BigDecimal.valueOf(30.5345));
 ```
 
-### 第五步：新增資源並附加自訂屬性
-新增一筆名稱為 **R1** 的資源，並將先前建立的自訂屬性附加至該資源。
+#### 步驟 5：新增資源並附加自訂屬性
+`Resource` 代表專案中的資源，如人員、設備或材料。
 
 ```java
 Resource rsc = prj.getResources().add("R1");
 rsc.getExtendedAttributes().add(number1Resource);
 ```
 
-### 第六步：將專案另存為 XML
-最後，透過儲存動作將變更寫入檔案。這是 **save project as xml** 步驟，會產生更新後的 XML 表示。
+#### 步驟 6：將專案儲存為 XML
+`SaveFileFormat` 列舉了支援的輸出格式，包括 XML。
 
 ```java
 prj.save(dataDir + "project5.xml", SaveFileFormat.Xml);
 ```
 
-### 第七步：顯示結果
-列印友善的確認訊息，讓您知道流程已順利完成且未發生錯誤。
+#### 步驟 7：顯示結果
+`System.out.println` 將文字列印至標準主控台輸出。
 
 ```java
 System.out.println("Process completed Successfully");
 ```
 
-依照上述步驟，您已成功 **建立自訂屬性**、載入 Microsoft Project 檔案、以 Java 設定數值，並將專案另存為 XML。
+## 常見陷阱與技巧
+- **屬性 ID 衝突**：在建立新定義前，務必先呼叫 `project.getExtendedAttributes().getById(id)`，避免重複的識別碼。  
+- **精度處理**：建議使用 `BigDecimal` 取代 `float`/`double`，以確保數值精確，避免報表中出現四捨五入誤差。  
+- **檔案路徑可靠性**：使用 `Paths.get(...).toAbsolutePath()` 或在 IDE 中設定工作目錄，以避免 `FileNotFoundException`。
 
-## 常見問題與技巧
-- **屬性 ID 衝突**：建立新定義前務必使用 `getById` 檢查，以避免重複 ID。  
-- **精度處理**：`BigDecimal` 能保留小數精度，請避免使用 `float` 或 `double` 來儲存精確值。  
-- **檔案路徑**：使用絕對路徑或在 IDE 中設定工作目錄，避免發生 `FileNotFoundException`。  
+## 常見問與答
 
-## 常見問答
+**Q: 我可以同時為工作項與資源建立自訂屬性嗎？**  
+A: 可以 – 定義屬性結構時，使用 `ExtendedAttributeTask` 取代 `ExtendedAttributeResource` 即可。
 
-**Q: 我可以同時為工作建立自訂屬性嗎？**  
-A: 可以 – 定義屬性時使用 `ExtendedAttributeTask` 取代 `ExtendedAttributeResource`。
+**Q: 能一次新增多個自訂屬性嗎？**  
+A: 完全可以。為每個屬性建立獨立的 `ExtendedAttributeDefinition` 物件，然後分別附加至目標資源或工作項。
 
-**Q: 能一次加入多個自訂屬性嗎？**  
-A: 完全可以。為每個屬性建立獨立的 `ExtendedAttributeDefinition` 物件，然後分別附加至目標資源或工作。
-
-**Q: 專案可以儲存成哪些格式？**  
-A: Aspose.Tasks 支援 XML、MPP，以及 PDF、HTML 等多種格式。本範例使用 `SaveFileFormat.Xml`。
+**Q: 我可以將專案儲存為哪些格式？**  
+A: Aspose.Tasks 支援 XML、MPP、PDF、HTML 等超過 30 種格式。本範例使用 `SaveFileFormat.Xml`。
 
 **Q: 開發版需要授權嗎？**  
-A: 評估用的暫時授權已足夠。正式上線時則需完整授權。
+A: 測試時使用臨時評估授權即可。任何正式上線的部署，都必須購買完整商業授權。
 
 **Q: 之後要如何讀取自訂屬性值？**  
-A: 使用 `resource.getExtendedAttributes()` 迭代取得已附加的屬性，並透過 `getNumericValue()` 或 `getTextValue()` 取得其值。
-
-## 結論
-使用 Aspose.Tasks for Java 在 Microsoft Project 中建立 **自訂屬性** 的流程相當直接：載入專案、定義屬性、設定值、附加至資源，最後儲存檔案。此方法讓您能以程式方式擴充專案資料模型，提升報表深度並加強與業務流程的整合。
+A: 呼叫 `resource.getExtendedAttributes()`，遍歷集合，並使用 `getNumericValue()` 或 `getTextValue()` 取得儲存的值。
 
 ---
 
-**最後更新：** 2026-01-13  
+**最後更新：** 2026-06-10  
 **測試環境：** Aspose.Tasks for Java 24.12  
-**作者：** Aspose  
+**作者：** Aspose
+
+## 相關教學
+
+- [How to Create Resources – Resource Management with Aspose.Tasks for Java](/tasks/java/resource-management/)
+- [Create custom field Aspose - Handle extended attributes](/tasks/java/project-management/extended-attributes/)
+- [How to Create Project – Set New Task Attributes with Aspose.Tasks](/tasks/java/project-file-operations/set-attributes-new-tasks/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

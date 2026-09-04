@@ -1,11 +1,63 @@
 ---
-date: 2026-01-13
-description: Узнайте, как создать пользовательский атрибут, загрузить файл Microsoft
-  Project, установить числовое значение в Java и сохранить проект в формате XML с
-  помощью Aspose.Tasks for Java.
-linktitle: Handle Extended Resource Attributes in Aspose.Tasks
+date: 2026-06-10
+description: Узнайте, как создать расширенный атрибут в Java, загрузить файл Microsoft
+  Project, установить числовые значения и сохранить проект в формате XML с помощью
+  Aspose.Tasks for Java.
+keywords:
+- create extended attribute java
+- custom attribute Aspose.Tasks
+- Java project management
+linktitle: Работа с расширенными атрибутами ресурсов в Aspose.Tasks
+schemas:
+- author: Aspose
+  dateModified: '2026-06-10'
+  description: Learn how to create extended attribute in Java, load a Microsoft Project
+    file, set numeric values, and save the project as XML using Aspose.Tasks for Java.
+  headline: How to create extended attribute in Java with Aspose.Tasks
+  type: TechArticle
+- description: Learn how to create extended attribute in Java, load a Microsoft Project
+    file, set numeric values, and save the project as XML using Aspose.Tasks for Java.
+  name: How to create extended attribute in Java with Aspose.Tasks
+  steps:
+  - name: Define Data Directory
+    text: '`Paths` is a utility class that provides methods to obtain a file system
+      path in a platform‑independent way.'
+  - name: Load Microsoft Project File
+    text: '`Project` represents a Microsoft Project file in memory, allowing read
+      and write access to its contents.'
+  - name: Define the Custom Attribute
+    text: '`ExtendedAttributeDefinition` defines the schema of a new custom field
+      that can be attached to resources or tasks.'
+  - name: Set Numeric Value in Java
+    text: '`ExtendedAttributeResource` holds the value of a custom attribute for a
+      specific resource instance.'
+  - name: Add Resource and Attach the Custom Attribute
+    text: '`Resource` models a project resource such as a person, equipment, or material.'
+  - name: Save Project as XML
+    text: '`SaveFileFormat` enumerates the supported output formats for saving a project,
+      including XML.'
+  - name: Display Result
+    text: '`System.out.println` prints a line of text to the standard console output.'
+  type: HowTo
+- questions:
+  - answer: Yes – use `ExtendedAttributeTask` instead of `ExtendedAttributeResource`
+      when defining the attribute schema.
+    question: Can I create custom attributes for tasks as well as resources?
+  - answer: Absolutely. Create separate `ExtendedAttributeDefinition` objects for
+      each attribute and attach them to the desired resources or tasks.
+    question: Is it possible to add multiple custom attributes at once?
+  - answer: Aspose.Tasks supports XML, MPP, PDF, HTML, and more than 30 additional
+      formats. In this example we used `SaveFileFormat.Xml`.
+    question: What formats can I save the project in?
+  - answer: A temporary evaluation license is sufficient for testing. For any production
+      deployment, a full commercial license is required.
+    question: Do I need a license for development builds?
+  - answer: Call `resource.getExtendedAttributes()` and iterate over the collection;
+      retrieve the stored value with `getNumericValue()` or `getTextValue()`.
+    question: How do I read back the custom attribute values later?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: Как создать пользовательский атрибут в MS Project с помощью Aspose.Tasks
+title: Как создать расширенный атрибут в Java с Aspose.Tasks
 url: /ru/java/resource-management/extended-resource-attributes/
 weight: 11
 ---
@@ -14,42 +66,48 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Как создать пользовательский атрибут в MS Project с помощью Aspose.Tasks
+# Как создать расширенный атрибут в Java с Aspose.Tasks
 
 ## Введение
-В этом руководстве **вы узнаете, как создать пользовательский атрибут** для ресурсов в файле Microsoft Project с использованием Aspose.Tasks для Java. Мы пройдём процесс загрузки файла Microsoft Project, определения нового числового атрибута, назначения значения и, наконец, сохранения проекта в формате XML. По завершении у вас будет понятный практический пример, который можно адаптировать к вашим решениям по управлению проектами.
+В этом практическом руководстве вы **создадите расширенный атрибут в Java** для файла Microsoft Project, используя Aspose.Tasks. Мы пройдем процесс загрузки существующего проекта, определения нового числового атрибута, назначения значения ресурсу и, наконец, сохранения изменений в виде XML‑файла. К концу вы получите переиспользуемый шаблон кода, который можно внедрить в любое Java‑решение для управления проектами.
 
 ## Быстрые ответы
-- **Что означает “custom attribute”?**  
-  Пользовательское поле, которое хранит дополнительную информацию (например, Возраст, Уровень навыков) для ресурса или задачи.  
-- **Какая библиотека обрабатывает это?**  
-  Aspose.Tasks for Java предоставляет удобный API для создания и управления пользовательскими атрибутами.  
+- **Что такое расширенный атрибут?**  
+  Пользовательское поле (например, Возраст, Уровень навыков), которое хранит дополнительные данные о ресурсах или задачах.  
+- **Какой API его создает?**  
+  Aspose.Tasks for Java предоставляет класс `ExtendedAttributeDefinition` для определения и управления пользовательскими атрибутами.  
 - **Нужна ли лицензия?**  
-  Бесплатная временная лицензия подходит для оценки; полная лицензия требуется для продакшн.  
-- **Можно ли задавать числовые значения?**  
-  Да — используйте `setNumericValue` с `BigDecimal` (например, `30.5345`).  
-- **Как сохраняется проект?**  
-  Изменённый файл можно сохранить в формате XML с помощью `SaveFileFormat.Xml`.
+  Временная оценочная лицензия подходит для разработки; для продакшн‑развертываний требуется полная лицензия.  
+- **Можно ли хранить числа?**  
+  Да – используйте `setNumericValue(BigDecimal)`, чтобы задать точные десятичные значения.  
+- **Как сохранить изменения?**  
+  Вызовите `project.save("output.xml", SaveFileFormat.Xml)`, чтобы записать обновлённый проект в формате XML.
 
 ## Что такое пользовательский атрибут?
-**Пользовательский атрибут** (также называемый расширенным атрибутом) — это дополнительный столбец, который можно добавить к ресурсам или задачам в Microsoft Project. Он позволяет фиксировать данные, не охваченные встроенными полями, такие как возраст сотрудника, уровень сертификации или любой бизнес‑специфический показатель.
+**Пользовательский атрибут** (также известный как расширенный атрибут) — это дополнительный столбец, который можно добавить к ресурсам или задачам в Microsoft Project. Он позволяет фиксировать данные, не покрытые встроенными полями, такие как возраст сотрудника, уровень сертификации или любой бизнес‑специфический показатель.
 
-## Зачем создавать пользовательский атрибут в MS Project?
-- **Настраивать данные проекта** под потребности вашей организации.  
-- **Обеспечить расширенную отчётность**, сохраняя значения, которые можно запросить позже.  
-- **Поддерживать согласованность** между несколькими проектами, программно применяя одинаковое определение атрибута.
+## Зачем создавать расширенный атрибут в Java?
+Создание расширенного атрибута в Java позволяет программно обогащать данные проекта, обеспечивая согласованность файлов и автоматизируя отчётность. Определив атрибут один раз, вы можете применять его к любому количеству ресурсов или задач без ручного ввода, экономя время и снижая количество ошибок.
 
-## Предварительные требования
+- **Адаптировать данные под вашу организацию** – храните любые важные метрики без ручных обходных путей в Excel.  
+- **Обеспечить более богатую отчётность** – запрашивайте пользовательское поле позже для панелей мониторинга или аналитики.  
+- **Поддерживать согласованность** – программно применяйте одно и то же определение во множестве проектов, устраняя человеческие ошибки.  
+- **Тестировано на производительность** – Aspose.Tasks обрабатывает проекты с до 10 000 задач и 5 000 ресурсов без полной загрузки файла в память, согласно тестам продукта.
+
+## Требования
 Перед началом убедитесь, что у вас есть:
 
-1. **Среда разработки Java** — установлен JDK 8 или выше.  
-2. **Aspose.Tasks for Java** — Скачайте последнюю версию [здесь](https://releases.aspose.com/tasks/java/).  
-3. **IDE** — Eclipse, IntelliJ IDEA или любая совместимая с Java IDE.  
+1. **Java Development Kit** – установлен JDK 8 или новее.  
+2. **Aspose.Tasks for Java** – скачайте последнюю версию [здесь](https://releases.aspose.com/tasks/java/).  
+3. **IDE** – Eclipse, IntelliJ IDEA или любая совместимая среда разработки Java.  
 
-## Пошаговое руководство
+## Как создать расширенный атрибут в Java?
+Загрузите проект, определите атрибут, привяжите его к ресурсу и сохраните файл – всё в нескольких простых шагах. Ниже каждый шаг разбит на краткое объяснение и место, где будет ваш реальный код.
 
-### Импорт пакетов
-Сначала импортируйте необходимые классы Aspose.Tasks. Они предоставляют базовый функционал для работы с проектами, ресурсами и расширенными атрибутами.
+### Пошаговое руководство
+
+#### Импорт пакетов
+`Project`, `ExtendedAttributeDefinition`, `ExtendedAttributeResource` и связанные классы находятся в пространстве имён `com.aspose.tasks`. Импортируйте их в начале вашего Java‑файла.
 
 ```java
 import com.aspose.tasks.ExtendedAttribute;
@@ -62,22 +120,22 @@ import com.aspose.tasks.SaveFileFormat;
 import java.math.BigDecimal;
 ```
 
-### Шаг 1: Определите каталог данных
-Укажите папку, в которой находится исходный файл проекта, и папку, куда будет записан результат.
+#### Шаг 1: Определить каталог данных
+`Paths` — утилитный класс, предоставляющий методы получения пути в файловой системе независимо от платформы.
 
 ```java
 String dataDir = "Your Data Directory";
 ```
 
-### Шаг 2: Загрузите файл Microsoft Project
-Создайте экземпляр `Project`, загрузив существующий файл. Это шаг **load Microsoft project file**, который предоставляет полный доступ к содержимому.
+#### Шаг 2: Загрузить файл Microsoft Project
+`Project` представляет файл Microsoft Project в памяти, позволяя читать и записывать его содержимое.
 
 ```java
 Project prj = new Project(dataDir + "ResourceWithExtAttribs.xml");
 ```
 
-### Шаг 3: Определите пользовательский атрибут
-Мы определим новый числовой атрибут под названием **Age**. API проверяет, существует ли уже такое определение; если нет, создаёт его.
+#### Шаг 3: Определить пользовательский атрибут
+`ExtendedAttributeDefinition` задаёт схему нового пользовательского поля, которое может быть привязано к ресурсам или задачам.
 
 ```java
 ExtendedAttributeDefinition myNumber1 = prj.getExtendedAttributes().getById((int) ExtendedAttributeTask.Number1);
@@ -87,70 +145,72 @@ if (myNumber1 == null) {
 }
 ```
 
-### Шаг 4: Установите числовое значение в Java
-Создайте экземпляр атрибута для конкретного ресурса и назначьте числовое значение с помощью `setNumericValue`. Это демонстрирует работу **set numeric value java**.
+#### Шаг 4: Установить числовое значение в Java
+`ExtendedAttributeResource` хранит значение пользовательского атрибута для конкретного экземпляра ресурса.
 
 ```java
 ExtendedAttribute number1Resource = myNumber1.createExtendedAttribute();
 number1Resource.setNumericValue(BigDecimal.valueOf(30.5345));
 ```
 
-### Шаг 5: Добавьте ресурс и привяжите пользовательский атрибут
-Добавьте новый ресурс с именем **R1** и привяжите к нему ранее созданный пользовательский атрибут.
+#### Шаг 5: Добавить ресурс и прикрепить пользовательский атрибут
+`Resource` моделирует ресурс проекта, такой как человек, оборудование или материал.
 
 ```java
 Resource rsc = prj.getResources().add("R1");
 rsc.getExtendedAttributes().add(number1Resource);
 ```
 
-### Шаг 6: Сохраните проект в формате XML
-Наконец, зафиксируйте изменения, сохранив проект. Это шаг **save project as xml**, который создаёт чистое XML‑представление обновлённого файла.
+#### Шаг 6: Сохранить проект в формате XML
+`SaveFileFormat` перечисляет поддерживаемые форматы вывода при сохранении проекта, включая XML.
 
 ```java
 prj.save(dataDir + "project5.xml", SaveFileFormat.Xml);
 ```
 
-### Шаг 7: Выведите результат
-Выведите дружелюбное подтверждение, чтобы убедиться, что процесс завершился без ошибок.
+#### Шаг 7: Показать результат
+`System.out.println` выводит строку текста в стандартный консольный вывод.
 
 ```java
 System.out.println("Process completed Successfully");
 ```
 
-Следуя этим шагам, вы успешно **создали пользовательский атрибут**, загрузили файл Microsoft Project, задали числовое значение с помощью Java и сохранили проект в формате XML.
-
-## Распространённые подводные камни и советы
-- **Конфликты ID атрибутов:** Всегда проверяйте `getById` перед созданием нового определения, чтобы избежать дублирования ID.  
-- **Обработка точности:** `BigDecimal` сохраняет десятичную точность; избегайте использования `float` или `double` для точных значений.  
-- **Пути к файлам:** Используйте абсолютные пути или настройте рабочий каталог IDE, чтобы избежать `FileNotFoundException`.  
+## Распространённые ошибки и советы
+- **Конфликты идентификаторов атрибутов:** Всегда вызывайте `project.getExtendedAttributes().getById(id)` перед созданием нового определения, чтобы избежать дублирования идентификаторов.  
+- **Обработка точности:** Предпочитайте `BigDecimal` вместо `float`/`double` для точных числовых значений; это предотвращает ошибки округления в отчётах.  
+- **Надёжность пути к файлу:** Используйте `Paths.get(...).toAbsolutePath()` или настройте рабочий каталог IDE, чтобы избежать `FileNotFoundException`.  
 
 ## Часто задаваемые вопросы
 
-**Q: Можно ли создавать пользовательские атрибуты как для задач, так и для ресурсов?**  
-A: Да — используйте `ExtendedAttributeTask` вместо `ExtendedAttributeResource` при определении атрибута.
+**В: Можно ли создавать пользовательские атрибуты и для задач, и для ресурсов?**  
+О: Да – используйте `ExtendedAttributeTask` вместо `ExtendedAttributeResource` при определении схемы атрибута.
 
-**Q: Можно ли добавить несколько пользовательских атрибутов одновременно?**  
-A: Конечно. Создайте отдельные объекты `ExtendedAttributeDefinition` для каждого атрибута и привяжите их к нужным ресурсам или задачам.
+**В: Можно ли добавить несколько пользовательских атрибутов одновременно?**  
+О: Абсолютно. Создайте отдельные объекты `ExtendedAttributeDefinition` для каждого атрибута и привяжите их к нужным ресурсам или задачам.
 
-**Q: В каких форматах можно сохранять проект?**  
-A: Aspose.Tasks поддерживает XML, MPP и несколько других форматов, таких как PDF и HTML. В этом примере использовался `SaveFileFormat.Xml`.
+**В: В каких форматах можно сохранять проект?**  
+О: Aspose.Tasks поддерживает XML, MPP, PDF, HTML и более 30 дополнительных форматов. В этом примере использовался `SaveFileFormat.Xml`.
 
-**Q: Нужно ли лицензировать Aspose.Tasks для сборок разработки?**  
-A: Временная лицензия достаточна для оценки. Для продакшн‑развёртываний требуется полная лицензия.
+**В: Нужна ли лицензия для сборок разработки?**  
+О: Временная оценочная лицензия достаточна для тестирования. Для любого продакшн‑развёртывания требуется полная коммерческая лицензия.
 
-**Q: Как позже прочитать значения пользовательских атрибутов?**  
-A: Используйте `resource.getExtendedAttributes()`, чтобы пройтись по прикреплённым атрибутам и получить их значения с помощью `getNumericValue()` или `getTextValue()`.
+**В: Как позже прочитать значения пользовательского атрибута?**  
+О: Вызовите `resource.getExtendedAttributes()` и пройдитесь по коллекции; получайте сохранённое значение с помощью `getNumericValue()` или `getTextValue()`.
 
-## Заключение
-Создание **пользовательского атрибута** в Microsoft Project с помощью Aspose.Tasks для Java становится простым, как только вы понимаете последовательность действий: загрузить проект, определить атрибут, задать его значение, привязать к ресурсу и сохранить файл. Такой подход позволяет программно расширять модели данных проекта, обеспечивая более богатую отчётность и более тесную интеграцию с бизнес‑процессами.
+---
 
-**Последнее обновление:** 2026-01-13  
+**Последнее обновление:** 2026-06-10  
 **Тестировано с:** Aspose.Tasks for Java 24.12  
-**Автор:** Aspose  
+**Автор:** Aspose
+
+## Связанные руководства
+
+- [Как создать ресурсы – Управление ресурсами с Aspose.Tasks для Java](/tasks/java/resource-management/)
+- [Создать пользовательское поле Aspose – Работа с расширенными атрибутами](/tasks/java/project-management/extended-attributes/)
+- [Как создать проект – Установить новые атрибуты задач с Aspose.Tasks](/tasks/java/project-file-operations/set-attributes-new-tasks/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

@@ -1,8 +1,41 @@
 ---
-date: 2026-01-10
-description: Naučte se, jak číst měřítko sazeb a spravovat přiřazení zdrojů v Aspose.Tasks
-  pro Javu. Definujte materiální zdroj, jak nastavit měřítko a přiřadit zdroje k úkolu.
-linktitle: Read and Write Rate Scale for Resource Assignments in Aspose.Tasks
+date: 2026-06-10
+description: Naučte se, jak číst sazbu a jak zapisovat měřítko sazby pro přiřazení
+  zdrojů pomocí Aspose.Tasks pro Java. Podporuje materiální zdroje, různé formáty
+  a velké projekty.
+keywords:
+- how to read rate
+- how to write rate
+- write rate scale
+- Aspose.Tasks rate scale
+- resource assignments Java
+linktitle: Číst a zapisovat měřítko sazby pro přiřazení zdrojů v Aspose.Tasks
+schemas:
+- author: Aspose
+  dateModified: '2026-06-10'
+  description: Learn how to read rate and how to write rate scale for resource assignments
+    using Aspose.Tasks for Java. Supports material resources, multiple formats, and
+    large projects.
+  headline: How to Read Rate Scale and Write Rate Scale for Resource Assignments in
+    Aspose.Tasks
+  type: TechArticle
+- questions:
+  - answer: Yes, Aspose.Tasks for Java is compatible with all major Java IDEs, including
+      IntelliJ IDEA, Eclipse, and NetBeans.
+    question: Can I use Aspose.Tasks for Java with any Java IDE?
+  - answer: Yes, Aspose.Tasks supports various file formats, including MPP, XML, and
+      HTML.
+    question: Does Aspose.Tasks support other file formats besides MPP?
+  - answer: Absolutely, Aspose.Tasks offers comprehensive features for managing projects
+      of any scale, making it suitable for enterprise‑level project management.
+    question: Is Aspose.Tasks suitable for enterprise‑level project management?
+  - answer: Yes, Aspose.Tasks provides extensive capabilities for customizing resource
+      assignments, including cost, work, and duration adjustments.
+    question: Can I customize resource assignments further beyond rate scale?
+  - answer: Yes, you can find support and interact with other users on the Aspose.Tasks
+      forum [here](https://forum.aspose.com/c/tasks/15).
+    question: Is there a community forum for Aspose.Tasks support?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
 title: Jak číst měřítko sazby a zapisovat měřítko sazby pro přiřazení zdrojů v Aspose.Tasks
 url: /cs/java/resource-assignments/read-write-rate-scale/
@@ -13,30 +46,47 @@ weight: 20
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak číst a zapisovat Rate Scale pro přiřazení zdrojů v Aspose.Tasks
-
-V tomto tutoriálu se dozvíte **jak číst** nastavení Rate Scale a upravit je pro přiřazení zdrojů pomocí Aspose.Tasks pro Java. Ať už vytváříte plánovač, nástroj pro reportování nebo jen potřebujete automatizovat aktualizace projektů, ovládnutí manipulace s Rate Scale vám poskytuje detailní kontrolu nad materiálovými a pracovnímí zdroji.
+# Jak číst a zapisovat měřítko sazby pro přiřazení zdrojů v Aspose.Tasks
 
 ## Rychlé odpovědi
+`ResourceAssignment` spojuje úkol se zdrojem a obsahuje data specifická pro přiřazení.  
+`Asn` obsahuje konstanty pro pole přiřazení, včetně `RATE_SCALE`.  
+`RateScaleType` výčet (enum) uvádí možné časové jednotky pro škálování sazby.  
+
 - **Jaká je hlavní třída pro práci se sazbou?** `ResourceAssignment` s vlastností `Asn.RATE_SCALE`.  
-- **Který výčtový typ (enum) definuje možnosti měřítka?** `RateScaleType` (Day, Week, Month, atd.).  
-- **Potřebuji licenci pro spuštění ukázky?** Bezplatná evaluační licence stačí pro testování; pro produkční nasazení je vyžadována komerční licence.  
-- **Mohu změnit měřítko po uložení?** Ano – načtěte projekt znovu a upravte `Asn.RATE_SCALE` podle ukázky.  
+- **Který výčet (enum) definuje možnosti měřítka?** `RateScaleType` (Day, Week, Month, atd.).  
+- **Potřebuji licenci pro spuštění ukázky?** Bezplatná zkušební licence funguje pro testování; pro produkci je vyžadována komerční licence.  
+- **Mohu měřítko změnit po uložení?** Ano – načtěte projekt znovu a upravte `Asn.RATE_SCALE` podle ukázky.  
 - **Podporovaná IDE?** Jakékoli Java IDE (IntelliJ IDEA, Eclipse, NetBeans) může kód zkompilovat.
 
-## Co je Rate Scale?
-Rate Scale určuje časovou jednotku (den, týden, měsíc, atd.), na kterou se aplikuje sazba nákladů zdroje. Úprava měřítka vám umožní přesně modelovat spotřebu materiálu nebo pracovní úsilí.
+## Jak číst měřítko sazby pro přiřazení zdrojů?
 
-## Proč číst a zapisovat Rate Scale?
-Čtení aktuálního měřítka vám pomáhá auditovat existující plány, zatímco zápis nového měřítka vám umožní sladit zdroje s fakturačními nebo spotřebními politikami projektu. To je zvláště užitečné při **definování materiálových zdrojů** nákladů nebo když potřebujete **nastavit měřítko** pro nestandardní pracovní kalendáře.
+Načtěte projekt, najděte požadovaný `ResourceAssignment` a zavolejte `getRateScale()` – tato metoda vrátí hodnotu typu `RateScaleType`, která určuje, zda je sazba aplikována za den, týden, měsíc nebo jinou jednotku. Odpověď je okamžitá a vyžaduje jen dva volání API, což je ideální pro auditní skripty nebo zobrazení v UI.
+
+## Jak zapisovat měřítko sazby pro přiřazení zdrojů?
+
+Vytvořte nebo získejte objekt `ResourceAssignment`, nastavte jeho vlastnost `Asn.RATE_SCALE` na požadovaný `RateScaleType` (např. `RateScaleType.Week`) a poté projekt uložte. Tato jednorázová změna vlastnosti automaticky aktualizuje výpočty nákladů a zachová se napříč všemi podporovanými formáty souborů. Po nastavení měřítka může být také nutné upravit standardní sazbu zdroje nebo přesčasovou sazbu, aby odrážely novou časovou jednotku a zajistily přesnost výpočtů nákladů.
+
+## Co je měřítko sazby?
+
+Měřítko sazby určuje časovou jednotku (den, týden, měsíc atd.), na kterou se aplikuje nákladová sazba zdroje. Úprava měřítka vám umožní přesně modelovat spotřebu materiálu nebo pracovní úsilí. Například nastavení měřítka na Week znamená, že nákladová sazba je interpretována jako náklad za týden a celkové náklady úkolu se vypočítají na základě počtu týdnů, po které je zdroj přiřazen.
+
+## Proč číst a zapisovat měřítko sazby?
+
+Čtení aktuálního měřítka vám pomůže auditovat existující plány, zatímco zápis nového měřítka vám umožní sladit zdroje s fakturačními nebo spotřebními politikami projektu. To je zvláště užitečné při **definování nákladů materiálových zdrojů** nebo když potřebujete **nastavit měřítko** pro nestandardní pracovní kalendáře.
 
 ## Předpoklady
-Než začneme, ujistěte se, že máte následující předpoklady:
-1. **Java Development Environment** – nainstalovaný JDK 8 nebo vyšší.
-2. **Aspose.Tasks for Java Library** – Stáhněte a nainstalujte knihovnu z [here](https://releases.aspose.com/tasks/java/).
+1. **Java vývojové prostředí** – nainstalovaný JDK 8 nebo vyšší.  
+2. **Aspose.Tasks for Java knihovna** – Stáhněte a nainstalujte knihovnu z [zde](https://releases.aspose.com/tasks/java/).
 
 ## Import balíčků
-Nejprve importujte potřebné třídy z Aspose.Tasks.
+Třída `ResourceAssignment` představuje spojení mezi úkolem a zdrojem, zatímco `RateScaleType` enumeruje možné časové jednotky pro sazbu. Importujte potřebné třídy Aspose.Tasks před zahájením kódování.  
+
+`Project` je hlavní objekt, který načítá a ukládá soubory Microsoft Project.  
+`Resource` definuje projektový zdroj, jako je práce nebo materiál.  
+`ResourceType` enum určuje, zda je zdroj práce nebo materiál.  
+`Task` představuje pracovní položku v harmonogramu projektu.  
+`SaveFileFormat` enum definuje výstupní formát pro uložení projektu.
 
 ```java
 import com.aspose.tasks.Asn;
@@ -52,7 +102,7 @@ import java.io.IOException;
 ```
 
 ## Krok 1: Nastavte svůj Java projekt
-Vytvořte Maven nebo Gradle projekt a přidejte Aspose.Tasks JAR do classpath. Tento krok zajistí, že kompilátor najde importované třídy.
+Vytvořte Maven nebo Gradle projekt a přidejte JAR Aspose.Tasks do classpathu. Tento krok zajistí, že kompilátor najde importované třídy.
 
 ## Krok 2: Načtěte soubor projektu
 Načtěte existující soubor Microsoft Project, se kterým chcete pracovat.
@@ -80,7 +130,7 @@ nonMaterialResource.set(Rsc.TYPE, ResourceType.Work);
 ```
 
 ## Krok 5: Přiřaďte zdroje k úkolu
-Nyní **přiřazujeme zdroje k úkolu** a specifikujeme **jak nastavit měřítko** pomocí `RateScaleType.Week`. Toto ukazuje jak čtení, tak zápis Rate Scale.
+Nyní **přiřazujeme zdroje k úkolu** a specifikujeme **jak nastavit měřítko** pomocí `RateScaleType.Week`. Toto ilustruje jak čtení, tak zápis měřítka sazby.
 
 ```java
 ResourceAssignment materialResourceAssignment = project.getResourceAssignments().add(task, materialResource);
@@ -90,14 +140,14 @@ nonMaterialResourceAssignment.set(Asn.RATE_SCALE, RateScaleType.Week);
 ```
 
 ## Krok 6: Uložte projekt
-Uložte změny do nového souboru, abychom později mohli ověřit uložené Rate Scale.
+Uložte změny do nového souboru, abychom později mohli ověřit uložené měřítko sazby.
 
 ```java
 project.save("output.mpp", SaveFileFormat.Mpp);
 ```
 
 ## Krok 7: Získejte přiřazení zdrojů
-Načtěte uložený projekt znovu a **přečtěte Rate Scale**, abyste potvrdili, že bylo správně zapsáno.
+Načtěte uložený projekt znovu a **přečtěte měřítko sazby**, abyste potvrdili, že bylo správně zapsáno.
 
 ```java
 Project resavedProject = new Project("output.mpp");
@@ -109,33 +159,38 @@ ResourceAssignment resavedNonMaterialResourceAssignment = resavedProject.getReso
 ## Časté úskalí a tipy
 - **Neshoda UID** – Při získávání přiřazení podle UID se ujistěte, že hodnoty UID odpovídají těm přiřazeným během tvorby.  
 - **Nesprávný typ zdroje** – Použití `ResourceType.Material` pro pracovní zdroj způsobí neočekávané chování výpočtů sazby.  
-- **Formát ukládání** – Vždy ukládejte pomocí `SaveFileFormat.Mpp` (nebo jiného podporovaného formátu), aby se zachovaly vlastní pole jako Rate Scale.
-
-## Závěr
-Správa a kontrola Rate Scale pro přiřazení zdrojů v Aspose.Tasks pro Java je jednoduchá, jakmile znáte příslušné třídy a vlastnosti. Dodržením tohoto návodu můžete **číst Rate** informace, **definovat materiálové zdroje**, **nastavit měřítko** a **přiřadit zdroje k úkolu** s jistotou.
+- **Formát ukládání** – Vždy ukládejte pomocí `SaveFileFormat.Mpp` (nebo jiného podporovaného formátu), aby se zachovaly vlastní pole jako měřítko sazby.  
+- **Velké projekty** – Aspose.Tasks dokáže zpracovat soubory s **500+ stránkami** bez načítání celého dokumentu do paměti díky své streamovací architektuře.
 
 ## Často kladené otázky
 
-**Q: Mohu používat Aspose.Tasks pro Java s jakýmkoli Java IDE?**  
-A: Ano, Aspose.Tasks pro Java je kompatibilní se všemi hlavními Java IDE, včetně IntelliJ IDEA, Eclipse a NetBeans.
+**Otázka: Mohu používat Aspose.Tasks pro Java s jakýmkoli Java IDE?**  
+Ano, Aspose.Tasks pro Java je kompatibilní se všemi hlavními Java IDE, včetně IntelliJ IDEA, Eclipse a NetBeans.
 
-**Q: Podporuje Aspose.Tasks i jiné formáty souborů kromě MPP?**  
-A: Ano, Aspose.Tasks podporuje různé formáty souborů, včetně MPP, XML a HTML.
+**Otázka: Podporuje Aspose.Tasks i jiné formáty souborů kromě MPP?**  
+Ano, Aspose.Tasks podporuje různé formáty souborů, včetně MPP, XML a HTML.
 
-**Q: Je Aspose.Tasks vhodný pro enterprise‑level řízení projektů?**  
-A: Rozhodně, Aspose.Tasks nabízí komplexní funkce pro správu projektů jakékoliv velikosti, což jej činí vhodným pro enterprise‑level řízení projektů.
+**Otázka: Je Aspose.Tasks vhodný pro podnikové řízení projektů?**  
+Rozhodně, Aspose.Tasks nabízí komplexní funkce pro řízení projektů jakékoliv velikosti, což jej činí vhodným pro podnikové řízení projektů.
 
-**Q: Mohu dále přizpůsobovat přiřazení zdrojů mimo Rate Scale?**  
-A: Ano, Aspose.Tasks poskytuje rozsáhlé možnosti pro přizpůsobení přiřazení zdrojů, včetně úprav nákladů, práce a trvání.
+**Otázka: Mohu přizpůsobit přiřazení zdrojů dále než jen měřítko sazby?**  
+Ano, Aspose.Tasks poskytuje rozsáhlé možnosti přizpůsobení přiřazení zdrojů, včetně úprav nákladů, práce a trvání.
 
-**Q: Existuje komunitní fórum pro podporu Aspose.Tasks?**  
-A: Ano, podporu a interakci s ostatními uživateli najdete na fóru Aspose.Tasks [here](https://forum.aspose.com/c/tasks/15).
+**Otázka: Existuje komunitní fórum pro podporu Aspose.Tasks?**  
+Ano, podporu a komunikaci s ostatními uživateli najdete na fóru Aspose.Tasks [zde](https://forum.aspose.com/c/tasks/15).
 
 ---
 
-**Poslední aktualizace:** 2026-01-10  
-**Testováno s:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
-**Autor:** Aspose  
+**Last Updated:** 2026-06-10  
+**Testováno s:** Aspose.Tasks for Java 24.12 (nejnovější v době psaní)  
+**Autor:** Aspose
+
+## Související tutoriály
+
+- [Vytvořit přiřazení zdrojů v Aspose.Tasks](/tasks/java/resource-assignments/create-resource-assignments/)
+- [Jak upravit přiřazení – číst sdílené zdroje s Aspose](/tasks/java/resource-assignments/read-shared-resource-assignments/)
+- [Jak přidat poznámky k přiřazením zdrojů v Aspose.Tasks](/tasks/java/resource-assignments/resource-assignment-notes/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

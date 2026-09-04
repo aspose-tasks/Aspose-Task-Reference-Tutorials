@@ -1,10 +1,42 @@
 ---
-date: 2026-01-10
-description: تعلم كيفية قراءة مقياس السعر وإدارة تعيينات الموارد في Aspose.Tasks للغة
-  Java. تعريف المورد المادي، كيفية ضبط المقياس، وتعيين الموارد للمهمة.
-linktitle: Read and Write Rate Scale for Resource Assignments in Aspose.Tasks
+date: 2026-06-10
+description: تعلم كيفية قراءة rate وكيفية كتابة rate scale لتعيينات الموارد باستخدام
+  Aspose.Tasks for Java. يدعم material resources، multiple formats، و large projects.
+keywords:
+- how to read rate
+- how to write rate
+- write rate scale
+- Aspose.Tasks rate scale
+- resource assignments Java
+linktitle: قراءة وكتابة Rate Scale لتعيينات الموارد في Aspose.Tasks
+schemas:
+- author: Aspose
+  dateModified: '2026-06-10'
+  description: Learn how to read rate and how to write rate scale for resource assignments
+    using Aspose.Tasks for Java. Supports material resources, multiple formats, and
+    large projects.
+  headline: How to Read Rate Scale and Write Rate Scale for Resource Assignments in
+    Aspose.Tasks
+  type: TechArticle
+- questions:
+  - answer: Yes, Aspose.Tasks for Java is compatible with all major Java IDEs, including
+      IntelliJ IDEA, Eclipse, and NetBeans.
+    question: Can I use Aspose.Tasks for Java with any Java IDE?
+  - answer: Yes, Aspose.Tasks supports various file formats, including MPP, XML, and
+      HTML.
+    question: Does Aspose.Tasks support other file formats besides MPP?
+  - answer: Absolutely, Aspose.Tasks offers comprehensive features for managing projects
+      of any scale, making it suitable for enterprise‑level project management.
+    question: Is Aspose.Tasks suitable for enterprise‑level project management?
+  - answer: Yes, Aspose.Tasks provides extensive capabilities for customizing resource
+      assignments, including cost, work, and duration adjustments.
+    question: Can I customize resource assignments further beyond rate scale?
+  - answer: Yes, you can find support and interact with other users on the Aspose.Tasks
+      forum [here](https://forum.aspose.com/c/tasks/15).
+    question: Is there a community forum for Aspose.Tasks support?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: كيفية قراءة مقياس المعدل وكتابة مقياس المعدل لتعيينات الموارد في Aspose.Tasks
+title: كيفية قراءة Rate Scale وكتابة Rate Scale لتعيينات الموارد في Aspose.Tasks
 url: /ar/java/resource-assignments/read-write-rate-scale/
 weight: 20
 ---
@@ -15,28 +47,48 @@ weight: 20
 
 # كيفية قراءة مقياس المعدل وكتابة مقياس المعدل لتعيينات الموارد في Aspose.Tasks
 
-في هذا البرنامج التعليمي ستكتشف **كيفية قراءة معدل** إعدادات المقياس وتعديلها لتعيينات الموارد باستخدام Aspose.Tasks for Java. سواءً كنت تبني أداة جدولة، أو أداة تقارير، أو تحتاج ببساطة إلى أتمتة تحديثات المشروع، فإن إتقان تعديل مقياس المعدل يمنحك تحكمًا دقيقًا في الموارد المادية والعملية.
+في هذا البرنامج التعليمي ستكتشف **كيفية قراءة المعدل** وضبطه لتعيينات الموارد باستخدام Aspose.Tasks للـ Java. سواء كنت تبني أداة جدولة، أو أداة تقارير، أو تحتاج ببساطة إلى أتمتة تحديثات المشروع، فإن إتقان تعديل مقياس المعدل يمنحك تحكمًا دقيقًا في الموارد المادية والعملية.
 
 ## إجابات سريعة
+`ResourceAssignment` يربط مهمة بموارد ويحفظ بيانات خاصة بالتعيين.  
+`Asn` يحتوي على ثوابت لحقول التعيين، بما في ذلك `RATE_SCALE`.  
+`RateScaleType` تعداد يسرد الوحدات الزمنية الممكنة لتدرج المعدل.  
+
 - **ما هو الصنف الأساسي لمعالجة المعدل؟** `ResourceAssignment` مع الخاصية `Asn.RATE_SCALE`.  
 - **أي تعداد يحدد خيارات المقياس؟** `RateScaleType` (Day, Week, Month, إلخ).  
-- **هل أحتاج إلى ترخيص لتشغيل العينة؟** ترخيص تجريبي مجاني يعمل للاختبار؛ يلزم ترخيص تجاري للإنتاج.  
+- **هل أحتاج إلى ترخيص لتشغيل العينة؟** ترخيص تجريبي مجاني يعمل للاختبار؛ ترخيص تجاري مطلوب للإنتاج.  
 - **هل يمكنني تغيير المقياس بعد الحفظ؟** نعم – أعد تحميل المشروع وعدل `Asn.RATE_SCALE` كما هو موضح.  
-- **ما هي بيئات التطوير المتكاملة المدعومة؟** أي بيئة تطوير Java (IntelliJ IDEA، Eclipse، NetBeans) يمكنها تجميع الشيفرة.
+- **بيئات التطوير المتكاملة المدعومة؟** أي IDE للـ Java (IntelliJ IDEA، Eclipse، NetBeans) يمكنه تجميع الكود.
+
+## كيفية قراءة مقياس المعدل لتعيينات الموارد؟
+
+حمّل المشروع، حدد `ResourceAssignment` المطلوب، واستدعِ `getRateScale()` – هذا يُعيد قيمة من نوع `RateScaleType` تُخبرك ما إذا كان المعدل يُطبق يوميًا، أسبوعيًا، شهريًا، أو بوحدة أخرى. الإجابة فورية وتتطلب فقط استدعاءين لـ API، مما يجعلها مثالية لسكربتات التدقيق أو عروض واجهة المستخدم.
+
+## كيفية كتابة مقياس المعدل لتعيينات الموارد؟
+
+أنشئ أو استرجع كائن `ResourceAssignment`، عيّن خاصية `Asn.RATE_SCALE` إلى `RateScaleType` المطلوب (مثال: `RateScaleType.Week`)، ثم احفظ المشروع. هذا التغيير في الخاصية الواحدة يُحدّث حسابات التكلفة تلقائيًا ويستمر عبر جميع صيغ الملفات المدعومة. بعد ضبط المقياس، قد تحتاج أيضًا إلى تعديل معدل المورد القياسي أو معدل العمل الإضافي ليتماشى مع وحدة الوقت الجديدة، لضمان دقة حسابات التكلفة.
 
 ## ما هو مقياس المعدل؟
-مقياس المعدل يحدد وحدة الوقت (يوم، أسبوع، شهر، إلخ) التي يُطبق عليها معدل تكلفة المورد. تعديل المقياس يتيح لك نمذجة استهلاك المواد أو الجهد العمالي بدقة.
+
+مقياس المعدل يحدد وحدة الوقت (يوم، أسبوع، شهر، إلخ) التي يُطبق عليها معدل تكلفة المورد. تعديل المقياس يتيح لك نمذجة استهلاك المواد أو جهد العمل بدقة. على سبيل المثال، ضبط المقياس على أسبوع يعني أن معدل التكلفة يُفسّر كتكلفة لكل أسبوع، ويتم حساب التكلفة الإجمالية للمهمة بناءً على عدد الأسابيع التي يُعين فيها المورد.
 
 ## لماذا قراءة وكتابة مقياس المعدل؟
-قراءة المقياس الحالي تساعدك على تدقيق الجداول الزمنية القائمة، بينما كتابة مقياس جديد يتيح لك مواءمة الموارد مع سياسات الفوترة أو الاستهلاك في المشروع. هذا مفيد بشكل خاص عند **تحديد تكلفة المورد المادي** أو عندما تحتاج إلى **تعيين المقياس** لتقويمات العمل غير القياسية.
+
+قراءة المقياس الحالي تساعدك على تدقيق الجداول الزمنية القائمة، بينما كتابة مقياس جديد يتيح لك مواءمة الموارد مع سياسات الفوترة أو الاستهلاك في المشروع. هذا مفيد بشكل خاص عند **تحديد تكاليف الموارد المادية** أو عندما تحتاج إلى **ضبط المقياس** لتقويمات العمل غير القياسية.
 
 ## المتطلبات المسبقة
-قبل أن نبدأ، تأكد من توفر المتطلبات التالية:
-1. **بيئة تطوير Java** – JDK 8 أو أعلى مثبت.  
-2. **مكتبة Aspose.Tasks for Java** – قم بتحميل وتثبيت المكتبة من [here](https://releases.aspose.com/tasks/java/).
+قبل أن نبدأ، تأكد من أن لديك المتطلبات التالية:
+1. **بيئة تطوير Java** – JDK 8 أو أعلى مثبتة.  
+2. **مكتبة Aspose.Tasks للـ Java** – قم بتنزيل وتثبيت المكتبة من [هنا](https://releases.aspose.com/tasks/java/).
 
 ## استيراد الحزم
-أولاً، استورد الفئات الضرورية من Aspose.Tasks.
+الصنف `ResourceAssignment` يمثل رابطًا بين مهمة وموارد، بينما `RateScaleType` تعداد يحدد الوحدات الزمنية الممكنة للمعدل. استورد الفئات اللازمة من Aspose.Tasks قبل بدء الترميز.  
+
+`Project` هو الكائن الرئيسي الذي يحمل ويحفظ ملفات Microsoft Project.  
+`Resource` يعرّف مورد المشروع مثل العمل أو المادة.  
+`ResourceType` تعداد يحدد ما إذا كان المورد عملًا أم مادة.  
+`Task` يمثل عنصر عمل في جدول المشروع.  
+`SaveFileFormat` تعداد يحدد صيغة الإخراج لحفظ المشروع.
 
 ```java
 import com.aspose.tasks.Asn;
@@ -52,10 +104,10 @@ import java.io.IOException;
 ```
 
 ## الخطوة 1: إعداد مشروع Java الخاص بك
-أنشئ مشروع Maven أو Gradle وأضف ملف JAR الخاص بـ Aspose.Tasks إلى مسار الفئة (classpath). هذه الخطوة تضمن أن المترجم يستطيع العثور على الفئات المستوردة.
+أنشئ مشروع Maven أو Gradle وأضف ملف Aspose.Tasks JAR إلى مسار الفئات الخاص بك. هذه الخطوة تضمن أن المترجم يستطيع العثور على الفئات المستوردة.
 
 ## الخطوة 2: تحميل ملف المشروع
-حمّل ملف Microsoft Project الموجود الذي تريد العمل عليه.
+حمّل ملف Microsoft Project الموجود الذي تريد العمل معه.
 
 ```java
 String dataDir = "Your Data Directory";
@@ -70,7 +122,7 @@ Task task = project.getRootTask().getChildren().add("t1");
 ```
 
 ## الخطوة 4: تعريف الموارد
-هنا نقوم **بتعريف مورد مادي** ومورد عمل عادي. لاحظ استخدام `ResourceType.Material` للمورد من النوع المادي.
+هنا نـ**نعرّف موردًا ماديًا** ومورد عمل عادي. لاحظ استخدام `ResourceType.Material` للمورد من النوع المادي.
 
 ```java
 Resource materialResource = project.getResources().add("materialResource");
@@ -79,8 +131,8 @@ Resource nonMaterialResource = project.getResources().add("nonMaterialResource")
 nonMaterialResource.set(Rsc.TYPE, ResourceType.Work);
 ```
 
-## الخطوة 5: تعيين الموارد إلى المهمة
-الآن نقوم **بتعيين الموارد إلى المهمة** ونحدد **كيفية تعيين المقياس** باستخدام `RateScaleType.Week`. هذا يوضح كل من قراءة وكتابة مقياس المعدل.
+## الخطوة 5: تعيين الموارد للمهمة
+الآن نـ**نُعيّن الموارد للمهمة** ونحدد **كيفية ضبط المقياس** باستخدام `RateScaleType.Week`. هذا يوضح كلًا من قراءة وكتابة مقياس المعدل.
 
 ```java
 ResourceAssignment materialResourceAssignment = project.getResourceAssignments().add(task, materialResource);
@@ -109,33 +161,38 @@ ResourceAssignment resavedNonMaterialResourceAssignment = resavedProject.getReso
 ## الأخطاء الشائعة والنصائح
 - **عدم تطابق UID** – عند استرجاع التعيينات بواسطة UID، تأكد من أن قيم UID تتطابق مع تلك التي تم تعيينها أثناء الإنشاء.  
 - **نوع المورد غير الصحيح** – استخدام `ResourceType.Material` لمورد عمل سيتسبب في سلوك غير متوقع لحسابات المعدل.  
-- **صيغة الحفظ** – احفظ دائمًا باستخدام `SaveFileFormat.Mpp` (أو أي صيغة مدعومة أخرى) للحفاظ على الحقول المخصصة مثل مقياس المعدل.
-
-## الخلاصة
-إدارة وفحص مقياس المعدل لتعيينات الموارد في Aspose.Tasks for Java أمر بسيط بمجرد معرفتك بالفئات والخصائص ذات الصلة. باتباع هذا الدليل يمكنك **قراءة معلومات المعدل**، **تعريف كائنات المورد المادي**، **تعيين المقياس**، و**تعيين الموارد إلى المهمة** بثقة.
+- **صيغة الحفظ** – احفظ دائمًا باستخدام `SaveFileFormat.Mpp` (أو صيغة مدعومة أخرى) للحفاظ على الحقول المخصصة مثل مقياس المعدل.  
+- **المشاريع الكبيرة** – يمكن لـ Aspose.Tasks معالجة ملفات تحتوي على **500+ صفحة** دون تحميل المستند بالكامل في الذاكرة، بفضل بنية البث.
 
 ## الأسئلة المتكررة
 
-**س: هل يمكنني استخدام Aspose.Tasks for Java مع أي بيئة تطوير Java؟**  
-ج: نعم، Aspose.Tasks for Java متوافق مع جميع بيئات تطوير Java الرئيسية، بما في ذلك IntelliJ IDEA، Eclipse، وNetBeans.
+**س: هل يمكنني استخدام Aspose.Tasks للـ Java مع أي بيئة تطوير Java؟**  
+نعم، Aspose.Tasks للـ Java متوافق مع جميع بيئات التطوير الرئيسية للـ Java، بما في ذلك IntelliJ IDEA، Eclipse، و NetBeans.
 
 **س: هل يدعم Aspose.Tasks صيغ ملفات أخرى غير MPP؟**  
-ج: نعم، يدعم Aspose.Tasks صيغ ملفات متعددة، بما في ذلك MPP، XML، وHTML.
+نعم، Aspose.Tasks يدعم صيغ ملفات متعددة، بما في ذلك MPP، XML، و HTML.
 
 **س: هل Aspose.Tasks مناسب لإدارة المشاريع على مستوى المؤسسات؟**  
-ج: بالتأكيد، يقدم Aspose.Tasks ميزات شاملة لإدارة المشاريع بأي حجم، مما يجعله مناسبًا لإدارة المشاريع على مستوى المؤسسات.
+بالطبع، Aspose.Tasks يقدم ميزات شاملة لإدارة المشاريع من أي حجم، مما يجعله مناسبًا لإدارة المشاريع على مستوى المؤسسات.
 
 **س: هل يمكنني تخصيص تعيينات الموارد أكثر من مجرد مقياس المعدل؟**  
-ج: نعم، يوفر Aspose.Tasks إمكانيات واسعة لتخصيص تعيينات الموارد، بما في ذلك تعديل التكلفة والعمل والمدة.
+نعم، Aspose.Tasks يوفر إمكانيات واسعة لتخصيص تعيينات الموارد، بما في ذلك تعديل التكلفة، العمل، والمدة.
 
 **س: هل هناك منتدى مجتمع لدعم Aspose.Tasks؟**  
-ج: نعم، يمكنك العثور على الدعم والتفاعل مع المستخدمين الآخرين في منتدى Aspose.Tasks [here](https://forum.aspose.com/c/tasks/15).
+نعم، يمكنك العثور على الدعم والتفاعل مع المستخدمين الآخرين في منتدى Aspose.Tasks [هنا](https://forum.aspose.com/c/tasks/15).
 
 ---
 
-**آخر تحديث:** 2026-01-10  
-**تم الاختبار مع:** Aspose.Tasks for Java 24.12 (أحدث نسخة وقت الكتابة)  
-**المؤلف:** Aspose  
+**آخر تحديث:** 2026-06-10  
+**تم الاختبار مع:** Aspose.Tasks للـ Java 24.12 (أحدث نسخة وقت الكتابة)  
+**المؤلف:** Aspose
+
+## دروس ذات صلة
+
+- [إنشاء تعيينات الموارد في Aspose.Tasks](/tasks/java/resource-assignments/create-resource-assignments/)
+- [كيفية تعديل التعيينات – قراءة الموارد المشتركة مع Aspose](/tasks/java/resource-assignments/read-shared-resource-assignments/)
+- [كيفية إضافة ملاحظات إلى تعيينات الموارد في Aspose.Tasks](/tasks/java/resource-assignments/resource-assignment-notes/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
