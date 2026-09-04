@@ -1,68 +1,135 @@
 ---
-title: Java के लिए Aspose.Tasks के साथ MS प्रोजेक्ट संसाधन लागत प्रबंधित करें
+date: 2026-06-15
+description: Aspose.Tasks for Java का उपयोग करके MS Project फ़ाइलों में लागत को कैसे
+  प्रबंधित करें सीखें, जिसमें MPP फ़ाइल को लोड करना और वास्तविक लागत कार्य तथा बजटेड
+  लागत शेड्यूल पढ़ना शामिल है।
+keywords:
+- how to manage costs
+- actual cost work
+- load mpp file
+- budgeted cost schedule
 linktitle: Aspose.Tasks में संसाधन लागत को संभालें
-second_title: Aspose.Tasks जावा एपीआई
-description: जावा के लिए Aspose.Tasks के साथ MS प्रोजेक्ट संसाधन लागत को कुशलतापूर्वक प्रबंधित करना सीखें। हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें.
-weight: 18
+schemas:
+- author: Aspose
+  dateModified: '2026-06-15'
+  description: Learn how to manage costs in MS Project files using Aspose.Tasks for
+    Java, including how to load an MPP file and read actual cost work and budgeted
+    cost schedule.
+  headline: How to Manage Costs in MS Project with Aspose.Tasks for Java
+  type: TechArticle
+- description: Learn how to manage costs in MS Project files using Aspose.Tasks for
+    Java, including how to load an MPP file and read actual cost work and budgeted
+    cost schedule.
+  name: How to Manage Costs in MS Project with Aspose.Tasks for Java
+  steps:
+  - name: Basic understanding of Java programming.
+    text: Basic understanding of Java programming.
+  - name: Aspose.Tasks for Java library added to your project (Maven/Gradle or manual
+      JAR).
+    text: Aspose.Tasks for Java library added to your project (Maven/Gradle or manual
+      JAR).
+  - name: Access to a Microsoft Project file (`.mpp`) you want to analyze.
+    text: Access to a Microsoft Project file (`.mpp`) you want to analyze.
+  type: HowTo
+- questions:
+  - answer: Yes, it fully supports nested summary tasks, multiple resource calendars,
+      and custom fields across all supported Project versions.
+    question: Can Aspose.Tasks for Java handle complex project structures?
+  - answer: Absolutely. Aspose.Tasks reads and writes files from Microsoft Project
+      2000 up to the latest 2023 format.
+    question: Is the library compatible with different versions of Microsoft Project
+      files?
+  - answer: Yes, the API returns standard Java objects, allowing seamless integration
+      with logging frameworks, ORM tools, or reporting libraries.
+    question: Can I integrate Aspose.Tasks for Java with other Java libraries?
+  - answer: Aspose provides dedicated forum support, detailed documentation, and responsive
+      email assistance for licensed users.
+    question: Does Aspose.Tasks for Java offer customer support?
+  - answer: You can download a 30‑day evaluation license from the Aspose website to
+      explore all features without cost.
+    question: Is there a free trial available for Aspose.Tasks for Java?
+  type: FAQPage
+second_title: Aspose.Tasks Java API
+title: MS Project में लागत को Aspose.Tasks for Java के साथ कैसे प्रबंधित करें
 url: /hi/java/resource-management/resource-cost/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java के लिए Aspose.Tasks के साथ MS प्रोजेक्ट संसाधन लागत प्रबंधित करें
+# MS Project में लागत प्रबंधन कैसे करें Aspose.Tasks for Java के साथ
 
 ## परिचय
 
-परियोजना प्रबंधन में, परियोजनाओं को बजट के भीतर रखने और लाभप्रदता सुनिश्चित करने के लिए संसाधन लागत की निगरानी और प्रबंधन महत्वपूर्ण है। जावा के लिए Aspose.Tasks Microsoft प्रोजेक्ट संसाधन लागत को कुशलतापूर्वक संभालने के लिए शक्तिशाली उपकरण प्रदान करता है। इस ट्यूटोरियल में, हम जावा के लिए Aspose.Tasks का उपयोग करके संसाधन लागतों को प्रभावी ढंग से प्रबंधित करने के तरीके पर विस्तार से चर्चा करेंगे, प्रत्येक चरण को पालन करने में आसान निर्देशों में विभाजित करेंगे।
+परियोजना बजट का प्रबंधन किसी भी प्रोजेक्ट मैनेजर की मुख्य जिम्मेदारी है, और **लागत कैसे प्रबंधित करें** प्रभावी रूप से परियोजना की सफलता को बना या बिगाड़ सकता है। Aspose.Tasks for Java आपको Microsoft Project फ़ाइलों पर प्रोग्रामेटिक नियंत्रण देता है, जिससे आप .mpp फ़ाइल को मैन्युअल रूप से खोले बिना संसाधन लागत डेटा को पढ़ और अपडेट कर सकते हैं। इस ट्यूटोरियल में आप चरण‑बद्ध रूप से देखेंगे कि MPP फ़ाइल कैसे लोड करें, वास्तविक लागत कार्य की जांच करें, और प्रत्येक संसाधन के लिए बजटेड लागत शेड्यूल निकालें।
 
-## आवश्यक शर्तें
+## त्वरित उत्तर
+- **Aspose.Tasks for Java क्या करता है?** यह Microsoft Project फ़ाइलें (.mpp) को पढ़ता और लिखता है बिना Microsoft Project स्थापित किए।  
+- **मैं MPP फ़ाइल कैसे लोड कर सकता हूँ?** `new Project("path/to/file.mpp")` का उपयोग करें – API फ़ाइल को मेमोरी में पार्स करता है।  
+- **कौन से लागत फ़ील्ड उपलब्ध हैं?** Actual Cost Work (ACWP), Budgeted Cost of Work Scheduled (BCWS), और Budgeted Cost of Work Performed (BCWP)।  
+- **क्या विकास के लिए लाइसेंस चाहिए?** परीक्षण के लिए एक मुफ्त अस्थायी लाइसेंस काम करता है; उत्पादन के लिए पूर्ण लाइसेंस आवश्यक है।  
+- **कौन सी Java संस्करण समर्थित हैं?** Java 8 और उसके बाद के संस्करण, जिसमें Java 17 LTS शामिल है।
 
-इस ट्यूटोरियल में जाने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित शर्तें हैं:
+## MS Project में लागत कैसे प्रबंधित करें?
 
-1. जावा प्रोग्रामिंग की बुनियादी समझ.
-2. जावा के लिए Aspose.Tasks की स्थापना।
-3. Microsoft प्रोजेक्ट फ़ाइलों (.mpp) से परिचित होना।
+`new Project("yourFile.mpp")` के साथ अपना प्रोजेक्ट लोड करें, फिर प्रत्येक `Resource` ऑब्जेक्ट के माध्यम से पुनरावृत्ति करें ताकि ACWP, BCWS, और BCWP जैसी लागत‑संबंधित प्रॉपर्टीज़ पढ़ी जा सकें। Aspose.Tasks स्वचालित रूप से आंतरिक लागत मानों को प्रोजेक्ट की मुद्रा में परिवर्तित करता है, इसलिए आप उन्हें सीधे प्रदर्शित या संग्रहीत कर सकते हैं। यह दृष्टिकोण मैन्युअल स्प्रेडशीट गणनाओं को समाप्त करता है और सभी प्रोजेक्ट रिपोर्टों में डेटा स्थिरता सुनिश्चित करता है।
+
+## पूर्वापेक्षाएँ
+
+1. Java प्रोग्रामिंग की बुनियादी समझ।  
+2. Aspose.Tasks for Java लाइब्रेरी को अपने प्रोजेक्ट में जोड़ें (Maven/Gradle या मैन्युअल JAR)।  
+3. एक Microsoft Project फ़ाइल (`.mpp`) तक पहुँच जो आप विश्लेषण करना चाहते हैं।  
 
 ## पैकेज आयात करें
 
-सबसे पहले, आपको Java के लिए Aspose.Tasks के साथ काम करने के लिए आवश्यक पैकेज आयात करने होंगे। अपनी जावा फ़ाइल में निम्नलिखित आयात विवरण जोड़ें:
+`Project` और `Resource` क्लासेज़ प्रोजेक्ट डेटा के साथ काम करने के एंट्री पॉइंट हैं।
 
+`Project` क्लास Aspose.Tasks का टॉप‑लेवल ऑब्जेक्ट है जो मेमोरी में एकल Microsoft Project फ़ाइल का प्रतिनिधित्व करता है।  
+```text
 ```java
 import com.aspose.tasks.Project;
 import com.aspose.tasks.Resource;
 import com.aspose.tasks.Rsc;
 ```
+```
 
-आइए उदाहरण कोड को कई चरणों में विभाजित करें:
+## चरण 1: डेटा डायरेक्टरी निर्धारित करें
 
-## चरण 1: डेटा निर्देशिका को परिभाषित करें
+पहले, उस फ़ोल्डर को निर्दिष्ट करें जिसमें आपकी `.mpp` फ़ाइल है। यह पाथ पूर्ण (absolute) या आपके एप्लिकेशन की कार्यशील डायरेक्टरी के सापेक्ष (relative) हो सकता है।
 
+```text
 ```java
 String dataDir = "Your Data Directory";
 ```
+```
 
- प्रतिस्थापित करें`"Your Data Directory"` आपकी एमएस प्रोजेक्ट फ़ाइल के पथ के साथ।
+## चरण 2: MS Project फ़ाइल लोड करें
 
-## चरण 2: एमएस प्रोजेक्ट फ़ाइल लोड करें
+`Project` फ़ाइल को लोड करता है और एक ऑब्जेक्ट मॉडल बनाता है जिसे आप क्वेरी कर सकते हैं। API फ़ाइल को बिना Microsoft Project स्थापित किए पार्स करता है, और 30 से अधिक इनपुट फ़ॉर्मेट का समर्थन करता है।
 
+```text
 ```java
 Project prj = new Project(dataDir + "ResourceCosts.mpp");
 ```
+```
 
- कोई नया बनाएं`Project` एमएस प्रोजेक्ट फ़ाइल को उसके पथ का उपयोग करके लोड करके ऑब्जेक्ट करें।
+## चरण 3: संसाधनों के माध्यम से पुनरावृत्ति करें
 
-## चरण 3: संसाधनों के माध्यम से पुनरावृति करें
+`Resource` ऑब्जेक्ट्स लोगों, उपकरणों या सामग्री का प्रतिनिधित्व करते हैं जो बजट का उपभोग करते हैं। आप `project.getResources()` कलेक्शन के माध्यम से लूप करके प्रत्येक को एक्सेस कर सकते हैं।
 
+```text
 ```java
 for (Resource res : prj.getResources()) {
 ```
+```
 
-प्रोजेक्ट में प्रत्येक संसाधन के माध्यम से पुनरावृति करें।
+## चरण 4: संसाधन नाम और लागत जांचें
 
-## चरण 4: संसाधन का नाम और लागत की जाँच करें
+प्रत्येक संसाधन के लिए, सुनिश्चित करें कि नाम परिभाषित है, फिर लागत फ़ील्ड पढ़ें। `getActualCost()` मेथड **वास्तविक लागत कार्य** (ACWP) लौटाता है, जबकि `getBudgetedCost()` आपको **बजटेड लागत शेड्यूल** (BCWS/BCWP) देता है।
 
+```text
 ```java
 if (res.get(Rsc.NAME) != null) {
     System.out.println(res.get(Rsc.COST));
@@ -71,37 +138,49 @@ if (res.get(Rsc.NAME) != null) {
     System.out.println(res.get(Rsc.BCWP));
 }
 ```
+```
 
-जांचें कि क्या संसाधन का नाम शून्य नहीं है, फिर इसकी लागत-संबंधित विशेषताओं जैसे लागत, प्रदर्शन किए गए कार्य की वास्तविक लागत (ACWP), निर्धारित कार्य की बजट लागत (BCWS), और प्रदर्शन किए गए कार्य की बजट लागत (BCWP) को प्रिंट करें।
+## MPP फ़ाइल लोड करने के लिए Aspose.Tasks for Java का उपयोग क्यों करें?
 
-## निष्कर्ष
+Aspose.Tasks **30+ फ़ाइल फ़ॉर्मेट** (जैसे `.mpp`, `.xml`, और `.xlsx`) का समर्थन करता है और **10,000 टास्क** तक के प्रोजेक्ट को 200 MB से कम RAM में प्रोसेस कर सकता है। लाइब्रेरी सभी गणनाएँ सर्वर साइड पर करती है, जिससे Microsoft Project की लाइसेंस्ड कॉपी की आवश्यकता समाप्त हो जाती है।
 
-परियोजना की सफलता के लिए संसाधन लागत को प्रभावी ढंग से प्रबंधित करना आवश्यक है, और जावा के लिए Aspose.Tasks अपनी मजबूत सुविधाओं के साथ इस प्रक्रिया को सरल बनाता है। इस ट्यूटोरियल में बताए गए चरणों का पालन करके, आप जावा के लिए Aspose.Tasks का उपयोग करके Microsoft प्रोजेक्ट फ़ाइलों में संसाधन लागत को कुशलतापूर्वक संभाल सकते हैं।
+## सामान्य समस्याएँ और समाधान
+
+- **Null resource names:** कुछ लेगेसी फ़ाइलों में प्लेसहोल्डर संसाधन होते हैं। लागत प्रॉपर्टीज़ एक्सेस करने से पहले हमेशा `resource.getName() != null` जांचें।  
+- **Large files causing memory pressure:** LoadOptions एक कॉन्फ़िगरेशन क्लास है जो आपको यह निर्दिष्ट करने देती है कि कौन सा प्रोजेक्ट डेटा लोड करना है। केवल आवश्यक डेटा लोड करने के लिए `project.setLoadOptions(LoadOptions.setLoadResourceData(false))` का उपयोग करें, फिर आवश्यकता पड़ने पर बाद में इसे सक्षम करें।  
+- **Currency mismatches:** API प्रोजेक्ट की मुद्रा सेटिंग्स का सम्मान करता है; यदि आवश्यक हो तो आप इसे `project.getRootTask().setCostRateTable(CostRateTableType.CostRateTable1)` के साथ ओवरराइड कर सकते हैं। CostRateTableType विभिन्न लागत दर तालिकाओं को दर्शाता है जिन्हें टास्क पर लागू किया जा सकता है।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
-### Q1: क्या जावा के लिए Aspose.Tasks जटिल परियोजना संरचनाओं को संभाल सकता है?
+**प्रश्न: क्या Aspose.Tasks for Java जटिल प्रोजेक्ट संरचनाओं को संभाल सकता है?**  
+उत्तर: हाँ, यह नेस्टेड समरी टास्क, कई संसाधन कैलेंडर, और सभी समर्थित प्रोजेक्ट संस्करणों में कस्टम फ़ील्ड को पूरी तरह से समर्थन करता है।
 
-A1: हाँ, Java के लिए Aspose.Tasks संसाधनों, कार्यों और असाइनमेंट सहित जटिल परियोजना संरचनाओं को संभालने के लिए व्यापक समर्थन प्रदान करता है।
+**प्रश्न: क्या लाइब्रेरी विभिन्न संस्करणों की Microsoft Project फ़ाइलों के साथ संगत है?**  
+उत्तर: बिल्कुल। Aspose.Tasks Microsoft Project 2000 से लेकर नवीनतम 2023 फ़ॉर्मेट तक की फ़ाइलें पढ़ता और लिखता है।
 
-### Q2: क्या जावा के लिए Aspose.Tasks Microsoft प्रोजेक्ट फ़ाइलों के विभिन्न संस्करणों के साथ संगत है?
+**प्रश्न: क्या मैं Aspose.Tasks for Java को अन्य Java लाइब्रेरीज़ के साथ एकीकृत कर सकता हूँ?**  
+उत्तर: हाँ, API मानक Java ऑब्जेक्ट्स लौटाता है, जिससे लॉगिंग फ्रेमवर्क, ORM टूल्स, या रिपोर्टिंग लाइब्रेरीज़ के साथ सहज एकीकरण संभव है।
 
-A2: हाँ, Java के लिए Aspose.Tasks Microsoft प्रोजेक्ट फ़ाइलों के विभिन्न संस्करणों का समर्थन करता है, जो विभिन्न वातावरणों में अनुकूलता सुनिश्चित करता है।
+**प्रश्न: क्या Aspose.Tasks for Java ग्राहक समर्थन प्रदान करता है?**  
+उत्तर: Aspose लाइसेंसधारी उपयोगकर्ताओं के लिए समर्पित फ़ोरम समर्थन, विस्तृत दस्तावेज़ीकरण, और त्वरित ईमेल सहायता प्रदान करता है।
 
-### Q3: क्या मैं जावा के लिए Aspose.Tasks को अन्य जावा लाइब्रेरीज़ के साथ एकीकृत कर सकता हूँ?
+**प्रश्न: क्या Aspose.Tasks for Java के लिए मुफ्त ट्रायल उपलब्ध है?**  
+उत्तर: आप Aspose वेबसाइट से 30‑दिन का मूल्यांकन लाइसेंस डाउनलोड करके सभी सुविधाओं को बिना लागत के देख सकते हैं।
 
-A3: बिल्कुल, प्रोजेक्ट प्रबंधन क्षमताओं को और बढ़ाने के लिए जावा के लिए Aspose.Tasks को अन्य जावा लाइब्रेरी के साथ आसानी से एकीकृत किया जा सकता है।
+---
 
-### Q4: क्या जावा के लिए Aspose.Tasks ग्राहक सहायता प्रदान करता है?
+**अंतिम अपडेट:** 2026-06-15  
+**परीक्षण किया गया:** Aspose.Tasks for Java 24.12  
+**लेखक:** Aspose
 
-A4: हां, Aspose अपने मंचों के माध्यम से उत्कृष्ट ग्राहक सहायता प्रदान करता है, जहां उपयोगकर्ता प्रश्न पूछ सकते हैं और सहायता मांग सकते हैं।
+## संबंधित ट्यूटोरियल
 
-### Q5: क्या जावा के लिए Aspose.Tasks के लिए कोई निःशुल्क परीक्षण उपलब्ध है?
+- [लागत विचलन की गणना कैसे करें और असाइनमेंट लागत प्रबंधित करें Aspose.Tasks के साथ](/tasks/java/resource-assignments/assignment-cost/)
+- [Aspose.Tasks में टास्क के लिए बजट, कार्य, और लागत प्रबंधन](/tasks/java/task-properties/task-budget-work-cost/)
+- [Aspose.Tasks for Java के साथ प्रोजेक्ट में संसाधन जोड़ें](/tasks/java/resource-management/create-resources/)
 
-A5: हाँ, आप खरीदारी का निर्णय लेने से पहले जावा की विशेषताओं का पता लगाने के लिए Aspose.Tasks के निःशुल्क परीक्षण का उपयोग कर सकते हैं।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

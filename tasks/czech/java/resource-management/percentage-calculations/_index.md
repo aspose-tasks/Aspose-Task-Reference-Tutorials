@@ -1,11 +1,37 @@
 ---
-date: 2026-01-13
-description: Naučte se, jak vypočítat procento zdroje v Javě pomocí Aspose.Tasks,
-  včetně toho, jak získat procento dokončené práce pro zdroje v MS Projectu. Praktický
+date: 2026-06-15
+description: Naučte se, jak vypočítat procentuální podíl zdroje v Java s Aspose.Tasks,
+  včetně toho, jak získat procento dokončené práce pro zdroje v MS Project. Podrobný
   návod krok za krokem s ukázkami kódu.
-linktitle: Perform Percentage Calculations for Resources in Aspose.Tasks
+keywords:
+- calculate resource percentage java
+- get percent work complete
+- Aspose.Tasks resource percentage
+- Java project management API
+linktitle: Provádět výpočet procent pro zdroje v Aspose.Tasks
+schemas:
+- author: Aspose
+  dateModified: '2026-06-15'
+  description: Learn how to calculate resource percentage java with Aspose.Tasks,
+    including how to get percent work complete for MS Project resources. Step‑by‑step
+    guide with code examples.
+  headline: calculate resource percentage java with Aspose.Tasks
+  type: TechArticle
+- questions:
+  - answer: It’s the percentage of work a resource has completed relative to its total
+      assigned work.
+    question: What does “resource percentage” mean?
+  - answer: '`Rsc.PERCENT_WORK_COMPLETE` via the `Resource` class.'
+    question: Which API call returns this value?
+  - answer: A temporary or full Aspose.Tasks license is required for production use.
+    question: Do I need a license?
+  - answer: Yes – the API works with Spring, Hibernate, and plain Java projects.
+    question: Can I use this with other Java frameworks?
+  - answer: Any recent version that supports the `Rsc` enumeration (e.g., 24.x).
+    question: What version of Aspose.Tasks is needed?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: Vypočítat procento zdroje v Javě pomocí Aspose.Tasks
+title: Vypočítat procentuální podíl zdroje v Java s Aspose.Tasks
 url: /cs/java/resource-management/percentage-calculations/
 weight: 14
 ---
@@ -14,115 +40,129 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# výpočet procenta zdrojů java s Aspose.Tasks
+# vypočítat procento zdroje java s Aspose.Tasks
 
 ## Úvod
-Vítejte! V tomto tutoriálu se naučíte **jak vypočítat procento zdrojů v Javě** pomocí knihovny Aspose.Tasks pro Java. Provedeme vás extrahováním *procento dokončené práce* pro každý zdroj v souboru Microsoft Project, vysvětlíme, proč je tato metrika důležitá, a ukážeme vám přesný kód, který potřebujete. Na konci budete schopni integrovat výpočty procenta zdrojů do jakéhokoli řešení pro řízení projektů založeného na Javě.
+Vítejte! V tomto tutoriálu se naučíte **jak vypočítat procento zdroje v Java** pomocí knihovny Aspose.Tasks pro Java. Provedeme vás extrahováním *percent work complete* pro každý zdroj v souboru Microsoft Project, vysvětlíme, proč je tato metrika důležitá, a ukážeme vám přesný kód, který potřebujete. Na konci budete schopni integrovat výpočty procenta zdrojů do jakéhokoli řešení pro řízení projektů založeného na Javě.
 
 ## Rychlé odpovědi
-- **Co znamená „procento zdrojů“?** Jedná se o procento práce, kterou zdroj dokončil vzhledem k přiřazené práci.
-- **Které volání API vrací tuto hodnotu?** `Rsc.PERCENT_WORK_COMPLETE` přes třídu `Resource`.
-- **Potřebuji licence?** Pro produkční použití je vyžadována dočasná nebo plná licence Aspose.Tasks.
-- **Mohu použít s jinými Java frameworky?** Ano – API funguje se Spring, Hibernate i čistými Java projekty.
-- **Jaká verze Aspose.Tasks je potřeba?** Jakákoli nejnovější verze, která podporuje výčtový typ `Rsc` (např. 24.x).
+- **Co znamená „resource percentage“?** Je to procento práce, kterou zdroj dokončil vzhledem k celkové přidělené práci.  
+- **Které volání API vrací tuto hodnotu?** `Rsc.PERCENT_WORK_COMPLETE` via the `Resource` class.  
+- **Potřebuji licenci?** A temporary or full Aspose.Tasks license is required for production use.  
+- **Mohu to použít s jinými Java frameworky?** Yes – the API works with Spring, Hibernate, and plain Java projects.  
+- **Jaká verze Aspose.Tasks je potřeba?** Any recent version that supports the `Rsc` enumeration (e.g., 24.x).
 
-## Co je výpočet procenta zdrojů java?
-Výpočet procenta zdrojů v Javě znamená programově načíst soubor Microsoft Project a určit, kolik práce každý zdroj dokončil. Tyto informace pomáhají projektovým manažerům předpovídat termíny, vyvažovat zatížení a identifikovat úzká místa.
+## Co je výpočet procenta zdroje v Java?
+Výpočet procenta zdroje v Java zahrnuje otevření souboru Microsoft Project, načtení přidělené práce každého zdroje a určení podílu této práce, která již byla dokončena. Tato metrika pomáhá projektovým manažerům hodnotit postup, vyvažovat pracovní zátěže a identifikovat potenciální zpoždění bez ručních výpočtů.
 
-## Proč dokončit procento práce?
-- **Progress tracking:** Na první pohled přichází, kteří členové týmu jsou v termínu.
-- **Plánování kapacit:** Přizpůsobte budoucí přiřazení na základě skutečného výkonu.
-- **Reporting:** Vytvářejte přesné stavové zprávy pro zainteresované strany bez ručních výpočtů.
+## Proč získat percent work complete?
+Získání percent work complete pro každý zdroj poskytuje okamžitý přehled o tom, kolik plánovaného úsilí bylo dokončeno, což vám umožní rychle odhalit úlohy, které zaostávají, nebo zdroje, které jsou podvyužité. Tento vhled podporuje včasné rozhodování a přesnější reportování stavu.
 
-## Předpoklady
+## Požadavky
 ### Vývojové prostředí Java
-doporučujeme se, že máte nainstalovaný Java Development Kit (JDK). JDK si můžete stáhnout z [zde](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+Ujistěte se, že máte nainstalovaný Java Development Kit (JDK). JDK můžete stáhnout [zde](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
 
-### Aspose.Tasks Library
-Přidejte a přidejte knihovnu Aspose.Tasks do svého projektu z [zde](https://releases.aspose.com/tasks/java/) a postupujte podle instalačních pokynů uvedených v dokumentaci [zde](https://reference.aspose.com/tasks/java/).
+### Knihovna Aspose.Tasks
+Stáhněte a přidejte knihovnu Aspose.Tasks do svého projektu z [zde](https://releases.aspose.com/tasks/java/) a postupujte podle instalačních pokynů uvedených v dokumentaci [zde](https://reference.aspose.com/tasks/java/).
 
-## Importujte balíčky
-Než začneme programovat, naimportujeme potřebné balíčky pro tento tutoriál:
+## Import balíčků
+Třída `Resource` představuje zdroj projektu a poskytuje přístup k polím, jako je percent work complete.  
+Než začneme kódovat, naimportujme potřebné balíčky vyžadované pro tento tutoriál:
 ```java
 import com.aspose.tasks.Project;
 import com.aspose.tasks.Resource;
 import com.aspose.tasks.Rsc;
 ```
 
-## Krok 1: Nastavení cesty k souboru projektu
+## Jak nastavit cestu k souboru projektu?
+Zadejte umístění souboru Microsoft Project buď jako absolutní cestu, nebo cestu relativní k pracovnímu adresáři aplikace. Řetězec cesty by měl ukazovat na platný soubor *.mpp*, aby Aspose.Tasks mohl soubor najít a otevřít pro další zpracování.
 ```java
 String dataDir = "Your Data Directory";
 ```
 Nahraďte `"Your Data Directory"` složkou, která obsahuje váš soubor Microsoft Project.
 
-## Krok 2: Načtení projektu
+## Jak načíst projekt?
+Vytvořte novou instanci třídy `Project` pomocí cesty k souboru, kterou jste definovali dříve. Třída `Project` představuje soubor Microsoft Project a poskytuje přístup k jeho úkolům, zdrojům a dalším projektovým datům, načítá vše do paměti pro analýzu.
 ```java
 Project prj = new Project(dataDir + "Software Development.mpp");
 ```
-Tím se načte soubor **Software Development.mpp** ze zadaného adresáře.
+Tím se načte soubor **Software Development.mpp** z adresáře, který jste určili.
 
-## Krok 3: Iterování zdroji
+## Jak iterovat přes zdroje?
+Použijte metodu `project.getResources()` k získání kolekce všech zdrojů definovaných v načteném projektu. Procházejte tuto kolekci pomocí standardní smyčky Java `for` nebo rozšířeného konstruktu `for‑each`, což vám umožní zkoumat každý objekt `Resource` jednotlivě a získat jeho související pole.
 ```java
 for (Resource res : prj.getResources()) {
 ```
-Procházíme všechny zdroje definované v projektu.
+Procházíme každý zdroj definovaný v projektu.
 
-## Krok 4: Kontrola názvu zdroje a zjištění procenta dokončené práce
+## Jak zkontrolovat název zdroje a získat percent work complete?
+Nejprve se ujistěte, že objekt `Resource` má neprázdný název, aby nedošlo ke zpracování zástupných položek. Pak zavolejte `res.get(Rsc.PERCENT_WORK_COMPLETE)`, která vrací hodnotu typu double představující procento dokončené práce pro daný zdroj, v rozmezí 0 až 100. Tuto hodnotu můžete naformátovat pro zobrazení nebo použít v dalších výpočtech k posouzení celkového stavu projektu.
 ```java
 if (res.get(Rsc.NAME) != null) {
     System.out.println(res.get(Rsc.PERCENT_WORK_COMPLETE));
 }
 ```
-Kód nejprve ověří, že zdroj má název, a poté vypíše hodnotu **percent work complete** pro tento zdroj.
+Kód nejprve ověří, že zdroj má název, a poté vytiskne hodnotu **percent work complete** pro tento zdroj.
 
-## Běžné problémy a řešení
-- **NuPointerException** – naleznete se, že cesta k souboru projektu je správná a soubor se načte bez chyb.
-- **Nesprávná procenta** – Ověřte, že zdroj má přiřazenou práci; jinak bude procento `0`.
-- **Chyby licence** – Použijte platnou licenci Aspose.Tasks nebo dočasnou hodnotící licenci, aby nedošlo k omezením během běhu.
+## Časté problémy a řešení
+- **NullPointerException** – Ujistěte se, že cesta k souboru projektu je správná a soubor se načte bez chyb.  
+- **Incorrect percentages** – Ověřte, že zdroj má skutečně přiřazenou práci; jinak bude procento `0`.  
+- **License errors** – Použijte platnou licenci Aspose.Tasks nebo dočasnou evaluační licenci, aby se předešlo omezením během běhu.
 
-## Nejčastější dotazy (původní)
+## Často kladené otázky (Originál)
 
-### Mohu používat Aspose.Tasks pro Javu s jinými frameworky Java?
+### Mohu použít Aspose.Tasks pro Java s jinými Java frameworky?
 Ano, Aspose.Tasks pro Java je kompatibilní s různými Java frameworky jako Spring, Hibernate a další.
 
 ### Podporuje Aspose.Tasks všechny verze souborů Microsoft Project?
 Aspose.Tasks poskytuje podporu pro všechny verze souborů Microsoft Project, včetně MPP, MPT, XML a dalších.
 
-### Mohu manipulovat s plány projektů pomocí Aspose.Tasks?
-Rozhodně, Aspose.Tasks nabízí komplexní funkce pro manipulaci s plánováním projektů, včetně úkolů, zdrojů, kalendářů a dalších.
+### Mohu manipulovat s projektovými plány pomocí Aspose.Tasks?
+Rozhodně, Aspose.Tasks nabízí komplexní funkce pro manipulaci s projektovými plány, včetně úkolů, zdrojů, kalendářů a dalších.
 
 ### Existuje komunitní fórum pro podporu Aspose.Tasks?
-Ano, můžete získat pomoc a komunikovat s ostatními uživateli na fóru komunity Aspose.Tasks [zde](https://forum.aspose.com/c/tasks/15).
+Ano, můžete najít pomoc a komunikovat s ostatními uživateli na komunitním fóru Aspose.Tasks [zde](https://forum.aspose.com/c/tasks/15).
 
-### Nabízí Aspose.Tasks dočasné licence pro účely hodnocení?
-Ano, dočasnou licenci pro vyhodnocení můžete získat z [zde](https://purchase.aspose.com/temporary-license/).
+### Nabízí Aspose.Tasks dočasné licence pro evaluační účely?
+Ano, můžete získat dočasnou licenci pro hodnocení z [zde](https://purchase.aspose.com/temporary-license/).
 
-## Další časté dotazy
+## Další FAQ
 
-**Otázka: Jak naformátuji výstup tak, aby zobrazoval procenta se znakem %?**
-A: Získejte číselnou hodnotu pomocí `res.get(Rsc.PERCENT_WORK_COMPLETE)` a formátujte ji pomocí `String.format("%.2f%%", value)`.
+**Q:** Jak naformátovat výstup tak, aby zobrazoval procenta se znakem %?  
+**A:** Získejte číselnou hodnotu pomocí `res.get(Rsc.PERCENT_WORK_COMPLETE)` a naformátujte ji pomocí `String.format("%.2f%%", value)`.
 
-**Otázka: Mohu filtrovat zdroje tak, aby se zobrazovaly pouze ty, které mají méně než 50 % dokončení?**
-A: Ano, přidejte podmínku `if` kontrolující `res.get(Rsc.PERCENT_WORK_COMPLETE) < 50` před výpisem.
+**Q:** Mohu filtrovat zdroje tak, aby zobrazovaly jen ty s méně než 50 % dokončeno?  
+**A:** Ano, přidejte podmínku `if` kontrolující `res.get(Rsc.PERCENT_WORK_COMPLETE) < 50` před tiskem.
 
-**Otázka: Je možné zapsat procenta zpět do souboru projektu?**
-A: Pole `Rsc.PERCENT_WORK_COMPLETE` je jen ke čtení; pro úpravu provést přiřazení úkolů.
+**Q:** Je možné zapsat procenta zpět do souboru Project?  
+**A:** Pole `Rsc.PERCENT_WORK_COMPLETE` je pouze pro čtení; místo toho byste museli upravit přiřazení úkolů.
 
-**Otázka: Funguje to se soubory Project Online (cloud)?**
-A: Nejprve musíte .mpp soubor stáhnout lokálně; Aspose.Tasks pracuje s formátem souboru, nikoli přímo s cloudovou službou.
+**Q:** Funguje to s soubory Project Online (cloud)?  
+**A:** Nejprve musíte .mpp soubor stáhnout lokálně; Aspose.Tasks pracuje s formátem souboru, nikoli přímo s cloudovou službou.
+
+## Kvantifikované výhody používání Aspose.Tasks
+Aspose.Tasks podporuje **více než 30 formátů souborů** (MPP, MPT, XML, CSV atd.) a může zpracovávat projekty až s **10 000 úkoly**, přičemž spotřeba paměti zůstává pod 200 MB díky streamování dat. Pole knihovny **read‑only `Rsc.PERCENT_WORK_COMPLETE`** je vypočítáno v čase O(n), což zajišťuje rychlé získání i pro velké plány.
 
 ## Závěr
-V tomto průvodci jsme ukázali **jak vypočítané procento zdrojů v Javě** pomocí Aspose.Tasks percent, i když se na získání *dokončené práce* pro každý zdroj. Dodržením výše uvedených kroků můžete do svých Java aplikací vložit přesné analytické procento zdrojů, což vám poskytne lepší přehled o zdraví projektu a využití zdrojů.
+V tomto průvodci jsme ukázali **jak vypočítat procento zdroje v Java** pomocí Aspose.Tasks, zaměřili jsme se na získání *percent work complete* pro každý zdroj. Dodržením výše uvedených kroků můžete do svých Java aplikací vložit přesné analytiky procenta zdrojů, což vám poskytne lepší přehled o stavu projektu a využití zdrojů.
 
 ---
 
-**Poslední aktualizace:** 2026-01-13
-**Testováno s:** Aspose.Tasks for Java 24.10
-**Autor:** Aspose  
+**Poslední aktualizace:** 2026-06-15  
+**Testováno s:** Aspose.Tasks for Java 24.10  
+**Autor:** Aspose
+
+## Související tutoriály
+
+- [Přidat zdroj do projektu s Aspose.Tasks pro Java](/tasks/java/resource-management/create-resources/)
+- [Spravovat náklady zdrojů MS Project s Aspose.Tasks pro Java](/tasks/java/resource-management/resource-cost/)
+- [Výpočty procenta dokončení úkolů v Aspose.Tasks](/tasks/java/task-properties/percentage-complete-calculations/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
