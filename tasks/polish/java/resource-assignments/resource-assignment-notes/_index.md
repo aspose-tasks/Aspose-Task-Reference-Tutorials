@@ -1,10 +1,72 @@
 ---
-date: 2026-01-10
-description: Dowiedz się, jak dodawać notatki do przydziałów zasobów przy użyciu Aspose.Tasks
-  dla Javy. Krok po kroku tutorial zapewniający płynną integrację.
-linktitle: How to Add Notes to Resource Assignments in Aspose.Tasks
+date: 2026-07-19
+description: Dowiedz się, jak dodać aspose tasks resource notes do przydziałów zasobów
+  przy użyciu Aspose.Tasks dla Java. Postępuj zgodnie z tym przewodnikiem krok po
+  kroku, aby usprawnić komunikację w projekcie.
+keywords:
+- aspose tasks resource notes
+- resource assignment notes
+- aspose.tasks java
+lastmod: 2026-07-19
+linktitle: Jak dodać notatki do przydziałów zasobów w Aspose.Tasks
+og_description: Dowiedz się, jak dodać aspose tasks resource notes do przydziałów
+  zasobów przy użyciu Aspose.Tasks dla Java. Ten samouczek przeprowadzi Cię przez
+  każdy krok, od konfiguracji po pobieranie notatek.
+og_image_alt: 'Guide: Adding resource assignment notes with Aspose.Tasks for Java'
+og_title: Aspose.Tasks resource notes – Dodaj notatki do przydziałów
+schemas:
+- author: Aspose
+  dateModified: '2026-07-19'
+  description: Learn how to add aspose tasks resource notes to resource assignments
+    using Aspose.Tasks for Java. Follow this step‑by‑step guide to improve project
+    communication.
+  headline: aspose tasks resource notes – Add Notes to Assignments
+  type: TechArticle
+- description: Learn how to add aspose tasks resource notes to resource assignments
+    using Aspose.Tasks for Java. Follow this step‑by‑step guide to improve project
+    communication.
+  name: aspose tasks resource notes – Add Notes to Assignments
+  steps:
+  - name: Set Data Directory
+    text: Set the path to your data directory where your project files are located.
+  - name: Load Project File
+    text: Load the project file into your Java application.
+  - name: Get Task and Resource
+    text: Retrieve the task and resource to which you want to add notes.
+  - name: Create Resource Assignment
+    text: Create a resource assignment for the task and resource.
+  - name: Set Notes
+    text: Set the notes for the resource assignment.
+  - name: Display Notes
+    text: Display the notes text and RTF format.
+  - name: Process Completion
+    text: Print a success message indicating the completion of the process.
+  type: HowTo
+- questions:
+  - answer: Yes, simply call `assn.set(Asn.NOTES_TEXT, "Updated note")` again with
+      the new content.
+    question: Can I edit notes after they have been set?
+  - answer: Absolutely. When you save the `Project` object, the notes become part
+      of the assignment data inside the file.
+    question: Are notes stored in the .mpp file?
+  - answer: You must open the project with the correct password using the appropriate
+      `Project` constructor overload before accessing assignments.
+    question: Does this work with encrypted project files?
+  - answer: Practically, notes can be several kilobytes long; extremely large notes
+      may affect performance when loading the project.
+    question: Is there a limit to the length of a note?
+  - answer: Yes, iterate over `prj.getResourceAssignments()` and set `Asn.NOTES_TEXT`
+      for each assignment as needed.
+    question: Can I add notes to multiple assignments in a loop?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: Jak dodać notatki do przydziałów zasobów w Aspose.Tasks
+tags:
+- aspose tasks
+- resource notes
+- java project management
+- resource assignments
+- aspose tasks java
+title: Aspose.Tasks resource notes – Dodaj notatki do przydziałów
 url: /pl/java/resource-assignments/resource-assignment-notes/
 weight: 21
 ---
@@ -15,31 +77,28 @@ weight: 21
 
 # Jak dodać notatki do przydziałów zasobów w Aspose.Tasks
 
-## Wstęp
-W tym samouczku inne, **jak dodać notatki** do przydziałów zasobów przy użyciu Aspose.Tasks dla Javy. Aspose.Tasks to solidna biblioteka Java odpad do obsługi zadań zarządzania projektami. Ten przewodnik przewodzi Cię przez każdy krok, może być płynnie zintegrowany z notatkami zarządzania w twoich przepływach pracy projektowych.
+## Wprowadzenie
+W tym samouczku odkryjesz **jak dodać notatki do przydziałów zasobów** przy użyciu Aspose.Tasks dla Javy – wiodącej w branży biblioteki obsługującej pliki zarządzania projektami. Po zakończeniu przewodnika będziesz mógł dołączyć komentarze w formacie zwykłego tekstu lub tekstu sformatowanego (RTF) bezpośrednio do powiązania zadanie‑zasób, co sprawi, że dane projektu będą znacznie bardziej komunikatywne i gotowe do audytu.
 
 ## Szybkie odpowiedzi
-- **Co wpływa „dodawanie notatek”?** Przechowuje notatki w tekście i RTF w przydziale zasobu.
-- **Która klasa przechowuje dane notatki?** Klasa `Asn` (np. `Asn.NOTES_TEXT`).
-- **Czy jest to licencjat do testów?** Niedostępna jest wersja próbna na stronie Aspose.
-- **Czy można zachować uwagę w RTF?** Tak, oficjalnie `Asn.NOTES_RTF`.
-- **Czy jest możliwe, że wystąpią problemy IDE Java?** Absolutnie – IntelliJ IDEA, Eclipse, NetBeans itp.
+- **Na co wpływa „dodawanie notatek”?** Przechowuje notatki w formacie zwykłego tekstu i RTF w przydziale zasobu.  
+- **Która klasa przechowuje dane notatki?** Klasa `Asn` (np. `Asn.NOTES_TEXT`).  
+- **Czy potrzebna jest licencja do testów?** Nie, dostępna jest bezpłatna wersja próbna na stronie Aspose.  
+- **Czy mogę pobrać notatki w formacie RTF?** Tak, użyj `Asn.NOTES_RTF`.  
+- **Czy jest to kompatybilne ze wszystkimi IDE Java?** Absolutnie – IntelliJ IDEA, Eclipse, NetBeans itp.  
 
-## Na czym polega dodawanie notatek do przydziału zasobu?
-Dodawanie notatek oznacza dołączenie opisowego tekstu (zwykłego lub sformatowanego) do powiązań między źródłem a zasobem. Pomaga menedżerom projektu uchwycić kontekst, specjalne instrukcje lub komentarze bezpośrednio w przydziale.
+## Co to jest dodawanie notatek do przydziału zasobu?
+Dodawanie notatek oznacza dołączanie opisowego tekstu — zarówno zwykłego tekstu, jak i tekstu sformatowanego (RTF) — do powiązania między zadaniem a zasobem. Ta funkcja pozwala menedżerom projektów osadzać kontekst, specjalne instrukcje lub komentarze z dziennika zmian bezpośrednio w przydziale, zapewniając, że każdy przeglądający harmonogram może od razu zrozumieć „dlaczego” każdej alokacji.
 
-## Po co dodawać notatki?
-- **Lepsza komunikacja:** Członkowie zespołu mogą zobaczyć, dlaczego zasób został przydzielony.
-- **Ścieżka audytu:** Zachowuje historię zmian lub uwagi.
-- **Bogate formatowanie:** Notatki RTF umożliwiające pogrubienie, kursywę i inne style dla przejrzystości.
+## Dlaczego dodawać notatki?
+Dodawanie notatek tworzy natychmiastowy kanał komunikacji wewnątrz pliku projektu. Eliminuje potrzebę korzystania z zewnętrznych arkuszy kalkulacyjnych lub wątków e‑mail, zapewnia wbudowaną ścieżkę audytu, a dzięki obsłudze RTF pozwala podkreślić krytyczne informacje za pomocą pogrubienia lub kursywy — wszystko bez opuszczania środowiska zarządzania projektem.
 
-## Warunki wstępne
-Zanim zaczniemy, upewnij się, że spełnione są następujące wymagania wstępne:
-1. Java Development Kit (JDK) – gotowy i skonfigurowany.
-2. Aspose.Tasks dla Javy – pobierz i zainstaluj ze [stroną internetową](https://releases.aspose.com/tasks/java/).
-3. Zintegrowane Środowisko Programistyczne (IDE) – IntelliJ IDEA, Eclipse lub ulubione IDE Java.
+## Wymagania wstępne
+1. **Java Development Kit (JDK)** – wersja 8 lub wyższa, prawidłowo skonfigurowana na twoim komputerze.  
+2. **Aspose.Tasks for Java** – pobierz najnowszy plik JAR z [oficjalnej strony](https://releases.aspose.com/tasks/java/).  
+3. **IDE** – IntelliJ IDEA, Eclipse, NetBeans lub dowolny edytor kompatybilny z Javą, którego preferujesz.  
 
-## Importowanie Pakietów
+## Importowanie pakietów
 Zacznij od zaimportowania niezbędnych pakietów do swojego projektu Java:
 ```java
 import com.aspose.tasks.Asn;
@@ -49,8 +108,8 @@ import com.aspose.tasks.ResourceAssignment;
 import com.aspose.tasks.Task;
 ```
 
-## Jak dodać notatki do przypisania zasobu
-Poniżej znajduje się kompletny proces krok po kroku. Każdy blok kodu pozostał niezmieniony w stosunku do oryginalnego samouczka.
+## Jak dodać notatki do przydziału zasobu
+W tej sekcji przeprowadzimy pełny przepływ pracy dodawania notatek do przydziału zasobu. Zaczynając od ustawienia katalogu danych, wczytania projektu, pobrania odpowiedniego zadania i zasobu, utworzenia przydziału, a na końcu ustawienia i wyświetlenia notatek zarówno w formacie zwykłego tekstu, jak i RTF, każdy krok jest zilustrowany za pomocą placeholderów kodu, które możesz zastąpić oryginalnymi fragmentami.
 
 ### Krok 1: Ustaw katalog danych
 Ustaw ścieżkę do katalogu danych, w którym znajdują się pliki projektu.
@@ -58,8 +117,8 @@ Ustaw ścieżkę do katalogu danych, w którym znajdują się pliki projektu.
 String dataDir = "Your Data Directory";
 ```
 
-### Krok 2: Załaduj plik projektu
-Załaduj plik projektu do aplikacji Java.
+### Krok 2: Wczytaj plik projektu
+Wczytaj plik projektu do swojej aplikacji Java.
 ```java
 Project prj = new Project(dataDir + "UpdateResourceAssignment.mpp");
 ```
@@ -71,60 +130,70 @@ Task task = prj.getRootTask().getChildren().getById(1);
 Resource rsc = prj.getResources().getById(1);
 ```
 
-### Krok 4: Utwórz przypisanie zasobu
-Utwórz przypisanie zasobu dla zadania i zasobu.
+### Krok 4: Utwórz przydział zasobu
+Utwórz przydział zasobu dla zadania i zasobu.
 ```java
 ResourceAssignment assn = prj.getResourceAssignments().add(task, rsc);
 ```
 
 ### Krok 5: Ustaw notatki
-Ustaw notatki dla przypisania zasobu.
+Ustaw notatki dla przydziału zasobu.
 ```java
 assn.set(Asn.NOTES_TEXT, "Newly added assignment");
 ```
 
 ### Krok 6: Wyświetl notatki
-Wyświetl tekst notatek i format RTF.
+Wyświetl tekst notatek oraz format RTF.
 ```java
 System.out.println("Notes text: " + assn.get(Asn.NOTES_TEXT));
 System.out.println("Notes RTF: " + assn.get(Asn.NOTES_RTF));
 ```
 
 ### Krok 7: Zakończenie procesu
-Wydrukuj komunikat o pomyślnym zakończeniu procesu.
+Wypisz komunikat o sukcesie wskazujący na zakończenie procesu.
 ```java
 System.out.println("Process completed Successfully");
 ```
 
+## Co to jest klasa Asn?
+Klasa `Asn` definiuje stałe reprezentujące pola w przydziale zasobu, takie jak notatki, koszt i praca. Używasz tych stałych z metodami `set` i `get` na obiekcie `ResourceAssignment`, aby odczytać lub zapisać odpowiadające dane. Na przykład `Asn.NOTES_TEXT` przechowuje notatki w formacie zwykłego tekstu, podczas gdy `Asn.NOTES_RTF` zawiera wersję sformatowaną (RTF).
+
 ## Typowe problemy i rozwiązania
-- **NullPointerException przy pobraniu zadań/zasobu:** Sprawdź, czy identyfikatory (`1` w faktycznie) rzeczywiście występuje w pliku `.mpp`.
-- **Notatki niewyświetlają się w interfejsie:** przestrzegane, przeglądasz panel notatek przydziału w Microsoft Project lub innym razem, gdy obsługiwane są uwagi przydziału.
-- **Wyjście RTF jest puste:** API zwraca RTF tylko wtedy, gdy uwagi dotyczą formatowania RTF; zwykły tekst usuwania pusty ciąg RTF.
+- **NullPointerException przy pobieraniu zadania/zasobu:** Zweryfikuj, że identyfikatory (`1` w przykładzie) rzeczywiście istnieją w twoim pliku `.mpp`.  
+- **Notatki nie wyświetlają się w interfejsie:** Upewnij się, że przeglądasz panel notatek przydziału w Microsoft Project lub innym przeglądarce obsługującej notatki przydziału.  
+- **Wyjście RTF jest puste:** API zwraca RTF tylko wtedy, gdy notatki zawierają formatowanie tekstu sformatowanego; zwykły tekst spowoduje zwrócenie pustego ciągu RTF.  
 
-## Często zadawane pytania
-**Q: Czy mogę przeczytać notatki po ich ustawieniu?**
-A: Tak, po prostu wywołaj ponownie `assn.set(Asn.NOTES_TEXT, "Updated note")` z nową treścią.
+## Najczęściej zadawane pytania
+**Q: Czy mogę edytować notatki po ich ustawieniu?**  
+A: Tak, po prostu wywołaj `assn.set(Asn.NOTES_TEXT, "Updated note")` ponownie z nową treścią.
 
-**Q: Czy notatki są stosowane w pliku .mpp?**
-O: Zdecydowanie tak. Gdy zapiszesz obiekt `Project`, notatki są częścią danych przydziału w pliku.
+**Q: Czy notatki są przechowywane w pliku .mpp?**  
+A: Absolutnie. Gdy zapiszesz obiekt `Project`, notatki stają się częścią danych przydziału w pliku.
 
-**P: Czy działa z zaszyfrowanymi plikami projektów?**
-A: Musisz wysłać projekt przy użyciu identyfikatorów haseł, etykiet z załącznikami konstruktora `Project`, zanim uzyskasz dostęp do przydziałów.
+**Q: Czy to działa z zaszyfrowanymi plikami projektu?**  
+A: Musisz otworzyć projekt przy użyciu właściwego hasła, korzystając z odpowiedniego przeciążenia konstruktora `Project`, przed dostępem do przydziałów.
 
-**P: Czy istnieje limit długości notatek?**
-A: notatki mogą mieć kilka kilobajtów; bardzo duże uwagi mogą zostać uwzględnione podczas zasilania projektu.
+**Q: Czy istnieje limit długości notatki?**  
+A: Praktycznie notatki mogą mieć kilka kilobajtów; bardzo duże notatki mogą wpływać na wydajność podczas wczytywania projektu.
 
-**Q: Czy można dodać uwagi do wielu przydziałów w sumie?**
+**Q: Czy mogę dodać notatki do wielu przydziałów w pętli?**  
 A: Tak, iteruj po `prj.getResourceAssignments()` i ustaw `Asn.NOTES_TEXT` dla każdego przydziału w razie potrzeby.
 
-## Wniosek
-Poniżej znajdują się następujące kroki, teraz wiesz **jak dodać notatki** do przydziałów zasobów w Aspose.Tasks for Java. Dodanie notatek zapewnia kontrolę kontroli i zapewnia cenną kontrolę audytu. zastosowanie do wykrywania funkcji API, takich jak masowe podłączenie, formatowanie RTF oraz integracja z zasilaczami pracy zarządzania projektami.
+## Podsumowanie
+Postępując zgodnie z tymi krokami, teraz wiesz **jak dodać notatki do przydziałów zasobów** przy użyciu Aspose.Tasks dla Javy. Wykorzystanie notatek zasobów w Aspose.Tasks zwiększa przejrzystość projektu, tworzy wbudowaną ścieżkę audytu i pozwala osadzać komentarze w formacie RTF bez opuszczania pliku harmonogramu. Poznaj dalsze funkcje API, takie jak aktualizacje zbiorcze, pola niestandardowe i integrację z istniejącymi procesami zarządzania projektami.
 
 ---
 
-**Ostatnia aktualizacja:** 10.01.2026
-**Testowano z:** Aspose.Tasks dla Java 24.12 (najnowsza wersja w momencie pisania tego tekstu)
+**Ostatnia aktualizacja:** 2026-07-19  
+**Testowano z:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
 **Autor:** Aspose
+
+## Powiązane samouczki
+
+- [Dodaj zasób do projektu przy użyciu Aspose.Tasks dla Java](/tasks/java/resource-management/create-resources/)
+- [Jak dodać zasób do projektu i obsłużyć właściwości opóźnienia poziomowania w Aspose.Tasks](/tasks/java/resource-assignments/leveling-delay-properties/)
+- [Jak zatrzymać przydział i wznowić przydziały zasobów w Aspose.Tasks](/tasks/java/resource-assignments/stop-resume-assignment/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
