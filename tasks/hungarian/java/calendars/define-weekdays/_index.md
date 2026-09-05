@@ -1,12 +1,75 @@
 ---
-date: 2025-12-02
-description: Ismerje meg, hogyan állíthat be naptárat, definiálhatja a hét napjait
-  az MS Projectben, és állíthat be egyéni munkanapokat az Aspose.Tasks for Java használatával.
-  Mentse a projektet XML formátumban néhány sor kóddal.
-linktitle: How to Set Calendar and Define Weekdays in MS Project with Aspose.Tasks
+date: 2026-08-08
+description: Tanulja meg, hogyan állíthatja be a ms project naptárát, határozhatja
+  meg a napi munkaórákat, és adhat hozzá hétvégi munkanapokat az Aspose.Tasks for
+  Java használatával. Mentse a projektet XML formátumban néhány kódsorral.
+keywords:
+- set calendar ms project
+- set daily working hours
+- add weekend working days
+- java create msproject file
+- aspose.tasks calendar
+lastmod: 2026-08-08
+linktitle: Hogyan állítsuk be a ms project naptárát és definiáljuk a hétköznapokat
+og_description: Állítsa be a ms project naptárát, definiálja a hétköznapokat, és adjon
+  hozzá hétvégi munkanapokat az Aspose.Tasks for Java használatával. Kövesse ezt a
+  lépésről‑lépésre útmutatót, és mentse el XML formátumban.
+og_image_alt: Screenshot of Java code configuring MS Project calendar with Aspose.Tasks
+og_title: ms project naptár beállítása az Aspose.Tasks segítségével – Java útmutató
+schemas:
+- author: Aspose
+  dateModified: '2026-08-08'
+  description: Learn how to set calendar ms project, set daily working hours, and
+    add weekend working days using Aspose.Tasks for Java. Save the project as XML
+    in just a few lines of code.
+  headline: How to set calendar ms project and define weekdays
+  type: TechArticle
+- description: Learn how to set calendar ms project, set daily working hours, and
+    add weekend working days using Aspose.Tasks for Java. Save the project as XML
+    in just a few lines of code.
+  name: How to set calendar ms project and define weekdays
+  steps:
+  - name: create a project instance
+    text: Instantiate a `Project` object, which represents the MS Project file you
+      will manipulate.
+  - name: define a new calendar
+    text: '`Calendar` represents a set of working times, exceptions, and holidays
+      for a project.'
+  - name: add standard working days (Monday‑Thursday)
+    text: '`WeekDay` defines the working time for a specific day of the week.'
+  - name: add weekend working days
+    text: If your project runs on weekends, add Saturday and Sunday as regular working
+      days. This demonstrates **add weekend working days**.
+  - name: set a custom short working day (Friday)
+    text: Configure Friday with a morning shift (9 am‑12 pm) and an afternoon shift
+      (1 pm‑4 pm) to illustrate **set daily working hours** and a custom short workday.
+  - name: save the project as XML
+    text: '`SaveFileFormat` enumerates the supported file formats when saving a project,
+      such as XML or MPP.'
+  type: HowTo
+- questions:
+  - answer: Yes. Set the `DayWorking` property to `false` for any `WeekDay` you want
+      to treat as a non‑working day.
+    question: Can I define custom non‑working days using Aspose.Tasks for Java?
+  - answer: Create `CalendarException` objects, specify the exception dates, and add
+      them to `cal.getExceptions()`.
+    question: How can I add holidays or company‑wide exceptions?
+  - answer: Absolutely. Aspose.Tasks supports MPP, MPT, and XML formats across multiple
+      Project versions.
+    question: Is the library compatible with older MS Project versions?
+  - answer: Load the project with `new Project("existing.mpp")`, retrieve the desired
+      calendar, make changes, and save.
+    question: Can I modify an existing calendar in an imported project?
+  - answer: Yes, you can create and edit recurring tasks using the `RecurringTask`
+      class.
+    question: Does Aspose.Tasks handle recurring tasks as well?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: Hogyan állítsunk be naptárat és definiáljuk a hét napjait az MS Projectben
-  az Aspose.Tasks segítségével
+tags:
+- set calendar ms project
+- aspose.tasks
+- java project management
+title: Hogyan állítsuk be a ms project naptárát és definiáljuk a hétköznapokat
 url: /hu/java/calendars/define-weekdays/
 weight: 12
 ---
@@ -15,46 +78,40 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hogyan állítsunk be naptárat és határozzuk meg a hét napjait az MS Projectben az Aspose.Tasks segítségével
+# Hogyan állítsuk be a naptárat az MS Projectben és definiáljuk a hétköznapokat
 
-## Introduction
-Ebben az útmutatóban megtanulja, hogyan állíthat be programozottan **naptár beállításokat** és határozhatja meg a hét napjait egy Microsoft Project fájlban az Aspose.Tasks Java könyvtár segítségével. Akár egy szabványos munkahét létrehozására, hétvégi munkanapok hozzáadására, vagy egy rövid pénteki ütemezés beállítására van szüksége, ez az útmutató minden lépésen végigvezet – a projekt létrehozásától a fájl XML formátumban történő mentéséig.
+Ebben az oktatóanyagban megtanulja, **hogyan állítsuk be a naptárat az MS Projectben** programozott módon, definiálja a hétköznapokat, és testreszabott munkanapokat konfiguráljon az Aspose.Tasks Java könyvtár segítségével. Akár ütemező motorral dolgozik, ERP rendszerekkel integrál, vagy egyszerűen csak projekttervet kell generálnia a Microsoft Project megnyitása nélkül, az alábbi lépések megmutatják, hogyan hozhat létre egy naptárat, állíthat be napi munkaórákat, és adhat hozzá hétvégi munkanapokat néhány kódsorral.
 
-## Quick Answers
-- **What library is needed?** Aspose.Tasks for Java  
-- **Can I add weekend working days?** Yes – just add Saturday and Sunday as working days.  
-- **How do I save the project?** Use `prj.save(..., SaveFileFormat.Xml)`.  
-- **Do I need a license?** A free trial works for evaluation; a license is required for production.  
-- **What Java version is required?** Java 8 or higher.
+## Gyors válaszok
+- **Melyik könyvtár szükséges?** Aspose.Tasks for Java.  
+- **Hozzáadhatok hétvégi munkanapokat?** Igen – egyszerűen jelölje meg a szombatot és vasárnapot munkanapként.  
+- **Hogyan menthetjük a projektet?** Hívja a `prj.save(..., SaveFileFormat.Xml)` metódust.  
+- **Szükséges licenc?** Egy ingyenes próba verzió elegendő értékeléshez; a licenc kötelező a termelésben való használathoz.  
+- **Melyik Java verzió támogatott?** Java 8 vagy újabb.
 
-## What is “how to set calendar” in the context of MS Project?
-A naptár beállítása az MS Projectben azt jelenti, hogy meghatározzuk, mely napok munkanapok, a napi munkaidő, valamint az esetleges kivételek, például ünnepnapok. Ez a naptár irányítja a feladatok ütemezését, az erőforrások kiosztását és a projekt teljes idővonalát.
+## Mi az a naptár beállítása az MS Projectben?
+Az MS Project naptárának beállítása meghatározza, mely napok tekinthetők munkanapnak, a napi munkaórák számát, valamint bármilyen különleges kivételt, például ünnepnapokat vagy vállalati leállásokat. Ez az információ irányítja a feladatok ütemezését, az erőforrások elosztását és a projekt teljes idővonalát, biztosítva, hogy a számítások a szervezet valós munkarendjét tükrözzék.
 
-## Why use Aspose.Tasks for calendar manipulation?
-- **Full control** – programmatically create, modify, or delete calendars without opening the UI.  
-- **Cross‑platform** – works on any OS that supports Java.  
-- **Supports all file formats** – MPP, MPT, and XML, so you can *save project as XML* for easy integration with other systems.  
-- **No COM dependencies** – unlike the Microsoft Project Interop library.
+## Miért használjuk az Aspose.Tasks-et a naptárkezeléshez?
+Az Aspose.Tasks lehetővé teszi a naptárak programozott vezérlését a Microsoft Project felhasználói felületének indítása nélkül. Bármely, Java‑t támogató operációs rendszeren fut, több mint 50 bemeneti és kimeneti formátumot támogat, és több száz oldalas projekteket képes feldolgozni anélkül, hogy a teljes fájlt a memóriába töltené, így ideális szerveroldali automatizáláshoz.
 
-## Prerequisites
-Mielőtt elkezdené, győződjön meg róla, hogy rendelkezik:
+## Előfeltételek
+- **Java Development Kit (JDK) 8+** – letölthető a [Oracle weboldaláról](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
+- **Aspose.Tasks for Java** – a legújabb JAR letölthető a [Aspose.Tasks letöltési oldaláról](https://releases.aspose.com/tasks/java/).  
+- IDE vagy build eszköz (Maven/Gradle) az Aspose.Tasks JAR hozzáadásához a classpath‑hoz.
 
-1. **Java Development Kit (JDK) 8+** – letölthető a [Oracle weboldaláról](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
-2. **Aspose.Tasks for Java** – a legújabb JAR letölthető az [Aspose.Tasks letöltési oldaláról](https://releases.aspose.com/tasks/java/).  
-3. Egy IDE vagy build eszköz (Maven/Gradle), amely hozzáadja az Aspose.Tasks JAR‑t a projekt classpath‑jához.
-
-## Import Packages
-Először importálja a szükséges osztályokat. Ezek az importok hozzáférést biztosítanak a projekt, naptár és munkavégzési idő objektumokhoz.
+## Csomagok importálása
+Importálja az osztályokat, amelyek hozzáférést biztosítanak projektekhez, naptárakhoz és munkavégzési idő objektumokhoz.
 
 ```java
 import com.aspose.tasks.*;
 import java.util.GregorianCalendar;
 ```
 
-## Step‑by‑Step Guide
+## Lépésről‑lépésre útmutató
 
-### Step 1: Create a Project Instance
-Hozzon létre egy új `Project` objektumot. Ez az objektum képviseli azt az MS Project fájlt, amelyet szerkeszteni fog.
+### 1. lépés: projektpéldány létrehozása
+Hozzon létre egy `Project` objektumot, amely a manipulálandó MS Project fájlt képviseli.
 
 ```java
 // The path to the documents directory.
@@ -62,15 +119,15 @@ String dataDir = "Your Data Directory";
 Project prj = new Project();
 ```
 
-### Step 2: Define a New Calendar
-Adjon hozzá egy új naptárat a projekthez. Egy egyértelmű név megadása segít, ha több naptárat használ.
+### 2. lépés: új naptár definiálása
+A `Calendar` egy munkavégzési időket, kivételeket és ünnepnapokat tartalmazó halmazt jelent egy projekthez.  
 
 ```java
 Calendar cal = prj.getCalendars().add("Calendar1");
 ```
 
-### Step 3: Add Standard Working Days (Monday‑Thursday)
-Használja a beépített segédfüggvényt `WeekDay.createDefaultWorkingDay`, hogy beállítsa az alapértelmezett 9 am‑5 pm ütemezést a fő munkahétre.
+### 3. lépés: szabványos munkanapok hozzáadása (hétfő‑csütörtök)
+A `WeekDay` meghatározza egy adott hét napjának munkavégzési idejét.  
 
 ```java
 cal.getWeekDays().add(WeekDay.createDefaultWorkingDay(DayType.Monday));
@@ -79,16 +136,16 @@ cal.getWeekDays().add(WeekDay.createDefaultWorkingDay(DayType.Wednesday));
 cal.getWeekDays().add(WeekDay.createDefaultWorkingDay(DayType.Thursday));
 ```
 
-### Step 4: Add Weekend Working Days
-Ha a projekt hétvégén is fut, egyszerűen adja hozzá a szombatot és vasárnapot rendszeres munkanapként. Ez bemutatja a **add weekend working days** funkciót.
+### 4. lépés: hétvégi munkanapok hozzáadása
+Ha a projekt hétvégén is fut, adja hozzá a szombatot és vasárnapot szabályos munkanapként. Ez demonstrálja a **hétvégi munkanapok hozzáadását**.
 
 ```java
 cal.getWeekDays().add(new WeekDay(DayType.Saturday));
 cal.getWeekDays().add(new WeekDay(DayType.Sunday));
 ```
 
-### Step 5: Set a Custom Short Working Day (Friday)
-Itt **set custom working days** a péntekre: egy reggeli műszak (9 am‑12 pm) és egy délutáni műszak (1 pm‑4 pm).
+### 5. lépés: egyedi rövid munkanap beállítása (péntek)
+Állítsa be a pénteket egy reggeli műszakkal (9 am‑12 pm) és egy délutáni műszakkal (1 pm‑4 pm), hogy bemutassa a **napi munkaórák beállítását** és egy egyedi rövid munkanapot.
 
 ```java
 WeekDay myWeekDay = new WeekDay(DayType.Friday);
@@ -106,49 +163,57 @@ myWeekDay.setDayWorking(true);
 cal.getWeekDays().add(myWeekDay);
 ```
 
-### Step 6: Save the Project as XML
-Végül mentse el a módosításokat. A `SaveFileFormat.Xml` opció lehetővé teszi a **save project as XML** műveletet, ami hasznos az egyéb eszközökkel való integrációhoz.
+### 6. lépés: projekt mentése XML‑ként
+A `SaveFileFormat` felsorolja a projekt mentésekor támogatott fájlformátumokat, például XML vagy MPP.  
 
 ```java
 prj.save(dataDir + "project.xml", SaveFileFormat.Xml);
 ```
 
-## Common Issues & Solutions
+## Gyakori problémák és megoldások
 | Probléma | Megoldás |
 |----------|----------|
-| **A munkavégzési idők nem alkalmazva** | Győződjön meg arról, hogy a `setDayWorking(true)` hívás megtörtént az egyedi `WeekDay` objektumon. |
-| **A fájl nem található mentéskor** | Ellenőrizze, hogy a `dataDir` egy létező mappára mutat, és hogy az alkalmazásnak van írási joga. |
-| **A naptár nem jelenik meg a feladatokban** | Rendelje hozzá az újonnan létrehozott naptárat az erőforrásokhoz vagy feladatokhoz a `task.setCalendar(cal)` használatával. |
+| **A munkavégzési idők nem alkalmazódnak** | Győződjön meg róla, hogy a `setDayWorking(true)` minden egyedi `WeekDay`‑nél meghívásra került. |
+| **Fájl nem található mentéskor** | Ellenőrizze, hogy a `dataDir` egy létező mappára mutat, és az alkalmazásnak van írási jogosultsága. |
+| **A naptár nem jelenik meg a feladatokban** | Rendelje hozzá az újonnan létrehozott naptárat erőforrásokhoz vagy feladatokhoz a `task.setCalendar(cal)` használatával. |
 
-## Frequently Asked Questions
+## Gyakran feltett kérdések
 
-**Q: Definiálhatok egyedi nem‑munka napokat az Aspose.Tasks for Java‑val?**  
-A: Igen. Állítsa a `DayWorking` tulajdonságot `false`‑ra bármelyik `WeekDay` esetén, amelyet nem‑munka napként kíván kezelni.
+**K: Definiálhatok egyedi nem munkanapokat az Aspose.Tasks for Java használatával?**  
+V: Igen. Állítsa a `DayWorking` tulajdonságot `false`‑ra bármelyik `WeekDay`‑nél, amelyet nem munkanapként kíván kezelni.
 
-**Q: Hogyan adhatok hozzá ünnepnapokat vagy vállalati szintű kivételeket?**  
-A: Hozzon létre `CalendarException` objektumokat, adja meg a kivétel dátumait, majd adja hozzá őket a `cal.getExceptions()` gyűjteményhez.
+**K: Hogyan adhatok hozzá ünnepnapokat vagy vállalati szintű kivételeket?**  
+V: Hozzon létre `CalendarException` objektumokat, adja meg a kivétel dátumait, és adja hozzá a `cal.getExceptions()`‑hez.
 
-**Q: A könyvtár kompatibilis-e a régebbi MS Project verziókkal?**  
-A: Teljes mértékben. Az Aspose.Tasks támogatja az MPP, MPT és XML formátumokat több Project verzióban is.
+**K: Kompatibilis a könyvtár a régebbi MS Project verziókkal?**  
+V: Teljesen. Az Aspose.Tasks támogatja az MPP, MPT és XML formátumokat több Project verzióban.
 
-**Q: Módosíthatok egy meglévő naptárat egy importált projektben?**  
-A: Töltse be a projektet a `new Project("existing.mpp")` segítségével, szerezze meg a kívánt naptárat, végezze el a módosításokat, majd mentse el.
+**K: Módosíthatok egy meglévő naptárat egy importált projektben?**  
+V: Töltsük be a projektet a `new Project("existing.mpp")`‑vel, szerezze meg a kívánt naptárat, végezze el a módosításokat, majd mentse.
 
-**Q: Az Aspose.Tasks kezeli a visszatérő feladatokat is?**  
-A: Igen, visszatérő feladatokat hozhat létre és szerkeszthet a `RecurringTask` osztály segítségével.
+**K: Az Aspose.Tasks kezeli a visszatérő feladatokat is?**  
+V: Igen, létrehozhat és szerkeszthet visszatérő feladatokat a `RecurringTask` osztály használatával.
 
-## Conclusion
-Most már tudja, hogyan állítsa be a **naptár beállításokat**, **határozza meg a hét napjait az MS Projectben**, adjon hozzá hétvégi munkanapokat, és hozzon létre egy rövid pénteki ütemezést – mindezt az Aspose.Tasks for Java‑val. Mentse az eredményt XML‑ként, és integrálja a naptárlogikát bármely Java‑alapú projektmenedzsment megoldásba.
+## Összegzés
+Most már tudja, **hogyan állítsuk be a naptárat az MS Projectben**, hogyan definiáljon hétköznapokat, adjon hozzá hétvégi munkanapokat, és konfiguráljon egy rövid pénteki ütemezést – mindezt az Aspose.Tasks for Java segítségével. Mentse az eredményt XML‑ként, és integrálja a naptárlogikát bármely Java‑alapú projekt‑menedzsment megoldásba.
 
 ---
 
-**Last Updated:** 2025-12-02  
+**Last Updated:** 2026-08-08  
 **Tested With:** Aspose.Tasks for Java 24.11  
-**Author:** Aspose  
+**Author:** Aspose
+
+## Kapcsolódó oktatóanyagok
+
+- [Add calendar to project with Aspose.Tasks for Java](/tasks/java/calendars/create/)
+- [Determine Working Days & Working Hours with Aspose.Tasks](/tasks/java/calendars/working-hours/)
+- [Add Holidays to Calendar and Save as MPP with Aspose.Tasks](/tasks/java/calendars/update-to-mpp/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
