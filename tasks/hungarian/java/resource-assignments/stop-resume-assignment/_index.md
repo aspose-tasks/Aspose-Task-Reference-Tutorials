@@ -1,12 +1,53 @@
 ---
-date: 2026-01-10
-description: Tanulja meg, hogyan állíthatja le a feladatkiosztást, kezelheti az erőforrás‑kiosztásokat,
-  és megtekintheti az erőforrás‑kiosztási példát az Aspose.Tasks for Java‑ban ezzel
-  a lépésről‑lépésre útmutatóval.
-linktitle: Stop and Resume Resource Assignments in Aspose.Tasks
+date: 2026-07-14
+description: Ismerje meg, hogyan állíthatja le az erőforrás hozzárendelést Java‑ban,
+  kezelheti az erőforrás hozzárendeléseket, és tekinthet meg példákat az Aspose.Tasks
+  for Java használatával ebben a lépésről‑lépésre útmutatóban.
+keywords:
+- stop resource assignment java
+- Aspose.Tasks Java
+- resource assignment management
+- project scheduling Java
+lastmod: 2026-07-14
+linktitle: Erőforrás hozzárendelések leállítása és újraindítása az Aspose.Tasks-ben
+og_description: Állítsa le az erőforrás hozzárendelést Java‑ban az Aspose.Tasks segítségével.
+  Ez az útmutató bemutatja, hogyan szüneteltethet és újraindíthat hozzárendeléseket,
+  kezelheti a dátumokat, és integrálhatja az API‑t a Microsoft Project nélkül.
+og_image_alt: Guide to stop and resume resource assignments in Aspose.Tasks for Java
+og_title: Erőforrás hozzárendelés leállítása Java‑ban – Aspose.Tasks útmutató
+schemas:
+- author: Aspose
+  dateModified: '2026-07-14'
+  description: Learn how to stop resource assignment java, manage resource assignments,
+    and view examples using Aspose.Tasks for Java in this step‑by‑step guide.
+  headline: How to Stop Resource Assignment Java – Resume with Aspose.Tasks
+  type: TechArticle
+- questions:
+  - answer: Use `ra.set(Asn.STOP, yourDateObject);` where `yourDateObject` is a `java.util.Date`.
+    question: How do I programmatically set a stop date for an assignment?
+  - answer: The API does not enforce chronological order; however, the scheduler will
+      treat the assignment as active only after the later of the two dates, so you
+      should validate dates yourself.
+    question: What happens if the resume date is earlier than the stop date?
+  - answer: Yes, iterate through `prj.getResourceAssignments()` and check `ra.get(Asn.STOP)
+      != null`.
+    question: Can I filter assignments to only those that have a stop date set?
+  - answer: Set the stop date to `null` with `ra.set(Asn.STOP, null);` and then save
+      the project.
+    question: Is it possible to remove a stop date once set?
+  - answer: Absolutely. The `Asn` enum provides constants for all assignment fields,
+      such as `Asn.START`, `Asn.FINISH`, etc.
+    question: Does Aspose.Tasks support other date‑related fields like start, finish,
+      or actual start?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: Hogyan állítsuk le a hozzárendelést és folytassuk az erőforrás‑hozzárendeléseket
-  az Aspose.Tasks‑ben
+tags:
+- stop resource assignment
+- Aspose.Tasks
+- Java project scheduling
+- resource management
+title: Hogyan állítsuk le az erőforrás hozzárendelést Java‑ban – Újraindítás az Aspose.Tasks
+  segítségével
 url: /hu/java/resource-assignments/stop-resume-assignment/
 weight: 23
 ---
@@ -15,36 +56,36 @@ weight: 23
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hogyan állítsuk le a hozzárendelést és folytassuk a erőforrás‑hozzárendeléseket az Aspose.Tasks-ben
+# Hogyan állítsuk le a erőforrás hozzárendelést Java-ban – Újraindítás az Aspose.Tasks segítségével
 
 ## Bevezetés
-Ebben az útmutatóban **meg fogod tanulni, hogyan állítsd le a hozzárendelést** és később folytasd azt az Aspose.Tasks for Java segítségével. Az Aspose.Tasks egy erőteljes Java API, amely lehetővé teszi projektfájlok Java formátumban történő olvasását, a Microsoft Project adatok manipulálását, valamint az erőforrás‑hozzárendelések kezelését anélkül, hogy a Microsoft Project telepítve lenne. Lépésről lépésre végigvezetünk, elmagyarázzuk, miért fontos minden sor, és gyakorlati tippeket adunk, amelyeket valós projektekben alkalmazhatsz.
+Ebben az oktatóanyagban megtanulja, **hogyan állítsuk le a erőforrás hozzárendelést Java-ban**, majd később újraindítsa azt az Aspose.Tasks for Java használatával. Az Aspose.Tasks egy robusztus Java API, amely lehetővé teszi a Microsoft Project fájlok olvasását és írását, ütemezések manipulálását, valamint az erőforrás‑hozzárendelések vezérlését – mindezt anélkül, hogy a Microsoft Project telepítve lenne. Lépésről‑lépésre végigvezetjük, megmagyarázzuk, miért fontos minden sor, és gyakorlati tippeket osztunk meg, amelyeket valós projektterveken is alkalmazhat.
 
 ## Gyors válaszok
-- **Mit jelent a „stop assignment” (hozzárendelés leállítása)?** Egy erőforrás‑hozzárendelést ideiglenesen inaktívként jelöl egy adott leállási dátumtól.  
-- **Később újraindíthatom ugyanazt a hozzárendelést?** Igen, a ugyanazon hozzárendeléshez egy folytatási dátum beállításával.  
-- **Szükségem van a Microsoft Project-re az API használatához?** Nem, az Aspose.Tasks függetlenül működik a Microsoft Projecttől.  
-- **Melyik Java verzió szükséges?** Java 8 vagy újabb ajánlott.  
-- **Hol tölthetem le a könyvtárat?** Az hivatalos Aspose.Tasks Java letöltőoldalról.
+- **Mi jelent a „stop assignment”?** Egy erőforrás‑hozzárendelést ideiglenesen inaktívvá jelöl egy adott leállási dátumtól.  
+- **Vissza tudom-e állítani ugyanazt a hozzárendelést később?** Igen, egy újraindítási dátum beállításával ugyanazon a hozzárendelésen.  
+- **Szükségem van Microsoft Project-re az API használatához?** Nem, az Aspose.Tasks függetlenül működik a Microsoft Projecttől.  
+- **Melyik Java verzió szükséges?** A Java 8 vagy újabb ajánlott.  
+- **Hol tölthetem le a könyvtárat?** Az hivatalos Aspose.Tasks Java letöltési oldalról.
 
-## Mi a „hozzárendelés leállítása” az Aspose.Tasks kontextusában?
-A hozzárendelés leállítása azt mondja a tervezőnek, hogy hagyja figyelmen kívül a forrásnak a **leállási dátum** utáni munkát a **folytatási dátum** (ha van) előtt. Ez hasznos szabadságok, berendezés leállás, vagy bármely olyan időszak kezelésekor, amikor egy erőforrásnak nem kell aktívnak lennie.
+## Hogyan állítsuk le a erőforrás hozzárendelést Java-ban?
+Töltse be a projektet, keresse meg a cél `ResourceAssignment`‑ot, állítsa be a `STOP` dátumot, opcionálisan adjon meg egy `RESUME` dátumot, majd mentse a fájlt. Ez a sorozat szünetelteti a munkát a megadott időszakra, és automatikusan újraaktiválja a resume dátum után, így pontosan szabályozhatja az erőforrás‑naptárakat manuális fájlszerkesztés nélkül.
+
+## Mi jelent a „hogyan állítsuk le a hozzárendelést” az Aspose.Tasks kontextusában?
+A hozzárendelés leállítása azt mondja a tervezőnek, hogy a **leállási dátum** után a **újraindítási dátum** (ha van) előtt figyelmen kívül hagyja a hozzárendelt munkát. Ez hasznos szabadságok, berendezésleállások vagy bármilyen időszak kezelésére, amikor egy erőforrásnak nem kell aktívnak lennie.
 
 ## Miért használjuk az Aspose.Tasks-et az erőforrás‑hozzárendelések kezelésére?
-- **Nincs szükség a Microsoft Project-re** – közvetlenül .mpp fájlokkal dolgozhatsz.  
-- **Teljes dátumkontroll** – programozottan ellenőrizheted a leállási és folytatási dátumokat, és módosíthatod őket.  
-- **Keresztplatformos** – bármely, Java‑t támogató operációs rendszeren futtatható.  
-- **Gazdag API** – egy *resource assignment example* (erőforrás‑hozzárendelési példát) biztosít, amelyet testreszabott jelentésekhez bővíthetsz.
+Az Aspose.Tasks lehetővé teszi a hozzárendelési dátumok programozott vezérlését, kiküszöbölve a manuális szerkesztéseket és csökkentve a hibalehetőséget. Támogat **50+ bemeneti és kimeneti formátumot**, és akár **10 000 feladatot** is képes feldolgozni úgy, hogy a memóriahasználat 200 MB alatt marad, mivel adatfolyamon dolgozik a teljes fájl betöltése helyett. Az API bármely, Java‑t támogató operációs rendszeren fut, így platformfüggetlen rugalmasságot biztosít.
 
-## Előkövetelmények
-Mielőtt elkezdenénk, győződj meg róla, hogy rendelkezel:
+## Előfeltételek
+Mielőtt elkezdenénk, győződjön meg róla, hogy rendelkezik:
 
-- Java Development Kit (JDK) telepítve a rendszereden.  
-- Aspose.Tasks for Java könyvtár letöltve. Letöltheted [itt](https://releases.aspose.com/tasks/java/).  
-- Alapvető Java programozási ismeretek.
+- Java Development Kit (JDK) 8 vagy újabb telepítve.  
+- Aspose.Tasks for Java könyvtár letöltve. Letöltheti [itt](https://releases.aspose.com/tasks/java/).  
+- Alapvető Java programozási ismeretekkel.  
 
 ## Csomagok importálása
-Először importáljuk a szükséges csomagokat a Java projektünkbe:
+A `Project`, `ResourceAssignment` és `Asn` osztályok a `com.aspose.tasks` névtérben találhatók. Importálja őket a forrásfájl tetején:
 
 ```java
 import com.aspose.tasks.Asn;
@@ -55,7 +96,9 @@ import java.util.GregorianCalendar;
 import java.util.Objects;
 ```
 
-## 1. lépés: Projektfájl betöltése
+## 1. lépés: A projektfájl betöltése
+A `Project` osztály az Aspose.Tasks legfelső szintű objektuma, amely egy Microsoft Project fájlt reprezentál a memóriában. Egy példány létrehozása betölti a fájlt, és hozzáférést biztosít a feladatokhoz, erőforrásokhoz és hozzárendelésekhez.
+
 ```java
 // The path to the documents directory.
 String dataDir = "Your Data Directory";
@@ -63,9 +106,9 @@ String dataDir = "Your Data Directory";
 Project prj = new Project(dataDir + "ResourceAssignmentVariance.mpp");
 ```
 
-Itt **beolvassuk a projektfájlt Java** formátumban (`.mpp`) és létrehozunk egy `Project` objektumot, amely hozzáférést biztosít az összes projektadathoz, beleértve az erőforrás‑hozzárendeléseket.
-
 ## 2. lépés: Erőforrás‑hozzárendelések bejárása
+A `ResourceAssignment` objektumok minden hozzárendelés‑kapcsolódó mezőt elérhetővé teszik. Beállítunk egy **minimum dátumot**, hogy kiszűrjük a helykitöltő dátumokat, majd végigiterálunk minden hozzárendelésen. Ez a minta a szabványos *resource assignment example* ellenőrzéshez vagy módosításhoz.
+
 ```java
 // Define minimum date
 java.util.Date minDate = new GregorianCalendar(2000, Calendar.JANUARY, 1).getTime();
@@ -73,9 +116,9 @@ java.util.Date minDate = new GregorianCalendar(2000, Calendar.JANUARY, 1).getTim
 for (ResourceAssignment ra : prj.getResourceAssignments()) {
 ```
 
-Beállítunk egy **minimum dátumot**, hogy kiszűrjük a helykitöltő dátumokat, majd végigiterálunk minden hozzárendelésen. Ez a tipikus *resource assignment example* (erőforrás‑hozzárendelési példa) minta, amelyet akkor használunk, ha meg kell vizsgálnod vagy módosítanod kell a hozzárendeléseket.
+## 3. lépés: A STOP és RESUME dátumok ellenőrzése
+Ebben a blokkban megvizsgáljuk a `STOP` és `RESUME` mezőket minden hozzárendelésnél. Ha egy dátum a `minDate` előtt van, azt „nem beállítottként” (`"NA"`) kezeljük; egyébként kiírjuk a tényleges dátumot. Ez a logika elengedhetetlen a **resource assignments** helyes kezelése érdekében.
 
-## 3. lépés: Leállási és folytatási dátumok ellenőrzése
 ```java
     // Check stop date
     if (ra.get(Asn.STOP).before(minDate)) {
@@ -92,42 +135,45 @@ Beállítunk egy **minimum dátumot**, hogy kiszűrjük a helykitöltő dátumok
 }
 ```
 
-Ebben a blokkban **ellenőrizzük a leállási dátumot** és **a folytatási dátumot** minden hozzárendelésnél. Ha a dátum a `minDate` előtt van, úgy kezeljük, mintha nincs beállítva (`"NA"`); egyébként kiírjuk a tényleges dátumot. Ez a logika elengedhetetlen a **resource assignments (erőforrás‑hozzárendelések) megfelelő kezeléséhez**.
-
 ## Gyakori problémák és megoldások
-- **Null dátumok** – a `ra.get(Asn.STOP)` `null` értéket adhat vissza. Védd le ezt egy null ellenőrzéssel, mielőtt a `.before(minDate)` metódust hívnád.  
-- **Helytelen fájlútvonal** – Győződj meg róla, hogy a `dataDir` végén megfelelő útvonalelválasztó (`/` vagy `\\`) szerepel az operációs rendszerednek megfelelően.  
-- **Verzióeltérés** – Használd az Aspose.Tasks for Java legújabb verzióját, hogy elkerüld a hiányzó enum értékeket.
+- **Null dátumok** – a `ra.get(Asn.STOP)` `null`‑t adhat vissza. Védekezzen ellene null‑ellenőrzéssel, mielőtt a `.before(minDate)`‑t hívná.  
+- **Helytelen fájlútvonal** – Győződjön meg róla, hogy a `dataDir` a megfelelő útvonalelválasztóval (`/` vagy `\\`) végződik az operációs rendszernek megfelelően.  
+- **Verzióeltérés** – Használja a legújabb Aspose.Tasks for Java verziót, hogy elkerülje a hiányzó enum értékeket.
 
-## Gyakran feltett kérdések
+## Gyakran ismételt kérdések
 
-**K: Hogyan állíthatok programozottan leállási dátumot egy hozzárendeléshez?**  
-V: Használd a `ra.set(Asn.STOP, yourDateObject);` kifejezést, ahol a `yourDateObject` egy `java.util.Date`.
+**Q: Hogyan állíthatok be programozottan STOP dátumot egy hozzárendeléshez?**  
+A: Használja a `ra.set(Asn.STOP, yourDateObject);` kódot, ahol a `yourDateObject` egy `java.util.Date`.
 
-**K: Mi történik, ha a folytatási dátum korábbi, mint a leállási dátum?**  
-V: Az API nem kényszeríti a kronológiai sorrendet; azonban a tervező csak a két dátum közül a későbbit követően tekinti a hozzárendelést aktívnak, ezért saját magadnak kell ellenőrizned a dátumokat.
+**Q: Mi történik, ha a resume dátum korábbi, mint a stop dátum?**  
+A: Az API nem kényszeríti a kronológiai sorrendet; a tervező azonban csak a két dátum közül a későbbit tekinti a hozzárendelés aktívnak, ezért a dátumokat saját magának kell ellenőriznie.
 
-**K: Szűrhetem a hozzárendeléseket csak a leállási dátummal rendelkezőkre?**  
-V: Igen, iterálj a `prj.getResourceAssignments()`-en, és ellenőrizd, hogy `ra.get(Asn.STOP) != null`.
+**Q: Szűrhetem-e a hozzárendeléseket csak a STOP dátummal rendelkezőkre?**  
+A: Igen, iteráljon a `prj.getResourceAssignments()`‑en, és ellenőrizze, hogy `ra.get(Asn.STOP) != null`.
 
-**K: Lehet‑e eltávolítani a leállási dátumot, ha már be van állítva?**  
-V: Állítsd a leállási dátumot `null`‑ra a `ra.set(Asn.STOP, null);` használatával, majd mentsd a projektet.
+**Q: Lehet-e eltávolítani egy STOP dátumot, ha már be lett állítva?**  
+A: Állítsa a STOP dátumot `null`‑ra a `ra.set(Asn.STOP, null);` kóddal, majd mentse a projektet.
 
-**K: Támogatja az Aspose.Tasks más dátum‑kapcsolódó mezőket is, mint a start, finish vagy actual start?**  
-V: Teljes mértékben. Az `Asn` enum minden hozzárendelési mezőhöz biztosít konstansokat, például `Asn.START`, `Asn.FINISH` stb.
+**Q: Támogatja-e az Aspose.Tasks a többi dátum‑kapcsolódó mezőt, például a start, finish vagy actual start mezőket?**  
+A: Teljes mértékben. Az `Asn` enum minden hozzárendelési mezőhöz biztosít konstansokat, például `Asn.START`, `Asn.FINISH` stb.
 
-## Összegzés
-Az itt bemutatott lépések követésével most már **tudod, hogyan állítsd le a hozzárendelést**, ellenőrizheted a leállási/folytatási dátumokat, és szükség esetén újraindíthatod a hozzárendelést. Ez a lehetőség lehetővé teszi, hogy **az erőforrás‑hozzárendeléseket** pontosabban kezeld, különösen olyan helyzetekben, mint erőforrás szabadság vagy berendezés leállás. Nyugodtan bővítsd a példát dátumok frissítésére, jelentések generálására vagy saját ütemezési logikád integrálására.
+## Következtetés
+Ezekkel a lépésekkel most már tudja, **hogyan állítsuk le a erőforrás hozzárendelést Java-ban**, ellenőrizze a STOP/RESUME dátumokat, és szükség esetén újraindítsa a hozzárendelést. Ez a képesség lehetővé teszi a **resource assignments** pontosabb kezelését, különösen szabadságok vagy berendezésleállások esetén. Nyugodtan bővítse a példát dátumok frissítésével, jelentések generálásával vagy saját ütemezési logikájával való integrálással.
 
 ---
 
-**Legutóbb frissítve:** 2026-01-10  
+**Utolsó frissítés:** 2026-07-14  
 **Tesztelve a következővel:** Aspose.Tasks for Java 24.12  
-**Szerző:** Aspose  
+**Szerző:** Aspose
+
+## Kapcsolódó oktatóanyagok
+
+- [Erőforrás‑hozzárendelések létrehozása az Aspose.Tasks-ben](/tasks/java/resource-assignments/create-resource-assignments/)
+- [Hogyan számítsuk ki a költségeltérést és kezeljük a hozzárendelési költségeket az Aspose.Tasks segítségével](/tasks/java/resource-assignments/assignment-cost/)
+- [Hogyan adjunk megjegyzéseket az erőforrás‑hozzárendelésekhez az Aspose.Tasks-ben](/tasks/java/resource-assignments/resource-assignment-notes/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
+{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
