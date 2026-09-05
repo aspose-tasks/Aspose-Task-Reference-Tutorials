@@ -1,12 +1,74 @@
 ---
-date: 2026-01-28
-description: Aprenda a criar calendário de projeto no Aspose, definir dias da semana
-  para exceções de calendário e gerenciar um cronograma de dias não úteis usando Aspose.Tasks
-  para Java.
-linktitle: Create Project Calendar Aspose – Define Weekdays for Calendar Exceptions
+date: 2026-07-29
+description: Aprenda como agendar dias não úteis criando um calendário de projeto
+  com Aspose.Tasks for Java, definindo weekday exceptions e gerenciando holiday schedules.
+keywords:
+- schedule non working days
+- how to define weekdays
+- set non working days
+- java calendar exceptions
+lastmod: 2026-07-29
+linktitle: Agendar Dias Não Úteis – Criar Calendário de Projeto Aspose
+og_description: Agende dias não úteis usando Aspose.Tasks for Java. Aprenda a definir
+  weekdays, adicionar calendar exceptions e gerenciar holiday schedules de forma eficiente.
+og_image_alt: 'Developer guide: schedule non working days with Aspose.Tasks Java'
+og_title: Agendar Dias Não Úteis – Criar Calendário de Projeto Aspose
+schemas:
+- author: Aspose
+  dateModified: '2026-07-29'
+  description: Learn how to schedule non working days by creating a project calendar
+    with Aspose.Tasks for Java, defining weekday exceptions and managing holiday schedules.
+  headline: Schedule Non Working Days – Create Project Calendar Aspose
+  type: TechArticle
+- description: Learn how to schedule non working days by creating a project calendar
+    with Aspose.Tasks for Java, defining weekday exceptions and managing holiday schedules.
+  name: Schedule Non Working Days – Create Project Calendar Aspose
+  steps:
+  - name: Import Required Packages
+    text: We need the core Aspose.Tasks classes and Java’s `GregorianCalendar` for
+      date handling.
+  - name: Define the Data Directory
+    text: Specify where the generated project file will be saved.
+  - name: Create a Project Instance
+    text: '`Project` is the main object that holds all project data, including tasks,
+      resources, and calendars.'
+  - name: Define a Calendar
+    text: '`Calendar` represents a schedule of working and non‑working times within
+      a project.'
+  - name: Define Weekdays Exception
+    text: '`CalendarException` represents a period that is marked as non‑working in
+      a calendar.'
+  - name: Save the Project
+    text: Persist the project, including the custom calendar and its exception, to
+      an XML file.
+  type: HowTo
+- questions:
+  - answer: Yes. Add additional `CalendarException` objects to `cal.getExceptions()`
+      for each distinct period or rule.
+    question: Can I define multiple exceptions for different weekdays within the same
+      calendar?
+  - answer: Absolutely. The library works with IntelliJ IDEA, Eclipse, NetBeans, and
+      any IDE that supports standard Java projects.
+    question: Is Aspose.Tasks for Java compatible with different Java IDEs?
+  - answer: Yes. Use `CalendarExceptionType.Weekly`, `Monthly`, or `Yearly` to suit
+      your scheduling needs.
+    question: Can I customize exception types other than daily exceptions?
+  - answer: Build the exception objects programmatically—e.g., read holiday dates
+      from a database or configuration file and create `CalendarException` instances
+      in a loop.
+    question: How can I handle exceptions dynamically based on project requirements?
+  - answer: Yes, you can download a free trial from the [Aspose.Tasks Java download
+      page](https://releases.aspose.com/tasks/java/).
+    question: Is there a trial version available for Aspose.Tasks for Java?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: Criar Calendário de Projeto Aspose – Definir Dias da Semana para Exceções de
-  Calendário
+tags:
+- schedule non working days
+- Aspose.Tasks
+- Java calendar exceptions
+- project calendar
+- non-working days
+title: Agendar Dias Não Úteis – Criar Calendário de Projeto Aspose
 url: /pt/java/calendar-exceptions/define-weekdays/
 weight: 11
 ---
@@ -15,42 +77,46 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Criar Calendário de Projeto Aspose – Definir Dias da Semana para Exceções de Calendário
+# Agendar Dias Não Úteis – Criar Calendário de Projeto Aspose
 
 ### Introdução
-Quando você precisa **create project calendar aspose**, deve ser capaz de modelar dias de trabalho não‑padrão, como feriados, turnos especiais ou fechamentos temporários. Aspose.Tasks for Java oferece controle total sobre definições de calendário, permitindo adicionar exceções que refletem agendas do mundo real. Neste tutorial, percorreremos os passos exatos para definir dias da semana para exceções de calendário, garantindo que os cronogramas do seu projeto permaneçam precisos e confiáveis. Ao final, você também verá como isso se encaixa em uma estratégia mais ampla de **non‑working days schedule** para qualquer projeto empresarial.
+When you need to **schedule non working days** for a project, you must be able to model holidays, special shifts, or temporary closures directly in the project plan. Aspose.Tasks for Java gives you full control over calendar definitions, letting you add exceptions that mirror real‑world schedules. In this tutorial we’ll walk through the exact steps to define weekdays for calendar exceptions, so your project timelines stay accurate and reliable. By the end you’ll also see how this fits into a broader **non‑working days schedule** strategy for any enterprise project.
 
 ## Respostas Rápidas
-- **O que significa “create project calendar aspose”?**  
-  Refere‑se ao uso do Aspose.Tasks para criar um objeto de calendário personalizado que orienta o agendamento de tarefas.
-- **Preciso de licença para executar o exemplo?**  
-  Uma avaliação gratuita funciona para desenvolvimento; uma licença comercial é necessária para produção.
+- **O que significa “agendar dias não úteis”?**  
+  It means using Aspose.Tasks to create a calendar that marks specific dates as non‑working, influencing task dates automatically.  
+- **Preciso de uma licença para executar o exemplo?**  
+  A free trial works for development; a commercial license is required for production.  
 - **Quais IDEs são suportados?**  
-  IntelliJ IDEA, Eclipse, NetBeans ou qualquer IDE que suporte Java 8+.
-- **Posso adicionar várias exceções ao mesmo calendário?**  
-  Sim – você pode adicionar quantos objetos `CalendarException` forem necessários.
+  IntelliJ IDEA, Eclipse, NetBeans, or any IDE that supports Java 8+.  
+- **Posso adicionar múltiplas exceções ao mesmo calendário?**  
+  Yes – you can add as many `CalendarException` objects as needed.  
 - **Em quais formatos de arquivo posso salvar o projeto?**  
-  XML, MPP e vários outros formatos suportados pelo Aspose.Tasks.
+  XML, MPP, and several other formats supported by Aspose.Tasks.  
 
 ## O que é um Calendário de Projeto no Aspose.Tasks?
-Um **project calendar** define os dias e horas de trabalho para um projeto. Ele influencia as datas de início/fim das tarefas, a alocação de recursos e os cálculos gerais do cronograma. Ao personalizar um calendário, você garante que o cronograma respeite restrições do mundo real, como feriados da empresa ou políticas de trabalho nos fins de semana.
+The **project calendar** is Aspose.Tasks' top‑level object that defines working days and hours for a project. It directly influences task start/end dates, resource allocation, and overall schedule calculations. By customizing a calendar, you ensure the schedule respects real‑world constraints like company holidays or weekend work policies.
 
 ## Por que definir dias da semana para exceções de calendário?
-- **Cronogramas precisos:** As tarefas não serão agendadas em dias marcados como não‑trabalhados.
-- **Planejamento de recursos:** Os recursos são alocados apenas em dias úteis válidos.
-- **Conformidade:** Alinha os cronogramas do projeto com políticas organizacionais ou feriados legais.
+Defining weekday exceptions ensures that the project engine treats those days as non‑working, preventing tasks from being automatically scheduled on them and keeping the timeline aligned with real‑world constraints such as holidays, maintenance windows, or special shift patterns across the organization.
 
-## Agenda de Dias Não‑Úteis com Exceções de Calendário
-Ao manter uma **non‑working days schedule**, você geralmente possui uma lista mestre de feriados, janelas de manutenção ou outros períodos de bloqueio. Adicionar essas datas como objetos `CalendarException` garante que cada cálculo — seja análise do caminho crítico ou nivelamento de recursos — respeite automaticamente essas restrições. Essa abordagem elimina ajustes manuais de datas e reduz o risco de desvios no cronograma.
+- **Cronogramas precisos:** Tasks won’t be placed on holidays or blackout periods.  
+- **Planejamento de recursos:** Resources are allocated only on valid working days, preventing overallocation.  
+- **Conformidade:** Schedules automatically follow organizational policies or legal holiday calendars.  
 
-## Pré‑requisitos
-Antes de começar, certifique‑se de que você tem:
+## Agenda de Dias Não‑Uteis com Exceções de Calendário
+When you maintain a **non‑working days schedule**, you typically have a master list of holidays, maintenance windows, or other blackout periods. Adding those dates as `CalendarException` objects guarantees that every calculation—whether it’s critical‑path analysis or resource leveling—automatically respects those constraints. This approach eliminates manual date adjustments and reduces the risk of schedule drift.
 
-1. **Java Development Kit (JDK)** – versão 8 ou posterior.  
-2. **Aspose.Tasks for Java** – faça o download na página oficial [Aspose.Tasks Java download page](https://releases.aspose.com/tasks/java/).  
-3. **Uma IDE** – IntelliJ IDEA, Eclipse, NetBeans ou qualquer editor compatível com Java.  
+## Pré-requisitos
+Before you begin, make sure you have:
 
-## Como criar calendário de projeto aspose – Definir dias da semana para exceções de calendário
+1. **Java Development Kit (JDK)** – versão 8 ou superior.  
+2. **Aspose.Tasks for Java** – download from the official [Aspose.Tasks Java download page](https://releases.aspose.com/tasks/java/).  
+3. **An IDE** – IntelliJ IDEA, Eclipse, NetBeans, or any Java‑compatible editor.  
+
+## Como agendar dias não úteis usando exceções de calendário
+
+Load your project, create a custom calendar, and add `CalendarException` objects that mark the desired weekdays as non‑working. This entire process can be completed in a handful of straightforward steps, and the resulting calendar will automatically influence all task scheduling logic.
 
 ### Guia Passo a Passo
 
@@ -70,22 +136,21 @@ String dataDir = "Your Data Directory";
 ```
 
 ### Etapa 3: Criar uma Instância de Projeto
-Instantiate a new `Project` object – this is the container for all project data, including calendars.
+`Project` is the main object that holds all project data, including tasks, resources, and calendars.
 
 ```java
 Project project = new Project();
 ```
 
 ### Etapa 4: Definir um Calendário
-Add a custom calendar to the project. This calendar will hold our exceptions.
+`Calendar` represents a schedule of working and non‑working times within a project.
 
 ```java
 Calendar cal = project.getCalendars().add("Calendar1");
 ```
 
 ### Etapa 5: Definir Exceção de Dias da Semana
-Create a `CalendarException` that marks a range of days (e.g., the last week of December) as non‑working.  
-The example sets the exception from **24 Dec 2009** to **31 Dec 2009**, disables work for those days, and treats the exception as a daily type.
+`CalendarException` represents a period that is marked as non‑working in a calendar.
 
 ```java
 CalendarException except = new CalendarException();
@@ -105,38 +170,44 @@ project.save(dataDir + "project.xml", SaveFileFormat.Xml);
 ```
 
 ## Problemas Comuns e Soluções
-
-| Issue | Solution |
-|-------|----------|
-| **Exception dates not applied** | Ensure `setEnteredByOccurrences(false)` and correct `FromDate/ToDate` values. |
-| **Saved file is empty** | Verify `dataDir` points to a writable folder and the filename ends with `.xml`. |
-| **Calendar not reflected in task scheduling** | Assign the calendar to tasks or resources using `task.setCalendar(cal)` or `resource.setCalendar(cal)`. |
+| Problema | Solução |
+|----------|----------|
+| **Datas de exceção não aplicadas** | Ensure `setEnteredByOccurrences(false)` and correct `FromDate/ToDate` values. |
+| **Arquivo salvo está vazio** | Verify `dataDir` points to a writable folder and the filename ends with `.xml`. |
+| **Calendário não refletido no agendamento de tarefas** | Assign the calendar to tasks or resources using `task.setCalendar(cal)` or `resource.setCalendar(cal)`. |
 
 ## Perguntas Frequentes
 
-**Q: Posso definir várias exceções para diferentes dias da semana dentro do mesmo calendário?**  
-A: Sim. Adicione objetos `CalendarException` adicionais a `cal.getExceptions()` para cada período ou regra distinta.
+**P: Posso definir múltiplas exceções para diferentes dias da semana dentro do mesmo calendário?**  
+A: Yes. Add additional `CalendarException` objects to `cal.getExceptions()` for each distinct period or rule.
 
-**Q: O Aspose.Tasks for Java é compatível com diferentes IDEs Java?**  
-A: Absolutamente. A biblioteca funciona com IntelliJ IDEA, Eclipse, NetBeans e qualquer IDE que suporte projetos Java padrão.
+**P: O Aspose.Tasks for Java é compatível com diferentes IDEs Java?**  
+A: Absolutely. The library works with IntelliJ IDEA, Eclipse, NetBeans, and any IDE that supports standard Java projects.
 
-**Q: Posso personalizar tipos de exceção além das exceções diárias?**  
-A: Sim. Use `CalendarExceptionType.Weekly`, `Monthly` ou `Yearly` conforme suas necessidades de agendamento.
+**P: Posso personalizar tipos de exceção diferentes de exceções diárias?**  
+A: Yes. Use `CalendarExceptionType.Weekly`, `Monthly`, or `Yearly` to suit your scheduling needs.
 
-**Q: Como posso tratar exceções dinamicamente com base nos requisitos do projeto?**  
-A: Crie os objetos de exceção programaticamente — por exemplo, leia datas de feriados de um banco de dados ou arquivo de configuração e crie instâncias `CalendarException` em um loop.
+**P: Como posso lidar com exceções dinamicamente com base nos requisitos do projeto?**  
+A: Build the exception objects programmatically—e.g., read holiday dates from a database or configuration file and create `CalendarException` instances in a loop.
 
-**Q: Existe uma versão de avaliação disponível para o Aspose.Tasks for Java?**  
-A: Sim, você pode baixar uma avaliação gratuita na [Aspose.Tasks Java download page](https://releases.aspose.com/tasks/java/).
+**P: Existe uma versão de avaliação disponível para o Aspose.Tasks for Java?**  
+A: Yes, you can download a free trial from the [Aspose.Tasks Java download page](https://releases.aspose.com/tasks/java/).
 
 ## Conclusão
-By following these steps you now know how to **create project calendar aspose** and define weekday exceptions that accurately reflect holidays or special non‑working periods. Proper calendar configuration is essential for realistic schedules, resource allocation, and overall project success. Explore further by attaching the custom calendar to tasks or resources and experimenting with other exception types to build a comprehensive **non‑working days schedule** for any project.
+By following these steps you now know how to **schedule non working days** by creating a project calendar and defining weekday exceptions that accurately reflect holidays or special non‑working periods. Proper calendar configuration is essential for realistic schedules, resource allocation, and overall project success. Explore further by attaching the custom calendar to tasks or resources and experimenting with other exception types to build a comprehensive **non‑working days schedule** for any project.
 
 ---
 
-**Last Updated:** 2026-01-28  
-**Tested With:** Aspose.Tasks for Java 24.11  
-**Author:** Aspose  
+**Última atualização:** 2026-07-29  
+**Testado com:** Aspose.Tasks for Java 24.11  
+**Autor:** Aspose
+
+## Tutoriais Relacionados
+
+- [Adicionar calendário ao projeto com Aspose.Tasks for Java](/tasks/java/calendars/create/)
+- [Criar Exceção de Calendário Aspose para Java](/tasks/java/calendar-exceptions/add-remove/)
+- [Como Definir Calendário e Dias da Semana no MS Project com Aspose.Tasks](/tasks/java/calendars/define-weekdays/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

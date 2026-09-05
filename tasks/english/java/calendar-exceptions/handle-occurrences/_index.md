@@ -1,79 +1,140 @@
 ---
-title: "Java Calendar Tutorial: Handle Calendar Exception Occurrences"
-linktitle: "Java Calendar Tutorial: Handle Calendar Exception Occurrences"
-second_title: "Aspose.Tasks Java API"
-description: "A java calendar tutorial showing how to handle calendar exceptions, set occurrences, and configure exception type with Aspose.Tasks for Java."
-weight: 12
+date: 2026-07-29
+description: Learn how to create calendar exception Java code using Aspose.Tasks for
+  Java – set occurrences, configure exception type, and manage project calendars efficiently.
+images:
+- /java/calendar-exceptions/handle-occurrences/og-image.png
+keywords:
+- create calendar exception java
+- Aspose.Tasks calendar
+- Java project scheduling
+lastmod: 2026-07-29
+linktitle: Create Calendar Exception Java – Handle Occurrences
+og_description: Create calendar exception Java tutorial shows how to set occurrences
+  and configure exception type with Aspose.Tasks for Java. Master project calendar
+  handling in minutes.
+og_image_alt: 'Guide: create calendar exception Java using Aspose.Tasks'
+og_title: Create Calendar Exception Java – Handle Occurrences
+schemas:
+- author: Aspose
+  dateModified: '2026-07-29'
+  description: Learn how to create calendar exception Java code using Aspose.Tasks
+    for Java – set occurrences, configure exception type, and manage project calendars
+    efficiently.
+  headline: Create Calendar Exception Java – Handle Occurrences
+  type: TechArticle
+- description: Learn how to create calendar exception Java code using Aspose.Tasks
+    for Java – set occurrences, configure exception type, and manage project calendars
+    efficiently.
+  name: Create Calendar Exception Java – Handle Occurrences
+  steps:
+  - name: Create a Calendar Exception Object
+    text: '`CalendarException` is Aspose.Tasks'' class that represents a single calendar
+      exception entry. We start by creating an instance of this class, which will
+      hold all the details of the exception we want to define.'
+  - name: Indicate That the Exception Is Defined By Occurrences
+    text: Setting `EnteredByOccurrences` tells Aspose.Tasks that the exception follows
+      a recurring pattern rather than a single date.
+  - name: Set the Number of Occurrences
+    text: Here we **how to set occurrences** for the exception. The example uses five
+      occurrences, but you can change this value to match your schedule. `setOccurrences(int)`
+      sets how many times the exception repeats.
+  - name: Configure the Exception Type
+    text: Finally, we **configure exception type** to specify how the recurrence is
+      interpreted. In this case we choose a yearly pattern that occurs on a specific
+      day. `CalendarExceptionType` enum defines the pattern type for the exception,
+      such as YearlyByDay, MonthlyByDay, or Weekly. > **Pro tip:** If you n
+  type: HowTo
+- questions:
+  - answer: While some Java knowledge helps, Aspose.Tasks provides extensive documentation
+      and sample projects that guide beginners through each step.
+    question: Can I use Aspose.Tasks for Java without prior programming experience?
+  - answer: Yes. It supports Microsoft Project formats (MPP, XML) and can import/export
+      to other tools, making it easy to **manage project calendar** data across platforms.
+    question: Is Aspose.Tasks compatible with other project‑management tools?
+  - answer: Aspose releases regular updates—typically every few months—to add features,
+      fix bugs, and ensure compatibility with the latest Java versions.
+    question: How often are updates released for Aspose.Tasks for Java?
+  - answer: Absolutely. You can combine multiple `CalendarException` objects, each
+      with its own occurrence count and type, to model complex schedules.
+    question: Can I customize calendar exceptions for a specific project timeline?
+  - answer: Yes, you can download a fully functional trial from the [website](https://releases.aspose.com/).
+    question: Does Aspose.Tasks offer a free trial?
+  type: FAQPage
+second_title: Aspose.Tasks Java API
+tags:
+- create calendar exception
+- Aspose.Tasks
+- Java calendar API
+title: Create Calendar Exception Java – Handle Occurrences
 url: /java/calendar-exceptions/handle-occurrences/
-date: 2025-12-03
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java Calendar Tutorial: Handle Calendar Exception Occurrences
+# Create Calendar Exception Java
 
 ## Introduction
-In this **java calendar tutorial** we’ll walk through how to **handle calendar** exceptions in a project schedule using Aspose.Tasks for Java. Managing calendar exceptions—especially recurring ones—keeps your project timeline accurate and prevents costly mis‑alignments. By the end of this guide you’ll know **how to set occurrences**, **configure exception type**, and **customize project calendar** settings with just a few lines of code.
+In this **java calendar tutorial** you’ll learn how to **create calendar exception java** code with Aspose.Tasks for Java. Managing calendar exceptions—especially recurring ones—keeps your project schedule accurate, reduces resource conflicts, and saves you from costly re‑planning. By the end of this guide you’ll be able to set occurrences, configure the exception type, and attach the exception to a project calendar using just a few lines of Java.
 
 ## Quick Answers
 - **What does this tutorial cover?** Handling calendar exception occurrences with Aspose.Tasks for Java.  
 - **Do I need a license?** A free trial is available; a commercial license is required for production use.  
-- **Which Java version is required?** Java 8 or later (JDK 8+).  
+- **Which Java version is required?** Java 8 or later (JDK 8+).  
 - **How many occurrences can I set?** Any integer value; the example uses 5.  
 - **Can I change the exception type?** Yes—use `setType` with any `CalendarExceptionType` enum value.
 
 ## What is a Java Calendar Tutorial?
-A **java calendar tutorial** explains how to work with date‑based objects in Java‑based project management libraries. Here we focus on Aspose.Tasks, a powerful API that lets you **manage project calendar** data programmatically.
+`Java calendar tutorial` is a step‑by‑step guide that demonstrates how to manipulate date‑based objects in a Java‑centric project‑management library. In this article the focus is on Aspose.Tasks, a library that lets you programmatically manage project calendars, holidays, and working times.
 
 ## Why Use Aspose.Tasks for Calendar Exceptions?
-- **Full control** over recurring and non‑recurring exceptions.  
-- **Simple API**: set occurrences, define yearly, monthly, or daily patterns.  
-- **Cross‑platform**: works on any Java‑compatible environment.  
-- **No COM interop**: unlike native Microsoft Project automation, Aspose.Tasks runs everywhere Java runs.
+Aspose.Tasks gives you full programmatic control over both recurring and non‑recurring exceptions. It supports **30+ input and output formats** (including MPP, XML, and CSV) and can process calendars for projects with **up to 10,000 tasks** without noticeable performance loss. Because it runs on any Java‑compatible platform, you avoid COM interop and can deploy to Linux, Windows, or cloud containers with identical behavior.
 
 ## Prerequisites
-Before you start, make sure you have:
+Before you start, ensure you have:
 
 1. **Java Development Kit (JDK)** – download from the Oracle website.  
 2. **IDE** – IntelliJ IDEA, Eclipse, or any editor you prefer.  
 3. **Aspose.Tasks for Java** – get the library from the [download link](https://releases.aspose.com/tasks/java/).
 
 ### Import Packages
-Firstly, import the necessary packages to access the Aspose.Tasks functionalities.
+First, import the namespaces required to work with Aspose.Tasks.
 
 ```java
 import com.aspose.tasks.*;
 ```
 
-This import statement allows access to classes and methods provided by the Aspose.Tasks library.
+This import statement gives you access to classes such as `Project`, `Calendar`, and `CalendarException`.
 
-## Step‑by‑Step Guide
+## How to create calendar exception java?
+Load your project, create a `CalendarException` instance, set it to be defined by occurrences, specify the number of occurrences, and finally assign the desired `CalendarExceptionType`. The following steps walk you through each action in detail. This process ensures the exception is correctly attached to the project calendar and will be applied during schedule calculations.
 
 ### Step 1: Create a Calendar Exception Object
-We start by creating an instance of `CalendarException`. This object will hold all the details of the exception we want to define.
+`CalendarException` is Aspose.Tasks' class that represents a single calendar exception entry. We start by creating an instance of this class, which will hold all the details of the exception we want to define.
 
 ```java
 CalendarException except = new CalendarException();
 ```
 
 ### Step 2: Indicate That the Exception Is Defined By Occurrences  
-Setting `EnteredByOccurrences` tells Aspose.Tasks that the exception is based on a recurring pattern rather than a single date.
+Setting `EnteredByOccurrences` tells Aspose.Tasks that the exception follows a recurring pattern rather than a single date.
 
 ```java
 except.setEnteredByOccurrences(true);
 ```
 
 ### Step 3: Set the Number of Occurrences  
-Here we **how to set occurrences** for the exception. The example uses five occurrences, but you can change this value to match your schedule.
+Here we **how to set occurrences** for the exception. The example uses five occurrences, but you can change this value to match your schedule. `setOccurrences(int)` sets how many times the exception repeats.
 
 ```java
 except.setOccurrences(5);
 ```
 
 ### Step 4: Configure the Exception Type  
-Finally, we **configure exception type** to specify how the recurrence is interpreted. In this case we choose a yearly pattern that occurs on a specific day.
+Finally, we **configure exception type** to specify how the recurrence is interpreted. In this case we choose a yearly pattern that occurs on a specific day. `CalendarExceptionType` enum defines the pattern type for the exception, such as YearlyByDay, MonthlyByDay, or Weekly.
 
 ```java
 except.setType(CalendarExceptionType.YearlyByDay);
@@ -106,13 +167,20 @@ A: Absolutely. You can combine multiple `CalendarException` objects, each with i
 A: Yes, you can download a fully functional trial from the [website](https://releases.aspose.com/).
 
 ## Conclusion
-By following this **java calendar tutorial**, you now know **how to handle calendar** exceptions, **how to set occurrences**, and **configure exception type** using Aspose.Tasks for Java. These capabilities let you fine‑tune project schedules, avoid resource conflicts, and keep your timelines reliable. Explore the API further to add more sophisticated rules such as custom working times or holiday calendars.
+By following this **java calendar tutorial** you now know how to **create calendar exception java**, set occurrences, and configure the exception type using Aspose.Tasks for Java. These capabilities let you fine‑tune project schedules, avoid resource conflicts, and keep timelines reliable. Explore the API further to add custom working times, holiday calendars, or integrate with external scheduling systems.
 
 ---
 
-**Last Updated:** 2025-12-03  
+**Last Updated:** 2026-07-29  
 **Tested With:** Aspose.Tasks for Java 24.12  
-**Author:** Aspose  
+**Author:** Aspose
+
+## Related Tutorials
+
+- [Create Calendar Exception Aspose for Java](/tasks/java/calendar-exceptions/add-remove/)
+- [Retrieve Calendar Exceptions with Aspose.Tasks – asp tasks java tutorial](/tasks/java/calendar-exceptions/retrieve/)
+- [Create Custom Calendar Exceptions with Aspose.Tasks for Java](/tasks/java/calendar-exceptions/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

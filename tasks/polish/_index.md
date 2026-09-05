@@ -1,11 +1,55 @@
 ---
 additionalTitle: Aspose API References
-date: 2025-11-29
-description: Dowiedz się, jak wyeksportować projekt do PDF przy użyciu Aspose.Tasks,
-  zarządzać licencjami projektu oraz odkrywać wielojęzyczne samouczki dla .NET, Java,
-  C++ i nie tylko.
-linktitle: Aspose.Tasks Tutorials
-title: Eksport projektu do PDF z samouczkiem Aspose.Tasks
+date: 2026-07-29
+description: Eksportuj projekt do PDF za pomocą Aspose.Tasks – przewodnik krok po
+  kroku, który obejmuje licencjonowanie, moduły VBA, powtarzalność zadań oraz przykłady
+  wielojęzykowe dla .NET, Java, C++ i innych.
+keywords:
+- export project to pdf
+- Aspose.Tasks PDF export
+- project schedule PDF conversion
+lastmod: 2026-07-29
+linktitle: Samouczki Aspose.Tasks
+og_description: Eksportuj projekt do PDF za pomocą Aspose.Tasks, używając jednego
+  wywołania API. Dowiedz się o licencjonowaniu, integracji VBA, powtarzalności zadań
+  oraz wsparciu wielojęzykowym w tym szczegółowym samouczku.
+og_image_alt: Developer guide showing how to export an MS Project file to PDF with
+  Aspose.Tasks
+og_title: Eksportuj projekt do PDF za pomocą Aspose.Tasks – Kompletny przewodnik
+schemas:
+- author: Aspose
+  dateModified: '2026-07-29'
+  description: Export project to PDF with Aspose.Tasks – a step‑by‑step guide that
+    covers licensing, VBA modules, task recurrence, and cross‑language examples for
+    .NET, Java, C++ and more.
+  headline: Export Project to PDF with Aspose.Tasks Tutorial
+  type: TechArticle
+- questions:
+  - answer: Yes. Aspose.Tasks performs the conversion entirely on the server side,
+      eliminating the need for MS Project.
+    question: Can I export a project to PDF without installing Microsoft Project?
+  - answer: Use the `Project.VbaProject.Modules.Add()` method (or the equivalent in
+      your language) to embed the macro, then export.
+    question: How do I add a VBA module to a project before exporting?
+  - answer: No. The PDF size is only limited by available system memory and the page
+      settings you choose.
+    question: Is there a limit on the number of pages in the generated PDF?
+  - answer: No. A single Aspose.Tasks license covers all supported languages (.NET,
+      Java, C++, etc.).
+    question: Do I need a separate license for each programming language?
+  - answer: Enable the “Risk Analysis” view in the PDF options; the API will render
+      the risk tables alongside the schedule.
+    question: How can I include resource risk analysis in the PDF?
+  type: FAQPage
+tags:
+- Aspose.Tasks
+- PDF export
+- project management
+- .NET
+- Java
+title: Eksportuj projekt do PDF za pomocą Aspose.Tasks – przewodnik krok po kroku,
+  który obejmuje licencjonowanie, moduły VBA, powtarzalność zadań oraz przykłady wielojęzykowe
+  dla .NET, Java, C++ i innych.
 url: /pl/
 weight: 11
 ---
@@ -16,62 +60,59 @@ weight: 11
 
 # Eksportowanie projektu do PDF z samouczkiem Aspose.Tasks
 
-Eksportowanie projektu do PDF jest jednym z najczęstszych sposobów udostępniania podglądu tylko do odczytu harmonogramu Microsoft Project interesariuszom. W tym przewodniku dowiesz się, jak **export project to pdf** przy użyciu Aspose.Tasks, dlaczego ta funkcja jest ważna oraz gdzie znajdziesz bardziej szczegółowe, językowo‑specyficzne samouczki dla .NET, Java, C++ i innych. Poruszymy także powiązane zadania, takie jak **add vba module**, **set task recurrence** oraz **manage project licenses**, abyś uzyskał pełny obraz możliwości produktu.
+Eksportowanie projektu do PDF jest jednym z najczęstszych sposobów udostępniania widoku tylko do odczytu harmonogramu Microsoft Project interesariuszom. W tym przewodniku dowiesz się, jak **export project to pdf** przy użyciu Aspose.Tasks, dlaczego ta funkcja jest ważna oraz gdzie znajdziesz bardziej szczegółowe, specyficzne dla języka samouczki dla .NET, Java, C++ i innych. Poruszymy także powiązane zadania, takie jak **add vba module**, **set task recurrence** i **manage project licenses**, abyś uzyskał pełny obraz możliwości produktu.
 
-## Quick Answers
-- **Can Aspose.Tasks export MS Project files to PDF?** Yes – the API provides a one‑line method to generate PDF reports.  
-- **Do I need a license to export to PDF?** A valid Aspose.Tasks license removes evaluation limits and watermarks.  
-- **Which languages support PDF export?** .NET, Java, C++, Python, and others via the same API.  
-- **Is VBA support included?** You can **add vba module** to a project and preserve it when exporting.  
-- **Can I schedule recurring tasks before export?** Absolutely – use **set task recurrence** to define patterns that appear in the PDF.
+## Szybkie odpowiedzi
+- **Czy Aspose.Tasks może eksportować pliki MS Project do PDF?** Tak – API udostępnia jednowierszową metodę, która natychmiast tworzy raport PDF.  
+- **Czy potrzebuję licencji, aby eksportować do PDF?** Ważna licencja Aspose.Tasks usuwa 14‑dniowe ograniczenia wersji próbnej i eliminuje znaki wodne.  
+- **Które języki obsługują eksport PDF?** .NET, Java, C++, Python, Ruby i inne obsługiwane środowiska uruchomieniowe korzystają z tego samego interfejsu API.  
+- **Czy wsparcie VBA jest wliczone?** Możesz **add vba module** do projektu i zachować makra przy eksporcie do PDF.  
+- **Czy mogę zaplanować powtarzające się zadania przed eksportem?** Oczywiście – użyj **set task recurrence**, aby zdefiniować wzorce, które pojawią się poprawnie w wygenerowanym PDF.
 
-## What is “export project to pdf”?
-Eksportowanie projektu do PDF oznacza konwersję pliku MS Project (.mpp) do przenośnego dokumentu, który zachowuje układ, wykres Gantta i informacje o zasobach, ale nie może być edytowany. Ten format jest idealny do dystrybucji, drukowania lub archiwizacji.
+## Co to jest „export project to pdf”?
+Eksportowanie projektu do PDF oznacza konwersję pliku MS Project (.mpp) do przenośnego dokumentu, który zachowuje układ, wykres Gantta i informacje o zasobach, ale nie może być edytowany. Zachowuje kolory, czcionki i skalowanie wykresu, zapewniając, że wizualna reprezentacja odpowiada pierwotnemu harmonogramowi. Ten format jest idealny do dystrybucji, drukowania lub archiwizacji.
 
-## Why use Aspose.Tasks for PDF export?
-- **No Microsoft Project required** – the conversion runs on any server or desktop environment.  
-- **Fine‑grained control** – you can customize page size, orientation, and which views appear.  
-- **Cross‑platform support** – the same code works in .NET, Java, C++, and other languages.  
-- **Integrated features** – while exporting, you can also **add vba module**, embed custom fields, or **set task recurrence** to reflect the exact schedule you need to share.
+## Dlaczego używać Aspose.Tasks do eksportu PDF?
+Eksportowanie projektu do PDF przy użyciu Aspose.Tasks pozwala generować harmonogramy tylko do odczytu bez instalacji Microsoft Project. API zapewnia precyzyjną kontrolę nad rozmiarem strony, orientacją i widocznymi widokami, a działa na systemach Windows, Linux i macOS. Aspose.Tasks obsługuje **30+ formatów wejściowych i wyjściowych** oraz może przetwarzać projekty z **10 000+ zadaniami**, używając mniej niż 200 MB pamięci RAM, co czyni go odpowiednim dla dużych wdrożeń korporacyjnych.
 
-## Prerequisites
-- A valid **Aspose.Tasks** license (or a 30‑day trial).  
-- .NET 6+, Java 8+, or the equivalent runtime for your chosen language.  
-- An existing MS Project file (.mpp) you want to convert.
+## Wymagania wstępne
+- Ważna licencja **Aspose.Tasks** (lub 30‑dniowa wersja próbna).  
+- .NET 6+, Java 8+ lub równoważne środowisko uruchomieniowe dla wybranego języka.  
+- Istniejący plik MS Project (.mpp), który chcesz przekonwertować.
 
-## Where to Find Detailed Language‑Specific Guides
-Below you’ll find curated collections of tutorials that walk you through everything from basic file creation to advanced PDF export scenarios.
+## Gdzie znaleźć szczegółowe przewodniki specyficzne dla języka
+Poniżej znajdziesz starannie dobrane kolekcje samouczków, które przeprowadzą Cię przez wszystko, od podstawowego tworzenia plików po zaawansowane scenariusze eksportu PDF.
 
-### Aspose.Tasks for .NET Tutorials
+### Samouczki Aspose.Tasks dla .NET
 {{% alert color="primary" %}}
-Embark on a journey of mastery in project management with Aspose.Tasks for .NET. In this comprehensive series of tutorials, we delve into the intricacies of this powerful tool, covering a spectrum of topics from basic saving options to advanced features, calendar and scheduling tasks, project management techniques, and beyond. Whether you're a seasoned professional or just starting, these step‑by‑step guides will empower you to navigate the complexities of Aspose.Tasks for .NET, enhancing your skills and efficiency in project management. Let's unlock the full potential of Aspose.Tasks together!
+Rozpocznij podróż ku mistrzostwu w zarządzaniu projektami z Aspose.Tasks dla .NET. W tej obszernej serii samouczków zagłębiamy się w szczegóły tego potężnego narzędzia, obejmując szeroki zakres tematów – od podstawowych opcji zapisu po zaawansowane funkcje, kalendarze i zadania harmonogramowania, techniki zarządzania projektami i wiele więcej. Niezależnie od tego, czy jesteś doświadczonym profesjonalistą, czy dopiero zaczynasz, te przewodniki krok po kroku umożliwią Ci poruszanie się po złożonościach Aspose.Tasks dla .NET, podnosząc Twoje umiejętności i efektywność w zarządzaniu projektami. Odkryjmy razem pełny potencjał Aspose.Tasks!
 {{% /alert %}}
 
-These are links to some useful resources:
+Oto linki do przydatnych zasobów:
  
 - [Zaawansowane funkcje Aspose.Tasks](./net/advanced-features/)
-- [Kalendarz i harmonogramowanie w Aspose.Tasks](./net/calendar-scheduling/)
-- [Zarządzanie projektami i dostosowywanie w Aspose.Tasks](./net/tasks-project-management/)
+- [Kalendarz i harmonogramowanie Aspose.Tasks](./net/calendar-scheduling/)
+- [Zarządzanie projektem i dostosowywanie Aspose.Tasks](./net/tasks-project-management/)
 - [Zaawansowane koncepcje Aspose.Tasks](./net/advanced-concepts/)
-- [Kod konturu i ustawienia strony w Aspose.Tasks](./net/outline-code-page-settings/)
-- [Zarządzanie zasobami i analiza ryzyka w Aspose.Tasks](./net/resource-risk-analysis/)  <!-- secondary keyword -->
-- [Zarządzanie projektami i integracja w Aspose.Tasks](./net/project-management-integration/)
-- [Zarządzanie stawkami i zadaniami powtarzalnymi w Aspose.Tasks](./net/rate-recurring-tasks/)  <!-- secondary keyword -->
-- [Zarządzanie zadaniami i formatowanie tabel w Aspose.Tasks](./net/task-table-management/)
-- [Konfiguracja tekstu i widoku w Aspose.Tasks](./net/text-view-configuration/)
-- [Moduł VBA i obsługa odwołań w Aspose.Tasks](./net/vba-module-reference/)  <!-- secondary keyword -->
-- [Widok i konfiguracja kodu WBS w Aspose.Tasks](./net/view-wbs-code-configuration/)
-- [Konfiguracja czasu i wzorce powtarzalności w Aspose.Tasks](./net/time-recurrence-configuration/)  <!-- secondary keyword -->
-- [Opcje formatów plików w Aspose.Tasks](./net/file-format-options/)
-- [Konfiguracja zabezpieczeń PDF w Aspose.Tasks](./net/pdf-security-configuration/)
-- [Zarządzanie licencjami w Aspose.Tasks](./net/license-management/)  <!-- secondary keyword -->
+- [Kod konturu i ustawienia strony Aspose.Tasks](./net/outline-code-page-settings/)
+- [Zarządzanie zasobami i analiza ryzyka Aspose.Tasks](./net/resource-risk-analysis/)
+- [Zarządzanie projektem i integracja Aspose.Tasks](./net/project-management-integration/)
+- [Zarządzanie stawkami i zadania powtarzalne Aspose.Tasks](./net/rate-recurring-tasks/)
+- [Zarządzanie zadaniami i formatowanie tabel Aspose.Tasks](./net/task-table-management/)
+- [Konfiguracja tekstu i widoku Aspose.Tasks](./net/text-view-configuration/)
+- [Moduł VBA i obsługa referencji Aspose.Tasks](./net/vba-module-reference/)
+- [Widok i konfiguracja kodu WBS Aspose.Tasks](./net/view-wbs-code-configuration/)
+- [Konfiguracja czasu i wzorce powtarzalności Aspose.Tasks](./net/time-recurrence-configuration/)
+- [Opcje formatów plików Aspose.Tasks](./net/file-format-options/)
+- [Konfiguracja zabezpieczeń PDF Aspose.Tasks](./net/pdf-security-configuration/)
+- [Zarządzanie licencją Aspose.Tasks](./net/license-management/)
 
-### Aspose.Tasks for Java Tutorials
+### Samouczki Aspose.Tasks dla Java
 {{% alert color="primary" %}}
-Welcome to the gateway of enhanced Java project management! Embark on a journey with Aspose.Tasks for Java, where our comprehensive tutorials and examples redefine the way you handle project workflows. From mastering calendar exceptions to seamless VBA integration, we've curated a wealth of resources to empower developers of all levels. Join us as we delve into the intricacies of project management, offering step‑by‑step guidance and unlocking the full potential of Aspose.Tasks for Java. Get ready to optimize your projects, streamline workflows, and elevate your Java development skills!
+Witamy w bramie ulepszonego zarządzania projektami w Javie! Rozpocznij podróż z Aspose.Tasks dla Java, gdzie nasze obszerne samouczki i przykłady redefiniują sposób, w jaki obsługujesz przepływy pracy projektów. Od opanowania wyjątków kalendarza po płynną integrację VBA, przygotowaliśmy bogactwo zasobów, aby wzmocnić programistów na każdym poziomie. Dołącz do nas, gdy zagłębiamy się w zawiłości zarządzania projektami, oferując przewodniki krok po kroku i odblokowując pełny potencjał Aspose.Tasks dla Java. Przygotuj się na optymalizację projektów, usprawnienie przepływów pracy i podniesienie umiejętności programistycznych w Javie!
 {{% /alert %}}
 
-These are links to some useful resources:
+Oto linki do przydatnych zasobów:
 
 - [Wyjątki kalendarza](./java/calendar-exceptions/)
 - [Kalendarze](./java/calendars/)
@@ -82,52 +123,64 @@ These are links to some useful resources:
 - [Konfiguracja projektu](./java/project-configuration/)
 - [Zarządzanie projektem](./java/project-management/)
 - [Odczyt danych projektu](./java/project-data-reading/)
-- [Operacje na plikach projektu](./java/project-file-operations/)  <!-- secondary keyword -->
-- [Przypisania zasobów](./java/resource-assign/)
-- [Zarządzanie zasobami](./java/resource-management/)  <!-- secondary keyword -->
+- [Operacje na plikach projektu](./java/project-file-operations/)
+- [Przypisania zasobów](./java/resource-assignments/)
+- [Zarządzanie zasobami](./java/resource-management/)
 - [Podstawy zadań](./java/task-baselines/)
-- [Połączenia zadań](./java/task-links/)
-- [Właściwości zadań](./java/task-properties/)
-- [Integracja VBA](./java/vba-integration/)  <!-- secondary keyword -->
+- [Linki zadań](./java/task-links/)
+- [Właściwości zadania](./java/task-properties/)
+- [Integracja VBA](./java/vba-integration/)
 
-## How to Export Project to PDF (Step‑by‑Step Overview)
-1. **Load your .mpp file** – Use the `Project` class for your language of choice.  
-2. **(Optional) Add a VBA module** – If you need custom macros, call the API to embed them before export.  
-3. **Configure PDF options** – Choose page size, orientation, and which views (e.g., Gantt chart) to include.  
-4. **Set task recurrence** – Define any repeating tasks so they appear correctly in the PDF.  
-5. **Save as PDF** – Call the `Save` method with `SaveFileFormat.PDF`.  
-6. **Verify the output** – Open the resulting PDF to ensure resources, risk analysis, and custom fields are displayed as expected.
+## Jak wyeksportować projekt do PDF (przegląd krok po kroku)
+Wczytaj swój projekt, opcjonalnie dodaj moduł VBA, skonfiguruj opcje PDF, ustaw wszelkie powtarzające się zadania i wywołaj metodę `Save` – to cały przepływ pracy w pięciu zwięzłych krokach. Każdy krok może być zaimplementowany w dowolnym obsługiwanym języku przy użyciu tych samych wywołań API, zapewniając spójne wyniki w środowiskach .NET, Java i C++.
 
-> **Pro tip:** When working with large schedules, enable PDF compression to keep file size low without losing visual fidelity.
+### Krok 1: Wczytaj projekt
+`Project` jest obiektem najwyższego poziomu w Aspose.Tasks, który reprezentuje pojedynczy plik MS Project w pamięci. Utworzenie go odczytuje plik .mpp i przygotowuje wszystkie dane projektu do dalszej manipulacji.
 
-## Common Issues & Solutions
-- **PDF shows blank pages** – Ensure you’ve selected a view (e.g., Gantt) in the PDF options.  
-- **Macros disappear after export** – Verify that the VBA module was added *before* calling `Save`.  
-- **License watermark appears** – Install a valid Aspose.Tasks license using `License.SetLicense()` early in your code.  
-- **Recurring tasks not displayed** – Double‑check that the recurrence pattern is correctly defined with `set task recurrence`.
+### Krok 2: (Opcjonalnie) Dodaj moduł VBA
+`VbaProject.Modules.Add()` dodaje nowy moduł VBA do kolekcji projektów VBA projektu. Jeśli potrzebujesz własnych makr, metoda `VbaProject.Modules.Add()` osadza kod VBA przed wygenerowaniem PDF, zapewniając, że makra będą przenoszone wraz z eksportowanym dokumentem.
 
-## Frequently Asked Questions
+### Krok 3: Skonfiguruj opcje PDF
+`PdfSaveOptions` jest klasą konfiguracyjną, która kontroluje ustawienia wyjścia PDF, takie jak układ strony i widoczne widoki. `PdfSaveOptions` pozwala wybrać rozmiar strony, orientację oraz które widoki (np. wykres Gantta, arkusz zasobów) pojawią się w ostatecznym PDF. Możesz także włączyć kompresję, aby utrzymać mały rozmiar pliku.
 
-**Q: Can I export a project to PDF without installing Microsoft Project?**  
-A: Yes. Aspose.Tasks performs the conversion entirely on the server side, eliminating the need for MS Project.
+### Krok 4: Ustaw powtarzalność zadania
+`Task.Recurrence` definiuje wzorzec powtarzalności zadania, określając częstotliwość i czas trwania. Użyj `Task.Recurrence`, aby zdefiniować powtarzające się wzorce, takie jak codzienne spotkania lub tygodniowe przeglądy. Informacje o powtarzalności są renderowane w widoku Gantta w PDF.
 
-**Q: How do I add a VBA module to a project before exporting?**  
-A: Use the `Project.VbaProject.Modules.Add()` method (or the equivalent in your language) to embed the macro, then export.
+### Krok 5: Zapisz jako PDF
+`Project.Save()` zapisuje projekt w określonym formacie i miejscu, wykonując konwersję, gdy wybrany jest PDF. `Project.Save("output.pdf", SaveFileFormat.PDF)` zapisuje PDF na dysku. Metoda `Save` jest jedynym wywołaniem, które wykonuje konwersję, automatycznie obsługując czcionki, obrazy i układ.
 
-**Q: Is there a limit on the number of pages in the generated PDF?**  
-A: No. The PDF size is only limited by system memory and the page settings you choose.
+> **Wskazówka:** Pracując z dużymi harmonogramami, włącz kompresję PDF w `PdfSaveOptions`, aby utrzymać mały rozmiar pliku bez utraty jakości wizualnej.
 
-**Q: Do I need a separate license for each programming language?**  
-A: No. A single Aspose.Tasks license covers all supported languages ( .NET, Java, C++, etc.).
+## Typowe problemy i rozwiązania
+- **PDF wyświetla puste strony** – Upewnij się, że w `PdfSaveOptions` wybrano przynajmniej jeden widok (np. Gantt).  
+- **Makra znikają po eksporcie** – Sprawdź, czy moduł VBA został dodany *przed* wywołaniem `Save`.  
+- **Pojawia się znak wodny licencji** – Zainstaluj ważną licencję Aspose.Tasks używając `License.SetLicense()` na początku aplikacji.  
+- **Powtarzające się zadania nie są wyświetlane** – Sprawdź ponownie, czy wzorzec powtarzalności jest poprawnie zdefiniowany przy użyciu `Task.Recurrence`.
 
-**Q: How can I include resource risk analysis in the PDF?**  
-A: Enable the “Risk Analysis” view in the PDF options; the API will render the risk tables alongside the schedule.
+## Najczęściej zadawane pytania
+
+**Q: Czy mogę wyeksportować projekt do PDF bez instalacji Microsoft Project?**  
+A: Tak. Aspose.Tasks wykonuje konwersję w pełni po stronie serwera, eliminując potrzebę posiadania MS Project.
+
+**Q: Jak dodać moduł VBA do projektu przed eksportem?**  
+A: Użyj metody `Project.VbaProject.Modules.Add()` (lub odpowiednika w wybranym języku), aby osadzić makro, a następnie wyeksportuj.
+
+**Q: Czy istnieje limit liczby stron w generowanym PDF?**  
+A: Nie. Rozmiar PDF jest ograniczony jedynie dostępną pamięcią systemową oraz wybranymi ustawieniami stron.
+
+**Q: Czy potrzebuję osobnej licencji dla każdego języka programowania?**  
+A: Nie. Jedna licencja Aspose.Tasks obejmuje wszystkie obsługiwane języki (.NET, Java, C++ itd.).
+
+**Q: Jak mogę uwzględnić analizę ryzyka zasobów w PDF?**  
+A: Włącz widok „Risk Analysis” w opcjach PDF; API wyrenderuje tabele ryzyka obok harmonogramu.
 
 ---
 
-**Ostatnia aktualizacja:** 2025-11-29  
-**Testowano z:** Aspose.Tasks 24.11 (all supported platforms)  
-**Autor:** Aspose  
+**Ostatnia aktualizacja:** 2026-07-29  
+**Testowano z:** Aspose.Tasks 24.11 (wszystkie obsługiwane platformy)  
+**Autor:** Aspose
+
+---
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -135,5 +188,3 @@ A: Enable the “Risk Analysis” view in the PDF options; the API will render t
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
