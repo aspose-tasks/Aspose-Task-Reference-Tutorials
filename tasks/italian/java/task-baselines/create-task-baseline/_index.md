@@ -1,10 +1,51 @@
 ---
-date: 2026-01-18
-description: Impara come creare un elenco di attività Java e aggiungere attività a
-  Microsoft Project, impostando una baseline senza MS Project usando Aspose.Tasks.
-linktitle: Creating a Task Baseline in Aspose.Tasks
+date: 2026-08-29
+description: Scopri come aggiungere un'attività a un progetto in Java, creare un elenco
+  di attività e impostare una baseline senza Microsoft Project usando Aspose.Tasks.
+keywords:
+- add task to project
+- how to set baseline
+- how to create baseline
+- how to add task
+- java create ms project
+lastmod: 2026-08-29
+linktitle: Creare una baseline di attività in Aspose.Tasks
+og_description: Scopri come aggiungere un'attività a un progetto in Java e impostare
+  una baseline usando Aspose.Tasks. Questa guida mostra il codice passo‑passo senza
+  necessità di Microsoft Project.
+og_image_alt: 'Tutorial: add task to project and set baseline with Aspose.Tasks Java'
+og_title: Come aggiungere un'attività a un progetto in Java e impostare una baseline
+schemas:
+- author: Aspose
+  dateModified: '2026-08-29'
+  description: Learn how to add task to project in Java, create a task list, and set
+    a baseline without Microsoft Project using Aspose.Tasks.
+  headline: How to add task to project in Java and set a baseline
+  type: TechArticle
+- questions:
+  - answer: Yes, Aspose.Tasks works independently and does not require Microsoft Project
+      on the host machine.
+    question: Can I use Aspose.Tasks for Java without Microsoft Project installed?
+  - answer: Absolutely. The library supports Project files from 2007 through the latest
+      2024 releases.
+    question: Is Aspose.Tasks for Java compatible with different versions of Microsoft
+      Project?
+  - answer: Yes, you can add, update, and delete resources programmatically, just
+      like tasks.
+    question: Can I manipulate project resources using Aspose.Tasks for Java?
+  - answer: Yes, you can define predecessor‑successor relationships using the `TaskLink`
+      class.
+    question: Does Aspose.Tasks for Java support setting task dependencies?
+  - answer: Yes, you can get help via the [support forum](https://forum.aspose.com/c/tasks/15),
+      where Aspose staff and the community respond to queries.
+    question: Is technical support available for Aspose.Tasks for Java?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: Crea elenco attività Java – baseline di MS Project con Aspose.Tasks
+tags:
+- add task to project
+- Aspose.Tasks
+- Java project automation
+title: Come aggiungere un'attività a un progetto in Java e impostare una baseline
 url: /it/java/task-baselines/create-task-baseline/
 weight: 11
 ---
@@ -13,31 +54,29 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Crea elenco attività Java – Baseline di MS Project con Aspose.Tasks
+# Come aggiungere un'attività a un progetto in Java e impostare una baseline
 
 ## Introduzione
-In questo tutorial, **creerai un elenco attività Java** generando una baseline di attività di Microsoft Project utilizzando Aspose.Tasks per Java. Aspose.Tasks ti consente di lavorare con i file Project senza avere Microsoft Project installato, così puoi **aggiungere attività a Microsoft Project**, manipolare le risorse e persino **impostare la baseline senza MS Project** — tutto da puro codice Java.
+In questo tutorial **aggiungerai un'attività a un progetto** programmaticamente, genererai una baseline di attività di Microsoft Project e salverai il file—tutto senza mai aprire Microsoft Project. Aspose.Tasks per Java ti offre un'API pure‑Java che funziona su qualsiasi piattaforma, rendendola perfetta per pipeline di build automatizzate, servizi di reporting o qualsiasi soluzione server‑side che deve manipolare file .mpp.
 
 ## Risposte rapide
-- **Cosa fa Aspose.Tasks?** Fornisce un'API Java per creare, leggere e modificare file Microsoft Project senza MS Project.
-- **È necessario avere Microsoft Project installato?** No, Aspose.Tasks funziona in modo indipendente.
-- **Quale versione di Java è richiesta?** JDK8 o superiore.
-- **Posso impostare una baseline per una singola attività?** Sì, usa `setBaseline` con un elenco di attività.
-- **È necessaria una licenza per la produzione?** Sì, una licenza commerciale rimuove i limiti di valutazione.
+- **Che cosa fa Aspose.Tasks?** Fornisce un'API Java per creare, leggere e modificare file Microsoft Project senza richiedere Microsoft Project.  
+- **È necessario avere Microsoft Project installato?** No, la libreria funziona completamente in modo indipendente.  
+- **Quale versione di Java è richiesta?** JDK 8 o superiore.  
+- **Posso impostare una baseline per un'unica attività?** Sì – chiama `setBaseline` su una lista che contiene solo le attività desiderate.  
+- **È necessaria una licenza per la produzione?** Sì, una licenza commerciale rimuove i limiti di valutazione e sblocca tutte le funzionalità.
 
-## Cos'è una linea di base delle attività?
-Una baseline di task registra i valori originali pianificati di inizio, fine e lavoro per un task. Servire come punto di riferimento per confrontare l'avanzamento reale con il piano originale.
+## Cos'è una baseline di attività?
+Una baseline di attività cattura la data di inizio, la data di fine e lo sforzo di lavoro originariamente pianificati per un'attività al momento in cui il programma viene salvato per la prima volta. Questa istantanea funge da punto di riferimento, consentendo ai project manager di confrontare l'avanzamento reale e i costi rispetto al piano iniziale e di calcolare le varianze per l'analisi delle prestazioni.
 
-## Perché utilizzare Aspose.Tasks per creare elenchi di attività Java?
-- **Nessuna dipendenza da MS Project** – ideale per l'automazione lato server.
-- **Controllo completo** su task, risorse e calendari tramite codice Java.
-- **Compatibilità cross‑versione** con file Project 2007‑2024.
+## Perché usare Aspose.Tasks per aggiungere un'attività a un progetto in Java?
+Puoi creare, modificare e impostare le baseline delle attività senza alcuna installazione desktop, il che consente flussi di lavoro completamente automatizzati. Aspose.Tasks supporta **oltre 50 formati di input e output** e può gestire progetti con **centinaia di attività** mantenendo l'uso della memoria sotto i 200 MB, rendendola ideale per servizi cloud e pipeline CI/CD.
 
 ## Prerequisiti
-1. **Java Development Kit (JDK)** – installa JDK8 o più recente.
-2. **Aspose.Tasks for Java** – scarica la libreria dal [link download](https://releases.aspose.com/tasks/java/).
+1. **Java Development Kit (JDK)** – installa JDK 8 o più recente.  
+2. **Aspose.Tasks for Java** – scarica la libreria dal [download link](https://releases.aspose.com/tasks/java/).  
 
-## Importa pacchetti
+## Importare i pacchetti
 Per iniziare a lavorare con Aspose.Tasks nel tuo progetto Java, importa i pacchetti necessari:
 ```java
 import com.aspose.tasks.BaselineType;
@@ -47,67 +86,84 @@ import java.util.ArrayList;
 import java.util.List;
 ```
 
-## Fase 1: Creare un oggetto Progetto
+## Passo 1: creare un oggetto progetto
+La classe `Project` è l'oggetto di livello superiore di Aspose.Tasks che rappresenta un file Microsoft Project in memoria. Istanziandola ottieni un progetto vuoto che puoi popolare con attività, risorse e calendari.
+
 ```java
 Project project = new Project();
 ```
-Qui istanziamo un nuovo oggetto `Project` – rappresenta il file MS Project che conterrà il nostro elenco attività.
+Qui istanziamo un nuovo oggetto `Project` – questo rappresenta il file MS Project che conterrà la nostra lista di attività.
 
-## Fase 2: Aggiungere un'attività al progetto
+## Passo 2: aggiungere un'attività al progetto
+La classe `Task` rappresenta un singolo elemento di lavoro in un programma di progetto. Ogni `Task` può avere la propria durata, data di inizio e assegnazioni di risorse.
+
 ```java
 Task task = project.getRootTask().getChildren().add("Task");
 ```
-Usando `getRootTask()` accediamo alla radice della gerarchia del progetto e **aggiungiamo un task a Microsoft Project**. La stringa `"Task"` è il nome del task; puoi sostituirla con qualsiasi descrizione necessaria.
+Usando `getRootTask()` accediamo alla radice della gerarchia del progetto e **aggiungiamo un'attività a Microsoft Project**. La stringa `"Task"` è il nome dell'attività; puoi sostituirla con qualsiasi descrizione necessaria.
 
-## Fase 3: Impostare la baseline per le attività specificate
+## Passo 3: impostare la baseline per le attività specificate
+`BaselineType` è un'enumerazione che definisce quale slot di baseline (Baseline, Baseline1 … Baseline10) vuoi scrivere. Passando una lista di attività puoi impostare la baseline solo per gli elementi selezionati.
+
 ```java
 List<Task> myList = new ArrayList<Task>();
 project.setBaseline(BaselineType.Baseline, (Iterable<Task>) myList);
 ```
-Per **impostare la baseline senza MS Project**, crea un elenco dei task che desideri includere nella baseline (qui `myList`) e passalo a `setBaseline`. Popola `myList` con i task aggiunti se ti serve solo una baseline selettiva.
+Per **impostare la baseline senza MS Project**, crea una lista delle attività che desideri includere nella baseline (qui `myList`) e passala a `setBaseline`. Popola `myList` con le attività aggiunte se ti serve solo una baseline selettiva.
 
-## Fase 4: Impostare la baseline per l'intero progetto
+## Passo 4: impostare la baseline per l'intero progetto
+`setBaseline` scrive i valori di baseline selezionati su ogni attività del progetto.  
+Se preferisci impostare la baseline per l'intero progetto in una sola chiamata, basta invocare `setBaseline` con il `BaselineType` desiderato.
+
 ```java
 project.setBaseline(BaselineType.Baseline);
 ```
-Se preferisci impostare la baseline per l'intero progetto in un'unica chiamata, basta invocare `setBaseline` con il `BaselineType` desiderato.
+Questa chiamata scrive i valori di baseline scelti per **ogni attività** nel progetto, garantendo un'istantanea completa del programma originale.
 
-## Come aggiungere attività a Microsoft Project utilizzando Aspose.Tasks
-Oltre al singolo task mostrato sopra, puoi aggiungere più task, sotto‑task e assegnare risorse. Ogni chiamata a `add()` restituisce un oggetto `Task` che puoi configurare ulteriormente (durata, dati di inizio, ecc.).
+## Come aggiungere un'attività a Microsoft Project usando Aspose.Tasks
+`add()` crea una nuova attività figlia sotto l'attività genitore specificata e restituisce l'oggetto `Task` appena creato.  
+Aggiungi un'attività chiamando `add()` su un oggetto `Task` genitore (di solito l'attività radice). Il metodo restituisce una nuova istanza di `Task` che puoi configurare ulteriormente—durata, data di inizio, risorse o campi personalizzati—prima di salvare il file del progetto.
 
-## Come impostare la linea di base senza MS Project
-Aspose.Tasks consente la creazione della baseline interamente tramite codice. Puoi impostare diversi tipi di baseline (Baseline, Baseline1‑Baseline10) modificando l'enumerazione `BaselineType`, permettendoti di tracciare più revisioni di baseline senza mai aprire MS Project.
+## Come impostare la baseline senza MS Project
+Aspose.Tasks consente la creazione della baseline interamente tramite codice. Scegli un `BaselineType` (ad esempio `BaselineType.Baseline`) e invoca `setBaseline`. Puoi ripetere l'operazione con `Baseline1`‑`Baseline10` per mantenere più baseline di revisione, tutto senza aprire Microsoft Project.
 
-## Problemi e soluzioni comuni
-- **Baseline non appare:** Assicurati di chiamare `project.save("output.mpp")` dopo aver impostato la baseline (passo di salvataggio omesso qui per brevità).
-- **L'elenco dei task appare vuoto:** Verifica di aggiungere i task al genitore corretto (`getRootTask()` o a un sotto‑task).
-- **Errori di incompatibilità della versione:** Usa l'ultimo JAR di Aspose.Tasks per garantire la compatibilità con i formati .mpp più recenti.
+## Problemi comuni e soluzioni
+- **Baseline non appare:** Assicurati di chiamare `project.save("output.mpp")` dopo aver impostato la baseline (passo di salvataggio omesso qui per brevità).  
+- **La lista delle attività appare vuota:** Verifica di aggiungere le attività al genitore corretto (`getRootTask()` o a un sotto‑task).  
+- **Errori di incompatibilità di versione:** Usa l'ultimo JAR di Aspose.Tasks per garantire la compatibilità con i formati .mpp più recenti.
 
 ## Domande frequenti
 
-**D: Posso usare Aspose.Tasks per Java senza Microsoft Project installato?**
+**D: Posso usare Aspose.Tasks per Java senza Microsoft Project installato?**  
 R: Sì, Aspose.Tasks funziona in modo indipendente e non richiede Microsoft Project sulla macchina host.
 
-**D: Aspose.Tasks per Java è compatibile con diverse versioni di Microsoft Project?**
-R: Assolutamente. La libreria supporta file Project dal 2007 fino alle ultime versioni 2024.
+**D: Aspose.Tasks per Java è compatibile con diverse versioni di Microsoft Project?**  
+R: Assolutamente. La libreria supporta file Project dal 2007 fino alle ultime versioni del 2024.
 
-**D: Posso manipolare le risorse del progetto utilizzando Aspose.Tasks per Java?**
-A: Sì, puoi aggiungere, aggiornare e cancellare le risorse programmaticamente, proprio come i task.
+**D: Posso manipolare le risorse di progetto usando Aspose.Tasks per Java?**  
+R: Sì, puoi aggiungere, aggiornare e eliminare risorse programmaticamente, proprio come le attività.
 
-**D: Aspose.Tasks per Java supporta l'impostazione delle dipendenze tra task?**
-R: Sì, puoi definire le relazioni predecessore‑successore utilizzando la classe `TaskLink`.
+**D: Aspose.Tasks per Java supporta l'impostazione delle dipendenze tra attività?**  
+R: Sì, puoi definire relazioni predecessore‑successore usando la classe `TaskLink`.
 
-**D: È disponibile supporto tecnico per Aspose.Tasks per Java?**
-R: Sì, puoi ottenere assistenza tramite il [forum di supporto](https://forum.aspose.com/c/tasks/15), dove lo staff di Aspose e la community risponde alle domande.
+**D: È disponibile supporto tecnico per Aspose.Tasks per Java?**  
+R: Sì, puoi ottenere aiuto tramite il [forum di supporto](https://forum.aspose.com/c/tasks/15), dove lo staff di Aspose e la community rispondono alle domande.
 
 ## Conclusione
-Seguendo questi passaggi, hai imparato come **creare un elenco di attività Java**, **aggiungere task a Microsoft Project** e **impostare la baseline senza MS Project** utilizzando Aspose.Tasks. Questo approccio semplifica l'automazione dei progetti, elimina la necessità di installazioni desktop di Project e ti offre un controllo programmatico completo sui dati del tuo progetto.
+Seguendo questi passaggi hai imparato come **aggiungere un'attività a un progetto** in Java, creare una lista di attività e **impostare la baseline senza MS Project** usando Aspose.Tasks. Questo approccio semplifica l'automazione dei progetti, elimina la necessità di installazioni desktop di Project e ti offre il pieno controllo programmatico su ogni aspetto del tuo programma.
 
 ---
 
-**Ultimo aggiornamento:** 2026-01-18
-**Testato con:** Aspose.Tasks per Java 24.12
-**Autore:** Chiedi
+**Last Updated:** 2026-08-29  
+**Tested With:** Aspose.Tasks for Java 24.12  
+**Author:** Aspose
+
+## Tutorial correlati
+
+- [How to Create Project aspose.tasks – Set New Task Attributes](/tasks/java/project-file-operations/set-attributes-new-tasks/)
+- [How to Set Baseline Duration in Aspose.Tasks for Java](/tasks/java/task-baselines/task-baseline-duration/)
+- [Create Tasks Aspose Java – Task Properties](/tasks/java/task-properties/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

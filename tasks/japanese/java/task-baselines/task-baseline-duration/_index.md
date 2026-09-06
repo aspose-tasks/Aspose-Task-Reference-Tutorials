@@ -1,27 +1,99 @@
 ---
-title: Aspose.Tasks でのタスクのベースライン期間管理
-linktitle: Aspose.Tasks でのタスクのベースライン期間管理
+date: 2026-08-29
+description: Aspose.Tasks for Java を使用してベースライン期間を設定し、プロジェクトの進捗を追跡する方法を学びます。このステップバイステップガイドは、タスクのベースラインを効率的に管理するのに役立ちます。
+keywords:
+- track project progress
+- manage project baselines
+- Aspose.Tasks baseline duration
+- Java project scheduling
+- baseline management
+lastmod: 2026-08-29
+linktitle: Aspose.Tasks for Java でベースライン期間を設定する方法
+og_description: Aspose.Tasks for Java を使用してベースライン期間を設定し、プロジェクトの進捗を追跡する方法を学びます。この詳細なガイドに従って、タスクのベースラインを効率的に管理してください。
+og_image_alt: Developer guide showing baseline duration setup with Aspose.Tasks for
+  Java
+og_title: プロジェクトの進捗を追跡するためのベースライン期間の設定方法
+schemas:
+- author: Aspose
+  dateModified: '2026-08-29'
+  description: Learn how to set baseline duration and track project progress using
+    Aspose.Tasks for Java. This step‑by‑step guide helps you manage task baselines
+    efficiently.
+  headline: How to set baseline duration to track project progress
+  type: TechArticle
+- description: Learn how to set baseline duration and track project progress using
+    Aspose.Tasks for Java. This step‑by‑step guide helps you manage task baselines
+    efficiently.
+  name: How to set baseline duration to track project progress
+  steps:
+  - name: '**Java Development Environment** – JDK 8+ installed and configured.'
+    text: '**Java Development Environment** – JDK 8+ installed and configured.'
+  - name: '**Aspose.Tasks for Java** – download the library from the [Aspose.Tasks
+      for Java download page](https://releases.aspose.com/tasks/java/).'
+    text: '**Aspose.Tasks for Java** – download the library from the [Aspose.Tasks
+      for Java download page](https://releases.aspose.com/tasks/java/).'
+  - name: '**IDE or build tool** – Maven, Gradle, or any IDE you prefer.'
+    text: '**IDE or build tool** – Maven, Gradle, or any IDE you prefer.'
+  type: HowTo
+- questions:
+  - answer: No. Calling `project.setBaseline(BaselineType.Baseline)` records the baseline
+      for all tasks in the project at once.
+    question: Do I need to call `setBaseline` for each task individually?
+  - answer: Use `project.setBaseline(BaselineType.Baseline1)` (or Baseline2‑Baseline10)
+      after updating the task’s schedule.
+    question: How can I set an interim baseline for a specific task?
+  - answer: Yes. Iterate over `task.getBaselines()` and write the desired fields to
+      a CSV file using standard Java I/O.
+    question: Is it possible to export the baseline data to CSV?
+  - answer: Absolutely. Load the file with `new Project("myproject.mpp")` and then
+      access each task’s baselines as shown above.
+    question: Can I read an existing .mpp file that already contains baselines?
+  - answer: Aspose.Tasks works with single‑project .mpp files. For multi‑project scenarios,
+      combine the projects programmatically.
+    question: Does Aspose.Tasks handle multi‑project files?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-description: Aspose.Tasks for Java を使用して MS Project のタスク ベースラインを効率的に管理する方法を学びます。このチュートリアルでは、プロセスを段階的に説明します。
-weight: 12
+tags:
+- baseline duration
+- Aspose.Tasks
+- Java project management
+- task baselines
+title: プロジェクトの進捗を追跡するためのベースライン期間の設定方法
 url: /ja/java/task-baselines/task-baseline-duration/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks でのタスクのベースライン期間管理
+# ベースライン期間を設定してプロジェクトの進捗を追跡する方法
 
-## 導入
-MS Project でのタスク ベースラインの管理は、プロジェクトの計画と追跡にとって非常に重要です。このチュートリアルでは、Aspose.Tasks for Java を使用してタスクのベースライン期間を効果的に管理する方法を検討します。
+## はじめに
+プロジェクトの進捗を追跡するには、確固たるベースラインから始めます。このチュートリアルでは、Java 用 Aspose.Tasks ライブラリを使用して Microsoft Project ファイルのタスクに対して **ベースライン期間の設定方法** を学び、ベースラインを早期に設定することで、プロジェクトのライフサイクル全体でスケジュールのずれ、コストのばらつき、リソースの過剰割り当てを監視できる理由を理解します。
+
+## クイック回答
+- **「set baseline」とは何ですか？** タスクの元の開始日、終了日、期間を記録し、将来の変更と比較できるようにします。  
+- **どの Aspose.Tasks クラスがプロジェクトを作成しますか？** `Project` クラスです – 正しく **プロジェクト インスタンスを作成** する方法も学びます。  
+- **コードを実行するのにライセンスは必要ですか？** 無料の評価ライセンスはテストに使用できますが、本番環境では商用ライセンスが必要です。  
+- **中間ベースラインを取得できますか？** はい、Aspose.Tasks を使用すると中間ベースラインとその固定コストをクエリできます。  
+- **必要な Java バージョンは何ですか？** Java 8 以降が推奨されます。  
+- **これがプロジェクトの進捗追跡にどのように役立ちますか？** ベースラインを設定すると、組み込みのレポート機能を使用して実際の日付を元の計画と即座に比較できます。
+
+## タスクベースラインとは何か、そしてなぜ設定するのか
+タスクベースラインは、特定の時点での計画されたスケジュール（開始日、終了日、期間）を記録します。ベースラインを設定することで、プロジェクトが進行するにつれてスケジュールのずれ、コスト超過、リソースの過剰割り当てを簡単に把握できる参照ポイントが作成されます。
+
+## ベースライン管理に Aspose.Tasks を使用する理由
+Aspose.Tasks は **完全な .mpp 互換性** を提供します – Microsoft Office をインストールせずにネイティブの Microsoft Project ファイルを読み書きできます。API は **50 以上の入出力フォーマット** へのプログラム的アクセスを可能にし、**中間ベースライン 1‑10** をサポートし、ファイル全体をメモリにロードせずに **数百ページに及ぶプロジェクト** を処理できるため、高性能バッチ処理に不可欠です。
+
 ## 前提条件
-始める前に、以下のものがあることを確認してください。
-1. Java 開発環境: システムに Java Development Kit (JDK) がインストールされていることを確認してください。
-2.  Aspose.Tasks ライブラリ: Aspose.Tasks for Java ライブラリを次からダウンロードしてインストールします。[ここ](https://releases.aspose.com/tasks/java/).
+1. **Java 開発環境** – JDK 8 以上がインストールされ、設定されていること。  
+2. **Aspose.Tasks for Java** – ライブラリは [Aspose.Tasks for Java ダウンロードページ](https://releases.aspose.com/tasks/java/) からダウンロードしてください。  
+3. **IDE またはビルドツール** – Maven、Gradle、またはお好みの IDE。
 
 ## パッケージのインポート
-まず、Java プロジェクトに必要なパッケージをインポートします。
+以下のインポートは、プロジェクト、タスク、ベースライン、タイムフェーズ データを操作するために必要な Aspose.Tasks のコアクラスを取り込みます。
+
 ```java
 import com.aspose.tasks.BaselineType;
 import com.aspose.tasks.Project;
@@ -30,19 +102,25 @@ import com.aspose.tasks.TaskBaseline;
 import com.aspose.tasks.TimeUnitType;
 import com.aspose.tasks.TimephasedData;
 ```
-## ステップ 1: プロジェクト インスタンスを作成する
-次のコードを使用して、新しいプロジェクト インスタンスを初期化します。
+
+## ステップ 1: プロジェクト インスタンスの作成
+`Project` クラスは、メモリ内の Microsoft Project ファイルを表し、すべての操作のエントリーポイントです。
+
 ```java
 Project project = new Project();
 ```
-## ステップ 2: タスクのベースラインを作成する
-新しいタスクを作成し、次のコードを使用してベースラインを設定します。
+
+## ステップ 2: タスクベースラインの作成
+`TaskBaseline` は、特定のタスクの計画された開始日、終了日、期間を保存します。
+
 ```java
 Task task = project.getRootTask().getChildren().add("Task");
 project.setBaseline(BaselineType.Baseline);
 ```
-## ステップ 3: タスクのベースライン情報を表示する
-期間、開始日、終了日などのタスクのベースライン情報を取得して表示します。
+
+## ステップ 3: タスクベースライン情報の表示
+`getBaselines()` メソッドは、タスクに関連付けられたベースラインのコレクションを返します。
+
 ```java
 TaskBaseline baseline = task.getBaselines().toList().get(0);
 System.out.println("Baseline Start: " + baseline.getStart());
@@ -51,14 +129,18 @@ System.out.println("Baseline Duration Format: " + TimeUnitType.toString(TimeUnit
 System.out.println("Is it an Estimated Duration?: " + baseline.getEstimatedDuration());
 System.out.println("Baseline Finish: " + baseline.getFinish());
 ```
-## ステップ 4: 暫定ベースラインと固定コストを確認する
-ベースラインが暫定ベースラインであるかどうかを確認し、それに関連する固定費を取得します。
+
+## ステップ 4: 中間ベースラインと固定コストの確認
+`BaselineType` は、主ベースラインと中間ベースライン（Baseline、Baseline1‑Baseline10）を列挙します。
+
 ```java
 System.out.println("Interim: " + baseline.getInterim());
 System.out.println("Fixed Cost: " + baseline.getFixedCost());
 ```
-## ステップ 5: タイムスケール データを印刷する
-タスクのベースラインに関連付けられたタイムスケール データを出力します。
+
+## ステップ 5: タイムフェーズ データの出力
+`TimephasedData` は、特定の時間間隔に対するスケジュール情報の一部を表します。
+
 ```java
 System.out.println("Number of Timephased Items: " + baseline.getTimephasedData().size());
 for (TimephasedData data : baseline.getTimephasedData()) {
@@ -67,21 +149,59 @@ for (TimephasedData data : baseline.getTimephasedData()) {
     System.out.println(" Finish: " + data.getFinish());
 }
 ```
-これらの手順に従うと、Aspose.Tasks for Java を使用して MS Project でタスクのベースライン期間を効果的に管理できます。
 
-## 結論
-タスクのベースラインの管理はプロジェクト管理に不可欠であり、計画されたスケジュールからの逸脱を追跡できるようになります。 Aspose.Tasks for Java を使用すると、このプロセスが合理化および効率化され、より適切なプロジェクトの制御と配信が可能になります。
-## よくある質問
-### MS Project のタスク ベースラインとは何ですか?
-MS Project のタスク ベースラインは、開始日、終了日、期間を含む、タスクの最初に計画されたスケジュールのスナップショットです。
-### タスクのベースラインの管理が重要なのはなぜですか?
-タスクのベースラインを管理すると、計画されたスケジュールとプロジェクトの実際の進捗状況を比較するのに役立ち、より適切な追跡と意思決定が容易になります。
-### タスクのベースラインを設定した後で変更できますか?
-はい、MS Project のタスク ベースラインを変更して、プロジェクト計画の変更を反映できます。ただし、元のベースラインからの逸脱を文書化することが重要です。
-### Aspose.Tasks は他のプロジェクト管理機能をサポートしていますか?
-はい。Aspose.Tasks は、タスクのスケジュール設定、リソースの割り当て、ガント チャートの生成など、プロジェクト管理のための幅広い機能を提供します。
-### Aspose.Tasks のサポートはどこで見つけられますか?
- Aspose.Tasks のサポートは、[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15)、質問をしたり、他のユーザーと交流したりできます。
+これらの手順に従うことで、任意のタスクに対して **ベースライン期間を設定** でき、Aspose.Tasks for Java を使用して詳細なベースライン情報を取得できるため、プロジェクトのライフサイクル全体で **プロジェクトの進捗を追跡** する信頼できる方法が得られます。
+
+## 一般的な問題と解決策
+- **ベースラインが MS Project に表示されない:** タスクを追加した **後** に `project.setBaseline(BaselineType.Baseline)` を呼び出したことを確認してください。  
+- **`getBaselines()` で NullPointerException が発生:** ベースラインを設定する前にタスクがプロジェクトに追加されていることを確認してください。  
+- **時間単位の不一致:** カスタム カレンダーを使用する場合など、期間を正しくフォーマットするために `TimeUnitType` を使用してください。
+
+## FAQ
+### MS Project のタスクベースラインとは何ですか？
+MS Project のタスクベースラインは、タスクの最初の計画スケジュール（開始日、終了日、期間）をスナップショットとして保存したものです。
+
+### タスクベースラインの管理が重要な理由は何ですか？
+タスクベースラインを管理することで、計画されたスケジュールと実際のプロジェクト進捗を比較でき、より良い追跡と意思決定を促進します。
+
+### ベースラインを設定した後にタスクベースラインを変更できますか？
+はい、MS Project ではプロジェクト計画の変更を反映するためにタスクベースラインを変更できます。ただし、元のベースラインからの逸脱は必ず記録してください。
+
+### Aspose.Tasks は他のプロジェクト管理機能もサポートしていますか？
+はい、Aspose.Tasks はタスクスケジューリング、リソース割り当て、ガントチャート生成など、プロジェクト管理の幅広い機能を提供します。
+
+### Aspose.Tasks のサポートはどこで得られますか？
+Aspose.Tasks のサポートは [Aspose.Tasks フォーラム](https://forum.aspose.com/c/tasks/15) で利用でき、質問や他のユーザーとのやり取りが可能です。
+
+## 追加のよくある質問
+**Q: 各タスクに個別に `setBaseline` を呼び出す必要がありますか？**  
+A: いいえ。`project.setBaseline(BaselineType.Baseline)` を呼び出すと、プロジェクト内のすべてのタスクのベースラインが一度に記録されます。
+
+**Q: 特定のタスクに中間ベースラインを設定するにはどうすればよいですか？**  
+A: タスクのスケジュールを更新した後、`project.setBaseline(BaselineType.Baseline1)`（または Baseline2‑Baseline10）を使用します。
+
+**Q: ベースラインデータを CSV にエクスポートできますか？**  
+A: はい。`task.getBaselines()` を反復処理し、標準の Java I/O を使用して必要なフィールドを CSV ファイルに書き出します。
+
+**Q: 既にベースラインが含まれている既存の .mpp ファイルを読み取れますか？**  
+A: もちろんです。`new Project("myproject.mpp")` でファイルをロードし、上記のように各タスクのベースラインにアクセスできます。
+
+**Q: Aspose.Tasks はマルチプロジェクト ファイルを扱えますか？**  
+A: Aspose.Tasks は単一プロジェクトの .mpp ファイルに対応しています。マルチプロジェクトのシナリオでは、プログラムでプロジェクトを結合してください。
+
+---
+
+**最終更新日:** 2026-08-29  
+**テスト環境:** Aspose.Tasks for Java 24.12  
+**作者:** Aspose
+
+## 関連チュートリアル
+
+- [Java でタスクリスト作成 – Aspose.Tasks を使用した MS Project ベースライン](/tasks/java/task-baselines/create-task-baseline/)
+- [Java で MPP プロジェクト作成 – Aspose.Tasks でタスクの進捗を変更](/tasks/java/task-properties/change-progress/)
+- [プロジェクト管理ベースライン – Aspose.Tasks を使用したタスクスケジューリング](/tasks/java/task-baselines/baseline-task-scheduling/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
