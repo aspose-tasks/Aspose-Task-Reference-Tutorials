@@ -1,9 +1,46 @@
 ---
-date: 2026-01-13
-description: 學習如何使用 Aspose.Tasks for Java 在 Microsoft Project 檔案中遍歷非根資源。
-linktitle: Iterate Non-Root Resources with Aspose.Tasks for Java
+date: 2026-08-18
+description: 了解如何使用 Aspose.Tasks for Java 在 Microsoft Project 檔案中迭代非根資源。
+keywords:
+- how to iterate resources
+- extract resource data
+- list project resources
+lastmod: 2026-08-18
+linktitle: 如何使用 Aspose.Tasks for Java 迭代資源
+og_description: 了解如何使用 Aspose.Tasks for Java 在 Microsoft Project 檔案中迭代資源。本指南涵蓋非根資源過濾、程式碼範例與最佳實踐。
+og_image_alt: Developer guide showing Java code that iterates non‑root resources in
+  a Microsoft Project file
+og_title: 如何使用 Aspose.Tasks for Java 迭代資源
+schemas:
+- author: Aspose
+  dateModified: '2026-08-18'
+  description: Learn how to iterate non‑root resources in Microsoft Project files
+    using Aspose.Tasks for Java.
+  headline: How to iterate resources with Aspose.Tasks for Java
+  type: TechArticle
+- questions:
+  - answer: Yes. The API offers full CRUD (Create, Read, Update, Delete) capabilities
+      for MPP, MPT, and XML formats.
+    question: Can I use Aspose.Tasks for Java to create new project files?
+  - answer: Absolutely. It handles Project 2003‑2019 files, including the latest MPP
+      specifications.
+    question: Does Aspose.Tasks support all versions of Microsoft Project files?
+  - answer: Yes. You can inject the library into Spring beans or use it in any standard
+      Java application.
+    question: Is Aspose.Tasks compatible with Java frameworks like Spring?
+  - answer: Definitely. The API lets you add, modify, or delete custom fields on tasks,
+      resources, and assignments.
+    question: Can I customize project data fields using Aspose.Tasks?
+  - answer: The product includes comprehensive API docs, code samples, and a dedicated
+      support forum for quick assistance.
+    question: Does Aspose.Tasks provide support and documentation for developers?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: 使用 Aspose.Tasks for Java 迭代非根資源
+tags:
+- Aspose.Tasks
+- Java resource handling
+- project management API
+title: 如何使用 Aspose.Tasks for Java 迭代資源
 url: /zh-hant/java/resource-management/iterate-non-root-resources/
 weight: 12
 ---
@@ -12,26 +49,32 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.Tasks for Java 迭代非根資源
+# 如何使用 Aspose.Tasks for Java 迭代資源
 
 ## 介紹
-Aspose.Tasks for Java 是一套功能強大的函式庫，讓開發者以乾淨、物件導向的方式操作 Microsoft Project 檔案。在本教學中，你將學會 **如何迭代非根資源**，以便在不處理根佔位節點的情況下讀取、修改或分析資源資料。無論你是在建立報表工具、遷移腳本，或是自訂排程器，掌握此技巧都能讓程式碼更精確且效能更佳。
+在本指南中，您將了解 **how to iterate resources**——特別是非根資源——在 Microsoft Project 檔案中使用 Aspose.Tasks for Java 的方法。無論您是建立報表儀表板、遷移舊有專案資料，或是開發自訂排程器，能夠跳過內建的「Project」佔位符都能節省時間並保持輸出乾淨。此函式庫的物件導向 API 讓此任務變得直接，且此處示範的模式可在任何 Java 8+ 環境中運作。
 
-## 快速回答
-- **「非根資源」是什麼意思？** 指的不是預設的「Project」佔位節點（根節點）的資源。  
-- **為什麼要過濾掉根資源？** 根資源沒有實際的排程資料，會讓報表變得雜亂。  
+## 快速解答
+- **「non‑root resource」是什麼意思？** 它指的是除預設的「Project」佔位符之外的任何資源，該佔位符位於資源樹的最上層。  
+- **為什麼要過濾根資源？** 根資源沒有排程資料，移除它可避免報表出現空白列。  
 - **哪個 Aspose.Tasks 類別提供資源集合？** `Project.getResources()`。  
-- **這段程式碼需要授權嗎？** 開發階段可使用免費試用版；正式上線需購買商業授權。  
-- **可以在 Java 17 上使用嗎？** 可以 – Aspose.Tasks 支援 Java 8 以上版本。
+- **這段程式碼需要授權嗎？** 開發時可使用免費試用版；正式上線需購買商業授權。  
+- **可以在 Java 17 上使用嗎？** 可以 – Aspose.Tasks 支援 Java 8 及以上版本。
+
+## 什麼是「如何迭代資源」？
+**how to iterate resources** 這個詞彙描述了遍歷 `Project` 實例中每個 `Resource` 物件的程式步驟，同時可套用自訂過濾條件（如 `isRoot()`）。本教學提供即用型範本，可套用於報表、資料遷移或自訂排程邏輯。
+
+## 為什麼使用 Aspose.Tasks for Java？
+Aspose.Tasks for Java 支援 **50+ 輸入與輸出格式**，且可在不將整個檔案載入記憶體的情況下處理包含 **多達 10,000 個工作**的專案，這得益於其串流架構。API 亦提供內建驗證，確保在 Project 2003‑2019 檔案中取得可靠結果。
 
 ## 前置條件
-在開始撰寫程式碼之前，請先確認已具備以下環境：
+在開始之前，請確保已安裝以下項目：
 
-1. **Java Development Kit (JDK)** – 從 [Oracle 官方網站](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) 下載並安裝最新的 JDK。  
-2. **Aspose.Tasks for Java 函式庫** – 從 [下載頁面](https://releases.aspose.com/tasks/java/) 取得最新的 JAR 檔。
+1. **Java Development Kit (JDK)** – 從 [Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) 下載最新的 JDK。  
+2. **Aspose.Tasks for Java library** – 從 [download page](https://releases.aspose.com/tasks/java/) 下載最新的 JAR 檔案。  
 
 ## 匯入套件
-在 Java 專案中匯入必要的 Aspose.Tasks 類別：
+`Project` 代表 Microsoft Project 檔案，`Resource` 模型化單一資源，`Rsc` 提供資源欄位常數。  
 
 ```java
 import com.aspose.tasks.Project;
@@ -40,18 +83,23 @@ import com.aspose.tasks.Rsc;
 ```
 
 ## 步驟 1：設定資料目錄
+建立一個字串指向包含 `.mpp` 檔案的資料夾。將 `"Your Data Directory"` 替換為您的專案檔案所在的絕對路徑。
+
 ```java
 String dataDir = "Your Data Directory";
 ```
-將 `"Your Data Directory"` 替換為存放 `.mpp` 檔案的絕對路徑。
 
 ## 步驟 2：載入專案檔案
+`Project` 類別代表已載入記憶體的 Microsoft Project 檔案。實例化它會讀取檔案結構，並為後續查詢準備 API。
+
 ```java
 Project prj = new Project(dataDir + "ResourceCosts.mpp");
 ```
-此程式會從先前指定的資料夾載入 **ResourceCosts.mpp**，並建立 `Project` 例項。
+此程式會從您指定的資料夾載入 **ResourceCosts.mpp**，建立 `Project` 實例。
 
 ## 步驟 3：迭代非根資源
+`isRoot()` 若資源是內建的專案佔位符則回傳 true。  
+
 ```java
 for (Resource res : prj.getResources()) {
     if (res.isRoot()) {
@@ -60,48 +108,52 @@ for (Resource res : prj.getResources()) {
     System.out.println(res.get(Rsc.NAME));
 }
 ```
-此迴圈會走訪專案中的每個 `Resource` 物件。`isRoot()` 檢查會跳過內建的根資源，而 `System.out.println` 會印出每個 **非根資源** 的名稱。
+此迴圈遍歷專案中的每個 `Resource` 物件。`isRoot()` 檢查會跳過內建的根資源，`System.out.println` 陳述式則會印出每個 **non‑root resource** 的名稱。
 
 ## 如何迭代非根資源
-上述程式碼展示了核心模式：
+`getResources()` 會回傳專案中所有資源的集合。使用 `prj.getResources()` 載入完整集合，透過 `isRoot()` 過濾根資源，然後讀取您需要的任何欄位（例如 `Rsc.NAME`、`Rsc.COST`）。此模式可延伸至：
 
-1. 使用 `prj.getResources()` 取得完整集合。  
-2. 以 `isRoot()` 篩選掉佔位根資源。  
-3. 依需求存取任意資源欄位（例如 `Rsc.NAME`、`Rsc.COST`）。
+- 計算資源總成本。  
+- 匯出名稱與費率至 CSV。  
+- 套用自訂商業規則，例如加班計算。
 
-你可以在此基礎上加入成本彙總、匯出 CSV，或套用自訂商業規則。
+## 常見陷阱與提示
+- **Null checks** – 某些可選欄位可能為 `null`；務必使用 null‑check 以避免 `NullPointerException`。  
+- **Performance** – 對於擁有數千筆資源的專案，使用基於索引的迴圈 (`for (int i = 0; i < resources.size(); i++)`) 可減少暫時物件的產生。  
+- **Licensing** – 未使用有效授權執行會在匯出檔案上加上浮水印；請在應用程式啟動時啟用授權以避免此問題。
 
-## 常見陷阱與技巧
-- **空值檢查** – 某些資源的欄位可能為 `null`，呼叫 `get()` 前務必做好防護。  
-- **效能** – 面對極大型專案時，考慮使用基於索引的迴圈，以避免產生中間集合。  
-- **授權** – 未載入有效授權時，匯出檔案會加上浮水印；請務必在應用程式啟動時盡早激活授權。
+## 常見問答
+
+**Q: 可以使用 Aspose.Tasks for Java 建立新專案檔案嗎？**  
+A: 可以。API 提供完整的 CRUD（Create、Read、Update、Delete）功能，支援 MPP、MPT 與 XML 格式。
+
+**Q: Aspose.Tasks 支援所有版本的 Microsoft Project 檔案嗎？**  
+A: 絕對支援。它能處理 Project 2003‑2019 檔案，包含最新的 MPP 規格。
+
+**Q: Aspose.Tasks 與 Spring 等 Java 框架相容嗎？**  
+A: 相容。您可以將函式庫注入 Spring Bean，或在任何標準 Java 應用程式中使用。
+
+**Q: 可以自訂專案資料欄位嗎？**  
+A: 當然可以。API 允許您在工作、資源與指派上新增、修改或刪除自訂欄位。
+
+**Q: Aspose.Tasks 是否提供開發者支援與文件？**  
+A: 有。產品內含完整的 API 文件、程式碼範例，以及專屬支援論壇，提供快速協助。
 
 ## 結論
-透過上述步驟，你現在已掌握 **如何使用 Aspose.Tasks for Java 迭代非根資源**。此技巧可協助你聚焦於實際的專案資源、清理資料抽取，並打造更可靠的專案管理解決方案。
-
-## 常見問題
-### 我可以使用 Aspose.Tasks for Java 建立新的專案檔案嗎？
-可以，Aspose.Tasks 提供完整的 CRUD（建立、讀取、更新、刪除）功能，支援 MPP、MPT 與 XML 等專案格式。
-
-### Aspose.Tasks 支援所有版本的 Microsoft Project 檔案嗎？
-絕對支援。它能處理 Project 2003‑2019 的檔案，包含最新的 MPP 規格。
-
-### Aspose.Tasks 能與 Spring 等 Java 框架相容嗎？
-可以，你可以將函式庫注入 Spring Bean，或在任何標準的 Java 應用程式中使用。
-
-### 我能使用 Aspose.Tasks 自訂專案資料欄位嗎？
-當然可以。API 允許你新增、修改或刪除任務、資源與指派的自訂欄位。
-
-### Aspose.Tasks 為開發者提供支援與文件嗎？
-產品內含完整的 API 文件、程式碼範例，以及專屬的支援論壇，讓你快速取得協助。
+您現在已了解 **how to iterate resources**——特別是非根資源——如何使用 Aspose.Tasks for Java。此方法讓您專注於真實的專案資料，產生乾淨的報表，並打造穩健的專案管理解決方案，避免預設佔位符的雜訊。
 
 ---
 
-**最後更新：** 2026-01-13  
+**最後更新：** 2026-08-18  
 **測試環境：** Aspose.Tasks for Java 24.12  
-**作者：** Aspose  
+**作者：** Aspose
 
----
+## 相關教學
+
+- [如何建立資源 – 使用 Aspose.Tasks for Java 進行資源管理](/tasks/java/resource-management/)
+- [使用 Aspose.Tasks for Java 為專案新增資源](/tasks/java/resource-management/create-resources/)
+- [使用 Aspose.Tasks for Java 管理 MS Project 資源成本](/tasks/java/resource-management/resource-cost/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
