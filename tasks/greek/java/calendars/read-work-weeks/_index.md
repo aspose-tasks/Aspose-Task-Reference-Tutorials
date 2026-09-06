@@ -1,11 +1,69 @@
 ---
-date: 2026-02-05
-description: Μάθετε πώς να διαβάζετε τις εβδομάδες εργασίας Java από ένα ημερολόγιο
-  Microsoft Project χρησιμοποιώντας το Aspose.Tasks. Ακολουθήστε τον οδηγό βήμα‑προς‑βήμα
-  με πλήρη παραδείγματα κώδικα.
-linktitle: Read Work Weeks from Calendar with Aspose.Tasks
+date: 2026-08-13
+description: Μάθετε πώς να διαβάζετε τις εβδομάδες εργασίας από ένα ημερολόγιο MS
+  Project χρησιμοποιώντας το Aspose.Tasks για Java. Ακολουθήστε τον οδηγό βήμα‑βήμα
+  με παραδείγματα κώδικα και συμβουλές αντιμετώπισης προβλημάτων.
+keywords:
+- how to read workweeks
+- Aspose.Tasks Java
+- MS Project calendar
+lastmod: 2026-08-13
+linktitle: Ανάγνωση Εβδομάδων Εργασίας από το Ημερολόγιο με το Aspose.Tasks
+og_description: Πώς να διαβάσετε τις εβδομάδες εργασίας από ένα ημερολόγιο MS Project
+  χρησιμοποιώντας το Aspose.Tasks για Java. Ακολουθήστε το σύντομο σεμινάριο με βήματα
+  εγκατάστασης, αποσπάσματα κώδικα και συμβουλές αντιμετώπισης προβλημάτων.
+og_image_alt: 'Tutorial: read workweeks from MS Project calendar using Aspose.Tasks
+  Java API'
+og_title: Πώς να διαβάσετε τις εβδομάδες εργασίας από το ημερολόγιο MS με το Aspose.Tasks
+schemas:
+- author: Aspose
+  dateModified: '2026-08-13'
+  description: Learn how to read workweeks from an MS Project calendar using Aspose.Tasks
+    for Java. Follow the step‑by‑step guide with code examples and troubleshooting
+    tips.
+  headline: How to read workweeks from MS calendar with Aspose.Tasks
+  type: TechArticle
+- description: Learn how to read workweeks from an MS Project calendar using Aspose.Tasks
+    for Java. Follow the step‑by‑step guide with code examples and troubleshooting
+    tips.
+  name: How to read workweeks from MS calendar with Aspose.Tasks
+  steps:
+  - name: '**Java Development Kit (JDK)** – version 8 or later installed.'
+    text: '**Java Development Kit (JDK)** – version 8 or later installed.'
+  - name: '**Aspose.Tasks for Java** – download the latest JAR from the official site:
+      [Aspose.Tasks for Java download](https://releases.aspose.com/tasks/java/).'
+    text: '**Aspose.Tasks for Java** – download the latest JAR from the official site:
+      [Aspose.Tasks for Java download](https://releases.aspose.com/tasks/java/).'
+  - name: A **sample Project file** (`ReadWorkWeeksInformation.mpp`) placed in a known
+      folder on your machine.
+    text: A **sample Project file** (`ReadWorkWeeksInformation.mpp`) placed in a known
+      folder on your machine.
+  type: HowTo
+- questions:
+  - answer: Yes. The API provides `addWorkWeek()`, `removeWorkWeek()`, and property
+      setters to change names, dates, and working times.
+    question: Can I modify the work weeks information using Aspose.Tasks for Java?
+  - answer: Absolutely. It supports MPP files from Project 98 up to the latest releases,
+      as well as Project XML files.
+    question: Is Aspose.Tasks compatible with different versions of Microsoft Project
+      files?
+  - answer: Yes. The library is pure Java, so you can use it alongside Spring, Jakarta
+      EE, or any other framework.
+    question: Can I integrate Aspose.Tasks with other Java frameworks?
+  - answer: 'Yes, you can download a free 30‑day trial from the official site: [Aspose.Tasks
+      trial](https://releases.aspose.com/).'
+    question: Is there a trial version available for Aspose.Tasks?
+  - answer: 'The Aspose community forum is the best place: [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).'
+    question: Where can I find support for Aspose.Tasks?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: Πώς να διαβάσετε τις εβδομάδες εργασίας Java από το ημερολόγιο MS Project Aspose.Tasks
+tags:
+- read workweeks
+- Aspose.Tasks
+- Java project scheduling
+- MS Project
+- calendar API
+title: Πώς να διαβάσετε τις εβδομάδες εργασίας από το ημερολόγιο MS με το Aspose.Tasks
 url: /el/java/calendars/read-work-weeks/
 weight: 15
 ---
@@ -14,35 +72,36 @@ weight: 15
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Πώς να Διαβάσετε τις Εργάσιμες Εβδομάδες Java από το Ημερολόγιο MS Project Aspose.Tasks
+# Πώς να διαβάσετε τις εβδομάδες εργασίας από το ημερολόγιο MS με το Aspose.Tasks
 
 ## Εισαγωγή
-Σε αυτό το σεμινάριο θα **μάθετε πώς να διαβάζετε τις εργάσιμες εβδομάδες Java** από ένα ημερολόγιο Microsoft Project χρησιμοποιώντας τη βιβλιοθήκη Aspose.Tasks. Είτε δημιουργείτε ένα εργαλείο αναφοράς, συγχρονίζετε χρονοδιαγράμματα ή αυτοματοποιείτε την εξαγωγή δεδομένων έργου, η δυνατότητα προγραμματιστικής πρόσβασης στους ορισμούς των εργασιακών εβδομάδων εξοικονομεί αμέτρητες χειροκίνητες ώρες. Θα περάσουμε από τη απαιτούμενη ρύθμιση, θα σας δείξουμε τον ακριβή κώδικα για την ανάκτηση των λεπτομερειών των εργασιακών εβδομάδων και θα εξηγήσουμε κάθε βήμα ώστε να προσαρμόσετε τη λύση στα δικά σας έργα.
+Σε αυτό το μάθημα θα **μάθετε πώς να διαβάζετε τις εβδομάδες εργασίας** από ένα ημερολόγιο Microsoft Project χρησιμοποιώντας τη βιβλιοθήκη Aspose.Tasks για Java. Είτε δημιουργείτε έναν πίνακα αναφορών, συγχρονίζετε προγράμματα με σύστημα ERP, είτε αυτοματοποιείτε την εξαγωγή δεδομένων για αναλύσεις, η προγραμματιστική πρόσβαση στους ορισμούς εβδομάδας εργασίας εξοικονομεί αμέτρητες χειροκίνητες ώρες. Το Aspose.Tasks υποστηρίζει **πάνω από 50 μορφές εισόδου και εξόδου** και μπορεί να επεξεργαστεί αρχεία έργου εκατοντάδων σελίδων χωρίς να φορτώνει ολόκληρο το αρχείο στη μνήμη, προσφέροντας τόσο ευελιξία όσο και απόδοση.
 
-## Γρήγορες Απαντήσεις
-- **Τι σημαίνει “read workweeks java”;** Αναφέρεται στην εξαγωγή των ορισμών των εργασιακών εβδομάδων από ένα αρχείο Project χρησιμοποιώντας κώδικα Java.  
-- **Ποια βιβλιοθήκη απαιτείται;** Aspose.Tasks for Java (διατίθεται δωρεάν δοκιμαστική έκδοση).  
-- **Χρειάζομαι άδεια για ανάπτυξη;** Μια δοκιμαστική έκδοση λειτουργεί για δοκιμές· απαιτείται εμπορική άδεια για παραγωγή.  
-- **Ποια μορφές αρχείων υποστηρίζονται;** Τanto *.mpp* όσο και αρχεία Project XML υποστηρίζονται.  
-- **Πόσο διαρκεί η υλοποίηση;** Συνήθως λιγότερο από 10 λεπτά μόλις ρυθμιστεί η βιβλιοθήκη.
+## Γρήγορες απαντήσεις
+- **Τι σημαίνει “read workweeks”;** Αναφέρεται στην εξαγωγή των ορισμών εβδομάδας εργασίας (ημερομηνίες και καθημερινούς κανόνες ωραρίου) από ένα αρχείο Project μέσω κώδικα Java.  
+- **Ποια βιβλιοθήκη απαιτείται;** Aspose.Tasks for Java (διαθέσιμο δωρεάν trial).  
+- **Χρειάζεται άδεια για ανάπτυξη;** Το trial λειτουργεί για δοκιμές· απαιτείται εμπορική άδεια για παραγωγικές εγκαταστάσεις.  
+- **Ποιες μορφές αρχείων υποστηρίζονται;** Τanto *.mpp* όσο και αρχεία Project XML, συν 50+ άλλες μορφές για εισαγωγή/εξαγωγή.  
+- **Πόσο διαρκεί η υλοποίηση;** Συνήθως κάτω από 10 λεπτά μόλις ρυθμιστεί η βιβλιοθήκη.
 
-## Πώς να Διαβάσετε τις Εργάσιμες Εβδομάδες Java από ένα Ημερολόγιο Microsoft Project
-Η ανάγνωση των εργασιακών εβδομάδων σε Java σημαίνει τη χρήση του API Aspose.Tasks για πρόσβαση στη `WorkWeekCollection` ενός αντικειμένου ημερολογίου μέσα σε ένα αρχείο Microsoft Project. Κάθε `WorkWeek` περιέχει τις ημερομηνίες έναρξης/λήξης και τους καθημερινούς ορισμούς χρόνου εργασίας που καθορίζουν πώς προγραμματίζονται οι πόροι.
+## Τι είναι μια εβδομάδα εργασίας στο MS Project;
+Μια εβδομάδα εργασίας ορίζει τους κανόνες του ημερολογίου που καθορίζουν πότε οι πόροι είναι διαθέσιμοι κατά τη διάρκεια μιας συγκεκριμένης περιόδου. Περιλαμβάνει ημερομηνία έναρξης, ημερομηνία λήξης και καθημερινά διαστήματα εργασίας (π.χ., 9 π.μ.–5 μ.μ.). Στο MS Project, κάθε ημερολόγιο μπορεί να περιέχει πολλαπλές εβδομάδες εργασίας, επιτρέποντάς σας να μοντελοποιήσετε διακοπές, βάρδιες ή εποχιακά προγράμματα.
 
-## Γιατί να διαβάζετε τις εργασιακές εβδομάδες Java από ένα ημερολόγιο Microsoft Project;
-- **Αυτοματοποίηση:** Απενεργοποιήστε την χειροκίνητη αντιγραφή‑επικόλληση δεδομένων χρονοδιαγράμματος.  
-- **Ενσωμάτωση:** Ενσωματώστε τις πληροφορίες των εργασιακών εβδομάδων σε συστήματα ERP, HR ή προσαρμοσμένα συστήματα αναφοράς.  
-- **Συνέπεια:** Διασφαλίστε ότι όλα τα επόμενα εργαλεία σέβονται τους ίδιους κανόνες ημερολογίου που ορίζονται στο αρχείο Project.
+## Πώς το Aspose.Tasks διαβάζει τις εβδομάδες εργασίας από ένα ημερολόγιο;
+Το Aspose.Tasks εκθέτει το `WorkWeekCollection` ενός αντικειμένου `Calendar`. Δημιουργώντας μια παρουσία `Project`, επιλέγοντας το επιθυμητό ημερολόγιο (με UID ή όνομα) και επαναλαμβάνοντας το `WorkWeekCollection` του, μπορείτε να ανακτήσετε την ετικέτα κάθε εβδομάδας εργασίας, το εύρος ημερομηνιών ισχύος της και τα λεπτομερή καθημερινά διαστήματα εργασίας. Το API διαχειρίζεται όλες τις μετατροπές ημερομηνίας‑ώρας και σέβεται αυτόματα τις ρυθμίσεις ζώνης ώρας του έργου.
+
+## Γιατί να διαβάζετε τις εβδομάδες εργασίας Java από ένα ημερολόγιο Microsoft Project;
+Η προγραμματιστική ανάγνωση των εβδομάδων εργασίας εξαλείφει την χειροκίνητη αντιγραφή‑επικόλληση, εξασφαλίζει ότι τα συστήματα downstream (ERP, HR, αναφορές) χρησιμοποιούν ακριβώς τους ίδιους κανόνες προγραμματισμού και εγγυάται τη συνέπεια μεταξύ πολλαπλών έργων. Η αυτοματοποίηση μειώνει επίσης τα ανθρώπινα λάθη και επιταχύνει τις διαδικασίες ενσωμάτωσης, ειδικά όταν χρειάζεται να επεξεργαστείτε δεκάδες αρχεία έργου κάθε νύχτα.
 
 ## Προαπαιτούμενα
-Πριν βουτήξουμε στον κώδικα, βεβαιωθείτε ότι έχετε:
+1. **Java Development Kit (JDK)** – εγκατεστημένη έκδοση 8 ή νεότερη.  
+2. **Aspose.Tasks for Java** – κατεβάστε το τελευταίο JAR από την επίσημη ιστοσελίδα: [Aspose.Tasks for Java download](https://releases.aspose.com/tasks/java/).  
+3. Ένα **δείγμα αρχείου Project** (`ReadWorkWeeksInformation.mpp`) τοποθετημένο σε γνωστό φάκελο στον υπολογιστή σας.
 
-1. **Java Development Kit (JDK)** – εγκατεστημένη έκδοση 8 ή νεότερη.  
-2. **Aspose.Tasks for Java** – κατεβάστε το πιο πρόσφατο JAR από την επίσημη ιστοσελίδα: [Aspose.Tasks for Java download](https://releases.aspose.com/tasks/java/).  
-3. Ένα **δείγμα αρχείου Project** (`ReadWorkWeeksInformation.mpp`) τοποθετημένο σε γνωστό φάκελο.
+## Εισαγωγή πακέτων
+Πρώτα, εισάγετε τις κλάσεις που θα χρειαστείτε για την αλληλεπίδραση με ημερολόγια και εβδομάδες εργασίας:
 
-## Εισαγωγή Πακέτων
-Αρχικά, εισάγετε τις κλάσεις που θα χρειαστούμε για αλληλεπίδραση με ημερολόγια και εργασιακές εβδομάδες:
+`Project` αντιπροσωπεύει ένα αρχείο Microsoft Project, `Calendar` παρέχει τα ημερολόγιά του, `WorkWeek` ορίζει μια εβδομάδα εργασίας, και `WeekDay` αντιπροσωπεύει μια ημέρα.
 
 ```java
 import com.aspose.tasks.Calendar;
@@ -54,15 +113,16 @@ import com.aspose.tasks.WorkWeekCollection;
 import com.aspose.tasks.WorkingTimeCollection;
 ```
 
-## Βήμα 1: Ρυθμίστε τον Κατάλογο Δεδομένων σας
-Ορίστε το φάκελο που περιέχει το αρχείο `.mpp`. Αντικαταστήστε το σύμβολο κράτησης θέσης με την πραγματική διαδρομή στο σύστημά σας:
+## Βήμα 1: Ρυθμίστε τον φάκελο δεδομένων σας
+Ορίστε το φάκελο που περιέχει το αρχείο `.mpp`. Αντικαταστήστε το σύμβολο κράτησης θέσης με την πραγματική διαδρομή στον υπολογιστή σας:
 
 ```java
 String dataDir = "Your Data Directory";
 ```
 
-## Βήμα 2: Δημιουργήστε ένα Αντικείμενο Project και Πρόσβαση στο Ημερολόγιο
-Δημιουργήστε ένα αντικείμενο `Project`, επιλέξτε το ημερολόγιο που θέλετε (με UID) και αποκτήστε τη `WorkWeekCollection` του:
+## Βήμα 2: Δημιουργήστε μια παρουσία Project και αποκτήστε πρόσβαση στο ημερολόγιο
+Η κλάση `Project` αντιπροσωπεύει ένα αρχείο Microsoft Project και παρέχει πρόσβαση στις δομές δεδομένων του, συμπεριλαμβανομένων των ημερολογίων, των εργασιών και των πόρων.  
+Δημιουργήστε ένα αντικείμενο `Project`, επιλέξτε το ημερολόγιο που θέλετε (με UID) και αποκτήστε το `WorkWeekCollection` του:
 
 ```java
 Project project = new Project(dataDir + "ReadWorkWeeksInformation.mpp");
@@ -70,10 +130,11 @@ Calendar calendar = project.getCalendars().getByUid(3);
 WorkWeekCollection collection = calendar.getWorkWeeks();
 ```
 
-> **Συμβουλή:** Αν δεν είστε σίγουροι για το UID του ημερολογίου, μπορείτε να επαναλάβετε μέσω του `project.getCalendars()` και να εκτυπώσετε το όνομα και το UID κάθε ημερολογίου.
+> **Συμβουλή:** Αν δεν είστε σίγουροι για το UID του ημερολογίου, επαναλάβετε μέσω `project.getCalendars()` και εκτυπώστε πρώτα το όνομα και το UID κάθε ημερολογίου.
 
-## Βήμα 3: Επανάληψη μέσω των Εργατικών Εβδομάδων
-Κάντε βρόχο σε κάθε `WorkWeek` για να εμφανίσετε το όνομα, τις ημερομηνίες έναρξης/λήξης και τις καθημερινές ώρες εργασίας:
+## Βήμα 3: Επανάληψη μέσω των εβδομάδων εργασίας
+Η κλάση `WorkWeek` περιλαμβάνει τον ορισμό μιας εβδομάδας εργασίας, περιέχοντας ημερομηνίες έναρξης/λήξης και καθημερινές ρυθμίσεις ωραρίου.  
+Περάστε μέσα από κάθε `WorkWeek` για να εμφανίσετε το όνομά του, τις ημερομηνίες έναρξης/λήξης και τις καθημερινές ώρες εργασίας:
 
 ```java
 for (WorkWeek workWeek : collection) {
@@ -90,44 +151,47 @@ for (WorkWeek workWeek : collection) {
 }
 ```
 
-**Τι θα δείτε:** Η κονσόλα εκτυπώνει την ετικέτα κάθε εργασιακής εβδομάδας (π.χ., “Standard”), το εύρος ημερομηνιών ισχύος της, και μπορείτε να εμβαθύνετε στις ακριβείς ώρες εργασίας για κάθε ημέρα.
+**Τι θα δείτε:** Η κονσόλα εκτυπώνει την ετικέτα κάθε εβδομάδας εργασίας (π.χ., “Standard”), το εύρος ημερομηνιών ισχύος της, και μπορείτε να εμβαθύνετε στις ακριβείς ώρες εργασίας για κάθε ημέρα.
 
-## Συνηθισμένα Προβλήματα και Λύσεις
+## Κοινά προβλήματα και λύσεις
 | Πρόβλημα | Αιτία | Διόρθωση |
 |----------|-------|----------|
-| `NullPointerException` κατά την πρόσβαση στο `calendar` | Λάθος UID ή το ημερολόγιο δεν υπάρχει | Επαληθεύστε το UID με `project.getCalendars().size()` και πρώτα εμφανίστε τα διαθέσιμα ημερολόγια. |
-| Δεν υπάρχει έξοδος για τις εργασιακές εβδομάδες | Το επιλεγμένο ημερολόγιο δεν έχει προσαρμοσμένες εργασιακές εβδομάδες (χρησιμοποιεί το προεπιλεγμένο) | Χρησιμοποιήστε το προεπιλεγμένο ημερολόγιο (`project.getDefaultCalendar()`) ή δημιουργήστε μια εργασιακή εβδομάδα προγραμματιστικά. |
-| Η μορφή ημερομηνίας φαίνεται περίεργη | `System.out.println` χρησιμοποιεί την προεπιλεγμένη μορφή `java.util.Date` | Εφαρμόστε ένα `SimpleDateFormat` για να μορφοποιήσετε τις ημερομηνίες όπως χρειάζεται. |
+| `NullPointerException` when accessing `calendar` | Λάθος UID ή το ημερολόγιο δεν υπάρχει | Επαληθεύστε το UID με `project.getCalendars().size()` και πρώτα καταγράψτε τα διαθέσιμα ημερολόγια. |
+| No output for work weeks | Το επιλεγμένο ημερολόγιο δεν έχει προσαρμοσμένες εβδομάδες εργασίας (χρησιμοποιεί προεπιλογή) | Χρησιμοποιήστε το προεπιλεγμένο ημερολόγιο (`project.getDefaultCalendar()`) ή δημιουργήστε μια εβδομάδα εργασίας προγραμματιστικά. |
+| Date format looks odd | `System.out.println` uses default `java.util.Date` format | Εφαρμόστε ένα `SimpleDateFormat` για να μορφοποιήσετε τις ημερομηνίες όπως χρειάζεται. |
 
-## Συχνές Ερωτήσεις
+## Συχνές ερωτήσεις
+**Μ: Μπορώ να τροποποιήσω τις πληροφορίες των εβδομάδων εργασίας χρησιμοποιώντας το Aspose.Tasks για Java;**  
+Α: Ναι. Το API παρέχει `addWorkWeek()`, `removeWorkWeek()`, και setters ιδιοτήτων για αλλαγή ονομάτων, ημερομηνιών και ωραρίων.
 
-**Q: Μπορώ να τροποποιήσω τις πληροφορίες των εργασιακών εβδομάδων χρησιμοποιώντας το Aspose.Tasks for Java;**  
-A: Ναι. Το API παρέχει μεθόδους όπως `addWorkWeek()`, `removeWorkWeek()`, και setters ιδιοτήτων για αλλαγή ονομάτων, ημερομηνιών και ωρών εργασίας.
+**Μ: Είναι το Aspose.Tasks συμβατό με διαφορετικές εκδόσεις αρχείων Microsoft Project;**  
+Α: Απόλυτα. Υποστηρίζει αρχεία MPP από το Project 98 έως τις πιο πρόσφατες εκδόσεις, καθώς και αρχεία Project XML.
 
-**Q: Είναι το Aspose.Tasks συμβατό με διαφορετικές εκδόσεις αρχείων Microsoft Project;**  
-A: Απόλυτα. Υποστηρίζει αρχεία MPP από το Project 98 έως τις πιο πρόσφατες εκδόσεις, καθώς και αρχεία Project XML.
+**Μ: Μπορώ να ενσωματώσω το Aspose.Tasks με άλλα Java frameworks;**  
+Α: Ναι. Η βιβλιοθήκη είναι καθαρή Java, οπότε μπορείτε να τη χρησιμοποιήσετε μαζί με Spring, Jakarta EE ή οποιοδήποτε άλλο framework.
 
-**Q: Μπορώ να ενσωματώσω το Aspose.Tasks με άλλα Java frameworks;**  
-A: Ναι. Η βιβλιοθήκη είναι καθαρά Java, έτσι μπορείτε να τη χρησιμοποιήσετε μαζί με Spring, Jakarta EE ή οποιοδήποτε άλλο framework.
+**Μ: Υπάρχει διαθέσιμη δοκιμαστική έκδοση για το Aspose.Tasks;**  
+Α: Ναι, μπορείτε να κατεβάσετε μια δωρεάν δοκιμαστική έκδοση 30 ημερών από την επίσημη ιστοσελίδα: [Aspose.Tasks trial](https://releases.aspose.com/).
 
-**Q: Υπάρχει δοκιμαστική έκδοση του Aspose.Tasks;**  
-A: Ναι, μπορείτε να κατεβάσετε μια δωρεάν δοκιμαστική έκδοση 30 ημερών από την επίσημη ιστοσελίδα: [Aspose.Tasks trial](https://releases.aspose.com/).
-
-**Q: Πού μπορώ να βρω υποστήριξη για το Aspose.Tasks;**  
-A: Το φόρουμ της κοινότητας Aspose είναι το καλύτερο μέρος: [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
-
-## Συμπέρασμα
-Τώρα έχετε κατακτήσει **πώς να διαβάζετε τις εργασιακές εβδομάδες Java** χρησιμοποιώντας το Aspose.Tasks. Ακολουθώντας τα παραπάνω βήματα μπορείτε προγραμματιστικά να εξάγετε τους ορισμούς των εργασιακών εβδομάδων από οποιοδήποτε ημερολόγιο MS Project, να ενσωματώσετε αυτά τα δεδομένα στις εφαρμογές σας και να αυτοματοποιήσετε τις ροές εργασίας που σχετίζονται με το χρονοδιάγραμμα. Μη διστάσετε να πειραματιστείτε με τη δημιουργία ή την ενημέρωση εργασιακών εβδομάδων—το Aspose.Tasks το κάνει απλό.
+**Μ: Πού μπορώ να βρω υποστήριξη για το Aspose.Tasks;**  
+Α: Το φόρουμ της κοινότητας Aspose είναι το καλύτερο μέρος: [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
 
 ---
 
-**Τελευταία Ενημέρωση:** 2026-02-05  
-**Δοκιμή Με:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
+**Τελευταία ενημέρωση:** 2026-08-13  
+**Δοκιμάστηκε με:** Aspose.Tasks for Java 24.12 (τελευταία έκδοση τη στιγμή της συγγραφής)  
 **Συγγραφέας:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## Σχετικά Μαθήματα
+
+- [Προσθήκη ημερολογίου στο έργο με Aspose.Tasks για Java](/tasks/java/calendars/create/)
+- [Ανάκτηση εξαιρέσεων ημερολογίου με Aspose.Tasks – μάθημα Java](/tasks/java/calendar-exceptions/retrieve/)
+- [Πώς να ορίσετε ημερολόγιο και ημέρες εβδομάδας στο MS Project με Aspose.Tasks](/tasks/java/calendars/define-weekdays/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
