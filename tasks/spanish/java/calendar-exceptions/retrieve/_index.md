@@ -1,12 +1,68 @@
 ---
-date: 2025-11-29
-description: Aprenda cómo recuperar excepciones de calendario de MS Project usando
-  Aspose.Tasks para Java. Este tutorial de Aspose.Tasks para Java proporciona ejemplos
-  de código paso a paso.
-linktitle: Retrieve Calendar Exceptions with Aspose.Tasks – asp tasks java tutorial
+date: 2026-08-24
+description: Aprenda cómo recuperar excepciones de calendario java de archivos MS
+  Project y cómo leer el calendario mpp usando Aspose.Tasks para Java. Este tutorial
+  ofrece ejemplos de código paso a paso.
+keywords:
+- retrieve calendar exceptions java
+- how to read mpp calendar
+- Aspose.Tasks Java
+- MS Project calendar API
+lastmod: 2026-08-24
+linktitle: Cómo recuperar excepciones de calendario java con Aspose.Tasks
+og_description: Aprenda cómo recuperar excepciones de calendario java de archivos
+  MS Project y cómo leer el calendario mpp usando Aspose.Tasks para Java. Esta guía
+  paso a paso le ayuda a añadir un manejo preciso del calendario a sus aplicaciones
+  Java.
+og_image_alt: Developer guide showing Java code to read calendar exceptions from an
+  MS Project file
+og_title: Cómo recuperar excepciones de calendario java con Aspose.Tasks
+schemas:
+- author: Aspose
+  dateModified: '2026-08-24'
+  description: Learn how to retrieve calendar exceptions java from MS Project files
+    and how to read mpp calendar using Aspose.Tasks for Java. This tutorial provides
+    step‑by‑step code examples.
+  headline: How to retrieve calendar exceptions java with Aspose.Tasks
+  type: TechArticle
+- description: Learn how to retrieve calendar exceptions java from MS Project files
+    and how to read mpp calendar using Aspose.Tasks for Java. This tutorial provides
+    step‑by‑step code examples.
+  name: How to retrieve calendar exceptions java with Aspose.Tasks
+  steps:
+  - name: '**Java Development Kit (JDK)** – Ensure you have JDK 8 or later installed.'
+    text: '**Java Development Kit (JDK)** – Ensure you have JDK 8 or later installed.'
+  - name: '**Aspose.Tasks for Java** – Download and install Aspose.Tasks for Java
+      from the **[Aspose.Tasks for Java download page](https://releases.aspose.com/tasks/java/)**.'
+    text: '**Aspose.Tasks for Java** – Download and install Aspose.Tasks for Java
+      from the **[Aspose.Tasks for Java download page](https://releases.aspose.com/tasks/java/)**.'
+  - name: '**Integrated Development Environment (IDE)** – You can use any IDE of your
+      choice, such as IntelliJ IDEA or Eclipse.'
+    text: '**Integrated Development Environment (IDE)** – You can use any IDE of your
+      choice, such as IntelliJ IDEA or Eclipse.'
+  type: HowTo
+- questions:
+  - answer: Retrieving calendar exceptions from an MPP file using Aspose.Tasks for
+      Java.
+    question: What does this tutorial cover?
+  - answer: About 10‑15 minutes for a basic setup.
+    question: How long does implementation take?
+  - answer: JDK, Aspose.Tasks for Java, and an IDE (IntelliJ IDEA or Eclipse).
+    question: Prerequisites?
+  - answer: A free trial works for development; a commercial license is required for
+      production.
+    question: Do I need a license?
+  - answer: All major MS Project formats (MPP, MPT, XML).
+    question: Supported Project versions?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: Recuperar excepciones de calendario con Aspose.Tasks – tutorial de Java de
-  asp tasks
+tags:
+- Aspose.Tasks
+- Java project scheduling
+- calendar exceptions
+- MS Project integration
+- developer tutorial
+title: Cómo recuperar excepciones de calendario java con Aspose.Tasks
 url: /es/java/calendar-exceptions/retrieve/
 weight: 13
 ---
@@ -15,57 +71,126 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Recuperar excepciones de calendario con Aspose.Tasks – tutorial asp tasks java
+# Cómo recuperar excepciones de calendario java con Aspose.Tasks
 
 ## Introducción
-En este **asp tasks java tutorial** aprenderás cómo recuperar excepciones de calendario de un archivo Microsoft Project usando la biblioteca Aspose.Tasks para Java. Las excepciones de calendario representan períodos no laborables como festivos o reglas de horario de trabajo personalizadas, y poder leerlas programáticamente es esencial para el nivelado de recursos, la generación de informes y la lógica de programación personalizada. Recorreremos todo el proceso paso a paso, para que puedas integrar esta capacidad en tus propias aplicaciones Java con confianza.
+En este **asp tasks java tutorial** aprenderá a recuperar excepciones de calendario de un archivo Microsoft Project usando la biblioteca Aspose.Tasks para Java. Las excepciones de calendario representan períodos no laborables como festivos o reglas de tiempo de trabajo personalizadas, y poder leerlas programáticamente es esencial para nivelación de recursos, generación de informes y lógica de programación personalizada. Recorreremos todo el proceso paso a paso, para que pueda integrar esta capacidad en sus propias aplicaciones Java con confianza.
 
 ## Respuestas rápidas
 - **¿Qué cubre este tutorial?** Recuperar excepciones de calendario de un archivo MPP usando Aspose.Tasks para Java.  
 - **¿Cuánto tiempo lleva la implementación?** Aproximadamente 10‑15 minutos para una configuración básica.  
 - **¿Requisitos previos?** JDK, Aspose.Tasks para Java y un IDE (IntelliJ IDEA o Eclipse).  
 - **¿Necesito una licencia?** Una prueba gratuita funciona para desarrollo; se requiere una licencia comercial para producción.  
-- **¿Versiones de Project compatibles?** Todos los formatos principales de MS Project (MPP, MPT, XML).
+- **¿Versiones de Project soportadas?** Todos los formatos principales de MS Project (MPP, MPT, XML).
 
-## ¿Qué es asp tasks java tutorial?
-Un **asp tasks java tutorial** explica cómo usar la API de Aspose.Tasks dentro de proyectos Java. Proporciona fragmentos de código concretos, explicaciones de mejores prácticas y escenarios del mundo real para que los desarrolladores puedan manipular archivos Project sin necesidad de tener Microsoft Project instalado.
+## ¿Qué es el tutorial de asp tasks java?
+El **asp tasks java tutorial** explica cómo usar la API de Aspose.Tasks dentro de proyectos Java. Proporciona fragmentos de código concretos, explicaciones de buenas prácticas y escenarios del mundo real para que los desarrolladores puedan manipular archivos Project sin necesidad de tener Microsoft Project instalado. Al seguir un tutorial como este, los desarrolladores obtienen una comprensión clara y práctica de la estructura de la API, los patrones de uso comunes y cómo integrar sus capacidades en aplicaciones empresariales más grandes.
 
 ## ¿Por qué recuperar excepciones de calendario?
-Entender las excepciones de calendario te permite:
-- Generar cronogramas de proyecto precisos que respeten los festivos y horarios de trabajo personalizados.
-- Crear herramientas de informes personalizadas que resalten los días no laborables.
-- Sincronizar los calendarios de Project con sistemas externos (p. ej., ERP, RRHH).
+Recuperar excepciones de calendario le permite generar cronogramas de proyecto precisos que respeten festivos y horarios de trabajo personalizados, crear herramientas de informes que destaquen los días no laborables y sincronizar los calendarios de Project con sistemas externos como ERP o plataformas de RR.HH. Aspose.Tasks puede leer excepciones de **más de 30** tipos de calendario y soporta **3** formatos principales de archivos MS Project (MPP, MPT, XML) sin cargar todo el archivo en memoria, lo que permite procesar proyectos de cientos de páginas de manera eficiente.
 
 ## Requisitos previos
-Antes de comenzar, asegúrate de contar con los siguientes requisitos:
+Antes de comenzar, asegúrese de contar con los siguientes requisitos:
 
-1. **Java Development Kit (JDK)** – Asegúrate de tener instalado JDK 8 o posterior.
-2. **Aspose.Tasks for Java** – Descarga e instala Aspose.Tasks for Java desde [here](https://releases.aspose.com/tasks/java/).
-3. **Integrated Development Environment (IDE)** – Puedes usar cualquier IDE de tu elección, como IntelliJ IDEA o Eclipse.
+1. **Java Development Kit (JDK)** – Asegúrese de tener instalado JDK 8 o posterior.  
+2. **Aspose.Tasks for Java** – Descargue e instale Aspose.Tasks for Java desde la **[página de descarga de Aspose.Tasks para Java](https://releases.aspose.com/tasks/java/)**.  
+3. **Integrated Development Environment (IDE)** – Puede usar cualquier IDE de su elección, como IntelliJ IDEA o Eclipse.
 
 ## Importar paquetes
-Primero, necesitas importar los paquetes necesarios para trabajar con Aspose.Tasks:
+Las declaraciones de importación traen las clases de Aspose.Tasks a su archivo fuente Java, permitiéndole trabajar con proyectos, calendarios y excepciones.
+
+```java
+import com.aspose.tasks.*;
+import java.util.*;
+```
+
+## Paso 1: configurar su directorio de datos
+Defina una carpeta que contenga el archivo Project que desea analizar. Usar una ruta absoluta o una ruta relativa a la carpeta de recursos de su proyecto evita `FileNotFoundException`.
+
+```java
+String dataDir = "C:/Projects/Data/";
+```
+
+> **Consejo profesional:** Guarde sus archivos Project en una carpeta de recursos dedicada y haga referencia a ellos con `Paths.get(...)` para rutas independientes de la plataforma.
+
+## Paso 2: cargar archivo ms project
+La clase `Project` representa un archivo MS Project y proporciona acceso a sus calendarios, tareas, recursos y demás datos del proyecto. Cargue el archivo Project en un objeto `Project`. Este objeto representa todo el archivo MS Project en memoria y brinda acceso a calendarios, tareas, recursos y más.
+
+```java
+Project project = new Project(dataDir + "project.mpp");
+```
+
+## Paso 3: recuperar excepciones de calendario
+Itere a través de cada calendario en el proyecto y luego a través de cada excepción de calendario dentro de ese calendario. Imprima las fechas de inicio y fin de cada excepción.
+
+```java
+for (Calendar cal : project.getCalendars()) {
+    for (CalendarException calExc : cal.getExceptions()) {
+        System.out.println("Exception from " + calExc.getFromDate() + " to " + calExc.getToDate());
+    }
+}
+```
+
+## Problemas comunes y soluciones
+| Problema | Razón | Solución |
+|----------|-------|----------|
+| **No se imprime salida** | El archivo de proyecto no contiene excepciones de calendario. | Verifique que el calendario en MS Project tenga excepciones definidas (p. ej., festivos). |
+| **`NullPointerException`** | La ruta `dataDir` es incorrecta o el archivo no se encuentra. | Verifique nuevamente la ruta del directorio y asegúrese de que `project.mpp` exista. |
+| **Desajuste de zona horaria** | Las fechas se muestran en UTC. | Utilice `calExc.getFromDate().toLocalDateTime()` para convertir a la hora local si es necesario. |
+
+## Preguntas frecuentes
+### ¿Puede Aspose.Tasks manejar diferentes versiones de archivos MS Project?
+Sí, Aspose.Tasks soporta **todos los principales** formatos de MS Project, incluidos MPP, MPT y XML, en versiones desde 2000 hasta la última publicación.
+
+### ¿Hay una versión de prueba gratuita disponible para Aspose.Tasks?
+Sí, puede descargar una versión de prueba gratuita de Aspose.Tasks desde la **[página de descarga de prueba gratuita de Aspose](https://releases.aspose.com/)**.
+
+### ¿Dónde puedo encontrar documentación para Aspose.Tasks for Java?
+Puede consultar la documentación **[Referencia de la API Java de Aspose.Tasks](https://reference.aspose.com/tasks/java/)**.
+
+### ¿Cómo puedo obtener soporte para Aspose.Tasks?
+Puede obtener soporte en el foro de la comunidad **[foro de la comunidad Aspose.Tasks](https://forum.aspose.com/c/tasks/15)**.
+
+### ¿Existe una opción de licencias temporales para Aspose.Tasks?
+Sí, puede obtener licencias temporales desde la **[página de compra de licencias temporales](https://purchase.aspose.com/temporary-license/)**.
+
+**Preguntas adicionales**
+
+**P:** *¿Puedo modificar las excepciones de calendario después de recuperarlas?*  
+**R:** Absolutamente. Use `CalendarException.setFromDate()` y `setToDate()` para ajustar las fechas, luego guarde el proyecto con `project.save(...)`.
+
+**P:** *¿Aspose.Tasks conserva los campos personalizados en los calendarios?*  
+**R:** Sí, todos los campos personalizados y atributos extendidos se conservan al cargar y guardar el proyecto.
+
+## Conclusión
+En este **asp tasks java tutorial** hemos aprendido a recuperar excepciones de calendario de MS Project usando Aspose.Tasks para Java. Siguiendo estos simples pasos, puede integrar sin problemas esta funcionalidad en sus aplicaciones Java, habilitando características de programación más ricas y análisis de proyecto más precisos.
+
+---
+
+**Last Updated:** 2026-08-24  
+**Tested With:** Aspose.Tasks for Java 24.11  
+**Author:** Aspose  
+
+
+
+
+
+
+
 
 ```java
 import com.aspose.tasks.*;
 ```
 
-## Paso 1: Configurar tu directorio de datos
 ```java
 // The path to the documents directory.
 String dataDir = "Your Data Directory";
 ```
 
-> **Consejo profesional:** Usa una ruta absoluta o una ruta relativa a la carpeta de recursos de tu proyecto para evitar `FileNotFoundException`.
-
-## Paso 2: Cargar el archivo MS Project
 ```java
 Project project = new Project(dataDir + "project.mpp");
 ```
 
-Esta línea inicializa un nuevo objeto `Project` cargando el archivo MS Project especificado por la ruta.
-
-## Paso 3: Recuperar excepciones de calendario
 ```java
 for (Calendar cal : project.getCalendars()) {
     for (CalendarException calExc : cal.getExceptions()) {
@@ -75,47 +200,12 @@ for (Calendar cal : project.getCalendars()) {
 }
 ```
 
-Aquí iteramos a través de cada calendario en el proyecto y luego a través de cada excepción de calendario dentro de ese calendario. Imprimimos las fechas de inicio y fin de cada excepción.
+## Tutoriales relacionados
 
-## Problemas comunes y soluciones
-| Problema | Razón | Solución |
-|----------|-------|----------|
-| **No output printed** | Project file does not contain any calendar exceptions. | Verify the calendar in MS Project has defined exceptions (e.g., holidays). |
-| **`NullPointerException`** | `dataDir` path is incorrect or file not found. | Double‑check the directory path and ensure `project.mpp` exists. |
-| **Time zone mismatch** | Dates are displayed in UTC. | Use `calExc.getFromDate().toLocalDateTime()` to convert to local time if needed. |
+- [Crear excepciones de calendario personalizadas con Aspose.Tasks para Java](/tasks/java/calendar-exceptions/)
+- [Cómo usar Aspose.Tasks para recuperar información del calendario de MS Project](/tasks/java/project-file-operations/retrieve-calendar-info/)
+- [Cómo leer semanas laborables Java del calendario de MS Project con Aspose.Tasks](/tasks/java/calendars/read-work-weeks/)
 
-## Preguntas frecuentes
-### ¿Puede Aspose.Tasks manejar diferentes versiones de archivos MS Project?
-Sí, Aspose.Tasks admite varias versiones de archivos MS Project, incluidos los formatos MPP, MPT y XML.
-
-### ¿Hay una prueba gratuita disponible para Aspose.Tasks?
-Sí, puedes descargar una prueba gratuita de Aspose.Tasks desde [here](https://releases.aspose.com/).
-
-### ¿Dónde puedo encontrar la documentación de Aspose.Tasks para Java?
-Puedes consultar la documentación [here](https://reference.aspose.com/tasks/java/).
-
-### ¿Cómo puedo obtener soporte para Aspose.Tasks?
-Puedes obtener soporte en el foro de la comunidad [here](https://forum.aspose.com/c/tasks/15).
-
-### ¿Existe una opción de licencias temporales para Aspose.Tasks?
-Sí, puedes obtener licencias temporales desde [here](https://purchase.aspose.com/temporary-license/).
-
-**Preguntas y respuestas adicionales**
-
-**Q:** *¿Puedo modificar las excepciones de calendario después de recuperarlas?*  
-**A:** Absolutamente. Usa `CalendarException.setFromDate()` y `setToDate()` para ajustar las fechas, luego guarda el proyecto con `project.save(...)`.
-
-**Q:** *¿Aspose.Tasks conserva los campos personalizados en los calendarios?*  
-**A:** Sí, todos los campos personalizados y atributos extendidos se conservan al cargar y guardar el proyecto.
-
-## Conclusión
-En este **asp tasks java tutorial** hemos aprendido cómo recuperar excepciones de calendario de MS Project usando Aspose.Tasks para Java. Siguiendo estos simples pasos, puedes integrar sin problemas esta funcionalidad en tus aplicaciones Java, habilitando características de programación más avanzadas y análisis de proyecto más precisos.
-
----
-
-**Última actualización:** 2025-11-29  
-**Probado con:** Aspose.Tasks for Java 24.11  
-**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

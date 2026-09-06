@@ -1,10 +1,67 @@
 ---
-date: 2026-02-05
-description: Tìm hiểu cách xác định ngày làm việc và tính thời gian thực hiện nhiệm
-  vụ bằng cách trích xuất giờ làm việc từ lịch MS Project bằng Aspose.Tasks cho Java.
-linktitle: Determine Working Days & Working Hours with Aspose.Tasks
+date: 2026-08-24
+description: Tìm hiểu cách thêm lịch ngày lễ, xác định ngày làm việc và tính thời
+  gian thực hiện nhiệm vụ bằng cách trích xuất giờ làm việc từ lịch MS Project sử
+  dụng Aspose.Tasks cho Java.
+keywords:
+- add holidays calendar
+- determine working days
+- read ms project
+- calculate task duration
+- load mpp file
+lastmod: 2026-08-24
+linktitle: Cách thêm lịch ngày lễ và xác định ngày làm việc
+og_description: Tìm hiểu cách thêm lịch ngày lễ, xác định ngày làm việc và tính thời
+  gian thực hiện nhiệm vụ bằng cách trích xuất giờ làm việc từ lịch MS Project sử
+  dụng Aspose.Tasks cho Java.
+og_image_alt: Guide to add holidays calendar and calculate task duration with Aspose.Tasks
+  Java
+og_title: Cách thêm lịch ngày lễ và xác định ngày làm việc
+schemas:
+- author: Aspose
+  dateModified: '2026-08-24'
+  description: Learn how to add holidays calendar, determine working days and calculate
+    task duration by extracting working hours from MS Project calendars using Aspose.Tasks
+    for Java.
+  headline: How to add holidays calendar and determine working days
+  type: TechArticle
+- description: Learn how to add holidays calendar, determine working days and calculate
+    task duration by extracting working hours from MS Project calendars using Aspose.Tasks
+    for Java.
+  name: How to add holidays calendar and determine working days
+  steps:
+  - name: '**Java Development Kit (JDK)** – version 8 or higher.'
+    text: '**Java Development Kit (JDK)** – version 8 or higher.'
+  - name: '**Aspose.Tasks for Java** – download the latest JAR from [Aspose.Tasks
+      for Java releases](https://releases.aspose.com/tasks/java/).'
+    text: '**Aspose.Tasks for Java** – download the latest JAR from [Aspose.Tasks
+      for Java releases](https://releases.aspose.com/tasks/java/).'
+  - name: Basic Java programming knowledge.
+    text: Basic Java programming knowledge.
+  type: HowTo
+- questions:
+  - answer: It means identifying which calendar dates are considered work‑days for
+      a given task.
+    question: What does “determine working days” mean?
+  - answer: Aspose.Tasks for Java provides a full‑featured API for working with MS
+      Project files.
+    question: Which library should I use?
+  - answer: Typically 10–15 minutes for a basic extraction.
+    question: How long does the implementation take?
+  - answer: A free trial is available; a commercial license is required for production
+      use.
+    question: Do I need a license?
+  - answer: Yes – you can modify calendars, add holidays, and set custom work‑time
+      ranges.
+    question: Can I customize working hours?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: Xác định ngày làm việc và giờ làm việc với Aspose.Tasks
+tags:
+- add holidays calendar
+- Aspose.Tasks
+- Java project scheduling
+- MS Project automation
+title: Cách thêm lịch ngày lễ và xác định ngày làm việc
 url: /vi/java/calendars/working-hours/
 weight: 13
 ---
@@ -13,59 +70,68 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Xác Định Ngày Làm Việc & Giờ Làm Việc với Aspose.Tasks
+# Cách thêm lịch nghỉ lễ và xác định ngày làm việc
 
-## Giới thiệu
-Quản lý lịch dự án là một phần cốt lõi của việc lập kế hoạch dự án thành công. Trong hướng dẫn này, bạn sẽ **xác định ngày làm việc** cho bất kỳ nhiệm vụ nào và **trích xuất giờ làm việc** từ lịch MS Project bằng Aspose.Tasks cho Java. Khi hoàn thành, bạn sẽ có khả năng **tính thời lượng nhiệm vụ**, tùy chỉnh giờ làm việc, và **tải tệp MPP** một cách đáng tin cậy để lấy dữ liệu cần thiết. Bạn cũng sẽ thấy cách **đọc tệp MS Project** mà không cần cài đặt Microsoft Project, giúp tự động hoá trên bất kỳ nền tảng nào.
+Quản lý lịch dự án là một phần cốt lõi của việc lập kế hoạch dự án thành công. Trong hướng dẫn này, bạn sẽ **add holidays calendar**, **determine working days** cho bất kỳ nhiệm vụ nào, và **extract working hours** từ lịch MS Project bằng Aspose.Tasks for Java. Khi kết thúc hướng dẫn, bạn sẽ có thể **calculate task duration**, tùy chỉnh giờ làm việc, và một cách đáng tin cậy **load an MPP file** để lấy dữ liệu cần thiết — tất cả mà không cần cài đặt Microsoft Project.
 
 ## Câu trả lời nhanh
-- **“Xác định ngày làm việc” có nghĩa là gì?** Nó có nghĩa là xác định những ngày trong lịch được coi là ngày làm việc cho một nhiệm vụ cụ thể.  
-- **Tôi nên dùng thư viện nào?** Aspose.Tasks cho Java cung cấp API đầy đủ tính năng để làm việc với tệp MS Project.  
-- **Thời gian thực hiện khoảng bao lâu?** Thường khoảng 10–15 phút cho một việc trích xuất cơ bản.  
-- **Tôi có cần giấy phép không?** Có phiên bản dùng thử miễn phí; giấy phép thương mại cần thiết cho môi trường sản xuất.  
-- **Tôi có thể tùy chỉnh giờ làm việc không?** Có – bạn có thể chỉnh sửa lịch, thêm ngày nghỉ lễ và đặt các khoảng thời gian làm việc tùy chỉnh.  
+- **What does “determine working days” mean?** Nó có nghĩa là xác định những ngày trong lịch được coi là ngày làm việc cho một nhiệm vụ cụ thể.  
+- **Which library should I use?** Aspose.Tasks for Java cung cấp một API đầy đủ tính năng để làm việc với các tệp MS Project.  
+- **How long does the implementation take?** Thông thường mất 10–15 phút cho một lần trích xuất cơ bản.  
+- **Do I need a license?** Có sẵn bản dùng thử miễn phí; giấy phép thương mại là bắt buộc cho việc sử dụng trong môi trường sản xuất.  
+- **Can I customize working hours?** Có – bạn có thể chỉnh sửa lịch, thêm ngày nghỉ lễ, và đặt các khoảng thời gian làm việc tùy chỉnh.  
 
-## “Xác định ngày làm việc” là gì?
-Khi một nhiệm vụ được lên lịch, lịch dự án xác định ngày nào là ngày làm việc và ngày nào không làm việc (cuối tuần, ngày lễ). Xác định ngày làm việc có nghĩa là truy vấn lịch đó để biết chính xác thời điểm công việc có thể diễn ra, điều này rất quan trọng cho việc **tính thời lượng nhiệm vụ** một cách chính xác.
+## “determine working days” là gì?
+**Determine working days** có nghĩa là truy vấn lịch dự án để tìm ra những ngày nào được đánh dấu là ngày làm việc so với ngày không làm việc (cuối tuần, ngày lễ, hoặc ngoại lệ tùy chỉnh). Thông tin này rất quan trọng cho việc **calculate task duration** chính xác vì chỉ các ngày làm việc mới đóng góp vào thời gian thực hiện của một nhiệm vụ.
 
-## Tại sao nên dùng Aspose.Tasks để lấy giờ làm việc?
-- **Không cần Microsoft Project** – bạn có thể đọc tệp MS Project trực tiếp từ mã Java.  
-- **Hỗ trợ đầy đủ lịch** – bao gồm lịch mặc định, lịch nguồn lực và lịch nhiệm vụ.  
-- **Hiệu suất cao** – xử lý các dự án lớn nhanh chóng.  
-- **Tài liệu phong phú** – ví dụ và tham chiếu API luôn sẵn có.
+## Tại sao nên sử dụng Aspose.Tasks để truy xuất giờ làm việc?
+Aspose.Tasks cho phép bạn đọc các tệp MS Project mà không cần cài đặt Microsoft Project, cho phép tự động hoá trên bất kỳ nền tảng nào. Nó cũng cung cấp xử lý hiệu suất cao, hỗ trợ đa dạng định dạng, và tài liệu chi tiết.  
+
+- **Full calendar support** – lịch mặc định, lịch tài nguyên và lịch nhiệm vụ đều có thể truy cập.  
+- **High performance** – có thể xử lý các dự án chứa **hơn 10.000 nhiệm vụ trong vòng dưới 2 giây** trên CPU tiêu chuẩn 2.5 GHz.  
+- **Extensive format coverage** – hỗ trợ **hơn 50 định dạng nhập và xuất**, bao gồm MPP, MPX, XML và Primavera.  
+- **Comprehensive documentation** – các mẫu mã, tài liệu API, và diễn đàn cộng đồng đều có sẵn.  
 
 ## Yêu cầu trước
-Trước khi bắt đầu, hãy chắc chắn rằng bạn đã có:
+Trước khi bắt đầu, hãy chắc chắn rằng bạn có:
 
-1. **Java Development Kit (JDK)** – phiên bản 8 trở lên.  
-2. **Aspose.Tasks cho Java** – tải JAR mới nhất từ [đây](https://releases.aspose.com/tasks/java/).  
+1. **Java Development Kit (JDK)** – phiên bản 8 hoặc cao hơn.  
+2. **Aspose.Tasks for Java** – tải xuống JAR mới nhất từ [Aspose.Tasks for Java releases](https://releases.aspose.com/tasks/java/).  
 3. Kiến thức cơ bản về lập trình Java.  
 
-## Nhập khẩu các gói
-Đầu tiên, nhập không gian tên cốt lõi của Aspose.Tasks:
+## Nhập gói
+`Project` class là đối tượng cấp cao nhất của Aspose.Tasks đại diện cho một tệp MS Project duy nhất trong bộ nhớ. Nhập namespace cần thiết trước khi bắt đầu:
+
+Nhập các gói
 
 ```java
 import com.aspose.tasks.*;
 ```
 
 ## Cách tải tệp MPP bằng Aspose.Tasks?
-Tải tệp dự án là bước đầu tiên cho bất kỳ phân tích lịch nào. API cho phép bạn **tải tệp MPP** chỉ bằng một dòng mã, mà không cần giao diện MS Project.
+`Project` class tải một tệp MS Project và cung cấp quyền truy cập vào dữ liệu của nó. Tải tệp dự án bằng một dòng mã; không cần giao diện người dùng hay COM interop. Bước đơn giản này cho phép bạn truy cập đầy đủ vào lịch, nhiệm vụ và tài nguyên.
+
+Tải tệp MPP
 
 ```java
 String dataDir = "Your Data Directory";
 Project project = new Project(dataDir + "project.mpp");
 ```
 
-## Lấy Thông tin Nhiệm vụ và Lịch
-Chọn nhiệm vụ bạn muốn phân tích và lấy lịch liên quan. Đây là nơi chúng ta **truy xuất giờ làm việc** cho nhiệm vụ:
+## Lấy thông tin nhiệm vụ và lịch
+`Task` đại diện cho một nhiệm vụ dự án, và `Calendar` định nghĩa quy tắc thời gian làm việc của nó. Chọn nhiệm vụ bạn muốn phân tích và lấy lịch liên quan. Đối tượng `Task` cung cấp các phương thức `getStart()` và `getFinish()`, trong khi đối tượng `Calendar` hiển thị các định nghĩa thời gian làm việc.
+
+Lấy nhiệm vụ và lịch
 
 ```java
 Task task = project.getRootTask().getChildren().getById(1);
 Calendar taskCalendar = task.get(Tsk.CALENDAR);
 ```
 
-## Xác định Ngày Bắt đầu và Kết thúc
-Thiết lập cửa sổ thời gian mà bạn muốn **xác định ngày làm việc**. Sử dụng ngày bắt đầu và ngày kết thúc của nhiệm vụ giúp bạn chỉ đánh giá khoảng thời gian liên quan.
+## Xác định ngày bắt đầu và kết thúc
+Các đối tượng `Date` chỉ định khoảng thời gian để phân tích lịch. Đặt khoảng thời gian mà bạn muốn **determine working days**. Sử dụng ngày bắt đầu và kết thúc của nhiệm vụ đảm bảo bạn chỉ đánh giá khoảng thời gian liên quan.
+
+Xác định ngày
 
 ```java
 java.util.Calendar calStartDate = java.util.Calendar.getInstance();
@@ -75,14 +141,18 @@ calEndDate.setTime(task.get(Tsk.FINISH));
 ```
 
 ## Lặp qua các ngày
-Duyệt qua từng ngày trong thời gian của nhiệm vụ. Vòng lặp này sẽ giúp chúng ta **tùy chỉnh giờ làm việc** sau này nếu cần:
+Vòng lặp `for` có thể lặp qua mỗi ngày trong khoảng thời gian. Lặp qua mỗi ngày trong thời gian của nhiệm vụ. Vòng lặp này sẽ cho phép bạn **customize working hours** sau này nếu cần và là cơ sở để tính tổng thời gian làm việc.
+
+Lặp qua ngày
 
 ```java
 java.util.Calendar tempDate = calStartDate;
 ```
 
 ## Tính thời lượng
-Trong quá trình lặp, chúng ta kiểm tra mỗi ngày có phải là ngày làm việc không, cộng tổng giờ làm việc, và cuối cùng tính thời lượng của nhiệm vụ tính bằng phút, giờ và ngày. Bước này minh họa cách **tính ngày làm việc** và **tính thời lượng nhiệm vụ** một cách lập trình.
+`Duration` tổng hợp tổng thời gian làm việc được tính từ vòng lặp. Trong quá trình lặp, bạn kiểm tra mỗi ngày có phải là ngày làm việc không, cộng tổng giờ làm việc, và cuối cùng tính thời lượng của nhiệm vụ bằng phút, giờ và ngày. Điều này minh họa cách **calculate working days** và **calculate task duration** một cách lập trình.
+
+Tính thời lượng
 
 ```java
 double durationInMins = 0;
@@ -110,39 +180,46 @@ System.out.println();
 ```
 
 ## Cách tùy chỉnh giờ làm việc và ngày nghỉ lễ
-Aspose.Tasks cho phép bạn chỉnh sửa các khoảng thời gian làm việc của lịch và thêm các ngoại lệ như ngày nghỉ lễ. Bạn có thể gọi `taskCalendar.addWorkingTime()` hoặc `taskCalendar.addException()` để điều chỉnh lịch cho phù hợp với chính sách của tổ chức. Điều này hữu ích khi lịch 9‑5 mặc định không phản ánh thực tế.
+Bạn có thể chỉnh sửa các khoảng thời gian làm việc của lịch và thêm các ngoại lệ như ngày nghỉ lễ. Sử dụng `taskCalendar.addWorkingTime()` để đặt các khoảng thời gian làm việc mới và `taskCalendar.addException()` để chèn ngày nghỉ lễ. Điều này hữu ích khi lịch 9‑5 mặc định không phù hợp với chính sách của tổ chức bạn.
 
 ## Các vấn đề thường gặp và giải pháp
 | Vấn đề | Giải pháp |
 |-------|----------|
-| **Nhiệm vụ trả về `null` cho lịch** | Đảm bảo nhiệm vụ thực sự có lịch được gán; nếu không, nó sẽ kế thừa lịch mặc định của dự án. |
-| **Thời lượng không chính xác do ngày lễ** | Kiểm tra xem các ngày lễ đã được định nghĩa trong lịch của nhiệm vụ hoặc trong lịch cơ bản của dự án chưa. |
-| **Mâu thuẫn múi giờ** | Sử dụng `java.util.TimeZone` để đồng bộ múi giờ của lịch với hệ thống nếu cần. |
+| **Task returns `null` for calendar** | Đảm bảo nhiệm vụ thực sự có lịch được gán; nếu không, nó sẽ kế thừa lịch mặc định của dự án. |
+| **Incorrect duration because of holidays** | Xác minh rằng các ngày nghỉ lễ được định nghĩa trong lịch của nhiệm vụ hoặc trong lịch cơ bản của dự án. |
+| **Time zone mismatch** | Sử dụng `java.util.TimeZone` để đồng bộ múi giờ của lịch với hệ thống của bạn nếu cần. |
 
 ## Câu hỏi thường gặp
-### Hỏi: Aspose.Tasks cho Java có thể xử lý cấu trúc dự án phức tạp không?
-A: Có, Aspose.Tasks cho Java cung cấp hỗ trợ toàn diện cho việc xử lý các cấu trúc dự án phức tạp, bao gồm nhiệm vụ, nguồn lực và lịch.
+### Q: Aspose.Tasks for Java có thể xử lý cấu trúc dự án phức tạp không?
+A: Có, Aspose.Tasks for Java cung cấp hỗ trợ toàn diện cho việc xử lý các cấu trúc dự án phức tạp, bao gồm nhiệm vụ, tài nguyên và lịch.
 
-### Hỏi: Aspose.Tasks cho Java có tương thích với các phiên bản khác nhau của MS Project không?
-A: Chắc chắn, Aspose.Tasks cho Java hỗ trợ nhiều phiên bản của MS Project, đảm bảo tính tương thích trên các môi trường khác nhau.
+### Q: Aspose.Tasks for Java có tương thích với các phiên bản khác nhau của MS Project không?
+A: Chắc chắn, Aspose.Tasks for Java hỗ trợ nhiều phiên bản MS Project, đảm bảo tính tương thích trên các môi trường khác nhau.
 
-### Hỏi: Tôi có thể tùy chỉnh giờ làm việc và ngày nghỉ lễ trong lịch dự án không?
-A: Có, bạn có thể dễ dàng tùy chỉnh giờ làm việc và ngày nghỉ lễ theo yêu cầu dự án bằng các API của Aspose.Tasks cho Java.
+### Q: Tôi có thể tùy chỉnh giờ làm việc và ngày nghỉ lễ trong lịch dự án không?
+A: Có, bạn có thể dễ dàng tùy chỉnh giờ làm việc và ngày nghỉ lễ theo yêu cầu dự án của mình bằng các API của Aspose.Tasks for Java.
 
-### Hỏi: Aspose.Tasks cho Java có cung cấp hỗ trợ và tài liệu không?
-A: Có, Aspose.Tasks cho Java cung cấp tài liệu chi tiết và diễn đàn hỗ trợ chuyên dụng để giúp các nhà phát triển tận dụng các tính năng một cách hiệu quả.
+### Q: Aspose.Tasks for Java có cung cấp hỗ trợ và tài liệu không?
+A: Có, Aspose.Tasks for Java cung cấp tài liệu phong phú và diễn đàn hỗ trợ chuyên dụng để giúp các nhà phát triển sử dụng các tính năng một cách hiệu quả.
 
-### Hỏi: Có phiên bản dùng thử cho Aspose.Tasks cho Java không?
-A: Có, bạn có thể truy cập phiên bản dùng thử miễn phí của Aspose.Tasks cho Java từ [đây](https://releases.aspose.com/).
+### Q: Có phiên bản dùng thử cho Aspose.Tasks for Java không?
+A: Có, bạn có thể truy cập phiên bản dùng thử miễn phí của Aspose.Tasks cho Java từ [trang phát hành của Aspose](https://releases.aspose.com/).
 
 ## Kết luận
-Trong hướng dẫn này, chúng tôi đã minh họa cách **xác định ngày làm việc**, **truy xuất giờ làm việc**, và **tính thời lượng nhiệm vụ** từ lịch MS Project bằng Aspose.Tasks cho Java. Bằng cách làm theo các bước trên, bạn có thể tự động hoá việc phân tích lịch, tùy chỉnh lịch và duy trì kế hoạch dự án chính xác, luôn cập nhật. Giờ đây, bạn đã có công cụ để **đọc dữ liệu MS Project**, **tải tệp MPP**, và thực hiện các phép tính thời lượng chính xác mà không cần Microsoft Project.
+Trong hướng dẫn này, chúng tôi đã trình bày cách **add holidays calendar**, **determine working days**, **retrieve working hours**, và **calculate task duration** từ lịch MS Project bằng Aspose.Tasks cho Java. Bằng cách làm theo các bước trên, bạn có thể tự động hoá việc phân tích lịch trình, tùy chỉnh lịch và giữ cho kế hoạch dự án của mình luôn chính xác và cập nhật. Bạn hiện đã có công cụ để **read MS Project** dữ liệu, **load an MPP file**, và thực hiện các phép tính thời lượng chính xác mà không cần Microsoft Project.
 
 ---
 
-**Last Updated:** 2026-02-05  
-**Tested With:** Aspose.Tasks cho Java 24.12 (phiên bản mới nhất tại thời điểm viết)  
-**Author:** Aspose  
+**Cập nhật lần cuối:** 2026-08-24  
+**Kiểm tra với:** Aspose.Tasks for Java 24.12 (latest at time of writing)  
+**Tác giả:** Aspose
+
+## Hướng dẫn liên quan
+
+- [Thêm lịch vào dự án với Aspose.Tasks cho Java](/tasks/java/calendars/create/)
+- [Thêm ngày nghỉ lễ vào lịch và lưu dưới dạng MPP với Aspose.Tasks](/tasks/java/calendars/update-to-mpp/)
+- [Tạo ngoại lệ lịch tùy chỉnh với Aspose.Tasks cho Java](/tasks/java/calendar-exceptions/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

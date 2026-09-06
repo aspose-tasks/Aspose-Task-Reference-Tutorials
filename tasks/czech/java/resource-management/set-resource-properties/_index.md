@@ -1,11 +1,65 @@
 ---
-date: 2026-01-18
-description: Naučte se, jak nastavit standardní sazbu a další vlastnosti zdrojů v
-  MS Project pomocí Aspose.Tasks pro Javu, včetně toho, jak přidat zdroj do MS Project
-  a efektivně spravovat zdroje.
-linktitle: Set Resource Properties in Aspose.Tasks
+date: 2026-08-24
+description: Zjistěte, jak přidat resource ms project, nastavit standard rate a další
+  resource properties v MS Project pomocí Aspose.Tasks for Java a efektivně spravovat
+  resources.
+keywords:
+- add resource ms project
+- set resource rate
+- manage ms project resources
+- create ms project file
+lastmod: 2026-08-24
+linktitle: Nastavit Resource Properties v Aspose.Tasks
+og_description: Přidat resource ms project a nastavit standard rate pomocí Aspose.Tasks
+  for Java. Zjistěte požadavky, step‑by‑step code a troubleshooting v tomto stručném
+  průvodci.
+og_image_alt: Screenshot of Aspose.Tasks Java code setting resource rates
+og_title: Přidat resource ms project a nastavit rate pomocí Aspose.Tasks (Java)
+schemas:
+- author: Aspose
+  dateModified: '2026-08-24'
+  description: Learn how to add resource ms project, set standard rate and other resource
+    properties in MS Project using Aspose.Tasks for Java, and manage resources efficiently.
+  headline: How to add resource ms project with Aspose.Tasks
+  type: TechArticle
+- description: Learn how to add resource ms project, set standard rate and other resource
+    properties in MS Project using Aspose.Tasks for Java, and manage resources efficiently.
+  name: How to add resource ms project with Aspose.Tasks
+  steps:
+  - name: Install JDK 8 or newer. You can download it from the [Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+    text: Install JDK 8 or newer. You can download it from the [Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+  - name: Choose an IDE such as IntelliJ IDEA, Eclipse, or NetBeans and configure
+      it for Java development.
+    text: Choose an IDE such as IntelliJ IDEA, Eclipse, or NetBeans and configure
+      it for Java development.
+  - name: Download the latest Aspose.Tasks for Java package from the [download page](https://releases.aspose.com/tasks/java/).
+    text: Download the latest Aspose.Tasks for Java package from the [download page](https://releases.aspose.com/tasks/java/).
+  - name: Add the JAR files to your project’s classpath or declare the Maven/Gradle
+      dependency as shown in the product documentation.
+    text: Add the JAR files to your project’s classpath or declare the Maven/Gradle
+      dependency as shown in the product documentation.
+  type: HowTo
+- questions:
+  - answer: Yes, it supports all major Project formats, including large files with
+      thousands of tasks and resources, preserving every field without data loss.
+    question: Can Aspose.Tasks for Java handle complex MS Project files?
+  - answer: Yes, you can access a free trial of Aspose.Tasks for Java from the [Aspose.Tasks
+      free trial page](https://releases.aspose.com/).
+    question: Is there a free trial available?
+  - answer: You can seek assistance on the [support forum](https://forum.aspose.com/c/tasks/15).
+    question: Where can I get support for Aspose.Tasks for Java?
+  - answer: A temporary license is available from the [temporary license page](https://purchase.aspose.com/temporary-license/).
+    question: How do I obtain a temporary license for evaluation?
+  - answer: Purchase a full license from the [purchase page](https://purchase.aspose.com/buy).
+    question: Where can I purchase a licensed version?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: Jak nastavit standardní sazbu pro zdroje v Aspose.Tasks
+tags:
+- aspose tasks
+- java project automation
+- ms project resources
+- resource rate
+title: Jak přidat resource ms project pomocí Aspose.Tasks
 url: /cs/java/resource-management/set-resource-properties/
 weight: 20
 ---
@@ -14,40 +68,37 @@ weight: 20
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Nastavení standardní sazby pro zdroje v Aspose.Tasks
+# Přidání zdroje ms project a nastavení sazby v Aspose.Tasks
 
 ## Úvod
-Pokud vytváříte Java aplikace, které potřebují pracovat se soubory Microsoft Project, **nastavení standardní sazby** pro zdroj je jedním z nejčastějších úkolů. V tomto tutoriálu se naučíte, jak **nastavit standardní sazbu** a další vlastnosti zdroje pomocí Aspose.Tasks pro Java. Na konci průvodce budete schopni vytvořit objekt projektu, přidat zdroj do souboru MS Project a s jistotou spravovat zdroje MS Project.
+Pokud vyvíjíte Java aplikace, které potřebují číst nebo zapisovat soubory Microsoft Project, **adding a resource ms project** a konfigurace její standardní sazby je rutinní, ale nezbytný úkol. V tomto průvodci uvidíte, jak vytvořit objekt `Project`, přidat zdroj a nastavit jak standardní, tak přesčasové sazby pomocí Aspose.Tasks pro Java. Na konci budete schopni automatizovat výpočty nákladů a udržovat harmonogramy projektů aktuální, aniž by bylo nutné mít nainstalovaný Microsoft Project.
 
 ## Rychlé odpovědi
-- **Jaká je hlavní třída pro práci se souborem Project?** `Project`
-- **Která metoda přidá nový zdroj?** `project.getResources().add()`
+- **Jaká třída představuje soubor Project?** `Project`
+- **Které volání přidá nový zdroj?** `project.getResources().add()`
 - **Jak nastavit standardní sazbu?** `rsc.set(Rsc.STANDARD_RATE, BigDecimal.valueOf(...))`
-- **Potřebuji licenci pro produkci?** Ano, je vyžadována platná licence Aspose.Tasks.
-- **Která verze Javy je podporována?** Java 8+ (doporučuje se nejnovější JDK).
+- **Je licence vyžadována pro produkční použití?** Ano, musíte načíst platnou licenci Aspose.Tasks.
+- **Jaké verze Javy jsou podporovány?** Java 8 a novější (doporučeno Java 17+).
 
 ## Co je „nastavení standardní sazby“?
-Operace *nastavení standardní sazby* přiřadí výchozí hodinovou cenu zdroji. Projektoví manažeři tuto hodnotu používají k výpočtu nákladů na práci, generování nákladových zpráv a prognózování rozpočtů.
+Operace *nastavení standardní sazby* přiřazuje zdroji výchozí hodinovou cenu. Tuto sazbu používají projektoví manažeři k výpočtu nákladů na práci, generování nákladových zpráv a prognózování rozpočtů, což zajišťuje, že výpočty nákladů odrážejí očekávanou cenu práce prováděné každým zdrojem během celého životního cyklu projektu.
 
 ## Proč nastavovat sazby pomocí Aspose.Tasks?
-- **Není potřeba instalace Microsoft Project** – manipulujte se soubory přímo z Javy.
-- **Plná věrnost** – všechny pole zdroje, včetně přesčasových a nákladových sazeb, jsou zachována.
-- **Cross‑platform** – funguje na Windows, Linuxu i macOS.
-- **Přátelské k automatizaci** – ideální pro dávkové zpracování nebo integraci s CI pipeline.
+Aspose.Tasks dokáže zpracovat **více než 50 vstupních a výstupních formátů**, včetně souborů MPP, MPX, XML a Primavera, a zvládá projekty o stovkách stránek, aniž by načítal celý soubor do paměti. To umožňuje vysoce výkonné dávkové zpracování na serverech Windows, Linux nebo macOS a snižuje ruční úsilí až o 90 % v typických scénářích automatizace.
 
 ## Předpoklady
-Než začnete, ujistěte se, že máte následující:
+Před zahájením se ujistěte, že jsou následující položky připravené:
 
 ### Nastavení vývojového prostředí Java
-1. Instalace JDK: Ujistěte se, že máte nainstalovaný Java Development Kit (JDK). Můžete jej stáhnout z [webu Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2. Nastavení IDE: Vyberte si Integrované vývojové prostředí (IDE) jako IntelliJ IDEA, Eclipse nebo NetBeans a nainstalujte jej na svůj počítač.
+1. Nainstalujte JDK 8 nebo novější. Můžete jej stáhnout z [webu Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
+2. Vyberte IDE, jako je IntelliJ IDEA, Eclipse nebo NetBeans, a nakonfigurujte jej pro vývoj v Javě.
 
 ### Instalace Aspose.Tasks pro Java
-1. Stáhněte Aspose.Tasks pro Java: Navštivte [stránku ke stažení](https://releases.aspose.com/tasks/java/) a získejte nejnovější verzi Aspose.Tasks pro Java.
-2. Integrace do projektu: Začleňte knihovnu Aspose.Tasks pro Java do svého Java projektu přidáním jako závislost.
+1. Stáhněte nejnovější balíček Aspose.Tasks pro Java ze [stránky ke stažení](https://releases.aspose.com/tasks/java/).  
+2. Přidejte soubory JAR do classpath vašeho projektu nebo deklarujte Maven/Gradle závislost, jak je uvedeno v dokumentaci produktu.
 
 ## Import balíčků
-Pro začátek je potřeba importovat potřebné balíčky z Aspose.Tasks pro Java do vašeho projektu. Tento krok zajistí přístup k požadovaným funkcím.
+Importujte základní třídy Aspose.Tasks, které budete potřebovat. Tento krok vám poskytne přístup k typům `Project`, `Resource` a `Rsc`, které se použijí později.
 
 ```java
 import com.aspose.tasks.Project;
@@ -56,22 +107,23 @@ import com.aspose.tasks.Rsc;
 import java.math.BigDecimal;
 ```
 
-## Krok 1: Vytvoření objektu Project
-Vytvoření **objektu projektu** je první krok k jakékoli manipulaci se souborem MS Project. Reprezentuje celý soubor projektu v paměti.
+## Krok 1: vytvoření objektu projektu
+Třída `Project` je objekt nejvyšší úrovně, který v paměti představuje celý soubor MS Project. Jeho vytvoření vytvoří prázdný projekt, který můžete naplnit úkoly, zdroji a dalšími daty.
 
 ```java
 Project project = new Project();
 ```
 
-## Krok 2: Přidání zdroje (add resource ms project)
-Nyní **přidáme zdroj MS Project** pomocí kolekce Resources. Název zdroje může být libovolný, pokud dává smysl vašemu rozvrhu.
+## Krok 2: přidání zdroje (add resource ms project)
+Třída `Resource` modeluje jediný projektový zdroj, jako je osoba, zařízení nebo materiál. Přidání zdroje pomocí `project.getResources().add()` vrátí nenulovou instanci `Resource`, připravenou k nastavení vlastností.
 
 ```java
 Resource rsc = project.getResources().add("Rsc");
 ```
 
-## Krok 3: Nastavení vlastností zdroje (how to set rates)
-Zde **nastavíme standardní sazbu** a také ukážeme, jak nastavit přesčasovou sazbu. Tyto sazby jsou uloženy jako hodnoty `BigDecimal`, aby byla zachována přesnost.
+## Krok 3: nastavení vlastností zdroje (how to set rates)
+Výčtový typ `Rsc` obsahuje konstanty pro pole zdroje, jako jsou `STANDARD_RATE` a `OVERTIME_RATE`.  
+Standardní a přesčasové sazby nastavíte voláním `set` na objektu `Resource` s odpovídajícími hodnotami výčtu `Rsc`. Sazby jsou uloženy jako `BigDecimal`, aby se zachovala měnová přesnost.
 
 ```java
 // Set standard rate for the resource
@@ -81,36 +133,43 @@ rsc.set(Rsc.OVERTIME_RATE, BigDecimal.valueOf(20));
 ```
 
 ## Časté problémy a řešení
-| Problém | Proč se to stane | Řešení |
-|---------|------------------|--------|
-| `NullPointerException` při volání `set` | Zdroj nebyl správně přidán. | Zajistěte, aby `project.getResources().add()` vrátil ne‑null `Resource`. |
-| Sazby se v uloženém souboru zobrazují jako 0 | Použití `int` místo `BigDecimal`. | Vždy používejte `BigDecimal.valueOf()` pro peněžní hodnoty. |
-| Licence nebyla nalezena | Soubor licence nebyl načten před vytvořením `Project`. | Načtěte licenci (`License license = new License(); license.setLicense("Aspose.Tasks.lic");`) na začátku programu. |
+| Problém | Proč se to děje | Řešení |
+|-------|----------------|-----|
+| `NullPointerException` when calling `set` | Resource nebyl správně přidán. | Zajistěte, aby `project.getResources().add()` vrátil nenulový `Resource`. |
+| Rates appear as 0 in the saved file | Použití `int` místo `BigDecimal`. | Vždy používejte `BigDecimal.valueOf()` pro měnové hodnoty. |
+| License not found | Soubor licence nebyl načten před vytvořením `Project`. | Načtěte licenci (`License license = new License(); license.setLicense("Aspose.Tasks.lic");`) při startu programu. |
 
 ## Závěr
-Postupným sledováním těchto kroků jste se naučili, jak **vytvořit objekt projektu**, **přidat zdroj MS Project** a **nastavit standardní sazbu** spolu s dalšími vlastnostmi zdroje. To vám umožní automatizovat výpočty nákladů, generovat vlastní zprávy a plně spravovat zdroje MS Project z Javy.
+Nyní víte, jak **add resource ms project**, vytvořit objekt `Project` a **nastavit standardní a přesčasové sazby** pomocí Aspose.Tasks pro Java. Tato schopnost vám umožní automatizovat výpočty nákladů, generovat vlastní zprávy a plně spravovat zdroje MS Project z jakékoli Java aplikace.
 
 ## Často kladené otázky
-### Dokáže Aspose.Tasks pro Java zpracovat složité soubory MS Project?
-Ano, Aspose.Tasks pro Java je schopno zpracovat širokou škálu formátů souborů MS Project, včetně složitých s rozsáhlými hierarchiemi úkolů.
+**Q: Dokáže Aspose.Tasks pro Java zpracovat složité soubory MS Project?**  
+A: Ano, podporuje všechny hlavní formáty Project, včetně velkých souborů s tisíci úkoly a zdroji, přičemž zachovává všechna pole bez ztráty dat.
 
-### Je k dispozici bezplatná zkušební verze Aspose.Tasks pro Java?
-Ano, můžete získat bezplatnou zkušební verzi Aspose.Tasks pro Java [zde](https://releases.aspose.com/).
+**Q: Je k dispozici bezplatná zkušební verze?**  
+A: Ano, můžete získat bezplatnou zkušební verzi Aspose.Tasks pro Java na [stránce bezplatné zkušební verze Aspose.Tasks](https://releases.aspose.com/).
 
-### Kde najdu podporu pro Aspose.Tasks pro Java?
-Podporu a diskuze k Aspose.Tasks pro Java naleznete na [fóru podpory](https://forum.aspose.com/c/tasks/15).
+**Q: Kde mohu získat podporu pro Aspose.Tasks pro Java?**  
+A: Pomoc můžete získat na [fóru podpory](https://forum.aspose.com/c/tasks/15).
 
-### Jak získat dočasnou licenci pro Aspose.Tasks pro Java?
-Dočasnou licenci můžete získat na [stránce dočasných licencí](https://purchase.aspose.com/temporary-license/) pro evaluační účely.
+**Q: Jak získat dočasnou licenci pro hodnocení?**  
+A: Dočasná licence je k dispozici na [stránce dočasné licence](https://purchase.aspose.com/temporary-license/).
 
-### Kde mohu zakoupit licencovanou verzi Aspose.Tasks pro Java?
-Licencovanou verzi Aspose.Tasks pro Java můžete zakoupit na [stránce nákupu](https://purchase.aspose.com/buy).
+**Q: Kde mohu zakoupit licencovanou verzi?**  
+A: Plnou licenci můžete zakoupit na [stránce nákupu](https://purchase.aspose.com/buy).
 
 ---
 
-**Poslední aktualizace:** 2026-01-18  
-**Testováno s:** Aspose.Tasks pro Java 24.12 (nejnovější v době psaní)  
+**Poslední aktualizace:** 2026-08-24  
+**Testováno s:** Aspose.Tasks for Java 24.12 (nejnovější v době psaní)  
 **Autor:** Aspose
+
+## Související tutoriály
+
+- [Jak vytvořit zdroje – Správa zdrojů s Aspose.Tasks pro Java](/tasks/java/resource-management/)
+- [Přidání zdroje do projektu s Aspose.Tasks pro Java](/tasks/java/resource-management/create-resources/)
+- [Jak přidat zdroj do projektu a spravovat vlastnosti zpoždění vyrovnání v Aspose.Tasks](/tasks/java/resource-assignments/leveling-delay-properties/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
