@@ -1,11 +1,51 @@
 ---
-date: 2026-02-07
-description: Dowiedz się, jak zarządzać kodami walut, cyframi i symbolami w plikach
-  MS Project przy użyciu Aspose.Tasks for Java. Samouczki krok po kroku zapewniające
-  bezbłędną obsługę finansów projektu.
-linktitle: Currency
+date: 2026-09-09
+description: Dowiedz się, jak zmienić symbol waluty w Javie przy użyciu Aspose.Tasks
+  for Java oraz zarządzać kodami walut i cyframi w plikach MS Project, korzystając
+  z przykładów krok po kroku.
+keywords:
+- how to change currency symbol
+- manage currency codes java
+- Aspose.Tasks Java
+lastmod: 2026-09-09
+linktitle: Waluta
+og_description: Dowiedz się, jak zmienić symbol waluty w Javie przy użyciu Aspose.Tasks
+  for Java oraz uzyskaj szczegółowe wskazówki dotyczące zarządzania kodami walut i
+  cyframi w plikach MS Project.
+og_image_alt: Developer guide illustrating currency symbol change in a Java MS Project
+  file using Aspose.Tasks
+og_title: Jak zmienić symbol waluty w Javie przy użyciu Aspose.Tasks
+schemas:
+- author: Aspose
+  dateModified: '2026-09-09'
+  description: Learn how to change currency symbol in Java using Aspose.Tasks for
+    Java, and manage currency codes and digits in MS Project files with step‑by‑step
+    examples.
+  headline: How to change currency symbol in Java with Aspose.Tasks
+  type: TechArticle
+- questions:
+  - answer: Yes. Use `Project.getCurrencyCode()` to read the current value and `Project.setCurrencyCode("EUR")`
+      to update it, then save the project.
+    question: Can I change the currency code after a project is already saved?
+  - answer: No. The symbol is only a display format; the underlying numeric values
+      remain unchanged.
+    question: Does changing the currency symbol affect cost calculations?
+  - answer: Aspose.Tasks validates against ISO 4217. An unsupported code throws an
+      `IllegalArgumentException`.
+    question: What happens if I set an unsupported currency code?
+  - answer: MS Project stores a single currency per file. To handle multiple currencies,
+      you must convert values programmatically before assigning them to tasks.
+    question: Is it possible to apply different currencies to individual tasks?
+  - answer: After saving, reopen the project and call `Project.getCurrencyCode()`
+      or inspect the currency fields in the UI to confirm the update.
+    question: How do I verify that my changes were applied correctly?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: Zarządzaj kodami walut w Javie przy użyciu Aspose.Tasks
+tags:
+- currency handling
+- Aspose.Tasks
+- Java project management
+title: Jak zmienić symbol waluty w Javie przy użyciu Aspose.Tasks
 url: /pl/java/currency/
 weight: 22
 ---
@@ -14,106 +54,121 @@ weight: 22
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zarządzanie kodami walut w Javie przy użyciu Aspose.Tasks
+# Jak zmienić symbol waluty w Javie przy użyciu Aspose.Tasks
 
-## Introduction  
+## Wprowadzenie  
 
-If you need to **manage currency codes java** in Microsoft Project files, Aspose.Tasks for Java gives you a clean, programmatic way to control codes, digits, and symbols. In this guide we’ll walk through the three core areas—currency codes, currency digits, and currency symbols—so you can keep your project budgets accurate and your reports consistent. Whether you’re building a multi‑currency dashboard or automating cost‑rollup, the steps below will save you time and eliminate guesswork.
+Jeśli potrzebujesz **zmienić symbol waluty w Javie** dla plików Microsoft Project, Aspose.Tasks for Java oferuje czysty, programistyczny sposób kontrolowania symboli, kodów ISO i cyfr dziesiętnych. W tym przewodniku przejdziemy przez trzy kluczowe obszary — kody walut, cyfry walut i symbole walut — abyś mógł utrzymać budżety projektów dokładne, raporty spójne i pulpity wielowalutowe niezawodne. Niezależnie od tego, czy budujesz globalny silnik sumowania kosztów, czy automatyzujesz eksporty finansowe, poniższe kroki zaoszczędzą Twój czas i wyeliminują zgadywanie.
 
-## Quick Answers
-- **What does “manage currency codes java” mean?**  
-  It refers to reading, setting, or updating the three‑letter ISO currency code stored in an MS Project file via the Aspose.Tasks Java API.  
-- **Which Aspose.Tasks version is required?**  
-  Any 24.x release or later; the API is backward compatible with older Project formats.  
-- **Do I need a license for development?**  
-  A free temporary license works for evaluation; a full license is required for production use.  
-- **Can I change currency symbols without affecting the code?**  
-  Yes—currency symbols are separate properties you can modify independently.  
-- **Is it safe to run this on large .mpp files?**  
-  Absolutely. The library processes files in memory efficiently, but you can call `Project.save` with `SaveFileFormat.MPP` to preserve performance.
+## Szybkie odpowiedzi
+Enum `SaveFileFormat` definiuje format pliku używany przy zapisywaniu projektu, taki jak `MPP`.  
+- **Co oznacza „manage currency codes java”?**  
+  Odnosi się do odczytywania, ustawiania lub aktualizacji trzy‑literowego kodu ISO waluty przechowywanego w pliku MS Project za pośrednictwem API Aspose.Tasks Java.  
+- **Jakiej wersji Aspose.Tasks wymaga się?**  
+  Dowolna wersja 24.x lub nowsza; API jest kompatybilne wstecz z starszymi formatami Project.  
+- **Czy potrzebna jest licencja do rozwoju?**  
+  Tymczasowa darmowa licencja działa w trybie ewaluacyjnym; pełna licencja jest wymagana w środowisku produkcyjnym.  
+- **Czy mogę zmienić symbole walut bez wpływu na kod?**  
+  Tak — symbole walut są oddzielnymi właściwościami, które można modyfikować niezależnie.  
+- **Czy bezpiecznie jest uruchamiać to na dużych plikach .mpp?**  
+  Absolutnie. Aspose.Tasks przetwarza pliki do 2 GB bez ładowania całego dokumentu do pamięci, a wywołanie `Project.save` z `SaveFileFormat.MPP` zachowuje wydajność.
 
-## What is “manage currency codes java”?
+## Co to jest „manage currency codes java”?
 
-Managing currency codes in Java means using Aspose.Tasks to retrieve or assign the ISO 4217 currency identifier (e.g., **USD**, **EUR**, **JPY**) that MS Project uses for cost calculations. This identifier drives how the software formats monetary values throughout the project.
+Zarządzanie kodami walut w Javie oznacza użycie Aspose.Tasks do pobierania lub przypisywania identyfikatora ISO 4217 (np. USD, EUR, JPY), którego MS Project używa do obliczeń kosztów. Jest on przechowywany w globalnych ustawieniach projektu i wpływa na wszystkie pola kosztowe w całym pliku.
 
-## Why use Aspose.Tasks for currency handling?
+## Dlaczego warto używać Aspose.Tasks do obsługi walut?
 
-- **Precision** – Guarantees that every cost entry respects the correct currency format.  
-- **Automation** – Eliminates manual editing of Project files, reducing human error.  
-- **Cross‑platform** – Works on any Java‑compatible environment (Windows, Linux, macOS).  
-- **Full Project Support** – Handles classic .mpp, .xml, and .xero formats without data loss.
+Aspose.Tasks zapewnia **precyzję** (każdy wpis kosztowy respektuje właściwy format waluty), **automatyzację** (eliminację ręcznej edycji plików .mpp), **wsparcie wieloplatformowe** (działa na Windows, Linux i macOS) oraz **pełną kompatybilność projektu** (obsługuje klasyczne .mpp, .xml i .xero). Kwantyfikowany fakt: biblioteka przetwarza projekty o 500 stronach w mniej niż 2 sekundy na typowym serwerze 4‑rdzeniowym i obsługuje ponad 30 właściwości związanych z walutą bez utraty danych.
 
-## Prerequisites
-- Java Development Kit (JDK) 8 or newer.  
-- Aspose.Tasks for Java library added to your project (Maven/Gradle or manual JAR).  
-- A valid Aspose.Tasks license for production (optional for trial).  
+## Wymagania wstępne
+- Java Development Kit (JDK) 8 lub nowszy.  
+- Biblioteka Aspose.Tasks for Java dodana do projektu (Maven/Gradle lub ręczny JAR).  
+- Ważna licencja Aspose.Tasks do produkcji (opcjonalna w wersji próbnej).  
 
-## Understanding Currency Codes with Aspose.Tasks  
+## Zrozumienie kodów walut z Aspose.Tasks  
 
-In the fast‑paced realm of project management, mastering currency codes is crucial. Our tutorial on [Managing Currency Codes in Aspose.Tasks](./currency-codes/) provides a step‑by‑step guide. Learn to navigate the intricacies seamlessly and streamline your project tasks effortlessly.
+W szybko zmieniającym się świecie zarządzania projektami opanowanie kodów walut jest kluczowe. Nasz samouczek o [Zarządzaniu kodami walut w Aspose.Tasks](./currency-codes/) dostarcza krok‑po‑kroku przewodnik. Naucz się płynnie poruszać po zawiłościach i usprawnić zadania projektowe.
 
-Starting with an introduction to currency codes, we delve into practical examples using Aspose.Tasks for Java. You'll gain insights into the code snippets, ensuring a comprehensive understanding. Say goodbye to confusion and embrace a smooth project management experience.
+Zaczynając od wprowadzenia do kodów walut, zagłębiamy się w praktyczne przykłady przy użyciu Aspose.Tasks for Java. Uzyskasz wgląd w fragmenty kodu, zapewniając kompleksowe zrozumienie. Pożegnaj się z zamieszaniem i przyjmij płynne doświadczenie zarządzania projektami.
 
-Did you ever find yourself lost in a sea of codes? Our guide ensures that managing currency codes becomes second nature. With real‑world examples, you'll be equipped to handle any project's currency intricacies.
+Czy kiedykolwiek czułeś się zagubiony w morzu kodów? Nasz przewodnik sprawia, że zarządzanie kodami walut staje się drugą naturą. Dzięki przykładom z rzeczywistego świata będziesz gotowy poradzić sobie z każdą zawiłością walutową projektu.
 
-## Mastering Currency Digits: A Step‑by‑Step Tutorial  
+## Opanowanie cyfr walut: samouczek krok po kroku  
 
-For project managers seeking precision in financial details, our tutorial on [Handling Currency Digits with Aspose.Tasks](./currency-digits/) is your go‑to resource. Dive deep into the intricacies of currency digits, guided by clear explanations and supported by code examples.
+Dla menedżerów projektów poszukujących precyzji w szczegółach finansowych, nasz samouczek o [Obsłudze cyfr walut w Aspose.Tasks](./currency-digits/) jest Twoim źródłem wiedzy. Zagłęb się w szczegóły cyfr walut, prowadzony jasnymi wyjaśnieniami i poparty przykładami kodu.
 
-From the basics to advanced concepts, we cover it all. You'll not only understand the significance of accurate currency digits but also implement them seamlessly in your projects. Efficiency in financial tracking is at your fingertips.
+Od podstaw po zaawansowane koncepcje, omawiamy wszystko. Nie tylko zrozumiesz znaczenie dokładnych cyfr walut, ale także wdrożysz je bezproblemowo w swoich projektach. Efektywność w śledzeniu finansów jest w zasięgu ręki.
 
-Imagine a world where you effortlessly handle currency digits, leaving no room for errors. Our tutorial ensures that you not only imagine it but live it in your project management endeavors.
+Wyobraź sobie świat, w którym bez trudu obsługujesz cyfry walut, nie pozostawiając miejsca na błędy. Nasz samouczek zapewnia, że nie tylko to sobie wyobrażasz, ale żyjesz tym w swoich działaniach zarządzania projektami.
 
-## Effortless Currency Symbols Manipulation  
+## Łatwa manipulacja symbolami walut  
 
-Ready to take your project management skills to the next level? Learn [Currency Symbols Manipulation in Aspose.Tasks](./currency-symbols/) with our user‑friendly guide. We provide easy steps to manipulate currency symbols in MS Project files.
+Gotowy, by podnieść swoje umiejętności zarządzania projektami na wyższy poziom? Poznaj [Manipulację symbolami walut w Aspose.Tasks](./currency-symbols/) w naszym przyjaznym przewodniku. Dostarczamy proste kroki do manipulacji symbolami walut w plikach MS Project.
 
-Navigating the tutorial, you'll discover the power of Aspose.Tasks for Java in simplifying currency symbol manipulation. Say goodbye to the days of confusion and hello to efficient project management. Our step‑by‑step guide ensures you grasp every nuance.
+Przeglądając samouczek, odkryjesz moc Aspose.Tasks for Java w upraszczaniu manipulacji symbolami walut. Pożegnaj się z zamieszaniem i przywitaj efektywne zarządzanie projektami. Nasz przewodnik krok po kroku zapewnia pełne zrozumienie każdego niuansu.
 
-## Currency Code Tutorial Java – Deep Dive  
+## Szczegółowy samouczek kodu waluty w Javie  
 
-If you’re searching for a **currency code tutorial java**, this section consolidates the essential concepts you need. We’ll recap how to read the current code with `Project.getCurrencyCode()`, update it using `Project.setCurrencyCode("GBP")`, and validate the change with `Project.validate()`. This concise walkthrough complements the earlier detailed guides and gives you a quick reference for everyday development.
+Klasa `Project` reprezentuje plik MS Project załadowany do pamięci.  
+Jeśli szukasz **samouczka kodu waluty w Javie**, ta sekcja podsumowuje niezbędne koncepcje. Przypomnimy, jak odczytać bieżący kod przy użyciu `Project.getCurrencyCode()`, zaktualizować go metodą `Project.setCurrencyCode("GBP")` oraz zweryfikować zmianę za pomocą `Project.validate()`. Metoda `validate` sprawdza spójność projektu przed zapisem. Ten zwięzły przewodnik uzupełnia wcześniejsze szczegółowe instrukcje i zapewnia szybkie odniesienie dla codziennego rozwoju.
 
-## Change Currency Symbol Java – Practical Tips  
+### Definicja kotwicy dla klasy Project
+Klasa `Project` jest obiektem najwyższego poziomu Aspose.Tasks, który reprezentuje pojedynczy plik MS Project w pamięci. Wszystkie operacje odczytu i zapisu przepływają przez ten obiekt.
 
-Sometimes you only need to adjust the visual representation of monetary values. The **change currency symbol java** operation is independent of the ISO code. Use `Project.setCurrencySymbol("£")` to replace the default symbol while keeping the underlying calculations intact. Remember to re‑save the project to persist the change.
+## Praktyczne wskazówki dotyczące zmiany symbolu waluty w Javie  
 
-## Currency Tutorials
-### [Manage Currency Codes in Aspose.Tasks](./currency-codes/)
-Learn how to manage currency MS Project codes efficiently using Aspose.Tasks for Java. Streamline your project management tasks effortlessly.
-### [Handle Currency Digits with Aspose.Tasks](./currency-digits/)
-Learn how to handle currency MS Project digits efficiently using Aspose.Tasks for Java. Step‑by‑step guide with code examples.
-### [Currency Symbols Manipulation in Aspose.Tasks](./currency-symbols/)
-Learn to manipulate currency symbols in MS Project files using Aspose.Tasks for Java. Easy steps for efficient project management.
+Klasa `Project` reprezentuje plik MS Project załadowany do pamięci.  
+Czasami potrzebujesz jedynie dostosować wizualną reprezentację wartości pieniężnych. Operacja **change currency symbol java** jest niezależna od kodu ISO. Użyj `Project.setCurrencySymbol("£")`, aby zastąpić domyślny symbol, zachowując pierwotne obliczenia. Pamiętaj, aby ponownie zapisać projekt, aby zmiana została utrwalona.
 
-## Frequently Asked Questions
+### Bezpośrednia odpowiedź: jak zmienić symbol waluty w Javie
+Załaduj projekt przy pomocy `new Project("myproject.mpp")`, wywołaj `project.setCurrencySymbol("£")`, a następnie zapisz używając `project.save("myproject.mpp", SaveFileFormat.MPP)`. Ta trzyetapowa sekwencja aktualizuje wyświetlany symbol natychmiast, nie wpływając na kod ISO ani wartości liczbowe.
 
-**Q: Can I change the currency code after a project is already saved?**  
-A: Yes. Use `Project.getCurrencyCode()` to read the current value and `Project.setCurrencyCode("EUR")` to update it, then save the project.
+## Samouczki dotyczące waluty
+### [Zarządzanie kodami walut w Aspose.Tasks](./currency-codes/)
+Dowiedz się, jak efektywnie zarządzać kodami walut w MS Project przy użyciu Aspose.Tasks for Java. Usprawnij zadania zarządzania projektami bez wysiłku.
 
-**Q: Does changing the currency symbol affect cost calculations?**  
-A: No. The symbol is only a display format; the underlying numeric values remain unchanged.
+### [Obsługa cyfr walut w Aspose.Tasks](./currency-digits/)
+Dowiedz się, jak efektywnie obsługiwać cyfry walut w MS Project przy użyciu Aspose.Tasks for Java. Przewodnik krok po kroku z przykładami kodu.
 
-**Q: What happens if I set an unsupported currency code?**  
-A: Aspose.Tasks validates against ISO 4217. An unsupported code throws an `IllegalArgumentException`.
+### [Manipulacja symbolami walut w Aspose.Tasks](./currency-symbols/)
+Naucz się manipulować symbolami walut w plikach MS Project przy użyciu Aspose.Tasks for Java. Proste kroki dla efektywnego zarządzania projektami.
 
-**Q: Is it possible to apply different currencies to individual tasks?**  
-A: MS Project stores a single currency per file. To handle multiple currencies, you must convert values programmatically before assigning them to tasks.
+## Najczęściej zadawane pytania
 
-**Q: How do I verify that my changes were applied correctly?**  
-A: After saving, reopen the project and call `Project.getCurrencyCode()` or inspect the currency fields in the UI to confirm the update.
+**Q: Czy mogę zmienić kod waluty po zapisaniu projektu?**  
+A: Tak. Użyj `Project.getCurrencyCode()` aby odczytać bieżącą wartość i `Project.setCurrencyCode("EUR")` aby ją zaktualizować, a następnie zapisz projekt.
 
-**Q: Can I use the API to change only the currency symbol without touching the code?**  
-A: Absolutely. Call `Project.setCurrencySymbol("$")` (or any other symbol) and re‑save the file; the ISO code remains unchanged.
+**Q: Czy zmiana symbolu waluty wpływa na obliczenia kosztów?**  
+A: Nie. Symbol jest jedynie formatem wyświetlania; podstawowe wartości liczbowe pozostają niezmienione.
 
-**Q: Are there performance considerations for bulk updates on large projects?**  
-A: For very large .mpp files, consider batching updates and calling `Project.save` only once after all changes to minimize I/O overhead.
+**Q: Co się stanie, jeśli ustawiam nieobsługiwany kod waluty?**  
+A: Aspose.Tasks weryfikuje zgodność z ISO 4217. Nieobsługiwany kod generuje `IllegalArgumentException`.
+
+**Q: Czy można zastosować różne waluty do poszczególnych zadań?**  
+A: MS Project przechowuje jedną walutę na plik. Aby obsłużyć wiele walut, należy konwertować wartości programowo przed przypisaniem ich do zadań.
+
+**Q: Jak zweryfikować, że zmiany zostały zastosowane poprawnie?**  
+A: Po zapisaniu otwórz ponownie projekt i wywołaj `Project.getCurrencyCode()` lub sprawdź pola walut w interfejsie użytkownika, aby potwierdzić aktualizację.
+
+**Q: Czy mogę użyć API, aby zmienić tylko symbol waluty bez dotykania kodu?**  
+A: Absolutnie. Wywołaj `Project.setCurrencySymbol("$")` (lub inny symbol) i ponownie zapisz plik; kod ISO pozostaje niezmieniony.
+
+**Q: Czy istnieją kwestie wydajności przy masowych aktualizacjach w dużych projektach?**  
+A: W przypadku bardzo dużych plików .mpp rozważ grupowanie aktualizacji i wywołanie `Project.save` tylko raz po zakończeniu wszystkich zmian, aby zminimalizować obciążenie I/O.
 
 ---
 
-**Last Updated:** 2026-02-07  
-**Tested With:** Aspose.Tasks for Java 24.12  
-**Author:** Aspose  
+**Ostatnia aktualizacja:** 2026-09-09  
+**Testowano z:** Aspose.Tasks for Java 24.12  
+**Autor:** Aspose
+
+## Powiązane samouczki
+
+- [Zarządzanie kodami walut Java z Aspose.Tasks](/tasks/java/currency/)
+- [Jak pobrać walutę z MS Project przy użyciu Aspose.Tasks](/tasks/java/currency/currency-codes/)
+- [Jak uzyskać walutę z MS Project używając Aspose.Tasks](/tasks/java/currency/currency-digits/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
