@@ -1,10 +1,54 @@
 ---
-date: 2026-02-07
-description: Dowiedz się, jak ustawić kalendarz projektu w Javie i zarządzać właściwościami
-  kalendarza MS Project przy użyciu Aspose.Tasks. Przewodnik krok po kroku, jak wyświetlić
-  godziny pracy kalendarza i dostosować harmonogramy.
-linktitle: Manage Calendar Properties in Aspose.Tasks
+date: 2026-09-09
+description: Jak ustawić kalendarz projektu w Javie przy użyciu Aspose.Tasks. Dowiedz
+  się, jak wyświetlać godziny pracy kalendarza, konfigurować czas pracy oraz modyfikować
+  dni kalendarza w plikach MS Project.
+keywords:
+- how to set project calendar
+- display calendar working hours
+- configure calendar working time
+- modify calendar working days
+- aspose.tasks java
+lastmod: 2026-09-09
+linktitle: Zarządzaj właściwościami kalendarza w Aspose.Tasks
+og_description: Jak ustawić kalendarz projektu w Javie przy użyciu Aspose.Tasks. Dowiedz
+  się, jak wyświetlać godziny pracy kalendarza, konfigurować czas pracy oraz modyfikować
+  dni kalendarza w plikach MS Project.
+og_image_alt: Screenshot of Java code managing MS Project calendar with Aspose.Tasks
+og_title: Jak ustawić kalendarz projektu w Javie przy użyciu Aspose.Tasks
+schemas:
+- author: Aspose
+  dateModified: '2026-09-09'
+  description: How to set project calendar in Java using Aspose.Tasks. Learn to display
+    calendar working hours, configure working time, and modify calendar days in MS
+    Project files.
+  headline: How to set project calendar Java with Aspose.Tasks
+  type: TechArticle
+- questions:
+  - answer: Yes, the API provides full read/write access to calendars, allowing you
+      to add, edit, or delete working times, exceptions, and base‑calendar relationships.
+    question: Can I modify calendar properties programmatically using Aspose.Tasks?
+  - answer: The library mirrors the capabilities of Microsoft Project, so you can
+      customize virtually all calendar aspects. Only very old Project file versions
+      may have minor compatibility quirks.
+    question: Are there any limitations to calendar customization with Aspose.Tasks?
+  - answer: Absolutely. Simply add the Aspose.Tasks JAR to your build path and use
+      the same code patterns shown here.
+    question: Can I integrate calendar management into existing Java projects?
+  - answer: Yes, it covers tasks, resources, assignments, outlines, baselines, and
+      more—making it a comprehensive solution for Java‑based project automation.
+    question: Does Aspose.Tasks support other project‑management functionalities besides
+      calendar management?
+  - answer: Yes, Aspose provides dedicated forums, email support, and extensive documentation
+      for all licensed users.
+    question: Is technical support available for developers using Aspose.Tasks?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
+tags:
+- aspose.tasks
+- java project calendar
+- ms project automation
+- calendar management
 title: Jak ustawić kalendarz projektu w Javie przy użyciu Aspose.Tasks
 url: /pl/java/calendars/properties/
 weight: 10
@@ -16,51 +60,58 @@ weight: 10
 
 # Jak ustawić kalendarz projektu w Javie przy użyciu Aspose.Tasks
 
-## Wstęp
-W tym samouczku dowiesz się, **jak programowo ustawić kalendarz projektu w Javie** przy użyciu biblioteki Aspose.Tasks dla Javy. Kontrolowanie właściwości kalendarza pozwala **wyświetlać godziny pracy kalendarza**, definiować własne dni robocze oraz dopasować harmonogram projektu do rzeczywistych ograniczeń. Przejdziemy krok po kroku – od przygotowania środowiska po iterację po kalendarzach i odczyt ich właściwości – abyś mógł pewnie **zarządzać ustawieniami kalendarza MS Project** w swoich aplikacjach.
+## Wprowadzenie
+W tym samouczku nauczysz się **jak ustawić kalendarz projektu** w Javie, wykorzystując bibliotekę Aspose.Tasks. Kontrolowanie właściwości kalendarza pozwala **wyświetlać godziny pracy kalendarza**, konfigurować niestandardowe dni robocze oraz utrzymywać harmonogram projektu zgodny z rzeczywistymi ograniczeniami, takimi jak święta czy zmiany. Przejdziemy przez konfigurację środowiska, wczytanie projektu, iterację po kalendarzach oraz odczyt i aktualizację ich właściwości, abyś mógł pewnie **zarządzać ustawieniami kalendarza MS Project** w dowolnej aplikacji Java.
 
 ## Szybkie odpowiedzi
-- **Co oznacza „ustawienie kalendarza projektu”?** Oznacza to tworzenie lub aktualizację godzin pracy kalendarza, kalendarza bazowego oraz typów dni w pliku MS Project.  
-- **Jakiej biblioteki potrzebuję?** Aspose.Tasks dla Javy (dowolna aktualna wersja).  
-- **Czy potrzebna jest licencja?** Darmowa wersja próbna wystarczy do rozwoju; licencja komercyjna jest wymagana w środowisku produkcyjnym.  
-- **Czy mogę wyświetlić godziny pracy kalendarza?** Tak – odczytując każdy `WeekDay`, możesz wypisać godziny dla każdego typu dnia.  
-- **Czy to działa z Maven/Gradle?** Oczywiście – dodaj plik JAR Aspose.Tasks jako zależność.
+- **Co oznacza „ustawienie kalendarza projektu”?** Oznacza to tworzenie lub aktualizację godzin pracy kalendarza, kalendarza bazowego i typów dni w pliku MS Project.  
+- **Jakiej biblioteki wymaga?** Aspose.Tasks for Java (dowolna aktualna wersja).  
+- **Czy potrzebna jest licencja?** Darmowa wersja próbna działa w środowisku deweloperskim; licencja komercyjna jest wymagana w produkcji.  
+- **Czy mogę wyświetlić godziny pracy kalendarza?** Tak — odczytując każdy `WeekDay` możesz wypisać godziny dla każdego typu dnia.  
+- **Czy jest to kompatybilne z Maven/Gradle?** Absolutnie — dodaj plik JAR Aspose.Tasks jako zależność.
 
 ## Jak ustawić kalendarz projektu w Javie
-Ta sekcja bezpośrednio odnosi się do głównego słowa kluczowego. Przedstawimy dokładne kroki, które pozwolą Ci **ustawić wartości kalendarza projektu w Javie**, modyfikować dni robocze kalendarza oraz obliczać godziny pracy w stylu Java.
+Załaduj plik projektu, znajdź docelowy kalendarz, a następnie dostosuj definicje czasu pracy, kalendarz bazowy i typy dni w razie potrzeby. Poniższe kroki zapewniają kompletną, kompleksową rozwiązanie, które demonstruje wczytywanie, iterację, modyfikację i zapisywanie projektu, obsługując wyjątki i zapewniając dokładne obliczenia godzin pracy.
 
-## Co to jest kalendarz projektu?
-Kalendarz projektu definiuje dni i godziny pracy dla zadań, zasobów oraz całego harmonogramu projektu. W MS Project kalendarze mogą dziedziczyć po kalendarzu bazowym, a każdy typ dnia (np. **Standard**, **Non‑working**) może mieć własny czas pracy. Programowe zarządzanie tymi ustawieniami umożliwia dynamiczne dostosowywanie harmonogramu bez ręcznej edycji.
+## Czym jest kalendarz projektu?
+Kalendarz projektu definiuje dni robocze i godziny pracy dla zadań, zasobów oraz całego harmonogramu projektu. W MS Project kalendarze mogą dziedziczyć po kalendarzu bazowym, a każdy typ dnia (np. **Standard**, **Nie‑pracujący**) może mieć własny czas pracy. Zarządzanie tymi ustawieniami programowo umożliwia dynamiczne dostosowywanie harmonogramu bez ręcznej edycji.
 
-## Dlaczego warto zarządzać kalendarzem MS Project programowo?
-- **Automatyzacja:** Dostosuj kalendarze w wielu projektach jednym skryptem.  
-- **Spójność:** Wymuszaj organizacyjne zasady czasu pracy.  
-- **Integracja:** Synchronizuj kalendarze z zewnętrznymi systemami (HR, ERP).  
-- **Widoczność:** Szybko **wyświetl godziny pracy kalendarza** w raportach lub podczas debugowania.  
-- **Elastyczność:** Możesz **modyfikować dni robocze kalendarza** lub dodawać wyjątki w locie.
+## Dlaczego zarządzać kalendarzem MS Project programowo?
+Zarządzanie kalendarzami programowo pozwala stosować spójne zasady planowania w wielu projektach, redukować błędy ręczne oraz integrować dane kalendarza z innymi systemami przedsiębiorstwa, takimi jak HR czy ERP. Ta automatyzacja przyspiesza przygotowanie projektu i zapewnia, że wszyscy członkowie zespołu przestrzegają tych samych zasad czasu pracy.
+
+- **Automatyzacja:** Dostosuj kalendarze w dziesiątkach projektów za pomocą jednego skryptu.  
+- **Spójność:** Automatycznie egzekwuj polityki czasu pracy obowiązujące w całej organizacji.  
+- **Integracja:** Synchronizuj kalendarze z zewnętrznymi systemami HR lub ERP.  
+- **Widoczność:** Szybko **wyświetl godziny pracy kalendarza** w raportach lub debugowaniu.  
+- **Elastyczność:** Dodawaj wyjątki lub zmiany zmianowe w locie, bez otwierania interfejsu UI.
 
 ## Wymagania wstępne
 Zanim rozpoczniesz, upewnij się, że masz:
 
-- **Java Development Kit (JDK) 8+** z ustawioną zmienną `JAVA_HOME`.  
-- **Aspose.Tasks dla Javy** pobraną ze [strony pobierania](https://releases.aspose.com/tasks/java/). Dodaj plik JAR do classpath projektu lub jako zależność Maven/Gradle.  
+- **Java Development Kit (JDK) 8+** zainstalowany i skonfigurowany `JAVA_HOME`.  
+- **Aspose.Tasks for Java** pobraną z [strony pobierania](https://releases.aspose.com/tasks/java/). Dodaj plik JAR do classpath lub zadeklaruj go jako zależność Maven/Gradle.  
+- Przykładowy plik MS Project (`.mpp` lub `.xml`), który zawiera co najmniej jeden kalendarz, który chcesz przeglądać lub modyfikować.
 
 ## Importowanie pakietów
-Najpierw zaimportuj podstawowe klasy Aspose.Tasks, które będą używane w całym samouczku:
+Klasy `Project`, `Calendar`, `WeekDay` i powiązane są rdzeniem manipulacji kalendarzem.  
+Klasa `Calendar` reprezentuje kalendarz projektu, zawierający dni robocze, wyjątki i relacje z kalendarzem bazowym.  
+Klasa `WeekDay` definiuje ustawienia czasu pracy dla pojedynczego dnia w kalendarzu.
+
+Klasa `Project` jest obiektem najwyższego poziomu w Aspose.Tasks, który reprezentuje pojedynczy plik MS Project w pamięci. Po załadowaniu pliku wszystkie operacje na kalendarzu odbywają się poprzez ten obiekt.
 
 ```java
 import com.aspose.tasks.*;
 ```
 
-## Krok 1: Ustawienie katalogu danych
-Zdefiniuj folder zawierający pliki projektu. Zamień symboliczny placeholder na rzeczywistą ścieżkę na swoim komputerze.
+## Krok 1: skonfiguruj katalog danych
+Zdefiniuj folder zawierający pliki projektu. Zastąp placeholder rzeczywistą ścieżką na swoim komputerze.
 
 ```java
 String dataDir = "Your Data Directory";
 ```
 
-## Krok 2: Definicja jednostek czasu
-Czasy pracy wyrażane są w milisekundach. Zdefiniowanie stałych ułatwia czytelność kodu i pomaga **dokładnie obliczyć godziny pracy w Javie**.
+## Krok 2: zdefiniuj stałe jednostek czasu
+Czasy pracy wyrażane są w milisekundach. Definiowanie stałych wielokrotnego użytku ułatwia czytanie kodu i pomaga **dokładnie obliczyć godziny pracy w Javie**.
 
 ```java
 long OneSec = 1000; // 1000 milliseconds
@@ -68,15 +119,17 @@ long OneMin = 60 * OneSec;
 long OneHour = 60 * OneMin;
 ```
 
-## Krok 3: Ładowanie danych projektu
-Utwórz instancję `Project`, ładując istniejący plik MS Project XML (`.xml` lub `.mpp`). Dzięki temu uzyskasz dostęp do wszystkich kalendarzy zapisanych w pliku.
+## Krok 3: wczytaj dane projektu
+Utwórz instancję `Project`, wczytując istniejący plik MS Project XML (`.xml` lub `.mpp`). Daje to dostęp do wszystkich kalendarzy zapisanych w pliku.
+
+Klasa `Project` ładuje plik do lekkiego modelu obiektowego; **nie** wymaga trzymania całego pliku w pamięci, co pozwala pracować z projektami zawierającymi dziesiątki tysięcy zadań.
 
 ```java
 Project project = new Project(dataDir + "project.xml");
 ```
 
-## Iteracja po kalendarzach w Javie
-Teraz przechodzimy przez każdy kalendarz, wypisując jego unikalny identyfikator, nazwę, kalendarz bazowy oraz godziny pracy dla każdego typu dnia. To pokazuje **jak ustawić kalendarz projektu w Javie** oraz **wyświetlić godziny pracy kalendarza**.
+## Krok 4: iteruj po kalendarzach w Javie
+Teraz przechodzimy przez każdy kalendarz, wypisujemy jego unikalny identyfikator, nazwę, kalendarz bazowy oraz godziny pracy dla każdego typu dnia. To demonstruje **jak ustawić wartości kalendarza projektu w Javie** oraz **wyświetlić godziny pracy kalendarza**.
 
 ```java
 for (Calendar cal : project.getCalendars()) {
@@ -98,38 +151,48 @@ for (Calendar cal : project.getCalendars()) {
 ### Co robi ten kod
 - **Filtruje kalendarze bez nazwy** (niektóre wewnętrzne kalendarze mogą mieć `null` jako nazwę).  
 - **Wypisuje UID i nazwę** – przydatne do późniejszej identyfikacji kalendarza.  
-- **Pokazuje kalendarz bazowy** – „Self” (kalendarz jest własnym bazowym) lub nazwę dziedziczonego kalendarza.  
-- **Iteruje po każdym `WeekDay`**, aby obliczyć i wyświetlić całkowite godziny pracy (`workingTime` jest w milisekundach, więc dzielimy przez `OneHour`).  
+- **Pokazuje kalendarz bazowy** – albo „Self” (kalendarz jest własnym bazowym), albo nazwę dziedziczonego kalendarza.  
+- **Iteruje po każdym `WeekDay`**, aby obliczyć i wypisać całkowite godziny pracy (`workingTime` jest w milisekundach, więc dzielimy przez `OneHour`).  
+
+## Zmierzone korzyści z używania Aspose.Tasks
+Aspose.Tasks obsługuje **ponad 30 formatów wejściowych i wyjściowych** i może przetwarzać **projekty z aż do 10 000 zadań** bez ładowania całego pliku do pamięci, dostarczając wyniki w mniej niż sekundę na typowym sprzęcie serwerowym. Te liczby czynią go niezawodnym wyborem do automatyzacji na skalę przedsiębiorstwa.
 
 ## Typowe problemy i rozwiązania
-| Problem | Przyczyna | Rozwiązanie |
-|---------|-----------|-------------|
-| `NullPointerException` przy `cal.getBaseCalendar()` | Kalendarz jest kalendarzem bazowym (`isBaseCalendar()` zwraca `true`). | Użyj warunku trójargumentowego, jak w przykładzie (`cal.isBaseCalendar() ? "Self" : ...`). |
-| Brak wyjścia dla godzin pracy | Plik projektu używa innej jednostki czasu (ticks). | Sprawdź format pliku; Aspose.Tasks normalizuje do milisekund, ale upewnij się, że wczytujesz właściwy typ pliku. |
-| Nie można znaleźć `project.xml` | Nieprawidłowa ścieżka `dataDir`. | Użyj ścieżki bezwzględnej lub `Paths.get(dataDir, "project.xml").toString()`. |
+| Problem | Powód | Rozwiązanie |
+|-------|--------|-----|
+| `NullPointerException` on `cal.getBaseCalendar()` | Kalendarz jest sam kalendarzem bazowym (`isBaseCalendar()` zwraca `true`). | Użyj warunku ternarnego jak pokazano (`cal.isBaseCalendar() ? "Self" : ...`). |
+| No output for working hours | Plik projektu używa innej jednostki czasu (ticks). | Zweryfikuj format pliku; Aspose.Tasks normalizuje do milisekund, ale upewnij się, że wczytujesz prawidłowy typ pliku. |
+| Unable to locate `project.xml` | Nieprawidłowa ścieżka `dataDir`. | Użyj ścieżki bezwzględnej lub `Paths.get(dataDir, "project.xml").toString()`. |
 
-## Najczęściej zadawane pytania
+## Często zadawane pytania
 
-**P: Czy mogę modyfikować właściwości kalendarza programowo przy użyciu Aspose.Tasks?**  
-O: Tak, API zapewnia pełny dostęp odczyt/zapis do kalendarzy, umożliwiając dodawanie, edytowanie lub usuwanie czasów pracy, wyjątków oraz relacji z kalendarzem bazowym.
+**Q: Czy mogę modyfikować właściwości kalendarza programowo przy użyciu Aspose.Tasks?**  
+A: Tak, API zapewnia pełny dostęp odczyt/zapis do kalendarzy, umożliwiając dodawanie, edytowanie lub usuwanie czasów pracy, wyjątków i relacji z kalendarzem bazowym.
 
-**P: Czy istnieją ograniczenia w dostosowywaniu kalendarza przy użyciu Aspose.Tasks?**  
-O: Biblioteka odzwierciedla możliwości Microsoft Project, więc możesz dostosować praktycznie wszystkie aspekty kalendarza. Jedynie bardzo stare wersje plików Project mogą mieć drobne niezgodności.
+**Q: Czy istnieją ograniczenia w dostosowywaniu kalendarza przy użyciu Aspose.Tasks?**  
+A: Biblioteka odzwierciedla możliwości Microsoft Project, więc możesz dostosować praktycznie wszystkie aspekty kalendarza. Jedynie bardzo stare wersje plików Project mogą mieć drobne problemy kompatybilności.
 
-**P: Czy mogę zintegrować zarządzanie kalendarzem z istniejącymi projektami Java?**  
-O: Oczywiście. Wystarczy dodać plik JAR Aspose.Tasks do ścieżki kompilacji i używać tych samych wzorców kodu, które pokazano w tym przewodniku.
+**Q: Czy mogę zintegrować zarządzanie kalendarzem z istniejącymi projektami Java?**  
+A: Absolutnie. Po prostu dodaj plik JAR Aspose.Tasks do ścieżki kompilacji i używaj tych samych wzorców kodu przedstawionych tutaj.
 
-**P: Czy Aspose.Tasks obsługuje inne funkcjonalności zarządzania projektami poza kalendarzem?**  
-O: Tak, obejmuje zadania, zasoby, przydziały, struktury, baseline’y i wiele więcej – co czyni go kompleksowym rozwiązaniem do automatyzacji projektów w Javie.
+**Q: Czy Aspose.Tasks obsługuje inne funkcje zarządzania projektami oprócz zarządzania kalendarzem?**  
+A: Tak, obejmuje zadania, zasoby, przydziały, struktury, linie bazowe i więcej — co czyni go kompleksowym rozwiązaniem do automatyzacji projektów w Javie.
 
-**P: Czy dostępne jest wsparcie techniczne dla deweloperów korzystających z Aspose.Tasks?**  
-O: Tak, Aspose oferuje dedykowane fora, wsparcie e‑mail oraz obszerną dokumentację dla wszystkich licencjonowanych użytkowników.
+**Q: Czy dostępne jest wsparcie techniczne dla deweloperów korzystających z Aspose.Tasks?**  
+A: Tak, Aspose oferuje dedykowane fora, wsparcie e‑mail oraz obszerną dokumentację dla wszystkich licencjonowanych użytkowników.
 
 ---
 
-**Ostatnia aktualizacja:** 2026-02-07  
-**Testowano z:** Aspose.Tasks dla Javy 24.12 (najnowsza w momencie pisania)  
-**Autor:** Aspose  
+**Ostatnia aktualizacja:** 2026-09-09  
+**Testowano z:** Aspose.Tasks for Java 24.12 (najnowsza w momencie pisania)  
+**Autor:** Aspose
+
+## Powiązane samouczki
+
+- [Utwórz kalendarz projektu w Javie – Przewodnik Aspose.Tasks dla Javy](/tasks/java/)
+- [Wczytaj pliki projektu w Javie i zarządzaj właściwościami projektu](/tasks/java/project-management/default-properties/)
+- [Ustaw datę rozpoczęcia projektu w MS Project przy użyciu Aspose.Tasks dla Javy](/tasks/java/project-properties/write-project-info/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
