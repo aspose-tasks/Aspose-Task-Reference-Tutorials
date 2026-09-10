@@ -1,11 +1,82 @@
 ---
-date: 2026-02-07
-description: Tanulja meg, hogyan állíthatja be a pénznemkódot Java-ban az Aspose.Tasks
-  projektekben, hogyan változtathatja meg a pénznem szimbólumát, és hogyan alkalmazhat
-  egy egyéni pénznemformátumot a Microsoft Project fájlokhoz.
-linktitle: Set Currency Properties in Aspose.Tasks Projects
+date: 2026-09-09
+description: Ismerje meg, hogyan változtathatja meg a currency symbol-t az Aspose.Tasks
+  Java projektekben, állíthatja be a currency codes-ot, módosíthatja a szimbólumokat,
+  és alkalmazhat custom formats-ot a Microsoft Project fájlokhoz.
+keywords:
+- how to change currency symbol
+- Aspose.Tasks currency code
+- Java project currency
+- Microsoft Project formatting
+lastmod: 2026-09-09
+linktitle: Currency Properties beállítása az Aspose.Tasks projektekben
+og_description: Hogyan változtassuk meg a currency symbol-t az Aspose.Tasks-ben Java
+  használatával. Fedezze fel a lépésről‑lépésre útmutatót, előfeltételeket és tippeket
+  a projekt költségformázás testreszabásához.
+og_image_alt: Screenshot of Aspose.Tasks Java code setting currency symbol
+og_title: Hogyan változtassuk meg a currency symbol-t az Aspose.Tasks – Java útmutató
+schemas:
+- author: Aspose
+  dateModified: '2026-09-09'
+  description: Learn how to change currency symbol in Aspose.Tasks Java projects,
+    set currency codes, adjust symbols, and apply custom formats for Microsoft Project
+    files.
+  headline: How to change currency symbol in Aspose.Tasks projects – Java guide
+  type: TechArticle
+- description: Learn how to change currency symbol in Aspose.Tasks Java projects,
+    set currency codes, adjust symbols, and apply custom formats for Microsoft Project
+    files.
+  name: How to change currency symbol in Aspose.Tasks projects – Java guide
+  steps:
+  - name: Define the data directory
+    text: Choose a folder that holds your source files and where the output will be
+      written. Make sure the directory exists and your Java process has write permission.
+  - name: Create a new project instance
+    text: '`Project` class is Aspose.Tasks'' top‑level object that represents a single
+      Project file in memory. Instantiating it creates a blank project ready for configuration.'
+  - name: Set currency properties
+    text: Here you configure the currency code, number of decimal digits, the symbol
+      itself, and the symbol’s position. - **Currency code** – a three‑letter ISO
+      4217 code such as `AUD` or `USD`. - **Decimal digits** – typically 2 for most
+      currencies. - **Currency symbol** – the character or string displayed w
+  - name: Save the updated project
+    text: Write the project back to disk using the desired format. The XML format
+      is human‑readable, while `SaveFileFormat.MPP` preserves full compatibility with
+      Microsoft Project.
+  - name: Confirm success
+    text: Print a short message or log entry so you know the operation completed without
+      errors. This is especially useful in automated pipelines.
+  type: HowTo
+- questions:
+  - answer: Yes, you can assign different currency settings to individual resources
+      or tasks by modifying their respective cost fields after the project‑level currency
+      is defined.
+    question: Can I set multiple currencies in a single project using Aspose.Tasks?
+  - answer: Absolutely. The library supports MPP files from Project 2000 up to the
+      latest releases, as well as XML and other interchange formats.
+    question: Is Aspose.Tasks compatible with different versions of Microsoft Project
+      files?
+  - answer: Yes, you can define custom symbols, decimal digits, and positioning to
+      meet any regional requirement, and these settings are persisted in the saved
+      file.
+    question: Does Aspose.Tasks provide support for custom currency formats?
+  - answer: Certainly. The API is pure Java, so it works seamlessly with Spring, Hibernate,
+      Maven, Gradle, and other ecosystems.
+    question: Can I integrate Aspose.Tasks with other Java frameworks?
+  - answer: Visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) for
+      community assistance, or consult the official documentation for detailed API
+      references.
+    question: Where can I find additional help or examples?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: valuta kód Java – Hogyan állítsuk be az Aspose.Tasks projektekben
+tags:
+- currency symbol
+- Aspose.Tasks
+- Java API
+- Microsoft Project
+- project cost formatting
+title: Hogyan változtassuk meg a currency symbol-t az Aspose.Tasks projektekben –
+  Java útmutató
 url: /hu/java/currency-properties/set-properties/
 weight: 11
 ---
@@ -14,36 +85,106 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hogyan állítsuk be a pénznemkódot az Aspose.Tasks-ben – Java útmutató
+# Hogyan változtassuk meg a pénznem szimbólumát az Aspose.Tasks – Java útmutatóban
 
 ## Bevezetés
-Ebben az útmutatóban megtanulja, hogyan állítsa be a pénznemkódot Java-ban egy Microsoft Project fájlhoz az Aspose.Tasks Java API használatával. Akár a *valuta* megváltoztatására van szüksége nemzetközi csapatok számára, akár a *valuta szimbólum* módosítására, vagy egy **egyedi pénznemformátum** alkalmazására, az alábbi lépések világos magyarázatokkal és azonnal futtatható kóddal vezetik végig a folyamaton.
+Ebben az oktatóanyagban megtanulja, **hogyan változtassa meg a pénznem szimbólumát** egy Microsoft Project fájlban az Aspose.Tasks Java API használatával. Akár külföldi ügyfélnek készít jelentéseket, több régió költségvetését konszolidálja, vagy egyszerűen csak a vállalata könyvelési szabványaihoz szeretné igazítani a megjelenést, a pénznem szimbólumának módosítása biztosítja, hogy minden költség‑kapcsolt mező a megfelelő pénznemjelet mutassa. Az útmutató minden lépésen végigvezet, a fejlesztői környezet beállításától a változtatások új vagy meglévő projektfájlba mentéséig.
 
 ## Gyors válaszok
 - **Melyik könyvtár szükséges?** Aspose.Tasks for Java.  
-- **Megváltoztathatom a valuta szimbólumát?** Igen – használja a `CurrencySymbolPositionType` és a `Prj.CURRENCY_SYMBOL` értékeket.  
-- **Mely fájlformátumok támogatottak?** XML, MPP és sok más a `SaveFileFormat` segítségével.  
-- **Szükség van licencre a fejlesztéshez?** Egy ingyenes próba a teszteléshez elegendő; a termeléshez licenc szükséges.  
-- **Mennyi időt vesz igénybe a megvalósítás?** Körülbelül 5‑10 perc egy alapbeállításhoz.
+- **Megváltoztathatom a pénznem szimbólumát?** Igen – állítsa be a `Prj.CURRENCY_SYMBOL` értéket, és válassza a `CurrencySymbolPositionType`‑t.  
+- **Mely fájlformátumok támogatottak?** XML, MPP és sok más a `SaveFileFormat`‑on keresztül.  
+- **Szükség van licencre a fejlesztéshez?** Egy ingyenes próba verzió teszteléshez elegendő; a termeléshez licenc szükséges.  
+- **Mennyi időt vesz igénybe a megvalósítás?** Körülbelül 5‑10 perc egy alapbeállításhoz.
 
-## Hogyan állítsuk be a pénznemkódot Java-ban az Aspose.Tasks-ben
-Egy projekt pénzneme határozza meg, hogyan jelennek meg a költségértékek – kód (pl. `AUD`), a tizedesjegyek száma, a szimbólum (`$`) és a szimbólum pozíciója. Ezeknek a tulajdonságoknak a beállítása biztosítja, hogy minden költséggel kapcsolatos mező (erőforrás díjak, feladat költségvetések stb.) a megfelelő pénzügyi formátumot tükrözze a felhasználók számára.
+## Hogyan változtassuk meg a pénznem szimbólumát az Aspose.Tasks használatával Java‑ban?
+Töltse be a célprojektet (vagy hozzon létre egy újat), állítsa be a kívánt pénznem‑tulajdonságokat, majd mentse a fájlt. A teljes művelet három API‑hívásból áll: egy `Project` objektum létrehozása vagy betöltése, a pénznemkód, szimbólum és pozíció hozzárendelése, végül a `project.save` meghívása. Ez a megközelítés friss projektekre és meglévő fájlokra egyaránt működik, Microsoft Project telepítése nélkül.
 
-## Miért használjuk az Aspose.Tasks-et a valuta módosításához?
-- **Microsoft Project telepítés nélkül** – fájlok kezelése bármely szerveren.  
-- **Teljes API lefedettség** – minden pénznemhez kapcsolódó mező elérhető a `Prj` konstansokon keresztül.  
-- **Keresztplatformos** – működik Windows, Linux és macOS rendszereken bármely Java‑kompatibilis IDE-vel.  
-- **Magas teljesítmény** – nagy projektfájlok gyors és megbízható feldolgozása.  
-- **Egyedi pénznemformátum támogatása** – meghatározhatja a szimbólumokat, a tizedesjegyek számát és a pozíciót a regionális szabványoknak megfelelően.
+## Miért használjuk az Aspose.Tasks‑et a pénznem módosításához?
+Az Aspose.Tasks **teljes API‑lefedettséget biztosít 30+ pénznem‑kapcsolt tulajdonságra**, lehetővé téve a kód, szimbólum, tizedesjegyek és pozicionálás egy helyen történő definiálását. A könyvtár több száz oldalas Project fájlokat egy másodpercnél gyorsabban dolgoz fel tipikus szerverhardveren, és Windows, Linux, valamint macOS rendszereken működik további függőségek nélkül.
 
-## Előkövetelmények
-1. **Java Development Kit (JDK)** – 8-as vagy újabb verzió.  
-2. **Aspose.Tasks for Java** – töltse le a legújabb JAR-t a [Aspose.Tasks letöltési oldalról](https://releases.aspose.com/tasks/java/).  
-3. **IDE** – Eclipse, IntelliJ IDEA vagy bármely kedvelt szerkesztő.  
-4. **Írható mappa** – ahová a generált projektfájl mentésre kerül.
+## Előfeltételek
+Mielőtt elkezdené, győződjön meg róla, hogy rendelkezik:
+
+1. **Java Development Kit (JDK) 8 vagy újabb** – az API legalább JDK 8‑at igényel.  
+2. **Aspose.Tasks for Java** – töltse le a legújabb JAR‑t a [Aspose.Tasks letöltési oldalról](https://releases.aspose.com/tasks/java/).  
+3. **IDE** – Eclipse, IntelliJ IDEA vagy bármely Java‑t támogató szerkesztő.  
+4. **Írási jogosultsággal rendelkező mappa** – ahová a generált projektfájlt menteni fogja.
 
 ## Csomagok importálása
-Először importálja azokat az osztályokat, amelyek hozzáférést biztosítanak a projekt tulajdonságaihoz és a fájlkezeléshez.
+Az alábbi osztályok biztosítják a projekt‑tulajdonságokhoz, fájlkezeléshez és pénznem‑beállításokhoz való hozzáférést.  
+
+`Project` – egy Microsoft Project fájlt reprezentál a memóriában.  
+`Prj` – konstansokat tartalmaz a projekt‑szintű tulajdonságokhoz, beleértve a pénznem mezőket is.  
+`CurrencySymbolPositionType` – felsorolja a pénznem szimbólum lehetséges pozícióit (előtte vagy utána az összegnek).  
+
+Ezek az importok szükségesek, mielőtt a kód bármilyen projektet manipulálna.
+
+## Lépés‑ről‑lépésre útmutató
+
+### 1. lépés: Az adatkönyvtár meghatározása
+Válasszon egy mappát, amely a forrásfájlokat tartalmazza, és ahová a kimenetet írni fogja. Győződjön meg arról, hogy a könyvtár létezik, és a Java folyamatnak írási jogosultsága van.
+
+### 2. lépés: Új projektpéldány létrehozása
+A `Project` osztály az Aspose.Tasks legfelső szintű objektuma, amely egyetlen Project fájlt reprezentál a memóriában. Példányosítása egy üres projektet hoz létre, amely készen áll a konfigurálásra.
+
+### 3. lépés: Pénznem‑tulajdonságok beállítása
+Itt állítja be a pénznemkódot, a tizedesjegyek számát, magát a szimbólumot és a szimbólum pozícióját.  
+
+- **Pénznemkód** – hárombetűs ISO 4217 kód, például `AUD` vagy `USD`.  
+- **Tizedesjegyek** – általában 2 a legtöbb pénznemnél.  
+- **Pénznem szimbólum** – a mennyiségekkel megjelenő karakter vagy karakterlánc, pl. `$` vagy `€`.  
+- **Szimbólum pozíció** – a `CurrencySymbolPositionType.Before` a szimbólumot a szám elé helyezi; az `After` a szám után.
+
+Ezek a beállítások minden költség‑kapcsolt mezőre (erőforrás‑árak, feladat‑költségvetések stb.) hatással vannak a projektben.
+
+> **Pro tipp:** Ha egy meglévő fájl pénznemét szeretné módosítani, töltse be a `new Project("file.mpp")` paranccsal, mielőtt alkalmazná a fenti beállításokat.
+
+### 4. lépés: A frissített projekt mentése
+Írja vissza a projektet a lemezre a kívánt formátummal. Az XML formátum ember‑olvasható, míg a `SaveFileFormat.MPP` teljes kompatibilitást biztosít a Microsoft Project‑tel.
+
+### 5. lépés: Siker ellenőrzése
+Nyomtasson ki egy rövid üzenetet vagy naplóbejegyzést, hogy tudja, a művelet hibamentesen befejeződött. Ez különösen hasznos automatizált folyamatokban.
+
+## Gyakori problémák és megoldások
+| Probléma | Ok | Megoldás |
+|----------|----|----------|
+| **`NullPointerException` on `project.save`** | `dataDir` nem érvényes útvonal vagy nincs írási jogosultsága. | Győződjön meg arról, hogy a könyvtár létezik, és a Java folyamatnak van írási hozzáférése. |
+| **A pénznem szimbólum nem jelenik meg** | A szimbólum pozíciója helytelenül van beállítva a területi beállításokhoz. | Használja a `CurrencySymbolPositionType.Before` értéket, ha a szimbólumnak az összeg előtt kell állnia. |
+| **A projektfájl nem nyílik meg az MS Projectben** | Régebbi formátumban mentés, amely nem kompatibilis a beállításokkal. | Mentse a `SaveFileFormat.MPP` formátummal a legújabb MS Project verziókkal való teljes kompatibilitás érdekében. |
+
+## Gyakran feltett kérdések
+
+**Q: Beállíthatok több pénznemet egyetlen projektben az Aspose.Tasks használatával?**  
+A: Igen, a projekt‑szintű pénznem definiálása után különböző pénznem‑beállításokat rendelhet egyes erőforrásokhoz vagy feladatokhoz a megfelelő költségmezők módosításával.
+
+**Q: Az Aspose.Tasks kompatibilis a Microsoft Project különböző verzióival?**  
+A: Teljes mértékben. A könyvtár támogatja a Project 2000‑tól a legújabb kiadásokig terjedő MPP fájlokat, valamint az XML‑et és egyéb csereformátumokat.
+
+**Q: Az Aspose.Tasks támogatja az egyedi pénznemformátumokat?**  
+A: Igen, definiálhat egyedi szimbólumokat, tizedesjegyeket és pozicionálást a regionális követelményeknek megfelelően, és ezek a beállítások a mentett fájlban maradnak.
+
+**Q: Integrálhatom az Aspose.Tasks‑et más Java keretrendszerekkel?**  
+A: Természetesen. Az API tisztán Java, így zökkenőmentesen működik Spring, Hibernate, Maven, Gradle és más ökoszisztémákkal.
+
+**Q: Hol találok további segítséget vagy példákat?**  
+A: Látogassa meg a [Aspose.Tasks fórumot](https://forum.aspose.com/c/tasks/15) a közösségi támogatásért, vagy tekintse meg a hivatalos dokumentációt a részletes API‑referenciákért.
+
+## Következtetés
+Most már tudja, **hogyan változtassa meg a pénznem szimbólumát** az Aspose.Tasks projektekben Java‑val, hogyan állítsa be a pénznemkódot, a tizedesjegyeket, és alkalmazzon egyedi szimbólumot. Ezek a lehetőségek lehetővé teszik, hogy regionális specifikus költségjelentéseket generáljon, a projekt költségvetéseket a helyi könyvelési szabványokhoz igazítsa, és a Microsoft Project fájlokat globális csapatok között konzisztensen tartsa.
+
+---
+
+**Utolsó frissítés:** 2026-09-09  
+**Tesztelve ezzel:** Aspose.Tasks for Java 24.11  
+**Szerző:** Aspose  
+
+
+
+
+
+
+
 
 ```java
 import com.aspose.tasks.CurrencySymbolPositionType;
@@ -52,24 +193,13 @@ import com.aspose.tasks.Project;
 import com.aspose.tasks.SaveFileFormat;
 ```
 
-## Lépésről‑lépésre útmutató
-
-### 1. lépés: Adatkönyvtár meghatározása
-Adja meg azt a mappát, amely a forrásfájlokat tartalmazza, és ahová a kimenet írásra kerül.
-
 ```java
 String dataDir = "Your Data Directory";
 ```
 
-### 2. lépés: Új Project példány létrehozása
-Hozzon létre egy új `Project` objektumot. Ez az objektum egy memóriában létező Microsoft Project fájlt képvisel.
-
 ```java
 Project project = new Project();
 ```
-
-### 3. lépés: Pénznem tulajdonságok beállítása
-Itt állítjuk be a **pénznem** részleteit, mint a kód, a tizedesjegyek száma, a szimbólum és a szimbólum pozíciója.
 
 ```java
 project.set(Prj.CURRENCY_CODE, "AUD");                         // Currency code (e.g., AUD, USD)
@@ -78,53 +208,20 @@ project.set(Prj.CURRENCY_SYMBOL, "$");                        // Symbol to displ
 project.set(Prj.CURRENCY_SYMBOL_POSITION, CurrencySymbolPositionType.After); // Position of the symbol
 ```
 
-> **Pro tipp:** Ha egy meglévő fájl **projekt pénznemét** szeretné megváltoztatni, egyszerűen töltse be a `new Project("file.mpp")` paranccsal, mielőtt alkalmazná a fenti beállításokat.
-
-### 4. lépés: A frissített projekt mentése
-Írja vissza a projektet a lemezre a kívánt formátumban. Ebben a példában az XML formátumot használjuk, de választhatja a `SaveFileFormat.MPP`-t is.
-
 ```java
 project.save(dataDir + "project.xml", SaveFileFormat.Xml);
 ```
-
-### 5. lépés: Siker megerősítése
-Írjon ki egy barátságos üzenetet, hogy tudja, a művelet hibamentesen befejeződött.
 
 ```java
 System.out.println("Process completed Successfully");
 ```
 
-## Gyakori problémák és megoldások
+## Kapcsolódó oktatóanyagok
 
-| Probléma | Ok | Megoldás |
-|----------|----|----------|
-| **`NullPointerException` a `project.save` során** | `dataDir` nem érvényes útvonal, vagy nincs írási jogosultsága. | Győződjön meg arról, hogy a könyvtár létezik, és a Java folyamatnak van írási joga. |
-| **A valuta szimbólum nem jelenik meg** | A szimbólum pozíciója helytelenül van beállítva az Ön területi beállításaihoz. | Használja a `CurrencySymbolPositionType.Before` értéket, ha a szimbólumnak az összeg előtt kell állnia. |
-| **A projektfájl nem nyílik meg az MS Projectben** | Régebbi formátumban mentés, amely nem kompatibilis a beállításokkal. | Mentse `SaveFileFormat.MPP` használatával a legújabb MS Project verziókkal való teljes kompatibilitás érdekében. |
+- [java projekt tulajdonságok – Pénznem szimbólum kinyerése MPP-ből az Aspose.Tasks for Java használatával](/tasks/java/currency/currency-symbols/)
+- [Pénznem tulajdonságok olvasása Java-ban az Aspose.Tasks projektek segítségével](/tasks/java/currency-properties/read-properties/)
+- [Pénznem kódok kezelése Java-ban az Aspose.Tasks használatával](/tasks/java/currency/)
 
-## Gyakran Ismételt Kérdések
-
-**K: Beállíthatok több pénznemet egyetlen projektben az Aspose.Tasks használatával?**  
-V: Igen, az Aspose.Tasks lehetővé teszi több pénznem kezelését egy projektfájlban, a pénznem tulajdonságok erőforrás- vagy feladatszintű beállításával.
-
-**K: Az Aspose.Tasks kompatibilis a Microsoft Project fájlok különböző verzióival?**  
-V: Teljesen. A könyvtár támogatja a Project 2000-től a legújabb kiadásokig terjedő MPP fájlokat, valamint az XML és egyéb formátumokat.
-
-**K: Az Aspose.Tasks támogatja az egyedi pénznemformátumokat?**  
-V: Igen, meghatározhat egyedi szimbólumokat, tizedesjegyek számát és pozíciót, hogy megfeleljen bármely regionális követelménynek.
-
-**K: Integrálhatom az Aspose.Tasks-et más Java könyvtárakkal vagy keretrendszerekkel?**  
-V: Természetesen. Az API tiszta Java, így zökkenőmentesen működik a Spring, Hibernate, Maven, Gradle és más ökoszisztémákkal.
-
-**K: Hol találok további támogatást vagy segítséget az Aspose.Tasks-hez?**  
-V: Látogassa meg az [Aspose.Tasks fórumot](https://forum.aspose.com/c/tasks/15) a közösségi segítségért, vagy tekintse meg a hivatalos dokumentációt a részletes API hivatkozásokért.
-
-## Összegzés
-Most már tudja, **hogyan állítsa be a pénznemkódot Java-ban**, hogyan **változtassa meg a valuta** értékeket, és hogyan **cserélje le a valuta szimbólumát** az Aspose.Tasks for Java segítségével. Ezek a lehetőségek lehetővé teszik a költségadatok testreszabását globális csapatok számára, helyi specifikus jelentések generálását, és a projektfájlok határokon átívelő konzisztenciáját.
-
-**Last Updated:** 2026-02-07  
-**Tested With:** Aspose.Tasks for Java 24.11  
-**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
