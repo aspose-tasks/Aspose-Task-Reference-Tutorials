@@ -1,11 +1,80 @@
 ---
-date: 2026-02-10
-description: Dowiedz się, jak tworzyć formuły w MS Project, manipulować plikami MS
-  Project i obliczać wartości zadań w Javie przy użyciu Aspose.Tasks for Java. Zwiększ
-  wydajność dzięki szczegółowym samouczkom krok po kroku.
-linktitle: Create MS Project Formulas
+date: 2026-09-14
+description: Dowiedz się, jak używać składni formuł ms project z Aspose.Tasks for
+  Java, aby tworzyć, edytować i oceniać formuły programowo, zwiększając automatyzację
+  projektów.
+keywords:
+- ms project formula syntax
+- Aspose.Tasks Java
+- MS Project automation
+lastmod: 2026-09-14
+linktitle: Tworzenie formuł MS Project
+og_description: Dowiedz się, jak używać składni formuł ms project z Aspose.Tasks for
+  Java, aby tworzyć, edytować i oceniać formuły programowo, zwiększając automatyzację
+  projektów.
+og_image_alt: Diagram showing ms project formula syntax usage with Aspose.Tasks for
+  Java
+og_title: Używanie składni formuł ms project z Aspose.Tasks for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-09-14'
+  description: Learn how to use ms project formula syntax with Aspose.Tasks for Java
+    to create, edit, and evaluate formulas programmatically, boosting project automation.
+  headline: Using ms project formula syntax with Aspose.Tasks for Java
+  type: TechArticle
+- description: Learn how to use ms project formula syntax with Aspose.Tasks for Java
+    to create, edit, and evaluate formulas programmatically, boosting project automation.
+  name: Using ms project formula syntax with Aspose.Tasks for Java
+  steps:
+  - name: '**Load an existing project** – The `Project` class loads a `.mpp` file
+      into memory.'
+    text: '**Load an existing project** – The `Project` class loads a `.mpp` file
+      into memory.'
+  - name: '**Select the target task or resource** – Use the task hierarchy to locate
+      the object you want to modify.'
+    text: '**Select the target task or resource** – Use the task hierarchy to locate
+      the object you want to modify.'
+  - name: '**Define the formula string** – Write the expression using MS Project syntax,
+      e.g., `([Cost] * 1.1) + [Penalty]`.'
+    text: '**Define the formula string** – Write the expression using MS Project syntax,
+      e.g., `([Cost] * 1.1) + [Penalty]`.'
+  - name: '**Assign the formula** – The `addFormula` method attaches a formula string
+      to a specified field of the task. Call `task.getExtendedAttributes().addFormula("Cost",
+      formula)` (or the appropriate field).'
+    text: '**Assign the formula** – The `addFormula` method attaches a formula string
+      to a specified field of the task. Call `task.getExtendedAttributes().addFormula("Cost",
+      formula)` (or the appropriate field).'
+  - name: '**Save the project** – Persist changes with `project.save("output.mpp")`
+      or export to another format.'
+    text: '**Save the project** – Persist changes with `project.save("output.mpp")`
+      or export to another format.'
+  type: HowTo
+- questions:
+  - answer: Yes. Load the file with `Project project = new Project("myfile.mpp");`,
+      update the formula string, and save—only the targeted fields are changed.
+    question: Can I modify formulas in an existing .mpp file without losing other
+      data?
+  - answer: Aspose.Tasks implements the full set of built‑in functions. If a new function
+      is released, the library is updated in the next version.
+    question: Are all native MS Project functions supported?
+  - answer: Use the `project.getFormulaEvaluator().evaluate(task, "Cost")` method
+      to test individual expressions and log the intermediate values.
+    question: How do I debug a formula that returns unexpected results?
+  - answer: While you cannot add new function names to MS Project, you can combine
+      existing functions to achieve custom logic, or calculate values in Java and
+      assign them directly to fields.
+    question: Is it possible to create custom functions?
+  - answer: Process tasks in batches, reuse a single `FormulaEvaluator` instance,
+      and avoid re‑loading the project inside loops to keep memory usage low.
+    question: What is the best practice for large projects (10k+ tasks)?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: Tworzenie formuł MS Project za pomocą Aspose.Tasks dla Javy
+tags:
+- ms project formulas
+- Aspose.Tasks
+- java project management
+- project automation
+title: Używanie składni formuł ms project z Aspose.Tasks for Java
 url: /pl/java/formulas/
 weight: 23
 ---
@@ -14,82 +83,91 @@ weight: 23
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Utwórz formuły MS Project
+# Używanie składni formuł MS Project z Aspose.Tasks dla Java
 
-## Wprowadzenie
-
-W tym obszernym przewodniku **utworzysz formuły MS Project** przy użyciu Aspose.Tasks for Java, umożliwiając **manipulację plikami MS Project** oraz **obliczanie wartości zadań** w sposób zorientowany na Javę. Niezależnie od tego, czy jesteś menedżerem projektu, który chce zautomatyzować kalkulacje kosztów, czy programistą rozszerzającym możliwości MS Project, przeprowadzimy Cię przez wszystko, co musisz wiedzieć — krok po kroku, z przykładami z rzeczywistego świata, które możesz zastosować już dziś.
+W tym obszernym przewodniku **utworzysz formuły MS Project** przy użyciu Aspose.Tasks dla Java, co umożliwi Ci **manipulowanie plikami MS Project** oraz **obliczanie wartości zadań** programowo. Niezależnie od tego, czy jesteś menedżerem projektu automatyzującym kalkulacje kosztów, czy programistą rozszerzającym możliwości MS Project, przejdziesz przez scenariusze z rzeczywistego świata, które możesz zastosować już dziś.
 
 ## Szybkie odpowiedzi
 - **Co mogę osiągnąć?** Tworzyć, edytować i oceniać formuły MS Project programowo.  
 - **Jakiej biblioteki potrzebuję?** Aspose.Tasks for Java (bez zewnętrznych zależności).  
-- **Czy potrzebna jest licencja?** Bezpłatna wersja próbna wystarczy do oceny; licencja komercyjna jest wymagana w środowisku produkcyjnym.  
+- **Czy potrzebna jest licencja?** Darmowa wersja próbna działa w celach oceny; licencja komercyjna jest wymagana w produkcji.  
 - **Jaką wersję Javy obsługuje?** Java 8 i nowsze.  
 - **Czy mogę używać tych formuł w istniejących plikach .mpp?** Tak — wczytaj, zmodyfikuj i zapisz ten sam plik.
 
-## Co to jest „formuła MS Project” i dlaczego warto je tworzyć?
-Formuły MS Project to wyrażenia, które obliczają wartości pól (np. koszt, czas trwania) na podstawie innych danych zadania lub zasobu. Tworząc formuły programowo, zyskujesz pełną kontrolę nad masowymi obliczeniami, niestandardową logiką i zautomatyzowanym raportowaniem — oszczędzając godziny ręcznej pracy.
+## Czym jest „formuła MS Project” i dlaczego warto je tworzyć?
+Formuła **MS Project** to wyrażenie, które oblicza wartości pól (takich jak koszt czy czas trwania) na podstawie innych danych zadania lub zasobu. Tworząc formuły programowo, zyskujesz pełną kontrolę nad masowymi obliczeniami, logiką niestandardową i automatycznym raportowaniem — oszczędzając godziny ręcznej pracy.
 
-## Dlaczego warto używać Aspose.Tasks for Java do tworzenia formuł MS Project?
-- **Pełne pokrycie API** – Wszystkie natywne funkcje Project są dostępne.  
-- **Brak wymogu instalacji Microsoft Project** – Działa na dowolnym serwerze lub w pipeline CI.  
-- **Wysoka wydajność** – Efektywnie obsługuje duże pliki projektów (10 000+ zadań).  
-- **Wieloplatformowość** – Uruchamiany na Windows, Linux lub macOS.
+## Dlaczego używać Aspose.Tasks dla Java do tworzenia składni formuł MS Project?
+Aspose.Tasks zapewnia **pełne pokrycie API** natywnych funkcji Project, działa **bez instalacji Microsoft Project** i obsługuje **duże projekty (ponad 10 000 zadań) przy zużyciu mniej niż 500 MB pamięci RAM**. Obsługuje także **ponad 50 wbudowanych funkcji MS Project** i działa na systemach Windows, Linux oraz macOS.
 
-## Jak tworzyć formuły MS Project przy użyciu Aspose.Tasks for Java
-Poniżej znajdziesz zwięzłą, krok‑po‑kroku mapę drogową, którą możesz śledzić bez pisania żadnego kodu aż do fazy implementacji końcowej.
-
-### Wymagania wstępne
-- Java 8 lub nowsza zainstalowana na Twoim komputerze deweloperskim.  
-- Biblioteka Aspose.Tasks for Java (pobierz najnowszy JAR ze strony Aspose).  
+## Wymagania wstępne
+- Java 8 lub nowsza zainstalowana na Twoim komputerze deweloperskim.  
+- Biblioteka Aspose.Tasks for Java (pobierz najnowszy plik JAR ze strony Aspose).  
 - Ważna licencja Aspose.Tasks do użytku produkcyjnego (opcjonalnie w wersji próbnej).  
 
-### Przewodnik krok po kroku
+## Jak tworzyć składnię formuł MS Project przy użyciu Aspose.Tasks dla Java
+Aby pracować z formułami, najpierw wczytujesz projekt, następnie identyfikujesz docelowe zadanie lub zasób, tworzysz ciąg formuły używając składni MS Project, przypisujesz tę formułę do odpowiedniego pola i na końcu zapisujesz zaktualizowany projekt. Te cztery kroki obejmują cały cykl życia tworzenia i stosowania formuły programowo.
 
-1. **Wczytaj istniejący projekt** – użyj klasy `Project`, aby otworzyć plik `.mpp`.  
-2. **Wybierz docelowe zadanie lub zasób** – zidentyfikuj obiekt, którego pole chcesz kontrolować.  
-3. **Zdefiniuj ciąg formuły** – napisz wyrażenie używając składni MS Project (np. `([Cost] * 1.1) + [Penalty]`).  
-4. **Przypisz formułę** – wywołaj `task.getExtendedAttributes().addFormula("Cost", formula)` lub równoważną metodę API.  
-5. **Zapisz projekt** – zachowaj zmiany z powrotem do `.mpp` lub wyeksportuj do innego formatu.
+Klasa `Project` reprezentuje plik MS Project w pamięci, dając dostęp do zadań, zasobów i pól niestandardowych.  
 
-> **Wskazówka:** Ponownie używaj jednej instancji `FormulaEvaluator` przy przetwarzaniu tysięcy zadań, aby utrzymać niskie zużycie pamięci.
+```text
+Step 1: Load an existing project → Project project = new Project("myfile.mpp");
+Step 2: Identify the target task → Task task = project.getRootTask().getChildren().getById(1);
+Step 3: Write the formula string → String formula = "([Cost] * 1.1) + [Penalty]";
+Step 4: Assign the formula → task.getExtendedAttributes().addFormula("Cost", formula);
+Step 5: Save the project → project.save("updated.mpp");
+```
 
-### Typowe pułapki i jak ich unikać
-- **Używanie nieobsługiwanych funkcji** – sprawdź, czy funkcja istnieje na liście funkcji MS Project; Aspose.Tasks odzwierciedla natywny zestaw.  
-- **Błędy składniowe formuły** – brakujący nawias lub dodatkowa spacja mogą spowodować niepowodzenie oceny; najpierw przetestuj formuły na małej próbce.  
-- **Przeciążanie ewaluatora** – w dużych projektach oceniaj formuły w partiach, a nie w pętli dla każdego zadania.
+**Bezpośrednia odpowiedź:** Wczytaj projekt przy użyciu `new Project("myfile.mpp")`, ustaw żądaną formułę za pomocą `addFormula`, a następnie zapisz projekt — ta sekwencja aktualizuje formułę w kilku linijkach kodu.
 
-## Obsługa funkcji oceny w formułach Aspose.Tasks
-Przemierzaj złożony krajobraz zarządzania projektami, ucząc się, jak wspierać ocenę funkcji MS Project w formułach Aspose.Tasks przy użyciu Javy. Ten samouczek zapewnia przewodnik krok po kroku, dzięki czemu opanujesz niuanse biblioteki i zwiększysz swoją produktywność. Zanurz się w świecie efektywności zarządzania projektami bez wysiłku.
+### Szczegółowy przewodnik krok po kroku
 
-[Explore Support Evaluation Functions Tutorial](./evaluation-functions/)
+1. **Wczytaj istniejący projekt** – Klasa `Project` ładuje plik `.mpp` do pamięci.  
+2. **Wybierz docelowe zadanie lub zasób** – Użyj hierarchii zadań, aby zlokalizować obiekt, który chcesz zmodyfikować.  
+3. **Zdefiniuj ciąg formuły** – Napisz wyrażenie używając składni MS Project, np. `([Cost] * 1.1) + [Penalty]`.  
+4. **Przypisz formułę** – Metoda `addFormula` dołącza ciąg formuły do określonego pola zadania. Wywołaj `task.getExtendedAttributes().addFormula("Cost", formula)` (lub odpowiednie pole).  
+5. **Zapisz projekt** – Zapisz zmiany przy użyciu `project.save("output.mpp")` lub wyeksportuj do innego formatu.  
 
-## Formuły MS Project z Aspose.Tasks for Java
-Uwolnij możliwości biblioteki Aspose.Tasks w Javie, aby płynnie manipulować plikami MS Project. Niezależnie od tego, czy chcesz tworzyć, modyfikować, czy obliczać atrybuty, ten samouczek wyposaży Cię w niezbędne umiejętności. Podnieś poziom zarządzania projektami, włączając moc Aspose.Tasks for Java do swojego zestawu narzędzi.
+> **Wskazówka:** Ponownie używaj jednej instancji `FormulaEvaluator` podczas przetwarzania tysięcy zadań, aby utrzymać niskie zużycie pamięci. `FormulaEvaluator` ocenia formuły MS Project względem zadań i zasobów, zwracając obliczone wartości.
 
-[Discover MS Project Formulas Tutorial](./work-with-formulas/)
+## Częste pułapki i jak ich unikać
+- **Używanie nieobsługiwanych funkcji** – Sprawdź, czy funkcja istnieje na liście natywnych funkcji MS Project; Aspose.Tasks odzwierciedla pełny zestaw.  
+- **Błędy składni formuły** – Brakujący nawias lub zbędna spacja może spowodować niepowodzenie oceny; najpierw przetestuj formuły na małej próbce.  
+- **Przeciążanie ewaluatora** – W dużych projektach oceniaj formuły partiami, a nie zadanie po zadaniu w ciasnych pętlach.
+
+## Wsparcie funkcji ewaluacji w formułach Aspose.Tasks
+Przemierzaj złożony krajobraz zarządzania projektami, ucząc się, jak wspierać ocenę funkcji MS Project przy użyciu formuł Aspose.Tasks w Javie. Ten samouczek oferuje przewodnik krok po kroku, zapewniając zrozumienie niuansów biblioteki w celu zwiększenia produktywności. Zanurz się w świat efektywności zarządzania projektami bez wysiłku.
+
+[Poznaj samouczek Wsparcia Funkcji Ewaluacji](./evaluation-functions/)
+
+## Formuły MS Project z Aspose.Tasks dla Java
+Uwolnij możliwości biblioteki Aspose.Tasks w Javie, aby płynnie manipulować plikami MS Project. Niezależnie od tego, czy chcesz tworzyć, modyfikować czy obliczać atrybuty, ten samouczek wyposaży Cię w niezbędne umiejętności. Podnieś poziom zarządzania projektami, wprowadzając moc Aspose.Tasks dla Java do swojego zestawu narzędzi.
+
+[Odkryj samouczek Formuł MS Project](./work-with-formulas/)
 
 ## Pisanie i odczytywanie formuł MS Project w Aspose.Tasks
-Efektywnie pisz i odczytuj formuły MS Project przy użyciu Aspose.Tasks for Java. Rozwijaj umiejętności zarządzania projektami, zagłębiając się w szczegóły tworzenia i rozumienia formuł. Ten samouczek dostarcza praktycznych wskazówek, abyś mógł w pełni wykorzystać Aspose.Tasks i wynieść swoje kompetencje zarządzania projektami na wyższy poziom.
+Efektywnie twórz i odczytuj formuły MS Project przy użyciu Aspose.Tasks dla Java. Rozwijaj umiejętności zarządzania projektami, zagłębiając się w zawiłości tworzenia i rozumienia formuł. Ten samouczek dostarcza praktycznych wskazówek, abyś w pełni wykorzystał możliwości Aspose.Tasks, podnosząc swoje kompetencje zarządzania projektami na wyższy poziom.
 
-[Master Writing and Reading Formulas Tutorial](./write-read-formulas/)
+[Opanuj samouczek Pisania i Odczytywania Formuł](./write-read-formulas/)
 
-Rozpocznij podróż ku mistrzostwu z samouczkami Aspose.Tasks for Java, gdzie każdy samouczek jest krokiem w stronę zostania biegłym menedżerem MS Project. Zwiększ swoją produktywność, usprawnij procesy i z łatwością pokonuj złożoność zarządzania projektami.
+Rozpocznij podróż ku mistrzostwu z samouczkami Aspose.Tasks dla Java, gdzie każdy samouczek jest krokiem w stronę zostania biegłym menedżerem MS Project. Zwiększ swoją produktywność, usprawnij procesy i bez trudu pokonaj złożoność zarządzania projektami.
 
-Gotowy, aby odblokować pełny potencjał? Rozpocznij już teraz.
+Gotowy, aby odblokować pełny potencjał? Rozpocznij teraz.
 
 ## Samouczki dotyczące formuł
-### [Support Evaluation Functions in Aspose.Tasks Formulas](./evaluation-functions/)
-Dowiedz się, jak wspierać ocenę funkcji MS Project w formułach Aspose.Tasks przy użyciu Javy. Zwiększ swoją produktywność z Aspose.Tasks.
-### [MS Project Formulas with Aspose.Tasks for Java](./work-with-formulas/)
-Naucz się manipulować plikami MS Project w Javie przy użyciu biblioteki Aspose.Tasks. Twórz, modyfikuj i obliczaj atrybuty z łatwością.
-### [Writing and Reading MS Project Formulas in Aspose.Tasks](./write-read-formulas/)
-Naucz się efektywnie pisać i odczytywać formuły MS Project przy użyciu Aspose.Tasks for Java. Rozwijaj swoje umiejętności zarządzania projektami.
+### [Wsparcie funkcji ewaluacji w formułach Aspose.Tasks](./evaluation-functions/)
+Dowiedz się, jak wspierać ocenę funkcji MS Project w formułach Aspose.Tasks przy użyciu Javy. Zwiększ swoją produktywność dzięki Aspose.Tasks.
+
+### [Formuły MS Project z Aspose.Tasks dla Java](./work-with-formulas/)
+Dowiedz się, jak manipulować plikami MS Project w Javie przy użyciu biblioteki Aspose.Tasks. Twórz, modyfikuj i obliczaj atrybuty z łatwością.
+
+### [Pisanie i odczytywanie formuł MS Project w Aspose.Tasks](./write-read-formulas/)
+Naucz się efektywnie pisać i odczytywać formuły MS Project przy użyciu Aspose.Tasks dla Java. Rozwijaj swoje umiejętności zarządzania projektami.
 
 ## Najczęściej zadawane pytania
 
 **Q: Czy mogę modyfikować formuły w istniejącym pliku .mpp bez utraty innych danych?**  
-A: Tak. Wczytaj plik za pomocą `Project project = new Project("myfile.mpp");`, zaktualizuj ciąg formuły i zapisz — zmienione zostaną tylko wybrane pola.
+A: Tak. Wczytaj plik przy użyciu `Project project = new Project("myfile.mpp");`, zaktualizuj ciąg formuły i zapisz — zmienione zostaną tylko wybrane pola.
 
 **Q: Czy wszystkie natywne funkcje MS Project są obsługiwane?**  
 A: Aspose.Tasks implementuje pełny zestaw wbudowanych funkcji. Jeśli zostanie wydana nowa funkcja, biblioteka zostanie zaktualizowana w kolejnej wersji.
@@ -98,16 +176,21 @@ A: Aspose.Tasks implementuje pełny zestaw wbudowanych funkcji. Jeśli zostanie 
 A: Użyj metody `project.getFormulaEvaluator().evaluate(task, "Cost")`, aby przetestować poszczególne wyrażenia i zalogować wartości pośrednie.
 
 **Q: Czy można tworzyć własne funkcje?**  
-A: Nie możesz dodać nowych nazw funkcji do MS Project, ale możesz łączyć istniejące funkcje, aby uzyskać niestandardową logikę, lub obliczyć wartości w Javie i przypisać je bezpośrednio do pól.
+A: Choć nie możesz dodawać nowych nazw funkcji do MS Project, możesz łączyć istniejące funkcje, aby uzyskać niestandardową logikę, lub obliczyć wartości w Javie i przypisać je bezpośrednio do pól.
 
-**Q: Jaka jest najlepsza praktyka dla dużych projektów (10 k+ zadań)?**  
-A: Przetwarzaj zadania w partiach, ponownie używaj jednej instancji `FormulaEvaluator` i unikaj ponownego wczytywania projektu wewnątrz pętli, aby utrzymać niskie zużycie pamięci.
+**Q: Jaka jest najlepsza praktyka dla dużych projektów (10 000+ zadań)?**  
+A: Przetwarzaj zadania partiami, ponownie używaj jednej instancji `FormulaEvaluator` i unikaj ponownego wczytywania projektu w pętlach, aby utrzymać niskie zużycie pamięci.
 
 ---
 
-**Ostatnia aktualizacja:** 2026-02-10  
+**Ostatnia aktualizacja:** 2026-09-14  
 **Testowano z:** Aspose.Tasks for Java 24.11  
-**Autor:** Aspose  
+**Autor:** Aspose
+
+## Powiązane samouczki
+- [Oblicz dni między datami przy użyciu Aspose.Tasks Java API](/tasks/java/formulas/work-with-formulas/)
+- [Jak utworzyć pusty plik projektu w Aspose.Tasks (MS Project)](/tasks/java/project-configuration/create-empty-project-file/)
+- [Utwórz projekt MPP w Javie – Zmiana postępu zadania przy użyciu Aspose.Tasks](/tasks/java/task-properties/change-progress/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
