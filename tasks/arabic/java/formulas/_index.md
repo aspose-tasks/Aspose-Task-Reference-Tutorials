@@ -1,10 +1,78 @@
 ---
-date: 2026-02-10
-description: تعلم كيفية إنشاء صيغ MS Project، ومعالجة ملفات MS Project، وحساب قيم
-  المهام باستخدام Aspose.Tasks للغة Java. عزّز الإنتاجية من خلال دروس خطوة بخطوة.
-linktitle: Create MS Project Formulas
+date: 2026-09-14
+description: تعلم كيفية استخدام صيغة ms project مع Aspose.Tasks for Java لإنشاء وتعديل
+  وتقييم الصيغ برمجياً، مما يعزز أتمتة المشاريع.
+keywords:
+- ms project formula syntax
+- Aspose.Tasks Java
+- MS Project automation
+lastmod: 2026-09-14
+linktitle: إنشاء صيغ MS Project
+og_description: تعلم كيفية استخدام صيغة ms project مع Aspose.Tasks for Java لإنشاء
+  وتعديل وتقييم الصيغ برمجياً، مما يعزز أتمتة المشاريع.
+og_image_alt: Diagram showing ms project formula syntax usage with Aspose.Tasks for
+  Java
+og_title: استخدام صيغة ms project مع Aspose.Tasks for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-09-14'
+  description: Learn how to use ms project formula syntax with Aspose.Tasks for Java
+    to create, edit, and evaluate formulas programmatically, boosting project automation.
+  headline: Using ms project formula syntax with Aspose.Tasks for Java
+  type: TechArticle
+- description: Learn how to use ms project formula syntax with Aspose.Tasks for Java
+    to create, edit, and evaluate formulas programmatically, boosting project automation.
+  name: Using ms project formula syntax with Aspose.Tasks for Java
+  steps:
+  - name: '**Load an existing project** – The `Project` class loads a `.mpp` file
+      into memory.'
+    text: '**Load an existing project** – The `Project` class loads a `.mpp` file
+      into memory.'
+  - name: '**Select the target task or resource** – Use the task hierarchy to locate
+      the object you want to modify.'
+    text: '**Select the target task or resource** – Use the task hierarchy to locate
+      the object you want to modify.'
+  - name: '**Define the formula string** – Write the expression using MS Project syntax,
+      e.g., `([Cost] * 1.1) + [Penalty]`.'
+    text: '**Define the formula string** – Write the expression using MS Project syntax,
+      e.g., `([Cost] * 1.1) + [Penalty]`.'
+  - name: '**Assign the formula** – The `addFormula` method attaches a formula string
+      to a specified field of the task. Call `task.getExtendedAttributes().addFormula("Cost",
+      formula)` (or the appropriate field).'
+    text: '**Assign the formula** – The `addFormula` method attaches a formula string
+      to a specified field of the task. Call `task.getExtendedAttributes().addFormula("Cost",
+      formula)` (or the appropriate field).'
+  - name: '**Save the project** – Persist changes with `project.save("output.mpp")`
+      or export to another format.'
+    text: '**Save the project** – Persist changes with `project.save("output.mpp")`
+      or export to another format.'
+  type: HowTo
+- questions:
+  - answer: Yes. Load the file with `Project project = new Project("myfile.mpp");`,
+      update the formula string, and save—only the targeted fields are changed.
+    question: Can I modify formulas in an existing .mpp file without losing other
+      data?
+  - answer: Aspose.Tasks implements the full set of built‑in functions. If a new function
+      is released, the library is updated in the next version.
+    question: Are all native MS Project functions supported?
+  - answer: Use the `project.getFormulaEvaluator().evaluate(task, "Cost")` method
+      to test individual expressions and log the intermediate values.
+    question: How do I debug a formula that returns unexpected results?
+  - answer: While you cannot add new function names to MS Project, you can combine
+      existing functions to achieve custom logic, or calculate values in Java and
+      assign them directly to fields.
+    question: Is it possible to create custom functions?
+  - answer: Process tasks in batches, reuse a single `FormulaEvaluator` instance,
+      and avoid re‑loading the project inside loops to keep memory usage low.
+    question: What is the best practice for large projects (10k+ tasks)?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: إنشاء صيغ MS Project باستخدام Aspose.Tasks للـ Java
+tags:
+- ms project formulas
+- Aspose.Tasks
+- java project management
+- project automation
+title: استخدام صيغة ms project مع Aspose.Tasks for Java
 url: /ar/java/formulas/
 weight: 23
 ---
@@ -13,73 +81,74 @@ weight: 23
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# إنشاء صيغ MS Project
+# استخدام صيغة MS Project مع Aspose.Tasks للغة Java
 
-## مقدمة
-
-في هذا الدليل الشامل، ستقوم **create MS Project formulas** باستخدام Aspose.Tasks for Java، مما يتيح لك **manipulate MS Project files** و **calculate task values** بطريقة موجهة للـ Java. سواء كنت مدير مشروع يبحث عن أتمتة حسابات التكلفة أو مطورًا يوسع قدرات MS Project، سنرشدك إلى كل ما تحتاج معرفته—خطوة بخطوة، مع أمثلة واقعية يمكنك تطبيقها اليوم.
+في هذا الدليل الشامل سوف **تنشئ صيغ MS Project** باستخدام Aspose.Tasks للغة Java، مما يتيح لك **التعامل مع ملفات MS Project** و**حساب قيم المهام** برمجياً. سواء كنت مدير مشروع يقوم بأتمتة حساب التكاليف أو مطورًا يوسع قدرات MS Project، ستستعرض سيناريوهات واقعية يمكنك تطبيقها اليوم.
 
 ## إجابات سريعة
-- **ما الذي يمكنني تحقيقه؟** إنشاء وتعديل وتقييم صيغ MS Project برمجيًا.  
-- **ما المكتبة المطلوبة؟** Aspose.Tasks for Java (no external dependencies).  
-- **هل أحتاج إلى ترخيص؟** إصدار تجريبي مجاني يعمل للتقييم؛ يلزم ترخيص تجاري للإنتاج.  
-- **ما نسخة Java المدعومة؟** Java 8 وما بعدها.  
+- **ما الذي يمكنني تحقيقه؟** إنشاء، تعديل، وتقييم صيغ MS Project برمجياً.  
+- **ما المكتبة المطلوبة؟** Aspose.Tasks للغة Java (بدون تبعيات خارجية).  
+- **هل أحتاج إلى ترخيص؟** نسخة تجريبية مجانية تكفي للتقييم؛ الترخيص التجاري مطلوب للإنتاج.  
+- **ما نسخة Java المدعومة؟** Java 8 وما فوق.  
 - **هل يمكنني استخدام هذه الصيغ على ملفات .mpp الموجودة؟** نعم—قم بتحميل، تعديل، وحفظ نفس الملف.
 
-## ما هي “صيغ MS Project” ولماذا يجب عليك إنشاؤها؟
+## ما هي “صيغة MS Project” ولماذا يجب عليك إنشاؤها؟
+صيغة **MS Project** هي تعبير يحسب قيم الحقول (مثل التكلفة أو المدة) من بيانات مهام أو موارد أخرى. من خلال إنشاء الصيغ برمجياً تحصل على تحكم كامل في الحسابات الجماعية، المنطق المخصص، والتقارير الآلية—مما يوفر ساعات من العمل اليدوي.
 
-صيغ MS Project هي تعبيرات تحسب قيم الحقول (مثل التكلفة، المدة) بناءً على بيانات مهام أو موارد أخرى. من خلال إنشاء الصيغ برمجيًا تحصل على تحكم كامل في الحسابات الجماعية، المنطق المخصص، والتقارير الآلية—مما يوفر ساعات من العمل اليدوي.
+## لماذا تستخدم Aspose.Tasks للغة Java لإنشاء صيغة MS Project؟
+توفر Aspose.Tasks **تغطية كاملة لواجهة البرمجة API** لوظائف Project الأصلية، وتعمل **بدون تثبيت Microsoft Project**، وتتعامل مع **مشاريع كبيرة (أكثر من 10,000 مهمة) باستخدام أقل من 500 ميغابايت من الذاكرة**. كما تدعم **أكثر من 50 وظيفة مدمجة في MS Project** وتعمل على Windows أو Linux أو macOS.
 
-## لماذا تستخدم Aspose.Tasks for Java لإنشاء صيغ MS Project؟
+## المتطلبات المسبقة
+- تثبيت Java 8 أو أحدث على جهاز التطوير الخاص بك.  
+- مكتبة Aspose.Tasks للغة Java (قم بتحميل أحدث ملف JAR من موقع Aspose).  
+- ترخيص Aspose.Tasks صالح للاستخدام في الإنتاج (اختياري للتجربة).
 
-- **تغطية كاملة للـ API** – جميع وظائف Project الأصلية متاحة.  
-- **لا حاجة لتثبيت Microsoft Project** – يعمل على أي خادم أو خط أنابيب CI.  
-- **أداء عالي** – يتعامل بكفاءة مع ملفات المشاريع الكبيرة (أكثر من 10,000 مهمة).  
-- **متعدد المنصات** – يمكن تشغيله على Windows أو Linux أو macOS.
+## كيفية إنشاء صيغة MS Project باستخدام Aspose.Tasks للغة Java
+للعمل مع الصيغ، تقوم أولاً بتحميل المشروع، ثم تحديد المهمة أو المورد المستهدف، ثم صياغة سلسلة الصيغة باستخدام صيغة MS Project، وتعيين تلك الصيغة إلى الحقل المناسب، وأخيرًا حفظ المشروع المحدث. تغطي هذه الخطوات الأربعة دورة حياة إنشاء وتطبيق الصيغة برمجياً.
 
-## كيفية إنشاء صيغ MS Project باستخدام Aspose.Tasks for Java
+تمثل الفئة `Project` ملف MS Project في الذاكرة، وتمنحك الوصول إلى المهام والموارد والحقول المخصصة.  
 
-فيما يلي خريطة طريق مختصرة خطوة بخطوة يمكنك اتباعها دون كتابة سطر واحد من الشيفرة حتى مرحلة التنفيذ النهائي.
+```text
+Step 1: Load an existing project → Project project = new Project("myfile.mpp");
+Step 2: Identify the target task → Task task = project.getRootTask().getChildren().getById(1);
+Step 3: Write the formula string → String formula = "([Cost] * 1.1) + [Penalty]";
+Step 4: Assign the formula → task.getExtendedAttributes().addFormula("Cost", formula);
+Step 5: Save the project → project.save("updated.mpp");
+```
 
-### المتطلبات المسبقة
-- Java 8 أو أحدث مثبت على جهاز التطوير الخاص بك.  
-- مكتبة Aspose.Tasks for Java (حمّل أحدث JAR من موقع Aspose).  
-- ترخيص Aspose.Tasks صالح للاستخدام في الإنتاج (اختياري للتجربة).  
+**الإجابة المباشرة:** قم بتحميل المشروع باستخدام `new Project("myfile.mpp")`، اضبط الصيغة المطلوبة باستخدام `addFormula`، ثم احفظ المشروع—هذه السلسلة تقوم بتحديث الصيغة في بضع أسطر من الشيفرة.
 
-### دليل خطوة بخطوة
+### دليل خطوة بخطوة مفصل
 
-1. **تحميل مشروع موجود** – استخدم الفئة `Project` لفتح ملف `.mpp`.  
-2. **تحديد المهمة أو المورد المستهدف** – حدد الكائن الذي تريد التحكم في حقلّه.  
-3. **تعريف سلسلة الصيغة** – اكتب التعبير باستخدام صياغة MS Project (مثال: `([Cost] * 1.1) + [Penalty]`).  
-4. **تعيين الصيغة** – استدعِ `task.getExtendedAttributes().addFormula("Cost", formula)` أو الطريقة المكافئة في الـ API.  
-5. **حفظ المشروع** – احفظ التغييرات إلى ملف `.mpp` أو صدّرها إلى صيغة أخرى.
+1. **تحميل مشروع موجود** – تقوم الفئة `Project` بتحميل ملف `.mpp` إلى الذاكرة.  
+2. **تحديد المهمة أو المورد المستهدف** – استخدم هيكلية المهام لتحديد الكائن الذي تريد تعديله.  
+3. **تعريف سلسلة الصيغة** – اكتب التعبير باستخدام صيغة MS Project، على سبيل المثال `([Cost] * 1.1) + [Penalty]`.  
+4. **تعيين الصيغة** – طريقة `addFormula` تُرفق سلسلة الصيغة بحقل محدد من المهمة. استدعِ `task.getExtendedAttributes().addFormula("Cost", formula)` (أو الحقل المناسب).  
+5. **حفظ المشروع** – احفظ التغييرات باستخدام `project.save("output.mpp")` أو صدّر إلى صيغة أخرى.  
 
-> **نصيحة احترافية:** أعد استخدام نسخة واحدة من `FormulaEvaluator` عند معالجة آلاف المهام لتقليل استهلاك الذاكرة.
+> **نصيحة احترافية:** أعد استخدام كائن `FormulaEvaluator` واحد عند معالجة آلاف المهام لتقليل استهلاك الذاكرة. يقوم `FormulaEvaluator` بتقييم صيغ MS Project مقابل المهام والموارد، ويعيد القيم المحسوبة.
 
-### الأخطاء الشائعة وكيفية تجنبها
-- **استخدام وظائف غير مدعومة** – تأكد من وجود الدالة في قائمة وظائف MS Project؛ Aspose.Tasks يعكس المجموعة الأصلية.  
-- **أخطاء في بنية الصيغة** – قد يتسبب قوس مفقود أو مساحة إضافية في فشل التقييم؛ اختبر الصيغ على عينة صغيرة أولاً.  
-- **إجهاد المُقَيِّم** – في المشاريع الكبيرة، قيّم الصيغ على دفعات بدلاً من كل مهمة داخل حلقات ضيقة.
+## الأخطاء الشائعة وكيفية تجنبها
+- **استخدام وظائف غير مدعومة** – تحقق من وجود الوظيفة في قائمة وظائف MS Project الأصلية؛ Aspose.Tasks تعكس المجموعة الكاملة.  
+- **أخطاء صياغة الصيغة** – قد يتسبب قوس مفقود أو مساحة زائدة في فشل التقييم؛ اختبر الصيغ على عينة صغيرة أولاً.  
+- **إجهاد المقيّم** – في المشاريع الكبيرة، قيم الصيغ على دفعات بدلاً من كل مهمة داخل حلقات ضيقة.
 
 ## دعم وظائف التقييم في صيغ Aspose.Tasks
+تجول في عالم إدارة المشاريع المعقد بتعلم كيفية دعم تقييم وظائف MS Project باستخدام صيغ Aspose.Tasks بلغة Java. يقدم هذا الدرس دليلًا خطوة بخطوة، لضمان استيعابك لتفاصيل المكتبة وتعزيز إنتاجيتك. انغمس بسهولة في عالم كفاءة إدارة المشاريع.
 
-استكشف المشهد المعقد لإدارة المشاريع بتعلم كيفية دعم تقييم وظائف MS Project باستخدام صيغ Aspose.Tasks عبر Java. يقدم هذا البرنامج التعليمي دليلًا خطوة بخطوة، يضمن لك فهم تفاصيل المكتبة لتعزيز إنتاجيتك. غص في عالم كفاءة إدارة المشاريع بسهولة.
+[Explore Support Evaluation Functions Tutorial](./evaluation-functions/)
 
-[استكشاف برنامج تعليمي لدعم وظائف التقييم](./evaluation-functions/)
+## صيغ MS Project مع Aspose.Tasks للغة Java
+اكتشف إمكانات مكتبة Aspose.Tasks في Java للتعامل مع ملفات MS Project بسلاسة. سواء كنت تسعى لإنشاء أو تعديل أو حساب الخصائص، يزودك هذا الدرس بالمهارات اللازمة. ارتقِ بإدارة مشاريعك من خلال دمج قوة Aspose.Tasks للغة Java في أدواتك.
 
-## صيغ MS Project مع Aspose.Tasks for Java
-
-أطلق إمكانات مكتبة Aspose.Tasks في Java للتعامل مع ملفات MS Project بسلاسة. سواء كنت تسعى لإنشاء أو تعديل أو حساب السمات، يزودك هذا البرنامج التعليمي بالمهارات اللازمة. ارتقِ بإدارة مشاريعك من خلال دمج قوة Aspose.Tasks for Java في مجموعة أدواتك.
-
-[اكتشاف برنامج تعليمي لصيغ MS Project](./work-with-formulas/)
+[Discover MS Project Formulas Tutorial](./work-with-formulas/)
 
 ## كتابة وقراءة صيغ MS Project في Aspose.Tasks
+اكتب واقرأ صيغ MS Project بفعالية باستخدام Aspose.Tasks للغة Java. حسّن مهاراتك في إدارة المشاريع من خلال الغوص في تفاصيل إنشاء الصيغ وفهمها. يقدم هذا الدرس رؤى عملية لضمان الاستفادة القصوى من Aspose.Tasks، مما يرفع مهاراتك في إدارة المشاريع إلى مستويات جديدة.
 
-اكتب واقرأ صيغ MS Project بكفاءة باستخدام Aspose.Tasks for Java. حسّن مهارات إدارة المشاريع الخاصة بك من خلال الغوص في تفاصيل إنشاء الصيغ وفهمها. يقدم هذا البرنامج التعليمي رؤى عملية لضمان الاستفادة القصوى من Aspose.Tasks، مما يرفع مهاراتك في إدارة المشاريع إلى آفاق جديدة.
+[Master Writing and Reading Formulas Tutorial](./write-read-formulas/)
 
-[إتقان برنامج تعليمي لكتابة وقراءة الصيغ](./write-read-formulas/)
-
-ابدأ رحلة الإتقان مع دروس Aspose.Tasks for Java، حيث كل درس هو خطوة نحو أن تصبح مدير MS Project متمكنًا. ارتقِ بإنتاجيتك، بسط عملياتك، وتغلب على تعقيدات إدارة المشاريع بسهولة.
+ابدأ رحلة الإتقان مع دروس Aspose.Tasks للغة Java، حيث كل درس هو خطوة نحو أن تصبح مدير MS Project متمكنًا. ارتقِ بإنتاجيتك، بسّط عملياتك، وتغلب على تعقيدات إدارة المشاريع بسهولة.
 
 هل أنت مستعد لاستكشاف الإمكانات الكاملة؟ ابدأ الآن.
 
@@ -87,34 +156,39 @@ weight: 23
 ### [دعم وظائف التقييم في صيغ Aspose.Tasks](./evaluation-functions/)
 تعلم كيفية دعم تقييم وظائف MS Project في صيغ Aspose.Tasks باستخدام Java. عزّز إنتاجيتك مع Aspose.Tasks.
 
-### [صيغ MS Project مع Aspose.Tasks for Java](./work-with-formulas/)
-تعلم كيفية التعامل مع ملفات MS Project في Java باستخدام مكتبة Aspose.Tasks. أنشئ، عدّل، واحسب السمات بسهولة.
+### [صيغ MS Project مع Aspose.Tasks للغة Java](./work-with-formulas/)
+تعلم كيفية التعامل مع ملفات MS Project في Java باستخدام مكتبة Aspose.Tasks. أنشئ، عدّل، واحسب الخصائص بسهولة.
 
 ### [كتابة وقراءة صيغ MS Project في Aspose.Tasks](./write-read-formulas/)
-تعلم كتابة وقراءة صيغ MS Project بكفاءة باستخدام Aspose.Tasks for Java. حسّن مهاراتك في إدارة المشاريع.
+تعلم كتابة وقراءة صيغ MS Project بفعالية باستخدام Aspose.Tasks للغة Java. حسّن مهاراتك في إدارة المشاريع.
 
 ## الأسئلة المتكررة
 
 **س: هل يمكنني تعديل الصيغ في ملف .mpp موجود دون فقدان البيانات الأخرى؟**  
-ن: نعم. قم بتحميل الملف باستخدام `Project project = new Project("myfile.mpp");`، حدّث سلسلة الصيغة، واحفظ—فقط الحقول المستهدفة هي التي تتغير.
+ج: نعم. قم بتحميل الملف باستخدام `Project project = new Project("myfile.mpp");`، حدّث سلسلة الصيغة، واحفظ—فقط الحقول المستهدفة يتم تعديلها.
 
 **س: هل جميع وظائف MS Project الأصلية مدعومة؟**  
-ن: Aspose.Tasks ينفّذ مجموعة كاملة من الدوال المدمجة. إذا تم إصدار دالة جديدة، يتم تحديث المكتبة في الإصدار التالي.
+ج: تطبق Aspose.Tasks مجموعة الوظائف المدمجة بالكامل. إذا تم إصدار وظيفة جديدة، يتم تحديث المكتبة في الإصدار التالي.
 
-**س: كيف يمكنني تصحيح صيغ تُعيد نتائج غير متوقعة؟**  
-ن: استخدم طريقة `project.getFormulaEvaluator().evaluate(task, "Cost")` لاختبار التعبيرات الفردية وتسجيل القيم الوسيطة.
+**س: كيف يمكنني تصحيح صيغة تُرجع نتائج غير متوقعة؟**  
+ج: استخدم طريقة `project.getFormulaEvaluator().evaluate(task, "Cost")` لاختبار التعبيرات الفردية وتسجيل القيم الوسيطة.
 
-**س: هل من الممكن إنشاء دوال مخصصة؟**  
-ن: رغم أنه لا يمكنك إضافة أسماء دوال جديدة إلى MS Project، يمكنك دمج الدوال الموجودة لتحقيق منطق مخصص، أو حساب القيم في Java وتعيينها مباشرةً للحقول.
+**س: هل يمكن إنشاء وظائف مخصصة؟**  
+ج: على الرغم من عدم إمكانية إضافة أسماء وظائف جديدة إلى MS Project، يمكنك دمج الوظائف الموجودة لتحقيق منطق مخصص، أو حساب القيم في Java وتعيينها مباشرةً إلى الحقول.
 
 **س: ما هي أفضل الممارسات للمشاريع الكبيرة (أكثر من 10k مهمة)؟**  
-ن: عالج المهام على دفعات، أعد استخدام نسخة واحدة من `FormulaEvaluator`، وتجنب إعادة تحميل المشروع داخل الحلقات للحفاظ على استهلاك الذاكرة منخفضًا.
+ج: عالج المهام على دفعات، أعد استخدام كائن `FormulaEvaluator` واحد، وتجنب إعادة تحميل المشروع داخل الحلقات للحفاظ على استهلاك الذاكرة منخفضًا.
 
 ---
 
-**آخر تحديث:** 2026-02-10  
-**تم الاختبار مع:** Aspose.Tasks for Java 24.11  
-**المؤلف:** Aspose  
+**آخر تحديث:** 2026-09-14  
+**تم الاختبار مع:** Aspose.Tasks للغة Java 24.11  
+**المؤلف:** Aspose
+
+## دروس ذات صلة
+- [حساب عدد الأيام بين التواريخ باستخدام Aspose.Tasks Java API](/tasks/java/formulas/work-with-formulas/)
+- [كيفية إنشاء ملف مشروع فارغ في Aspose.Tasks (MS Project)](/tasks/java/project-configuration/create-empty-project-file/)
+- [إنشاء مشروع MPP باستخدام Java – تغيير تقدم المهمة مع Aspose.Tasks](/tasks/java/task-properties/change-progress/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

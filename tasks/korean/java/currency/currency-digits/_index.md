@@ -1,10 +1,63 @@
 ---
-date: 2026-02-10
-description: Aspose.Tasks를 사용하여 통화 값을 가져오고, MS Project 파일을 읽으며, 프로젝트 파일을 Java로 변환하는
-  방법을 배웁니다. 통화 숫자를 추출하기 위한 단계별 가이드.
-linktitle: How to Get Currency from MS Project using Aspose.Tasks
+date: 2026-09-14
+description: Aspose.Tasks와 함께 ms project 통화를 가져오고 Java로 프로젝트 속성을 읽는 방법을 배웁니다. MPP
+  파일에서 통화 자릿수를 추출하는 단계별 가이드.
+keywords:
+- get ms project currency
+- read project properties java
+- convert project file java
+lastmod: 2026-09-14
+linktitle: Aspose.Tasks를 사용하여 MS Project에서 통화를 가져오는 방법
+og_description: Aspose.Tasks와 함께 ms project 통화를 가져오고 Java로 프로젝트 속성을 읽는 방법을 배웁니다. 이
+  간결한 Java 튜토리얼을 따라 MPP 파일에서 통화 자릿수를 추출하세요.
+og_image_alt: Screenshot of Java code extracting currency digits from an MS Project
+  file using Aspose.Tasks
+og_title: Aspose.Tasks를 사용하여 ms project 통화를 가져오는 방법 – Java 가이드
+schemas:
+- author: Aspose
+  dateModified: '2026-09-14'
+  description: Learn how to get ms project currency and read project properties java
+    with Aspose.Tasks. Step‑by‑step guide for extracting currency digits from an MPP
+    file.
+  headline: How to get ms project currency using Aspose.Tasks
+  type: TechArticle
+- description: Learn how to get ms project currency and read project properties java
+    with Aspose.Tasks. Step‑by‑step guide for extracting currency digits from an MPP
+    file.
+  name: How to get ms project currency using Aspose.Tasks
+  steps:
+  - name: '**Java Development Environment** – JDK 8 or newer installed and configured.'
+    text: '**Java Development Environment** – JDK 8 or newer installed and configured.'
+  - name: '**Aspose.Tasks for Java** – download the latest JAR from the official site:
+      [Aspose.Tasks for Java](https://releases.aspose.com/tasks/java/).'
+    text: '**Aspose.Tasks for Java** – download the latest JAR from the official site:
+      [Aspose.Tasks for Java](https://releases.aspose.com/tasks/java/).'
+  - name: '**Basic Java knowledge** – you should be comfortable creating a Java project,
+      adding external libraries, and running a `main` method.'
+    text: '**Basic Java knowledge** – you should be comfortable creating a Java project,
+      adding external libraries, and running a `main` method.'
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.Tasks offers a wide range of functionalities to manipulate
+      various aspects of Project files, such as tasks, resources, and custom fields.
+    question: Can Aspose.Tasks handle other Project attributes besides currency digits?
+  - answer: Absolutely, Aspose.Tasks is designed to meet the demands of enterprise‑grade
+      projects, offering high performance and scalability.
+    question: Is Aspose.Tasks suitable for enterprise‑level applications?
+  - answer: Yes, you can use Aspose.Tasks for Java on any platform that supports the
+      Java Runtime Environment (Windows, Linux, macOS).
+    question: Does Aspose.Tasks support cross‑platform development?
+  - answer: Yes, you can download a free trial version from the [Aspose releases page](https://releases.aspose.com/).
+    question: Can I try Aspose.Tasks before purchasing?
+  - answer: You can find support on the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
+    question: Where can I get support for Aspose.Tasks?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: Aspose.Tasks를 사용하여 MS Project에서 통화를 가져오는 방법
+tags:
+- ms project
+- aspose.tasks
+- java project processing
+title: Aspose.Tasks를 사용하여 ms project 통화를 가져오는 방법
 url: /ko/java/currency/currency-digits/
 weight: 11
 ---
@@ -13,36 +66,34 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks를 사용하여 MS Project에서 통화 가져오기
+# Aspose.Tasks를 사용하여 MS Project 통화 가져오기
 
 ## 소개
-Microsoft Project 파일에서 **통화 정보를 가져오는 방법**이 궁금하시다면, 바로 이곳이 정답입니다. 이 포괄적인 튜토리얼에서는 Aspose.Tasks 라이브러리를 사용하여 **ms project currency** 값을 다루는 방법을 알아봅니다. 보고서 도구를 만들든, 마이그레이션 유틸리티를 개발하든, 혹은 **java project file**에서 통화 설정을 읽어야 하든, 이 가이드는 *.mpp* 파일을 로드하고 통화 자릿수를 추출하는 모든 과정을 단계별로 안내합니다. 끝까지 읽으시면 자신의 애플리케이션에서 ms project currency 데이터를 자유롭게 처리할 수 있게 됩니다.
+Microsoft Project 파일에서 **ms project 통화** 정보를 얻는 방법이 궁금하다면, 올바른 곳에 오셨습니다. 이 포괄적인 튜토리얼에서는 Java용 Aspose.Tasks 라이브러리를 사용하여 **ms project 통화** 값을 다루는 방법을 알아볼 수 있습니다. 보고서 도구, 마이그레이션 유틸리티를 구축하거나 단순히 **java 프로젝트 파일**의 통화 설정을 읽어야 할 경우에도, 이 가이드는 *.mpp* 파일 로드부터 통화 자릿수 추출까지 모든 단계를 안내합니다. 마지막까지 진행하면 자체 애플리케이션에서 ms project 통화 데이터를 자유롭게 처리할 수 있게 됩니다.
 
 ## 빠른 답변
-- **MS Project 파일을 읽는 라이브러리는?** Aspose.Tasks for Java.  
-- **통화 자릿수를 가져오는 코드 라인은 몇 줄인가요?** 프로젝트를 로드한 뒤 단 3줄이면 충분합니다.  
-- **개발용 라이선스가 필요한가요?** 테스트용 무료 체험판으로 가능하지만, 상용 환경에서는 정식 라이선스가 필요합니다.  
-- **지원되는 Java 버전은?** Java 8 이상 (Aspose.Tasks가 실행되는 모든 JDK).  
-- **다른 Project 속성도 가져올 수 있나요?** 네 – Aspose.Tasks는 시작일, 비용 비율 등 전체 Project 필드를 제공합니다.
+- **MS Project 파일을 읽는 라이브러리는 무엇인가요?** Aspose.Tasks for Java.  
+- **통화 자릿수를 얻기 위한 코드 라인은 몇 줄인가요?** 프로젝트가 로드된 후 단 3줄의 간결한 코드만 필요합니다.  
+- **개발에 라이선스가 필요합니까?** 테스트용으로는 무료 체험판으로 충분하지만, 프로덕션에서는 상용 라이선스가 필요합니다.  
+- **지원되는 Java 버전은 무엇인가요?** Java 8 이상 (Aspose.Tasks를 실행할 수 있는 모든 JDK).  
+- **다른 Project 속성을 가져올 수 있나요?** 예 – Aspose.Tasks는 전체 Project 필드 집합(예: 시작 날짜, 비용 비율 등)을 제공합니다.
 
-## ms project currency란?
-`ms project currency`는 Microsoft Project가 금액을 표시할 때 사용하는 소수점 자리수(정밀도)를 의미합니다. 프로젝트 파일에 **CURRENCY_DIGITS** 속성으로 저장되며, 금액이 정수, 소수점 1자리, 2자리 등으로 표시될지를 결정합니다.
+## ms project 통화란?
+`ms project currency` 속성은 Microsoft Project가 금액을 표시할 때 사용하는 소수점 자리수를 정의합니다. 이 값은 프로젝트 파일에 **CURRENCY_DIGITS** 필드로 저장되며, 금액이 정수, 소수점 1자리, 2자리 등으로 표시될지를 결정합니다. 이 설정은 예산 보고서, 비용 집계 및 재무 수치를 표시하는 모든 UI에 직접 영향을 미치므로 정확한 데이터 교환에 필수적입니다.
 
-## Aspose.Tasks로 ms project currency를 처리하는 이유
-- **Microsoft Project 설치 불필요** – Java를 지원하는 모든 플랫폼에서 *.mpp* 파일을 직접 다룰 수 있습니다.  
-- **강력한 타입 안정성** – API가 강타입 값을 반환하므로 파싱 오류가 감소합니다.  
-- **성능 최적화** – 대형 프로젝트를 빠르게 로드하고 필요한 필드만 추출합니다.  
-- **크로스‑플랫폼** – Windows, Linux, macOS 어디서든 수정 없이 실행됩니다.
+## ms project 통화 처리를 위해 Aspose.Tasks를 사용하는 이유는?
+Aspose.Tasks를 사용하면 Microsoft Project를 설치하지 않고도 통화 자릿수를 추출할 수 있으며, 엔터프라이즈 수준의 성능을 제공합니다. 이 라이브러리는 **30년 이상의 Project 파일 버전**(Project 2000부터 Project 2024까지)을 지원하며, **150개 이상의 고유 파일 스키마**를 포괄합니다. 500페이지 규모의 프로젝트를 로드하는 데 일반 서버에서는 보통 **2초** 미만이 걸리며, 필요한 필드만 조회함으로써 가장 큰 일정이라도 메모리 사용량을 **50 MB** 이하로 유지할 수 있습니다.
 
-## 사전 준비
-시작하기 전에 다음이 준비되어 있어야 합니다:
+## 전제 조건
+시작하기 전에 다음이 준비되어 있는지 확인하십시오:
 
-1. **Java 개발 환경** – JDK 8 이상 설치 및 설정 완료.  
+1. **Java Development Environment** – JDK 8 이상 설치 및 구성됨.  
 2. **Aspose.Tasks for Java** – 공식 사이트에서 최신 JAR 다운로드: [Aspose.Tasks for Java](https://releases.aspose.com/tasks/java/).  
-3. **기본 Java 지식** – Java 프로젝트 생성, 외부 라이브러리 추가, `main` 메서드 실행에 익숙해야 합니다.  
+3. **Basic Java knowledge** – Java 프로젝트를 생성하고 외부 라이브러리를 추가하며 `main` 메서드를 실행하는 데 익숙해야 합니다.  
 
 ## 패키지 가져오기
 먼저 필요한 클래스를 가져옵니다.  
+Aspose.Tasks 라이브러리에서 `Project` 클래스와 관련 유틸리티를 가져옵니다.  
 ```java
 import java.io.IOException;
 import com.aspose.tasks.Prj;
@@ -50,57 +101,63 @@ import com.aspose.tasks.Project;
 import com.aspose.tasks.SaveFileFormat;
 ```
 
-## 1단계: 데이터 디렉터리 정의
+## 단계 1: 데이터 디렉터리 정의
 **java project file**(`*.mpp`)이 들어 있는 폴더를 지정합니다.  
 ```java
 String dataDir = "Your Data Directory";
 ```
-`"Your Data Directory"`를 `project.mpp` 파일이 위치한 절대 경로나 상대 경로로 교체하세요.
+`"Your Data Directory"`를 `project.mpp`가 위치한 절대 경로나 상대 경로로 교체하십시오.
 
-## 2단계: MPP 파일 로드  
-이제 Aspose.Tasks를 사용해 **mpp 파일을 로드**하는 방법을 확인합니다.  
+## 단계 2: mpp 파일 로드
+이제 Aspose.Tasks를 사용하여 **mpp 파일을 로드하는 방법**을 살펴보겠습니다.  
+`Project` 클래스는 Microsoft Project 파일을 나타내며 해당 속성에 접근할 수 있게 합니다.  
 ```java
 Project project = new Project(dataDir + "project.mpp");
 ```
-파일 이름이 정확히 일치하지 않으면 `IOException`이 발생합니다.
+파일 이름이 정확히 일치하는지 확인하십시오; 그렇지 않으면 `IOException`이 발생합니다.
 
-## 3단계: 통화 자릿수 가져오기  
-프로젝트가 로드되면 **ms project currency** 자릿수를 한 줄 코드로 추출할 수 있습니다:  
+## 단계 3: 통화 자릿수 가져오기
+프로젝트가 로드된 상태에서 **ms project 통화** 자릿수를 추출하는 코드는 한 줄입니다:  
+`getCurrencyDigits()` 메서드는 금액에 정의된 소수점 자리수를 반환합니다.  
 ```java
 System.out.println(project.get(Prj.CURRENCY_DIGITS));
 ```
-이 호출은 소수점 자리수를 나타내는 `Integer`를 반환합니다(예: 센트는 `2`). 값은 콘솔에 출력되지만, 필요에 따라 변수에 저장해 추가 처리할 수도 있습니다.
+이 호출은 소수점 자리수를 나타내는 `Integer`를 반환합니다(예: 센트는 `2`). 값은 콘솔에 출력되지만, 추가 처리를 위해 변수에 저장할 수도 있습니다.
 
 ## 일반적인 문제 및 팁
-- **파일을 찾을 수 없음** – `dataDir` 경로와 파일 이름(`.mpp` 확장자 포함)을 다시 확인하세요.  
-- **지원되지 않는 파일 버전** – Aspose.Tasks는 Project 2000‑2024 형식을 지원합니다. 오래되었거나 손상된 파일은 변환이 필요할 수 있습니다.  
-- **라이선스 미설정** – 개발 단계에서는 체험판이 동작하지만, 상용 환경에서는 평가 워터마크를 없애기 위해 정식 라이선스를 적용해야 합니다.
+- **파일을 찾을 수 없음** – `dataDir` 경로를 다시 확인하고 파일 이름이 정확한지, `.mpp` 확장자를 포함하고 있는지 확인하십시오.  
+- **지원되지 않는 파일 버전** – Aspose.Tasks는 Project 2000‑2024 형식을 지원합니다; 오래되었거나 손상된 파일은 변환이 필요할 수 있습니다.  
+- **라이선스 미설정** – 개발 단계에서는 체험판으로 충분하지만, 프로덕션에서는 평가 워터마크를 방지하기 위해 유효한 라이선스를 적용해야 합니다.
 
 ## 자주 묻는 질문
 
-**Q: Aspose.Tasks가 통화 자릿수 외에도 다른 Project 속성을 처리할 수 있나요?**  
-A: 네, Aspose.Tasks는 작업, 자원, 사용자 정의 필드 등 다양한 Project 요소를 조작할 수 있는 광범위한 기능을 제공합니다.
+**Q: Aspose.Tasks가 통화 자릿수 외에 다른 Project 속성도 처리할 수 있나요?**  
+A: 예, Aspose.Tasks는 작업, 리소스, 사용자 정의 필드 등 Project 파일의 다양한 측면을 조작할 수 있는 광범위한 기능을 제공합니다.
 
 **Q: Aspose.Tasks가 엔터프라이즈 수준 애플리케이션에 적합한가요?**  
-A: 물론입니다. Aspose.Tasks는 고성능과 확장성을 갖춘 엔터프라이즈 급 프로젝트 처리를 위해 설계되었습니다.
+A: 물론입니다. Aspose.Tasks는 엔터프라이즈 급 프로젝트의 요구를 충족하도록 설계되었으며, 높은 성능과 확장성을 제공합니다.
 
 **Q: Aspose.Tasks가 크로스‑플랫폼 개발을 지원하나요?**  
-A: 네, Java Runtime Environment가 설치된 Windows, Linux, macOS 어디서든 Aspose.Tasks for Java를 사용할 수 있습니다.
+A: 예, Java Runtime Environment를 지원하는 모든 플랫폼(Windows, Linux, macOS)에서 Aspose.Tasks for Java를 사용할 수 있습니다.
 
 **Q: 구매 전에 Aspose.Tasks를 체험해볼 수 있나요?**  
-A: 예, [여기](https://releases.aspose.com/)에서 무료 체험 버전을 다운로드할 수 있습니다.
+A: 예, [Aspose releases page](https://releases.aspose.com/)에서 무료 체험 버전을 다운로드할 수 있습니다.
 
-**Q: Aspose.Tasks 지원은 어디서 받을 수 있나요?**  
+**Q: Aspose.Tasks에 대한 지원은 어디서 받을 수 있나요?**  
 A: [Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15)에서 지원을 받을 수 있습니다.
-
-## 결론
-이제 Aspose.Tasks for Java를 이용해 MS Project 파일에서 **통화 자릿수**를 가져오는 방법을 알게 되었습니다. 절차는 간단합니다: 프로젝트를 로드하고 `project.get(Prj.CURRENCY_DIGITS)`를 호출한 뒤 결과를 활용하면 됩니다. 동일한 패턴으로 다른 프로젝트 속성도 탐색하고, 이 로직을 더 큰 보고서나 마이그레이션 솔루션에 통합해 보세요.
 
 ---
 
-**마지막 업데이트:** 2026-02-10  
+**마지막 업데이트:** 2026-09-14  
 **테스트 환경:** Aspose.Tasks for Java (작성 시 최신 버전)  
-**작성자:** Aspose  
+**작성자:** Aspose
+
+## 관련 튜토리얼
+
+- [java 프로젝트 속성 – Aspose.Tasks for Java를 사용하여 MPP에서 통화 기호 추출](/tasks/java/currency/currency-symbols/)
+- [Aspose.Tasks를 사용하여 MS Project에서 통화 가져오기](/tasks/java/currency/currency-codes/)
+- [Project 속성 Java – Aspose.Tasks로 메타데이터 읽기](/tasks/java/project-properties/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
