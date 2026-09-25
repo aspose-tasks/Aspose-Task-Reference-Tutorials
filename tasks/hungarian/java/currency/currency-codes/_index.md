@@ -1,11 +1,77 @@
 ---
-date: 2026-02-10
-description: Tanulja meg, hogyan lehet lekérni a pénznemkódokat MS Project fájlokból
-  az Aspose.Tasks for Java használatával – a gyors módja annak, hogy a Java fejlesztőknek
-  szükséges pénznemkódot megszerezzék.
-linktitle: Manage Currency Codes in Aspose.Tasks
+date: 2026-09-25
+description: Ismerje meg, hogyan lehet lekérni a currency code-okat MS Project fájlokból
+  az Aspose.Tasks for Java használatával – a gyors módja a currency code megszerzésének,
+  amelyre a Java fejlesztőknek szükségük van.
+keywords:
+- retrieve currency code java
+- Aspose.Tasks Java
+- MS Project currency
+- read MS Project file
+lastmod: 2026-09-25
+linktitle: Currency Codes kezelése az Aspose.Tasks-ben
+og_description: Lekérdezés currency code Java MS Project fájlokból az Aspose.Tasks
+  használatával. Ez az útmutató megmutatja, hogyan olvassa be a projektet, hogyan
+  vonja ki az ISO currency identifier-t, és hogyan alkalmazza azt Java alkalmazásokban.
+og_image_alt: Screenshot of Java code extracting currency code from an MS Project
+  file using Aspose.Tasks
+og_title: Lekérdezés currency code Java az MS Projectből
+schemas:
+- author: Aspose
+  dateModified: '2026-09-25'
+  description: Learn how to retrieve currency codes from MS Project files using Aspose.Tasks
+    for Java – the quick way to get currency code Java developers need.
+  headline: Retrieve currency code java from MS Project with Aspose.Tasks
+  type: TechArticle
+- description: Learn how to retrieve currency codes from MS Project files using Aspose.Tasks
+    for Java – the quick way to get currency code Java developers need.
+  name: Retrieve currency code java from MS Project with Aspose.Tasks
+  steps:
+  - name: set up data directory
+    text: Define the folder that contains your *.mpp* file. Adjust the path to match
+      your environment so the runtime can locate the project file.
+  - name: load the project file
+    text: The `Project` class is Aspose.Tasks' top‑level object that represents a
+      single MS Project file in memory. Creating an instance reads the file and builds
+      an in‑memory model you can query.
+  - name: retrieve currency code
+    text: The `Prj.CURRENCY_CODE` constant identifies the property that stores the
+      ISO currency identifier. Calling `prj.get(Prj.CURRENCY_CODE)` returns the three‑letter
+      code in a single operation. The output will be the three‑letter ISO currency
+      code (e.g., `USD`, `EUR`, `GBP`) that the project is configured
+  - name: how to retrieve currency code in Java (additional context)
+    text: Load your project, call `prj.get(Prj.CURRENCY_CODE)`, and store the result
+      in a `String`. You can then pass this value to any financial service, reporting
+      engine, or UI component that requires a currency identifier.
+  - name: (optional) use the currency code
+    text: 'Typical downstream scenarios include: - **Report generation** – prepend
+      the code to cost columns (`USD 1,200`). - **API integration** – send the ISO
+      code to payment gateways that demand a currency parameter. - **Data consolidation**
+      – group multiple projects by currency for portfolio‑level analysis.'
+  type: HowTo
+- questions:
+  - answer: Yes, the API reads multi‑level task hierarchies, resource pools, custom
+      fields, and calendars without limitation.
+    question: Can Aspose.Tasks handle complex project structures?
+  - answer: Absolutely. It supports MPP, XML, XER, and other formats from Project
+      98 through the latest Office releases.
+    question: Is Aspose.Tasks compatible with different versions of MS Project files?
+  - answer: Comprehensive API reference, code examples, and dedicated technical support
+      are available on the Aspose website.
+    question: Does Aspose.Tasks provide documentation and support?
+  - answer: A free trial is offered so you can evaluate all features, including currency
+      code extraction.
+    question: Can I try Aspose.Tasks before purchasing?
+  - answer: Temporary licenses are available from the [website](https://purchase.aspose.com/temporary-license/).
+    question: Where can I obtain a temporary license for evaluation?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: Hogyan lehet lekérni a pénznemet az MS Projectből az Aspose.Tasks segítségével
+tags:
+- retrieve currency
+- Aspose.Tasks
+- Java project automation
+- MS Project
+title: Lekérdezés currency code Java az MS Projectből az Aspose.Tasks segítségével
 url: /hu/java/currency/currency-codes/
 weight: 10
 ---
@@ -14,38 +80,36 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hogyan lehet lekérni a pénznemet az MS Projectből az Aspise.Tasks segítségével
+# MS Projectből valuta kód lekérése java-val az Aspose.Tasks segítségével
 
 ## Bevezetés
-Üdvözöljük! Ebben az útmutatóban megtanulja, **hogyan lehet lekérni a pénznem** kódokat egy MS Project fájlból az Aspose.Tasks Java API használatával. Akár többpénznemű pénzügyi jelentéseket generál, akár különböző régiókból származó projekteket konszolidál, vagy egyszerűen csak a helyes pénzügyi szimbólumokra van szüksége a további feldolgozáshoz, ez az útmutató minden lépésen végigvezet – a környezet beállításától a pénznemkód programozott kinyeréséig. A végére magabiztosan fogja tudni olvasni az MS Project fájlokat, és a **get currency code java** hívással megkapni az ISO pénznem azonosítót.
+Ebben az útmutatóban megtanulja, **hogyan lehet Java-val lekérni a valuta kódot** egy MS Project fájlból az Aspose.Tasks Java API használatával. Akár többvalutás pénzügyi jelentéseket kell készítenie, projektek konszolidálására különböző régiókban, vagy egyszerűen a helyes pénznem szimbólumot kell megjelenítenie egy downstream rendszerben, az alábbi lépések a környezet beállításától a egy soros hívásig vezetnek, amely visszaadja az ISO valuta azonosítót. A útmutató végére kényelmesen tud majd bármely támogatott Project fájlformátumot betölteni és kinyerni a hárombetűs valuta kódot, például `USD`, `EUR` vagy `GBP`.
 
 ## Gyors válaszok
-- **Mit csinál az API?** Olvassa az MS Project fájlokat, és elérhetővé teszi a pénznemkódhoz hasonló tulajdonságokat.  
+- **Mi a API feladata?** MS Project fájlokat olvas és elérhetővé teszi a tulajdonságokat, például a valuta kódot.  
 - **Melyik nyelvet használja?** Java, az Aspose.Tasks for Java könyvtáron keresztül.  
-- **Szükség van licencre?** Fejlesztéshez egy ingyenes próba verzió is működik; termeléshez kereskedelmi licenc szükséges.  
-- **Lehet egy sorban lekérni a kódot?** Igen – a `prj.get(Prj.CURRENCY_CODE)` visszaadja a pénznemkód karakterláncot.  
-- **Kompatibilis-e minden Project verzióval?** Az Aspose.Tasks támogatja a régebbi (MPP) és az újabb (XML, XER) formátumokat is.
+- **Szükségem van licencre?** A fejlesztéshez ingyenes próba verzió működik; a termeléshez kereskedelmi licenc szükséges.  
+- **Lekérhetem a kódot egy sorban?** Igen—`prj.get(Prj.CURRENCY_CODE)` azonnal visszaadja a valuta kód karakterláncot.  
+- **Kompatibilis-e minden Project verzióval?** Az Aspose.Tasks több mint 20 bemeneti formátumot támogat, beleértve a régi MPP, XML és XER fájlokat.
 
-## Mi az a **read ms project file**?
-Az MS Project fájl olvasása azt jelenti, hogy programozott módon megnyit egy *.mpp* (vagy más támogatott) projektdokumentumot, és hozzáfér a belső adatstruktúrákhoz – feladatok, erőforrások, naptárak és pénzügyi beállítások – anélkül, hogy manuálisan a Microsoft Projectet kellene használni.
+## Mi az MS Project fájl olvasása?
+Az MS Project fájl olvasása azt jelenti, hogy programozott módon megnyit egy *.mpp* (vagy bármely más támogatott formátumot, például XML vagy XER) fájlt, és hozzáfér a belső adatstruktúráihoz. Ezek a struktúrák tartalmazzák a feladatokat, erőforrásokat, naptárakat, költségtáblákat és pénzügyi beállításokat. A fájl elemzésével információt nyerhet ki anélkül, hogy elindítaná a Microsoft Projectet, lehetővé téve az automatizált jelentéskészítést, migrációt és integrációs munkafolyamatokat.
 
-## Miért használjuk az Aspose.Tasks‑t **read msproject** fájlokhoz?
-- **Teljes formátumtámogatás** – működik a Project 98-tól a legújabb Office kiadásokig.  
-- **Nincs COM vagy Office telepítés szükséges** – tisztán Java, tökéletes szerver‑oldali automatizáláshoz.  
-- **Gazdag API** – közvetlen hozzáférést biztosít olyan tulajdonságokhoz, mint a `Prj.CURRENCY_CODE`, lehetővé téve a **how to retrieve currency** információ azonnali lekérését.  
-- **Teljesítmény** – könnyű súlyú elemzés, ideális sok projekt kötegelt feldolgozásához.
+## Miért használjuk az Aspose.Tasks-et MS Project fájlok olvasásához?
+Az Aspose.Tasks egy tisztán Java megoldást kínál, amely eltávolítja a COM interop vagy a helyi Microsoft Project telepítés szükségességét. Több mint 20 fájlformátumot támogat, képes több ezer feladatot kezelni kevesebb, mint 100 MB memória felhasználásával, és gazdag objektummodellt biztosít. A `Prj.CURRENCY_CODE`-hoz hasonló konstansok közvetlen elérése lehetővé teszi a valuta információk azonnali és megbízható lekérését.
 
 ## Előfeltételek
-Mielőtt a kódba merülnénk, győződjön meg róla, hogy a következők rendelkezésre állnak:
+Mielőtt a kódba merülnénk, győződjön meg arról, hogy a következők rendelkezésre állnak:
 
-### Java Development Kit (JDK) telepítve
-Győződjön meg róla, hogy egy friss JDK elérhető a gépén. A legújabb JDK verzió letölthető [innen](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+### Java fejlesztői csomag (JDK) telepítve
+Egy friss JDK (11 vagy újabb) szükséges. Töltse le a hivatalos Oracle oldalról: [here](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
 
 ### Aspose.Tasks for Java könyvtár
-Töltse le és állítsa be az Aspose.Tasks for Java könyvtárat. A részletes dokumentáció és a legújabb binárisok megtalálhatók [itt](https://reference.aspose.com/tasks/java/).
+Szerezze be a legújabb Aspose.Tasks for Java binárisokat és adja hozzá a projekt classpath-jához. A teljes dokumentáció és letöltési linkek elérhetők [here](https://reference.aspose.com/tasks/java/).
 
 ## Csomagok importálása
-A kezdéshez importáljuk a szükséges csomagokat a Java projektünkben:
+A `Project` osztály és a `Prj` konstansok a `com.aspose.tasks` névtérben találhatók. Importálja őket a Java forrásfájl tetején:
+
 ```java
 import com.aspose.tasks.Prj;
 import com.aspose.tasks.Project;
@@ -53,66 +117,74 @@ import com.aspose.tasks.Project;
 
 ## Lépésről‑lépésre útmutató
 
-### 1. lépés: Adatkönyvtár beállítása
-Adja meg azt a mappát, amelyik a *.mpp* fájlt tartalmazza. Igazítsa az elérési utat a saját környezetéhez.
+### 1. lépés: adatkönyvtár beállítása
+Határozza meg azt a mappát, amely a *.mpp* fájlt tartalmazza. Állítsa be az útvonalat úgy, hogy megfeleljen a környezetének, így a futtatókörnyezet megtalálja a projektfájlt.
+
 ```java
 String dataDir = "Your Data Directory";
 ```
 
-### 2. lépés: Projektfájl betöltése
-Hozzon létre egy `Project` példányt a MS Project fájl betöltésével. Itt történik a **read msproject** adatok memóriába olvasása.
+### 2. lépés: projektfájl betöltése
+A `Project` osztály az Aspose.Tasks legfelső szintű objektuma, amely egyetlen MS Project fájlt reprezentál a memóriában. Egy példány létrehozása beolvassa a fájlt és felépíti a memóriában lévő modellt, amelyet lekérdezhet.
+
 ```java
 Project prj = new Project(dataDir + "project.mpp");
 ```
 
-### 3. lépés: Pénznemkód lekérése
-Miután a projekt betöltődött, egyetlen hívással **how to retrieve currency** információt kaphat. Ez a **get currency code java** használatát mutatja be.
+### 3. lépés: valuta kód lekérése
+A `Prj.CURRENCY_CODE` konstans azonosítja azt a tulajdonságot, amely az ISO valuta azonosítót tárolja. A `prj.get(Prj.CURRENCY_CODE)` hívás egyetlen műveletben visszaadja a hárombetűs kódot.
+
 ```java
 System.out.println(prj.get(Prj.CURRENCY_CODE));
 ```
-A kimenet a hárombetűs ISO pénznemkód lesz (pl. `USD`, `EUR`, `GBP`), amelyet a projekt beállított.
+A kimenet a hárombetűs ISO valuta kód lesz (pl. `USD`, `EUR`, `GBP`), amelyet a projekt használ.
 
-### 4. lépés: Pénznemkód lekérése Java‑ban (további kontextus)
-Ha később szeretné tárolni az értéket, egyszerűen rendelje egy változóhoz:
+### 4. lépés: hogyan lehet Java-ban lekérni a valuta kódot (további kontextus)
+Töltse be a projektet, hívja meg a `prj.get(Prj.CURRENCY_CODE)` metódust, és tárolja az eredményt egy `String` változóban. Ezután átadhatja ezt az értéket bármely pénzügyi szolgáltatásnak, jelentéskészítő motornak vagy UI komponensnek, amely valuta azonosítót igényel.
 
-*Nem szükséges extra kódrészlet* – csak tartsa meg a `prj.get(Prj.CURRENCY_CODE)` által visszaadott karakterláncot, és adja át bármely pénzügyi szolgáltatásnak, jelentéskészítő motornak vagy UI komponensnek.
+### 5. lépés: (opcionális) a valuta kód használata
+Tipikus downstream forgatókönyvek:
 
-### 5. lépés: (Opcionális) A pénznemkód használata
-Lehet, hogy a lekért kódot máshol is fel szeretné használni – például költségértékek formázásához egy egyedi jelentésben vagy egy pénzügyi API‑nak való átadáskor. Tipikus forgatókönyvek:
-
-- **Jelentéskészítés** – a kód előtagként a költségoszlopokhoz (`USD 1,200`).  
-- **API integráció** – az ISO kód küldése fizetési átjáróknak, amelyek pénznemazonosítót igényelnek.  
-- **Adatkonszolidáció** – projektek csoportosítása pénznem szerint a portfólióelemzéshez.
+- **Jelentéskészítés** – előállítja a kódot a költség oszlopok előtt (`USD 1,200`).  
+- **API integráció** – elküldi az ISO kódot a pénztárkapuknak, amelyek valuta paramétert igényelnek.  
+- **Adat konszolidáció** – több projektet csoportosít valutánként a portfólió‑szintű elemzéshez.
 
 ## Gyakori problémák és megoldások
 | Probléma | Ok | Megoldás |
 |----------|----|----------|
-| **Null kimenet** | A projektfájl nem definiál pénznemet (alapértelmezett üres). | Állítsa be a pénznemet a Microsoft Projectben, vagy rendelje hozzá a `prj.set(Prj.CURRENCY_CODE, "USD");` hívással a lekérés előtt. |
-| **Fájl nem található** | Hibás `dataDir` útvonal. | Ellenőrizze az útvonalat, és győződjön meg róla, hogy a fájlnév pontosan egyezik, beleértve a kis‑ és nagybetűket is. |
-| **Nem támogatott fájlverzió** | Nagyon régi vagy sérült *.mpp* fájl. | Használja az Aspose.Tasks legújabb verzióját, vagy konvertálja a fájlt egy újabb formátumba a Microsoft Projectben először. |
+| **Nulla kimenet** | A projektfájl nem definiál valutát (alapértelmezett üres). | Állítsa be a valutát a Microsoft Projectben vagy rendelje hozzá a `prj.set(Prj.CURRENCY_CODE, "USD");` hívással a beolvasás előtt. |
+| **Fájl nem található** | Helytelen `dataDir` útvonal. | Ellenőrizze az útvonalat, és győződjön meg róla, hogy a fájlnév pontosan egyezik, beleértve a kis‑ és nagybetűk érzékenységét is. |
+| **Nem támogatott fájlverzió** | Nagyon régi vagy sérült *.mpp* fájl. | Frissítse a legújabb Aspose.Tasks verzióra, vagy először konvertálja a fájlt újabb formátumba a Microsoft Projectben. |
 
-## Gyakran feltett kérdések
+## Gyakran ismételt kérdések
 
 **K: Kezelni tudja az Aspose.Tasks a komplex projektstruktúrákat?**  
-V: Igen, az API képes olvasni és módosítani több szintű feladathierarchiákat, erőforrás‑medencéket és egyedi mezőket problémamentesen.
+A: Igen, az API olvas több szintű feladat hierarchiákat, erőforrás pool‑okat, egyéni mezőket és naptárakat korlátozás nélkül.
 
-**K: Kompatibilis-e az Aspose.Tasks a különböző MS Project fájlverziókkal?**  
-V: Teljes mértékben. Támogatja az MPP, XML, XER és egyéb formátumokat a legtöbb Microsoft Project kiadásban.
+**K: Kompatibilis-e az Aspose.Tasks a különböző MS Project fájl verziókkal?**  
+A: Teljesen. Támogatja az MPP, XML, XER és egyéb formátumokat a Project 98‑tól a legújabb Office kiadásokig.
 
-**K: Nyújt-e az Aspose.Tasks dokumentációt és támogatást?**  
-V: Igen, átfogó dokumentáció, kódpéldák és dedikált támogatás áll rendelkezésre az Aspose weboldalán.
+**K: Biztosít-e az Aspose.Tasks dokumentációt és támogatást?**  
+A: Átfogó API referencia, kódpéldák és dedikált technikai támogatás érhető el az Aspose weboldalán.
 
-**K: Próbálhatom-e ki az Aspose.Tasks‑t vásárlás előtt?**  
-V: Igen, ingyenes próba verzió áll rendelkezésre, amely lehetővé teszi az összes funkció, köztük a pénznemkódok olvasását, kipróbálását.
+**K: Kipróbálhatom az Aspose.Tasks‑et vásárlás előtt?**  
+A: Ingyenes próba verzió áll rendelkezésre, hogy minden funkciót kiértékelhessen, beleértve a valuta kód kinyerését is.
 
-**K: Hol szerezhetek ideiglenes licenceket az Aspose.Tasks‑hez?**  
-V: Ideiglenes licencek a [weboldalon](https://purchase.aspose.com/temporary-license/) érhetők el rövid távú értékeléshez.
+**K: Hol szerezhetek ideiglenes licencet értékeléshez?**  
+A: Ideiglenes licencek elérhetők a [website](https://purchase.aspose.com/temporary-license/).
 
 ---
 
-**Utoljára frissítve:** 2026-02-10  
+**Utoljára frissítve:** 2026-09-25  
 **Tesztelve:** Aspose.Tasks for Java (legújabb verzió)  
-**Szerző:** Aspose  
+**Szerző:** Aspose
+
+## Kapcsolódó útmutatók
+
+- [Project Properties Java – Metaadatok olvasása az Aspose.Tasks segítségével](/tasks/java/project-properties/)
+- [Hogyan olvassuk a projekt információkat a Microsoft Projectből az Aspose.Tasks for Java segítségével](/tasks/java/project-properties/read-project-info/)
+- [MS Project Outline kódok lekérése az Aspose.Tasks-ben](/tasks/java/project-file-operations/retrieve-outline-codes/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
