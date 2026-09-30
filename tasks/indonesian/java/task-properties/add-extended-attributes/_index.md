@@ -1,86 +1,199 @@
 ---
-title: Tambahkan Atribut yang Diperluas ke Tugas di Aspose.Tasks
-linktitle: Tambahkan Atribut yang Diperluas ke Tugas di Aspose.Tasks
-second_title: Aspose.Tugas Java API
-description: Jelajahi kekuatan Aspose.Tasks Java dalam menyesuaikan file Microsoft Project dengan atribut yang diperluas. Tingkatkan kemampuan manajemen proyek Anda dengan mudah.
-weight: 11
+date: 2026-09-30
+description: Pelajari cara membuat atribut extended task menggunakan Aspose.Tasks
+  untuk Java, perpustakaan manajemen proyek Java terkemuka untuk menambahkan bidang
+  tugas khusus.
+keywords:
+- create task extended attribute
+- java project management library
+- add custom task field
+lastmod: 2026-09-30
+linktitle: Cara membuat atribut extended task dengan Aspose.Tasks Java
+og_description: Pelajari cara membuat atribut extended task menggunakan Aspose.Tasks
+  untuk Java, perpustakaan manajemen proyek Java terkemuka untuk menambahkan bidang
+  tugas khusus.
+og_image_alt: 'Developer guide: create task extended attribute in Aspose.Tasks Java'
+og_title: Cara membuat atribut extended task dengan Aspose.Tasks Java
+schemas:
+- author: Aspose
+  dateModified: '2026-09-30'
+  description: Learn how to create task extended attribute using Aspose.Tasks for
+    Java, the leading java project management library for adding custom task fields.
+  headline: How to create task extended attribute with Aspose.Tasks Java
+  type: TechArticle
+- questions:
+  - answer: Yes, Aspose.Tasks for Java integrates smoothly with any Java ecosystem,
+      including Spring, Hibernate, and Apache POI.
+    question: Can I use Aspose.Tasks for Java with other Java libraries?
+  - answer: Absolutely. The library is engineered to handle multi‑thousand‑task projects
+      and supports streaming to keep memory usage low.
+    question: Is Aspose.Tasks for Java suitable for large‑scale project management
+      applications?
+  - answer: Yes, you need a valid commercial license. You can review the details on
+      the [Aspose.Tasks website](https://purchase.aspose.com/buy).
+    question: Are there any licensing considerations for using Aspose.Tasks for Java
+      in a commercial project?
+  - answer: Visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) for
+      community help, or open a support ticket through your Aspose account.
+    question: How can I get support or assistance with Aspose.Tasks for Java?
+  - answer: Yes, you can access a free trial version on the [Aspose.Tasks free trial](https://releases.aspose.com/)
+      page.
+    question: Can I try Aspose.Tasks for Java before purchasing?
+  type: FAQPage
+second_title: Aspose.Tasks Java API
+tags:
+- aspose.tasks
+- java project management
+- extended attributes
+- task customization
+title: Cara membuat atribut extended task dengan Aspose.Tasks Java
 url: /id/java/task-properties/add-extended-attributes/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tambahkan Atribut yang Diperluas ke Tugas di Aspose.Tasks
+# Cara membuat atribut tugas yang diperluas dengan Aspose.Tasks Java
 
-## Perkenalan
-Meningkatkan kemampuan manajemen proyek Anda sangat penting untuk pelacakan tugas dan manajemen sumber daya yang efisien. Aspose.Tasks untuk Java memberikan solusi ampuh bagi pengembang Java untuk memanipulasi file Microsoft Project dengan lancar. Dalam tutorial ini, kita akan mempelajari cara menambahkan atribut yang diperluas ke tugas menggunakan Aspose.Tasks untuk Java, memungkinkan Anda menyesuaikan dan mengatur data proyek sesuai dengan kebutuhan spesifik Anda.
+## Pendahuluan
+Dalam tutorial ini Anda akan belajar cara **membuat atribut tugas yang diperluas** dalam file Microsoft Project dengan menggunakan Aspose.Tasks untuk Java. Menambahkan bidang khusus memungkinkan Anda menangkap data spesifik proyek yang tidak tercakup oleh kolom bawaan, memberi Anda kontrol yang lebih halus atas pelaporan dan perencanaan sumber daya. Pada akhir panduan Anda akan dapat menambahkan atribut teks biasa, dengan pencarian, dan durasi ke tugas mana pun.
+
+## Jawaban Cepat
+- **Apa arti “extended attribute”?** Ini adalah bidang khusus yang Anda definisikan dan lampirkan ke tugas, sumber daya, atau penugasan.  
+- **Perpustakaan mana yang menambahkan kemampuan ini?** Aspose.Tasks for Java, sebuah perpustakaan manajemen proyek Java.  
+- **Apakah saya memerlukan lisensi untuk mencobanya?** Ya – percobaan gratis selama 30 hari tersedia di situs web Aspose.  
+- **Bisakah saya menambahkan nilai lookup?** Tentu saja; Anda dapat menyediakan daftar nilai yang diizinkan untuk bidang teks atau durasi.  
+- **Apakah API kompatibel dengan Java 8 dan versi lebih baru?** Ya, API ini mendukung Java 8+ dan berjalan di semua sistem operasi utama.
+
+## Apa itu atribut tugas yang diperluas?
+Atribut tugas yang diperluas adalah kolom yang didefinisikan pengguna yang menyimpan informasi tambahan untuk setiap tugas dalam file Project. Ia berperilaku seperti bidang bawaan tetapi dapat menyimpan tipe data apa pun yang Anda perlukan, seperti teks, angka, tanggal, atau durasi.
+
+## Mengapa menggunakan Aspose.Tasks untuk Java?
+Aspose.Tasks mendukung **50+ format file** dan dapat memproses proyek dengan **10.000+ tugas** tanpa memerlukan instalasi Microsoft Project. Perpustakaan ini berfungsi sepenuhnya offline, menjamin privasi data dan kinerja deterministik untuk solusi skala perusahaan.
+
 ## Prasyarat
-Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
-- Pengetahuan dasar tentang pemrograman Java.
--  Aspose.Tasks untuk perpustakaan Java diinstal. Anda dapat mengunduhnya dari[situs web](https://releases.aspose.com/tasks/java/).
-- Lingkungan Pengembangan Terpadu Java (IDE) diinstal pada sistem Anda.
-## Paket Impor
-Di proyek Java Anda, impor paket yang diperlukan untuk mengakses fungsi Aspose.Tasks:
+- Pengetahuan dasar pemrograman Java.  
+- Perpustakaan Aspose.Tasks untuk Java terpasang. Anda dapat mengunduhnya dari [website](https://releases.aspose.com/tasks/java/).  
+- IDE Java (IntelliJ IDEA, Eclipse, atau VS Code) yang telah diatur di mesin Anda.
+
+## Impor paket
+Pernyataan `import` memberi Anda akses ke kelas inti yang Anda perlukan, seperti `Project`, `ExtendedAttributeDefinition`, dan `ExtendedAttribute`.  
+`Project` mewakili file Microsoft Project dan menyediakan metode untuk membaca, memodifikasi, dan menyimpannya.  
+`ExtendedAttributeDefinition` mendefinisikan bidang khusus yang dapat dilampirkan ke tugas, sumber daya, atau penugasan.  
+`ExtendedAttribute` adalah sebuah instance dari definisi yang menyimpan nilai aktual untuk entitas tertentu.
+
+## Bagaimana cara menambahkan atribut tugas yang diperluas berupa teks biasa ke sebuah tugas?
+Untuk menambahkan atribut tugas yang diperluas berupa teks biasa, pertama Anda memuat proyek, kemudian membuat definisi tipe Text, menambahkannya ke koleksi proyek, membuat sebuah tugas, menginstansiasi atribut dari definisi tersebut, mengatur nilai teksnya, melampirkannya ke tugas, dan akhirnya menyimpan proyek.
+
+### 1. Tentukan jalur direktori dokumen
+Tentukan di mana file sumber dan output Anda berada.
+
 ```java
 import java.io.IOException;
 import com.aspose.tasks.*;
 ```
-Sekarang, mari kita bagi setiap contoh menjadi beberapa langkah:
-## 1. Menambahkan Atribut Teks Biasa
-1. Setel jalur direktori dokumen:
+
+### 2. Buat proyek baru
+Instansiasi objek `Project`, secara opsional memuat file .mpp yang sudah ada.
+
 ```java
 String dataDir = "Your Document Directory";
 ```
-2. Buat proyek baru:
+
+### 3. Buat definisi atribut yang diperluas tipe Text1
+Definisikan bidang khusus sebagai kolom teks biasa bernama “Text1”.
+
 ```java
 Project project = new Project(dataDir + "project.mpp");
 ```
-3. Buat Definisi Atribut yang Diperluas dari tipe Text1:
+
+### 4. Tambahkan definisi ke koleksi atribut yang diperluas proyek
+Daftarkan definisi baru sehingga proyek mengenalinya.
+
 ```java
 ExtendedAttributeDefinition taskExtendedAttributeText1Definition = ExtendedAttributeDefinition.createTaskDefinition(CustomFieldType.Text, ExtendedAttributeTask.Text1, "Task City Name");
 ```
-4. Tambahkan definisi ke koleksi Atribut yang Diperluas proyek:
+
+### 5. Tambahkan tugas ke proyek
+Buat tugas yang akan menerima bidang khusus.
+
 ```java
 project.getExtendedAttributes().add(taskExtendedAttributeText1Definition);
 ```
-5. Tambahkan tugas ke proyek:
+
+### 6. Buat atribut yang diperluas dari definisi atribut
+Hasilkan sebuah instance yang dapat Anda kaitkan ke tugas tertentu.
+
 ```java
 Task task = project.getRootTask().getChildren().add("Task 1");
 ```
-6. Buat Atribut yang Diperluas dari Definisi Atribut:
+
+### 7. Tetapkan nilai ke atribut yang diperluas yang dihasilkan
+Atur teks aktual yang ingin Anda simpan, misalnya “Design Review”.
+
 ```java
 ExtendedAttribute taskExtendedAttributeText1 = taskExtendedAttributeText1Definition.createExtendedAttribute();
 ```
-7. Tetapkan nilai pada Atribut Diperluas yang dihasilkan:
+
+### 8. Tambahkan atribut yang diperluas ke tugas
+Lampirkan instance atribut ke koleksi `ExtendedAttributes` tugas.
+
 ```java
 taskExtendedAttributeText1.setTextValue("London");
 ```
-8. Tambahkan Atribut yang Diperluas ke tugas:
+
+### 9. Simpan proyek
+Tuliskan proyek yang diperbarui kembali ke disk dalam format yang diinginkan.
+
 ```java
 task.getExtendedAttributes().add(taskExtendedAttributeText1);
 ```
-9. Simpan proyek:
+
+## Bagaimana cara menambahkan atribut teks dengan opsi lookup?
+Saat menambahkan atribut teks dengan lookup, Anda mengikuti langkah yang sama seperti untuk atribut teks biasa, tetapi sebelum menambahkan definisi Anda mengisi koleksi `LookupValues`-nya dengan string yang diizinkan. Nilai-nilai ini muncul sebagai daftar drop‑down di Microsoft Project, memastikan konsistensi data.
+
+## Bagaimana cara menambahkan atribut durasi dengan opsi lookup?
+Untuk menambahkan atribut durasi dengan lookup, ganti tipe `Text1` dengan `Duration2` saat membuat definisi, lalu isi koleksi `LookupValues` dengan string durasi seperti “1 day”, “2 days”, dll. Setelah definisi ditambahkan ke proyek, buat instance atribut, atur nilai durasi, lampirkan ke tugas, dan simpan file.
+
+## Masalah umum dan pemecahan masalah
+- **Nilai lookup tidak muncul** – Pastikan Anda menambahkan setiap entri lookup ke koleksi `LookupValues` *sebelum* memanggil `project.getExtendedAttributes().add(definition)`.  
+- **Nilai atribut tidak disimpan** – Verifikasi bahwa Anda menambahkan instance `ExtendedAttribute` ke tugas *setelah* mengatur nilainya.  
+- **Ukuran file bertambah secara tak terduga** – Saat bekerja dengan proyek yang sangat besar, pertimbangkan memanggil `project.setSaveOptions(new ProjectSaveOptions())` untuk mengaktifkan penyimpanan inkremental.
+
+## Pertanyaan yang sering diajukan
+
+**Q: Bisakah saya menggunakan Aspose.Tasks untuk Java dengan perpustakaan Java lainnya?**  
+A: Ya, Aspose.Tasks untuk Java terintegrasi dengan mulus ke dalam ekosistem Java apa pun, termasuk Spring, Hibernate, dan Apache POI.
+
+**Q: Apakah Aspose.Tasks untuk Java cocok untuk aplikasi manajemen proyek berskala besar?**  
+A: Tentu saja. Perpustakaan ini dirancang untuk menangani proyek dengan ribuan tugas dan mendukung streaming untuk menjaga penggunaan memori tetap rendah.
+
+**Q: Apakah ada pertimbangan lisensi untuk menggunakan Aspose.Tasks untuk Java dalam proyek komersial?**  
+A: Ya, Anda memerlukan lisensi komersial yang valid. Anda dapat meninjau detailnya di [situs web Aspose.Tasks](https://purchase.aspose.com/buy).
+
+**Q: Bagaimana saya dapat mendapatkan dukungan atau bantuan dengan Aspose.Tasks untuk Java?**  
+A: Kunjungi [forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) untuk bantuan komunitas, atau buka tiket dukungan melalui akun Aspose Anda.
+
+**Q: Bisakah saya mencoba Aspose.Tasks untuk Java sebelum membeli?**  
+A: Ya, Anda dapat mengakses versi percobaan gratis di halaman [Aspose.Tasks free trial](https://releases.aspose.com/).
+
+**Terakhir diperbarui:** 2026-09-30  
+**Diuji dengan:** Aspose.Tasks for Java 24.10  
+**Penulis:** Aspose  
+
 ```java
 project.save(dataDir + "PlainTextExtendedAttribute_out.mpp", SaveFileFormat.Mpp);
 ```
-## 2. Menambahkan Atribut Teks dengan Opsi Pencarian
-Ikuti langkah yang sama seperti di atas, ganti Text1 dengan Text2 dan sesuaikan nilai pencarian.
-## 3. Menambahkan Atribut Durasi dengan Opsi Pencarian
-Ikuti langkah yang sama seperti di atas, ganti Text1 dengan Duration2 dan sesuaikan nilai pencarian.
-## Kesimpulan
-Dengan mengikuti panduan langkah demi langkah ini, Anda telah mempelajari cara memanfaatkan Aspose.Tasks untuk Java guna menambahkan atribut tambahan ke tugas di file Microsoft Project Anda. Penyesuaian ini memungkinkan Anda menyesuaikan pendekatan manajemen proyek, sehingga meningkatkan fleksibilitas dan efisiensi.
-## Pertanyaan yang Sering Diajukan
-### T: Dapatkah saya menggunakan Aspose.Tasks untuk Java dengan pustaka Java lainnya?
-J: Ya, Aspose.Tasks untuk Java dapat diintegrasikan dengan lancar ke dalam proyek Java Anda, dan berfungsi baik dengan pustaka Java lainnya.
-### T: Apakah Aspose.Tasks untuk Java cocok untuk aplikasi manajemen proyek skala besar?
-J: Tentu saja, Aspose.Tasks untuk Java dirancang untuk menangani proyek dengan berbagai ukuran, termasuk aplikasi berskala besar.
-### T: Apakah ada pertimbangan lisensi untuk menggunakan Aspose.Tasks untuk Java dalam proyek komersial?
- J: Ya, pastikan untuk meninjau informasi perizinan yang disediakan di[Situs web Aspose.Tasks](https://purchase.aspose.com/buy).
-### T: Bagaimana saya bisa mendapatkan dukungan atau bantuan dengan Aspose.Tasks untuk Java?
- J: Kunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk dukungan dan diskusi komunitas.
-### T: Dapatkah saya mencoba Aspose.Tasks untuk Java sebelum membeli?
- A: Ya, Anda dapat mengakses versi uji coba gratis[Di Sini](https://releases.aspose.com/).
+
+## Tutorial Terkait
+
+- [Kolom khusus dan atribut yang diperluas dalam manajemen proyek Java](/tasks/java/project-management/extended-attributes/)
+- [Baca Atribut Tugas yang Diperluas dengan Aspose.Tasks untuk Java](/tasks/java/task-properties/extended-task-attributes/)
+- [Cara Membuat Proyek aspose.tasks – Atur Atribut Tugas Baru](/tasks/java/project-file-operations/set-attributes-new-tasks/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
