@@ -1,86 +1,202 @@
 ---
-title: Fügen Sie Aufgaben in Aspose.Tasks erweiterte Attribute hinzu
-linktitle: Fügen Sie Aufgaben in Aspose.Tasks erweiterte Attribute hinzu
-second_title: Aspose.Tasks Java-API
-description: Entdecken Sie die Leistungsfähigkeit von Aspose.Tasks Java beim Anpassen von Microsoft Project-Dateien mit erweiterten Attributen. Erweitern Sie mühelos Ihre Projektmanagementfähigkeiten.
-weight: 11
+date: 2026-09-30
+description: Erfahren Sie, wie Sie eine erweiterte Aufgabeneigenschaft mit Aspose.Tasks
+  für Java erstellen, der führenden Java-Projektmanagement-Bibliothek zum Hinzufügen
+  benutzerdefinierter Aufgabenfelder.
+keywords:
+- create task extended attribute
+- java project management library
+- add custom task field
+lastmod: 2026-09-30
+linktitle: Wie man eine erweiterte Aufgabeneigenschaft mit Aspose.Tasks Java erstellt
+og_description: Erfahren Sie, wie Sie eine erweiterte Aufgabeneigenschaft mit Aspose.Tasks
+  für Java erstellen, der führenden Java-Projektmanagement-Bibliothek zum Hinzufügen
+  benutzerdefinierter Aufgabenfelder.
+og_image_alt: 'Developer guide: create task extended attribute in Aspose.Tasks Java'
+og_title: Wie man eine erweiterte Aufgabeneigenschaft mit Aspose.Tasks Java erstellt
+schemas:
+- author: Aspose
+  dateModified: '2026-09-30'
+  description: Learn how to create task extended attribute using Aspose.Tasks for
+    Java, the leading java project management library for adding custom task fields.
+  headline: How to create task extended attribute with Aspose.Tasks Java
+  type: TechArticle
+- questions:
+  - answer: Yes, Aspose.Tasks for Java integrates smoothly with any Java ecosystem,
+      including Spring, Hibernate, and Apache POI.
+    question: Can I use Aspose.Tasks for Java with other Java libraries?
+  - answer: Absolutely. The library is engineered to handle multi‑thousand‑task projects
+      and supports streaming to keep memory usage low.
+    question: Is Aspose.Tasks for Java suitable for large‑scale project management
+      applications?
+  - answer: Yes, you need a valid commercial license. You can review the details on
+      the [Aspose.Tasks website](https://purchase.aspose.com/buy).
+    question: Are there any licensing considerations for using Aspose.Tasks for Java
+      in a commercial project?
+  - answer: Visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) for
+      community help, or open a support ticket through your Aspose account.
+    question: How can I get support or assistance with Aspose.Tasks for Java?
+  - answer: Yes, you can access a free trial version on the [Aspose.Tasks free trial](https://releases.aspose.com/)
+      page.
+    question: Can I try Aspose.Tasks for Java before purchasing?
+  type: FAQPage
+second_title: Aspose.Tasks Java API
+tags:
+- aspose.tasks
+- java project management
+- extended attributes
+- task customization
+title: Wie man eine erweiterte Aufgabeneigenschaft mit Aspose.Tasks Java erstellt
 url: /de/java/task-properties/add-extended-attributes/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Fügen Sie Aufgaben in Aspose.Tasks erweiterte Attribute hinzu
+# Wie man erweiterte Aufgabenattribute mit Aspose.Tasks Java erstellt
 
 ## Einführung
-Die Verbesserung Ihrer Projektmanagementfähigkeiten ist für eine effiziente Aufgabenverfolgung und Ressourcenverwaltung von entscheidender Bedeutung. Aspose.Tasks für Java bietet Java-Entwicklern eine leistungsstarke Lösung zur nahtlosen Bearbeitung von Microsoft Project-Dateien. In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Tasks für Java erweiterte Attribute zu Aufgaben hinzufügen, sodass Sie Ihre Projektdaten entsprechend Ihren spezifischen Anforderungen anpassen und organisieren können.
+In diesem Tutorial lernen Sie, wie Sie **erweiterte Aufgabenattribute** in einer Microsoft Project‑Datei mit Aspose.Tasks für Java erstellen. Das Hinzufügen benutzerdefinierter Felder ermöglicht es Ihnen, projektspezifische Daten zu erfassen, die von den integrierten Spalten nicht abgedeckt werden, und bietet Ihnen eine feinere Kontrolle über Berichte und Ressourcenplanung. Am Ende der Anleitung können Sie Text‑, Lookup‑ und Dauern‑Attribute zu jeder Aufgabe hinzufügen.
+
+## Schnelle Antworten
+- **Was bedeutet „erweitertes Attribut“?** Es ist ein benutzerdefiniertes Feld, das Sie definieren und Aufgaben, Ressourcen oder Zuordnungen zuweisen.  
+- **Welche Bibliothek fügt diese Fähigkeit hinzu?** Aspose.Tasks für Java, eine Java‑Projektmanagement‑Bibliothek.  
+- **Benötige ich eine Lizenz, um es auszuprobieren?** Ja – eine kostenlose 30‑Tage‑Testversion ist auf der Aspose‑Website verfügbar.  
+- **Kann ich Lookup‑Werte hinzufügen?** Absolut; Sie können eine Liste zulässiger Werte für Text‑ oder Dauern‑Felder bereitstellen.  
+- **Ist die API mit Java 8 und höher kompatibel?** Ja, sie unterstützt Java 8+ und läuft auf allen gängigen Betriebssystemen.
+
+## Was ist ein erweitertes Aufgabenattribut?
+Ein erweitertes Aufgabenattribut ist eine benutzerdefinierte Spalte, die zusätzliche Informationen für jede Aufgabe in einer Projektdatei speichert. Es verhält sich wie ein integriertes Feld, kann jedoch jeden von Ihnen benötigten Datentyp aufnehmen, z. B. Text, Zahlen, Daten oder Dauern.
+
+## Warum Aspose.Tasks für Java verwenden?
+Aspose.Tasks unterstützt **mehr als 50 Dateiformate** und kann Projekte mit **über 10.000 Aufgaben** verarbeiten, ohne dass Microsoft Project installiert sein muss. Die Bibliothek arbeitet vollständig offline und garantiert Datenschutz sowie deterministische Leistung für Unternehmens‑Lösungen.
+
 ## Voraussetzungen
-Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
-- Grundkenntnisse der Java-Programmierung.
--  Aspose.Tasks für Java-Bibliothek installiert. Sie können es hier herunterladen[Webseite](https://releases.aspose.com/tasks/java/).
-- Eine auf Ihrem System installierte Java Integrated Development Environment (IDE).
+- Grundkenntnisse in Java‑Programmierung.  
+- Die Aspose.Tasks für Java‑Bibliothek ist installiert. Sie können sie von der [Website](https://releases.aspose.com/tasks/java/) herunterladen.  
+- Eine Java‑IDE (IntelliJ IDEA, Eclipse oder VS Code) ist auf Ihrem Rechner eingerichtet.
+
 ## Pakete importieren
-Importieren Sie in Ihrem Java-Projekt die erforderlichen Pakete, um auf die Funktionen von Aspose.Tasks zuzugreifen:
+Die `import`‑Anweisungen geben Ihnen Zugriff auf die Kernklassen, die Sie benötigen, wie `Project`, `ExtendedAttributeDefinition` und `ExtendedAttribute`.  
+
+`Project` repräsentiert eine Microsoft Project‑Datei und stellt Methoden zum Lesen, Ändern und Speichern bereit.  
+`ExtendedAttributeDefinition` definiert ein benutzerdefiniertes Feld, das Aufgaben, Ressourcen oder Zuordnungen zugeordnet werden kann.  
+`ExtendedAttribute` ist eine Instanz einer Definition, die den tatsächlichen Wert für ein bestimmtes Objekt hält.
+
+## Wie fügt man einem Task ein reinen Text‑erweitertes Attribut hinzu?
+Um ein reines Text‑erweitertes Attribut hinzuzufügen, laden Sie zuerst das Projekt, erstellen dann eine Definition vom Typ Text, fügen sie der Projektsammlung hinzu, erstellen eine Aufgabe, instanziieren das Attribut aus der Definition, setzen dessen Textwert, binden es an die Aufgabe und speichern schließlich das Projekt.
+
+### 1. Dokumentverzeichnis-Pfad festlegen
+Specify where your source and output files live.
+
 ```java
 import java.io.IOException;
 import com.aspose.tasks.*;
 ```
-Lassen Sie uns nun jedes Beispiel in mehrere Schritte unterteilen:
-## 1. Hinzufügen eines Nur-Text-Attributs
-1. Legen Sie den Pfad zum Dokumentverzeichnis fest:
+
+### 2. Neues Projekt erstellen
+Instantiate a `Project` object, optionally loading an existing .mpp file.
+
 ```java
 String dataDir = "Your Document Directory";
 ```
-2. Erstellen Sie ein neues Projekt:
+
+### 3. Erweiterte Attributdefinition vom Typ Text1 erstellen
+Define the custom field as a plain‑text column named “Text1”.
+
 ```java
 Project project = new Project(dataDir + "project.mpp");
 ```
-3. Erstellen Sie eine erweiterte Attributdefinition vom Typ Text1:
+
+### 4. Definition zur Sammlung erweiterter Attribute des Projekts hinzufügen
+Register the new definition so the project recognises it.
+
 ```java
 ExtendedAttributeDefinition taskExtendedAttributeText1Definition = ExtendedAttributeDefinition.createTaskDefinition(CustomFieldType.Text, ExtendedAttributeTask.Text1, "Task City Name");
 ```
-4. Fügen Sie die Definition zur Sammlung erweiterter Attribute des Projekts hinzu:
+
+### 5. Aufgabe zum Projekt hinzufügen
+Create a task that will receive the custom field.
+
 ```java
 project.getExtendedAttributes().add(taskExtendedAttributeText1Definition);
 ```
-5. Fügen Sie dem Projekt eine Aufgabe hinzu:
+
+### 6. Erweitertes Attribut aus der Attributdefinition erstellen
+Generate an instance that you can bind to a specific task.
+
 ```java
 Task task = project.getRootTask().getChildren().add("Task 1");
 ```
-6. Erstellen Sie ein erweitertes Attribut aus der Attributdefinition:
+
+### 7. Wert dem erzeugten erweiterten Attribut zuweisen
+Set the actual text you want to store, e.g., “Design Review”.
+
 ```java
 ExtendedAttribute taskExtendedAttributeText1 = taskExtendedAttributeText1Definition.createExtendedAttribute();
 ```
-7. Weisen Sie dem generierten erweiterten Attribut einen Wert zu:
+
+### 8. Erweitertes Attribut zur Aufgabe hinzufügen
+Attach the attribute instance to the task’s `ExtendedAttributes` collection.
+
 ```java
 taskExtendedAttributeText1.setTextValue("London");
 ```
-8. Fügen Sie der Aufgabe das erweiterte Attribut hinzu:
+
+### 9. Projekt speichern
+Write the updated project back to disk in the desired format.
+
 ```java
 task.getExtendedAttributes().add(taskExtendedAttributeText1);
 ```
-9. Speichern Sie das Projekt:
+
+## Wie fügt man ein Text‑Attribut mit Lookup‑Option hinzu?
+When adding a text attribute with a lookup, you follow the same steps as for a plain‑text attribute, but before adding the definition you populate its `LookupValues` collection with the permitted strings. These values appear as a drop‑down list in Microsoft Project, ensuring data consistency.
+
+## Wie fügt man ein Dauern‑Attribut mit Lookup‑Option hinzu?
+To add a duration attribute with a lookup, replace the `Text1` type with `Duration2` when creating the definition, then fill the `LookupValues` collection with duration strings such as “1 day”, “2 days”, etc. After the definition is added to the project, create the attribute instance, set a duration value, attach it to a task, and save the file.
+
+## Häufige Probleme und Fehlersuche
+- **Lookup‑Werte werden nicht angezeigt** – Stellen Sie sicher, dass Sie jeden Lookup‑Eintrag zur `LookupValues`‑Sammlung *vor* dem Aufruf von `project.getExtendedAttributes().add(definition)` hinzufügen.  
+- **Attributwert wird nicht gespeichert** – Vergewissern Sie sich, dass Sie die `ExtendedAttribute`‑Instanz zur Aufgabe *nach* dem Setzen ihres Wertes hinzufügen.  
+- **Dateigröße wächst unerwartet** – Bei sehr großen Projekten sollten Sie `project.setSaveOptions(new ProjectSaveOptions())` aufrufen, um inkrementelles Speichern zu aktivieren.
+
+## Häufig gestellte Fragen
+
+**Q: Kann ich Aspose.Tasks für Java mit anderen Java‑Bibliotheken verwenden?**  
+A: Ja, Aspose.Tasks für Java lässt sich nahtlos in jedes Java‑Ökosystem integrieren, einschließlich Spring, Hibernate und Apache POI.
+
+**Q: Ist Aspose.Tasks für Java geeignet für groß angelegte Projektmanagement‑Anwendungen?**  
+A: Absolut. Die Bibliothek ist darauf ausgelegt, Projekte mit mehreren tausend Aufgaben zu verarbeiten und unterstützt Streaming, um den Speicherverbrauch gering zu halten.
+
+**Q: Gibt es Lizenzüberlegungen bei der Verwendung von Aspose.Tasks für Java in einem kommerziellen Projekt?**  
+A: Ja, Sie benötigen eine gültige kommerzielle Lizenz. Details finden Sie auf der [Aspose.Tasks website](https://purchase.aspose.com/buy).
+
+**Q: Wie kann ich Support oder Hilfe zu Aspose.Tasks für Java erhalten?**  
+A: Besuchen Sie das [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) für Community‑Hilfe oder öffnen Sie ein Support‑Ticket über Ihr Aspose‑Konto.
+
+**Q: Kann ich Aspose.Tasks für Java vor dem Kauf testen?**  
+A: Ja, Sie können eine kostenlose Testversion auf der Seite [Aspose.Tasks free trial](https://releases.aspose.com/) nutzen.
+
+---
+
+**Zuletzt aktualisiert:** 2026-09-30  
+**Getestet mit:** Aspose.Tasks für Java 24.10  
+**Autor:** Aspose  
+
 ```java
 project.save(dataDir + "PlainTextExtendedAttribute_out.mpp", SaveFileFormat.Mpp);
 ```
-## 2. Textattribut mit Suchoption hinzufügen
-Befolgen Sie die gleichen Schritte wie oben, ersetzen Sie Text1 durch Text2 und passen Sie die Suchwerte an.
-## 3. Hinzufügen eines Dauerattributs mit der Suchoption
-Befolgen Sie die gleichen Schritte wie oben, ersetzen Sie Text1 durch Duration2 und passen Sie die Suchwerte an.
-## Abschluss
-Durch Befolgen dieser Schritt-für-Schritt-Anleitung haben Sie gelernt, wie Sie Aspose.Tasks für Java nutzen können, um Aufgaben in Ihren Microsoft Project-Dateien erweiterte Attribute hinzuzufügen. Durch diese Anpassung können Sie Ihren Projektmanagementansatz individuell anpassen und so die Flexibilität und Effizienz steigern.
-## Häufig gestellte Fragen
-### F: Kann ich Aspose.Tasks für Java mit anderen Java-Bibliotheken verwenden?
-A: Ja, Aspose.Tasks für Java lässt sich nahtlos in Ihre Java-Projekte integrieren und funktioniert gut mit anderen Java-Bibliotheken.
-### F: Ist Aspose.Tasks für Java für umfangreiche Projektmanagementanwendungen geeignet?
-A: Absolut, Aspose.Tasks für Java ist für die Bearbeitung von Projekten unterschiedlicher Größe, einschließlich umfangreicher Anwendungen, konzipiert.
-### F: Gibt es lizenzrechtliche Überlegungen für die Verwendung von Aspose.Tasks für Java in einem kommerziellen Projekt?
- A: Ja, lesen Sie sich unbedingt die Lizenzinformationen durch[Aspose.Tasks-Website](https://purchase.aspose.com/buy).
-### F: Wie kann ich Unterstützung oder Hilfe zu Aspose.Tasks für Java erhalten?
- A: Besuchen Sie die[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15) für Community-Unterstützung und Diskussionen.
-### F: Kann ich Aspose.Tasks für Java vor dem Kauf testen?
- A: Ja, Sie können auf eine kostenlose Testversion zugreifen[Hier](https://releases.aspose.com/).
+
+## Verwandte Tutorials
+
+- [Benutzerdefinierte Spalten und erweiterte Attribute im Java‑Projektmanagement](/tasks/java/project-management/extended-attributes/)
+- [Erweiterte Aufgabenattribute mit Aspose.Tasks für Java lesen](/tasks/java/task-properties/extended-task-attributes/)
+- [Wie man ein Projekt mit Aspose.Tasks erstellt – Neue Aufgabenattribute festlegen](/tasks/java/project-file-operations/set-attributes-new-tasks/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

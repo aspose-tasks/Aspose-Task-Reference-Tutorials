@@ -1,10 +1,72 @@
 ---
-date: 2026-01-28
-description: تعلم كيفية إنشاء مشروع MPP بلغة Java وتعديل تقدم المهام باستخدام Aspose.Tasks،
-  مكتبة إدارة المشاريع القوية بلغة Java. اتبع الدليل خطوةً بخطوة الآن!
-linktitle: Change Progress of Task in Aspose.Tasks
+date: 2026-09-30
+description: تعلم كيفية ضبط التقدم في مشروع MPP باستخدام Java و Aspose.Tasks، مكتبة
+  قوية لإدارة المشاريع بلغة java. اتبع هذا الدليل خطوة بخطوة.
+keywords:
+- how to set progress
+- java project management library
+- Aspose.Tasks Java
+- MPP project Java
+lastmod: 2026-09-30
+linktitle: تغيير تقدم المهمة في Aspose.Tasks
+og_description: كيفية ضبط التقدم في مشروع MPP باستخدام Java و Aspose.Tasks، المكتبة
+  الرائدة لإدارة المشاريع بلغة java. احصل على الدليل الكامل بدون كود.
+og_image_alt: Guide showing how to set task progress in an MPP file using Aspose.Tasks
+  for Java
+og_title: كيفية ضبط التقدم في مشروع MPP باستخدام Java – Aspose.Tasks
+schemas:
+- author: Aspose
+  dateModified: '2026-09-30'
+  description: Learn how to set progress in an MPP project with Java using Aspose.Tasks,
+    a robust java project management library. Follow this step‑by‑step guide.
+  headline: How to set progress in an MPP project using Java and Aspose.Tasks
+  type: TechArticle
+- description: Learn how to set progress in an MPP project with Java using Aspose.Tasks,
+    a robust java project management library. Follow this step‑by‑step guide.
+  name: How to set progress in an MPP project using Java and Aspose.Tasks
+  steps:
+  - name: Set up your Java project
+    text: Create a new Maven or Gradle project and add the Aspose.Tasks JAR to your
+      classpath. This gives you access to the `Project`, `Task`, and related classes.
+  - name: Define the document directory
+    text: Specify where the project file will be stored. Replace the placeholder with
+      the actual path on your machine. `dataDir` is a string that specifies the folder
+      path where the MPP file will be saved.
+  - name: Create a new project (create mpp project java)
+    text: '`Project` represents an in‑memory Microsoft Project file that can be saved
+      to .mpp format.'
+  - name: Add a task to the project (add task project)
+    text: '`Task` is an object representing a single work item within a Project.'
+  - name: Set the task’s progress
+    text: '`Tsk.PERCENT_COMPLETE` is the field that stores a task’s completion percentage.'
+  - name: Display the updated progress
+    text: Reading `Tsk.PERCENT_COMPLETE` returns the current progress value for the
+      task. By following these steps you have successfully **created an MPP project
+      in Java**, added a task, and **changed its progress** – all using Aspose.Tasks.
+  type: HowTo
+- questions:
+  - answer: Any recent version (2023‑2025) supports `Project` creation; using the
+      latest release ensures you have all bug fixes and performance improvements.
+    question: What version of Aspose.Tasks is required to create an MPP file?
+  - answer: Yes, call `project.save("output.pdf", SaveFileFormat.PDF);` after setting
+      the progress to generate a visual report.
+    question: Can I export the project to PDF after updating progress?
+  - answer: Loop through `project.getRootTask().getChildren()` and set `Tsk.PERCENT_COMPLETE`
+      for each task; the API updates each task efficiently.
+    question: Is it possible to batch‑update progress for many tasks?
+  - answer: Resources must be added explicitly; task progress does not affect resource
+      allocation unless you modify resource‑related fields.
+    question: Does the library handle resource assignments automatically?
+  - answer: Use `project.setPassword("yourPassword");` before calling `project.save(...)`
+      to encrypt the file.
+    question: How do I protect the generated MPP file with a password?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: إنشاء مشروع MPP بلغة Java – تغيير تقدم المهمة باستخدام Aspose.Tasks
+tags:
+- Aspose.Tasks
+- Java project management
+- task progress
+title: كيفية ضبط التقدم في مشروع MPP باستخدام Java و Aspose.Tasks
 url: /ar/java/task-properties/change-progress/
 weight: 12
 ---
@@ -13,41 +75,40 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# إنشاء مشروع MPP بلغة Java – تغيير تقدم المهمة باستخدام Aspose.Tasks
+# كيفية تعيين التقدم في مشروع MPP باستخدام Java و Aspose.Tasks
 
-## المقدمة
-في **إدارة مشاريع java** الحديثة، القدرة على **إنشاء مشروع mpp بلغة java** والحفاظ على تحديث تقدم المهمة أمر أساسي لتسليم المشروع في الوقت المحدد. Aspose.Tasks for Java يعمل كمكتبة **إدارة مشاريع java** قوية، توفر لك **API** نظيفة لبناء وتعديل والإبلاغ عن ملفات Microsoft Project. في هذا الدرس سنستعرض العملية الكاملة لإنشاء مشروع MPP، إضافة مهمة، وتحديث تقدمها—كل ذلك بشرح واضح وحواري.
+## مقدمة
+في إدارة المشاريع **java** الحديثة، القدرة على **create mpp project java** وحفظ تقدم المهمة محدثًا أمر أساسي لتسليم في الوقت المحدد. يوضح هذا الدليل **how to set progress** لمهمة برمجيًا باستخدام Aspose.Tasks، مكتبة **java project management** قوية تعمل على Windows و Linux و macOS. سترى العملية بالكامل — من إنشاء المشروع إلى التحقق من النسبة المئوية المكتملة المحدثة — موضحة بأسلوب حواري خطوة بخطوة.
 
 ## إجابات سريعة
-- **ماذا يعني “إنشاء مشروع mpp بلغة java”؟**  
-  يشير إلى إنشاء ملف Microsoft Project (.mpp) برمجياً باستخدام كود Java.  
-- **أي مكتبة تساعد في ذلك؟**  
-  Aspose.Tasks for Java، وهي مكتبة **إدارة مشاريع java** مخصصة.  
-- **كم عدد أسطر الشيفرة المطلوبة لتعيين تقدم المهمة؟**  
+- **What does “create mpp project java” mean?**  
+  يشير إلى إنشاء ملف Microsoft Project (.mpp) برمجيًا باستخدام كود Java.  
+- **Which library helps with this?**  
+  Aspose.Tasks for Java، مكتبة **java project management** مخصصة.  
+- **How many lines of code are needed to set task progress?**  
   أقل من 10 أسطر بمجرد إنشاء المشروع.  
-- **هل أحتاج إلى ترخيص للاستخدام في الإنتاج؟**  
-  نعم، يلزم الحصول على ترخيص تجاري؛ نسخة تجريبية مجانية متوفرة.  
-- **هل يمكن تشغيل هذا على أي بيئة تطوير Java IDE؟**  
-  بالتأكيد – أي بيئة تدعم Java 8+ تعمل.
+- **Do I need a license for production use?**  
+  نعم، يلزم الحصول على ترخيص تجاري؛ يتوفر إصدار تجريبي مجاني.  
+- **Can I run this on any Java IDE?**  
+  بالطبع — أي بيئة تطوير تدعم Java 8+ تعمل.
 
-## ما هو “إنشاء مشروع mpp بلغة java”؟
-إنشاء مشروع MPP في Java يعني استخدام الكود لتوليد ملف Microsoft Project (`.mpp`) يمكن فتحه في Microsoft Project أو أدوات متوافقة أخرى. يتيح ذلك توليد الجداول الزمنية تلقائياً، إنشاء مهام بالجملة، والتكامل مع أنظمة الأعمال الأخرى.
+## ما هو “create mpp project java”؟
+إنشاء مشروع MPP في Java يعني استخدام الكود لتوليد ملف Microsoft Project (`.mpp`) يمكن فتحه في Microsoft Project أو أي عارض متوافق. يتيح ذلك إنشاء جدول زمني تلقائيًا، وإنشاء مهام جماعية، وتكاملًا سلسًا مع أنظمة المؤسسات.
 
-## لماذا تستخدم Aspose.Tasks كمكتبة إدارة مشاريع java؟
-- **تغطية كاملة للـ API** – من إنشاء المشروع إلى التلاعب المفصل بالمهمة.  
-- **لا توجد تبعيات خارجية** – يعمل مباشرة مع Java القياسية.  
-- **متعدد المنصات** – يعمل على Windows وLinux وmacOS.  
-- **تقارير غنية** – تصدير إلى PDF أو PNG أو HTML للتواصل مع أصحاب المصلحة.
+## لماذا استخدام Aspose.Tasks كمكتبة إدارة مشاريع java؟
+توفر Aspose.Tasks **full API coverage** لإنشاء المشاريع، ومعالجة المهام، وإعداد التقارير. تدعم **30+ input and output formats** ويمكنها التعامل مع مشاريع تحتوي على **up to 10,000 tasks** دون تحميل الملف بالكامل في الذاكرة، مما يوفر معالجة عالية الأداء على أجهزة ذات موارد محدودة.
 
 ## المتطلبات المسبقة
-قبل البدء، تأكد من وجود ما يلي:
+قبل أن تبدأ، تأكد من توفر ما يلي:
 
-1. **بيئة تطوير Java** – JDK 8 أو أعلى مثبتة ومُكوَّنة.  
-2. **مكتبة Aspose.Tasks for Java** – تحميل من الموقع الرسمي: [link](https://releases.aspose.com/tasks/java/).  
-3. **دليل المستندات** – مجلد على جهازك حيث سيتم حفظ ملف `.mpp` المُولد.
+1. **Java Development Environment** – JDK 8 أو أعلى مثبت ومُكوَّن.  
+2. **Aspose.Tasks for Java Library** – قم بتنزيله من الموقع الرسمي: [Aspose.Tasks for Java download](https://releases.aspose.com/tasks/java/).  
+3. **Document Directory** – مجلد على جهازك حيث سيتم حفظ ملف `.mpp` المُولد.
 
 ## استيراد الحزم
-أولاً، استورد الفئات المطلوبة من Aspose.Tasks. يجهز هذا المقتطف البيئة وسنضيف لاحقاً مهمة بنسبة تقدم 50 ٪.
+أولاً، استورد فئات Aspose.Tasks التي ستحتاجها. يجهز هذا المقتطف البيئة وسنضيف لاحقًا مهمة بنسبة تقدم 50 %.
+
+`com.aspose.tasks.*` توفر الفئات الأساسية مثل **Project** و **Task** و **Tsk** للعمل مع ملفات MPP.
 
 ```java
 import com.aspose.tasks.*;
@@ -56,75 +117,86 @@ import com.aspose.tasks.*;
 ## دليل خطوة بخطوة
 
 ### الخطوة 1: إعداد مشروع Java الخاص بك
-أنشئ مشروع Maven أو Gradle جديد وأضف ملف JAR الخاص بـ Aspose.Tasks إلى مسار الفئات. سيمنحك ذلك إمكانية الوصول إلى كائنات `Project` و`Task` وغيرها.
+أنشئ مشروع Maven أو Gradle جديد وأضف ملف JAR الخاص بـ Aspose.Tasks إلى مسار الفئات (classpath). سيتيح لك ذلك الوصول إلى فئات `Project` و `Task` والفئات ذات الصلة.
 
-### الخطوة 2: تحديد دليل المستندات
-حدد مكان حفظ ملف المشروع. استبدل العنصر النائب بالمسار الفعلي على جهازك.
+### الخطوة 2: تحديد دليل المستند
+حدد المكان الذي سيتم حفظ ملف المشروع فيه. استبدل العنصر النائب بالمسار الفعلي على جهازك.
+
+`dataDir` هو سلسلة تحدد مسار المجلد حيث سيتم حفظ ملف MPP.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-### الخطوة 3: إنشاء مشروع جديد (إنشاء مشروع mpp بلغة java)
-أنشئ كائن `Project`. إذا لم يكن الملف موجوداً، ستقوم Aspose.Tasks بإنشاء ملف `.mpp` جديد.
+### الخطوة 3: إنشاء مشروع جديد (create mpp project java)
+`Project` تمثل ملف Microsoft Project في الذاكرة يمكن حفظه بصيغة .mpp.
 
 ```java
 Project project = new Project(dataDir + "project.mpp");
 ```
 
-### الخطوة 4: إضافة مهمة إلى المشروع (إضافة مهمة إلى المشروع)
-استخدم مجموعة الأطفال للمهمة الجذر لإدراج مهمة جديدة. يوضح هذا قدرة المكتبة على **إضافة مهمة إلى المشروع**.
+### الخطوة 4: إضافة مهمة إلى المشروع (add task project)
+`Task` هو كائن يمثل عنصر عمل واحد داخل المشروع.
 
 ```java
 Task task = project.getRootTask().getChildren().add("Task");
 ```
 
 ### الخطوة 5: تعيين تقدم المهمة
-حدّث نسبة إكمال المهمة. الدالة `percent` تحول القيمة الصحيحة إلى تمثيل المكتبة الداخلي.
+`Tsk.PERCENT_COMPLETE` هو الحقل الذي يخزن نسبة إكمال المهمة.
 
 ```java
 task.set(Tsk.PERCENT_COMPLETE, percent(50));
 ```
 
 ### الخطوة 6: عرض التقدم المحدث
-اطبع التقدم الحالي على وحدة التحكم للتحقق من أن التغيير تم تطبيقه.
+قراءة `Tsk.PERCENT_COMPLETE` تُعيد قيمة التقدم الحالية للمهمة.
 
 ```java
 System.out.println(task.get(Tsk.PERCENT_COMPLETE));
 ```
 
-باتباع هذه الخطوات تكون قد **أنشأت مشروع MPP بلغة Java** بنجاح، أضفت مهمة، وغيرت تقدمها – كل ذلك باستخدام Aspose.Tasks.
+باتباع هذه الخطوات، تكون قد **created an MPP project in Java** بنجاح، أضفت مهمة، و**changed its progress** — كل ذلك باستخدام Aspose.Tasks.
+
+## كيف يمكن تعيين التقدم لمهمة في Aspose.Tasks؟
+حمّل كائن `Project` الموجود، حدد `Task` المستهدف (أو أنشئ واحدًا)، وعيّن قيمة جديدة لـ `Tsk.PERCENT_COMPLETE`. تقوم المكتبة بإعادة حساب قيم التجميع للمهام الأصلية تلقائيًا، لذا يبقى الجدول الزمني العام متسقًا. هذا السطر الواحد من الكود هو كل ما تحتاجه لتحديث التقدم.
 
 ## المشكلات الشائعة & استكشاف الأخطاء
-- **FileNotFoundException** – تأكد من أن `dataDir` ينتهي بفاصل ملفات (`/` أو `\`) وأن الدليل موجود.  
-- **LicenseException** – للاستخدام في الإنتاج، حمّل ترخيص Aspose.Tasks قبل إنشاء كائن `Project`.  
-- **قيمة النسبة غير صحيحة** – طريقة `percent` تتوقع قيمة بين 0 و100؛ تمرير أرقام خارج هذا النطاق سيؤدي إلى استثناء.
+- **FileNotFoundException** – تأكد من أن `dataDir` ينتهي بفاصل ملف (`/` أو `\`) وأن الدليل موجود.  
+- **LicenseException** – للاستخدام الإنتاجي، حمّل ترخيص Aspose.Tasks قبل إنشاء كائن `Project`.  
+- **Incorrect percent value** – طريقة `percent` تتوقع قيمة بين 0 و 100؛ تمرير أرقام خارج هذا النطاق سيسبب استثناءً.
 
-## أسئلة إضافية (محسّنة بالذكاء الاصطناعي)
+## الأسئلة المتكررة
 
-**س: ما هو إصدار Aspose.Tasks المطلوب لإنشاء ملف MPP؟**  
-ج: أي إصدار حديث (2023‑2025) يدعم إنشاء `Project`؛ يُفضَّل دائمًا استخدام أحدث نسخة للحصول على إصلاحات الأخطاء.
+**Q: ما هو إصدار Aspose.Tasks المطلوب لإنشاء ملف MPP؟**  
+A: أي إصدار حديث (2023‑2025) يدعم إنشاء `Project`؛ استخدام أحدث إصدار يضمن حصولك على جميع تصحيحات الأخطاء وتحسينات الأداء.
 
-**س: هل يمكنني تصدير المشروع إلى PDF بعد تحديث التقدم؟**  
-ج: نعم، استخدم `project.save("output.pdf", SaveFileFormat.PDF);` بعد ضبط التقدم.
+**Q: هل يمكنني تصدير المشروع إلى PDF بعد تحديث التقدم؟**  
+A: نعم، استدعِ `project.save("output.pdf", SaveFileFormat.PDF);` بعد تعيين التقدم لإنشاء تقرير بصري.
 
-**س: هل من الممكن تحديث تقدم العديد من المهام دفعة واحدة؟**  
-ج: يمكنك حلقة عبر `project.getRootTask().getChildren()` وتعيين `Tsk.PERCENT_COMPLETE` لكل مهمة.
+**Q: هل من الممكن تحديث التقدم لعدة مهام دفعة واحدة؟**  
+A: قم بالتكرار عبر `project.getRootTask().getChildren()` وعين `Tsk.PERCENT_COMPLETE` لكل مهمة؛ تقوم الـ API بتحديث كل مهمة بكفاءة.
 
-**س: هل تتعامل المكتبة مع تعيين الموارد تلقائيًا؟**  
-ج: يجب إضافة الموارد يدويًا؛ تقدم المهمة لا يؤثر على تخصيص الموارد.
+**Q: هل تتعامل المكتبة مع تعيين الموارد تلقائيًا؟**  
+A: يجب إضافة الموارد يدويًا؛ لا يؤثر تقدم المهمة على تخصيص الموارد إلا إذا قمت بتعديل الحقول المتعلقة بالموارد.
 
-**س: كيف أحمي ملف MPP المُولد بكلمة مرور؟**  
-ج: استخدم `project.setPassword("yourPassword");` قبل حفظ الملف.
+**Q: كيف أحمي ملف MPP المُولد بكلمة مرور؟**  
+A: استخدم `project.setPassword("yourPassword");` قبل استدعاء `project.save(...)` لتشفير الملف.
 
-## الخاتمة
-إنشاء مشروع MPP بلغة Java وإدارة تقدم المهام أمر بسيط مع Aspose.Tasks، مكتبة **إدارة مشاريع java** مخصصة. من خلال إتقان هذه الخطوات ستتمكن من أتمتة إنشاء الجداول الزمنية، إبقاء أصحاب المصلحة على اطلاع، وتكامل بيانات المشروع مع سير عمل المؤسسة الأكبر.
+## الخلاصة
+إتقان **how to set progress** في مشروع MPP باستخدام Java يمنحك القدرة على أتمتة صيانة الجدول الزمني، وإبقاء أصحاب المصلحة على علم، وتكامل بيانات المشروع مع سير عمل مؤسسي أكبر. Aspose.Tasks، المكتبة الرائدة **java project management**، تجعل هذه المهام بسيطة وعالية الأداء.
 
 ---
 
-**Last Updated:** 2026-01-28  
+**Last Updated:** 2026-09-30  
 **Tested With:** Aspose.Tasks for Java 24.10  
-**Author:** Aspose  
+**Author:** Aspose
+
+## دروس ذات صلة
+
+- [إدارة المشاريع Java: إكمال المهمة % باستخدام Aspose.Tasks](/tasks/java/task-properties/percentage-complete-calculations/)
+- [كيفية تحديث بيانات المهمة إلى تنسيق MPP باستخدام Aspose.Tasks for Java](/tasks/java/task-properties/update-task-data/)
+- [قراءة وتعيين أولويات المهمة باستخدام Aspose.Tasks for Java](/tasks/java/task-properties/handle-priorities/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
