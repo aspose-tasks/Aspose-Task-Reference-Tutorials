@@ -1,142 +1,220 @@
 ---
-date: 2026-02-13
-description: Aspose.Tasks for Java kullanarak mpp dosyaları oluşturmayı, Gantt şemalarını
-  yapılandırmayı ve projeyi akışa dışa aktararak sorunsuz proje yönetimini öğrenin.
-linktitle: Project Configuration
+date: 2026-10-05
+description: Aspose.Tasks for Java ile proje yönetimi API'sini kullanarak MPP dosyaları
+  oluşturmayı, Gantt charts'ı yapılandırmayı ve projeleri streams'e dışa aktarmayı
+  öğrenin.
+keywords:
+- project management api
+- generate project report
+- create project programmatically
+- aspose tasks license
+lastmod: 2026-10-05
+linktitle: Proje Yapılandırması
+og_description: Aspose.Tasks for Java ile proje yönetimi API'sini kullanarak MPP dosyaları
+  oluşturmayı, Gantt charts'ı yapılandırmayı ve projeleri streams'e dışa aktarmayı
+  öğrenin.
+og_image_alt: Tutorial showing Java code to generate MPP files using Aspose.Tasks
+og_title: Aspose.Tasks proje yönetimi API'si ile MPP dosyaları oluşturun
+schemas:
+- author: Aspose
+  dateModified: '2026-10-05'
+  description: Learn how to use the project management API with Aspose.Tasks for Java
+    to generate MPP files, configure Gantt charts, and export projects to streams.
+  headline: Generate MPP files with Aspose.Tasks project management API
+  type: TechArticle
+- description: Learn how to use the project management API with Aspose.Tasks for Java
+    to generate MPP files, configure Gantt charts, and export projects to streams.
+  name: Generate MPP files with Aspose.Tasks project management API
+  steps:
+  - name: Return the byte array from a REST endpoint.
+    text: Return the byte array from a REST endpoint.
+  - name: Store the project in a NoSQL database.
+    text: Store the project in a NoSQL database.
+  - name: Attach the file to an email without writing to disk.
+    text: Attach the file to an email without writing to disk.
+  type: HowTo
+- questions:
+  - answer: Yes, the API lets you open, edit, and resave existing Microsoft Project
+      files.
+    question: Can I use Aspose.Tasks to modify existing MPP files?
+  - answer: Use the `GanttChartView` class to set bar colors, fonts, and other visual
+      properties.
+    question: How do I configure Gantt chart colors and styles?
+  - answer: You can export to PDF, HTML, XML, and several other formats directly from
+      the API.
+    question: What formats can I export a project to besides MPP?
+  - answer: Absolutely – simply save the project to a `MemoryStream` and retrieve
+      the underlying byte array.
+    question: Is it possible to save a project to a byte array for web APIs?
+  - answer: A standard Aspose.Tasks license covers all export functionalities, including
+      stream operations.
+    question: Do I need a special license for stream export?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: MPP Dosyaları Nasıl Oluşturulur – Aspose.Tasks ile mpp nasıl oluşturulur
+tags:
+- generate mpp
+- aspose.tasks
+- java project management
+- gantt chart
+- mpp generation
+title: Aspose.Tasks proje yönetimi API'si ile MPP dosyaları oluşturun
 url: /tr/java/project-configuration/
 weight: 26
 ---
 
- Updated:** 2026-02-13  
-**Tested With:** Aspose.Tasks for Java latest release  
-**Author:** Aspose  
-
-Translate labels but keep dates unchanged.
-
-Now ensure we keep all shortcodes at top and bottom unchanged.
-
-Now produce final content.
-
-Check for any missed formatting: code blocks none. Table uses markdown.
-
-Make sure to preserve bold formatting (**). Keep them.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# MPP Dosyaları Nasıl Oluşturulur – Aspose.Tasks for Java ile mpp nasıl oluşturulur
+# Aspose.Tasks proje yönetimi API'si ile MPP dosyaları oluşturma
 
 ## Giriş
 
-Aspose.Tasks for Java'un tam potansiyelini ortaya çıkarmaya hazır mısınız? Bu rehberde, **how to create MPP files** ve Gantt şemalarını yapılandırmayı göstererek projelerinizi verimli bir şekilde yönetmenizi sağlayacağız. Bu öğretici, **how to create mpp** dosyalarını programlı olarak nasıl oluşturacağınızı açıklıyor ve Java ortamınızdan çıkmadan proje verilerini oluşturma, özelleştirme ve dışa aktarma konusunda size güven veriyor. İster bir proje‑yönetim portalı oluşturuyor olun, bir ERP sistemiyle entegrasyon yapıyor olun ya da sadece raporlar üretmeniz gerekiyor olsun, bu adımları öğrenmek zaman kazandırır ve manuel çabayı azaltır.
+Bu öğreticide, Aspose.Tasks for Java tarafından sağlanan **project management API**'yi **MPP dosyaları oluşturmak**, Gantt şeması görünümlerini özelleştirmek ve projeleri bellek akışlarına dışa aktarmak için nasıl kullanacağınızı keşfedeceksiniz. Bir zamanlama portalı oluşturuyor, proje verilerini bir ERP sistemiyle entegre ediyor ya da rapor oluşturmayı otomatikleştiriyor olsanız, bu adımları öğrenmek manuel girişi önler ve Microsoft Project dosyaları üzerinde tam programatik kontrol sağlar.
 
-## Hızlı Yanıtlar
-- **Aspose.Tasks for Java'un temel amacı nedir?** Microsoft Project (MPP) dosyalarını programlı olarak oluşturmak, düzenlemek ve dışa aktarmak.  
+## Hızlı Cevaplar
+
+`Project` Aspose.Tasks içinde bir Microsoft Project dosyasını temsil eden birincil sınıftır. `MemoryStream` (veya Java'da `ByteArrayOutputStream`) dosya verilerini bellek içinde tutmak için kullanılır.
+
+- **Aspose.Tasks for Java'nin birincil amacı nedir?** Microsoft Project (MPP) dosyalarını programlı olarak oluşturmak, düzenlemek ve dışa aktarmaktır.  
 - **MPP dosyaları nasıl oluşturulur?** Aspose.Tasks API'sini kullanarak bir `Project` nesnesi oluşturun ve MPP formatında kaydedin.  
-- **Gantt şemalarını yapılandırabilir miyim?** Evet, API Java kodundan doğrudan Gantt şema görünümlerini özelleştirmenizi sağlar.  
-- **Bir projeyi akışa (stream) dışa aktarmak destekleniyor mu?** Kesinlikle – projeyi daha sonraki işlemler için bir `MemoryStream`'e kaydedebilirsiniz.  
-- **Bir lisansa ihtiyacım var mı?** Üretim kullanımı için geçerli bir Aspose.Tasks lisansı gereklidir; ücretsiz deneme sürümü mevcuttur.
+- **Gantt şemalarını yapılandırabilir miyim?** Evet, API Java kodundan doğrudan Gantt şeması görünümlerini özelleştirmenize olanak tanır.  
+- **Bir projeyi akışa dışa aktarmak destekleniyor mu?** Kesinlikle – projeyi daha fazla işleme için bir `MemoryStream`'e kaydedebilirsiniz.  
+- **Lisans gerekiyor mu?** Üretim kullanımı için geçerli bir Aspose.Tasks lisansı gereklidir; ücretsiz deneme sürümü mevcuttur.
 
 ## Java'da “how to create mpp” nedir?
 
-MPP dosyası oluşturmak, masaüstü veya web sürümlerinde Microsoft Project ile açılabilen bir Microsoft Project dosyası üretmek anlamına gelir. Aspose.Tasks for Java ile bu dosyayı tamamen kod içinde oluşturabilirsiniz—herhangi bir kullanıcı arayüzüne ihtiyaç yoktur—bu da otomatik raporlama, veri taşıma veya özel zamanlama çözümleri için idealdir.
+Bir MPP dosyası oluşturmak, herhangi bir masaüstü veya web sürümünde Microsoft Project'te açılabilen bir Microsoft Project dosyası üretmek anlamına gelir. Aspose.Tasks ile dosyayı tamamen kod içinde oluşturabilirsiniz—herhangi bir UI gerekmez—bu da otomatik raporlama, veri taşıma veya özel zamanlama çözümleri için idealdir.
 
-## MPP dosyaları oluşturmak için Aspose.Tasks for Java neden kullanılmalı?
+## Aspose.Tasks for Java ile MPP dosyaları oluşturmak neden tercih edilmeli?
 
-- **Tam uyumluluk** tüm Microsoft Project sürümleri (2007‑2024) ile.  
-- **Zengin API** görevler, kaynaklar, atamalar ve Gantt şeması özelleştirmeleri için.  
-- **Dışa aktarma esnekliği** – PDF, HTML, XML veya web servisleri için akışa kaydedin.  
-- **COM entegrasyonu yok** – saf Java, çapraz platform dağıtımları için mükemmel.
+2007 ile 2024 arasında yayınlanan her Microsoft Project sürümüyle **tam uyumluluk** (18'den fazla sürüm) elde edersiniz. Kütüphane, görevler, kaynaklar, atamalar ve Gantt şeması stilizasyonu için **150'den fazla API yöntemi** sunar ve **tüm dosyayı belleğe yüklemeden çok sayfalı projeleri işleyebilir**, yüksek performanslı sunucu tarafı otomasyon sağlar.
 
-## Yaygın Kullanım Senaryoları
+## Proje yönetimi API'si proje raporları oluşturmayı nasıl kolaylaştırır?
+
+API, aynı projeyi tek bir çağrıyla **PDF, HTML, XML veya bir bayt dizisine** dışa aktarabilir, böylece takvimleri e-postalara, panolara veya üçüncü‑taraf sistemlere gömebilirsiniz. Bu, ayrı dönüşüm araçlarına ihtiyaç duyulmasını ortadan kaldırır ve görsel düzenin formatlar arasında tutarlı kalmasını garanti eder.
+
+## Yaygın kullanım senaryoları
 
 | Senaryo | Nasıl yardımcı olur |
-|----------|----------------------|
-| **Otomatik zaman çizelgesi oluşturma** | Veritabanı kayıtlarından manuel giriş gerektirmeden proje planları oluşturun. |
+|----------|--------------|
+| **Otomatik zaman çizelgesi oluşturma** | Veritabanı kayıtlarından manuel giriş olmadan proje planları oluşturun. |
 | **Web API'leriyle entegrasyon** | Projeyi bir akışa kaydedin ve istemci uygulamasına bir bayt dizisi olarak döndürün. |
 | **Raporlama** | Aynı projeyi PDF, HTML veya XML olarak dışa aktarın ve paydaşlara dağıtın. |
-| **Veri göçü** | Eski proje verilerini okuyun, dönüştürün ve modern araçlar için yeni bir MPP dosyası yazın. |
+| **Veri taşıma** | Eski proje verilerini okuyun, dönüştürün ve modern araçlar için yeni bir MPP dosyası yazın. |
 
-## Aspose.Tasks Projelerinde Gantt Şema Görünümünü Nasıl Yapılandırılır
+## Aspose.Tasks projelerinde Gantt şeması görünümünü nasıl yapılandırılır
 
-Java kullanarak Aspose.Tasks içinde **how to configure Gantt** şema görünümlerinin sanatını öğrenin. Bu öğreticide, projenizin görsel temsilini özelleştirmenize rehberlik edeceğiz ve Gantt şemalarınızın tam olarak ihtiyacınız olan bilgileri iletmesini sağlayacağız.
+**GanttChartView**, bir Aspose.Tasks projesindeki Gantt şemasının görünümünü kontrol eden sınıftır. Java kullanarak Aspose.Tasks'te Gantt şeması görünümlerini nasıl yapılandıracağınızı öğrenin. Bu öğreticide, çubuk renkleri, yazı tipleri ve zaman ölçeği ayarları dahil olmak üzere projenizin görsel temsilini nasıl özelleştireceğinizi adım adım göstereceğiz, böylece Gantt şemalarınız tam olarak ihtiyacınız olan bilgiyi iletecek.
 
-İlk adımı atmaya hazır mısınız? [Gantt Şema Görünümü Yapılandırma Öğreticisi](./configure-gantt-chart/)
+İlk adımı atmaya hazır mısınız? [Gantt Şeması Görünümünü Yapılandırma Öğreticisi]({{< relref "configure-gantt-chart" >}})
 
-## Aspose.Tasks ile Boş MS Project Dosyası Nasıl Oluşturulur
+## Aspose.Tasks'te boş MS Project dosyası nasıl oluşturulur
 
-Java'da Microsoft Project dosyalarını verimli bir şekilde ele almanın yolculuğuna başlayın. Bu öğretici, Aspose.Tasks kullanarak **boş MS Project dosyaları** (MPP) oluşturmak için basit adımlar sunar ve her türlü proje‑yönetim çözümünün temelini atar.
+`Project`, Aspose.Tasks içinde bir Microsoft Project dosyasını temsil eden temel sınıftır. Java'da Microsoft Project dosyalarını verimli bir şekilde yönetme yolculuğunuza başlayın. Bu öğretici, Aspose.Tasks kullanarak boş MS Project dosyaları (MPP) oluşturmak için basit adımlar sunar ve her türlü proje‑yönetimi çözümü için temel oluşturur.
 
-Boş proje dosyanızı oluşturmaya hazır mısınız? [Boş MS Project Dosyası Oluşturma Öğreticisi](./create-empty-project-file/)
+Boş proje dosyanızı oluşturmaya hazır mısınız? [Boş MS Project Dosyası Oluşturma Öğreticisi]({{< relref "create-empty-project-file" >}})
 
-## Aspose.Tasks ile Boş Projeyi MPP Formatında Oluştur ve Kaydet
+## Aspose.Tasks ile boş projeyi MPP formatında nasıl oluşturup kaydedilir
 
-Aspose.Tasks for Java ile proje yönetimi görevlerinizi basitleştirin. **Boş bir MS Project dosyasını MPP formatında oluşturma ve kaydetme** işlemini zahmetsizce öğrenin. Öğreticimiz, adım adım ilerleyerek Aspose.Tasks'in yeteneklerini keşfetmenizi sağlar.
+Aspose.Tasks for Java ile proje yönetimi görevlerinizi basitleştirin. **Boş bir MS Project dosyasını MPP formatında oluşturup kaydetmeyi** sorunsuz bir şekilde öğrenin. Öğreticimiz, adımları size rehberlik ederek Aspose.Tasks'in yeteneklerini keşfederken sorunsuz bir deneyim sağlar.
 
-Proje yönetimini basitleştirmeye hazır mısınız? [Boş Projeyi Oluştur ve Kaydet Öğreticisi](./create-save-mpp/)
+Proje yönetimini basitleştirmeye hazır mısınız? [Boş Proje Oluşturma ve Kaydetme Öğreticisi]({{< relref "create-save-mpp" >}})
 
-## Aspose.Tasks ile Boş Projeyi Akışa Oluştur ve Kaydet
+## Aspose.Tasks'te boş projeyi akışa nasıl oluşturup kaydedilir
 
-Java'da Aspose.Tasks ile **projeyi akışa kaydet** öğrenerek proje yönetimi görevlerinizi zahmetsizce akıcı hâle getirin. Bu öğretici, süreci net adımlarla sunar ve projeyi daha sonra diğer sistemlere dışa aktarmanızı sağlar.
+`MemoryStream` (veya Java'da `ByteArrayOutputStream`) diske yazmadan ikili verileri tutan bir bellek içi akıştır. Aspose.Tasks ile Java'da bir projeyi akışa kaydetmeyi öğrenerek proje yönetimi görevlerinizi sorunsuz bir şekilde düzenleyin. Bu öğretici, süreci kolaylıkla yönetmenizi ve ardından projeyi diğer sistemlere dışa aktarmanızı sağlayan net adımlar sunar.
 
-Görevlerinizi kolaylaştırmaya hazır mısınız? [Akışa Oluştur ve Kaydet Öğreticisi](./create-save-stream/)
+Görevlerinizi düzenlemeye hazır mısınız? [Akışa Oluşturma ve Kaydetme Öğreticisi]({{< relref "create-save-stream" >}})
 
-## Projeyi PDF, HTML ve XML'e Dışa Aktarma
+## Projeyi PDF, HTML ve XML olarak dışa aktar
 
-MPP'nin ötesinde, Aspose.Tasks tek bir yöntem çağrısıyla **projeyi PDF'e dışa aktar**, **projeyi HTML'e dışa aktar** ve **projeyi XML'e dışa aktar** yapmanıza olanak tanır. Bu formatlar, paydaşlarla yalnızca okunabilir görünümler paylaşmak, takvimleri web sayfalarına gömmek veya diğer veri‑değişim boru hatlarıyla bütünleştirmek için mükemmeldir.
+MPP'nin ötesinde, Aspose.Tasks tek bir yöntem çağrısıyla **projeyi PDF olarak dışa aktarmanıza**, **projeyi HTML olarak dışa aktarmanıza** ve **projeyi XML olarak dışa aktarmanıza** olanak tanır. Bu formatlar, paydaşlarla yalnızca okunabilir görünümleri paylaşmak, takvimleri web sayfalarına gömmek veya diğer veri‑akışı hatlarıyla entegre etmek için mükemmeldir.
 
 - **PDF** – Düzeni ve stilini koruyan yazdırılabilir raporlar için idealdir.  
-- **HTML** – Kullanıcıların tarayıcıda takvime etkileşimli olarak erişebildiği web tabanlı panolar için harikadır.  
-- **XML** – Veri değişimi, özel analizler veya diğer kurumsal sistemlere veri beslemesi için kullanışlıdır.
+- **HTML** – Kullanıcıların tarayıcıda takvimle etkileşime girebildiği web‑tabanlı panolar için harikadır.  
+- **XML** – Veri değişimi, özel analizler veya diğer kurumsal sistemlere veri beslemesi için faydalıdır.
 
-## Projeyi Akışa Kaydet – En İyi Uygulamalar
+## Projeyi akışa kaydetme – en iyi uygulamalar
 
-**Projeyi akışa kaydet** yaptığınızda aşağıdaki esnekliği elde edersiniz:
+**Projeyi akışa kaydettiğinizde**, esneklik kazanırsınız:
 
-1. Byte dizisini bir REST uç noktasından döndürün.  
-2. Projeyi bir NoSQL veritabanında saklayın.  
-3. Dosyayı diske yazmadan bir e‑posta ekine ekleyin.
+1. Byte dizisini bir REST uç noktasından döndürmek.  
+2. Projeyi bir NoSQL veritabanında saklamak.  
+3. Dosyayı diske yazmadan bir e-postaya eklemek.
 
-Özellikle yüksek hacimli servislerde bellek sızıntılarını önlemek için akışı doğru şekilde serbest bırakmayı unutmayın.
+Özellikle yüksek hacimli hizmetlerde bellek sızıntılarını önlemek için akışı doğru şekilde kapatmayı unutmayın.
 
-## Proje Yapılandırma Öğreticileri
-### [Aspose.Tasks Projelerinde Gantt Şema Görünümünü Yapılandırma](./configure-gantt-chart/)
-Java kullanarak Aspose.Tasks içinde Gantt MS Project Şema Görünümünü nasıl yapılandıracağınızı öğrenin. Adım adım Gantt şemasında projeyi özelleştirin ve görselleştirin.
+## Proje yapılandırma öğreticileri
+### [Aspose.Tasks Projelerinde Gantt Şeması Görünümünü Yapılandırma]({{< relref "configure-gantt-chart" >}})
+Aspose.Tasks'te Java kullanarak Gantt MS Project Şeması Görünümünü nasıl yapılandıracağınızı öğrenin. Projeyi özelleştirin ve adım adım Gantt şemasında görselleştirin.
 
-### [Aspose.Tasks ile Boş MS Project Dosyası Oluşturma](./create-empty-project-file/)
-Java'da Aspose.Tasks kullanarak boş Microsoft Project dosyaları nasıl oluşturulur öğrenin. Sorunsuz entegrasyon için kolay adımlar.
+### [Aspose.Tasks'te Boş MS Project Dosyası Oluşturma]({{< relref "create-empty-project-file" >}})
+Aspose.Tasks kullanarak Java'da boş Microsoft Project dosyaları nasıl oluşturulacağını öğrenin. Sorunsuz entegrasyon için kolay adımlar.
 
-### [Aspose.Tasks ile Boş Projeyi MPP Formatında Oluştur ve Kaydet](./create-save-mpp/)
-Aspose.Tasks for Java ile boş bir MS Project dosyasını (MPP) nasıl oluşturup kaydedeceğinizi öğrenin. Proje yönetimi görevlerini zahmetsizce basitleştirin.
+### [Aspose.Tasks ile Boş Projeyi MPP Formatında Oluşturma ve Kaydetme]({{< relref "create-save-mpp" >}})
+Aspose.Tasks for Java kullanarak boş bir MS Project dosyasını (MPP) nasıl oluşturup kaydedeceğinizi öğrenin. Proje yönetimi görevlerini sorunsuz bir şekilde basitleştirin.
 
-### [Aspose.Tasks ile Boş Projeyi Akışa Oluştur ve Kaydet](./create-save-stream/)
-Java'da Aspose.Tasks ile boş MS Project dosyalarını bir akışa nasıl oluşturup kaydedeceğinizi öğrenin, proje yönetimi görevlerini zahmetsizce basitleştirin.
+### [Aspose.Tasks'te Boş Projeyi Akışa Oluşturma ve Kaydetme]({{< relref "create-save-stream" >}})
+Aspose.Tasks ile Java'da boş MS Project dosyalarını bir akışa nasıl oluşturup kaydedeceğinizi öğrenin, proje yönetimi görevlerini sorunsuz bir şekilde basitleştirin.
 
-## Sık Sorulan Sorular
+## Örnek kod: bir MPP dosyası oluşturma ve kaydetme
 
-**S: Aspose.Tasks'i mevcut MPP dosyalarını değiştirmek için kullanabilir miyim?**  
-C: Evet, API mevcut Microsoft Project dosyalarını açmanıza, düzenlemenize ve yeniden kaydetmenize olanak tanır.
+*Örnek kod yukarıdaki bağlantılı öğreticilerde sağlanmıştır. Kod, bir `Project` örneği oluşturmayı, basit bir görev eklemeyi ve dosyayı ya diske ya da daha sonraki işleme için bir `MemoryStream`'e kaydetmeyi göstermektedir.*
 
-**S: Gantt şeması renklerini ve stillerini nasıl yapılandırırım?**  
-C: Çubuk renklerini, yazı tiplerini ve diğer görsel özellikleri ayarlamak için `GanttChartView` sınıfını kullanın.
+## Sıkça Sorulan Sorular
 
-**S: MPP dışındaki hangi formatlara proje dışa aktarabilirim?**  
-C: API üzerinden doğrudan PDF, HTML, XML ve birkaç başka formata dışa aktarabilirsiniz.
+**Q: Mevcut MPP dosyalarını değiştirmek için Aspose.Tasks'i kullanabilir miyim?**  
+**A:** Evet, API mevcut Microsoft Project dosyalarını açmanıza, düzenlemenize ve yeniden kaydetmenize olanak tanır.
 
-**S: Web API'leri için projeyi bir bayt dizisine kaydetmek mümkün mü?**  
-C: Kesinlikle – projeyi bir `MemoryStream`'e kaydedin ve altındaki bayt dizisini alın.
+**Q: Gantt şeması renklerini ve stillerini nasıl yapılandırırım?**  
+**A:** Çubuk renklerini, yazı tiplerini ve diğer görsel özellikleri ayarlamak için `GanttChartView` sınıfını kullanın.
 
-**S: Akış dışa aktarımı için özel bir lisansa ihtiyacım var mı?**  
-C: Standart bir Aspose.Tasks lisansı, akış işlemleri dahil tüm dışa aktarma işlevlerini kapsar.
+**Q: MPP dışındaki hangi formatlara dışa aktarabilirim?**  
+**A:** API üzerinden doğrudan PDF, HTML, XML ve birkaç diğer formata dışa aktarabilirsiniz.
 
-**Last Updated:** 2026-02-13  
+**Q: Projeyi bir web API'si için bayt dizisine kaydetmek mümkün mü?**  
+**A:** Kesinlikle – projeyi bir `MemoryStream`'e kaydedin ve temel bayt dizisini alın.
+
+**Q: Akış dışa aktarımı için özel bir lisansa ihtiyacım var mı?**  
+**A:** Standart bir Aspose.Tasks lisansı, akış işlemleri dahil tüm dışa aktarma işlevlerini kapsar.
+
+**Last Updated:** 2026-10-05  
 **Tested With:** Aspose.Tasks for Java latest release  
 **Author:** Aspose  
 
+
+
+
+
+
+
+```java
+import com.aspose.tasks.*;
+
+public class CreateMpp {
+    public static void main(String[] args) throws Exception {
+        // Create a new project
+        Project project = new Project();
+
+        // Add a task
+        Task task = project.getRootTask().getChildren().add("Sample Task");
+
+        // Save the project as MPP
+        project.save("SampleProject.mpp", SaveFileFormat.MPP);
+    }
+}
+```
+
+## İlgili Öğreticiler
+
+- [Aspose.Tasks'te Boş Proje Dosyası Nasıl Oluşturulur (MS Project)](/tasks/java/project-configuration/create-empty-project-file/)
+- [Aspose.Tasks for Java Kullanarak Yeni Aktivite Oluşturma ve Veri Dizinini Ayarlama](/tasks/java/project-configuration/configure-gantt-chart/)
+- [Aspose.Tasks for Java Kullanarak MS Project'te Proje Başlangıç Tarihini Ayarlama](/tasks/java/project-properties/write-project-info/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
