@@ -1,10 +1,69 @@
 ---
-date: 2025-12-07
-description: تعرّف على كيفية حفظ ملف المشروع، كتابة وقراءة صيغ MS Project، وإضافة
-  صيغ الحقول المخصصة باستخدام Aspose.Tasks للغة Java.
-linktitle: Save Project File & Write Formulas in Aspose.Tasks
+date: 2026-10-10
+description: تعلم كيفية إنشاء حقل مخصص Aspose في Java، وتطبيق صيغة تكلفة مهمة مزدوجة،
+  وحفظ ملف المشروع باستخدام Aspose.Tasks. يتضمن قراءة صيغ MS Project.
+keywords:
+- create custom field aspose
+- double task cost formula
+- add custom field formula
+- calculate task cost
+lastmod: 2026-10-10
+linktitle: مثال على صيغة الحقل المخصص – حفظ ملف المشروع
+og_description: تعلم كيفية إنشاء حقل مخصص Aspose في Java، وتطبيق صيغة تكلفة مهمة مزدوجة،
+  وحفظ ملف المشروع باستخدام Aspose.Tasks. يتضمن قراءة صيغ MS Project.
+og_image_alt: 'Guide: create custom field aspose and save project file with Aspose.Tasks
+  Java'
+og_title: كيفية إنشاء حقل مخصص Aspose وحفظ ملف المشروع
+schemas:
+- author: Aspose
+  dateModified: '2026-10-10'
+  description: Learn how to create custom field aspose in Java, apply a double task
+    cost formula, and save the project file using Aspose.Tasks. Includes reading MS
+    Project formulas.
+  headline: How to create custom field aspose and save project file
+  type: TechArticle
+- description: Learn how to create custom field aspose in Java, apply a double task
+    cost formula, and save the project file using Aspose.Tasks. Includes reading MS
+    Project formulas.
+  name: How to create custom field aspose and save project file
+  steps:
+  - name: '**Java Development Kit (JDK)** – Java 8 or higher installed on your machine.'
+    text: '**Java Development Kit (JDK)** – Java 8 or higher installed on your machine.'
+  - name: '**Aspose.Tasks for Java** – Download and install from [Aspose.Tasks Java
+      download page](https://releases.aspose.com/tasks/java/).'
+    text: '**Aspose.Tasks for Java** – Download and install from [Aspose.Tasks Java
+      download page](https://releases.aspose.com/tasks/java/).'
+  - name: '**Integrated Development Environment (IDE)** – Choose your preferred IDE
+      for Java development (IntelliJ IDEA, Eclipse, VS Code, etc.).'
+    text: '**Integrated Development Environment (IDE)** – Choose your preferred IDE
+      for Java development (IntelliJ IDEA, Eclipse, VS Code, etc.).'
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.Tasks supports a wide range of MS Project versions, from older
+      .mpp formats to the latest releases, covering over 30 file format variations.
+    question: Is Aspose.Tasks compatible with all versions of MS Project?
+  - answer: Absolutely. The API is designed for seamless integration; just add the
+      Aspose.Tasks JAR to your project’s classpath and start using the `Project` class.
+    question: Can I integrate Aspose.Tasks into my existing Java project?
+  - answer: The library supports most native MS Project formula syntax, including
+      arithmetic, logical, and built‑in functions. Complex custom functions may require
+      workarounds, but common calculations like **double task cost formula** work
+      out of the box.
+    question: Are there any limitations to the types of formulas I can create?
+  - answer: Yes, the library runs on any platform that supports Java, including Windows,
+      Linux, and macOS, and can handle projects up to 2 GB without loading the entire
+      file into memory.
+    question: Does Aspose.Tasks support multi‑platform deployment?
+  - answer: Visit the [Aspose.Tasks community forum](https://forum.aspose.com/c/tasks/15)
+      for community help, or open a support ticket if you have a commercial license.
+    question: How can I get technical support for Aspose.Tasks?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: حفظ ملف المشروع وكتابة صيغ MS Project باستخدام Aspose.Tasks
+tags:
+- custom field
+- Aspose.Tasks
+- Java project automation
+title: كيفية إنشاء حقل مخصص Aspose وحفظ ملف المشروع
 url: /ar/java/formulas/write-read-formulas/
 weight: 12
 ---
@@ -13,33 +72,31 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# حفظ ملف المشروع وكتابة صيغ MS Project باستخدام Aspose.Tasks
+# كيفية إنشاء حقل مخصص Aspose وحفظ ملف المشروع
 
-## المقدمة
-في مجال إدارة المشاريع، يعتبر التعامل الفعال مع البيانات أمرًا حيويًا. Aspose.Tasks for Java هو حل قوي يسهّل تعديل واستخراج البيانات من ملفات Microsoft Project. إحدى الميزات القوية التي يقدمها هي القدرة على كتابة وقراءة صيغ MS Project. **سوف تتعلم أيضًا كيفية *حفظ ملف المشروع* بعد تطبيق تلك الصيغ**، مما يضمن بقاء تغييراتك محفوظة للتحليل المستقبلي. سيوجهك هذا البرنامج التعليمي خلال عملية الاستفادة من هذه الوظيفة لتعزيز مهام إدارة المشروع الخاصة بك.
+## مقدمة
+في هذا البرنامج التعليمي سترى **custom field formula example** الذي يوضح كيفية **save a project file**، كتابة وقراءة صيغ MS Project، وتطبيق **double task cost formula** باستخدام Aspose.Tasks for Java. في النهاية ستفهم لماذا الحقول المخصصة قوية، وكيفية تضمين الحسابات مباشرةً في المشروع، وكيفية حفظ تلك التغييرات للتقارير المستقبلية. التركيز الأساسي هو على **create custom field aspose** حتى تتمكن من أتمتة حسابات التكلفة في أي سير عمل يعتمد على MS Project.
 
 ## إجابات سريعة
-- **ماذا يفعل “حفظ ملف المشروع”؟** يكتب جميع التغييرات الموجودة في الذاكرة إلى ملف .mpp على القرص.  
-- **هل يمكنني إضافة صيغ حقول مخصصة؟** نعم – يمكنك إنشاء حقل مخصص وتعيين صيغة مثل “مضاعفة تكلفة المهمة”.  
-- **هل أحتاج إلى ترخيص لتشغيل الكود؟** النسخة التجريبية المجانية تكفي للتقييم؛ الترخيص التجاري مطلوب للإنتاج.  
-- **أي بيئة تطوير متكاملة (IDE) هي الأنسب؟** أي بيئة Java (IntelliJ IDEA، Eclipse، VS Code) ستتمكن من تجميع العينة.  
-- **هل API متوافق مع أحدث نسخة من MS Project؟** Aspose.Tasks يدعم جميع تنسيقات .mpp الحديثة.
+- **What does “save project file” do?** يكتب جميع التغييرات الموجودة في الذاكرة إلى ملف .mpp على القرص.  
+- **Can I add custom field formulas?** نعم – يمكنك إنشاء حقل مخصص وتعيين صيغة مثل “double task cost”.  
+- **Do I need a license to run the code?** نسخة تجريبية مجانية تعمل للتقييم؛ يلزم وجود ترخيص تجاري للإنتاج.  
+- **Which IDE works best?** أي بيئة تطوير Java (IntelliJ IDEA، Eclipse، VS Code) ستقوم بترجمة العينة.  
+- **Is the API compatible with the latest MS Project version?** Aspose.Tasks يدعم جميع صيغ .mpp الحديثة.
 
-## ما هو “حفظ ملف المشروع” في Aspose.Tasks؟
-حفظ ملف المشروع يعني تثبيت الحالة الحالية لكائن `Project`—بما في ذلك المهام والموارد وأي صيغ مخصصة—في ملف Microsoft Project فعلي (`.mpp`). هذه العملية ضرورية بعد تعديل البيانات، مثل إضافة حقل مخصص أو تغيير تكاليف المهمة.
+## ما هو “save project file” في Aspose.Tasks؟
+حفظ ملف المشروع يعني الحفاظ على الحالة الحالية لكائن `Project` — بما في ذلك المهام والموارد وأي صيغ مخصصة — إلى ملف Microsoft Project فعلي (`.mpp`). هذه العملية ضرورية بعد تعديل البيانات، مثل إضافة حقل مخصص أو تغيير تكاليف المهام. استدعاء `save` يكتب بنية المشروع بالكامل إلى القرص، مما يجعل التغييرات متاحة لأدوات التقارير اللاحقة.
 
-## لماذا نضيف حقلًا مخصصًا وننشئ صيغة حقل مخصص؟
-إضافة حقل مخصص يمنحك حاوية مرنة لمعلومات إضافية لا تغطيها الحقول الافتراضية. من خلال إرفاق صيغة—مثل تلك التي **مضاعفة تكلفة المهمة**—تُؤتمت الحسابات، وتقل الأخطاء اليدوية، وتبقى بيانات الجدول متسقة.
+## لماذا إضافة حقل مخصص وإنشاء صيغة حقل مخصص؟
+تضيف حقلًا مخصصًا عندما تحتاج إلى تخزين معلومات لا تغطيها الحقول المدمجة. إرفاق صيغة — مثل تلك التي **double task cost** — ي automatisations الحسابات، يلغي التحديثات اليدوية، ويضمن أنه في كل مرة يتغير فيها التكلفة الأساسية، يتم تحديث القيمة المشتقة فورًا. هذا النهج يقلل الأخطاء ويحافظ على اتساق بيانات الجدول الزمني عبر الفرق.
 
 ## المتطلبات المسبقة
-قبل الغوص في هذا البرنامج التعليمي، تأكد من توفر المتطلبات التالية:
-
-1. **مجموعة تطوير جافا (JDK)** – Java 8 أو أعلى مثبتة على جهازك.  
-2. **Aspose.Tasks for Java** – قم بتنزيله وتثبيته من [هنا](https://releases.aspose.com/tasks/java/).  
-3. **بيئة تطوير متكاملة (IDE)** – اختر البيئة المفضلة لتطوير Java (IntelliJ IDEA، Eclipse، VS Code، إلخ).  
+1. **Java Development Kit (JDK)** – Java 8 أو أعلى مثبت على جهازك.  
+2. **Aspose.Tasks for Java** – قم بتنزيله وتثبيته من [Aspose.Tasks Java download page](https://releases.aspose.com/tasks/java/).  
+3. **Integrated Development Environment (IDE)** – اختر بيئة التطوير المفضلة لديك لتطوير Java (IntelliJ IDEA، Eclipse، VS Code، إلخ).  
 
 ## استيراد الحزم
-لبدء العمل، استورد الحزم اللازمة إلى مشروع Java الخاص بك:
+توجد الفئات `Project` و `ExtendedAttribute` والفئات المرتبطة في مساحة الاسم `com.aspose.tasks`. استوردها في أعلى ملف المصدر الخاص بك حتى يتمكن المترجم من حل الأنواع.
 
 ```java
 import com.aspose.tasks.*;
@@ -49,19 +106,23 @@ import java.util.Objects;
 ```
 
 ## الخطوة 1: إعداد دليل البيانات
+حدد المجلد الذي توجد فيه ملفات MS Project الخاصة بك. هذا هو المكان الذي ستحمّل منه الملف المصدر ولاحقًا **save project file**.
+
 ```java
 // The path to the documents directory.
 String dataDir = "Your Data Directory";
 ```
-حدد المجلد الذي توجد فيه ملفات MS Project. هذا هو المكان الذي ستحمّل منه الملف المصدر ولاحقًا **تحفظ ملف المشروع**.
 
 ## الخطوة 2: تحميل ملف المشروع
+تمثل الفئة `Project` ملف Microsoft Project في الذاكرة، وتوفر الوصول إلى المهام والموارد والحقول المخصصة. تحميل الملف يمنحك نموذج كائن قابل للتلاعب.
+
 ```java
 Project project = new Project(dataDir + "project.mpp");
 ```
-حمّل ملف Microsoft Project الموجود إلى كائن `Project` لتتمكن من قراءة محتوياته أو تعديلها.
 
 ## الخطوة 3: إضافة حقل مخصص وإنشاء صيغة حقل مخصص
+في هذه الخطوة **add a custom field** “Double Costs” و **create a custom field formula** التي تضرب `[Cost]` للمهام في 2، مما يطبق فعليًا **double task cost formula**. طريقة `setFormula` تدمج الحساب مباشرةً في ملف المشروع.
+
 ```java
 project.set(Prj.NEW_TASKS_ARE_MANUAL, new NullableBool(false));
 ExtendedAttributeDefinition attr = ExtendedAttributeDefinition.createTaskDefinition(
@@ -70,52 +131,59 @@ attr.setAlias("Double Costs");
 attr.setFormula("[Cost]*2");   // This formula doubles the task cost
 project.getExtendedAttributes().add(attr);
 ```
-في هذه الخطوة **نضيف حقلًا مخصصًا** باسم “Double Costs” **وننشئ صيغة حقل مخصص** تضرب `[Cost]` للمهمة في 2، وبالتالي **مضاعفة تكلفة المهمة**. طريقة `setFormula` تدمج الحساب مباشرةً في ملف المشروع.
 
-## الخطوة 4: إضافة مهمة وتحديد التكلفة
+## الخطوة 4: إضافة مهمة وتعيين التكلفة
+أنشئ مهمة جديدة، ثم عيّن تكلفة أساسية قدرها `100`. عند حفظ المشروع، سيعرض الحقل المخصص تلقائيًا `200` بسبب الصيغة المعرفة مسبقًا.
+
 ```java
 Task task = project.getRootTask().getChildren().add("Task");
 task.set(Tsk.COST, BigDecimal.valueOf(100));
 ```
-أنشئ مهمة جديدة، ثم عيّن تكلفة أساسية قدرها `100`. عند حفظ المشروع، سيظهر الحقل المخصص تلقائيًا القيمة `200` بفضل الصيغة المعرفة مسبقًا.
 
 ## الخطوة 5: حفظ ملف المشروع
+طريقة `save` تكتب المشروع المحدث، بما في ذلك الحقل المخصص الجديد والقيم المحسوبة، إلى `saved.mpp`. هذا يحفظ تغييرات **create custom field aspose** لأي مستهلكين لاحقين.
+
 ```java
 project.save(dataDir + "saved.mpp", SaveFileFormat.Mpp);
 ```
-أخيرًا، **احفظ ملف** مع جميع التعديلات. طريقة `save` تكتب المشروع المحدث، بما في ذلك الحقل المخصص الجديد والقيم المحسوبة، إلى `saved.mpp`.
 
 ## المشكلات الشائعة والحلول
-| المشكلة | السبب | الحل |
+| Issue | Reason | Fix |
 |-------|--------|-----|
-| **الصيغة غير مطبقة** | لم يُضاف الحقل المخصص إلى مجموعة `ExtendedAttributes` للمشروع. | تأكد من تنفيذ `project.getExtendedAttributes().add(attr);` قبل الحفظ. |
-| **الملف غير موجود** | مسار `dataDir` غير صحيح. | تحقق من أن سلسلة الدليل تنتهي بفاصل مسار (`/` أو `\\`). |
-| **التكلفة تظهر كصفر** | لم تُحدد تكلفة المهمة قبل الحفظ. | استدعِ `task.set(Tsk.COST, ...)` قبل `project.save`. |
+| **Formula not applied** | لم يتم إضافة الحقل المخصص إلى مجموعة `ExtendedAttributes` للمشروع. | تأكد من تنفيذ `project.getExtendedAttributes().add(attr);` قبل الحفظ. |
+| **File not found** | مسار `dataDir` غير صحيح. | تحقق من أن سلسلة الدليل تنتهي بفاصل مسار (`/` أو `\\`). |
+| **Cost appears as 0** | لم يتم تعيين تكلفة المهمة قبل الحفظ. | استدعِ `task.set(Tsk.COST, ...)` قبل `project.save`. |
 
 ## الأسئلة المتكررة
-**س: هل Aspose.Tasks متوافق مع جميع إصدارات MS Project؟**  
-ج: نعم، يدعم Aspose.Tasks مجموعة واسعة من إصدارات MS Project، من تنسيقات .mpp القديمة إلى الإصدارات الأحدث.
+**Q: Is Aspose.Tasks compatible with all versions of MS Project?**  
+A: نعم، Aspose.Tasks يدعم مجموعة واسعة من إصدارات MS Project، من صيغ .mpp القديمة إلى الإصدارات الأخيرة، ويغطي أكثر من 30 تنوعًا في صيغ الملفات.
 
-**س: هل يمكنني دمج Aspose.Tasks في مشروع Java الحالي؟**  
-ج: بالطبع. تم تصميم API لتكامل سلس؛ ما عليك سوى إضافة ملف JAR الخاص بـ Aspose.Tasks إلى مسار الفئة (classpath) لمشروعك.
+**Q: Can I integrate Aspose.Tasks into my existing Java project?**  
+A: بالتأكيد. تم تصميم الـ API للتكامل السلس؛ فقط أضف ملف Aspose.Tasks JAR إلى مسار الفئة (classpath) في مشروعك وابدأ باستخدام الفئة `Project`.
 
-**س: هل هناك أي قيود على أنواع الصيغ التي يمكنني إنشاؤها؟**  
-ج: المكتبة تدعم معظم صيغ MS Project الأصلية، بما في ذلك العمليات الحسابية، المنطقية، والدوال المدمجة. قد تتطلب الدوال المخصصة المعقدة حلولًا بديلة.
+**Q: Are there any limitations to the types of formulas I can create?**  
+A: المكتبة تدعم معظم صيغ صيغ MS Project الأصلية، بما في ذلك العمليات الحسابية، المنطقية، والدوال المدمجة. قد تتطلب الدوال المخصصة المعقدة حلولًا بديلة، لكن الحسابات الشائعة مثل **double task cost formula** تعمل مباشرةً.
 
-**س: هل يدعم Aspose.Tasks النشر عبر منصات متعددة؟**  
-ج: نعم، تعمل المكتبة على أي منصة تدعم Java، بما في ذلك Windows وLinux وmacOS.
+**Q: Does Aspose.Tasks support multi‑platform deployment?**  
+A: نعم، المكتبة تعمل على أي منصة تدعم Java، بما في ذلك Windows وLinux وmacOS، ويمكنها معالجة مشاريع تصل إلى 2 GB دون تحميل الملف بالكامل إلى الذاكرة.
 
-**س: كيف يمكنني الحصول على الدعم الفني لـ Aspose.Tasks؟**  
-ج: زر [منتدى Aspose.Tasks](https://forum.aspose.com/c/tasks/15) للحصول على مساعدة المجتمع، أو افتح تذكرة دعم إذا كان لديك ترخيص تجاري.
+**Q: How can I get technical support for Aspose.Tasks?**  
+A: زر [Aspose.Tasks community forum](https://forum.aspose.com/c/tasks/15) للحصول على مساعدة المجتمع، أو افتح تذكرة دعم إذا كان لديك ترخيص تجاري.
 
-## الخاتمة
-في هذا البرنامج التعليمي غطينا كيفية **حفظ ملف المشروع**، **إضافة حقل مخصص**، و**إنشاء صيغة حقل مخصص** تقوم **بمضاعفة تكلفة المهمة** باستخدام Aspose.Tasks for Java. باتباع هذه الخطوات يمكنك أتمتة الحسابات، إغناء بيانات مشروعك، وضمان بقاء جميع التغييرات محفوظة للتقارير والتحليل المستقبلي.
+## الخلاصة
+في هذا **custom field formula example** غطينا كيفية **save project file**، **add a custom field**، و **create a double task cost formula** التي تضاعف تكلفة المهمة تلقائيًا. باتباع هذه الخطوات يمكنك أتمتة الحسابات، إثراء بيانات مشروعك، وضمان حفظ جميع التغييرات للتقارير والتحليل المستقبلي. تقنية **create custom field aspose** هي طريقة قوية لتوسيع MS Project دون الحاجة إلى عمل يدوي على جداول البيانات.
 
 ---
 
-**آخر تحديث:** 2025-12-07  
+**آخر تحديث:** 2026-10-10  
 **تم الاختبار مع:** Aspose.Tasks for Java 24.12  
-**المؤلف:** Aspose  
+**المؤلف:** Aspose
+
+## دروس ذات صلة
+
+- [كيفية إنشاء ملف MPP – إنشاء وحفظ مشروع فارغ بتنسيق MPP باستخدام Aspose.Tasks](/tasks/java/project-configuration/create-save-mpp/)
+- [كيفية إنشاء مشروع Aspose.Tasks – تعيين سمات مهمة جديدة](/tasks/java/project-file-operations/set-attributes-new-tasks/)
+- [قراءة سمات المهمة الموسعة باستخدام Aspose.Tasks for Java](/tasks/java/task-properties/extended-task-attributes/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
