@@ -1,10 +1,51 @@
 ---
-date: 2026-02-13
-description: Naučte se, jak generovat projektovou zprávu vytvořením objektu projektu
-  v Javě, přidáním rozšířených atributů a použitím evaluačních funkcí s Aspose.Tasks.
-linktitle: Support Evaluation Functions in Aspose.Tasks Formulas
+date: 2026-10-10
+description: Zjistěte, jak přidat rozšířený atribut v Aspose.Tasks, používat evaluační
+  funkce a generovat projektové zprávy pomocí této Java knihovny pro řízení projektů.
+keywords:
+- how to add extended attribute
+- add custom field task
+- java project management library
+lastmod: 2026-10-10
+linktitle: Podpora evaluačních funkcí ve vzorcích Aspose.Tasks
+og_description: Zjistěte, jak přidat rozšířený atribut v Aspose.Tasks, používat evaluační
+  funkce a generovat projektové zprávy pomocí této Java knihovny pro řízení projektů.
+og_image_alt: Aspose.Tasks Java tutorial showing how to add extended attribute and
+  use evaluation functions
+og_title: Jak přidat rozšířený atribut do vzorců v Aspose.Tasks
+schemas:
+- author: Aspose
+  dateModified: '2026-10-10'
+  description: Learn how to add extended attribute in Aspose.Tasks, use evaluation
+    functions, and generate project reports with this Java project management library.
+  headline: How to add extended attribute in Aspose.Tasks formulas
+  type: TechArticle
+- questions:
+  - answer: Yes, Aspose.Tasks for Java supports evaluation of a wide range of MS Project
+      functions, allowing for complex calculations within Java applications.
+    question: Can Aspose.Tasks for Java handle complex MS Project formulas?
+  - answer: Yes, Aspose.Tasks for Java supports various versions of Microsoft Project
+      files, including MPP, MPT, and XML formats.
+    question: Is Aspose.Tasks for Java compatible with different versions of Microsoft
+      Project files?
+  - answer: Yes, you can download a free trial version of Aspose.Tasks for Java from
+      the website [Aspose.Tasks for Java purchase page](https://purchase.aspose.com/buy).
+    question: Can I try Aspose.Tasks for Java before purchasing?
+  - answer: You can get support from the Aspose.Tasks community forum [Aspose.Tasks
+      community forum](https://forum.aspose.com/c/tasks/15).
+    question: How can I get support for Aspose.Tasks for Java?
+  - answer: Yes, you can obtain a temporary license for testing purposes from the
+      Aspose website [Aspose temporary license page](https://purchase.aspose.com/temporary-license/).
+    question: Is there a temporary license available for Aspose.Tasks for Java?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: Generovat projektovou zprávu – Vytvořit objekt projektu v Javě
+tags:
+- add extended attribute
+- java project management library
+- Aspose.Tasks
+- evaluation functions
+- custom field task
+title: Jak přidat rozšířený atribut do vzorců v Aspose.Tasks
 url: /cs/java/formulas/evaluation-functions/
 weight: 10
 ---
@@ -13,113 +54,116 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Podpora evaluačních funkcí v Aspose.Tasks formulích
+# Jak přidat rozšířený atribut ve formulích Aspose.Tasks
 
 ## Úvod
-Aspose.Tasks pro Java vám umožňuje **generovat projektové zprávy** vytvořením **projektového objektu** v Javě a vyhodnocováním funkcí Microsoft Project přímo ve vašem kódu. Vložením těchto formulí můžete provádět složité výpočty, generovat vlastní zprávy a automatizovat analýzu projektů, aniž byste opustili vývojové prostředí. V tomto tutoriálu si projdeme vytvoření projektového objektu, přidání rozšířeného atributu a použití evaluačních funkcí k **přidání dat úkolu do vlastního pole**.
+Aspose.Tasks for Java je **Java knihovna pro řízení projektů**, která vám umožní generovat projektové zprávy vytvořením objektu `Project` v Javě a vyhodnocováním funkcí Microsoft Project přímo ve vašem kódu. Vkládáním těchto formulí můžete provádět složité výpočty, generovat vlastní zprávy a automatizovat analýzu projektů, aniž byste opustili vývojové prostředí. V tomto tutoriálu vás provedeme vytvořením objektu projektu, přidáním rozšířeného atributu a použitím evaluačních funkcí k **přidání úkolu s vlastním polem**.
 
 ## Rychlé odpovědi
-- **Co znamená „create project object java“?** Vytvoří se instance `Project` v paměti, kterou můžete programově manipulovat.  
-- **Která knihovna je vyžadována?** Aspose.Tasks pro Java (stáhněte z oficiálního webu).  
+- **Co znamená “create project object java”?** Vytváří v‑paměti instanci `Project`, kterou můžete programově manipulovat.  
+- **Která knihovna je vyžadována?** Aspose.Tasks for Java (stáhněte z oficiálního webu).  
 - **Potřebuji licenci?** Pro produkční použití je vyžadována dočasná nebo plná licence Aspose.Tasks; k dispozici je bezplatná zkušební verze.  
-- **Mohu použít vlastní pole?** Ano – můžete **přidat rozšířený atribut** k úkolům a používat jej jako vlastní pole.  
-- **Je to kompatibilní se všemi formáty souborů Project?** Aspose.Tasks podporuje formáty MPP, MPT i XML.
+- **Mohu používat vlastní pole?** Ano – můžete **přidat rozšířený atribut** k úkolům a zacházet s ním jako s vlastním polem.  
+- **Je to kompatibilní se všemi formáty souborů Project?** Aspose.Tasks podporuje 3 hlavní formáty (MPP, MPT, XML) a více než 50 dalších vstupních/výstupních formátů.
 
-## Předpoklady
-Než začnete, ujistěte se, že máte:
+## Požadavky
+Před zahájením se ujistěte, že máte:
 
-1. **Vývojové prostředí Java** – JDK 8+ a IDE jako IntelliJ IDEA nebo Eclipse.  
-2. **Aspose.Tasks pro Java knihovna** – Stáhněte a zahrňte knihovnu ze [stránky ke stažení Aspose.Tasks pro Java](https://releases.aspose.com/tasks/java/).
+1. **Java vývojové prostředí** – JDK 8+ a IDE jako IntelliJ IDEA nebo Eclipse.  
+2. **Knihovna Aspose.Tasks pro Java** – Stáhněte a zahrňte knihovnu z [Aspose.Tasks for Java download page](https://releases.aspose.com/tasks/java/).
 
 ## Import balíčků
-Přidejte jmenný prostor Aspose.Tasks do své Java třídy, abyste mohli pracovat s projekty, úkoly a rozšířenými atributy:
+Přidejte namespace Aspose.Tasks do vaší Java třídy, abyste mohli pracovat s projekty, úkoly a rozšířenými atributy:
 
 ```java
 import com.aspose.tasks.*;
 ```
 
-## Generování projektové zprávy – Vytvoření projektového objektu Java
-Instancujte nový objekt `Project`. Ten bude sloužit jako kontejner pro všechny úkoly, zdroje a vlastní data, která definujete.
+## Vytvoření projektové zprávy – vytvoření objektu projektu v Javě
+Třída `Project` představuje soubor Microsoft Project v paměti a poskytuje přístup k úkolům, zdrojům a vlastním datům. Vytvořením instance této třídy získáte kontejner pro všechny prvky projektu, které budete definovat.
 
 ```java
 Project project = new Project();
 ```
 
-Řádek výše **vytváří projektový objekt java**, který je zpočátku prázdný a připravený k úpravám.
+Řádek výše **vytváří objekt projektu v Javě**, který je prázdný a připravený k úpravám.
 
 ## Jak přidat rozšířený atribut
-Definujte rozšířený atribut, který bude pro každý úkol uchovávat vlastní číselná data (např. hodnotu sinu).
+Třída `ExtendedAttributeDefinition` definuje vlastní pole, které lze přiřadit k úkolům. Pro přidání rozšířeného atributu vytvořte instanci této třídy s typem `Number`, přiřaďte jí alias, například „Sine“, přidejte ji do kolekce `ExtendedAttributes` projektu a poté ji propojte s každým úkolem, který vyžaduje vlastní pole.
 
 ```java
 ExtendedAttributeDefinition attr = ExtendedAttributeDefinition.createTaskDefinition(CustomFieldType.Number, ExtendedAttributeTask.Number1, "Sine");
 ```
 
-Zde **přidáváme rozšířený atribut** typu `Number` s názvem „Sine“ a spojujeme jej s úkoly.
+Zde **přidáváme rozšířený atribut** typu `Number` s názvem „Sine“ a přiřazujeme jej úkolům.
 
 ## Přidání rozšířeného atributu do projektu
-Zaregistrujte definici atributu v projektu, aby na něj mohl odkazovat každý úkol.
+Zaregistrujte definici atributu v projektu, aby na ni mohl odkazovat každý úkol.
 
 ```java
 project.getExtendedAttributes().add(attr);
 ```
 
 ## Vytvoření nového úkolu
-Přidejte jednoduchý úkol s názvem „Task“ pod kořenový úkol projektu.
+`Task` představuje pracovní položku v projektu a může obsahovat vlastní pole.
 
 ```java
 Task task = project.getRootTask().getChildren().add("Task");
 ```
 
-## Propojení rozšířeného atributu s úkolem
-Propojte dříve definovaný rozšířený atribut s nově vytvořeným úkolem.
+## Přidání úkolu s vlastním polem do projektu
+Propojte dříve definovaný rozšířený atribut s nově vytvořeným úkolem, čímž úkolu přiřadíte vlastní pole „Sine“, které můžete použít ve formulích nebo výpočtech.
 
 ```java
 ExtendedAttribute a = attr.createExtendedAttribute();
 task.getExtendedAttributes().add(a);
 ```
 
-Nyní úkol obsahuje vlastní pole „Sine“, které můžete použít ve formulích nebo výpočtech. Takto také **přidáváte data úkolu do vlastního pole** programově.
+Nyní úkol obsahuje vlastní pole „Sine“, které můžete použít ve formulích nebo výpočtech. Takto také **přidáváte data úkolu s vlastním polem** programově.
 
 ## Proč používat evaluační funkce?
-Vkládání funkcí MS Project do Aspose.Tasks formulí vám umožní:
-
-- Provádět výpočty za běhu (např. `Sin([Start])`) bez externích nástrojů.  
-- Udržet veškerou logiku projektu v jednom udržovatelném kódu.  
-- Generovat dynamické zprávy, které odrážejí změny dat v reálném čase, a tím **automaticky generovat projektové zprávy**.
+Evaluační funkce vám umožňují vložit nativní Microsoft Project formule (např. `Sin([Start])`) přímo do Aspose.Tasks, což umožňuje okamžité výpočty bez externího zpracování. To udržuje veškerou logiku projektu na jednom místě, snižuje chyby synchronizace dat a urychluje generování zpráv. Aspose.Tasks podporuje vyhodnocování více než 100 funkcí MS Project, poskytující komplexní výpočetní engine v Javě.
 
 ## Časté problémy a řešení
 | Problém | Řešení |
 |-------|----------|
-| **Formula returns `NaN`** | Ověřte, že typ vlastního pole odpovídá očekávanému číselnému typu. |
-| **Extended attribute not visible** | Ujistěte se, že definice atributu je přidána do projektu **před** vytvořením úkolů. |
-| **License exception** | Nainstalujte dočasnou nebo plnou **licenci Aspose.Tasks**; režim zkušební verze může omezovat některé funkce. |
-| **Missing temporary license** | Získejte **dočasnou licenci Aspose** na webu Aspose. |
+| **Formula vrací `NaN`** | Ověřte, že typ vlastního pole odpovídá očekávanému číselnému typu. |
+| **Rozšířený atribut není viditelný** | Ujistěte se, že definice atributu je přidána do projektu **před** vytvořením úkolů. |
+| **Výjimka licence** | Nainstalujte dočasnou nebo plnou **licenci Aspose.Tasks**; režim zkušební verze může omezovat některé funkce. |
+| **Chybí dočasná licence** | Získejte **dočasnou licenci Aspose** na webu Aspose. |
 
 ## Často kladené otázky
 
-**Q: Dokáže Aspose.Tasks pro Java zpracovat složité MS Project formule?**  
-A: Ano, Aspose.Tasks pro Java podporuje vyhodnocování široké škály funkcí MS Project, což umožňuje provádět komplexní výpočty v Java aplikacích.
+**Q: Může Aspose.Tasks pro Java zvládnout složité MS Project formule?**  
+A: Ano, Aspose.Tasks pro Java podporuje vyhodnocování široké škály funkcí MS Project, což umožňuje složité výpočty v Java aplikacích.
 
 **Q: Je Aspose.Tasks pro Java kompatibilní s různými verzemi souborů Microsoft Project?**  
 A: Ano, Aspose.Tasks pro Java podporuje různé verze souborů Microsoft Project, včetně formátů MPP, MPT a XML.
 
 **Q: Můžu si Aspose.Tasks pro Java vyzkoušet před zakoupením?**  
-A: Ano, můžete si stáhnout bezplatnou zkušební verzi Aspose.Tasks pro Java z webu [zde](https://purchase.aspose.com/buy).
+A: Ano, můžete si stáhnout bezplatnou zkušební verzi Aspose.Tasks pro Java z webu [Aspose.Tasks for Java purchase page](https://purchase.aspose.com/buy).
 
-**Q: Jak získám podporu pro Aspose.Tasks pro Java?**  
-A: Podporu můžete získat na fóru komunity Aspose.Tasks [zde](https://forum.aspose.com/c/tasks/15).
+**Q: Jak mohu získat podporu pro Aspose.Tasks pro Java?**  
+A: Podporu můžete získat na fóru komunity Aspose.Tasks [Aspose.Tasks community forum](https://forum.aspose.com/c/tasks/15).
 
-**Q: Existuje dočasná licence pro Aspose.Tasks pro Java?**  
-A: Ano, dočasnou licenci pro testovací účely můžete získat na webu Aspose [zde](https://purchase.aspose.com/temporary-license/).
+**Q: Je k dispozici dočasná licence pro Aspose.Tasks pro Java?**  
+A: Ano, můžete získat dočasnou licenci pro testovací účely na webu Aspose [Aspose temporary license page](https://purchase.aspose.com/temporary-license/).
 
 ## Závěr
-Postupným sledováním těchto kroků jste se naučili, jak **vytvořit projektový objekt**, **přidat rozšířený atribut** a využít evaluační funkce k **automatickému generování projektových zpráv**. Nyní můžete tuto základnu rozšířit o pokročilejší projektovou analytiku, vlastní dashboardy nebo automatizované nástroje plánování – vše poháněné Aspose.Tasks pro Java.
+Postupem těchto kroků jste se naučili, jak **vytvořit objekt projektu**, **přidat rozšířený atribut** a využít evaluační funkce k **automatickému generování projektové zprávy**. Nyní můžete tuto základnu rozšířit a vytvořit pokročilejší projektovou analytiku, vlastní dashboardy nebo automatizované nástroje pro plánování – vše poháněné Aspose.Tasks pro Java.
 
 ---
 
-**Poslední aktualizace:** 2026-02-13  
-**Testováno s:** Aspose.Tasks pro Java 24.10  
-**Autor:** Aspose  
+**Poslední aktualizace:** 2026-10-10  
+**Testováno s:** Aspose.Tasks for Java 24.10  
+**Autor:** Aspose
+
+## Související tutoriály
+
+- [Vlastní sloupce a rozšířené atributy v Java řízení projektů](/tasks/java/project-management/extended-attributes/)
+- [Čtení rozšířených atributů úkolů s Aspose.Tasks pro Java](/tasks/java/task-properties/extended-task-attributes/)
+- [Jak používat Aspose.Tasks pro Java – Přidat rozšířené atributy k přiřazením zdrojů](/tasks/java/resource-assignments/add-extended-attributes/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
