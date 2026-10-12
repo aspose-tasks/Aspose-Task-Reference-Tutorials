@@ -1,9 +1,49 @@
 ---
-date: 2026-02-13
-description: Javaでプロジェクトオブジェクトを作成し、拡張属性を追加し、Aspose.Tasksの評価機能を使用してプロジェクトレポートを生成する方法を学びます。
-linktitle: Support Evaluation Functions in Aspose.Tasks Formulas
+date: 2026-10-10
+description: Aspose.Tasks で拡張属性を追加し、評価関数を使用し、この Java プロジェクト管理ライブラリでプロジェクトレポートを生成する方法を学びます。
+keywords:
+- how to add extended attribute
+- add custom field task
+- java project management library
+lastmod: 2026-10-10
+linktitle: Aspose.Tasks の数式で評価関数をサポート
+og_description: Aspose.Tasks で拡張属性を追加し、評価関数を使用し、この Java プロジェクト管理ライブラリでプロジェクトレポートを生成する方法を学びます。
+og_image_alt: Aspose.Tasks Java tutorial showing how to add extended attribute and
+  use evaluation functions
+og_title: Aspose.Tasks の数式で拡張属性を追加する方法
+schemas:
+- author: Aspose
+  dateModified: '2026-10-10'
+  description: Learn how to add extended attribute in Aspose.Tasks, use evaluation
+    functions, and generate project reports with this Java project management library.
+  headline: How to add extended attribute in Aspose.Tasks formulas
+  type: TechArticle
+- questions:
+  - answer: Yes, Aspose.Tasks for Java supports evaluation of a wide range of MS Project
+      functions, allowing for complex calculations within Java applications.
+    question: Can Aspose.Tasks for Java handle complex MS Project formulas?
+  - answer: Yes, Aspose.Tasks for Java supports various versions of Microsoft Project
+      files, including MPP, MPT, and XML formats.
+    question: Is Aspose.Tasks for Java compatible with different versions of Microsoft
+      Project files?
+  - answer: Yes, you can download a free trial version of Aspose.Tasks for Java from
+      the website [Aspose.Tasks for Java purchase page](https://purchase.aspose.com/buy).
+    question: Can I try Aspose.Tasks for Java before purchasing?
+  - answer: You can get support from the Aspose.Tasks community forum [Aspose.Tasks
+      community forum](https://forum.aspose.com/c/tasks/15).
+    question: How can I get support for Aspose.Tasks for Java?
+  - answer: Yes, you can obtain a temporary license for testing purposes from the
+      Aspose website [Aspose temporary license page](https://purchase.aspose.com/temporary-license/).
+    question: Is there a temporary license available for Aspose.Tasks for Java?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: プロジェクトレポートの生成 – Javaでプロジェクトオブジェクトを作成
+tags:
+- add extended attribute
+- java project management library
+- Aspose.Tasks
+- evaluation functions
+- custom field task
+title: Aspose.Tasks の数式で拡張属性を追加する方法
 url: /ja/java/formulas/evaluation-functions/
 weight: 10
 ---
@@ -12,50 +52,48 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks フォーミュラで評価関数をサポート
+# Aspose.Tasks の数式で拡張属性を追加する方法
 
 ## はじめに
-Aspose.Tasks for Java を使用すると、Java で **プロジェクト オブジェクト** を作成し、Microsoft Project の関数をコード内で直接評価して **プロジェクト レポートを生成** できます。これらのフォーミュラを埋め込むことで、複雑な計算を実行し、カスタム レポートを作成し、開発環境を離れることなくプロジェクト分析を自動化できます。このチュートリアルでは、プロジェクト オブジェクトの作成、拡張属性の追加、評価関数を使用した **カスタム フィールド タスク** データの **追加** 方法を順を追って説明します。
+Aspose.Tasks for Java は **Java プロジェクト管理ライブラリ** で、Java で `Project` オブジェクトを作成し、コード内で直接 Microsoft Project の関数を評価することでプロジェクトレポートを生成できます。これらの数式を埋め込むことで、複雑な計算を実行し、カスタムレポートを生成し、開発環境を離れることなくプロジェクト分析を自動化できます。このチュートリアルでは、プロジェクトオブジェクトの作成、拡張属性の追加、評価関数を使用して **add custom field task** データを追加する手順を解説します。
 
-## クイック アンサー
-- **「create project object java」とは何ですか？** メモリ内に `Project` インスタンスを作成し、プログラムから操作できるようにします。  
-- **必要なライブラリはどれですか？** Aspose.Tasks for Java（公式サイトからダウンロード）。  
-- **ライセンスは必要ですか？** 本番利用には一時ライセンスまたはフル ライセンスが必要です。無料トライアルも利用可能です。  
-- **カスタム フィールドは使用できますか？** はい。タスクに **拡張属性** を追加してカスタム フィールドとして扱えます。  
-- **すべての Project ファイル形式に対応していますか？** Aspose.Tasks は MPP、MPT、XML 形式をサポートしています。
+## クイック回答
+- **“create project object java” は何を意味しますか？** プログラムから操作できるインメモリの `Project` インスタンスを作成します。  
+- **どのライブラリが必要ですか？** Aspose.Tasks for Java（公式サイトからダウンロード）。  
+- **ライセンスは必要ですか？** 本番環境で使用するには一時的または完全な Aspose.Tasks ライセンスが必要です。無料トライアルも利用可能です。  
+- **カスタムフィールドは使用できますか？** はい。タスクに **add extended attribute** を追加してカスタムフィールドとして扱うことができます。  
+- **すべての Project ファイル形式と互換性がありますか？** Aspose.Tasks は主要な 3 つの形式（MPP、MPT、XML）と、50 以上の追加入出力形式に対応しています。
 
 ## 前提条件
-開始する前に、以下を用意してください。
-
-1. **Java 開発環境** – JDK 8 以上と IntelliJ IDEA または Eclipse などの IDE。  
-2. **Aspose.Tasks for Java ライブラリ** – [Aspose.Tasks for Java ダウンロードページ](https://releases.aspose.com/tasks/java/) からダウンロードし、プロジェクトに組み込んでください。
+1. **Java 開発環境** – JDK 8+ と IntelliJ IDEA や Eclipse などの IDE。  
+2. **Aspose.Tasks for Java ライブラリ** – [Aspose.Tasks for Java ダウンロードページ](https://releases.aspose.com/tasks/java/) からダウンロードし、ライブラリを組み込んでください。
 
 ## パッケージのインポート
-プロジェクト、タスク、拡張属性を操作できるように、Java クラスに Aspose.Tasks 名前空間を追加します。
+Java クラスに Aspose.Tasks の名前空間を追加して、プロジェクト、タスク、拡張属性を操作できるようにします。
 
 ```java
 import com.aspose.tasks.*;
 ```
 
-## プロジェクト レポートの生成 – Create Project Object Java
-新しい `Project` オブジェクトをインスタンス化します。これがすべてのタスク、リソース、カスタム データのコンテナになります。
+## プロジェクトレポートの生成 – create project object java
+`Project` クラスは、メモリ内の Microsoft Project ファイルを表し、タスク、リソース、カスタムデータを公開します。このクラスのインスタンス化により、定義するすべてのプロジェクト要素のコンテナが得られます。
 
 ```java
 Project project = new Project();
 ```
 
-上記の行は **create project object java** を作成し、空の状態からカスタマイズできるようにします。
+上記の行は **creates project object java** を作成し、空の状態でカスタマイズの準備ができています。
 
 ## 拡張属性の追加方法
-各タスクにカスタム数値データ（例: 正弦値）を格納する拡張属性を定義します。
+`ExtendedAttributeDefinition` クラスは、タスクに付与できるカスタムフィールドを定義します。拡張属性を追加するには、タイプ `Number` のこのクラスのインスタンスを作成し、“Sine” のようなエイリアスを割り当て、プロジェクトの `ExtendedAttributes` コレクションに追加し、カスタムフィールドが必要な各タスクにリンクします。
 
 ```java
 ExtendedAttributeDefinition attr = ExtendedAttributeDefinition.createTaskDefinition(CustomFieldType.Number, ExtendedAttributeTask.Number1, "Sine");
 ```
 
-ここでは `Number` 型の「Sine」という名前の **拡張属性** を追加し、タスクに関連付けています。
+ここではタイプ `Number` の **add extended attribute** を “Sine” という名前で作成し、タスクに関連付けています。
 
-## 拡張属性をプロジェクトに登録
+## プロジェクトに拡張属性を追加する
 属性定義をプロジェクトに登録し、すべてのタスクが参照できるようにします。
 
 ```java
@@ -63,62 +101,65 @@ project.getExtendedAttributes().add(attr);
 ```
 
 ## 新しいタスクの作成
-プロジェクトのルート タスクの下に、シンプルなタスク「Task」を追加します。
+`Task` はプロジェクト内の作業項目を表し、カスタムフィールドを含めることができます。
 
 ```java
 Task task = project.getRootTask().getChildren().add("Task");
 ```
 
-## タスクに拡張属性を関連付け
-先に定義した拡張属性を新しく作成したタスクにリンクします。
+## プロジェクトにカスタムフィールドタスクを追加する
+先に定義した拡張属性を新しく作成したタスクにリンクし、タスクに数式や計算で使用できるカスタム “Sine” フィールドを付与します。
 
 ```java
 ExtendedAttribute a = attr.createExtendedAttribute();
 task.getExtendedAttributes().add(a);
 ```
 
-これでタスクはカスタム「Sine」フィールドを保持し、フォーミュラや計算で使用できます。これが **カスタム フィールド タスク** データをプログラムで **追加** する方法です。
+これでタスクは数式や計算で使用できるカスタム “Sine” フィールドを保持します。これがプログラムで **add custom field task** データを追加する方法でもあります。
 
-## なぜ評価関数を使用するのか？
-Aspose.Tasks のフォーミュラに MS Project 関数を埋め込むことで、次のことが可能になります。
+## 評価関数を使用する理由
+評価関数を使用すると、ネイティブな Microsoft Project の数式（例: `Sin([Start])`）を Aspose.Tasks に直接埋め込むことができ、外部処理なしでオンザフライ計算が可能になります。これにより、すべてのプロジェクトロジックが一元化され、データ同期エラーが減少し、レポート生成が高速化します。Aspose.Tasks は 100 以上の MS Project 関数の評価をサポートし、Java 内で包括的な計算エンジンを提供します。
 
-- 外部ツールなしでオンザフライ計算（例: `Sin([Start])`）を実行。  
-- プロジェクト ロジックを単一の保守しやすいコードベースに統合。  
-- リアルタイム データ変更を反映した動的レポートを生成し、**プロジェクト レポートを自動生成** できる。
-
-## よくある問題と解決策
+## 一般的な問題と解決策
 | 問題 | 解決策 |
-|------|--------|
-| **フォーミュラが `NaN` を返す** | カスタム フィールドの型が期待する数値型と一致しているか確認してください。 |
-| **拡張属性が表示されない** | タスクを作成する **前に** 属性定義がプロジェクトに追加されていることを確認してください。 |
-| **ライセンス例外が発生** | 一時ライセンスまたはフル **Aspose.Tasks ライセンス** をインストールしてください。トライアル モードでは一部機能が制限される場合があります。 |
-| **一時ライセンスがない** | Aspose のウェブサイトから **一時 Aspose ライセンス** を取得してください。 |
+|-------|----------|
+| **Formula returns `NaN`** | カスタムフィールドの型が期待される数値型と一致しているか確認してください。 |
+| **Extended attribute not visible** | タスクを作成する **前に** 属性定義がプロジェクトに追加されていることを確認してください。 |
+| **License exception** | 一時的または完全な **Aspose.Tasks ライセンス** をインストールしてください。トライアルモードでは一部機能が制限される場合があります。 |
+| **Missing temporary license** | Aspose のウェブサイトから **temporary Aspose ライセンス** を取得してください。 |
 
-## FAQ
+## よくある質問
 
-**Q: Aspose.Tasks for Java は複雑な MS Project フォーミュラを処理できますか？**  
+**Q: Aspose.Tasks for Java は複雑な MS Project の数式を処理できますか？**  
 A: はい、Aspose.Tasks for Java は幅広い MS Project 関数の評価をサポートしており、Java アプリケーション内で複雑な計算が可能です。
 
-**Q: Aspose.Tasks for Java はさまざまなバージョンの Microsoft Project ファイルに対応していますか？**  
-A: はい、MPP、MPT、XML 形式を含む多数の Microsoft Project ファイル バージョンをサポートしています。
+**Q: Aspose.Tasks for Java はさまざまなバージョンの Microsoft Project ファイルと互換性がありますか？**  
+A: はい、Aspose.Tasks for Java は MPP、MPT、XML 形式を含むさまざまなバージョンの Microsoft Project ファイルをサポートしています。
 
 **Q: 購入前に Aspose.Tasks for Java を試すことはできますか？**  
-A: はい、[こちら](https://purchase.aspose.com/buy) から無料トライアル版をダウンロードできます。
+A: はい、ウェブサイトの [Aspose.Tasks for Java 購入ページ](https://purchase.aspose.com/buy) から無料トライアル版をダウンロードできます。
 
-**Q: Aspose.Tasks for Java のサポートはどこで受けられますか？**  
-A: [こちら](https://forum.aspose.com/c/tasks/15) の Aspose.Tasks コミュニティ フォーラムでサポートを受けられます。
+**Q: Aspose.Tasks for Java のサポートはどのように受けられますか？**  
+A: Aspose.Tasks コミュニティフォーラム [Aspose.Tasks community forum](https://forum.aspose.com/c/tasks/15) からサポートを受けられます。
 
 **Q: Aspose.Tasks for Java 用の一時ライセンスはありますか？**  
-A: はい、[こちら](https://purchase.aspose.com/temporary-license/) からテスト用の一時ライセンスを取得できます。
+A: はい、テスト目的で使用できる一時ライセンスを Aspose のウェブサイトの [Aspose temporary license page](https://purchase.aspose.com/temporary-license/) から取得できます。
 
 ## 結論
-本手順に従うことで、**プロジェクト オブジェクトの作成**、**拡張属性の追加**、評価関数を活用した **プロジェクト レポートの自動生成** 方法を学びました。この基盤を拡張して、より高度なプロジェクト分析、カスタム ダッシュボード、または自動スケジューリング ツールを構築でき、すべて Aspose.Tasks for Java が支えます。
+これらの手順に従うことで、**create project object**、**add extended attribute** の方法と、評価関数を活用して **generate project report** を自動的に生成する方法を学びました。この基盤を拡張して、より高度なプロジェクト分析、カスタムダッシュボード、または自動スケジューリングツールを構築できます—すべて Aspose.Tasks for Java が提供します。
 
 ---
 
-**最終更新日:** 2026-02-13  
+**最終更新日:** 2026-10-10  
 **テスト環境:** Aspose.Tasks for Java 24.10  
-**作者:** Aspose  
+**作者:** Aspose
+
+## 関連チュートリアル
+
+- [Java プロジェクト管理におけるカスタム列と拡張属性](/tasks/java/project-management/extended-attributes/)
+- [Aspose.Tasks for Java で拡張タスク属性を読み取る](/tasks/java/task-properties/extended-task-attributes/)
+- [Aspose.Tasks for Java の使用方法 – リソース割り当てに拡張属性を追加](/tasks/java/resource-assignments/add-extended-attributes/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

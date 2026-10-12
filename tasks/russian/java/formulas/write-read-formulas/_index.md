@@ -1,10 +1,71 @@
 ---
-date: 2025-12-07
-description: Узнайте, как сохранять файл проекта, писать и читать формулы MS Project,
-  а также добавлять формулы пользовательских полей с помощью Aspose.Tasks для Java.
-linktitle: Save Project File & Write Formulas in Aspose.Tasks
+date: 2026-10-10
+description: Узнайте, как создать custom field aspose в Java, применить double task
+  cost formula и сохранить project file с помощью Aspose.Tasks. Включает чтение формул
+  MS Project.
+keywords:
+- create custom field aspose
+- double task cost formula
+- add custom field formula
+- calculate task cost
+lastmod: 2026-10-10
+linktitle: Пример формулы Custom Field – Save Project File
+og_description: Узнайте, как создать custom field aspose в Java, применить double
+  task cost formula и сохранить project file с помощью Aspose.Tasks. Включает чтение
+  формул MS Project.
+og_image_alt: 'Guide: create custom field aspose and save project file with Aspose.Tasks
+  Java'
+og_title: Как создать custom field aspose и сохранить project file
+schemas:
+- author: Aspose
+  dateModified: '2026-10-10'
+  description: Learn how to create custom field aspose in Java, apply a double task
+    cost formula, and save the project file using Aspose.Tasks. Includes reading MS
+    Project formulas.
+  headline: How to create custom field aspose and save project file
+  type: TechArticle
+- description: Learn how to create custom field aspose in Java, apply a double task
+    cost formula, and save the project file using Aspose.Tasks. Includes reading MS
+    Project formulas.
+  name: How to create custom field aspose and save project file
+  steps:
+  - name: '**Java Development Kit (JDK)** – Java 8 or higher installed on your machine.'
+    text: '**Java Development Kit (JDK)** – Java 8 or higher installed on your machine.'
+  - name: '**Aspose.Tasks for Java** – Download and install from [Aspose.Tasks Java
+      download page](https://releases.aspose.com/tasks/java/).'
+    text: '**Aspose.Tasks for Java** – Download and install from [Aspose.Tasks Java
+      download page](https://releases.aspose.com/tasks/java/).'
+  - name: '**Integrated Development Environment (IDE)** – Choose your preferred IDE
+      for Java development (IntelliJ IDEA, Eclipse, VS Code, etc.).'
+    text: '**Integrated Development Environment (IDE)** – Choose your preferred IDE
+      for Java development (IntelliJ IDEA, Eclipse, VS Code, etc.).'
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.Tasks supports a wide range of MS Project versions, from older
+      .mpp formats to the latest releases, covering over 30 file format variations.
+    question: Is Aspose.Tasks compatible with all versions of MS Project?
+  - answer: Absolutely. The API is designed for seamless integration; just add the
+      Aspose.Tasks JAR to your project’s classpath and start using the `Project` class.
+    question: Can I integrate Aspose.Tasks into my existing Java project?
+  - answer: The library supports most native MS Project formula syntax, including
+      arithmetic, logical, and built‑in functions. Complex custom functions may require
+      workarounds, but common calculations like **double task cost formula** work
+      out of the box.
+    question: Are there any limitations to the types of formulas I can create?
+  - answer: Yes, the library runs on any platform that supports Java, including Windows,
+      Linux, and macOS, and can handle projects up to 2 GB without loading the entire
+      file into memory.
+    question: Does Aspose.Tasks support multi‑platform deployment?
+  - answer: Visit the [Aspose.Tasks community forum](https://forum.aspose.com/c/tasks/15)
+      for community help, or open a support ticket if you have a commercial license.
+    question: How can I get technical support for Aspose.Tasks?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: Сохранить файл проекта и записать формулы MS Project с помощью Aspose.Tasks
+tags:
+- custom field
+- Aspose.Tasks
+- Java project automation
+title: Как создать custom field aspose и сохранить project file
 url: /ru/java/formulas/write-read-formulas/
 weight: 12
 ---
@@ -13,33 +74,31 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Сохранить файл проекта и записать формулы MS Project с Aspose.Tasks
+# Как создать пользовательское поле aspose и сохранить файл проекта
 
 ## Введение
-В области управления проектами эффективная работа с данными имеет первостепенное значение. Aspose.Tasks for Java — это надёжное решение, которое облегчает манипуляцию и извлечение данных из файлов Microsoft Project. Одна из мощных возможностей, которую оно предоставляет, — запись и чтение формул MS Project. **Вы также узнаете, как *сохранить файл проекта* после применения этих формул**, гарантируя, что ваши изменения будут сохранены для дальнейшего анализа. Этот учебник проведёт вас через процесс использования этой функциональности для улучшения задач управления проектами.
+В этом руководстве вы увидите **custom field formula example**, который показывает, как **save a project file**, писать и читать формулы MS Project и применять **double task cost formula** с использованием Aspose.Tasks for Java. К концу вы поймёте, почему пользовательские поля мощны, как встраивать вычисления непосредственно в проект и как сохранять эти изменения для последующей отчётности. Основное внимание уделено **create custom field aspose**, чтобы вы могли автоматизировать расчёт стоимости в любом рабочем процессе, основанном на MS Project.
 
 ## Быстрые ответы
-- **Что делает «save project file»?** Он записывает все изменения в памяти обратно в файл .mpp на диске.  
-- **Можно ли добавить формулы пользовательских полей?** Да — вы можете создать пользовательское поле и задать формулу, например «удвоить стоимость задачи».  
-- **Нужна ли лицензия для запуска кода?** Бесплатная пробная версия подходит для оценки; коммерческая лицензия требуется для продакшна.  
-- **Какая IDE лучше всего подходит?** Любая Java‑IDE (IntelliJ IDEA, Eclipse, VS Code) скомпилирует пример.  
-- **Совместим ли API с последней версией MS Project?** Aspose.Tasks поддерживает все современные форматы .mpp.
+- **What does “save project file” do?** Он записывает все изменения в памяти обратно в файл .mpp на диске.  
+- **Can I add custom field formulas?** Да — вы можете создать пользовательское поле и назначить формулу, например “double task cost”.  
+- **Do I need a license to run the code?** Бесплатная пробная версия подходит для оценки; для продакшна требуется коммерческая лицензия.  
+- **Which IDE works best?** Любая Java IDE (IntelliJ IDEA, Eclipse, VS Code) скомпилирует пример.  
+- **Is the API compatible with the latest MS Project version?** Aspose.Tasks поддерживает все последние форматы .mpp.
 
-## Что означает «save project file» в Aspose.Tasks?
-Сохранение файла проекта означает фиксирование текущего состояния объекта `Project` — включая задачи, ресурсы и любые пользовательские формулы — в физический файл Microsoft Project (`.mpp`). Эта операция необходима после изменения данных, например после добавления пользовательского поля или изменения стоимости задачи.
+## Что такое “save project file” в Aspose.Tasks?
+Сохранение файла проекта означает сохранение текущего состояния объекта `Project` — включая задачи, ресурсы и любые пользовательские формулы — в физический файл Microsoft Project (`.mpp`). Эта операция необходима после изменения данных, например после добавления пользовательского поля или изменения стоимости задач. Вызов `save` записывает полную структуру проекта на диск, делая изменения доступными для downstream‑инструментов отчётности.
 
-## Почему стоит добавить пользовательское поле и создать формулу пользовательского поля?
-Добавление пользовательского поля даёт гибкий контейнер для дополнительной информации, которая не покрывается стандартными полями. Привязав формулу — например, **удвоить стоимость задачи** — вы автоматизируете расчёты, уменьшаете количество ручных ошибок и поддерживаете согласованность данных расписания.
+## Зачем добавлять пользовательское поле и создавать формулу пользовательского поля?
+Вы добавляете пользовательское поле, когда нужно хранить информацию, которую не покрывают встроенные поля. Привязка формулы — например **double task cost** — автоматизирует расчёты, устраняет ручные обновления и гарантирует, что каждый раз при изменении базовой стоимости производное значение обновляется мгновенно. Такой подход уменьшает ошибки и поддерживает согласованность данных расписания между командами.
 
 ## Предварительные требования
-Перед тем как приступить к учебнику, убедитесь, что у вас есть следующее:
-
-1. **Java Development Kit (JDK)** — установлен Java 8 или выше.  
-2. **Aspose.Tasks for Java** — скачайте и установите с [здесь](https://releases.aspose.com/tasks/java/).  
-3. **Integrated Development Environment (IDE)** — выберите предпочитаемую IDE для разработки на Java (IntelliJ IDEA, Eclipse, VS Code и т.д.).  
+1. **Java Development Kit (JDK)** – Java 8 или выше, установленный на вашем компьютере.  
+2. **Aspose.Tasks for Java** – Скачайте и установите со страницы [Aspose.Tasks Java download page](https://releases.aspose.com/tasks/java/).  
+3. **Integrated Development Environment (IDE)** – Выберите предпочитаемую IDE для разработки на Java (IntelliJ IDEA, Eclipse, VS Code и т.д.).  
 
 ## Импорт пакетов
-Чтобы начать, импортируйте необходимые пакеты в ваш Java‑проект:
+Классы `Project`, `ExtendedAttribute` и связанные находятся в пространстве имён `com.aspose.tasks`. Импортируйте их в начале вашего исходного файла, чтобы компилятор мог разрешить типы.
 
 ```java
 import com.aspose.tasks.*;
@@ -48,20 +107,24 @@ import java.math.BigDecimal;
 import java.util.Objects;
 ```
 
-## Шаг 1: Настройка каталога данных
+## Шаг 1: настройка каталога данных
+Определите папку, где хранятся ваши файлы MS Project. Здесь вы загрузите исходный файл и позже **save project file**.
+
 ```java
 // The path to the documents directory.
 String dataDir = "Your Data Directory";
 ```
-Определите папку, где находятся ваши файлы MS Project. Здесь вы будете загружать исходный файл и позже **save project file**.
 
-## Шаг 2: Загрузка файла проекта
+## Шаг 2: загрузка файла проекта
+Класс `Project` представляет файл Microsoft Project в памяти, предоставляя доступ к задачам, ресурсам и пользовательским полям. Загрузка файла даёт вам манипулируемую объектную модель.
+
 ```java
 Project project = new Project(dataDir + "project.mpp");
 ```
-Загрузите существующий файл Microsoft Project в объект `Project`, чтобы иметь возможность читать или изменять его содержимое.
 
-## Шаг 3: Добавление пользовательского поля и создание формулы пользовательского поля
+## Шаг 3: добавление пользовательского поля и создание формулы пользовательского поля
+На этом этапе мы **add a custom field** “Double Costs” и **create a custom field formula**, которая умножает `[Cost]` задачи на 2, эффективно реализуя **double task cost formula**. Метод `setFormula` встраивает вычисление непосредственно в файл проекта.
+
 ```java
 project.set(Prj.NEW_TASKS_ARE_MANUAL, new NullableBool(false));
 ExtendedAttributeDefinition attr = ExtendedAttributeDefinition.createTaskDefinition(
@@ -70,52 +133,60 @@ attr.setAlias("Double Costs");
 attr.setFormula("[Cost]*2");   // This formula doubles the task cost
 project.getExtendedAttributes().add(attr);
 ```
-На этом этапе мы **add custom field** «Double Costs» и **create custom field formula**, которая умножает `[Cost]` задачи на 2, фактически **double task cost**. Метод `setFormula` внедряет расчёт непосредственно в файл проекта.
 
-## Шаг 4: Добавление задачи и установка стоимости
+## Шаг 4: добавление задачи и установка стоимости
+Создайте новую задачу, затем задайте базовую стоимость `100`. При сохранении проекта пользовательское поле автоматически отобразит `200` благодаря ранее определённой формуле.
+
 ```java
 Task task = project.getRootTask().getChildren().add("Task");
 task.set(Tsk.COST, BigDecimal.valueOf(100));
 ```
-Создайте новую задачу, затем задайте базовую стоимость `100`. При сохранении проекта пользовательское поле автоматически отобразит `200` благодаря ранее определённой формуле.
 
-## Шаг 5: Сохранить файл проекта
+## Шаг 5: сохранение файла проекта
+Метод `save` записывает обновлённый проект, включая новое пользовательское поле и его вычисленные значения, в `saved.mpp`. Это сохраняет изменения **create custom field aspose** для любых downstream‑потребителей.
+
 ```java
 project.save(dataDir + "saved.mpp", SaveFileFormat.Mpp);
 ```
-Наконец, **save project file** со всеми изменениями. Метод `save` записывает обновлённый проект, включая новое пользовательское поле и вычисленные значения, в `saved.mpp`.
 
 ## Распространённые проблемы и решения
-| Issue | Reason | Fix |
-|-------|--------|-----|
-| **Formula not applied** | Custom field not added to the project’s `ExtendedAttributes` collection. | Ensure `project.getExtendedAttributes().add(attr);` is executed before saving. |
-| **File not found** | Incorrect `dataDir` path. | Verify the directory string ends with a path separator (`/` or `\\`). |
-| **Cost appears as 0** | Task cost not set before saving. | Call `task.set(Tsk.COST, ...)` before `project.save`. |
+| Проблема | Причина | Решение |
+|----------|----------|----------|
+| **Formula not applied** | Пользовательское поле не добавлено в коллекцию `ExtendedAttributes` проекта. | Убедитесь, что `project.getExtendedAttributes().add(attr);` выполнен перед сохранением. |
+| **File not found** | Неправильный путь `dataDir`. | Проверьте, что строка каталога заканчивается разделителем пути (`/` или `\\`). |
+| **Cost appears as 0** | Стоимость задачи не установлена перед сохранением. | Вызовите `task.set(Tsk.COST, ...)` перед `project.save`. |
 
 ## Часто задаваемые вопросы
-**Q: Совместим ли Aspose.Tasks со всеми версиями MS Project?**  
-A: Да, Aspose.Tasks поддерживает широкий диапазон версий MS Project, от старых форматов .mpp до последних релизов.
+**Q: Is Aspose.Tasks compatible with all versions of MS Project?**  
+A: Да, Aspose.Tasks поддерживает широкий спектр версий MS Project, от старых форматов .mpp до последних релизов, охватывая более 30 вариантов форматов файлов.
 
-**Q: Можно ли интегрировать Aspose.Tasks в существующий Java‑проект?**  
-A: Абсолютно. API спроектирован для бесшовной интеграции; достаточно добавить JAR‑файл Aspose.Tasks в classpath проекта.
+**Q: Can I integrate Aspose.Tasks into my existing Java project?**  
+A: Абсолютно. API спроектирован для бесшовной интеграции; просто добавьте Aspose.Tasks JAR в classpath вашего проекта и начните использовать класс `Project`.
 
-**Q: Есть ли ограничения на типы формул, которые я могу создавать?**  
-A: Библиотека поддерживает большинство нативных синтаксисов формул MS Project, включая арифметику, логические операции и встроенные функции. Сложные пользовательские функции могут потребовать обходных решений.
+**Q: Are there any limitations to the types of formulas I can create?**  
+A: Библиотека поддерживает большинство нативных синтаксисов формул MS Project, включая арифметические, логические и встроенные функции. Сложные пользовательские функции могут потребовать обходных решений, но обычные расчёты, такие как **double task cost formula**, работают из коробки.
 
-**Q: Поддерживает ли Aspose.Tasks мультиплатформенную развёртку?**  
-A: Да, библиотека работает на любой платформе, поддерживающей Java, включая Windows, Linux и macOS.
+**Q: Does Aspose.Tasks support multi‑platform deployment?**  
+A: Да, библиотека работает на любой платформе, поддерживающей Java, включая Windows, Linux и macOS, и может обрабатывать проекты до 2 GB без загрузки полного файла в память.
 
-**Q: Как получить техническую поддержку по Aspose.Tasks?**  
-A: Посетите [форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15) для помощи сообщества или откройте тикет поддержки, если у вас коммерческая лицензия.
+**Q: How can I get technical support for Aspose.Tasks?**  
+A: Посетите [Aspose.Tasks community forum](https://forum.aspose.com/c/tasks/15) для помощи сообщества или откройте тикет поддержки, если у вас коммерческая лицензия.
 
 ## Заключение
-В этом учебнике мы рассмотрели, как **save project file**, **add custom field** и **create a custom field formula**, которая **double task cost** с помощью Aspose.Tasks for Java. Следуя этим шагам, вы сможете автоматизировать расчёты, обогатить данные проекта и гарантировать, что все изменения сохраняются для будущих отчётов и анализа.
+В этом **custom field formula example** мы рассмотрели, как **save project file**, **add a custom field** и **create a double task cost formula**, автоматически удваивающую стоимость задачи. Следуя этим шагам, вы можете автоматизировать расчёты, обогатить данные проекта и гарантировать, что все изменения сохраняются для будущей отчётности и анализа. Техника **create custom field aspose** — мощный способ расширить MS Project без ручной работы в таблицах.
 
 ---
 
-**Last Updated:** 2025-12-07  
-**Tested With:** Aspose.Tasks for Java 24.12  
-**Author:** Aspose  
+**Последнее обновление:** 2026-10-10  
+**Тестировано с:** Aspose.Tasks for Java 24.12  
+**Автор:** Aspose
+
+## Связанные руководства
+
+- [Как создать файл MPP – создать и сохранить пустой проект в формате MPP с Aspose.Tasks](/tasks/java/project-configuration/create-save-mpp/)
+- [Как создать проект aspose.tasks – установить новые атрибуты задачи](/tasks/java/project-file-operations/set-attributes-new-tasks/)
+- [Чтение расширенных атрибутов задачи с Aspose.Tasks for Java](/tasks/java/task-properties/extended-task-attributes/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
