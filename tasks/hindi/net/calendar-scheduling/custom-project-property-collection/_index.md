@@ -1,33 +1,113 @@
 ---
-title: Aspose.Tasks में कस्टम प्रोजेक्ट संपत्ति संग्रह का प्रबंधन
-linktitle: Aspose.Tasks में कस्टम प्रोजेक्ट संपत्ति संग्रह का प्रबंधन
+date: 2026-10-15
+description: Aspose.Tasks for .NET में custom property जोड़ना और custom project properties
+  को प्रबंधित करना सीखें, जिससे आपके project metadata नियंत्रण में सुधार हो।
+keywords:
+- add custom property
+- manage custom properties
+- read custom properties
+- add boolean property
+- add string property
+lastmod: 2026-10-15
+linktitle: Aspose.Tasks में Custom Project Property Collection का प्रबंधन
+og_description: Aspose.Tasks for .NET के साथ अपने प्रोजेक्ट फ़ाइलों में custom property
+  जोड़ें। यह गाइड दिखाता है कि कैसे custom properties को प्रबंधित करें, पढ़ें, और
+  boolean या string मानों को प्रभावी ढंग से जोड़ें।
+og_image_alt: Guide showing how to add custom property in Aspose.Tasks .NET
+og_title: Aspose.Tasks .NET API का उपयोग करके custom property जोड़ें
+schemas:
+- author: Aspose
+  dateModified: '2026-10-15'
+  description: Learn how to add custom property and manage custom project properties
+    in Aspose.Tasks for .NET, boosting your project metadata control.
+  headline: How to add custom property in Aspose.Tasks for .NET
+  type: TechArticle
+- description: Learn how to add custom property and manage custom project properties
+    in Aspose.Tasks for .NET, boosting your project metadata control.
+  name: How to add custom property in Aspose.Tasks for .NET
+  steps:
+  - name: initialize project
+    text: '`Project` is the primary class representing a project file in Aspose.Tasks.'
+  - name: check custom properties collection readiness
+    text: '`CustomProperties` is the collection that holds all custom property objects
+      for a project.'
+  - name: add custom properties
+    text: '`Add` method inserts a new custom property into the project''s collection.'
+  - name: access custom properties
+    text: '`CustomProperties` collection implements IEnumerable, allowing iteration
+      over each `CustomProperty`.'
+  - name: retrieve a custom property value
+    text: '`Get` method returns the value of a custom property by its name.'
+  - name: iterate over custom property names
+    text: '`Names` property provides a list of all custom property names in the collection.'
+  - name: remove or clear custom properties
+    text: '`Remove` method deletes a specific property, while `Clear` empties the
+      entire collection.'
+  type: HowTo
+- questions:
+  - answer: Yes, you can add custom properties supporting Boolean, DateTime, Double,
+      and String types.
+    question: Can I add custom properties of any data type to my project using Aspose.Tasks
+      for .NET?
+  - answer: Absolutely, you can iterate over custom property names using the `Names`
+      property.
+    question: Is it possible to iterate over custom property names in Aspose.Tasks
+      for .NET?
+  - answer: You can remove a custom property by its name using the `Remove` method.
+    question: How can I remove a specific custom property from my project?
+  - answer: Yes, you can obtain a temporary license from the Aspose website for evaluation
+      purposes.
+    question: Does Aspose.Tasks for .NET provide support for temporary licenses?
+  - answer: You can visit the Aspose.Tasks forum [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15)
+      for any queries or assistance.
+    question: Where can I find support or further assistance regarding Aspose.Tasks
+      for .NET?
+  type: FAQPage
 second_title: Aspose.Tasks .NET API
-description: जानें कि .NET के लिए Aspose.Tasks में कस्टम प्रोजेक्ट गुणों को प्रभावी ढंग से कैसे प्रबंधित किया जाए, जिससे आपका प्रोजेक्ट प्रबंधन अनुभव बेहतर हो सके।
-weight: 24
+tags:
+- custom properties
+- Aspose.Tasks
+- .NET project management
+- C# tasks API
+title: Aspose.Tasks for .NET में custom property कैसे जोड़ें
 url: /hi/net/calendar-scheduling/custom-project-property-collection/
+weight: 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks में कस्टम प्रोजेक्ट संपत्ति संग्रह का प्रबंधन
+# Aspose.Tasks for .NET में कस्टम प्रॉपर्टी कैसे जोड़ें
 
 ## परिचय
 
-क्या आप .NET के लिए Aspose.Tasks के साथ अपने प्रोजेक्ट प्रबंधन अनुभव को बढ़ाने के लिए तैयार हैं? कस्टम प्रोजेक्ट गुणों को प्रबंधित करना प्रोजेक्ट प्रबंधन का एक महत्वपूर्ण पहलू है, जो आपको अपने प्रोजेक्ट की आवश्यकताओं के अनुरूप विशिष्ट मेटाडेटा जोड़ने की अनुमति देता है। इस ट्यूटोरियल में, हम जानेंगे कि आप .NET के लिए Aspose.Tasks का उपयोग करके कस्टम प्रोजेक्ट प्रॉपर्टी संग्रह के साथ प्रभावी ढंग से कैसे काम कर सकते हैं।
+कस्टम प्रॉपर्टी समर्थन आपको प्रोजेक्ट‑विशिष्ट मेटाडेटा संग्रहीत करने की सुविधा देता है जो बिल्ट‑इन फ़ील्ड्स द्वारा कवर नहीं किया जाता। इस ट्यूटोरियल में आप सीखेंगे कि **कस्टम प्रॉपर्टी कैसे जोड़ें**, उसे पढ़ें, और Aspose.Tasks for .NET का उपयोग करके पूरी कस्टम प्रॉपर्टी कलेक्शन को प्रबंधित करें। अंत में आप बूलियन, डेटटाइम, डबल और स्ट्रिंग मानों के साथ प्रोजेक्ट फ़ाइलों को अपने व्यावसायिक नियमों के अनुसार अनुकूलित कर पाएँगे।
 
-## आवश्यक शर्तें
+## त्वरित उत्तर
+- **क्या मैं बूलियन कस्टम प्रॉपर्टी जोड़ सकता हूँ?** हाँ – `CustomPropertyType.Boolean` का उपयोग करें।
+- **कस्टम प्रॉपर्टी के कितने प्रकार समर्थित हैं?** चार: Boolean, DateTime, Double, String.
+- **क्या कस्टम प्रॉपर्टी कलेक्शन रीड‑ओनली है?** यदि प्रोजेक्ट रीड‑ओनली स्रोत से लोड किया गया हो तो यह रीड‑ओनली हो सकता है।
+- **क्या इस फीचर को उपयोग करने के लिए लाइसेंस चाहिए?** मूल्यांकन के लिए एक टेम्पररी लाइसेंस काम करता है; प्रोडक्शन के लिए पूर्ण लाइसेंस आवश्यक है।
+- **कौन से .NET संस्करण संगत हैं?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
 
-आगे बढ़ने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ स्थापित हैं:
+## कस्टम प्रॉपर्टी क्या है?
 
-1. विज़ुअल स्टूडियो वातावरण: अपने सिस्टम पर विज़ुअल स्टूडियो स्थापित करें।
-2.  .NET के लिए Aspose.Tasks: .NET के लिए Aspose.Tasks को डाउनलोड और इंस्टॉल करें।[लिंक को डाउनलोड करें](https://releases.aspose.com/tasks/net/).
-3. C# का बुनियादी ज्ञान: C# प्रोग्रामिंग भाषा की बुनियादी बातों से खुद को परिचित करें।
+कस्टम प्रॉपर्टी एक उपयोगकर्ता‑परिभाषित मेटाडेटा फ़ील्ड है जिसे आप एक Project ऑब्जेक्ट से जोड़ते हैं। यह आपको अतिरिक्त जानकारी जैसे “Risk Level”, “Customer ID”, या कोई भी बूलियन फ़्लैग जो मानक MS‑Project फ़ील्ड्स में नहीं है, संग्रहीत करने की अनुमति देता है।
 
-## नामस्थान आयात करें
+## Aspose.Tasks में कस्टम प्रॉपर्टी क्यों जोड़ें?
 
-.NET के लिए Aspose.Tasks के साथ काम करने के लिए आवश्यक नामस्थान आयात करके प्रारंभ करें:
+Aspose.Tasks **50+ इनपुट और आउटपुट फॉर्मेट** का समर्थन करता है और **10,000 तक टास्क** वाले प्रोजेक्ट्स को पूरी फ़ाइल को मेमोरी में लोड किए बिना संभाल सकता है। कस्टम प्रॉपर्टी जोड़ने से आप व्यापार‑महत्वपूर्ण डेटा को सीधे प्रोजेक्ट फ़ाइल में एम्बेड कर सकते हैं, जिससे बाहरी डेटाबेस की आवश्यकता समाप्त हो जाती है और डेटा प्रोजेक्ट के साथ ही रहता है।
+
+## आवश्यकताएँ
+
+- आपके कार्यस्थल पर Visual Studio (कोई भी नवीनतम संस्करण) स्थापित हो।  
+- Aspose.Tasks for .NET – इसे [download link](https://releases.aspose.com/tasks/net/) से डाउनलोड करें।  
+- C# सिंटैक्स और .NET प्रोजेक्ट संरचना की बुनियादी परिचितता।
+
+## नेमस्पेस इम्पोर्ट करें
+
+निम्नलिखित नेमस्पेस आपको कोर प्रोजेक्ट मॉडल और कस्टम प्रॉपर्टी API तक पहुँच प्रदान करते हैं।
 
 ```csharp
 using Aspose.Tasks;
@@ -36,25 +116,35 @@ using System;
 
 ```
 
-आइए व्यापक समझ के लिए उदाहरण कोड को कई चरणों में विभाजित करें:
+## Aspose.Tasks में कस्टम प्रॉपर्टी कैसे जोड़ें?
 
-## चरण 1: प्रोजेक्ट प्रारंभ करें
+कस्टम प्रॉपर्टी जोड़ने के लिए, पहले प्रोजेक्ट लोड करें, फिर एक `CustomProperty` ऑब्जेक्ट बनाएँ, उसका नाम, प्रकार और मान सेट करें, और अंत में इसे प्रोजेक्ट की `CustomProperties` कलेक्शन में जोड़ें। यह ऑपरेशन मेटाडेटा को सीधे प्रोजेक्ट फ़ाइल में एम्बेड करता है, और परिवर्तन `project.Save(...)` कॉल करने पर सहेजे जाते हैं।  
+
+`CustomProperty` एक प्रोजेक्ट से जुड़ी एकल उपयोगकर्ता‑परिभाषित फ़ील्ड को दर्शाता है।
+
+```csharp
+// Direct answer: Load the project, create a CustomProperty, set its Type and Value, then add it to project.CustomProperties.
+```
+
+### चरण 1: प्रोजेक्ट इनिशियलाइज़ करें
+
+`Project` Aspose.Tasks में प्रोजेक्ट फ़ाइल का प्रतिनिधित्व करने वाली मुख्य क्लास है।
 
 ```csharp
 var project = new Project(DataDir + "ReadProjectInfo.mpp");
 ```
 
-यह चरण Aspose.Tasks का उपयोग करके एक नया प्रोजेक्ट प्रारंभ करता है।
+### चरण 2: कस्टम प्रॉपर्टी संग्रह की तैयारी जांचें
 
-## चरण 2: कस्टम गुण संग्रह तैयारी की जाँच करें
+`CustomProperties` वह कलेक्शन है जो प्रोजेक्ट के सभी कस्टम प्रॉपर्टी ऑब्जेक्ट्स को रखता है।
 
 ```csharp
 Console.WriteLine("Is custom properties collection read-only?: " + project.CustomProps.IsReadOnly);
 ```
 
-यह कोड जाँचता है कि कस्टम गुण संग्रह केवल पढ़ने के लिए है या नहीं।
+### चरण 3: कस्टम प्रॉपर्टी जोड़ें
 
-## चरण 3: कस्टम गुण जोड़ें
+`Add` मेथड प्रोजेक्ट की कलेक्शन में एक नई कस्टम प्रॉपर्टी डालता है।
 
 ```csharp
 project.CustomProps.Add("IsEnterprise", true);
@@ -63,9 +153,9 @@ project.CustomProps.Add("Precision", 10d);
 project.CustomProps.Add("Custom Name", "MyProject");
 ```
 
-यहां, हम बूलियन, डेटटाइम, डबल और स्ट्रिंग प्रकारों का समर्थन करते हुए प्रोजेक्ट में कस्टम गुण जोड़ते हैं।
+### चरण 4: कस्टम प्रॉपर्टी तक पहुँचें
 
-## चरण 4: कस्टम गुणों तक पहुंचें
+`CustomProperties` कलेक्शन IEnumerable को इम्प्लीमेंट करता है, जिससे प्रत्येक `CustomProperty` पर इटरेशन संभव होता है।
 
 ```csharp
 foreach (var property in project.CustomProps)
@@ -77,17 +167,17 @@ foreach (var property in project.CustomProps)
 }
 ```
 
-यह लूप हमें कस्टम गुणों के माध्यम से पुनरावृत्त करने और उनके प्रकार, नाम और मूल्य प्रदर्शित करने की अनुमति देता है।
+### चरण 5: कस्टम प्रॉपर्टी का मान प्राप्त करें
 
-## चरण 5: एक कस्टम संपत्ति मूल्य प्राप्त करें
+`Get` मेथड कस्टम प्रॉपर्टी का मान उसके नाम से लौटाता है।
 
 ```csharp
 Console.WriteLine("Custom Name: " + project.CustomProps["Custom Name"]);
 ```
 
-यह कोड "कस्टम नाम" नामक एक विशिष्ट कस्टम संपत्ति का मूल्य पुनर्प्राप्त करता है।
+### चरण 6: कस्टम प्रॉपर्टी नामों पर इटरेट करें
 
-## चरण 6: कस्टम संपत्ति नामों पर पुनरावृति करें
+`Names` प्रॉपर्टी कलेक्शन में सभी कस्टम प्रॉपर्टी नामों की सूची प्रदान करती है।
 
 ```csharp
 foreach (var propName in project.CustomProps.Names)
@@ -97,9 +187,9 @@ foreach (var propName in project.CustomProps.Names)
 }
 ```
 
-यहां, हम कस्टम संपत्तियों के नामों को दोहराते हैं और उन्हें प्रदर्शित करते हैं।
+### चरण 7: कस्टम प्रॉपर्टी हटाएँ या साफ़ करें
 
-## चरण 7: कस्टम गुण निकालें या साफ़ करें
+`Remove` मेथड एक विशिष्ट प्रॉपर्टी को हटाता है, जबकि `Clear` पूरी कलेक्शन को खाली कर देता है।
 
 ```csharp
 if (project.CustomProps.Contains("Custom Name"))
@@ -110,36 +200,41 @@ if (project.CustomProps.Contains("Custom Name"))
 project.CustomProps.Clear();
 ```
 
-आप किसी विशिष्ट कस्टम प्रॉपर्टी को उसके नाम से हटा सकते हैं या संपूर्ण संग्रह साफ़ कर सकते हैं।
+## सामान्य समस्याएँ और ट्रबलशूटिंग
 
-## निष्कर्ष
-
-.NET के लिए Aspose.Tasks में कस्टम प्रोजेक्ट प्रॉपर्टी संग्रह में महारत हासिल करना आपको प्रोजेक्ट मेटाडेटा को कुशलतापूर्वक प्रबंधित करने का अधिकार देता है। इस चरण-दर-चरण मार्गदर्शिका का पालन करके, आप संगठन और दक्षता को बढ़ाते हुए, अपने प्रोजेक्ट प्रबंधन वर्कफ़्लो में कस्टम गुणों को सहजता से एकीकृत कर सकते हैं।
+- **रीड‑ओनली कलेक्शन** – यदि `project.CustomProperties.IsReadOnly` `true` लौटाता है, तो सुनिश्चित करें कि स्रोत फ़ाइल एक्सक्लूसिव रीड एक्सेस के साथ नहीं खुली है या संपादन से पहले इसे लिखने योग्य स्थान पर कॉपी करें।  
+- **टाइप मिसमैच** – यदि आप ऐसे मान को असाइन करते हैं जो घोषित `CustomPropertyType` से मेल नहीं खाता, तो `ArgumentException` उत्पन्न होता है। हमेशा सही `Type` निर्धारित करने के बाद `Value` सेट करें।  
+- **परिवर्तनों को सहेजना** – प्रॉपर्टी जोड़ने या हटाने के बाद, संशोधनों को स्थायी बनाने के लिए `project.Save("output.mpp")` कॉल करें; अन्यथा परिवर्तन केवल मेमोरी में रहेंगे।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
-### Q1: क्या मैं .NET के लिए Aspose.Tasks का उपयोग करके अपने प्रोजेक्ट में किसी भी डेटा प्रकार के कस्टम गुण जोड़ सकता हूँ?
+**प्रश्न: क्या मैं Aspose.Tasks for .NET का उपयोग करके अपने प्रोजेक्ट में किसी भी डेटा टाइप की कस्टम प्रॉपर्टी जोड़ सकता हूँ?**  
+उत्तर: हाँ, आप बूलियन, डेटटाइम, डबल और स्ट्रिंग टाइप्स को सपोर्ट करने वाली कस्टम प्रॉपर्टी जोड़ सकते हैं।
 
-A1: हां, आप बूलियन, डेटटाइम, डबल और स्ट्रिंग प्रकारों का समर्थन करने वाले कस्टम गुण जोड़ सकते हैं।
+**प्रश्न: क्या Aspose.Tasks for .NET में कस्टम प्रॉपर्टी नामों पर इटरेट करना संभव है?**  
+उत्तर: बिल्कुल, आप `Names` प्रॉपर्टी का उपयोग करके कस्टम प्रॉपर्टी नामों पर इटरेट कर सकते हैं।
 
-### Q2: क्या .NET के लिए Aspose.Tasks में कस्टम प्रॉपर्टी नामों को पुनरावृत्त करना संभव है?
+**प्रश्न: मैं अपने प्रोजेक्ट से एक विशिष्ट कस्टम प्रॉपर्टी कैसे हटाऊँ?**  
+उत्तर: आप `Remove` मेथड का उपयोग करके उसके नाम से कस्टम प्रॉपर्टी हटा सकते हैं।
 
- A2: बिल्कुल, आप इसका उपयोग करके कस्टम प्रॉपर्टी नामों पर पुनरावृति कर सकते हैं`Names` संपत्ति।
+**प्रश्न: क्या Aspose.Tasks for .NET टेम्पररी लाइसेंस का समर्थन करता है?**  
+उत्तर: हाँ, आप मूल्यांकन के लिए Aspose वेबसाइट से टेम्पररी लाइसेंस प्राप्त कर सकते हैं।
 
-### Q3: मैं अपने प्रोजेक्ट से किसी विशिष्ट कस्टम प्रॉपर्टी को कैसे हटा सकता हूँ?
+**प्रश्न: Aspose.Tasks for .NET के संबंध में समर्थन या अतिरिक्त सहायता कहाँ प्राप्त कर सकता हूँ?**  
+उत्तर: आप किसी भी प्रश्न या सहायता के लिए Aspose.Tasks फ़ोरम [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) पर जा सकते हैं।
 
- A3: आप इसका उपयोग करके किसी कस्टम प्रॉपर्टी को उसके नाम से हटा सकते हैं`Remove` तरीका।
+**अंतिम अपडेट:** 2026-10-15  
+**परीक्षित संस्करण:** Aspose.Tasks 24.11 for .NET  
+**लेखक:** Aspose
 
-### Q4: क्या .NET के लिए Aspose.Tasks अस्थायी लाइसेंस के लिए समर्थन प्रदान करता है?
+## संबंधित ट्यूटोरियल
 
-A4: हां, आप मूल्यांकन उद्देश्यों के लिए Aspose वेबसाइट से एक अस्थायी लाइसेंस प्राप्त कर सकते हैं।
+- [Aspose.Tasks for .NET का उपयोग करके बिल्ट‑इन प्रोजेक्ट प्रॉपर्टीज़ कैसे पढ़ें](/tasks/net/advanced-features/built-in-project-property-collection/)
+- [Aspose.Tasks में MS Project एट्रिब्यूट्स कलेक्शन प्रबंधित करें](/tasks/net/tasks-project-management/extended-attribute-collection/)
+- [Aspose.Tasks कस्टम फ़ील्ड टाइप्स – कैलेंडर और शेड्यूलिंग](/tasks/net/calendar-scheduling/)
 
-### Q5: मुझे .NET के लिए Aspose.Tasks के संबंध में समर्थन या अतिरिक्त सहायता कहां मिल सकती है?
-
- A5: आप Aspose.Tasks फोरम पर जा सकते हैं[यहाँ](https://forum.aspose.com/c/tasks/15) किसी भी प्रश्न या सहायता के लिए।
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}

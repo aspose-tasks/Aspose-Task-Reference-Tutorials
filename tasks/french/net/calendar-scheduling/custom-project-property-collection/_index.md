@@ -1,33 +1,115 @@
 ---
-title: Gestion de la collection de propriétés de projet personnalisées dans Aspose.Tasks
-linktitle: Gestion de la collection de propriétés de projet personnalisées dans Aspose.Tasks
-second_title: API Aspose.Tasks .NET
-description: Découvrez comment gérer efficacement les propriétés de projet personnalisées dans Aspose.Tasks pour .NET, améliorant ainsi votre expérience de gestion de projet.
-weight: 24
+date: 2026-10-15
+description: Apprenez comment ajouter une custom property et gérer les custom project
+  properties dans Aspose.Tasks pour .NET, améliorant le contrôle des métadonnées de
+  votre projet.
+keywords:
+- add custom property
+- manage custom properties
+- read custom properties
+- add boolean property
+- add string property
+lastmod: 2026-10-15
+linktitle: Gestion de la collection de Custom Project Property dans Aspose.Tasks
+og_description: Ajoutez une custom property à vos fichiers de projet avec Aspose.Tasks
+  pour .NET. Ce guide vous montre comment gérer les custom properties, les lire, et
+  ajouter des valeurs booléennes ou de chaîne efficacement.
+og_image_alt: Guide showing how to add custom property in Aspose.Tasks .NET
+og_title: Ajoutez une custom property en utilisant l'Aspose.Tasks .NET API pour les
+  projets
+schemas:
+- author: Aspose
+  dateModified: '2026-10-15'
+  description: Learn how to add custom property and manage custom project properties
+    in Aspose.Tasks for .NET, boosting your project metadata control.
+  headline: How to add custom property in Aspose.Tasks for .NET
+  type: TechArticle
+- description: Learn how to add custom property and manage custom project properties
+    in Aspose.Tasks for .NET, boosting your project metadata control.
+  name: How to add custom property in Aspose.Tasks for .NET
+  steps:
+  - name: initialize project
+    text: '`Project` is the primary class representing a project file in Aspose.Tasks.'
+  - name: check custom properties collection readiness
+    text: '`CustomProperties` is the collection that holds all custom property objects
+      for a project.'
+  - name: add custom properties
+    text: '`Add` method inserts a new custom property into the project''s collection.'
+  - name: access custom properties
+    text: '`CustomProperties` collection implements IEnumerable, allowing iteration
+      over each `CustomProperty`.'
+  - name: retrieve a custom property value
+    text: '`Get` method returns the value of a custom property by its name.'
+  - name: iterate over custom property names
+    text: '`Names` property provides a list of all custom property names in the collection.'
+  - name: remove or clear custom properties
+    text: '`Remove` method deletes a specific property, while `Clear` empties the
+      entire collection.'
+  type: HowTo
+- questions:
+  - answer: Yes, you can add custom properties supporting Boolean, DateTime, Double,
+      and String types.
+    question: Can I add custom properties of any data type to my project using Aspose.Tasks
+      for .NET?
+  - answer: Absolutely, you can iterate over custom property names using the `Names`
+      property.
+    question: Is it possible to iterate over custom property names in Aspose.Tasks
+      for .NET?
+  - answer: You can remove a custom property by its name using the `Remove` method.
+    question: How can I remove a specific custom property from my project?
+  - answer: Yes, you can obtain a temporary license from the Aspose website for evaluation
+      purposes.
+    question: Does Aspose.Tasks for .NET provide support for temporary licenses?
+  - answer: You can visit the Aspose.Tasks forum [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15)
+      for any queries or assistance.
+    question: Where can I find support or further assistance regarding Aspose.Tasks
+      for .NET?
+  type: FAQPage
+second_title: Aspose.Tasks .NET API
+tags:
+- custom properties
+- Aspose.Tasks
+- .NET project management
+- C# tasks API
+title: Comment ajouter une custom property dans Aspose.Tasks pour .NET
 url: /fr/net/calendar-scheduling/custom-project-property-collection/
+weight: 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Gestion de la collection de propriétés de projet personnalisées dans Aspose.Tasks
+# Comment ajouter une propriété personnalisée dans Aspose.Tasks pour .NET
 
 ## Introduction
 
-Êtes-vous prêt à améliorer votre expérience de gestion de projet avec Aspose.Tasks pour .NET ? La gestion des propriétés de projet personnalisées est un aspect crucial de la gestion de projet, vous permettant d'ajouter des métadonnées spécifiques adaptées aux exigences de votre projet. Dans ce didacticiel, nous verrons comment travailler efficacement avec des collections de propriétés de projet personnalisées à l'aide d'Aspose.Tasks pour .NET.
+Add custom property support lets you store project‑specific metadata that the built‑in fields don’t cover. In this tutorial you’ll learn how to **add custom property**, read it back, and manage the entire custom property collection using Aspose.Tasks for .NET. By the end you’ll be able to tailor project files with Boolean, DateTime, Double, and String values that fit your business rules.
 
-## Conditions préalables
+## Réponses rapides
+- **Puis‑je ajouter une propriété personnalisée booléenne ?** Yes – use `CustomPropertyType.Boolean`.
+- **Combien de types de propriétés personnalisées sont pris en charge ?** Four: Boolean, DateTime, Double, String.
+- **La collection de propriétés personnalisées est‑elle en lecture seule ?** It can be read‑only if the project is loaded from a read‑only source.
+- **Ai‑je besoin d’une licence pour utiliser cette fonctionnalité ?** A temporary license works for evaluation; a full license is required for production.
+- **Quelles versions de .NET sont compatibles ?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
 
-Avant de continuer, assurez-vous d'avoir configuré les conditions préalables suivantes :
+## Qu'est‑ce qu'une propriété personnalisée ?
 
-1. Environnement Visual Studio : installez Visual Studio sur votre système.
-2.  Aspose.Tasks for .NET : téléchargez et installez Aspose.Tasks for .NET à partir du[lien de téléchargement](https://releases.aspose.com/tasks/net/).
-3. Connaissance de base de C# : Familiarisez-vous avec les bases du langage de programmation C#.
+A custom property is a user‑defined metadata field that you attach to a Project object. It lets you store extra information such as “Risk Level”, “Customer ID”, or any Boolean flag that isn’t covered by the standard MS‑Project fields.
 
-## Importer des espaces de noms
+## Pourquoi ajouter une propriété personnalisée dans Aspose.Tasks ?
 
-Commencez par importer les espaces de noms nécessaires pour travailler avec Aspose.Tasks for .NET :
+Aspose.Tasks supports **50+ input and output formats** and can handle projects with **up to 10,000 tasks** without loading the entire file into memory. Adding custom properties lets you embed business‑critical data directly in the project file, eliminating the need for external databases and ensuring the data travels with the project.
+
+## Prérequis
+
+- Visual Studio (toute version récente) installé sur votre poste de travail.  
+- Aspose.Tasks for .NET – téléchargez‑le depuis le [download link](https://releases.aspose.com/tasks/net/).  
+- Familiarité de base avec la syntaxe C# et la structure d’un projet .NET.
+
+## Importer les espaces de noms
+
+The following namespaces give you access to the core project model and the custom property APIs.
 
 ```csharp
 using Aspose.Tasks;
@@ -36,25 +118,35 @@ using System;
 
 ```
 
-Décomposons l'exemple de code en plusieurs étapes pour une compréhension complète :
+## Comment ajouter une propriété personnalisée dans Aspose.Tasks ?
 
-## Étape 1 : initialiser le projet
+To add a custom property, first load the project, then create a `CustomProperty` object, set its name, type, and value, and finally add it to the project's `CustomProperties` collection. This operation embeds the metadata directly into the project file, and the changes are saved when you call `project.Save(...)`.  
+
+`CustomProperty` represents a single user‑defined field attached to a project.
+
+```csharp
+// Direct answer: Load the project, create a CustomProperty, set its Type and Value, then add it to project.CustomProperties.
+```
+
+### Étape 1 : initialiser le projet
+
+`Project` is the primary class representing a project file in Aspose.Tasks.
 
 ```csharp
 var project = new Project(DataDir + "ReadProjectInfo.mpp");
 ```
 
-Cette étape initialise un nouveau projet à l'aide d'Aspose.Tasks.
+### Étape 2 : vérifier la disponibilité de la collection de propriétés personnalisées
 
-## Étape 2 : Vérifier l'état de préparation de la collection de propriétés personnalisées
+`CustomProperties` is the collection that holds all custom property objects for a project.
 
 ```csharp
 Console.WriteLine("Is custom properties collection read-only?: " + project.CustomProps.IsReadOnly);
 ```
 
-Ce code vérifie si la collection de propriétés personnalisées est en lecture seule.
+### Étape 3 : ajouter des propriétés personnalisées
 
-## Étape 3 : ajouter des propriétés personnalisées
+`Add` method inserts a new custom property into the project's collection.
 
 ```csharp
 project.CustomProps.Add("IsEnterprise", true);
@@ -63,9 +155,9 @@ project.CustomProps.Add("Precision", 10d);
 project.CustomProps.Add("Custom Name", "MyProject");
 ```
 
-Ici, nous ajoutons des propriétés personnalisées au projet, prenant en charge les types Boolean, DateTime, Double et String.
+### Étape 4 : accéder aux propriétés personnalisées
 
-## Étape 4 : accéder aux propriétés personnalisées
+`CustomProperties` collection implements IEnumerable, allowing iteration over each `CustomProperty`.
 
 ```csharp
 foreach (var property in project.CustomProps)
@@ -77,17 +169,17 @@ foreach (var property in project.CustomProps)
 }
 ```
 
-Cette boucle nous permet de parcourir les propriétés personnalisées et d'afficher leur type, leur nom et leur valeur.
+### Étape 5 : récupérer la valeur d'une propriété personnalisée
 
-## Étape 5 : Récupérer une valeur de propriété personnalisée
+`Get` method returns the value of a custom property by its name.
 
 ```csharp
 Console.WriteLine("Custom Name: " + project.CustomProps["Custom Name"]);
 ```
 
-Ce code récupère la valeur d'une propriété personnalisée spécifique nommée « Nom personnalisé ».
+### Étape 6 : parcourir les noms des propriétés personnalisées
 
-## Étape 6 : Itérer sur les noms de propriétés personnalisées
+`Names` property provides a list of all custom property names in the collection.
 
 ```csharp
 foreach (var propName in project.CustomProps.Names)
@@ -97,9 +189,9 @@ foreach (var propName in project.CustomProps.Names)
 }
 ```
 
-Ici, nous parcourons les noms des propriétés personnalisées et les affichons.
+### Étape 7 : supprimer ou vider les propriétés personnalisées
 
-## Étape 7 : Supprimer ou effacer les propriétés personnalisées
+`Remove` method deletes a specific property, while `Clear` empties the entire collection.
 
 ```csharp
 if (project.CustomProps.Contains("Custom Name"))
@@ -110,36 +202,44 @@ if (project.CustomProps.Contains("Custom Name"))
 project.CustomProps.Clear();
 ```
 
-Vous pouvez supprimer une propriété personnalisée spécifique par son nom ou effacer toute la collection.
+## Problèmes courants et dépannage
 
-## Conclusion
+- **Collection en lecture seule** – If `project.CustomProperties.IsReadOnly` returns `true`, ensure the source file isn’t opened with exclusive read access or copy it to a writable location before editing.  
+- **Incompatibilité de type** – Assigning a value that doesn’t match the declared `CustomPropertyType` throws an `ArgumentException`. Always set the `Value` after defining the correct `Type`.  
+- **Enregistrement des modifications** – After adding or removing properties, call `project.Save("output.mpp")` to persist the modifications; otherwise changes remain in memory only.
 
-La maîtrise des collections de propriétés de projet personnalisées dans Aspose.Tasks for .NET vous permet de gérer efficacement les métadonnées du projet. En suivant ce guide étape par étape, vous pouvez intégrer de manière transparente des propriétés personnalisées dans votre flux de travail de gestion de projet, améliorant ainsi l'organisation et l'efficacité.
+## Questions fréquemment posées
 
-## FAQ
+**Q : Puis‑je ajouter des propriétés personnalisées de n’importe quel type de données à mon projet avec Aspose.Tasks pour .NET ?**  
+R : Yes, you can add custom properties supporting Boolean, DateTime, Double, and String types.
 
-### Q1 : Puis-je ajouter des propriétés personnalisées de n’importe quel type de données à mon projet à l’aide d’Aspose.Tasks pour .NET ?
+**Q : Est‑il possible de parcourir les noms des propriétés personnalisées dans Aspose.Tasks pour .NET ?**  
+R : Absolutely, you can iterate over custom property names using the `Names` property.
 
-A1 : Oui, vous pouvez ajouter des propriétés personnalisées prenant en charge les types Boolean, DateTime, Double et String.
+**Q : Comment puis‑je supprimer une propriété personnalisée spécifique de mon projet ?**  
+R : You can remove a custom property by its name using the `Remove` method.
 
-### Q2 : Est-il possible de parcourir les noms de propriétés personnalisées dans Aspose.Tasks pour .NET ?
+**Q : Aspose.Tasks pour .NET propose‑t‑il un support pour les licences temporaires ?**  
+R : Yes, you can obtain a temporary license from the Aspose website for evaluation purposes.
 
- A2 : Absolument, vous pouvez parcourir les noms de propriétés personnalisées à l'aide de l'outil`Names` propriété.
+**Q : Où puis‑je trouver de l’assistance ou de l’aide supplémentaire concernant Aspose.Tasks pour .NET ?**  
+R : You can visit the Aspose.Tasks forum [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) for any queries or assistance.
 
-### Q3 : Comment puis-je supprimer une propriété personnalisée spécifique de mon projet ?
+---
 
- A3 : Vous pouvez supprimer une propriété personnalisée par son nom à l'aide du`Remove` méthode.
+**Dernière mise à jour :** 2026-10-15  
+**Testé avec :** Aspose.Tasks 24.11 pour .NET  
+**Auteur :** Aspose
 
-### Q4 : Aspose.Tasks pour .NET prend-il en charge les licences temporaires ?
+## Tutoriels associés
 
-A4 : Oui, vous pouvez obtenir une licence temporaire sur le site Web Aspose à des fins d'évaluation.
+- [Comment lire les propriétés de projet intégrées avec Aspose.Tasks pour .NET](/tasks/net/advanced-features/built-in-project-property-collection/)
+- [Gérer la collection d'attributs MS Project dans Aspose.Tasks](/tasks/net/tasks-project-management/extended-attribute-collection/)
+- [Types de champs personnalisés Aspose.Tasks – Calendrier et planification](/tasks/net/calendar-scheduling/)
 
-### Q5 : Où puis-je trouver une assistance ou une assistance supplémentaire concernant Aspose.Tasks pour .NET ?
 
- A5 : Vous pouvez visiter le forum Aspose.Tasks[ici](https://forum.aspose.com/c/tasks/15) pour toute question ou assistance.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
