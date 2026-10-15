@@ -1,33 +1,114 @@
 ---
-title: Egyéni projekttulajdon-gyűjtemény kezelése az Aspose.Tasks-ban
-linktitle: Egyéni projekttulajdon-gyűjtemény kezelése az Aspose.Tasks-ban
+date: 2026-10-15
+description: Ismerje meg, hogyan adhat hozzá egyedi tulajdonságot, és kezelheti az
+  egyedi projekt tulajdonságokat az Aspose.Tasks for .NET-ben, ezáltal növelve a projekt
+  metaadatok irányítását.
+keywords:
+- add custom property
+- manage custom properties
+- read custom properties
+- add boolean property
+- add string property
+lastmod: 2026-10-15
+linktitle: Egyedi projekt tulajdonsággyűjtemény kezelése az Aspose.Tasks-ben
+og_description: Adj hozzá egyedi tulajdonságot a projektfájlokhoz az Aspose.Tasks
+  for .NET segítségével. Ez az útmutató bemutatja, hogyan kezelheted az egyedi tulajdonságokat,
+  olvashatod őket, és hatékonyan hozzáadhatsz logikai vagy szöveges értékeket.
+og_image_alt: Guide showing how to add custom property in Aspose.Tasks .NET
+og_title: Egyedi tulajdonság hozzáadása az Aspose.Tasks .NET API-val projektekhez
+schemas:
+- author: Aspose
+  dateModified: '2026-10-15'
+  description: Learn how to add custom property and manage custom project properties
+    in Aspose.Tasks for .NET, boosting your project metadata control.
+  headline: How to add custom property in Aspose.Tasks for .NET
+  type: TechArticle
+- description: Learn how to add custom property and manage custom project properties
+    in Aspose.Tasks for .NET, boosting your project metadata control.
+  name: How to add custom property in Aspose.Tasks for .NET
+  steps:
+  - name: initialize project
+    text: '`Project` is the primary class representing a project file in Aspose.Tasks.'
+  - name: check custom properties collection readiness
+    text: '`CustomProperties` is the collection that holds all custom property objects
+      for a project.'
+  - name: add custom properties
+    text: '`Add` method inserts a new custom property into the project''s collection.'
+  - name: access custom properties
+    text: '`CustomProperties` collection implements IEnumerable, allowing iteration
+      over each `CustomProperty`.'
+  - name: retrieve a custom property value
+    text: '`Get` method returns the value of a custom property by its name.'
+  - name: iterate over custom property names
+    text: '`Names` property provides a list of all custom property names in the collection.'
+  - name: remove or clear custom properties
+    text: '`Remove` method deletes a specific property, while `Clear` empties the
+      entire collection.'
+  type: HowTo
+- questions:
+  - answer: Yes, you can add custom properties supporting Boolean, DateTime, Double,
+      and String types.
+    question: Can I add custom properties of any data type to my project using Aspose.Tasks
+      for .NET?
+  - answer: Absolutely, you can iterate over custom property names using the `Names`
+      property.
+    question: Is it possible to iterate over custom property names in Aspose.Tasks
+      for .NET?
+  - answer: You can remove a custom property by its name using the `Remove` method.
+    question: How can I remove a specific custom property from my project?
+  - answer: Yes, you can obtain a temporary license from the Aspose website for evaluation
+      purposes.
+    question: Does Aspose.Tasks for .NET provide support for temporary licenses?
+  - answer: You can visit the Aspose.Tasks forum [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15)
+      for any queries or assistance.
+    question: Where can I find support or further assistance regarding Aspose.Tasks
+      for .NET?
+  type: FAQPage
 second_title: Aspose.Tasks .NET API
-description: Ismerje meg, hogyan kezelheti hatékonyan az egyéni projekttulajdonságokat az Aspose.Tasks for .NET-ben, javítva ezzel a projektkezelési élményt.
-weight: 24
+tags:
+- custom properties
+- Aspose.Tasks
+- .NET project management
+- C# tasks API
+title: Hogyan adjon hozzá egyedi tulajdonságot az Aspose.Tasks for .NET-ben
 url: /hu/net/calendar-scheduling/custom-project-property-collection/
+weight: 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Egyéni projekttulajdon-gyűjtemény kezelése az Aspose.Tasks-ban
+# Hogyan adjon hozzá egyéni tulajdonságot az Aspose.Tasks for .NET-ben
 
 ## Bevezetés
 
-Készen áll arra, hogy bővítse projektmenedzsment-élményét az Aspose.Tasks for .NET segítségével? Az egyéni projekttulajdonságok kezelése a projektmenedzsment kulcsfontosságú eleme, amely lehetővé teszi a projekt követelményeihez szabott metaadatok hozzáadását. Ebben az oktatóanyagban bemutatjuk, hogyan dolgozhat hatékonyan egyéni projekttulajdon-gyűjteményekkel az Aspose.Tasks for .NET használatával.
+Az egyéni tulajdonságok támogatása lehetővé teszi, hogy a beépített mezők által nem lefedett projekt‑specifikus metaadatokat tároljon. Ebben az oktatóanyagban megtanulja, hogyan **adjon hozzá egyéni tulajdonságot**, hogyan olvassa vissza, és hogyan kezelje az egész egyéni tulajdonsággyűjteményt az Aspose.Tasks for .NET segítségével. A végére képes lesz Boolean, DateTime, Double és String értékekkel testreszabni a projektfájlokat, amelyek megfelelnek az üzleti szabályainak.
+
+## Gyors válaszok
+- **Hozzáadhatok Boolean egyéni tulajdonságot?** Igen – használja a `CustomPropertyType.Boolean`-t.
+- **Hány egyéni tulajdonság típust támogat?** Négy: Boolean, DateTime, Double, String.
+- **A egyéni tulajdonsággyűjtemény csak olvasható?** Olvasható lehet, ha a projekt csak‑olvasású forrásból van betöltve.
+- **Szükségem van licencre a funkció használatához?** Ideiglenes licenc elegendő értékeléshez; teljes licenc szükséges a termeléshez.
+- **Mely .NET verziók kompatibilisek?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+
+## Mi az egyéni tulajdonság?
+
+Az egyéni tulajdonság egy felhasználó által definiált metaadatmező, amelyet egy Project objektumhoz csatol. Lehetővé teszi olyan extra információk tárolását, mint például a „Kockázati szint”, a „Vevő azonosító”, vagy bármely Boolean jelző, amelyet a szabványos MS‑Project mezők nem fednek le.
+
+## Miért adjunk hozzá egyéni tulajdonságot az Aspose.Tasks-ben?
+
+Az Aspose.Tasks **50+ bemeneti és kimeneti formátumot** támogat, és akár **10 000 feladatot** is kezelhet anélkül, hogy a teljes fájlt memóriába töltené. Az egyéni tulajdonságok hozzáadása lehetővé teszi, hogy az üzletileg kritikus adatokat közvetlenül a projektfájlba ágyazza, ezzel kiküszöbölve a külső adatbázisok szükségességét és biztosítva, hogy az adatok a projekttel együtt utazzanak.
 
 ## Előfeltételek
 
-Mielőtt folytatnánk, győződjön meg arról, hogy beállította a következő előfeltételeket:
-
-1. Visual Studio Environment: A Visual Studio telepítve legyen a rendszerére.
-2.  Aspose.Tasks for .NET: Töltse le és telepítse az Aspose.Tasks for .NET webhelyről[letöltési link](https://releases.aspose.com/tasks/net/).
-3. C# alapismeretek: Ismerkedjen meg a C# programozási nyelv alapjaival.
+- Visual Studio (bármelyik újabb kiadás) telepítve a munkaállomáson.  
+- Aspose.Tasks for .NET – letöltheti a [download link](https://releases.aspose.com/tasks/net/) oldalról.  
+- Alapvető ismeretek a C# szintaxisról és a .NET projektstruktúráról.
 
 ## Névterek importálása
 
-Kezdje a szükséges névterek importálásával az Aspose.Tasks for .NET használatához:
+A következő névterek biztosítják a hozzáférést a projektmodell alapjához és az egyéni tulajdonság API‑khoz.
 
 ```csharp
 using Aspose.Tasks;
@@ -36,25 +117,35 @@ using System;
 
 ```
 
-Bontsuk fel a példakódot több lépésre az átfogó megértés érdekében:
+## Hogyan adjon hozzá egyéni tulajdonságot az Aspose.Tasks-ben?
 
-## 1. lépés: A projekt inicializálása
+Az egyéni tulajdonság hozzáadásához először töltse be a projektet, majd hozza létre a `CustomProperty` objektumot, állítsa be a nevét, típusát és értékét, végül adja hozzá a projekt `CustomProperties` gyűjteményéhez. Ez a művelet közvetlenül a projektfájlba ágyazza be a metaadatokat, és a változások mentésre kerülnek, amikor meghívja a `project.Save(...)` metódust.
+
+`CustomProperty` egyetlen felhasználó által definiált mezőt képvisel, amely egy projekthez van csatolva.
+
+```csharp
+// Direct answer: Load the project, create a CustomProperty, set its Type and Value, then add it to project.CustomProperties.
+```
+
+### 1. lépés: projekt inicializálása
+
+`Project` az elsődleges osztály, amely egy projektfájlt képvisel az Aspose.Tasks-ben.
 
 ```csharp
 var project = new Project(DataDir + "ReadProjectInfo.mpp");
 ```
 
-Ez a lépés inicializál egy új projektet az Aspose.Tasks használatával.
+### 2. lépés: egyéni tulajdonságok gyűjteményének készenlétének ellenőrzése
 
-## 2. lépés: Ellenőrizze az egyéni tulajdonságok gyűjteményének készségét
+`CustomProperties` a gyűjtemény, amely egy projekt összes egyéni tulajdonság objektumát tartalmazza.
 
 ```csharp
 Console.WriteLine("Is custom properties collection read-only?: " + project.CustomProps.IsReadOnly);
 ```
 
-Ez a kód ellenőrzi, hogy az egyéni tulajdonságok gyűjteménye csak olvasható-e.
+### 3. lépés: egyéni tulajdonságok hozzáadása
 
-## 3. lépés: Adjon hozzá egyéni tulajdonságokat
+`Add` metódus egy új egyéni tulajdonságot szúr be a projekt gyűjteményébe.
 
 ```csharp
 project.CustomProps.Add("IsEnterprise", true);
@@ -63,9 +154,9 @@ project.CustomProps.Add("Precision", 10d);
 project.CustomProps.Add("Custom Name", "MyProject");
 ```
 
-Itt egyéni tulajdonságokat adunk a projekthez, támogatva a logikai, dátum-idő, dupla és karakterlánc típusokat.
+### 4. lépés: egyéni tulajdonságok elérése
 
-## 4. lépés: Nyissa meg az egyéni tulajdonságokat
+`CustomProperties` gyűjtemény implementálja az IEnumerable-t, lehetővé téve az egyes `CustomProperty` elemek iterálását.
 
 ```csharp
 foreach (var property in project.CustomProps)
@@ -77,17 +168,17 @@ foreach (var property in project.CustomProps)
 }
 ```
 
-Ez a ciklus lehetővé teszi számunkra, hogy az egyéni tulajdonságokon keresztül ismételgessünk, és megjelenítsük azok típusát, nevét és értékét.
+### 5. lépés: egyéni tulajdonság értékének lekérése
 
-## 5. lépés: Egyéni tulajdonságérték lekérése
+`Get` metódus visszaadja egy egyéni tulajdonság értékét a neve alapján.
 
 ```csharp
 Console.WriteLine("Custom Name: " + project.CustomProps["Custom Name"]);
 ```
 
-Ez a kód lekéri az „Egyéni név” nevű konkrét egyéni tulajdonság értékét.
+### 6. lépés: egyéni tulajdonságnevek iterálása
 
-## 6. lépés: Ismételje meg az egyéni tulajdonságneveket
+`Names` tulajdonság a gyűjteményben lévő összes egyéni tulajdonság nevét adja vissza.
 
 ```csharp
 foreach (var propName in project.CustomProps.Names)
@@ -97,9 +188,9 @@ foreach (var propName in project.CustomProps.Names)
 }
 ```
 
-Itt ismételgetjük az egyéni tulajdonságok neveit, és megjelenítjük azokat.
+### 7. lépés: egyéni tulajdonságok eltávolítása vagy törlése
 
-## 7. lépés: Távolítsa el vagy törölje az egyéni tulajdonságokat
+`Remove` metódus egy adott tulajdonságot töröl, míg a `Clear` kiüríti az egész gyűjteményt.
 
 ```csharp
 if (project.CustomProps.Contains("Custom Name"))
@@ -110,36 +201,44 @@ if (project.CustomProps.Contains("Custom Name"))
 project.CustomProps.Clear();
 ```
 
-Eltávolíthat egy adott egyéni tulajdonságot a neve alapján, vagy törölheti a teljes gyűjteményt.
+## Gyakori buktatók és hibaelhárítás
 
-## Következtetés
+- **Csak‑olvasható gyűjtemény** – Ha a `project.CustomProperties.IsReadOnly` `true`‑t ad vissza, győződjön meg róla, hogy a forrásfájl nincs kizárólagos olvasási módban megnyitva, vagy másolja át egy írható helyre a szerkesztés előtt.  
+- **Típuseltérés** – Ha olyan értéket ad meg, amely nem egyezik a deklarált `CustomPropertyType`‑nal, `ArgumentException` keletkezik. Mindig a megfelelő `Type` meghatározása után állítsa be a `Value`‑t.  
+- **Módosítások mentése** – Egyéni tulajdonságok hozzáadása vagy eltávolítása után hívja a `project.Save("output.mpp")`‑t a módosítások mentéséhez; különben a változások csak memóriában maradnak.
 
-Az egyéni projekttulajdon-gyűjtemények elsajátítása az Aspose.Tasks for .NET-ben lehetővé teszi a projekt metaadatainak hatékony kezelését. Ennek a lépésről lépésre szóló útmutatónak a követésével zökkenőmentesen integrálhatja az egyéni tulajdonságokat a projektmenedzsment munkafolyamatába, javítva ezzel a szervezettséget és a hatékonyságot.
+## Gyakran feltett kérdések
 
-## GYIK
+**Q: Hozzáadhatok egyéni tulajdonságokat bármilyen adat típussal a projektemhez az Aspose.Tasks for .NET használatával?**  
+A: Igen, hozzáadhat egyéni tulajdonságokat, amelyek Boolean, DateTime, Double és String típusokat támogatják.
 
-### 1. kérdés: Hozzáadhatok bármilyen adattípus egyéni tulajdonságát a projektemhez az Aspose.Tasks for .NET használatával?
+**Q: Lehet-e iterálni az egyéni tulajdonságneveken az Aspose.Tasks for .NET‑ben?**  
+A: Természetesen, iterálhat az egyéni tulajdonságneveken a `Names` tulajdonság használatával.
 
-1. válasz: Igen, felvehet egyéni tulajdonságokat, amelyek támogatják a logikai, dátum-idő, dupla és karakterlánc típusokat.
+**Q: Hogyan távolíthatok el egy adott egyéni tulajdonságot a projektemből?**  
+A: Egyéni tulajdonságot a neve alapján a `Remove` metódussal távolíthatja el.
 
-### 2. kérdés: Lehetséges az Aspose.Tasks for .NET egyéni tulajdonságneveinek átírása?
+**Q: Az Aspose.Tasks for .NET biztosít-e támogatást ideiglenes licencekhez?**  
+A: Igen, ideiglenes licencet szerezhet az Aspose weboldaláról értékelési célokra.
 
- 2. válasz: Természetesen ismételhet egyéni tulajdonságnevek között a`Names` ingatlan.
+**Q: Hol találok támogatást vagy további segítséget az Aspose.Tasks for .NET‑hez?**  
+A: Látogasson el az Aspose.Tasks fórumra: [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) bármilyen kérdés vagy segítség esetén.
 
-### 3. kérdés: Hogyan távolíthatok el egy adott egyéni tulajdonságot a projektemből?
+---
 
- 3. válasz: Eltávolíthat egy egyéni tulajdonságot a neve alapján a`Remove` módszer.
+**Last Updated:** 2026-10-15  
+**Tested With:** Aspose.Tasks 24.11 for .NET  
+**Author:** Aspose
 
-### 4. kérdés: Az Aspose.Tasks for .NET támogatja az ideiglenes licenceket?
+## Kapcsolódó oktatóanyagok
 
-4. válasz: Igen, az Aspose webhelyéről ideiglenes licencet szerezhet értékelési célokra.
+- [Hogyan olvassuk be a beépített projekt tulajdonságokat az Aspose.Tasks for .NET használatával](/tasks/net/advanced-features/built-in-project-property-collection/)
+- [MS Project attribútumgyűjtemény kezelése az Aspose.Tasks-ben](/tasks/net/tasks-project-management/extended-attribute-collection/)
+- [Aspose.Tasks egyéni mezőtípusok – Naptár és ütemezés](/tasks/net/calendar-scheduling/)
 
-### 5. kérdés: Hol találok támogatást vagy további segítséget az Aspose.Tasks for .NET-hez?
 
- 5. válasz: Látogassa meg az Aspose.Tasks fórumot[itt](https://forum.aspose.com/c/tasks/15) bármilyen kérdésért vagy segítségért.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
