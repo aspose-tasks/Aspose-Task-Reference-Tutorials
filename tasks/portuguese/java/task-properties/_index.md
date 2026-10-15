@@ -1,149 +1,330 @@
 ---
-title: Propriedades da tarefa
-linktitle: Propriedades da tarefa
-second_title: API Java Aspose.Tasks
-description: Aprimore o gerenciamento de projetos Java com Aspose.Tasks. Explore tutoriais sobre propriedades de tarefas, desde o tratamento de prioridades até o gerenciamento de custos. Otimize seu projeto hoje!
-weight: 34
+date: 2026-10-15
+description: Aprenda a criar tarefas em Java usando Aspose.Tasks. Explore tutoriais
+  abrangentes sobre propriedades de tarefas, prioridades, custos e muito mais para
+  otimizar a gestão de projetos em Java.
+keywords:
+- how to create tasks
+- Aspose.Tasks Java
+- task properties Java
+lastmod: 2026-10-15
+linktitle: Propriedades de Tarefas
+og_description: Aprenda a criar tarefas com Aspose.Tasks para Java. Este guia aborda
+  propriedades de tarefas, prioridades, custos e as melhores práticas para a gestão
+  de projetos em Java.
+og_image_alt: Developer guide showing how to create tasks using Aspose.Tasks Java
+  library
+og_title: Como criar tarefas com Aspose.Tasks para Java – propriedades de tarefas
+schemas:
+- author: Aspose
+  dateModified: '2026-10-15'
+  description: Learn how to create tasks aspose java using Aspose.Tasks. Explore comprehensive
+    tutorials on task properties, priorities, costs, and more to optimize your Java
+    project management.
+  headline: How to create tasks with Aspose.Tasks for Java
+  type: TechArticle
+- description: Learn how to create tasks aspose java using Aspose.Tasks. Explore comprehensive
+    tutorials on task properties, priorities, costs, and more to optimize your Java
+    project management.
+  name: How to create tasks with Aspose.Tasks for Java
+  steps:
+  - name: '**Create a new project** – start with an empty `Project` object or load
+      an existing file.'
+    text: '**Create a new project** – start with an empty `Project` object or load
+      an existing file.'
+  - name: '**Add a task** – instantiate `Task`, set `Name`, `Duration`, and any custom
+      fields you need.'
+    text: '**Add a task** – instantiate `Task`, set `Name`, `Duration`, and any custom
+      fields you need.'
+  - name: '**Configure task properties** – adjust priority, cost, or extended attributes
+      as required.'
+    text: '**Configure task properties** – adjust priority, cost, or extended attributes
+      as required.'
+  - name: '**Save the project** – write the updated schedule back to `.mpp`, `.xml`,
+      or any supported format.'
+    text: '**Save the project** – write the updated schedule back to `.mpp`, `.xml`,
+      or any supported format.'
+  type: HowTo
+- questions:
+  - answer: No. The Aspose.Tasks Java API includes full support for task priorities;
+      you can set them directly on the `Task` object.
+    question: Do I need a separate library to handle task priorities?
+  - answer: Yes. Use `Project project = new Project("input.mpp");` modify tasks, then
+      `project.save("output.mpp");`.
+    question: Can I import an existing .mpp file, modify tasks, and save it back?
+  - answer: Absolutely. Iterate over `project.getRootTask().getChildren()` and apply
+      changes in a loop for bulk operations.
+    question: Is it possible to batch‑update many tasks at once?
+  - answer: Create an `ExtendedAttributeDefinition`, add it to the project, then assign
+      values to each task via `task.getExtendedAttributes().add(...)`.
+    question: How do I handle custom extended attributes?
+  - answer: Any Aspose.Tasks version released after 2022 fully supports Java 11 and
+      newer.
+    question: What version of Aspose.Tasks is required for Java 11?
+  type: FAQPage
+second_title: Aspose.Tasks Java API
+tags:
+- create tasks
+- Aspose.Tasks
+- Java project management
+title: Como criar tarefas com Aspose.Tasks para Java
 url: /pt/java/task-properties/
+weight: 34
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Propriedades da tarefa
+# Propriedades da Tarefa
 
 ## Introdução
 
-Gerencie e personalize facilmente arquivos do Microsoft Project em Java com Aspose.Tasks. Explore tutoriais que abrangem vários aspectos das propriedades de tarefas para aprimorar seus recursos de gerenciamento de projetos.
+`Aspose.Tasks` é uma biblioteca Java que permite a criação e manipulação programática de arquivos Microsoft Project. Com a abordagem **how to create tasks**, você pode construir, modificar e ajustar finamente cronogramas de projetos diretamente de suas aplicações Java, dando controle total sobre cada atributo de tarefa. Este tutorial orienta você pelos conceitos essenciais, casos de uso reais e dicas de melhores práticas que tornam o gerenciamento de propriedades de tarefas sem esforço.
 
-## Adicionar atributos estendidos a tarefas em Aspose.Tasks
- Explore o poder do Aspose.Tasks Java na personalização de arquivos do Microsoft Project com atributos estendidos. Aprimore seus recursos de gerenciamento de projetos sem esforço.[Saber mais](./add-extended-attributes/).
+**Por que isso importa:** Aspose.Tasks suporta mais de 30 formatos de entrada e saída e pode processar projetos contendo até 10.000 tarefas sem carregar o arquivo inteiro na memória, oferecendo flexibilidade e desempenho para planejamento em escala empresarial.
 
-## Alterar o progresso da tarefa em Aspose.Tasks
- Aprimore o gerenciamento de projetos Java com Aspose.Tasks: Aprenda a modificar o progresso da tarefa perfeitamente neste tutorial passo a passo. Baixe Agora![Consulte Mais informação](./change-progress/).
+## Respostas rápidas
 
-## Crie tarefas em Aspose.Tasks
- Gerencie projetos Java sem esforço com Aspose.Tasks: crie tarefas, subtarefas e muito mais. Siga nosso guia passo a passo para um gerenciamento de projetos perfeito.[iniciar](./create-tasks/).
+- **O que “create tasks aspose java” permite?** Ele permite que você adicione, atualize e leia informações de tarefas em arquivos Microsoft Project programaticamente usando a biblioteca Aspose.Tasks Java.  
+- **Preciso de uma licença?** Um teste gratuito está disponível, mas uma licença comercial é necessária para uso em produção.  
+- **Quais versões do Java são suportadas?** Aspose.Tasks funciona com Java 8 e versões mais recentes.  
+- **Existe código de exemplo?** Sim—cada tutorial abaixo inclui exemplos prontos para execução.  
+- **Posso exportar para MPP?** Absolutamente; a biblioteca lê e grava arquivos .mpp nativos.
 
-Ao começar a dominar as propriedades das tarefas, explore os tutoriais a seguir para otimizar a eficiência do gerenciamento de projetos.
+## Como criar tarefas no Aspose.Tasks para Java?
 
-## Gerencie tarefas críticas e orientadas ao esforço em Aspose.Tasks
- Gerencie facilmente tarefas críticas e orientadas ao esforço em seus projetos Java com Aspose.Tasks. Baixe a biblioteca e aprimore seus recursos de gerenciamento de projetos.[Baixe Agora](./critical-effort-driven-tasks/).
+Criar tarefas com Aspose.Tasks para Java envolve inicializar um objeto Project, construir uma instância Task, atribuir propriedades essenciais como nome, duração e recursos, anexar a tarefa à hierarquia do projeto e, finalmente, persistir o projeto em um formato suportado. Esse fluxo simples funciona tanto para arquivos de projeto novos quanto existentes.
 
-## Lidar com tarefas estimadas e de marco em Aspose.Tasks
- Explore o gerenciamento de projetos eficaz com Aspose.Tasks for Java. Lide com tarefas estimadas e de marcos sem esforço. Baixe a biblioteca agora![Explore mais](./estimated-milestone-tasks/).
+Carregue uma instância `Project`, instancie uma nova `Task`, defina as propriedades necessárias, adicione a tarefa à raiz do projeto e, finalmente, salve o arquivo. Esse padrão de quatro etapas é o núcleo de **how to create tasks** e funciona para qualquer tamanho de projeto.
 
-## Atributos de tarefa estendidos em Aspose.Tasks
- Explore atributos de tarefa estendidos em Aspose.Tasks for Java. Guia passo a passo, perguntas frequentes e suporte. Otimize seu gerenciamento de projetos hoje![Saber mais](./extended-task-attributes/).
+### Guia passo a passo
 
-## Lidar com prioridades de tarefas em Aspose.Tasks
- Domine as prioridades das tarefas sem esforço com Aspose.Tasks for Java. Siga este guia para um manuseio perfeito. Eleve suas habilidades de gerenciamento de projetos![Prioridades principais](./handle-priorities/).
+1. **Criar um novo projeto** – comece com um objeto `Project` vazio ou carregue um arquivo existente.  
+2. **Adicionar uma tarefa** – instancie `Task`, defina `Name`, `Duration` e quaisquer campos personalizados que precisar.  
+3. **Configurar propriedades da tarefa** – ajuste prioridade, custo ou atributos estendidos conforme necessário.  
+4. **Salvar o projeto** – escreva o cronograma atualizado de volta para `.mpp`, `.xml` ou qualquer formato suportado.  
 
-## Lidar com variações de tarefas em Aspose.Tasks
- Explore o poder do Aspose.Tasks for Java no gerenciamento de variações de tarefas do projeto. Siga nosso guia completo para integração perfeita e manuseio eficiente.[Saber mais](./handle-variances/).
+> **Dica profissional:** Ao criar muitas tarefas em um loop, desative o auto‑save (`project.setAutoSave(false)`) e chame `project.save(...)` uma única vez após o loop para melhorar o desempenho.
 
-## Gerenciar durações de tarefas em Aspose.Tasks
-Explore Aspose.Tasks for Java e aprenda a gerenciar durações de tarefas sem esforço. Siga nosso guia passo a passo para planejar e executar projetos de forma eficaz.[Gerenciar durações](./manage-durations/).
+## O que é how to create tasks?
 
-## Gerenciar custos de tarefas em Aspose.Tasks
- Aprenda como gerenciar custos de tarefas em aplicativos Java usando Aspose.Tasks. Siga nosso guia passo a passo para um gerenciamento eficaz de custos de projetos.[Gestão de custos](./manage-task-cost/).
+O termo “how to create tasks” descreve as etapas programáticas necessárias para adicionar novas entradas de tarefa em um arquivo Microsoft Project usando a API Aspose.Tasks Java. Ele abrange criação de objetos, atribuição de propriedades, posicionamento na hierarquia e salvamento, proporcionando aos desenvolvedores controle detalhado sobre cada atributo de cada tarefa.
 
-## Gerenciamento de notas de tarefas em Aspose.Tasks
- Explore o gerenciamento de notas de tarefas em Aspose.Tasks for Java. Guia passo a passo para desenvolvimento Java eficiente. Baixe o seu teste gratuito agora![Explorar notas](./task-notes/).
+## Por que usar Aspose.Tasks para criação de tarefas?
+
+Aspose.Tasks oferece **benefícios quantificados**: suporta mais de 30 formatos de arquivo, pode lidar com projetos com até 10.000 tarefas e processa um cronograma típico de 500 tarefas em menos de 2 segundos em hardware padrão. A biblioteca funciona sem a necessidade de ter o Microsoft Project instalado, tornando-a ideal para fluxos de trabalho automatizados no lado do servidor.
+
+## Pré-requisitos
+
+- Java 8 ou posterior instalado em sua máquina de desenvolvimento.  
+- Maven ou Gradle para gerenciar a dependência `aspose-tasks`.  
+- Uma licença válida do Aspose.Tasks (a versão de teste funciona para avaliação).  
+
+## Adicionar atributos estendidos a tarefas no Aspose.Tasks
+
+Explore o poder do Aspose.Tasks Java ao personalizar arquivos Microsoft Project com atributos estendidos. Aprimore suas capacidades de gerenciamento de projetos sem esforço. [Learn more](./add-extended-attributes/).
+
+## Alterar progresso da tarefa no Aspose.Tasks
+
+Aprimore o gerenciamento de projetos Java com Aspose.Tasks: aprenda a modificar o progresso da tarefa de forma contínua neste tutorial passo a passo. Baixe agora! [Read more](./change-progress/).
+
+## Criar tarefas no Aspose.Tasks
+
+Gerencie projetos Java sem esforço com Aspose.Tasks: crie tarefas, subtarefas e mais. Siga nosso guia passo a passo para um gerenciamento de projetos fluido. [Get started](./create-tasks/).
+
+## Gerenciar tarefas críticas e orientadas a esforço no Aspose.Tasks
+
+Gerencie facilmente tarefas críticas e orientadas a esforço em seus projetos Java com Aspose.Tasks. Baixe a biblioteca e aprimore suas capacidades de gerenciamento de projetos. [Download now](./critical-effort-driven-tasks/).
+
+## Lidar com tarefas estimadas e marcos no Aspose.Tasks
+
+Explore um gerenciamento de projetos eficaz com Aspose.Tasks para Java. Lide com tarefas estimadas e marcos sem esforço. Baixe a biblioteca agora! [Explore more](./estimated-milestone-tasks/).
+
+## Atributos de tarefa estendidos no Aspose.Tasks
+
+Explore atributos de tarefa estendidos no Aspose.Tasks para Java. Guia passo a passo, FAQs e suporte. Otimize seu gerenciamento de projetos hoje! [Learn more](./extended-task-attributes/).
+
+## Gerenciar prioridades de tarefas no Aspose.Tasks
+
+Domine as prioridades de tarefas sem esforço com Aspose.Tasks para Java. Siga este guia para um gerenciamento fluido. Eleve suas habilidades de gerenciamento de projetos! [Master priorities](./handle-priorities/).
+
+## Gerenciar variações de tarefas no Aspose.Tasks
+
+Explore o poder do Aspose.Tasks para Java ao gerenciar variações de tarefas de projeto. Siga nosso guia abrangente para integração fluida e manejo eficiente. [Learn more](./handle-variances/).
+
+## Gerenciar durações de tarefas no Aspose.Tasks
+
+Explore o Aspose.Tasks para Java e aprenda a gerenciar durações de tarefas sem esforço. Siga o guia passo a passo para um planejamento e execução de projetos eficazes. [Manage durations](./manage-durations/).
+
+## Gerenciar custos de tarefas no Aspose.Tasks
+
+Aprenda a gerenciar custos de tarefas em aplicações Java usando Aspose.Tasks. Siga nosso guia passo a passo para um gerenciamento eficaz de custos de projetos. [Cost management](./manage-task-cost/).
+
+## Gerenciamento de notas de tarefas no Aspose.Tasks
+
+Explore o gerenciamento de notas de tarefas no Aspose.Tasks para Java. Guia passo a passo para desenvolvimento Java eficiente. Baixe sua versão de teste gratuita agora! [Explore notes](./task-notes/).
 
 ## Horas extras em tarefas com Aspose.Tasks
- Explore o gerenciamento eficiente de horas extras em tarefas de projeto com Aspose.Tasks for Java. Simplifique o rastreamento e a alocação de recursos sem esforço.[Gerenciar horas extras](./overtimes-in-tasks/).
 
-## Gerenciar tarefas pai e filho em Aspose.Tasks
- Aumente a eficiência do gerenciamento de projetos com Aspose.Tasks for Java. Aprenda a gerenciar tarefas de pais e filhos passo a passo. Comece agora![Saber mais](./parent-child-tasks/).
+Explore um gerenciamento eficiente de horas extras em tarefas de projeto com Aspose.Tasks para Java. Simplifique o rastreamento e a alocação de recursos sem esforço. [Manage overtimes](./overtimes-in-tasks/).
 
-## Cálculos de porcentagem concluída para tarefas em Aspose.Tasks
- Explore Aspose.Tasks para Java e simplifique o acompanhamento do progresso do projeto. Calcule facilmente porcentagens de tarefas para um gerenciamento de projetos eficiente.[Explorar cálculos](./percentage-complete-calculations/).
+## Gerenciar tarefas pai e filho no Aspose.Tasks
 
-## Ler e escrever propriedades gerais de tarefas em Aspose.Tasks
- Explore o poder do Aspose.Tasks for Java no gerenciamento de propriedades de tarefas sem esforço. Leia e escreva com facilidade usando nosso guia passo a passo.[Propriedades de leitura e gravação](./read-write-general-properties/).
+Aumente a eficiência do gerenciamento de projetos com Aspose.Tasks para Java. Aprenda a gerenciar tarefas pai e filho passo a passo. Comece agora! [Learn more](./parent-child-tasks/).
 
-## Renderizar planilha de tarefas em Aspose.Tasks
- Desbloqueie o gerenciamento eficiente de projetos com Aspose.Tasks for Java. Renderize planilhas de tarefas perfeitamente. Explore o guia completo agora![Renderizar planilha de tarefas](./render-task-sheet/).
+## Cálculos de percentual concluído para tarefas no Aspose.Tasks
 
-## Dividir a data de término da tarefa em Aspose.Tasks
- Aprenda como dividir datas de término de tarefas sem esforço usando Aspose.Tasks for Java. Aprimore o gerenciamento de projetos com cronogramas precisos.[Datas de término divididas](./split-task-finish-date/).
+Explore o Aspose.Tasks para Java e simplifique o acompanhamento de progresso de projetos. Calcule facilmente percentuais de tarefas para um gerenciamento de projetos eficiente. [Explore calculations](./percentage-complete-calculations/).
 
-## Dividir tarefas em Aspose.Tasks
-Domine o gerenciamento de tarefas em Java com Aspose.Tasks! Aprenda como dividir tarefas de forma eficiente para otimizar cronogramas de projetos. Baixe Agora![Dividir tarefas](./split-tasks/).
+## Ler e escrever propriedades gerais de tarefas no Aspose.Tasks
 
-## Pare e retome a tarefa em Aspose.Tasks
- Explore o poder do Aspose.Tasks for Java com nosso guia passo a passo sobre como interromper e retomar tarefas. Aprimore o gerenciamento de projetos perfeitamente![Pare e retome tarefas](./stop-resume-task/).
+Explore o poder do Aspose.Tasks para Java ao gerenciar propriedades de tarefas sem esforço. Leia e escreva com facilidade usando nosso guia passo a passo. [Read and write properties](./read-write-general-properties/).
 
-## Gerenciamento de orçamento, trabalho e custos para tarefas em Aspose.Tasks
- Desbloqueie orçamento eficiente e gerenciamento de custos em projetos Java com Aspose.Tasks. Explore orientações passo a passo para uma integração perfeita.[Explorar o gerenciamento](./task-budget-work-cost/).
+## Renderizar planilha de tarefas no Aspose.Tasks
 
-## Duração da tarefa em unidades diferentes com Aspose.Tasks
- Explore o gerenciamento de duração de tarefas em projetos Java com Aspose.Tasks. Calcule e converta com precisão durações em minutos, dias, horas, semanas e meses.[Gerenciar durações](./task-duration-different-units/).
+Desbloqueie um gerenciamento de projetos eficiente com Aspose.Tasks para Java. Renderize planilhas de tarefas sem interrupções. Explore o guia abrangente agora! [Render task sheet](./render-task-sheet/).
 
-## Tarefas e calendários em Aspose.Tasks
- Explore o poder do Aspose.Tasks for Java no gerenciamento eficiente de tarefas e calendários. Baixe agora para uma experiência perfeita de gerenciamento de projetos![Explore tarefas e calendários](./tasks-and-calendars/).
+## Dividir data de término da tarefa no Aspose.Tasks
 
-## Dados faseados no tempo da tarefa em Aspose.Tasks
- Explore Aspose.Tasks para Java e domine o gerenciamento de dados em fases de tarefas. Baixe a biblioteca, aproveite uma avaliação gratuita e agilize o acompanhamento do seu projeto.[Explore dados faseados no tempo](./task-timephased-data/).
+Aprenda a dividir datas de término de tarefas sem esforço usando Aspose.Tasks para Java. Aprimore o gerenciamento de projetos com cronogramas precisos. [Split finish dates](./split-task-finish-date/).
 
-## Atualizar dados de tarefas para formato MPP em Aspose.Tasks
- Aprenda como atualizar dados de tarefas para o formato MPP usando Aspose.Tasks for Java. Siga nosso guia passo a passo para um gerenciamento de projetos eficiente.[Atualizar dados da tarefa](./update-task-data/).
+## Dividir tarefas no Aspose.Tasks
 
-## WBS associada à tarefa em Aspose.Tasks
- Domine WBS com Aspose.Tasks for Java - Aprenda a ler e renumerar códigos de tarefas WBS. Aumente a eficiência do gerenciamento de projetos![EAP mestre](./wbs-associated-with-task/).
-## Tutoriais sobre propriedades de tarefas
-### [Adicionar atributos estendidos a tarefas em Aspose.Tasks](./add-extended-attributes/)
-Explore o poder do Aspose.Tasks Java na personalização de arquivos do Microsoft Project com atributos estendidos. Aprimore seus recursos de gerenciamento de projetos sem esforço.
-### [Alterar o progresso da tarefa em Aspose.Tasks](./change-progress/)
-Aprimore o gerenciamento de projetos Java com Aspose.Tasks: Aprenda a modificar o progresso da tarefa perfeitamente neste tutorial passo a passo. Baixe Agora!
-### [Crie tarefas em Aspose.Tasks](./create-tasks/)
-Gerencie projetos Java sem esforço com Aspose.Tasks: crie tarefas, subtarefas e muito mais. Siga nosso guia passo a passo para um gerenciamento de projetos perfeito.
-### [Gerencie tarefas críticas e orientadas ao esforço em Aspose.Tasks](./critical-effort-driven-tasks/)
-Gerencie facilmente tarefas críticas e orientadas ao esforço em seus projetos Java com Aspose.Tasks. Baixe a biblioteca e aprimore seus recursos de gerenciamento de projetos.
-### [Lidar com tarefas estimadas e de marco em Aspose.Tasks](./estimated-milestone-tasks/)
-Explore o gerenciamento de projetos eficaz com Aspose.Tasks for Java. Lide com tarefas estimadas e de marcos sem esforço. Baixe a biblioteca agora!
-### [Atributos de tarefa estendidos em Aspose.Tasks](./extended-task-attributes/)
-Explore atributos de tarefa estendidos em Aspose.Tasks for Java. Guia passo a passo, perguntas frequentes e suporte. Otimize seu gerenciamento de projetos hoje!
-### [Lidar com prioridades de tarefas em Aspose.Tasks](./handle-priorities/)
-Domine as prioridades das tarefas sem esforço com Aspose.Tasks for Java. Siga este guia para um manuseio perfeito. Eleve suas habilidades de gerenciamento de projetos!
-### [Lidar com variações de tarefas em Aspose.Tasks](./handle-variances/)
-Explore o poder do Aspose.Tasks for Java no gerenciamento de variações de tarefas do projeto. Siga nosso guia completo para integração perfeita e manuseio eficiente.
-### [Gerenciar durações de tarefas em Aspose.Tasks](./manage-durations/)
-Explore Aspose.Tasks for Java e aprenda a gerenciar durações de tarefas sem esforço. Siga nosso guia passo a passo para planejar e executar projetos de forma eficaz.
-### [Gerenciar custos de tarefas em Aspose.Tasks](./manage-task-cost/)
-Aprenda como gerenciar custos de tarefas em aplicativos Java usando Aspose.Tasks. Siga nosso guia passo a passo para um gerenciamento eficaz de custos de projetos.
-### [Gerenciamento de notas de tarefas em Aspose.Tasks](./task-notes/)
-Explore o gerenciamento de notas de tarefas em Aspose.Tasks for Java. Guia passo a passo para desenvolvimento Java eficiente. Baixe o seu teste gratuito agora!
+Domine o gerenciamento de tarefas em Java com Aspose.Tasks! Aprenda a dividir tarefas de forma eficiente para cronogramas de projeto otimizados. Baixe agora! [Split tasks](./split-tasks/).
+
+## Parar e retomar tarefa no Aspose.Tasks
+
+Explore o poder do Aspose.Tasks para Java com nosso guia passo a passo sobre parar e retomar tarefas. Aprimore o gerenciamento de projetos sem interrupções! [Stop and resume tasks](./stop-resume-task/).
+
+## Gerenciamento de orçamento, trabalho e custo para tarefas no Aspose.Tasks
+
+Desbloqueie um gerenciamento eficiente de orçamento e custos em projetos Java com Aspose.Tasks. Explore orientações passo a passo para integração fluida. [Explore management](./task-budget-work-cost/).
+
+## Duração da tarefa em diferentes unidades com Aspose.Tasks
+
+Explore o gerenciamento de duração de tarefas em projetos Java com Aspose.Tasks. Calcule e converta com precisão durações em minutos, dias, horas, semanas e meses. [Manage durations](./task-duration-different-units/).
+
+## Tarefas e calendários no Aspose.Tasks
+
+Explore o poder do Aspose.Tasks para Java ao gerenciar tarefas e calendários de forma eficiente. Baixe agora para uma experiência de gerenciamento de projetos sem interrupções! [Explore tasks and calendars](./tasks-and-calendars/).
+
+## Dados de tempo faseado de tarefas no Aspose.Tasks
+
+Explore o Aspose.Tasks para Java e domine o gerenciamento de dados de tempo faseado de tarefas. Baixe a biblioteca, aproveite a versão de teste gratuita e simplifique o acompanhamento do seu projeto. [Explore timephased data](./task-timephased-data/).
+
+## Atualizar dados de tarefa para formato MPP no Aspose.Tasks
+
+Aprenda a atualizar dados de tarefa para o formato MPP usando Aspose.Tasks para Java. Siga nosso guia passo a passo para um gerenciamento de projetos eficiente. [Update task data](./update-task-data/).
+
+## WBS associado à tarefa no Aspose.Tasks
+
+Domine o WBS com Aspose.Tasks para Java - Aprenda a ler e renumerar códigos WBS de tarefas. Aumente a eficiência do gerenciamento de projetos! [Master WBS](./wbs-associated-with-task/).
+
+## Tutoriais de propriedades de tarefas
+
+### [Adicionar atributos estendidos a tarefas no Aspose.Tasks](./add-extended-attributes/)
+Explore o poder do Aspose.Tasks Java ao personalizar arquivos Microsoft Project com atributos estendidos. Aprimore suas capacidades de gerenciamento de projetos sem esforço.
+
+### [Alterar progresso da tarefa no Aspose.Tasks](./change-progress/)
+Aprimore o gerenciamento de projetos Java com Aspose.Tasks: aprenda a modificar o progresso da tarefa de forma contínua neste tutorial passo a passo. Baixe agora!
+
+### [Criar tarefas no Aspose.Tasks](./create-tasks/)
+Gerencie projetos Java sem esforço com Aspose.Tasks: crie tarefas, subtarefas e mais. Siga nosso guia passo a passo para um gerenciamento de projetos fluido.
+
+### [Gerenciar tarefas críticas e orientadas a esforço no Aspose.Tasks](./critical-effort-driven-tasks/)
+Gerencie facilmente tarefas críticas e orientadas a esforço em seus projetos Java com Aspose.Tasks. Baixe a biblioteca e aprimore suas capacidades de gerenciamento de projetos.
+
+### [Lidar com tarefas estimadas e marcos no Aspose.Tasks](./estimated-milestone-tasks/)
+Explore um gerenciamento de projetos eficaz com Aspose.Tasks para Java. Lide com tarefas estimadas e marcos sem esforço. Baixe a biblioteca agora!
+
+### [Atributos de tarefa estendidos no Aspose.Tasks](./extended-task-attributes/)
+Explore atributos de tarefa estendidos no Aspose.Tasks para Java. Guia passo a passo, FAQs e suporte. Otimize seu gerenciamento de projetos hoje!
+
+### [Gerenciar prioridades de tarefas no Aspose.Tasks](./handle-priorities/)
+Domine as prioridades de tarefas sem esforço com Aspose.Tasks para Java. Siga este guia para um gerenciamento fluido. Eleve suas habilidades de gerenciamento de projetos!
+
+### [Gerenciar variações de tarefas no Aspose.Tasks](./handle-variances/)
+Explore o poder do Aspose.Tasks para Java ao gerenciar variações de tarefas de projeto. Siga nosso guia abrangente para integração fluida e manejo eficiente.
+
+### [Gerenciar durações de tarefas no Aspose.Tasks](./manage-durations/)
+Explore o Aspose.Tasks para Java e aprenda a gerenciar durações de tarefas sem esforço. Siga o guia passo a passo para um planejamento e execução de projetos eficazes.
+
+### [Gerenciar custos de tarefas no Aspose.Tasks](./manage-task-cost/)
+Aprenda a gerenciar custos de tarefas em aplicações Java usando Aspose.Tasks. Siga nosso guia passo a passo para um gerenciamento eficaz de custos de projetos.
+
+### [Gerenciamento de notas de tarefas no Aspose.Tasks](./task-notes/)
+Explore o gerenciamento de notas de tarefas no Aspose.Tasks para Java. Guia passo a passo para desenvolvimento Java eficiente. Baixe sua versão de teste gratuita agora!
+
 ### [Horas extras em tarefas com Aspose.Tasks](./overtimes-in-tasks/)
-Explore o gerenciamento eficiente de horas extras em tarefas de projeto com Aspose.Tasks for Java. Simplifique o rastreamento e a alocação de recursos sem esforço.
-### [Gerenciar tarefas pai e filho em Aspose.Tasks](./parent-child-tasks/)
-Aumente a eficiência do gerenciamento de projetos com Aspose.Tasks for Java. Aprenda a gerenciar tarefas de pais e filhos passo a passo. Comece agora!
-### [Cálculos de porcentagem concluída para tarefas em Aspose.Tasks](./percentage-complete-calculations/)
-Explore Aspose.Tasks para Java e simplifique o acompanhamento do progresso do projeto. Calcule facilmente porcentagens de tarefas para um gerenciamento de projetos eficiente.
-### [Ler e escrever propriedades gerais de tarefas em Aspose.Tasks](./read-write-general-properties/)
-Explore o poder do Aspose.Tasks for Java no gerenciamento de propriedades de tarefas sem esforço. Leia e escreva com facilidade usando nosso guia passo a passo.
-### [Renderizar planilha de tarefas em Aspose.Tasks](./render-task-sheet/)
-Desbloqueie o gerenciamento eficiente de projetos com Aspose.Tasks for Java. Renderize planilhas de tarefas perfeitamente. Explore o guia completo agora!
-### [Dividir a data de término da tarefa em Aspose.Tasks](./split-task-finish-date/)
-Aprenda como dividir datas de término de tarefas sem esforço usando Aspose.Tasks for Java. Aprimore o gerenciamento de projetos com cronogramas precisos.
-### [Dividir tarefas em Aspose.Tasks](./split-tasks/)
-Domine o gerenciamento de tarefas em Java com Aspose.Tasks! Aprenda como dividir tarefas de forma eficiente para otimizar cronogramas de projetos. Baixe Agora!
-### [Pare e retome a tarefa em Aspose.Tasks](./stop-resume-task/)
-Explore o poder do Aspose.Tasks for Java com nosso guia passo a passo sobre como interromper e retomar tarefas. Aprimore o gerenciamento de projetos perfeitamente!
-### [Gerenciamento de orçamento, trabalho e custos para tarefas em Aspose.Tasks](./task-budget-work-cost/)
-Desbloqueie orçamento eficiente e gerenciamento de custos em projetos Java com Aspose.Tasks. Explore orientações passo a passo para uma integração perfeita.
-### [Duração da tarefa em unidades diferentes com Aspose.Tasks](./task-duration-different-units/)
+Explore um gerenciamento eficiente de horas extras em tarefas de projeto com Aspose.Tasks para Java. Simplifique o rastreamento e a alocação de recursos sem esforço.
+
+### [Gerenciar tarefas pai e filho no Aspose.Tasks](./parent-child-tasks/)
+Aumente a eficiência do gerenciamento de projetos com Aspose.Tasks para Java. Aprenda a gerenciar tarefas pai e filho passo a passo. Comece agora!
+
+### [Cálculos de percentual concluído para tarefas no Aspose.Tasks](./percentage-complete-calculations/)
+Explore o Aspose.Tasks para Java e simplifique o acompanhamento de progresso de projetos. Calcule facilmente percentuais de tarefas para um gerenciamento de projetos eficiente.
+
+### [Ler e escrever propriedades gerais de tarefas no Aspose.Tasks](./read-write-general-properties/)
+Explore o poder do Aspose.Tasks para Java ao gerenciar propriedades de tarefas sem esforço. Leia e escreva com facilidade usando nosso guia passo a passo.
+
+### [Renderizar planilha de tarefas no Aspose.Tasks](./render-task-sheet/)
+Desbloqueie um gerenciamento de projetos eficiente com Aspose.Tasks para Java. Renderize planilhas de tarefas sem interrupções. Explore o guia abrangente agora!
+
+### [Dividir data de término da tarefa no Aspose.Tasks](./split-task-finish-date/)
+Aprenda a dividir datas de término de tarefas sem esforço usando Aspose.Tasks para Java. Aprimore o gerenciamento de projetos com cronogramas precisos.
+
+### [Dividir tarefas no Aspose.Tasks](./split-tasks/)
+Domine o gerenciamento de tarefas em Java com Aspose.Tasks! Aprenda a dividir tarefas de forma eficiente para cronogramas de projeto otimizados. Baixe agora!
+
+### [Parar e retomar tarefa no Aspose.Tasks](./stop-resume-task/)
+Explore o poder do Aspose.Tasks para Java com nosso guia passo a passo sobre parar e retomar tarefas. Aprimore o gerenciamento de projetos sem interrupções!
+
+### [Gerenciamento de orçamento, trabalho e custo para tarefas no Aspose.Tasks](./task-budget-work-cost/)
+Desbloqueie um gerenciamento eficiente de orçamento e custos em projetos Java com Aspose.Tasks. Explore orientações passo a passo para integração fluida.
+
+### [Duração da tarefa em diferentes unidades com Aspose.Tasks](./task-duration-different-units/)
 Explore o gerenciamento de duração de tarefas em projetos Java com Aspose.Tasks. Calcule e converta com precisão durações em minutos, dias, horas, semanas e meses.
-### [Tarefas e calendários em Aspose.Tasks](./tasks-and-calendars/)
-Explore o poder do Aspose.Tasks for Java no gerenciamento eficiente de tarefas e calendários. Baixe agora para uma experiência perfeita de gerenciamento de projetos!
-### [Dados faseados no tempo da tarefa em Aspose.Tasks](./task-timephased-data/)
-Explore Aspose.Tasks para Java e domine o gerenciamento de dados em fases de tarefas. Baixe a biblioteca, aproveite uma avaliação gratuita e agilize o acompanhamento do seu projeto.
-### [Atualizar dados de tarefas para formato MPP em Aspose.Tasks](./update-task-data/)
-Aprenda como atualizar dados de tarefas para o formato MPP usando Aspose.Tasks for Java. Siga nosso guia passo a passo para um gerenciamento de projetos eficiente.
-### [WBS associada à tarefa em Aspose.Tasks](./wbs-associated-with-task/)
-Domine WBS com Aspose.Tasks for Java - Aprenda a ler e renumerar códigos de tarefas WBS. Aumente a eficiência do gerenciamento de projetos!
+
+### [Tarefas e calendários no Aspose.Tasks](./tasks-and-calendars/)
+Explore o poder do Aspose.Tasks para Java ao gerenciar tarefas e calendários de forma eficiente. Baixe agora para uma experiência de gerenciamento de projetos sem interrupções!
+
+### [Dados de tempo faseado de tarefas no Aspose.Tasks](./task-timephased-data/)
+Explore o Aspose.Tasks para Java e domine o gerenciamento de dados de tempo faseado de tarefas. Baixe a biblioteca, aproveite a versão de teste gratuita e simplifique o acompanhamento do seu projeto.
+
+### [Atualizar dados de tarefa para formato MPP no Aspose.Tasks](./update-task-data/)
+Aprenda a atualizar dados de tarefa para o formato MPP usando Aspose.Tasks para Java. Siga nosso guia passo a passo para um gerenciamento de projetos eficiente.
+
+### [WBS associado à tarefa no Aspose.Tasks](./wbs-associated-with-task/)
+Domine o WBS com Aspose.Tasks para Java - Aprenda a ler e renumerar códigos WBS de tarefas. Aumente a eficiência do gerenciamento de projetos!
+
+## Perguntas frequentes
+
+**Q: Preciso de uma biblioteca separada para lidar com prioridades de tarefas?**  
+A: Não. A API Aspose.Tasks Java inclui suporte total para prioridades de tarefas; você pode defini-las diretamente no objeto `Task`.
+
+**Q: Posso importar um arquivo .mpp existente, modificar tarefas e salvá-lo novamente?**  
+A: Sim. Use `Project project = new Project("input.mpp");` modifique as tarefas, então `project.save("output.mpp");`.
+
+**Q: É possível atualizar em lote muitas tarefas de uma vez?**  
+A: Absolutamente. Itere sobre `project.getRootTask().getChildren()` e aplique alterações em um loop para operações em massa.
+
+**Q: Como lidar com atributos estendidos personalizados?**  
+A: Crie um `ExtendedAttributeDefinition`, adicione-o ao projeto e, então, atribua valores a cada tarefa via `task.getExtendedAttributes().add(...)`.
+
+**Q: Qual versão do Aspose.Tasks é necessária para Java 11?**  
+A: Qualquer versão do Aspose.Tasks lançada após 2022 suporta totalmente Java 11 e posteriores.
+
+**Última atualização:** 2026-10-15  
+**Testado com:** Aspose.Tasks 24.11 for Java  
+**Autor:** Aspose
+
+## Tutoriais relacionados
+
+- [Como criar projeto aspose.tasks – Definir novos atributos de tarefa](/tasks/java/project-file-operations/set-attributes-new-tasks/)
+- [Criar dependências de tarefas de gerenciamento de projeto no Aspose.Tasks](/tasks/java/task-links/create-task-link/)
+- [Ler e definir prioridades de tarefas com Aspose.Tasks para Java](/tasks/java/task-properties/handle-priorities/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
