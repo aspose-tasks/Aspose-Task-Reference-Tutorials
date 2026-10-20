@@ -1,132 +1,183 @@
 ---
-date: 2026-02-15
-description: Aspose.Tasks for Java kullanarak MS Project Java dosyalarını okuma, tablo
-  verilerini Java ile çıkarma ve MS Project veritabanını içe aktarma yöntemlerini
-  öğrenin. Grup tanımları, Access DB, çevrimiçi projeler ve şifre korumalı dosyalar
-  için ayrıntılı öğreticiler.
-linktitle: Read MS Project Java
+date: 2026-10-20
+description: Aspose.Tasks for Java kullanarak Project Online'a nasıl bağlanılacağını
+  ve MS Project dosyalarını nasıl okunacağını öğrenin, tablo verilerini çıkarın ve
+  MS Project veritabanlarını içe aktarın. Grup tanımları, Access DB, çevrimiçi projeler
+  ve şifre korumalı dosyalar için ayrıntılı öğreticiler.
+keywords:
+- connect to project online
+- read ms project file
+- aspose tasks java
+lastmod: 2026-10-20
+linktitle: MS Project Java'ı Oku
+og_description: Aspose.Tasks ile Project Online'a bağlanın ve Java'da MS Project dosyalarını
+  okuyun. Bu kılavuz, tabloları, Gantt verilerini ve veritabanlarını verimli bir şekilde
+  nasıl çıkaracağınızı gösterir.
+og_image_alt: 'Developer guide: Connect to Project Online and read MS Project files
+  using Aspose.Tasks for Java'
+og_title: Project Online'a bağlanın ve Java'da MS Project dosyalarını okuyun
+schemas:
+- author: Aspose
+  dateModified: '2026-10-20'
+  description: Learn how to connect to Project Online and read MS Project files using
+    Aspose.Tasks for Java, extract table data, and import MS Project databases. Detailed
+    tutorials for group definitions, Access DB, online projects, and password‑protected
+    files.
+  headline: Connect to Project Online and read MS Project files in Java
+  type: TechArticle
+- questions:
+  - answer: Yes, Aspose.Tasks provides API methods to authenticate and download project
+      data directly from Project Online.
+    question: Can I read Microsoft Project Online data without a user interface?
+  - answer: Use the `Project` constructor that accepts a password string, e.g., `new
+      Project("file.mpp", "myPassword")`.
+    question: How do I open a password‑protected .mpp file?
+  - answer: Absolutely – the API returns table rows that you can iterate and map to
+      `List<Map<String, Object>>` for easy handling.
+    question: Is it possible to extract table data into Java collections?
+  - answer: You can read from Microsoft Access (*.mdb, *.accdb) and from the native
+      Microsoft Project database using ODBC connections.
+    question: Which database types are supported for reading project data?
+  - answer: A single commercial license covers all environments (development, testing,
+      production) as long as the terms are met.
+    question: Do I need a separate license for each deployment environment?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: MS Project Java'ı Oku – MS Project Java'ı Okumak İçin Tam Rehber
+tags:
+- connect to project online
+- Aspose.Tasks Java
+- MS Project data reading
+- Java project integration
+- project management
+title: Project Online'a bağlanın ve Java'da MS Project dosyalarını okuyun
 url: /tr/java/project-data-reading/
 weight: 28
 ---
 
-Also there is a backtop button shortcode.
-
-Now produce final content.
-
-Let's translate.
-
-I'll produce Turkish translation.
-
-Be careful with technical terms: keep API, SDK, class names, etc.
-
-Now produce final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# MS Project Java Okuma
+# Project Online'a Bağlanın ve Java'da MS Project dosyalarını okuyun
 
 ## Giriş
-Java’da proje yönetiminin geniş dünyasında yol alıyorsanız, Aspose.Tasks öğreticilerimiz sizin yol gösterici yıldızlarınızdır. Bu merkezde **read ms project java** dosyalarını ve veritabanlarını, veriler yerel ortamda, Microsoft Project Online’da ya da bir parola arkasında olsa da, kolaylıkla nasıl okuyacağınızı keşfedeceksiniz. Bu bilgi macerasına birlikte çıkalım ve Java uygulamalarınız için sorunsuz proje verisi entegrasyonunun kilidini açalım.
+Java'da proje yönetiminin geniş dünyasında dolaşıyorsanız, Aspose.Tasks eğitimlerimiz rehber yıldızlarınızdır. Bu merkezde **Project Online'a bağlanmayı** ve **MS Project Java** dosyalarını ve veritabanlarını kolaylıkla okumayı keşfedeceksiniz; veriler yerel ortamda, Microsoft Project Online'da veya bir şifre arkasında olsun. Bilgi macerasına birlikte çıkalım ve Java uygulamalarınız için sorunsuz proje verisi entegrasyonunun kilidini açalım.
 
 ## Hızlı Yanıtlar
-- **Aspose.Tasks ne okuyabilir?** Microsoft Project dosyaları, MS Access veritabanları, Project Online verileri ve parola‑korumalı projeler.  
-- **Hangi dil destekleniyor?** Aspose.Tasks for Java kütüphanesi ile Java SE 8+ (ve sonrası).  
-- **Lisans gerekli mi?** Değerlendirme için ücretsiz deneme sürümü çalışır; üretim için ticari lisans gerekir.  
+- **Aspose.Tasks ne okuyabilir?** Microsoft Project dosyaları, MS Access veritabanları, Project Online verileri ve şifre korumalı projeler.  
+- **Hangi dil destekleniyor?** Java SE 8+ (ve sonrası) Aspose.Tasks for Java kütüphanesi ile.  
+- **Bir lisansa ihtiyacım var mı?** Değerlendirme için ücretsiz deneme çalışır; üretim için ticari lisans gereklidir.  
 - **Gantt şeması detaylarını çıkarabilir miyim?** Evet – belirli Gantt şeması verilerini okuyabilir ve programlı olarak dışa aktarabilirsiniz.  
-- **Tablo çıkarımı mümkün mü?** Kesinlikle, API’yi kullanarak **extract table data java** işlemini Java’da gerçekleştirebilirsiniz.
+- **Tablo çıkarımı mümkün mü?** Kesinlikle, API'yi kullanarak Java'da **extract table data java** çıkarın.
 
 ## “read ms project java” nedir?
-“read ms project java”, bir Java uygulamasından Microsoft Project dosyalarının (*.mpp, *.xml) ya da ilgili veri depolarının içeriğine programlı olarak erişmek, böylece proje bilgilerini analiz, dönüştür veya kendi çözümleriniz içinde görüntülemek anlamına gelir.
+Java uygulamasından Microsoft Project dosyalarının (*.mpp, *.xml) veya ilgili veri depolarının programlı olarak içeriğine erişmek anlamına gelir; böylece proje bilgilerini analiz edebilir, dönüştürebilir veya kendi çözümleriniz içinde görüntüleyebilirsiniz.  
+Bu, geliştiricilerin görevleri, kaynakları, takvimleri ve özel alanları almasını sağlar; raporlama araçları, taşıma süreçleri veya özel panolarla entegrasyonu kolaylaştırır.
 
-## Neden Aspose.Tasks for Java kullanmalısınız?
-- **Microsoft Project kurulumu gerekmez** – dosya formatlarıyla doğrudan çalışın.  
-- **Tam özellik kapsamı** – gruplar, kaynaklar, görevler, takvimler, Gantt şemaları ve özel tablolar.  
-- **Korunan dosyaların sağlam yönetimi** – parola‑korumalı projeleri güvenle açın.  
-- **Sorunsuz bulut entegrasyonu** – ek ara katman olmadan Project Online’a bağlanın.  
-- **ms project veritabanının kolay içe aktarımı** – yerel Project veritabanlarından veya MS Access’ten basit API çağrılarıyla veri okuyun.
+## Aspose.Tasks for Java neden kullanılmalı?
+Aspose.Tasks for Java **30+ varlık**—gruplar, kaynaklar, görevler, takvimler, Gantt şemaları ve özel tablolar dahil—destekler; böylece Microsoft Project kurmadan tam özellikli kapsama sahip olursunuz. Şifre korumalı dosyaları da yönetir, Project Online'a doğrudan bulut bağlantısını sağlar ve sadece birkaç API çağrısıyla MS Project veritabanlarını veya MS Access verilerini içe aktarabilirsiniz. Bu ölçülen yetenekler, büyük ölçekli taşıma ve raporlama boru hatlarını güvenilir ve hızlı kılar.
 
-## ms project java dosyaları nasıl okunur
-Aşağıda, Java’da MS Project verilerini okuma senaryolarının her birini adım adım gösteren odaklanmış öğreticilerin derlenmiş bir listesi yer alıyor. Bağlantılara tıklayarak kod örneklerine göz atabilirsiniz.
+## ms project java dosyalarını nasıl okuyabilirsiniz
+MS Project verilerini Java'da `Project` sınıfı ile dosyayı yükleyerek, isteğe bağlı bir şifre sağlayarak ve ardından ihtiyaç duyduğunuz bilgiyi almak için nesne modelinde gezinti yaparak okuyabilirsiniz. `Project` sınıfı bir Microsoft Project dosyasını temsil eder ve görevlerine, kaynaklarına ve diğer proje verilerine erişim sağlar. Bu yaklaşım yerel dosyalar, Project Online hizmetleri ve Access tabanlı veritabanları için çalışır.
 
-### Aspose.Tasks’te Grup Tanımı Verilerini Okuma
-İlk öğreticimizde, Microsoft Project dosyalarından grup tanımı verilerini okumanın inceliklerini ortaya koyuyoruz. Aspose.Tasks for Java, bu veri yapılarını sorunsuz bir şekilde gezmenizi sağlar. Yeni proje veri analizi boyutlarını keşfetmek için rehberimizi **[burada](./read-group-definition/)** izleyin.
+### Aspose.Tasks'te grup tanımı verilerini okuyun
+`GroupDefinition` sınıfı görev veya kaynak grupları gibi proje gruplamalarını temsil eder. Bu tanımları enumerate ederek görevlerin nasıl düzenlendiğini anlayabilirsiniz. Yeni boyutlar keşfetmek için **[Grup Tanımı Okuma öğreticisi](./read-group-definition/)** rehberimizi izleyin.
 
-### MS Access Veritabanından Proje Verilerini Okuma
-MS Project verilerini bir Microsoft Access veritabanından entegre etmeyi merak ediyor musunuz? **[MS Access Veritabanından Proje Verilerini Okuma](./read-access-database/)** öğreticimiz, sorunsuz bir bağlantının kapılarını açıyor. Bu entegrasyonla proje yönetimi yeteneklerinizi yükseltin.
+### MS Access veritabanından proje verilerini okuma
+`ProjectDatabase` sınıfı, ODBC aracılığıyla bir MS Access (*.mdb, *.accdb) dosyasına bağlanabilir ve Access tablolarını yerel Project varlıkları gibi işlemeye izin verir. Sorunsuz bir bağlantı için **[Aspose.Tasks'te MS Access Veritabanından Proje Verilerini Okuma](./read-access-database/)** öğreticimiz size yol gösterecek.
 
-### MS Project Veritabanından Proje Verilerini Okuma
-Aspose.Tasks for Java kullanarak Microsoft Project Veritabanından veri okumanın temelini öğrenin. Adım adım rehberimiz, kod örnekleriyle birlikte sizi **[burada](./read-project-database/)** bekliyor.
+### MS Project veritabanından proje verilerini okuma
+Projeleriniz yerel Microsoft Project veritabanında depolanıyorsa, aynı `ProjectDatabase` API'si tabloları doğrudan sorgulamanıza olanak tanır. Adım adım süreci **[Proje Veritabanını Okuma öğreticisi](./read-project-database/)** içinde öğrenin.
 
-### Sorunsuz MS Project Online Veri Okuma
-Günümüzün birbirine bağlı dünyasında, projeleri çevrimiçi yönetmek bir zorunluluktur. Aspose.Tasks for Java ile Microsoft Project Online verilerini sorunsuz bir şekilde okumayı öğrenin. Proje yönetimi yeteneklerinizi **[burada](./read-project-online/)** bulunan öğreticimizle geliştirin.
+### Sorunsuz MS Project Online veri okuma
+Project Online, Aspose.Tasks'in ek ara katman olmadan tüketebileceği bir RESTful API sunar. OAuth ile kimlik doğrulaması yapın, proje dosyasını indirin ve yerel olarak ayrıştırın. Tam bir kılavuz için **[Project Online Okuma öğreticisi](./read-project-online/)** izleyin.
 
-### Aspose.Tasks’te Parola‑Korunan Dosyaları Okuma
-Güvenlik, özellikle proje verileriyle çalışırken hayati öneme sahiptir. Aspose.Tasks for Java ile parola‑korunan dosyaları sorunsuz bir şekilde okumayı öğrenin. Bu öğreticideki adım adım rehberimiz **[burada](./read-password-protected/)** sizi bu sürece sorunsuz bir şekilde yönlendirecek.
+### Aspose.Tasks'te şifre korumalı dosyaları okuyun
+Şifre korumalı bir *.mpp dosyasını açmak için şifreyi `Project` yapıcısına geçirin. Bu süreci sorunsuz yönetmek için **[Şifre Korumalı Dosyaları Okuma öğreticisi](./read-password-protected/)** adım adım rehberimizi takip edin.
 
-### Aspose.Tasks’te Belirli Gantt Şeması Verilerini Okuma
-Gantt şemaları, proje yönetiminde güçlü görsel araçlardır. Aspose.Tasks for Java kullanarak belirli Gantt şeması verilerini çıkarmayı **[burada](./read-specific-gantt-chart-data/)** adım adım öğreticimizle öğrenin. Bu bilgiyi Java uygulamalarınıza entegre ederek kapsamlı bir proje yönetimi deneyimi sağlayın.
+### Aspose.Tasks'te belirli Gantt şeması verilerini okuyun
+`GanttChartView` nesnesi çubuk konumları, tarihleri ve kilometre taşlarına erişim sağlar. Bu verileri çıkararak özel görselleştirmeler veya raporlar oluşturabilirsiniz. Uygulama detayları için **[Belirli Gantt Şeması Verilerini Okuma öğreticisi](./read-specific-gantt-chart-data/)** inceleyin.
 
-### Aspose.Tasks’te Dosyadan Tablo Verilerini Okuma
-Aspose.Tasks for Java’ın tam potansiyelini, dosyalardan **extract table data java** işlemini öğrenerek ortaya çıkarın. Kapsamlı öğreticimiz **[burada](./read-table-data/)** süreci adım adım anlatıyor ve proje veri analizinizde yeni kapılar açıyor.
+### Aspose.Tasks'te dosyadan tablo verilerini okuyun
+Projelerdeki tablolar `Table` koleksiyonu üzerinden erişilebilir. Satırları yineleyerek verileri Java koleksiyonlarına haritalayabilirsiniz. Süreci adım adım öğrenmek için **[Tablo Verilerini Okuma öğreticisi](./read-table-data/)** rehberimizi kullanın.
 
-## Yaygın Kullanım Senaryoları
+```java
+// Example: Load a Project file
+import com.aspose.tasks.*;
+
+public class LoadProject {
+    public static void main(String[] args) throws Exception {
+        // Load the project file
+        Project project = new Project("example.mpp");
+        // Access tasks
+        for (Task task : project.getRootTask().getChildren()) {
+            System.out.println("Task: " + task.get(Tsk.NAME));
+        }
+    }
+}
+```
+
+## Ortak kullanım senaryoları
 - **Raporlama panoları** – Görev, kaynak ve takvim verilerini çekerek BI araçlarına besleyin.  
-- **Göç projeleri** – Eski Project dosyalarını modern bulut‑tabanlı çözümlere taşıyın.  
+- **Göç projeleri** – Eski Project dosyalarını modern bulut tabanlı çözümlere taşıyın.  
 - **Uyumluluk denetimleri** – Proje meta verilerini çıkarın ve yönetişim kurallarına karşı doğrulayın.  
-- **Özel entegrasyonlar** – Project verilerini ERP veya CRM sistemleriyle senkronize edin.  
+- **Özel entegrasyonlar** – Proje verilerini ERP veya CRM sistemleriyle senkronize edin.  
 
-## Proje Verisi Okuma Öğreticileri
-### [Aspose.Tasks’te Grup Tanımı Verilerini Okuma](./read-group-definition/)
+## Proje verisi okuma öğreticileri
+### [Aspose.Tasks'te Grup Tanımı Verilerini Okuma](./read-group-definition/)
 Microsoft Project dosyalarından grup tanımı verilerini Aspose.Tasks for Java ile nasıl okuyacağınızı öğrenin. Adım adım öğreticimizi izleyin.
 
-### [Aspose.Tasks’te MS Access Veritabanından Proje Verilerini Okuma](./read-access-database/)
-Aspose.Tasks for Java kullanarak bir Microsoft Access veritabanından MS Project verilerini nasıl okuyacağınızı öğrenin. Sorunsuz entegrasyon için adım adım öğreticimizi izleyin.
+### [Aspose.Tasks'te MS Access Veritabanından Proje Verilerini Okuma](./read-access-database/)
+Microsoft Access veritabanından MS Project verilerini Aspose.Tasks for Java ile nasıl okuyacağınızı öğrenin. Sorunsuz entegrasyon için adım adım öğreticimizi takip edin.
 
-### [Aspose.Tasks’te MS Project Veritabanından Proje Verilerini Okuma](./read-project-database/)
-Aspose.Tasks for Java ile Microsoft Project Veritabanından proje verilerini nasıl okuyacağınızı öğrenin. Kod örnekli adım adım rehber.
+### [Aspose.Tasks'te MS Project Veritabanından Proje Verilerini Okuma](./read-project-database/)
+Microsoft Project Veritabanından proje verilerini Aspose.Tasks for Java ile nasıl okuyacağınızı öğrenin. Kod örnekleriyle adım adım rehber.
 
-### [Aspose.Tasks’le Sorunsuz MS Project Online Veri Okuma](./read-project-online/)
-Aspose.Tasks for Java kullanarak Microsoft Project Online verilerini sorunsuz bir şekilde okumayı öğrenin. Proje yönetimi yeteneklerinizi geliştirin.
+### [Aspose.Tasks ile Sorunsuz MS Project Online Veri Okuma](./read-project-online/)
+Aspose.Tasks for Java kullanarak Microsoft Project Online verilerini sorunsuz bir şekilde nasıl okuyacağınızı öğrenin. Proje yönetimi yeteneklerinizi geliştirin.
 
-### [Aspose.Tasks’te Parola‑Korunan Dosyaları Okuma](./read-password-protected/)
-Aspose.Tasks for Java’da parola‑korunan dosyaları adım adım rehberimizle sorunsuz bir şekilde okumayı öğrenin.
+### [Aspose.Tasks'te Şifre Korumalı Dosyaları Okuma](./read-password-protected/)
+Aspose.Tasks for Java'da şifre korumalı dosyaları adım adım nasıl okuyacağınızı bu öğreticide öğrenin.
 
-### [Aspose.Tasks’te Belirli Gantt Şeması Verilerini Okuma](./read-specific-gantt-chart-data/)
-Aspose.Tasks for Java ile belirli Gantt şeması verilerini çıkarmayı öğrenin. Java uygulamalarınıza sorunsuz entegrasyon için adım adım öğretici.
+### [Aspose.Tasks'te Belirli Gantt Şeması Verilerini Okuma](./read-specific-gantt-chart-data/)
+Aspose.Tasks for Java ile belirli Gantt şeması verilerini nasıl çıkaracağınızı öğrenin. Java uygulamalarınıza sorunsuz entegrasyon için adım adım öğretici.
 
-### [Aspose.Tasks’te Dosyadan Tablo Verilerini Okuma](./read-table-data/)
-Aspose.Tasks for Java’ın gücünü ortaya çıkarın. Bu kapsamlı öğreticide dosyalardan tablo verilerini nasıl çıkaracağınızı öğrenin.
+### [Aspose.Tasks'te Dosyadan Tablo Verilerini Okuma](./read-table-data/)
+Aspose.Tasks for Java gücünü ortaya çıkarın. Bu kapsamlı öğreticide dosyalardan tablo verilerini nasıl çıkaracağınızı öğrenin.
 
 ## Sıkça Sorulan Sorular
 
 **S: Microsoft Project Online verilerini bir kullanıcı arayüzü olmadan okuyabilir miyim?**  
-C: Evet, Aspose.Tasks API yöntemleriyle Project Online’dan doğrudan kimlik doğrulaması yapıp proje verilerini indirebilirsiniz.
+C: Evet, Aspose.Tasks API yöntemleriyle kimlik doğrulaması yapıp proje verilerini doğrudan Project Online'dan indirebilirsiniz.
 
-**S: Parola‑korumalı bir .mpp dosyasını nasıl açarım?**  
-C: Parola dizesi kabul eden `Project` yapıcısını kullanın, örnek: `new Project("file.mpp", "myPassword")`.
+**S: Şifre korumalı bir .mpp dosyasını nasıl açarım?**  
+C: Şifre dizesi kabul eden `Project` yapıcısını kullanın, örneğin `new Project("file.mpp", "myPassword")`.
 
-**S: Tablo verilerini Java koleksiyonlarına çıkarabilir miyim?**  
-C: Kesinlikle – API, satırları döndürür; bunları `List<Map<String, Object>>` yapısına dönüştürerek kolayca işleyebilirsiniz.
+**S: Tablo verilerini Java koleksiyonlarına çıkarmak mümkün mü?**  
+C: Kesinlikle – API tablo satırlarını döndürür; bunları `List<Map<String, Object>>` yapısına yineleyerek kolayca haritalayabilirsiniz.
 
 **S: Proje verilerini okumak için hangi veritabanı türleri destekleniyor?**  
 C: Microsoft Access (*.mdb, *.accdb) ve yerel Microsoft Project veritabanı ODBC bağlantılarıyla okunabilir.
 
-**S: Her dağıtım ortamı için ayrı bir lisans gerekir mi?**  
-C: Tek bir ticari lisans, koşullar sağlandığı sürece tüm ortamları (geliştirme, test, üretim) kapsar.
+**S: Her dağıtım ortamı için ayrı bir lisansa ihtiyacım var mı?**  
+C: Tek bir ticari lisans, koşullar karşılandığı sürece tüm ortamları (geliştirme, test, üretim) kapsar.
 
-**S: **import ms project database** verilerini Java uygulamama nasıl aktarırım?**  
-C: Aspose.Tasks’teki `ProjectDatabase` sınıfını kullanarak Project veritabanına bağlanabilir ve tabloları herhangi bir JDBC kaynağında olduğu gibi sorgulayabilirsiniz.
+**S: **import ms project database** verilerini Java uygulamama nasıl aktarabilirim?**  
+C: Aspose.Tasks'teki `ProjectDatabase` sınıfını kullanarak Project veritabanına bağlanabilir ve tabloları herhangi bir JDBC kaynağında olduğu gibi sorgulayabilirsiniz.
 
-**S: Büyük projeler için **extract table data java** en iyi nasıl yapılır?**  
-C: `Table` nesnesini alın, ardından `Rows` koleksiyonunu yineleyin. Çok büyük veri setleri için satırları akış (stream) şeklinde işleyerek bellek tüketimini azaltın.
+**S: Büyük projeler için **extract table data java** en iyi yolu nedir?**  
+C: `Table` nesnesini alın, ardından `Rows` koleksiyonunu yineleyin. Çok büyük veri setleri için satırları akış (stream) olarak işlemeyi düşünün, böylece bellek tüketimini azaltırsınız.
 
----
-
-**Son Güncelleme:** 2026-02-15  
+**Son Güncelleme:** 2026-10-20  
 **Test Edilen Versiyon:** Aspose.Tasks for Java 24.12  
-**Yazar:** Aspose  
+**Yazar:** Aspose
+
+## İlgili Öğreticiler
+
+- [Aspose.Tasks'te tablo alanlarını nasıl alır ve tablo verilerini okursunuz](/tasks/java/project-data-reading/read-table-data/)
+- [Aspose.Tasks'te Grup Tanımı Verilerini Nasıl Okursunuz](/tasks/java/project-data-reading/read-group-definition/)
+- [Java'da MPP Dosyalarını Nasıl Okursunuz – Aspose Tasks Öğreticisi](/tasks/java/project-data-reading/read-password-protected/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
