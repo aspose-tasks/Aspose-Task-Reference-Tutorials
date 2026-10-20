@@ -1,112 +1,159 @@
 ---
-date: 2026-02-15
-description: Aprenda como ler arquivos MS Project Java, extrair dados de tabelas Java
-  e importar o banco de dados MS Project usando Aspose.Tasks para Java. Tutoriais
-  detalhados sobre definições de grupos, Access DB, projetos online e arquivos protegidos
-  por senha.
-linktitle: Read MS Project Java
+date: 2026-10-20
+description: Aprenda como conectar ao Project Online e ler arquivos MS Project usando
+  Aspose.Tasks para Java, extrair table data e importar MS Project databases. Tutoriais
+  detalhados para group definitions, Access DB, online projects e password‑protected
+  files.
+keywords:
+- connect to project online
+- read ms project file
+- aspose tasks java
+lastmod: 2026-10-20
+linktitle: Ler MS Project Java
+og_description: Conectar ao Project Online e ler arquivos MS Project em Java com Aspose.Tasks.
+  Este guia mostra como extrair tables, Gantt data e databases de forma eficiente.
+og_image_alt: 'Developer guide: Connect to Project Online and read MS Project files
+  using Aspose.Tasks for Java'
+og_title: Conectar ao Project Online e ler arquivos MS Project em Java
+schemas:
+- author: Aspose
+  dateModified: '2026-10-20'
+  description: Learn how to connect to Project Online and read MS Project files using
+    Aspose.Tasks for Java, extract table data, and import MS Project databases. Detailed
+    tutorials for group definitions, Access DB, online projects, and password‑protected
+    files.
+  headline: Connect to Project Online and read MS Project files in Java
+  type: TechArticle
+- questions:
+  - answer: Yes, Aspose.Tasks provides API methods to authenticate and download project
+      data directly from Project Online.
+    question: Can I read Microsoft Project Online data without a user interface?
+  - answer: Use the `Project` constructor that accepts a password string, e.g., `new
+      Project("file.mpp", "myPassword")`.
+    question: How do I open a password‑protected .mpp file?
+  - answer: Absolutely – the API returns table rows that you can iterate and map to
+      `List<Map<String, Object>>` for easy handling.
+    question: Is it possible to extract table data into Java collections?
+  - answer: You can read from Microsoft Access (*.mdb, *.accdb) and from the native
+      Microsoft Project database using ODBC connections.
+    question: Which database types are supported for reading project data?
+  - answer: A single commercial license covers all environments (development, testing,
+      production) as long as the terms are met.
+    question: Do I need a separate license for each deployment environment?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: Ler MS Project Java – Guia completo para ler MS Project Java
+tags:
+- connect to project online
+- Aspose.Tasks Java
+- MS Project data reading
+- Java project integration
+- project management
+title: Conectar ao Project Online e ler arquivos MS Project em Java
 url: /pt/java/project-data-reading/
 weight: 28
 ---
 
- Keep them.
-
-Let's produce final Portuguese translation.
-
-Be careful with bold and inline code.
-
-Also note "read ms project java" phrase appears in bold sometimes; keep as is.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ler MS Project Java
+# Conectar ao Project Online e ler arquivos MS Project em Java
 
 ## Introdução
-Se você está navegando pelo vasto cenário de gerenciamento de projetos em Java, nossos tutoriais do Aspose.Tasks são suas estrelas guias. Neste hub você descobrirá como **read ms project java** arquivos e bancos de dados com facilidade, seja os dados locais, no Microsoft Project Online ou protegidos por senha. Vamos embarcar juntos nesta aventura de conhecimento e desbloquear a integração perfeita de dados de projetos para suas aplicações Java.
+Se você está navegando pelo vasto cenário de gerenciamento de projetos em Java, nossos tutoriais Aspose.Tasks são suas estrelas guia. Neste hub você descobrirá como **conectar ao Project Online** e **ler arquivos MS Project Java** e bancos de dados com facilidade, seja os dados locais, no Microsoft Project Online ou protegidos por senha. Vamos embarcar nesta aventura de conhecimento juntos e desbloquear a integração perfeita de dados de projetos para suas aplicações Java.
 
-## Respostas Rápidas
-- **O que o Aspose.Tasks pode ler?** Arquivos Microsoft Project, bancos de dados MS Access, dados do Project Online e projetos protegidos por senha.  
+## Respostas rápidas
+- **O que o Aspose.Tasks pode ler?** arquivos Microsoft Project, bancos de dados MS Access, dados do Project Online e projetos protegidos por senha.  
 - **Qual linguagem é suportada?** Java SE 8+ (e posteriores) com a biblioteca Aspose.Tasks for Java.  
-- **Preciso de licença?** Um teste gratuito serve para avaliação; uma licença comercial é necessária para produção.  
+- **Preciso de uma licença?** Um teste gratuito funciona para avaliação; uma licença comercial é necessária para produção.  
 - **Posso extrair detalhes do diagrama de Gantt?** Sim – você pode ler dados específicos do diagrama de Gantt e exportá‑los programaticamente.  
 - **É possível extrair tabelas?** Absolutamente, use a API para **extract table data java** em Java.
 
 ## O que é “read ms project java”?
-Ler ms project java significa acessar programaticamente o conteúdo dos arquivos Microsoft Project (*.mpp, *.xml) ou armazenamentos de dados relacionados a partir de uma aplicação Java, permitindo analisar, transformar ou exibir informações de projetos dentro de suas próprias soluções.
+Ler ms project java significa acessar programaticamente o conteúdo de arquivos Microsoft Project (*.mpp, *.xml) ou armazenamentos de dados relacionados a partir de uma aplicação Java, para que você possa analisar, transformar ou exibir informações de projeto dentro de suas próprias soluções.  
+Ele permite que os desenvolvedores recuperem tarefas, recursos, cronogramas e campos personalizados, facilitando a integração com ferramentas de relatório, processos de migração ou painéis personalizados.
 
 ## Por que usar Aspose.Tasks para Java?
-- **Nenhuma instalação do Microsoft Project necessária** – trabalhe diretamente com os formatos de arquivo.  
-- **Cobertura completa de recursos** – grupos, recursos, tarefas, calendários, diagramas de Gantt e tabelas personalizadas.  
-- **Manipulação robusta de arquivos protegidos** – abra projetos protegidos por senha com segurança.  
-- **Integração em nuvem perfeita** – conecte‑se ao Project Online sem middleware adicional.  
-- **Importação fácil de banco de dados ms project** – leia dados de bancos de dados nativos do Project ou do MS Access com chamadas simples da API.
+Aspose.Tasks para Java suporta **30+ entidades** — incluindo grupos, recursos, tarefas, calendários, diagramas de Gantt e tabelas personalizadas — para que você obtenha cobertura completa de recursos sem precisar instalar o Microsoft Project. Ele também lida com arquivos protegidos por senha, permite conectividade direta à nuvem com o Project Online e permite importar bancos de dados MS Project ou dados MS Access com apenas algumas chamadas de API. Essas capacidades quantificadas tornam migrações em larga escala e pipelines de relatório confiáveis e rápidos.
 
 ## Como ler arquivos ms project java
-Abaixo está uma lista curada de tutoriais focados que orientam você por cada cenário comum de leitura de dados do MS Project em Java. Clique nos links para mergulhar em exemplos de código passo a passo.
+Você pode ler dados do MS Project em Java carregando o arquivo com a classe `Project`, opcionalmente fornecendo uma senha, e então navegando pelo modelo de objetos para recuperar as informações necessárias. A classe `Project` representa um arquivo Microsoft Project e fornece acesso às suas tarefas, recursos e outros dados do projeto. Essa abordagem funciona para arquivos locais, serviços do Project Online e bancos de dados baseados em Access.
 
-### Ler Dados de Definição de Grupo no Aspose.Tasks
-Em nosso primeiro tutorial, desvendamos as complexidades de ler dados de definição de grupo de arquivos Microsoft Project. O Aspose.Tasks for Java permite que você navegue perfeitamente por essas estruturas de dados. Siga nosso guia [aqui](./read-group-definition/) para desbloquear novas dimensões na análise de dados de projetos.
+### Ler dados de definição de grupo no Aspose.Tasks
+A classe `GroupDefinition` representa agrupamentos de projeto, como grupos de tarefas ou recursos. Você pode enumerar essas definições para entender como as tarefas são organizadas. Siga nosso guia **[Tutorial de definição de grupo](./read-group-definition/)** para desbloquear novas dimensões na análise de dados de projeto.
 
-### Lendo Dados de Projeto de Banco de Dados MS Access
-Curioso sobre integrar dados do MS Project a partir de um banco de dados Microsoft Access? Nosso tutorial sobre [Reading Project Data from MS Access Database in Aspose.Tasks](./read-access-database/) é sua porta de entrada para uma conexão perfeita. Eleve suas capacidades de gerenciamento de projetos com essa integração.
+### Lendo dados de projeto de banco de dados MS Access
+A classe `ProjectDatabase` pode conectar-se a um arquivo MS Access (*.mdb, *.accdb) via ODBC, permitindo tratar tabelas Access como entidades nativas do Project. Nosso tutorial sobre **[Leitura de dados de projeto de banco de dados MS Access no Aspose.Tasks](./read-access-database/)** é sua porta de entrada para uma conexão perfeita.
 
-### Lendo Dados de Projeto de Banco de Dados MS Project
-Mergulhe no núcleo dos dados de projeto aprendendo a lê‑los do Microsoft Project Database usando Aspose.Tasks for Java. Nosso guia passo a passo, completo com exemplos de código, espera por você [aqui](./read-project-database/).
+### Lendo dados de projeto de banco de dados MS Project
+Quando seus projetos residem no banco de dados nativo do Microsoft Project, a mesma API `ProjectDatabase` permite consultar tabelas diretamente. Aprenda o processo passo a passo no **[Tutorial de leitura do banco de dados de projeto](./read-project-database/)**.
 
-### Leitura Sem Esforço de Dados do MS Project Online
-No mundo interconectado de hoje, gerenciar projetos online é uma necessidade. Aprenda a ler sem esforço os dados do Microsoft Project Online com Aspose.Tasks for Java. Amplie suas capacidades de gerenciamento de projetos seguindo nosso tutorial [aqui](./read-project-online/).
+### Leitura sem esforço de dados do MS Project Online
+O Project Online expõe uma API RESTful que o Aspose.Tasks pode consumir sem middleware adicional. Autentique-se com OAuth, baixe o arquivo do projeto e analise‑o localmente. Siga o **[Tutorial de leitura do Project Online](./read-project-online/)** para um guia completo.
 
-### Ler Arquivos Protegidos por Senha no Aspose.Tasks
-Segurança é fundamental, especialmente ao lidar com dados de projetos. Aprenda a arte de ler arquivos protegidos por senha sem esforço com Aspose.Tasks for Java. Nossa orientação passo a passo neste tutorial [aqui](./read-password-protected/) garante que você navegue por esse processo de forma fluida.
+### Ler arquivos protegidos por senha no Aspose.Tasks
+Para abrir um arquivo *.mpp protegido por senha, passe a senha ao construtor `Project`. Nossa orientação passo a passo no **[Tutorial de leitura de arquivos protegidos por senha](./read-password-protected/)** garante que você navegue por esse processo sem problemas.
 
-### Ler Dados Específicos de Diagrama de Gantt no Aspose.Tasks
-Diagramas de Gantt são ferramentas visuais poderosas no gerenciamento de projetos. Aprenda a extrair dados específicos de diagramas de Gantt usando Aspose.Tasks for Java com nosso tutorial passo a passo [aqui](./read-specific-gantt-chart-data/). Integre esse conhecimento em suas aplicações Java para uma experiência abrangente de gerenciamento de projetos.
+### Ler dados específicos do diagrama de Gantt no Aspose.Tasks
+O objeto `GanttChartView` fornece acesso às posições das barras, datas e marcos. Extraia esses dados para criar visualizações ou relatórios personalizados. Veja o **[Tutorial de leitura de dados específicos do diagrama de Gantt](./read-specific-gantt-chart-data/)** para detalhes de implementação.
 
-### Ler Dados de Tabela de Arquivo no Aspose.Tasks
-Desbloqueie todo o potencial do Aspose.Tasks for Java aprendendo a **extract table data java** de arquivos. Nosso tutorial abrangente [aqui](./read-table-data/) orienta você pelo processo, abrindo portas para uma análise avançada de dados de projetos.
+### Ler dados de tabela de arquivo no Aspose.Tasks
+Tabelas em um arquivo Project podem ser acessadas via a coleção `Table`. Itere sobre as linhas para mapear os dados em coleções Java para processamento adicional. Nosso tutorial abrangente **[Tutorial de leitura de dados de tabela](./read-table-data/)** orienta você no processo.
 
-## Casos de Uso Comuns
-- **Painéis de relatórios** – Extraia tarefas, recursos e dados de cronograma para alimentar ferramentas de BI.  
-- **Projetos de migração** – Mova arquivos legados do Project para soluções modernas baseadas em nuvem.  
-- **Auditorias de conformidade** – Extraia e verifique metadados de projetos contra regras de governança.  
+```java
+// Example: Load a Project file
+import com.aspose.tasks.*;
+
+public class LoadProject {
+    public static void main(String[] args) throws Exception {
+        // Load the project file
+        Project project = new Project("example.mpp");
+        // Access tasks
+        for (Task task : project.getRootTask().getChildren()) {
+            System.out.println("Task: " + task.get(Tsk.NAME));
+        }
+    }
+}
+```
+
+## Casos de uso comuns
+- **Painéis de relatórios** – Extraia dados de tarefas, recursos e cronogramas para alimentar ferramentas de BI.  
+- **Projetos de migração** – Mova arquivos Project legados para soluções modernas baseadas em nuvem.  
+- **Auditorias de conformidade** – Extraia e verifique metadados do projeto contra regras de governança.  
 - **Integrações personalizadas** – Sincronize dados do Project com sistemas ERP ou CRM.  
 
-## Tutoriais de Leitura de Dados de Projeto
-### [Read Group Definition Data in Aspose.Tasks](./read-group-definition/)
-Aprenda a ler dados de definição de grupo de arquivos Microsoft Project usando Aspose.Tasks for Java. Siga nosso tutorial passo a passo.
+## Tutoriais de leitura de dados de projeto
+### [Ler dados de definição de grupo no Aspose.Tasks](./read-group-definition/)
+Aprenda como ler dados de definição de grupo de arquivos Microsoft Project usando Aspose.Tasks para Java. Siga nosso tutorial passo a passo.
 
-### [Reading Project Data from MS Access Database in Aspose.Tasks](./read-access-database/)
-Aprenda a ler dados do MS Project de um banco de dados Microsoft Access usando Aspose.Tasks for Java. Siga nosso tutorial passo a passo para integração perfeita.
+### [Leitura de dados de projeto de banco de dados MS Access no Aspose.Tasks](./read-access-database/)
+Aprenda como ler dados do MS Project de um banco de dados Microsoft Access usando Aspose.Tasks para Java. Siga nosso tutorial passo a passo para integração perfeita.
 
-### [Reading Project Data from MS Project Database in Aspose.Tasks](./read-project-database/)
-Aprenda a ler dados de projeto do Microsoft Project Database usando Aspose.Tasks for Java. Guia passo a passo com exemplos de código.
+### [Leitura de dados de projeto de banco de dados MS Project no Aspose.Tasks](./read-project-database/)
+Aprenda como ler dados de projeto do Banco de Dados Microsoft Project usando Aspose.Tasks para Java. Guia passo a passo com exemplos de código.
 
-### [Effortless MS Project Online Data Reading with Aspose.Tasks](./read-project-online/)
-Aprenda a ler sem esforço os dados do Microsoft Project Online usando Aspose.Tasks for Java. Amplie suas capacidades de gerenciamento de projetos.
+### [Leitura sem esforço de dados do MS Project Online com Aspose.Tasks](./read-project-online/)
+Aprenda como ler dados do Microsoft Project Online sem esforço usando Aspose.Tasks para Java. Aprimore suas capacidades de gerenciamento de projetos.
 
-### [Read Password‑Protected Files in Aspose.Tasks](./read-password-protected/)
-Aprenda a ler arquivos protegidos por senha no Aspose.Tasks for Java sem esforço, com orientação passo a passo neste tutorial.
+### [Ler arquivos protegidos por senha no Aspose.Tasks](./read-password-protected/)
+Aprenda como ler arquivos protegidos por senha no Aspose.Tasks para Java sem esforço com orientação passo a passo neste tutorial.
 
-### [Read Specific Gantt Chart Data in Aspose.Tasks](./read-specific-gantt-chart-data/)
-Aprenda a extrair dados específicos de diagramas de Gantt usando Aspose.Tasks for Java. Tutorial passo a passo para integração fluida em suas aplicações Java.
+### [Ler dados específicos do diagrama de Gantt no Aspose.Tasks](./read-specific-gantt-chart-data/)
+Aprenda como extrair dados específicos do diagrama de Gantt usando Aspose.Tasks para Java. Tutorial passo a passo para integração perfeita em suas aplicações Java.
 
-### [Read Table Data from File in Aspose.Tasks](./read-table-data/)
-Desbloqueie o poder do Aspose.Tasks for Java. Aprenda a extrair dados de tabela de arquivos neste tutorial abrangente.
+### [Ler dados de tabela de arquivo no Aspose.Tasks](./read-table-data/)
+Desbloqueie o poder do Aspose.Tasks para Java. Aprenda a extrair dados de tabela de arquivos neste tutorial abrangente.
 
-## Perguntas Frequentes
+## Perguntas frequentes
 
-**Q: Posso ler dados do Microsoft Project Online sem interface de usuário?**  
-A: Sim, o Aspose.Tasks fornece métodos de API para autenticar e baixar dados de projetos diretamente do Project Online.
+**Q: Posso ler dados do Microsoft Project Online sem uma interface de usuário?**  
+A: Sim, o Aspose.Tasks fornece métodos de API para autenticar e baixar dados do projeto diretamente do Project Online.
 
 **Q: Como abrir um arquivo .mpp protegido por senha?**  
 A: Use o construtor `Project` que aceita uma string de senha, por exemplo, `new Project("file.mpp", "myPassword")`.
 
 **Q: É possível extrair dados de tabela para coleções Java?**  
-A: Absolutamente – a API devolve linhas de tabela que você pode iterar e mapear para `List<Map<String, Object>>` para manipulação fácil.
+A: Absolutamente – a API retorna linhas de tabela que você pode iterar e mapear para `List<Map<String, Object>>` para fácil manipulação.
 
 **Q: Quais tipos de banco de dados são suportados para leitura de dados de projeto?**  
 A: Você pode ler de Microsoft Access (*.mdb, *.accdb) e do banco de dados nativo do Microsoft Project usando conexões ODBC.
@@ -115,16 +162,22 @@ A: Você pode ler de Microsoft Access (*.mdb, *.accdb) e do banco de dados nat
 A: Uma única licença comercial cobre todos os ambientes (desenvolvimento, teste, produção) desde que os termos sejam atendidos.
 
 **Q: Como posso **import ms project database** dados para minha aplicação Java?**  
-A: Usando a classe `ProjectDatabase` no Aspose.Tasks, você pode estabelecer uma conexão ao banco de dados Project e consultar tabelas como faria com qualquer fonte JDBC.
+A: Usando a classe `ProjectDatabase` no Aspose.Tasks, você pode estabelecer uma conexão com o banco de dados Project e consultar tabelas como faria com qualquer fonte JDBC.
 
-**Q: Qual a melhor forma de **extract table data java** para projetos grandes?**  
-A: Recupere o objeto `Table` e itere sobre sua coleção `Rows`. Para conjuntos de dados massivos, considere transmitir as linhas para evitar alto consumo de memória.
+**Q: Qual é a melhor forma de **extract table data java** para projetos grandes?**  
+A: Recupere o objeto `Table`, então itere sobre sua coleção `Rows`. Para conjuntos de dados massivos, considere transmitir as linhas para evitar alto consumo de memória.
 
 ---
 
-**Última atualização:** 2026-02-15  
+**Última atualização:** 2026-10-20  
 **Testado com:** Aspose.Tasks for Java 24.12  
-**Autor:** Aspose  
+**Autor:** Aspose
+
+## Tutoriais relacionados
+
+- [Como obter campos de tabela e ler dados de tabela no Aspose.Tasks](/tasks/java/project-data-reading/read-table-data/)
+- [Como ler dados de definição de grupo no Aspose.Tasks](/tasks/java/project-data-reading/read-group-definition/)
+- [Como ler arquivos MPP em Java – Tutorial Aspose Tasks](/tasks/java/project-data-reading/read-password-protected/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

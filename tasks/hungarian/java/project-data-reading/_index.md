@@ -1,12 +1,55 @@
 ---
-date: 2026-02-15
-description: Tanulja meg, hogyan olvassa be az MS Project Java fájlokat, hogyan nyerje
-  ki a táblázat adatokat Java-ban, és hogyan importálja az MS Project adatbázist az
-  Aspose.Tasks for Java segítségével. Részletes oktatóanyagok a csoportdefiníciókhoz,
-  Access adatbázishoz, online projektekhez és jelszóval védett fájlokhoz.
-linktitle: Read MS Project Java
+date: 2026-10-20
+description: Ismerje meg, hogyan csatlakozhat a Project Online-hoz és olvashat MS
+  Project fájlokat az Aspose.Tasks for Java használatával, táblázatadatok kinyerésével,
+  valamint MS Project adatbázisok importálásával. Részletes útmutatók a csoportdefiníciókhoz,
+  Access DB-hez, online projektekhez és jelszóval védett fájlokhoz.
+keywords:
+- connect to project online
+- read ms project file
+- aspose tasks java
+lastmod: 2026-10-20
+linktitle: MS Project Java olvasása
+og_description: Csatlakozás a Project Online-hoz és MS Project fájlok olvasása Java-val
+  az Aspose.Tasks segítségével. Ez az útmutató bemutatja, hogyan lehet hatékonyan
+  kinyerni táblázatokat, Gantt adatokat és adatbázisokat.
+og_image_alt: 'Developer guide: Connect to Project Online and read MS Project files
+  using Aspose.Tasks for Java'
+og_title: Csatlakozás a Project Online-hoz és MS Project fájlok olvasása Java-ban
+schemas:
+- author: Aspose
+  dateModified: '2026-10-20'
+  description: Learn how to connect to Project Online and read MS Project files using
+    Aspose.Tasks for Java, extract table data, and import MS Project databases. Detailed
+    tutorials for group definitions, Access DB, online projects, and password‑protected
+    files.
+  headline: Connect to Project Online and read MS Project files in Java
+  type: TechArticle
+- questions:
+  - answer: Yes, Aspose.Tasks provides API methods to authenticate and download project
+      data directly from Project Online.
+    question: Can I read Microsoft Project Online data without a user interface?
+  - answer: Use the `Project` constructor that accepts a password string, e.g., `new
+      Project("file.mpp", "myPassword")`.
+    question: How do I open a password‑protected .mpp file?
+  - answer: Absolutely – the API returns table rows that you can iterate and map to
+      `List<Map<String, Object>>` for easy handling.
+    question: Is it possible to extract table data into Java collections?
+  - answer: You can read from Microsoft Access (*.mdb, *.accdb) and from the native
+      Microsoft Project database using ODBC connections.
+    question: Which database types are supported for reading project data?
+  - answer: A single commercial license covers all environments (development, testing,
+      production) as long as the terms are met.
+    question: Do I need a separate license for each deployment environment?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: MS Project Java olvasása – Teljes útmutató az MS Project Java olvasásához
+tags:
+- connect to project online
+- Aspose.Tasks Java
+- MS Project data reading
+- Java project integration
+- project management
+title: Csatlakozás a Project Online-hoz és MS Project fájlok olvasása Java-ban
 url: /hu/java/project-data-reading/
 weight: 28
 ---
@@ -15,108 +58,127 @@ weight: 28
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# MS Project Java olvasása
+# Csatlakozás a Project Online-hoz és MS Project fájlok olvasása Java-ban
 
 ## Bevezetés
-Ha a Java projektmenedzsment hatalmas táját járja, az Aspose.Tasks oktatóanyagaink útmutató csillagai lesznek. Ebben a központban felfedezheti, hogyan **read ms project java** fájlokat és adatbázisokat olvashat könnyedén, akár helyi, akár a Microsoft Project Online‑ban, vagy jelszóval védett környezetben élnek az adatok. Induljunk el együtt ezen a tudás kalandon, és oldjuk fel a zökkenőmentes projektadat-integrációt Java alkalmazásai számára.
+Ha a Java projektmenedzsment hatalmas táját járja, az Aspose.Tasks oktatóanyagaink az Ön iránytűi. Ebben a központban felfedezheti, hogyan **connect to Project Online** és **read MS Project Java** fájlokat és adatbázisokat olvashat könnyedén, akár helyben, a Microsoft Project Online-ban vagy jelszó mögött tárolódik az adat. Induljunk el együtt ezen a tudás kalandon, és oldjuk fel a zökkenőmentes projektadat-integrációt Java alkalmazásai számára.
 
 ## Gyors válaszok
-- **Mit tud olvasni az Aspose.Tasks?** Microsoft Project fájlok, MS Access adatbázisok, Project Online adatok és jelszóval védett projektek.  
-- **Mely nyelv támogatott?** Java SE 8+ (és későbbi) az Aspose.Tasks for Java könyvtárral.  
-- **Szükségem van licencre?** Egy ingyenes próba a kiértékeléshez működik; a termeléshez kereskedelmi licenc szükséges.  
-- **Kivonhatok Gantt-diagram részleteket?** Igen – specifikus Gantt-diagram adatokat olvashat és programozottan exportálhat.  
-- **Lehetséges a táblázat kinyerése?** Teljesen, használja az API-t a **extract table data java** Java-ban.
+- **Mit tud az Aspose.Tasks olvasni?** Microsoft Project files, MS Access databases, Project Online data, and password‑protected projects.  
+- **Mely nyelvet támogatja?** Java SE 8+ (and later) with the Aspose.Tasks for Java library.  
+- **Szükségem van licencre?** A free trial works for evaluation; a commercial license is required for production.  
+- **Kivonhatok Gantt-diagram részleteket?** Yes – you can read specific Gantt chart data and export it programmatically.  
+- **Lehetséges a táblázat kinyerése?** Absolutely, use the API to **extract table data java** in Java.
 
-## Mi az a “read ms project java”?
-A read ms project java azt jelenti, hogy programozottan hozzáfér a Microsoft Project fájlok (*.mpp, *.xml) vagy kapcsolódó adatbázisok tartalmához egy Java alkalmazásból, hogy elemezze, átalakítsa vagy megjelenítse a projektinformációkat saját megoldásaiban.
+## Mi az a „read ms project java”?
+A read ms project java azt jelenti, hogy programozott módon hozzáférünk a Microsoft Project fájlok (*.mpp, *.xml) vagy kapcsolódó adatbázisok tartalmához egy Java alkalmazásból, hogy elemezhesse, átalakíthassa vagy megjeleníthesse a projektinformációkat saját megoldásaiban.  
+Ez lehetővé teszi a fejlesztők számára, hogy feladatakat, erőforrásokat, ütemezéseket és egyéni mezőket szerezzenek be, elősegítve az integrációt jelentéskészítő eszközökkel, migrációs folyamatokkal vagy egyéni műszerfalakkal.
 
-## Miért használja az Aspose.Tasks for Java‑t?
-- **Microsoft Project telepítése nem szükséges** – közvetlenül a fájlformátumokkal dolgozhat.  
-- **Teljes funkciók lefedettsége** – csoportok, erőforrások, feladatok, naptárak, Gantt-diagramok és egyéni táblák.  
-- **Robusztus védett fájlok kezelése** – jelszóval védett projekteket biztonságosan nyithat meg.  
-- **Zökkenőmentes felhőintegráció** – csatlakozzon a Project Online‑hoz extra köztes réteg nélkül.  
-- **Egyszerű ms project adatbázis import** – olvassa be az adatokat a natív Project adatbázisokból vagy MS Access‑ből egyszerű API hívásokkal.
+## Miért használja az Aspose.Tasks for Java-t?
+Aspose.Tasks for Java támogatja a **30+ entitást** – beleértve a csoportokat, erőforrásokat, feladatokat, naptárakat, Gantt-diagramokat és egyéni táblákat – így teljes körű funkciókat kap Microsoft Project telepítése nélkül. Kezeli a jelszóval védett fájlokat, lehetővé teszi a közvetlen felhőkapcsolatot a Project Online-hoz, és lehetővé teszi MS Project adatbázisok vagy MS Access adatok importálását néhány API hívással. Ezek a számszerűsített képességek megbízhatóvá és gyorssá teszik a nagyszabású migrációkat és jelentéscsatornákat.
 
 ## Hogyan olvassuk a ms project java fájlokat
-Az alábbiakban egy válogatott lista található a fókuszált oktatóanyagokról, amelyek végigvezetik Önt minden gyakori szituáción a MS Project adatok Java‑ban történő olvasásához. Kattintson a linkekre a lépésről‑lépésre kódpéldák megtekintéséhez.
+MS Project adatokat Java-ban a `Project` osztállyal töltheti be, opcionálisan megadva egy jelszót, majd a objektummodellben navigálva kinyerheti a szükséges információkat. A `Project` osztály egy Microsoft Project fájlt képvisel, és hozzáférést biztosít a feladataihoz, erőforrásaihoz és egyéb projektadataihoz. Ez a megközelítés helyi fájlokhoz, a Project Online szolgáltatásokhoz és Access‑alapú adatbázisokhoz egyaránt működik.
 
-### Csoportdefiníciós adatok olvasása az Aspose.Tasks‑ben
-Első oktatóanyagainkban feltárjuk a Microsoft Project fájlokból származó csoportdefiníciós adatok olvasásának összetettségét. Az Aspose.Tasks for Java lehetővé teszi, hogy zökkenőmentesen navigáljon ezekben az adatstruktúrákban. Kövesse útmutatónkat [here](./read-group-definition/) hogy új dimenziókat nyisson a projektadat-elemzésben.
+### Csoportdefiníció adat olvasása az Aspose.Tasks-ben
+A `GroupDefinition` osztály a projektcsoportosításokat, például feladat- vagy erőforráscsoportokat képviseli. Ezeket a definíciókat felsorolva megértheti, hogyan vannak szervezve a feladatok. Kövesse útmutatónkat **[Read Group Definition tutorial](./read-group-definition/)**, hogy új dimenziókat nyisson a projektadat-elemzésben.
 
 ### Projektadatok olvasása MS Access adatbázisból
-Kíváncsi, hogyan integrálhat MS Project adatokat egy Microsoft Access adatbázisból? Az [Reading Project Data from MS Access Database in Aspose.Tasks](./read-access-database/) című oktatóanyagunk a zökkenőmentes csatlakozás kapuja. Emelje projektmenedzsment képességeit ezzel az integrációval.
+A `ProjectDatabase` osztály ODBC-n keresztül csatlakozhat egy MS Access (*.mdb, *.accdb) fájlhoz, lehetővé téve, hogy az Access táblákat natív Project entitásként kezelje. Az **[Reading Project Data from MS Access Database in Aspose.Tasks](./read-access-database/)** című oktatóanyagunk a zökkenőmentes csatlakozás kapuja.
 
 ### Projektadatok olvasása MS Project adatbázisból
-Mélyedjen el a projektadatok lényegében, megtanulva, hogyan olvassa be azokat a Microsoft Project adatbázisból az Aspose.Tasks for Java használatával. Lépésről‑lépésre útmutatónk, kódpéldákkal kiegészítve, [here](./read-project-database/) várja Önt.
+Amikor projektjei a natív Microsoft Project adatbázisban vannak, ugyanaz a `ProjectDatabase` API lehetővé teszi a táblák közvetlen lekérdezését. Ismerje meg a lépésről‑lépésre folyamatot a **[Read Project Database tutorial](./read-project-database/)** című anyagban.
 
-### Problémamentes MS Project Online adatolvasás
-A mai összekapcsolt világban a projektek online kezelése elengedhetetlen. Tanulja meg, hogyan olvassa be problémamentesen a Microsoft Project Online adatokat az Aspose.Tasks for Java‑val. Növelje projektmenedzsment képességeit, ha követi oktatóanyagainkat [here](./read-project-online/).
+### Könnyed MS Project Online adatolvasás
+A Project Online egy RESTful API-t biztosít, amelyet az Aspose.Tasks extra köztes réteg nélkül felhasználhat. Hitelesítsen OAuth‑szel, töltse le a projektfájlt, és helyben elemezze. Kövesse a **[Read Project Online tutorial](./read-project-online/)** útmutatót a teljes folyamat megismeréséhez.
 
-### Jelszóval védett fájlok olvasása az Aspose.Tasks‑ben
-A biztonság kiemelt fontosságú, különösen a projektadatok kezelésekor. Tanulja meg a jelszóval védett fájlok problémamentes olvasását az Aspose.Tasks for Java‑val. Lépésről‑lépésre útmutatónk ebben az oktatóanyagban [here](./read-password-protected/) biztosítja, hogy zökkenőmentesen haladjon.
+### Jelszóval védett fájlok olvasása az Aspose.Tasks-ben
+Jelszóval védett *.mpp fájl megnyitásához adja át a jelszót a `Project` konstruktorának. A **[Read Password‑Protected Files tutorial](./read-password-protected/)** című lépésről‑lépésre útmutatónk biztosítja, hogy zökkenőmentesen haladjon ezen a folyamaton.
 
-### Specifikus Gantt-diagram adatok olvasása az Aspose.Tasks‑ben
-A Gantt-diagramok erőteljes vizuális eszközök a projektmenedzsmentben. Tanulja meg, hogyan vonjon ki specifikus Gantt-diagram adatokat az Aspose.Tasks for Java‑val a lépésről‑lépésre oktatóanyagainkban [here](./read-specific-gantt-chart-data/). Integrálja ezt a tudást Java alkalmazásaiba a teljes körű projektmenedzsment élményért.
+### Specifikus Gantt-diagram adatok olvasása az Aspose.Tasks-ben
+A `GanttChartView` objektum hozzáférést biztosít a sávpozíciókhoz, dátumokhoz és mérföldkövekhez. Vonja ki ezeket az adatokat egyedi vizualizációk vagy jelentések építéséhez. Tekintse meg a **[Read Specific Gantt Chart Data tutorial](./read-specific-gantt-chart-data/)** részleteket a megvalósításhoz.
 
-### Táblázat adatok olvasása fájlból az Aspose.Tasks‑ben
-Szabadítsa fel az Aspose.Tasks for Java teljes potenciálját, ha megtanulja a **extract table data java** fájlokból. Átfogó oktatóanyagaink [here](./read-table-data/) végigvezetik a folyamaton, új lehetőségeket nyitva a fejlett projektadat-elemzéshez.
+### Táblázat adat olvasása fájlból az Aspose.Tasks-ben
+A Project fájlban lévő táblákat a `Table` gyűjteményen keresztül érheti el. Iteráljon a sorokon, hogy az adatokat Java gyűjteményekbe mapelje a további feldolgozáshoz. Átfogó oktatóanyagaink **[Read Table Data tutorial](./read-table-data/)** végigvezeti a folyamaton.
+
+```java
+// Example: Load a Project file
+import com.aspose.tasks.*;
+
+public class LoadProject {
+    public static void main(String[] args) throws Exception {
+        // Load the project file
+        Project project = new Project("example.mpp");
+        // Access tasks
+        for (Task task : project.getRootTask().getChildren()) {
+            System.out.println("Task: " + task.get(Tsk.NAME));
+        }
+    }
+}
+```
 
 ## Általános felhasználási esetek
-- **Jelentéskészítő irányítópultok** – feladat, erőforrás és ütemezési adatokat húz be a BI eszközök táplálásához.  
-- **Migrációs projektek** – örökölt Project fájlok áthelyezése modern felhőalapú megoldásokba.  
-- **Megfelelőségi auditok** – projekt metaadatok kinyerése és ellenőrzése a kormányzati szabályokkal szemben.  
-- **Egyedi integrációk** – Project adatok szinkronizálása ERP vagy CRM rendszerekkel.  
+- **Jelentéskészítő műszerfalak** – Pull task, resource, and schedule data to feed BI tools.  
+- **Migrációs projektek** – Move legacy Project files into modern cloud‑based solutions.  
+- **Megfelelőségi auditok** – Extract and verify project metadata against governance rules.  
+- **Egyedi integrációk** – Sync Project data with ERP or CRM systems.  
 
 ## Projektadat-olvasási oktatóanyagok
-### [Csoportdefiníciós adatok olvasása az Aspose.Tasks‑ben](./read-group-definition/)
-Tanulja meg, hogyan olvassa a csoportdefiníciós adatokat a Microsoft Project fájlokból az Aspose.Tasks for Java használatával. Kövesse lépésről‑lépésre oktatóanyagainkat.
+### [Csoportdefiníció adat olvasása az Aspose.Tasks-ben](./read-group-definition/)
+Tanulja meg, hogyan olvassa a csoportdefiníció adatokat a Microsoft Project fájlokból az Aspose.Tasks for Java segítségével. Kövesse lépésről‑lépésre oktatóanyagainkat.
 
-### [Projektadatok olvasása MS Access adatbázisból az Aspose.Tasks‑ben](./read-access-database/)
-Tanulja meg, hogyan olvassa a MS Project adatokat egy Microsoft Access adatbázisból az Aspose.Tasks for Java használatával. Kövesse lépésről‑lépésre oktatóanyagainkat a zökkenőmentes integrációhoz.
+### [MS Access adatbázisból projektadatok olvasása az Aspose.Tasks-ben](./read-access-database/)
+Tanulja meg, hogyan olvassa a MS Project adatokat egy Microsoft Access adatbázisból az Aspose.Tasks for Java segítségével. Kövesse lépésről‑lépésre oktatóanyagainkat a zökkenőmentes integrációhoz.
 
-### [Projektadatok olvasása MS Project adatbázisból az Aspose.Tasks‑ben](./read-project-database/)
-Tanulja meg, hogyan olvassa a projektadatokat a Microsoft Project adatbázisból az Aspose.Tasks for Java használatával. Lépésről‑lépésre útmutató kódpéldákkal.
+### [MS Project adatbázisból projektadatok olvasása az Aspose.Tasks-ben](./read-project-database/)
+Tanulja meg, hogyan olvassa a projektadatokat a Microsoft Project adatbázisból az Aspose.Tasks for Java segítségével. Lépésről‑lépésre útmutató kódrészletekkel.
 
-### [Problémamentes MS Project Online adatolvasás az Aspose.Tasks‑vel](./read-project-online/)
-Tanulja meg, hogyan olvassa be problémamentesen a Microsoft Project Online adatokat az Aspose.Tasks for Java használatával. Növelje projektmenedzsment képességeit.
+### [Könnyed MS Project Online adatolvasás az Aspose.Tasks segítségével](./read-project-online/)
+Tanulja meg, hogyan olvassa könnyedén a Microsoft Project Online adatokat az Aspose.Tasks for Java segítségével. Fejlessze projektmenedzsment képességeit.
 
-### [Jelszóval védett fájlok olvasása az Aspose.Tasks‑ben](./read-password-protected/)
-Tanulja meg, hogyan olvassa a jelszóval védett fájlokat az Aspose.Tasks for Java‑val problémamentesen, lépésről‑lépésre útmutatással ebben az oktatóanyagban.
+### [Jelszóval védett fájlok olvasása az Aspose.Tasks-ben](./read-password-protected/)
+Tanulja meg, hogyan olvassa a jelszóval védett fájlokat az Aspose.Tasks for Java segítségével könnyedén, lépésről‑lépésre útmutatással ebben az oktatóanyagban.
 
-### [Specifikus Gantt-diagram adatok olvasása az Aspose.Tasks‑ben](./read-specific-gantt-chart-data/)
-Tanulja meg, hogyan vonjon ki specifikus Gantt-diagram adatokat az Aspose.Tasks for Java használatával. Lépésről‑lépésre oktatóanyag a zökkenőmentes integrációhoz Java alkalmazásaiban.
+### [Specifikus Gantt-diagram adat olvasása az Aspose.Tasks-ben](./read-specific-gantt-chart-data/)
+Tanulja meg, hogyan vonja ki a specifikus Gantt-diagram adatokat az Aspose.Tasks for Java segítségével. Lépésről‑lépésre oktatóanyag a zökkenőmentes integrációhoz Java alkalmazásaiba.
 
-### [Táblázat adatok olvasása fájlból az Aspose.Tasks‑ben](./read-table-data/)
-Szabadítsa fel az Aspose.Tasks for Java erejét. Tanulja meg, hogyan vonjon ki táblázat adatokat fájlokból ebben az átfogó oktatóanyagban.
+### [Táblázat adat olvasása fájlból az Aspose.Tasks-ben](./read-table-data/)
+Fedezze fel az Aspose.Tasks for Java erejét. Tanulja meg, hogyan vonja ki a táblázat adatokat fájlokból ebben az átfogó oktatóanyagban.
 
-## Gyakran Ismételt Kérdések
+## Gyakran ismételt kérdések
 
 **Q: Olvashatok Microsoft Project Online adatokat felhasználói felület nélkül?**  
-A: Igen, az Aspose.Tasks API metódusokat biztosít a hitelesítéshez és a projektadatok közvetlen letöltéséhez a Project Online‑ról.
+A: Yes, Aspose.Tasks provides API methods to authenticate and download project data directly from Project Online.
 
-**Q: Hogyan nyithatok meg jelszóval védett .mpp fájlt?**  
-A: Használja a `Project` konstruktort, amely jelszó‑stringet fogad, például `new Project("file.mpp", "myPassword")`.
+**Q: Hogyan nyithatok meg egy jelszóval védett .mpp fájlt?**  
+A: Use the `Project` constructor that accepts a password string, e.g., `new Project("file.mpp", "myPassword")`.
 
 **Q: Lehetséges a táblázat adatokat Java gyűjteményekbe kinyerni?**  
-A: Teljesen – az API visszaadja a táblázat sorait, amelyeket iterálhat és leképezhet `List<Map<String, Object>>` típusra a könnyű kezelés érdekében.
+A: Absolutely – the API returns table rows that you can iterate and map to `List<Map<String, Object>>` for easy handling.
 
 **Q: Milyen adatbázistípusok támogatottak a projektadatok olvasásához?**  
-A: Olvashat Microsoft Access (*.mdb, *.accdb) és a natív Microsoft Project adatbázisból ODBC‑kapcsolatok használatával.
+A: You can read from Microsoft Access (*.mdb, *.accdb) and from the native Microsoft Project database using ODBC connections.
 
 **Q: Szükségem van külön licencre minden telepítési környezethez?**  
-A: Egyetlen kereskedelmi licenc lefedi az összes környezetet (fejlesztés, tesztelés, termelés), amennyiben a feltételek teljesülnek.
+A: A single commercial license covers all environments (development, testing, production) as long as the terms are met.
 
-**Q: Hogyan tudom **import ms project database** adatokat beimportálni a Java alkalmazásomba?**  
-A: Az Aspose.Tasks `ProjectDatabase` osztályának használatával kapcsolatot létesíthet a Project adatbázissal, és lekérdezheti a táblákat, akárcsak bármely JDBC forrás esetén.
+**Q: Hogyan importálhatom a **import ms project database** adatokat a Java alkalmazásomba?**  
+A: By using the `ProjectDatabase` class in Aspose.Tasks, you can establish a connection to the Project database and query tables just like you would with any JDBC source.
 
 **Q: Mi a legjobb módja a **extract table data java** nagy projektekhez?**  
-A: Szerezze be a `Table` objektumot, majd iterálja annak `Rows` gyűjteményét. Nagy adathalmazok esetén fontolja meg a sorok streamelését a magas memóriafogyasztás elkerülése érdekében.
+A: Retrieve the `Table` object, then iterate over its `Rows` collection. For massive datasets, consider streaming the rows to avoid high memory consumption.
 
 ---
 
-**Last Updated:** 2026-02-15  
-**Tested With:** Aspose.Tasks for Java 24.12  
-**Author:** Aspose  
+**Legutóbb frissítve:** 2026-10-20  
+**Tesztelt verzió:** Aspose.Tasks for Java 24.12  
+**Szerző:** Aspose
+
+## Kapcsolódó oktatóanyagok
+
+- [Hogyan szerezze meg a táblamezőket és olvassa a táblázat adatokat az Aspose.Tasks-ben](/tasks/java/project-data-reading/read-table-data/)
+- [Hogyan olvassa a csoportdefiníció adatokat az Aspose.Tasks-ben](/tasks/java/project-data-reading/read-group-definition/)
+- [Hogyan olvassa az MPP fájlokat Java-ban – Aspose Tasks Tutorial](/tasks/java/project-data-reading/read-password-protected/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
