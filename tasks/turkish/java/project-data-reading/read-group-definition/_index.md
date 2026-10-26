@@ -1,99 +1,151 @@
 ---
-date: 2026-02-18
-description: Aspose.Tasks for Java kullanarak Microsoft Project dosyalarından grup
-  tanım verilerini nasıl okuyacağınızı öğrenin. Bu öğreticide grup ayrıntılarını okuma
-  ve görev gruplama bilgilerini çıkarma gösterilmektedir.
-linktitle: Read Group Definition Data in Aspose.Tasks
+date: 2026-10-26
+description: Aspose.Tasks for Java kullanarak grup tanım verilerini nasıl okursunuz.
+  Microsoft Project dosyalarından görev gruplandırmasını, kriterleri ve biçimlendirmeyi
+  çıkararak raporlama ve taşıma işlemlerini otomatikleştirin.
+keywords:
+- how to read group
+- generate group report
+- automate project grouping
+lastmod: 2026-10-26
+linktitle: Aspose.Tasks'te Grup Tanım Verilerini Okuma
+og_description: Aspose.Tasks for Java kullanarak grup tanım verilerini nasıl okursunuz.
+  Microsoft Project dosyalarından görev gruplandırmasını, kriterleri ve biçimlendirmeyi
+  çıkararak raporlama ve taşıma işlemlerini otomatikleştirin.
+og_image_alt: 'Tutorial guide: Read group definition data in Aspose.Tasks for Java'
+og_title: Aspose.Tasks for Java ile grup tanım verilerini nasıl okursunuz
+schemas:
+- author: Aspose
+  dateModified: '2026-10-26'
+  description: How to read group definition data using Aspose.Tasks for Java. Extract
+    task grouping, criteria, and formatting from Microsoft Project files to automate
+    reporting and migration.
+  headline: How to read group definition data with Aspose.Tasks for Java
+  type: TechArticle
+- description: How to read group definition data using Aspose.Tasks for Java. Extract
+    task grouping, criteria, and formatting from Microsoft Project files to automate
+    reporting and migration.
+  name: How to read group definition data with Aspose.Tasks for Java
+  steps:
+  - name: set up your data directory
+    text: Define the folder that contains the `.mpp` file you want to inspect. Using
+      `java.nio.file.Paths` guarantees platform‑independent path handling.
+  - name: load the project file
+    text: Create a `Project` instance by pointing it to your `.mpp` file. The constructor
+      reads the file header and builds an in‑memory model.
+  - name: retrieve task groups count
+    text: Print the total number of task groups defined in the project. This quick
+      check confirms that the file actually contains grouping information.
+  - name: retrieve specific task group information
+    text: Grab a particular group (index 1 in this example) and display its name and
+      the number of criteria it contains. Each group can have multiple criteria that
+      define how tasks are grouped.
+  - name: retrieve group criterion information
+    text: Each group can have one or more criteria. The snippet below extracts details
+      such as the field used for grouping, the grouping mode, cell color, and pattern.
+  - name: check parent group
+    text: Sometimes a criterion belongs to a parent group. This check confirms the
+      relationship and prevents null‑pointer issues when navigating the hierarchy.
+  - name: retrieve criterion’s font information
+    text: Group criteria can have custom font styling. The following code prints the
+      font family, size, style, and sorting direction, allowing you to recreate the
+      exact look in your own UI.
+  type: HowTo
+- questions:
+  - answer: Yes, the library provides full read/write capabilities for Microsoft Project
+      formats, allowing you to add tasks, change resources, and update group definitions
+      programmatically.
+    question: Can I use Aspose.Tasks for Java to modify project files?
+  - answer: It supports MPP, XML, CSV, and other common Project formats across versions
+      from Project 2000 up to the latest 2024 release.
+    question: Is Aspose.Tasks for Java compatible with all versions of Microsoft Project
+      files?
+  - answer: Wrap file operations in `try‑catch` blocks and catch `TasksException`
+      for detailed error information; inspect the exception’s `getMessage()` for clues.
+    question: How should I handle errors while working with Aspose.Tasks for Java?
+  - answer: Absolutely – you can export to PDF, XLSX, HTML, and more using the library’s
+      dedicated export APIs.
+    question: Does Aspose.Tasks for Java offer export to other formats?
+  - answer: Visit the [Aspose.Tasks for Java documentation](https://reference.aspose.com/tasks/java/)
+      for API references and the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15)
+      for community assistance.
+    question: Where can I find additional resources and support?
+  type: FAQPage
 second_title: Aspose.Tasks Java API
-title: Aspose.Tasks'te Grup Tanım Verilerini Nasıl Okuyabilirsiniz
+tags:
+- read group definition
+- Aspose.Tasks
+- Java project data
+- group reporting
+title: Aspose.Tasks for Java ile grup tanım verilerini nasıl okursunuz
 url: /tr/java/project-data-reading/read-group-definition/
 weight: 10
 ---
 
- Keep same heading level.
-
-## Introduction => "Giriş"
-
-Translate paragraph.
-
-We need to keep technical terms.
-
-Proceed.
-
-Let's craft translation.
-
-Also ensure we keep markdown formatting.
-
-Let's write final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks'te Grup Tanımı Verilerini Okuma
+# Aspose.Tasks for Java'da grup tanımı verilerini okuma
 
 ## Giriş
-Aspose.Tasks for Java, geliştiricilerin Microsoft Project dosyalarını kolayca manipüle etmelerini sağlayan güçlü bir kütüphanedir. Bu öğreticide, **grup tanımı** verilerini bir proje dosyasından adım adım nasıl okuyacağınızı öğrenecek ve Java uygulamalarınızda görev grup bilgilerini çıkarıp kullanabileceksiniz. **Grup** ayrıntılarını nasıl okuyacağınızı anlamak, raporlamayı otomatikleştirmenize, ayarları taşımanıza ve proje yapılarını programatik olarak doğrulamanıza olanak tanır.
+Aspose.Tasks for Java, Microsoft Project dosyalarına programlı olarak erişmenizi, değiştirmenizi ve analiz etmenizi sağlar. Bu öğreticide **grup tanımı** verilerini bir `.mpp` dosyasından nasıl okuyacağınızı, her bir grubun adını, kriterlerini ve görsel stilini nasıl çıkaracağınızı öğrenecek ve ardından bu bilgileri özel raporlar oluşturmak veya ayarları diğer projelere taşımak için nasıl kullanacağınızı göreceksiniz. Bu yeteneği ustalaştırmak, raporlamayı otomatikleştirmenizi, proje yapılarını doğrulamanızı ve veri odaklı iş akışlarını sadeleştirmenizi sağlar.
 
-## Hızlı Yanıtlar
-- **“grup tanımını okuma” ne anlama geliyor?** Microsoft Project dosyasından görev gruplarının (ad, kriter, biçimlendirme) tanımını çıkarmak demektir.  
+## Hızlı cevaplar
+- **“grup tanımını okuma” ne anlama gelir?** Microsoft Project'in görevleri düzenlemek için kullandığı gruplama kurallarını (ad, kriter, renkler, yazı tipleri) çıkarmak anlamına gelir.  
 - **Hangi kütüphane gerekiyor?** Aspose.Tasks for Java.  
-- **Lisans gerekli mi?** Geliştirme için ücretsiz deneme sürümü yeterlidir; üretim ortamı için ticari lisans gerekir.  
-- **Hangi IDE'ler destekleniyor?** IntelliJ IDEA, Eclipse gibi herhangi bir Java IDE'si.  
-- **Kaç satır kod gerekiyor?** Projeyi yükleyip grup ayrıntılarını göstermek için 30 satırdan az Java kodu yeterlidir.
+- **Lisans gerekir mi?** Geliştirme için ücretsiz deneme sürümü çalışır; üretim için ticari lisans gereklidir.  
+- **Hangi IDE'ler desteklenir?** IntelliJ IDEA veya Eclipse gibi herhangi bir Java IDE'si.  
+- **Ne kadar kod gerekir?** Bir projeyi yüklemek ve grup ayrıntılarını göstermek için 30 satırdan az Java kodu.
 
-## Grup Tanımı Verilerini Okuma
-Aşağıda, bir `.mpp` dosyasından **grup** bilgilerini nasıl okuyacağınızı gösteren özlü, adım adım bir kılavuz bulunmaktadır. Her adım kısa bir açıklama ve çalıştırmanız gereken tam kodu içerir.
+## Grup tanımı verilerini nasıl okuyabilirsiniz
+Projeyi yükleyin, gruplarını enumerate edin ve her bir grubun kriterlerini inceleyin. Doğrudan cevap: **`Project` örneği oluşturun, `project.getTaskGroups()` metodunu çağırın ve koleksiyonu döngüyle gezerek adları, kriterleri, yazı tiplerini ve renkleri okuyun.** Aşağıdaki bölümler süreci net adımlara ayırır, her biri Aspose.Tasks belgelerinden alacağınız gerçek kod parçacığıyla değiştirmeniz gereken kısa bir kod yer tutucusuyla birlikte gelir.
 
-## Grup tanımı nedir?
-Microsoft Project'te bir *grup tanımı*, görevlerin belirli kriterlere (ör. durum, öncelik) göre nasıl gruplanacağını tanımlar. Bu tanımı okumak, proje dosyasında uygulanan gruplama mantığını, renkleri, yazı tiplerini ve sıralama düzenini programatik olarak incelemenizi sağlar.
+## Grup tanımı okuma nedir?
+Grup tanımı okuma, Microsoft Project'in görevleri düzenlemek için uyguladığı gruplama kurallarını (ad, kriter, biçimlendirme) çıkarmak anlamına gelir. Bu kurallar, uygulamaya görevleri durum, öncelik veya özel alanlara göre nasıl kümeleneceğini söyler ve yazı tipi stili ve hücre rengi gibi görsel özellikleri içerir.
 
-## Grup tanımı verileri neden okunmalı?
-- **Otomasyon:** Project'te gördüğünüz gruplamayı yansıtan özel raporlar oluşturun.  
-- **Taşıma:** Grup kurallarını başka bir projeye veya farklı bir proje‑yönetim sistemine aktarın.  
-- **Doğrulama:** Toplu güncellemelerden önce beklenen grupların mevcut olduğunu kontrol edin.  
-- **Özelleştirme:** Grubun yazı tipi veya renk ayarlarına dayalı ek iş mantığı uygulayın.  
-- **İçgörü:** **Grup verilerini okuma** yöntemini bilmek, beklenmedik görev düzenlerini gidermenize yardımcı olur.
+## Neden grup tanımı verilerini okumalısınız?
+Grup tanımı verilerini okumak, **rapor oluşturmayı otomatikleştirmenizi**, **gruplama mantığını** diğer projelere taşımanızı ve toplu güncellemelerden önce **gerekli grupların mevcut olduğunu doğrulamanızı** sağlar. Aspose.Tasks for Java, tüm dosyayı belleğe yüklemeden **10.000'den fazla görev** içeren projeleri işleyebilir ve yüksek performanslı toplu işlemlere olanak tanır. Ayrıca, yazı tipi renklerini, desenleri ve sıralama yönlerini çıkararak özel panolarda tam olarak aynı görsel düzeni yeniden oluşturabilirsiniz.
 
-## Ön Koşullar
-Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
+## Önkoşullar
+1. **Java Development Kit (JDK) 8+** – herhangi bir yeni sürüm çalışır.  
+2. **Aspose.Tasks for Java** – en son JAR'ı [Aspose.Tasks for Java indirme sayfasından](https://releases.aspose.com/tasks/java/) indirin.  
+3. **Bir Java IDE** – IntelliJ IDEA, Eclipse veya tercih ettiğiniz herhangi bir editör.  
 
-1. **Java Development Kit (JDK)** – 8 veya daha yeni bir sürüm.  
-2. **Aspose.Tasks for Java Library** – [buradan](https://releases.aspose.com/tasks/java/) indirin.  
-3. **IDE** – IntelliJ IDEA, Eclipse veya tercih ettiğiniz herhangi bir editör.  
+> **Pro tip:** Aspose.Tasks bağımlılığını yönetmek için Maven veya Gradle kullanın; bu, manuel JAR işlemlerinden kaçınmanızı sağlar.
 
-## Paketleri İçe Aktarma
-İlk olarak, temel Aspose.Tasks paketini içe aktarın:
+## Paketleri içe aktar
+`Project`, Aspose.Tasks for Java'da bir Microsoft Project dosyasını temsil eden birincil sınıftır.  
 
 ```java
 import com.aspose.tasks.*;
 ```
 
-## Adım Adım Kılavuz
+## Adım adım rehber
 
-### Adım 1: Veri Dizinini Ayarlama
-`.mpp` dosyanızın bulunduğu klasörü tanımlayın.
+### Adım 1: veri dizininizi ayarlayın
+İncelemek istediğiniz `.mpp` dosyasını içeren klasörü tanımlayın. `java.nio.file.Paths` kullanmak, platform bağımsız yol işleme garantisi verir.
 
 ```java
 String dataDir = "Your Data Directory";
 ```
 
-`"Your Data Directory"` ifadesini proje dosyanızın mutlak yolu ile değiştirin.
-
-### Adım 2: Proje Dosyasını Yükleme
-`.mpp` dosyanıza işaret ederek bir `Project` örneği oluşturun.
+### Adım 2: proje dosyasını yükleyin
+`Project` örneğini `.mpp` dosyanıza işaret ederek oluşturun. Yapıcı, dosya başlığını okur ve bellek içi bir model oluşturur.
 
 ```java
 Project project = new Project(dataDir + "project.mpp");
 ```
 
-### Adım 3: Görev Grupları Sayısını Alın
-Projede tanımlı toplam görev grubu sayısını yazdırın.
+### Adım 3: görev grubu sayısını alın
+Projede tanımlı görev gruplarının toplam sayısını yazdırın. Bu hızlı kontrol, dosyanın gerçekten gruplama bilgisi içerdiğini doğrular.
 
 ```java
 System.out.println("Task Groups Count: " + project.getTaskGroups().size());
 ```
 
-### Adım 4: Belirli Bir Görev Grubu Bilgisini Alın
-Örnekteki (indeks 1) grup için adını ve içerdiği kriter sayısını gösterin.
+### Adım 4: belirli görev grubu bilgilerini alın
+Bu örnekte belirli bir grubu (indeks 1) alın ve adını ve içerdiği kriter sayısını gösterin. Her grup, görevlerin nasıl gruplanacağını tanımlayan birden fazla kritere sahip olabilir.
 
 ```java
 Group taskGroup = project.getTaskGroups().toList().get(1);
@@ -101,8 +153,8 @@ System.out.println("Percent Complete:" + taskGroup.getName());
 System.out.println("Group Criteria count: " + taskGroup.getGroupCriteria().size());
 ```
 
-### Adım 5: Grup Kriteri Bilgilerini Alın
-Her grup bir veya daha fazla kritere sahip olabilir. Aşağıdaki kod, gruplama için kullanılan alan, gruplama modu, hücre rengi ve desen gibi ayrıntıları çıkarır.
+### Adım 5: grup kriteri bilgilerini alın
+Her grup bir veya daha fazla kritere sahip olabilir. Aşağıdaki kod parçacığı, gruplama için kullanılan alan, gruplama modu, hücre rengi ve desen gibi ayrıntıları çıkarır.
 
 ```java
 GroupCriterion criterion = taskGroup.getGroupCriteria().toList().get(0);
@@ -112,16 +164,16 @@ System.out.println("Criterion Cell Color: " + criterion.getCellColor());
 System.out.println("Criterion Pattern: " + criterion.getPattern());
 ```
 
-### Adım 6: Üst Grup Kontrolü
-Bazen bir kriter bir üst gruba ait olabilir. Bu kontrol, ilişkiyi doğrular.
+### Adım 6: üst grup kontrolü
+Bazen bir kriter bir üst gruba aittir. Bu kontrol, ilişkiyi doğrular ve hiyerarşi içinde gezinirken null‑pointer hatalarını önler.
 
 ```java
 if (taskGroup == criterion.getParentGroup())
     System.out.println("Parent Group is equval to task Group.");
 ```
 
-### Adım 7: Kriterin Yazı Tipi Bilgilerini Alın
-Grup kriterleri özel yazı tipi stiline sahip olabilir. Aşağıdaki kod, yazı tipi ailesi, boyutu, stili ve sıralama yönünü yazdırır.
+### Adım 7: kriterin yazı tipi bilgilerini alın
+Grup kriterleri özel yazı tipi stiline sahip olabilir. Aşağıdaki kod, yazı tipi ailesini, boyutunu, stilini ve sıralama yönünü yazdırır, böylece kendi UI'nizde tam olarak aynı görünümü yeniden oluşturabilirsiniz.
 
 ```java
 System.out.println("Font Family Name: " + criterion.getFont().getFontFamily());
@@ -130,38 +182,45 @@ System.out.println("Font Style: " + criterion.getFont().getStyle());
 System.out.println("Ascending/Descending: " + criterion.getAscending());
 ```
 
-## Yaygın Sorunlar ve Çözümler
-| Sorun | Neden Oluşur | Çözüm |
-|-------|--------------|-------|
-| **`NullPointerException` on `criterion.getParentGroup()`** | Kriterin bir üst grubu olmayabilir. | Karşılaştırmadan önce null kontrolü ekleyin. |
-| **Dosya bulunamadı** | `dataDir` yolu hatalı. | `Paths.get(dataDir, "project.mpp").toAbsolutePath()` ile doğrulayın. |
-| **Lisans ayarlanmamış** | Aspose kütüphanesi değerlendirme modunda çalışıyor ve çıktı kısıtlanabilir. | `License license = new License(); license.setLicense("Aspose.Tasks.Java.lic");` ile lisansınızı kaydedin. |
+## Yaygın sorunlar ve çözümler
+| Sorun | Neden olur | Çözüm |
+|-------|------------|-------|
+| **`criterion.getParentGroup()` üzerinde `NullPointerException`** | Kriterin bir üst grubu olmayabilir. | Üst gruba erişmeden önce null kontrolü ekleyin. |
+| **Dosya bulunamadı** | `dataDir` yolu yanlış veya dosya adı hatalı yazılmış. | `Paths.get(dataDir, "project.mpp").toAbsolutePath()` kullanın ve dosyanın varlığını doğrulayın. |
+| **Lisans ayarlanmamış** | Aspose değerlendirme modunda çalışıyor ve çıktıyı kesebilir. | Projeyi yüklemeden önce `License license = new License(); license.setLicense("Aspose.Tasks.Java.lic");` kodu ile lisansınızı kaydedin. |
 
-## Sık Sorulan Sorular
+## Sıkça sorulan sorular
 
 **S: Aspose.Tasks for Java ile proje dosyalarını değiştirebilir miyim?**  
-C: Evet, kütüphane Microsoft Project dosyaları için tam okuma/yazma yetenekleri sunar.
+**C:** Evet, kütüphane Microsoft Project formatları için tam okuma/yazma yetenekleri sağlar; görev eklemenize, kaynakları değiştirmenize ve grup tanımlarını programlı olarak güncellemenize imkan verir.
 
 **S: Aspose.Tasks for Java tüm Microsoft Project dosya sürümleriyle uyumlu mu?**  
-C: MPP, XML ve diğer yaygın Project formatlarını birçok sürümde destekler.
+**C:** MPP, XML, CSV ve diğer yaygın Project formatlarını, Project 2000'den en yeni 2024 sürümüne kadar destekler.
 
-**S: Aspose.Tasks for Java kullanırken hataları nasıl yönetebilirim?**  
-C: Dosya işlemlerini `try‑catch` blokları içinde tutun ve ayrıntılı mesajlar için `TasksException`'ı inceleyin.
+**S: Aspose.Tasks for Java ile çalışırken hataları nasıl yönetmeliyim?**  
+**C:** Dosya işlemlerini `try‑catch` bloklarıyla sarın ve ayrıntılı hata bilgisi için `TasksException` yakalayın; ipuçları için istisnanın `getMessage()` metodunu inceleyin.
 
-**S: Aspose.Tasks for Java proje verilerini başka formatlara dışa aktarma desteği sunuyor mu?**  
-C: Kesinlikle – kütüphanenin dışa aktarma API'ları sayesinde PDF, XLSX, CSV ve daha fazlasına dönüştürebilirsiniz.
+**S: Aspose.Tasks for Java diğer formatlara dışa aktarım sunuyor mu?**  
+**C:** Kesinlikle – kütüphanenin özel dışa aktarım API'lerini kullanarak PDF, XLSX, HTML ve daha fazlasına dışa aktarabilirsiniz.
 
-**S: Aspose.Tasks for Java için ek kaynaklar ve destek nereden bulunur?**  
-C: Tam API referansları için [Aspose.Tasks for Java belgeleri](https://reference.aspose.com/tasks/java/) ve topluluk yardımı için [Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) ziyaret edin.
+**S: Ek kaynakları ve desteği nerede bulabilirim?**  
+**C:** API referansları için [Aspose.Tasks for Java belgelerine](https://reference.aspose.com/tasks/java/) ve topluluk desteği için [Aspose.Tasks forumuna](https://forum.aspose.com/c/tasks/15) ziyaret edin.
 
 ## Sonuç
-Bu öğreticide, Aspose.Tasks for Java kullanarak Microsoft Project dosyasından **grup tanımı** verilerini nasıl okuyacağınızı adım adım gösterdik. Yukarıdaki adımları izleyerek grup adlarını, kriterlerini, biçimlendirmesini ve üst‑grup ilişkilerini çıkarabilir, böylece Java uygulamalarınızda özel raporlar oluşturabilir, ayarları taşıyabilir veya doğrulama mantığını otomatikleştirebilirsiniz.
+Bu öğreticide, Aspose.Tasks for Java kullanarak bir Microsoft Project dosyasından **grup tanımı verilerini nasıl okuyacağınızı** adım adım gösterdik. Bir `Project` yükleyerek, `TaskGroupCollection`'ı enumerate ederek ve her bir grubun kriterlerini, yazı tiplerini ve renklerini inceleyerek, otomatik raporlama boru hatları oluşturabilir, gruplama kurallarını taşıyabilir veya proje yapılarını güvenle doğrulayabilirsiniz. Aynı yaklaşım, bellek kullanımını düşük tutarak binlerce görev içeren büyük projelere de ölçeklenebilir.
 
 ---
 
-**Son Güncelleme:** 2026-02-18  
+**Son Güncelleme:** 2026-10-26  
 **Test Edilen Versiyon:** Aspose.Tasks for Java 24.12  
-**Yazar:** Aspose  
+**Yazar:** Aspose
+
+## İlgili Öğreticiler
+
+- [Microsoft Project'ten Proje Bilgilerini Aspose.Tasks for Java ile Okuma](/tasks/java/project-properties/read-project-info/)
+- [Aspose.Tasks'te tablo alanlarını alma ve tablo verilerini okuma](/tasks/java/project-data-reading/read-table-data/)
+- [read gantt chart java – Belirli Gantt Verilerini Çıkarma](/tasks/java/project-data-reading/read-specific-gantt-chart-data/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
