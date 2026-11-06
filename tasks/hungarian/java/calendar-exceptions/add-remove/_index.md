@@ -1,26 +1,30 @@
 ---
-date: 2026-08-08
-description: Ismerje meg, hogyan hozhat létre kalendárium kivételt Java-ban az Aspose.Tasks
-  for Java segítségével, hogyan adhat hozzá és távolíthat el kivételeket hatékonyan,
-  és hogyan javíthatja a projekt ütemezését.
+date: 2026-11-06
+description: Ismerje meg, hogyan távolíthatja el az exception-t egy projekt naptárban
+  az Aspose.Tasks for Java segítségével, hogyan adhat hozzá és kezelhet exception-öket
+  hatékonyan, és javíthatja az ütemezést.
+images:
+- /java/calendar-exceptions/add-remove/og-image.png
 keywords:
-- create calendar exception java
+- how to remove exception
+- how to handle recurring
+- how to add exception
 - Aspose.Tasks Java
 - project calendar management
-lastmod: 2026-08-08
-linktitle: Kalendárium kivételek hozzáadása és eltávolítása az Aspose.Tasks-ben
-og_description: Ismerje meg, hogyan hozhat létre kalendárium kivételt Java-ban az
-  Aspose.Tasks for Java segítségével. Adjon hozzá, távolítson el és ellenőrizze a
-  kalendárium kivételeket a Microsoft Project fájlokban hatékonyan.
+lastmod: 2026-11-06
+linktitle: Calendar Exceptions hozzáadása és eltávolítása az Aspose.Tasks-ben
+og_description: Hogyan távolítsa el az exception-t egy projekt naptárban az Aspose.Tasks
+  for Java használatával. Kezelje, adja hozzá és ellenőrizze a calendar exceptions
+  hatékonyan.
 og_image_alt: Screenshot of Java code managing calendar exceptions with Aspose.Tasks
-og_title: Kalendárium kivétel létrehozása Java-ban az Aspose.Tasks használatával –
-  gyors útmutató
+og_title: Hogyan távolítsuk el az exception-t egy projekt naptárban – Aspose.Tasks
+  Java útmutató
 schemas:
 - author: Aspose
-  dateModified: '2026-08-08'
-  description: Learn how to create calendar exception java with Aspose.Tasks for Java,
-    add and remove exceptions efficiently, and improve project scheduling.
-  headline: Create calendar exception java using Aspose.Tasks
+  dateModified: '2026-11-06'
+  description: Learn how to remove exception in a project calendar using Aspose.Tasks
+    for Java, add and manage exceptions efficiently.
+  headline: How to remove exception in a project calendar using Aspose.Tasks
   type: TechArticle
 - questions:
   - answer: Yes. Create a new `CalendarException` for each date range and add it to
@@ -34,10 +38,10 @@ schemas:
       to define daily, weekly, or monthly repeat patterns.
     question: How can I handle recurring exceptions (e.g., weekly meetings) in project
       calendars?
-  - answer: Yes, you can download a free trial from the [website](https://releases.aspose.com/)
+  - answer: Yes, you can download a free trial from the [Aspose Releases page](https://releases.aspose.com/)
       to explore all features before purchasing.
     question: Is there a trial version available for Aspose.Tasks for Java?
-  - answer: Visit the Aspose.Tasks forum for Java on the [website](https://reference.aspose.com/tasks/java/)
+  - answer: Visit the Aspose.Tasks forum for Java on the [Aspose Tasks Java forum](https://reference.aspose.com/tasks/java/)
       to ask questions, or contact Aspose support directly.
     question: Where can I seek support for Aspose.Tasks for Java issues?
   type: FAQPage
@@ -46,7 +50,8 @@ tags:
 - calendar exception
 - Aspose.Tasks
 - Java project scheduling
-title: Kalendárium kivétel létrehozása Java-ban az Aspose.Tasks segítségével
+title: Hogyan távolítsuk el az exception-t egy projekt naptárban az Aspose.Tasks for
+  Java használatával
 url: /hu/java/calendar-exceptions/add-remove/
 weight: 10
 ---
@@ -55,41 +60,47 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Naptári kivétel létrehozása Java-ban az Aspose.Tasks használatával
+# Hogyan távolítsuk el a kivételt egy projekt naptárból az Aspose.Tasks for Java használatával
 
 ## Bevezetés
-A pontos projektütemezés gyakran a **naptári kivételek** kezelésén múlik — azokon a napokon, amikor az erőforrások nem állnak rendelkezésre vagy a munkarend megváltozik. Az **Aspose.Tasks for Java** segítségével **create calendar exception java** objektumokat hozhat létre, hozzáadhat egy projekt naptárához, vagy eltávolíthatja őket, ha már nincs rájuk szükség. Ebben az oktatóanyagban végigvezetjük a teljes folyamatot, a projektfájl betöltésétől az Ön által kezelt kivételek ellenőrzéséig. Megmutatjuk, hogyan **create calendar exception java** valós Java környezetben, és miért fontos ez a reális ütemtervekhez.
+A pontos projektütemezés gyakran a **naptárkivétel** kezelésétől függ—azokról a napokról, amikor az erőforrások nem állnak rendelkezésre vagy a munkabeosztás változik. Az **Aspose.Tasks for Java** segítségével hatékonyan **létrehozhat**, **hozzáadhat**, **eltávolíthat** és **kezelhet** naptárkivételket. Ebben az útmutatóban végigvezetünk a projekt betöltésén, egy új kivétel hozzáadásán, egy meglévő eltávolításán és az eredmények ellenőrzésén, hogy pontosan megértse, **hogyan távolítható el a kivétel** bejegyzés, ha már nincs rá szükség.
 
 ## Gyors válaszok
-- **Mi jelent a “create calendar exception”?** Ez azt jelenti, hogy egy dátumtartományt definiálunk, amely eltér a szabványos munkanaptártól.  
+- **Mi jelent a „create calendar exception”?** Ez azt jelenti, hogy egy dátumtartományt definiálunk, amely eltér a szabványos munkanaptártól.  
 - **Melyik könyvtár biztosítja ezt a képességet?** Aspose.Tasks for Java.  
-- **Szükségem van licencre a kipróbáláshoz?** Egy ingyenes próba elérhető; licenc szükséges a termelési használathoz.  
+- **Szükségem van licencre a kipróbáláshoz?** Elérhető egy ingyenes próba, licenc szükséges a termelési használathoz.  
 - **Eltávolíthatok egy meglévő kivételt?** Igen—egyszerűen megtalálja a naptár kivétellistájában és törli.  
 - **Kompatibilis-e a Microsoft Project fájlokkal?** Teljesen; az Aspose.Tasks olvas és ír minden fő .mpp verziót.
 
-## Mi az a create calendar exception java?
-A **create calendar exception java** egy nem‑munkaidő periódust ad hozzá egy projekt naptárához az Aspose.Tasks Java API-jával. Ez azt mondja a tervezőnek, hogy a megadott dátumokat ünnepnapként, karbantartási időszakként vagy bármilyen egyedi nem‑munkaidőként kezelje, biztosítva, hogy a feladatok dátumai megfeleljenek a valós világ korlátainak és az erőforrások rendelkezésre állásának.
+## Mi a create calendar exception java?
+`CalendarException` osztály egy nem munkavégzési időszakot képvisel, amelyet a projekt naptárához adhat. A tervezőnek jelzi, hogy a megadott dátumokat szabadságként, karbantartási időszakként vagy bármilyen egyedi nem munkavégzési időként kezelje, biztosítva, hogy a feladatok dátumai a valós világ korlátozásait tiszteletben tartsák.
 
-## Miért használjuk az Aspose.Tasks-et naptári kivételekhez?
-Az Aspose.Tasks for Java több mint 30 projektfájl‑formátumot támogat, és akár 2 GB‑os fájlokat is feldolgozhat anélkül, hogy a teljes dokumentumot memóriába töltené. Kb. 40 %-os teljesítményjavulást biztosít a natív Microsoft Project API‑kkal szemben nagy kivétellisták kezelésekor, így ideális vállalati szintű ütemezési forgatókönyvekhez, amelyek gyors, megbízható naptárkezelést igényelnek.
+## Miért használja az Aspose.Tasks-et naptárkivételhez?
+Az Aspose.Tasks for Java **50+ bemeneti és kimeneti formátumot** támogat, és akár **2 GB** méretű fájlokat is feldolgozhat anélkül, hogy a teljes dokumentumot a memóriába töltené. Nagy kivétellisták kezelésekor körülbelül **40 % teljesítménynövekedést** biztosít a natív Microsoft Project API-khoz képest, így ideális vállalati szintű ütemezési forgatókönyvekhez.
 
-## Előfeltételek
+## Előkövetelmények
 - Java Development Kit (JDK) 8 vagy újabb telepítve.  
-- Aspose.Tasks for Java könyvtár hozzáadva a projekt classpath‑jához.  
+- Aspose.Tasks for Java library added to your project’s classpath.  
 - Alapvető ismeretek a Java szintaxisról és a projektmenedzsment koncepciókról.
 
-## Hogyan hozhatunk létre calendar exception java-t az Aspose.Tasks használatával
-Töltsük be a projektet, manipuláljuk a naptárát, és ellenőrizzük a változásokat — mindezt néhány egyszerű lépésben, amely egyértelmű kódot és tömör magyarázatot kombinál.
+## Hogyan távolítsuk el a kivételt egy naptárból?
+`Project` osztály egy Microsoft Project fájlt képvisel, és hozzáférést biztosít a naptárakhoz, feladatokhoz és erőforrásokhoz. A `CalendarException` osztály egy nem munkavégzési időszakot definiál egy naptárban. Töltse be a projektet, keresse meg a nem kívánt `CalendarException`-t a naptár kivételgyűjteményében, és hívja meg a `remove` metódust a listán. Ez a művelet azonnal frissíti az ütemtervet, és nem igényli a teljes projektfájl újra mentését, hacsak nem szeretné a változást véglegesen menteni.
+
+## Hogyan adjunk hozzá kivételt egy naptárhoz?
+`CalendarException` osztály egy nem munkavégzési időszakot definiál, amely hozzáadható egy naptárhoz. Hozzon létre egy új `CalendarException` példányt, állítsa be a kezdő és befejező dátumokat, jelölje meg nem munkavégzésként, és adja hozzá a naptár kivétellistájához. A hozzáadás azonnali, és a tervező a meghatározott tartományt szabadságként kezeli minden, az adott naptárhoz kapcsolt feladat számára.
+
+## Hogyan kezeljünk ismétlődő kivételeket?
+A `CalendarException` ismétlődési tulajdonságok (`setRecurrencePattern`) lehetővé teszik napi, heti vagy havi ismétlődési minták definiálását. Ezeknek a tulajdonságoknak a beállításával modellezhet heti megbeszéléseket, havi karbantartási időszakokat vagy bármilyen mintára alapozott nem munkavégzési időt anélkül, hogy minden előforduláshoz külön bejegyzést hozna létre.
 
 ## Csomagok importálása
-Az `import` utasítások a szükséges Aspose.Tasks osztályokat hozza be a láthatóságba, hogy a kódban hivatkozhassunk rájuk.
+Az `import` utasítások beviszik a szükséges Aspose.Tasks osztályokat a láthatóságba, hogy a kódban hivatkozni lehessen rájuk.
 
 ```java
 import com.aspose.tasks.*;
 ```
 
 ## 1. lépés: a projekt betöltése és a naptár elérése
-A `Project` osztály egy Microsoft Project fájlt képvisel, míg a `Calendar` egy ütemezést a projektben. Betöltünk egy meglévő fájlt, és lekérjük az első naptárat a gyűjteményből.
+`Project` egy Microsoft Project fájlt képvisel, míg a `Calendar` egy ütemezést a projektben. Egy meglévő fájl betöltése és a gyűjtemény első naptárának lekérése az első lépés.
 
 ```java
 String dataDir = "Your Data Directory";
@@ -98,7 +109,7 @@ Calendar cal = project.getCalendars().toList().get(0);
 ```
 
 ## 2. lépés: meglévő kivétel eltávolítása (ha szükséges)
-A `CalendarException` objektumok a nem‑munkaidő periódusokat írják le. Ez a kódrészlet ellenőrzi a kivétellistát, és eltávolítja az első bejegyzést, ha több mint egy kivétel létezik, megakadályozva, hogy az egyetlen kivétel véletlenül törlődjön.
+`CalendarException` objektumok nem munkavégzési időszakokat írnak le. Ez a kódrészlet ellenőrzi a kivétellistát, és eltávolítja az első bejegyzést, ha több mint egy kivétel létezik, megakadályozva az egyetlen kivétel véletlen eltávolítását.
 
 ```java
 if (cal.getExceptions().size() > 1) {
@@ -107,10 +118,10 @@ if (cal.getExceptions().size() > 1) {
 }
 ```
 
-> **Pro tipp:** Mindig ellenőrizze a kivétellista méretét az elemek eltávolítása előtt, hogy elkerülje a `IndexOutOfBoundsException`-t.
+> **Pro tipp:** Mindig ellenőrizze a kivétellista méretét, mielőtt elemeket távolítana el, hogy elkerülje a `IndexOutOfBoundsException`-t.
 
-## 3. lépés: új naptári kivétel létrehozása (hozzáadása)
-Létrehozunk egy új `CalendarException`‑t, beállítjuk a kezdő‑ és befejező dátumokat, megjelöljük nem‑munkaidőként, és hozzáadjuk a naptár `Exceptions` gyűjteményéhez.
+## 3. lépés: új naptárkivétel létrehozása (hozzáadása)
+Létrehozunk egy új `CalendarException` példányt, beállítjuk a kezdő és befejező dátumokat, megjelöljük nem munkavégzésként, és hozzáadjuk a naptár kivételgyűjteményéhez.
 
 ```java
 CalendarException calExc = new CalendarException();
@@ -122,10 +133,10 @@ calExc.setToDate(calObject.getTime());
 cal.getExceptions().add(calExc);
 ```
 
-> **Miért fontos ez:** A kivételek hozzáadása lehetővé teszi, hogy közvetlenül a projekt ütemtervében modellezzük az ünnepnapokat, karbantartási időszakokat vagy bármilyen nem‑munkaidőt. Ez a **create calendar exception java** funkciója.
+> **Miért fontos:** A kivételek hozzáadása lehetővé teszi, hogy közvetlenül a projekt ütemezésében modellezze a szabadságokat, karbantartási időszakokat vagy bármilyen nem munkavégzési időt. Ez a **create calendar exception java** funkciója.
 
 ## 4. lépés: az összes kivétel megjelenítése ellenőrzéshez
-A `calendar.getExceptions()` iterálása és minden bejegyzés kiírása megerősíti, hogy a naptár a kívánt módosításokat tükrözi, segítve a hibák korai felismerését.
+A `calendar.getExceptions()` iterálása és minden bejegyzés kiírása megerősíti, hogy a naptár tükrözi a kívánt változtatásokat, segítve a hibák korai felismerését.
 
 ```java
 for (CalendarException calExc1 : cal.getExceptions()) {
@@ -134,48 +145,48 @@ for (CalendarException calExc1 : cal.getExceptions()) {
 }
 ```
 
-## Hogyan adhatok hozzá naptári kivételt Java-ban?
-Töltse be a projektet a `new Project("input.mpp")` paranccsal, szerezze meg a cél `Calendar`‑t, hozza létre a `CalendarException`‑t a kívánt kezdő‑ és befejező dátumokkal, állítsa a `working` jelzőt `false`‑ra, és adja hozzá a `calendar.getExceptions()`‑hez. Ez a tömör sorozat néhány kódsorban hoz létre egy **create calendar exception java** objektumot.
+## Hogyan adhatok hozzá naptárkivételt Java-ban?
+Töltse be a projektet a `new Project("input.mpp")` segítségével, szerezze be a cél `Calendar`-t, hozzon létre egy `CalendarException`-t a kívánt kezdő és befejező dátumokkal, állítsa a munkavégzés jelzőjét `false`-ra, és adja hozzá a `calendar.getExceptions()`-hez. Ez a rövid sorozat néhány kódsorban hoz létre egy naptárkivételt Java-ban.
 
 ## Gyakori problémák és megoldások
+
 | Probléma | Ok | Megoldás |
 |----------|----|----------|
-| Nincs kimenet | A kivétellista üres | Győződjön meg róla, hogy a iterálás előtt hozzáadott egy kivételt. |
-| `NullPointerException` a `project`-en | Helytelen fájlútvonal | Ellenőrizze, hogy a `dataDir` érvényes `.mpp` fájlra mutat. |
-| A dátumok egy nappal eltolódnak | Időzóna különbségek | Használja a `java.util.Calendar`‑t explicit időzónával vagy a `java.time` API‑t. |
+| Nincs kimenet | A kivételek listája üres | Győződjön meg róla, hogy a iterálás előtt hozzáadott egy kivételt. |
+| `NullPointerException` on `project` | Helytelen fájlútvonal | Ellenőrizze, hogy a `dataDir` egy érvényes `.mpp` fájlra mutat. |
+| A dátumok egy nappal eltolódnak | Időzóna különbségek | Használjon `java.util.Calendar`-t explicit időzónával vagy a `java.time` API-t. |
 
-## Gyakran feltett kérdések
+## Gyakran ismételt kérdések
 
-**Q: Hozzáadhatok több kivételt egy naptárhoz az Aspose.Tasks for Java használatával?**  
-A: Igen. Hozzon létre egy új `CalendarException`‑t minden egyes dátumtartományhoz, és adja hozzá a `calendar.getExceptions()`‑hez egy ciklusban.
+**Q:** Hozzáadhatok több kivételt egy naptárhoz az Aspose.Tasks for Java használatával?  
+**A:** Igen. Hozzon létre egy új `CalendarException`-t minden dátumtartományhoz, és egy ciklusban adja hozzá a `calendar.getExceptions()`-hez.
 
-**Q: Az Aspose.Tasks for Java kompatibilis-e minden Microsoft Project fájlverzióval?**  
-A: Az Aspose.Tasks széles körű .mpp verziókat támogat, a Project 98‑tól a legújabb kiadásokig, biztosítva a zökkenőmentes integrációt.
+**Q:** Az Aspose.Tasks for Java kompatibilis minden Microsoft Project fájlverzióval?  
+**A:** Az Aspose.Tasks széles körű .mpp verziókat támogat, a Project 98-tól a legújabb kiadásokig, biztosítva a zökkenőmentes integrációt.
 
-**Q: Hogyan kezelhetem az ismétlődő kivételeket (pl. heti megbeszélések) a projekt naptárakban?**  
-A: Használja a `CalendarException` ismétlődési tulajdonságait (`setRecurrencePattern`), hogy napi, heti vagy havi ismétlődési mintákat definiáljon.
+**Q:** Hogyan kezelhetem az ismétlődő kivételeket (pl. heti megbeszélések) a projekt naptárakban?  
+**A:** Használja a `CalendarException` ismétlődési tulajdonságait (`setRecurrencePattern`) a napi, heti vagy havi ismétlődési minták definiálásához.
 
-**Q: Elérhető-e próba verzió az Aspose.Tasks for Java‑hoz?**  
-A: Igen, letölthet egy ingyenes próbát a [weboldalról](https://releases.aspose.com/), hogy a vásárlás előtt felfedezze az összes funkciót.
+**Q:** Elérhető próba verzió az Aspose.Tasks for Java-hoz?  
+**A:** Igen, letölthet egy ingyenes próbát a [Aspose Releases oldalról](https://releases.aspose.com/), hogy a vásárlás előtt felfedezze az összes funkciót.
 
-**Q: Hol kérhetek támogatást az Aspose.Tasks for Java problémáira?**  
-A: Látogassa meg az Aspose.Tasks Java fórumát a [weboldalon](https://reference.aspose.com/tasks/java/), vagy vegye fel közvetlenül az Aspose támogatását.
+**Q:** Hol kérhetek támogatást az Aspose.Tasks for Java problémákhoz?  
+**A:** Látogassa meg az Aspose.Tasks Java fórumot a [Aspose Tasks Java fórumon](https://reference.aspose.com/tasks/java/), vagy vegye fel közvetlenül a kapcsolatot az Aspose támogatással.
 
-## Összegzés
-A naptári kivételek kezelése elengedhetetlen a reális projekt‑ütemezésekhez és erőforrás‑tervezéshez. Az **Aspose.Tasks for Java** segítségével **create calendar exception java** objektumokat hozhat létre, bármely projekt naptárához hozzáadhatja, és eltávolíthatja őket, ha már nem relevánsak — mindössze néhány kódsorral. Ez a képesség lehetővé teszi, hogy olyan ütemterveket építsen, amelyek valóban tükrözik a valós világ korlátait.
+## Következtetés
+A naptárkivétel kezelése elengedhetetlen a reális projekt ütemtervek és erőforrás tervezés szempontjából. Az **Aspose.Tasks for Java** segítségével **létrehozhat**, **hozzáadhat**, **eltávolíthat**, és ellenőrizhet naptárkivételket—csak néhány kódsorral. A **hogyan távolítsuk el a kivételt** bejegyzések elsajátítása lehetővé teszi, hogy a ütemterveket pontosan és a valós világ korlátaival összhangban tartsa.
 
 ---
 
-**Last Updated:** 2026-08-08  
-**Tested With:** Aspose.Tasks for Java 24.11  
-**Author:** Aspose
+**Utolsó frissítés:** 2026-11-06  
+**Tesztelve ezzel:** Aspose.Tasks for Java 24.11  
+**Szerző:** Aspose
 
 ## Kapcsolódó oktatóanyagok
 
-- [Projekt naptár létrehozása Aspose – Hétköznapok meghatározása naptári kivételekhez](/tasks/java/calendar-exceptions/define-weekdays/)
-- [Naptári kivételek lekérése az Aspose.Tasks használatával – asp tasks java tutorial](/tasks/java/calendar-exceptions/retrieve/)
-- [Naptár hozzáadása projekthez az Aspose.Tasks for Java használatával](/tasks/java/calendars/create/)
-
+- [Projekt naptár létrehozása Aspose – Hétköznapok definiálása naptárkivételhez](/tasks/java/calendar-exceptions/define-weekdays/)
+- [Naptárkivétel lekérése Aspose.Tasks használatával – asp tasks java oktatóanyag](/tasks/java/calendar-exceptions/retrieve/)
+- [Naptár hozzáadása projekthez Aspose.Tasks for Java használatával](/tasks/java/calendars/create/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
