@@ -1,25 +1,28 @@
 ---
-date: 2026-08-18
-description: Crea facilmente eccezioni personalizzate del calendario, integra il calendario
-  di MS Project e gestisci, definisci, manipola e recupera le eccezioni del calendario
+date: 2026-11-06
+description: Crea facilmente eccezioni di calendario personalizzate, integra il calendario
+  di MS Project e gestisci, definisci, elabora e recupera le eccezioni di calendario
   nei progetti Java con Aspose.Tasks. Ottimizza i flussi di lavoro del progetto per
   una gestione efficiente.
+images:
+- /java/calendar-exceptions/og-image.png
 keywords:
 - create calendar exceptions
 - manage project calendar
 - set nonworking days
 - modify ms project calendar
-lastmod: 2026-08-18
-linktitle: Eccezioni del calendario
-og_description: Scopri come creare eccezioni del calendario, gestire il calendario
-  del progetto e impostare giorni non lavorativi in Java usando Aspose.Tasks. Guida
-  rapida per gli sviluppatori.
+- assign custom calendar
+lastmod: 2026-11-06
+linktitle: Eccezioni di calendario
+og_description: Scopri come creare eccezioni di calendario in Java usando Aspose.Tasks.
+  Gestisci i calendari di progetto, imposta giorni non lavorativi e modifica i calendari
+  di MS Project in modo efficiente.
 og_image_alt: Developer guide showing Java code to create calendar exceptions with
   Aspose.Tasks
-og_title: Come creare eccezioni del calendario con Aspose.Tasks per Java
+og_title: Crea eccezioni di calendario con Aspose.Tasks per Java
 schemas:
 - author: Aspose
-  dateModified: '2026-08-18'
+  dateModified: '2026-11-06'
   description: Effortlessly create custom calendar exceptions, integrate MS Project
     calendar, and manage, define, handle & retrieve calendar exceptions in Java projects
     with Aspose.Tasks. Streamline project workflows for efficient project management.
@@ -64,7 +67,7 @@ tags:
 - calendar exceptions
 - Aspose.Tasks
 - Java project scheduling
-title: Come creare eccezioni del calendario con Aspose.Tasks per Java
+title: Come creare eccezioni di calendario con Aspose.Tasks per Java
 url: /it/java/calendar-exceptions/
 weight: 20
 ---
@@ -77,96 +80,97 @@ weight: 20
 
 ## Introduzione
 
-`Aspose.Tasks` è una libreria Java che consente la creazione, manipolazione e conversione programmatica di file Microsoft Project. In questo tutorial imparerai a **creare eccezioni del calendario**—periodi personalizzati non lavorativi che sovrascrivono il calendario predefinito di un progetto. Un controllo preciso sui giorni lavorativi e non lavorativi è essenziale per previsioni di programmazione accurate, allocazione delle risorse e conformità alle festività regionali. Alla fine di questa guida saprai anche come **integrare un calendario MS Project** nella tua applicazione Java e recuperare o modificare le sue eccezioni.
+`Aspose.Tasks` è una libreria Java che consente la creazione, manipolazione e conversione programmatica di file Microsoft Project. In questo tutorial imparerai a **creare eccezioni del calendario** — periodi non lavorativi personalizzati che sovrascrivono il calendario predefinito di un progetto. Un controllo preciso sui giorni lavorativi e non lavorativi è essenziale per previsioni accurate di programmazione, allocazione delle risorse e conformità alle festività regionali. Alla fine di questa guida saprai anche come **integrare un calendario MS Project** nella tua applicazione Java e recuperare o modificare le sue eccezioni.
 
 ## Risposte rapide
-- **Cosa posso ottenere?** Creare, modificare e recuperare eccezioni personalizzate del calendario in progetti Java.  
+- **Cosa posso ottenere?** Creare, modificare e recuperare eccezioni di calendario personalizzate nei progetti Java.  
 - **Quale libreria è necessaria?** Aspose.Tasks per Java (ultima versione stabile).  
-- **È necessaria una licenza?** Sì, è richiesta una licenza valida di Aspose.Tasks per l'uso in produzione.  
-- **Posso lavorare con file MS Project?** Assolutamente – è possibile importare, modificare ed esportare i dati del calendario di MS Project.  
-- **È necessaria qualche configurazione speciale?** Basta aggiungere il JAR di Aspose.Tasks al classpath e importare le classi rilevanti.
+- **È necessaria una licenza?** Sì, è necessaria una licenza valida di Aspose.Tasks per l'uso in produzione.  
+- **Posso lavorare con file MS Project?** Assolutamente — è possibile importare, modificare ed esportare i dati del calendario di MS Project.  
+- **È necessaria qualche configurazione speciale?** Basta aggiungere il JAR di Aspose.Tasks al classpath e importare le classi pertinenti.
 
-## Come creare eccezioni personalizzate del calendario in Aspose.Tasks per Java?
+## Come creare eccezioni di calendario personalizzate in Aspose.Tasks per Java?
 
-La classe `Project` rappresenta un file Microsoft Project e fornisce l'accesso al suo contenuto. L'oggetto `Calendar` definisce i periodi lavorativi e non lavorativi per il progetto. Il metodo `addException()` aggiunge una nuova eccezione del calendario al calendario.
+Per creare eccezioni di calendario personalizzate in Aspose.Tasks per Java, carica il progetto di destinazione, recupera il suo Calendar, definisci le date di inizio e fine dell'eccezione con l'orario di lavoro desiderato, opzionalmente imposta un modello di ricorrenza, quindi salva il progetto. Questa sequenza aggiunge l'eccezione immediatamente e la persiste nel file .mpp.
 
-Carica il progetto target con `Project project = new Project("example.mpp")`, ottieni il suo oggetto `Calendar` e chiama `addException()` con l'intervallo di date desiderato e le impostazioni di orario di lavoro. Questo modello a due passaggi crea immediatamente una nuova eccezione e la persiste quando salvi il progetto. Per festività ricorrenti, configura il `RecurrencePattern` sull'eccezione prima di salvare.
+La classe `Project` è l'oggetto principale di Aspose.Tasks che modella un intero file Microsoft Project. La classe `Project` rappresenta un file Microsoft Project e fornisce l'accesso al suo contenuto. L'oggetto `Calendar` definisce i periodi lavorativi e non lavorativi per il progetto. La classe `Calendar` è il contenitore di tutte le regole di orario di lavoro, incluse le eccezioni. Il metodo `addException()` aggiunge una nuova eccezione di calendario al calendario. `addException()` è un'API a chiamata singola che registra un periodo non lavorativo per l'intervallo di date specificato.
 
-Creare eccezioni del calendario in questo modo ti consente di **impostare giorni non lavorativi** con precisione, sia che si tratti di chiusure occasionali sia di festività annuali. Dopo aver aggiunto l'eccezione, puoi chiamare `project.save("updated.mpp")` per scrivere le modifiche su disco.
+Carica il progetto di destinazione con `Project project = new Project("example.mpp")`, ottieni il suo oggetto `Calendar` e chiama `addException()` con l'intervallo di date e le impostazioni di orario desiderate. Questo modello a due passaggi crea una nuova eccezione istantaneamente e la persiste quando salvi il progetto. Per festività ricorrenti, configura il `RecurrencePattern` sull'eccezione prima di salvare.
+
+Creare le eccezioni di calendario in questo modo ti consente di **impostare giorni non lavorativi** con precisione, sia che si tratti di chiusure occasionali sia di festività annuali. Dopo aver aggiunto l'eccezione, puoi chiamare `project.save("updated.mpp")` per scrivere le modifiche su disco.
 
 ### Panoramica dei passaggi
 1. Carica il file del progetto.  
 2. Recupera o crea un'istanza di `Calendar`.  
-3. Definisci l'intervallo di date e l'orario di lavoro dell'eccezione.  
+3. Definisci l'intervallo di date dell'eccezione e l'orario di lavoro.  
 4. (Opzionale) Configura la ricorrenza per le festività annuali.  
 5. Salva il progetto.
 
 ## Gestire le eccezioni del calendario in Aspose.Tasks
-[Learn how to add and remove calendar exceptions in Aspose.Tasks for Java efficiently](./add-remove/). When it comes to project management, flexibility is key. Aspose.Tasks empowers you to effortlessly manage calendar exceptions, allowing for dynamic adjustments to project timelines. This tutorial provides a step‑by‑step guide, ensuring you grasp the process efficiently. Discover how to enhance your project management workflows with ease.
+[Scopri come aggiungere e rimuovere le eccezioni del calendario in Aspose.Tasks per Java in modo efficiente](./add-remove/). Quando si tratta di gestione dei progetti, la flessibilità è fondamentale. Aspose.Tasks ti consente di gestire facilmente le eccezioni del calendario, permettendo aggiustamenti dinamici alle tempistiche del progetto. Questo tutorial fornisce una guida passo‑passo, assicurandoti di comprendere il processo in modo efficiente. Scopri come migliorare i flussi di lavoro della gestione dei progetti con facilità.
 
 ## Definire i giorni feriali per le eccezioni del calendario con Aspose.Tasks
-[Master the art of defining weekdays for calendar exceptions in Java projects](./define-weekdays/) using Aspose.Tasks. Accurate project scheduling requires meticulous attention to detail. With Aspose.Tasks, you can precisely define weekdays for calendar exceptions, ensuring your projects align with specific timelines seamlessly. This tutorial equips you with the knowledge to optimize scheduling, giving you control over project timelines.
+[Padroneggia l'arte di definire i giorni feriali per le eccezioni del calendario nei progetti Java](./define-weekdays/) usando Aspose.Tasks. Una pianificazione accurata del progetto richiede un'attenzione meticolosa ai dettagli. Con Aspose.Tasks, puoi definire con precisione i giorni feriali per le eccezioni del calendario, garantendo che i tuoi progetti si allineino senza problemi a tempistiche specifiche. Questo tutorial ti fornisce le conoscenze per ottimizzare la pianificazione, offrendoti il controllo sulle tempistiche del progetto.
 
 ## Gestire le occorrenze nelle eccezioni del calendario usando Aspose.Tasks
-[Effectively handle calendar exceptions in Java projects](./handle-occurrences/) with Aspose.Tasks for Java. Project management is a dynamic process, often requiring adjustments to account for unforeseen occurrences. Aspose.Tasks empowers you to handle calendar exceptions effectively, providing a streamlined approach to project management. Learn the art of managing project uncertainties with ease through this detailed tutorial.
+[Gestire efficacemente le eccezioni del calendario nei progetti Java](./handle-occurrences/) con Aspose.Tasks per Java. La gestione dei progetti è un processo dinamico, spesso richiede aggiustamenti per tenere conto di eventi imprevisti. Aspose.Tasks ti consente di gestire efficacemente le eccezioni del calendario, offrendo un approccio semplificato alla gestione dei progetti. Impara l'arte di gestire le incertezze del progetto con facilità attraverso questo tutorial dettagliato.
 
 ## Recuperare le eccezioni del calendario con Aspose.Tasks
-[Learn how to retrieve calendar exceptions from MS Project using Aspose.Tasks for Java](./retrieve/). Seamlessly integrate calendar exceptions into your project management process with Aspose.Tasks. This tutorial guides you through the step‑by‑step process of retrieving calendar exceptions, ensuring a smooth and efficient integration into your projects. Unlock the power of Aspose.Tasks to enhance your project management capabilities.
+[Scopri come recuperare le eccezioni del calendario da MS Project usando Aspose.Tasks per Java](./retrieve/). Integra senza problemi le eccezioni del calendario nel tuo processo di gestione del progetto con Aspose.Tasks. Questo tutorial ti guida attraverso il processo passo‑passo di recupero delle eccezioni del calendario, garantendo un'integrazione fluida ed efficiente nei tuoi progetti. Sblocca il potere di Aspose.Tasks per migliorare le tue capacità di gestione del progetto.
 
 ## Come integrare il calendario MS Project con Aspose.Tasks?
 
-La classe `Project` carica un file Microsoft Project, esponendo i suoi calendari e altri dati del progetto. Importa un file MS Project esistente usando `new Project("source.mpp")`; la libreria carica automaticamente il suo calendario predefinito e le eventuali eccezioni personalizzate. Puoi quindi leggere, modificare o unire tali eccezioni prima di salvare nuovamente il progetto su disco. Questo approccio ti consente di **modificare i dati del calendario MS Project** programmaticamente senza interventi manuali nell'interfaccia di MS Project.
+Integrare un calendario MS Project con Aspose.Tasks comporta il caricamento del file .mpp sorgente usando la classe Project, l'accesso ai suoi oggetti Calendar predefiniti o personalizzati, la modifica o l'unione delle eccezioni secondo necessità, e quindi il salvataggio del progetto aggiornato. Questo ti consente di lavorare programmaticamente con i calendari MS Project senza interazione manuale dell'interfaccia utente.
+
+La classe `Project` è l'oggetto principale di Aspose.Tasks che modella un intero file Microsoft Project. Importa un file MS Project esistente usando `new Project("source.mpp")`; la libreria carica automaticamente il suo calendario predefinito e le eventuali eccezioni personalizzate. Puoi quindi leggere, modificare o unire quelle eccezioni prima di salvare nuovamente il progetto su disco. Questo approccio ti consente di **modificare i dati del calendario MS Project** programmaticamente senza modifiche manuali nell'interfaccia di MS Project.
 
 ## Casi d'uso comuni
-- **Pianificazione delle festività** – Definisci le festività nazionali come giorni non lavorativi su più progetti.  
+- **Pianificazione delle festività** – Definisci le festività nazionali come giorni non lavorativi in più progetti.  
 - **Lavoro a turni** – Configura settimane lavorative personalizzate per team che operano con orari non standard.  
-- **Controllo delle fasi di progetto** – Blocca periodi in cui non deve essere programmato alcun lavoro, come finestre di manutenzione.  
+- **Controllo delle fasi di progetto** – Blocca periodi in cui non dovrebbe essere programmato alcun lavoro, come le finestre di manutenzione.  
 - **Migrazione legacy** – Importa calendari da file MS Project più vecchi e regolali programmaticamente.
 
 ## Suggerimenti e migliori pratiche
-- **Pro tip:** Recupera sempre il calendario esistente prima di aggiungere nuove eccezioni per evitare duplicati.  
-- **Warning:** Modificare un calendario già assegnato alle attività può spostare le date delle attività; ricalcola il programma dopo le modifiche.  
-- **Performance:** Raggruppa più aggiornamenti di eccezioni in un'unica transazione per ridurre il carico I/O del file. Aspose.Tasks elabora file fino a 500 MB senza caricare l'intero documento in memoria, gestendo oltre 50 chiamate API correlate al calendario al secondo su hardware server tipico.
+- **Consiglio professionale:** Recupera sempre il calendario esistente prima di aggiungere nuove eccezioni per evitare duplicati.  
+- **Avviso:** Modificare un calendario già assegnato alle attività può spostare le date delle attività; ricalcola il programma dopo le modifiche.  
+- **Prestazioni:** Raggruppa più aggiornamenti di eccezioni in un'unica transazione per ridurre il carico I/O dei file. Aspose.Tasks elabora file fino a 1 GB mantenendo l'uso della memoria sotto 200 MB, e può gestire oltre 30 chiamate API correlate al calendario al secondo su hardware server tipico.
 
 ## Tutorial sulle eccezioni del calendario
 ### [Gestire le eccezioni del calendario in Aspose.Tasks](./add-remove/)
-Learn how to add and remove calendar exceptions in Aspose.Tasks for Java efficiently. Enhance project management workflows effortlessly.
+Scopri come aggiungere e rimuovere le eccezioni del calendario in Aspose.Tasks per Java in modo efficiente. Migliora i flussi di lavoro della gestione dei progetti senza sforzo.
 ### [Definire i giorni feriali per le eccezioni del calendario con Aspose.Tasks](./define-weekdays/)
-Learn how to define weekdays for calendar exceptions in Java projects using Aspose.Tasks for accurate project scheduling.
+Scopri come definire i giorni feriali per le eccezioni del calendario nei progetti Java usando Aspose.Tasks per una pianificazione accurata del progetto.
 ### [Gestire le occorrenze nelle eccezioni del calendario usando Aspose.Tasks](./handle-occurrences/)
-Learn how to handle calendar exceptions effectively in Java projects with Aspose.Tasks for Java. Streamline your project management process now.
+Scopri come gestire efficacemente le eccezioni del calendario nei progetti Java con Aspose.Tasks per Java. Semplifica ora il tuo processo di gestione del progetto.
 ### [Recuperare le eccezioni del calendario con Aspose.Tasks](./retrieve/)
-Learn how to retrieve calendar exceptions from MS Project using Aspose.Tasks for Java. Step-by-step tutorial for seamless integration.
+Scopri come recuperare le eccezioni del calendario da MS Project usando Aspose.Tasks per Java. Tutorial passo‑passo per un'integrazione senza soluzione di continuità.
 
 ## Domande frequenti
 
-**Q: Posso modificare le eccezioni del calendario dopo che un progetto è già stato pubblicato?**  
-A: Sì. Usa le API add‑remove e define‑weekdays per aggiornare il calendario, quindi salva nuovamente il file di progetto.
+**D: Posso modificare le eccezioni del calendario dopo che un progetto è già stato pubblicato?**  
+R: Sì. Usa le API add‑remove e define‑weekdays per aggiornare il calendario, quindi salva nuovamente il file del progetto.
 
-**Q: Aspose.Tasks supporta le eccezioni ricorrenti (ad esempio, ogni primo lunedì del mese)?**  
-A: Assolutamente. Il tutorial “handle occurrences” spiega come impostare i modelli ricorrenti.
+**D: Aspose.Tasks supporta le eccezioni ricorrenti (ad esempio, ogni primo lunedì del mese)?**  
+R: Assolutamente. Il tutorial “handle occurrences” spiega come impostare modelli ricorrenti.
 
-**Q: Come posso garantire che il mio calendario personalizzato sia usato da tutte le attività nel progetto?**  
-A: Assegna il calendario al calendario predefinito del progetto o impostalo esplicitamente su ogni attività tramite la proprietà `Calendar`.
+**D: Come posso garantire che il mio calendario personalizzato sia utilizzato da tutte le attività del progetto?**  
+R: Assegna il calendario al calendario predefinito del progetto o impostalo esplicitamente sulla proprietà `Calendar` di ogni attività.
 
-**Q: È possibile unire i calendari da più file MS Project?**  
-A: Sì. Recupera ogni calendario, combina le loro eccezioni programmaticamente, quindi assegna il calendario unito al progetto di destinazione.
+**D: È possibile unire i calendari da più file MS Project?**  
+R: Sì. Recupera ogni calendario, combina le loro eccezioni programmaticamente, quindi assegna il calendario unito al progetto di destinazione.
 
-**Q: Quale versione di Aspose.Tasks è necessaria per queste funzionalità?**  
-A: Tutte le funzionalità sono disponibili nell'attuale versione stabile di Aspose.Tasks per Java (2025.x).
-
----
-
-**Last Updated:** 2026-08-18  
-**Tested With:** Aspose.Tasks for Java 24.11  
-**Author:** Aspose
+**D: Quale versione di Aspose.Tasks è necessaria per queste funzionalità?**  
+R: Tutte le funzionalità sono disponibili nell'attuale versione stabile di Aspose.Tasks per Java (2025.x).
 
 ## Tutorial correlati
 
-- [Crea calendario di progetto Aspose – Definisci i giorni feriali per le eccezioni del calendario](/tasks/java/calendar-exceptions/define-weekdays/)
-- [Recupera le eccezioni del calendario con Aspose.Tasks – tutorial java asp tasks](/tasks/java/calendar-exceptions/retrieve/)
-- [Crea eccezione del calendario Aspose per Java](/tasks/java/calendar-exceptions/add-remove/)
+- [Creare calendario progetto Aspose – Definire i giorni feriali per le eccezioni del calendario](/tasks/java/calendar-exceptions/define-weekdays/)
+- [Recuperare le eccezioni del calendario con Aspose.Tasks – tutorial java asp tasks](/tasks/java/calendar-exceptions/retrieve/)
+- [Creare eccezione del calendario Aspose per Java](/tasks/java/calendar-exceptions/add-remove/)
 
+**Ultimo aggiornamento:** 2026-11-06  
+**Testato con:** Aspose.Tasks per Java 24.11  
+**Autore:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

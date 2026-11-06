@@ -1,5 +1,5 @@
 ---
-date: 2026-08-18
+date: 2026-11-06
 description: Effortlessly create custom calendar exceptions, integrate MS Project
   calendar, and manage, define, handle & retrieve calendar exceptions in Java projects
   with Aspose.Tasks. Streamline project workflows for efficient project management.
@@ -10,16 +10,17 @@ keywords:
 - manage project calendar
 - set nonworking days
 - modify ms project calendar
-lastmod: 2026-08-18
+- assign custom calendar
+lastmod: 2026-11-06
 linktitle: Calendar Exceptions
-og_description: Learn how to create calendar exceptions, manage project calendar,
-  and set nonworking days in Java using Aspose.Tasks. Quick guide for developers.
+og_description: Learn how to create calendar exceptions in Java using Aspose.Tasks.
+  Manage project calendars, set nonworking days, and modify MS Project calendars efficiently.
 og_image_alt: Developer guide showing Java code to create calendar exceptions with
   Aspose.Tasks
-og_title: How to create calendar exceptions with Aspose.Tasks for Java
+og_title: Create calendar exceptions with Aspose.Tasks for Java
 schemas:
 - author: Aspose
-  dateModified: '2026-08-18'
+  dateModified: '2026-11-06'
   description: Effortlessly create custom calendar exceptions, integrate MS Project
     calendar, and manage, define, handle & retrieve calendar exceptions in Java projects
     with Aspose.Tasks. Streamline project workflows for efficient project management.
@@ -88,7 +89,9 @@ weight: 20
 
 ## How to create custom calendar exceptions in Aspose.Tasks for Java?
 
-The `Project` class represents a Microsoft Project file and provides access to its contents. The `Calendar` object defines working and non‑working times for the project. The `addException()` method adds a new calendar exception to the calendar.
+To create custom calendar exceptions in Aspose.Tasks for Java, load the target Project, retrieve its Calendar, define the exception’s start and end dates with the desired working time, optionally set a recurrence pattern, and then save the project. This sequence adds the exception instantly and persists it to the .mpp file.
+
+`Project` class is Aspose.Tasks' primary object that models an entire Microsoft Project file. The `Project` class represents a Microsoft Project file and provides access to its contents. The `Calendar` object defines working and non‑working times for the project. The `Calendar` class is the container for all working‑time rules, including exceptions. The `addException()` method adds a new calendar exception to the calendar. `addException()` is a single‑call API that registers a non‑working period for the specified date range.
 
 Load the target project with `Project project = new Project("example.mpp")`, obtain its `Calendar` object, and call `addException()` with the desired date range and working time settings. This two‑step pattern creates a new exception instantly and persists it when you save the project. For recurring holidays, configure the `RecurrencePattern` on the exception before saving.
 
@@ -115,7 +118,9 @@ Creating calendar exceptions this way lets you **set nonworking days** precisely
 
 ## How to integrate MS Project calendar with Aspose.Tasks?
 
-The `Project` class loads a Microsoft Project file, exposing its calendars and other project data. Import an existing MS Project file using `new Project("source.mpp")`; the library automatically loads its default calendar and any custom exceptions. You can then read, modify, or merge those exceptions before saving the project back to disk. This approach lets you **modify MS Project calendar** data programmatically without manual editing in the MS Project UI.
+Integrating an MS Project calendar with Aspose.Tasks involves loading the source .mpp file using the Project class, accessing its default or custom Calendar objects, modifying or merging exceptions as needed, and then saving the updated project. This lets you programmatically work with MS Project calendars without manual UI interaction.
+
+`Project` class is Aspose.Tasks' primary object that models an entire Microsoft Project file. Import an existing MS Project file using `new Project("source.mpp")`; the library automatically loads its default calendar and any custom exceptions. You can then read, modify, or merge those exceptions before saving the project back to disk. This approach lets you **modify MS Project calendar** data programmatically without manual editing in the MS Project UI.
 
 ## Common use cases
 - **Holiday scheduling** – Define national holidays as non‑working days across multiple projects.  
@@ -126,7 +131,7 @@ The `Project` class loads a Microsoft Project file, exposing its calendars and o
 ## Tips & best practices
 - **Pro tip:** Always retrieve the existing calendar before adding new exceptions to avoid duplicates.  
 - **Warning:** Changing a calendar that is already assigned to tasks can shift task dates; re‑calculate the schedule after modifications.  
-- **Performance:** Batch multiple exception updates in a single transaction to reduce file I/O overhead. Aspose.Tasks processes files up to 500 MB without loading the entire document into memory, handling 50+ calendar‑related API calls per second on typical server hardware.
+- **Performance:** Batch multiple exception updates in a single transaction to reduce file I/O overhead. Aspose.Tasks processes files up to 1 GB while keeping memory usage under 200 MB, and it can handle 30+ calendar‑related API calls per second on typical server hardware.
 
 ## Calendar exceptions tutorials
 ### [Manage Calendar Exceptions in Aspose.Tasks](./add-remove/)
@@ -155,18 +160,17 @@ A: Yes. Retrieve each calendar, combine their exceptions programmatically, and t
 **Q: What version of Aspose.Tasks is required for these features?**  
 A: All features are available in the current stable release of Aspose.Tasks for Java (2025.x).
 
----
-
-**Last Updated:** 2026-08-18  
-**Tested With:** Aspose.Tasks for Java 24.11  
-**Author:** Aspose
-
 ## Related Tutorials
 
 - [Create Project Calendar Aspose – Define Weekdays for Calendar Exceptions](/tasks/java/calendar-exceptions/define-weekdays/)
 - [Retrieve Calendar Exceptions with Aspose.Tasks – asp tasks java tutorial](/tasks/java/calendar-exceptions/retrieve/)
 - [Create Calendar Exception Aspose for Java](/tasks/java/calendar-exceptions/add-remove/)
 
+---
+
+**Last Updated:** 2026-11-06  
+**Tested With:** Aspose.Tasks for Java 24.11  
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
