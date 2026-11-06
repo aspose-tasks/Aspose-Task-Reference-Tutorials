@@ -1,24 +1,26 @@
 ---
 additionalTitle: Aspose API References
-date: 2026-07-29
-description: Aspose.Tasks ile projeyi PDF olarak dışa aktar – lisanslama, VBA modülleri,
-  görev yinelemesi ve .NET, Java, C++ gibi diller için çapraz‑dil örneklerini kapsayan
+date: 2026-11-06
+description: Aspose.Tasks ile projeyi PDF'ye dışa aktarın – lisanslama, VBA modülleri,
+  görev tekrarı ve .NET, Java, C++ ve daha fazlası için çok dilli örnekleri kapsayan
   adım adım bir rehber.
 keywords:
-- export project to pdf
+- export project to PDF with Aspose.Tasks
+- add VBA module
+- set task recurrence
 - Aspose.Tasks PDF export
 - project schedule PDF conversion
-lastmod: 2026-07-29
-linktitle: Aspose.Tasks Eğitimleri
-og_description: Aspose.Tasks ile tek bir API çağrısı kullanarak projeyi PDF olarak
-  dışa aktarın. Bu ayrıntılı öğreticide lisanslama, VBA entegrasyonu, görev yinelemesi
-  ve çoklu dil desteğini öğrenin.
+lastmod: 2026-11-06
+linktitle: Aspose.Tasks Öğreticileri
+og_description: Aspose.Tasks ile tek bir API çağrısı kullanarak projeyi PDF'ye dışa
+  aktarın. Bu ayrıntılı öğreticide lisanslama, VBA entegrasyonu, görev tekrarı ve
+  çoklu dil desteğini öğrenin.
 og_image_alt: Developer guide showing how to export an MS Project file to PDF with
   Aspose.Tasks
-og_title: Aspose.Tasks ile Projeyi PDF Olarak Dışa Aktar – Tam Kılavuz
+og_title: Aspose.Tasks ile projeyi PDF'ye dışa aktarma – Tam Kılavuz
 schemas:
 - author: Aspose
-  dateModified: '2026-07-29'
+  dateModified: '2026-11-06'
   description: Export project to PDF with Aspose.Tasks – a step‑by‑step guide that
     covers licensing, VBA modules, task recurrence, and cross‑language examples for
     .NET, Java, C++ and more.
@@ -47,7 +49,7 @@ tags:
 - project management
 - .NET
 - Java
-title: Aspose.Tasks ile Projeyi PDF Olarak Dışa Aktar
+title: Aspose.Tasks ile Projeyi PDF'ye Dışa Aktarma Öğreticisi
 url: /tr/
 weight: 11
 ---
@@ -56,129 +58,137 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks ile PDF'ye Proje Dışa Aktarma Öğreticisi
+# Aspose.Tasks ile Projeyi PDF'ye Dışa Aktarma Öğreticisi
 
-Projeyi PDF'ye dışa aktarmak, Microsoft Project zaman çizelgenizin yalnızca okunabilir bir görünümünü paydaşlarla paylaşmanın en yaygın yollarından biridir. Bu rehberde **export project to pdf** işlemini Aspose.Tasks kullanarak nasıl yapacağınızı, özelliğin neden önemli olduğunu ve .NET, Java, C++ ve daha fazlası için daha derin, dil‑spesifik öğreticileri nerede bulabileceğinizi keşfedeceksiniz. Ayrıca **add vba module**, **set task recurrence** ve **manage project licenses** gibi ilgili görevlerden de bahsedecek, ürünün yetenekleri hakkında tam bir resim sunacağız.
+Bir projeyi PDF'ye dışa aktarmak, Microsoft Project takviminizin yalnızca okunabilir bir görünümünü paydaşlarla paylaşmanın en yaygın yollarından biridir. Bu rehberde, tek bir API çağrısı kullanarak **export project to PDF with Aspose.Tasks** nasıl yapılacağını, özelliğin kurumsal raporlama için neden önemli olduğunu ve .NET, Java, C++ ve daha fazlası için daha derin, dile özgü öğreticilerin nerede bulunabileceğini keşfedeceksiniz. Ayrıca **add VBA module**, **set task recurrence** ve **manage project licenses** gibi ilgili görevlerden de bahsedeceğiz, böylece ürünün yetenekleri hakkında tam bir resim elde edersiniz.
 
-## Hızlı Yanıtlar
-- **Aspose.Tasks, MS Project dosyalarını PDF'ye dışa aktarabilir mi?** Evet – API, PDF raporunu anında oluşturan tek satırlık bir yöntem sağlar.  
-- **PDF'ye dışa aktarmak için lisansa ihtiyacım var mı?** Geçerli bir Aspose.Tasks lisansı, 14‑günlük değerlendirme sınırlamalarını kaldırır ve filigranları ortadan kaldırır.  
+## Hızlı yanıtlar
+- **Aspose.Tasks MS Project dosyalarını PDF'ye dışa aktarabilir mi?** Evet – API, PDF raporunu anında oluşturan tek satırlık bir yöntem sağlar.  
+- **PDF'ye dışa aktarmak için lisansa ihtiyacım var mı?** Geçerli bir Aspose.Tasks lisansı, 14 günlük deneme sınırlamalarını kaldırır ve filigranları ortadan kaldırır.  
 - **Hangi diller PDF dışa aktarmayı destekliyor?** .NET, Java, C++, Python, Ruby ve diğer desteklenen çalışma zamanları aynı API yüzeyini paylaşır.  
-- **VBA desteği dahil mi?** **add vba module** ile bir projeye VBA modülü ekleyebilir ve PDF'ye dışa aktarırken makroları koruyabilirsiniz.  
-- **Dışa aktarmadan önce yinelenen görevleri planlayabilir miyim?** Kesinlikle – **set task recurrence** kullanarak PDF'de doğru şekilde görünecek desenleri tanımlayabilirsiniz.
+- **VBA desteği dahil mi?** Bir projeye **add VBA module** ekleyebilir ve PDF'ye dışa aktarırken makroları koruyabilirsiniz.  
+- **Dışa aktarmadan önce yinelenen görevleri planlayabilir miyim?** Kesinlikle – oluşturulan PDF'de doğru şekilde görünmesi için **set task recurrence** kullanın.
 
-## “export project to pdf” nedir?
-Projeyi PDF'ye dışa aktarmak, bir MS Project (.mpp) dosyasını düzenlenemeyen, ancak düzen, Gantt şeması ve kaynak bilgilerini koruyan taşınabilir bir belgeye dönüştürmek anlamına gelir. Renkleri, yazı tiplerini ve şema ölçeklendirmesini korur, böylece görsel temsil orijinal zaman çizelgesiyle eşleşir. Bu format dağıtım, baskı veya arşivleme için idealdir.
+## “export project to PDF with Aspose.Tasks” nedir?
+Bir projeyi PDF'ye dışa aktarmak, bir MS Project (.mpp) dosyasını düzenlenemeyen, ancak düzeni, Gantt şemasını ve kaynak bilgilerini koruyan taşınabilir bir belgeye dönüştürmek anlamına gelir. Renkleri, yazı tiplerini ve şema ölçeklendirmesini korur, görsel temsilin orijinal takvimle eşleşmesini sağlar.
 
 ## PDF dışa aktarma için Aspose.Tasks neden kullanılmalı?
-Aspose.Tasks ile projeyi PDF'ye dışa aktarmak, Microsoft Project kurulumuna gerek kalmadan yalnızca okunabilir zaman çizelgeleri oluşturmanızı sağlar. API, sayfa boyutu, yönelim ve görünür görünümler üzerinde ince ayar yapma imkanı sunar ve Windows, Linux ve macOS üzerinde çalışır. Aspose.Tasks **30+ giriş ve çıkış formatını** destekler ve **10.000+ görev** içeren projeleri **200 MB'den az RAM** kullanarak işleyebilir, bu da büyük ölçekli kurumsal dağıtımlar için uygundur.
+Aspose.Tasks, Microsoft Project'i kurmadan yalnızca okunabilir takvimler oluşturmanıza olanak tanır. API, sayfa boyutu, yönelim ve görünür görünümler üzerinde ayrıntılı kontrol sağlar ve Windows, Linux ve macOS'ta çalışır. Aspose.Tasks **30+ giriş ve çıkış formatını** destekler ve **10.000+ görev** içeren projeleri **200 MB'den az RAM** kullanarak işleyebilir, bu da büyük ölçekli kurumsal dağıtımlar için uygundur.
 
 ## Önkoşullar
-- Geçerli bir **Aspose.Tasks** lisansı (veya 30‑günlük deneme).  
+- Geçerli bir **Aspose.Tasks** lisansı (veya 30 günlük deneme).  
 - .NET 6+, Java 8+ veya seçtiğiniz dil için eşdeğer çalışma zamanı.  
 - Dönüştürmek istediğiniz mevcut bir MS Project dosyası (.mpp).
 
-## Ayrıntılı Dil‑Spesifik Kılavuzların Nerede Bulunacağı
-Aşağıda temel dosya oluşturma işlemlerinden gelişmiş PDF dışa aktarma senaryolarına kadar her şeyi adım adım anlatan öğreticilerin derlenmiş koleksiyonlarını bulacaksınız.
+## Detaylı dil‑spesifik kılavuzları nerede bulabilirsiniz
+Aşağıda, temel dosya oluşturma işleminden gelişmiş PDF dışa aktarma senaryolarına kadar her şeyi adım adım anlatan özenle hazırlanmış öğreticiler koleksiyonunu bulacaksınız.
 
-### Aspose.Tasks for .NET Öğreticileri
+### Aspose.Tasks for .NET öğreticileri
 {{% alert color="primary" %}}
-Aspose.Tasks for .NET ile proje yönetiminde ustalığa giden bir yolculuğa çıkın. Bu kapsamlı öğretici serisinde, temel kaydetme seçeneklerinden gelişmiş özelliklere, takvim ve zamanlama görevlerine, proje yönetim tekniklerine ve daha fazlasına kadar bu güçlü aracın inceliklerini keşfedeceksiniz. İster deneyimli bir profesyonel olun ister yeni başlıyor olun, adım adım rehberlerimiz Aspose.Tasks for .NET'in karmaşıklıklarını aşmanıza, proje yönetimindeki beceri ve verimliliğinizi artırmanıza yardımcı olacak. Aspose.Tasks'in tam potansiyelini birlikte ortaya çıkaralım!
+Aspose.Tasks for .NET ile proje yönetiminde ustalığa doğru bir yolculuğa çıkın. Bu kapsamlı öğretici serisinde, bu güçlü aracın inceliklerine derinlemesine dalıyor, temel kaydetme seçeneklerinden gelişmiş özelliklere, takvim ve zamanlama görevlerine, proje yönetimi tekniklerine ve daha fazlasına kadar geniş bir konu yelpazesini kapsıyoruz. İster deneyimli bir profesyonel olun, ister yeni başlıyor olun, bu adım‑adım rehberler Aspose.Tasks for .NET'in karmaşıklıklarını yönetmenizi sağlayarak proje yönetimindeki beceri ve verimliliğinizi artıracak. Aspose.Tasks'in tam potansiyelini birlikte ortaya çıkaralım!
 {{% /alert %}}
 
-Bu kaynaklar bazı faydalı bağlantılardır:
- 
-- [Aspose.Tasks Advanced Features](./net/advanced-features/)
-- [Aspose.Tasks Calendar and Scheduling](./net/calendar-scheduling/)
-- [Aspose.Tasks Project Management and Customization](./net/tasks-project-management/)
-- [Aspose.Tasks Advanced Concepts](./net/advanced-concepts/)
-- [Aspose.Tasks Outline Code and Page Settings](./net/outline-code-page-settings/)
-- [Aspose.Tasks Resource Management and Risk Analysis](./net/resource-risk-analysis/)
-- [Aspose.Tasks Project Management and Integration](./net/project-management-integration/)
-- [Aspose.Tasks Rate Management and Recurring Tasks](./net/rate-recurring-tasks/)
-- [Aspose.Tasks Task Management and Table Formatting](./net/task-table-management/)
-- [Aspose.Tasks Text and View Configuration](./net/text-view-configuration/)
-- [Aspose.Tasks VBA Module and Reference Handling](./net/vba-module-reference/)
-- [Aspose.Tasks View and WBS Code Configuration](./net/view-wbs-code-configuration/)
-- [Aspose.Tasks Time Configuration and Recurrence Patterns](./net/time-recurrence-configuration/)
-- [Aspose.Tasks File Format Options](./net/file-format-options/)
-- [Aspose.Tasks PDF Security Configuration](./net/pdf-security-configuration/)
-- [Aspose.Tasks License Management](./net/license-management/)
+- [Aspose.Tasks Gelişmiş Özellikler](./net/advanced-features/)
+- [Aspose.Tasks Takvim ve Zamanlama](./net/calendar-scheduling/)
+- [Aspose.Tasks Proje Yönetimi ve Özelleştirme](./net/tasks-project-management/)
+- [Aspose.Tasks Gelişmiş Kavramlar](./net/advanced-concepts/)
+- [Aspose.Tasks Taslak Kodu ve Sayfa Ayarları](./net/outline-code-page-settings/)
+- [Aspose.Tasks Kaynak Yönetimi ve Risk Analizi](./net/resource-risk-analysis/)
+- [Aspose.Tasks Proje Yönetimi ve Entegrasyon](./net/project-management-integration/)
+- [Aspose.Tasks Oran Yönetimi ve Yinelenen Görevler](./net/rate-recurring-tasks/)
+- [Aspose.Tasks Görev Yönetimi ve Tablo Biçimlendirme](./net/task-table-management/)
+- [Aspose.Tasks Metin ve Görünüm Yapılandırması](./net/text-view-configuration/)
+- [Aspose.Tasks VBA Modülü ve Referans İşleme](./net/vba-module-reference/)
+- [Aspose.Tasks Görünüm ve WBS Kodu Yapılandırması](./net/view-wbs-code-configuration/)
+- [Aspose.Tasks Zaman Yapılandırması ve Yinelenme Desenleri](./net/time-recurrence-configuration/)
+- [Aspose.Tasks Dosya Formatı Seçenekleri](./net/file-format-options/)
+- [Aspose.Tasks PDF Güvenlik Yapılandırması](./net/pdf-security-configuration/)
+- [Aspose.Tasks Lisans Yönetimi](./net/license-management/)
 
-### Aspose.Tasks for Java Öğreticileri
+### Aspose.Tasks for Java öğreticileri
 {{% alert color="primary" %}}
-Java proje yönetimini geliştirmek için kapıyı aralayın! Aspose.Tasks for Java ile kapsamlı öğreticilerimiz ve örneklerimiz, proje iş akışlarınızı yeniden tanımlıyor. Takvim istisnalarından sorunsuz VBA entegrasyonuna kadar, her seviyeden geliştiriciyi güçlendirecek bir kaynak hazinesi hazırladık. Proje yönetiminin inceliklerine dalarak adım adım rehberlik sunuyor ve Aspose.Tasks for Java'nın tam potansiyelini açığa çıkarıyoruz. Projelerinizi optimize etmeye, iş akışlarını sadeleştirmeye ve Java geliştirme becerilerinizi yükseltmeye hazır olun!
+Gelişmiş Java proje yönetiminin kapılarına hoş geldiniz! Aspose.Tasks for Java ile yolculuğa çıkın; kapsamlı öğreticilerimiz ve örneklerimiz, proje iş akışlarınızı yeniden tanımlayacak. Takvim istisnalarından sorunsuz VBA entegrasyonuna kadar, her seviyeden geliştiriciyi güçlendirecek bir kaynak derledik. Proje yönetiminin inceliklerine dalarak adım‑adım rehberlik sunuyor ve Aspose.Tasks for Java'un tam potansiyelini ortaya çıkarıyoruz. Projelerinizi optimize etmeye, iş akışlarını basitleştirmeye ve Java geliştirme becerilerinizi yükseltmeye hazır olun!
 {{% /alert %}}
 
-Bu kaynaklar bazı faydalı bağlantılardır:
+- [Takvim İstisnaları](./java/calendar-exceptions/)
+- [Takvimler](./java/calendars/)
+- [Para Birimi](./java/currency/)
+- [Formüller](./java/formulas/)
+- [Proje Özellikleri](./java/project-properties/)
+- [Para Birimi Özellikleri](./java/currency-properties/)
+- [Proje Yapılandırması](./java/project-configuration/)
+- [Proje Yönetimi](./java/project-management/)
+- [Proje Veri Okuma](./java/project-data-reading/)
+- [Proje Dosya İşlemleri](./java/project-file-operations/)
+- [Kaynak Atamaları](./java/resource-assignments/)
+- [Kaynak Yönetimi](./java/resource-management/)
+- [Görev Temel Çizgileri](./java/task-baselines/)
+- [Görev Bağlantıları](./java/task-links/)
+- [Görev Özellikleri](./java/task-properties/)
+- [VBA Entegrasyonu](./java/vba-integration/)
 
-- [Calendar Exceptions](./java/calendar-exceptions/)
-- [Calendars](./java/calendars/)
-- [Currency](./java/currency/)
-- [Formulas](./java/formulas/)
-- [Project Properties](./java/project-properties/)
-- [Currency Properties](./java/currency-properties/)
-- [Project Configuration](./java/project-configuration/)
-- [Project Management](./java/project-management/)
-- [Project Data Reading](./java/project-data-reading/)
-- [Project File Operations](./java/project-file-operations/)
-- [Resource Assignments](./java/resource-assignments/)
-- [Resource Management](./java/resource-management/)
-- [Task Baselines](./java/task-baselines/)
-- [Task Links](./java/task-links/)
-- [Task Properties](./java/task-properties/)
-- [VBA Integration](./java/vba-integration/)
+## Projeyi PDF'ye nasıl dışa aktarılır (adım‑adım genel bakış)
+Projenizi yükleyin, isteğe bağlı olarak bir VBA modülü ekleyin, PDF seçeneklerini yapılandırın, yinelenen görevleri ayarlayın ve `Save` metodunu çağırın – bu, beş kısa adımda tüm iş akışıdır. Her adım, aynı API çağrılarını kullanarak desteklenen herhangi bir dilde uygulanabilir ve .NET, Java ve C++ ortamlarında tutarlı sonuçlar sağlar.
 
-## Projeyi PDF'ye Dışa Aktarma (Adım‑Adım Genel Bakış)
-Projenizi yükleyin, isteğe bağlı olarak bir VBA modülü ekleyin, PDF seçeneklerini yapılandırın, yinelenen görevleri ayarlayın ve `Save` metodunu çağırın – beş kısa adımda tüm iş akışı bu kadar basit. Her adım, aynı API çağrılarını kullanan herhangi bir desteklenen dilde uygulanabilir, .NET, Java ve C++ ortamlarında tutarlı sonuçlar sağlar.
+### Adım 1: projeyi yükle
+`Project`, bellekte tek bir MS Project dosyasını temsil eden Aspose.Tasks'in üst‑seviye nesnesidir. **`Project` sınıfı, tüm proje‑seviyesi işlemler için giriş noktasıdır**. Oluşturulduğunda .mpp dosyasını okur ve tüm proje verilerini sonraki manipülasyonlar için hazırlar.
 
-### Adım 1: Projeyi Yükle
-`Project` Aspose.Tasks'in tek bir MS Project dosyasını bellekte temsil eden üst‑seviye nesnesidir. Örneği oluşturmak .mpp dosyasını okur ve tüm proje verilerini sonraki işlemler için hazırlar.
+### Adım 2: (isteğe bağlı) VBA modülü ekle
+`VbaProject.Modules.Add()` projedeki VBA proje koleksiyonuna yeni bir VBA modülü ekler. **`VbaProject.Modules.Add()` dışa aktarmadan önce projeye özel makro kodu ekler**, makroların PDF ile birlikte taşınmasını sağlar. Bu yöntemi kaydetme işlemini çağırmadan önce kullanın.
 
-### Adım 2: (İsteğe Bağlı) VBA Modülü Ekle
-`VbaProject.Modules.Add()` projeye yeni bir VBA modülü ekler. Özel makrolara ihtiyacınız varsa, `VbaProject.Modules.Add()` yöntemi PDF oluşturulmadan önce VBA kodunu gömecek ve makroların dışa aktarılan belgede yer almasını sağlayacaktır.
+### Adım 3: PDF seçeneklerini yapılandır
+`PdfSaveOptions`, sayfa düzeni ve görünür görünümler gibi PDF çıktı ayarlarını kontrol eden bir yapılandırma sınıfıdır. **`PdfSaveOptions` sayfa boyutunu, yönelimi ve hangi görünümlerin (ör. Gantt şeması, Kaynak Sayfası) nihai PDF'de görüneceğini seçmenizi sağlar**. Dosya boyutunu düşük tutmak için sıkıştırmayı da etkinleştirebilirsiniz.
 
-### Adım 3: PDF Seçeneklerini Yapılandır
-`PdfSaveOptions` PDF çıkış ayarlarını (sayfa düzeni, görünür görünümler vb.) kontrol eden bir yapılandırma sınıfıdır. `PdfSaveOptions` ile sayfa boyutu, yönelim ve hangi görünümlerin (ör. Gantt şeması, Kaynak Sayfası) son PDF'de yer alacağını seçebilirsiniz. Ayrıca dosya boyutunu düşük tutmak için sıkıştırmayı etkinleştirebilirsiniz.
+### Adım 4: görev yinelenmesini ayarla
+`Task.Recurrence`, bir görevin yinelenme desenini, sıklığını ve süresini tanımlar. **`Task.Recurrence` günlük toplantılar veya haftalık incelemeler gibi tekrarlayan desenleri saklar**, ve yinelenme bilgisi PDF'nin Gantt görünümünde işlenir.
 
-### Adım 4: Görev Tekrarlamasını Ayarla
-`Task.Recurrence` bir görevin tekrarlama desenini, sıklığını ve süresini tanımlar. `Task.Recurrence` kullanarak günlük toplantılar veya haftalık incelemeler gibi yinelenen desenleri tanımlayabilirsiniz. Tekrarlama bilgisi PDF'nin Gantt görünümünde gösterilir.
+### Adım 5: PDF olarak kaydet
+`Project.Save()` projeyi belirtilen formatta ve konumda kaydeder, PDF seçildiğinde dönüşümü gerçekleştirir. `Project.Save("output.pdf", SaveFileFormat.PDF)` PDF'yi diske yazar. `Save` metodu, dönüşümü yapan tek çağrıdır ve yazı tipleri, görüntüler ve düzeni otomatik olarak işler.
 
-### Adım 5: PDF Olarak Kaydet
-`Project.Save()` proje dosyasını belirtilen format ve konuma kaydeder, PDF seçildiğinde dönüşümü gerçekleştirir. `Project.Save("output.pdf", SaveFileFormat.PDF)` PDF'yi diske yazar. `Save` metodu, dönüşümü tek bir çağrıyla yapar, yazı tipleri, görseller ve düzeni otomatik olarak işler.
+> **Pro ipucu:** Büyük takvimlerle çalışırken, görsel kaliteyi kaybetmeden dosya boyutunu düşük tutmak için `PdfSaveOptions` içinde PDF sıkıştırmasını etkinleştirin.
 
-> **Pro tip:** Büyük zaman çizelgeleriyle çalışırken dosya boyutunu düşük tutmak ve görsel kaliteyi korumak için `PdfSaveOptions` içinde PDF sıkıştırmasını etkinleştirin.
-
-## Yaygın Sorunlar ve Çözümler
+## Yaygın sorunlar ve çözümler
 - **PDF boş sayfalar gösteriyor** – `PdfSaveOptions` içinde en az bir görünüm (ör. Gantt) seçtiğinizden emin olun.  
-- **Makrolar dışa aktarmadan sonra kayboluyor** – `Save` metodunu çağırmadan **VBA modülünün** eklendiğini doğrulayın.  
-- **Lisans filigranı görünüyor** – Uygulamanızın başlangıcında `License.SetLicense()` kullanarak geçerli bir Aspose.Tasks lisansı yükleyin.  
-- **Yinelenen görevler gösterilmiyor** – `Task.Recurrence` ile tanımlanan tekrarlama deseninin doğru yapılandırıldığını iki kez kontrol edin.
+- **Makrolar dışa aktarmadan sonra kayboluyor** – `Save` metodunu çağırmadan önce VBA modülünün *eklenmiş* olduğunu doğrulayın.  
+- **Lisans filigranı görünüyor** – Uygulamanızın başlangıcında `License.SetLicense()` kullanarak geçerli bir Aspose.Tasks lisansı kurun.  
+- **Yinelenen görevler görüntülenmiyor** – `Task.Recurrence` ile yinelenme deseninin doğru tanımlandığını iki kez kontrol edin.
 
-## Sık Sorulan Sorular
+## Bu, proje paydaşları için neden önemlidir
+Bir proje takviminin PDF sürümünü sağlamak, her paydaşın Microsoft Project kurmasına gerek kalmaz, sürüm kontrolü sorunlarını azaltır ve onayladığınız görsel düzenin alıcılar tarafından tam olarak görülmesini garanti eder. PDF'ler evrensel olarak görüntülenebilir olduğundan, e‑posta güncellemelerine, SharePoint portallarına veya proje panolarına uyumluluk endişesi olmadan ekleyebilirsiniz.
+
+## Performans değerlendirmeleri
+Aspose.Tasks, tipik bir 2 GHz sunucuda **200 MB RAM** altında kalırken **10.000+ görev** işleyebilir. Çok büyük projeleri (100 k'dan fazla görev) dışa aktarırken şunları göz önünde bulundurun:
+1. Bellek yükünü azaltmak için `PdfSaveOptions.CompressionLevel` özelliğini etkinleştirin.  
+2. `PageSetup` özelliğini kullanarak dışa aktarmayı birden fazla PDF'ye bölün ve dosya başına sayfa sayısını sınırlayın.  
+3. Dönüşümü bir arka plan işçisi üzerinde çalıştırarak masaüstü uygulamalarda UI iş parçacıklarının engellenmesini önleyin.
+
+## En iyi uygulamalar kontrol listesi
+- **Kaynak .mpp dosyasını** dönüştürmeden önce doğrulayın; eksik kaynakları veya bozuk verileri yakalayın.  
+- **Lisansı erken uygulayın** (`License.SetLicense()`) değerlendirme filigranlarından kaçınmak için.  
+- **PdfSaveOptions** içinde yalnızca gerekli görünümleri seçin; PDF boyutunu minimum tutun.  
+- **Yinelenen görev desenlerini** kurumsal ölçekli takvimlere ölçeklendirmeden önce küçük bir örnek proje üzerinde test edin.  
+- **Oluşturulan PDF'leri güvenli bir konumda saklayın** ve gizlilik gerekiyorsa `PdfSaveOptions` aracılığıyla parola koruması uygulayın.
+
+## Sıkça Sorulan Sorular
 
 **S: Microsoft Project kurmadan bir projeyi PDF'ye dışa aktarabilir miyim?**  
-C: Evet. Aspose.Tasks dönüşümü tamamen sunucu tarafında gerçekleştirir, MS Project'e ihtiyaç duymaz.
+C: Evet. Aspose.Tasks dönüşümü tamamen sunucu tarafında gerçekleştirir, MS Project'e ihtiyaç duyulmaz.
 
-**S: Dışa aktarmadan önce projeye VBA modülü nasıl eklenir?**  
-C: `Project.VbaProject.Modules.Add()` metodunu (veya dilinizdeki eşdeğerini) kullanarak makroyu gömün, ardından dışa aktarın.
+**S: Dışa aktarmadan önce bir projeye VBA modülü nasıl eklerim?**  
+C: Makroyu gömmek için `Project.VbaProject.Modules.Add()` metodunu (veya dilinizdeki eşdeğerini) kullanın, ardından dışa aktarın.
 
 **S: Oluşturulan PDF'de sayfa sayısı için bir limit var mı?**  
-C: Hayır. PDF boyutu yalnızca sistem belleği ve seçtiğiniz sayfa ayarlarıyla sınırlıdır.
+C: Hayır. PDF boyutu yalnızca mevcut sistem belleği ve seçtiğiniz sayfa ayarlarıyla sınırlıdır.
 
 **S: Her programlama dili için ayrı bir lisansa ihtiyacım var mı?**  
-C: Hayır. Tek bir Aspose.Tasks lisansı, tüm desteklenen dilleri (.NET, Java, C++ vb.) kapsar.
+C: Hayır. Tek bir Aspose.Tasks lisansı, desteklenen tüm dilleri (.NET, Java, C++ vb.) kapsar.
 
 **S: PDF'ye kaynak risk analizini nasıl ekleyebilirim?**  
-C: PDF seçeneklerinde “Risk Analysis” görünümünü etkinleştirin; API risk tablolarını zaman çizelgesiyle birlikte render eder.
+C: PDF seçeneklerinde “Risk Analysis” görünümünü etkinleştirin; API, risk tablolarını takvimle birlikte render eder.
 
----
-
-**Last Updated:** 2026-07-29  
-**Tested With:** Aspose.Tasks 24.11 (all supported platforms)  
+**Last updated:** 2026-11-06  
+**Tested with:** Aspose.Tasks 24.11 (all supported platforms)  
 **Author:** Aspose
-
----
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

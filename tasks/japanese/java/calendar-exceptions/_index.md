@@ -1,22 +1,25 @@
 ---
-date: 2026-08-18
-description: Aspose.Tasks を使用し、Java プロジェクトでカスタム calendar exceptions を簡単に作成し、MS Project
-  カレンダーと統合し、calendar exceptions の管理、定義、処理、取得を行えます。プロジェクトワークフローを効率化し、効果的なプロジェクト管理を実現します。
+date: 2026-11-06
+description: Aspose.Tasks を使用した Java プロジェクトで、カスタム calendar exceptions を簡単に作成し、MS Project
+  カレンダーを統合し、calendar exceptions の管理、定義、処理、取得を行います。プロジェクトワークフローを効率化し、効果的なプロジェクト管理を実現します。
+images:
+- /java/calendar-exceptions/og-image.png
 keywords:
 - create calendar exceptions
 - manage project calendar
 - set nonworking days
 - modify ms project calendar
-lastmod: 2026-08-18
+- assign custom calendar
+lastmod: 2026-11-06
 linktitle: Calendar Exceptions
-og_description: Aspose.Tasks を使用して Java で calendar exceptions を作成し、プロジェクトカレンダーを管理し、nonworking
-  days を設定する方法を学びます。開発者向けの簡潔なガイドです。
+og_description: Aspose.Tasks を使用して Java で calendar exceptions の作成方法を学びます。プロジェクト カレンダーを管理し、nonworking
+  days を設定し、MS Project カレンダーを効率的に変更します。
 og_image_alt: Developer guide showing Java code to create calendar exceptions with
   Aspose.Tasks
-og_title: Aspose.Tasks for Java を使用して calendar exceptions を作成する方法
+og_title: Aspose.Tasks for Java で calendar exceptions を作成
 schemas:
 - author: Aspose
-  dateModified: '2026-08-18'
+  dateModified: '2026-11-06'
   description: Effortlessly create custom calendar exceptions, integrate MS Project
     calendar, and manage, define, handle & retrieve calendar exceptions in Java projects
     with Aspose.Tasks. Streamline project workflows for efficient project management.
@@ -70,100 +73,108 @@ weight: 20
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks for Java を使用したカレンダー例外の作成方法
+# Aspose.Tasks for Javaでカレンダー例外を作成する方法
 
-## 概要
+## はじめに
 
-`Aspose.Tasks` は、Microsoft Project ファイルのプログラムによる作成、操作、変換を可能にする Java ライブラリです。このチュートリアルでは、**カレンダー例外の作成**（プロジェクトのデフォルトカレンダーを上書きするカスタムの非稼働期間）方法を学びます。作業日と非稼働日の正確な管理は、スケジュール予測、リソース配分、地域の祝日への準拠に不可欠です。本ガイドの最後までに、**MS Project カレンダーを Java アプリケーションに統合し**、例外を取得または変更する方法も理解できるようになります。
+`Aspose.Tasks` は、Microsoft Project ファイルのプログラムによる作成、操作、変換を可能にする Java ライブラリです。このチュートリアルでは、**カレンダー例外の作成**（プロジェクトのデフォルトカレンダーを上書きするカスタムの非作業期間）について学びます。作業日と非作業日の正確な管理は、正確なスケジュール予測、リソース配分、地域の祝日に対するコンプライアンスに不可欠です。本ガイドの最後までに、**MS Project カレンダーを Java アプリケーションに統合し、その例外を取得または変更する方法**も理解できるようになります。
 
 ## クイック回答
-- **何が実現できますか？** Java プロジェクトでカスタムカレンダー例外を作成、変更、取得できます。  
-- **どのライブラリが必要ですか？** Aspose.Tasks for Java（最新の安定版）。  
-- **ライセンスは必要ですか？** はい、製品環境で使用するには有効な Aspose.Tasks ライセンスが必要です。  
-- **MS Project ファイルを扱えますか？** もちろんです。MS Project のカレンダーデータをインポート、編集、エクスポートできます。  
-- **特別なセットアップは必要ですか？** Aspose.Tasks の JAR をクラスパスに追加し、関連クラスをインポートするだけです。
+- **What can I achieve?** カスタムカレンダー例外を作成、変更、取得できます。  
+- **Which library is required?** 必要なライブラリは Aspose.Tasks for Java（最新の安定版）です。  
+- **Do I need a license?** はい、製品版の使用には有効な Aspose.Tasks ライセンスが必要です。  
+- **Can I work with MS Project files?** もちろんです。MS Project のカレンダー データをインポート、編集、エクスポートできます。  
+- **Is any special setup needed?** Aspose.Tasks の JAR をクラスパスに追加し、関連クラスをインポートするだけです。
 
-## Aspose.Tasks for Java でカスタムカレンダー例外を作成する方法？
+## Aspose.Tasks for Javaでカスタムカレンダー例外を作成する方法
 
-`Project` クラスは Microsoft Project ファイルを表し、その内容にアクセスできます。`Calendar` オブジェクトはプロジェクトの稼働時間と非稼働時間を定義します。`addException()` メソッドはカレンダーに新しい例外を追加します。
+Aspose.Tasks for Javaでカスタムカレンダー例外を作成するには、対象の Project をロードし、その Calendar を取得し、例外の開始日と終了日を希望の作業時間で定義し、必要に応じて繰り返しパターンを設定してからプロジェクトを保存します。この手順により例外が即座に追加され、.mpp ファイルに永続化されます。
 
-対象プロジェクトは `Project project = new Project("example.mpp")` でロードし、`Calendar` オブジェクトを取得して、希望する日付範囲と稼働時間設定で `addException()` を呼び出します。この 2 段階のパターンにより、例外は即座に作成され、プロジェクトを保存すると永続化されます。繰り返しの祝日については、保存前に例外の `RecurrencePattern` を設定します。
+`Project` クラスは、Aspose.Tasks の主要オブジェクトで、Microsoft Project ファイル全体をモデル化します。`Project` クラスは Microsoft Project ファイルを表し、その内容へのアクセスを提供します。`Calendar` オブジェクトはプロジェクトの作業時間と非作業時間を定義します。`Calendar` クラスは例外を含むすべての作業時間ルールのコンテナです。`addException()` メソッドはカレンダーに新しい例外を追加します。`addException()` は、指定した日付範囲の非作業期間を登録するシングルコール API です。
 
-この方法でカレンダー例外を作成すると、**非稼働日を正確に設定**でき、単発の停止や年次祝日などに対応できます。例外を追加した後、`project.save("updated.mpp")` を呼び出して変更をディスクに書き戻すことができます。
+`Project project = new Project("example.mpp")` で対象プロジェクトをロードし、`Calendar` オブジェクトを取得して、希望する日付範囲と作業時間設定で `addException()` を呼び出します。この2ステップのパターンにより新しい例外が即座に作成され、プロジェクトを保存すると永続化されます。繰り返しの祝日については、保存前に例外の `RecurrencePattern` を設定してください。
+
+この方法でカレンダー例外を作成すると、**非作業日を正確に設定**でき、単発の停止や年次の祝日などに対応できます。例外を追加した後は、`project.save("updated.mpp")` を呼び出して変更をディスクに書き戻すことができます。
 
 ### 手順概要
-1. プロジェクトファイルをロードする。  
+1. プロジェクト ファイルをロードする。  
 2. `Calendar` インスタンスを取得または作成する。  
-3. 例外の日付範囲と稼働時間を定義する。  
-4. (オプション) 年次祝日の繰り返しを設定する。  
+3. 例外の日付範囲と作業時間を定義する。  
+4. （オプション）年次祝日の繰り返しを設定する。  
 5. プロジェクトを保存する。
 
-## Aspose.Tasks でカレンダー例外を管理する
-[Aspose.Tasks for Java でカレンダー例外を効率的に追加・削除する方法を学ぶ](./add-remove/)。プロジェクト管理において柔軟性は重要です。Aspose.Tasks はカレンダー例外を簡単に管理できるようにし、プロジェクトのタイムラインを動的に調整できます。このチュートリアルはステップバイステップのガイドを提供し、プロセスを効率的に習得できるようにします。簡単にプロジェクト管理ワークフローを強化する方法を発見してください。
+## Aspose.Tasksでカレンダー例外を管理する
 
-## Aspose.Tasks でカレンダー例外の平日を定義する
-[Aspose.Tasks を使用して Java プロジェクトのカレンダー例外の平日を定義する方法をマスターする](./define-weekdays/)。正確なプロジェクトスケジューリングには細部への注意が必要です。Aspose.Tasks を使えば、カレンダー例外の平日を正確に定義でき、プロジェクトをシームレスに特定のタイムラインに合わせられます。このチュートリアルはスケジューリング最適化に必要な知識を提供し、プロジェクトタイムラインのコントロールを可能にします。
+[Aspose.Tasks for Javaでカレンダー例外の追加と削除を効率的に行う方法を学ぶ](./add-remove/)。プロジェクト管理において柔軟性は重要です。Aspose.Tasks はカレンダー例外を簡単に管理できるようにし、プロジェクトのタイムラインを動的に調整できます。このチュートリアルはステップバイステップのガイドを提供し、プロセスを効率的に把握できるようにします。簡単にプロジェクト管理ワークフローを強化する方法を発見してください。
 
-## Aspose.Tasks を使用したカレンダー例外の発生処理
-[Aspose.Tasks for Java で Java プロジェクトのカレンダー例外を効果的に処理する方法](./handle-occurrences/)。プロジェクト管理は動的なプロセスであり、予期せぬ事象に対応する調整が頻繁に求められます。Aspose.Tasks はカレンダー例外を効果的に処理できるようにし、プロジェクト管理をスムーズにします。この詳細なチュートリアルで、プロジェクトの不確実性を簡単に管理する方法を学んでください。
+## Aspose.Tasksでカレンダー例外の平日を定義する
 
-## Aspose.Tasks でカレンダー例外を取得する
-[Aspose.Tasks for Java を使用して MS Project からカレンダー例外を取得する方法を学ぶ](./retrieve/)。Aspose.Tasks を使ってカレンダー例外をプロジェクト管理プロセスにシームレスに統合できます。このチュートリアルはカレンダー例外の取得手順をステップバイステップで案内し、プロジェクトへのスムーズで効率的な統合を実現します。Aspose.Tasks の力を活用してプロジェクト管理機能を強化してください。
+[Java プロジェクトでカレンダー例外の平日を定義する技術をマスターする](./define-weekdays/) Aspose.Tasks を使用します。正確なプロジェクトスケジューリングには細部への注意が必要です。Aspose.Tasks を使えば、カレンダー例外の平日を正確に定義でき、プロジェクトが特定のタイムラインにシームレスに合わせられます。このチュートリアルはスケジューリング最適化の知識を提供し、プロジェクトのタイムラインをコントロールできるようにします。
+
+## Aspose.Tasksでカレンダー例外の発生を処理する
+
+[Java プロジェクトでカレンダー例外を効果的に処理する](./handle-occurrences/) Aspose.Tasks for Java を使用します。プロジェクト管理は動的なプロセスであり、予期しない事象への調整がしばしば必要です。Aspose.Tasks はカレンダー例外を効果的に処理できるようにし、プロジェクト管理を簡素化します。この詳細なチュートリアルで、プロジェクトの不確実性を容易に管理する技術を学びましょう。
+
+## Aspose.Tasksでカレンダー例外を取得する
+
+[Aspose.Tasks for Java を使用して MS Project からカレンダー例外を取得する方法を学ぶ](./retrieve/)。Aspose.Tasks でカレンダー例外をプロジェクト管理プロセスにシームレスに統合できます。このチュートリアルはカレンダー例外取得のステップバイステッププロセスを案内し、プロジェクトへのスムーズで効率的な統合を保証します。Aspose.Tasks の力を活用してプロジェクト管理機能を強化しましょう。
 
 ## Aspose.Tasks と MS Project カレンダーを統合する方法
 
-`Project` クラスは Microsoft Project ファイルをロードし、カレンダーやその他のプロジェクトデータを公開します。`new Project("source.mpp")` で既存の MS Project ファイルをインポートすると、ライブラリはデフォルトカレンダーとカスタム例外を自動的にロードします。その後、例外を読み取り、変更、またはマージしてからプロジェクトをディスクに保存できます。このアプローチにより、MS Project UI で手動編集することなく、**MS Project カレンダー** データをプログラムで変更できます。
+Aspose.Tasks と MS Project カレンダーを統合するには、Project クラスを使用してソースの .mpp ファイルをロードし、デフォルトまたはカスタムの Calendar オブジェクトにアクセスし、必要に応じて例外を変更またはマージし、更新されたプロジェクトを保存します。これにより、手動の UI 操作なしでプログラムから MS Project カレンダーを操作できます。
+
+`Project` クラスは、Aspose.Tasks の主要オブジェクトで、Microsoft Project ファイル全体をモデル化します。`new Project("source.mpp")` を使用して既存の MS Project ファイルをインポートすると、ライブラリは自動的にデフォルトカレンダーとカスタム例外をロードします。その後、例外を読み取り、変更、またはマージしてからプロジェクトをディスクに保存できます。このアプローチにより、MS Project の UI で手動編集することなく、**MS Project カレンダー** データをプログラムで変更できます。
 
 ## 一般的な使用例
-- **休日スケジューリング** – 複数プロジェクトで国の祝日を非稼働日として定義する。  
-- **シフト勤務** – 標準外のスケジュールで運用するチーム向けにカスタム作業週を設定する。  
-- **プロジェクトフェーズのゲーティング** – メンテナンスウィンドウなど、作業をスケジュールすべきでない期間をブロックする。  
-- **レガシー移行** – 古い MS Project ファイルからカレンダーをインポートし、プログラムで調整する。
+- **Holiday scheduling** – 複数のプロジェクトで国の祝日を非作業日として定義します。  
+- **Shift work** – 標準外のスケジュールで運用するチーム向けにカスタム作業週を設定します。  
+- **Project phase gating** – メンテナンスウィンドウなど、作業をスケジュールすべきでない期間をブロックします。  
+- **Legacy migration** – 古い MS Project ファイルからカレンダーをインポートし、プログラムで調整します。
 
 ## ヒントとベストプラクティス
-- **プロのコツ:** 重複を防ぐため、常に新しい例外を追加する前に既存のカレンダーを取得してください。  
-- **警告:** すでにタスクに割り当てられているカレンダーを変更するとタスクの日付がずれる可能性があります。変更後はスケジュールを再計算してください。  
-- **パフォーマンス:** 複数の例外更新を単一トランザクションでバッチ処理し、ファイル I/O のオーバーヘッドを削減します。Aspose.Tasks は、ドキュメント全体をメモリにロードせずに最大 500 MB のファイルを処理し、一般的なサーバーハードウェアで秒間 50 件以上のカレンダー関連 API 呼び出しを処理します。
+- **Pro tip:** 重複を防ぐため、常に新しい例外を追加する前に既存のカレンダーを取得してください。  
+- **Warning:** すでにタスクに割り当てられているカレンダーを変更するとタスクの日付がシフトする可能性があります。変更後はスケジュールを再計算してください。  
+- **Performance:** 複数の例外更新を単一のトランザクションでバッチ処理し、ファイル I/O のオーバーヘッドを削減します。Aspose.Tasks は最大 1 GB のファイルをメモリ使用量 200 MB 未満で処理でき、一般的なサーバーハードウェア上で秒間 30 件以上のカレンダー関連 API 呼び出しを処理できます。
 
 ## カレンダー例外チュートリアル
-### [Aspose.Tasks でカレンダー例外を管理する](./add-remove/)
-Aspose.Tasks for Java でカレンダー例外を効率的に追加・削除する方法を学びます。プロジェクト管理ワークフローを手間なく強化できます。
-### [Aspose.Tasks でカレンダー例外の平日を定義する](./define-weekdays/)
-Aspose.Tasks を使用して Java プロジェクトのカレンダー例外の平日を定義し、正確なプロジェクトスケジューリングを実現する方法を学びます。
-### [Aspose.Tasks を使用したカレンダー例外の発生処理](./handle-occurrences/)
-Aspose.Tasks for Java で Java プロジェクトのカレンダー例外を効果的に処理する方法を学び、プロジェクト管理プロセスを今すぐ合理化します。
-### [Aspose.Tasks でカレンダー例外を取得する](./retrieve/)
+### [Aspose.Tasksでカレンダー例外を管理する](./add-remove/)
+Aspose.Tasks for Javaでカレンダー例外の追加と削除を効率的に行う方法を学びます。プロジェクト管理ワークフローを簡単に強化できます。
+
+### [Aspose.Tasksでカレンダー例外の平日を定義する](./define-weekdays/)
+Aspose.Tasks を使用して Java プロジェクトでカレンダー例外の平日を定義し、正確なプロジェクトスケジューリングを実現する方法を学びます。
+
+### [Aspose.Tasksでカレンダー例外の発生を処理する](./handle-occurrences/)
+Aspose.Tasks for Java を使用して Java プロジェクトでカレンダー例外を効果的に処理する方法を学びます。今すぐプロジェクト管理プロセスを効率化しましょう。
+
+### [Aspose.Tasksでカレンダー例外を取得する](./retrieve/)
 Aspose.Tasks for Java を使用して MS Project からカレンダー例外を取得する方法を学びます。シームレスな統合のためのステップバイステップチュートリアルです。
 
 ## よくある質問
 
-**Q: プロジェクトがすでに公開された後でもカレンダー例外を変更できますか？**  
-**A:** はい。add‑remove と define‑weekdays API を使用してカレンダーを更新し、プロジェクトファイルを再保存すれば変更できます。
+**Q: プロジェクトが既に公開された後でもカレンダー例外を変更できますか？**  
+A: はい。add‑remove と define‑weekdays API を使用してカレンダーを更新し、プロジェクト ファイルを再保存してください。
 
-**Q: 繰り返しの例外（例：毎月第1月曜日）をサポートしていますか？**  
-**A:** もちろんです。「カレンダー例外の発生処理」チュートリアルで繰り返しパターンの設定方法を取り上げています。
+**Q: Aspose.Tasks は繰り返しの例外（例：毎月第1月曜日）をサポートしていますか？**  
+A: もちろんです。「handle occurrences」チュートリアルで繰り返しパターンの設定方法を取り上げています。
 
-**Q: カスタムカレンダーがプロジェクト内のすべてのタスクで使用されていることをどう保証しますか？**  
-**A:** カレンダーをプロジェクトのデフォルトカレンダーに割り当てるか、各タスクの `Calendar` プロパティに明示的に設定してください。
+**Q: カスタムカレンダーがプロジェクト内のすべてのタスクで使用されるようにするには？**  
+A: カレンダーをプロジェクトのデフォルトカレンダーに割り当てるか、各タスクの `Calendar` プロパティに明示的に設定してください。
 
 **Q: 複数の MS Project ファイルからカレンダーをマージすることは可能ですか？**  
-**A:** はい。各カレンダーを取得し、例外をプログラムで結合してから、統合したカレンダーを対象プロジェクトに割り当てます。
+A: はい。各カレンダーを取得し、例外をプログラムで結合してから、マージしたカレンダーを対象プロジェクトに割り当てます。
 
 **Q: これらの機能に必要な Aspose.Tasks のバージョンは？**  
-**A:** すべての機能は現在の安定版 Aspose.Tasks for Java（2025.x）で利用可能です。
-
----
-
-**最終更新日:** 2026-08-18  
-**テスト環境:** Aspose.Tasks for Java 24.11  
-**作者:** Aspose
+A: すべての機能は現在の安定版 Aspose.Tasks for Java (2025.x) で利用可能です。
 
 ## 関連チュートリアル
+- [プロジェクト カレンダー作成 Aspose – カレンダー例外の平日を定義する](/tasks/java/calendar-exceptions/define-weekdays/)
+- [Aspose.Tasksでカレンダー例外を取得する – asp tasks java チュートリアル](/tasks/java/calendar-exceptions/retrieve/)
+- [Aspose for Javaでカレンダー例外を作成する](/tasks/java/calendar-exceptions/add-remove/)
 
-- [Create Project Calendar Aspose – Define Weekdays for Calendar Exceptions](/tasks/java/calendar-exceptions/define-weekdays/)
-- [Retrieve Calendar Exceptions with Aspose.Tasks – asp tasks java tutorial](/tasks/java/calendar-exceptions/retrieve/)
-- [Create Calendar Exception Aspose for Java](/tasks/java/calendar-exceptions/add-remove/)
-
+---
+**最終更新日:** 2026-11-06  
+**テスト環境:** Aspose.Tasks for Java 24.11  
+**作者:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

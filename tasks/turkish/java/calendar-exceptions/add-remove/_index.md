@@ -1,24 +1,28 @@
 ---
-date: 2026-08-08
-description: Aspose.Tasks for Java ile java takvim istisnası oluşturmayı öğrenin,
-  istisnaları verimli bir şekilde ekleyin ve kaldırın, proje zamanlamasını iyileştirin.
+date: 2026-11-06
+description: Aspose.Tasks for Java kullanarak bir proje takvimindeki istisnayı nasıl
+  kaldıracağınızı öğrenin, istisnaları verimli bir şekilde ekleyin ve yönetin ve zamanlamayı
+  iyileştirin.
+images:
+- /java/calendar-exceptions/add-remove/og-image.png
 keywords:
-- create calendar exception java
+- how to remove exception
+- how to handle recurring
+- how to add exception
 - Aspose.Tasks Java
 - project calendar management
-lastmod: 2026-08-08
+lastmod: 2026-11-06
 linktitle: Aspose.Tasks'te Takvim İstisnalarını Ekle ve Kaldır
-og_description: Aspose.Tasks for Java ile java takvim istisnası oluşturmayı öğrenin.
-  Microsoft Project dosyalarında takvim istisnalarını verimli bir şekilde ekleyin,
-  kaldırın ve doğrulayın.
+og_description: Aspose.Tasks for Java kullanarak bir proje takvimindeki istisna nasıl
+  kaldırılır. Takvim istisnalarını verimli bir şekilde yönetin, ekleyin ve doğrulayın.
 og_image_alt: Screenshot of Java code managing calendar exceptions with Aspose.Tasks
-og_title: Aspose.Tasks kullanarak java takvim istisnası oluşturma – hızlı rehber
+og_title: Bir proje takvimindeki istisna nasıl kaldırılır – Aspose.Tasks Java rehberi
 schemas:
 - author: Aspose
-  dateModified: '2026-08-08'
-  description: Learn how to create calendar exception java with Aspose.Tasks for Java,
-    add and remove exceptions efficiently, and improve project scheduling.
-  headline: Create calendar exception java using Aspose.Tasks
+  dateModified: '2026-11-06'
+  description: Learn how to remove exception in a project calendar using Aspose.Tasks
+    for Java, add and manage exceptions efficiently.
+  headline: How to remove exception in a project calendar using Aspose.Tasks
   type: TechArticle
 - questions:
   - answer: Yes. Create a new `CalendarException` for each date range and add it to
@@ -32,10 +36,10 @@ schemas:
       to define daily, weekly, or monthly repeat patterns.
     question: How can I handle recurring exceptions (e.g., weekly meetings) in project
       calendars?
-  - answer: Yes, you can download a free trial from the [website](https://releases.aspose.com/)
+  - answer: Yes, you can download a free trial from the [Aspose Releases page](https://releases.aspose.com/)
       to explore all features before purchasing.
     question: Is there a trial version available for Aspose.Tasks for Java?
-  - answer: Visit the Aspose.Tasks forum for Java on the [website](https://reference.aspose.com/tasks/java/)
+  - answer: Visit the Aspose.Tasks forum for Java on the [Aspose Tasks Java forum](https://reference.aspose.com/tasks/java/)
       to ask questions, or contact Aspose support directly.
     question: Where can I seek support for Aspose.Tasks for Java issues?
   type: FAQPage
@@ -44,7 +48,7 @@ tags:
 - calendar exception
 - Aspose.Tasks
 - Java project scheduling
-title: Aspose.Tasks kullanarak java takvim istisnası oluşturma
+title: Aspose.Tasks for Java kullanarak bir proje takvimindeki istisna nasıl kaldırılır
 url: /tr/java/calendar-exceptions/add-remove/
 weight: 10
 ---
@@ -53,41 +57,47 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks kullanarak java takvim istisnası oluşturma
+# Proje takviminde Aspose.Tasks for Java kullanarak istisna nasıl kaldırılır
 
 ## Giriş
-Doğru proje zamanlaması genellikle **takvim istisnalarını** yönetmeye bağlıdır—kaynakların mevcut olmadığı veya çalışma programlarının değiştiği günler. **Aspose.Tasks for Java** ile **create calendar exception java** nesneleri oluşturabilir, bunları bir proje takvimine ekleyebilir veya artık ihtiyaç duyulmadığında kaldırabilirsiniz. Bu öğreticide, bir proje dosyasını yüklemekten yönetilen istisnaları doğrulamaya kadar tüm süreci adım adım göstereceğiz. **create calendar exception java**'ı bir Java ortamında nasıl oluşturacağınızı ve bunun gerçekçi zaman çizelgeleri için neden önemli olduğunu tam olarak göreceksiniz.
+Doğru proje zamanlaması, **takvim istisnaları**—kaynakların mevcut olmadığı veya çalışma programlarının değiştiği günlerin—ele alınmasına bağlıdır. **Aspose.Tasks for Java** ile takvim istisnalarını **oluşturabilir**, **ekleyebilir**, **kaldırabilir** ve **yönetebilirsiniz**. Bu öğreticide bir projeyi yükleme, yeni bir istisna ekleme, mevcut bir istisnayı kaldırma ve sonuçları doğrulama adımlarını göstereceğiz, böylece artık ihtiyaç duyulmadığında **istisna girişlerini nasıl kaldıracağınızı** tam olarak anlayacaksınız.
 
-## Hızlı cevaplar
-- **“create calendar exception” ne anlama geliyor?** Standart çalışma takviminden sapma gösteren bir tarih aralığını tanımlamaktır.  
-- **Bu yeteneği sağlayan kütüphane hangisidir?** Aspose.Tasks for Java.  
-- **Denemek için lisansa ihtiyacım var mı?** Ücretsiz bir deneme mevcuttur; üretim kullanımı için lisans gereklidir.  
-- **Mevcut bir istisnayı kaldırabilir miyim?** Evet—takvimin istisna listesinde bulup silebilirsiniz.  
-- **Microsoft Project dosyalarıyla uyumlu mu?** Kesinlikle; Aspose.Tasks tüm büyük .mpp sürümlerini okur ve yazar.
+## Hızlı yanıtlar
+- **“Takvim istisnası oluşturmak” ne anlama gelir?** Standart çalışma takviminden sapma gösteren bir tarih aralığı tanımlamaktır.  
+- **Bu yeteneği hangi kütüphane sağlar?** Aspose.Tasks for Java.  
+- **Denemek için lisansa ihtiyacım var mı?** Ücretsiz bir deneme sürümü mevcuttur; üretim kullanımı için lisans gereklidir.  
+- **Mevcut bir istisnayı kaldırabilir miyim?** Evet—takvimdeki istisna listesini bulup silmeniz yeterlidir.  
+- **Bu, Microsoft Project dosyalarıyla uyumlu mu?** Kesinlikle; Aspose.Tasks tüm büyük .mpp sürümlerini okuyup yazabilir.
 
 ## create calendar exception java nedir?
-Bir calendar exception java, Aspose.Tasks' Java API'si kullanarak bir proje takvimine çalışılmayan bir dönem ekler. Bu, zamanlayıcıya belirtilen tarihleri tatil, bakım penceresi veya başka herhangi bir özel çalışılmayan zaman olarak ele almasını söyler; böylece görev tarihleri gerçek dünya kısıtlamalarına ve kaynak kullanılabilirliğine saygı gösterir.
+`CalendarException` sınıfı, bir proje takvimine eklediğiniz çalışmayan bir dönemi temsil eder. Belirtilen tarihlerin tatil, bakım penceresi veya herhangi bir özel çalışmayan zaman olarak ele alınmasını sağlar ve görev tarihlerinin gerçek dünya kısıtlamalarına uymasını garantiler.
 
 ## Takvim istisnaları için Aspose.Tasks neden kullanılmalı?
-Aspose.Tasks for Java, 30'dan fazla proje dosyası formatını destekler ve tüm belgeyi belleğe yüklemeden 2 GB'a kadar dosyaları işleyebilir. Büyük istisna listeleriyle çalışırken yerel Microsoft Project API'lerine göre yaklaşık %40 performans artışı sağlar; bu da hızlı ve güvenilir takvim manipülasyonu gerektiren kurumsal ölçekli zamanlama senaryoları için idealdir.
+Aspose.Tasks for Java **50+ giriş ve çıkış formatını** destekler ve dosyaları **2 GB**’a kadar, belgeyi tamamen belleğe yüklemeden işleyebilir. Büyük istisna listeleriyle çalışırken yerel Microsoft Project API’lerine göre yaklaşık **%40 performans artışı** sağlar, bu da kurumsal ölçekli zamanlama senaryoları için idealdir.
 
 ## Önkoşullar
-- Java Development Kit (JDK) 8 veya daha üstü yüklü.  
-- Aspose.Tasks for Java kütüphanesi projenizin classpath'ine eklenmiş.  
+- Java Development Kit (JDK) 8 veya üzeri yüklü olmalıdır.  
+- Aspose.Tasks for Java kütüphanesi projenizin sınıf yoluna eklenmiş olmalıdır.  
 - Java sözdizimi ve proje yönetimi kavramlarına temel aşinalık.
 
-## Aspose.Tasks ile calendar exception java nasıl oluşturulur
-Projeyi yükleyin, takvimini manipüle edin ve değişiklikleri doğrulayın—temiz kodu kısa açıklamalarla birleştiren birkaç basit adımda.
+## Takvimden istisna nasıl kaldırılır?
+`Project` sınıfı bir Microsoft Project dosyasını temsil eder ve takvimlerine, görevlerine ve kaynaklarına erişim sağlar. `CalendarException` sınıfı takvim içinde bir çalışmayan dönemi tanımlar. Projeyi yükleyin, takvimdeki istenmeyen `CalendarException` öğesini bulun ve listeden `remove` metodunu çağırın. Bu işlem takvimi anında günceller ve değişikliği kalıcı hale getirmek istemediğiniz sürece tüm proje dosyasını yeniden kaydetmenize gerek kalmaz.
+
+## Takvime istisna nasıl eklenir?
+`CalendarException` sınıfı takvime eklenebilen bir çalışmayan dönemi tanımlar. Yeni bir `CalendarException` örneği oluşturun, başlangıç ve bitiş tarihlerini ayarlayın, çalışmayan olarak işaretleyin ve takvimin istisna listesine ekleyin. Ekleme anında gerçekleşir ve zamanlayıcı bu aralığı takvime bağlı tüm görevler için tatil olarak kabul eder.
+
+## Tekrarlayan istisnalar nasıl yönetilir?
+`CalendarException` tekrarlama özellikleri (`setRecurrencePattern`) günlük, haftalık veya aylık tekrar desenleri tanımlamanıza olanak verir. Bu özellikleri yapılandırarak haftalık toplantılar, aylık bakım pencereleri veya herhangi bir desen‑tabanlı çalışmayan zamanı, her bir oluşum için ayrı bir giriş oluşturmadan modelleyebilirsiniz.
 
 ## Paketleri içe aktar
-`import` ifadeleri, gerekli Aspose.Tasks sınıflarını kapsam içine getirir, böylece kodda referans verilebilir.
+`import` ifadeleri, kod içinde referans verilebilecek gerekli Aspose.Tasks sınıflarını kapsam içine alır.
 
 ```java
 import com.aspose.tasks.*;
 ```
 
 ## Adım 1: projeyi yükleyin ve takvimine erişin
-`Project` sınıfı bir Microsoft Project dosyasını temsil eder, `Calendar` ise proje içindeki bir takvimi temsil eder. Mevcut bir dosyayı yüklüyor ve koleksiyondaki ilk takvimi alıyoruz.
+`Project` bir Microsoft Project dosyasını, `Calendar` ise o projedeki bir takvimi temsil eder. Mevcut bir dosyayı yüklemek ve koleksiyondaki ilk takvimi almak ilk adımdır.
 
 ```java
 String dataDir = "Your Data Directory";
@@ -95,8 +105,8 @@ Project project = new Project(dataDir + "input.mpp");
 Calendar cal = project.getCalendars().toList().get(0);
 ```
 
-## Adım 2: mevcut bir istisnayı kaldırın (gerekirse)
-`CalendarException` nesneleri çalışılmayan dönemleri tanımlar. Bu kod parçacığı, istisna listesini kontrol eder ve birden fazla istisna olduğunda ilk girişi kaldırır, tek istisnanın yanlışlıkla silinmesini önler.
+## Adım 2: mevcut bir istisna kaldırın (gerekirse)
+`CalendarException` nesneleri çalışmayan dönemleri tanımlar. Bu kod parçacığı, istisna listesini kontrol eder ve birden fazla istisna varsa ilk öğeyi kaldırarak tek bir istisnanın yanlışlıkla silinmesini önler.
 
 ```java
 if (cal.getExceptions().size() > 1) {
@@ -105,10 +115,10 @@ if (cal.getExceptions().size() > 1) {
 }
 ```
 
-> **Pro tip:** Öğeleri kaldırmadan önce istisna listesinin boyutunu her zaman doğrulayın, `IndexOutOfBoundsException` oluşmasını önlemek için.
+> **Pro ipucu:** Öğeleri kaldırmadan önce istisna listesinin boyutunu her zaman doğrulayın, aksi takdirde `IndexOutOfBoundsException` alabilirsiniz.
 
 ## Adım 3: yeni bir takvim istisnası oluşturun (ekleyin)
-Yeni bir `CalendarException` nesnesi oluşturur, başlangıç ve bitiş tarihlerini ayarlar, çalışılmayan olarak işaretler ve takvimin istisna koleksiyonuna ekleriz.
+Yeni bir `CalendarException` örneği oluşturur, başlangıç ve bitiş tarihlerini ayarlar, çalışmayan olarak işaretler ve takvimin istisna koleksiyonuna ekleriz.
 
 ```java
 CalendarException calExc = new CalendarException();
@@ -120,10 +130,10 @@ calExc.setToDate(calObject.getTime());
 cal.getExceptions().add(calExc);
 ```
 
-> **Neden önemli:** İstisnalar eklemek, tatilleri, bakım pencerelerini veya herhangi bir çalışılmayan dönemi doğrudan proje takviminde modellemenizi sağlar. Bu, **create calendar exception java** işlevselliğinin çekirdeğidir.
+> **Neden önemli:** İstisnalar eklemek, tatilleri, bakım pencerelerini veya herhangi bir çalışmayan dönemi doğrudan proje takvimine modellemenizi sağlar. Bu, **create calendar exception java** işlevinin temelidir.
 
-## Adım 4: doğrulama için tüm istisnaları göster
-`calendar.getExceptions()` üzerinde döngü yapıp her girişi yazdırmak, takvimin istenen değişiklikleri yansıttığını doğrular ve hataları erken yakalamanıza yardımcı olur.
+## Adım 4: doğrulama için tüm istisnaları gösterin
+`calendar.getExceptions()` üzerinden döngü kurarak her bir girdiyi yazdırmak, takvimin istenen değişiklikleri yansıtıp yansıtmadığını onaylar ve hataları erken yakalamanıza yardımcı olur.
 
 ```java
 for (CalendarException calExc1 : cal.getExceptions()) {
@@ -132,48 +142,47 @@ for (CalendarException calExc1 : cal.getExceptions()) {
 }
 ```
 
-## Java'da bir takvim istisnası nasıl eklenir?
-Projenizi `new Project("input.mpp")` ile yükleyin, hedef `Calendar`'ı alın, istediğiniz başlangıç ve bitiş tarihleriyle bir `CalendarException` oluşturun, çalışma bayrağını `false` olarak ayarlayın ve `calendar.getExceptions()`'a ekleyin. Bu kısa sıralama, sadece birkaç satır kodla bir calendar exception java oluşturur.
+## Java’da takvim istisnası nasıl eklenir?
+`new Project("input.mpp")` ile projenizi yükleyin, hedef `Calendar`’ı alın, istediğiniz başlangıç ve bitiş tarihleriyle bir `CalendarException` örneği oluşturun, çalışma bayrağını `false` olarak ayarlayın ve `calendar.getExceptions()` listesine ekleyin. Bu kısa sekans, sadece birkaç satır kodla bir takvim istisnası java oluşturur.
 
 ## Yaygın sorunlar ve çözümler
 | Sorun | Neden | Çözüm |
 |-------|-------|------|
-| Çıktı görünmüyor | İstisna listesi boş | Döngüye girmeden önce bir istisna eklediğinizden emin olun. |
-| `project` üzerinde `NullPointerException` | Yanlış dosya yolu | `dataDir`'in geçerli bir `.mpp` dosyasına işaret ettiğini doğrulayın. |
-| Tarihler bir gün kayıyor | Zaman dilimi farkları | Açık zaman dilimiyle `java.util.Calendar` veya `java.time` API'sini kullanın. |
+| Çıktı görünmüyor | İstisna listesi boş | İstisna eklediğinizden emin olun ve ardından yineleyin. |
+| `project` üzerinde `NullPointerException` | Yanlış dosya yolu | `dataDir`’in geçerli bir `.mpp` dosyasına işaret ettiğini doğrulayın. |
+| Tarihler bir gün eksik | Zaman dilimi farkları | Açık zaman dilimiyle `java.util.Calendar` kullanın veya `java.time` API’sini tercih edin. |
 
 ## Sıkça sorulan sorular
 
-**S: Aspose.Tasks for Java kullanarak bir takvime birden fazla istisna ekleyebilir miyim?**  
-C: Evet. Her tarih aralığı için yeni bir `CalendarException` oluşturun ve bir döngü içinde `calendar.getExceptions()`'a ekleyin.
+**S:** Aspose.Tasks for Java kullanarak bir takvime birden fazla istisna ekleyebilir miyim?  
+**C:** Evet. Her tarih aralığı için yeni bir `CalendarException` oluşturup `calendar.getExceptions()` listesine bir döngü içinde ekleyebilirsiniz.
 
-**S: Aspose.Tasks for Java, Microsoft Project dosyalarının tüm sürümleriyle uyumlu mu?**  
-C: Aspose.Tasks, Project 98'den en yeni sürümlere kadar geniş bir .mpp sürüm yelpazesini destekler, sorunsuz entegrasyon sağlar.
+**S:** Aspose.Tasks for Java, Microsoft Project dosyalarının tüm sürümleriyle uyumlu mu?  
+**C:** Aspose.Tasks, Project 98’den en yeni sürümlere kadar geniş bir .mpp sürüm yelpazesini destekler, sorunsuz entegrasyon sağlar.
 
-**S: Proje takvimlerinde yinelenen istisnaları (ör. haftalık toplantılar) nasıl yönetebilirim?**  
-C: Günlük, haftalık veya aylık tekrar desenlerini tanımlamak için `CalendarException` yinelenme özelliklerini (`setRecurrencePattern`) kullanın.
+**S:** Proje takvimlerinde tekrarlayan istisnalar (ör. haftalık toplantılar) nasıl yönetilir?  
+**C:** `CalendarException` tekrarlama özelliklerini (`setRecurrencePattern`) kullanarak günlük, haftalık veya aylık tekrar desenleri tanımlayabilirsiniz.
 
-**S: Aspose.Tasks for Java için bir deneme sürümü mevcut mu?**  
-C: Evet, satın almadan önce tüm özellikleri keşfetmek için [web sitesinden](https://releases.aspose.com/) ücretsiz bir deneme indirebilirsiniz.
+**S:** Aspose.Tasks for Java için bir deneme sürümü mevcut mu?  
+**C:** Evet, tüm özellikleri keşfetmek için [Aspose Releases sayfasından](https://releases.aspose.com/) ücretsiz bir deneme indirebilirsiniz.
 
-**S: Aspose.Tasks for Java sorunları için nereden destek alabilirim?**  
-C: Sorularınızı sormak için [web sitesindeki](https://reference.aspose.com/tasks/java/) Aspose.Tasks Java forumunu ziyaret edin veya doğrudan Aspose desteğiyle iletişime geçin.
+**S:** Aspose.Tasks for Java ile ilgili destek nasıl alınır?  
+**C:** [Aspose Tasks Java forumunda](https://reference.aspose.com/tasks/java/) sorular sorabilir veya doğrudan Aspose destek ekibiyle iletişime geçebilirsiniz.
 
 ## Sonuç
-Takvim istisnalarını yönetmek, gerçekçi proje zaman çizelgeleri ve kaynak planlaması için esastır. **Aspose.Tasks for Java** ile **create calendar exception java** nesneleri oluşturabilir, bunları herhangi bir proje takvimine ekleyebilir ve artık ilgili olmadıklarında kaldırabilirsiniz—hepsi sadece birkaç satır kodla. **create calendar exception java** yeteneği, gerçek dünya kısıtlamalarını gerçekten yansıtan takvimler oluşturmanızı sağlar.
+Takvim istisnalarını yönetmek, gerçekçi proje zaman çizelgeleri ve kaynak planlaması için kritiktir. **Aspose.Tasks for Java** ile takvim istisnalarını **oluşturabilir**, **ekleyebilir**, **kaldırabilir** ve **doğrulayabilirsiniz**—hepsi birkaç satır kodla. **İstisna kaldırma** işlemini ustalaşmak, takvimlerinizi doğru ve gerçek dünya kısıtlamalarına uygun tutmanızı sağlar.
 
 ---
 
-**Last Updated:** 2026-08-08  
-**Tested With:** Aspose.Tasks for Java 24.11  
-**Author:** Aspose
+**Son Güncelleme:** 2026-11-06  
+**Test Edilen Versiyon:** Aspose.Tasks for Java 24.11  
+**Yazar:** Aspose
 
-## İlgili Öğreticiler
+## İlgili öğreticiler
 
-- [Projeye Takvim Oluşturma Aspose – Takvim İstisnaları için Hafta Günlerini Tanımlama](/tasks/java/calendar-exceptions/define-weekdays/)
-- [Aspose.Tasks ile Takvim İstisnalarını Getirme – asp tasks java öğreticisi](/tasks/java/calendar-exceptions/retrieve/)
-- [Aspose.Tasks for Java ile projeye takvim ekleme](/tasks/java/calendars/create/)
-
+- [Create Project Calendar Aspose – Define Weekdays for Calendar Exceptions](/tasks/java/calendar-exceptions/define-weekdays/)
+- [Retrieve Calendar Exceptions with Aspose.Tasks – asp tasks java tutorial](/tasks/java/calendar-exceptions/retrieve/)
+- [Add calendar to project with Aspose.Tasks for Java](/tasks/java/calendars/create/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
