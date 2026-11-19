@@ -1,27 +1,29 @@
 ---
-date: 2026-08-08
-description: 了解如何使用 Aspose.Tasks for Java 在 MS Project 日历中定义工作日。本指南展示了如何修改 MS Project
-  日历、创建自定义 Java 日历以及高效安排工作日。
+date: 2026-11-19
+description: 了解如何使用 Aspose.Tasks 在 Java 中创建自定义日历。本指南向您展示如何定义工作日、设置工作时间以及以编程方式修改 MS
+  Project 日历。
+images:
+- /java/calendars/og-image.png
 keywords:
-- how to define weekdays
-- modify ms project calendar
-- custom calendar java
-- define weekdays ms project
-- java schedule working days
-lastmod: 2026-08-08
+- create custom calendar java
+- define working days ms project
+- set working hours ms project
+- aspose.tasks java calendar
+- ms project calendar manipulation
+lastmod: 2026-11-19
 linktitle: 日历
-og_description: 了解如何使用 Aspose.Tasks for Java 在 MS Project 日历中定义工作日。本指南展示了如何修改 MS Project
-  日历、创建自定义 Java 日历以及高效安排工作日。
-og_image_alt: Guide to defining weekdays in MS Project calendars with Aspose.Tasks
-  Java
-og_title: 如何在 MS Project 日历中定义工作日 – Aspose.Tasks Java
+og_description: 了解如何使用 Aspose.Tasks 在 Java 中创建自定义日历。掌握定义工作日、设置工作时间以及高效修改 MS Project
+  日历的技巧。
+og_image_alt: Guide to creating custom calendars in MS Project using Aspose.Tasks
+  for Java
+og_title: 如何使用 Aspose.Tasks 在 Java 中创建自定义日历
 schemas:
 - author: Aspose
-  dateModified: '2026-08-08'
-  description: Learn how to define weekdays in MS Project calendars using Aspose.Tasks
-    for Java. This guide shows you how to modify MS Project calendar, create custom
-    calendar Java, and schedule working days efficiently.
-  headline: How to define weekdays in MS Project calendars – Aspose.Tasks Java
+  dateModified: '2026-11-19'
+  description: Learn how to create custom calendar Java using Aspose.Tasks. This guide
+    shows you how to define working days, set working hours, and modify MS Project
+    calendars programmatically.
+  headline: How to create custom calendar Java with Aspose.Tasks
   type: TechArticle
 - questions:
   - answer: Yes. Aspose.Tasks lets you set start and finish times individually for
@@ -47,7 +49,7 @@ tags:
 - Java project management
 - MS Project integration
 - working days
-title: 如何在 MS Project 日历中定义工作日 – Aspose.Tasks Java
+title: 如何使用 Aspose.Tasks 在 Java 中创建自定义日历
 url: /zh/java/calendars/
 weight: 21
 ---
@@ -60,120 +62,137 @@ weight: 21
 
 ## 介绍
 
-如果你是一名希望在项目计划中**定义工作日**的 Java 开发者，那么你来对地方了。在本中心我们收集了所有 Aspose.Tasks for Java 教程，展示**如何在 MS Project 日历中定义工作日**、调整工作时间，并保持时间线清晰明了。无论你是构建全新的调度引擎还是微调现有计划，掌握工作日定义都能让你精确控制工作日模式、假期和自定义班次。本指南还解释了**如何以编程方式修改 MS Project 日历**设置，从而可以在数十个项目中自动创建日历。
+If you’re a Java developer who wants to **create custom calendar Java** solutions, you’ve landed in the right place. This hub gathers all Aspose.Tasks for Java tutorials that demonstrate how to **define working days MS Project**, **set working hours MS Project**, and programmatically adjust calendar settings. Whether you’re building a new scheduling engine or extending an existing plan, mastering these APIs gives you precise control over work‑day patterns, holidays, and custom shifts—without ever opening the MS Project UI.
 
 ## 快速答案
 - **定义工作日的主要目的是什么？**  
-  告诉 MS Project 哪些天是工作日以及它们的工作时间是多少。
+  告诉 MS Project 哪些天是工作日以及它们的工作时间。  
 - **哪个库在 Java 中处理工作日定义？**  
-  Aspose.Tasks for Java 提供了用于日历操作的流畅 API。
+  Aspose.Tasks for Java provides a fluent API for calendar manipulation.  
 - **我需要许可证吗？**  
-  免费评估许可证可用于测试；生产环境需要商业许可证。
+  A free evaluation license works for testing; a commercial license is required for production.  
 - **我可以为不同团队定义多个日历吗？**  
-  可以——每个项目可以包含多个日历，每个日历都有自己的工作日设置。
+  Yes – each project can contain several calendars, each with its own weekday settings.  
 - **有没有可供开始的示例项目？**  
-  下方链接的“Define Weekdays in Calendar”教程包含一个可直接运行的示例。
+  The “Define Weekdays in Calendar” tutorial linked below includes a ready‑to‑run example.
+
+## 如何创建自定义 Java 日历？
+
+Load a project, create or retrieve a calendar, add weekday definitions, and save the file—all in a handful of API calls. This approach removes manual UI steps, lets you automate calendar creation across dozens of projects, and ensures consistent working‑day patterns throughout your organization.
+
+## 什么是 Project 类？
+
+The `Project` class is the central object for loading, editing, and saving MS Project files. It holds collections of tasks, resources, and calendars, exposing methods that let you read and modify every aspect of a project programmatically. Using this class, you can access a project’s calendar collection, adjust working times, and persist changes back to an MPP or XML file.
 
 ## 如何在 MS Project 日历中定义工作日？
 
-`Project` 类表示一个 MS Project 文件并提供对其数据结构的访问。`Calendar` 对象存储项目的工作时间定义和例外。使用 `new Project("myproject.mpp")` 加载项目，检索（或创建）`Calendar` 对象，然后调用 `calendar.getWeekDays().add(new WeekDay(DayType.Monday, true, new WorkingTime(9, 0, 17, 0)))`。该行代码创建了一个星期一的工作日条目，工作时段为 8 小时。对其他天重复此操作，最后使用 `project.save("updated.mpp")` 保存项目。此简洁模式让你只需几次 API 调用即可定义、修改或删除工作日，省去手动 UI 操作的需求。
+The `Project` class represents an MS Project file and provides access to its data structures. A `Calendar` object stores working time definitions and exceptions for a project. Load your project with `new Project("myproject.mpp")`, retrieve (or create) a `Calendar` object, and then call `calendar.getWeekDays().add(new WeekDay(DayType.Monday, true, new WorkingTime(9, 0, 17, 0)))`. That single line creates a Monday work‑day entry with an 8‑hour shift. Repeat for other days, and finally save the project with `project.save("updated.mpp")`. This concise pattern lets you define, modify, or delete weekdays in just a few API calls, eliminating the need for manual UI interaction.
 
 ## 什么是 WeekDay 对象？
 
-`WeekDay` 对象表示 Aspose.Tasks 日历中的单个星期条目，存储其工作状态和工作时间区间。你可以配置开始/结束时间，将其设为非工作日，或添加加班时段。它可以包含多个 `WorkingTime` 区间以模拟分段班次，并支持默认工作日的标记。使用 `WeekDay` API 可以启用或禁用某天，分配常规工时，或为高级调度场景指定加班规则。
+A `WeekDay` object represents a single day‑of‑the‑week entry inside a calendar. It stores whether the day is working, the working‑time intervals for that day, and flags for default behavior. You can attach one or more `WorkingTime` intervals to model split shifts, set the day as non‑working, or inherit defaults from the parent calendar.
+
+## 如何在 MS Project 中定义工作日？
+
+You define working days by adding `WeekDay` objects to a calendar’s `WeekDays` collection. Each `WeekDay` specifies whether the day is working and the time ranges that are considered work time. For example, to make Saturday a half‑day, add a `WeekDay` with a single `WorkingTime` from 10:00 to 14:00. The API automatically updates the project’s schedule calculations.
+
+## 如何在 MS Project 中设置工作时间？
+
+Set working hours by creating one or more `WorkingTime` intervals for each `WeekDay`. A `WorkingTime` takes start‑hour, start‑minute, end‑hour, and end‑minute values. You can assign multiple intervals to a single day to model split shifts (e.g., 08:00‑12:00 and 13:00‑17:00). After configuring all weekdays, call `project.save(...)` to persist the changes.
 
 ## 为什么使用 Aspose.Tasks for Java 来定义工作日？
 
-- **完整的 API 控制** – 无 UI 限制；可以以编程方式创建、修改或删除工作日条目。  
-- **跨平台** – 适用于任何兼容 JVM 的环境，从桌面应用到云服务均可。  
-- **精确性** – 为每个工作日设置不同的工作时间，添加假期例外，并在多个项目间同步日历。  
-- **性能** – 处理包含 500 + 任务和 100 + 周的项目及日历时，无需加载完整 UI，在标准 2.5 GHz 服务器上转换时间低于 2 秒（基于 Aspose 基准的量化声明）。  
+- **Full API control** – No UI limitations; you can programmatically create, modify, or delete weekday entries.  
+- **Cross‑platform** – Works on any JVM‑compatible environment, from desktop apps to cloud services.  
+- **Precision** – Set different working times for each weekday, add exceptions for holidays, and synchronize calendars across multiple projects.  
+- **Performance** – Process projects with up to 500 + tasks and calendars containing 100 + weeks without loading the entire UI, achieving conversion times under 2 seconds on a standard 2.5 GHz server (quantified claim based on Aspose benchmark).  
+- **Broad format support** – Aspose.Tasks supports 30+ calendar‑related APIs and can import/export to more than 20 file formats, enabling seamless integration with existing project data pipelines.
 
-## 前提条件
-- 已安装 Java 8 或更高版本。  
-- Aspose.Tasks for Java 库（从 Aspose 网站下载或通过 Maven/Gradle 添加）。  
-- 有效的 Aspose.Tasks 许可证（评估许可证可用于学习）。  
+## 前置条件
+- Java 8 or higher installed.  
+- Aspose.Tasks for Java library (downloaded from the Aspose website or added via Maven/Gradle).  
+- A valid Aspose.Tasks license (evaluation license works for learning).
 
 ## 在 Aspose.Tasks 中管理 MS Project 日历属性
 
-释放在 Java 中使用 Aspose.Tasks 管理 MS Project 日历属性的全部潜能。我们的教程将带你深入日历管理的细节，提供定制和优化的宝贵见解。从调整工作时间到定义特殊日期，你将全面掌握。
+Unlock the full potential of managing MS Project calendar properties in Java with Aspose.Tasks. Our tutorial walks you through the intricacies of calendar management, offering valuable insights into customization and optimization. From adjusting working hours to defining special dates, you'll master it all.
 
-准备好掌控项目时间线了吗？[在此处探索教程](./properties/)。
+Ready to take control of your project timelines? [Explore the tutorial here](./properties/).
 
 ## 使用 Aspose.Tasks 创建 MS Project 日历
 
-通过使用 Aspose.Tasks for Java 创建 MS Project 日历，轻松简化项目管理。我们的教程简化了流程，确保你能够为项目的独特需求设置日历。迈出高效项目规划与组织的第一步。
+Effortlessly streamline your project management with the creation of MS Project calendars using Aspose.Tasks for Java. Our tutorial simplifies the process, ensuring you can set up calendars tailored to your project's unique needs. Take the first step towards efficient project planning and organization.
 
-准备好轻松创建日历了吗？[查看教程](./create/)。
+Ready to create calendars with ease? [Check out the tutorial](./create/).
 
 ## 使用 Aspose.Tasks 在日历中定义工作日
 
-使用 Aspose.Tasks for Java 定制你的 MS Project 日历，定义工作日和时间安排。本教程引导你完成工作日和时间的定制，为成功的项目管理提供所需的灵活性。让你的日历为你服务。
+Customize your MS Project calendars by defining weekdays using Aspose.Tasks for Java. This tutorial guides you through the process of tailoring working days and timings, offering you the flexibility needed for successful project management. Make your calendars work for you.
 
-准备好轻松定义工作日了吗？[从此开始](./define-weekdays/)。
+Ready to define weekdays effortlessly? [Get started here](./define-weekdays/).
 
-在浏览这些教程时，你会发现更多主题，包括工作时间提取、标准日历创建、读取工作周以及将日历更新为 MPP 格式。每个教程都旨在为你提供实用知识，确保你能够直接将所学应用到 Java 项目中。
+As you navigate through these tutorials, you'll discover additional topics covering working hours extraction, standard calendar creation, reading work weeks, and updating calendars to MPP format. Each tutorial is crafted to provide you with practical knowledge, ensuring you can apply what you learn directly to your Java projects.
 
 ## 使用 Aspose.Tasks 从日历获取工作时间
 
-通过使用 Aspose.Tasks for Java 从 MS Project 日历中提取工作时间，简化你的项目管理任务。本教程为你提供高效优化项目时间线的技能。
+Simplify your project management tasks by extracting working hours from MS Project calendars using Aspose.Tasks for Java. This tutorial equips you with the skills needed to optimize your project timelines efficiently.
 
-准备好轻松提取工作时间了吗？[探索教程](./working-hours/)。
+Ready to extract working hours effortlessly? [Explore the tutorial](./working-hours/).
 
 ## 在 Aspose.Tasks 中创建标准日历
 
-通过学习如何使用 Aspose.Tasks 在 Java 中创建标准的 MS Project 日历，提升你的项目管理能力。本分步教程确保你能够实现项目时间线的标准化方法。
+Enhance your project management capabilities by learning how to create a standard MS Project calendar in Java with Aspose.Tasks. This step‑by‑step tutorial ensures you can implement a standardized approach to your project timelines.
 
-准备好创建标准日历了吗？[查看教程](./make-standard/)。
+Ready to create a standard calendar? [Check out the tutorial](./make-standard/).
 
 ## 使用 Aspose.Tasks 从 MS Project 日历读取工作周
 
-通过使用 Aspose.Tasks for Java 学习如何读取 MS Project 日历中的工作周，获取全面的洞察。本教程提供详细说明，帮助你有效管理项目进度。
+Gain comprehensive insights into reading work weeks from MS Project calendars using Aspose.Tasks for Java. This tutorial offers detailed instructions, empowering you to manage your project schedules effectively.
 
-准备好轻松读取工作周了吗？[从此开始](./read-work-weeks/)。
+Ready to read work weeks effortlessly? [Get started here](./read-work-weeks/).
 
 ## 使用 Aspose.Tasks 将 MS Project 日历更新为 MPP 格式
 
-通过使用 Aspose.Tasks for Java 轻松将 MS Project 日历更新为 MPP 格式。本教程提供无缝方法，确保你的项目数据以最佳兼容性保存为正确格式。
+Effortlessly update MS Project calendars to MPP format using Aspose.Tasks for Java. This tutorial provides a seamless approach to ensure your project data is in the right format for optimal compatibility.
 
-准备好将日历更新为 MPP 格式了吗？[探索教程](./update-to-mpp/)。
+Ready to update calendars to MPP format? [Explore the tutorial](./update-to-mpp/).
 
-释放 Aspose.Tasks for Java 的全部潜能，提升你的项目管理技能。每个教程均面向各层次开发者设计，确保学习过程顺畅。立即投入学习，彻底改变你的 Java 项目管理之旅！
+Unlock the full potential of Aspose.Tasks for Java and elevate your project management skills. Each tutorial is designed to cater to developers of all levels, ensuring a smooth learning experience. Dive in and revolutionize your Java project management journey today!
 
 ## 日历教程
-### [管理 MS Project 日历属性 (Aspose.Tasks)](./properties/)
-了解如何使用 Aspose.Tasks 在 Java 中管理 MS Project 日历属性，为你的 Java 应用提供逐步指导。
+### [在 Aspose.Tasks 中管理 MS Project 日历属性](./properties/)
+Learn how to manage MS Project calendar properties in Java using Aspose.Tasks. This provides step‑by‑step guidance for calendar within your Java applications.
 ### [使用 Aspose.Tasks 创建 MS Project 日历](./create/)
-了解如何使用 Aspose.Tasks for Java 创建 MS Project 日历，轻松简化项目管理。
+Learn how to create MS Project calendars using Aspose.Tasks for Java. Streamline project management with ease.
 ### [使用 Aspose.Tasks 在日历中定义工作日](./define-weekdays/)
-了解如何使用 Aspose.Tasks for Java 在 MS Project 日历中定义工作日，轻松定制工作日和时间安排。
+Learn how to define weekdays in MS Project calendar using Aspose.Tasks for Java. Customize working days and timings effortlessly.
 ### [使用 Aspose.Tasks 从日历获取工作时间](./working-hours/)
-使用 Aspose.Tasks for Java 轻松从 MS Project 日历中提取工作时间，简化项目管理任务。
+Extract working hours from MS Project calendars easily with Aspose.Tasks for Java. Simplify project management tasks.
 ### [在 Aspose.Tasks 中创建标准日历](./make-standard/)
-了解如何使用 Aspose.Tasks 在 Java 中创建标准的 MS Project 日历，通过本分步教程提升项目管理能力。
+Learn how to create a standard MS Project calendar in Java using Aspose.Tasks. Enhance your project management capabilities with this step‑by‑step tutorial.
 ### [使用 Aspose.Tasks 从 MS Project 日历读取工作周](./read-work-weeks/)
-了解如何使用 Aspose.Tasks for Java 从 MS Project 日历读取工作周，在本综合教程中获取逐步说明。
+Learn how to read work weeks from MS Project calendar using Aspose.Tasks for Java. Get step‑by‑step instructions in this comprehensive tutorial.
 ### [使用 Aspose.Tasks 将 MS Project 日历更新为 MPP 格式](./update-to-mpp/)
-了解如何使用 Aspose.Tasks for Java 轻松将 MS Project 日历更新为 MPP 格式。
+Learn how to update MS Project calendars to MPP format effortlessly using Aspose.Tasks for Java.
 
 ## 常见问题
 
-**Q: 我可以为每个工作日设置不同的工作时间吗？**  
-A: 可以。Aspose.Tasks 允许你为星期一至星期日分别设置开始和结束时间。
+**问：我可以为每个工作日定义不同的工作时间吗？**  
+答：Yes. Aspose.Tasks lets you set start and finish times individually for Monday through Sunday.
 
-**Q: 我该如何处理假期或非工作日？**  
-A: 在定义工作日后，你可以添加例外（日期）来标记假期或自定义的非工作时段。
+**问：我该如何处理假期或非工作日？**  
+答：After defining weekdays, you can add exceptions (dates) to mark holidays or custom non‑working periods.
 
-**Q: 能否将一个工作日定义从一个日历复制到另一个日历？**  
-A: 完全可以。你可以从现有日历中获取 `WeekDay` 对象并将其添加到另一个日历实例中。
+**问：可以将一个工作日定义从一个日历复制到另一个吗？**  
+答：Absolutely. You can retrieve a `WeekDay` object from an existing calendar and add it to another calendar instance.
 
-**Q: 更新工作日后需要重新加载项目吗？**  
-A: 不需要。更改直接作用于内存中的 `Project` 对象，完成后只需保存项目即可。
+**问：更新工作日后需要重新加载项目吗？**  
+答：No. Changes are applied directly to the in‑memory `Project` object; just save the project when you’re done.
 
-**Q: 哪个版本的 Aspose.Tasks 支持工作日操作？**  
-A: 所有近期版本（20.10 及以后）均支持完整的工作日 API。我们建议使用最新的稳定版以获得最佳性能。
+**问：需要哪个版本的 Aspose.Tasks 才能进行工作日操作？**  
+答：All recent versions (20.10 and later) support full weekday APIs. We recommend using the latest stable release for best performance.
 
-**最后更新：** 2026-08-08  
+**最后更新：** 2026-11-19  
 **测试环境：** Aspose.Tasks for Java 24.12  
 **作者：** Aspose
 
@@ -184,6 +203,7 @@ A: 所有近期版本（20.10 及以后）均支持完整的工作日 API。我�
 - [使用 Aspose.Tasks for Java 创建自定义日历例外](/tasks/java/calendar-exceptions/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 

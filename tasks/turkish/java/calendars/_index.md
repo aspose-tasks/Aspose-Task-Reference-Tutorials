@@ -1,31 +1,31 @@
 ---
-date: 2026-08-08
-description: Aspose.Tasks for Java kullanarak MS Project takvimlerinde hafta içi günlerini
-  nasıl tanımlayacağınızı öğrenin. Bu rehber, MS Project takvimini nasıl değiştireceğinizi,
-  Java’da custom calendar oluşturmayı ve çalışma günlerini verimli bir şekilde planlamayı
-  gösterir.
+date: 2026-11-19
+description: Aspose.Tasks kullanarak Java'da özel takvim oluşturmayı öğrenin. Bu rehber,
+  çalışma günlerini tanımlamayı, çalışma saatlerini ayarlamayı ve MS Project takvimlerini
+  programlı olarak değiştirmeyi gösterir.
+images:
+- /java/calendars/og-image.png
 keywords:
-- how to define weekdays
-- modify ms project calendar
-- custom calendar java
-- define weekdays ms project
-- java schedule working days
-lastmod: 2026-08-08
+- create custom calendar java
+- define working days ms project
+- set working hours ms project
+- aspose.tasks java calendar
+- ms project calendar manipulation
+lastmod: 2026-11-19
 linktitle: Takvimler
-og_description: Aspose.Tasks for Java kullanarak MS Project takvimlerinde hafta içi
-  günlerini nasıl tanımlayacağınızı öğrenin. Java’da custom calendar konusunda uzmanlaşın,
-  MS Project takvimini değiştirin ve çalışma günlerini verimli bir şekilde planlayın.
-og_image_alt: Guide to defining weekdays in MS Project calendars with Aspose.Tasks
-  Java
-og_title: MS Project takvimlerinde hafta içi günlerini nasıl tanımlarsınız – Aspose.Tasks
-  Java
+og_description: Aspose.Tasks ile Java'da özel takvim oluşturmayı öğrenin. Çalışma
+  günlerini tanımlamayı, çalışma saatlerini ayarlamayı ve MS Project takvimlerini
+  verimli bir şekilde değiştirmeyi ustalaşın.
+og_image_alt: Guide to creating custom calendars in MS Project using Aspose.Tasks
+  for Java
+og_title: Aspose.Tasks ile Java'da özel takvim oluşturma
 schemas:
 - author: Aspose
-  dateModified: '2026-08-08'
-  description: Learn how to define weekdays in MS Project calendars using Aspose.Tasks
-    for Java. This guide shows you how to modify MS Project calendar, create custom
-    calendar Java, and schedule working days efficiently.
-  headline: How to define weekdays in MS Project calendars – Aspose.Tasks Java
+  dateModified: '2026-11-19'
+  description: Learn how to create custom calendar Java using Aspose.Tasks. This guide
+    shows you how to define working days, set working hours, and modify MS Project
+    calendars programmatically.
+  headline: How to create custom calendar Java with Aspose.Tasks
   type: TechArticle
 - questions:
   - answer: Yes. Aspose.Tasks lets you set start and finish times individually for
@@ -51,8 +51,7 @@ tags:
 - Java project management
 - MS Project integration
 - working days
-title: MS Project takvimlerinde hafta içi günlerini nasıl tanımlarsınız – Aspose.Tasks
-  Java
+title: Aspose.Tasks ile Java'da özel takvim oluşturma
 url: /tr/java/calendars/
 weight: 21
 ---
@@ -65,133 +64,150 @@ weight: 21
 
 ## Giriş
 
-Java geliştiricisi olarak projenizin takviminde **hafta içi günlerini tanımlamak** istiyorsanız, doğru yerdesiniz. Bu merkezde, Aspose.Tasks for Java için tüm öğreticileri topluyoruz; bu öğreticiler **MS Project takvimleri içinde hafta içi günlerini nasıl tanımlanır**, çalışma saatlerini ayarlamayı ve zaman çizelgelerinizi kristal netliğinde tutmayı gösterir. Yeni bir zamanlama motoru oluşturuyor ya da mevcut bir planı ayarlıyorsanız, hafta içi günlerini tanımlamayı ustalaşmak, çalışma günü desenleri, tatiller ve özel vardiyalar üzerinde kesin kontrol sağlar. Bu kılavuz ayrıca **MS Project takvimini programlı olarak nasıl değiştireceğinizi** açıklar, böylece onlarca proje için takvim oluşturmayı otomatikleştirebilirsiniz.
+Java geliştiricisiyseniz ve **özel takvim Java** çözümleri oluşturmak istiyorsanız, doğru yerdesiniz. Bu merkez, **çalışma günlerini MS Project'te tanımlama**, **çalışma saatlerini MS Project'te ayarlama** ve takvim ayarlarını programlı olarak değiştirmeyi gösteren tüm Aspose.Tasks for Java öğreticilerini bir araya getirir. Yeni bir zamanlama motoru oluşturuyor ya da mevcut bir planı genişletiyor olun, bu API'leri ustalaşmak, çalışma günü desenleri, tatiller ve özel vardiyalar üzerinde kesin kontrol sağlar—MS Project UI'sını hiç açmadan.
 
 ## Hızlı cevaplar
-- **Hafta içi günlerini tanımlamanın temel amacı nedir?**  
-  MS Project'e hangi günlerin çalışma günü olduğunu ve çalışma saatlerinin ne olduğunu söylemek.
-- **Java'da hafta içi günlerini tanımlamayı hangi kütüphane yönetir?**  
-  Aspose.Tasks for Java, takvim manipülasyonu için akıcı bir API sağlar.
-- **Lisans gerekli mi?**  
-  Ücretsiz değerlendirme lisansı test için çalışır; üretim için ticari lisans gereklidir.
+- **Haftanın günlerini tanımlamanın temel amacı nedir?**  
+  MS Project'e hangi günlerin çalışma günü olduğunu ve çalışma saatlerinin ne olduğunu söylemektir.  
+- **Java'da hafta günü tanımını hangi kütüphane yönetir?**  
+  Aspose.Tasks for Java, takvim manipülasyonu için akıcı bir API sağlar.  
+- **Bir lisansa ihtiyacım var mı?**  
+  Ücretsiz bir değerlendirme lisansı test için çalışır; üretim için ticari bir lisans gereklidir.  
 - **Farklı ekipler için birden fazla takvim tanımlayabilir miyim?**  
-  Evet – her proje, kendi hafta içi ayarlarına sahip birkaç takvim içerebilir.
+  Evet – her proje birden fazla takvim içerebilir, her biri kendi hafta günü ayarlarına sahiptir.  
 - **Başlamak için bir örnek proje var mı?**  
-  Aşağıdaki “Define Weekdays in Calendar” öğreticisi, çalıştırmaya hazır bir örnek içerir.
+  Aşağıda bağlantısı verilen “Define Weekdays in Calendar” öğreticisi, çalıştırmaya hazır bir örnek içerir.
 
-## MS Project takvimlerinde hafta içi günlerini nasıl tanımlarım?
+## Özel takvim Java nasıl oluşturulur?
 
-`Project` sınıfı bir MS Project dosyasını temsil eder ve veri yapılarına erişim sağlar. `Calendar` nesnesi bir projenin çalışma zamanı tanımlarını ve istisnalarını depolar. Projenizi `new Project("myproject.mpp")` ile yükleyin, bir `Calendar` nesnesi alın (veya oluşturun) ve ardından `calendar.getWeekDays().add(new WeekDay(DayType.Monday, true, new WorkingTime(9, 0, 17, 0)))` çağrısını yapın. Bu tek satır, 8‑saatlik bir vardiya ile Pazartesi çalışma günü girdisi oluşturur. Diğer günler için tekrarlayın ve sonunda projeyi `project.save("updated.mpp")` ile kaydedin. Bu özlü desen, hafta içi günlerini sadece birkaç API çağrısıyla tanımlamanıza, değiştirmenize veya silmenize olanak tanır ve manuel UI etkileşimine gerek kalmaz.
+Bir proje yükleyin, bir takvim oluşturun veya alın, hafta günü tanımları ekleyin ve dosyayı kaydedin—tüm bunlar birkaç API çağrısı ile yapılır. Bu yaklaşım manuel UI adımlarını ortadan kaldırır, onlarca proje boyunca takvim oluşturmayı otomatikleştirmenizi sağlar ve organizasyonunuzda tutarlı çalışma günü desenlerini garanti eder.
+
+## Project sınıfı nedir?
+
+`Project` sınıfı, MS Project dosyalarını yüklemek, düzenlemek ve kaydetmek için merkezi nesnedir. Görevler, kaynaklar ve takvim koleksiyonlarını tutar ve bir projeyi programlı olarak okumanıza ve değiştirmenize olanak tanıyan yöntemler sunar. Bu sınıfı kullanarak, bir projenin takvim koleksiyonuna erişebilir, çalışma zamanlarını ayarlayabilir ve değişiklikleri bir MPP veya XML dosyasına kalıcı olarak kaydedebilirsiniz.
+
+## MS Project takvimlerinde hafta günlerini nasıl tanımlarım?
+
+`Project` sınıfı bir MS Project dosyasını temsil eder ve veri yapılarına erişim sağlar. Bir `Calendar` nesnesi, bir proje için çalışma zamanı tanımlarını ve istisnaları depolar. Projenizi `new Project("myproject.mpp")` ile yükleyin, bir `Calendar` nesnesi alın (veya oluşturun) ve ardından `calendar.getWeekDays().add(new WeekDay(DayType.Monday, true, new WorkingTime(9, 0, 17, 0)))` çağrısını yapın. Bu tek satır, 8‑saatlik bir vardiya ile Pazartesi çalışma günü girdisi oluşturur. Diğer günler için tekrarlayın ve sonunda projeyi `project.save("updated.mpp")` ile kaydedin. Bu özlü desen, sadece birkaç API çağrısıyla hafta günlerini tanımlamanıza, değiştirmenize veya silmenize olanak tanır ve manuel UI etkileşimine gerek kalmaz.
 
 ## WeekDay nesnesi nedir?
 
-`WeekDay` nesnesi, Aspose.Tasks takviminde tek bir hafta günü girdisini temsil eder; çalışma durumu ve çalışma‑zamanı aralıklarını saklar. Başlangıç/bitiş saatlerini yapılandırabilir, çalışma günü olmayan olarak ayarlayabilir veya fazla mesai periyotları ekleyebilirsiniz. Birden fazla `WorkingTime` aralığını tutarak bölünmüş vardiyalar modelleyebilir ve varsayılan çalışma günleri için bayrakları destekler. `WeekDay` API'sini kullanarak bir günü etkinleştirebilir veya devre dışı bırakabilir, normal saatleri atayabilir veya gelişmiş zamanlama senaryoları için fazla mesai kurallarını belirtebilirsiniz.
+`WeekDay` nesnesi, bir takvim içinde tek bir hafta günü girişini temsil eder. Günün çalışma olup olmadığını, o gün için çalışma zamanı aralıklarını ve varsayılan davranış bayraklarını saklar. Bölünmüş vardiyaları modellemek için bir veya daha fazla `WorkingTime` aralığı ekleyebilir, günü çalışmayan olarak ayarlayabilir veya varsayılanları üst takvimden devralabilirsiniz.
 
-## Neden Aspose.Tasks for Java'ı hafta içi günlerini tanımlamak için kullanmalısınız?
+## MS Project'te çalışma günlerini nasıl tanımlarım?
 
-- **Tam API kontrolü** – UI kısıtlamaları yok; programlı olarak hafta içi girdilerini oluşturabilir, değiştirebilir veya silebilirsiniz.  
-- **Çapraz‑platform** – Masaüstü uygulamalardan bulut hizmetlerine, herhangi bir JVM‑uyumlu ortamda çalışır.  
-- **Kesinlik** – Her hafta içi günü için farklı çalışma zamanları ayarlayın, tatiller için istisnalar ekleyin ve takvimleri birden çok proje arasında senkronize edin.  
-- **Performans** – 500 + görev ve 100 + hafta içeren takvimleri, tüm UI’yı yüklemeden işleyin; standart 2.5 GHz sunucuda dönüşüm süresi 2 saniyenin altında (Aspose benchmarkına dayalı ölçülmüş iddia).  
+Çalışma günlerini, bir takvimin `WeekDays` koleksiyonuna `WeekDay` nesneleri ekleyerek tanımlarsınız. Her `WeekDay`, günün çalışma olup olmadığını ve çalışma zamanı olarak kabul edilen zaman aralıklarını belirtir. Örneğin, Cumartesi'yi yarım gün yapmak için 10:00‑14:00 arasında tek bir `WorkingTime` içeren bir `WeekDay` ekleyin. API, projenin takvim hesaplamalarını otomatik olarak günceller.
+
+## MS Project'te çalışma saatlerini nasıl ayarlarım?
+
+Her `WeekDay` için bir veya daha fazla `WorkingTime` aralığı oluşturarak çalışma saatlerini ayarlayın. `WorkingTime`, başlangıç‑saat, başlangıç‑dakika, bitiş‑saat ve bitiş‑dakika değerlerini alır. Bölünmüş vardiyaları modellemek için tek bir güne birden fazla aralık atayabilirsiniz (ör. 08:00‑12:00 ve 13:00‑17:00). Tüm hafta günlerini yapılandırdıktan sonra, değişiklikleri kalıcı kılmak için `project.save(...)` çağrısını yapın.
+
+## Hafta günlerini tanımlamak için Aspose.Tasks for Java neden kullanılmalı?
+
+- **Tam API kontrolü** – UI sınırlamaları yoktur; hafta günü girişlerini programlı olarak oluşturabilir, değiştirebilir veya silebilirsiniz.  
+- **Çapraz platform** – Masaüstü uygulamalardan bulut hizmetlerine kadar herhangi bir JVM uyumlu ortamda çalışır.  
+- **Hassasiyet** – Her hafta günü için farklı çalışma zamanları ayarlayın, tatiller için istisnalar ekleyin ve takvimleri birden fazla proje arasında senkronize edin.  
+- **Performans** – Tüm UI'yı yüklemeden 500+ görev ve 100+ hafta içeren takvimleri işleyin, standart 2.5 GHz sunucuda dönüşüm sürelerini 2 saniyenin altında elde edin (Aspose benchmark'ına dayalı ölçülen iddia).  
+- **Geniş format desteği** – Aspose.Tasks, 30+ takvim‑ile ilgili API'yi destekler ve 20'den fazla dosya formatına içe/dışa aktarabilir, mevcut proje veri hatlarıyla sorunsuz entegrasyon sağlar.
 
 ## Önkoşullar
-- Java 8 veya daha yeni bir sürüm yüklü olmalı.  
-- Aspose.Tasks for Java kütüphanesi (Aspose web sitesinden indirilebilir veya Maven/Gradle üzerinden eklenebilir).  
-- Geçerli bir Aspose.Tasks lisansı (öğrenme için değerlendirme lisansı yeterli).  
+- Java 8 veya daha yüksek bir sürüm yüklü.  
+- Aspose.Tasks for Java kütüphanesi (Aspose web sitesinden indirilen veya Maven/Gradle aracılığıyla eklenen).  
+- Geçerli bir Aspose.Tasks lisansı (değerlendirme lisansı öğrenme için çalışır).  
 
 ## Aspose.Tasks ile MS Project takvim özelliklerini yönetin
 
-Java’da Aspose.Tasks ile MS Project takvim özelliklerini yönetmenin tam potansiyelini ortaya çıkarın. Öğreticimiz, takvim yönetiminin inceliklerini adım adım anlatır, özelleştirme ve optimizasyon konularında değerli içgörüler sunar. Çalışma saatlerini ayarlamaktan özel tarihleri tanımlamaya kadar her şeyi öğreneceksiniz.
+Aspose.Tasks ile Java'da MS Project takvim özelliklerini yönetmenin tam potansiyelini ortaya çıkarın. Öğreticimiz, takvim yönetiminin inceliklerini adım adım anlatır, özelleştirme ve optimizasyon konusunda değerli bilgiler sunar. Çalışma saatlerini ayarlamaktan özel tarihleri tanımlamaya kadar her şeyi ustalaşacaksınız.
 
-Proje zaman çizelgelerinizin kontrolünü elinize almaya hazır mısınız? [Buradaki öğreticiyi keşfedin](./properties/).
+Proje zaman çizelgelerinizi kontrol etmeye hazır mısınız? [Buradan öğreticiyi keşfedin](./properties/).
 
 ## Aspose.Tasks kullanarak MS Project takvimleri oluşturun
 
-Aspose.Tasks for Java ile MS Project takvimleri oluşturmayı zahmetsizce kolaylaştırın. Öğreticimiz süreci basitleştirir, projenizin benzersiz ihtiyaçlarına uygun takvimler kurmanızı sağlar. Verimli proje planlaması ve organizasyonu için ilk adımı atın.
+Aspose.Tasks for Java kullanarak MS Project takvimleri oluşturmakla proje yönetiminizi zahmetsizce hızlandırın. Öğreticimiz süreci basitleştirir, projenizin benzersiz ihtiyaçlarına göre takvimler oluşturmanızı sağlar. Verimli proje planlaması ve organizasyonu için ilk adımı atın.
 
-Takvimleri kolayca oluşturmak ister misiniz? [Öğreticiyi inceleyin](./create/).
+Takvimleri kolayca oluşturmak için hazır mısınız? [Öğreticiye göz atın](./create/).
 
-## Aspose.Tasks ile takvimde hafta içi günlerini tanımlayın
+## Aspose.Tasks ile takvimde hafta günlerini tanımlayın
 
-Aspose.Tasks for Java kullanarak MS Project takvimlerinizi hafta içi günlerini tanımlayarak özelleştirin. Bu öğretici, çalışma günlerini ve zaman dilimlerini şekillendirmenize rehberlik eder, başarılı proje yönetimi için gereken esnekliği sunar. Takvimlerinizi sizin için çalışır hâle getirin.
+Aspose.Tasks for Java kullanarak hafta günlerini tanımlayarak MS Project takvimlerinizi özelleştirin. Bu öğretici, çalışma günlerini ve zamanlamalarını özelleştirme sürecinde size rehberlik eder, başarılı proje yönetimi için gereken esnekliği sunar. Takvimlerinizi sizin için çalışır hâle getirin.
 
-Hafta içi günlerini zahmetsizce tanımlamaya hazır mısınız? [Buradan başlayın](./define-weekdays/).
+Hafta günlerini zahmetsizce tanımlamaya hazır mısınız? [Buradan başlayın](./define-weekdays/).
 
-Bu öğreticiler arasında gezinirken, çalışma saatleri çıkarma, standart takvim oluşturma, çalışma haftalarını okuma ve takvimleri MPP formatına güncelleme gibi ek konuları da keşfedeceksiniz. Her öğretici, pratik bilgi sağlamak üzere hazırlanmıştır; böylece öğrendiklerinizi doğrudan Java projelerinize uygulayabilirsiniz.
+Bu öğreticilerde ilerledikçe, çalışma saatlerinin çıkarılması, standart takvim oluşturma, çalışma haftalarının okunması ve takvimlerin MPP formatına güncellenmesi gibi ek konuları keşfedeceksiniz. Her öğretici, size pratik bilgi sunacak şekilde hazırlanmıştır, böylece öğrendiklerinizi doğrudan Java projelerinizde uygulayabilirsiniz.
 
-## Aspose.Tasks kullanarak takvimden çalışma saatlerini alın
+## Aspose.Tasks ile takvimden çalışma saatlerini alın
 
-Aspose.Tasks for Java ile MS Project takvimlerinden çalışma saatlerini çıkarmayı öğrenerek proje yönetimi görevlerinizi basitleştirin. Bu öğretici, zaman çizelgelerinizi verimli bir şekilde optimize etmeniz için gereken becerileri kazandırır.
+Aspose.Tasks for Java kullanarak MS Project takvimlerinden çalışma saatlerini çıkararak proje yönetimi görevlerinizi basitleştirin. Bu öğretici, proje zaman çizelgelerinizi verimli bir şekilde optimize etmek için gereken becerileri size kazandırır.
 
 Çalışma saatlerini zahmetsizce çıkarmaya hazır mısınız? [Öğreticiyi keşfedin](./working-hours/).
 
 ## Aspose.Tasks ile standart takvim oluşturun
 
-Aspose.Tasks ile Java’da standart bir MS Project takvimi oluşturmayı öğrenerek proje yönetimi yeteneklerinizi artırın. Bu adım‑adım öğretici, proje zaman çizelgelerinizde standart bir yaklaşım uygulamanızı sağlar.
+Aspose.Tasks ile Java'da standart bir MS Project takvimi oluşturmayı öğrenerek proje yönetimi yeteneklerinizi geliştirin. Bu adım adım öğretici, proje zaman çizelgelerinizde standart bir yaklaşım uygulamanızı sağlar.
 
-Standart bir takvim oluşturmaya hazır mısınız? [Öğreticiyi inceleyin](./make-standard/).
+Standart bir takvim oluşturmak için hazır mısınız? [Öğreticiye göz atın](./make-standard/).
 
 ## Aspose.Tasks ile MS Project takviminden çalışma haftalarını okuyun
 
-Aspose.Tasks for Java kullanarak MS Project takvimlerinden çalışma haftalarını okuma konusunda kapsamlı bilgi edinin. Bu öğretici, proje takvimlerinizi etkili bir şekilde yönetmeniz için ayrıntılı talimatlar sunar.
+Aspose.Tasks for Java kullanarak MS Project takvimlerinden çalışma haftalarını okumaya dair kapsamlı bilgiler edinin. Bu öğretici, ayrıntılı talimatlar sunar ve proje takvimlerinizi etkili bir şekilde yönetmenizi sağlar.
 
 Çalışma haftalarını zahmetsizce okumaya hazır mısınız? [Buradan başlayın](./read-work-weeks/).
 
 ## Aspose.Tasks ile MS Project takvimlerini MPP formatına güncelleyin
 
-Aspose.Tasks for Java ile MS Project takvimlerini MPP formatına zahmetsizce güncelleyin. Bu öğretici, proje verilerinizin optimal uyumluluk için doğru formatta olmasını sağlayan sorunsuz bir yaklaşım sunar.
+Aspose.Tasks for Java kullanarak MS Project takvimlerini MPP formatına zahmetsizce güncelleyin. Bu öğretici, proje verilerinizin optimal uyumluluk için doğru formatta olmasını sağlayan sorunsuz bir yaklaşım sunar.
 
 Takvimleri MPP formatına güncellemeye hazır mısınız? [Öğreticiyi keşfedin](./update-to-mpp/).
 
-Aspose.Tasks for Java’un tam potansiyelini ortaya çıkarın ve proje yönetimi becerilerinizi yükseltin. Her öğretici, tüm seviyelerdeki geliştiricilere sorunsuz bir öğrenme deneyimi sunacak şekilde tasarlanmıştır. Java proje yönetimi yolculuğunuzu bugün dönüştürün!
+Aspose.Tasks for Java'un tam potansiyelini ortaya çıkarın ve proje yönetimi becerilerinizi yükseltin. Her öğretici, tüm seviyelerdeki geliştiricilere hitap edecek şekilde tasarlanmıştır, sorunsuz bir öğrenme deneyimi sağlar. Hemen dalın ve Java proje yönetimi yolculuğunuzu bugün devrim niteliğinde bir şekilde yeniden şekillendirin!
 
 ## Takvim öğreticileri
 ### [Aspose.Tasks ile MS Project Takvim Özelliklerini Yönetin](./properties/)
-Java’da Aspose.Tasks kullanarak MS Project takvim özelliklerini nasıl yöneteceğinizi öğrenin. Bu, Java uygulamalarınızdaki takvimler için adım‑adım rehber sunar.
-### [Aspose.Tasks kullanarak MS Project takvimleri oluşturun](./create/)
-Aspose.Tasks for Java ile MS Project takvimleri oluşturmayı öğrenin. Proje yönetimini zahmetsizce akıcı hâle getirin.
-### [Aspose.Tasks ile takvimde hafta içi günlerini tanımlayın](./define-weekdays/)
-Aspose.Tasks for Java ile MS Project takviminde hafta içi günlerini tanımlamayı öğrenin. Çalışma günlerini ve zaman dilimlerini zahmetsizce özelleştirin.
-### [Aspose.Tasks kullanarak takvimden çalışma saatlerini alın](./working-hours/)
+Aspose.Tasks kullanarak Java'da MS Project takvim özelliklerini nasıl yöneteceğinizi öğrenin. Bu, Java uygulamalarınızda takvim için adım adım rehberlik sağlar.
+### [Aspose.Tasks ile MS Project Takvimleri Oluşturun](./create/)
+Aspose.Tasks for Java kullanarak MS Project takvimlerini nasıl oluşturacağınızı öğrenin. Proje yönetimini kolaylıkla hızlandırın.
+### [Aspose.Tasks ile takvimde hafta günlerini tanımlayın](./define-weekdays/)
+Aspose.Tasks for Java kullanarak MS Project takviminde hafta günlerini nasıl tanımlayacağınızı öğrenin. Çalışma günlerini ve zamanlamalarını zahmetsizce özelleştirin.
+### [Aspose.Tasks ile takvimden çalışma saatlerini alın](./working-hours/)
 Aspose.Tasks for Java ile MS Project takvimlerinden çalışma saatlerini kolayca çıkarın. Proje yönetimi görevlerini basitleştirin.
 ### [Aspose.Tasks ile standart takvim oluşturun](./make-standard/)
-Aspose.Tasks kullanarak Java’da standart bir MS Project takvimi oluşturmayı öğrenin. Bu adım‑adım öğreticiyle proje yönetimi yeteneklerinizi geliştirin.
+Aspose.Tasks kullanarak Java'da standart bir MS Project takvimi nasıl oluşturulacağını öğrenin. Bu adım adım öğretici ile proje yönetimi yeteneklerinizi geliştirin.
 ### [Aspose.Tasks ile MS Project takviminden çalışma haftalarını okuyun](./read-work-weeks/)
-Aspose.Tasks for Java ile MS Project takviminden çalışma haftalarını nasıl okuyacağınızı öğrenin. Bu kapsamlı öğreticide adım‑adım talimatlar bulacaksınız.
-### [Aspose.Tasks ile MS Project takvimlerini MPP formatına güncelleyin](./update-to-mpp/)
-Aspose.Tasks for Java kullanarak MS Project takvimlerini MPP formatına zahmetsizce güncellemeyi öğrenin.
+Aspose.Tasks for Java kullanarak MS Project takviminden çalışma haftalarını nasıl okuyacağınızı öğrenin. Bu kapsamlı öğreticide adım adım talimatları alın.
+### [Aspose.Tasks for Java ile MS Project takvimlerini MPP formatına zahmetsizce güncelleyin](./update-to-mpp/)
+Aspose.Tasks for Java kullanarak MS Project takvimlerini MPP formatına zahmetsizce nasıl güncelleyeceğinizi öğrenin.
 
 ## Sıkça Sorulan Sorular
 
-**Q: Her hafta içi günü için farklı çalışma saatleri belirleyebilir miyim?**  
-A: Evet. Aspose.Tasks, Pazartesi’den Pazar’a kadar her gün için başlangıç ve bitiş saatlerini ayrı ayrı ayarlamanıza izin verir.
+**Q: Her hafta günü için farklı çalışma saatleri tanımlayabilir miyim?**  
+A: Evet. Aspose.Tasks, Pazartesi'den Pazar'a kadar her gün için başlangıç ve bitiş zamanlarını ayrı ayrı ayarlamanıza olanak tanır.
 
-**Q: Tatilleri veya çalışma dışı günleri nasıl yönetirim?**  
-A: Hafta içi günlerini tanımladıktan sonra, tatilleri veya özel çalışma dışı periyotları işaretlemek için istisna (tarih) ekleyebilirsiniz.
+**Q: Tatilleri veya çalışılmayan günleri nasıl yönetirim?**  
+A: Hafta günlerini tanımladıktan sonra, tatilleri veya özel çalışılmayan dönemleri işaretlemek için istisnalar (tarihler) ekleyebilirsiniz.
 
-**Q: Bir takvimden başka bir takvime hafta içi tanımını kopyalamak mümkün mü?**  
+**Q: Bir takvimden başka bir takvime hafta günü tanımını kopyalamak mümkün mü?**  
 A: Kesinlikle. Mevcut bir takvimden bir `WeekDay` nesnesi alıp başka bir takvim örneğine ekleyebilirsiniz.
 
-**Q: Hafta içi günlerini güncelledikten sonra projeyi yeniden yüklemem gerekir mi?**  
+**Q: Hafta günlerini güncelledikten sonra projeyi yeniden yüklemem gerekiyor mu?**  
 A: Hayır. Değişiklikler doğrudan bellek içindeki `Project` nesnesine uygulanır; işiniz bittiğinde sadece projeyi kaydedin.
 
-**Q: Hafta içi manipülasyonu için hangi Aspose.Tasks sürümü gerekir?**  
-A: 20.10 ve sonrası tüm yeni sürümler tam hafta içi API'lerini destekler. En iyi performans için en son kararlı sürümü kullanmanızı öneririz.
+**Q: Hafta günü manipülasyonu için hangi Aspose.Tasks sürümü gerekir?**  
+A: Tüm yeni sürümler (20.10 ve sonrası) tam hafta günü API'lerini destekler. En iyi performans için en son stabil sürümü kullanmanızı öneririz.
 
 ---
 
-**Son güncelleme:** 2026-08-08  
-**Test edildiği sürüm:** Aspose.Tasks for Java 24.12  
+**Son Güncelleme:** 2026-11-19  
+**Test Edilen:** Aspose.Tasks for Java 24.12  
 **Yazar:** Aspose
 
 ## İlgili Öğreticiler
 
-- [Add calendar to project with Aspose.Tasks for Java](/tasks/java/calendars/create/)
-- [Determine Working Days & Working Hours with Aspose.Tasks](/tasks/java/calendars/working-hours/)
-- [Create Custom Calendar Exceptions with Aspose.Tasks for Java](/tasks/java/calendar-exceptions/)
-
+- [Aspose.Tasks for Java ile projeye takvim ekleyin](/tasks/java/calendars/create/)
+- [Aspose.Tasks ile Çalışma Günlerini ve Çalışma Saatlerini Belirleyin](/tasks/java/calendars/working-hours/)
+- [Aspose.Tasks for Java ile Özel Takvim İstisnaları Oluşturun](/tasks/java/calendar-exceptions/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
