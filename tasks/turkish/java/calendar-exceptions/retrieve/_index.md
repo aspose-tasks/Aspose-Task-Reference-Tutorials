@@ -1,24 +1,27 @@
 ---
-date: 2026-08-24
-description: MS Project dosyalarından Java calendar exceptions nasıl alınır ve Aspose.Tasks
-  for Java kullanarak mpp takvimini nasıl okuyacağınızı öğrenin. Bu tutorial step‑by‑step
-  kod örnekleri sağlar.
+date: 2026-11-19
+description: MS Project dosyalarından java takvim istisnalarını nasıl alacağınızı
+  ve Aspose.Tasks for Java kullanarak mpp takvimini nasıl okuyacağınızı öğrenin. Bu
+  öğreticide adım adım kod örnekleri sunulmaktadır.
+images:
+- /java/calendar-exceptions/retrieve/og-image.png
 keywords:
 - retrieve calendar exceptions java
-- how to read mpp calendar
-- Aspose.Tasks Java
+- Aspose.Tasks for Java
 - MS Project calendar API
-lastmod: 2026-08-24
-linktitle: Aspose.Tasks ile Java calendar exceptions nasıl alınır
-og_description: MS Project dosyalarından Java calendar exceptions nasıl alınır ve
-  Aspose.Tasks for Java ile mpp takvimini nasıl okuyacağınızı öğrenin. Bu step‑by‑step
-  rehber, Java uygulamalarınıza doğru takvim işleme eklemenize yardımcı olur.
+- read MPP calendar
+- Java project scheduling
+lastmod: 2026-11-19
+linktitle: Aspose.Tasks ile java takvim istisnalarını nasıl alırsınız
+og_description: MS Project dosyalarından java takvim istisnalarını almayı ve Aspose.Tasks
+  for Java ile MPP takvimlerini okumayı öğrenin. Bu rehber, Java uygulamalarına doğru
+  takvim işleme eklemenizi gösterir.
 og_image_alt: Developer guide showing Java code to read calendar exceptions from an
   MS Project file
-og_title: Aspose.Tasks ile Java calendar exceptions nasıl alınır
+og_title: Aspose.Tasks kullanarak java takvim istisnalarını nasıl alırsınız
 schemas:
 - author: Aspose
-  dateModified: '2026-08-24'
+  dateModified: '2026-11-19'
   description: Learn how to retrieve calendar exceptions java from MS Project files
     and how to read mpp calendar using Aspose.Tasks for Java. This tutorial provides
     step‑by‑step code examples.
@@ -61,7 +64,7 @@ tags:
 - calendar exceptions
 - MS Project integration
 - developer tutorial
-title: Aspose.Tasks ile Java calendar exceptions nasıl alınır
+title: Aspose.Tasks ile java takvim istisnalarını nasıl alırsınız
 url: /tr/java/calendar-exceptions/retrieve/
 weight: 13
 ---
@@ -70,38 +73,46 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks ile Java'da takvim istisnalarını nasıl alabilirsiniz
+# Java ile Aspose.Tasks kullanarak takvim istisnalarını nasıl alabilirsiniz
 
 ## Giriş
-Bu **asp tasks java tutorial** içinde, Aspose.Tasks Java kütüphanesini kullanarak bir Microsoft Project dosyasından takvim istisnalarını nasıl alacağınızı öğreneceksiniz. Takvim istisnaları, tatiller veya özel çalışma zamanı kuralları gibi çalışılmayan dönemleri temsil eder ve bunları programlı olarak okuyabilmek, kaynak dengelemesi, raporlama ve özel zamanlama mantığı için gereklidir. Tüm süreci adım adım anlatacağız, böylece bu yeteneği kendi Java uygulamalarınıza güvenle entegre edebilirsiniz.
+Bu **asp tasks java tutorial** içinde Microsoft Project dosyasından Aspose.Tasks Java kütüphanesini kullanarak takvim istisnalarını nasıl alacağınızı öğreneceksiniz. Takvim istisnaları tatiller veya özel çalışma zaman kuralları gibi çalışılmayan dönemleri temsil eder ve bunları programlı olarak okuyabilmek kaynak dengelemesi, raporlama ve özel zamanlama mantığı için önemlidir. Süreci adım adım anlatacağız, böylece bu yeteneği kendi Java uygulamalarınıza güvenle entegre edebilirsiniz.
 
 ## Hızlı cevaplar
-- **Bu öğretici neyi kapsıyor?** Aspose.Tasks for Java kullanarak bir MPP dosyasından takvim istisnalarını almayı.  
+- **Bu öğreticide ne kapsanıyor?** Aspose.Tasks for Java kullanarak bir MPP dosyasından takvim istisnalarını almak.  
 - **Uygulama ne kadar sürer?** Temel bir kurulum için yaklaşık 10‑15 dakika.  
 - **Önkoşullar?** JDK, Aspose.Tasks for Java ve bir IDE (IntelliJ IDEA veya Eclipse).  
-- **Bir lisansa ihtiyacım var mı?** Geliştirme için ücretsiz deneme çalışır; üretim için ticari lisans gereklidir.  
-- **Desteklenen Proje sürümleri?** Tüm büyük MS Project formatları (MPP, MPT, XML).
+- **Lisans gerekir mi?** Geliştirme için ücretsiz deneme sürümü çalışır; üretim için ticari bir lisans gereklidir.  
+- **Desteklenen Project sürümleri?** Tüm büyük MS Project formatları (MPP, MPT, XML).
 
 ## asp tasks java tutorial nedir?
-**asp tasks java tutorial**, Java projelerinde Aspose.Tasks API'sinin nasıl kullanılacağını açıklar. Somut kod parçacıkları, en iyi uygulama açıklamaları ve gerçek dünya senaryoları sunar, böylece geliştiriciler Microsoft Project yüklü olmadan Project dosyalarını manipüle edebilirler. Bu tür bir öğreticiyi izleyerek, geliştiriciler API'nin yapısını, yaygın kullanım kalıplarını ve yeteneklerini daha büyük kurumsal uygulamalara nasıl entegre edeceklerini net ve uygulamalı bir şekilde öğrenirler.
+**asp tasks java tutorial**, Java projelerinde Aspose.Tasks API'sinin nasıl kullanılacağını açıklar. Somut kod parçacıkları, en iyi uygulama açıklamaları ve gerçek dünya senaryoları sunar, böylece geliştiriciler Microsoft Project yüklü olmadan Project dosyalarını manipüle edebilirler. Bu tür bir öğreticiyi izleyerek, geliştiriciler API'nin yapısı, yaygın kullanım kalıpları ve yeteneklerini daha büyük kurumsal uygulamalara nasıl entegre edecekleri konusunda net, uygulamalı bir anlayış kazanırlar.
 
-## Neden takvim istisnalarını almalı?
-Takvim istisnalarını almak, tatilleri ve özel çalışma programlarını dikkate alan doğru proje zaman çizelgeleri oluşturmanıza, çalışılmayan günleri vurgulayan raporlama araçları geliştirmenize ve Project takvimlerini ERP veya İK platformları gibi dış sistemlerle senkronize etmenize olanak tanır. Aspose.Tasks, **30+** takvim türünden istisnaları okuyabilir ve **3 büyük** MS Project dosya formatını (MPP, MPT, XML) tüm dosyayı belleğe yüklemeden destekler; bu da çok sayfalı projelerin verimli işlenmesini sağlar.
+## Neden takvim istisnalarını almak?
+Takvim istisnalarını almak, tatilleri ve özel çalışma programlarını dikkate alan doğru proje zaman çizelgeleri oluşturmanızı, çalışılmayan günleri vurgulayan raporlama araçları geliştirmenizi ve Project takvimlerini ERP veya İK platformları gibi dış sistemlerle senkronize etmenizi sağlar. Aspose.Tasks, **30+** takvim türünden istisnaları okuyabilir ve **3 ana** MS Project dosya formatını (MPP, MPT, XML) tüm dosyayı belleğe yüklemeden destekler; bu da çok sayfalı projelerin verimli işlenmesini mümkün kılar.
 
 ## Önkoşullar
-Başlamadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
+Başlamadan önce, aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
 
 1. **Java Development Kit (JDK)** – JDK 8 veya daha yeni bir sürümünün yüklü olduğundan emin olun.  
-2. **Aspose.Tasks for Java** – **[Aspose.Tasks for Java indirme sayfasından](https://releases.aspose.com/tasks/java/)** Aspose.Tasks for Java'ı indirin ve kurun.  
-3. **Integrated Development Environment (IDE)** – IntelliJ IDEA veya Eclipse gibi tercih ettiğiniz herhangi bir IDE'yi kullanabilirsiniz.
+2. **Aspose.Tasks for Java** – **[Aspose.Tasks for Java download page](https://releases.aspose.com/tasks/java/)** adresinden Aspose.Tasks for Java'ı indirin ve kurun.  
+3. **Integrated Development Environment (IDE)** – IntelliJ IDEA veya Eclipse gibi istediğiniz herhangi bir IDE'yi kullanabilirsiniz.
+
+Daha sonra öğreticide bir hatırlatmaya ihtiyaç duyarsanız, Aspose.Tasks for Java'ı **[Aspose.Tasks for Java download page](https://releases.aspose.com/tasks/java/)** adresinden de edinebilirsiniz.
+
+## Veri dizinini nasıl ayarlarsınız?
+Analiz etmek istediğiniz Project dosyasını içeren bir klasör tanımlayın. Mutlak bir yol veya projenizin resources klasörüne göreceli bir yol kullanmak `FileNotFoundException` hatasını önler. Dosyalarınızı ayrı bir `resources` klasöründe saklayın ve kodun platform bağımsız kalması ve sabit kodlanmış Windows yollarından kaçınılması için `Paths.get(...)` ile referans verin.
 
 ## Paketleri içe aktar
-İçe aktarma ifadeleri, Aspose.Tasks sınıflarını Java kaynak dosyanıza getirir ve projeler, takvimler ve istisnalarla çalışmanıza olanak tanır.
+İçe aktarma ifadeleri Aspose.Tasks sınıflarını Java kaynak dosyanıza getirir ve projeler, takvimler ve istisnalarla çalışmanıza olanak tanır.
 
 ```java
 import com.aspose.tasks.*;
 import java.util.*;
 ```
+
+## Project sınıfı nedir?
+`Project`, belleğe yüklenmiş bir MS Project dosyasını temsil eder. Aspose.Tasks'in temel nesnesi olup, temiz, nesne‑yönelimli bir API aracılığıyla takvimlere, görevlere, kaynaklara ve diğer proje verilerine erişim sağlar. `Project` sınıfını kullanarak, Microsoft Project yüklü olmadan bir projenin tüm öğelerini sorgulayabilir ve manipüle edebilirsiniz; bu da sunucu‑tarafı işleme ve otomatik raporlama için idealdir.
 
 ## Adım 1: veri dizininizi ayarlayın
 Analiz etmek istediğiniz Project dosyasını içeren bir klasör tanımlayın. Mutlak bir yol veya projenizin resources klasörüne göreceli bir yol kullanmak `FileNotFoundException` hatasını önler.
@@ -110,17 +121,17 @@ Analiz etmek istediğiniz Project dosyasını içeren bir klasör tanımlayın. 
 String dataDir = "C:/Projects/Data/";
 ```
 
-> **Pro tip:** Proje dosyalarınızı özel bir resources klasöründe saklayın ve platform bağımsız yollar için `Paths.get(...)` ile referans verin.
+> **Pro tip:** Project dosyalarınızı ayrı bir resources klasöründe saklayın ve platform‑bağımsız yollar için `Paths.get(...)` ile referans verin.
 
-## Adım 2: ms proje dosyasını yükleyin
+## Adım 2: ms project dosyasını yükleyin
 `Project` sınıfı bir MS Project dosyasını temsil eder ve takvimlerine, görevlerine, kaynaklarına ve diğer proje verilerine erişim sağlar. Project dosyasını bir `Project` nesnesine yükleyin. Bu nesne, tüm MS Project dosyasını bellekte temsil eder ve takvimlere, görevlere, kaynaklara ve daha fazlasına erişim sunar.
 
 ```java
 Project project = new Project(dataDir + "project.mpp");
 ```
 
-## Adım 3: takvim istisnalarını alın
-Projedeki her takvimi ve ardından o takvim içindeki her takvim istisnasını döngüye alın. Her istisnanın başlangıç ve bitiş tarihlerini yazdırın.
+## Yüklenmiş bir projeden takvim istisnalarını nasıl alırsınız?
+Projede bulunan her takvimi ve ardından o takvimdeki her takvim istisnasını döngüyle geçin. Her istisnanın başlangıç ve bitiş tarihlerini yazdırın. Bu iki seviyeli döngü, bir proje birden fazla takvim (standart, kaynak veya özel) içeriyorsa bile tüm istisnaları yakalamanızı sağlar. Her `CalendarException` öğesini inceleyerek özel raporlar oluşturabilir, takvimleri ayarlayabilir veya verileri diğer sistemlere aktarabilirsiniz.
 
 ```java
 for (Calendar cal : project.getCalendars()) {
@@ -133,42 +144,40 @@ for (Calendar cal : project.getCalendars()) {
 ## Yaygın sorunlar ve çözümler
 | Sorun | Sebep | Çözüm |
 |-------|--------|-----|
-| **Çıktı yazdırılmadı** | Proje dosyası herhangi bir takvim istisnası içermiyor. | MS Project'teki takvimin istisnalar tanımladığını (ör. tatiller) doğrulayın. |
+| **Çıktı yazdırılmadı** | Project dosyası herhangi bir takvim istisnası içermiyor. | MS Project'teki takvimin istisnalar (ör. tatiller) tanımlı olduğundan emin olun. |
 | **`NullPointerException`** | `dataDir` yolu hatalı veya dosya bulunamadı. | Dizin yolunu tekrar kontrol edin ve `project.mpp` dosyasının mevcut olduğundan emin olun. |
-| **Zaman dilimi uyumsuzluğu** | Tarihler UTC olarak gösteriliyor. | Gerekirse yerel saate dönüştürmek için `calExc.getFromDate().toLocalDateTime()` kullanın. |
+| **Zaman dilimi uyuşmazlığı** | Tarihler UTC olarak gösteriliyor. | Gerekirse yerel zamana dönüştürmek için `calExc.getFromDate().toLocalDateTime()` kullanın. |
 
-## Sıkça sorulan sorular
-### Aspose.Tasks farklı MS Project dosya sürümlerini işleyebilir mi?
-Evet, Aspose.Tasks **tüm büyük** MS Project formatlarını, MPP, MPT ve XML dahil, 2000 sürümünden en son sürüme kadar destekler.
+## Sıkça Sorulan Sorular
+### Aspose.Tasks farklı MS Project dosya sürümlerini destekleyebilir mi?
+Evet, Aspose.Tasks **tüm büyük** MS Project formatlarını destekler; MPP, MPT ve XML dahil, 2000 sürümünden en yeni sürüme kadar.
 
-### Aspose.Tasks için ücretsiz deneme mevcut mu?
-Evet, **[Aspose ücretsiz deneme indirme sayfasından](https://releases.aspose.com/)** Aspose.Tasks'in ücretsiz denemesini indirebilirsiniz.
+### Aspose.Tasks için ücretsiz deneme sürümü mevcut mu?
+Evet, Aspose.Tasks'in ücretsiz deneme sürümünü **[Aspose free trial download page](https://releases.aspose.com/)** adresinden indirebilirsiniz.
 
 ### Aspose.Tasks for Java belgelerini nerede bulabilirim?
-Belgelere **[Aspose.Tasks Java API referansından](https://reference.aspose.com/tasks/java/)** ulaşabilirsiniz.
+Belgelere **[Aspose.Tasks Java API reference](https://reference.aspose.com/tasks/java/)** adresinden ulaşabilirsiniz.
 
 ### Aspose.Tasks için destek nasıl alabilirim?
-Topluluk forumundan **[Aspose.Tasks community forum](https://forum.aspose.com/c/tasks/15)** destek alabilirsiniz.
+Destek alabileceğiniz topluluk forumu **[Aspose.Tasks community forum](https://forum.aspose.com/c/tasks/15)**.
 
 ### Aspose.Tasks için geçici lisans seçeneği var mı?
-Evet, **[geçici lisans satın alma sayfasından](https://purchase.aspose.com/temporary-license/)** geçici lisans temin edebilirsiniz.
-
-**Ek Soru&Cevap**
+Evet, geçici lisansları **[temporary license purchase page](https://purchase.aspose.com/temporary-license/)** adresinden temin edebilirsiniz.
 
 **S:** *Takvim istisnalarını aldıktan sonra değiştirebilir miyim?*  
 **C:** Kesinlikle. Tarihleri ayarlamak için `CalendarException.setFromDate()` ve `setToDate()` kullanın, ardından projeyi `project.save(...)` ile kaydedin.
 
 **S:** *Aspose.Tasks takvimlerdeki özel alanları korur mu?*  
-**C:** Evet, proje yüklenip kaydedildiğinde tüm özel alanlar ve genişletilmiş öznitelikler korunur.
+**C:** Evet, tüm özel alanlar ve genişletilmiş öznitelikler proje yüklenip kaydedildiğinde korunur.
 
 ## Sonuç
-Bu **asp tasks java tutorial** içinde, Aspose.Tasks for Java kullanarak MS Project'ten takvim istisnalarını nasıl alacağımızı öğrendik. Bu basit adımları izleyerek, bu işlevi Java uygulamalarınıza sorunsuz bir şekilde entegre edebilir, daha zengin zamanlama özellikleri ve daha doğru proje analizleri sağlayabilirsiniz.
+Bu **asp tasks java tutorial** içinde Aspose.Tasks for Java kullanarak MS Project'ten takvim istisnalarını nasıl alacağımızı öğrendik. Bu basit adımları izleyerek, bu işlevi Java uygulamalarınıza sorunsuz bir şekilde entegre edebilir, daha zengin zamanlama özellikleri ve daha doğru proje analizleri sağlayabilirsiniz.
 
 ---
 
-**Last Updated:** 2026-08-24  
-**Tested With:** Aspose.Tasks for Java 24.11  
-**Author:** Aspose  
+**Son Güncelleme:** 2026-11-19  
+**Test Edilen Versiyon:** Aspose.Tasks for Java 24.11  
+**Yazar:** Aspose  
 
 
 
@@ -199,11 +208,11 @@ for (Calendar cal : project.getCalendars()) {
 }
 ```
 
-## İlgili Öğreticiler
+## İlgili öğreticiler
 
-- [Aspose.Tasks for Java ile Özel Takvim İstisnaları Oluşturun](/tasks/java/calendar-exceptions/)
+- [Aspose.Tasks for Java ile Özel Takvim İstisnaları Oluşturma](/tasks/java/calendar-exceptions/)
 - [Aspose.Tasks ile MS Project Takvim Bilgilerini Nasıl Alırsınız](/tasks/java/project-file-operations/retrieve-calendar-info/)
-- [MS Project Takviminden Java Workweeks Nasıl Okunur](/tasks/java/calendars/read-work-weeks/)
+- [Aspose.Tasks ile MS Project Takviminden Java Çalışma Haftalarını Okuma](/tasks/java/calendars/read-work-weeks/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

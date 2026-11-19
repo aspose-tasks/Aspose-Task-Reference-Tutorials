@@ -1,21 +1,24 @@
 ---
-date: 2026-08-24
-description: MS Project ファイルから Java のカレンダー例外を取得し、Aspose.Tasks for Java を使用して mpp カレンダーを読み取る方法を学びます。このチュートリアルでは、ステップバイステップのコード例を提供します。
+date: 2026-11-19
+description: MS Project ファイルから Java のカレンダー例外を取得し、Aspose.Tasks for Java を使用して MPP カレンダーを読み取る方法を学びます。このチュートリアルでは、ステップバイステップのコード例を提供します。
+images:
+- /java/calendar-exceptions/retrieve/og-image.png
 keywords:
 - retrieve calendar exceptions java
-- how to read mpp calendar
-- Aspose.Tasks Java
+- Aspose.Tasks for Java
 - MS Project calendar API
-lastmod: 2026-08-24
+- read MPP calendar
+- Java project scheduling
+lastmod: 2026-11-19
 linktitle: Aspose.Tasks を使用した Java のカレンダー例外の取得方法
-og_description: MS Project ファイルから Java のカレンダー例外を取得し、Aspose.Tasks for Java を使用して mpp
-  カレンダーを読み取る方法を学びます。このステップバイステップガイドは、Java アプリに正確なカレンダー処理を追加するのに役立ちます。
+og_description: MS Project ファイルから Java のカレンダー例外を取得し、Aspose.Tasks for Java を使用して MPP
+  カレンダーを読み取る方法を学びます。このガイドでは、Java アプリに正確なカレンダー処理を追加する方法を示します。
 og_image_alt: Developer guide showing Java code to read calendar exceptions from an
   MS Project file
 og_title: Aspose.Tasks を使用した Java のカレンダー例外の取得方法
 schemas:
 - author: Aspose
-  dateModified: '2026-08-24'
+  dateModified: '2026-11-19'
   description: Learn how to retrieve calendar exceptions java from MS Project files
     and how to read mpp calendar using Aspose.Tasks for Java. This tutorial provides
     step‑by‑step code examples.
@@ -67,57 +70,65 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Tasks を使用した Java でのカレンダー例外の取得方法
+# Aspose.Tasks を使用した Java のカレンダー例外の取得方法
 
 ## はじめに
-この **asp tasks java tutorial** では、Aspose.Tasks ライブラリ for Java を使用して Microsoft Project ファイルからカレンダー例外を取得する方法を学びます。カレンダー例外は、祝日やカスタム勤務時間ルールなどの非稼働期間を表し、プログラムで読み取れることはリソースレベリング、レポート作成、カスタムスケジューリングロジックにとって不可欠です。手順をステップバイステップで解説するので、この機能を自分の Java アプリケーションに自信を持って組み込むことができます。
+この **asp tasks java tutorial** では、Aspose.Tasks ライブラリ for Java を使用して Microsoft Project ファイルからカレンダー例外を取得する方法を学びます。カレンダー例外は、祝日やカスタム作業時間ルールなどの非稼働期間を表し、プログラムで読み取れることはリソースレベリング、レポート作成、カスタムスケジューリングロジックに不可欠です。手順を順を追って説明するので、自信を持ってこの機能を自分の Java アプリケーションに統合できます。
 
 ## クイック回答
 - **このチュートリアルでカバーする内容は何ですか？** Aspose.Tasks for Java を使用して MPP ファイルからカレンダー例外を取得します。  
-- **実装にどれくらい時間がかかりますか？** 基本的な設定で約 10〜15 分です。  
+- **実装にかかる時間はどれくらいですか？** 基本的なセットアップで約 10〜15 分です。  
 - **前提条件は？** JDK、Aspose.Tasks for Java、IDE（IntelliJ IDEA または Eclipse）。  
-- **ライセンスは必要ですか？** 開発には無料トライアルで動作しますが、本番環境では商用ライセンスが必要です。  
-- **サポートされている Project バージョンは？** 主要なすべての MS Project フォーマット（MPP、MPT、XML）です。
+- **ライセンスは必要ですか？** 開発には無料トライアルで十分です。商用環境では有償ライセンスが必要です。  
+- **サポートされている Project バージョンは？** すべての主要な MS Project フォーマット（MPP、MPT、XML）に対応しています。
 
-## asp tasks java tutorial とは？
-この **asp tasks java tutorial** は、Java プロジェクト内で Aspose.Tasks API を使用する方法を解説します。具体的なコードスニペット、ベストプラクティスの説明、実際のシナリオを提供し、開発者は Microsoft Project をインストールせずに Project ファイルを操作できます。このようなチュートリアルに従うことで、開発者は API の構造、一般的な使用パターン、そしてその機能を大規模なエンタープライズアプリケーションに統合する方法を実践的に理解できます。
+## Aspose.Tasks Java チュートリアルとは？
+**asp tasks java tutorial** は、Java プロジェクト内で Aspose.Tasks API を使用する方法を解説します。具体的なコードスニペット、ベストプラクティスの説明、実際のシナリオを提供し、開発者が Microsoft Project をインストールせずに Project ファイルを操作できるようにします。このチュートリアルを通じて、API の構造や一般的な使用パターン、エンタープライズ アプリケーションへの統合方法を実践的に理解できます。
 
 ## なぜカレンダー例外を取得するのか？
-カレンダー例外を取得することで、祝日やカスタム勤務スケジュールを考慮した正確なプロジェクトタイムラインを作成でき、非稼働日をハイライトするレポートツールを構築し、ERP や HR プラットフォームなどの外部システムと Project カレンダーを同期できます。Aspose.Tasks は **30+** のカレンダータイプから例外を読み取り、**3 つの主要** な MS Project ファイル形式（MPP、MPT、XML）をメモリ全体にロードせずにサポートするため、数百ページに及ぶプロジェクトの効率的な処理が可能です。
+カレンダー例外を取得することで、祝日やカスタム作業スケジュールを考慮した正確なプロジェクトタイムラインを生成でき、非稼働日をハイライトするレポートツールの構築や、ERP や HR プラットフォームなど外部システムとのカレンダー同期が可能になります。Aspose.Tasks は **30 以上** のカレンダータイプから例外を読み取り、**3 つの主要** な MS Project ファイル形式（MPP、MPT、XML）をメモリ全体をロードせずに処理できるため、数百ページ規模のプロジェクトでも効率的に扱えます。
 
 ## 前提条件
-開始する前に、以下の前提条件が揃っていることを確認してください。
+開始する前に、以下の項目が揃っていることを確認してください。
 
 1. **Java Development Kit (JDK)** – JDK 8 以降がインストールされていることを確認してください。  
-2. **Aspose.Tasks for Java** – **[Aspose.Tasks for Java ダウンロードページ](https://releases.aspose.com/tasks/java/)** から Aspose.Tasks for Java をダウンロードしてインストールしてください。  
-3. **Integrated Development Environment (IDE)** – IntelliJ IDEA や Eclipse など、好きな IDE を使用できます。
+2. **Aspose.Tasks for Java** – **[Aspose.Tasks for Java ダウンロードページ](https://releases.aspose.com/tasks/java/)** から Aspose.Tasks for Java をダウンロードしてインストールします。  
+3. **統合開発環境 (IDE)** – IntelliJ IDEA や Eclipse など、お好みの IDE を使用できます。
+
+後でチュートリアル中に再度必要になる場合は、**[Aspose.Tasks for Java ダウンロードページ](https://releases.aspose.com/tasks/java/)** から取得できます。
+
+## データディレクトリの設定方法は？
+分析対象の Project ファイルが格納されたフォルダーを定義します。絶対パスまたはプロジェクトの `resources` フォルダーに対する相対パスを使用することで `FileNotFoundException` を防止できます。ファイルは専用の `resources` フォルダーに保存し、`Paths.get(...)` で参照することでプラットフォームに依存しないコードとなり、ハードコーディングされた Windows パスを回避できます。
 
 ## パッケージのインポート
-インポート文は Aspose.Tasks のクラスを Java ソースファイルに取り込み、プロジェクト、カレンダー、例外を操作できるようにします。
+インポート文は Aspose.Tasks のクラスを Java ソースファイルに取り込み、プロジェクト、カレンダー、例外などを操作できるようにします。
 
 ```java
 import com.aspose.tasks.*;
 import java.util.*;
 ```
 
+## Project クラスとは？
+`Project` はメモリ上にロードされた MS Project ファイルを表すオブジェクトです。Aspose.Tasks の主要オブジェクトであり、カレンダー、タスク、リソース、その他のプロジェクトデータへクリーンなオブジェクト指向 API でアクセスできます。`Project` クラスを使用すれば、Microsoft Project がインストールされていなくてもプロジェクトのすべての要素を照会・操作でき、サーバーサイド処理や自動レポート作成に最適です。
+
 ## 手順 1: データディレクトリの設定
-解析対象の Project ファイルが格納されたフォルダーを定義します。絶対パスまたはプロジェクトの resources フォルダーに対する相対パスを使用することで、`FileNotFoundException` を防止できます。
+分析対象の Project ファイルが格納されたフォルダーを定義します。絶対パスまたはプロジェクトの `resources` フォルダーに対する相対パスを使用することで `FileNotFoundException` を防止できます。
 
 ```java
 String dataDir = "C:/Projects/Data/";
 ```
 
-> **プロのコツ:** Project ファイルは専用の resources フォルダーに保存し、`Paths.get(...)` を使用してプラットフォームに依存しないパスで参照してください。
+> **プロのコツ:** Project ファイルは専用の `resources` フォルダーに保存し、`Paths.get(...)` で参照するとプラットフォームに依存しないパスとなります。
 
-## 手順 2: MS Project ファイルのロード
-`Project` クラスは MS Project ファイルを表し、そのカレンダー、タスク、リソース、その他のプロジェクトデータへアクセスできます。Project ファイルを `Project` オブジェクトにロードします。このオブジェクトはメモリ上に MS Project ファイル全体を表し、カレンダー、タスク、リソースなどにアクセスできます。
+## 手順 2: MS Project ファイルの読み込み
+`Project` クラスは MS Project ファイルを表し、そのカレンダー、タスク、リソースなどへのアクセスを提供します。Project ファイルを `Project` オブジェクトにロードします。このオブジェクトはメモリ上に MS Project 全体を表現し、カレンダーやタスク、リソースなどにアクセスできます。
 
 ```java
 Project project = new Project(dataDir + "project.mpp");
 ```
 
-## 手順 3: カレンダー例外の取得
-プロジェクト内の各カレンダーを反復し、さらにそのカレンダー内の各カレンダー例外を反復します。各例外の開始日と終了日を出力します。
+## 読み込んだプロジェクトからカレンダー例外を取得する方法は？
+プロジェクト内の各カレンダーを走査し、さらにそのカレンダー内の各カレンダー例外を走査します。各例外の開始日と終了日を出力します。この二重ループにより、プロジェクトに複数のカレンダー（標準、リソース、カスタム）が存在してもすべての例外を確実に取得できます。`CalendarException` を調べることで、カスタムレポートの作成、スケジュールの調整、他システムへのデータエクスポートが可能になります。
 
 ```java
 for (Calendar cal : project.getCalendars()) {
@@ -130,40 +141,40 @@ for (Calendar cal : project.getCalendars()) {
 ## よくある問題と解決策
 | 問題 | 原因 | 対策 |
 |-------|--------|-----|
-| **出力が表示されない** | Project ファイルにカレンダー例外が含まれていません。 | MS Project のカレンダーに例外（例: 祝日）が設定されているか確認してください。 |
+| **出力が表示されない** | プロジェクトファイルにカレンダー例外が含まれていません。 | MS Project のカレンダーに例外（例: 祝日）が定義されているか確認してください。 |
 | **`NullPointerException`** | `dataDir` パスが正しくないか、ファイルが見つかりません。 | ディレクトリパスを再確認し、`project.mpp` が存在することを確認してください。 |
-| **タイムゾーンの不一致** | 日付が UTC で表示されています。 | 必要に応じて `calExc.getFromDate().toLocalDateTime()` を使用してローカル時間に変換してください。 |
+| **タイムゾーンの不一致** | 日付が UTC で表示されます。 | 必要に応じて `calExc.getFromDate().toLocalDateTime()` を使用してローカル時間に変換してください。 |
 
 ## よくある質問
-### Aspose.Tasks は異なるバージョンの MS Project ファイルに対応していますか？
-はい、Aspose.Tasks は **すべての主要** な MS Project フォーマット（MPP、MPT、XML）をサポートし、2000 年版から最新リリースまでのバージョンに対応しています。
+### Aspose.Tasks はさまざまなバージョンの MS Project ファイルに対応していますか？
+はい、Aspose.Tasks は **すべての主要** な MS Project フォーマット（MPP、MPT、XML）をサポートしており、2000 年版から最新リリースまでのバージョンに対応しています。
 
 ### Aspose.Tasks の無料トライアルは利用できますか？
-はい、**[Aspose 無料トライアル ダウンロードページ](https://releases.aspose.com/)** から Aspose.Tasks の無料トライアルをダウンロードできます。
+はい、**[Aspose 無料トライアルダウンロードページ](https://releases.aspose.com/)** から Aspose.Tasks の無料トライアルをダウンロードできます。
 
-### Aspose.Tasks for Java のドキュメントはどこで見つけられますか？
-ドキュメントは **[Aspose.Tasks Java API リファレンス](https://reference.aspose.com/tasks/java/)** を参照してください。
+### Aspose.Tasks for Java のドキュメントはどこで確認できますか？
+**[Aspose.Tasks Java API リファレンス](https://reference.aspose.com/tasks/java/)** を参照してください。
 
 ### Aspose.Tasks のサポートはどこで受けられますか？
-コミュニティフォーラム **[Aspose.Tasks コミュニティフォーラム](https://forum.aspose.com/c/tasks/15)** でサポートを受けられます。
+**[Aspose.Tasks コミュニティフォーラム](https://forum.aspose.com/c/tasks/15)** でサポートを受けられます。
 
-### Aspose.Tasks の一時ライセンスオプションはありますか？
-はい、**[一時ライセンス購入ページ](https://purchase.aspose.com/temporary-license/)** から取得できます。
+### Aspose.Tasks の一時ライセンスはありますか？
+はい、**[一時ライセンス購入ページ](https://purchase.aspose.com/temporary-license/)** から一時ライセンスを取得できます。
 
 **追加の Q&A**
 
-**Q:** *取得したカレンダー例外を変更できますか？*  
-**A:** もちろんです。`CalendarException.setFromDate()` と `setToDate()` を使用して日付を調整し、`project.save(...)` でプロジェクトを保存してください。
+**Q:** *取得後にカレンダー例外を変更できますか？*  
+**A:** もちろん可能です。`CalendarException.setFromDate()` と `setToDate()` を使用して日付を調整し、`project.save(...)` でプロジェクトを保存してください。
 
-**Q:** *Aspose.Tasks はカレンダーのカスタムフィールドを保持しますか？*  
-**A:** はい、ロードおよび保存時にすべてのカスタムフィールドと拡張属性が保持されます。
+**Q:** *Aspose.Tasks はカレンダー上のカスタム フィールドを保持しますか？*  
+**A:** はい、プロジェクトの読み込みおよび保存時に、すべてのカスタム フィールドと拡張属性が保持されます。
 
 ## 結論
-この **asp tasks java tutorial** では、Aspose.Tasks for Java を使用して MS Project からカレンダー例外を取得する方法を学びました。これらの簡単な手順に従うことで、この機能を Java アプリケーションにシームレスに統合でき、より高度なスケジューリング機能と正確なプロジェクト分析が可能になります。
+この **asp tasks java tutorial** では、Aspose.Tasks for Java を使用して MS Project からカレンダー例外を取得する方法を学びました。シンプルな手順に従うだけで、この機能を Java アプリケーションにシームレスに統合でき、スケジューリング機能の強化やプロジェクト分析の精度向上が実現できます。
 
 ---
 
-**最終更新日:** 2026-08-24  
+**最終更新日:** 2026-11-19  
 **テスト環境:** Aspose.Tasks for Java 24.11  
 **作者:** Aspose  
 
@@ -198,9 +209,9 @@ for (Calendar cal : project.getCalendars()) {
 
 ## 関連チュートリアル
 
-- [Aspose.Tasks for Java でカスタム カレンダー例外を作成](/tasks/java/calendar-exceptions/)
+- [Aspose.Tasks for Java でカスタム カレンダー例外を作成する](/tasks/java/calendar-exceptions/)
 - [Aspose.Tasks を使用して MS Project カレンダー情報を取得する方法](/tasks/java/project-file-operations/retrieve-calendar-info/)
-- [MS Project カレンダーから Java の作業週を読む方法 (Aspose.Tasks)](/tasks/java/calendars/read-work-weeks/)
+- [MS Project カレンダーから Java で作業週を読み取る方法](/tasks/java/calendars/read-work-weeks/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
