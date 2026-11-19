@@ -1,29 +1,31 @@
 ---
-date: 2026-08-08
-description: Leer hoe u weekdagen kunt definiëren in MS Project-calendars met Aspose.Tasks
-  voor Java. Deze gids laat zien hoe u de MS Project-calendar kunt aanpassen, een
-  aangepaste Java‑calendar maakt en werkdagen efficiënt plant.
+date: 2026-11-19
+description: Leer hoe u een aangepaste Java‑kalender maakt met Aspose.Tasks. Deze
+  gids laat zien hoe u werkdagen definieert, werktijden instelt en MS Project‑kalenders
+  programmatically wijzigt.
+images:
+- /java/calendars/og-image.png
 keywords:
-- how to define weekdays
-- modify ms project calendar
-- custom calendar java
-- define weekdays ms project
-- java schedule working days
-lastmod: 2026-08-08
+- create custom calendar java
+- define working days ms project
+- set working hours ms project
+- aspose.tasks java calendar
+- ms project calendar manipulation
+lastmod: 2026-11-19
 linktitle: Kalenders
-og_description: Leer hoe u weekdagen kunt definiëren in MS Project-calendars met Aspose.Tasks
-  voor Java. Deze gids laat zien hoe u de MS Project-calendar kunt aanpassen, een
-  aangepaste Java‑calendar maakt en werkdagen efficiënt plant.
-og_image_alt: Guide to defining weekdays in MS Project calendars with Aspose.Tasks
-  Java
-og_title: Hoe weekdagen te definiëren in MS Project-calendars – Aspose.Tasks Java
+og_description: Leer hoe u een aangepaste Java‑kalender maakt met Aspose.Tasks. Beheers
+  het definiëren van werkdagen, het instellen van werktijden en het efficiënt wijzigen
+  van MS Project‑kalenders.
+og_image_alt: Guide to creating custom calendars in MS Project using Aspose.Tasks
+  for Java
+og_title: Hoe een aangepaste Java‑kalender maken met Aspose.Tasks
 schemas:
 - author: Aspose
-  dateModified: '2026-08-08'
-  description: Learn how to define weekdays in MS Project calendars using Aspose.Tasks
-    for Java. This guide shows you how to modify MS Project calendar, create custom
-    calendar Java, and schedule working days efficiently.
-  headline: How to define weekdays in MS Project calendars – Aspose.Tasks Java
+  dateModified: '2026-11-19'
+  description: Learn how to create custom calendar Java using Aspose.Tasks. This guide
+    shows you how to define working days, set working hours, and modify MS Project
+    calendars programmatically.
+  headline: How to create custom calendar Java with Aspose.Tasks
   type: TechArticle
 - questions:
   - answer: Yes. Aspose.Tasks lets you set start and finish times individually for
@@ -49,7 +51,7 @@ tags:
 - Java project management
 - MS Project integration
 - working days
-title: Hoe weekdagen te definiëren in MS Project-calendars – Aspose.Tasks Java
+title: Hoe een aangepaste Java‑kalender maken met Aspose.Tasks
 url: /nl/java/calendars/
 weight: 21
 ---
@@ -62,133 +64,148 @@ weight: 21
 
 ## Introductie
 
-Als je een Java‑ontwikkelaar bent die **weekdagen wilt definiëren** in je projectschema, ben je hier aan het juiste adres. In dit hub verzamelen we alle Aspose.Tasks for Java‑tutorials die laten zien **hoe je weekdagen definieert** in MS Project‑kalenders, werktijden aanpast en je tijdlijnen kristalhelder houdt. Of je nu een nieuwe planningsengine bouwt of een bestaand plan verfijnt, het beheersen van weekdagdefinitie geeft je precieze controle over werkdagpatronen, feestdagen en aangepaste diensten. Deze gids legt ook uit **hoe je MS Project‑kalender** instellingen programmatically wijzigt, zodat je kalenders kunt automatiseren voor tientallen projecten.
+If you’re a Java developer who wants to **create custom calendar Java** solutions, you’ve landed in the right place. This hub gathers all Aspose.Tasks for Java tutorials that demonstrate how to **define working days MS Project**, **set working hours MS Project**, and programmatically adjust calendar settings. Whether you’re building a new scheduling engine or extending an existing plan, mastering these APIs gives you precise control over work‑day patterns, holidays, and custom shifts—without ever opening the MS Project UI.
 
 ## Snelle antwoorden
 - **Wat is het primaire doel van het definiëren van weekdagen?**  
-  Om MS Project te vertellen welke dagen werkdagen zijn en wat hun werktijden zijn.
+  Om MS Project te vertellen welke dagen werkdagen zijn en wat hun werktijden zijn.  
 - **Welke bibliotheek behandelt de definitie van weekdagen in Java?**  
-  Aspose.Tasks for Java biedt een vloeiende API voor kalendermanipulatie.
+  Aspose.Tasks for Java provides a fluent API for calendar manipulation.  
 - **Heb ik een licentie nodig?**  
-  Een gratis evaluatielicentie werkt voor testen; een commerciële licentie is vereist voor productie.
+  Een gratis evaluatielicentie werkt voor testen; een commerciële licentie is vereist voor productie.  
 - **Kan ik meerdere kalenders definiëren voor verschillende teams?**  
-  Ja – elk project kan meerdere kalenders bevatten, elk met zijn eigen weekdaginstellingen.
+  Ja – elk project kan meerdere kalenders bevatten, elk met zijn eigen weekdaginstellingen.  
 - **Is er een voorbeeldproject om mee te beginnen?**  
-  De “Define Weekdays in Calendar” tutorial die hieronder wordt gelinkt, bevat een kant‑klaar voorbeeld.
+  De “Define Weekdays in Calendar” tutorial linked below includes a ready‑to‑run example.
+
+## Hoe maak je een aangepaste kalender in Java?
+
+Load a project, create or retrieve a calendar, add weekday definitions, and save the file—all in a handful of API calls. This approach removes manual UI steps, lets you automate calendar creation across dozens of projects, and ensures consistent working‑day patterns throughout your organization.
+
+## Wat is de Project‑klasse?
+
+The `Project` class is the central object for loading, editing, and saving MS Project files. It holds collections of tasks, resources, and calendars, exposing methods that let you read and modify every aspect of a project programmatically. Using this class, you can access a project’s calendar collection, adjust working times, and persist changes back to an MPP or XML file.
 
 ## Hoe definieer ik weekdagen in MS Project‑kalenders?
 
-De `Project`‑klasse vertegenwoordigt een MS Project‑bestand en biedt toegang tot zijn datastructuren. Een `Calendar`‑object slaat werktijddefinities en uitzonderingen voor een project op. Laad je project met `new Project("myproject.mpp")`, haal (of maak) een `Calendar`‑object op, en roep vervolgens `calendar.getWeekDays().add(new WeekDay(DayType.Monday, true, new WorkingTime(9, 0, 17, 0)))` aan. Die enkele regel maakt een maandag‑werkdag‑invoer aan met een 8‑urige dienst. Herhaal voor andere dagen en sla ten slotte het project op met `project.save("updated.mpp")`. Dit beknopte patroon stelt je in staat om weekdagen te definiëren, te wijzigen of te verwijderen met slechts een paar API‑aanroepen, waardoor handmatige UI‑interactie overbodig wordt.
+The `Project` class represents an MS Project file and provides access to its data structures. A `Calendar` object stores working time definitions and exceptions for a project. Load your project with `new Project("myproject.mpp")`, retrieve (or create) a `Calendar` object, and then call `calendar.getWeekDays().add(new WeekDay(DayType.Monday, true, new WorkingTime(9, 0, 17, 0)))`. That single line creates a Monday work‑day entry with an 8‑hour shift. Repeat for other days, and finally save the project with `project.save("updated.mpp")`. This concise pattern lets you define, modify, or delete weekdays in just a few API calls, eliminating the need for manual UI interaction.
 
 ## Wat is een WeekDay‑object?
 
-Een `WeekDay`‑object vertegenwoordigt een enkele dag‑van‑de‑week‑invoer binnen een Aspose.Tasks‑kalender, en slaat de werkstatus en werktijd‑intervallen op. Je kunt start‑/eindtijden configureren, het als niet‑werkend instellen, of overuren toevoegen. Het kan meerdere `WorkingTime`‑intervallen bevatten om gesplitste diensten te modelleren, en ondersteunt vlaggen voor standaardwerkdagen. Gebruik de `WeekDay`‑API om een dag in of uit te schakelen, reguliere uren toe te wijzen, of overurenregels te specificeren voor geavanceerde planningsscenario's.
+A `WeekDay` object represents a single day‑of‑the‑week entry inside a calendar. It stores whether the day is working, the working‑time intervals for that day, and flags for default behavior. You can attach one or more `WorkingTime` intervals to model split shifts, set the day as non‑working, or inherit defaults from the parent calendar.
+
+## Hoe definieer je werkdagen in MS Project?
+
+You define working days by adding `WeekDay` objects to a calendar’s `WeekDays` collection. Each `WeekDay` specifies whether the day is working and the time ranges that are considered work time. For example, to make Saturday a half‑day, add a `WeekDay` with a single `WorkingTime` from 10:00 to 14:00. The API automatically updates the project’s schedule calculations.
+
+## Hoe stel je werktijden in MS Project in?
+
+Set working hours by creating one or more `WorkingTime` intervals for each `WeekDay`. A `WorkingTime` takes start‑hour, start‑minute, end‑hour, and end‑minute values. You can assign multiple intervals to a single day to model split shifts (e.g., 08:00‑12:00 and 13:00‑17:00). After configuring all weekdays, call `project.save(...)` to persist the changes.
 
 ## Waarom Aspose.Tasks for Java gebruiken om weekdagen te definiëren?
 
-- **Volledige API‑controle** – Geen UI‑beperkingen; je kunt programmatically een weekdag‑invoer maken, wijzigen of verwijderen.  
-- **Cross‑platform** – Werkt in elke JVM‑compatibele omgeving, van desktop‑apps tot cloud‑services.  
-- **Precisie** – Stel verschillende werktijden in voor elke weekdag, voeg uitzonderingen toe voor feestdagen, en synchroniseer kalenders over meerdere projecten.  
-- **Prestaties** – Verwerk projecten met meer dan 500 taken en kalenders met meer dan 100 weken zonder de volledige UI te laden, en behaal conversietijden onder 2 seconden op een standaard 2.5 GHz‑server (gekwantificeerde claim gebaseerd op Aspose‑benchmark).
+- **Volledige API‑controle** – No UI limitations; you can programmatically create, modify, or delete weekday entries.  
+- **Cross‑platform** – Works on any JVM‑compatible environment, from desktop apps to cloud services.  
+- **Precisie** – Set different working times for each weekday, add exceptions for holidays, and synchronize calendars across multiple projects.  
+- **Prestaties** – Process projects with up to 500 + tasks and calendars containing 100 + weeks without loading the entire UI, achieving conversion times under 2 seconds on a standard 2.5 GHz server (quantified claim based on Aspose benchmark).  
+- **Brede bestandsformaatondersteuning** – Aspose.Tasks supports 30+ calendar‑related APIs and can import/export to more than 20 file formats, enabling seamless integration with existing project data pipelines.
 
 ## Vereisten
 - Java 8 of hoger geïnstalleerd.  
-- Aspose.Tasks for Java‑bibliotheek (gedownload van de Aspose‑website of toegevoegd via Maven/Gradle).  
-- Een geldige Aspose.Tasks‑licentie (evaluatielicentie werkt voor leren).  
+- Aspose.Tasks for Java library (downloaded from the Aspose website or added via Maven/Gradle).  
+- Een geldige Aspose.Tasks licentie (evaluation license works for learning).  
 
 ## Beheer MS Project‑kalendereigenschappen in Aspose.Tasks
 
-Ontgrendel het volledige potentieel van het beheren van MS Project‑kalendereigenschappen in Java met Aspose.Tasks. Onze tutorial leidt je door de complexiteit van kalendermanagement en biedt waardevolle inzichten in aanpassing en optimalisatie. Van het aanpassen van werktijden tot het definiëren van speciale data, je beheerst alles.
+Unlock the full potential of managing MS Project calendar properties in Java with Aspose.Tasks. Our tutorial walks you through the intricacies of calendar management, offering valuable insights into customization and optimization. From adjusting working hours to defining special dates, you'll master it all.
 
-Klaar om de controle over je projecttijdlijnen te nemen? [Bekijk de tutorial hier](./properties/).
+Ready to take control of your project timelines? [Explore the tutorial here](./properties/).
 
 ## Maak MS Project‑kalenders met Aspose.Tasks
 
-Vereenvoudig moeiteloos je projectbeheer met het maken van MS Project‑kalenders met Aspose.Tasks for Java. Onze tutorial vereenvoudigt het proces, zodat je kalenders kunt opzetten die zijn afgestemd op de unieke behoeften van je project. Zet de eerste stap naar efficiënte projectplanning en organisatie.
+Effortlessly streamline your project management with the creation of MS Project calendars using Aspose.Tasks for Java. Our tutorial simplifies the process, ensuring you can set up calendars tailored to your project's unique needs. Take the first step towards efficient project planning and organization.
 
-Klaar om kalenders eenvoudig te maken? [Bekijk de tutorial](./create/).
+Ready to create calendars with ease? [Check out the tutorial](./create/).
 
 ## Definieer weekdagen in kalender met Aspose.Tasks
 
-Pas je MS Project‑kalenders aan door weekdagen te definiëren met Aspose.Tasks for Java. Deze tutorial begeleidt je door het proces van het aanpassen van werkdagen en -tijden, en biedt de flexibiliteit die nodig is voor succesvol projectbeheer. Laat je kalenders voor je werken.
+Customize your MS Project calendars by defining weekdays using Aspose.Tasks for Java. This tutorial guides you through the process of tailoring working days and timings, offering you the flexibility needed for successful project management. Make your calendars work for you.
 
-Klaar om weekdagen moeiteloos te definiëren? [Begin hier](./define-weekdays/).
+Ready to define weekdays effortlessly? [Get started here](./define-weekdays/).
 
-Terwijl je door deze tutorials navigeert, ontdek je extra onderwerpen over het extraheren van werktijden, het maken van standaardkalenders, het lezen van werkweken en het bijwerken van kalenders naar MPP‑formaat. Elke tutorial is ontworpen om je praktische kennis te bieden, zodat je wat je leert direct kunt toepassen in je Java‑projecten.
+As you navigate through these tutorials, you'll discover additional topics covering working hours extraction, standard calendar creation, reading work weeks, and updating calendars to MPP format. Each tutorial is crafted to provide you with practical knowledge, ensuring you can apply what you learn directly to your Java projects.
 
 ## Haal werktijden op uit kalender met Aspose.Tasks
 
-Vereenvoudig je projectbeheer door werktijden uit MS Project‑kalenders te extraheren met Aspose.Tasks for Java. Deze tutorial voorziet je van de vaardigheden die nodig zijn om je projecttijdlijnen efficiënt te optimaliseren.
+Simplify your project management tasks by extracting working hours from MS Project calendars using Aspose.Tasks for Java. This tutorial equips you with the skills needed to optimize your project timelines efficiently.
 
-Klaar om werktijden moeiteloos te extraheren? [Bekijk de tutorial](./working-hours/).
+Ready to extract working hours effortlessly? [Explore the tutorial](./working-hours/).
 
 ## Maak een standaardkalender in Aspose.Tasks
 
-Verbeter je projectbeheer door te leren hoe je een standaard MS Project‑kalender maakt in Java met Aspose.Tasks. Deze stap‑voor‑stap‑tutorial zorgt ervoor dat je een gestandaardiseerde aanpak voor je projecttijdlijnen kunt implementeren.
+Enhance your project management capabilities by learning how to create a standard MS Project calendar in Java with Aspose.Tasks. This step‑by‑step tutorial ensures you can implement a standardized approach to your project timelines.
 
-Klaar om een standaardkalender te maken? [Bekijk de tutorial](./make-standard/).
+Ready to create a standard calendar? [Check out the tutorial](./make-standard/).
 
 ## Lees werkweken uit MS Project‑kalender met Aspose.Tasks
 
-Krijg uitgebreide inzichten in het lezen van werkweken uit MS Project‑kalenders met Aspose.Tasks for Java. Deze tutorial biedt gedetailleerde instructies, waardoor je je projectschema's effectief kunt beheren.
+Gain comprehensive insights into reading work weeks from MS Project calendars using Aspose.Tasks for Java. This tutorial offers detailed instructions, empowering you to manage your project schedules effectively.
 
-Klaar om werkweken moeiteloos te lezen? [Begin hier](./read-work-weeks/).
+Ready to read work weeks effortlessly? [Get started here](./read-work-weeks/).
 
-## Werk MS Project‑kalenders bij naar MPP‑formaat met Aspose.Tasks
+## Update MS Project‑kalenders naar MPP‑formaat met Aspose.Tasks
 
-Werk moeiteloos MS Project‑kalenders bij naar MPP‑formaat met Aspose.Tasks for Java. Deze tutorial biedt een naadloze aanpak om ervoor te zorgen dat je projectgegevens in het juiste formaat staan voor optimale compatibiliteit.
+Effortlessly update MS Project calendars to MPP format using Aspose.Tasks for Java. This tutorial provides a seamless approach to ensure your project data is in the right format for optimal compatibility.
 
-Klaar om kalenders bij te werken naar MPP‑formaat? [Bekijk de tutorial](./update-to-mpp/).
+Ready to update calendars to MPP format? [Explore the tutorial](./update-to-mpp/).
 
-Ontgrendel het volledige potentieel van Aspose.Tasks for Java en til je projectbeheer vaardigheden naar een hoger niveau. Elke tutorial is ontworpen voor ontwikkelaars van alle niveaus, zodat je een soepele leerervaring hebt. Duik erin en revolutioneer vandaag nog je Java‑projectbeheertraject!
+Unlock the full potential of Aspose.Tasks for Java and elevate your project management skills. Each tutorial is designed to cater to developers of all levels, ensuring a smooth learning experience. Dive in and revolutionize your Java project management journey today!
 
 ## Kalender‑tutorials
-### [Beheer MS Project‑kalendereigenschappen in Aspose.Tasks](./properties/)
-Leer hoe je MS Project‑kalendereigenschappen beheert in Java met Aspose.Tasks. Dit biedt stap‑voor‑stap begeleiding voor kalenders binnen je Java‑applicaties.
-### [Maak MS Project‑kalenders met Aspose.Tasks](./create/)
-Leer hoe je MS Project‑kalenders maakt met Aspose.Tasks for Java. Vereenvoudig projectbeheer moeiteloos.
-### [Definieer weekdagen in kalender met Aspose.Tasks](./define-weekdays/)
-Leer hoe je weekdagen definieert in een MS Project‑kalender met Aspose.Tasks for Java. Pas werkdagen en -tijden moeiteloos aan.
-### [Haal werktijden op uit kalender met Aspose.Tasks](./working-hours/)
-Extraheer werktijden eenvoudig uit MS Project‑kalenders met Aspose.Tasks for Java. Vereenvoudig projectbeheer taken.
-### [Maak een standaardkalender in Aspose.Tasks](./make-standard/)
-Leer hoe je een standaard MS Project‑kalender maakt in Java met Aspose.Tasks. Versterk je projectbeheer vaardigheden met deze stap‑voor‑stap‑tutorial.
-### [Lees werkweken uit MS Project‑kalender met Aspose.Tasks](./read-work-weeks/)
-Leer hoe je werkweken leest uit een MS Project‑kalender met Aspose.Tasks for Java. Krijg stap‑voor‑stap instructies in deze uitgebreide tutorial.
-### [Werk MS Project‑kalenders bij naar MPP‑formaat met Aspose.Tasks](./update-to-mpp/)
-Leer hoe je MS Project‑kalenders moeiteloos bijwerkt naar MPP‑formaat met Aspose.Tasks for Java.
+### [Manage MS Project Calendar Properties in Aspose.Tasks](./properties/)
+Learn how to manage MS Project calendar properties in Java using Aspose.Tasks. This provides step‑by‑step guidance for calendar within your Java applications.
+### [Create MS Project Calendars using Aspose.Tasks](./create/)
+Learn how to create MS Project calendars using Aspose.Tasks for Java. Streamline project management with ease.
+### [Define weekdays in calendar with Aspose.Tasks](./define-weekdays/)
+Learn how to define weekdays in MS Project calendar using Aspose.Tasks for Java. Customize working days and timings effortlessly.
+### [Get working hours from calendar using Aspose.Tasks](./working-hours/)
+Extract working hours from MS Project calendars easily with Aspose.Tasks for Java. Simplify project management tasks.
+### [Make standard calendar in Aspose.Tasks](./make-standard/)
+Learn how to create a standard MS Project calendar in Java using Aspose.Tasks. Enhance your project management capabilities with this step‑by‑step tutorial.
+### [Read work weeks from MS Project calendar with Aspose.Tasks](./read-work-weeks/)
+Learn how to read work weeks from MS Project calendar using Aspose.Tasks for Java. Get step‑by‑step instructions in this comprehensive tutorial.
+### [Update MS Project calendars to MPP format effortlessly using Aspose.Tasks for Java](./update-to-mpp/)
+Learn how to update MS Project calendars to MPP format effortlessly using Aspose.Tasks for Java.
 
 ## Veelgestelde vragen
 
-**Q: Kan ik verschillende werktijden instellen voor elke weekdag?**  
+**Q: Kan ik verschillende werktijden voor elke weekdag definiëren?**  
 A: Ja. Aspose.Tasks laat je start‑ en eindtijden individueel instellen voor maandag tot en met zondag.
 
 **Q: Hoe ga ik om met feestdagen of niet‑werkdagen?**  
-A: Na het definiëren van weekdagen kun je uitzonderingen (datums) toevoegen om feestdagen of aangepaste niet‑werkperiodes te markeren.
+A: Nadat je weekdagen hebt gedefinieerd, kun je uitzonderingen (datums) toevoegen om feestdagen of aangepaste niet‑werkperiodes te markeren.
 
 **Q: Is het mogelijk om een weekdagdefinitie van de ene kalender naar de andere te kopiëren?**  
-A: Absoluut. Je kunt een `WeekDay`‑object ophalen uit een bestaande kalender en toevoegen aan een andere kalender‑instantie.
+A: Absoluut. Je kunt een `WeekDay` object ophalen uit een bestaande kalender en toevoegen aan een andere kalender‑instantie.
 
 **Q: Moet ik het project opnieuw laden na het bijwerken van weekdagen?**  
-A: Nee. Wijzigingen worden direct toegepast op het in‑memory `Project`‑object; sla het project gewoon op wanneer je klaar bent.
+A: Nee. Wijzigingen worden direct toegepast op het in‑memory `Project` object; sla het project gewoon op wanneer je klaar bent.
 
 **Q: Welke Aspose.Tasks‑versie is vereist voor weekdagmanipulatie?**  
-A: Alle recente versies (20.10 en later) ondersteunen volledige weekdag‑API’s. We raden aan de nieuwste stabiele release te gebruiken voor optimale prestaties.
+A: Alle recente versies (20.10 en later) ondersteunen volledige weekdag‑API's. We raden aan de nieuwste stabiele release te gebruiken voor optimale prestaties.
 
----
-
-**Last updated:** 2026-08-08  
-**Tested with:** Aspose.Tasks for Java 24.12  
+**Last Updated:** 2026-11-19  
+**Tested With:** Aspose.Tasks for Java 24.12  
 **Author:** Aspose
 
 ## Gerelateerde tutorials
 
-- [Kalender toevoegen aan project met Aspose.Tasks for Java](/tasks/java/calendars/create/)
-- [Bepaal werkdagen & werktijden met Aspose.Tasks](/tasks/java/calendars/working-hours/)
-- [Aangepaste kalenderuitzonderingen maken met Aspose.Tasks for Java](/tasks/java/calendar-exceptions/)
-
+- [Add calendar to project with Aspose.Tasks for Java](/tasks/java/calendars/create/)
+- [Determine Working Days & Working Hours with Aspose.Tasks](/tasks/java/calendars/working-hours/)
+- [Create Custom Calendar Exceptions with Aspose.Tasks for Java](/tasks/java/calendar-exceptions/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
